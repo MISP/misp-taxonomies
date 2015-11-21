@@ -39,11 +39,11 @@ the credibility of an information.
 
 # Machine-parsable Admiralty Scale
 
-The repository contains a JSON file including the machine-parsable tags
+The repository contains a [JSON file including the machine-parsable tags](machinetag.json)
 along with their human-readable description. The software can use both
 representation on the user-interface and store the tag as machine-parsable.
 
 ~~~~
-admiralty-scale:source-reliability:b
+admiralty-scale:source-reliability="b"
 ~~~~
 
