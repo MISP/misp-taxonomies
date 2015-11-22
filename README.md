@@ -8,6 +8,10 @@ The following taxonomies can be used in MISP (as local or distributed tags) or i
 
 The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.
 
+## CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
+
+CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place.
+
 ## [TLP - Traffic Light Protocol](./tlp)
 
 The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.
