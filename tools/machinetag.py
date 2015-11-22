@@ -30,9 +30,9 @@ import json
 import os.path
 import argparse
 
-taxonomies = ['admiralty-scale']
+taxonomies = ['admiralty-scale','tlp']
 
-argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomiesi')
+argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies')
 argParser.add_argument('-e', action='store_true', help='Including expanded tags')
 args = argParser.parse_args()
 
@@ -52,10 +52,15 @@ for taxonomy in taxonomies:
         t = json.load(fp)
     namespace = t['namespace']
     for predicate in t['predicates']:
-        for e in t['values']:
-            if e['predicate'] == predicate['value']:
-                expanded = predicate['expanded']
-                for v in e['entry']:
-                    print (machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
-                    if args.e:
-                        print ("--> " + machineTag(namespace=namespace, predicate=expanded, value=v['expanded']))
+        if t['values'] is None:
+            print (machineTag(namespace=namespace, predicate=predicate['value']))
+            if args.e:
+                 print ("--> " + machineTag(namespace=namespace, predicate=predicate['expanded']))
+        else:
+            for e in t['values']:
+                if e['predicate'] == predicate['value']:
+                    expanded = predicate['expanded']
+                    for v in e['entry']:
+                        print (machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
+                        if args.e:
+                            print ("--> " + machineTag(namespace=namespace, predicate=expanded, value=v['expanded']))
