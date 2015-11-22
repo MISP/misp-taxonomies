@@ -8,6 +8,10 @@ The following taxonomies can be used in MISP (as local or distributed tags) or i
 
 The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.
 
+## [TLP - Traffic Light Protocol](./tlp)
+
+The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.
+
 # MISP Taxonomies - tools
 
 [machinetag.py](./tools/machinetag.py) is a parsing tool to dump taxonomies expressed in Machine Tags (Triple Tags) and list all valid tags from a specific taxonomy.
