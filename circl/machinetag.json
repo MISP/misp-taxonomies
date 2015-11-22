@@ -1,0 +1,107 @@
+{
+  "namespace": "circl",
+  "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "incident-classification",
+      "expanded": "Incident Classification"
+    },
+    {
+      "value": "topic",
+      "expanded": "Topic"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "incident-classification",
+      "entry": [
+        {
+          "value": "spam",
+          "expanded": "Spam"
+        },
+        {
+          "value": "system-compromise",
+          "expanded": "System compromise"
+        },
+        {
+          "value": "scan",
+          "expanded": "Scan"
+        },
+        {
+          "value": "denial-of-service",
+          "expanded": "Denial of Service"
+        },
+        {
+          "value": "copyright-issue",
+          "expanded": "Copyright issue"
+        },
+        {
+          "value": "phishing",
+          "expanded": "Phishing"
+        },
+        {
+          "value": "malware",
+          "expanded": "Malware"
+        },
+        {
+          "value": "XSS",
+          "expanded": "XSS"
+        },
+        {
+          "value": "vulnerability",
+          "expanded": "Vulnerability"
+        },
+        {
+          "value": "fastflux",
+          "expanded": "Fastflux"
+        },
+        {
+          "value": "sql-injection",
+          "expanded": "SQL Injection"
+        },
+        {
+          "value": "information-leak",
+          "expanded": "Information leak"
+        },
+        {
+          "value": "scam",
+          "expanded": "Scam"
+        }
+      ]
+    },
+    {
+      "predicate": "topic",
+      "entry": [
+        {
+          "value": "finance",
+          "expanded": "Finance"
+        },
+        {
+          "value": "ict",
+          "expanded": "ICT"
+        },
+        {
+          "value": "individual",
+          "expanded": "Individual"
+        },
+        {
+          "value": "industry",
+          "expanded": "Industry"
+        },
+        {
+          "value": "medical",
+          "expanded": "Medical"
+        },
+        {
+          "value": "services",
+          "expanded": "Services"
+        },
+        {
+          "value": "undefined",
+          "expanded": "Undefined"
+        }
+      ]
+    }
+  ]
+}
