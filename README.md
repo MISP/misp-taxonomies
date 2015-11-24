@@ -4,19 +4,26 @@ Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) (2.4) and ot
 
 The following taxonomies can be used in MISP (as local or distributed tags) or in other tools willing to share common taxonomies among security information sharing tools.
 
-## [Admiralty Scale](./admiralty-scale)
+The following taxonomies are described:
+
+- [Admiralty Scale](./admiralty-scale)
+- CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
+- [TLP - Traffic Light Protocol](./tlp)
+- Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
+
+### [Admiralty Scale](./admiralty-scale)
 
 The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.
 
-## CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
+### CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 
 CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place.
 
-## [TLP - Traffic Light Protocol](./tlp)
+### [TLP - Traffic Light Protocol](./tlp)
 
 The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.
 
-## Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
+### Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
 Vocabulary for Event Recording and Incident Sharing is a format created by the [VERIS community](http://veriscommunity.net/).
 
