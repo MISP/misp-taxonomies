@@ -8,6 +8,7 @@ description = 'Vocabulary for Event Recording and Incident Sharing (VERIS)'
 output = {}
 output['namespace'] = namespace
 output['description'] = description
+output['version'] = 2
 output['predicates'] = []
 output['values'] = []
 

@@ -1,6 +1,7 @@
 {
   "description": "Vocabulary for Event Recording and Incident Sharing (VERIS)",
   "namespace": "veris",
+  "version": 2,
   "values": [
     {
       "predicate": "iso_currency_code",
