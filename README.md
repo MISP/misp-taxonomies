@@ -16,7 +16,7 @@ CIRCL Taxonomy is a simple scheme for incident classification and area topic whe
 
 The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.
 
-## Vocabulary for Event Recording and Incident Sharing [VERIS](./veris))
+## Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
 Vocabulary for Event Recording and Incident Sharing is a format created by the [VERIS community](http://veriscommunity.net/).
 
