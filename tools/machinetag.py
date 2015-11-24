@@ -30,7 +30,7 @@ import json
 import os.path
 import argparse
 
-taxonomies = ['admiralty-scale','tlp', 'circl']
+taxonomies = ['admiralty-scale','tlp', 'circl', 'veris']
 
 argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies')
 argParser.add_argument('-e', action='store_true', help='Including expanded tags')
@@ -59,7 +59,8 @@ for taxonomy in taxonomies:
         else:
             for e in t['values']:
                 if e['predicate'] == predicate['value']:
-                    expanded = predicate['expanded']
+                    if 'expanded' in predicate:
+                        expanded = predicate['expanded']
                     for v in e['entry']:
                         print (machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
                         if args.e:
