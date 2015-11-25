@@ -8,6 +8,7 @@ The following taxonomies are described:
 
 - [Admiralty Scale](./admiralty-scale)
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
+- [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [TLP - Traffic Light Protocol](./tlp)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
@@ -18,6 +19,10 @@ The Admiralty Scale (also called the NATO System) is used to rank the reliabilit
 ### CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 
 CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place.
+
+### [eCSIRT](./ecsirt) and IntelMQ incident classification
+
+eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates.
 
 ### [TLP - Traffic Light Protocol](./tlp)
 
