@@ -1,0 +1,192 @@
+{
+  "values": [
+    {
+      "entry": [
+        {
+          "expanded": "phishing",
+          "value": "phishing"
+        }
+      ],
+      "predicate": "fraud"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "ddos",
+          "value": "ddos"
+        }
+      ],
+      "predicate": "availability"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "spam",
+          "value": "spam"
+        }
+      ],
+      "predicate": "abusive-content"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "scanner",
+          "value": "scanner"
+        }
+      ],
+      "predicate": "information-gathering"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "dropzone",
+          "value": "dropzone"
+        }
+      ],
+      "predicate": "information-content-security"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "malware",
+          "value": "malware"
+        },
+        {
+          "expanded": "botnet drone",
+          "value": "botnet-drone"
+        },
+        {
+          "expanded": "ransomware",
+          "value": "ransomware"
+        },
+        {
+          "expanded": "malware configuration",
+          "value": "malware-configuration"
+        },
+        {
+          "expanded": "c&c",
+          "value": "c&c"
+        }
+      ],
+      "predicate": "malicious-code"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "exploit",
+          "value": "exploit"
+        },
+        {
+          "expanded": "brute-force",
+          "value": "brute-force"
+        },
+        {
+          "expanded": "ids alerts",
+          "value": "ids-alert"
+        }
+      ],
+      "predicate": "intrusion-attempts"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "defacement",
+          "value": "defacement"
+        },
+        {
+          "expanded": "compromised",
+          "value": "compromised"
+        },
+        {
+          "expanded": "backdoor",
+          "value": "backdoor"
+        }
+      ],
+      "predicate": "intrusions"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "Vulnerable service",
+          "value": "vulnerable-service"
+        }
+      ],
+      "predicate": "vulnerable"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "blacklist",
+          "value": "blacklist"
+        },
+        {
+          "expanded": "unknown",
+          "value": "unknown"
+        }
+      ],
+      "predicate": "other"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "Test",
+          "value": "test"
+        }
+      ],
+      "predicate": "test"
+    }
+  ],
+  "predicates": [
+    {
+      "expanded": "Abusive Content",
+      "value": "abusive-content"
+    },
+    {
+      "expanded": "Malicious Code",
+      "value": "malicious-code"
+    },
+    {
+      "expanded": "Information Gathering",
+      "value": "information-gathering"
+    },
+    {
+      "expanded": "Intrusion Attempts",
+      "value": "intrusion-attempts"
+    },
+    {
+      "expanded": "Intrusions",
+      "value": "intrusions"
+    },
+    {
+      "expanded": "Availability",
+      "value": "availability"
+    },
+    {
+      "expanded": "Information Security",
+      "value": "information-security"
+    },
+    {
+      "expanded": "Information Content Security",
+      "value": "information-content-security"
+    },
+    {
+      "expanded": "Vulnerable",
+      "value": "vulnerable"
+    },
+    {
+      "expanded": "Fraud",
+      "value": "fraud"
+    },
+    {
+      "expanded": "Other",
+      "value": "other"
+    },
+    {
+      "expanded": "Test",
+      "value": "test"
+    }
+  ],
+  "version": 1,
+  "description": "Incident Classification by the ecsirt.net project WP4 clearinghouse policy and updated by IntelMQ.",
+  "namespace": "ecsirt"
+}
