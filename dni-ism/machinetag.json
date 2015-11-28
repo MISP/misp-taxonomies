@@ -49,6 +49,67 @@
     {
       "entry": [
         {
+          "expanded": "ENDSEAL",
+          "value": "EL"
+        },
+        {
+          "expanded": "ECRU",
+          "value": "EL-EU"
+        },
+        {
+          "expanded": "NONBOOK",
+          "value": "EL-NK"
+        },
+        {
+          "expanded": "HCS",
+          "value": "HCS"
+        },
+        {
+          "expanded": "HCS-O",
+          "value": "HCS-O"
+        },
+        {
+          "expanded": "HCS-P",
+          "value": "HCS-P"
+        },
+        {
+          "expanded": "KLONDIKE",
+          "value": "KDK"
+        },
+        {
+          "expanded": "KDK BLUEFISH",
+          "value": "KDK-BLFH"
+        },
+        {
+          "expanded": "KDK IDITAROD",
+          "value": "KDK-IDIT"
+        },
+        {
+          "expanded": "KDK KANDIK",
+          "value": "KDK-KAND"
+        },
+        {
+          "expanded": "RESERVE",
+          "value": "RSV"
+        },
+        {
+          "expanded": "SPECIAL INTELLIGENCE",
+          "value": "SI"
+        },
+        {
+          "expanded": "SI-GAMMA",
+          "value": "SI-G"
+        },
+        {
+          "expanded": "TALENT KEYHOLE",
+          "value": "TK"
+        }
+      ],
+      "predicate": "scicontrols"
+    },
+    {
+      "entry": [
+        {
           "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Federal Government. This is the minimum set of rules for US documents to adhere to, and all US documents should claim compliance with USGov.",
           "value": "USGov"
         },
@@ -66,6 +127,149 @@
         }
       ],
       "predicate": "complies:with"
+    },
+    {
+      "predicate": "notice",
+      "entry": [
+        {
+          "value": "FISA",
+          "expanded": "FISA Warning statement"
+        },
+        {
+          "value": "IMC",
+          "expanded": "IMCON Warning statement"
+        },
+        {
+          "value": "CNWDI",
+          "expanded": "Controled Nuclear Weapon Design Information Warning statement"
+        },
+        {
+          "value": "RD",
+          "expanded": "RD Warning statement"
+        },
+        {
+          "value": "FRD",
+          "expanded": "FRD Warning statement"
+        },
+        {
+          "value": "DS",
+          "expanded": "LIMDIS caveat"
+        },
+        {
+          "value": "LES",
+          "expanded": "LES Notice"
+        },
+        {
+          "value": "LES-NF",
+          "expanded": "LES-NF Notice"
+        },
+        {
+          "value": "DSEN",
+          "expanded": "DSEN Notice"
+        },
+        {
+          "value": "DoD-Dist-A",
+          "expanded": "DoD Distribution statement A from DoD Directive 5230.24"
+        },
+        {
+          "value": "DoD-Dist-B",
+          "expanded": "DoD Distribution statement B from DoD Directive 5230.24"
+        },
+        {
+          "value": "DoD-Dist-C",
+          "expanded": "DoD Distribution statement C from DoD Directive 5230.24"
+        },
+        {
+          "value": "DoD-Dist-D",
+          "expanded": "DoD Distribution statement D from DoD Directive 5230.24"
+        },
+        {
+          "value": "DoD-Dist-E",
+          "expanded": "DoD Distribution statement E from DoD Directive 5230.24"
+        },
+        {
+          "value": "DoD-Dist-F",
+          "expanded": "DoD Distribution statement F from DoD Directive 5230.24"
+        },
+        {
+          "value": "DoD-Dist-X",
+          "expanded": "DoD Distribution statement X from DoD Directive 5230.24"
+        },
+        {
+          "value": "US-Person",
+          "expanded": "US Person info Notice"
+        },
+        {
+          "value": "pre13526ORCON",
+          "expanded": "Indicates that an instance document must abide by rules pertaining to ORIGINATOR CONTROLLED data issued prior to Executive Order 13526."
+        },
+        {
+          "value": "POC",
+          "expanded": "Indicates that the contents of this notice specify the contact information for a required point-of-contact."
+        },
+        {
+          "value": "COMSEC",
+          "expanded": "COMSEC Notice"
+        }
+      ]
+    },
+    {
+      "predicate": "nonic",
+      "entry": [
+        {
+          "value": "NNPI",
+          "expanded": "NAVAL NUCLEAR PROPULSION INFORMATION"
+        },
+        {
+          "value": "DS",
+          "expanded": "LIMITED DISTRIBUTION"
+        },
+        {
+          "value": "XD",
+          "expanded": "EXCLUSIVE DISTRIBUTION"
+        },
+        {
+          "value": "ND",
+          "expanded": "NO DISTRIBUTION"
+        },
+        {
+          "value": "SBU",
+          "expanded": "SENSITIVE BUT UNCLASSIFIED"
+        },
+        {
+          "value": "SBU-NF",
+          "expanded": "SENSITIVE BUT UNCLASSIFIED NOFORN"
+        },
+        {
+          "value": "LES",
+          "expanded": "LAW ENFORCEMENT SENSITIVE"
+        },
+        {
+          "value": "LES-NF",
+          "expanded": "LAW ENFORCEMENT SENSITIVE NOFORN"
+        },
+        {
+          "value": "SSI",
+          "expanded": "SENSITIVE SECURITY INFORMATION"
+        }
+      ]
+    },
+    {
+      "entry": [
+        {
+          "expanded": "NATO Atomal mark",
+          "value": "ATOMAL"
+        },
+        {
+          "expanded": "NATO Bohemia mark",
+          "value": "BOHEMIA"
+        },
+        {
+          "expanded": "NATO Balk mark",
+          "value": "BALK"
+        }
+      ],
+      "predicate": "nonuscontrols"
     },
     {
       "entry": [
@@ -137,9 +341,25 @@
     {
       "expanded": "Dissem",
       "value": "dissem"
+    },
+    {
+      "expanded": "NonIC",
+      "value": "nonic"
+    },
+    {
+      "expanded": "NonUSControls",
+      "value": "nonuscontrols"
+    },
+    {
+      "expanded": "Notice",
+      "value": "notice"
+    },
+    {
+      "expanded": "SCIControls",
+      "value": "scicontrols"
     }
   ],
-  "version": 1,
+  "version": 2,
   "description": "A subset of Information Security Marking Metadata ISM as required by Executive Order (EO) 13526. As described by DNI.gov as Data Encoding Specifications for Information Security Marking Metadata in Controlled Vocabulary Enumeration Values for ISM",
   "namespace": "dni-ism"
 }
