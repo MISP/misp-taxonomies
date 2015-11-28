@@ -1,365 +1,398 @@
 {
+  "namespace": "dni-ism",
+  "description": "A subset of Information Security Marking Metadata ISM as required by Executive Order (EO) 13526. As described by DNI.gov as Data Encoding Specifications for Information Security Marking Metadata in Controlled Vocabulary Enumeration Values for ISM",
+  "version": 3,
+  "predicates": [
+    {
+      "value": "classification:all",
+      "expanded": "ClassificationAll"
+    },
+    {
+      "value": "classification:us",
+      "expanded": "ClassificationUS"
+    },
+    {
+      "value": "complies:with",
+      "expanded": "CompliesWith"
+    },
+    {
+      "value": "dissem",
+      "expanded": "Dissem"
+    },
+    {
+      "value": "nonic",
+      "expanded": "NonIC"
+    },
+    {
+      "value": "nonuscontrols",
+      "expanded": "NonUSControls"
+    },
+    {
+      "value": "notice",
+      "expanded": "Notice"
+    },
+    {
+      "value": "scicontrols",
+      "expanded": "SCIControls"
+    },
+    {
+      "value": "atomicenergymarkings",
+      "expanded": "atomicEnergyMarkings"
+    }
+  ],
   "values": [
     {
+      "predicate": "classification:all",
       "entry": [
         {
-          "expanded": "RESTRICTED",
-          "value": "R"
+          "value": "R",
+          "expanded": "RESTRICTED"
         },
         {
-          "expanded": "CONFIDENTIAL",
-          "value": "C"
+          "value": "C",
+          "expanded": "CONFIDENTIAL"
         },
         {
-          "expanded": "SECRET",
-          "value": "S"
+          "value": "S",
+          "expanded": "SECRET"
         },
         {
-          "expanded": "TOP SECRET",
-          "value": "TS"
+          "value": "TS",
+          "expanded": "TOP SECRET"
         },
         {
-          "expanded": "UNCLASSIFIED",
-          "value": "U"
-        }
-      ],
-      "predicate": "classification:all"
-    },
-    {
-      "entry": [
-        {
-          "expanded": "CONFIDENTIAL",
-          "value": "C"
-        },
-        {
-          "expanded": "SECRET",
-          "value": "S"
-        },
-        {
-          "expanded": "TOP SECRET",
-          "value": "TS"
-        },
-        {
-          "expanded": "UNCLASSIFIED",
-          "value": "U"
-        }
-      ],
-      "predicate": "classification:us"
-    },
-    {
-      "entry": [
-        {
-          "expanded": "ENDSEAL",
-          "value": "EL"
-        },
-        {
-          "expanded": "ECRU",
-          "value": "EL-EU"
-        },
-        {
-          "expanded": "NONBOOK",
-          "value": "EL-NK"
-        },
-        {
-          "expanded": "HCS",
-          "value": "HCS"
-        },
-        {
-          "expanded": "HCS-O",
-          "value": "HCS-O"
-        },
-        {
-          "expanded": "HCS-P",
-          "value": "HCS-P"
-        },
-        {
-          "expanded": "KLONDIKE",
-          "value": "KDK"
-        },
-        {
-          "expanded": "KDK BLUEFISH",
-          "value": "KDK-BLFH"
-        },
-        {
-          "expanded": "KDK IDITAROD",
-          "value": "KDK-IDIT"
-        },
-        {
-          "expanded": "KDK KANDIK",
-          "value": "KDK-KAND"
-        },
-        {
-          "expanded": "RESERVE",
-          "value": "RSV"
-        },
-        {
-          "expanded": "SPECIAL INTELLIGENCE",
-          "value": "SI"
-        },
-        {
-          "expanded": "SI-GAMMA",
-          "value": "SI-G"
-        },
-        {
-          "expanded": "TALENT KEYHOLE",
-          "value": "TK"
-        }
-      ],
-      "predicate": "scicontrols"
-    },
-    {
-      "entry": [
-        {
-          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Federal Government. This is the minimum set of rules for US documents to adhere to, and all US documents should claim compliance with USGov.",
-          "value": "USGov"
-        },
-        {
-          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Intelligence Community. Documents that claim compliance with USIC MUST also claim compliance with USGov.",
-          "value": "USIC"
-        },
-        {
-          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Department of Defense. Documents that claim compliance with USDOD MUST also claim compliance with USGov.",
-          "value": "USDOD"
-        },
-        {
-          "expanded": "Document claims compliance with an authority other than the USGov, USIC, or USDOD.",
-          "value": "OtherAuthority"
-        }
-      ],
-      "predicate": "complies:with"
-    },
-    {
-      "predicate": "notice",
-      "entry": [
-        {
-          "value": "FISA",
-          "expanded": "FISA Warning statement"
-        },
-        {
-          "value": "IMC",
-          "expanded": "IMCON Warning statement"
-        },
-        {
-          "value": "CNWDI",
-          "expanded": "Controled Nuclear Weapon Design Information Warning statement"
-        },
-        {
-          "value": "RD",
-          "expanded": "RD Warning statement"
-        },
-        {
-          "value": "FRD",
-          "expanded": "FRD Warning statement"
-        },
-        {
-          "value": "DS",
-          "expanded": "LIMDIS caveat"
-        },
-        {
-          "value": "LES",
-          "expanded": "LES Notice"
-        },
-        {
-          "value": "LES-NF",
-          "expanded": "LES-NF Notice"
-        },
-        {
-          "value": "DSEN",
-          "expanded": "DSEN Notice"
-        },
-        {
-          "value": "DoD-Dist-A",
-          "expanded": "DoD Distribution statement A from DoD Directive 5230.24"
-        },
-        {
-          "value": "DoD-Dist-B",
-          "expanded": "DoD Distribution statement B from DoD Directive 5230.24"
-        },
-        {
-          "value": "DoD-Dist-C",
-          "expanded": "DoD Distribution statement C from DoD Directive 5230.24"
-        },
-        {
-          "value": "DoD-Dist-D",
-          "expanded": "DoD Distribution statement D from DoD Directive 5230.24"
-        },
-        {
-          "value": "DoD-Dist-E",
-          "expanded": "DoD Distribution statement E from DoD Directive 5230.24"
-        },
-        {
-          "value": "DoD-Dist-F",
-          "expanded": "DoD Distribution statement F from DoD Directive 5230.24"
-        },
-        {
-          "value": "DoD-Dist-X",
-          "expanded": "DoD Distribution statement X from DoD Directive 5230.24"
-        },
-        {
-          "value": "US-Person",
-          "expanded": "US Person info Notice"
-        },
-        {
-          "value": "pre13526ORCON",
-          "expanded": "Indicates that an instance document must abide by rules pertaining to ORIGINATOR CONTROLLED data issued prior to Executive Order 13526."
-        },
-        {
-          "value": "POC",
-          "expanded": "Indicates that the contents of this notice specify the contact information for a required point-of-contact."
-        },
-        {
-          "value": "COMSEC",
-          "expanded": "COMSEC Notice"
+          "value": "U",
+          "expanded": "UNCLASSIFIED"
         }
       ]
     },
     {
-      "predicate": "nonic",
+      "predicate": "classification:us",
       "entry": [
         {
-          "value": "NNPI",
-          "expanded": "NAVAL NUCLEAR PROPULSION INFORMATION"
+          "value": "C",
+          "expanded": "CONFIDENTIAL"
         },
         {
-          "value": "DS",
-          "expanded": "LIMITED DISTRIBUTION"
+          "value": "S",
+          "expanded": "SECRET"
         },
         {
-          "value": "XD",
-          "expanded": "EXCLUSIVE DISTRIBUTION"
+          "value": "TS",
+          "expanded": "TOP SECRET"
         },
         {
-          "value": "ND",
-          "expanded": "NO DISTRIBUTION"
+          "value": "U",
+          "expanded": "UNCLASSIFIED"
+        }
+      ]
+    },
+    {
+      "predicate": "scicontrols",
+      "entry": [
+        {
+          "value": "EL",
+          "expanded": "ENDSEAL"
         },
         {
-          "value": "SBU",
-          "expanded": "SENSITIVE BUT UNCLASSIFIED"
+          "value": "EL-EU",
+          "expanded": "ECRU"
         },
         {
-          "value": "SBU-NF",
-          "expanded": "SENSITIVE BUT UNCLASSIFIED NOFORN"
+          "value": "EL-NK",
+          "expanded": "NONBOOK"
         },
         {
-          "value": "LES",
-          "expanded": "LAW ENFORCEMENT SENSITIVE"
+          "value": "HCS",
+          "expanded": "HCS"
         },
         {
-          "value": "LES-NF",
-          "expanded": "LAW ENFORCEMENT SENSITIVE NOFORN"
+          "value": "HCS-O",
+          "expanded": "HCS-O"
         },
         {
-          "value": "SSI",
-          "expanded": "SENSITIVE SECURITY INFORMATION"
+          "value": "HCS-P",
+          "expanded": "HCS-P"
+        },
+        {
+          "value": "KDK",
+          "expanded": "KLONDIKE"
+        },
+        {
+          "value": "KDK-BLFH",
+          "expanded": "KDK BLUEFISH"
+        },
+        {
+          "value": "KDK-IDIT",
+          "expanded": "KDK IDITAROD"
+        },
+        {
+          "value": "KDK-KAND",
+          "expanded": "KDK KANDIK"
+        },
+        {
+          "value": "RSV",
+          "expanded": "RESERVE"
+        },
+        {
+          "value": "SI",
+          "expanded": "SPECIAL INTELLIGENCE"
+        },
+        {
+          "value": "SI-G",
+          "expanded": "SI-GAMMA"
+        },
+        {
+          "value": "TK",
+          "expanded": "TALENT KEYHOLE"
+        }
+      ]
+    },
+    {
+      "predicate": "complies:with",
+      "entry": [
+        {
+          "value": "USGov",
+          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Federal Government. This is the minimum set of rules for US documents to adhere to, and all US documents should claim compliance with USGov."
+        },
+        {
+          "value": "USIC",
+          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Intelligence Community. Documents that claim compliance with USIC MUST also claim compliance with USGov."
+        },
+        {
+          "value": "USDOD",
+          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Department of Defense. Documents that claim compliance with USDOD MUST also claim compliance with USGov."
+        },
+        {
+          "value": "OtherAuthority",
+          "expanded": "Document claims compliance with an authority other than the USGov, USIC, or USDOD."
         }
       ]
     },
     {
       "entry": [
         {
-          "expanded": "NATO Atomal mark",
-          "value": "ATOMAL"
+          "expanded": "RESTRICTED DATA",
+          "value": "RD"
         },
         {
-          "expanded": "NATO Bohemia mark",
-          "value": "BOHEMIA"
+          "expanded": "RD-CRITICAL NUCLEAR WEAPON DESIGN INFORMATION",
+          "value": "RD-CNWDI"
         },
         {
-          "expanded": "NATO Balk mark",
-          "value": "BALK"
+          "expanded": "FORMERLY RESTRICTED DATA",
+          "value": "FRD"
+        },
+        {
+          "expanded": "DoD CONTROLLED NUCLEAR INFORMATION",
+          "value": "DCNI"
+        },
+        {
+          "expanded": "DoE CONTROLLED NUCLEAR INFORMATION",
+          "value": "UCNI"
+        },
+        {
+          "expanded": "TRANSCLASSIFIED FOREIGN NUCLEAR INFORMATION",
+          "value": "TFNI"
         }
       ],
-      "predicate": "nonuscontrols"
+      "predicate": "atomicenergymarkings"
     },
     {
       "entry": [
         {
-          "expanded": "RISK SENSITIVE",
-          "value": "RS"
-        },
-        {
-          "expanded": "FOR OFFICIAL USE ONLY",
-          "value": "FOUO"
-        },
-        {
-          "expanded": "ORIGINATOR CONTROLLED",
-          "value": "OC"
-        },
-        {
-          "expanded": "ORIGINATOR CONTROLLED US GOVERNMENT",
-          "value": "OC-USGOV"
-        },
-        {
-          "expanded": "CONTROLLED IMAGERY",
-          "value": "IMC"
-        },
-        {
-          "expanded": "NOT RELEASABLE TO FOREIGN NATIONALS",
-          "value": "NF"
-        },
-        {
-          "expanded": "CAUTION-PROPRIETARY INFORMATION INVOLVED",
-          "value": "PR"
-        },
-        {
-          "expanded": "AUTHORIZED FOR RELEASE TO",
-          "value": "REL"
-        },
-        {
-          "expanded": "RELEASABLE BY INFORMATION DISCLOSURE OFFICIAL",
-          "value": "RELIDO"
-        },
-        {
-          "expanded": "DEA SENSITIVE",
-          "value": "DSEN"
-        },
-        {
-          "expanded": "FOREIGN INTELLIGENCE SURVEILLANCE ACT",
+          "expanded": "FISA Warning statement",
           "value": "FISA"
         },
         {
-          "expanded": "AUTHORIZED FOR DISPLAY BUT NOT RELEASE TO",
-          "value": "DISPLAYONLY"
+          "expanded": "IMCON Warning statement",
+          "value": "IMC"
+        },
+        {
+          "expanded": "Controled Nuclear Weapon Design Information Warning statement",
+          "value": "CNWDI"
+        },
+        {
+          "expanded": "RD Warning statement",
+          "value": "RD"
+        },
+        {
+          "expanded": "FRD Warning statement",
+          "value": "FRD"
+        },
+        {
+          "expanded": "LIMDIS caveat",
+          "value": "DS"
+        },
+        {
+          "expanded": "LES Notice",
+          "value": "LES"
+        },
+        {
+          "expanded": "LES-NF Notice",
+          "value": "LES-NF"
+        },
+        {
+          "expanded": "DSEN Notice",
+          "value": "DSEN"
+        },
+        {
+          "expanded": "DoD Distribution statement A from DoD Directive 5230.24",
+          "value": "DoD-Dist-A"
+        },
+        {
+          "expanded": "DoD Distribution statement B from DoD Directive 5230.24",
+          "value": "DoD-Dist-B"
+        },
+        {
+          "expanded": "DoD Distribution statement C from DoD Directive 5230.24",
+          "value": "DoD-Dist-C"
+        },
+        {
+          "expanded": "DoD Distribution statement D from DoD Directive 5230.24",
+          "value": "DoD-Dist-D"
+        },
+        {
+          "expanded": "DoD Distribution statement E from DoD Directive 5230.24",
+          "value": "DoD-Dist-E"
+        },
+        {
+          "expanded": "DoD Distribution statement F from DoD Directive 5230.24",
+          "value": "DoD-Dist-F"
+        },
+        {
+          "expanded": "DoD Distribution statement X from DoD Directive 5230.24",
+          "value": "DoD-Dist-X"
+        },
+        {
+          "expanded": "US Person info Notice",
+          "value": "US-Person"
+        },
+        {
+          "expanded": "Indicates that an instance document must abide by rules pertaining to ORIGINATOR CONTROLLED data issued prior to Executive Order 13526.",
+          "value": "pre13526ORCON"
+        },
+        {
+          "expanded": "Indicates that the contents of this notice specify the contact information for a required point-of-contact.",
+          "value": "POC"
+        },
+        {
+          "expanded": "COMSEC Notice",
+          "value": "COMSEC"
         }
       ],
-      "predicate": "dissem"
+      "predicate": "notice"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "NAVAL NUCLEAR PROPULSION INFORMATION",
+          "value": "NNPI"
+        },
+        {
+          "expanded": "LIMITED DISTRIBUTION",
+          "value": "DS"
+        },
+        {
+          "expanded": "EXCLUSIVE DISTRIBUTION",
+          "value": "XD"
+        },
+        {
+          "expanded": "NO DISTRIBUTION",
+          "value": "ND"
+        },
+        {
+          "expanded": "SENSITIVE BUT UNCLASSIFIED",
+          "value": "SBU"
+        },
+        {
+          "expanded": "SENSITIVE BUT UNCLASSIFIED NOFORN",
+          "value": "SBU-NF"
+        },
+        {
+          "expanded": "LAW ENFORCEMENT SENSITIVE",
+          "value": "LES"
+        },
+        {
+          "expanded": "LAW ENFORCEMENT SENSITIVE NOFORN",
+          "value": "LES-NF"
+        },
+        {
+          "expanded": "SENSITIVE SECURITY INFORMATION",
+          "value": "SSI"
+        }
+      ],
+      "predicate": "nonic"
+    },
+    {
+      "predicate": "nonuscontrols",
+      "entry": [
+        {
+          "value": "ATOMAL",
+          "expanded": "NATO Atomal mark"
+        },
+        {
+          "value": "BOHEMIA",
+          "expanded": "NATO Bohemia mark"
+        },
+        {
+          "value": "BALK",
+          "expanded": "NATO Balk mark"
+        }
+      ]
+    },
+    {
+      "predicate": "dissem",
+      "entry": [
+        {
+          "value": "RS",
+          "expanded": "RISK SENSITIVE"
+        },
+        {
+          "value": "FOUO",
+          "expanded": "FOR OFFICIAL USE ONLY"
+        },
+        {
+          "value": "OC",
+          "expanded": "ORIGINATOR CONTROLLED"
+        },
+        {
+          "value": "OC-USGOV",
+          "expanded": "ORIGINATOR CONTROLLED US GOVERNMENT"
+        },
+        {
+          "value": "IMC",
+          "expanded": "CONTROLLED IMAGERY"
+        },
+        {
+          "value": "NF",
+          "expanded": "NOT RELEASABLE TO FOREIGN NATIONALS"
+        },
+        {
+          "value": "PR",
+          "expanded": "CAUTION-PROPRIETARY INFORMATION INVOLVED"
+        },
+        {
+          "value": "REL",
+          "expanded": "AUTHORIZED FOR RELEASE TO"
+        },
+        {
+          "value": "RELIDO",
+          "expanded": "RELEASABLE BY INFORMATION DISCLOSURE OFFICIAL"
+        },
+        {
+          "value": "DSEN",
+          "expanded": "DEA SENSITIVE"
+        },
+        {
+          "value": "FISA",
+          "expanded": "FOREIGN INTELLIGENCE SURVEILLANCE ACT"
+        },
+        {
+          "value": "DISPLAYONLY",
+          "expanded": "AUTHORIZED FOR DISPLAY BUT NOT RELEASE TO"
+        }
+      ]
     }
-  ],
-  "predicates": [
-    {
-      "expanded": "ClassificationAll",
-      "value": "classification:all"
-    },
-    {
-      "expanded": "ClassificationUS",
-      "value": "classification:us"
-    },
-    {
-      "expanded": "CompliesWith",
-      "value": "complies:with"
-    },
-    {
-      "expanded": "Dissem",
-      "value": "dissem"
-    },
-    {
-      "expanded": "NonIC",
-      "value": "nonic"
-    },
-    {
-      "expanded": "NonUSControls",
-      "value": "nonuscontrols"
-    },
-    {
-      "expanded": "Notice",
-      "value": "notice"
-    },
-    {
-      "expanded": "SCIControls",
-      "value": "scicontrols"
-    }
-  ],
-  "version": 2,
-  "description": "A subset of Information Security Marking Metadata ISM as required by Executive Order (EO) 13526. As described by DNI.gov as Data Encoding Specifications for Information Security Marking Metadata in Controlled Vocabulary Enumeration Values for ISM",
-  "namespace": "dni-ism"
+  ]
 }
