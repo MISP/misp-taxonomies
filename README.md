@@ -9,6 +9,7 @@ The following taxonomies are described:
 - [Admiralty Scale](./admiralty-scale)
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
+- [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
 - [TLP - Traffic Light Protocol](./tlp)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
@@ -23,6 +24,10 @@ CIRCL Taxonomy is a simple scheme for incident classification and area topic whe
 ### [eCSIRT](./ecsirt) and IntelMQ incident classification
 
 eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates.
+
+### [Information Security Marking Metadata](./dni-ism) DNI (Director of National Intelligence - US)
+
+ISM (Information Security Marking Metadata) [V13](http://www.dni.gov/index.php/about/organization/chief-information-officer/information-security-marking-metadata) as described by DNI.gov.
 
 ### [TLP - Traffic Light Protocol](./tlp)
 
