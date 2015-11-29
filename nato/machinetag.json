@@ -1,0 +1,54 @@
+{
+  "values": [
+    {
+      "entry": [
+        {
+          "expanded": "COSMIC TOP SECRET",
+          "value": "CTS"
+        },
+        {
+          "expanded": "COSMIC TOP SECRET BOHEMIA",
+          "value": "CTS-B"
+        },
+        {
+          "expanded": "NATO SECRET",
+          "value": "NS"
+        },
+        {
+          "expanded": "NATO CONFIDENTIAL",
+          "value": "NC"
+        },
+        {
+          "expanded": "NATO RESTRICTED",
+          "value": "NR"
+        },
+        {
+          "expanded": "NATO UNCLASSIFIED",
+          "value": "NU"
+        },
+        {
+          "expanded": "COSMIC TOP SECRET ATOMAL",
+          "value": "CTS-A"
+        },
+        {
+          "expanded": "SECRET ATOMAL",
+          "value": "NS-A"
+        },
+        {
+          "expanded": "CONFIDENTIAL ATOMAL",
+          "value": "NC-A"
+        }
+      ],
+      "predicate": "classification"
+    }
+  ],
+  "predicates": [
+    {
+      "expanded": "Classification",
+      "value": "classification"
+    }
+  ],
+  "version": 1,
+  "description": "NATO classification markings.",
+  "namespace": "nato"
+}
