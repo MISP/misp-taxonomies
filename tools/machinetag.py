@@ -42,9 +42,11 @@ doc = ''
 if args.a:
     doc = doc + ":toc: right\n"
     doc = doc + ":icons: font\n"
+    doc = doc + ":images-cdn: https://raw.githubusercontent.com/MISP/MISP/master/INSTALL/logos/\n"
     doc = doc + "= MISP taxonomies and classification as machine tags\n\n"
     doc = doc + "Generated from https://github.com/MISP/misp-taxonomies.\n\n"
-    doc = doc + "Taxonomies that can be used in MISP (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format."
+    doc = doc + "\nimage::{images-cdn}misp-logo.png[MISP logo]\n"
+    doc = doc + "Taxonomies that can be used in MISP (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.\n"
     doc = doc + "\n\n"
 
 def asciidoc(content=False, adoc=doc, t='title'):
