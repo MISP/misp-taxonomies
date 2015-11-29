@@ -33,7 +33,8 @@ import argparse
 taxonomies = ['admiralty-scale','tlp', 'circl', 'veris', 'ecsirt', 'dni-ism', 'nato']
 
 argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies')
-argParser.add_argument('-e', action='store_true', help='Including expanded tags')
+argParser.add_argument('-e', action='store_true', help='Include expanded tags')
+argParser.add_argument('-v', action='store_true', help='Include descriptions')
 args = argParser.parse_args()
 
 
@@ -51,6 +52,8 @@ for taxonomy in taxonomies:
     with open(filename) as fp:
         t = json.load(fp)
     namespace = t['namespace']
+    if args.v:
+        print ('{0}'.format(t['description']))
     for predicate in t['predicates']:
         if t['values'] is None:
             print (machineTag(namespace=namespace, predicate=predicate['value']))
