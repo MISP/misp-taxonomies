@@ -34,9 +34,34 @@ taxonomies = ['admiralty-scale','tlp', 'circl', 'veris', 'ecsirt', 'dni-ism', 'n
 
 argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies')
 argParser.add_argument('-e', action='store_true', help='Include expanded tags')
+argParser.add_argument('-a', action='store_true', help='Generate asciidoctor document from MISP taxonomies')
 argParser.add_argument('-v', action='store_true', help='Include descriptions')
 args = argParser.parse_args()
 
+doc = ''
+if args.a:
+    doc = doc + ":toc: right\n"
+    doc = doc + ":icons: font\n"
+    doc = doc + "= MISP taxonomies and classification as machine tags\n\n"
+    doc = doc + "Generated from https://github.com/MISP/misp-taxonomies.\n\n"
+    doc = doc + "Taxonomies that can be used in MISP (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format."
+    doc = doc + "\n\n"
+
+def asciidoc(content=False, adoc=doc, t='title'):
+    if not args.a:
+        return False
+    adoc = adoc + "\n"
+    if t == 'title':
+        content = '==== ' + content
+    elif t == 'predicate':
+        content = '=== ' + content
+    elif t == 'namespace':
+        content = '== ' + content + '\n'
+        content = content + 'NOTE: ' + namespace + ' namespace available in JSON format at https://github.com/MISP/misp-taxonomies/blob/master/' + namespace + '/machinetag.json[*this location*]. The JSON format can be freely reused in your application or automatically enabled in https://www.github.com/MISP/MISP[MISP] taxonomy.'
+    elif t == 'description':
+        content = '\n'+content+'\n'
+    adoc = adoc + content
+    return adoc
 
 def machineTag(namespace=False, predicate=False, value=None):
 
@@ -52,11 +77,20 @@ for taxonomy in taxonomies:
     with open(filename) as fp:
         t = json.load(fp)
     namespace = t['namespace']
+    if args.a:
+       doc = asciidoc(content=t['namespace'], adoc=doc, t='namespace')
+       doc = asciidoc(content=t['description'], adoc=doc, t='description')
     if args.v:
         print ('{0}'.format(t['description']))
     for predicate in t['predicates']:
+        if args.a:
+            doc = asciidoc(content=predicate['value'], adoc=doc, t='predicate')
         if t['values'] is None:
-            print (machineTag(namespace=namespace, predicate=predicate['value']))
+            if args.a:
+                doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['value']), adoc=doc)
+                doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['expanded']), adoc=doc, t='description')
+            else:
+                print (machineTag(namespace=namespace, predicate=predicate['value']))
             if args.e:
                  print ("--> " + machineTag(namespace=namespace, predicate=predicate['expanded']))
         else:
@@ -65,6 +99,13 @@ for taxonomy in taxonomies:
                     if 'expanded' in predicate:
                         expanded = predicate['expanded']
                     for v in e['entry']:
-                        print (machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
+                        if args.a:
+                            doc = asciidoc(content=machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']), adoc=doc)
+                            doc = asciidoc(content=machineTag(namespace=namespace, predicate=v['expanded']), adoc=doc, t='description')
+                        else:
+                            print (machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
                         if args.e:
                             print ("--> " + machineTag(namespace=namespace, predicate=expanded, value=v['expanded']))
+
+if args.a:
+    print (doc)
