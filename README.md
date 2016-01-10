@@ -13,6 +13,7 @@ The following taxonomies are described:
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [EUCI](./euci) - EU classified information marking
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
+- [NATO Classification Marking](./nato)
 - [TLP - Traffic Light Protocol](./tlp)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
@@ -35,6 +36,10 @@ EU classified information (EUCI) means any information or material designated by
 ### [Information Security Marking Metadata](./dni-ism) DNI (Director of National Intelligence - US)
 
 ISM (Information Security Marking Metadata) [V13](http://www.dni.gov/index.php/about/organization/chief-information-officer/information-security-marking-metadata) as described by DNI.gov.
+
+### [NATO Classification Marking](./nato)
+
+Marking of Classified and Unclassified materials as described by the North Atlantic Treaty Organization, NATO.
 
 ### [TLP - Traffic Light Protocol](./tlp)
 
