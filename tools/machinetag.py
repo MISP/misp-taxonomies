@@ -79,6 +79,10 @@ for taxonomy in taxonomies:
     with open(filename) as fp:
         t = json.load(fp)
     namespace = t['namespace']
+    if t.get('expanded'):
+        expanded_namespace = t['expanded']
+    else:
+        expanded_namespace = namespace
     if args.a:
        doc = asciidoc(content=t['namespace'], adoc=doc, t='namespace')
        doc = asciidoc(content=t['description'], adoc=doc, t='description')
@@ -96,7 +100,7 @@ for taxonomy in taxonomies:
             else:
                 print (machineTag(namespace=namespace, predicate=predicate['value']))
             if args.e:
-                 print ("--> " + machineTag(namespace=namespace, predicate=predicate['expanded']))
+                 print ("--> " + machineTag(namespace=expanded_namespace, predicate=predicate['expanded']))
                  if predicate.get('description'):
                      print ("--> " + predicate['description'])
         else:
