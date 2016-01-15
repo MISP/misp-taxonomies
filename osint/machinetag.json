@@ -1,0 +1,61 @@
+{
+  "predicates": [
+    {
+      "expanded": "Source Type",
+      "value": "source-type"
+    },
+    {
+      "expanded": "Lifetime of the information as Open Source Intelligence",
+      "value": "lifetime"
+    }
+  ],
+  "version": 1,
+  "description": "Open Source Intelligence - Classification (MISP taxonomies)",
+  "namespace": "osint",
+  "values": [
+    {
+      "predicate": "source-type",
+      "entry": [
+        {
+          "value": "blog-post",
+          "expanded": "Blog post"
+        },
+        {
+          "value": "technical-report",
+          "expanded": "Technical or analysis report"
+        },
+        {
+          "value": "news-report",
+          "expanded": "News report"
+        },
+        {
+          "value": "pastie-website",
+          "expanded": "Pastie-like website"
+        },
+        {
+          "value": "electronic-forum",
+          "expanded": "Electronic forum"
+        },
+        {
+          "value": "mailing-list",
+          "expanded": "Mailing-list"
+        }
+      ]
+    },
+    {
+      "entry": [
+        {
+          "description": "Information available publicly on long-term",
+          "expanded": "Perpetual",
+          "value": "perpetual"
+        },
+        {
+          "description": "Information available publicly on short-term",
+          "expanded": "Ephemeral",
+          "value": "ephemeral"
+        }
+      ],
+      "predicate": "lifetime"
+    }
+  ]
+}
