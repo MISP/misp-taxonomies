@@ -1,61 +1,105 @@
 {
-  "predicates": [
-    {
-      "expanded": "Source Type",
-      "value": "source-type"
-    },
-    {
-      "expanded": "Lifetime of the information as Open Source Intelligence",
-      "value": "lifetime"
-    }
-  ],
-  "version": 1,
-  "description": "Open Source Intelligence - Classification (MISP taxonomies)",
-  "namespace": "osint",
   "values": [
     {
-      "predicate": "source-type",
       "entry": [
         {
-          "value": "blog-post",
-          "expanded": "Blog post"
+          "expanded": "Blog post",
+          "value": "blog-post"
         },
         {
-          "value": "technical-report",
-          "expanded": "Technical or analysis report"
+          "expanded": "Technical or analysis report",
+          "value": "technical-report"
         },
         {
-          "value": "news-report",
-          "expanded": "News report"
+          "expanded": "News report",
+          "value": "news-report"
         },
         {
-          "value": "pastie-website",
-          "expanded": "Pastie-like website"
+          "expanded": "Pastie-like website",
+          "value": "pastie-website"
         },
         {
-          "value": "electronic-forum",
-          "expanded": "Electronic forum"
+          "expanded": "Electronic forum",
+          "value": "electronic-forum"
         },
         {
-          "value": "mailing-list",
-          "expanded": "Mailing-list"
+          "expanded": "Mailing-list",
+          "value": "mailing-list"
+        }
+      ],
+      "predicate": "source-type"
+    },
+    {
+      "predicate": "lifetime",
+      "entry": [
+        {
+          "value": "perpetual",
+          "expanded": "Perpetual",
+          "description": "Information available publicly on long-term"
+        },
+        {
+          "value": "ephemeral",
+          "expanded": "Ephemeral",
+          "description": "Information available publicly on short-term"
         }
       ]
     },
     {
+      "predicate": "certainty",
       "entry": [
         {
-          "description": "Information available publicly on long-term",
-          "expanded": "Perpetual",
-          "value": "perpetual"
+          "value": "1",
+          "expanded": "100% Certainty",
+          "description": "100% Certainty"
         },
         {
-          "description": "Information available publicly on short-term",
-          "expanded": "Ephemeral",
-          "value": "ephemeral"
+          "value": "0.93",
+          "expanded": "93% Almost certain",
+          "description": "93% Almost certain"
+        },
+        {
+          "value": "0.75",
+          "expanded": "75% Probable",
+          "description": "75% Probable"
+        },
+        {
+          "value": "0.5",
+          "expanded": "50% Chances about even",
+          "description": "50% Chances about even"
+        },
+        {
+          "value": "0.3",
+          "expanded": "30% Probably not",
+          "description": "30% Probably not"
+        },
+        {
+          "value": "0.07",
+          "expanded": "7% Almost certainly not",
+          "description": "7% Almost certainly not"
+        },
+        {
+          "value": "0",
+          "expanded": "0% Impossibility",
+          "description": "0% Impossibility"
         }
-      ],
-      "predicate": "lifetime"
+      ]
+    }
+  ],
+  "namespace": "osint",
+  "description": "Open Source Intelligence - Classification (MISP taxonomies)",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "source-type",
+      "expanded": "Source Type"
+    },
+    {
+      "value": "lifetime",
+      "expanded": "Lifetime of the information as Open Source Intelligence"
+    },
+    {
+      "value": "certainty",
+      "expanded": "Certainty of the elements mentioned in this Open Source Intelligence - ref https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html"
     }
   ]
 }
