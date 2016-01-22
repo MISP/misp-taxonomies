@@ -14,6 +14,7 @@ The following taxonomies are described:
 - [EUCI](./euci) - EU classified information marking
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
 - [NATO Classification Marking](./nato)
+- [OSINT Open Source Intelligence - Classification](./osint)
 - [TLP - Traffic Light Protocol](./tlp)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
