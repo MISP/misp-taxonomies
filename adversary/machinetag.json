@@ -1,0 +1,59 @@
+{
+  "namespace": "adversary",
+  "description": "An overview and description of the adversary infrastructure",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "infrastructure-status",
+      "expanded": "Infrastructure Status"
+    },
+    {
+      "value": "infrastructure-type",
+      "expanded": "Infrastructure Type"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "infrastructure-status",
+      "entry": [
+        {
+          "value": "unknown",
+          "expanded": "Infrastructure ownership and status is unknown"
+        },
+        {
+          "value": "compromised",
+          "expanded": "Infrastructure compromised by or in the benefit of the adversary"
+        },
+        {
+          "value": "own-and-operated",
+          "expanded": "Infrastructure own and operated by the adversary"
+        }
+      ]
+    },
+    {
+      "predicate": "infrastructure-type",
+      "entry": [
+        {
+          "value": "unknown",
+          "expanded": "Infrastructure usage by the adversary is unknown"
+        },
+        {
+          "value": "proxy",
+          "expanded": "Infrastructure used as proxy between the target and the adversary"
+        },
+        {
+          "value": "drop-zone",
+          "expanded": "Infrastructure used by the adversary to store information related to its campaigns"
+        },
+        {
+          "value": "exploit-distribution-point",
+          "expanded": "Infrastructure used to distribute exploit towards target(s)"
+        },
+        {
+          "value": "vpn",
+          "expanded": "Infrastructure used by an adversary as Virtual Private Network to hide activities and reduce the traffic analysis surface"
+        }
+      ]
+    }
+  ]
+}
