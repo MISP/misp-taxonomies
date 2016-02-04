@@ -1,0 +1,105 @@
+{
+  "namespace": "csirt_case_classification",
+  "description": "It is critical that the CSIRT provide consistent and timely response to the customer, and that sensitive information is handled appropriately.  This document provides the guidelines needed for CSIRT Incident Managers (IM) to classify the case category, criticality level, and sensitivity level for each CSIRT case.  This information will be entered into the Incident Tracking System (ITS) when a case is created.  Consistent case classification is required for the CSIRT to provide accurate reporting to management on a regular basis.  In addition, the classifications will provide CSIRT IM’s with proper case handling procedures and will form the basis of SLA’s between the CSIRT and other Company departments.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "incident-category",
+      "expanded": "Incident Category"
+    },
+    {
+      "value": "criticality-classification",
+      "expanded": "Criticality Classification"
+    },
+    {
+      "value": "sensitivity-classification",
+      "expanded": "Sensitivity Classification"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "incident-category",
+      "entry": [
+        {
+          "value": "DOS",
+          "expanded": "Denial of service / Distributed Denial of service"
+        },
+        {
+          "value": "forensics",
+          "expanded": "Forensics work"
+        },
+        {
+          "value": "compromised-information",
+          "expanded": "Attempted or successful destruction, corruption, or disclosure of sensitive corporate information or Intellectual Property"
+        },
+        {
+          "value": "compromised-asset",
+          "expanded": "Compromised host (root account, Trojan, rootkit), network device, application, user account."
+        },
+        {
+          "value": "unlawful-activity",
+          "expanded": "Theft / Fraud / Human Safety / Child Porn"
+        },
+        {
+          "value": "internal-hacking",
+          "expanded": "Reconnaissance or Suspicious activity originating from inside the Company corporate network, excluding malware"
+        },
+        {
+          "value": "external-hacking",
+          "expanded": "Reconnaissance or Suspicious Activity originating from outside the Company corporate network (partner network, Internet), excluding malware."
+        },
+        {
+          "value": "malware",
+          "expanded": "A virus or worm typically affecting multiple corporate devices.  This does not include compromised hosts that are being actively controlled by an attacker via a backdoor or Trojan."
+        },
+        {
+          "value": "email",
+          "expanded": "Spoofed email, SPAM, and other email security-related events."
+        },
+        {
+          "value": "consulting",
+          "expanded": "Security consulting unrelated to any confirmed incident"
+        },
+        {
+          "value": "policy-violation",
+          "expanded": "Violation of various policies"
+        }
+      ]
+    },
+    {
+      "predicate": "criticality-classification",
+      "entry": [
+        {
+          "value": "1",
+          "expanded": "Incident affecting critical systems or information with potential to be revenue or customer impacting."
+        },
+        {
+          "value": "2",
+          "expanded": "Incident affecting non-critical systems or information, not revenue or customer impacting. Employee investigations that are time sensitive should typically be classified at this level."
+        },
+        {
+          "value": "3",
+          "expanded": "Possible incident, non-critical systems.  Incident or employee investigations that are not time sensitive.  Long-term investigations involving extensive research and/or detailed forensic work."
+        }
+      ]
+    },
+    {
+      "predicate": "sensitivity-classification",
+      "entry": [
+        {
+          "value": "1",
+          "expanded": "Extremely Sensitive"
+        },
+        {
+          "value": "2",
+          "expanded": "Sensitive"
+        },
+        {
+          "value": "3",
+          "expanded": "Not Sensitive"
+        }
+      ]
+    }
+  ]
+}
+
