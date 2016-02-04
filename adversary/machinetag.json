@@ -1,7 +1,7 @@
 {
   "namespace": "adversary",
   "description": "An overview and description of the adversary infrastructure",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "infrastructure-status",
@@ -43,7 +43,7 @@
         },
         {
           "value": "drop-zone",
-          "expanded": "Infrastructure used by the adversary to store information related to its campaigns"
+          "expanded": "Infrastructure used by the adversary to store information related to his campaigns"
         },
         {
           "value": "exploit-distribution-point",
@@ -51,7 +51,15 @@
         },
         {
           "value": "vpn",
-          "expanded": "Infrastructure used by an adversary as Virtual Private Network to hide activities and reduce the traffic analysis surface"
+          "expanded": "Infrastructure used by the adversary as Virtual Private Network to hide activities and reduce the traffic analysis surface"
+        },
+        {
+          "value": "panel",
+          "expanded": "Panel used by the adversary to control or maintain hist infrastructure"
+        },
+        {
+          "value": "tds",
+          "expanded": "Traffic Redistribution Systems including exploit delivery or/and web monetization channels"
         }
       ]
     }
