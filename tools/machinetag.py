@@ -30,7 +30,7 @@ import json
 import os.path
 import argparse
 
-taxonomies = ['admiralty-scale', 'adversary', 'tlp', 'circl', 'veris', 'ecsirt', 'dni-ism', 'nato', 'euci', 'osint', 'first_csirt_case_classification']
+taxonomies = ['admiralty-scale', 'adversary', 'tlp', 'circl', 'veris', 'ecsirt', 'dni-ism', 'nato', 'euci', 'osint', 'first_csirt_case_classification', 'malware']
 
 argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies')
 argParser.add_argument('-e', action='store_true', help='Include expanded tags')
