@@ -1,0 +1,52 @@
+{
+  "namespace": "de-vs",
+  "description": "German (DE) Government classification markings (VS).",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "Einstufung",
+      "expanded": "Einstufung"
+    },
+    {
+      "value": "Schutzwort",
+      "expanded": "Schutzwort"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "Einstufung",
+      "entry": [
+        {
+          "value": "STRENG GEHEIM",
+          "expanded": "STRENG GEHEIM",
+          "description": "Kenntnisnahme durch Unbefugte kann den Bestand oder lebenswichtige Interessen der Bundesrepublik Deutschland oder eines ihrer Länder gefährden."
+        },
+        {
+          "value": "GEHEIM",
+          "expanded": "GEHEIM",
+          "description": "Kenntnisnahme durch Unbefugte kann die Sicherheit der Bundesrepublik Deutschland oder eines ihrer Länder gefährden oder ihren Interessen schweren Schaden zufügen."
+        },
+        {
+          "value": "VS-VERTRAULICH",
+          "expanded": "VS-VERTRAULICH",
+          "description": "Kenntnisnahme durch Unbefugte kann für die Interessen der Bundesrepublik Deutschland oder eines ihrer Länder schädlich sein."
+        },
+        {
+          "value": "VS-NfD",
+          "expanded": "VS-NUR FÜR DEN DIENSTGEBRAUCH",
+          "description": "Kenntnisnahme durch Unbefugte kann für die Interessen der Bundesrepublik Deutschland oder eines ihrer Länder nachteilig sein."
+        }
+      ]
+    },
+    {
+      "predicate": "Schutzwort",
+      "entry": [
+        {
+          "value": "Dummy",
+          "expanded": "Dummy",
+          "description": "Platzhalter."
+        }
+      ]
+    }
+  ]
+}
