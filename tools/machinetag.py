@@ -118,4 +118,4 @@ for taxonomy in taxonomies:
                             print ("--> " + machineTag(namespace=namespace, predicate=expanded, value=v['expanded']))
 
 if args.a:
-    print (doc)
+    print (doc.encode('utf-8'))
