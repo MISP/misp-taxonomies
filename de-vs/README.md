@@ -8,7 +8,7 @@ The classification markings are based on the German "General Administrative Regu
 The DE-VS Taxonomy has two predicates:
 <dl>
 <dt>"Einstufung"</dt>
-<dd>This is the official classification marking. Each marking is a single value of these predicate.<dd>
+<dd>This is the official classification marking. Each marking is a single value of this predicate.<dd>
 
 <dt>"Schutzwort"</dt>
 <dd>This is the additional code word that can be added to a classification marking. The code words are values of the predicate. 
