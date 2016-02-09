@@ -42,6 +42,10 @@ FIRST CSIRT Case Classification.
 
 ISM (Information Security Marking Metadata) [V13](http://www.dni.gov/index.php/about/organization/chief-information-officer/information-security-marking-metadata) as described by DNI.gov.
 
+### [Malware](./malware) classification
+
+Malware classification based on a [SANS whitepaper about malware](https://www.sans.org/reading-room/whitepapers/incident/malware-101-viruses-32848).
+
 ### [NATO Classification Marking](./nato)
 
 Marking of Classified and Unclassified materials as described by the North Atlantic Treaty Organization, NATO.
