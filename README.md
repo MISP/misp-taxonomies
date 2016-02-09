@@ -12,7 +12,9 @@ The following taxonomies are described:
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [EUCI](./euci) - EU classified information marking
+- [FIRST CSIRT Case](./first_csirt_case_classification) classification
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
+- [Malware](./malware) classification based on a SANS document
 - [NATO Classification Marking](./nato)
 - [OSINT Open Source Intelligence - Classification](./osint)
 - [TLP - Traffic Light Protocol](./tlp)
@@ -60,7 +62,7 @@ Vocabulary for Event Recording and Incident Sharing is a format created by the [
 
 # How to contribute your taxonomy?
 
-It is quite easy. Create a JSON file describing your taxonomy as triple tags (e.g. check an existing one like [Admiralty Scale](./admiralty-scale)), create a directory matching your name space, put your machinetag file in the directory and pull your request. That's it. Everyone can benefit from your taxonomy and can be automatically enabled in information sharing tools like MISP.
+It is quite easy. Create a JSON file describing your taxonomy as triple tags (e.g. check an existing one like [Admiralty Scale](./admiralty-scale)), create a directory matching your name space, put your machinetag file in the directory and pull your request. That's it. Everyone can benefit from your taxonomy and can be automatically enabled in information sharing tools like [MISP](https://www.github.com/MISP/MISP).
 
 # MISP Taxonomies - tools
 
