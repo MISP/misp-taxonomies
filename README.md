@@ -12,6 +12,7 @@ The following taxonomies are described:
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [EUCI](./euci) - EU classified information marking
+- [FIRST CSIRT Case Classification](./first_csirt_case_classification) - FIRST CSIRT Case Classification
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
 - [NATO Classification Marking](./nato)
 - [OSINT Open Source Intelligence - Classification](./osint)
@@ -33,6 +34,10 @@ eCSIRT incident classification Appendix C of the eCSIRT EU project including Int
 ### [EUCI](./euci) classification
 
 EU classified information (EUCI) means any information or material designated by a EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the European Union or of one or more of the Member States [as described](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013D0488&from=EN).
+
+### [FIRST CSIRT Case Classification](./first_csirt_case_classification) - FIRST CSIRT Case Classification
+
+FIRST CSIRT Case Classification according to [FIRST.org](https://www.first.org/_assets/resources/guides/csirt_case_classification.html)
 
 ### [Information Security Marking Metadata](./dni-ism) DNI (Director of National Intelligence - US)
 
