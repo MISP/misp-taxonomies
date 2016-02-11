@@ -30,8 +30,7 @@ import json
 import os.path
 import argparse
 
-taxonomies = ['admiralty-scale', 'adversary', 'tlp', 'circl', 'veris', 'ecsirt', 'dni-ism', 'nato', 'euci', 'osint', 'first_csirt_case_classification', 'malware']
-
+taxonomies = ['admiralty-scale', 'adversary', 'tlp', 'circl', 'veris', 'ecsirt', 'dni-ism', 'nato', 'euci', 'osint', 'first_csirt_case_classification', 'malware', 'de-vs']
 argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies')
 argParser.add_argument('-e', action='store_true', help='Include expanded tags')
 argParser.add_argument('-a', action='store_true', help='Generate asciidoctor document from MISP taxonomies')
@@ -70,9 +69,9 @@ def machineTag(namespace=False, predicate=False, value=None):
     if namespace is False or predicate is False:
         return None
     if value is None:
-        return ('{0}:{1}'.format(namespace, predicate))
+        return (u'{0}:{1}'.format(namespace, predicate))
     else:
-        return ('{0}:{1}=\"{2}\"'.format(namespace, predicate, value))
+        return (u'{0}:{1}=\"{2}\"'.format(namespace, predicate, value))
 
 for taxonomy in taxonomies:
     filename = os.path.join("../", taxonomy, "machinetag.json")
