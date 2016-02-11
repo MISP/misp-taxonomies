@@ -69,6 +69,18 @@ Vocabulary for Event Recording and Incident Sharing is a format created by the [
 
 It is quite easy. Create a JSON file describing your taxonomy as triple tags (e.g. check an existing one like [Admiralty Scale](./admiralty-scale)), create a directory matching your name space, put your machinetag file in the directory and pull your request. That's it. Everyone can benefit from your taxonomy and can be automatically enabled in information sharing tools like [MISP](https://www.github.com/MISP/MISP).
 
+# How to add your private taxonomy to MISP
+
+~~~~shell
+$cd /var/www/MISP/app/files/taxonomies/
+$mkdir sampletax
+$vi machinetag.json
+~~~~
+
+Create a JSON file Create a JSON file describing your taxonomy as triple tags.
+
+Once you are happy with your file go to MISP Web GUI taxonomies/index and update the taxonomies, the newly created taxonomy should be visible, now you need to activate the tags tiwhin your taxonomy.
+
 # MISP Taxonomies - tools
 
 [machinetag.py](./tools/machinetag.py) is a parsing tool to dump taxonomies expressed in Machine Tags (Triple Tags) and list all valid tags from a specific taxonomy.
