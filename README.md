@@ -10,6 +10,7 @@ The following taxonomies are described:
 
 - [Admiralty Scale](./admiralty-scale)
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
+- DE German (DE) [Government classification markings (VS)](./de-vs)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [EUCI](./euci) - EU classified information marking
 - [FIRST CSIRT Case](./first_csirt_case_classification) classification
@@ -27,6 +28,10 @@ The Admiralty Scale (also called the NATO System) is used to rank the reliabilit
 ### CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 
 CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place.
+
+### DE German (DE) [Government classification markings (VS)](./de-vs)
+
+Taxonomy for the handling of protectively marked information in MISP with German (DE) Government classification markings (VS).
 
 ### [eCSIRT](./ecsirt) and IntelMQ incident classification
 
