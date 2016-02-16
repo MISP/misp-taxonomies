@@ -72,14 +72,14 @@ It is quite easy. Create a JSON file describing your taxonomy as triple tags (e.
 # How to add your private taxonomy to MISP
 
 ~~~~shell
-$cd /var/www/MISP/app/files/taxonomies/
-$mkdir sampletax
-$vi machinetag.json
+$ cd /var/www/MISP/app/files/taxonomies/
+$ mkdir privatetaxonomy
+$ vi machinetag.json
 ~~~~
 
 Create a JSON file Create a JSON file describing your taxonomy as triple tags.
 
-Once you are happy with your file go to MISP Web GUI taxonomies/index and update the taxonomies, the newly created taxonomy should be visible, now you need to activate the tags tiwhin your taxonomy.
+Once you are happy with your file go to MISP Web GUI taxonomies/index and update the taxonomies, the newly created taxonomy should be visible, now you need to activate the tags within your taxonomy.
 
 # MISP Taxonomies - tools
 
