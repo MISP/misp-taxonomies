@@ -1,7 +1,7 @@
 {
   "namespace": "adversary",
   "description": "An overview and description of the adversary infrastructure",
-  "version": 3,
+  "version": 4,
   "predicates": [
     {
       "value": "infrastructure-status",
@@ -14,6 +14,10 @@
     {
       "value": "infrastructure-state",
       "expanded": "Infrastructure State"
+    },
+    {
+      "value": "infrastructure-action",
+      "expanded": "Infrastructure Action"
     }
   ],
   "values": [
@@ -34,6 +38,27 @@
         }
       ]
     },
+      {
+        "predicate": "infrastructure-action",
+        "entry": [
+        {
+          "value": "passive-only",
+          "expanded": "Only passive requests shall be performed to avoid detection by the adversary"
+        },
+        {
+          "value": "take-down",
+          "expanded": "Take down requests can be performed in order to deactivate the adversary infrastructure"
+        },
+        {
+          "value": "monitoring-active",
+          "expanded": "Monitoring requests are ongoing on the adversary infrastructure"
+        },
+        {
+          "value": "pending-law-enforcement-request",
+          "expanded": "Law enforcement requests are ongoing on the adversary infrastructure"
+        }
+        ]
+      },
     {
      "predicate": "infrastructure-state",
      "entry": [
