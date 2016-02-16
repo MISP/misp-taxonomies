@@ -1,7 +1,7 @@
 {
   "namespace": "adversary",
   "description": "An overview and description of the adversary infrastructure",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "infrastructure-status",
@@ -10,6 +10,10 @@
     {
       "value": "infrastructure-type",
       "expanded": "Infrastructure Type"
+    },
+    {
+      "value": "infrastructure-state",
+      "expanded": "Infrastructure State"
     }
   ],
   "values": [
@@ -29,6 +33,23 @@
           "expanded": "Infrastructure own and operated by the adversary"
         }
       ]
+    },
+    {
+     "predicate": "infrastructure-state",
+     "entry": [
+        {
+          "value": "unknown",
+          "expanded": "Infrastructure state is unknown or cannot be evaluated"
+        },
+        {
+          "value": "active",
+          "expanded": "Infrastructure state is active and actively used by the adversary"
+        },
+        {
+          "value": "down",
+          "expanded": "Infrastructure state is known to be down"
+        }
+     ]
     },
     {
       "predicate": "infrastructure-type",
