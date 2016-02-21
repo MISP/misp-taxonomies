@@ -31,10 +31,11 @@ import os.path
 import argparse
 
 taxonomies = ['admiralty-scale', 'adversary', 'tlp', 'circl', 'veris', 'ecsirt', 'dni-ism', 'nato', 'euci', 'osint', 'first_csirt_case_classification', 'malware', 'de-vs']
-argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies')
+argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies', epilog='Available taxonomies are {0}'.format(taxonomies))
 argParser.add_argument('-e', action='store_true', help='Include expanded tags')
 argParser.add_argument('-a', action='store_true', help='Generate asciidoctor document from MISP taxonomies')
 argParser.add_argument('-v', action='store_true', help='Include descriptions')
+argParser.add_argument('-n', default=False, help='Show only the specified namespace')
 args = argParser.parse_args()
 
 doc = ''
@@ -47,6 +48,10 @@ if args.a:
     doc = doc + "\nimage::{images-cdn}misp-logo.png[MISP logo]\n"
     doc = doc + "Taxonomies that can be used in MISP (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.\n"
     doc = doc + "\n\n"
+
+if args.n:
+    del taxonomies[:]
+    taxonomies.append(args.n)
 
 def asciidoc(content=False, adoc=doc, t='title'):
     if not args.a:
