@@ -1,0 +1,64 @@
+{
+        "namespace": "dhs-ciip-sectors",
+        "description": "DHS critical sectors as in https://www.dhs.gov/critical-infrastructure-sectors",
+        "version": 1,
+        "predicates": [{
+                "value": "DHS-critical-sectors",
+                "expanded": "DHS critical sectors"
+        }, {
+                "value": "sector",
+                "expanded": "Sector"
+        }],
+        "values": [{
+                "predicate": " DHS-critical-sectors",
+                "entry": [{
+                        "value": "chemical",
+                        "expanded": "Chemical"
+                }, {
+                        "value": "commercial-facilities",
+                        "expanded": "Commercial Facilities"
+                }, {
+                        "value": "communications",
+                        "expanded": "Communications"
+                }, {
+                        "value": "critical-manufacturing",
+                        "expanded": "Critical Manufacturing"
+                }, {
+                        "value": "dams",
+                        "expanded": "Dams"
+                }, {
+                        "value": "dib",
+                        "expanded": "Defense Industrial Base"
+                }, {
+                        "value": "emergency-services",
+                        "expanded": "Emergency services"
+                }, {
+                        "value": "energy",
+                        "expanded": "energy"
+                }, {
+                        "value": "financial-services",
+                        "expanded": "Financial Services"
+                }, {
+                        "value": "food-agriculture",
+                        "expanded": "Food and Agriculture"
+                }, {
+                        "value": "government-facilities",
+                        "expanded": "Government Facilities"
+                }, {
+                        "value": "healthcare-public",
+                        "expanded": "Healthcare and Public Health"
+                }, {
+                        "value": "it",
+                        "expanded": "Information Technology"
+                }, {
+                        "value": "nuclear",
+                        "expanded": "Nuclear"
+                }, {
+                        "value": "transport",
+                        "expanded": "Transportation Systems"
+                }, {
+                        "value": "water",
+                        "expanded": "Water and water systems"
+                }]
+        }]
+}
