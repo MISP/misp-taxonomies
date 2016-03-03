@@ -1,0 +1,46 @@
+{
+	"namespace": "fr-classif",
+	"description": "French gov information classification system",
+	"version": 1,
+	"predicates": [{
+		"value": "classifiees-defense",
+		"expanded": "Informations classifiées défense"
+	}, {
+		"value": "non-classifiees-defense",
+		"expanded": "Informations non classifiées defense"
+	}, {
+		"value": "non-classifiees",
+		"expanded": "Informations non classifiées"
+	}],
+	"values": [{
+		"predicate": "classifiees-defense",
+		"entry": [{
+			"value": "TRES_SECRET_DEFENSE",
+			"expanded": "TRES SECRET DEFENSE"
+		}, {
+			"value": "SECRET_DEFENSE",
+			"expanded": "SECRET DEFENSE"
+		}, {
+			"value": "CONFIDENTIEL_DEFENSE",
+			"expanded": "CONFIDENTIEL DEFENSE"
+		}]
+	}, {
+		"predicate": "non-classifiees-defense",
+		"entry": [{
+			"value": "SECRET",
+			"expanded": "SECRET"
+		}, {
+			"value": "CONFIDENTIEL",
+			"expanded": "CONFIDENTIEL"
+		}, {
+			"value": "DIFFUSION_RESTREINTE",
+			"expanded": "DIFFUSION RESTREINTE"
+		}]
+	}, {
+		"predicate": "non-classifiees",
+		"entry": [{
+			"value": "NON-CLASSIFIEES",
+			"expanded": "NON CLASSIFIEES"
+		}]
+	}]
+}
