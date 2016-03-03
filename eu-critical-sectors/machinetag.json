@@ -1,0 +1,62 @@
+{
+        "namespace": "eu-marketop-and-publicadmin",
+        "description": "Market operators and public administrations that must comply to some notifications requirements under EU NIS directive",
+        "version": 1,
+        "predicates": [{
+                "value": "critical-infra-operators",
+                "expanded": "Critical Infrastructure Operators"
+        }, {
+                "value": "info-services",
+                "expanded": "Information Society services enablers"
+        }, {
+                "value": "public-admin",
+                "expanded": "Public administration"
+        }],
+        "values": [{
+                "predicate": "critical-infra-operators",
+                "entry": [{
+                        "value": "transport",
+                        "expanded": "Transport"
+                }, {
+                        "value": "energy",
+                        "expanded": "Energy"
+                }, {
+                        "value": "health",
+                        "expanded": "Health"
+                }, {
+                        "value": "financial",
+                        "expanded": "Financial market operators"
+                }, {
+                        "value": "banking",
+                        "expanded": "Banking"
+                }]
+        }, {
+                "predicate": "info-services",
+                "entry": [{
+                        "value": "e-commerce",
+                        "expanded": "e-commerce platforms"
+                }, {
+                        "value": "internet-payment",
+                        "expanded": "Internet payment"
+                }, {
+                        "value": "cloud",
+                        "expanded": "cloud computing"
+                }, {
+                        "value": "search-engines",
+                        "expanded": "search engines"
+                }, {
+                        "value": "socnet",
+                        "expanded": "social networks"
+                }, {
+                        "value": "app-stores",
+                        "expanded": "application stores"
+                }]
+        }, {
+                "predicate": "public-admin",
+                "entry": [{
+                        "value": "public-admin",
+                        "expanded": "Public Administrations"
+                }]
+        }]
+}
+
