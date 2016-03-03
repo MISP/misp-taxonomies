@@ -1,7 +1,7 @@
 {
         "namespace": "dhs-ciip-sectors",
         "description": "DHS critical sectors as in https://www.dhs.gov/critical-infrastructure-sectors",
-        "version": 1,
+        "version": 2,
         "predicates": [{
                 "value": "DHS-critical-sectors",
                 "expanded": "DHS critical sectors"
@@ -10,7 +10,7 @@
                 "expanded": "Sector"
         }],
         "values": [{
-                "predicate": " DHS-critical-sectors",
+                "predicate": "DHS-critical-sectors",
                 "entry": [{
                         "value": "chemical",
                         "expanded": "Chemical"
