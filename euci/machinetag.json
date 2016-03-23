@@ -4,23 +4,23 @@
   "version": 2,
   "predicates": [
     {
-      "value": "EU-TOP-SECRET",
-      "expanded": "EU TOP SECRET",
+      "value": "TS-UE/EU-TS",
+      "expanded": "TRES SECRET UE/EU TOP SECRET",
       "description": "Information and material the unauthorised disclosure of which could cause exceptionally grave prejudice to the essential interests of the European Union or of one or more of the Member States."
     },
     {
-      "value": "EU-SECRET",
-      "expanded": "EU SECRET",
+      "value": "S-UE/EU-S",
+      "expanded": "SECRET UE/EU SECRET",
       "description": "Information and material the unauthorised disclosure of which could seriously harm the essential interests of the European Union or of one or more of the Member States."
     },
     {
-      "value": "EU-CONFIDENTIAL",
-      "expanded": "EU CONFIDENTIAL",
+      "value": "C-UE/EU-C",
+      "expanded": "CONFIDENTIEL UE/EU CONFIDENTIAL",
       "description": "Information and material the unauthorised disclosure of which could harm the essential interests of the European Union or of one or more of the Member States."
     },
     {
-      "value": "EU-RESTRICTED",
-      "expanded": "EU RESTRICTED",
+      "value": "R-UE/EU-R",
+      "expanded": "RESTREINT UE/EU RESTRICTED",
       "description": "Information and material the unauthorised disclosure of which could be disadvantageous to the interests of the European Union or of one or more of the Member States."
     }
   ]
