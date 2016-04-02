@@ -69,6 +69,8 @@ Vocabulary for Event Recording and Incident Sharing is a format created by the [
 
 It is quite easy. Create a JSON file describing your taxonomy as triple tags (e.g. check an existing one like [Admiralty Scale](./admiralty-scale)), create a directory matching your name space, put your machinetag file in the directory and pull your request. That's it. Everyone can benefit from your taxonomy and can be automatically enabled in information sharing tools like [MISP](https://www.github.com/MISP/MISP).
 
+For more information, "[Information Sharing and Taxonomies Practical Classi cation of Threat Indicators using MISP](https://www.circl.lu/assets/files/misp-training/3.2-MISP-Taxonomy-Tagging.pdf)" presentation given to the last MISP training in Luxembourg.
+
 # How to add your private taxonomy to MISP
 
 ~~~~shell
