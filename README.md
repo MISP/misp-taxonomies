@@ -1,5 +1,7 @@
 # MISP Taxonomies
 
+[![Build Status](https://travis-ci.org/MISP/misp-taxonomies.svg?branch=master)](https://travis-ci.org/MISP/misp-taxonomies)
+
 Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.
 
 ![Overview of the MISP taxonomies](tools/docs/images/taxonomy-explanation.png)
@@ -89,7 +91,7 @@ Once you are happy with your file go to MISP Web GUI taxonomies/index and update
 
 ~~~~shell
 % cd tools
-% python machinetag.py 
+% python machinetag.py
         admiralty-scale:source-reliability="a"
         admiralty-scale:source-reliability="b"
         admiralty-scale:source-reliability="c"
