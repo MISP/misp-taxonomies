@@ -78,6 +78,7 @@ For more information, "[Information Sharing and Taxonomies Practical Classi cati
 ~~~~shell
 $ cd /var/www/MISP/app/files/taxonomies/
 $ mkdir privatetaxonomy
+$ cd privatetaxonomy
 $ vi machinetag.json
 ~~~~
 
