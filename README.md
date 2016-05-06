@@ -11,11 +11,12 @@ The following taxonomies can be used in MISP (as local or distributed tags) or i
 The following taxonomies are described:
 
 - [Admiralty Scale](./admiralty-scale)
-- [adversary](./adversary)
+- [adversary](./adversary) - description of an adversary infrastructure
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 - DE German (DE) [Government classification markings (VS)](./de-vs)
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
+- [EU critical sectors](./eu-critical-sectors) - EU critical sectors
 - [EUCI](./euci) - EU classified information marking
 - [FIRST CSIRT Case](./first_csirt_case_classification) classification
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
@@ -48,6 +49,10 @@ DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure
 ### [eCSIRT](./ecsirt) and IntelMQ incident classification
 
 eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates.
+
+### [EU Critical Sectors](./eu-critical-sectors)
+
+Market operators and public administrations that must comply to some notifications requirements under EU NIS directive.
 
 ### [EUCI](./euci) classification
 
