@@ -14,6 +14,7 @@ The following taxonomies are described:
 - [adversary](./adversary)
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 - DE German (DE) [Government classification markings (VS)](./de-vs)
+- [DHS CIIP Sectors](./dhs-ciip-sectors)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [EUCI](./euci) - EU classified information marking
 - [FIRST CSIRT Case](./first_csirt_case_classification) classification
@@ -39,6 +40,10 @@ CIRCL Taxonomy is a simple scheme for incident classification and area topic whe
 ### DE German (DE) [Government classification markings (VS)](./de-vs)
 
 Taxonomy for the handling of protectively marked information in MISP with German (DE) Government classification markings (VS).
+
+### [DHS CIIP Sectors](./dhs-ciip-sectors)
+
+DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure-sectors.
 
 ### [eCSIRT](./ecsirt) and IntelMQ incident classification
 
