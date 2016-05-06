@@ -11,6 +11,7 @@ The following taxonomies can be used in MISP (as local or distributed tags) or i
 The following taxonomies are described:
 
 - [Admiralty Scale](./admiralty-scale)
+- [adversary](./adversary)
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 - DE German (DE) [Government classification markings (VS)](./de-vs)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
@@ -26,6 +27,10 @@ The following taxonomies are described:
 ### [Admiralty Scale](./admiralty-scale)
 
 The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.
+
+### [Adversary](./adversary)
+
+An overview and description of the adversary infrastructure.
 
 ### CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 
