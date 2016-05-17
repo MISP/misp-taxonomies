@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "entry": [
+        {
+          "expanded": "tag to hide from the user-interface.",
+          "value": "hide"
+        }
+      ],
+      "predicate": "ui"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "tag to hide from the API.",
+          "value": "hide"
+        }
+      ],
+      "predicate": "api"
+    }
+  ],
+  "predicates": [
+    {
+      "expanded": "User-interface tag influencing the MISP behavior and visual interaction.",
+      "value": "ui"
+    },
+    {
+      "expanded": "API related tag influencing the MISP behavior of the API.",
+      "value": "api"
+    }
+  ],
+  "version": 1,
+  "description": "MISP internal taxonomy to infer with MISP behavior or operation.",
+  "expanded": "MISP",
+  "namespace": "misp"
+}
