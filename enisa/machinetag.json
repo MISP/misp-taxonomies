@@ -1,0 +1,49 @@
+{
+  "namespace": "enisa",
+  "expanded": "ENISA Threat Taxonomy",
+  "description": "The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "physical-attack",
+      "expanded": "Physical attack (deliberate/intentional).",
+      "description": "Threats of intentional, hostile human actions."
+    },
+    {
+      "value": "unintentional-damage",
+      "expanded": "Unintentional damage / loss of information or IT assets.",
+      "description": "Threats of unintentional human actions or errors."
+    },
+    {
+      "value": "disaster",
+      "expanded": "Disaster (natural, environmental).",
+      "description": "Threats of damage to information assets caused by natural or environmental factors."
+    },
+    {
+      "value": "failures-malfunction",
+      "expanded": "Failures/ Malfunction.",
+      "description": "Threat of failure/malfunction of IT supporting infrastructure (i.e.  degradation of quality, improper working parameters, jamming).  The cause of a failure is mostly an internal issue (e.g.. overload of the power grid in a building)."
+    },
+    {
+      "value": "outages",
+      "expanded": "Outages.",
+      "description": "Threat of complete lack or loss of resources necessary for IT infrastructure. The cause of an outage is mostly an external issue (i.e electricity blackout in the whole city)."
+    },
+    {
+      "value": "eavesdropping-interception-hijacking",
+      "expanded": "Eavesdropping/ Interception/ Hijacking",
+      "description": "Threats that alter communication between two parties. These attacks do not have to install additional tools/software on a victim's site."
+    },
+    {
+      "value": "nefarious-activity-abuse",
+      "expanded": "Nefarious Activity/ Abuse",
+      "description": "Threats of nefarious activities that require use of tools by the attacker. These attacks require installation of additional tools/software or performing additional steps on the victim's IT infrastructure/software."
+    },
+    {
+      "value": "legal",
+      "expanded": "Legal",
+      "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to legislation."
+    }
+  ],
+  "values": null
+}
