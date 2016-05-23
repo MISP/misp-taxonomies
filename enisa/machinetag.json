@@ -1,49 +1,155 @@
 {
-  "namespace": "enisa",
-  "expanded": "ENISA Threat Taxonomy",
-  "description": "The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015.",
-  "version": 1,
-  "predicates": [
+  "values": [
     {
-      "value": "physical-attack",
-      "expanded": "Physical attack (deliberate/intentional).",
-      "description": "Threats of intentional, hostile human actions."
+      "entry": [
+        {
+          "description": "Fraud committed by humans.",
+          "expanded": "Fraud",
+          "value": "fraud"
+        },
+        {
+          "description": "Fraud committed by employees or others that are in relation with entities, who have access to entities' information and IT assets.",
+          "expanded": "Fraud committed by employees",
+          "value": "fraud-by-employees"
+        },
+        {
+          "description": "Intentional actions (non-fulfilment or defective fulfilment of personal duties) aimed to cause disruption or damage to IT assets.",
+          "expanded": "Sabotage",
+          "value": "sabotage"
+        },
+        {
+          "description": "Act of physically damaging IT assets.",
+          "expanded": "Vandalism",
+          "value": "vandalism"
+        },
+        {
+          "description": "Stealing information or IT assets. Robbery.",
+          "expanded": "Theft (of devices, storage media and documents)",
+          "value": "theft"
+        },
+        {
+          "description": "Taking away another person's property in the form of mobile devices, for example smartphones, tablets.",
+          "expanded": "Theft of mobile devices (smartphones/ tablets)",
+          "value": "theft-of-mobile-devices"
+        },
+        {
+          "description": "Taking away another person's hardware property (except mobile devices), which often contains business-sensitive data.",
+          "expanded": "Theft of fixed hardware",
+          "value": "theft-of-fixed-hardware"
+        },
+        {
+          "description": "Stealing documents from private/company archives, often for the purpose of re-sale or to achieve personal benefits.",
+          "expanded": "Theft of documents",
+          "value": "theft-of-documents"
+        },
+        {
+          "description": "Stealing media devices, on which copies of essential information are kept.",
+          "expanded": "Theft of backups",
+          "value": "theft-of-backups"
+        },
+        {
+          "description": "Sharing information with unauthorised entities. Loss of information confidentiality due to intentional human actions (e.g., information leak may occur due to loss of paper copies of confidential information).",
+          "expanded": "Information leak /sharing",
+          "value": "information-leak-or-unauthorised-sharing"
+        },
+        {
+          "description": "Unapproved access to facility.",
+          "expanded": "Unauthorized physical access / Unauthorised entry to premises",
+          "value": "unauthorised-physical-access-or-unauthorised-entry-to-premises"
+        },
+        {
+          "description": "Actions following acts of coercion, extortion or corruption.",
+          "expanded": "Coercion, extortion or corruption",
+          "value": "coercion-or-extortion-or-corruption"
+        },
+        {
+          "description": "Threats of direct impact of warfare activities.",
+          "expanded": "Damage from the warfare",
+          "value": "damage-from-the-wafare"
+        },
+        {
+          "description": "Threats from terrorists.",
+          "expanded": "Terrorist attack",
+          "value": "terrorist-attack"
+        }
+      ],
+      "predicate": "physical-attack"
     },
     {
-      "value": "unintentional-damage",
-      "expanded": "Unintentional damage / loss of information or IT assets.",
-      "description": "Threats of unintentional human actions or errors."
-    },
-    {
-      "value": "disaster",
-      "expanded": "Disaster (natural, environmental).",
-      "description": "Threats of damage to information assets caused by natural or environmental factors."
-    },
-    {
-      "value": "failures-malfunction",
-      "expanded": "Failures/ Malfunction.",
-      "description": "Threat of failure/malfunction of IT supporting infrastructure (i.e.  degradation of quality, improper working parameters, jamming).  The cause of a failure is mostly an internal issue (e.g.. overload of the power grid in a building)."
-    },
-    {
-      "value": "outages",
-      "expanded": "Outages.",
-      "description": "Threat of complete lack or loss of resources necessary for IT infrastructure. The cause of an outage is mostly an external issue (i.e electricity blackout in the whole city)."
-    },
-    {
-      "value": "eavesdropping-interception-hijacking",
-      "expanded": "Eavesdropping/ Interception/ Hijacking",
-      "description": "Threats that alter communication between two parties. These attacks do not have to install additional tools/software on a victim's site."
-    },
-    {
-      "value": "nefarious-activity-abuse",
-      "expanded": "Nefarious Activity/ Abuse",
-      "description": "Threats of nefarious activities that require use of tools by the attacker. These attacks require installation of additional tools/software or performing additional steps on the victim's IT infrastructure/software."
-    },
-    {
-      "value": "legal",
-      "expanded": "Legal",
-      "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to legislation."
+      "entry": [
+        {
+          "description": "Information leak / sharing caused by humans, due to their mistakes.",
+          "expanded": "Information leak /sharing due to human error",
+          "value": "information-leak-or-sharing-due-to-human-error"
+        },
+        {
+          "value": "accidental-leaks-or-sharing-of-data-by-employees",
+          "expanded": "Accidental leaks/sharing of data by employees",
+          "description": "Unintentional distribution of private or sensitive data to an unauthorized entity by a staff member."
+        },
+        {
+          "value": "leaks-of-data-via-mobile-applications",
+          "expanded": "Leaks of data via mobile applications",
+          "description": "Threat of leaking private data (a result of using applications for mobile devices)."
+        },
+        {
+          "value": "leaks-of-data-via-web-applications",
+          "expanded": "Leaks of data via Web applications",
+          "description": "Threat of leaking important information using web applications."
+        },
+        {
+          "value": "leaks-of-information-transferred-by-network",
+          "expanded": "Leaks of information transferred by network",
+          "description": "Threat of eavesdropping of unsecured network traffic."
+        }
+      ],
+      "predicate": "unintentional-damage"
     }
   ],
-  "values": null
+  "predicates": [
+    {
+      "description": "Threats of intentional, hostile human actions.",
+      "expanded": "Physical attack (deliberate/intentional).",
+      "value": "physical-attack"
+    },
+    {
+      "description": "Threats of unintentional human actions or errors.",
+      "expanded": "Unintentional damage / loss of information or IT assets.",
+      "value": "unintentional-damage"
+    },
+    {
+      "description": "Threats of damage to information assets caused by natural or environmental factors.",
+      "expanded": "Disaster (natural, environmental).",
+      "value": "disaster"
+    },
+    {
+      "description": "Threat of failure/malfunction of IT supporting infrastructure (i.e.  degradation of quality, improper working parameters, jamming).  The cause of a failure is mostly an internal issue (e.g.. overload of the power grid in a building).",
+      "expanded": "Failures/ Malfunction.",
+      "value": "failures-malfunction"
+    },
+    {
+      "description": "Threat of complete lack or loss of resources necessary for IT infrastructure. The cause of an outage is mostly an external issue (i.e electricity blackout in the whole city).",
+      "expanded": "Outages.",
+      "value": "outages"
+    },
+    {
+      "description": "Threats that alter communication between two parties. These attacks do not have to install additional tools/software on a victim's site.",
+      "expanded": "Eavesdropping/ Interception/ Hijacking",
+      "value": "eavesdropping-interception-hijacking"
+    },
+    {
+      "description": "Threats of nefarious activities that require use of tools by the attacker. These attacks require installation of additional tools/software or performing additional steps on the victim's IT infrastructure/software.",
+      "expanded": "Nefarious Activity/ Abuse",
+      "value": "nefarious-activity-abuse"
+    },
+    {
+      "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to legislation.",
+      "expanded": "Legal",
+      "value": "legal"
+    }
+  ],
+  "version": 1,
+  "description": "The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015.",
+  "expanded": "ENISA Threat Taxonomy",
+  "namespace": "enisa"
 }
