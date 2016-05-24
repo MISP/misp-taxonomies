@@ -169,7 +169,7 @@
         },
         {
           "value": "loss-of-integrity-of-certificates",
-          "expansed": "Loss of integrity of certificates",
+          "expanded": "Loss of integrity of certificates",
           "description": "Threat of losing integrity of certificates used for authorisation services"
         },
         {
@@ -209,6 +209,16 @@
         }
       ],
       "predicate": "unintentional-damage"
+    },
+    {
+      "predicate": "disaster",
+      "entry": [
+        {
+          "value": "disaster",
+          "expanded": "Disaster (natural earthquakes, floods, landslides, tsunamis, heavy rains, heavy snowfalls, heavy winds)",
+          "description": "Large scale natural disasters."
+        }
+       ]
     }
   ],
   "predicates": [
