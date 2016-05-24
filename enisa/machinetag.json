@@ -101,6 +101,111 @@
           "value": "leaks-of-information-transferred-by-network",
           "expanded": "Leaks of information transferred by network",
           "description": "Threat of eavesdropping of unsecured network traffic."
+        },
+        {
+          "value": "erroneous-use-or-administration-of-devices-and-systems",
+          "expanded": "Erroneous use or administration of devices and systems",
+          "description": "Information leak / sharing / damage caused by misuse of IT assets (lack of awareness of application features) or wrong / improper IT assets configuration or management."
+        },
+        {
+          "value": "loss-of-information-due-to-maintenance-errors-or-operators-errors",
+          "expanded": "Loss of information due to maintenance errors / operators' errors",
+          "description": "Threat of loss of information by incorrectly performed maintenance of devices or systems or other operator activities."
+        },
+        {
+          "value": "loss-of-information-due-to-configuration-or-installation error",
+          "expanded": "Loss of information due to configuration/ installation error",
+          "description": "Threat of loss of information due to errors in installation or system configuration."
+        },
+        {
+          "value": "increasing-recovery-time",
+          "expanded": "Increasing recovery time",
+          "description": "Threat of unavailability of information due to errors in the use of backup media and increasing information recovery time."
+        },
+        {
+          "value": "lost-of-information-due-to-user-errors",
+          "expanded": "Loss of information due to user errors",
+          "description": "Threat of unavailability of information or damage to IT assets caused by user errors (using IT infrastructure) or IT software recovery time."
+        },
+        {
+          "value": "using-information-from-an-unreliable-source",
+          "expanded": "Using information from an unreliable source",
+          "description": "Bad decisions based on unreliable sources of information or unchecked information."
+        },
+        {
+          "value": "unintentional-change-of-data-in-an-information-system",
+          "expanded": "Unintentional change of data in an information system",
+          "description": "Loss of information integrity due to human error (information system user mistake)."
+        },
+        {
+          "value": "inadequate-design-and-planning-or-improper-adaptation",
+          "expanded": "Inadequate design and planning or improper adaptation",
+          "description": "Threats caused by improper IT assets or business processes design (inadequate specifications of IT products, inadequate usability, insecure interfaces, policy/procedure flows, design errors)."
+        },
+        {
+          "value": "damage-caused-by-a-third-party",
+          "expanded": "Damage caused by a third party",
+          "description": "Threats of damage to IT assets caused by third party."
+        },
+        {
+          "value": "security-failure-caused-by-third-party",
+          "expanded": "Security failure caused by third party",
+          "description": "Threats of damage to IT assets caused by breach of security regulations by third party."
+        },
+        {
+          "value": "damages-resulting-from-penetration-testing",
+          "expanded": "Damages resulting from penetration testing",
+          "description": "Threats to information systems caused by conducting IT penetration tests inappropriately."
+        },
+        {
+          "value": "loss-of-information-in-the-cloud",
+          "expanded": "Loss of information in the cloud",
+          "description": "Threats of losing information or data stored in the cloud."
+        },
+        {
+          "value": "loss-of-(integrity-of)-sensitive-information",
+          "expanded": "Loss of (integrity of) sensitive information",
+          "description": "Threats of losing information or data, or changing information classified as sensitive."
+        },
+        {
+          "value": "loss-of-integrity-of-certificates",
+          "expansed": "Loss of integrity of certificates",
+          "description": "Threat of losing integrity of certificates used for authorisation services"
+        },
+        {
+          "value": "loss-of-devices-and-storage-media-and-documents",
+          "expanded": "Loss of devices, storage media and documents",
+          "description": "Threats of unavailability (losing) of IT assets and documents."
+        },
+        {
+          "value": "loss-of-devices-or-mobile-devices",
+          "expanded": "Loss of devices/ mobile devices",
+          "description": "Threat of losing mobile devices."
+        },
+        {
+          "value": "loss-of-storage-media",
+          "expanded": "Loss of storage media",
+          "description": "Threat of losing data-storage media."
+        },
+        {
+          "value": "loss-of-documentation-of-IT-Infrastructure",
+          "expanded": "Loss of documentation of IT Infrastructure",
+          "description": "Threat of losing important documentation."
+        },
+        {
+          "value": "destruction-of-records",
+          "expanded": "Destruction of records",
+          "description": "Threats of unavailability (destruction) of data and records (information) stored in devices and storage media."
+        },
+        {
+          "value": "infection-of-removable-media",
+          "expanded": "Infection of removable media",
+          "description": "Threat of loss of important data due to using removable media, web or mail infection."
+        },
+        {
+          "value": "abuse-of-storage",
+          "expanded": "Abuse of storage",
+          "description": "Threat of loss of records by improper /unauthorised use of storage devices."
         }
       ],
       "predicate": "unintentional-damage"
