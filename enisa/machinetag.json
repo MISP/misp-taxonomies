@@ -217,6 +217,21 @@
           "value": "disaster",
           "expanded": "Disaster (natural earthquakes, floods, landslides, tsunamis, heavy rains, heavy snowfalls, heavy winds)",
           "description": "Large scale natural disasters."
+        },
+        {
+          "value": "fire",
+          "expanded": "Fire",
+          "description": "Threat of fire."
+        },
+        {
+          "value": "pollution-dust-corrosion",
+          "expanded": "Pollution, dust, corrosion",
+          "description": "Threat of disruption of work of IT systems (hardware) due to pollution, dust or corrosion (arising from the air)."
+        },
+        {
+          "value": "thunderstrike",
+          "expanded": "Thunderstrike",
+          "description": "Threat of damage to IT hardware caused by thunder strike (overvoltage)."
         }
        ]
     }
