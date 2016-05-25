@@ -232,6 +232,46 @@
           "value": "thunderstrike",
           "expanded": "Thunderstrike",
           "description": "Threat of damage to IT hardware caused by thunder strike (overvoltage)."
+        },
+        {
+          "value": "water",
+          "expanded": "Water",
+          "description": "Threat of damage to IT hardware caused by water."
+        },
+        {
+          "value": "explosion",
+          "expanded": "Explosion",
+          "description": "Threat of damage to IT hardware caused by explosion."
+        },
+        {
+          "value": "dangerous-radiation-leak",
+          "expanded": "Dangerous radiation leak",
+          "description": "Threat of damage to IT hardware caused by radiation leak."
+        },
+        {
+          "value": "unfavourable-climatic-conditions",
+          "expanded": "Unfavourable climatic conditions",
+          "description": "Threat of disruption of work of IT systems due to climatic conditions that have a negative effect on hardware."
+        },
+        {
+          "value": "loss-of-data-or-accessibility-of-IT-infrastructure-as-a-result-of-heightened-humidity",
+          "expanded": "Loss of data or accessibility of IT infrastructure as a result of heightened humidity",
+          "description": "Threat of disruption of work of IT systems due to high humidity."
+        },
+        {
+          "value": "lost-of-data-or-accessibility-of-IT-infrastructure-as-a-result-of-very-high-temperature",
+          "expanded": "Lost of data or accessibility of IT infrastructure as a result of very high temperature",
+          "description": "Threat of disruption of work of IT systems due to high or low temperature."
+        },
+        {
+          "value":  "threats-from-space-or-electromagnetic-storm",
+          "expanded": "Threats from space / Electromagnetic storm",
+          "description": "Threats of the negative impact of solar radiation to satellites and radio wave communication systems - electromagnetic storm."
+        },
+        {
+          "value": "wildlife",
+          "expanded": "Wildlife",
+          "description": "Threat of destruction of IT assets caused by animals: mice, rats, birds."
         }
        ]
     }
