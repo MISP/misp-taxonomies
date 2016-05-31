@@ -2,27 +2,32 @@
   "namespace": "tlp",
   "expanded": "Traffic Light Protocol",
   "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "red",
-      "expanded": "(TLP:RED) Information exclusively and directly given to (a group of) individual recipients. Sharing outside is not legitimate."
+      "expanded": "(TLP:RED) Information exclusively and directly given to (a group of) individual recipients. Sharing outside is not legitimate.",
+      "colour": "#ff0000"
     },
     {
       "value": "amber",
-      "expanded": "(TLP:AMBER) Information exclusively given to an organization; sharing limited within the organization to be effectively acted upon."
+      "expanded": "(TLP:AMBER) Information exclusively given to an organization; sharing limited within the organization to be effectively acted upon.",
+      "colour:": "#ffa800"
     },
     {
       "value": "green",
-      "expanded": "(TLP:GREEN) Information given to a community or a group of organizations at large. The information cannot be publicly released."
+      "expanded": "(TLP:GREEN) Information given to a community or a group of organizations at large. The information cannot be publicly released.",
+      "colour": "#00ad1c"
     },
     {
       "value": "white",
-      "expanded": "(TLP:WHITE) Information can be shared publicly in accordance with the law."
+      "expanded": "(TLP:WHITE) Information can be shared publicly in accordance with the law.",
+      "colour": "#ffffff"
     },
     {
       "value": "ex:chr",
-      "expanded": "(TLP:EX:CHR) Information extended with a specific tag called Chatham House Rule (CHR). When this specific CHR tag is mentioned, the attribution (the source of information) must not be disclosed. This additional rule is at the discretion of the initial sender who can decide to apply or not the CHR tag."
+      "expanded": "(TLP:EX:CHR) Information extended with a specific tag called Chatham House Rule (CHR). When this specific CHR tag is mentioned, the attribution (the source of information) must not be disclosed. This additional rule is at the discretion of the initial sender who can decide to apply or not the CHR tag.",
+      "colour": "#d208f4"
     }
   ],
   "values": null
