@@ -18,6 +18,7 @@ The following taxonomies are described:
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [EU critical sectors](./eu-critical-sectors) - EU critical sectors
 - [EUCI](./euci) - EU classified information marking
+- [Europol Incidents](./europol-incident) - Europol class of incidents taxonomy
 - [FIRST CSIRT Case](./first_csirt_case_classification) classification
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
 - [Malware](./malware) classification based on a SANS document
