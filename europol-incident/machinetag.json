@@ -1,0 +1,195 @@
+{
+    "version": 1,
+    "description": "This taxonomy was design to describe the type of incidents bu class.",
+    "expanded": "Europol class of incidents taxonomy",
+    "namespace": "europol-incident",
+    "predicates": [
+        {
+            "value": "malware",
+            "expanded": "Malware"
+        },
+        {
+            "value": "availability",
+            "expanded": "Availability"
+        },
+        {
+            "value": "information-gathering",
+            "expanded": "Gathering of information"
+        },
+        {
+            "value": "intrusion-attempt",
+            "expanded": "Intrusion attempt"
+        },
+        {
+            "value": "intrusion",
+            "expanded": "Intrusion"
+        },
+        {
+            "value": "information-security",
+            "expanded": "Information security"
+        },
+        {
+            "value": "fraud",
+            "expanded": "Fraud"
+        },
+        {
+            "value": "abusive-content",
+            "expanded": "Abusive content"
+        },
+        {
+            "value": "other",
+            "expanded": "Other"
+        }
+    ],
+    "values": [
+        {
+            "predicate": "malware",
+            "entry": [
+                {
+                    "value": "infection",
+                    "expanded": "Infection",
+                    "description": "Infecting one or various systems with a specific type of malware."
+                },
+                {
+                    "value": "distribution",
+                    "expanded": "Distribution",
+                    "description": "Infecting one or various systems with a specific type of malware."
+                },
+                {
+                    "value": "c&c",
+                    "expanded": "C&C",
+                    "description": "Infecting one or various systems with a specific type of malware."
+                },
+                {
+                    "value": "undetermined",
+                    "expanded": "Undetermined"
+                }
+            ]
+        },
+        {
+            "predicate": "availability",
+            "entry": [
+                {
+                    "value": "dos-ddos",
+                    "expanded": "DoS/DDoS",
+                    "description": "Disruption of the processing and response capacity of systems and networks in order to render them inoperative."
+                },
+                {
+                    "value": "sabotage",
+                    "expanded": "Sabotage",
+                    "description": "Premeditated action to damage a system, interrupt a process, change or delete information, etc."
+                }
+            ]
+        },
+        {
+            "predicate": "information-gathering",
+            "entry": [
+                {
+                    "value": "scanning",
+                    "expanded": "Scanning",
+                    "description": "Active and passive gathering of information on systems or networks."
+                },
+                {
+                    "value": "sniffing",
+                    "expanded": "Sniffing",
+                    "description": "Unauthorised monitoring and reading of network traffic."
+                },
+                {
+                    "value": "phishing",
+                    "expanded": "Phishing",
+                    "description": "Attempt to gather information on a user or a system through phishing methods."
+                }
+            ]
+        },
+        {
+            "predicate": "intrusion-attempt",
+            "entry": [
+                {
+                    "value": "exploitation-vulnerability",
+                    "expanded": "Exploitation of vulnerability",
+                    "description": "Attempt to intrude by exploiting a vulnerability in a system, component or network."
+                },
+                {
+                    "value": "login-attempt",
+                    "expanded": "Login attempt",
+                    "description": "Attempt to log in to services or authentication / access control mechanisms."
+                }
+            ]
+        },
+        {
+            "predicate": "intrusion",
+            "entry": [
+                {
+                    "value": "exploitation-vulnerability",
+                    "expanded": "Exploitation of vulnerability",
+                    "description": "Actual intrusion by exploiting a vulnerability in the system, component or network."
+                },
+                {
+                    "value": "compromising-account",
+                    "expanded": "Compromising an account",
+                    "description": "Actual intrusion in a system, component or network by compromising a user or administrator account."
+                }
+            ]
+        },
+        {
+            "predicate": "information-security",
+            "entry": [
+                {
+                    "value": "unauthorized-access",
+                    "expanded": "Unauthorised access",
+                    "description": "Unauthorised access to a particular set of information"
+                },
+                {
+                    "value": "unauthorized-modification",
+                    "expanded": "Unauthorised modification/deletion",
+                    "description": "Unauthorised change or elimination of a particular set of information"
+                }
+            ]
+        },
+        {
+            "predicate": "fraud",
+            "entry": [
+                {
+                    "value": "illegitimate-use-resources",
+                    "expanded": "Misuse or unauthorised use of resources",
+                    "description": "Use of institutional resources for purposes other than those intended."
+                },
+                {
+                    "value": "illegitimate-use-name",
+                    "expanded": "Illegitimate use of the name of a third party",
+                    "description": "Use of the name of an institution without permission to do so."
+                }
+            ]
+        },
+        {
+            "predicate": "abusive-content",
+            "entry": [
+                {
+                    "value": "spam",
+                    "expanded": "SPAM",
+                    "description": " Sending SPAM messages."
+                },
+                {
+                    "value": "copyright",
+                    "expanded": "Copyright",
+                    "description": "Distribution and sharing of copyright protected content."
+                },
+                {
+                    "value": "content-forbidden-by-law",
+                    "expanded": "Dissemination of content forbidden by law.",
+                    "description": "Child pornography, racism and apology of violence."
+                }
+            ]
+        },
+        {
+            "predicate": "other",
+            "entry": [
+                {
+                    "value": "other",
+                    "expanded": "Other",
+                    "description": " Other type of unspecified incident"
+                }
+            ]
+        }
+    ]
+}
