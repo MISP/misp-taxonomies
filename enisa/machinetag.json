@@ -274,6 +274,47 @@
           "description": "Threat of destruction of IT assets caused by animals: mice, rats, birds."
         }
        ]
+    },
+    {
+      "predicate": "failures-malfunction",
+      "entry": [
+       {
+         "value": "failure-of-devices-or-systems",
+         "expanded": "Failure of devices or systems",
+         "description": "Threat of failure of IT hardware and/or software assets or its parts."
+       },
+       {
+          "value": "failure-of-data-media",
+          "expanded": "Failure of data media",
+          "description": "Threat of failure of data media."
+       },
+       {
+          "value": "hardware-failure",
+          "expanded": "Hardware failure",
+          "description": "Threat of failure of IT hardware."
+       },
+       {
+          "value": "failure-of-applications-and-services",
+          "expanded": "Failure of applications and services",
+          "description": "Threat of failure of software/applications or services."
+       },
+       {
+          "value": "failure-of-parts-of-devices-connectors-plug-ins",
+          "expanded": "Failure of parts of devices (connectors, plug-ins)",
+          "description": "Threat of failure of IT equipment or its part."
+       },
+       {
+          "value": "failure-or-disruption-of-communication-links-communication networks",
+          "expanded": "Failure or disruption of communication links (communication networks)",
+          "description": "Threat of failure or malfunction of communications links."
+
+       },
+       {
+          "value": "failure-of-cable-networks",
+          "expanded": "Failure of cable networks",
+          "description": "Threat of failure of communications links due to problems with cable network."
+       }
+       ]
     }
   ],
   "predicates": [
