@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "description": "This taxonomy was design to describe the type of incidents bu class.",
+    "description": "This taxonomy was designed to describe the type of incidents by class.",
     "expanded": "Europol class of incidents taxonomy",
     "namespace": "europol-incident",
     "predicates": [

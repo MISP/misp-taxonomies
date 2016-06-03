@@ -1,0 +1,239 @@
+{
+  "namespace": "europol-event",
+  "expanded": "Europol type of events taxonomy",
+  "description": "This taxonomy was designed to describe the type of events",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "infected-by-known-malware",
+      "expanded": "System(s) infected by known malware",
+      "description": "The presence of any of the types of malware was detected in a system."
+    },
+    {
+      "value": "dissemination-malware-email",
+      "expanded": "Dissemination of malware by email",
+      "description": "Malware attached to a message or email message containing link to malicious URL."
+    },
+    {
+      "value": "hosting-malware-webpage",
+      "expanded": "Hosting of malware on web page",
+      "description": " Web page disseminating one or various types of malware."
+    },
+    {
+      "value": "c&c-server-hosting",
+      "expanded": "Hosting of malware on web page",
+      "description": "Web page disseminating one or various types of malware."
+    },
+    {
+      "value": "worm-spreading",
+      "expanded": "Replication and spreading of a worm",
+      "description": "System infected by a worm trying to infect other systems."
+    },
+    {
+      "value": "connection-malware-port",
+      "expanded": "Connection to (a) suspicious port(s) linked to specific malware",
+      "description": "System attempting to gain access to a port normally linked to a specific type of malware."
+    },
+    {
+      "value": "connection-malware-system",
+      "expanded": "Connection to (a) suspicious system(s) linked to specific malware",
+      "description": "System attempting to gain access to an IP address or URL normally linked to a specific type of malware, e.g. C&C or a distribution page for components linked to a specific botnet."
+    },
+    {
+      "value": "flood",
+      "expanded": "Flood of requests",
+      "description": "Mass mailing of requests (network packets, emails, etc...) from one single source to a specific service, aimed at affecting its normal functioning."
+    },
+    {
+      "value": "exploit-tool-exhausting-resources",
+      "expanded": "Exploit or tool aimed at exhausting resources (network, processing capacity, sessions, etc...)",
+      "description": "One single source using specially designed software to affect the normal functioning of a specific service, by exploiting a vulnerability."
+    },
+    {
+      "value": "packet-flood",
+      "expanded": "Packet flooding",
+      "description": "Mass mailing of requests (network packets, emails, etc...) from various sources to a specific service, aimed at affecting its normal functioning."
+    },
+    {
+      "value": "exploit-framework-exhausting-resources",
+      "expanded": "Exploit or tool distribution aimed at exhausting resources",
+      "description": "Various sources using specially designed software to affect the normal functioning of a specific service, by exploiting a vulnerability."
+    },
+    {
+      "value": "vandalism",
+      "expanded": "Vandalism",
+      "description": "Logical and physical activities which – although they are not aimed at causing damage to information or at preventing its transmission among systems – have this effect."
+    },
+    {
+      "value": "disruption-data-transmission",
+      "expanded": "Intentional disruption of data transmission and processing mechanisms",
+      "description": "Logical and physical activities aimed at causing damage to information or at preventing its transmission among systems."
+    },
+    {
+      "value": "system-probe",
+      "expanded": "System probe",
+      "description": "Single system scan searching for open ports or services using these ports for responding."
+    },
+    {
+      "value": "network-scanning",
+      "expanded": "Network scanning",
+      "description": "Scanning a network aimed at identifying systems which are active in the same network."
+    },
+    {
+      "value": "dns-zone-transfer",
+      "expanded": "DNS zone transfer",
+      "description": "Transfer of a specific DNS zone."
+    },
+    {
+      "value": "wiretapping",
+      "expanded": "Wiretapping",
+      "description": "Logical or physical interception of communications."
+    },
+    {
+      "value": "dissemination-phishing-emails",
+      "expanded": "Dissemination of phishing emails",
+      "description": "Mass emailing aimed at collecting data for phishing purposes with regard to the victims."
+    },
+    {
+      "value": "hosting-phishing-sites",
+      "expanded": "Hosting phishing sites",
+      "description": "Hosting web sites for phishing purposes."
+    },
+    {
+      "value": "aggregation-information-phishing-schemes",
+      "expanded": "Aggregation of information gathered through phishing schemes",
+      "description": "Collecting data obtained through phishing attacks on web pages, email accounts, etc..."
+    },
+    {
+      "value": "exploit-attempt",
+      "expanded": "Exploit attempt",
+      "description": "Unsuccessful use of a tool exploiting a specific vulnerability of the system."
+    },
+    {
+      "value": "sql-injection-attempt",
+      "expanded": "SQL injection attempt",
+      "description": "Unsuccessful attempt to manipulate or read the information of a database by using the SQL injection technique."
+    },
+    {
+      "value": "xss-attempt",
+      "expanded": "XSS attempt",
+      "description": "Unsuccessful attempts to perform attacks by using cross-site scripting techniques."
+    },
+    {
+      "value": "file-inclusion-attempt",
+      "expanded": "File inclusion attempt",
+      "description": "Unsuccessful attempt to include files in the system under attack by using file inclusion techniques."
+    },
+    {
+      "value": "brute-force-attempt",
+      "expanded": "Brute force attempt",
+      "description": "Unsuccessful login attempt by using sequential credentials for gaining access to the system."
+    },
+    {
+      "value": "password-cracking-attempt",
+      "expanded": "Password cracking attempt",
+      "description": "Attempt to acquire access credentials by breaking the protective cryptographic keys."
+    },
+    {
+      "value": "dictionary-attack-attempt",
+      "expanded": "Dictionary attack attempt",
+      "description": "Unsuccessful login attempt by using system access credentials previously loaded into a dictionary."
+    },
+    {
+      "value": "exploit",
+      "expanded": "Use of a local or remote exploit",
+      "description": "Successful use of a tool exploiting a specific vulnerability of the system."
+    },
+    {
+      "value": "sql-injection",
+      "expanded": "SQL injection",
+      "description": "Manipulation or reading of information contained in a database by using the SQL injection technique."
+    },
+    {
+      "value": "xss",
+      "expanded": "XSS",
+      "description": "Attacks performed with the use of cross-site scripting techniques."
+    },
+    {
+      "value": "file-inclusion",
+      "expanded": "File inclusion",
+      "description": "Inclusion of files into a system under attack with the use of file inclusion techniques."
+    },
+    {
+      "value": "control-system-bypass",
+      "expanded": "Control system bypass",
+      "description": "Unauthorised access to a system or component by bypassing an access control system in place."
+    },
+    {
+      "value": "theft-access-credentials",
+      "expanded": "Theft of access credentials",
+      "description": "Unauthorised access to a system or component by using stolen access credentials."
+    },
+    {
+      "value": "unauthorized-access-system",
+      "expanded": "Unauthorised access to a system",
+      "description": "Unauthorised access to a system or component."
+    },
+    {
+      "value": "unauthorized-access-information",
+      "expanded": "Unauthorised access to information",
+      "description": "Unauthorised access to a set of information."
+    },
+    {
+      "value": "data-exfiltration",
+      "expanded": "Data exfiltration",
+      "description": "Unauthorised access to and sharing of a specific set of information."
+    },
+    {
+      "value": "modification-information",
+      "expanded": "Modification of information",
+      "description": "Unauthorised changes to a specific set of information."
+    },
+    {
+      "value": "deletion-information",
+      "expanded": "Deletion of information",
+      "description": "Unauthorised deleting of a specific set of information."
+    },
+    {
+      "value": "illegitimate-use-resources",
+      "expanded": "Misuse or unauthorised use of resources",
+      "description": "Use of institutional resources for purposes other than those intended."
+    },
+    {
+      "value": "illegitimate-use-name",
+      "expanded": "Illegitimate use of the name of an institution or third party",
+      "description": "Using the name of an institution without permission to do so."
+    },
+    {
+      "value": "email-flooding",
+      "expanded": "Email flooding",
+      "description": "Sending an unusually large quantity of email messages."
+    },
+    {
+      "value": "spam",
+      "expanded": "Sending an unsolicited message",
+      "description": "Sending an email message that was unsolicited or unwanted by the recipient."
+    },
+    {
+      "value": "copyrighted-content",
+      "expanded": "Distribution or sharing of copyright protected content",
+      "description": "Distribution or sharing of content protected by copyright and related rights."
+    },
+    {
+      "value": "content-forbidden-by-law",
+      "expanded": "Dissemination of content forbidden by law (publicly prosecuted offences)",
+      "description": "Distribution or sharing of illegal content such as child pornography, racism, xenophobia, etc..."
+    },
+    {
+      "value": "unspecified",
+      "expanded": "Other unspecified event",
+      "description": "Other unlisted events."
+    },
+    {
+      "value": "undetermined",
+      "expanded": "Undetermined",
+      "description": "Field aimed at the classification of unprocessed events, which have remained undetermined from the beginning."
+    }
+  ],
+  "values": null
+}
