@@ -395,6 +395,81 @@
           "description": "Threat of lack of communications links due to problems with mobile networks like cellular network (3G, LTE, GSM etc.) or satellite links."
        }
       ]
+    },
+    {
+        "predicate": "eavesdropping-interception-hijacking",
+        "entry": [
+           {
+                "value": "war-driving",
+                "expanded": "War driving",
+                "description": "Threat of locating and possibly exploiting connection to the wireless network."
+           },
+           {
+                "value": "intercepting-compromising-emissions",
+                "expanded": "Intercepting compromising emissions",
+                "description": "Threat of disclosure of transmitted information using interception and analysis of compromising emission."
+           },
+           {
+                "value": "interception-of-information",
+                "expanded": "Interception of information",
+                "description": "Threat of interception of information which is improperly secured in transmission or by improper actions of staff."
+           },
+           {
+                "value": "corporate-espionage",
+                "expanded": "Corporate espionage",
+                "description": "Threat of obtaining information secrets by dishonest means."
+           },
+           {
+                "value": "nation-state-espionage",
+                "expanded": "Nation state espionage",
+                "description": "Threats of stealing information by nation state espionage (e.g.  China based governmental espionage, NSA from USA)."
+           },
+           {
+                "value": "information-leakage-due-to-unsecured-wi-fi-like-rogue-access-points",
+                "expanded": "Information leakage due to unsecured Wi-Fi, rogue access points",
+                "description": "Threat of obtaining important information by insecure network rogue access points etc."
+           },
+           {
+                "value": "interfering-radiation",
+                "expanded": "Interfering radiation",
+                "description": "Threat of failure of IT hardware or transmission connection due to electromagnetic induction or electromagnetic radiation emitted by an outside source."
+           },
+           {
+                "value": "replay-of-messages",
+                "expanded": "Replay of messages",
+                "description": "Threat in which valid data transmission is maliciously or fraudulently repeated or delayed."
+           },
+           {
+                "value": "network-reconnaissance-network-traffic-manipulation-and-information-gathering",
+                "expanded": "Network Reconnaissance, Network traffic manipulation and Information gathering",
+                "description": "Threat of identifying information about a network to find security weaknesses."
+           },
+           {
+                "value": "man-in-the-middle-session-hijacking",
+                "expanded": "Man in the middle/ Session hijacking",
+                "description": "Threats that relay or alter communication between two parties."
+           }
+        ]
+    },
+    {
+        "predicate": "nefarious-activity-abuse",
+        "entry": [
+           {
+                "value": "identity-theft-identity-fraud-account)",
+                "expanded": "Identity theft (Identity Fraud/ Account)",
+                "description": "Threat of identity theft action."
+           },
+           {
+                "value": "credentials-stealing-trojans",
+                "expanded": "Credentials-stealing trojans",
+                "description": "Threat of identity theft action by malware computer programs."
+           },
+           {
+                "value": "receiving-unsolicited-e-mail",
+                "expanded": "Receiving unsolicited E-mail",
+                "description": "Threat of receiving unsolicited email which affects information security and efficiency."
+           }
+        ]
     }
   ],
   "predicates": [
