@@ -313,8 +313,88 @@
           "value": "failure-of-cable-networks",
           "expanded": "Failure of cable networks",
           "description": "Threat of failure of communications links due to problems with cable network."
+       },
+       {
+          "value": "failure-of-wireless-networks",
+          "expanded": "Failure of wireless networks",
+          "description": "Threat of failure of communications links due to problems with wireless networks."
+       },
+       {
+          "value": "failure-of-mobile-networks",
+          "expanded": "Failure of mobile networks",
+          "description": "Threat of failure of communications links due to problems with mobile networks."
+       },
+       {
+          "value": "failure-or-disruption-of-main-supply",
+          "expanded": "Failure or disruption of main supply",
+          "description": "Threat of failure or disruption of supply required for information systems."
+       },
+       {
+          "value": "failure-or-disruption-of-power-supply",
+          "expanded": "Failure or disruption of power supply",
+          "description": "Threat of failure or malfunction of power supply."
+       },
+       {
+          "value": "failure-of-cooling-infrastructure",
+          "expanded": "Failure of cooling infrastructure",
+          "description": "Threat of failure of IT assets due to improper work of cooling infrastructure."
+       },
+       {
+          "value": "failure-or-disruption-of-service-providers-supply-chain",
+          "expanded": "Failure or disruption of service providers (supply chain)",
+          "description": "Threat of failure or disruption of third party services required for proper operation of information systems."
+       },
+       {
+          "value": "malfunction-of-equipment-devices-or-systems",
+          "expanded": "Malfunction of equipment (devices or systems)",
+          "description": "Threat of malfunction of IT hardware and/or software assets or its parts (i.e. improper working parameters, jamming, rebooting)."
        }
        ]
+    },
+    {
+      "predicate": "outages",
+      "entry": [
+       {
+          "value": "absence-of-personnel",
+          "expanded": "Absence of personnel",
+          "description": "Unavailability of key personnel and their competences."
+       },
+       {
+          "value": "strike",
+          "expanded": "Strike",
+          "description": "Unavailability of staff due to a strike (large scale absence of personnel)."
+       },
+       {
+          "value": "loss-of-support-services",
+          "expanded": "Loss of support services",
+          "description": "Unavailability of support services required for proper operation of the information system."
+       },
+       {
+          "value": "internet-outage",
+          "expanded": "Internet outage",
+          "description": "Unavailability of the Internet connection."
+       },
+       {
+          "value": "network-outage",
+          "expanded": "Network outage",
+          "description": "Unavailability of communication links."
+       },
+       {
+          "value": "outage-of-cable-networks",
+          "expanded": "Outage of cable networks",
+          "description": "Threat of lack of communications links due to problems with cable network."
+       },
+       {
+          "value": "Outage-of-short-range-wireless-networks",
+          "expanded": "Outage of short-range wireless networks",
+          "description": "Threat of lack of communications links due to problems with wireless networks (802.11 networks, Bluetooth, NFC etc.)."
+       },
+       {
+          "value": "outages-of-long-range-wireless-networks",
+          "expanded": "Outages of long-range wireless networks",
+          "description": "Threat of lack of communications links due to problems with mobile networks like cellular network (3G, LTE, GSM etc.) or satellite links."
+       }
+      ]
     }
   ],
   "predicates": [
