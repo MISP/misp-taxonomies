@@ -468,6 +468,45 @@
                 "value": "receiving-unsolicited-e-mail",
                 "expanded": "Receiving unsolicited E-mail",
                 "description": "Threat of receiving unsolicited email which affects information security and efficiency."
+           },
+           {
+                "value": "spam",
+                "expanded": "SPAM",
+                "description": "Threat of receiving unsolicited, undesired, or illegal email messages."
+           },
+           {
+                "value": "unsolicited-infected-e-mails",
+                "expanded": "Unsolicited infected e-mails",
+                "description": "Threat emanating from unwanted emails that may contain infected attachments or links to malicious / infected web sites."
+           },
+           {
+                "value": "denial-of-service",
+                "expanded": "Denial of service",
+                "description": "Threat of service unavailability due to massive requests for services."
+           },
+           {
+                "value": "distributed-denial-of-network-service-network-layer-attack",
+                "expanded": "Distributed denial of network service (DDoS) (network layer attack i.e. Protocol exploitation / Malformed packets / Flooding / Spoofing)",
+                "description": "Threat of service unavailability due to a massive number of requests for access to network services from malicious clients."
+           },
+           {
+                "value": "distributed-denial-of-network-service-application-layer-attack",
+                "expanded": "Distributed denial of application service (DDoS) (application layer attack i.e. Ping of Death / XDoS / WinNuke / HTTP Floods)",
+                "description": "Threat of service unavailability due to massive requests sent by multiple malicious clients."
+           },
+           {
+                "value": "distributed-denial-of-network-service-amplification-reflection-attack",
+                "expanded": "Distributed DoS (DDoS) to both network and application services (amplification/reflection methods i.e. NTP/ DNS /.../ BitTorrent)",
+                "description": "Threat of creating a massive number of requests, using multiplication/amplification methods."
+           },
+           {
+                "value": "malicious-code-software-activity",
+                "expanded": "Malicious code/ software/ activity"
+           },
+           {
+                "value": "search-engine-poisoning",
+                "expanded": "Search Engine Poisoning",
+                "description": "Threat of deliberate manipulation of search engine indexes."
            }
         ]
     }
