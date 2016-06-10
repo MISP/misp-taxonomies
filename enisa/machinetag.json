@@ -452,6 +452,46 @@
         ]
     },
     {
+        "predicate": "legal",
+        "entry": [
+                {
+                        "value": "violation-of-rules-and-regulations-breach-of-legislation",
+                        "expanded": "Violation of rules and regulations / Breach of legislation",
+                        "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to violation of law or regulations."
+                },
+                {
+                        "value": "failure-to-meet-contractual-requirements",
+                        "expanded": "Failure to meet contractual requirements",
+                        "description": "Threat of financial penalty or loss of trust of customers and collaborators due to failure to meet contractual requirements."
+                },
+                {
+                        "value": "failure-to-meet-contractual-requirements-by-third-party",
+                        "expanded": "Failure to meet contractual requirements by third party",
+                        "description": "Threat of financial penalty or loss of trust of customers and collaborators due to a third party's failure to meet contractual requirements"
+                },
+                {
+                        "value": "unauthorized-use-of-IPR-protected-resources",
+                        "expanded": "Unauthorized use of IPR protected resources",
+                        "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to improper/illegal use of IPR protected material (IPR- Intellectual Property Rights."
+                },
+                {
+                        "value": "illegal-usage-of-file-sharing-services",
+                        "expanded": "Illegal usage of File Sharing services",
+                        "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to improper/illegal use of file sharing services."
+                },
+                {
+                        "value": "abuse-of-personal-data",
+                        "expanded": "Abuse of personal data",
+                        "description": "Threat of illegal use of personal data."
+                },
+                {
+                        "value": "judiciary-decisions-or-court-order",
+                        "expanded": "Judiciary decisions/court order",
+                        "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to judiciary decisions/court order."
+                }
+        ]
+    },
+    {
         "predicate": "nefarious-activity-abuse",
         "entry": [
            {
@@ -507,6 +547,341 @@
                 "value": "search-engine-poisoning",
                 "expanded": "Search Engine Poisoning",
                 "description": "Threat of deliberate manipulation of search engine indexes."
+           },
+           {
+                "value": "exploitation-of-fake-trust-of-social-media",
+                "expanded": "Exploitation of fake trust of social media",
+                "description": "Threat of malicious activities making use of trusted social media."
+           },
+           {
+                "value": "worms-trojans",
+                "expanded": "Worms/ Trojans",
+                "description": "Threat of malware computer programs (trojans/worms)."
+           },
+           {
+                "value": "rootkits",
+                "expanded": "Rootkits",
+                "description": "Threat of stealthy types of malware software."
+           },
+           {
+                "value": "mobile-malware",
+                "expanded": "Mobile malware",
+                "description": "Threat of mobile malware programs."
+           },
+           {
+                "value": "infected-trusted-mobile-apps",
+                "expanded": "Infected trusted mobile apps",
+                "description": "Threat of using mobile malware software that is recognised as trusted one."
+           },
+           {
+                "value": "elevation-of-privileges",
+                "expanded": "Elevation of privileges",
+                "description": "Threat of exploiting bugs, design flaws or configuration oversights in an operating system or software application to gain elevated access to resources."
+           },
+           {
+                "value": "web-application-attacks-injection-attacks-code-injection-SQL-XSS",
+                "expanded": "Web application attacks / injection attacks (Code injection: SQL, XSS)",
+                "description": "Threat of utilizing custom web applications embedded within social media sites, which can lead to installation of malicious code onto computers to be used to gain unauthorized access."
+           },
+           {
+                "value": "spyware-or-deceptive-adware",
+                "expanded": "Spyware or deceptive adware",
+                "description": "Threat of using software that aims to gather information about a person or organization without their knowledge."
+           },
+           {
+                "value": "viruses",
+                "expanded": "Viruses",
+                "description": "Threat of infection by viruses."
+           },
+           {
+                "value": "rogue-security-software-rogueware-scareware",
+                "expanded": "Rogue security software/ Rogueware / Scareware",
+                "description": "Threat of internet fraud or malicious software that mislead users into believing there is a virus on their computer, and manipulates them to pay money for fake removal tool."
+           },
+           {
+                "value": "ransomware",
+                "expanded": "Ransomware",
+                "description": "Threat of infection of computer system or device by malware that restricts access to it and demands that the user pay a ransom to remove the restriction."
+           },
+           {
+                "value": "exploits-exploit-kits",
+                "expanded": "Exploits/Exploit Kits",
+                "description": "Threat to IT assets due to the use of web available exploits or exploits software."
+           },
+           {
+                "value": "social-engineering",
+                "expanded": "Social Engineering",
+                "description": "Threat of social engineering type attacks (target: manipulation of personnel behaviour)."
+           },
+           {
+                "value": "phishing-attacks",
+                "expanded": "Phishing attacks",
+                "description": "Threat of an email fraud method in which the perpetrator sends out legitimate-looking email in an attempt to gather personal and financial information from recipients. Typically, the messages appear to come from well-known and trustworthy websites."
+           },
+           {
+                "value": "spear-phishing-attacks",
+                "expanded": "Spear phishing attacks",
+                "description": "Spear-phishing is a targeted e-mail message that has been crafted to create fake trust and thus lure the victim to unveil some business or personal secrets that can be abused by the adversary."
+           },
+           {
+                "value": "abuse-of-information-leakage",
+                "expanded": "Abuse of Information Leakage",
+                "description": "Threat of leaking important information."
+           },
+           {
+                "value": "leakage-affecting-mobile-privacy-and-mobile-applications",
+                "expanded": "Leakage affecting mobile privacy and mobile applications",
+                "description": "Threat of leaking important information due to using malware mobile applications."
+           },
+           {
+                "value": "leakage-affecting-web-privacy-and-web-applications",
+                "expanded": "Leakage affecting web privacy and web applications",
+                "description": "Threat of leakage important information due to using malware web applications."
+           },
+           {
+                "value": "leakage-affecting-network-traffic",
+                "expanded": "Leakage affecting network traffic",
+                "description": "Threat of leaking important information in network traffic."
+           },
+           {
+                "value": "leakage-affecting-cloud-computing",
+                "expanded": "Leakage affecting cloud computing",
+                "description": "Threat of leaking important information in cloud computing."
+           },
+           {
+                "value": "generation-and-use-of-rogue-certificates",
+                "expanded": "Generation and use of rogue certificates",
+                "description": "Threat of use of rogue certificates."
+           },
+           {
+                "value": "loss-of-integrity-of-sensitive-information",
+                "expanded": "Loss of (integrity of) sensitive information",
+                "description": "Threat of loss of sensitive information due to loss of integrity."
+           },
+           {
+                "value": "man-in-the-middle-session-hijacking",
+                "expanded": "Man in the middle / Session hijacking",
+                "description": "Threat of attack consisting in the exploitation of the web session control mechanism, which is normally managed by a session token."
+           },
+           {
+                "value": "social-engineering-via-signed-malware",
+                "expanded": "Social Engineering / signed malware",
+                "description": "Threat of install fake trust signed software (malware) e.g. fake OS updates."
+           },
+           {
+                "value": "fake-SSL-certificates",
+                "expanded": "Fake SSL certificates",
+                "description": "Threat of attack due to malware application signed by a certificate that is typically inherently trusted by an endpoint."
+           },
+           {
+                "value": "manipulation-of-hardware-and-software",
+                "expanded": "Manipulation of hardware and software",
+                "description": "Threat of unauthorised manipulation of hardware and software."
+           },
+           {
+                "value": "anonymous-proxies",
+                "expanded": "Anonymous proxies",
+                "description": "Threat of unauthorised manipulation by anonymous proxies."
+           },
+           {
+                "value": "abuse-of-computing-power-of-cloud-to-launch-attacks-cybercrime-as-a-service)",
+                "expanded": "Abuse of computing power of cloud to launch attacks (cybercrime as a service)",
+                "description": "Threat of using large computing powers to generate attacks on demand."
+           },
+           {
+                "value": "abuse-of-vulnerabilities-0-day-vulnerabilities",
+                "expanded": "Abuse of vulnerabilities, 0-day vulnerabilities",
+                "description": "Threat of attacks using 0-day or known IT assets vulnerabilities."
+           },
+           {
+                "value": "access-of-web-sites-through-chains-of-HTTP-Proxies-Obfuscation",
+                "expanded": "Access of web sites through chains of HTTP Proxies (Obfuscation)",
+                "description": "Threat of bypassing the security mechanism using HTTP proxies (bypassing the website blacklist)."
+           },
+           {
+                "value": "access-to-device-software",
+                "expanded": "Access to device software",
+                "description": "Threat of unauthorised manipulation by access to device software."
+           },
+           {
+                "value": "alternation-of-software",
+                "expanded": "Alternation of software",
+                "description": "Threat of unauthorized modifications to code or data, attacking its integrity."
+           },
+           {
+                "value": "rogue-hardware",
+                "expanded": "Rogue hardware",
+                "description": "Threat of manipulation due to unauthorized access to hardware."
+           },
+           {
+                "value": "manipulation-of-information",
+                "expanded": "Manipulation of information",
+                "description": "Threat of intentional data manipulation to mislead information systems or somebody or to cover other nefarious activities (loss of integrity of information)."
+           },
+           {
+                "value": "repudiation-of-actions",
+                "expanded": "Repudiation of actions",
+                "description": "Threat of intentional data manipulation to repudiate action."
+           },
+           {
+                "value": "address-space-hijacking-IP-prefixes",
+                "expanded": "Address space hijacking (IP prefixes)",
+                "description": "Threat of the illegitimate takeover of groups of IP addresses."
+           },
+           {
+                "value": "routing-table-manipulation",
+                "expanded": "Routing table manipulation",
+                "description": "Threat of route packets of network to IP addresses other than that was intended via sender by unauthorised manipulation of routing table."
+           },
+           {
+                "value": "DNS-poisoning-or-DNS-spoofing-or-DNS-Manipulations",
+                "expanded": "DNS poisoning / DNS spoofing / DNS Manipulations",
+                "description": "Threat of falsification of DNS information."
+           },
+           {
+                "value": "falsification-of-record",
+                "expanded": "Falsification of record",
+                "description": "Threat of intentional data manipulation to falsify records."
+           },
+           {
+                "value": "autonomous-system-hijacking",
+                "expanded": "Autonomous System hijacking",
+                "description": "Threat of overtaking by the attacker the ownership of a whole autonomous system and its prefixes despite origin validation."
+           },
+           {
+                "value": "autonomous-system-manipulation",
+                "expanded": "Autonomous System manipulation",
+                "description": "Threat of manipulation by the attacker of a whole autonomous system in order to perform malicious actions."
+           },
+           {
+                "value": "falsification-of-configurations",
+                "expanded": "Falsification of configurations",
+                "description": "Threat of intentional manipulation due to falsification of configurations."
+           },
+           {
+                "value": "misuse-of-audit-tools",
+                "expanded": "Misuse of audit tools",
+                "description": "Threat of nefarious actions performed using audit tools (discovery of security weaknesses in information systems)"
+           },
+           {
+                "value": "misuse-of-information-or-information systems-including-mobile-apps",
+                "expanded": "Misuse of information/ information systems (including mobile apps)",
+                "description": "Threat of nefarious action due to misuse of information / information systems."
+           },
+           {
+                "value": "unauthorized-activities",
+                "expanded": "Unauthorized activities",
+                "description": "Threat of nefarious action due to unauthorised activities."
+           },
+           {
+                "value": "Unauthorised-use-or-administration-of-devices-and-systems",
+                "expanded": "Unauthorised use or administration of devices and systems",
+                "description": "Threat of nefarious action due to unauthorised use of devices and systems."
+           },
+           {
+                "value": "unauthorised-use-of-software",
+                "expanded": "Unauthorised use of software",
+                "description": "Threat of nefarious action due to unauthorised use of software."
+           },
+           {
+                "value": "unauthorized-access-to-the-information-systems-or-networks-like-IMPI-Protocol-DNS-Registrar-Hijacking)",
+                "expanded": "Unauthorized access to the information systems-or-networks (IMPI Protocol / DNS Registrar Hijacking)",
+                "description": "Threat of unauthorised access to the information systems / network."
+           },
+           {
+                "value": "network-intrusion",
+                "expanded": "Network Intrusion",
+                "description": "Threat of unauthorised access to network."
+           },
+           {
+                "value": "unauthorized-changes-of-records",
+                "expanded": "Unauthorized changes of records",
+                "description": "Threat of unauthorised changes of information."
+           },
+           {
+                "value": "unauthorized-installation-of-software",
+                "expanded": "Unauthorized installation of software",
+                "description": "Threat of unauthorised installation of software."
+           },
+           {
+                "value": "Web-based-attacks-drive-by-download-or-malicious-URLs-or-browser-based-attacks",
+                "expanded": "Web based attacks (Drive-by download / malicious URLs / Browser based attacks)",
+                "description": "Threat of installation of unwanted malware software by misusing websites."
+           },
+           {
+                "value": "compromising-confidential-information-like-data-breaches",
+                "expanded": "Compromising confidential information (data breaches)",
+                "description": "Threat of data breach."
+           },
+           {
+                "value": "hoax",
+                "expanded": "Hoax",
+                "description": "Threat of loss of IT assets security due to cheating."
+           },
+           {
+                "value": "false-rumour-and-or-fake-warning",
+                "expanded": "False rumour and/or fake warning",
+                "description": "Threat of disruption of work due to rumours and/or a fake warning."
+           },
+           {
+                "value": "remote-activity-execution",
+                "expanded": "Remote activity (execution)",
+                "description": "Threat of nefarious action by attacker remote activity."
+           },
+           {
+                "value": "remote-command-execution",
+                "expanded": "Remote Command Execution",
+                "description": "Threat of nefarious action due to remote command execution."
+           },
+           {
+                "value": "remote-access-tool",
+                "expanded": "Remote Access Tool (RAT)",
+                "description": "Threat of infection of software that has a remote administration capabilities allowing an attacker to control the victim's computer."
+           },
+           {
+                "value": "botnets-remote-activity",
+                "expanded": "Botnets / Remote activity",
+                "description": "Threat of penetration by software from malware distribution."
+           },
+           {
+                "value": "targeted-attacks",
+                "expanded": "Targeted attacks (APTs etc.)",
+                "description": "Threat of sophisticated, targeted attack which combine many attack techniques."
+           },
+           {
+                "value": "mobile-malware",
+                "expanded": "Mobile malware",
+                "description": "Threat of mobile software that aims to gather information about a person or organization without their knowledge."
+           },
+           {
+                "value": "spear-phishing-attacks",
+                "expanded": "Spear phishing attacks",
+                "description": "Threat of attack focused on a single user or department within an organization, coming from someone within the company in a position of trust and requesting information such as login, IDs and passwords."
+           },
+           {
+                "value": "installation-of-sophisticated-and-targeted-malware",
+                "expanded": "Installation of sophisticated and targeted malware",
+                "description": "Threat of malware delivered by sophisticated and targeted software."
+           },
+           {
+                "value": "watering-hole-attacks",
+                "expanded": "Watering Hole attacks",
+                "description": "Threat of malware residing on the websites which a group often uses."
+           },
+           {
+                "value": "failed-business-process",
+                "expanded": "Failed business process",
+                "description": "Threat of damage or loss of IT assets due to improperly executed business process."
+           },
+           {
+                "value": "brute-force",
+                "expanded": "Brute force",
+                "description": "Threat of unauthorised access via systematically checking all possible keys or passwords until the correct one is found."
+           },
+           {
+                "value": "abuse-of-authorizations",
+                "expanded": "Abuse of authorizations",
+                "description": "Threat of using authorised access to perform illegitimate actions."
            }
         ]
     }
@@ -553,7 +928,7 @@
       "value": "legal"
     }
   ],
-  "version": 1,
+  "version": 201601,
   "description": "The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015.",
   "expanded": "ENISA Threat Taxonomy",
   "namespace": "enisa"
