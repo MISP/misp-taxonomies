@@ -17,6 +17,15 @@
         }
       ],
       "predicate": "api"
+    },
+    {
+     "predicate": "contributor",
+     "entry": [
+        {
+          "expanded": "OpenPGP Fingerprint",
+          "value": "pgpfingerprint"
+        }
+     ]
     }
   ],
   "predicates": [
@@ -27,6 +36,10 @@
     {
       "expanded": "API related tag influencing the MISP behavior of the API.",
       "value": "api"
+    },
+    {
+      "expanded": "Information related to the contributor.",
+      "value": "contributor"
     }
   ],
   "version": 1,
