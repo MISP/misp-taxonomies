@@ -1,0 +1,308 @@
+{
+  "namespace": "iep",
+  "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) framework",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "id",
+      "expanded": "POLICY ID",
+      "description": "Provides a unique ID to identify a specific IEP implementation."
+    },
+    {
+      "value": "version",
+      "expanded": "POLICY VERSION",
+      "description": "States the version of the IEP framework that has been used."
+    },
+    {
+      "value": "name",
+      "expanded": "POLICY NAME",
+      "description": "This statement can be used to provide a name for an IEP implementation."
+    },
+    {
+      "value": "start-date",
+      "expanded": "POLICY START DATE",
+      "description": "States the UTC date that the IEP is effective from."
+    },
+    {
+      "value": "end-date",
+      "expanded": "POLICY END DATE",
+      "description": "States the UTC4 date that the IEP is effective until."
+    },
+    {
+      "value": "reference",
+      "expanded": "POLICY REFERENCE",
+      "description": "This statement can be used to provide a URL reference to the specific IEP implementation."
+    },
+    {
+      "value": "research",
+      "expanded": "RESEARCH",
+      "description": "Recipients could be permitted use of information received in research."
+    },
+    {
+      "value": "commercial-use",
+      "expanded": "COMMERCIAL USE",
+      "description": "States whether Recipients are permitted to use information received in commercial products or services."
+    },
+    {
+      "value": "terms-of-use",
+      "expanded": "TERMS OF USE",
+      "description": "This statement can be used to convey a description or reference to any applicable licenses, agreements, or conditions between the producer and receiver."
+    },
+    {
+      "value": "encrypt-in-transit",
+      "expanded": "ENCRYPT IN TRANSIT",
+      "description": "States whether the received information has to be encrypted when it is retransmitted by the recipient."
+    },
+    {
+      "value": "encrypt-at-rest",
+      "expanded": "ENCRYPT AT REST",
+      "description": "States whether the received information has to be encrypted by the Recipient when it is stored at rest."
+    },
+    {
+      "value": "permitted-actions",
+      "expanded": "PERMITTED ACTIONS",
+      "description": "States the permitted actions that Recipients can take upon information received."
+    },
+    {
+      "value": "victim-notifications",
+      "expanded": "VICTIM NOTIFICATIONS",
+      "description": "Recipients are permitted notify affected third parties of a potential compromise or threat."
+    },
+    {
+      "value": "traffic-light-protocol",
+      "expanded": "TRAFFIC LIGHT PROTOCOL",
+      "description": "Recipients are permitted to redistribute the information received within the redistribution scope as defined by the enumerations."
+    },
+    {
+      "value": "transitive-trust-required",
+      "expanded": "TRANSITIVE TRUST REQUIRED",
+      "description": "Policy Description Recipients are permitted to redistribute the information received only with third parties the Recipient can ensure will protect the information to the same extent as the Provider requires of the Recipient."
+    },
+    {
+      "value": "provider-attribution",
+      "expanded": "PROVIDER ATTRIBUTION",
+      "description": "Recipients could be required to attribute or anonymize the Provider when redistributing the information received."
+    },
+    {
+      "value": "obfuscate-victims",
+      "expanded": "OBFUSCATE VICTIMS",
+      "description": "Recipients could be required to obfuscate or anonymize information that could be used to identify the victims before redistributing the information received."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "research",
+      "entry": [
+        {
+          "value": "MAY",
+          "expanded": "Recipients MAY use this information for Research."
+        },
+        {
+          "value": "MUST NOT",
+          "expanded": "Recipients MUST NOT use this information for Research."
+        }
+      ]
+    },
+    {
+      "predicate": "commercial-use",
+      "entry": [
+        {
+          "value": "MAY",
+          "expanded": "Recipients MAY use this information in commercial products or services."
+        },
+        {
+          "value": "MUST NOT",
+          "expanded": "Recipients MUST NOT use this information in commercial products or services."
+        }
+      ]
+    },
+    {
+      "predicate": "terms-of-use",
+      "entry": [
+        {
+          "value": "$text"
+        }
+      ]
+    },
+    {
+      "predicate": "encrypt-in-transit",
+      "entry": [
+        {
+          "value": "MUST",
+          "expanded": "Recipients MUST encrypt the information received when it is retransmitted or redistributed."
+        },
+        {
+          "value": "MAY",
+          "expanded": "Recipients MAY encrypt the information received when it is retransmitted or redistributed."
+        }
+      ]
+    },
+    {
+      "predicate": "encrypt-at-rest",
+      "entry": [
+        {
+          "value": "MUST",
+          "expanded": "Recipients MUST encrypt the information received when it is stored at rest."
+        },
+        {
+          "value": "MAY",
+          "expanded": "Recipients MAY encrypt the information received when it is stored at rest."
+        }
+      ]
+    },
+    {
+      "predicate": "permitted-actions",
+      "entry": [
+        {
+          "value": "NONE",
+          "expanded": "Recipients MUST contact the Providers before acting upon the information received."
+        },
+        {
+          "value": "CONTACT FOR INSTRUCTION",
+          "expanded": "Recipients MUST contact the Providers before acting upon the information received."
+        },
+        {
+          "value": "INTERNALLY VISIBLE ACTIONS",
+          "expanded": "Recipients MAY conduct actions on the information received that are only visible on the Recipients internal networks and systems, and MUST NOT conduct actions that are visible outside of the Recipients networks and systems, or visible to third parties."
+        },
+        {
+          "value": "EXTERNALLY VISIBLE INDIRECT ACTIONS",
+          "expanded": "Recipients MAY conduct indirect, or passive, actions on the information received that are externally visible and MUST NOT conduct direct, or active, actions."
+        },
+        {
+          "value": "EXTERNALLY VISIBLE DIRECT ACTIONS",
+          "expanded": "Recipients MAY conduct direct, or active, actions on the information received that are externally visible."
+        }
+      ]
+    },
+    {
+      "predicate": "victim-notifications",
+      "entry": [
+        {
+          "value": "MAY",
+          "expanded": "Recipients MAY conduct active actions that are externally visible, on the information received."
+        },
+        {
+          "value": "MUST NOT",
+          "expanded": "Recipients MUST NOT conduct active actions that are externally visible, on the information received."
+        }
+      ]
+    },
+    {
+      "predicate": "traffic-light-protocol",
+      "entry": [
+        {
+          "value": "RED",
+          "expanded": "Personal for identified recipients only."
+        },
+        {
+          "value": "AMBER",
+          "expanded": "Limited sharing on the basis of need-to-know."
+        },
+        {
+          "value": "GREEN",
+          "expanded": "Community wide sharing."
+        },
+        {
+          "value": "WHITE",
+          "expanded": "Unlimited sharing."
+        }
+      ]
+    },
+    {
+      "predicate": "transitive-trust-required",
+      "entry": [
+        {
+          "value": "MAY",
+          "expanded": "Recipients MAY redistribute the information with third parties the Recipient does not have a formal agreement with."
+        },
+        {
+          "value": "MUST",
+          "expanded": "Recipients MUST only redistribute information with third parties that will protect the information to the same extent the Provider requires of the Recipient."
+        }
+      ]
+    },
+    {
+      "predicate": "provider-attribution",
+      "entry": [
+        {
+          "value": "MAY",
+          "expanded": "Recipients MAY attribute the Provider when redistributing the information received."
+        },
+        {
+          "value": "MUST",
+          "expanded": "Recipients MUST attribute the Provider when redistributing the information received."
+        },
+        {
+          "value": "MUST NOT",
+          "expanded": "Recipients MUST NOT attribute the Provider when redistributing the information received."
+        }
+      ]
+    },
+    {
+      "predicate": "obfuscate-victims",
+      "entry": [
+        {
+          "value": "MAY",
+          "expanded": "Recipients MAY obfuscate information about the specific victims."
+        },
+        {
+          "value": "MUST",
+          "expanded": "Recipients MUST obfuscate information about the specific victims."
+        },
+        {
+          "value": "MUST NOT",
+          "expanded": "Recipients MUST NOT obfuscate information about the specific victims."
+        }
+      ]
+    },
+    {
+      "predicate": "start-date",
+      "entry": [
+        {
+          "value": "$text"
+        }
+      ]
+    },
+    {
+      "predicate": "end-date",
+      "entry": [
+        {
+          "value": "$text"
+        }
+      ]
+    },
+    {
+      "predicate": "reference",
+      "entry": [
+        {
+          "value": "$text"
+        }
+      ]
+    },
+    {
+      "predicate": "name",
+      "entry": [
+        {
+          "value": "$text"
+        }
+      ]
+    },
+    {
+      "predicate": "version",
+      "entry": [
+        {
+          "value": "$text"
+        }
+      ]
+    },
+    {
+      "predicate": "id",
+      "entry": [
+        {
+          "value": "$text"
+        }
+      ]
+    }
+  ]
+}
