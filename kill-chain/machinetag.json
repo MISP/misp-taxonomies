@@ -1,0 +1,36 @@
+{
+  "namespace": "kill-chain",
+  "expanded": "Cyber Kill Chain",
+  "description": "The Cyber Kill Chain, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "Reconnaissance",
+      "expanded": "This is the first and most important opportunity for defenders to block the operation. A key measure of effectiveness is the fraction of intrusion attempts that are blocked at delivery stage."
+    },
+    {
+      "value": "Weaponisation",
+      "expanded": "This is the first and most important opportunity for defenders to block the operation. A key measure of effectiveness is the fraction of intrusion attempts that are blocked at delivery stage."
+    },
+    {
+      "value": "Delivery",
+      "expanded": "This is the first and most important opportunity for defenders to block the operation. A key measure of effectiveness is the fraction of intrusion attempts that are blocked at delivery stage. "
+    },
+    {
+      "value": "Exploitation",
+      "expanded": "Here traditional hardening measures add resiliency, but custom capabilities are necessary to stop zero-day exploits at this stage."
+    },
+    {
+      "value": "Installation",
+      "expanded": "Here traditional hardening measures add resiliency, but custom capabilities are necessary to stop zero-day exploits at this stage."
+    },
+    {
+      "value": "Command and Control",
+      "expanded": "The defender’s last best chance to block the operation: by blocking the C2 channel. If adversaries can’t issue commands, defenders can prevent impact."
+    },
+    {
+      "value": "Actions on Objectives",
+      "expanded": "The defender’s last best chance to block the operation: by blocking the C2 channel. If adversaries can’t issue commands, defenders can prevent impact."
+    }
+  ]
+}
