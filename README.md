@@ -13,6 +13,7 @@ The following taxonomies are described:
 - [Admiralty Scale](./admiralty-scale)
 - [adversary](./adversary) - description of an adversary infrastructure
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
+- [Cyber Kill Chain](./kill-chain) from Lockheed Martin
 - DE German (DE) [Government classification markings (VS)](./de-vs)
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
@@ -40,6 +41,10 @@ An overview and description of the adversary infrastructure.
 ### CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 
 CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place.
+
+### [Cyber Kill Chain](./kill-chain) from Lockheed Martin
+
+Cyber Kill Chain from Lockheed Martin as described in [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf).
 
 ### DE German (DE) [Government classification markings (VS)](./de-vs)
 
