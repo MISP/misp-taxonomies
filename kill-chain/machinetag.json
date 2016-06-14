@@ -6,31 +6,31 @@
   "predicates": [
     {
       "value": "Reconnaissance",
-      "expanded": "This is the first and most important opportunity for defenders to block the operation. A key measure of effectiveness is the fraction of intrusion attempts that are blocked at delivery stage."
+      "expanded": "Research, identification and selection of targets, often represented as crawling Internet websites such as conference proceedings and mailing lists for email addresses, social relationships, or information on specific technologies."
     },
     {
       "value": "Weaponisation",
-      "expanded": "This is the first and most important opportunity for defenders to block the operation. A key measure of effectiveness is the fraction of intrusion attempts that are blocked at delivery stage."
+      "expanded": "Coupling a remote access trojan with an exploit into a deliverable payload, typically by means of an automated tool (weaponizer). Increasingly, client application data files such as Adobe Portable Document Format (PDF) or Microsoft Office documents serve as the weaponized deliverable."
     },
     {
       "value": "Delivery",
-      "expanded": "This is the first and most important opportunity for defenders to block the operation. A key measure of effectiveness is the fraction of intrusion attempts that are blocked at delivery stage. "
+      "expanded": "Transmission of the weapon to the targeted environment. The three most prevalent delivery vectors for weaponized payloads by APT actors, as observed by the Lockheed Martin Computer Incident Response Team (LM-CIRT) for the years 2004-2010, are email attachments, websites, and USB removable media."
     },
     {
       "value": "Exploitation",
-      "expanded": "Here traditional hardening measures add resiliency, but custom capabilities are necessary to stop zero-day exploits at this stage."
+      "expanded": "After the weapon is delivered to victim host, exploitation triggers intruders' code. Most often, exploitation targets an application or operating system vulnerability, but it could also more simply exploit the users themselves or leverage an operating system feature that auto-executes code."
     },
     {
       "value": "Installation",
-      "expanded": "Here traditional hardening measures add resiliency, but custom capabilities are necessary to stop zero-day exploits at this stage."
+      "expanded": "Installation of a remote access trojan or backdoor on the victim system allows the adversary to maintain persistence inside the environment."
     },
     {
       "value": "Command and Control",
-      "expanded": "The defender’s last best chance to block the operation: by blocking the C2 channel. If adversaries can’t issue commands, defenders can prevent impact."
+      "expanded": "Typically, compromised hosts must beacon outbound to an Internet controller server to establish a C2 channel. APT malware especially requires manual interaction rather than conduct activity automatically. Once the C2 channel establishes, intruders have 'hands on the keyboard' access inside the target environment."
     },
     {
       "value": "Actions on Objectives",
-      "expanded": "The defender’s last best chance to block the operation: by blocking the C2 channel. If adversaries can’t issue commands, defenders can prevent impact."
+      "expanded": "Only now, after progressing through the first six phases, can intruders take actions to achieve their original objectives. Typically, this objective is data exfiltration which involves collecting, encrypting and extracting information from the victim environment; violations of data integrity or availability are potential objectives as well. Alternatively, the intruders may only desire access to the initial victim box for use as a hop point to compromise additional systems and move laterally inside the network."
     }
   ]
 }
