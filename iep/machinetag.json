@@ -34,18 +34,13 @@
       "description": "This statement can be used to provide a URL reference to the specific IEP implementation."
     },
     {
-      "value": "research",
-      "expanded": "RESEARCH",
-      "description": "Recipients could be permitted use of information received in research."
-    },
-    {
       "value": "commercial-use",
       "expanded": "COMMERCIAL USE",
       "description": "States whether Recipients are permitted to use information received in commercial products or services."
     },
     {
-      "value": "terms-of-use",
-      "expanded": "TERMS OF USE",
+      "value": "external-reference",
+      "expanded": "EXTERNAL REFERENCE",
       "description": "This statement can be used to convey a description or reference to any applicable licenses, agreements, or conditions between the producer and receiver."
     },
     {
@@ -64,8 +59,8 @@
       "description": "States the permitted actions that Recipients can take upon information received."
     },
     {
-      "value": "victim-notifications",
-      "expanded": "VICTIM NOTIFICATIONS",
+      "value": "affected-party-notifications",
+      "expanded": "AFFECTED PARTY NOTIFICATIONS",
       "description": "Recipients are permitted notify affected third parties of a potential compromise or threat."
     },
     {
@@ -74,35 +69,22 @@
       "description": "Recipients are permitted to redistribute the information received within the redistribution scope as defined by the enumerations."
     },
     {
-      "value": "transitive-trust-required",
-      "expanded": "TRANSITIVE TRUST REQUIRED",
-      "description": "Policy Description Recipients are permitted to redistribute the information received only with third parties the Recipient can ensure will protect the information to the same extent as the Provider requires of the Recipient."
-    },
-    {
       "value": "provider-attribution",
       "expanded": "PROVIDER ATTRIBUTION",
       "description": "Recipients could be required to attribute or anonymize the Provider when redistributing the information received."
     },
     {
-      "value": "obfuscate-victims",
-      "expanded": "OBFUSCATE VICTIMS",
+      "value": "obfuscate-affected-parties",
+      "expanded": "OBFUSCATE AFFECTED PARTIES",
       "description": "Recipients could be required to obfuscate or anonymize information that could be used to identify the victims before redistributing the information received."
+    },
+    {
+      "value": "unmodified-resale",
+      "expanded": "UNMODIFIED RESALE",
+      "description": "States whether the recipient MAY or MUST NOT resell the information received unmodified or in a semantically equivalent format."
     }
   ],
   "values": [
-    {
-      "predicate": "research",
-      "entry": [
-        {
-          "value": "MAY",
-          "expanded": "Recipients MAY use this information for Research."
-        },
-        {
-          "value": "MUST NOT",
-          "expanded": "Recipients MUST NOT use this information for Research."
-        }
-      ]
-    },
     {
       "predicate": "commercial-use",
       "entry": [
@@ -117,7 +99,7 @@
       ]
     },
     {
-      "predicate": "terms-of-use",
+      "predicate": "external-reference",
       "entry": [
         {
           "value": "$text"
@@ -176,15 +158,15 @@
       ]
     },
     {
-      "predicate": "victim-notifications",
+      "predicate": "affected-party-notifications",
       "entry": [
         {
           "value": "MAY",
-          "expanded": "Recipients MAY conduct active actions that are externally visible, on the information received."
+          "expanded": "Recipients MAY notify affected parties of a potential compromise or threat."
         },
         {
           "value": "MUST NOT",
-          "expanded": "Recipients MUST NOT conduct active actions that are externally visible, on the information received."
+          "expanded": "Recipients MUST NOT notify affected parties of potential compromise or threat."
         }
       ]
     },
@@ -210,19 +192,6 @@
       ]
     },
     {
-      "predicate": "transitive-trust-required",
-      "entry": [
-        {
-          "value": "MAY",
-          "expanded": "Recipients MAY redistribute the information with third parties the Recipient does not have a formal agreement with."
-        },
-        {
-          "value": "MUST",
-          "expanded": "Recipients MUST only redistribute information with third parties that will protect the information to the same extent the Provider requires of the Recipient."
-        }
-      ]
-    },
-    {
       "predicate": "provider-attribution",
       "entry": [
         {
@@ -240,19 +209,32 @@
       ]
     },
     {
-      "predicate": "obfuscate-victims",
+      "predicate": "obfuscate-affected-parties",
       "entry": [
         {
           "value": "MAY",
-          "expanded": "Recipients MAY obfuscate information about the specific victims."
+          "expanded": "Recipients MAY obfuscate information about the specific affected parties."
         },
         {
           "value": "MUST",
-          "expanded": "Recipients MUST obfuscate information about the specific victims."
+          "expanded": "Recipients MUST obfuscate information about the specific affected parties."
         },
         {
           "value": "MUST NOT",
-          "expanded": "Recipients MUST NOT obfuscate information about the specific victims."
+          "expanded": "Recipients MUST NOT obfuscate information about the specific affected parties."
+        }
+      ]
+    },
+    {
+      "predicate": "unmodified-resale",
+      "entry": [
+        {
+          "value": "MAY",
+          "expanded": "Recipients MAY resell the information received."
+        },
+        {
+          "value": "MUST NO",
+          "expanded": "Recipients MUST NOT resell the information received unmodified or in a semantically equivalent format."
         }
       ]
     },
