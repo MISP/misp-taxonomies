@@ -119,7 +119,8 @@ for taxonomy in taxonomies:
                         else:
                             print (machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
                         if args.e:
-                            print ("--> " + machineTag(namespace=namespace, predicate=expanded, value=v['expanded']))
+                            if'expanded' in v:
+                                print ("--> " + machineTag(namespace=namespace, predicate=expanded, value=v['expanded']))
 
 if args.a:
     print (doc)
