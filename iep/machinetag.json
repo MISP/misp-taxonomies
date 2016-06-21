@@ -102,7 +102,8 @@
       "predicate": "external-reference",
       "entry": [
         {
-          "value": "$text"
+          "value": "$text",
+          "expanded": "An external-reference value is required"
         }
       ]
     },
@@ -242,7 +243,8 @@
       "predicate": "start-date",
       "entry": [
         {
-          "value": "$text"
+          "value": "$text",
+          "expanded": "A start-date value is required"
         }
       ]
     },
@@ -250,7 +252,8 @@
       "predicate": "end-date",
       "entry": [
         {
-          "value": "$text"
+          "value": "$text",
+          "expanded": "An end-date value is required"
         }
       ]
     },
@@ -258,7 +261,8 @@
       "predicate": "reference",
       "entry": [
         {
-          "value": "$text"
+          "value": "$text",
+          "expanded": "A reference value is required"
         }
       ]
     },
@@ -266,7 +270,8 @@
       "predicate": "name",
       "entry": [
         {
-          "value": "$text"
+          "value": "$text",
+          "expanded": "A name value is required"
         }
       ]
     },
@@ -274,7 +279,8 @@
       "predicate": "version",
       "entry": [
         {
-          "value": "$text"
+          "value": "$text",
+          "expanded": "A version value is required"
         }
       ]
     },
@@ -282,7 +288,8 @@
       "predicate": "id",
       "entry": [
         {
-          "value": "$text"
+          "value": "$text",
+          "expanded": "An id value is required"
         }
       ]
     }
