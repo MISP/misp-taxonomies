@@ -4,7 +4,7 @@
 # Python script parsing the MISP taxonomies expressed in Machine Tags (Triple
 # Tags) to list all valid tags from a specific taxonomy.
 #
-# Copyright (c) 2015 Alexandre Dulaunoy - a@foo.be
+# Copyright (c) 2015-2016 Alexandre Dulaunoy - a@foo.be
 #
 # Redistribution and use in source and binary forms, with or without modification,
 # are permitted provided that the following conditions are met:
@@ -113,7 +113,7 @@ for taxonomy in taxonomies:
                     if 'expanded' in predicate:
                         expanded = predicate['expanded']
                     for v in e['entry']:
-                        if args.a:
+                        if args.a and 'expanded' in v:
                             doc = asciidoc(content=machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']), adoc=doc)
                             doc = asciidoc(content=machineTag(namespace=namespace, predicate=v['expanded']), adoc=doc, t='description')
                         else:
