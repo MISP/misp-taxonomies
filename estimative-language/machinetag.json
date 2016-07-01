@@ -1,0 +1,46 @@
+{
+  "values": {
+    "entry": [
+      {
+        "expanded": "Almost no chance - remote - 01-05%",
+        "value": "almost-no-chance"
+      },
+      {
+        "expanded": "Very unlikely - highly improbale - 05-20%",
+        "value": "very-unlikely"
+      },
+      {
+        "expanded": "Unlikely - improbable (improbably) - 20-45%",
+        "value": "unlikely"
+      },
+      {
+        "expanded": "Roughly even change - roughly even odds - 45-55%",
+        "value": "roughly-even-chance"
+      },
+      {
+        "expanded": "Likely - probable (probably) - 55-80%",
+        "value": "likely"
+      },
+      {
+        "expanded": "Very likely - highly probable - 80-95%",
+        "value": "very-likely"
+      },
+      {
+        "expanded": "Almost certain(ly) - nearly certain - 95-99%",
+        "value": "almost-certain"
+      }
+    ],
+    "predicate": "likelihood-probability"
+  },
+  "predicates": [
+    {
+      "description": "Properly expresses and explains uncertainties associated with major analytic judgments: Analytic products should indicate and explain the basis for the uncertainties associated with major analytic judgments, specifically the likelihood of occurrence of an event or development, and the analyst's confidence in the basis for this judgment. Degrees of likelihood encompass a full spectrum from remote to nearly certain. Analysts' confidence in an assessment or judgment may be based on the logic and evidentiary base that underpin it, including the quantity and quality of source material, and their understanding of the topic. Analytic products should note causes of uncertainty (e.g., type, currency, and amount of information, knowledge gaps, and the nature of the issue) and explain how uncertainties affect analysis (e.g., to what degree and how a judgment depends on assumptions). As appropriate, products should identify indicators that would alter the levels of uncertainty for major analytic judgments. Consistency in the terms used and the supporting information and logic advanced is critical to success in expressing uncertainty, regardless of whether likelihood or confidence expressions are used.",
+      "expanded": "Likelihood or probability",
+      "value": "likelihood-probability"
+    }
+  ],
+  "version": 1,
+  "description": "Estimative language to describe quality and credibility of underlying sources, data, and methodologies based Intelligence Community Directive 203 (ICD 203)",
+  "expanded": "Estimative language ICD 203",
+  "namespace": "estimative-language"
+}
