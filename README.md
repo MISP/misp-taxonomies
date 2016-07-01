@@ -18,6 +18,7 @@ The following taxonomies are described:
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [ENISA](./enisa) ENISA Threat Taxonomy
+- [Estimative Language](./estimative-language) Estimative Language (ICD 203)
 - [EU critical sectors](./eu-critical-sectors) - EU critical sectors
 - [EUCI](./euci) - EU classified information marking
 - [Europol Incident](./europol-incident) - Europol class of incident taxonomy
@@ -61,6 +62,10 @@ eCSIRT incident classification Appendix C of the eCSIRT EU project including Int
 ### [ENISA](./enisa) ENISA Threat Taxonomy
 
 ENISA Threat Taxonomy - A tool for structuring threat information [as published](https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends/enisa-threat-landscape/etl2015/enisa-threat-taxonomy-a-tool-for-structuring-threat-information)
+
+### [Estimative Language](./estimative-language) Estimative Language (ICD 203)
+
+Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a)).
 
 ### [EU Critical Sectors](./eu-critical-sectors)
 
