@@ -26,6 +26,7 @@ The following taxonomies are described:
 - [FIRST CSIRT Case](./first_csirt_case_classification) classification
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
 - [Malware](./malware) classification based on a SANS document
+- [ms-caro-malware](./ms-caro-malware) Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.
 - [NATO Classification Marking](./nato)
 - [OSINT Open Source Intelligence - Classification](./osint)
 - [TLP - Traffic Light Protocol](./tlp)
@@ -94,6 +95,8 @@ ISM (Information Security Marking Metadata) [V13](http://www.dni.gov/index.php/a
 ### [Malware](./malware) classification
 
 Malware classification based on a [SANS whitepaper about malware](https://www.sans.org/reading-room/whitepapers/incident/malware-101-viruses-32848).
+
+### [ms-caro-malware](./ms-caro-malware) Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.
 
 ### [NATO Classification Marking](./nato)
 
