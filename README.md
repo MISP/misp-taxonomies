@@ -24,6 +24,7 @@ The following taxonomies are described:
 - [Europol Incident](./europol-incident) - Europol class of incident taxonomy
 - [Europol Events](./europol-events) - Europol type of events taxonomy
 - [FIRST CSIRT Case](./first_csirt_case_classification) classification
+- [Information Security Indicators](./information-security-indicators) -  ETSI GS ISI 001-1 (V1.1.2): ISI Indicators 
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
 - [Malware](./malware) classification based on a SANS document
 - [ms-caro-malware](./ms-caro-malware) Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.
@@ -87,6 +88,10 @@ EUROPOL type of events taxonomy
 ### [FIRST CSIRT Case](./first_csirt_case_classification) classification
 
 FIRST CSIRT Case Classification.
+
+### [Information Security Indicators](./information-security-indicators) -  ETSI GS ISI 001-1 (V1.1.2): ISI Indicators 
+
+Information security indicators have been standardized by the [ETSI Industrial Specification Group (ISG) ISI](http://www.etsi.org/technologies-clusters/technologies/information-security-indicators). These indicators provide the basis to switch from a qualitative to a quantitative culture in IT Security Scope of measurements: External and internal threats (attempt and success), user's deviant behaviours, nonconformities and/or vulnerabilities (software, configuration, behavioural, general security framework).
 
 ### [Information Security Marking Metadata](./dni-ism) DNI (Director of National Intelligence - US)
 

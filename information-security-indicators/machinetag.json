@@ -1,0 +1,585 @@
+{
+  "namespace": "information-security-indicators",
+  "description": "A full set of operational indicators for organizations to use to benchmark their security posture.",
+  "version": "1",
+  "predicates": [
+    {
+      "value": "IEX",
+      "expanded": "Intrusions and external attacks",
+      "description": "Indicators of this category give information on the occurrence of incidents caused by external malicious threat sources."
+    },
+    {
+      "value": "IMF",
+      "expanded": "Malfunctions",
+      "description": "Indicators of this category provides information on the occurrence of incidents caused by malfunctions, breakdowns or human errors."
+    },
+    {
+      "value": "IDB",
+      "expanded": "Internal deviant behaviours",
+      "description": "Indicators of this category provide information on the occurrence of incidents regarding internal deviant behaviours (including especially usurpation of rights or of identity)."
+    },
+    {
+      "value": "IWH",
+      "expanded": "Whole incident categories",
+      "description": "Indicators of this category are indicators that concern all categories of incidents."
+    },
+    {
+      "value": "VBH",
+      "expanded": "Behavioural vulnerabilities",
+      "description": "Indicators of this category apply to the existence of abnormal behaviours that could lead to security incidents."
+    },
+    {
+      "value": "VSW",
+      "expanded": "Software vulnerabilities",
+      "description": "Indicators of this category apply to the existence of weaknesses in software that could be exploited and lead to security incidents."
+    },
+    {
+      "value": "VCF",
+      "expanded": "Configuration vulnerabilities",
+      "description": "Indicators of this category apply to the existence of weaknesses in the configuration of IT devices that could be exploited and lead to security incidents."
+    },
+    {
+      "value": "VTC",
+      "expanded": "General security technical vulnerabilities",
+      "description": "Indicators of this category measure the existence of weaknesses in the IT and physical architecture that could be exploited and lead to security incidents."
+    },
+    {
+      "value": "VOR",
+      "expanded": "General security organizational vulnerabilities",
+      "description": "Indicators of this category measure the existence of weaknesses in the organization that could be exploited and lead to security incidents."
+    },
+    {
+      "value": "IMP",
+      "expanded": "Impact",
+      "description": "Indicators as regards impact measurement."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "IEX",
+      "entry": [
+        {
+          "value": "FGY.1",
+          "expanded": "Forged domain or brand names impersonating or imitating legitimate and genuine names",
+          "description": "Forged domains are addresses very close to the domain names legitimately filed with registration companies or organizations (forged domains are harmful only when actively used to entice customers to the website for fraudulent purposes). It also includes domain names that imitate another domain name or a brand."
+        },
+        {
+          "value": "FGY.2",
+          "expanded": "Wholly or partly forged websites (excluding parking pages) spoiling company's image or business",
+          "description": "Forged websites correspond to two main threats (forgery of sites in order to steal personal data such as account identifiers and passwords, forgery of services in order to capitalize on a brand and to generate turnover that creates unfair competition). In this case, reference is often made to phishing (1st usage) or pharming."
+        },
+        {
+          "value": "SPM.1",
+          "expanded": "Not requested received bulk messages (spam) targeting organization's registered users",
+          "description": "Spam are messages received in company's or organization's messaging systems in the framework of mass and not individualized campaigns, luring into clicking dangerous URLs (possibly Trojan laden) or enticing to carry out harmful to concerned individual actions."
+        },
+        {
+          "value": "PHI.1",
+          "expanded": "Phishing targeting company's customers' workstations spoiling company's image or business",
+          "description": "Phishing involves a growing number of business sectors (financial organizations, e-commerce sites, online games, social sites etc.). It includes attacks via e-mail with messages that contain either malicious URL links (to forged websites) or malicious URL links (to malware laden genuine websites)."
+        },
+        {
+          "value": "PHI.2",
+          "expanded": "Spear phishing or whaling carried out using social engineering and targeting organization's specific registered users",
+          "description": "Spear phishing are \"spoofed\" and customized messages looking like a usual professional relationship or an authority, and asking to click on or open dangerous URL links or dangerous attachments (malware laden)."
+        },
+        {
+          "value": "INT.1",
+          "expanded": "Intrusion attempts on externally accessible servers",
+          "description": "Attempts are here systematic scans (excluding network reconnaissance) and abnormal and suspicious requests on externally accessible servers, detected by an IDS/IPS or not."
+        },
+        {
+          "value": "INT.2",
+          "expanded": "Intrusion on externally accessible servers",
+          "description": "Intrusion usually targets servers that host personal data (including data subject to regulations such as PCI DSS, for example). 3 objectives or motivations can be found wherever an intrusion exists: data theft (see before), installation of transfer links towards unlawful and rogue websites, getting a permanent internal access by installation of a backdoor for further purposes. This indicator does not include the figures from the Defacement and Misappropriation indicators, both of which however starting with an intrusion. However, it includes all means and methods to get access to servers, i.e. purely technical means (such as Command execution/injection attack) or identity usurpation to log on an admin or user account (see ETSI GS ISI 002 [4] specifications)."
+        },
+        {
+          "value": "INT.3",
+          "expanded": "Intrusions on internal servers",
+          "description": "This kind of incident typically comes after a PC malware installation or an intrusion on an externally accessible server often followed by a lateral movement. This indicator does not include the figures from the Misappropriation indicator which may however start with an intrusion on an internal server. This indicator includes the so-called APTs (Advanced Persistent Threats), which constitute however only a small part of this indicator. APTs are long lasting and stealthy incidents with large compromises of data through outbound links, which is not the case of most incidents of the IEX_INT.3 type. This type of incident is often the result of targeted attacks."
+        },
+        {
+          "value": "DFC.1",
+          "expanded": "Obvious and visible websites defacements",
+          "description": "Obvious defacements measures the defacement of homepages and of the most consulted pages of sites."
+        },
+        {
+          "value": "MIS.1",
+          "expanded": "Servers resources misappropriation by external attackers",
+          "description": "This indicator measures the amount of resources of servers misappropriated by an external attacker after a successful intrusion (on an externally accessible or an internal server)."
+        },
+        {
+          "value": "DOS.1",
+          "expanded": "Denial of service attacks on websites",
+          "description": "This indicator measures denial-of-service attacks against websites, carried out either by sending of harmful requests (DoS), by sending a massive flow coming from multiple distributed sites (DDoS) or via other techniques. Due to the current state of the art of attack detection, the indicator is limited to DDoS attacks."
+        },
+        {
+          "value": "MLW.1",
+          "expanded": "Attempts to install malware on workstations",
+          "description": "Malware installation attempts are detected by current conventional means (Antivirus and base IPS) and blocked by the same means. This indicator (which includes desktop and laptop PC based workstations, but does not include the different types of other workstations and mobile smart devices) provides an approximate insight into the malicious external pressure suffered in this regard. This indicator should be associated with indicator on successful malware installation in order to assess the actual effectiveness of conventional detection and blockage means in the fight against malware."
+        },
+        {
+          "value": "MLW.2",
+          "expanded": "Attempts to install malware on servers",
+          "description": "Malware installation attempts are detected by current conventional means (antivirus and base IPS) and blocked by the same means. This indicator gives an approximate insight into the malicious external pressure suffered in this regard. This indicator should be associated with indicator on successful malware installation in order to assess the actual effectiveness of conventional detection and blockage means in the fight against malware."
+        },
+        {
+          "value": "MLW.3",
+          "expanded": "Malware installed on workstations",
+          "description": "Malware could be not detected by conventional means (lack of activation or appropriate update), or noninventoried and/or specific very stealthy incidents, most of the time not detectable by conventional means (AV and standard IPS), consequently requiring other supplementary detection means (network or WS load, outbound links, advanced network devices as DPI tools, users themselves reporting to help desks). This indicator (which includes desktop and laptop Windows-based workstations, but does not include the different types of other workstations and mobile smart devices) therefore applies to both classical viruses and worms, as well as all new malware such as Trojan horses (which are defined as malware meant to data theft or malicious transactions) or bots (which are defined here as vectors for spam or DDoS attacks)."
+        },
+        {
+          "value": "MLW.4",
+          "expanded": "Malware installed on internal servers",
+          "description": "Malware could be not detected by conventional means (lack of activation or of appropriate update), or noninventoried and/or specific very stealthy incidents, most of the time not detectable by conventional means (AV and standard IPS), consequently requiring other supplementary detection means (network or server load, outbound links, advanced network devices as DPI tools, administrators themselves). This indicator therefore applies to both classical viruses and worms, as well as all new malware such as Trojan horses (which are defined as malware meant to data theft or malicious transactions) "
+        },
+        {
+          "value": "PHY.1",
+          "expanded": "Human intrusion into the organization's perimeter",
+          "description": "This indicator measures illicit entrance of individuals into security perimeter."
+        }
+      ]
+    },{
+      "predicate": "IMF",
+      "entry": [
+        {
+          "value": "BRE.1",
+          "expanded": "Workstations accidental breakdowns or malfunctions",
+          "description": "Breakdowns or malfunctions apply to both hardware and software, caused by system errors (components failure or bugs)."
+        },
+        {
+          "value": "BRE.2",
+          "expanded": "Servers accidental breakdowns or malfunctions",
+          "description": "Breakdowns or malfunctions apply to both hardware and software, caused by system errors (components failure or bugs)."
+        },
+        {
+          "value": "BRE.3",
+          "expanded": "Mainframes accidental breakdowns or malfunctions",
+          "description": "Breakdowns or malfunctions apply to both hardware and software, caused by system errors (components failure or bugs)."
+        },
+        {
+          "value": "BRE.4",
+          "expanded": "Networks accidental breakdowns or malfunctions",
+          "description": "Breakdowns or malfunctions apply to both hardware and software, caused by system errors (components failure or bugs)."
+        },
+        {
+          "value": "MDL.1",
+          "expanded": "Delivery of email to wrong recipient",
+          "description": "This indicator measures errors from the sender when selecting or typing email addresses leading to misdelivery incidents. Consequences may be very serious when confidentiality is critical."
+        },
+        {
+          "value": "LOM.1",
+          "expanded": "Loss (or theft) of mobile devices belonging to the organization",
+          "description": "This indicator measures the loss of all types of systems containing sensitive or not information belonging to the organization, whether encrypted or not (laptop computers, USB tokens, CD-ROMs, diskettes, magnetic tapes, smartphones, tablets, etc.). In some cases, it could be difficult to differentiate losses from thefts."
+        },
+        {
+          "value": "LOG.1",
+          "expanded": "Downtime or malfunction of the log production function with possible legal impact",
+          "description": "This type of event could have two main causes: an accidental system malfunction or a system manipulation error by an administrator. Logs taken into account here are systems logs and applications logs of all servers."
+        },
+        {
+          "value": "LOG.2",
+          "expanded": "Absence of possible tracking of the person involved in a security event with possible legal impact",
+          "description": "Concerns unique data related to a given and known to organization user (identifier tied to application software or directory). This indicator is a sub-set of indicator IMF_LOG.1."
+        },
+        {
+          "value": "LOG.3",
+          "expanded": "Downtime or malfunction of the log production function for recordings with evidential value for access to or handling of information that, at this level, is subject to law or regulatory requirements",
+          "description": "This indicator primarily relates to Personal Identifiable Information (PII) protected by privacy laws, to information falling under the PCI-DSS regulation, to information falling under European regulation in the area of breach notification (Telcos and ISPs to begin with), and to information about electronic exchanges between employees and the exterior (electronic messaging and Internet connection). This indicator does not include possible difficulties pertaining to proof forwarding from field operations to governance (state-of-the-art unavailable). This indicator is a sub-set of indicator IMF_LOG.1, but can be identical to this one in advanced organizations."
+        }
+      ]
+    },{
+      "predicate": "IDB",
+      "entry": [
+        {
+          "value": "UID.1",
+          "expanded": "User impersonation",
+          "description": "A person within the organization impersonates a registered user (employee, partner, contractor, external service provider) using identifier, passwords or authentication devices that had previously been obtained in an illicit manner (using a social engineering technique or not). This measures cases of usurpation for malicious purposes, and not ones that relate to user-friendly usage. Moreover, assumption is made that ID/Password is the main way of authentication"
+        },
+        {
+          "value": "RGH.1",
+          "expanded": "Privilege escalation by exploitation of software or configuration vulnerability on an externally accessible server",
+          "description": "Exploited vulnerabilities are typically tied to the underlying OS that supports the Web application, exploited notably through injection of additional characters in URL links. This behaviour specifically involves external service providers and company's business partners that wish to access additional information or to launch unlawful actions (for example, service providers seeking information about their competitors). This type of behaviour is less frequent amongst employees, since it is often easier to get the same results by means of social engineering methods."
+        },
+        {
+          "value": "RGH.2",
+          "expanded": "Privilege escalation on a server or central application by social engineering",
+          "description": "It is often easier to get the same results by means of social engineering methods than with technical means. Help desk teams are often involved in this kind of behaviour."
+        },
+        {
+          "value": "RGH.3",
+          "expanded": " Use on a server or central application of administrator rights illicitly granted by an administrator",
+          "description": "Illicitly granting administrator privileges generally comes from simple errors or more worrisome negligence on the part of the administrators (malicious action is rarer). The case of forgotten temporary rights (see next indicator), is not included in this indicator."
+        },
+        {
+          "value": "RGH.4",
+          "expanded": "Use on a server or central application of time-limited granted rights after the planned period",
+          "description": "This indicator measures situations where time-limited user accounts (created for training, problem resolution, emergency access, test, etc.) are still in use after the initial planned period."
+        },
+        {
+          "value": "RGH.5",
+          "expanded": "Abuse of privileges by an administrator on a server or central application",
+          "description": "The motivation of rights usurpation by an administrator is often the desire to breach the confidentiality of sensitive data (for example, human resources data). This indicator is similar to the indicator IDB_RGH.6 (but with consequences that may be however often potentially more serious)."
+        },
+        {
+          "value": "RGH.6",
+          "expanded": "Abuse of privileges by an operator or a plain user on a server or central application",
+          "description": "This indicator applies for example to authorized users having access to personal identifiable information aboutcelebrities with no real need for their job (thereby violating the \"right to know\")."
+        },
+        {
+          "value": "RGH.7",
+          "expanded": "Illicit use on a server or central application of rights not removed after departure or position change within the organization",
+          "description": "This indicator also takes into account the problem of generic accounts (whose password might have been changed each time a user knowing this password is leaving organization)."
+        },
+        {
+          "value": "MIS.1",
+          "expanded": "Server resources misappropriation by an internal source",
+          "description": "This indicators measures misappropriation of on-line IT resources for one's own use (personal, association etc.)."
+        },
+        {
+          "value": "IAC.1",
+          "expanded": "Access to hacking Website",
+          "description": "This indicator measures unauthorized access to a hacking Website from an internal workstation"
+        },
+        {
+          "value": "LOG.1",
+          "expanded": "Deactivating of logs recording by an administrator",
+          "description": "This event is generally decided and deployed by an administrator in order to improve performance of the system under his/her responsibility (illicit voluntary stoppage). This indicator is a reduced subset of indicator IUS_RGH.5"
+        }
+      ]
+    },{
+      "predicate": "IWH",
+      "entry": [
+        {
+          "value": "VNP.1",
+          "expanded": "Exploitation of a software vulnerability without available patch",
+          "description": "This indicators measures security incidents that are the result of an exploitation of a disclosed software vulnerability that has no available patch (with or without an applied workaround measure). It is used to assess the intensity of the exploitation of recently disclosed software vulnerabilities (zero day or not). Patching here applies only to standard software (excluding bespoke software), and the scope is limited to workstations (OS, browsers and various add-ons and plug-ins, office automation standard software)."
+        },
+        {
+          "value": "VNP.2",
+          "expanded": "Exploitation of a non-patched software vulnerability",
+          "description": "This indicators measures security incidents that are the result of the exploitation of a non-patched software vulnerability though a patch exists. It is used to assess effectiveness or application of patching-related organization and processes and tools (patching not launched). It is linked with indicator VOR_VNP.2 that is intended to assess problems of exceeding the \"time limit for the window of exposure to risks\". It has the same limitations as IWH_VNP.1 regarding scope."
+        },
+        {
+          "value": "VNP.3",
+          "expanded": "Exploitation of a poorly-patched software vulnerability",
+          "description": "This indicator measures security incidents that are the result of the exploitation of a poorly patched software vulnerability. It is used to assess effectiveness of patching-related organization and processes and tools (process launched but patch not operational - Cf. no reboot, etc.). It is linked with indicator VOR_VNP.1, IWH_VNP.1 and IWH_VNP.2. It has the same limitations as IWH_VNP.1 regarding scope."
+        },
+        {
+          "value": "VCN.1",
+          "expanded": "Exploitation of a configuration flaw",
+          "description": "This indicator measures security incidents that are the result of the exploitation of a configuration flaw on servers or workstations. A configuration flaw should be considered as a nonconformity against state-of-the-art security policy."
+        },
+        {
+          "value": "UKN.1",
+          "expanded": "Not categorized security incidents",
+          "description": "This indicator measures all types of incidents that are new and/or a complex combination of more basic incidents and cannot be fully qualified and therefore precisely categorized."
+        },
+        {
+          "value": "UNA.1",
+          "expanded": "Security incidents on non-inventoried and/or not managed assets",
+          "description": "This indicator measures security incidents tied to assets (on servers) non-inventoried and not managed by appointed teams. It is a key indicator insofar as a high percentage of incidents corresponds with this indicator on average in the profession (according to some public surveys)."
+        }
+      ]
+    },{
+      "predicate": "VBH",
+      "entry": [
+        {
+          "value": "PRC.1",
+          "expanded": "Server accessed by an administrator with unsecure protocols",
+          "description": "This indicator measures the use of insecure protocols set up by an administrator to get access to organizationbased externally accessible servers making an external intrusion possible. Insecure protocol means unencrypted, without time-out, with poor authentication means etc. (for example Telnet)."
+        },
+        {
+          "value": "PRC.2",
+          "expanded": "P2P client in a workstation",
+          "description": "This indicator measures the installation of P2P clients set up by a user on its professional workstation with the risk of partial or full sharing of the workstation content. It applies to workstations that are either connected to the organization's network from within the organization or directly connected to the public network from outside (notably home). There is a high risk of accidental sharing (in one quarter of all cases) of files that may host confidential company data. It is most often carried out through HTTP channel (proposed on all of these services)."
+        },
+        {
+          "value": "PRC.3",
+          "expanded": "VoIP clients in a workstation",
+          "description": "This indicator measures VoIP clients installed by a user on his/hers own workstation in order to use a peer-to-peer service. It applies to workstations connected to an organization's network from within the organization or directly connected to the public network from outside (notably home). The associated risk is to exchange dangerous Office documents. It is most often carried out through HTTP channel (proposed on all of these services)."
+        },
+        {
+          "value": "PRC.4",
+          "expanded": "Outbound connection dangerously set up",
+          "description": "This indicator measures outbound connection dangerously set up to get remote access to the company's internal network without using an inbound VPN link and a focal access point with possible exploitation by an external intruder. The outbound connection method consists for example in using a GoToMyPC™ software or a LogMeIn® software or a computer to computer connection in tunnel mode."
+        },
+        {
+          "value": "PRC.5",
+          "expanded": "Not compliant laptop computer used to establish a connection",
+          "description": "This indicator measures remote or local connection to the organization's internal network from a roaming laptop computer that is organization-owned and is configured with weak parameters. In this situation and in case of the existence of a software to check compliance of roaming computers, another related software blocks the connection in principle and prevents its continuation."
+        },
+        {
+          "value": "PRC.6",
+          "expanded": "Other unsecure protocols used",
+          "description": "This indicator measures other unsecure or dangerous protocols set up with similar behaviours. The other cases are the other than the 5 previous ones (VBH_PRC.1 to VBH_PRC.5). It relates to dangerous or abusive usages, i.e. situations where usages are not required and where other more secure solutions exist."
+        },
+        {
+          "value": "IAC.1",
+          "expanded": "Outbound controls bypassed to access Internet",
+          "description": "This indicator measures the detection of Internet access from the internal network by means that bypass the outbound security devices. It primarily relates to Internet accesses from a perimeter area or to tunnelling (SSL port 443) or to straight accesses (via an ADSL link or public Wi-Fi access points and the telephone network) or to accesses via Smartphones connected to the workstation. The main underlying motivation is to prevent user tracking."
+        },
+        {
+          "value": "IAC.2",
+          "expanded": "Anonymization site used to access Internet",
+          "description": "This indicator measures the detection of anonymous Internet access from an internal workstation through an anonymization site. The goal is to maintain free access and to avoid organization's filtering of accesses to forbidden websites."
+        },
+        {
+          "value": "FTR.1",
+          "expanded": "Files recklessly downloaded",
+          "description": "This indicator measures the download of files from an external website that is not known (no reputation) within the profession to an internal workstation. \"No reputation\" can be assessed by information provided by URL outbound filtering devices."
+        },
+        {
+          "value": "FTR.2",
+          "expanded": "Personal public instant messaging account used for business file exchanges",
+          "description": "This indicator measures the use of personal public instant messaging accounts for business exchanges with outside. This file exchange method has to be avoided due to network AV software bypassing and to identify lesser effectiveness of AV software."
+        },
+        {
+          "value": "FTR.3",
+          "expanded": "Personal public messaging account used for business file exchanges",
+          "description": "This indicator measures the use of personal public messaging accounts for business file exchanges with the exterior. The risk is to expose information to external attackers."
+        },
+        {
+          "value": "WTI.1",
+          "expanded": "Workstations accessed in administrator mode",
+          "description": "This indicator measures access to workstations in administrator mode without authorization."
+        },
+        {
+          "value": "WTI.2",
+          "expanded": "Personal storage devices used",
+          "description": "This indicator measures the use personal storage devices on a professional workstation to input or output information or software. Mobile or removable personal storage devices include USB tokens, smartphones, tablets, etc. It is not applicable to personal devices authorized by security policy (Cf. VBH_WTI.3 and BYOD)."
+        },
+        {
+          "value": "WTI.3",
+          "expanded": "Personal devices used without compartmentalization (BYOD)",
+          "description": "This indicator measures the lack of or the removal of basic security measures meant to compartmentalize professional activities on personal devices. Personal devices (BYOD) include PCs, tablets, smartphones, etc."
+        },
+        {
+          "value": "WTI.4",
+          "expanded": "Not encrypted sensitive files exported",
+          "description": "This indicator measures the lack of encryption of sensitive files uploaded from a professional workstation to professional mobile or removable storage devices."
+        },
+        {
+          "value": "WTI.5",
+          "expanded": "Personal software used",
+          "description": "This indicator measures the presence of personal software on a professional workstation that does not comply with the corporate security policy. It corresponds with all types of local unauthorized software (with a user licence or not), such as common personal software (games, office automation etc.) or more dangerous ones (hacking etc.). It should be added that VBH_PRC.2 and VBH_PRC.3 are a share of this indicator, and that this indicator is a subset of VBH_WTI.1."
+        },
+        {
+          "value": "WTI.6",
+          "expanded": "Mailbox or Internet access with admin mode",
+          "description": "This indicator applies to users using their admin account on a workstation.to access their own mailbox or Internet. This behaviour is particularly dangerous since malware (through attached pieces on email or drive-by download on Web browser) are far easier to install on the workstation in this case."
+        },
+        {
+          "value": "PSW.1",
+          "expanded": "Weak passwords used",
+          "description": "The required strength of passwords depends on the organization's security policy, but usable general recommendations in ISO/IEC 27002 [2]."
+        },
+        {
+          "value": "PSW.2",
+          "expanded": "Passwords not changed",
+          "description": "This indicators measures password not changed in due periodic time (case of changes not periodically imposed). Situations in which changes are not periodically imposed by accessed systems themselves remain fairly frequent within organizations (apart from Active Directory), the figure being around 25 % of the cases on average."
+        },
+        {
+          "value": "PSW.3",
+          "expanded": "Administrator passwords not changed",
+          "description": "This indicators measures password not changed in due periodic time by an administrator in charge of an account used by automated applications and processes (case of changes not periodically imposed). Situations in which changes are not periodically imposed by accessed systems themselves remain fairly frequent within organizations (apart from Active Directory), the figure being around 25 % of the cases on average."
+        },
+        {
+          "value": "RGH.1",
+          "expanded": "Not compliant user rights granted illicitly by an administrator",
+          "description": "This indicator measures the granting of not compliant user rights by an administrator outside any official procedure. This vulnerability may originate with an error, negligence or malice."
+        },
+        {
+          "value": "HUW.1",
+          "expanded": "Human weakness exploited by a spear phishing message meant to entice or appeal to do something possibly harmful to the organization ",
+          "description": "This vulnerability typically includes clicking on an Internet link or opening an attached document"
+        },
+        {
+          "value": "HUW.2",
+          "expanded": " Human weakness exploited by exchanges meant to entice or appeal to tell some secrets to be used later",
+          "description": "This vulnerability applies to discussions through on-line media leading to leakage of personal identifiable information (PII) or various business details to be used later (notably for identity usurpation) "
+        }
+      ]
+    },{
+      "predicate": "VSW",
+      "entry": [
+        {
+          "value": "WSR.1",
+          "expanded": "Web applications software vulnerabilities",
+          "description": "This indicators measures software vulnerabilities detected in Web applications running on externally accessible servers."
+        },
+        {
+          "value": "OSW.1",
+          "expanded": "OS software vulnerabilities regarding servers",
+          "description": "This indicators measures software vulnerabilities detected in OS running on externally accessible servers."
+        },
+        {
+          "value": "WBR.1",
+          "expanded": "Web browsers software vulnerabilities",
+          "description": "This indicators measures software vulnerabilities detected in Web browsers running on workstations."
+        }
+      ]
+    },{
+      "predicate": "VCF",
+      "entry": [
+        {
+          "value": "DIS.1",
+          "expanded": "Dangerous or illicit services on externally accessible servers",
+          "description": "This indicator measures the presence of illicit and dangerous system services running on an externally accessible server."
+        },
+        {
+          "value": "LOG.1",
+          "expanded": "Insufficient size of the space allocated for logs",
+          "description": "Such event could cause an overflow in case of quick series of unusual actions."
+        },
+        {
+          "value": "FWR.1",
+          "expanded": "Weak firewall filtering rules",
+          "description": "This indicator measures the gaps between the active firewall filtering rules and the security policy."
+        },
+        {
+          "value": "WTI.1",
+          "expanded": "Workstation wrongly configured",
+          "description": "This indicator measures the use of workstation with a disabled or lacking update AV and/or FW. The lack of update includes signature file older than x days (generally at least 6 days)."
+        },
+        {
+          "value": "WTI.2",
+          "expanded": "Autorun feature enabled on workstations",
+          "description": "This indicator measures the presence of Autorun feature enabled on workstations."
+        },
+        {
+          "value": "UAC.1",
+          "expanded": "Access rights configuration not compliant with the security policy",
+          "description": "This indicator measures access rights configuration that are not compliant with corporate security policy. This indicator is more reliable in case of existence of a central repository of user rights within organization (and of an IAM achievement) "
+        },
+        {
+          "value": "UAC.2",
+          "expanded": "Not compliant access rights on logs",
+          "description": "This indicator measures non-compliant access rights on logs in servers which are sensitive and/or subject to regulations. This situation representing a key weakness since the necessary high confidence in the produced logs has been reduced to nothing. This indicator is a subset of VCF_UAC.1."
+        },
+        {
+          "value": "UAC.3",
+          "expanded": "Generic and shared administrator accounts",
+          "description": "This indicator measures generic and shared administration accounts that are unnecessary or accounts that are necessary but without patronage. It concerns operating systems, databases and applications."
+        },
+        {
+          "value": "UAC.4",
+          "expanded": "Accounts without owners",
+          "description": "This indicator measures accounts without owners that have not been erased. These are accounts that have no more assigned users (for example after internal transfer or departure of the users from organization)."
+        },
+        {
+          "value": "UAC.5",
+          "expanded": "Inactive accounts",
+          "description": "This indicator measures accounts inactive for at least 2 months that have not been disabled. These accounts are not used by their users due to prolonged but not definitive absence (long term illness, maternity, etc.), with the exclusion of messaging accounts (which should remain accessible to users from their home)."
+        }
+      ]
+    },{
+      "predicate": "VTC",
+      "entry": [
+        {
+          "value": "BKP.1",
+          "expanded": "Malfunction of server-hosted sensitive data safeguards",
+          "description": "On servers hosting sensitive data with respect to availability, it concerns malfunctions of safeguards due to lack of periodic testing. This kind of event may be very serious since usually put trust is betrayed in a critical function."
+        },
+        {
+          "value": "IDS.1",
+          "expanded": "Full unavailability of IDS/IPS",
+          "description": "Many causes are possible, including deliberate disconnection by a network administrator (to streamline operations or since IDS/IPS output is deemed too difficult to use), unwitting disconnection (error by a network administrator), breakdown, software malfunction, etc."
+        },
+        {
+          "value": "WFI.1",
+          "expanded": "Wi-Fi devices installed on the network without any official authorization",
+          "description": "Many causes are possible, including for example local decisions for easier access of mobile users, rogue user behaviours or workstations configured as access points."
+        },
+        {
+          "value": "RAP.1",
+          "expanded": "Remote access points used to gain unauthorized access",
+          "description": "This indicator is interesting to assess whether such accesses are localized (local areas, countries, etc.) or involve the whole organization or are increasing and spreading to whole organization."
+        },
+        {
+          "value": "NRG.1",
+          "expanded": "Devices or servers connected to the organization's network without being registered and managed",
+          "description": "According to some convergent studies, this event may be at the origin of some 70 % of all security incidents associated to malice."
+        },
+        {
+          "value": "PHY.1",
+          "expanded": "Not operational physical access control means",
+          "description": "This indicator includes access to protected internal areas. The 1st cause is the lack of effective control of users at software level. The 2nd cause is hardware breakdown of a component in the chain."
+        }
+      ]
+    },{
+      "predicate": "VOR",
+      "entry": [
+        {
+          "value": "DSC.1",
+          "expanded": "Discovery of attacks",
+          "description": "This indicator measures stealthy security incidents difficult to detect. As most studies show, the time to discovery is often several months, time frame especially used to steal sensitive data. Incidents taken into account here are IEX_INT.3, IEX_MLW.3 and IEX_MLW.4. This indicator give landmarks regarding what may be deemed excessive, i.e. with an assumption which is above one week."
+        },
+        {
+          "value": "VNP.1",
+          "expanded": "Excessive time of window of risk exposure",
+          "description": "This indicator measures situations in which the time of the window of risk exposure exceeds the time limit expressed in security policy. The window of risks exposure is the period of time between the public disclosure of a software vulnerability and the actual and checked application of a patch that corresponds with the vulnerability's remediation (independently of the time needed for the vendor to provide the patch). This indicator only applies to workstations (OS, application software and browsers), and to critical vulnerabilities (as publicly determined via the CVSS scale) that require an action as quickly as possible."
+        },
+        {
+          "value": "VNP.2",
+          "expanded": "Rate of not patched systems",
+          "description": "This indicator measures the rate of not patched systems for detected critical software vulnerabilities (see VOR_VNP.1 for criticality definition). Not patched systems to be taken into account are the ones which are not patched beyond the time limit defined in security policy. This indicator only applies to workstations (OS, application software and browsers)."
+        },
+        {
+          "value": "VNR.1",
+          "expanded": "Rate of not reconfigured systems",
+          "description": "This indicator measures the rate of not reconfigured systems for detected critical configuration vulnerabilities. Configuration vulnerabilities are either non-conformities relative to a level 3 security policy, or discrepancies relative to a state-of-the-art available within the profession (and that can correspond with a configuration master produced by a vendor and applied within the organization). This indicator only applies to workstations (OS, application software and browsers). Not reconfigured systems to be taken into account are the ones which are not reconfigured beyond the time limit defined in security policy."
+        },
+        {
+          "value": "RCT.1",
+          "expanded": "Reaction plans launched without experience feedback",
+          "description": "This indicator applies to plans for responding to incidents formalized in security policy launched without experience feedback."
+        },
+        {
+          "value": "RCT.2",
+          "expanded": "Reaction plans unsuccessfully launched",
+          "description": "This indicator measures failure in the performance of plans, leading to non-recovery of incidents and to subsequent possible launch of an escalation procedure."
+        },
+        {
+          "value": "PRT.1",
+          "expanded": "Launch of new IT projects without information classification",
+          "description": "This indicator measures the launch of new IT projects without information classification. Availability of a classification model and scheme within the organization would make easier this task."
+        },
+        {
+          "value": "PRT.2",
+          "expanded": "Launch of new specific IT projects without risk analysis",
+          "description": "This indicator measures the launch of new specific IT projects without performing a full risk analysis."
+        },
+        {
+          "value": "PRT.3",
+          "expanded": " Launch of new IT projects of a standard type without identification of vulnerabilities and threats",
+          "description": "This indicator measures the launch of new IT projects of a standard type without identification of vulnerabilities and threats and of related security measures. For these IT projects, potential implementation of a simplified risk analysis method or of pre-defined security profiles can be applied."
+        }
+      ]
+    },{
+      "predicate": "IMP",
+      "entry": [
+        {
+          "value": "COS.1",
+          "expanded": "Average cost to tackle a critical security incident",
+          "description": "The average cost taken into account includes the following kinds of overhead: disruption to business operations (increased operating costs, etc.), fraud (money, etc.) and incident recovery costs (technical individual time, asset replacement, etc.). It does not include possible (generally very heavy) breach notification costs to customers and enforcement bodies (according to US and recently EU laws or regulations)."
+        },
+        {
+          "value": "TIM.1",
+          "expanded": "Average time of Websites downtime due to whole security incidents",
+          "description": "Applies to all 4 classes, but main security incidents concerned are malfunctions or breakdowns (software or hardware), DoS or DDoS attacks and Website defacements."
+        },
+        {
+          "value": "TIM.2",
+          "expanded": "Average time of Websites downtime due to successful malicious attacks",
+          "description": "This indicator is a subset of the previous one (IMP_TIM.1) focusing on 3 possible classes (IEX, IUS, IMD)."
+        },
+        {
+          "value": "TIM.3",
+          "expanded": "Average time of Websites downtime due to malfunctions or unintentional security incidents",
+          "description": "This indicator is a subset of IMP_TIM.1 focusing on one class (IMF)."
+        }
+      ]
+    }
+  ]
+}
