@@ -1,0 +1,343 @@
+{
+  "namespace": "open_threat",
+  "description": "Open Threat Taxonomy v1.1 base on James Tarala of SANS http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf, https://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Using-Open-Tools-to-Convert-Threat-Intelligence-into-Practical-Defenses-James-Tarala-SANS-Institute.pdf, https://www.youtube.com/watch?v=5rdGOOFC_yE, and https://www.rsaconference.com/writable/presentations/file_upload/str-r04_using-an-open-source-threat-model-for-prioritized-defense-final.pdf",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "threat-category",
+      "expanded": "Threats to Information Systems"
+    },
+    {
+      "value": "threat-name",
+      "expanded": "Threat Action Name and Rating"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "threat-category",
+      "entry": [
+        {
+          "value": "Physical",
+          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are physical in nature. These threats generally describe actions that could lead to the theft, harm, or destruction of information systems."
+        },
+        {
+          "value": "Resource",
+          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are the result of a lack of resources required by the information system. These threats often cause failures of information systems through a disruption of resources required for operations."
+        },
+        {
+          "value": "Personal",
+          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are the result of failures or actions performed by an organization’s personnel. These threats can be the result of deliberate or accidental actions that cause harm to information systems."
+        },
+        {
+          "value": "Technical",
+          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are technical in nature. These threats are most often considered when identifying threats and constitute the technical actions performed by a threat actor that can cause harm to an information system."
+        }
+      ]
+    },
+    {
+      "predicate": "threat-name",
+      "entry": [
+        {
+          "value": "PHY-001",
+          "expanded": "Loss of Property - Rating: 5.0"
+        },
+        {
+          "value": "PHY-002",
+          "expanded": "Theft of Property - Rating: 5.0"
+        },
+        {
+          "value": "PHY-003",
+          "expanded": "Accidental Destruction of Property - Rating: 3.0"
+        },
+        {
+          "value": "PHY-004",
+          "expanded": "Natural Destruction of Property - Rating: 3.0"
+        },
+        {
+          "value": "PHY-005",
+          "expanded": "Intentional Destruction of Property - Rating: 2.0"
+        },
+        {
+          "value": "PHY-006",
+          "expanded": "Intentional Sabotage of Property - Rating: 2.0"
+        },
+        {
+          "value": "PHY-007",
+          "expanded": "Intentional Vandalism of Property - Rating: 2.0"
+        },
+        {
+          "value": "PHY-008",
+          "expanded": "Electrical System Failure - Rating: 4.0"
+        },
+        {
+          "value": "PHY-009",
+          "expanded": "Heating, Ventilation, Air Conditioning (HVAC) Failure - Rating: 3.0"
+        },
+        {
+          "value": "PHY-010",
+          "expanded": "Structural Facility Failure - Rating: 2.0"
+        },
+        {
+          "value": "PHY-011",
+          "expanded": "Water Distribution System Failure - Rating: 2.0"
+        },
+        {
+          "value": "PHY-012",
+          "expanded": "Sanitation System Failure - Rating: 1.0"
+        },
+        {
+          "value": "PHY-013",
+          "expanded": "Natural Gas Distribution Failure - Rating: 1.0"
+        },
+        {
+          "value": "PHY-014",
+          "expanded": "Electronic Media Failure - Rating: 3.0"
+        },
+        {
+          "value": "RES-001",
+          "expanded": "Disruption of Water Resources - Rating: 2.0"
+        },
+        {
+          "value": "RES-002",
+          "expanded": "Disruption of Fuel Resources - Rating: 2.0"
+        },
+        {
+          "value": "RES-003",
+          "expanded": "Disruption of Materials Resources - Rating: 2.0"
+        },
+        {
+          "value": "RES-004",
+          "expanded": "Disruption of Electrical Resources - Rating: 4.0"
+        },
+        {
+          "value": "RES-005",
+          "expanded": "Disruption of Transportation Services - Rating: 1.0"
+        },
+        {
+          "value": "RES-006",
+          "expanded": "Disruption of Communications Services - Rating: 4.0"
+        },
+        {
+          "value": "RES-007",
+          "expanded": "Disruption of Emergency Services - Rating: 1.0"
+        },
+        {
+          "value": "RES-008",
+          "expanded": "Disruption of Governmental Services - Rating: 1.0"
+        },
+        {
+          "value": "RES-009",
+          "expanded": "Supplier Viability - Rating: 2.0"
+        },
+        {
+          "value": "RES-010",
+          "expanded": "Supplier Supply Chain Failure - Rating: 2.0"
+        },
+        {
+          "value": "RES-011",
+          "expanded": "Logistics Provider Failures - Rating: 1.0"
+        },
+        {
+          "value": "RES-012",
+          "expanded": "Logistics Route Disruptions - Rating: 1.0"
+        },
+        {
+          "value": "RES-013",
+          "expanded": "Technology Services Manipulation - Rating: 3.0"
+        },
+        {
+          "value": "PER-001",
+          "expanded": "Personnel Labor / Skills Shortage - Rating: 5.0"
+        },
+        {
+          "value": "PER-002",
+          "expanded": "Loss of Personnel Resources - Rating: 3.0"
+        },
+        {
+          "value": "PER-003",
+          "expanded": "Disruption of Personnel Resources - Rating: 3.0"
+        },
+        {
+          "value": "PER-004",
+          "expanded": "Social Engineering of Personnel Resources - Rating: 4.0"
+        },
+        {
+          "value": "PER-005",
+          "expanded": "Negligent Personnel Resources - Rating: 4.0"
+        },
+        {
+          "value": "PER-006",
+          "expanded": "Personnel Mistakes / Errors - Rating: 4.0"
+        },
+        {
+          "value": "PER-007",
+          "expanded": "Personnel Inaction - Rating: 3.0"
+        },
+        {
+          "value": "TEC-001",
+          "expanded": "Organizational Fingerprinting via Open Sources - Rating: "
+        },
+        {
+          "value": "TEC-002",
+          "expanded": "System Fingerprinting via Open Sources - Rating: 2.0"
+        },
+        {
+          "value": "TEC-003",
+          "expanded": "System Fingerprinting via Scanning - Rating: 2.0"
+        },
+        {
+          "value": "TEC-004",
+          "expanded": "System Fingerprinting via Sniffing - Rating: 2.0"
+        },
+        {
+          "value": "TEC-005",
+          "expanded": "Credential Discovery via Open Sources - Rating: 4.0"
+        },
+        {
+          "value": "TEC-006",
+          "expanded": "Credential Discovery via Scanning - Rating: 3.0"
+        },
+        {
+          "value": "TEC-007",
+          "expanded": "Credential Discovery via Sniffing - Rating: 4.0"
+        },
+        {
+          "value": "TEC-008",
+          "expanded": "Credential Discovery via Brute Force - Rating: 4.0"
+        },
+        {
+          "value": "TEC-009",
+          "expanded": "Credential Discovery via Cracking - Rating: 4.0"
+        },
+        {
+          "value": "TEC-010",
+          "expanded": "Credential Discovery via Guessing - Rating: 2.0"
+        },
+        {
+          "value": "TEC-011",
+          "expanded": "Credential Discovery via Pre-Computational Attacks - Rating: 3.0"
+        },
+        {
+          "value": "TEC-012",
+          "expanded": "Misuse of System Credentials - Rating: 3.0"
+        },
+        {
+          "value": "TEC-013",
+          "expanded": "Escalation of Privilege - Rating: 5.0"
+        },
+        {
+          "value": "TEC-014",
+          "expanded": "Abuse of System Privileges - Rating: 4.0"
+        },
+        {
+          "value": "TEC-015",
+          "expanded": "Memory Manipulation - Rating: 4.0"
+        },
+        {
+          "value": "TEC-016",
+          "expanded": "Cache Poisoning - Rating: 3.0"
+        },
+        {
+          "value": "TEC-017",
+          "expanded": "Physical Manipulation of Technical Device - Rating: 2.0"
+        },
+        {
+          "value": "TEC-018",
+          "expanded": "Manipulation of Trusted System - Rating: 4.0"
+        },
+        {
+          "value": "TEC-019",
+          "expanded": "Cryptanalysis - Rating: 1.0"
+        },
+        {
+          "value": "TEC-020",
+          "expanded": "Data Leakage / Theft - Rating: 3.0"
+        },
+        {
+          "value": "TEC-021",
+          "expanded": "Denial of Service - Rating: 2.0"
+        },
+        {
+          "value": "TEC-022",
+          "expanded": "Maintaining System Persistence - Rating: 5.0"
+        },
+        {
+          "value": "TEC-023",
+          "expanded": "Manipulation of Data in Transit / Use - Rating: 2.0"
+        },
+        {
+          "value": "TEC-024",
+          "expanded": "Capture of Data in Transit / Use via Sniffing - Rating: 3.0"
+        },
+        {
+          "value": "TEC-025",
+          "expanded": "Capture of Data in Transit / Use via Debugging - Rating: 2.0"
+        },
+        {
+          "value": "TEC-026",
+          "expanded": "Capture of Data in Transit / Use via Keystroke Logging - Rating: 3.0"
+        },
+        {
+          "value": "TEC-027",
+          "expanded": "Replay of Data in Transit / Use - Rating: 2.0"
+        },
+        {
+          "value": "TEC-028",
+          "expanded": "Misdelivery of Data - Rating: 2.0"
+        },
+        {
+          "value": "TEC-029",
+          "expanded": "Capture of Stored Data - Rating: 3.0"
+        },
+        {
+          "value": "TEC-030",
+          "expanded": "Manipulation of Stored Data - Rating: 3.0"
+        },
+        {
+          "value": "TEC-031",
+          "expanded": "Application Exploitation via Input Manipulation - Rating: 5.0"
+        },
+        {
+          "value": "TEC-032",
+          "expanded": "Application Exploitation via Parameter Injection - Rating: 4.0"
+        },
+        {
+          "value": "TEC-033",
+          "expanded": "Application Exploitation via Code Injection - Rating: 4.0"
+        },
+        {
+          "value": "TEC-034",
+          "expanded": "Application Exploitation via Command Injection - Rating: 4.0"
+        },
+        {
+          "value": "TEC-035",
+          "expanded": "Application Exploitation via Path Traversal - Rating: 3.0"
+        },
+        {
+          "value": "TEC-036",
+          "expanded": "Application Exploitation via API Abuse - Rating: 3.0"
+        },
+        {
+          "value": "TEC-037",
+          "expanded": "Application Exploitation via Fuzzing - Rating: 3.0"
+        },
+        {
+          "value": "TEC-038",
+          "expanded": "Application Exploitation via Reverse Engineering - Rating: 3.0"
+        },
+        {
+          "value": "TEC-039",
+          "expanded": "Application Exploitation via Resource Location Guessing - Rating: 2.0"
+        },
+        {
+          "value": "TEC-040",
+          "expanded": "Application Exploitation via Source Code Manipulation - Rating: 3.0"
+        },
+        {
+          "value": "TEC-041",
+          "expanded": "Application Exploitation via Authentication Bypass - Rating: 2.0"
+        }
+      ]
+    }
+  ]
+}
