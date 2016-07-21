@@ -30,7 +30,7 @@ import json
 import os.path
 import argparse
 
-taxonomies = ['admiralty-scale', 'adversary', 'tlp', 'circl', 'iep', 'kill-chain', 'veris', 'ecsirt', 'enisa', 'dni-ism', 'europol-events', 'europol-incident', 'nato', 'euci', 'osint', 'first_csirt_case_classification', 'malware', 'de-vs', 'fr-classification','eu-critical-sectors','dhs-ciip-sectors','estimative-language', 'ms-caro-malware', 'information-security-indicators']
+taxonomies = ['admiralty-scale', 'adversary', 'tlp', 'circl', 'iep', 'kill-chain', 'veris', 'ecsirt', 'enisa', 'dni-ism', 'europol-events', 'europol-incident', 'nato', 'euci', 'osint', 'first_csirt_case_classification', 'malware', 'de-vs', 'fr-classification','eu-critical-sectors','dhs-ciip-sectors','estimative-language', 'ms-caro-malware', 'information-security-indicators', 'open-threat']
 argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies', epilog='Available taxonomies are {0}'.format(taxonomies))
 argParser.add_argument('-e', action='store_true', help='Include expanded tags')
 argParser.add_argument('-a', action='store_true', help='Generate asciidoctor document from MISP taxonomies')

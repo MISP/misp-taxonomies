@@ -29,6 +29,7 @@ The following taxonomies are described:
 - [Malware](./malware) classification based on a SANS document
 - [ms-caro-malware](./ms-caro-malware) Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.
 - [NATO Classification Marking](./nato)
+- [Open Threat Taxonomy v1.1 (SANS)](./open-threat)
 - [OSINT Open Source Intelligence - Classification](./osint)
 - [TLP - Traffic Light Protocol](./tlp)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
@@ -106,6 +107,10 @@ Malware classification based on a [SANS whitepaper about malware](https://www.sa
 ### [NATO Classification Marking](./nato)
 
 Marking of Classified and Unclassified materials as described by the North Atlantic Treaty Organization, NATO.
+
+### [Open Threat Taxonomy v1.1](./open-threat)
+
+Open Threat Taxonomy v1.1 base on James Tarala of SANS [ref](http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf).
 
 ### [TLP - Traffic Light Protocol](./tlp)
 
