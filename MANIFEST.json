@@ -7,111 +7,138 @@
   "taxonomies": [
     {
       "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.",
-      "name": "admiralty-scale"
+      "name": "admiralty-scale",
+      "version": 1
     },
     {
       "description": "An overview and description of the adversary infrastructure.",
-      "name": "adversary"
+      "name": "adversary",
+      "version": 4
     },
     {
       "description": "CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place.",
-      "name": "circl"
-    },
-    {
-      "description": "Taxonomy for the handling of protectively marked information in MISP with German (DE) Government classification markings (VS)",
-      "name": "de-vs"
-    },
-    {
-      "description": "DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure-sectors.",
-      "name": "dhs-ciip-sectors"
-    },
-    {
-      "description": "ISM (Information Security Marking Metadata) V13 as described by DNI.gov (Director of National Intelligence - US).",
-      "name": "dni-ism"
-    },
-    {
-      "description": "eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates.",
-      "name": "ecsirt"
-    },
-    {
-      "description": "ENISA Threat Taxonomy - A tool for structuring threat information as published in https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends/enisa-threat-landscape/etl2015/enisa-threat-taxonomy-a-tool-for-structuring-threat-information",
-      "name": "enisa"
-    },
-    {
-      "description": "Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a)).",
-      "name": "estimative-language"
-    },
-    {
-      "description": "EU classified information (EUCI) means any information or material designated by a EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the European Union or of one or more of the Member States as described in http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013D0488&from=EN",
-      "name": "euci"
-    },
-    {
-      "description": "Market operators and public administrations that must comply to some notifications requirements under EU NIS directive.",
-      "name": "eu-critical-sectors"
-    },
-    {
-      "description": "EUROPOL type of events taxonomy.",
-      "name": "europol-events"
-    },
-    {
-      "description": "EUROPOL class of incident taxonomy.",
-      "name": "europol-incident"
+      "name": "circl",
+      "version": 1
     },
     {
       "description": "FIRST CSIRT Case Classification.",
-      "name": "first_csirt_case_classification"
+      "name": "csirt_case_classification",
+      "version": 1
+    },
+    {
+      "description": "Taxonomy for the handling of protectively marked information in MISP with German (DE) Government classification markings (VS)",
+      "name": "de-vs",
+      "version": 1
+    },
+    {
+      "description": "DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure-sectors.",
+      "name": "dhs-ciip-sectors",
+      "version": 2
+    },
+    {
+      "description": "ISM (Information Security Marking Metadata) V13 as described by DNI.gov (Director of National Intelligence - US).",
+      "name": "dni-ism",
+      "version": 3
+    },
+    {
+      "description": "eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates.",
+      "name": "ecsirt",
+      "version": 1
+    },
+    {
+      "description": "ENISA Threat Taxonomy - A tool for structuring threat information as published in https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends/enisa-threat-landscape/etl2015/enisa-threat-taxonomy-a-tool-for-structuring-threat-information",
+      "name": "enisa",
+      "version": 201601
+    },
+    {
+      "description": "Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a)).",
+      "name": "estimative-language",
+      "version": 1
+    },
+    {
+      "description": "EU classified information (EUCI) means any information or material designated by a EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the European Union or of one or more of the Member States as described in http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013D0488&from=EN",
+      "name": "euci",
+      "version": 1
+    },
+    {
+      "description": "Market operators and public administrations that must comply to some notifications requirements under EU NIS directive.",
+      "name": "eu-critical-sectors",
+      "version": 2
+    },
+    {
+      "description": "EUROPOL type of events taxonomy.",
+      "name": "europol-events",
+      "version": 1
+    },
+    {
+      "description": "EUROPOL class of incident taxonomy.",
+      "name": "europol-incident",
+      "version": 1
     },
     {
       "description": "French gov information classification system.",
-      "name": "fr-classification"
+      "name": "fr-classif",
+      "version": 1
     },
     {
       "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) framework.",
-      "name": "iep"
+      "name": "iep",
+      "version": 1
     },
     {
       "description": "Information security indicators have been standardized by the ETSI Industrial Specification Group (ISG) ISI. These indicators provide the basis to switch from a qualitative to a quantitative culture in IT Security Scope of measurements: External and internal threats (attempt and success), user's deviant behaviours, nonconformities and/or vulnerabilities (software, configuration, behavioural, general security framework). ETSI GS ISI 001-1 (V1.1.2): ISI Indicators",
-      "name": "information-security-indicators"
+      "name": "information-security-indicators",
+      "version": 1
     },
     {
       "description": "Cyber Kill Chain from Lockheed Martin as described in Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains.",
-      "name": "kill-chain"
+      "name": "kill-chain",
+      "version": 1
     },
     {
       "description": "Malware classification based on a SANS whitepaper about malware.",
-      "name": "malware"
+      "name": "malware_classification",
+      "version": 1
     },
     {
       "description": "Internal MISP taxonomy.",
-      "name": "misp"
+      "name": "misp",
+      "version": 1
     },
     {
       "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.",
-      "name": "ms-caro-malware"
+      "name": "ms-caro-malware",
+      "version": 1
     },
     {
       "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.",
-      "name": "ms-caro-malware-full"
+      "name": "ms-caro-malware-full",
+      "version": 1
     },
     {
       "description": "Marking of Classified and Unclassified materials as described by the North Atlantic Treaty Organization, NATO.",
-      "name": "nato"
+      "name": "nato",
+      "version": 1
     },
     {
       "description": "Open Threat Taxonomy v1.1 base on James Tarala of SANS ref. - http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf",
-      "name": "open-threat"
+      "name": "open-threat",
+      "version": 1
     },
     {
       "description": "Open Source Intelligence - Classification (MISP taxonomies).",
-      "name": "osint"
+      "name": "osint",
+      "version": 1
     },
     {
       "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time. Extended with TLP:EX:CHR.",
-      "name": "tlp"
+      "name": "tlp",
+      "version": 3
     },
     {
       "description": "Vocabulary for Event Recording and Incident Sharing (VERIS).",
-      "name": "veris"
+      "name": "veris",
+      "version": 2
     }
   ]
 }
