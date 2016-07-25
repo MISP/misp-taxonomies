@@ -3,7 +3,7 @@
   "license": "CC-BY",
   "description": "Manifest file of MISP taxonomies available.",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "path": "machinetag.json"
+  "path": "machinetag.json",
   "taxonomies": [
     {
       "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.",
