@@ -31,6 +31,7 @@ The following taxonomies are described:
 - [NATO Classification Marking](./nato)
 - [Open Threat Taxonomy v1.1 (SANS)](./open-threat)
 - [OSINT Open Source Intelligence - Classification](./osint)
+- [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./pap)
 - [TLP - Traffic Light Protocol](./tlp)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
@@ -111,6 +112,10 @@ Marking of Classified and Unclassified materials as described by the North Atlan
 ### [Open Threat Taxonomy v1.1](./open-threat)
 
 Open Threat Taxonomy v1.1 base on James Tarala of SANS [ref](http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf).
+
+### [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./pap)
+
+The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used. It's a protocol/taxonomy similar to TLP informing the recipients of information what they can do with the received information.
 
 ### [TLP - Traffic Light Protocol](./tlp)
 
