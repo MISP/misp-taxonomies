@@ -131,6 +131,11 @@
       "version": 1
     },
     {
+      "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
+      "name": "pap",
+      "version": 1
+    },
+    {
       "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time. Extended with TLP:EX:CHR.",
       "name": "tlp",
       "version": 3
