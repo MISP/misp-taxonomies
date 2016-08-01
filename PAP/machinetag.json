@@ -1,0 +1,25 @@
+{
+  "namespace": "PAP",
+  "expanded": "Permissible Actions Protocol",
+  "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the information can or must not be used.",
+  "version": 2,
+  "predicates": [
+    {
+      "value": "RED",
+      "expanded": "(PAP:RED) Non-detectable actions only. Recipients may not use PAP:RED information on the network. Only passive actions on logs, that are not detectable from the outside."
+    },
+    {
+      "value": "AMBER",
+      "expanded": "(PAP:AMBER) Passive cross check. Recipients may use PAP:AMBER information for conducting online checks, like using services provided by third parties (e.g. VirusTotal), or set up a monitoring honeypot."
+    },
+    {
+      "value": "GREEN",
+      "expanded": "(PAP:GREEN) Active actions allowed. Recipients may use PAP:GREEN information to ping the target, block incoming/outgoing traffic from/to the target or specifically configure honeypots to interact with the target."
+    },
+    {
+      "value": "WHITE",
+      "expanded": "(PAP:WHITE) No restrictions in using this information."
+    }
+  ],
+  "values": null
+}
