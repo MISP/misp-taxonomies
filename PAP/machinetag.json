@@ -1,8 +1,8 @@
 {
   "namespace": "PAP",
   "expanded": "Permissible Actions Protocol",
-  "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the information can or must not be used.",
-  "version": 2,
+  "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
+  "version": 1,
   "predicates": [
     {
       "value": "RED",
