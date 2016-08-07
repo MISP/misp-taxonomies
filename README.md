@@ -24,6 +24,7 @@ The following taxonomies are described:
 - [Europol Incident](./europol-incident) - Europol class of incident taxonomy
 - [Europol Events](./europol-events) - Europol type of events taxonomy
 - [FIRST CSIRT Case](./csirt_case_classification) classification
+- [FIRST Information Exchange Policy (IEP)](./iep) framework
 - [Information Security Indicators](./information-security-indicators) -  ETSI GS ISI 001-1 (V1.1.2): ISI Indicators 
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
 - [Malware](./malware) classification based on a SANS document
@@ -90,6 +91,8 @@ EUROPOL type of events taxonomy
 ### [FIRST CSIRT Case](./csirt_case_classification) classification
 
 FIRST CSIRT Case Classification.
+
+### [FIRST Information Exchange Policy (IEP)](./iep) framework
 
 ### [Information Security Indicators](./information-security-indicators) -  ETSI GS ISI 001-1 (V1.1.2): ISI Indicators 
 
