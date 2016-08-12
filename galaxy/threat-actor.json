@@ -1,0 +1,15 @@
+{
+"predicate_in": "elementOneOf",
+"cluster_url": "https://www.github.com/MISP/misp-galaxy/cluster/threat-actor.json",
+"default_predicate_value": "value",
+"default_predicate_value_in": "values",
+"elements_url" : "https://www.github.com/MISP/misp-galaxy/elements/",
+"exceptions": [
+{
+        "predicate": "adversary-groups",
+        "value": "group",
+        "value_in": "details"
+
+}
+]
+}
