@@ -133,7 +133,6 @@ Vocabulary for Event Recording and Incident Sharing is a format created by the [
 The following taxonomy namespaces are reserved and used internally to MISP.
 
 - [galaxy](./galaxy/) mapping taxonomy with cluster:element:"value".
-- [misp](./misp/) internal misp namespace to influence tagged event or attribute from a MISP perspective.
 
 # How to contribute your taxonomy?
 
