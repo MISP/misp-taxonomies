@@ -175,3 +175,7 @@ Once you are happy with your file go to MISP Web GUI taxonomies/index and update
         ...
 ~~~~
 
+# License
+
+The MISP taxonomies are licensed under [CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) -  Public Domain Dedication. If a specific author of a taxonomy wants to license it under a different license, a pull request can be requested.
+
