@@ -26,6 +26,41 @@
           "value": "pgpfingerprint"
         }
      ]
+    },
+    {
+     "predicate": "confidence-level",
+     "entry": [
+        {
+          "expanded": "Completely confident",
+          "value": "completely-confident",
+          "numerical_value": 100
+        },
+        {
+          "expanded": "Usually confident",
+          "value": "usually-confident",
+          "numerical_value": 80
+        },
+        {
+          "expanded": "Fairly confident",
+          "value": "fairly-confident",
+          "numerical_value": 60
+        },
+        {
+          "expanded": "Not usually confident",
+          "value": "not-usually-confident",
+          "numerical_value": 40
+        },
+        {
+          "expanded": "Unconfident",
+          "value": "unconfident",
+          "numerical_value": 20
+        },
+        {
+          "expanded": "Confidence cannot be evaluated",
+          "value": "confident-cannot-be-evalued",
+          "numerical_value": 0
+        }
+     ]
     }
   ],
   "predicates": [
@@ -40,10 +75,14 @@
     {
       "expanded": "Information related to the contributor.",
       "value": "contributor"
+    },
+    {
+      "expanded": "Confidence level",
+      "value": "confidence-level"
     }
   ],
-  "version": 1,
-  "description": "MISP internal taxonomy to infer with MISP behavior or operation.",
+  "version": 2,
+  "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
 }
