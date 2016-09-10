@@ -38,27 +38,26 @@
         {
           "expanded": "Usually confident",
           "value": "usually-confident",
-          "numerical_value": 80
+          "numerical_value": 75
         },
         {
           "expanded": "Fairly confident",
           "value": "fairly-confident",
-          "numerical_value": 60
+          "numerical_value": 50
         },
         {
           "expanded": "Not usually confident",
           "value": "not-usually-confident",
-          "numerical_value": 40
+          "numerical_value": 25
         },
         {
           "expanded": "Unconfident",
           "value": "unconfident",
-          "numerical_value": 20
+          "numerical_value": 0
         },
         {
           "expanded": "Confidence cannot be evaluated",
           "value": "confident-cannot-be-evalued",
-          "numerical_value": 0
         }
      ]
     }
