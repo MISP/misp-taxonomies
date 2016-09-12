@@ -46,8 +46,8 @@
           "numerical_value": 50
         },
         {
-          "expanded": "Not usually confident",
-          "value": "not-usually-confident",
+          "expanded": "Rarely confident",
+          "value": "rarely-confident",
           "numerical_value": 25
         },
         {
@@ -57,7 +57,7 @@
         },
         {
           "expanded": "Confidence cannot be evaluated",
-          "value": "confident-cannot-be-evalued"
+          "value": "confidence-cannot-be-evalued"
         }
      ]
     }
