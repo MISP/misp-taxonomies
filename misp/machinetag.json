@@ -107,6 +107,10 @@
     {
       "expanded": "Confidence level",
       "value": "confidence-level"
+    },
+    {
+      "expanded": "Cyberthreat Effect Universal Scale - MISP's internal threat level taxonomy",
+      "value": "threat-level-ceus"
     }
   ],
   "version": 2,
