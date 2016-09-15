@@ -110,7 +110,7 @@
     },
     {
       "expanded": "Cyberthreat Effect Universal Scale - MISP's internal threat level taxonomy",
-      "value": "threat-level-ceus"
+      "value": "threat-level"
     }
   ],
   "version": 2,
