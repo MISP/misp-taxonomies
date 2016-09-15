@@ -60,6 +60,29 @@
           "value": "confidence-cannot-be-evalued"
         }
      ]
+    },
+    {
+     "predicate": "threat-level",
+     "entry": [
+        {
+           "expanded": "No risk",
+           "value": "no-risk",
+           "numerical_value": 0,
+           "description": "Harmless information. (CEUS threat level)"
+        },
+        {
+           "expanded": "Medium risk",
+           "value": "medium-risk",
+           "numerical_value": 50,
+           "description": "Medium risk which can include targeted attacks (e.g. APT). (CEUS threat level)"
+        },
+        {
+           "expanded": "High risk",
+           "value": "high-risk",
+           "numerical_value": 100,
+           "description": "High risk which can include highly sophisticated attacks or 0-day attack. (CEUS threat level)"
+        }
+     ]
     }
   ],
   "predicates": [
