@@ -48,36 +48,43 @@
       "predicate": "certainty",
       "entry": [
         {
-          "value": "1",
+          "numerical_value": 100,
+          "value": "100",
           "expanded": "100% Certainty",
           "description": "100% Certainty"
         },
         {
-          "value": "0.93",
+          "numerical_value": 93,
+          "value": "93",
           "expanded": "93% Almost certain",
           "description": "93% Almost certain"
         },
         {
-          "value": "0.75",
+          "numerical_value": 75,
+          "value": "75",
           "expanded": "75% Probable",
           "description": "75% Probable"
         },
         {
-          "value": "0.5",
+          "numerical_value": 50,
+          "value": "50",
           "expanded": "50% Chances about even",
           "description": "50% Chances about even"
         },
         {
-          "value": "0.3",
+          "numerical_value": 30,
+          "value": "30",
           "expanded": "30% Probably not",
           "description": "30% Probably not"
         },
         {
-          "value": "0.07",
+          "numerical_value": 7,
+          "value": "7",
           "expanded": "7% Almost certainly not",
           "description": "7% Almost certainly not"
         },
         {
+          "numerical_value": 0,
           "value": "0",
           "expanded": "0% Impossibility",
           "description": "0% Impossibility"
@@ -99,7 +106,7 @@
     },
     {
       "value": "certainty",
-      "expanded": "Certainty of the elements mentioned in this Open Source Intelligence - ref https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html"
+      "expanded": "Certainty of the elements mentioned in this Open Source Intelligence"
     }
   ]
 }
