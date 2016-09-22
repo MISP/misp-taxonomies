@@ -1,7 +1,7 @@
 {
   "namespace": "iep",
   "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) framework",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "id",
@@ -234,7 +234,7 @@
           "expanded": "Recipients MAY resell the information received."
         },
         {
-          "value": "MUST NO",
+          "value": "MUST NOT",
           "expanded": "Recipients MUST NOT resell the information received unmodified or in a semantically equivalent format."
         }
       ]

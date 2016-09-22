@@ -24,6 +24,7 @@ The following taxonomies are described:
 - [Europol Incident](./europol-incident) - Europol class of incident taxonomy
 - [Europol Events](./europol-events) - Europol type of events taxonomy
 - [FIRST CSIRT Case](./csirt_case_classification) classification
+- [FIRST Information Exchange Policy (IEP)](./iep) framework
 - [Information Security Indicators](./information-security-indicators) -  ETSI GS ISI 001-1 (V1.1.2): ISI Indicators 
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
 - [Malware](./malware) classification based on a SANS document
@@ -91,6 +92,8 @@ EUROPOL type of events taxonomy
 
 FIRST CSIRT Case Classification.
 
+### [FIRST Information Exchange Policy (IEP)](./iep) framework
+
 ### [Information Security Indicators](./information-security-indicators) -  ETSI GS ISI 001-1 (V1.1.2): ISI Indicators 
 
 Information security indicators have been standardized by the [ETSI Industrial Specification Group (ISG) ISI](http://www.etsi.org/technologies-clusters/technologies/information-security-indicators). These indicators provide the basis to switch from a qualitative to a quantitative culture in IT Security Scope of measurements: External and internal threats (attempt and success), user's deviant behaviours, nonconformities and/or vulnerabilities (software, configuration, behavioural, general security framework).
@@ -124,6 +127,12 @@ The Traffic Light Protocol - or short: TLP - was designed with the objective to 
 ### Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
 Vocabulary for Event Recording and Incident Sharing is a format created by the [VERIS community](http://veriscommunity.net/).
+
+# Reserved Taxonomy
+
+The following taxonomy namespaces are reserved and used internally to MISP.
+
+- [galaxy](./galaxy/) mapping taxonomy with cluster:element:"value".
 
 # How to contribute your taxonomy?
 
@@ -165,4 +174,8 @@ Once you are happy with your file go to MISP Web GUI taxonomies/index and update
         admiralty-scale:information-credibility="6"
         ...
 ~~~~
+
+# License
+
+The MISP taxonomies are licensed under [CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) -  Public Domain Dedication. If a specific author of a taxonomy wants to license it under a different license, a pull request can be requested.
 
