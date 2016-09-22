@@ -16,6 +16,7 @@ The following taxonomies are described:
 - [Cyber Kill Chain](./kill-chain) from Lockheed Martin
 - DE German (DE) [Government classification markings (VS)](./de-vs)
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
+- [Domain Name Abuse](./domain-abuse)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [ENISA](./enisa) ENISA Threat Taxonomy
 - [Estimative Language](./estimative-language) Estimative Language (ICD 203)
@@ -59,6 +60,11 @@ Taxonomy for the handling of protectively marked information in MISP with German
 ### [DHS CIIP Sectors](./dhs-ciip-sectors)
 
 DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure-sectors.
+
+### [Domain Name Abuse](./domain-abuse)
+
+Taxonomy to tag domain names used for cybercrime. 
+We suggest to use europol-incident(./europol-incident) to tag abuse-activity.
 
 ### [eCSIRT](./ecsirt) and IntelMQ incident classification
 

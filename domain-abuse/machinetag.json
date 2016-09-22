@@ -1,0 +1,80 @@
+{
+  "namespace": "domain-abuse",
+  "expanded": "Domain Name Abuse",
+  "description": "Domain Name Abuse - taxonomy to tag domain names used for cybercrime. Use europol-incident to tag abuse-activity",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "domain-access-method",
+      "description": "Domain Access - describes how the adversary has gained access to the domain name",
+      "expanded": "Domain access method"
+    },
+    {
+      "value": "domain-status",
+      "description": "Domain status - describes the registration status of the domain name",
+      "expanded": "Domain status"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "domain-status",
+      "entry": [
+        {
+          "value": "active",
+          "expanded": "Registered & active",
+          "description": "Domain name is registered and DNS is delegated"    
+        },
+         {
+          "value": "inactive",
+          "expanded": "Registered & inactive",
+          "description": "Domain name is registered and DNS is not delegated"
+        },
+        {
+          "value": "suspended",
+          "expanded": "Registered & suspended",
+          "description": "Domain name is registered & DNS delegation is temporarily removed by the registry"
+        },
+         {
+          "value": "not-registered",
+          "expanded": "Not registered",
+          "description": "Domain name is not registered and open for registration"
+        },
+         {
+          "value": "not-registrable",
+          "expanded": "Not registrable",
+          "description": "Domain is not registered and cannot be registered"
+        },
+    	{
+          "value": "grace-period",
+          "expanded": "Grace period",
+          "description": "Domain is deleted and still reserved for previous owner"
+        }
+      ]
+    },
+    {
+      "predicate": "domain-access-method",
+      "entry": [
+        {
+          "value": "criminal-registration",
+          "expanded": "Criminal registration",
+          "description": "Domain name is registered for criminal purposes"    
+        },
+        {
+          "value": "compromised-webserver",
+          "expanded": "Compromised webserver",
+          "description": "Webserver is compromised for criminal purposes"    
+        },
+        {
+          "value": "compromised-dns",
+          "expanded": "Compromised DNS",
+          "description": "Compromised authoritative DNS or compromised delegation"    
+        },
+        {
+          "value": "sinkhole",
+          "expanded": "Sinkhole",
+          "description": "Domain Name is sinkholed for research, detection, LE"    
+        }
+      ]  
+    }
+  ]
+}
