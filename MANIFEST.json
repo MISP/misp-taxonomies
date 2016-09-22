@@ -40,6 +40,11 @@
       "name": "dni-ism",
       "version": 3
     },
+     {
+      "description": "Taxonomy to tag domain names used for cybercrime.",
+      "name": "domain-abuse",
+      "version": 1
+    },
     {
       "description": "eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates.",
       "name": "ecsirt",
