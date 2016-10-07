@@ -25,6 +25,10 @@
         {
           "expanded": "Mailing-list",
           "value": "mailing-list"
+        },
+        {
+          "expanded": "Expansion",
+          "value": "expansion"
         }
       ],
       "predicate": "source-type"
