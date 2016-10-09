@@ -67,12 +67,12 @@
     },
     {
       "description": "Market operators and public administrations that must comply to some notifications requirements under EU NIS directive.",
-      "name": "eu-critical-sectors",
+      "name": "eu-marketop-and-publicadmin",
       "version": 2
     },
     {
       "description": "EUROPOL type of events taxonomy.",
-      "name": "europol-events",
+      "name": "europol-event",
       "version": 1
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "description": "Open Threat Taxonomy v1.1 base on James Tarala of SANS ref. - http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf",
-      "name": "open-threat",
+      "name": "open_threat",
       "version": 1
     },
     {
@@ -137,7 +137,7 @@
     },
     {
       "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
-      "name": "pap",
+      "name": "PAP",
       "version": 1
     },
     {

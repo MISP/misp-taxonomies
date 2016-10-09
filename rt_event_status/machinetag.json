@@ -1,0 +1,42 @@
+{
+  "namespace": "rt_event_status",
+  "description": "Status of events used in Request Tracker.",
+  "version": "1.0",
+  "predicates": [
+    {
+      "value": "event-status",
+      "expanded": "Event Status"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "event-status",
+      "entry": [
+        {
+          "value": "new",
+          "expanded": "New"
+        },
+        {
+          "value": "open",
+          "expanded": "Open"
+        },
+        {
+          "value": "stalled",
+          "expanded": "Stalled"
+        },
+        {
+          "value": "rejected",
+          "expanded": "rejected"
+        },
+        {
+          "value": "resolved",
+          "expanded": "Resolved"
+        },
+        {
+          "value": "deleted",
+          "expanded": "Deleted"
+        }
+      ]
+    }
+  ]
+}

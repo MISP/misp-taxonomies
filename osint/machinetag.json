@@ -29,6 +29,10 @@
         {
           "expanded": "Block or Filter List",
           "value": "block-or-filter-list"
+        },
+        {
+          "expanded": "Expansion",
+          "value": "expansion"
         }
       ],
       "predicate": "source-type"
@@ -98,7 +102,7 @@
   ],
   "namespace": "osint",
   "description": "Open Source Intelligence - Classification (MISP taxonomies)",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "source-type",
