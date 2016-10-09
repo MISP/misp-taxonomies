@@ -111,9 +111,14 @@
     {
       "expanded": "Cyberthreat Effect Universal Scale - MISP's internal threat level taxonomy",
       "value": "threat-level"
+    },
+    {
+      "description": "Event with this tag should not be synced to other MISP instances",
+      "expanded": "Should not sync",
+      "value": "should-not-sync"
     }
   ],
-  "version": 2,
+  "version": 3,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
