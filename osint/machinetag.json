@@ -25,6 +25,10 @@
         {
           "expanded": "Mailing-list",
           "value": "mailing-list"
+        },
+        {
+          "expanded": "Block or Filter List",
+          "value": "block-or-filter-list"
         }
       ],
       "predicate": "source-type"
@@ -94,7 +98,7 @@
   ],
   "namespace": "osint",
   "description": "Open Source Intelligence - Classification (MISP taxonomies)",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "source-type",
