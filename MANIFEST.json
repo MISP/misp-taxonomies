@@ -108,7 +108,7 @@
     {
       "description": "Internal MISP taxonomy.",
       "name": "misp",
-      "version": 1
+      "version": 3
     },
     {
       "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.",
