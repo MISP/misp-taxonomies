@@ -1,6 +1,6 @@
 {
-  "version": "20160725",
-  "license": "CC-BY",
+  "version": "20161009",
+  "license": "CC-0",
   "description": "Manifest file of MISP taxonomies available.",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "path": "machinetag.json",
@@ -133,7 +133,7 @@
     {
       "description": "Open Source Intelligence - Classification (MISP taxonomies).",
       "name": "osint",
-      "version": 1
+      "version": 2
     },
     {
       "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
