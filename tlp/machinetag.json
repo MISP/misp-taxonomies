@@ -8,7 +8,7 @@
       "value": "red"
     },
     {
-      "colour:": "#FFC000",
+      "colour": "#FFC000",
       "description": "Limited disclosure, restricted to participants’ organizations. Sources may use TLP:AMBER when information requires support to be effectively acted upon, yet carries risks to privacy, reputation, or operations if shared outside of the organizations involved. Recipients may only share TLP:AMBER information with members of their own organization, and with clients or customers who need to know the information to protect themselves or prevent further harm. Sources are at liberty to specify additional intended limits of the sharing: these must be adhered to.",
       "expanded": "(TLP:AMBER) Information exclusively given to an organization; sharing limited within the organization to be effectively acted upon.",
       "value": "amber"
