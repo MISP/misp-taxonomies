@@ -1,5 +1,5 @@
 {
-  "version": "20161009",
+  "version": "20161026",
   "license": "CC-0",
   "description": "Manifest file of MISP taxonomies available.",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
@@ -109,6 +109,11 @@
       "description": "Internal MISP taxonomy.",
       "name": "misp",
       "version": 3
+    },
+    {
+      "description": "Internal MISP galaxy taxonomy bridging the galaxy with the taxonomies temporarily",
+      "name": "misp-galaxy",
+      "version": 1
     },
     {
       "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.",
