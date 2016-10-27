@@ -1,0 +1,44 @@
+{
+  "ransomware": [
+    "veris:action:malware:variety=\"Ransomware\"",
+    "ecsirt:malicious-code=\"ransomware\"",
+    "enisa:nefarious-activity-abuse=\"ransomware\"",
+    "malware_classification:malware-category=\"Ransomware\"",
+    "ms-caro-malware:malware-type=\"Ransom\"",
+    "veris:action:malware:variety=\"Ransomware\""
+  ],
+  "Remote Access Tool": [
+    "enisa:nefarious-activity-abuse=\"remote-access-tool\"",
+    "ms-caro-malware:malware-type=\"RemoteAccess\""
+  ],
+  "malware": [
+    "ecsirt:malicious-code=\"malware\"",
+    "circl:incident-classification=\"malware\""
+  ],
+  "exploit": [
+    "veris:action:malware:variety=\"Exploit vuln\"",
+    "ecsirt:intrusion-attempts=\"exploit\"",
+    "europol-event:exploit",
+    "europol-incident:intrusion=\"exploitation-vulnerability\"",
+    "ms-caro-malware:malware-type=\"Exploit\""
+  ],
+  "rootkit": [
+   "veris:action:malware:variety=\"Rootkit\"",
+   "enisa:nefarious-activity-abuse=\"rootkits\"",
+   "malware_classification:malware-category=\"Rootkit\""
+  ],
+  "SQLi": [
+   "circl:incident-classification=\"sql-injection\"",
+   "veris:action:malware:variety=\"SQL injection\"",
+   "veris:action:hacking:variety=\"SQLi\"",
+   "enisa:nefarious-activity-abuse=\"web-application-attacks-injection-attacks-code-injection-SQL-XSS\"",
+   "europol-event:sql-injection"
+  ],
+  "DDoS": [
+   "ecsirt:availability=\"ddos\"",
+   "europol-incident:availability=\"dos-ddos\"",
+   "ms-caro-malware:malware-type=\"DDoS\"",
+   "circl:incident-classification=\"denial-of-service\"",
+   "enisa:nefarious-activity-abuse=\"denial-of-service\""
+  ]
+}
