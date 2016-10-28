@@ -33,6 +33,7 @@ The following taxonomies are described:
 - [NATO Classification Marking](./nato)
 - [Open Threat Taxonomy v1.1 (SANS)](./open-threat)
 - [OSINT Open Source Intelligence - Classification](./osint)
+- [Stealth Malware Taxonomy as defined by Joanna Rutkowska](./stealth-malware)
 - [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./pap)
 - [TLP - Traffic Light Protocol](./tlp)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
