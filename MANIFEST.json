@@ -157,7 +157,7 @@
     },
     {
       "description": "Classification based on malware stealth techniques.",
-      "name": "stealth-malware",
+      "name": "stealth_malware",
       "version": 1
     }
   ]
