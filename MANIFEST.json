@@ -1,5 +1,5 @@
 {
-  "version": "20161026",
+  "version": "20161029",
   "license": "CC-0",
   "description": "Manifest file of MISP taxonomies available.",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
@@ -154,6 +154,11 @@
       "description": "Vocabulary for Event Recording and Incident Sharing (VERIS).",
       "name": "veris",
       "version": 2
+    },
+    {
+      "description": "Classification based on malware stealth techniques.",
+      "name": "stealth-malware",
+      "version": 1
     }
   ]
 }
