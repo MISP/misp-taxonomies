@@ -2,8 +2,8 @@ import json
 import requests
 
 debug = False
-galaxy_url = 'https://raw.githubusercontent.com/MISP/misp-galaxy/master/elements/'
-elements = ['threat-actor-tools.json', 'adversary-groups.json']
+galaxy_url = 'https://raw.githubusercontent.com/MISP/misp-galaxy/master/clusters/'
+elements = ['tools.json', 'threat-actors.json']
 # elements = ['threat-actor-tools.json']
 
 taxonomy = {}
@@ -48,7 +48,7 @@ for element in elements:
     taxonomy['values'].append(t_value)
 
 file_out = '../../misp-galaxy/machinetag.json'
-with open(file_out, 'w') as f: 
+with open(file_out, 'w') as f:
     f.write(json.dumps(taxonomy, sort_keys=True, indent=4, separators=(',', ': ')))
 print("JSON saved to "+ file_out)
 
