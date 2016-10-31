@@ -4,11 +4,11 @@
     "predicates": [
         {
             "expanded": "threat-actor-tools is an enumeration of tools used by adversaries. The list includes malware but also common software regularly used by the adversaries.",
-            "value": "threat-actor-tool"
+            "value": "tool"
         },
         {
             "expanded": "Known or estimated adversary groups targeting organizations and employees. Adversary groups are regularly confused with their initial operation or campaign.",
-            "value": "adversary-group"
+            "value": "threat-actor"
         }
     ],
     "values": [
@@ -633,7 +633,6 @@
                     "value": "Gafgyt"
                 },
                 {
-                    "description": "",
                     "expanded": "Gamarue",
                     "value": "Gamarue"
                 },
@@ -678,7 +677,7 @@
                     "value": "Vawtrak"
                 }
             ],
-            "predicate": "threat-actor-tool"
+            "predicate": "tool"
         },
         {
             "entry": [
@@ -1112,7 +1111,7 @@
                     "value": "TeamXRat"
                 }
             ],
-            "predicate": "adversary-group"
+            "predicate": "threat-actor"
         }
     ],
     "version": 1
