@@ -55,5 +55,114 @@
       "veris:action:malware:variety=\"Ransomware\""
     ],
     "description": "Ransomware is computer malware that installs covertly on a victim's computer, executes a cryptovirology attack that adversely affects it, and demands a ransom payment to decrypt it or not publish it. (as defined by Wikipedia)"
+  },
+  "spam": {
+    "values": [
+      "circl:incident-classification=\"spam\"",
+      "ecsirt:abusive-content=\"spam\"",
+      "enisa:nefarious-activity-abuse=\"spam\"",
+      "europol-event:spam",
+      "europol-incident:abusive-content=\"spam\"",
+      "veris:action:malware:variety=\"Spam\"",
+      "veris:action:social:variety=\"Spam\""
+    ]
+  },
+  "scan": {
+    "values": [
+      "circl:incident-classification=\"scan\"",
+      "europol-incident:information-gathering=\"scanning\""
+    ]
+  },
+  "scan network": {
+    "values": [
+      "veris:action:malware:variety=\"Scan network\"",
+      "europol-event:network-scanning"
+    ]
+  },
+  "xss": {
+    "values": [
+      "circl:incident-classification=\"XSS\"",
+      "europol-event:xss "
+    ]
+  },
+  "phishing": {
+    "values": [
+      "circl:incident-classification=\"phishing\"",
+      "ecsirt:fraud=\"phishing\"",
+      "veris:action:social:variety=\"Phishing\"",
+      "europol-incident:information-gathering=\"phishing\"",
+      "enisa:nefarious-activity-abuse=\"phishing-attacks\""
+    ]
+  },
+  "brute force": {
+    "values": [
+      "ecsirt:intrusion-attempts=\"brute-force\"",
+      "veris:action:malware:variety=\"Brute force\"",
+      "europol-event:brute-force-attempt",
+      "enisa:nefarious-activity-abuse=\"brute-force\""
+    ]
+  },
+  "backdoor": {
+    "values": [
+      "ecsirt:intrusions=\"backdoor\"",
+      "veris:action:malware:variety=\"Backdoor\"",
+      "ms-caro-malware:malware-type=\"Backdoor\""
+    ]
+  },
+  "c&c": {
+    "values": [
+      "ecsirt:malicious-code=\"c&c\"",
+      "europol-incident:malware=\"c&c\"",
+      "europol-event:c&c-server-hosting",
+      "veris:action:malware:variety=\"C2\""
+    ]
+  },
+  "Brute Force": {
+    "values": [
+      "ecsirt:intrusion-attempts=\"brute-force\"",
+      "veris:action:malware:variety=\"Brute force\"",
+      "europol-event:brute-force-attempt",
+      "enisa:nefarious-activity-abuse=\"brute-force\""
+    ]
+  },
+  "Adware": {
+    "values": [
+      "veris:action:malware:variety=\"Adware\"",
+      "malware_classification:malware-category=\"Adware\"",
+      "ms-caro-malware:malware-type=\"Adware\""
+    ]
+  },
+  "Downloader": {
+    "values": [
+      "veris:action:malware:variety=\"Downloader\"",
+      "malware_classification:malware-category=\"Downloader\""
+    ]
+  },
+  "Spyware": {
+    "values": [
+      "veris:action:malware:variety=\"Spyware/Keylogger\"",
+      "malware_classification:malware-category=\"Spyware\"",
+      "ms-caro-malware:malware-type=\"Spyware\"",
+      "enisa:nefarious-activity-abuse=\"spyware-or-deceptive-adware\""
+    ]
+  },
+  "Trojan": {
+    "values": [
+      "malware_classification:malware-category=\"Trojan\"",
+      "ms-caro-malware:malware-type=\"Trojan\""
+    ]
+  },
+  "Virus": {
+    "values": [
+      "malware_classification:malware-category=\"Virus\"",
+      "ms-caro-malware:malware-type=\"Virus\""
+    ]
+  },
+  "Worm": {
+    "values": [
+      "veris:action:malware:variety=\"Worm\"",
+      "malware_classification:malware-category=\"Worm\"",
+      "ms-caro-malware:malware-type=\"Worm\""
+    ]
   }
 }
