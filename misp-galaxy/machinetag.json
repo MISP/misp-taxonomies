@@ -675,6 +675,16 @@
                     "description": "Vawtrak is an information stealing malware family that is primarily used to gain unauthorised access to bank accounts through online banking websites.",
                     "expanded": "Vawtrak",
                     "value": "Vawtrak"
+                },
+                {
+                    "description": "Empire is a pure PowerShell post-exploitation agent built on cryptologically-secure communications and a flexible architecture. Empire implements the ability to run PowerShell agents without needing powershell.exe, rapidly deployable post-exploitation modules ranging from key loggers to Mimikatz, and adaptable communications to evade network detection, all wrapped up in a usability-focused framework",
+                    "expanded": "Empire",
+                    "value": "Empire"
+                },
+                {
+                    "description": "Beginning in late 2012, a carefully orchestrated attack campaign we call Volatile Cedar has been targeting individuals, companies and institutions worldwide. This campaign, led by a persistent attacker group, has successfully penetrated a large number of targets using various attack techniques, and specifically, a custom-made malware implant codenamed Explosive. ",
+                    "expanded": "Explosive",
+                    "value": "Explosive"
                 }
             ],
             "predicate": "tool"
@@ -908,6 +918,11 @@
                     "value": "Magic Kitten"
                 },
                 {
+                    "description": "Targets Saudi Arabia, Israel, US, Iran, high ranking defense officials, embassies of various target countries, notable Iran researchers, human rights activists, media and journalists, academic institutions and various scholars, including scientists in the fields of physics and nuclear sciences.",
+                    "expanded": "Rocket Kitten",
+                    "value": "Rocket Kitten"
+                },
+                {
                     "expanded": "Cleaver",
                     "value": "Cleaver"
                 },
@@ -1109,10 +1124,19 @@
                 {
                     "expanded": "TeamXRat",
                     "value": "TeamXRat"
+                },
+                {
+                    "expanded": "OilRig",
+                    "value": "OilRig"
+                },
+                {
+                    "description": "Beginning in late 2012, a carefully orchestrated attack campaign we call Volatile Cedar has been targeting individuals, companies and institutions worldwide. This campaign, led by a persistent attacker group, has successfully penetrated a large number of targets using various attack techniques, and specifically, a custom-made malware implant codenamed Explosive .",
+                    "expanded": "Volatile Cedar",
+                    "value": "Volatile Cedar"
                 }
             ],
             "predicate": "threat-actor"
         }
     ],
-    "version": 2
+    "version": 3
 }
