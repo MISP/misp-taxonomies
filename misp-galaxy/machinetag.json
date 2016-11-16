@@ -406,10 +406,6 @@
                     "value": "Preshin"
                 },
                 {
-                    "expanded": "Rekaf",
-                    "value": "Rekaf"
-                },
-                {
                     "expanded": "Oficla",
                     "value": "Oficla"
                 },
@@ -747,11 +743,6 @@
                     "value": "Eloquent Panda"
                 },
                 {
-                    "description": "A China-based actor that targets foreign embassies to collect data on government, defence, and technology sectors.",
-                    "expanded": "Emissary Panda",
-                    "value": "Emissary Panda"
-                },
-                {
                     "expanded": "Dizzy Panda",
                     "value": "Dizzy Panda"
                 },
@@ -811,6 +802,7 @@
                     "value": "Hurricane Panda"
                 },
                 {
+                    "description": "A China-based actor that targets foreign embassies to collect data on government, defence, and technology sectors.",
                     "expanded": "Emissary Panda",
                     "value": "Emissary Panda"
                 },
@@ -905,6 +897,7 @@
                     "value": "Flying Kitten"
                 },
                 {
+                    "description": "While tracking a suspected Iran-based threat group known as Threat Group-2889[1] (TG-2889), Dell SecureWorks Counter Threat Unit\u2122 (CTU) researchers uncovered a network of fake LinkedIn profiles. These convincing profiles form a self-referenced network of seemingly established LinkedIn users. CTU researchers assess with high confidence the purpose of this network is to target potential victims through social engineering. Most of the legitimate LinkedIn accounts associated with the fake accounts belong to individuals in the Middle East, and CTU researchers assess with medium confidence that these individuals are likely targets of TG-2889.",
                     "expanded": "Cutting Kitten",
                     "value": "Cutting Kitten"
                 },
@@ -929,11 +922,6 @@
                 {
                     "expanded": "Sands Casino",
                     "value": "Sands Casino"
-                },
-                {
-                    "description": "While tracking a suspected Iran-based threat group known as Threat Group-2889[1] (TG-2889), Dell SecureWorks Counter Threat Unit\u2122 (CTU) researchers uncovered a network of fake LinkedIn profiles. These convincing profiles form a self-referenced network of seemingly established LinkedIn users. CTU researchers assess with high confidence the purpose of this network is to target potential victims through social engineering. Most of the legitimate LinkedIn accounts associated with the fake accounts belong to individuals in the Middle East, and CTU researchers assess with medium confidence that these individuals are likely targets of TG-2889.",
-                    "expanded": "Threat Group-2889",
-                    "value": "Threat Group-2889"
                 },
                 {
                     "expanded": "Rebel Jackal",
@@ -1133,10 +1121,15 @@
                     "description": "Beginning in late 2012, a carefully orchestrated attack campaign we call Volatile Cedar has been targeting individuals, companies and institutions worldwide. This campaign, led by a persistent attacker group, has successfully penetrated a large number of targets using various attack techniques, and specifically, a custom-made malware implant codenamed Explosive .",
                     "expanded": "Volatile Cedar",
                     "value": "Volatile Cedar"
+                },
+                {
+                    "description": "Threat Group conducting cyber espionage while re-using tools from other teams; like those of Hacking Team, and vmprotect to obfuscate.",
+                    "expanded": "Callisto",
+                    "value": "Callisto"
                 }
             ],
             "predicate": "threat-actor"
         }
     ],
-    "version": 3
+    "version": 4
 }
