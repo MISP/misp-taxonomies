@@ -20,21 +20,21 @@ The following taxonomies are described:
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [ENISA](./enisa) ENISA Threat Taxonomy
 - [Estimative Language](./estimative-language) Estimative Language (ICD 203)
-- [EU critical sectors](./eu-critical-sectors) - EU critical sectors
+- [EU NIS Critical Infrastructure Operators](./eu-marketop-and-publicadmin) - EU NIS Critical Infrastructure Operators 
 - [EUCI](./euci) - EU classified information marking
 - [Europol Incident](./europol-incident) - Europol class of incident taxonomy
-- [Europol Events](./europol-events) - Europol type of events taxonomy
+- [Europol Events](./europol-event) - Europol type of events taxonomy
 - [FIRST CSIRT Case](./csirt_case_classification) classification
 - [FIRST Information Exchange Policy (IEP)](./iep) framework
 - [Information Security Indicators](./information-security-indicators) -  ETSI GS ISI 001-1 (V1.1.2): ISI Indicators 
 - [Information Security Marking Metadata](./dni-ism) from DNI (Director of National Intelligence - US)
-- [Malware](./malware) classification based on a SANS document
+- [Malware](./malware_classification) classification based on a SANS document
 - [ms-caro-malware](./ms-caro-malware) Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.
 - [NATO Classification Marking](./nato)
-- [Open Threat Taxonomy v1.1 (SANS)](./open-threat)
+- [Open Threat Taxonomy v1.1 (SANS)](./open_threat)
 - [OSINT Open Source Intelligence - Classification](./osint)
 - [Stealth Malware Taxonomy as defined by Joanna Rutkowska](./stealth-malware)
-- [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./pap)
+- [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./PAP)
 - [TLP - Traffic Light Protocol](./tlp)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
@@ -79,7 +79,7 @@ ENISA Threat Taxonomy - A tool for structuring threat information [as published]
 
 Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a)).
 
-### [EU Critical Sectors](./eu-critical-sectors)
+### [EU NIS Critical Infrastructure Operators](./eu-marketop-and-publicadmin)
 
 Market operators and public administrations that must comply to some notifications requirements under EU NIS directive.
 
@@ -91,7 +91,7 @@ EU classified information (EUCI) means any information or material designated by
 
 EUROPOL class of incident taxonomy
 
-### [Europol Events](./europol-events)
+### [Europol Events](./europol-event)
 
 EUROPOL type of events taxonomy
 
@@ -109,7 +109,7 @@ Information security indicators have been standardized by the [ETSI Industrial S
 
 ISM (Information Security Marking Metadata) [V13](http://www.dni.gov/index.php/about/organization/chief-information-officer/information-security-marking-metadata) as described by DNI.gov.
 
-### [Malware](./malware) classification
+### [Malware](./malware_classification) classification
 
 Malware classification based on a [SANS whitepaper about malware](https://www.sans.org/reading-room/whitepapers/incident/malware-101-viruses-32848).
 
@@ -119,11 +119,11 @@ Malware classification based on a [SANS whitepaper about malware](https://www.sa
 
 Marking of Classified and Unclassified materials as described by the North Atlantic Treaty Organization, NATO.
 
-### [Open Threat Taxonomy v1.1](./open-threat)
+### [Open Threat Taxonomy v1.1](./open_threat)
 
 Open Threat Taxonomy v1.1 base on James Tarala of SANS [ref](http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf).
 
-### [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./pap)
+### [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./PAP)
 
 The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used. It's a protocol/taxonomy similar to TLP informing the recipients of information what they can do with the received information.
 
