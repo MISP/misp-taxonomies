@@ -681,6 +681,21 @@
                     "description": "Beginning in late 2012, a carefully orchestrated attack campaign we call Volatile Cedar has been targeting individuals, companies and institutions worldwide. This campaign, led by a persistent attacker group, has successfully penetrated a large number of targets using various attack techniques, and specifically, a custom-made malware implant codenamed Explosive. ",
                     "expanded": "Explosive",
                     "value": "Explosive"
+                },
+                {
+                    "description": "The actors used a new version of \u201cKeyBoy,\u201d a custom backdoor first disclosed by researchers at Rapid7 in June 2013. Their work outlined the capabilities of the backdoor, and exposed the protocols and algorithms used to hide the network communication and configuration data",
+                    "expanded": "KeyBoy",
+                    "value": "KeyBoy"
+                },
+                {
+                    "description": "The attacks in this case are associated with a campaign called Tropic Trooper, which has been active since at least 2011 and is known for heavily targeting Taiwan. One of the attacks used their known Yahoyah malware...",
+                    "expanded": "Yahoyah",
+                    "value": "Yahoyah"
+                },
+                {
+                    "description": "Delphi RAT used by Sofacy.",
+                    "expanded": "Tartine",
+                    "value": "Tartine"
                 }
             ],
             "predicate": "tool"
@@ -775,6 +790,10 @@
                 {
                     "expanded": "Wekby",
                     "value": "Wekby"
+                },
+                {
+                    "expanded": "Tropic Trooper",
+                    "value": "Tropic Trooper"
                 },
                 {
                     "expanded": "Axiom",
@@ -1131,5 +1150,5 @@
             "predicate": "threat-actor"
         }
     ],
-    "version": 4
+    "version": 5
 }
