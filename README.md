@@ -35,6 +35,7 @@ The following taxonomies are described:
 - [OSINT Open Source Intelligence - Classification](./osint)
 - [Stealth Malware Taxonomy as defined by Joanna Rutkowska](./stealth-malware)
 - [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./PAP)
+- [Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer.](./targeted-threat-index)
 - [TLP - Traffic Light Protocol](./tlp)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
@@ -122,6 +123,10 @@ Marking of Classified and Unclassified materials as described by the North Atlan
 ### [Open Threat Taxonomy v1.1](./open_threat)
 
 Open Threat Taxonomy v1.1 base on James Tarala of SANS [ref](http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf).
+
+### [Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer.](./targeted-threat-index)
+
+The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman. [More info about TTI[(https://citizenlab.org/2013/10/targeted-threat-index/).
 
 ### [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./PAP)
 
