@@ -46,7 +46,7 @@ doc = ''
 if args.a:
     doc = doc + ":toc: right\n"
     doc = doc + ":icons: font\n"
-    doc = doc + ":images-cdn: https://raw.githubusercontent.com/MISP/MISP/master/INSTALL/logos/\n"
+    doc = doc + ":images-cdn: https://raw.githubusercontent.com/MISP/MISP/2.4/INSTALL/logos/\n"
     doc = doc + "= MISP taxonomies and classification as machine tags\n\n"
     doc = doc + "Generated from https://github.com/MISP/misp-taxonomies.\n\n"
     doc = doc + "\nimage::{images-cdn}misp-logo.png[MISP logo]\n"
