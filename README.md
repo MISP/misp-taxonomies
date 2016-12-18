@@ -126,7 +126,7 @@ Open Threat Taxonomy v1.1 base on James Tarala of SANS [ref](http://www.auditscr
 
 ### [Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer.](./targeted-threat-index)
 
-The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman. [More info about TTI[(https://citizenlab.org/2013/10/targeted-threat-index/).
+The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman. [More info about TTI](https://citizenlab.org/2013/10/targeted-threat-index/).
 
 ### [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./PAP)
 
