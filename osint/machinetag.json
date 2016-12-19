@@ -7,6 +7,10 @@
           "value": "blog-post"
         },
         {
+          "expanded": "Microblog post like Twitter",
+          "value": "microblog-post"
+        },
+        {
           "expanded": "Technical or analysis report",
           "value": "technical-report"
         },
@@ -102,7 +106,7 @@
   ],
   "namespace": "osint",
   "description": "Open Source Intelligence - Classification (MISP taxonomies)",
-  "version": 3,
+  "version": 4,
   "predicates": [
     {
       "value": "source-type",
