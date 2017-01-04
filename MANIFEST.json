@@ -164,6 +164,11 @@
       "description": "Representation of the behavior or modus operandi of cyber adversaries (a.k.a TTP) as normalized in STIX",
       "name": "stix-ttp",
       "version": 1
+    },
+    {
+      "description" : "Tags for RiskIQ's passivetotal service",
+      "name" : "passivetotal",
+      "version" : 1
     }
   ]
 }
