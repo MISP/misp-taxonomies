@@ -1,5 +1,5 @@
 {
-  "version": "20161219",
+  "version": "20170104",
   "license": "CC-0",
   "description": "Manifest file of MISP taxonomies available.",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
@@ -156,14 +156,9 @@
       "version": 1
     },
     {
-      "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman.",
-      "name": "targeted-threat-index",
-      "version": 1
-    },
-    {
-      "description": "Representation of the behavior or modus operandi of cyber adversaries (a.k.a TTP) as normalized in STIX",
-      "name": "stix-ttp",
-      "version": 1
+      "description": "Tags provided by RiskIQ's PassiveTotal service",
+      "name" : "passivetotal",
+      "version" : 1
     }
   ]
 }
