@@ -1,0 +1,115 @@
+{
+    "namespace": "stix-ttp",    
+    "expanded": "STIX TTP",
+    "version": 1,
+    "description": "TTPs are representations of the behavior or modus operandi of cyber adversaries.",
+    "refs": [
+	"http://stixproject.github.io/documentation/idioms/industry-sector/"
+    ],
+    "predicates": [
+	{
+	    "value": "victim-targeting",
+	    "expanded": "Victim Targeting"
+	}
+    ],
+    "values": [
+	{
+	    "predicate": "victim-targeting",
+	    "entry": [
+		{
+		    "value": "business-professional-sector",
+		    "expanded": "Business & Professional Services Sector"
+		},
+		{
+		    "value": "retail-sector",
+		    "expanded": "Retail Sector"
+		},
+		{
+		    "value": "financial-sector",
+		    "expanded": "Financial Services Sector"
+		},
+		{
+		    "value": "media-entertainment-sector",
+		    "expanded": "Media & Entertainment Sector"
+		},
+		{
+		    "value": "construction-engineering-sector",
+		    "expanded": "Construction & Engineering Sector"
+		},
+		{
+		    "value": "government-international-organizations-sector",
+		    "expanded": "Goverment & International Organizations"
+		},
+		{
+		    "value": "legal-sector",
+		    "expanded": "Legal Services"
+		},
+		{
+		    "value": "hightech-it-sector",
+		    "expanded": "High-Tech & IT Sector"
+		},
+		{
+		    "value": "healthcare-sector",
+		    "expanded": "Healthcare Sector"
+		},
+		{
+		    "value": "transportation-sector",
+		    "expanded": "Transportation Sector"
+		},
+		{
+		    "value": "aerospace-defence-sector",
+		    "expanded": "Aerospace & Defense Sector"
+		},
+		{
+		    "value": "energy-sector",
+		    "expanded": "Energy Sector"
+		},
+		{
+		    "value": "food-sector",
+		    "expanded": "Food Sector"
+		},
+		{
+		    "value": "natural-resources-sector",
+		    "expanded": "Natural Resources Sector"
+		},
+		{
+		    "value": "other-sector",
+		    "expanded": "Other Sector"
+		},
+
+		{
+		    "value": "corporate-employee-information",
+		    "expanded": "Corporate Employee Information"
+		},
+		{
+		    "value": "customer-pii",
+		    "expanded": "Customer PII"
+		},
+		{
+		    "value": "email-lists-archives",
+		    "expanded": "Email Lists/Archives"
+		},
+		{
+		    "value": "financial-data",
+		    "expanded": "Financial Data"
+		},
+		{
+		    "value": "intellectual-property",
+		    "expanded": "Intellectual Property"
+		},
+		{
+		    "value": "mobile-phone-contacts",
+		    "expanded": "Mobile Phone Contacts"
+		},
+		{
+		    "value": "user-credentials",
+		    "expanded": "User Credentials"
+		},
+		{
+		    "value": "authentification-cookies",
+		    "expanded": "Authentication Cookies"
+		}		
+	    ]
+	}
+    ]
+}

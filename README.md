@@ -33,6 +33,7 @@ The following taxonomies are described:
 - [NATO Classification Marking](./nato)
 - [Open Threat Taxonomy v1.1 (SANS)](./open_threat)
 - [OSINT Open Source Intelligence - Classification](./osint)
+- [STIX-TTP](./stix-ttp) - Represents the behavior or modus operandi of cyber adversaries as normalized in STIX
 - [Stealth Malware Taxonomy as defined by Joanna Rutkowska](./stealth-malware)
 - [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./PAP)
 - [Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer.](./targeted-threat-index)
@@ -123,6 +124,10 @@ Marking of Classified and Unclassified materials as described by the North Atlan
 ### [Open Threat Taxonomy v1.1](./open_threat)
 
 Open Threat Taxonomy v1.1 base on James Tarala of SANS [ref](http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf).
+
+### [STIX-TTP](./stix-ttp)
+
+STIX-TTP exposes a set classification tools that represents the behavior or modus operandi of cyber adversaries as normalized in STIX. TTPs consist of the specific adversary behavior (attack patterns, malware, exploits) exhibited, resources leveraged (tools, infrastructure, personas), information on the victims targeted (who, what or where), relevant ExploitTargets being targeted, intended effects, relevant kill chain phases, handling guidance, source of the TTP information, etc.
 
 ### [Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer.](./targeted-threat-index)
 
