@@ -2,7 +2,7 @@
   "namespace": "kill-chain",
   "expanded": "Cyber Kill Chain",
   "description": "The Cyber Kill Chain, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "Reconnaissance",
