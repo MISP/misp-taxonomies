@@ -32,8 +32,12 @@ import argparse
 import os
 
 taxonomies = []
-for folder in os.listdir('../'):
-    if os.path.isfile(os.path.join('../', folder, 'machinetag.json')):
+
+# Get our current directory from file location
+thisDir = os.path.dirname(__file__)
+
+for folder in os.listdir(os.path.join(thisDir, '../')):
+    if os.path.isfile(os.path.join(thisDir, '../', folder, 'machinetag.json')):
         taxonomies.append(folder)
 argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies', epilog='Available taxonomies are {0}'.format(taxonomies))
 argParser.add_argument('-e', action='store_true', help='Include expanded tags')
@@ -83,7 +87,7 @@ def machineTag(namespace=False, predicate=False, value=None):
         return (u'{0}:{1}=\"{2}\"'.format(namespace, predicate, value))
 
 for taxonomy in taxonomies:
-    filename = os.path.join("../", taxonomy, "machinetag.json")
+    filename = os.path.join(thisDir, "../", taxonomy, "machinetag.json")
     with open(filename) as fp:
         t = json.load(fp)
     namespace = t['namespace']
