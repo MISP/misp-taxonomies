@@ -16,6 +16,7 @@ The following taxonomies are described:
 - [Cyber Kill Chain](./kill-chain) from Lockheed Martin
 - DE German (DE) [Government classification markings (VS)](./de-vs)
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
+- [Diamond Model for Intrusion Analysis](./diamond-model)
 - [Domain Name Abuse](./domain-abuse)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [ENISA](./enisa) ENISA Threat Taxonomy
@@ -63,6 +64,11 @@ Taxonomy for the handling of protectively marked information in MISP with German
 ### [DHS CIIP Sectors](./dhs-ciip-sectors)
 
 DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure-sectors.
+
+### [Diamond Model for Intrusion Analysis](./diamond-model)
+
+The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack
+as described in [http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf](http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf).
 
 ### [Domain Name Abuse](./domain-abuse)
 
