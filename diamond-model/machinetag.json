@@ -3,7 +3,7 @@
   "expanded": "Diamond Model for Intrusion Analysis",
   "description": "The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack.",
   "version": 1,
-  "ref": [
+  "refs": [
     "http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf"
   ],
   "predicates": [
