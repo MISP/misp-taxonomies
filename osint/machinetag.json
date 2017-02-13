@@ -35,6 +35,10 @@
           "value": "block-or-filter-list"
         },
         {
+          "expanded": "Source code repository",
+          "value": "source-code-repository"
+        },
+        {
           "expanded": "Expansion",
           "value": "expansion"
         }
@@ -106,7 +110,7 @@
   ],
   "namespace": "osint",
   "description": "Open Source Intelligence - Classification (MISP taxonomies)",
-  "version": 4,
+  "version": 5,
   "predicates": [
     {
       "value": "source-type",

@@ -1,5 +1,5 @@
 {
-  "version": "20170104",
+  "version": "20170129",
   "license": "CC-0",
   "description": "Manifest file of MISP taxonomies available.",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
@@ -34,6 +34,11 @@
       "description": "DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure-sectors.",
       "name": "dhs-ciip-sectors",
       "version": 2
+    },
+    {
+      "description": "The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack.",
+      "name": "diamond-model",
+      "version": 1
     },
     {
       "description": "ISM (Information Security Marking Metadata) V13 as described by DNI.gov (Director of National Intelligence - US).",
@@ -133,7 +138,7 @@
     {
       "description": "Open Source Intelligence - Classification (MISP taxonomies).",
       "name": "osint",
-      "version": 4
+      "version": 5
     },
     {
       "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
