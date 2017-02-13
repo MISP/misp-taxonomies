@@ -1,7 +1,7 @@
 {
   "namespace": "information-security-indicators",
   "description": "A full set of operational indicators for organizations to use to benchmark their security posture.",
-  "version": "1",
+  "version": 1,
   "predicates": [
     {
       "value": "IEX",

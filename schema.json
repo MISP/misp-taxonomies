@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Validator for misp-taxonomies",
+  "id": "https://www.github.com/MISP/misp-taxonomies/schema.json",
+  "type": "object",
+  "properties": {
+    "namespace": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "predicates": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object"
+      }
+    },
+    "values": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "required": [
+    "namespace",
+    "description",
+    "version"
+  ]
+}

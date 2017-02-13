@@ -1,7 +1,7 @@
 {
   "namespace": "rt_event_status",
   "description": "Status of events used in Request Tracker.",
-  "version": "1.0",
+  "version": 1,
   "predicates": [
     {
       "value": "event-status",
