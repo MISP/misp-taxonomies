@@ -139,7 +139,8 @@
           "description": "This indicator measures illicit entrance of individuals into security perimeter."
         }
       ]
-    },{
+    },
+    {
       "predicate": "IMF",
       "entry": [
         {
@@ -188,7 +189,8 @@
           "description": "This indicator primarily relates to Personal Identifiable Information (PII) protected by privacy laws, to information falling under the PCI-DSS regulation, to information falling under European regulation in the area of breach notification (Telcos and ISPs to begin with), and to information about electronic exchanges between employees and the exterior (electronic messaging and Internet connection). This indicator does not include possible difficulties pertaining to proof forwarding from field operations to governance (state-of-the-art unavailable). This indicator is a sub-set of indicator IMF_LOG.1, but can be identical to this one in advanced organizations."
         }
       ]
-    },{
+    },
+    {
       "predicate": "IDB",
       "entry": [
         {
@@ -247,7 +249,8 @@
           "description": "This event is generally decided and deployed by an administrator in order to improve performance of the system under his/her responsibility (illicit voluntary stoppage). This indicator is a reduced subset of indicator IUS_RGH.5"
         }
       ]
-    },{
+    },
+    {
       "predicate": "IWH",
       "entry": [
         {
@@ -281,7 +284,8 @@
           "description": "This indicator measures security incidents tied to assets (on servers) non-inventoried and not managed by appointed teams. It is a key indicator insofar as a high percentage of incidents corresponds with this indicator on average in the profession (according to some public surveys)."
         }
       ]
-    },{
+    },
+    {
       "predicate": "VBH",
       "entry": [
         {
@@ -400,7 +404,8 @@
           "description": "This vulnerability applies to discussions through on-line media leading to leakage of personal identifiable information (PII) or various business details to be used later (notably for identity usurpation) "
         }
       ]
-    },{
+    },
+    {
       "predicate": "VSW",
       "entry": [
         {
@@ -419,7 +424,8 @@
           "description": "This indicators measures software vulnerabilities detected in Web browsers running on workstations."
         }
       ]
-    },{
+    },
+    {
       "predicate": "VCF",
       "entry": [
         {
@@ -473,7 +479,8 @@
           "description": "This indicator measures accounts inactive for at least 2 months that have not been disabled. These accounts are not used by their users due to prolonged but not definitive absence (long term illness, maternity, etc.), with the exclusion of messaging accounts (which should remain accessible to users from their home)."
         }
       ]
-    },{
+    },
+    {
       "predicate": "VTC",
       "entry": [
         {
@@ -507,7 +514,8 @@
           "description": "This indicator includes access to protected internal areas. The 1st cause is the lack of effective control of users at software level. The 2nd cause is hardware breakdown of a component in the chain."
         }
       ]
-    },{
+    },
+    {
       "predicate": "VOR",
       "entry": [
         {
@@ -556,7 +564,8 @@
           "description": "This indicator measures the launch of new IT projects of a standard type without identification of vulnerabilities and threats and of related security measures. For these IT projects, potential implementation of a simplified risk analysis method or of pre-defined security profiles can be applied."
         }
       ]
-    },{
+    },
+    {
       "predicate": "IMP",
       "entry": [
         {

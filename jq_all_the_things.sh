@@ -5,7 +5,7 @@ set -x
 
 # Seeds sponge, from moreutils
 
-for dir in ./*/list.json
+for dir in ./*/machinetag.json
 do
     cat ${dir} | jq . | sponge ${dir}
 done

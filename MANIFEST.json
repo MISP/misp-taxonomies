@@ -40,7 +40,7 @@
       "name": "dni-ism",
       "version": 3
     },
-     {
+    {
       "description": "Taxonomy to tag domain names used for cybercrime.",
       "name": "domain-abuse",
       "version": 1
@@ -166,9 +166,9 @@
       "version": 1
     },
     {
-      "description" : "Tags for RiskIQ's passivetotal service",
-      "name" : "passivetotal",
-      "version" : 1
+      "description": "Tags for RiskIQ's passivetotal service",
+      "name": "passivetotal",
+      "version": 1
     }
   ]
 }
