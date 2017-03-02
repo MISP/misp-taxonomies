@@ -20,10 +20,10 @@
     },
     {
       "entry": [
-       {
+        {
           "expanded": "block",
           "value": "block"
-       }
+        }
       ],
       "predicate": "expansion"
     },
