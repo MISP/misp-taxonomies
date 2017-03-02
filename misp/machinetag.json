@@ -19,6 +19,15 @@
       "predicate": "api"
     },
     {
+      "entry": [
+       {
+          "expanded": "block",
+          "value": "block"
+       }
+      ],
+      "predicate": "expansion"
+    },
+    {
       "predicate": "contributor",
       "entry": [
         {
@@ -116,9 +125,14 @@
       "description": "Event with this tag should not be synced to other MISP instances",
       "expanded": "Should not sync",
       "value": "should-not-sync"
+    },
+    {
+      "description": "Expansion tag incluencing the MISP behavior using expansion modules",
+      "expanded": "Expansion",
+      "value": "expansion"
     }
   ],
-  "version": 3,
+  "version": 4,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
