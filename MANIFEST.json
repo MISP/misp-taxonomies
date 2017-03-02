@@ -171,6 +171,11 @@
       "version": 1
     },
     {
+      "description": "AccessNow Taxonomy",
+      "name": "accessnow",
+      "version": 1
+    },
+    {
       "description": "Tags for RiskIQ's passivetotal service",
       "name": "passivetotal",
       "version": 1

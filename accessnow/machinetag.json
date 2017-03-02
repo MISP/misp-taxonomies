@@ -1,0 +1,117 @@
+{
+  "namespace": "accessnow",
+  "description": "Access Now",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "anti-corruption-transparency",
+      "expanded": "Anti-Corruption and transparency",
+      "description": "The organization campaigns, or takes other actions against corruption and transparency."
+    },
+    {
+      "value": "anti-war-violence",
+      "expanded": "Anti-War / Anti-Violence",
+      "description": "The organization campaigns, or takes other actions against war"
+    },
+    {
+      "value": "culture",
+      "expanded": "Culture",
+      "description": "The organization campaigns or acts to promote cultural events Humanitarian Aid/Need Issues: relates to improving life for individuals in the developing world (right to shelter, right to education, right to food, right to water)"
+    },
+    {
+      "value": "economic-change",
+      "expanded": "Economic Change",
+      "description": "Issues of economic policy, wealth distribution, etc."
+    },
+    {
+      "value": "education",
+      "expanded": "Education",
+      "description": "The organization is concerned with some form of education"
+    },
+    {
+      "value": "election-monitoring",
+      "expanded": "Election Monitoring",
+      "description": "The organization is an election monitor, or involved in election monitoring"
+    },
+    {
+      "value": "environment",
+      "expanded": "Environment",
+      "description": "The organization campaigns or acts to protect the environment"
+    },
+    {
+      "value": "freedom-expression",
+      "expanded": "Freedom of Expression",
+      "description": "The organization is concerned with freedom of speech issues"
+    },
+    {
+      "value": "freedom-tool-development",
+      "expanded": "Freedom Tool Development",
+      "description": "The organization develops tools for use in defending or extending digital rights"
+    },
+    {
+      "value": "funding",
+      "expanded": "Funding",
+      "description": " The organization is a funder of organizations or projects working with at risk users"
+    },
+    {
+      "value": "health",
+      "expanded": "Health Issues",
+      "description": "The organization prevents epidemic illness or acts on curing them"
+    },
+    {
+      "value": "human-rights",
+      "expanded": "Human Rights Issues",
+      "description": "relating to the detection, recording, exposure, or challenging of abuses of human rights"
+    },
+    {
+      "value": "internet-telecom",
+      "expanded": "Internet and Telecoms",
+      "description": "Issues of digital rights in electronic communications"
+    },
+    {
+      "value": "lgbt-gender-sexuality",
+      "expanded": "LGBT / Gender / Sexuality",
+      "description": "Issues relating to the Lesbian, Gay, Bi, Transgender community"
+    },
+    {
+      "value": "policy",
+      "expanded": "Policy",
+      "description": "The organization is a policy think-tank, or policy advocate"
+    },
+    {
+      "value": "politics",
+      "expanded": "Politics",
+      "description": "The organization takes a strong political view or is a political entity"
+    },
+    {
+      "value": "privacy",
+      "expanded": "Privacy",
+      "description": "Issues relating to the individual's reasonable right to privacy"
+    },
+    {
+      "value": "rapid-response",
+      "expanded": "Rapid Response",
+      "description": "The organization provides rapid response type capability for civil society"
+    },
+    {
+      "value": "refugees",
+      "expanded": "Refugees",
+      "description": "Issues relating to displaced people"
+    },
+    {
+      "value": "security",
+      "expanded": "Security",
+      "description": "Issues relating to physical or information security"
+    },
+    {
+      "value": "womens-right",
+      "expanded": "Women's Rights",
+      "description": "Issues pertaining to inequality between men and women, or issues of particular relevance to women"
+    },
+    {
+      "value": "youth-rights",
+      "expanded": "Youth Rights",
+      "description": "Issues of particular relevance to youth"
+    }
+  ]
+}
