@@ -54,12 +54,15 @@ if args.a:
     doc = doc + "= MISP taxonomies and classification as machine tags\n\n"
     doc = doc + "Generated from https://github.com/MISP/misp-taxonomies.\n\n"
     doc = doc + "\nimage::{images-cdn}misp-logo.png[MISP logo]\n"
-    doc = doc + "Taxonomies that can be used in MISP (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.\n"
+    doc = "{} {} {} {}".format(doc, "Taxonomies that can be used in MISP (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags).",
+                               "A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value.",
+                               "Machine tags are often called triple tag due to their format.\n")
     doc = doc + "\n\n"
 
 if args.n:
     del taxonomies[:]
     taxonomies.append(args.n)
+
 
 def asciidoc(content=False, adoc=doc, t='title'):
     if not args.a:
@@ -71,11 +74,14 @@ def asciidoc(content=False, adoc=doc, t='title'):
         content = '=== ' + content
     elif t == 'namespace':
         content = '== ' + content + '\n'
-        content = content + 'NOTE: ' + namespace + ' namespace available in JSON format at https://github.com/MISP/misp-taxonomies/blob/master/' + namespace + '/machinetag.json[*this location*]. The JSON format can be freely reused in your application or automatically enabled in https://www.github.com/MISP/MISP[MISP] taxonomy.'
+        content = "{} {} {} {} {} {} {}".format(content, 'NOTE:', namespace, 'namespace available in JSON format at https://github.com/MISP/misp-taxonomies/blob/master/',
+                                                namespace, '/machinetag.json[*this location*]. The JSON format can be freely reused in your application',
+                                                'or automatically enabled in https://www.github.com/MISP/MISP[MISP] taxonomy.')
     elif t == 'description':
-        content = '\n'+content+'\n'
+        content = '\n' + content + '\n'
     adoc = adoc + content
     return adoc
+
 
 def machineTag(namespace=False, predicate=False, value=None):
 
@@ -85,6 +91,7 @@ def machineTag(namespace=False, predicate=False, value=None):
         return (u'{0}:{1}'.format(namespace, predicate))
     else:
         return (u'{0}:{1}=\"{2}\"'.format(namespace, predicate, value))
+
 
 for taxonomy in taxonomies:
     filename = os.path.join(thisDir, "../", taxonomy, "machinetag.json")
@@ -96,10 +103,10 @@ for taxonomy in taxonomies:
     else:
         expanded_namespace = namespace
     if args.a:
-       doc = asciidoc(content=t['namespace'], adoc=doc, t='namespace')
-       doc = asciidoc(content=t['description'], adoc=doc, t='description')
+        doc = asciidoc(content=t['namespace'], adoc=doc, t='namespace')
+        doc = asciidoc(content=t['description'], adoc=doc, t='description')
     if args.v:
-        print ('{0}'.format(t['description']))
+        print('{0}'.format(t['description']))
     for predicate in t['predicates']:
         if args.a:
             doc = asciidoc(content=predicate['value'], adoc=doc, t='predicate')
@@ -110,11 +117,11 @@ for taxonomy in taxonomies:
                 if predicate.get('description'):
                     doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['description']), adoc=doc, t='description')
             else:
-                print (machineTag(namespace=namespace, predicate=predicate['value']))
+                print(machineTag(namespace=namespace, predicate=predicate['value']))
             if args.e:
-                 print ("--> " + machineTag(namespace=expanded_namespace, predicate=predicate['expanded']))
-                 if predicate.get('description'):
-                     print ("--> " + predicate['description'])
+                print("--> " + machineTag(namespace=expanded_namespace, predicate=predicate['expanded']))
+                if predicate.get('description'):
+                    print("--> " + predicate['description'])
         else:
             for e in t['values']:
                 if e['predicate'] == predicate['value']:
@@ -125,10 +132,10 @@ for taxonomy in taxonomies:
                             doc = asciidoc(content=machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']), adoc=doc)
                             doc = asciidoc(content=machineTag(namespace=namespace, predicate=v['expanded']), adoc=doc, t='description')
                         else:
-                            print (machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
+                            print(machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
                         if args.e:
                             if'expanded' in v:
-                                print ("--> " + machineTag(namespace=namespace, predicate=expanded, value=v['expanded']))
+                                print("--> " + machineTag(namespace=namespace, predicate=expanded, value=v['expanded']))
 
 if args.a:
-    print (doc)
+    print(doc)

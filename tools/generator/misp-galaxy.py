@@ -50,7 +50,7 @@ for element in elements:
 file_out = '../../misp-galaxy/machinetag.json'
 with open(file_out, 'w') as f:
     f.write(json.dumps(taxonomy, sort_keys=True, indent=4, separators=(',', ': ')))
-print("JSON saved to "+ file_out)
+print("JSON saved to " + file_out)
 
 
 # t = Taxonomy(taxonomy)

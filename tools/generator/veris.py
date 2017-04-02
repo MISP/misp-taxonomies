@@ -15,6 +15,7 @@ output['values'] = []
 with open(filename) as fp:
     t = json.load(fp)
 
+
 def lookupPredicate(predicate=False):
     if not predicate:
         return False
@@ -22,12 +23,14 @@ def lookupPredicate(predicate=False):
         if p['value'] == predicate:
             return True
 
+
 def lookupValues(predicate=False):
     if not predicate:
         return False
     for p in output['values']:
         if p['predicate'] == predicate:
-             return True
+            return True
+
 
 def machineTag(namespace=False, predicate=False, value=None, expanded=None):
 
@@ -54,6 +57,7 @@ def machineTag(namespace=False, predicate=False, value=None, expanded=None):
 prefix = []
 top = []
 
+
 def flatten(root, prefix_keys=True):
     dicts = [([], root)]
     ret = {}
@@ -70,11 +74,12 @@ def flatten(root, prefix_keys=True):
             else:
                 p = ':'.join(prefix.rsplit(':')[:-1])
                 if debug:
-                    print (namespace+":"+p+"="+v)
+                    print(namespace + ":" + p + "=" + v)
                 machineTag(namespace=namespace, predicate=p, value=prefix.split(':')[-1], expanded=v)
                 ret[prefix] = v
     return ret
 
-flatten ( root = t)
 
-print (json.dumps(output))
+flatten(root=t)
+
+print(json.dumps(output))
