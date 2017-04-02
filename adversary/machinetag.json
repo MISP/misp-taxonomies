@@ -38,9 +38,9 @@
         }
       ]
     },
-      {
-        "predicate": "infrastructure-action",
-        "entry": [
+    {
+      "predicate": "infrastructure-action",
+      "entry": [
         {
           "value": "passive-only",
           "expanded": "Only passive requests shall be performed to avoid detection by the adversary"
@@ -57,11 +57,11 @@
           "value": "pending-law-enforcement-request",
           "expanded": "Law enforcement requests are ongoing on the adversary infrastructure"
         }
-        ]
-      },
+      ]
+    },
     {
-     "predicate": "infrastructure-state",
-     "entry": [
+      "predicate": "infrastructure-state",
+      "entry": [
         {
           "value": "unknown",
           "expanded": "Infrastructure state is unknown or cannot be evaluated"
@@ -74,7 +74,7 @@
           "value": "down",
           "expanded": "Infrastructure state is known to be down"
         }
-     ]
+      ]
     },
     {
       "predicate": "infrastructure-type",

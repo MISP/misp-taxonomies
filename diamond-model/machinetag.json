@@ -3,7 +3,9 @@
   "expanded": "Diamond Model for Intrusion Analysis",
   "description": "The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack.",
   "version": 1,
-  "ref": ["http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf"],
+  "refs": [
+    "http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf"
+  ],
   "predicates": [
     {
       "value": "Adversary",
@@ -21,6 +23,5 @@
       "value": "Victim",
       "expanded": "A victim is the target of the adversary and against whom vulnerabilities and exposures are exploited and capabilities used. A victim can be described in whichever way necessary and appropriate: organization, person, target email address, IP address, domain, etc. However, it is useful to define the victim persona and their assets separately as they serve different analytic functions. Victim personae are useful in non-technical analysis such as cyber-victimology and social-political centered approaches whereas victim assets are associated with common technical approaches such as vulnerability analysis.."
     }
-  ],
-  "values": null
+  ]
 }

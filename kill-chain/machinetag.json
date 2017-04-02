@@ -32,6 +32,5 @@
       "value": "Actions on Objectives",
       "expanded": "Only now, after progressing through the first six phases, can intruders take actions to achieve their original objectives. Typically, this objective is data exfiltration which involves collecting, encrypting and extracting information from the victim environment; violations of data integrity or availability are potential objectives as well. Alternatively, the intruders may only desire access to the initial victim box for use as a hop point to compromise additional systems and move laterally inside the network."
     }
-  ],
-  "values": null
+  ]
 }

@@ -7,26 +7,22 @@ sudo: required
 dist: trusty
 
 python:
-    - "2.7"
-    - "3.3"
     - "3.4"
     - "3.5"
     - "3.5-dev"
+    - "3.6"
+    - "3.6-dev"
     - "nightly"
 
 install:
-    - git clone https://github.com/stedolan/jq.git
-    - pushd jq
-    - autoreconf -i
-    - ./configure --disable-maintainer-mode
-    - make
-    - sudo make install
-    - popd
+    - sudo apt-get update -qq
+    - sudo apt-get install -y -qq jq moreutils
+    - pip install jsonschema
     - git clone https://github.com/MISP/PyTaxonomies.git
     - pushd PyTaxonomies
     - pip install .
     - popd
 
 script:
-    - cat */*.json | jq .
+    - ./validate_all.sh
     - pytaxonomies -l MANIFEST.json -a

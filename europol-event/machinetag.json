@@ -234,6 +234,5 @@
       "expanded": "Undetermined",
       "description": "Field aimed at the classification of unprocessed events, which have remained undetermined from the beginning."
     }
-  ],
-  "values": null
+  ]
 }

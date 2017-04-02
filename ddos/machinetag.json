@@ -1,0 +1,43 @@
+{
+  "namespace": "ddos",
+  "expanded": " Distributed Denial of Service",
+  "description": " Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too.",
+  "version": 1,
+  "refs": [
+    "https://en.wikipedia.org/wiki/Denial-of-service_attack"
+  ],
+  "values": [
+    {
+      "predicate": "type",
+      "entry": [
+        {
+          "value": "amplification-attack",
+          "expanded": "Amplification attack"
+        },
+        {
+          "value": "reflected-spoofed-attack",
+          "expanded": "Reflected and Spoofed attack"
+        },
+        {
+          "value": "slow-read-attack",
+          "expanded": "Slow Read attack"
+        },
+        {
+          "value": "flooding-attack",
+          "expanded": "Flooding attack"
+        },
+        {
+          "value": "post-attack",
+          "expanded": "Large POST HTTP attack"
+        }
+      ]
+    }
+  ],
+  "predicates": [
+    {
+      "value": "type",
+      "expanded": "Type",
+      "description": "Types and techniques described the way that the attack is performed to launch the Denial of Service attacks. A combination of type values can be used to explain combined techniques and methods."
+    }
+  ]
+}

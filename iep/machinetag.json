@@ -26,7 +26,7 @@
     {
       "value": "end-date",
       "expanded": "POLICY END DATE",
-      "description": "States the UTC4 date that the IEP is effective until."
+      "description": "States the UTC date that the IEP is effective until."
     },
     {
       "value": "reference",

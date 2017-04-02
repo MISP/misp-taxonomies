@@ -1,86 +1,86 @@
 {
-    "namespace" : "passivetotal",
-    "expanded"  : "PassiveTotal",
-    "description": "Tags from RiskIQ's PassiveTotal service",
-    "version"   : 1,
-    "predicates": [
+  "namespace": "passivetotal",
+  "expanded": "PassiveTotal",
+  "description": "Tags from RiskIQ's PassiveTotal service",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "sinkholed",
+      "expanded": "Sinkhole Status"
+    },
+    {
+      "value": "ever-comprimised",
+      "expanded": "Ever Comprimised?"
+    },
+    {
+      "value": "class",
+      "expanded": "Classification"
+    },
+    {
+      "value": "dynamic-dns",
+      "expanded": "Dynamic DNS"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "sinkholed",
+      "entry": [
         {
-            "value" : "sinkholed",
-            "expanded": "Sinkhole Status"
+          "value": "yes",
+          "expanded": "Yes"
         },
         {
-            "value" : "ever-comprimised",
-            "expanded" : "Ever Comprimised?"
-        },
-        {
-            "value" : "class",
-            "expanded" : "Classification"
-        },
-        {
-            "value" : "dynamic-dns",
-            "expanded": "Dynamic DNS"
+          "value": "no",
+          "expanded": "No"
         }
-    ],
-    "values" : [
-        { 
-            "predicate" : "sinkholed",
-            "entry" : [
-                { 
-                    "value" : "yes",
-                    "expanded": "Yes"
-                },
-                {
-                    "value" : "no",
-                    "expanded" : "No"
-                }
-            ]
+      ]
+    },
+    {
+      "predicate": "ever-comprimised",
+      "entry": [
+        {
+          "value": "yes",
+          "expanded": "Yes"
         },
         {
-            "predicate" : "ever-comprimised",
-            "entry" : [
-                { 
-                    "value" : "yes",
-                    "expanded": "Yes"
-                },
-                {
-                    "value" : "no",
-                    "expanded" : "No"
-                }
-            ]
-        },
-        {
-            "predicate" : "dynamic-dns",
-            "entry" : [
-                {
-                    "value" : "yes",
-                    "expanded": "Yes"
-                },
-                {
-                    "value" : "no",
-                    "expanded" : "No"
-                }
-            ]
-        },
-        {
-            "predicate" : "class",
-            "entry" : [
-                {
-                    "value" : "malicious",
-                    "expanded" : "Malicious"
-                },
-                {
-                    "value" : "suspicious",
-                    "expanded": "Malicious"
-                },
-                {
-                    "value": "non-malicious",
-                    "expanded": "Non Malicious"
-                },
-                {
-                    "value" : "unknown",
-                    "expanded" : "Unknown"
-                }
-            ]
+          "value": "no",
+          "expanded": "No"
         }
-    ]
+      ]
+    },
+    {
+      "predicate": "dynamic-dns",
+      "entry": [
+        {
+          "value": "yes",
+          "expanded": "Yes"
+        },
+        {
+          "value": "no",
+          "expanded": "No"
+        }
+      ]
+    },
+    {
+      "predicate": "class",
+      "entry": [
+        {
+          "value": "malicious",
+          "expanded": "Malicious"
+        },
+        {
+          "value": "suspicious",
+          "expanded": "Malicious"
+        },
+        {
+          "value": "non-malicious",
+          "expanded": "Non Malicious"
+        },
+        {
+          "value": "unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    }
+  ]
 }

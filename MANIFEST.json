@@ -1,5 +1,5 @@
 {
-  "version": "20170108",
+  "version": "20170129",
   "license": "CC-0",
   "description": "Manifest file of MISP taxonomies available.",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
@@ -36,11 +36,16 @@
       "version": 2
     },
     {
+      "description": "The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack.",
+      "name": "diamond-model",
+      "version": 1
+    },
+    {
       "description": "ISM (Information Security Marking Metadata) V13 as described by DNI.gov (Director of National Intelligence - US).",
       "name": "dni-ism",
       "version": 3
     },
-     {
+    {
       "description": "Taxonomy to tag domain names used for cybercrime.",
       "name": "domain-abuse",
       "version": 1
@@ -166,9 +171,14 @@
       "version": 1
     },
     {
-      "description" : "Tags for RiskIQ's passivetotal service",
-      "name" : "passivetotal",
-      "version" : 1
+      "description": "AccessNow Taxonomy",
+      "name": "accessnow",
+      "version": 1
+    },
+    {
+      "description": "Tags for RiskIQ's passivetotal service",
+      "name": "passivetotal",
+      "version": 1
     }
   ]
 }
