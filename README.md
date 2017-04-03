@@ -39,6 +39,7 @@ The following taxonomies are described:
 - [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./PAP)
 - [Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer.](./targeted-threat-index)
 - [TLP - Traffic Light Protocol](./tlp)
+- [Vocabulaire des probabilités estimatives](./vocabulaire-des-probabilites-estimatives)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
 ### [Admiralty Scale](./admiralty-scale)
