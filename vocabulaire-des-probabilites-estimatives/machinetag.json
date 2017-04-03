@@ -1,0 +1,43 @@
+{
+  "values": [
+    {
+      "entry": [
+        {
+          "expanded": "Presque aucune chance - Quasi impossible Presque impossible Minces chances Très douteux Très peu probable Très improbable Improbable Peu de chances - 7 % (marge d’erreur d’environ 5 %)",
+          "value": "presque-aucune-chance"
+        },
+        {
+          "expanded": "Probablement pas - Invraisemblable Peu probable - 30 % (marge d’erreur d’environ 10 %)",
+          "value": "probablement-pas"
+        },
+        {
+          "expanded": "Chances à peu près égales - une chance sur deux - 50% (marge d’erreur d’environ 10 %)",
+          "value": "chances-à-peu-près-egales"
+        },
+        {
+          "expanded": "Probable - Vraisemblable Probable - 75 % (marge d’erreur d’environ 12 %)",
+          "value": "probable"
+        },
+        {
+          "expanded": "Quasi certaine - Certain Presque certain Très probable - 93% (marge d’erreur d’environ 6 %)",
+          "value": "quasi-certaine"
+        }
+      ],
+      "predicate": "degré-de-probabilité"
+    }
+  ],
+  "predicates": [
+    {
+      "description": "Le tableau suivant attribue des valeurs en pourcentage à certains énoncés de probabilité.  Les pourcentages sont tirés de l’ouvrage de Sherman Kent intitulé « Words of Estimative Probability » publié par le Centre for the Study of Intelligence de la CIA en 1964. 0% exprime une impossibilité et 100% exprime une certitude.",
+      "expanded": "Degré de probabilité",
+      "value": "degré-de-probabilité"
+    }
+  ],
+  "version": 1,
+  "description": "Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité",
+  "expanded": "Vocabulaire des probabilités estimatives",
+  "namespace": "vocabulaire-des-probabilites-estimatives",
+  "refs": [
+    "http://publications.gc.ca/collections/collection_2013/sp-ps/PS64-106-2007-fra.pdf"
+  ]
+}

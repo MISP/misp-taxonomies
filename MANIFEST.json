@@ -1,184 +1,189 @@
 {
-  "version": "20170129",
-  "license": "CC-0",
-  "description": "Manifest file of MISP taxonomies available.",
-  "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "path": "machinetag.json",
   "taxonomies": [
     {
-      "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.",
+      "version": 1,
       "name": "admiralty-scale",
-      "version": 1
+      "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information."
     },
     {
-      "description": "An overview and description of the adversary infrastructure.",
+      "version": 4,
       "name": "adversary",
-      "version": 4
+      "description": "An overview and description of the adversary infrastructure."
     },
     {
-      "description": "CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place.",
+      "version": 1,
       "name": "circl",
-      "version": 1
+      "description": "CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place."
     },
     {
-      "description": "FIRST CSIRT Case Classification.",
+      "version": 1,
       "name": "csirt_case_classification",
-      "version": 1
+      "description": "FIRST CSIRT Case Classification."
     },
     {
-      "description": "Taxonomy for the handling of protectively marked information in MISP with German (DE) Government classification markings (VS)",
+      "version": 1,
       "name": "de-vs",
-      "version": 1
+      "description": "Taxonomy for the handling of protectively marked information in MISP with German (DE) Government classification markings (VS)"
     },
     {
-      "description": "DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure-sectors.",
+      "version": 2,
       "name": "dhs-ciip-sectors",
-      "version": 2
+      "description": "DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure-sectors."
     },
     {
-      "description": "The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack.",
+      "version": 1,
       "name": "diamond-model",
-      "version": 1
+      "description": "The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack."
     },
     {
-      "description": "ISM (Information Security Marking Metadata) V13 as described by DNI.gov (Director of National Intelligence - US).",
+      "version": 3,
       "name": "dni-ism",
-      "version": 3
+      "description": "ISM (Information Security Marking Metadata) V13 as described by DNI.gov (Director of National Intelligence - US)."
     },
     {
-      "description": "Taxonomy to tag domain names used for cybercrime.",
+      "version": 1,
       "name": "domain-abuse",
-      "version": 1
+      "description": "Taxonomy to tag domain names used for cybercrime."
     },
     {
-      "description": "eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates.",
+      "version": 1,
       "name": "ecsirt",
-      "version": 1
+      "description": "eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates."
     },
     {
-      "description": "ENISA Threat Taxonomy - A tool for structuring threat information as published in https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends/enisa-threat-landscape/etl2015/enisa-threat-taxonomy-a-tool-for-structuring-threat-information",
+      "version": 201601,
       "name": "enisa",
-      "version": 201601
+      "description": "ENISA Threat Taxonomy - A tool for structuring threat information as published in https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends/enisa-threat-landscape/etl2015/enisa-threat-taxonomy-a-tool-for-structuring-threat-information"
     },
     {
-      "description": "Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a)).",
+      "version": 1,
       "name": "estimative-language",
-      "version": 1
+      "description": "Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a))."
     },
     {
-      "description": "EU classified information (EUCI) means any information or material designated by a EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the European Union or of one or more of the Member States as described in http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013D0488&from=EN",
+      "version": 1,
       "name": "euci",
-      "version": 1
+      "description": "EU classified information (EUCI) means any information or material designated by a EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the European Union or of one or more of the Member States as described in http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013D0488&from=EN"
     },
     {
-      "description": "Market operators and public administrations that must comply to some notifications requirements under EU NIS directive.",
+      "version": 2,
       "name": "eu-marketop-and-publicadmin",
-      "version": 2
+      "description": "Market operators and public administrations that must comply to some notifications requirements under EU NIS directive."
     },
     {
-      "description": "EUROPOL type of events taxonomy.",
+      "version": 1,
       "name": "europol-event",
-      "version": 1
+      "description": "EUROPOL type of events taxonomy."
     },
     {
-      "description": "EUROPOL class of incident taxonomy.",
+      "version": 1,
       "name": "europol-incident",
-      "version": 1
+      "description": "EUROPOL class of incident taxonomy."
     },
     {
-      "description": "French gov information classification system.",
+      "version": 1,
       "name": "fr-classif",
-      "version": 1
+      "description": "French gov information classification system."
     },
     {
-      "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) framework.",
+      "version": 1,
       "name": "iep",
-      "version": 1
+      "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) framework."
     },
     {
-      "description": "Information security indicators have been standardized by the ETSI Industrial Specification Group (ISG) ISI. These indicators provide the basis to switch from a qualitative to a quantitative culture in IT Security Scope of measurements: External and internal threats (attempt and success), user's deviant behaviours, nonconformities and/or vulnerabilities (software, configuration, behavioural, general security framework). ETSI GS ISI 001-1 (V1.1.2): ISI Indicators",
+      "version": 1,
       "name": "information-security-indicators",
-      "version": 1
+      "description": "Information security indicators have been standardized by the ETSI Industrial Specification Group (ISG) ISI. These indicators provide the basis to switch from a qualitative to a quantitative culture in IT Security Scope of measurements: External and internal threats (attempt and success), user's deviant behaviours, nonconformities and/or vulnerabilities (software, configuration, behavioural, general security framework). ETSI GS ISI 001-1 (V1.1.2): ISI Indicators"
     },
     {
-      "description": "Cyber Kill Chain from Lockheed Martin as described in Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains.",
+      "version": 1,
       "name": "kill-chain",
-      "version": 1
+      "description": "Cyber Kill Chain from Lockheed Martin as described in Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains."
     },
     {
-      "description": "Malware classification based on a SANS whitepaper about malware.",
+      "version": 1,
       "name": "malware_classification",
-      "version": 1
+      "description": "Malware classification based on a SANS whitepaper about malware."
     },
     {
-      "description": "Internal MISP taxonomy.",
+      "version": 3,
       "name": "misp",
-      "version": 3
+      "description": "Internal MISP taxonomy."
     },
     {
-      "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.",
+      "version": 1,
       "name": "ms-caro-malware",
-      "version": 1
+      "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology."
     },
     {
-      "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology.",
+      "version": 1,
       "name": "ms-caro-malware-full",
-      "version": 1
+      "description": "Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology."
     },
     {
-      "description": "Marking of Classified and Unclassified materials as described by the North Atlantic Treaty Organization, NATO.",
+      "version": 1,
       "name": "nato",
-      "version": 1
+      "description": "Marking of Classified and Unclassified materials as described by the North Atlantic Treaty Organization, NATO."
     },
     {
-      "description": "Open Threat Taxonomy v1.1 base on James Tarala of SANS ref. - http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf",
+      "version": 1,
       "name": "open_threat",
-      "version": 1
+      "description": "Open Threat Taxonomy v1.1 base on James Tarala of SANS ref. - http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf"
     },
     {
-      "description": "Open Source Intelligence - Classification (MISP taxonomies).",
+      "version": 5,
       "name": "osint",
-      "version": 5
+      "description": "Open Source Intelligence - Classification (MISP taxonomies)."
     },
     {
-      "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
+      "version": 1,
       "name": "PAP",
-      "version": 1
+      "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used."
     },
     {
-      "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time. Extended with TLP:EX:CHR.",
+      "version": 3,
       "name": "tlp",
-      "version": 3
+      "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time. Extended with TLP:EX:CHR."
     },
     {
-      "description": "Vocabulary for Event Recording and Incident Sharing (VERIS).",
+      "version": 2,
       "name": "veris",
-      "version": 2
+      "description": "Vocabulary for Event Recording and Incident Sharing (VERIS)."
     },
     {
-      "description": "Classification based on malware stealth techniques.",
+      "version": 1,
       "name": "stealth_malware",
-      "version": 1
+      "description": "Classification based on malware stealth techniques."
     },
     {
-      "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman.",
+      "version": 1,
       "name": "targeted-threat-index",
-      "version": 1
+      "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman."
     },
     {
-      "description": "Representation of the behavior or modus operandi of cyber adversaries (a.k.a TTP) as normalized in STIX",
+      "version": 1,
       "name": "stix-ttp",
-      "version": 1
+      "description": "Representation of the behavior or modus operandi of cyber adversaries (a.k.a TTP) as normalized in STIX"
     },
     {
-      "description": "AccessNow Taxonomy",
+      "version": 1,
       "name": "accessnow",
-      "version": 1
+      "description": "AccessNow Taxonomy"
     },
     {
-      "description": "Tags for RiskIQ's passivetotal service",
+      "version": 1,
       "name": "passivetotal",
-      "version": 1
+      "description": "Tags for RiskIQ's passivetotal service"
+    },
+    {
+      "version": 1,
+      "name": "vocabulaire-des-probabilites-estimatives",
+      "description": "Vocabulaire des probabilités estimatives"
     }
-  ]
+  ],
+  "path": "machinetag.json",
+  "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
+  "description": "Manifest file of MISP taxonomies available.",
+  "license": "CC-0",
+  "version": "20170303"
 }
