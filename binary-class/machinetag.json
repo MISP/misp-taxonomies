@@ -1,0 +1,30 @@
+{
+  "namespace": "binary-class",
+  "description": "Custom taxonomy for types of binary file.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "type",
+      "expanded": "Binary Type"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "type",
+      "entry": [
+        {
+          "value": "good",
+          "expanded": "Known Good/Safe"
+        },
+        {
+          "value": "malicious",
+          "expanded": "Known Bad/Malicious"
+        },
+        {
+          "value": "unknown",
+          "expanded": "Not yet known"
+        }
+      ]
+    }
+  ]
+}
