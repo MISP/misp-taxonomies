@@ -4,7 +4,7 @@
 # Python script parsing the MISP taxonomies expressed in Machine Tags (Triple
 # Tags) to list all valid tags from a specific taxonomy.
 #
-# Copyright (c) 2015-2016 Alexandre Dulaunoy - a@foo.be
+# Copyright (c) 2015-2017 Alexandre Dulaunoy - a@foo.be
 #
 # Redistribution and use in source and binary forms, with or without modification,
 # are permitted provided that the following conditions are met:
@@ -39,6 +39,9 @@ thisDir = os.path.dirname(__file__)
 for folder in os.listdir(os.path.join(thisDir, '../')):
     if os.path.isfile(os.path.join(thisDir, '../', folder, 'machinetag.json')):
         taxonomies.append(folder)
+
+taxonomies.sort()
+
 argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies', epilog='Available taxonomies are {0}'.format(taxonomies))
 argParser.add_argument('-e', action='store_true', help='Include expanded tags')
 argParser.add_argument('-a', action='store_true', help='Generate asciidoctor document from MISP taxonomies')
