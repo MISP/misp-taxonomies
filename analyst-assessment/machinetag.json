@@ -18,6 +18,16 @@
       "value": "binary-reversing-experience",
       "expanded": "Reversing experience",
       "description": "The analyst experience in reversing expressed in years range in the field tagged. The year range is based on a standard 40-hour work week."
+    },
+    {
+      "value": "os",
+      "expanded": "Operating System",
+      "description": "Operating System that the analyst has experience with."
+    },
+    {
+      "value": "web",
+      "expanded": "Web applications-related skills",
+      "description": "Web application vulnerabilities and technique that the analyst has experience with."
     }
   ],
   "values": [
@@ -99,6 +109,52 @@
           "numerical_value": 5,
           "value": "more-than-20-years",
           "expanded": "More than 20 years"
+        }
+      ]
+    },
+    {
+      "predicate": "os",
+      "entry": [
+        {
+          "value": "windows",
+          "expanded": "Current Microsoft Windows system"
+        },
+        {
+          "value": "linux",
+          "expanded": "GNU/linux derivative OS"
+        },
+        {
+          "value": "ios",
+          "expanded": "Current IOS"
+        },
+        {
+          "value": "macos",
+          "expanded": "Current Apple OS"
+        },
+        {
+          "value": "android",
+          "expanded": "Current Android OS"
+        },
+        {
+          "value": "bsd",
+          "expanded": "BSD"
+        }
+      ]
+    },
+    {
+      "predicate": "web",
+      "entry": [
+        {
+          "value": "ipex",
+          "expanded": "Inter-protocol exploitations"
+        },
+        {
+          "value": "common",
+          "expanded": "Common vulnerabilities as SQL injections, CSRF, XSS, CSP bypasses, etc."
+        },
+        {
+          "value": "js-desobfuscation",
+          "expanded": "De-obfuscation of Javascript payloads"
         }
       ]
     }
