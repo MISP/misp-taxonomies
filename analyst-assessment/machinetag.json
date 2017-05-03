@@ -28,6 +28,11 @@
       "value": "web",
       "expanded": "Web applications-related skills",
       "description": "Web application vulnerabilities and technique that the analyst has experience with."
+    },
+    {
+      "value": "crypto-experience",
+      "expanded": "Experience",
+      "description": "The analyst experience related to cryptography expressed in years range in the field tagged."
     }
   ],
   "values": [
@@ -155,6 +160,36 @@
         {
           "value": "js-desobfuscation",
           "expanded": "De-obfuscation of Javascript payloads"
+        }
+      ]
+    },
+    {
+      "predicate": "crypto-experience",
+      "entry": [
+        {
+          "numerical_value": 1,
+          "value": "less-than-1-year",
+          "expanded": "Less than 1 year"
+        },
+        {
+          "numerical_value": 2,
+          "value": "between-1-and-5-years",
+          "expanded": "Between 1 and 5 years"
+        },
+        {
+          "numerical_value": 3,
+          "value": "between-5-and-10-years",
+          "expanded": "Between 5 and 10 years"
+        },
+        {
+          "numerical_value": 4,
+          "value": "between-10-and-20-years",
+          "expanded": "Between 10 and 20 years"
+        },
+        {
+          "numerical_value": 5,
+          "value": "more-than-20-years",
+          "expanded": "More than 20 years"
         }
       ]
     }
