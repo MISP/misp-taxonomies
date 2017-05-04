@@ -1,113 +1,120 @@
 {
-  "$schema": "http://json-schema.org/schema#",
-  "title": "Validator for misp-taxonomies",
-  "id": "https://www.github.com/MISP/misp-taxonomies/schema.json",
-  "defs": {
-    "predicate": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "value": {
-          "type": "string"
-        },
-        "colour": {
-          "type": "string"
-        },
-        "description": {
-          "type": "string"
-        },
-        "numerical_value": {
-          "type": "number"
-        },
-        "expanded": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "value"
-      ]
-    },
-    "entry": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "predicate": {
-          "type": "string"
-        },
-        "entry": {
-          "type": "array",
-          "uniqueItems": true,
-          "items": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-              "value": {
-                "type": "string"
-              },
-              "description": {
-                "type": "string"
-              },
-              "expanded": {
-                "type": "string"
-              },
-              "numerical_value": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "value"
-            ]
-          }
-        }
-      }
-    },
-    "required": [
-      "predicate"
-    ]
-  },
-  "type": "object",
-  "additionalProperties": false,
-  "properties": {
-    "namespace": {
-      "type": "string"
-    },
-    "expanded": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "version": {
-      "type": "integer"
-    },
-    "predicates": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "$ref": "#/defs/predicate"
-      }
-    },
-    "values": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "$ref": "#/defs/entry"
-      }
-    },
-    "refs": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "string"
-      }
-    }
-  },
   "required": [
     "namespace",
     "description",
     "version",
     "predicates"
-  ]
+  ],
+  "properties": {
+    "type": {
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "type": "array"
+    },
+    "refs": {
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "type": "array"
+    },
+    "values": {
+      "items": {
+        "$ref": "#/defs/entry",
+        "type": "object"
+      },
+      "uniqueItems": true,
+      "type": "array"
+    },
+    "predicates": {
+      "items": {
+        "$ref": "#/defs/predicate",
+        "type": "object"
+      },
+      "uniqueItems": true,
+      "type": "array"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    },
+    "expanded": {
+      "type": "string"
+    },
+    "namespace": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "type": "object",
+  "defs": {
+    "required": [
+      "predicate"
+    ],
+    "entry": {
+      "properties": {
+        "entry": {
+          "items": {
+            "required": [
+              "value"
+            ],
+            "properties": {
+              "numerical_value": {
+                "type": "number"
+              },
+              "expanded": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "uniqueItems": true,
+          "type": "array"
+        },
+        "predicate": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "type": "object"
+    },
+    "predicate": {
+      "required": [
+        "value"
+      ],
+      "properties": {
+        "expanded": {
+          "type": "string"
+        },
+        "numerical_value": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "colour": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "type": "object"
+    }
+  },
+  "id": "https://www.github.com/MISP/misp-taxonomies/schema.json",
+  "title": "Validator for misp-taxonomies",
+  "$schema": "http://json-schema.org/schema#"
 }
