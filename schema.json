@@ -7,6 +7,7 @@
   ],
   "properties": {
     "type": {
+      "minItems": 1,
       "items": {
         "type": "string"
       },
