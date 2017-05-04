@@ -1,0 +1,48 @@
+{
+  "namespace": "event-assessment",
+  "expanded": "Event Assessment",
+  "refs": [
+    "http://www.foo.be/docs/intelligence/Tversky_Kahneman_1974.pdf",
+    "http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf"
+  ],
+  "description": "A series of assessment predicates describing the event assessment performed to make judgement(s) under a certain level of uncertainty.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "alternative-points-of-view-process",
+      "expanded": "Alternative points of view process",
+      "description": "A list of procedures or practices which describe alternative points of view to validate or rate an analysis. The list describes techniques or methods which could reinforce the estimative language in a human analysis and/or challenge the assumptions to reduce the potential bias of the analysis introduced by the analyst(s)."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "alternative-points-of-view-process",
+      "entry": [
+        {
+          "value": "analytic-debates-within-the-organisation",
+          "expanded": "analytic debates within the organisation"
+        },
+        {
+          "value": "devils-advocates-methodology",
+          "expanded": "Devil's advocates methodlogy"
+        },
+        {
+          "value": "competitive-analysis",
+          "expanded": "competitive analysis"
+        },
+        {
+          "value": "interdisciplinary-brainstorming",
+          "expanded": "interdisciplinary brainstorming"
+        },
+        {
+          "value": "intra-office-peer-review",
+          "expanded": "intra-office peer review"
+        },
+        {
+          "value": "outside-expertise-review",
+          "expanded": "Outside expertise review"
+        }
+      ]
+    }
+  ]
+}
