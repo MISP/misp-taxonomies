@@ -2,7 +2,8 @@
   "namespace": "analyst-assessment",
   "expanded": "Analyst (Self) Assessment",
   "description": "A series of assessment predicates describing the analyst capabilities to perform analysis. These assessment can be assigned by the analyst him/herself or by another party evaluating the analyst.",
-  "version": 1,
+  "version": 2,
+  "type": ["org", "user"]
   "predicates": [
     {
       "value": "experience",
