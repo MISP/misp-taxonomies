@@ -1,0 +1,34 @@
+{
+  "values": [
+    {
+      "entry": [
+        {
+          "expanded": "Entry node to the Tor network",
+          "value": "entry-guard-relay"
+        },
+        {
+          "expanded": "Tor node relaying traffic between an entry-guard-relay to an exit-relay",
+          "value": "middle-relay"
+        },
+        {
+          "expanded": "Tor node relaying traffic outside of the Tor network to the original destination",
+          "value": "exit-relay"
+        },
+        {
+          "expanded": "Entry node to the Tor network - partially unpublished",
+          "value": "bridge-relay"
+        }
+      ],
+      "predicate": "tor-relay-type"
+    }
+  ],
+  "predicates": [
+    {
+      "expanded": "Tor Relay Type",
+      "value": "tor-relay-type"
+    }
+  ],
+  "version": 1,
+  "description": "Taxonomy to describe Tor network infrastructure",
+  "namespace": "tor"
+}
