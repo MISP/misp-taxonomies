@@ -52,6 +52,7 @@ args = argParser.parse_args()
 doc = ''
 if args.a:
     doc = doc + ":toc: right\n"
+    doc = doc + ":toclevels: 1\n"
     doc = doc + ":icons: font\n"
     doc = doc + ":images-cdn: https://raw.githubusercontent.com/MISP/MISP/2.4/INSTALL/logos/\n"
     doc = doc + "= MISP taxonomies and classification as machine tags\n\n"
