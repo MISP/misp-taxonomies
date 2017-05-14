@@ -159,6 +159,10 @@ The following taxonomy namespaces are reserved and used internally to MISP.
 
 - [galaxy](./galaxy/) mapping taxonomy with cluster:element:"value".
 
+# Documentation
+
+A documentation of the taxonomies is [generated automatically](https://github.com/MISP/misp-taxonomies/blob/master/tools/machinetag.py) from the taxonomies description and available in [PDF](https://www.misp.software/taxonomies.pdf) and [HTML](https://www.misp.software/taxonomies.html).
+
 # How to contribute your taxonomy?
 
 It is quite easy. Create a JSON file describing your taxonomy as triple tags (e.g. check an existing one like [Admiralty Scale](./admiralty-scale)), create a directory matching your name space, put your machinetag file in the directory and pull your request. That's it. Everyone can benefit from your taxonomy and can be automatically enabled in information sharing tools like [MISP](https://www.github.com/MISP/MISP).
