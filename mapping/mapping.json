@@ -164,5 +164,29 @@
       "malware_classification:malware-category=\"Worm\"",
       "ms-caro-malware:malware-type=\"Worm\""
     ]
+  },
+  "tlp-white": {
+    "values": [
+      "tlp:white",
+      "ipe:traffic-light-protocol=\"WHITE\""
+    ]
+  },
+  "tlp-green": {
+    "values": [
+      "tlp:green",
+      "ipe:traffic-light-protocol=\"GREEN\""
+    ]
+  },
+  "tlp-amber": {
+    "values": [
+      "tlp:amber",
+      "ipe:traffic-light-protocol=\"AMBER\""
+    ]
+  },
+  "tlp-red": {
+    "values": [
+      "tlp:red",
+      "ipe:traffic-light-protocol=\"RED\""
+    ]
   }
 }
