@@ -1,0 +1,37 @@
+{
+  "namespace": "action-taken",
+  "description": "Action taken",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "informed ISP/Hosting Service Provider",
+      "expanded": "Informed ISP/Hosting Service Provider",
+      "colour": "#257ad1"
+    },
+    {
+      "value": "informed Registrar",
+      "expanded": "Informed Registrar",
+      "colour": "#257ad1"
+    },
+    {
+      "value": "informed Registrant",
+      "expanded": "Informed Registrant",
+      "colour": "#257ad1"
+    },
+    {
+      "value": "informed abuse-contact (domain)",
+      "expanded": "Informed abuse-contact (domain)",
+      "colour": "#257ad1"
+    },
+    {
+      "value": "informed abuse-contact (IP)",
+      "expanded": "Informed abuse-contact (IP)",
+      "colour": "#257ad1"
+    },
+    {
+      "value": "informed legal department",
+      "expanded": "Informed legal department",
+      "colour": "#257ad1"
+    }
+  ]
+}
