@@ -168,25 +168,25 @@
   "tlp-white": {
     "values": [
       "tlp:white",
-      "ipe:traffic-light-protocol=\"WHITE\""
+      "iep:traffic-light-protocol=\"WHITE\""
     ]
   },
   "tlp-green": {
     "values": [
       "tlp:green",
-      "ipe:traffic-light-protocol=\"GREEN\""
+      "iep:traffic-light-protocol=\"GREEN\""
     ]
   },
   "tlp-amber": {
     "values": [
       "tlp:amber",
-      "ipe:traffic-light-protocol=\"AMBER\""
+      "iep:traffic-light-protocol=\"AMBER\""
     ]
   },
   "tlp-red": {
     "values": [
       "tlp:red",
-      "ipe:traffic-light-protocol=\"RED\""
+      "iep:traffic-light-protocol=\"RED\""
     ]
   }
 }
