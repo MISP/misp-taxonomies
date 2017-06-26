@@ -1,0 +1,65 @@
+{
+  "predicates": [
+    {
+      "colour": "#BFBFBF",
+      "description": "If the actor is part of a larger organized operation they may be receiving their goals from a higher level source or handler.  Depending on how organized and sophisticated the adversary's campaigns are, these goals may not even be shared with the operator(s) themselves.  In cases of non-targeted threat actors, this may be much less organized or distributed.\nGoals are nearly impossible to detect (directly) but they're almost always the toughest question C-level leaders ask about post-breach.  \"Who was it and why?\"  These kinds of questions can never truthfully be answered unless you're operating at Detection Maturity Level 8 against your adversary and can prove reliably that you know what their goals are.  Short of that, it's guessing at what the adversary's true intentions were based on behavioral observations made at lower DMLs (e.g. data stolen, directories listed, employees or programs targeted, etc).  I anticipate less than a handful of organizations truly operate at this level, consistently, against the threat actors they  face because it's nearly impossible to detect based on goals alone.  ",
+      "expanded": "Goals",
+      "value": "8"
+    },
+    {
+      "colour": "#BFBFBF",
+      "description": " If the adversary's high level goal is to \"replicate Acme Company's Super Awesome Product Foo in 2 years or less\" their supporting strategies might include: \n1.  Implant physical persons into the companies that produce this technology, in positions with physical access to the information necessary to fulfill this goal.\n2.  Compromise these organizations via cyber attack, and exfiltrate data from the systems containing the information necessary to fulfill this goal.\nFor less targeted attacks, the strategy may be completely different, with shorter durations or different objectives. The important distinguishing factor about Goals (DML-8) and Strategy (DML-7) is that they are largely subjective in nature.  They are very non-technical, and are often reflective of the adversary's (or their handler's) true intentions (and strategies for fulfilling those intentions).  They represent what the adversary wants.  For these reasons, they are not easily detectable via conventional cyber means for most private organizations.   It's very common for DML-8 or DML-7 to not even be on the day-to-day radar of most Detection or Response specialists, and if they are it's typically in the context of having received a strategic intelligence report from an intelligence source about the adversary.",
+      "expanded": "Strategy",
+      "value": "7"
+    },
+    {
+      "colour": "#D8D8D8",
+      "description": "To successfully operate at DML-6, one must be able to reliably detect a tactic being employed regardless of the Technique or Procedure used by the adversary, the Tools they chose to use, or the Artifacts and Atomic Indicators left behind as a result of employing the tactic.  While this may sound impossible on the surface, it absolutely is possible.   In nearly all cases, tactics are not detected directly by a single indicator or artifact serving as the smoking gun, or a single detection signature or analytic technique.   Tactics become known only after observation of multiple activities in aggregate, with respect to time and circumstance.  As a result, detection of tactics are usually done by skilled analysts, rather than technical correlation or analytics systems.",
+      "expanded": "Tactics",
+      "value": "6"
+    },
+    {
+      "colour": "#D8D8D8",
+      "description": "From a maturity perspective, being able to detect an adversary's techniques is superior to being able to detect their procedures.   The primary difference being techniques are specific to an individual.  So when respecting this distinction, the ability to detect a specific actor operating within your environment by technique exclusively is an advantage.   The best analogy to this is a rifled barrel, which leaves uniquely identifiable characteristics in the side of a bullet. Because of this, ballistics specialists can forensically match a spent round to the exact weapon from which it was fired with a high degree of certainty. Not just any weapon by calibur or model, but the exact weapon used to fire that specific round.  Human beings are creatures of habit, and most adversaries aren't aware of the fact that every time they attack they're leaving evidence of their personal techniques behind for us to find. The same applies for the tool builders writing the tools these adversaries use.  It's our obligation to find these distinctions and ensure we're looking for them.  It's personal behavior and habits that are the hardest for humans to change, so put the hurt on your adversaries by finding creative ways to detect their behaviors and habits in your environment.    ",
+      "expanded": "Techniques",
+      "value": "5"
+    },
+    {
+      "colour": "#D8D8D8",
+      "description": "Given today's detection technology, and readily available correlation and analytics techniques, it's amazing that more organizations haven't reached Detection Maturity Level 4 for most of their adversaries.  Procedures are one of the most effective ways of detecting adversary activity and can really inflict the most pain against lesser experienced \"B-teams\".   In it's most simple form, detecting a procedure is as simple as detecting a sequence of two or more of the individual steps employed by the actor.  The goal here is to isolate activities that the adversary appears to perform methodically, two or more times during an incident. ",
+      "expanded": "Procedures",
+      "value": "4"
+    },
+    {
+      "colour": "#F2F2F2",
+      "description": "Being able to detect at DML-3 means you can reliably detect the adversary's tools, regardless of minor functionality changes to the tool, or the Artifacts or Atomic Indicators it may leave behind.   Detecting tools falls into two main areas.  The first is detecting the transfer and presence of the tool.  This includes being able to observe the tool being transferred over the network, being able to locate it sitting at rest on a file system, or being able to identify it loaded in memory.\nThe second, and more important area of tool detection, is detecting the tool reliably by functionality.  For example, let's take a given webshell that has 25 functions.  If we want to claim DML-3 level detection for this webshell we have to exercise each of those 25 functions and understand what each of them do.  What do they look like at the host, network, and event log level when they are exercised?  We then aim to build detections for as many of those 25 functions across those data domains as we possibly can, reliably, balancing false positives and other constraints.  The reason behind this is simple, we want to be able to detect this version of the tool and as many future variants of the tool as we can by function that it performs.  If the adversary decides to change up 5 of the 25 functions for which we have detections, we're still detecting the entire tool.  In order for the adversary to use this tool completely undetected in our environment, they'll be forced to change every one of those functions; or at least the ones that we were able to reliably build detections against. ",
+      "expanded": "Tools",
+      "value": "3"
+    },
+    {
+      "colour": "#FFFFFF",
+      "description": "DML-2 is where most organizations spend too much of their resources; attempting to collect what they call \"threat intelligence\" in the form of Host & Network Artifacts.  The reality is, these are merely just indicators that are observed either during or after the attack.   They're like symptoms of the flu but not the flu itself.   I often use the analogy \"chasing the vapor trail\" when I think of DML-2 because chasing after Host & Network Artifacts is much like chasing the vapor trail behind an aircraft.  We know the enemy aircraft is up there in front of us somewhere, if we just keep chasing this vapor trial we'll eventually catch up to the aircraft and find our enemy right?  Wrong.  Having a mature detection and response program means your operating above DML-2 and you're actually locked onto the aircraft itself.  You know how it operates, you know what it's capabilities are, you know the Tactics, Techniques, and Procedures of it's pilot and you can almost predict what it's next moves might be.   This is precisely why good Cyber Intelligence Analysts will almost never attribute activity to a specific threat actor, group, or country based on just Host & Network Artifacts alone; they understand this DML concept and realize when they're likely just staring at the vapor trail.  They understand that in reality the vapor trail (indicators) could be from any number of aircraft (tools), with any number of pilots (actors) behind the stick.",
+      "expanded": "Host & Network Artifacts",
+      "value": "2"
+    },
+    {
+      "colour": "#FFFFFF",
+      "description": "These are the atomic particles that make up Host & Network artifacts.  If you're detecting at Detection Maturity Level 1, it means you are probably taking \"feeds of intel\" from various sharing organizations and vendors in the form of lists, like domains and IP addresses, and feeding them into your detection technologies.   Let me be clear on my position here.  There are a few, and I mean a very precious few, circumstances where this makes sense and can be done reliably.  These are edge cases where specific atomic indicators have a high enough \"shelf life\" where it makes sense to go ahead and create detection capabilities from them.  Examples of this include unique strings found inside a binary, or perhaps an adversary is foolish enough to sit on the same recon, delivery, C2, or exfiltration infrastructure allowing you to detect reliably on their domain names or IP addresses.  These might be viable cases where detecting on atomic indicator alone makes sense.   Unfortunately, for the remaining 99% of the time, attempting to detect on this kind of data is suboptimal, for a number of reasons.",
+      "expanded": "Atomic IOCs",
+      "value": "1"
+    },
+    {
+      "colour": "#C0C0C0",
+      "description": "For organizations who either don't operate at DML-1 or higher, or they don't even know where they operate on this scale, we have Detection Maturity Level - 0.   Instead of pointing out all the negative things associated with this level, I'll take the high road and lend a bit of positive encouragement.   Congratulations, you are at ground zero.  It can only get better from here.",
+      "expanded": "None or Unknown",
+      "value": "0"
+    }
+  ],
+  "refs": [
+    "http://ryanstillions.blogspot.lu/2014/04/the-dml-model_21.html"
+  ],
+  "version": 1,
+  "description": "The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program.",
+  "expanded": "Detection Maturity Level",
+  "namespace": "DML"
+}
