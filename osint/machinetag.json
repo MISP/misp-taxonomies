@@ -1,128 +1,132 @@
 {
-  "values": [
-    {
-      "entry": [
-        {
-          "expanded": "Blog post",
-          "value": "blog-post"
-        },
-        {
-          "expanded": "Microblog post like Twitter",
-          "value": "microblog-post"
-        },
-        {
-          "expanded": "Technical or analysis report",
-          "value": "technical-report"
-        },
-        {
-          "expanded": "News report",
-          "value": "news-report"
-        },
-        {
-          "expanded": "Pastie-like website",
-          "value": "pastie-website"
-        },
-        {
-          "expanded": "Electronic forum",
-          "value": "electronic-forum"
-        },
-        {
-          "expanded": "Mailing-list",
-          "value": "mailing-list"
-        },
-        {
-          "expanded": "Block or Filter List",
-          "value": "block-or-filter-list"
-        },
-        {
-          "expanded": "Source code repository",
-          "value": "source-code-repository"
-        },
-        {
-          "expanded": "Expansion",
-          "value": "expansion"
-        }
-      ],
-      "predicate": "source-type"
-    },
-    {
-      "predicate": "lifetime",
-      "entry": [
-        {
-          "value": "perpetual",
-          "expanded": "Perpetual",
-          "description": "Information available publicly on long-term"
-        },
-        {
-          "value": "ephemeral",
-          "expanded": "Ephemeral",
-          "description": "Information available publicly on short-term"
-        }
-      ]
-    },
-    {
-      "predicate": "certainty",
-      "entry": [
-        {
-          "numerical_value": 100,
-          "value": "100",
-          "expanded": "100% Certainty",
-          "description": "100% Certainty"
-        },
-        {
-          "numerical_value": 93,
-          "value": "93",
-          "expanded": "93% Almost certain",
-          "description": "93% Almost certain"
-        },
-        {
-          "numerical_value": 75,
-          "value": "75",
-          "expanded": "75% Probable",
-          "description": "75% Probable"
-        },
-        {
-          "numerical_value": 50,
-          "value": "50",
-          "expanded": "50% Chances about even",
-          "description": "50% Chances about even"
-        },
-        {
-          "numerical_value": 30,
-          "value": "30",
-          "expanded": "30% Probably not",
-          "description": "30% Probably not"
-        },
-        {
-          "numerical_value": 7,
-          "value": "7",
-          "expanded": "7% Almost certainly not",
-          "description": "7% Almost certainly not"
-        },
-        {
-          "numerical_value": 0,
-          "value": "0",
-          "expanded": "0% Impossibility",
-          "description": "0% Impossibility"
-        }
-      ]
-    }
-  ],
-  "namespace": "osint",
-  "description": "Open Source Intelligence - Classification (MISP taxonomies)",
-  "version": 5,
   "predicates": [
     {
-      "value": "source-type",
-      "expanded": "Source Type"
+      "expanded": "Source Type",
+      "value": "source-type"
     },
     {
-      "value": "lifetime",
-      "expanded": "Lifetime of the information as Open Source Intelligence"
+      "expanded": "Lifetime of the information as Open Source Intelligence",
+      "value": "lifetime"
     },
     {
-      "value": "certainty",
-      "expanded": "Certainty of the elements mentioned in this Open Source Intelligence"
+      "expanded": "Certainty of the elements mentioned in this Open Source Intelligence",
+      "value": "certainty"
+    }
+  ],
+  "version": 6,
+  "description": "Open Source Intelligence - Classification (MISP taxonomies)",
+  "namespace": "osint",
+  "values": [
+    {
+      "predicate": "source-type",
+      "entry": [
+        {
+          "value": "blog-post",
+          "expanded": "Blog post"
+        },
+        {
+          "value": "microblog-post",
+          "expanded": "Microblog post like Twitter"
+        },
+        {
+          "value": "technical-report",
+          "expanded": "Technical or analysis report"
+        },
+        {
+          "value": "news-report",
+          "expanded": "News report"
+        },
+        {
+          "value": "pastie-website",
+          "expanded": "Pastie-like website"
+        },
+        {
+          "value": "electronic-forum",
+          "expanded": "Electronic forum"
+        },
+        {
+          "value": "mailing-list",
+          "expanded": "Mailing-list"
+        },
+        {
+          "value": "block-or-filter-list",
+          "expanded": "Block or Filter List"
+        },
+        {
+          "value": "source-code-repository",
+          "expanded": "Source code repository"
+        },
+        {
+          "value": "expansion",
+          "expanded": "Expansion"
+        },
+        {
+          "value": "automatic-analysis",
+          "expanded": "Automatic analysis"
+        }
+      ]
+    },
+    {
+      "entry": [
+        {
+          "description": "Information available publicly on long-term",
+          "expanded": "Perpetual",
+          "value": "perpetual"
+        },
+        {
+          "description": "Information available publicly on short-term",
+          "expanded": "Ephemeral",
+          "value": "ephemeral"
+        }
+      ],
+      "predicate": "lifetime"
+    },
+    {
+      "entry": [
+        {
+          "description": "100% Certainty",
+          "expanded": "100% Certainty",
+          "value": "100",
+          "numerical_value": 100
+        },
+        {
+          "description": "93% Almost certain",
+          "expanded": "93% Almost certain",
+          "value": "93",
+          "numerical_value": 93
+        },
+        {
+          "description": "75% Probable",
+          "expanded": "75% Probable",
+          "value": "75",
+          "numerical_value": 75
+        },
+        {
+          "description": "50% Chances about even",
+          "expanded": "50% Chances about even",
+          "value": "50",
+          "numerical_value": 50
+        },
+        {
+          "description": "30% Probably not",
+          "expanded": "30% Probably not",
+          "value": "30",
+          "numerical_value": 30
+        },
+        {
+          "description": "7% Almost certainly not",
+          "expanded": "7% Almost certainly not",
+          "value": "7",
+          "numerical_value": 7
+        },
+        {
+          "description": "0% Impossibility",
+          "expanded": "0% Impossibility",
+          "value": "0",
+          "numerical_value": 0
+        }
+      ],
+      "predicate": "certainty"
     }
   ]
 }
