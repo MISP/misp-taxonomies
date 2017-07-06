@@ -13,7 +13,7 @@
       "value": "certainty"
     }
   ],
-  "version": 6,
+  "version": 7,
   "description": "Open Source Intelligence - Classification (MISP taxonomies)",
   "namespace": "osint",
   "values": [
@@ -62,7 +62,23 @@
         },
         {
           "value": "automatic-analysis",
-          "expanded": "Automatic analysis"
+          "expanded": "Automatic analysis including dynamic analysis or sandboxes output"
+        },
+        {
+          "value": "automatic-collection",
+          "expanded": "Automatic collection including honeypots, spamtramps or equivalent technologies"
+        },
+        {
+          "value": "manual-analysis",
+          "expanded": "Manual analysis or investigation"
+        },
+        {
+          "value": "unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "other",
+          "expanded": "Other source not specified in this list"
         }
       ]
     },
