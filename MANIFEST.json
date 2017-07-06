@@ -179,6 +179,46 @@
       "version": 1,
       "name": "vocabulaire-des-probabilites-estimatives",
       "description": "Vocabulaire des probabilités estimatives"
+    },
+    {
+      "version": 1,
+      "name": "DML",
+      "description": "The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program."
+    },
+    {
+      "version": 1,
+      "name": "action-taken",
+      "description": "Action taken"
+    },
+    {
+      "version": 2,
+      "name": "analyst-assessment",
+      "description": "A series of assessment predicates describing the analyst capabilities to perform analysis. These assessment can be assigned by the analyst him/herself or by another party evaluating the analyst."
+    },
+    {
+      "version": 1,
+      "name": "binary-class",
+      "description": "Custom taxonomy for types of binary file."
+    },
+    {
+      "version": 1,
+      "name": "ddos",
+      "description": "Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too."
+    },
+    {
+      "version": 1,
+      "name": "event-assessment",
+      "description": "A series of assessment predicates describing the event assessment performed to make judgement(s) under a certain level of uncertainty."
+    },
+    {
+      "version": 1,
+      "name": "rt_event_status",
+      "description": "Status of events used in Request Tracker."
+    },
+    {
+      "version": 1,
+      "name": "tor",
+      "description": "Taxonomy to describe Tor network infrastructure"
     }
   ],
   "path": "machinetag.json",
