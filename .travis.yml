@@ -26,3 +26,8 @@ install:
 script:
     - ./validate_all.sh
     - pytaxonomies -l MANIFEST.json -a
+    - pushd PyTaxonomies
+    - pip install -r website/REQUIREMENTS.txt
+    - git clone https://github.com/MISP/misp-taxonomies.git
+    - nosetests
+    - popd
