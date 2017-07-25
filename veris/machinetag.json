@@ -9,1470 +9,655 @@
         {
           "value": "DZD",
           "expanded": "DZD - Algerian Dinar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "NAD",
           "expanded": "NAD - Namibia Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "GHS",
           "expanded": "GHS - Ghana Cedi"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "EGP",
           "expanded": "EGP - Egyptian Pound"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BGN",
           "expanded": "BGN - Bulgarian Lev"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "PAB",
           "expanded": "PAB - Balboa"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BOB",
           "expanded": "BOB - Boliviano"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "DKK",
           "expanded": "DKK - Danish Krone"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BWP",
           "expanded": "BWP - Pula"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "LBP",
           "expanded": "LBP - Lebanese Pound"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "TZS",
           "expanded": "TZS - Tanzanian Shilling"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "VND",
           "expanded": "VND - Dong"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "AOA",
           "expanded": "AOA - Kwanza"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "KHR",
           "expanded": "KHR - Riel"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MYR",
           "expanded": "MYR - Malaysian Ringgit"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "KYD",
           "expanded": "KYD - Cayman Islands Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "LYD",
           "expanded": "LYD - Libyan Dinar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "UAH",
           "expanded": "UAH - Hryvnia"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "JOD",
           "expanded": "JOD - Jordanian Dinar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "AWG",
           "expanded": "AWG - Aruban Florin"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SAR",
           "expanded": "SAR - Saudi Riyal"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "EUR",
           "expanded": "EUR - Euro"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "HKD",
           "expanded": "HKD - Hong Kong Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CHF",
           "expanded": "CHF - Swiss Franc"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "GIP",
           "expanded": "GIP - Gibraltar Pound"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BYR",
           "expanded": "BYR - Belarussian Ruble"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ALL",
           "expanded": "ALL - Lek"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MRO",
           "expanded": "MRO - Ouguiya"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "HRK",
           "expanded": "HRK - Croatian Kuna"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "DJF",
           "expanded": "DJF - Djibouti Franc"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SZL",
           "expanded": "SZL - Lilangeni"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "THB",
           "expanded": "THB - Baht"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "XAF",
           "expanded": "XAF - CFA Franc BEAC"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BND",
           "expanded": "BND - Brunei Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ISK",
           "expanded": "ISK - Iceland Krona"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "UYU",
           "expanded": "UYU - Peso Uruguayo"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "NIO",
           "expanded": "NIO - Cordoba Oro"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "LAK",
           "expanded": "LAK - Kip"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SYP",
           "expanded": "SYP - Syrian Pound"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MAD",
           "expanded": "MAD - Moroccan Dirham"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MZN",
           "expanded": "MZN - Mozambique Metical"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "PHP",
           "expanded": "PHP - Philippine Peso"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ZAR",
           "expanded": "ZAR - South African Rand"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "NPR",
           "expanded": "NPR - Nepalese Rupee"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "NGN",
           "expanded": "NGN - Naira"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ZWD",
           "expanded": "ZWD - Zimbabwean Dollar A/06"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CRC",
           "expanded": "CRC - Costa Rican Colon"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "AED",
           "expanded": "AED - UAE Dirham"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "GBP",
           "expanded": "GBP - Pound Sterling"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MWK",
           "expanded": "MWK - Kwacha"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "LKR",
           "expanded": "LKR - Sri Lanka Rupee"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "PKR",
           "expanded": "PKR - Pakistan Rupee"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "HUF",
           "expanded": "HUF - Forint"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BMD",
           "expanded": "BMD - Bermudian Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "LSL",
           "expanded": "LSL - Loti"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MNT",
           "expanded": "MNT - Tugrik"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "AMD",
           "expanded": "AMD - Armenian Dram"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "UGX",
           "expanded": "UGX - Uganda Shilling"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "QAR",
           "expanded": "QAR - Qatari Rial"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "XDR",
           "expanded": "XDR - SDR (Special Drawing Right)"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "JMD",
           "expanded": "JMD - Jamaican Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "GEL",
           "expanded": "GEL - Lari"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SHP",
           "expanded": "SHP - Saint Helena Pound"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "AFN",
           "expanded": "AFN - Afghani"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SBD",
           "expanded": "SBD - Solomon Islands Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "KPW",
           "expanded": "KPW - North Korean Won"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "TRY",
           "expanded": "TRY - Turkish Lira"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BDT",
           "expanded": "BDT - Taka"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "YER",
           "expanded": "YER - Yemeni Rial"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "HTG",
           "expanded": "HTG - Gourde"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "XOF",
           "expanded": "XOF - CFA Franc BCEAO"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MGA",
           "expanded": "MGA - Malagasy Ariary"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ANG",
           "expanded": "ANG - Netherlands Antillean Guilder"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "LRD",
           "expanded": "LRD - Liberian Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "RWF",
           "expanded": "RWF - Rwanda Franc"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "NOK",
           "expanded": "NOK - Norwegian Krone"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MOP",
           "expanded": "MOP - Pataca"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "INR",
           "expanded": "INR - Indian Rupee"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MXN",
           "expanded": "MXN - Mexican Peso"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CZK",
           "expanded": "CZK - Czech Koruna"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "TJS",
           "expanded": "TJS - Somoni"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "TWD",
           "expanded": "TWD - New Taiwan Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BTN",
           "expanded": "BTN - Ngultrum"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "COP",
           "expanded": "COP - Colombian Peso"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "TMT",
           "expanded": "TMT - Turkmenistan New Manat"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MUR",
           "expanded": "MUR - Mauritius Rupee"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "IDR",
           "expanded": "IDR - Rupiah"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "HNL",
           "expanded": "HNL - Lempira"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "XPF",
           "expanded": "XPF - CFP Franc"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "FJD",
           "expanded": "FJD - Fiji Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ETB",
           "expanded": "ETB - Ethiopian Birr"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "PEN",
           "expanded": "PEN - Nuevo Sol"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BZD",
           "expanded": "BZD - Belize Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ILS",
           "expanded": "ILS - New Israeli Sheqel"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "DOP",
           "expanded": "DOP - Dominican Peso"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "GGP",
           "expanded": "GGP - Guernsey pound"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MDL",
           "expanded": "MDL - Moldovan Leu"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BSD",
           "expanded": "BSD - Bahamian Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SPL",
           "expanded": "SPL - Seborga Luigino"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SEK",
           "expanded": "SEK - Swedish Krona"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ZMK",
           "expanded": "ZMK - Zambian Kwacha"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "JEP",
           "expanded": "JEP - Jersey pound"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "AUD",
           "expanded": "AUD - Australian Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SRD",
           "expanded": "SRD - Surinam Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CUP",
           "expanded": "CUP - Cuban Peso"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BBD",
           "expanded": "BBD - Barbados Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "KMF",
           "expanded": "KMF - Comoro Franc"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "KRW",
           "expanded": "KRW - South Korean Won"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "GMD",
           "expanded": "GMD - Dalasi"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "VEF",
           "expanded": "VEF - Bolivar "
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "IMP",
           "expanded": "IMP - Isle of Man Pound"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CUC",
           "expanded": "CUC - Peso Convertible"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "TVD",
           "expanded": "TVD - Tuvalu Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CLP",
           "expanded": "CLP - Chilean Peso"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "LTL",
           "expanded": "LTL - Lithuanian Litas"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CDF",
           "expanded": "CDF - Congolese Franc"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "XCD",
           "expanded": "XCD - East Caribbean Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "KZT",
           "expanded": "KZT - Tenge"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "RUB",
           "expanded": "RUB - Russian Ruble"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "TTD",
           "expanded": "TTD - Trinidad and Tobago Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "OMR",
           "expanded": "OMR - Rial Omani"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BRL",
           "expanded": "BRL - Brazilian Real"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MMK",
           "expanded": "MMK - Kyat"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "PLN",
           "expanded": "PLN - Zloty"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "PYG",
           "expanded": "PYG - Guarani"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "KES",
           "expanded": "KES - Kenyan Shilling"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SVC",
           "expanded": "SVC - El Salvador Colon"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MKD",
           "expanded": "MKD - Denar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "AZN",
           "expanded": "AZN - Azerbaijanian Manat"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "TOP",
           "expanded": "TOP - Pa'anga"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "MVR",
           "expanded": "MVR - Rufiyaa"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "VUV",
           "expanded": "VUV - Vatu"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "GNF",
           "expanded": "GNF - Guinea Franc"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "WST",
           "expanded": "WST - Tala"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "IQD",
           "expanded": "IQD - Iraqi Dinar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ERN",
           "expanded": "ERN - Nakfa"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BAM",
           "expanded": "BAM - Convertible Mark"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SCR",
           "expanded": "SCR - Seychelles Rupee"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CAD",
           "expanded": "CAD - Canadian Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CVE",
           "expanded": "CVE - Cape Verde Escudo"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "KWD",
           "expanded": "KWD - Kuwaiti Dinar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BIF",
           "expanded": "BIF - Burundi Franc"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "PGK",
           "expanded": "PGK - Kina"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SOS",
           "expanded": "SOS - Somali Shilling"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SGD",
           "expanded": "SGD - Singapore Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "UZS",
           "expanded": "UZS - Uzbekistan Sum"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "STD",
           "expanded": "STD - Dobra"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "IRR",
           "expanded": "IRR - Iranian Rial"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "CNY",
           "expanded": "CNY - Yuan Renminbi"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SLL",
           "expanded": "SLL - Leone"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "TND",
           "expanded": "TND - Tunisian Dinar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "GYD",
           "expanded": "GYD - Guyana Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "NZD",
           "expanded": "NZD - New Zealand Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "FKP",
           "expanded": "FKP - Falkland Islands Pound"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "LVL",
           "expanded": "LVL - Latvian Lats"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "USD",
           "expanded": "USD - US Dollar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "KGS",
           "expanded": "KGS - Som"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "ARS",
           "expanded": "ARS - Argentine Peso"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "RON",
           "expanded": "RON - New Romanian Leu"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "GTQ",
           "expanded": "GTQ - Quetzal"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "RSD",
           "expanded": "RSD - Serbian Dinar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "BHD",
           "expanded": "BHD - Bahraini Dinar"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "JPY",
           "expanded": "JPY - Yen"
-        }
-      ]
-    },
-    {
-      "predicate": "iso_currency_code",
-      "entry": [
+        },
         {
           "value": "SDG",
           "expanded": "SDG - Sudanese Pound"
@@ -1485,30 +670,15 @@
         {
           "value": "High",
           "expanded": "High confidence"
-        }
-      ]
-    },
-    {
-      "predicate": "confidence",
-      "entry": [
+        },
         {
           "value": "None",
           "expanded": "No confidence"
-        }
-      ]
-    },
-    {
-      "predicate": "confidence",
-      "entry": [
+        },
         {
           "value": "Medium",
           "expanded": "Medium confidence"
-        }
-      ]
-    },
-    {
-      "predicate": "confidence",
-      "entry": [
+        },
         {
           "value": "Low",
           "expanded": "Low confidence"
@@ -1521,30 +691,15 @@
         {
           "value": "Targeted",
           "expanded": "Targeted: victim chosen as target then actor determined what weaknesses could be exploited"
-        }
-      ]
-    },
-    {
-      "predicate": "targeted",
-      "entry": [
+        },
         {
           "value": "NA",
           "expanded": "Not applicable"
-        }
-      ]
-    },
-    {
-      "predicate": "targeted",
-      "entry": [
+        },
         {
           "value": "Opportunistic",
           "expanded": "Opportunistic: victim attacked because they exhibited a weakness the actor knew how to exploit"
-        }
-      ]
-    },
-    {
-      "predicate": "targeted",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
@@ -1557,282 +712,127 @@
         {
           "value": "Int - financial audit",
           "expanded": "Internal - financial audit and reconciliation process"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - found documents",
           "expanded": "External - Found documents"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - audit",
           "expanded": "External - security audit or scan"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - incident response",
           "expanded": "External - Notified while investigating another incident"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - unknown",
           "expanded": "External - unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - NIDS",
           "expanded": "Internal - network IDS or IPS alert"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - emergency response team",
           "expanded": "External - Emergency response team"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - fraud detection",
           "expanded": "External - fraud detection (e.g., CPP)"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - incident response",
           "expanded": "Internal - discovered while responding to another (separate) incident"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - customer",
           "expanded": "External - reported by customer or partner affected by the incident"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Prt - audit",
           "expanded": "Partner - Audit performed by a partner organization"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - IT review",
           "expanded": "Internal - Informal IT review"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - log review",
           "expanded": "Internal - log review process or SIEM"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - unknown",
           "expanded": "Internal - unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - suspicious traffic",
           "expanded": "External - Report of suspicious traffic"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - HIDS",
           "expanded": "Internal - host IDS or file integrity monitoring"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Prt - Other",
           "expanded": "Partner - Other"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - monitoring service",
           "expanded": "External - managed security event monitoring service"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Prt - antivirus",
           "expanded": "Partner - Notified by antivirus company but not through AV product"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Prt - Unknown",
           "expanded": "Partner - Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - security alarm",
           "expanded": "Internal - physical security system alarm"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - law enforcement",
           "expanded": "Internal - notified by law enforcement or government agency"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - antivirus",
           "expanded": "Internal - antivirus alert"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - infrastructure monitoring",
           "expanded": "Internal - Infrastructure monitoring"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Prt - incident response",
           "expanded": "Partner - notified while investigating another incident"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - data loss prevention",
           "expanded": "Internal - Data loss prevention software"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - fraud detection",
           "expanded": "Internal - fraud detection mechanism"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Prt - monitoring service",
           "expanded": "Partner - Reported by a monitoring service"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Int - reported by employee",
           "expanded": "Internal - reported by employee who saw something odd"
-        }
-      ]
-    },
-    {
-      "predicate": "discovery_method",
-      "entry": [
+        },
         {
           "value": "Ext - actor disclosure",
           "expanded": "External - disclosed by threat agent (e.g., public brag, private blackmail)"
@@ -1845,30 +845,15 @@
         {
           "value": "Simple and cheap",
           "expanded": "Simple and cheap"
-        }
-      ]
-    },
-    {
-      "predicate": "cost_corrective_action",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "cost_corrective_action",
-      "entry": [
+        },
         {
           "value": "Something in-between",
           "expanded": "Something in-between"
-        }
-      ]
-    },
-    {
-      "predicate": "cost_corrective_action",
-      "entry": [
+        },
         {
           "value": "Difficult and expensive",
           "expanded": "Difficult and expensive"
@@ -1881,30 +866,15 @@
         {
           "value": "Suspected",
           "expanded": "Suspected"
-        }
-      ]
-    },
-    {
-      "predicate": "security_incident",
-      "entry": [
+        },
         {
           "value": "Confirmed",
           "expanded": "Yes - Confirmed"
-        }
-      ]
-    },
-    {
-      "predicate": "security_incident",
-      "entry": [
+        },
         {
           "value": "Near miss",
           "expanded": "Near miss (actions did not compromise asset)"
-        }
-      ]
-    },
-    {
-      "predicate": "security_incident",
-      "entry": [
+        },
         {
           "value": "False positive",
           "expanded": "False positive (response triggered, but no incident)"
@@ -1917,2253 +887,1003 @@
         {
           "value": "BD",
           "expanded": "Bangladesh"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BE",
           "expanded": "Belgium"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BF",
           "expanded": "Burkina Faso"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BG",
           "expanded": "Bulgaria"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BA",
           "expanded": "Bosnia and Herzegovina"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BB",
           "expanded": "Barbados"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "WF",
           "expanded": "Wallis and Futuna Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BL",
           "expanded": "Saint-Barthelemy"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BM",
           "expanded": "Bermuda"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BN",
           "expanded": "Brunei Darussalam"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BO",
           "expanded": "Bolivia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BH",
           "expanded": "Bahrain"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BI",
           "expanded": "Burundi"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BJ",
           "expanded": "Benin"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BT",
           "expanded": "Bhutan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "JM",
           "expanded": "Jamaica"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BV",
           "expanded": "Bouvet Island"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BW",
           "expanded": "Botswana"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "WS",
           "expanded": "Samoa"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BQ",
           "expanded": "Bonaire,  Saint Eustatius and Saba"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BR",
           "expanded": "Brazil"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BS",
           "expanded": "Bahamas"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "JE",
           "expanded": "Jersey"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BY",
           "expanded": "Belarus"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "BZ",
           "expanded": "Belize"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "RU",
           "expanded": "Russian Federation"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "RW",
           "expanded": "Rwanda"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "RS",
           "expanded": "Serbia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TL",
           "expanded": "Timor-Leste"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "RE",
           "expanded": "Reunion"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TM",
           "expanded": "Turkmenistan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TJ",
           "expanded": "Tajikistan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "RO",
           "expanded": "Romania"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TK",
           "expanded": "Tokelau"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GW",
           "expanded": "Guinea-Bissau"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GU",
           "expanded": "Guam"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GT",
           "expanded": "Guatemala"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GS",
           "expanded": "South Georgia and the South Sandwich Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GR",
           "expanded": "Greece"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GQ",
           "expanded": "Equatorial Guinea"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GP",
           "expanded": "Guadeloupe"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "JP",
           "expanded": "Japan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GY",
           "expanded": "Guyana"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GG",
           "expanded": "Guernsey"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GF",
           "expanded": "French Guiana"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GE",
           "expanded": "Georgia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GD",
           "expanded": "Grenada"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GB",
           "expanded": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GA",
           "expanded": "Gabon"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SV",
           "expanded": "El Salvador"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GN",
           "expanded": "Guinea"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GM",
           "expanded": "Gambia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GL",
           "expanded": "Greenland"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GI",
           "expanded": "Gibraltar"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "GH",
           "expanded": "Ghana"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "OM",
           "expanded": "Oman"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TN",
           "expanded": "Tunisia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "JO",
           "expanded": "Jordan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "HR",
           "expanded": "Croatia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "HT",
           "expanded": "Haiti"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "HU",
           "expanded": "Hungary"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "HK",
           "expanded": "Hong Kong"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "HN",
           "expanded": "Honduras"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "HM",
           "expanded": "Heard Island and McDonal Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "VE",
           "expanded": "Venezuela (Bolivarian Republic of)"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PR",
           "expanded": "Puerto Rico"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PS",
           "expanded": "Palestinian Territory, Occupied"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PW",
           "expanded": "Palau"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PT",
           "expanded": "Portugal"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SJ",
           "expanded": "Svalbard and Jan Mayen Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PY",
           "expanded": "Paraguay"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "IQ",
           "expanded": "Iraq"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PA",
           "expanded": "Panama"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PF",
           "expanded": "French Polynesia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PG",
           "expanded": "Papua New Guinea"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PE",
           "expanded": "Peru"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PK",
           "expanded": "Pakistan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PH",
           "expanded": "Philippines"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PN",
           "expanded": "Pitcairn"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PL",
           "expanded": "Poland"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "PM",
           "expanded": "Saint Pierre and Miquelon"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ZM",
           "expanded": "Zambia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "EH",
           "expanded": "Western Sahara"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "EE",
           "expanded": "Estonia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "EG",
           "expanded": "Egypt"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ZA",
           "expanded": "South Africa"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "EC",
           "expanded": "Ecuador"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "IT",
           "expanded": "Italy"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "VN",
           "expanded": "Viet Nam"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SB",
           "expanded": "Solomon Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ET",
           "expanded": "Ethiopia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SO",
           "expanded": "Somalia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ZW",
           "expanded": "Zimbabwe"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SA",
           "expanded": "Saudi Arabia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ES",
           "expanded": "Spain"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ER",
           "expanded": "Eritrea"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ME",
           "expanded": "Montenegro"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MD",
           "expanded": "Moldova, Republic of"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MG",
           "expanded": "Madagascar"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MF",
           "expanded": "Saint Martin (French part)"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MA",
           "expanded": "Morocco"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MC",
           "expanded": "Monaco"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "UZ",
           "expanded": "Uzbekistan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MM",
           "expanded": "Myanmar"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ML",
           "expanded": "Mali"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MO",
           "expanded": "Macao"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MN",
           "expanded": "Mongolia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MH",
           "expanded": "Marshall Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MK",
           "expanded": "Macedonia, The former Yugoslav Republic of"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MU",
           "expanded": "Mauritius"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MT",
           "expanded": "Malta"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MW",
           "expanded": "Malawi"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MV",
           "expanded": "Maldives"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MQ",
           "expanded": "Martinique"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MP",
           "expanded": "Northern Mariana Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MS",
           "expanded": "Montserrat"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MR",
           "expanded": "Mauritania"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "IM",
           "expanded": "Isle of Man"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "UG",
           "expanded": "Uganda"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TZ",
           "expanded": "Tanzania, United Republic of"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MY",
           "expanded": "Malaysia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MX",
           "expanded": "Mexico"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "IL",
           "expanded": "Israel"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "FR",
           "expanded": "France"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "IO",
           "expanded": "British Virgin Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SH",
           "expanded": "Saint Helena"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "FI",
           "expanded": "Finland"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "FJ",
           "expanded": "Fiji"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "FK",
           "expanded": "Faeroe Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "FM",
           "expanded": "Micronesia (Federated States of)"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "FO",
           "expanded": "Falkland Islands (Malvinas)"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NI",
           "expanded": "Nicaragua"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NL",
           "expanded": "Netherlands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NO",
           "expanded": "Norway"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NA",
           "expanded": "Namibia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "VU",
           "expanded": "Vanuatu"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NC",
           "expanded": "New Caledonia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NE",
           "expanded": "Niger"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NF",
           "expanded": "Norfolk Island"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NG",
           "expanded": "Nigeria"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NZ",
           "expanded": "New Zealand"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NP",
           "expanded": "Nepal"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NR",
           "expanded": "Nauru"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "NU",
           "expanded": "Niue"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CK",
           "expanded": "Cook Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CI",
           "expanded": "Cote d'Ivoire"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CH",
           "expanded": "Switzerland"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CO",
           "expanded": "Colombia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CN",
           "expanded": "China"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CM",
           "expanded": "Cameroon"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CL",
           "expanded": "Chile"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CC",
           "expanded": "Cocos (Keeling) Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CA",
           "expanded": "Canada"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CG",
           "expanded": "Congo"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CF",
           "expanded": "Central African Republic"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CD",
           "expanded": "Congo, Democratic Republic of the"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CZ",
           "expanded": "Czech Republic"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CY",
           "expanded": "Cyprus"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CX",
           "expanded": "Christmas Island"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CR",
           "expanded": "Costa Rica"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CW",
           "expanded": "Curacao"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CV",
           "expanded": "Cape Verde"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "CU",
           "expanded": "Cuba"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SZ",
           "expanded": "Swaziland"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SY",
           "expanded": "Syrian Arab Republic"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SX",
           "expanded": "Sint Maarten (Dutch part)"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KG",
           "expanded": "Kyrgyzstan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KE",
           "expanded": "Kenya"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SS",
           "expanded": "South Sudan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SR",
           "expanded": "Suriname"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KI",
           "expanded": "Kiribati"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KH",
           "expanded": "Cambodia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KN",
           "expanded": "Saint Kitts and Nevis"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KM",
           "expanded": "Comoros"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ST",
           "expanded": "Sao Tome and Principe"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SK",
           "expanded": "Slovakia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KR",
           "expanded": "Korea, Republic of"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SI",
           "expanded": "Slovenia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KP",
           "expanded": "Korea, Democratic People's Republic of"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KW",
           "expanded": "Kuwait"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SN",
           "expanded": "Senegal"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SM",
           "expanded": "San Marino"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SL",
           "expanded": "Sierra Leone"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SC",
           "expanded": "Seychelles"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KZ",
           "expanded": "Kazakhstan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "KY",
           "expanded": "Cayman Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SG",
           "expanded": "Singapore"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SE",
           "expanded": "Sweden"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "SD",
           "expanded": "Sudan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "DO",
           "expanded": "Dominican Republic"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "DM",
           "expanded": "Dominica"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "DJ",
           "expanded": "Djibouti"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "DK",
           "expanded": "Denmark"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "VG",
           "expanded": "British Virgin Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "DE",
           "expanded": "Germany"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "YE",
           "expanded": "Yemen"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "DZ",
           "expanded": "Algeria"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "US",
           "expanded": "United States of America"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "UY",
           "expanded": "Uruguay"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "YT",
           "expanded": "Mayotte"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "UM",
           "expanded": "United States Minor Outlying Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LB",
           "expanded": "Lebanon"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LC",
           "expanded": "Saint Lucia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LA",
           "expanded": "Lao People's Democratic Republic"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TV",
           "expanded": "Tuvalu"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TW",
           "expanded": "Taiwan, Province of China"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TT",
           "expanded": "Trinidad and Tobago"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TR",
           "expanded": "Turkey"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LK",
           "expanded": "Sri Lanka"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LI",
           "expanded": "Liechtenstein"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LV",
           "expanded": "Latvia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TO",
           "expanded": "Tonga"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LT",
           "expanded": "Lithuania"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LU",
           "expanded": "Luxembourg"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LR",
           "expanded": "Liberia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LS",
           "expanded": "Lesotho"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TH",
           "expanded": "Thailand"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TF",
           "expanded": "French Southern Territories"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TG",
           "expanded": "Togo"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TD",
           "expanded": "Chad"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "TC",
           "expanded": "Turks and Caicos Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "LY",
           "expanded": "Libya"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "VA",
           "expanded": "Holy See"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "VC",
           "expanded": "Saint Vincent and the Grenadines"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AE",
           "expanded": "United Arab Emirates"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AD",
           "expanded": "Andorra"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AG",
           "expanded": "Antigua and Barbuda"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AF",
           "expanded": "Afghanistan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AI",
           "expanded": "Anguilla"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "VI",
           "expanded": "United States Virgin Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "IS",
           "expanded": "Iceland"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "IR",
           "expanded": "Iran (Islamic Republic of)"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AM",
           "expanded": "Armenia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AL",
           "expanded": "Albania"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AO",
           "expanded": "Angola"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AQ",
           "expanded": "Antarctica"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AS",
           "expanded": "American Samoa"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AR",
           "expanded": "Argentina"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AU",
           "expanded": "Australia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AT",
           "expanded": "Austria"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AW",
           "expanded": "Aruba"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "IN",
           "expanded": "India"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AX",
           "expanded": "Aland Islands"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "AZ",
           "expanded": "Azerbaijan"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "IE",
           "expanded": "Ireland"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "ID",
           "expanded": "Indonesia"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "UA",
           "expanded": "Ukraine"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "QA",
           "expanded": "Qatar"
-        }
-      ]
-    },
-    {
-      "predicate": "country",
-      "entry": [
+        },
         {
           "value": "MZ",
           "expanded": "Mozambique"
@@ -4176,48 +1896,23 @@
         {
           "value": "Insignificant",
           "expanded": "Insignificant: Impact absorbed by normal activities"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:overall_rating",
-      "entry": [
+        },
         {
           "value": "Catastrophic",
           "expanded": "Catastrophic: A business-ending event (don't choose this if the victim will continue operations)"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:overall_rating",
-      "entry": [
+        },
         {
           "value": "Distracting",
           "expanded": "Distracting: Limited \"hard costs\", but impact felt through having to deal with the incident rather than conducting normal duties"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:overall_rating",
-      "entry": [
+        },
         {
           "value": "Damaging",
           "expanded": "Damaging: Real and serious effect on the \"bottom line\" and/or long-term ability to generate revenue"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:overall_rating",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:overall_rating",
-      "entry": [
+        },
         {
           "value": "Painful",
           "expanded": "Painful: Limited \"hard costs\", but impact felt through having to deal with the incident rather than conducting normal duties"
@@ -4230,93 +1925,43 @@
         {
           "value": "Grudge",
           "expanded": "Grudge or personal offense"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "Financial",
           "expanded": "Financial or personal gain"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "NA",
           "expanded": "Not Applicable (unintentional action)"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "Ideology",
           "expanded": "Ideology or protest"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "Convenience",
           "expanded": "Convenience of expediency"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "Fun",
           "expanded": "Fun, curiosity, or pride"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "Fear",
           "expanded": "Fear or duress"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "Espionage",
           "expanded": "Espionage or competitive advantage"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:motive",
-      "entry": [
+        },
         {
           "value": "Secondary",
           "expanded": "Aid in a different attack"
@@ -4329,30 +1974,15 @@
         {
           "value": "NA",
           "expanded": "Not applicable"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:management",
-      "entry": [
+        },
         {
           "value": "Internal",
           "expanded": "Internally managed"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:management",
-      "entry": [
+        },
         {
           "value": "External",
           "expanded": "Externally managed"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:management",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
@@ -4365,732 +1995,327 @@
         {
           "value": "M - Flash drive",
           "expanded": "Media - Flash drive or card"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Print",
           "expanded": "Server - Print"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Guard",
           "expanded": "People - Guard"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Database",
           "expanded": "Server - Database"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - PBX",
           "expanded": "Network - Private branch exchange (PBX)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "M - Other",
           "expanded": "Media - Other/Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Other",
           "expanded": "Server - Other/Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - System admin",
           "expanded": "People - Administrator"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - POS controller",
           "expanded": "Server - POS controller"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "T - Other",
           "expanded": "Public Terminal - Other/Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - Camera",
           "expanded": "Network - Camera or surveillance system"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Unknown",
           "expanded": "Server - Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - DHCP",
           "expanded": "Server - DHCP"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - POS terminal",
           "expanded": "User Device - POS terminal"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - LAN",
           "expanded": "Network - Wired LAN"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Manager",
           "expanded": "People - Manager"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "M - Payment card",
           "expanded": "Media - Payment card (e.g., magstripe, EMV)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - Public WAN",
           "expanded": "Network - Public WAN"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Former employee",
           "expanded": "People - Former employee"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Authentication",
           "expanded": "Server - Authentication"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - Mobile phone",
           "expanded": "User Device - Mobile phone or smartphone"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - Router or switch",
           "expanded": "Network - Router or switch"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "T - Kiosk",
           "expanded": "Public Terminal - Self-service kiosk"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - HSM",
           "expanded": "Network - Hardware security module (HSM)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - Peripheral",
           "expanded": "User Device - Peripheral (e.g., printer, copier, fax)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Code repository",
           "expanded": "Server - Code repository"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - SCADA",
           "expanded": "Server - SCADA system"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - End-user",
           "expanded": "People - End-user"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - SAN",
           "expanded": "Network - Storage area network (SAN)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "T - ATM",
           "expanded": "Public Terminal - Automated Teller Machine (ATM)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - RTU",
           "expanded": "Network - Remote terminal unit (RTU)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "M - Smart card",
           "expanded": "Media - Identity smart card"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - IDS",
           "expanded": "Network - IDS or IPs"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - PLC",
           "expanded": "Network - Programmable logic controller (PLC)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - Other",
           "expanded": "Network - Other/Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Cashier",
           "expanded": "People - Cashier"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Executive",
           "expanded": "People - Executive"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - Desktop",
           "expanded": "User Device - Desktop or workstation"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - Tablet",
           "expanded": "User Device - Tablet"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - Firewall",
           "expanded": "Network - Firewall"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Customer",
           "expanded": "People - Customer"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Mainframe",
           "expanded": "Server - Mainframe"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Directory",
           "expanded": "Server - Directory (LDAP, AD)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - Auth token",
           "expanded": "User Device - Authentication token or device"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - Media",
           "expanded": "User Device - Media player or recorder"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "T - Gas terminal",
           "expanded": "Public Terminal - Gas \"pay-at-the-pump\" terminal"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "T - PED pad",
           "expanded": "Public Terminal - Detached PIN pad or card reader"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "M - Disk drive",
           "expanded": "Media - Hard disk drive"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - VM host",
           "expanded": "Server - Virtual Host"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Auditor",
           "expanded": "People - Auditor"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - VoIP phone",
           "expanded": "User Device - VoIP phone"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - Broadband",
           "expanded": "Network - Mobile broadband network"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - Other",
           "expanded": "User Device - Other/Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - Telephone",
           "expanded": "User Device - Telephone"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Call center",
           "expanded": "People - Call center"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - Private WAN",
           "expanded": "Network - Private WAN"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - DNS",
           "expanded": "Server - DNS"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Helpdesk",
           "expanded": "People - Helpdesk"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - Telephone",
           "expanded": "Network - Telephone"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "U - Laptop",
           "expanded": "User Device - Laptop"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Log",
           "expanded": "Server - Log or event management"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Finance",
           "expanded": "People - Finance"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Human resources",
           "expanded": "People - Human resources"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - VoIP adapter",
           "expanded": "Network - VoIP adapter"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Backup",
           "expanded": "Server - Backup"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Partner",
           "expanded": "People - Partner"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Maintenance",
           "expanded": "People - Maintenance"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Payment switch",
           "expanded": "Server - Payment switch or gateway"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - DCS",
           "expanded": "Server - Distributed control system (DCS)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Other",
           "expanded": "People - Other/Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Proxy",
           "expanded": "Server - Proxy"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Mail",
           "expanded": "Server - Mail"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "M - Tapes",
           "expanded": "Media - Backup tapes"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Remote access",
           "expanded": "Server - Remote access"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - Access reader",
           "expanded": "Network - Access control reader (e.g., badge, biometric)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - File",
           "expanded": "Server - File"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "S - Web application",
           "expanded": "Server - Web application"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "M - Documents",
           "expanded": "Media - Documents"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "N - WLAN",
           "expanded": "Network - Wireless LAN"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "P - Developer",
           "expanded": "People - Developer"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:variety",
-      "entry": [
+        },
         {
           "value": "M - Disk media",
           "expanded": "Media - Disk media (e.g., CDs, DVDs)"
@@ -5103,39 +2328,19 @@
         {
           "value": "NA",
           "expanded": "Not applicable"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:accessibility",
-      "entry": [
+        },
         {
           "value": "Internal",
           "expanded": "Internally accessible"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:accessibility",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:accessibility",
-      "entry": [
+        },
         {
           "value": "External",
           "expanded": "Publicly accessible"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:accessibility",
-      "entry": [
+        },
         {
           "value": "Isolated",
           "expanded": "Internally isolated or restricted environment"
@@ -5148,48 +2353,23 @@
         {
           "value": "3rd party hosted",
           "expanded": "Hosted by 3rd party"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:governance",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:governance",
-      "entry": [
+        },
         {
           "value": "3rd party managed",
           "expanded": "Managed by 3rd party"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:governance",
-      "entry": [
+        },
         {
           "value": "3rd party owned",
           "expanded": "Owned by 3rd party"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:governance",
-      "entry": [
+        },
         {
           "value": "Personally owned",
           "expanded": "Personally owned asset"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:governance",
-      "entry": [
+        },
         {
           "value": "Internally isolated",
           "expanded": "Isolated internal asset"
@@ -5202,48 +2382,23 @@
         {
           "value": "External shared",
           "expanded": "Externally hosted in a shared envirnoment"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:hosting",
-      "entry": [
+        },
         {
           "value": "External dedicated",
           "expanded": "Externally hosted in a dedicated envirnoment"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:hosting",
-      "entry": [
+        },
         {
           "value": "NA",
           "expanded": "Not applicable"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:hosting",
-      "entry": [
+        },
         {
           "value": "Internal",
           "expanded": "Internally hosted"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:hosting",
-      "entry": [
+        },
         {
           "value": "External",
           "expanded": "Externally hosted (unsure if dedicated or shared)"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:hosting",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
@@ -5256,48 +2411,23 @@
         {
           "value": "Customer",
           "expanded": "Customer owned"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:ownership",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:ownership",
-      "entry": [
+        },
         {
           "value": "Victim",
           "expanded": "Victim owned"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:ownership",
-      "entry": [
+        },
         {
           "value": "NA",
           "expanded": "Not applicable"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:ownership",
-      "entry": [
+        },
         {
           "value": "Employee",
           "expanded": "Employee owned"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:ownership",
-      "entry": [
+        },
         {
           "value": "Partner",
           "expanded": "Partner owned"
@@ -5310,66 +2440,31 @@
         {
           "value": "Hosting error",
           "expanded": "Misconfiguration or error by hosting provider"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:cloud",
-      "entry": [
+        },
         {
           "value": "User breakout",
           "expanded": "Elevation of privilege by another customer in shared environment"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:cloud",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:cloud",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:cloud",
-      "entry": [
+        },
         {
           "value": "Hosting governance",
           "expanded": "Lack of security process or procedure by hosting provider"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:cloud",
-      "entry": [
+        },
         {
           "value": "Customer attack",
           "expanded": "Penetration of another web site on shared device"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:cloud",
-      "entry": [
+        },
         {
           "value": "Hypervisor",
           "expanded": "Hypervisor break-out attack"
-        }
-      ]
-    },
-    {
-      "predicate": "asset:cloud",
-      "entry": [
+        },
         {
           "value": "Partner application",
           "expanded": "Application vulnerability in partner-developed application"
@@ -5382,93 +2477,43 @@
         {
           "value": "1001 to 10000",
           "expanded": "1,001 to 10,000 employees"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "Over 100000",
           "expanded": "Over 100,0001 employees"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "Large",
           "expanded": "Large organizations (over 1,000 employees)"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown number of employees"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "50001 to 100000",
           "expanded": "50,001 to 100,000 employees"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "101 to 1000",
           "expanded": "101 to 1,000 employees"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "25001 to 50000",
           "expanded": "25,001 to 50,000 employees"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "10001 to 25000",
           "expanded": "10,001 to 25,000 employees"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "Small",
           "expanded": "Small organizations (1,000 employees or less)"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "1 to 10",
           "expanded": "1 to 10 employees"
-        }
-      ]
-    },
-    {
-      "predicate": "victim:employee_count",
-      "entry": [
+        },
         {
           "value": "11 to 100",
           "expanded": "11 to 100 employees"
@@ -5481,84 +2526,39 @@
         {
           "value": "Months",
           "expanded": "Months"
-        }
-      ]
-    },
-    {
-      "predicate": "timeline:unit",
-      "entry": [
+        },
         {
           "value": "Seconds",
           "expanded": "Seconds"
-        }
-      ]
-    },
-    {
-      "predicate": "timeline:unit",
-      "entry": [
+        },
         {
           "value": "NA",
           "expanded": "NA"
-        }
-      ]
-    },
-    {
-      "predicate": "timeline:unit",
-      "entry": [
+        },
         {
           "value": "Never",
           "expanded": "Never"
-        }
-      ]
-    },
-    {
-      "predicate": "timeline:unit",
-      "entry": [
+        },
         {
           "value": "Days",
           "expanded": "Days"
-        }
-      ]
-    },
-    {
-      "predicate": "timeline:unit",
-      "entry": [
+        },
         {
           "value": "Years",
           "expanded": "Years"
-        }
-      ]
-    },
-    {
-      "predicate": "timeline:unit",
-      "entry": [
+        },
         {
           "value": "Hours",
           "expanded": "Hours"
-        }
-      ]
-    },
-    {
-      "predicate": "timeline:unit",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "timeline:unit",
-      "entry": [
+        },
         {
           "value": "Weeks",
           "expanded": "Weeks"
-        }
-      ]
-    },
-    {
-      "predicate": "timeline:unit",
-      "entry": [
+        },
         {
           "value": "Minutes",
           "expanded": "Minutes"
@@ -5571,39 +2571,19 @@
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:rating",
-      "entry": [
+        },
         {
           "value": "Major",
           "expanded": "Major"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:rating",
-      "entry": [
+        },
         {
           "value": "Moderate",
           "expanded": "Moderate"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:rating",
-      "entry": [
+        },
         {
           "value": "None",
           "expanded": "None"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:rating",
-      "entry": [
+        },
         {
           "value": "Minor",
           "expanded": "Minor"
@@ -5616,57 +2596,27 @@
         {
           "value": "Legal and regulatory",
           "expanded": "Legal and regulatory costs"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:variety",
-      "entry": [
+        },
         {
           "value": "Asset and fraud",
           "expanded": "Asset and fraud-related losses"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:variety",
-      "entry": [
+        },
         {
           "value": "Business disruption",
           "expanded": "Business disruption"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:variety",
-      "entry": [
+        },
         {
           "value": "Response and recovery",
           "expanded": "Response and recovery costs"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:variety",
-      "entry": [
+        },
         {
           "value": "Competitive advantage",
           "expanded": "Loss of competitive advantage"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:variety",
-      "entry": [
+        },
         {
           "value": "Operating costs",
           "expanded": "Increased operating costs"
-        }
-      ]
-    },
-    {
-      "predicate": "impact:loss:variety",
-      "entry": [
+        },
         {
           "value": "Brand damage",
           "expanded": "Brand and market damage"
@@ -5679,120 +2629,55 @@
         {
           "value": "Misrepresentation",
           "expanded": "Misrepresentation"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Modify data",
           "expanded": "Modified stored data or content"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Created account",
           "expanded": "Created new user account"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Defacement",
           "expanded": "Deface content"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Log tampering",
           "expanded": "Log tampering or modification"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Modify privileges",
           "expanded": "Modified privileges or permissions"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Software installation",
           "expanded": "Software installation or code modification"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Fraudulent transaction",
           "expanded": "Initiate fraudulent transaction"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Alter behavior",
           "expanded": "Influence or alter human behavior"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Hardware tampering",
           "expanded": "Hardware tampering or physical alteration"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Modify configuration",
           "expanded": "Modified configuration or services"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:integrity:variety",
-      "entry": [
+        },
         {
           "value": "Repurpose",
           "expanded": "Repurposed asset for unauthorized function"
@@ -5805,66 +2690,31 @@
         {
           "value": "Acceleration",
           "expanded": "Acceleration"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:availability:variety",
-      "entry": [
+        },
         {
           "value": "Interruption",
           "expanded": "Interruption"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:availability:variety",
-      "entry": [
+        },
         {
           "value": "Loss",
           "expanded": "Loss"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:availability:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:availability:variety",
-      "entry": [
+        },
         {
           "value": "Degradation",
           "expanded": "Performance degradation"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:availability:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:availability:variety",
-      "entry": [
+        },
         {
           "value": "Obscuration",
           "expanded": "Conversion or obscuration"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:availability:variety",
-      "entry": [
+        },
         {
           "value": "Destruction",
           "expanded": "Destruction"
@@ -5877,57 +2727,27 @@
         {
           "value": "Customer",
           "expanded": "Customer"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data_victim",
-      "entry": [
+        },
         {
           "value": "Patient",
           "expanded": "Patient"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data_victim",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data_victim",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data_victim",
-      "entry": [
+        },
         {
           "value": "Student",
           "expanded": "Student"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data_victim",
-      "entry": [
+        },
         {
           "value": "Employee",
           "expanded": "Employee"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data_victim",
-      "entry": [
+        },
         {
           "value": "Partner",
           "expanded": "Partner"
@@ -5940,66 +2760,31 @@
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:state",
-      "entry": [
+        },
         {
           "value": "Transmitted encrypted",
           "expanded": "Transmitted encrypted"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:state",
-      "entry": [
+        },
         {
           "value": "Transmitted unencrypted",
           "expanded": "Transmitted unencrypted"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:state",
-      "entry": [
+        },
         {
           "value": "Stored",
           "expanded": "Stored"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:state",
-      "entry": [
+        },
         {
           "value": "Transmitted",
           "expanded": "Transmitted"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:state",
-      "entry": [
+        },
         {
           "value": "Processed",
           "expanded": "Processed"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:state",
-      "entry": [
+        },
         {
           "value": "Stored encrypted",
           "expanded": "Stored encrypted"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:state",
-      "entry": [
+        },
         {
           "value": "Stored unencrypted",
           "expanded": "Stored unencrypted"
@@ -6012,30 +2797,15 @@
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data_disclosure",
-      "entry": [
+        },
         {
           "value": "Yes",
           "expanded": "Yes (confirmed)"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data_disclosure",
-      "entry": [
+        },
         {
           "value": "Potentially",
           "expanded": "Potentially (at risk)"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data_disclosure",
-      "entry": [
+        },
         {
           "value": "No",
           "expanded": "No"
@@ -6048,102 +2818,47 @@
         {
           "value": "Lateral move",
           "expanded": "Lateral move"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Job eval",
           "expanded": "Recent poor job evaluation"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Personal issues",
           "expanded": "Personal issues"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Let go",
           "expanded": "Fired, laid off, or let go"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Reprimanded",
           "expanded": "Recently reprimanded"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Hired",
           "expanded": "Recently hired"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Passed over",
           "expanded": "Recently passed over for promotion"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Demoted",
           "expanded": "Recently demoted or hours reduced"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Promoted",
           "expanded": "Recently promoted"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Resigned",
           "expanded": "Recently resigned"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:job_change",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
@@ -6156,129 +2871,59 @@
         {
           "value": "End-user",
           "expanded": "End-user or regular employee"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Human resources",
           "expanded": "Human resources staff"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Finance",
           "expanded": "Finance or accounting staff"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Helpdesk",
           "expanded": "Helpdesk staff"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Executive",
           "expanded": "Executive or upper management"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Cashier",
           "expanded": "Cashier, teller, or waiter"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Manager",
           "expanded": "Manager or supervisor"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Guard",
           "expanded": "Security guard"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Auditor",
           "expanded": "Auditor"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Maintenance",
           "expanded": "Maintenance or janitorial staff"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Call center",
           "expanded": "Call center staff"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "System admin",
           "expanded": "System or network administrator"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:internal:variety",
-      "entry": [
+        },
         {
           "value": "Developer",
           "expanded": "Software developer"
@@ -6291,120 +2936,55 @@
         {
           "value": "Customer",
           "expanded": "Customer (B2C)"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Organized crime",
           "expanded": "Organized or professional criminal group"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Acquaintance",
           "expanded": "Relative or acquaintance of employee"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Competitor",
           "expanded": "Competitor"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Unaffiliated",
           "expanded": "Unaffiliated person(s)"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Force majeure",
           "expanded": "Force majeure (nature and chance)"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Former employee",
           "expanded": "Former employee (no longer had access)"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Nation-state",
           "expanded": "Nation-state"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Activist",
           "expanded": "Activist group"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Terrorist",
           "expanded": "Terrorist group"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Auditor",
           "expanded": "Auditor"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "State-affiliated",
           "expanded": "State-sponsored or affiliated group"
-        }
-      ]
-    },
-    {
-      "predicate": "actor:external:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
@@ -6417,120 +2997,55 @@
         {
           "value": "Remote injection",
           "expanded": "Remotely injected by agent (i.e. via SQLi)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Software update",
           "expanded": "Included in automated software update"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Instant messaging",
           "expanded": "Instant Messaging"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Email attachment",
           "expanded": "Email via user-executed attachment"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Direct install",
           "expanded": "Directly installed or inserted by threat agent (after system access)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Download by malware",
           "expanded": "Downloaded and installed by local malware"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Removable media",
           "expanded": "Removable storage media or devices"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Web drive-by",
           "expanded": "Web via auto-executed or \"drive-by\" infection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Email link",
           "expanded": "Email via embedded link"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Network propagation",
           "expanded": "Network propagation"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Email autoexecute",
           "expanded": "Email via automatic execution"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Web download",
           "expanded": "Web via user-executed or downloaded content"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:vector",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
@@ -6543,237 +3058,107 @@
         {
           "value": "Spam",
           "expanded": "Send spam"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Packet sniffer",
           "expanded": "Packet sniffer (capture data from network)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Backdoor",
           "expanded": "Backdoor (enable remote access)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Exploit vuln",
           "expanded": "Exploit vulnerability in code (vs misconfig or weakness)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Password dumper",
           "expanded": "Password dumper (extract credential hashes)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Scan network",
           "expanded": "Scan or footprint network"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Downloader",
           "expanded": "Downloader (pull updates or other malware) "
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Adminware",
           "expanded": "System or network utilities (e.g., PsTools, Netcat)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Click fraud",
           "expanded": "Click fraud or Bitcoin mining"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Adware",
           "expanded": "Adware"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "C2",
           "expanded": "Command and control (C2)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Worm",
           "expanded": "Worm (propagate to other systems or devices)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Spyware/Keylogger",
           "expanded": "Spyware, keylogger or form-grabber (capture user input or activity)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Brute force",
           "expanded": "Brute force attack"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Capture app data",
           "expanded": "Capture data from application or system process"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Ram scraper",
           "expanded": "Ram scraper or memory parser (capture data from volatile memory)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Disable controls",
           "expanded": "Disable or interfere with security controls"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Capture stored data",
           "expanded": "Capture data stored on system disk"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Ransomware",
           "expanded": "Ransomware (encrypt or seize stored data)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Export data",
           "expanded": "Export data to another site or system"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Client-side attack",
           "expanded": "Client-side or browser attack (e.g., redirection, XSS, MitB)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "SQL injection",
           "expanded": "SQL injection attack"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Rootkit",
           "expanded": "Rootkit (maintain local privileges and stealth)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "Destroy data",
           "expanded": "Destroy or corrupt stored data"
-        }
-      ]
-    },
-    {
-      "predicate": "action:malware:variety",
-      "entry": [
+        },
         {
           "value": "DoS",
           "expanded": "DoS attack"
@@ -6786,102 +3171,47 @@
         {
           "value": "In-person",
           "expanded": "In-person"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "Social media",
           "expanded": "Social media or networking"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "Documents",
           "expanded": "Documents"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "SMS",
           "expanded": "SMS or texting"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "Phone",
           "expanded": "Phone"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "Website",
           "expanded": "Website"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "IM",
           "expanded": "Instant messaging"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "Removable media",
           "expanded": "Removable storage media"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "Email",
           "expanded": "Email"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:vector",
-      "entry": [
+        },
         {
           "value": "Software",
           "expanded": "Software"
@@ -6894,156 +3224,71 @@
         {
           "value": "Customer",
           "expanded": "Customer (B2C)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "End-user",
           "expanded": "End-user or regular employee"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Human resources",
           "expanded": "Human resources staff"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Finance",
           "expanded": "Finance or accounting staff"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Helpdesk",
           "expanded": "Helpdesk staff"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Executive",
           "expanded": "Executive or upper management"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Cashier",
           "expanded": "Cashier, teller or waiter"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Manager",
           "expanded": "Manager or supervisor"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Former employee",
           "expanded": "Former employee"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Guard",
           "expanded": "Security guard"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Auditor",
           "expanded": "Auditor"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Maintenance",
           "expanded": "Maintenance or janitorial staff"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Call center",
           "expanded": "Call center staff"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Partner",
           "expanded": "Partner (B2B)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "System admin",
           "expanded": "System or network administrator"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:target",
-      "entry": [
+        },
         {
           "value": "Developer",
           "expanded": "Software developer"
@@ -7056,111 +3301,51 @@
         {
           "value": "Scam",
           "expanded": "Online scam or hoax (e.g., scareware, 419 scam, auction fraud)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Phishing",
           "expanded": "Phishing (or any type of *ishing)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Elicitation",
           "expanded": "Elicitation (subtle extraction of info through conversation)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Spam",
           "expanded": "Spam (unsolicited or undesired email and advertisements)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Influence",
           "expanded": "Influence tactics (Leveraging authority or obligation, framing, etc)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Propaganda",
           "expanded": "Propaganda or disinformation"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Forgery",
           "expanded": "Forgery or counterfeiting (fake hardware, software, documents, etc)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Bribery",
           "expanded": "Bribery or solicitation"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Pretexting",
           "expanded": "Pretexting (dialogue leveraging invented scenario)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Extortion",
           "expanded": "Extortion or blackmail"
-        }
-      ]
-    },
-    {
-      "predicate": "action:social:variety",
-      "entry": [
+        },
         {
           "value": "Baiting",
           "expanded": "Baiting (planting infected media)"
@@ -7173,219 +3358,99 @@
         {
           "value": "Hazmat",
           "expanded": "Hazardous material"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Temperature",
           "expanded": "Extreme temperature"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Hurricane",
           "expanded": "Hurricane"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Ice",
           "expanded": "Ice and snow"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Meteorite",
           "expanded": "Meteorite"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Pathogen",
           "expanded": "Pathogen"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Landslide",
           "expanded": "Landslide"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Tornado",
           "expanded": "Tornado"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Leak",
           "expanded": "Water leak"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Earthquake",
           "expanded": "Earthquake"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Particulates",
           "expanded": "Particulate matter (e.g., dust, smoke)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Power failure",
           "expanded": "Power failure or fluctuation"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "EMI",
           "expanded": "Electromagnetic interference (EMI)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Humidity",
           "expanded": "Humidity"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Tsunami",
           "expanded": "Tsunami"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "ESD",
           "expanded": "Electrostatic discharge (ESD)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Deterioration",
           "expanded": "Deterioration and degradation"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Volcano",
           "expanded": "Volcanic eruption"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Lightning",
           "expanded": "Lightning"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Wind",
           "expanded": "Wind"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Flood",
           "expanded": "Flood"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Vermin",
           "expanded": "Vermin"
-        }
-      ]
-    },
-    {
-      "predicate": "action:environmental:variety",
-      "entry": [
+        },
         {
           "value": "Fire",
           "expanded": "Fire"
@@ -7398,57 +3463,27 @@
         {
           "value": "Random error",
           "expanded": "Random error (no reason, no fault)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:vector",
-      "entry": [
+        },
         {
           "value": "Carelessness",
           "expanded": "Carelessness"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:vector",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:vector",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:vector",
-      "entry": [
+        },
         {
           "value": "Inadequate processes",
           "expanded": "Inadequate or insufficient processes"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:vector",
-      "entry": [
+        },
         {
           "value": "Inadequate technology",
           "expanded": "Inadequate or insufficient technology resources"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:vector",
-      "entry": [
+        },
         {
           "value": "Inadequate personnel",
           "expanded": "Inadequate or insufficient personnel"
@@ -7461,147 +3496,67 @@
         {
           "value": "Disposal error",
           "expanded": "Disposal error"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Omission",
           "expanded": "Omission (something intended, but not done)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Loss",
           "expanded": "Loss or misplacement"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Maintenance error",
           "expanded": "Maintenance error"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Misinformation",
           "expanded": "Misinformation (unintentionally giving false info)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Physical accidents",
           "expanded": "Physical accidents (e.g., drops, bumps, spills)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Publishing error",
           "expanded": "Publishing error (private info to public doc or site)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Malfunction",
           "expanded": "Technical malfunction or glitch"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Capacity shortage",
           "expanded": "Poor capacity planning"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Programming error",
           "expanded": "Programming error (flaws or bugs in custom code)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Data entry error",
           "expanded": "Data entry error"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Gaffe",
           "expanded": "Gaffe (social or verbal slip)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Misconfiguration",
           "expanded": "Misconfiguration"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Misdelivery",
           "expanded": "Misdelivery (send wrong info or to wrong recipient)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:error:variety",
-      "entry": [
+        },
         {
           "value": "Classification error",
           "expanded": "Classification or labeling error"
@@ -7614,48 +3569,23 @@
         {
           "value": "Physical access",
           "expanded": "Physical access within corporate facility"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:vector",
-      "entry": [
+        },
         {
           "value": "Remote access",
           "expanded": "Remote access connection to corporate network (i.e. VPN)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:vector",
-      "entry": [
+        },
         {
           "value": "LAN access",
           "expanded": "Local network access within corporate facility"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:vector",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:vector",
-      "entry": [
+        },
         {
           "value": "Non-corporate",
           "expanded": "Non-corporate facilities or networks"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:vector",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
@@ -7668,102 +3598,47 @@
         {
           "value": "Unapproved software",
           "expanded": "Use of unapproved software or services"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Illicit content",
           "expanded": "Storage or distribution of illicit content"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Unapproved workaround",
           "expanded": "Unapproved workaround or shortcut"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Unapproved hardware",
           "expanded": "Use of unapproved hardware or devices"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Email misuse",
           "expanded": "Inappropriate use of email or IM"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Possession abuse",
           "expanded": "Abuse of physical access to asset"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": " Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Net misuse",
           "expanded": "Inappropriate use of network or Web access"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Data mishandling",
           "expanded": "Handling of data in an unapproved manner"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Privilege abuse",
           "expanded": "Abuse of system access privileges"
-        }
-      ]
-    },
-    {
-      "predicate": "action:misuse:variety",
-      "entry": [
+        },
         {
           "value": "Knowledge abuse",
           "expanded": "Abuse of private or entrusted knowledge"
@@ -7776,84 +3651,39 @@
         {
           "value": "Physical access",
           "expanded": "Physical access or connection (i.e., at keyboard or via cable) "
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:vector",
-      "entry": [
+        },
         {
           "value": "Command shell",
           "expanded": "Remote shell"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:vector",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:vector",
-      "entry": [
+        },
         {
           "value": "Backdoor or C2",
           "expanded": "Backdoor or command and control channel"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:vector",
-      "entry": [
+        },
         {
           "value": "Web application",
           "expanded": "Web application"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:vector",
-      "entry": [
+        },
         {
           "value": "Desktop sharing",
           "expanded": "Graphical desktop sharing (RDP, VNC, PCAnywhere, Citrix)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:vector",
-      "entry": [
+        },
         {
           "value": "3rd party desktop",
           "expanded": "3rd party online desktop sharing (LogMeIn, Go2Assist)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:vector",
-      "entry": [
+        },
         {
           "value": "Partner",
           "expanded": "Partner connection or credential"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:vector",
-      "entry": [
+        },
         {
           "value": "VPN",
           "expanded": "VPN"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:vector",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
@@ -7866,417 +3696,187 @@
         {
           "value": "XSS",
           "expanded": "Cross-site scripting"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "HTTP Response Splitting",
           "expanded": "HTTP Response Splitting"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Buffer overflow",
           "expanded": "Buffer overflow"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Format string attack",
           "expanded": "Format string attack"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "LDAP injection",
           "expanded": "LDAP injection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "SSI injection",
           "expanded": "SSI injection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "MitM",
           "expanded": "Man-in-the-middle attack"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Path traversal",
           "expanded": "Path traversal"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "URL redirector abuse",
           "expanded": "URL redirector abuse"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Use of backdoor or C2",
           "expanded": "Use of Backdoor or C2 channel"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Mail command injection",
           "expanded": "Mail command injection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Virtual machine escape",
           "expanded": "Virtual machine escape"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "OS commanding",
           "expanded": "OS commanding"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Soap array abuse",
           "expanded": "Soap array abuse"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Footprinting",
           "expanded": "Footprinting and fingerprinting"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Cryptanalysis",
           "expanded": "Cryptanalysis"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "SQLi",
           "expanded": "SQL injection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "XML external entities",
           "expanded": "XML external entities"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Abuse of functionality",
           "expanded": "Abuse of functionality"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "XML injection",
           "expanded": "XML injection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Routing detour",
           "expanded": "Routing detour"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "HTTP response smuggling",
           "expanded": "HTTP response smuggling"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Forced browsing",
           "expanded": "Forced browsing or predictable resource location"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Cache poisoning",
           "expanded": "Cache poisoning"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Null byte injection",
           "expanded": "Null byte injection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Reverse engineering",
           "expanded": "Reverse engineering"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Brute force",
           "expanded": "Brute force or password guessing attacks"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Fuzz testing",
           "expanded": "Fuzz testing"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Offline cracking",
           "expanded": "Offline password or key cracking (e.g., rainbow tables, Hashcat, JtR)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "CSRF",
           "expanded": "Cross-site request forgery"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "XML entity expansion",
           "expanded": "XML entity expansion"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "RFI",
           "expanded": "Remote file inclusion"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Session fixation",
           "expanded": "Session fixation"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Integer overflows",
           "expanded": "Integer overflows"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "XQuery injection",
           "expanded": "XQuery injection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Pass-the-hash",
           "expanded": "Pass-the-hash"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "XML attribute blowup",
           "expanded": "XML attribute blowup"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Session prediction",
           "expanded": "Credential or session prediction"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Use of stolen creds",
           "expanded": "Use of stolen authentication credentials"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "HTTP request smuggling",
           "expanded": "HTTP request smuggling"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "XPath injection",
           "expanded": "XPath injection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "DoS",
           "expanded": "Denial of service"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Special element injection",
           "expanded": "Special element injection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "HTTP request splitting",
           "expanded": "HTTP request splitting"
-        }
-      ]
-    },
-    {
-      "predicate": "action:hacking:variety",
-      "entry": [
+        },
         {
           "value": "Session replay",
           "expanded": "Session replay"
@@ -8289,129 +3889,59 @@
         {
           "value": "Personal vehicle",
           "expanded": "Personal vehicle"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Visitor privileges",
           "expanded": "Given temporary visitor access"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Public facility",
           "expanded": "Public facility or area"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Victim grounds",
           "expanded": "Victim outdoor grounds"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Uncontrolled location",
           "expanded": "The location was uncontrolled (public)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Partner vehicle",
           "expanded": "Partner vehicle (e.g., delivery truck)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Victim work area",
           "expanded": "Victim private or work area (e.g., office space)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Victim secure area",
           "expanded": "Victim high security area (e.g., server room, R&D labs)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Partner facility",
           "expanded": "Partner facility or area"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Personal residence",
           "expanded": "Personal residence"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Public vehicle",
           "expanded": "Public vehicle (e.g., plane, taxi)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Victim public area",
           "expanded": "Victim public or customer area (e.g., lobby, storefront)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:vector",
-      "entry": [
+        },
         {
           "value": "Privileged access",
           "expanded": "Held privileged access to location"
@@ -8424,111 +3954,51 @@
         {
           "value": "Skimmer",
           "expanded": "Installing card skimming device"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Snooping",
           "expanded": "Snooping (sneak about to gain info or access)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Tampering",
           "expanded": "Tampering (alter physical form or function)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Theft",
           "expanded": "Theft (taking assets without permission)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Connection",
           "expanded": "Connection"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Surveillance",
           "expanded": "Surveillance (monitoring and observation)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Assault",
           "expanded": "Assault (threats or acts of physical violence)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Wiretapping",
           "expanded": "Wiretapping (Physical tap to comms line)"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Bypassed controls",
           "expanded": "Bypassed physical barriers or controls"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Disabled controls",
           "expanded": "Disabled physical barriers or controls"
-        }
-      ]
-    },
-    {
-      "predicate": "action:physical:variety",
-      "entry": [
+        },
         {
           "value": "Destruction",
           "expanded": "Destruction (deliberate damaging or disabling)"
@@ -8541,129 +4011,59 @@
         {
           "value": "Source code",
           "expanded": "Source code"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Personal",
           "expanded": "Personal or identifying information (e.g., addr, ID#, credit score)"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Unknown",
           "expanded": "Unknown"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Medical",
           "expanded": "Medical records"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Classified",
           "expanded": "Classified information"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "System",
           "expanded": "System information (e.g., config info, open services)"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Digital certificate",
           "expanded": "Digital certificate"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Secrets",
           "expanded": "Trade secrets"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Internal",
           "expanded": "Sensitive internal data (e.g., plans, reports, emails)"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Virtual currency",
           "expanded": "Virtual currency"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Copyrighted",
           "expanded": "Copyrighted material"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Credentials",
           "expanded": "Authentication credentials (e.g., pwds, OTPs, biometrics)"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Other",
           "expanded": "Other"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Payment",
           "expanded": "Payment card data (e.g., PAN, PIN, CVV2, Expiration)"
-        }
-      ]
-    },
-    {
-      "predicate": "attribute:confidentiality:data:variety",
-      "entry": [
+        },
         {
           "value": "Bank",
           "expanded": "Bank account data"
