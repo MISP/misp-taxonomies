@@ -8,16 +8,16 @@
       "expanded": "Infrastructure Status"
     },
     {
-      "value": "infrastructure-type",
-      "expanded": "Infrastructure Type"
+      "value": "infrastructure-action",
+      "expanded": "Infrastructure Action"
     },
     {
       "value": "infrastructure-state",
       "expanded": "Infrastructure State"
     },
     {
-      "value": "infrastructure-action",
-      "expanded": "Infrastructure Action"
+      "value": "infrastructure-type",
+      "expanded": "Infrastructure Type"
     }
   ],
   "values": [

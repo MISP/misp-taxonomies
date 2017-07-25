@@ -4,36 +4,6 @@
   "version": 2,
   "predicates": [
     {
-      "value": "id",
-      "expanded": "POLICY ID",
-      "description": "Provides a unique ID to identify a specific IEP implementation."
-    },
-    {
-      "value": "version",
-      "expanded": "POLICY VERSION",
-      "description": "States the version of the IEP framework that has been used."
-    },
-    {
-      "value": "name",
-      "expanded": "POLICY NAME",
-      "description": "This statement can be used to provide a name for an IEP implementation."
-    },
-    {
-      "value": "start-date",
-      "expanded": "POLICY START DATE",
-      "description": "States the UTC date that the IEP is effective from."
-    },
-    {
-      "value": "end-date",
-      "expanded": "POLICY END DATE",
-      "description": "States the UTC date that the IEP is effective until."
-    },
-    {
-      "value": "reference",
-      "expanded": "POLICY REFERENCE",
-      "description": "This statement can be used to provide a URL reference to the specific IEP implementation."
-    },
-    {
       "value": "commercial-use",
       "expanded": "COMMERCIAL USE",
       "description": "States whether Recipients are permitted to use information received in commercial products or services."
@@ -82,6 +52,36 @@
       "value": "unmodified-resale",
       "expanded": "UNMODIFIED RESALE",
       "description": "States whether the recipient MAY or MUST NOT resell the information received unmodified or in a semantically equivalent format."
+    },
+    {
+      "value": "start-date",
+      "expanded": "POLICY START DATE",
+      "description": "States the UTC date that the IEP is effective from."
+    },
+    {
+      "value": "end-date",
+      "expanded": "POLICY END DATE",
+      "description": "States the UTC date that the IEP is effective until."
+    },
+    {
+      "value": "reference",
+      "expanded": "POLICY REFERENCE",
+      "description": "This statement can be used to provide a URL reference to the specific IEP implementation."
+    },
+    {
+      "value": "name",
+      "expanded": "POLICY NAME",
+      "description": "This statement can be used to provide a name for an IEP implementation."
+    },
+    {
+      "value": "version",
+      "expanded": "POLICY VERSION",
+      "description": "States the version of the IEP framework that has been used."
+    },
+    {
+      "value": "id",
+      "expanded": "POLICY ID",
+      "description": "Provides a unique ID to identify a specific IEP implementation."
     }
   ],
   "values": [

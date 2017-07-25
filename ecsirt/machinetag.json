@@ -138,16 +138,28 @@
   ],
   "predicates": [
     {
+      "expanded": "Fraud",
+      "value": "fraud"
+    },
+    {
+      "expanded": "Availability",
+      "value": "availability"
+    },
+    {
       "expanded": "Abusive Content",
       "value": "abusive-content"
     },
     {
-      "expanded": "Malicious Code",
-      "value": "malicious-code"
-    },
-    {
       "expanded": "Information Gathering",
       "value": "information-gathering"
+    },
+    {
+      "expanded": "Information Content Security",
+      "value": "information-content-security"
+    },
+    {
+      "expanded": "Malicious Code",
+      "value": "malicious-code"
     },
     {
       "expanded": "Intrusion Attempts",
@@ -158,24 +170,12 @@
       "value": "intrusions"
     },
     {
-      "expanded": "Availability",
-      "value": "availability"
-    },
-    {
       "expanded": "Information Security",
       "value": "information-security"
     },
     {
-      "expanded": "Information Content Security",
-      "value": "information-content-security"
-    },
-    {
       "expanded": "Vulnerable",
       "value": "vulnerable"
-    },
-    {
-      "expanded": "Fraud",
-      "value": "fraud"
     },
     {
       "expanded": "Other",

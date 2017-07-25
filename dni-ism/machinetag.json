@@ -12,12 +12,20 @@
       "expanded": "ClassificationUS"
     },
     {
+      "value": "scicontrols",
+      "expanded": "SCIControls"
+    },
+    {
       "value": "complies:with",
       "expanded": "CompliesWith"
     },
     {
-      "value": "dissem",
-      "expanded": "Dissem"
+      "value": "atomicenergymarkings",
+      "expanded": "atomicEnergyMarkings"
+    },
+    {
+      "value": "notice",
+      "expanded": "Notice"
     },
     {
       "value": "nonic",
@@ -28,16 +36,8 @@
       "expanded": "NonUSControls"
     },
     {
-      "value": "notice",
-      "expanded": "Notice"
-    },
-    {
-      "value": "scicontrols",
-      "expanded": "SCIControls"
-    },
-    {
-      "value": "atomicenergymarkings",
-      "expanded": "atomicEnergyMarkings"
+      "value": "dissem",
+      "expanded": "Dissem"
     }
   ],
   "values": [
@@ -170,6 +170,7 @@
       ]
     },
     {
+      "predicate": "atomicenergymarkings",
       "entry": [
         {
           "expanded": "RESTRICTED DATA",
@@ -195,10 +196,10 @@
           "expanded": "TRANSCLASSIFIED FOREIGN NUCLEAR INFORMATION",
           "value": "TFNI"
         }
-      ],
-      "predicate": "atomicenergymarkings"
+      ]
     },
     {
+      "predicate": "notice",
       "entry": [
         {
           "expanded": "FISA Warning statement",
@@ -280,10 +281,10 @@
           "expanded": "COMSEC Notice",
           "value": "COMSEC"
         }
-      ],
-      "predicate": "notice"
+      ]
     },
     {
+      "predicate": "nonic",
       "entry": [
         {
           "expanded": "NAVAL NUCLEAR PROPULSION INFORMATION",
@@ -321,8 +322,7 @@
           "expanded": "SENSITIVE SECURITY INFORMATION",
           "value": "SSI"
         }
-      ],
-      "predicate": "nonic"
+      ]
     },
     {
       "predicate": "nonuscontrols",

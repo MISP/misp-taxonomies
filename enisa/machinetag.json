@@ -848,13 +848,13 @@
           "description": "Threat of sophisticated, targeted attack which combine many attack techniques."
         },
         {
-          "value": "mobile-malware",
-          "expanded": "Mobile malware",
+          "value": "mobile-malware-exfiltration",
+          "expanded": "Mobile malware (exfiltration)",
           "description": "Threat of mobile software that aims to gather information about a person or organization without their knowledge."
         },
         {
-          "value": "spear-phishing-attacks",
-          "expanded": "Spear phishing attacks",
+          "value": "spear-phishing-attacks-targeted",
+          "expanded": "Spear phishing attacks (targeted)",
           "description": "Threat of attack focused on a single user or department within an organization, coming from someone within the company in a position of trust and requesting information such as login, IDs and passwords."
         },
         {
@@ -917,17 +917,17 @@
       "value": "eavesdropping-interception-hijacking"
     },
     {
-      "description": "Threats of nefarious activities that require use of tools by the attacker. These attacks require installation of additional tools/software or performing additional steps on the victim's IT infrastructure/software.",
-      "expanded": "Nefarious Activity/ Abuse",
-      "value": "nefarious-activity-abuse"
-    },
-    {
       "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to legislation.",
       "expanded": "Legal",
       "value": "legal"
+    },
+    {
+      "description": "Threats of nefarious activities that require use of tools by the attacker. These attacks require installation of additional tools/software or performing additional steps on the victim's IT infrastructure/software.",
+      "expanded": "Nefarious Activity/ Abuse",
+      "value": "nefarious-activity-abuse"
     }
   ],
-  "version": 201601,
+  "version": 20170725,
   "description": "The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015.",
   "expanded": "ENISA Threat Taxonomy",
   "namespace": "enisa"

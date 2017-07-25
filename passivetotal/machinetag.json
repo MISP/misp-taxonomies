@@ -13,12 +13,12 @@
       "expanded": "Ever Comprimised?"
     },
     {
-      "value": "class",
-      "expanded": "Classification"
-    },
-    {
       "value": "dynamic-dns",
       "expanded": "Dynamic DNS"
+    },
+    {
+      "value": "class",
+      "expanded": "Classification"
     }
   ],
   "values": [
