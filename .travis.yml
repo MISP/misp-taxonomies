@@ -7,9 +7,6 @@ sudo: required
 dist: trusty
 
 python:
-    - "3.4"
-    - "3.5"
-    - "3.5-dev"
     - "3.6"
     - "3.6-dev"
     - "nightly"
@@ -28,6 +25,5 @@ script:
     - pytaxonomies -l MANIFEST.json -a
     - pushd PyTaxonomies
     - pip install -r website/REQUIREMENTS.txt
-    - git clone https://github.com/MISP/misp-taxonomies.git
     - nosetests
     - popd
