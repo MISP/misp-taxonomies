@@ -1,6 +1,6 @@
 python3 machinetag.py -a >a.txt
 asciidoctor a.txt
-~/git/asciidoctor-pdf/bin/asciidoctor-pdf -a allow-uri-read  a.txt
+asciidoctor-pdf -a allow-uri-read  a.txt
 cp a.html ../../misp-website/taxonomies.html
 cp a.pdf ../../misp-website/taxonomies.pdf
 scp a.html circl@cpab.circl.lu:/var/www/nwww.circl.lu/doc/misp-taxonomies/index.html
