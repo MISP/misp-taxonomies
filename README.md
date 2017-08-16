@@ -13,6 +13,7 @@ The following taxonomies are described:
 - [Admiralty Scale](./admiralty-scale)
 - [adversary](./adversary) - description of an adversary infrastructure
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
+- [The CSSA agreed sharing taxonomy](./cssa)
 - [Cyber Kill Chain](./kill-chain) from Lockheed Martin
 - DE German (DE) [Government classification markings (VS)](./de-vs)
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
