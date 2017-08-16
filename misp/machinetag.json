@@ -110,6 +110,11 @@
       "value": "api"
     },
     {
+      "description": "Expansion tag incluencing the MISP behavior using expansion modules",
+      "expanded": "Expansion",
+      "value": "expansion"
+    },
+    {
       "expanded": "Information related to the contributor.",
       "value": "contributor"
     },
@@ -125,11 +130,6 @@
       "description": "Event with this tag should not be synced to other MISP instances",
       "expanded": "Should not sync",
       "value": "should-not-sync"
-    },
-    {
-      "description": "Expansion tag incluencing the MISP behavior using expansion modules",
-      "expanded": "Expansion",
-      "value": "expansion"
     }
   ],
   "version": 4,

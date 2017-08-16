@@ -5,14 +5,14 @@
   "version": 1,
   "predicates": [
     {
-      "value": "domain-access-method",
-      "description": "Domain Access - describes how the adversary has gained access to the domain name",
-      "expanded": "Domain access method"
-    },
-    {
       "value": "domain-status",
       "description": "Domain status - describes the registration status of the domain name",
       "expanded": "Domain status"
+    },
+    {
+      "value": "domain-access-method",
+      "description": "Domain Access - describes how the adversary has gained access to the domain name",
+      "expanded": "Domain access method"
     }
   ],
   "values": [

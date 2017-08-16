@@ -1,0 +1,77 @@
+{
+  "namespace": "cssa",
+  "description": "The CSSA agreed sharing taxonomy.",
+  "version": 3,
+  "predicates": [
+    {
+      "value": "sharing-class",
+      "expanded": "Sharing Class"
+    },
+    {
+      "value": "origin",
+      "expanded": "Origin"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "sharing-class",
+      "entry": [
+        {
+          "value": "high_profile",
+          "expanded": "Generated within the company during incident/case related investigations or forensic analysis or via malware reversing, validated by humans and highly contextualized.",
+          "colour": "#007695"
+        },
+        {
+          "value": "vetted",
+          "expanded": "Generated within the company, validated by a human prior to sharing, data points have been contextualized (to a degree) e.g. IPs are related to C2 or drop site.",
+          "colour": "#008aaf"
+        },
+        {
+          "value": "unvetted",
+          "expanded": "Generated within the company by automated means without human interaction e.g., by malware sandbox, honeypots, IDS, etc.",
+          "colour": "#00b3e2"
+        }
+      ]
+    },
+    {
+      "predicate": "origin",
+      "entry": [
+        {
+          "value": "manual_investigation",
+          "expanded": "Information gathered by an analyst/incident responder/forensic expert/etc.",
+          "colour": "#29775d"
+        },
+        {
+          "value": "honeypot",
+          "expanded": "Information coming out of honeypots.",
+          "colour": "#2f8a6c"
+        },
+        {
+          "value": "sandbox",
+          "expanded": "Information coming out of sandboxes.",
+          "colour": "#369d7b"
+        },
+        {
+          "value": "email",
+          "expanded": "Information coming out of email infrastructure.",
+          "colour": "#3cb08a"
+        },
+        {
+          "value": "3rd-party",
+          "expanded": "Information from outside the company.",
+          "colour": "#46c098"
+        },
+        {
+          "value": "other",
+          "expanded": "If none of the other origins applies.",
+          "colour": "#59c6a2"
+        },
+        {
+          "value": "unknown",
+          "expanded": "Origin of the data unknown.",
+          "colour": "#6ccdad"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,11 @@
   "taxonomies": [
     {
       "version": 1,
+      "name": "accessnow",
+      "description": "Access Now"
+    },
+    {
+      "version": 1,
       "name": "admiralty-scale",
       "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information."
     },
@@ -12,6 +17,16 @@
     },
     {
       "version": 1,
+      "name": "analyst-assessment",
+      "description": ""
+    },
+    {
+      "version": 1,
+      "name": "binary-class",
+      "description": ""
+    },
+    {
+      "version": 1,
       "name": "circl",
       "description": "CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place."
     },
@@ -19,6 +34,11 @@
       "version": 1,
       "name": "csirt_case_classification",
       "description": "FIRST CSIRT Case Classification."
+    },
+    {
+      "version": 1,
+      "name": "cssa",
+      "description": ""
     },
     {
       "version": 1,
