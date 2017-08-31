@@ -27,3 +27,4 @@ do
   echo ''
 done
 
+jsonschema -i mapping/mapping.json schema_mapping.json
