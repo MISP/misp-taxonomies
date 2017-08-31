@@ -7,6 +7,11 @@
     },
     {
       "version": 1,
+      "name": "action-taken",
+      "description": "Action taken."
+    },
+    {
+      "version": 1,
       "name": "admiralty-scale",
       "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information."
     },
@@ -42,6 +47,11 @@
     },
     {
       "version": 1,
+      "name": "ddos",
+      "description": "Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too."
+    },
+    {
+      "version": 1,
       "name": "de-vs",
       "description": "Taxonomy for the handling of protectively marked information in MISP with German (DE) Government classification markings (VS)"
     },
@@ -54,6 +64,11 @@
       "version": 1,
       "name": "diamond-model",
       "description": "The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack."
+    },
+    {
+      "version": 1,
+      "name": "DML",
+      "description": "The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program."
     },
     {
       "version": 3,
@@ -99,6 +114,11 @@
       "version": 1,
       "name": "europol-incident",
       "description": "EUROPOL class of incident taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "event-assessment",
+      "description": "A series of assessment predicates describing the event assessment performed to make judgement(s) under a certain level of uncertainty."
     },
     {
       "version": 1,
@@ -161,74 +181,9 @@
       "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used."
     },
     {
-      "version": 3,
-      "name": "tlp",
-      "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time. Extended with TLP:EX:CHR."
-    },
-    {
-      "version": 2,
-      "name": "veris",
-      "description": "Vocabulary for Event Recording and Incident Sharing (VERIS)."
-    },
-    {
-      "version": 1,
-      "name": "stealth_malware",
-      "description": "Classification based on malware stealth techniques."
-    },
-    {
-      "version": 1,
-      "name": "targeted-threat-index",
-      "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman."
-    },
-    {
-      "version": 1,
-      "name": "stix-ttp",
-      "description": "Representation of the behavior or modus operandi of cyber adversaries (a.k.a TTP) as normalized in STIX"
-    },
-    {
-      "version": 1,
-      "name": "accessnow",
-      "description": "AccessNow Taxonomy"
-    },
-    {
       "version": 1,
       "name": "passivetotal",
       "description": "Tags for RiskIQ's passivetotal service"
-    },
-    {
-      "version": 1,
-      "name": "vocabulaire-des-probabilites-estimatives",
-      "description": "Vocabulaire des probabilités estimatives"
-    },
-    {
-      "version": 1,
-      "name": "DML",
-      "description": "The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program."
-    },
-    {
-      "version": 1,
-      "name": "action-taken",
-      "description": "Action taken"
-    },
-    {
-      "version": 2,
-      "name": "analyst-assessment",
-      "description": "A series of assessment predicates describing the analyst capabilities to perform analysis. These assessment can be assigned by the analyst him/herself or by another party evaluating the analyst."
-    },
-    {
-      "version": 1,
-      "name": "binary-class",
-      "description": "Custom taxonomy for types of binary file."
-    },
-    {
-      "version": 1,
-      "name": "ddos",
-      "description": "Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too."
-    },
-    {
-      "version": 1,
-      "name": "event-assessment",
-      "description": "A series of assessment predicates describing the event assessment performed to make judgement(s) under a certain level of uncertainty."
     },
     {
       "version": 1,
@@ -237,8 +192,38 @@
     },
     {
       "version": 1,
+      "name": "stealth_malware",
+      "description": "Classification based on malware stealth techniques."
+    },
+    {
+      "version": 1,
+      "name": "stix-ttp",
+      "description": "Representation of the behavior or modus operandi of cyber adversaries (a.k.a TTP) as normalized in STIX"
+    },
+    {
+      "version": 1,
+      "name": "targeted-threat-index",
+      "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman."
+    },
+    {
+      "version": 3,
+      "name": "tlp",
+      "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time. Extended with TLP:EX:CHR."
+    },
+    {
+      "version": 1,
       "name": "tor",
       "description": "Taxonomy to describe Tor network infrastructure"
+    },
+    {
+      "version": 2,
+      "name": "veris",
+      "description": "Vocabulary for Event Recording and Incident Sharing (VERIS)."
+    },
+    {
+      "version": 1,
+      "name": "vocabulaire-des-probabilites-estimatives",
+      "description": "Vocabulaire des probabilités estimatives"
     }
   ],
   "path": "machinetag.json",

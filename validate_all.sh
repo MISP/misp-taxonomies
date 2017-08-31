@@ -15,7 +15,7 @@ fi
 directories=`ls -d */ | wc -w`
 manifest_entries=`cat MANIFEST.json | jq '.taxonomies | length'`
 
-if ! [ $directories -eq $manifest_entries ]; then
+if ! [ $((directories-2)) -eq $manifest_entries ]; then
     echo "MANIFEST isn't up-to-date."
     exit 1
 fi
