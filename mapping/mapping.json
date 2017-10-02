@@ -47,7 +47,6 @@
   },
   "ransomware": {
     "values": [
-      "veris:action:malware:variety=\"Ransomware\"",
       "ecsirt:malicious-code=\"ransomware\"",
       "enisa:nefarious-activity-abuse=\"ransomware\"",
       "malware_classification:malware-category=\"Ransomware\"",
