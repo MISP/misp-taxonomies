@@ -37,6 +37,11 @@
     },
     {
       "version": 1,
+      "name": "collaborative-intelligence",
+      "description": "Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP."
+    },
+    {
+      "version": 1,
       "name": "csirt_case_classification",
       "description": "FIRST CSIRT Case Classification."
     },
@@ -230,5 +235,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20170303"
+  "version": "20171002"
 }
