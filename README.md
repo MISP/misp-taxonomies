@@ -14,11 +14,12 @@ The following taxonomies are described:
 - [adversary](./adversary) - description of an adversary infrastructure
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 - [The CSSA agreed sharing taxonomy](./cssa)
+- [Collaborative intelligence](./collaborative-intelligence) - Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP. The objective of this language is to advance collaborative analysis and to share earlier than later.
 - [Cyber Kill Chain](./kill-chain) from Lockheed Martin
 - DE German (DE) [Government classification markings (VS)](./de-vs)
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
 - [Diamond Model for Intrusion Analysis](./diamond-model)
-* [Detection Maturity Level](./DML)
+- [Detection Maturity Level](./DML)
 - [Domain Name Abuse](./domain-abuse)
 - [eCSIRT](./ecsirt) and IntelMQ incident classification
 - [ENISA](./enisa) ENISA Threat Taxonomy
