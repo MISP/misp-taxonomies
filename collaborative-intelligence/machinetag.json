@@ -2,7 +2,7 @@
   "namespace": "collaborative-intelligence",
   "expanded": "collaborative intelligence support language",
   "description": "Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP. The objective of this language is to advance collaborative analysis and to share earlier than later.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "request",
@@ -33,6 +33,10 @@
         {
           "value": "static-analysis",
           "expanded": "Request additional static analysis or reversing on the information shared"
+        },
+        {
+          "value": "detection-signature",
+          "expanded": "Request detection signature from"
         },
         {
           "value": "context",
