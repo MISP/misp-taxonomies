@@ -2,7 +2,7 @@
   "namespace": "estimative-language",
   "expanded": "Estimative language ICD 203",
   "description": "Estimative language to describe quality and credibility of underlying sources, data, and methodologies based Intelligence Community Directive 203 (ICD 203)",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "likelihood-probability",
@@ -16,31 +16,38 @@
       "entry": [
         {
           "value": "almost-no-chance",
-          "expanded": "Almost no chance - remote - 01-05%"
+          "expanded": "Almost no chance - remote - 01-05%",
+          "numerical_value": 0
         },
         {
           "value": "very-unlikely",
-          "expanded": "Very unlikely - highly improbable - 05-20%"
+          "expanded": "Very unlikely - highly improbable - 05-20%",
+          "numerical_value": 5
         },
         {
           "value": "unlikely",
-          "expanded": "Unlikely - improbable (improbably) - 20-45%"
+          "expanded": "Unlikely - improbable (improbably) - 20-45%",
+          "numerical_value": 20
         },
         {
           "value": "roughly-even-chance",
-          "expanded": "Roughly even change - roughly even odds - 45-55%"
+          "expanded": "Roughly even change - roughly even odds - 45-55%",
+          "numerical_value": 45
         },
         {
           "value": "likely",
-          "expanded": "Likely - probable (probably) - 55-80%"
+          "expanded": "Likely - probable (probably) - 55-80%",
+          "numerical_value": 55
         },
         {
           "value": "very-likely",
-          "expanded": "Very likely - highly probable - 80-95%"
+          "expanded": "Very likely - highly probable - 80-95%",
+          "numerical_value": 80
         },
         {
           "value": "almost-certain",
-          "expanded": "Almost certain(ly) - nearly certain - 95-99%"
+          "expanded": "Almost certain(ly) - nearly certain - 95-99%",
+          "numerical_value": 95
         }
       ]
     }

@@ -96,7 +96,7 @@
       "description": "ENISA Threat Taxonomy - A tool for structuring threat information as published in https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends/enisa-threat-landscape/etl2015/enisa-threat-taxonomy-a-tool-for-structuring-threat-information"
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "estimative-language",
       "description": "Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a))."
     },
