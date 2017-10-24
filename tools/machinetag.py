@@ -146,5 +146,16 @@ for taxonomy in taxonomies:
                             if'expanded' in v:
                                 print("--> " + machineTag(namespace=namespace, predicate=expanded, value=v['expanded']))
 
+with open('../mapping/mapping.json') as mapping:
+    m = json.load(mapping)
+    output = '\n= Mapping of taxonomies\n'
+    output = '{}{}'.format(output, 'Analysts relying on taxonomies don\'t always know the appropriate namespace to use but know which value to use for classification. The MISP mapping taxonomy allows to map a single classification into a series of machine-tag synonyms.\n')
+    for value in sorted(m.keys()):
+        output = '{}{} **{}**{}{}\n'.format(output,'\n.Mapping table - ',value,'\n|===\n|',value)
+        for mapped in m[value]['values']:
+            output = '{}|{}\n'.format(output,mapped)
+        output = '{}|===\n'.format(output)
+    doc = doc + output
+
 if args.a:
     print(doc)
