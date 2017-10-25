@@ -69,6 +69,7 @@
   "scan": {
     "values": [
       "circl:incident-classification=\"scan\"",
+      "ecsirt:information-gathering=\"scanner\""
       "europol-incident:information-gathering=\"scanning\""
     ]
   },
@@ -148,20 +149,23 @@
   "Trojan": {
     "values": [
       "malware_classification:malware-category=\"Trojan\"",
-      "ms-caro-malware:malware-type=\"Trojan\""
+      "ms-caro-malware:malware-type=\"Trojan\"",
+      "ecsirt:malicious-code=\"trojan\""
     ]
   },
   "Virus": {
     "values": [
       "malware_classification:malware-category=\"Virus\"",
-      "ms-caro-malware:malware-type=\"Virus\""
+      "ms-caro-malware:malware-type=\"Virus\"",
+      "ecsirt:malicious-code=\"virus\""
     ]
   },
   "Worm": {
     "values": [
       "veris:action:malware:variety=\"Worm\"",
       "malware_classification:malware-category=\"Worm\"",
-      "ms-caro-malware:malware-type=\"Worm\""
+      "ms-caro-malware:malware-type=\"Worm\"",
+      "ecsirt:malicious-code=\"worm\""
     ]
   },
   "tlp-white": {
