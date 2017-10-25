@@ -140,6 +140,8 @@ for taxonomy in taxonomies:
                         if args.a and 'expanded' in v:
                             doc = asciidoc(content=machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']), adoc=doc)
                             doc = asciidoc(content=machineTag(namespace=namespace, predicate=v['expanded']), adoc=doc, t='description')
+                            if 'description' in v:
+                                doc = asciidoc(content=machineTag(namespace=namespace, predicate=v['description']), adoc=doc, t='description')
                         else:
                             print(machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
                         if args.e:
