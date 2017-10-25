@@ -3,26 +3,19 @@
     {
       "entry": [
         {
-          "expanded": "phishing",
-          "value": "phishing"
-        }
-      ],
-      "predicate": "fraud"
-    },
-    {
-      "entry": [
-        {
-          "expanded": "ddos",
-          "value": "ddos"
-        }
-      ],
-      "predicate": "availability"
-    },
-    {
-      "entry": [
-        {
+          "description": "Or 'Unsolicited Bulk Email', this means that the recipient has not granted verifiable permission for the message to be sent and that the message is sent as part of a larger collection of messages, all having a functionally comparable content.",
           "expanded": "spam",
           "value": "spam"
+        },
+        {
+          "description": "Discreditation or discrimination of somebody e.g. cyber stalking, racism and threats against one or more individuals).",
+          "expanded": "Harmful Speech",
+          "value": "harmful-speech"
+        },
+        {
+          "description": "Child Pornography, glorification of violence, ...",
+          "expanded": "Child/Sexual/Violence/...",
+          "value": "violence"
         }
       ],
       "predicate": "abusive-content"
@@ -30,41 +23,47 @@
     {
       "entry": [
         {
-          "expanded": "scanner",
-          "value": "scanner"
-        }
-      ],
-      "predicate": "information-gathering"
-    },
-    {
-      "entry": [
+          "expanded": "Virus",
+          "value": "virus"
+        },
         {
-          "expanded": "dropzone",
-          "value": "dropzone"
-        }
-      ],
-      "predicate": "information-content-security"
-    },
-    {
-      "entry": [
+          "expanded": "Worm",
+          "value": "worm"
+        },
         {
-          "expanded": "malware",
+          "expanded": "Trojan",
+          "value": "trojan"
+        },
+        {
+          "expanded": "Spyware",
+          "value": "spyware"
+        },
+        {
+          "expanded": "Dialer",
+          "value": "dialer"
+        },
+        {
+          "expanded": "Rootkit",
+          "value": "rootkit"
+        },
+        {
+          "expanded": "Malware",
           "value": "malware"
         },
         {
-          "expanded": "botnet drone",
+          "expanded": "Botnet drone",
           "value": "botnet-drone"
         },
         {
-          "expanded": "ransomware",
+          "expanded": "Ransomware",
           "value": "ransomware"
         },
         {
-          "expanded": "malware configuration",
+          "expanded": "Malware configuration",
           "value": "malware-configuration"
         },
         {
-          "expanded": "c&c",
+          "expanded": "C&C",
           "value": "c&c"
         }
       ],
@@ -73,22 +72,61 @@
     {
       "entry": [
         {
-          "expanded": "exploit",
-          "value": "exploit"
+          "description": "Attacks that send requests to a system to discover weak points. This includes also some kind of testing processes to gather information about hosts, services and accounts. Examples: fingerd, DNS querying, ICMP, SMTP (EXPN, RCPT, ...), port scanning.",
+          "expanded": "Scanning",
+          "value": "scanner"
         },
         {
-          "expanded": "brute-force",
+          "description": "Observing and recording of network traffic (wiretapping).",
+          "expanded": "Sniffing",
+          "value": "sniffing"
+        },
+        {
+          "description": "Gathering information from a human being in a non-technical way (e.g. lies, tricks, bribes, or threats).",
+          "expanded": "Social Engineering",
+          "value": "social-engineering"
+        }
+      ],
+      "predicate": "information-gathering"
+    },
+    {
+      "entry": [
+        {
+          "description": "An attempt to compromise a system or to disrupt any service by exploiting vunerabilities with a standardised identifier such as CVE name (e.g. buffer overflow, backdoor, cross site scripting, etc.)",
+          "expanded": "Exploiting of known Vulnerabilities",
+          "value": "ids-alert"
+        },
+        {
+          "description": "Multiple login attempts (Guessing / cracking of passwords, brute force).",
+          "expanded": "Login attempts",
           "value": "brute-force"
         },
         {
-          "expanded": "ids alerts",
-          "value": "ids-alert"
+          "description": "An attempt using an unknown exploit.",
+          "expanded": "New attack signature",
+          "value": "exploit"
         }
       ],
       "predicate": "intrusion-attempts"
     },
     {
       "entry": [
+        {
+          "expanded": "Privileged Account Compromise",
+          "value": "privileged-account-compromise"
+        },
+        {
+          "expanded": "Unprivileged Account Compromise",
+          "value": "unprivileged-account-compromise"
+        },
+        {
+          "expanded": "Application Compromise",
+          "value": "application-compromise"
+        },
+        {
+          "expanded": "Bot",
+          "value": "bot"
+        },
         {
           "expanded": "defacement",
           "value": "defacement"
@@ -107,7 +145,74 @@
     {
       "entry": [
         {
-          "expanded": "Vulnerable service",
+          "description": "Denial of Service.",
+          "expanded": "DoS",
+          "value": "dos"
+        },
+        {
+          "description": "Distributed Denial of Service.",
+          "expanded": "DDoS",
+          "value": "ddos"
+        },
+        {
+          "description": "Sabotage.",
+          "expanded": "Sabotage",
+          "value": "sabotage"
+        },
+        {
+          "description": "Outage (no malice).",
+          "expanded": "Outage (no malice)",
+          "value": "outage"
+        }
+      ],
+      "predicate": "availability"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "Unauthorised access to information",
+          "value": "Unauthorised-information-access"
+        },
+        {
+          "expanded": "Unauthorised modification of information",
+          "value": "Unauthorised-information-modification"
+        },
+        {
+          "expanded": "dropzone",
+          "value": "dropzone"
+        }
+      ],
+      "predicate": "information-content-security"
+    },
+    {
+      "entry": [
+        {
+          "description": "Using resources for unauthorized purposes including profit-making ventures (E.g. the use of e-mail to participate in illegal profit chain letters or pyramid schemes).",
+          "expanded": "Unauthorized use of resources",
+          "value": "unauthorized-use-of-resources"
+        },
+        {
+          "description": "Offering or Installing copies of unlicensed commercial software or other copyright protected materials (Warez).",
+          "expanded": "Copyright",
+          "value": "copyright"
+        },
+        {
+          "description": "Type of attacks in which one entity illegitimately assumes the identity of another in order to benefit from it.",
+          "expanded": "Masquerade",
+          "value": "masquerade"
+        },
+        {
+          "description": "Masquerading as another entity in order to persuade the user to reveal a private credential.",
+          "expanded": "Phishing",
+          "value": "phishing"
+        }
+      ],
+      "predicate": "fraud"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "Open for abuse",
           "value": "vulnerable-service"
         }
       ],
@@ -122,6 +227,10 @@
         {
           "expanded": "unknown",
           "value": "unknown"
+        },
+        {
+          "expanded": "other",
+          "value": "other"
         }
       ],
       "predicate": "other"
@@ -138,55 +247,62 @@
   ],
   "predicates": [
     {
-      "expanded": "Fraud",
-      "value": "fraud"
-    },
-    {
-      "expanded": "Availability",
-      "value": "availability"
-    },
-    {
+      "description": "Abusive Content.",
       "expanded": "Abusive Content",
       "value": "abusive-content"
     },
     {
-      "expanded": "Information Gathering",
-      "value": "information-gathering"
-    },
-    {
-      "expanded": "Information Content Security",
-      "value": "information-content-security"
-    },
-    {
+      "description": "Software that is intentionally included or inserted in a system for a harmful purpose. A user interaction is normally necessary to activate the code.",
       "expanded": "Malicious Code",
       "value": "malicious-code"
     },
     {
+      "description": "Information Gathering.",
+      "expanded": "Information Gathering",
+      "value": "information-gathering"
+    },
+    {
+      "description": "Intrusion Attempts.",
       "expanded": "Intrusion Attempts",
       "value": "intrusion-attempts"
     },
     {
+      "description": "A successful compromise of a system or application (service). This can have been caused remotely by a known or new vulnerability, but also by an unauthorized local access. Also includes being part of a botnet.",
       "expanded": "Intrusions",
       "value": "intrusions"
     },
     {
-      "expanded": "Information Security",
-      "value": "information-security"
+      "description": "By this kind of an attack a system is bombarded with so many packets that the operations are delayed or the system crashes. DoS examples are ICMP and SYN floods, Teardrop attacks and mail-bombing. DDoS often is based on DoS attacks originating from botnets, but also other scenarios exist like DNS Amplification attacks. However, the availability also can be affected by local actions (destruction, disruption of power supply, etc.) – or by Act of God, spontaneous failures or human error, without malice or gross neglect being involved.",
+      "expanded": "Availability",
+      "value": "availability"
     },
     {
+      "description": "Besides a local abuse of data and systems the information security can be endangered by a successful account or application compromise. Furthermore attacks are possible that intercept and access information during transmission (wiretapping, spoofing or hijacking). Human/configuration/software error can also be the cause.",
+      "expanded": "Information Content Security",
+      "value": "information-content-security"
+    },
+    {
+      "description": "Fraud.",
+      "expanded": "Fraud",
+      "value": "fraud"
+    },
+    {
+      "description": "Open resolvers, world readable printers, vulnerability apparent from Nessus etc scans, virus signatures not up-to-date, etc",
       "expanded": "Vulnerable",
       "value": "vulnerable"
     },
     {
+      "description": "All incidents which don't fit in one of the given categories should be put into this class. If the number of incidents in this category increases, it is an indicator that the classification scheme must be revised",
       "expanded": "Other",
       "value": "other"
     },
     {
+      "description": "Meant for testing.",
       "expanded": "Test",
       "value": "test"
     }
   ],
-  "version": 1,
-  "description": "Incident Classification by the ecsirt.net project WP4 clearinghouse policy and updated by IntelMQ.",
+  "version": 2,
+  "description": "Incident Classification by the ecsirt.net version mkVI of 31 March 2015 enriched with IntelMQ taxonomy-type mapping.",
   "namespace": "ecsirt"
 }
