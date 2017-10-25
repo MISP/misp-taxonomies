@@ -69,7 +69,7 @@
   "scan": {
     "values": [
       "circl:incident-classification=\"scan\"",
-      "ecsirt:information-gathering=\"scanner\""
+      "ecsirt:information-gathering=\"scanner\"",
       "europol-incident:information-gathering=\"scanning\""
     ]
   },
