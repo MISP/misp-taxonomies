@@ -1,0 +1,88 @@
+{
+  "namespace": "ais-marking",
+  "description": "The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "TLPMarking",
+      "expanded": "TLP Marking"
+    },
+    {
+      "value": "AISConsent",
+      "expanded": "AIS Consent"
+    },
+    {
+      "value": "CISA_Proprietary",
+      "expanded": "CISA Proprietary"
+    },
+    {
+      "value": "AISMarking",
+      "expanded": "AIS Marking"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "TLPMarking",
+      "entry": [
+        {
+          "value": "WHITE",
+          "expanded": "WHITE",
+          "colour": "#FFFFFF"
+        },
+        {
+          "value": "GREEN",
+          "expanded": "GREEN",
+          "colour": "#339900"
+        },
+        {
+          "value": "AMBER",
+          "expanded": "AMBER",
+          "colour": "#FFC000"
+        }
+      ]
+    },
+    {
+      "predicate": "AISConsent",
+      "entry": [
+        {
+          "value": "EVERYONE",
+          "expanded": "EVERYONE"
+        },
+        {
+          "value": "USG",
+          "expanded": "USG"
+        },
+        {
+          "value": "NONE",
+          "expanded": "NONE"
+        }
+      ]
+    },
+    {
+      "predicate": "CISA_Proprietary",
+      "entry": [
+        {
+          "value": "true",
+          "expanded": "true"
+        },
+        {
+          "value": "false",
+          "expanded": "false"
+        }
+      ]
+    },
+    {
+      "predicate": "AISMarking",
+      "entry": [
+        {
+          "value": "Is_Proprietary",
+          "expanded": "Is_Proprietary"
+        },
+        {
+          "value": "Not_Proprietary",
+          "expanded": "Not_Proprietary"
+        }
+      ]
+    }
+  ]
+}
