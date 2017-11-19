@@ -13,7 +13,7 @@
       "value": "certainty"
     }
   ],
-  "version": 7,
+  "version": 8,
   "description": "Open Source Intelligence - Classification (MISP taxonomies)",
   "namespace": "osint",
   "values": [
@@ -31,6 +31,10 @@
         {
           "value": "technical-report",
           "expanded": "Technical or analysis report"
+        },
+        {
+          "value": "presentation",
+          "expanded": "Presentation or slidedeck"
         },
         {
           "value": "news-report",
