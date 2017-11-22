@@ -53,27 +53,27 @@
         {
           "value": "1",
           "expanded": "Confirmed by other sources",
-          "numerical_values": 100
+          "numerical_value": 100
         },
         {
           "value": "2",
           "expanded": "Probably true",
-          "numerical_values": 75
+          "numerical_value": 75
         },
         {
           "value": "3",
           "expanded": "Possibly true",
-          "numerical_values": 50
+          "numerical_value": 50
         },
         {
           "value": "4",
           "expanded": "Doubtful",
-          "numerical_values": 25
+          "numerical_value": 25
         },
         {
           "value": "5",
           "expanded": "Improbable",
-          "numerical_values": 0
+          "numerical_value": 0
         },
         {
           "value": "6",
