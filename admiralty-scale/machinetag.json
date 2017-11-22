@@ -1,7 +1,7 @@
 {
   "namespace": "admiralty-scale",
   "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "source-reliability",
@@ -18,23 +18,28 @@
       "entry": [
         {
           "value": "a",
-          "expanded": "Completely reliable"
+          "expanded": "Completely reliable",
+          "numerical_value": 100
         },
         {
           "value": "b",
-          "expanded": "Usually reliable"
+          "expanded": "Usually reliable",
+          "numerical_value": 75
         },
         {
           "value": "c",
-          "expanded": "Fairly reliable"
+          "expanded": "Fairly reliable",
+          "numerical_value": 50
         },
         {
           "value": "d",
-          "expanded": "Not usually reliable"
+          "expanded": "Not usually reliable",
+          "numerical_value": 25
         },
         {
           "value": "e",
-          "expanded": "Unreliable"
+          "expanded": "Unreliable",
+          "numerical_value": 0
         },
         {
           "value": "f",
@@ -47,23 +52,28 @@
       "entry": [
         {
           "value": "1",
-          "expanded": "Confirmed by other sources"
+          "expanded": "Confirmed by other sources",
+          "numerical_values": 100
         },
         {
           "value": "2",
-          "expanded": "Probably true"
+          "expanded": "Probably true",
+          "numerical_values": 75
         },
         {
           "value": "3",
-          "expanded": "Possibly true"
+          "expanded": "Possibly true",
+          "numerical_values": 50
         },
         {
           "value": "4",
-          "expanded": "Doubtful"
+          "expanded": "Doubtful",
+          "numerical_values": 25
         },
         {
           "value": "5",
-          "expanded": "Improbable"
+          "expanded": "Improbable",
+          "numerical_values": 0
         },
         {
           "value": "6",

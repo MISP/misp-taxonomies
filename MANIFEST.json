@@ -11,7 +11,7 @@
       "description": "Action taken."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "admiralty-scale",
       "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information."
     },
