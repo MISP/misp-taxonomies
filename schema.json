@@ -72,6 +72,9 @@
           "value": {
             "type": "string"
           },
+          "exclusive": {
+            "type": "boolean"
+          },
           "required": [
             "value"
           ]
@@ -93,6 +96,9 @@
     },
     "namespace": {
       "type": "string"
+    },
+    "exclusive": {
+      "type": "boolean"
     },
     "type": {
       "type": "array",

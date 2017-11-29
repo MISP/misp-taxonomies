@@ -47,18 +47,22 @@
   "predicates": [
     {
       "expanded": "Informations classifiées défense",
-      "value": "classifiees-defense"
+      "value": "classifiees-defense",
+      "exclusive": true
     },
     {
       "expanded": "Informations non classifiées defense",
-      "value": "non-classifiees-defense"
+      "value": "non-classifiees-defense",
+      "exclusive": true
     },
     {
       "expanded": "Informations non classifiées",
-      "value": "non-classifiees"
+      "value": "non-classifiees",
+      "exclusive": true
     }
   ],
-  "version": 1,
+  "version": 2,
   "description": "French gov information classification system",
-  "namespace": "fr-classif"
+  "namespace": "fr-classif",
+  "exclusive": true
 }
