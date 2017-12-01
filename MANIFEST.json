@@ -181,7 +181,7 @@
       "description": "Open Threat Taxonomy v1.1 base on James Tarala of SANS ref. - http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf"
     },
     {
-      "version": 8,
+      "version": 9,
       "name": "osint",
       "description": "Open Source Intelligence - Classification (MISP taxonomies)."
     },
