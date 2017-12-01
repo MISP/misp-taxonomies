@@ -97,7 +97,9 @@ def asciidoc(content=False, adoc=doc, t='title'):
             content = "\n{} \n".format(value)
         except:
             content = "\n{} \n".format(content)
-
+    elif t == 'numerical_value':
+        (n, value) = content.split(":", 1)
+        content = "\nAssociated numerical value=\"{}\" \n".format(value)
     adoc = adoc + content
     return adoc
 
@@ -137,6 +139,8 @@ for taxonomy in taxonomies:
                 doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['expanded']), adoc=doc, t='description')
                 if predicate.get('description'):
                     doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['description']), adoc=doc, t='description')
+                if predicate.get('numerical_value'):
+                    doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['numerical_value']), adoc=adoc, t='description')
             else:
                 print(machineTag(namespace=namespace, predicate=predicate['value']))
             if args.e:
@@ -154,6 +158,8 @@ for taxonomy in taxonomies:
                             doc = asciidoc(content=machineTag(namespace=namespace, predicate=v['expanded']), adoc=doc, t='description')
                             if 'description' in v:
                                 doc = asciidoc(content=machineTag(namespace=namespace, predicate=v['description']), adoc=doc, t='description')
+                            if v.get('numerical_value'):
+                                 doc = asciidoc(content=machineTag(namespace=namespace, predicate=v['numerical_value']), adoc=doc, t='numerical_value')
                         else:
                             print(machineTag(namespace=namespace, predicate=e['predicate'], value=v['value']))
                         if args.e:
