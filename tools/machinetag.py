@@ -100,6 +100,10 @@ def asciidoc(content=False, adoc=doc, t='title'):
     elif t == 'numerical_value':
         (n, value) = content.split(":", 1)
         content = "\nAssociated numerical value=\"{}\" \n".format(value)
+    elif t == 'exclusive':
+        (n, value) = content.split(":", 1)
+        if n:
+            content = "\nIMPORTANT: Exclusive flag set which means the values or predicate below must be set exclusively.\n"
     adoc = adoc + content
     return adoc
 
@@ -126,6 +130,8 @@ for taxonomy in taxonomies:
     if args.a:
         doc = asciidoc(content=t['namespace'], adoc=doc, t='namespace')
         doc = asciidoc(content=t['description'], adoc=doc, t='description')
+        if t.get('exclusive'):
+                doc = asciidoc(content=machineTag(namespace=namespace, predicate=t['exclusive']), adoc=doc, t='exclusive')
     if args.v:
         print('{0}'.format(t['description']))
     for predicate in t['predicates']:
@@ -133,6 +139,9 @@ for taxonomy in taxonomies:
             doc = asciidoc(content=predicate['value'], adoc=doc, t='predicate')
             if predicate.get('description'):
                 doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['description']), adoc=doc, t='description')
+            if predicate.get('exclusive'):
+                doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['exclusive']), adoc=doc, t='exclusive')
+
         if t.get('values') is None:
             if args.a:
                 doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['value']), adoc=doc)
@@ -141,6 +150,8 @@ for taxonomy in taxonomies:
                     doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['description']), adoc=doc, t='description')
                 if predicate.get('numerical_value'):
                     doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['numerical_value']), adoc=adoc, t='description')
+                if predicate.get('exclusive'):
+                    doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['exclusive']), adoc=adoc, t='exclusive')
             else:
                 print(machineTag(namespace=namespace, predicate=predicate['value']))
             if args.e:
