@@ -1,0 +1,82 @@
+{
+  "namespace": "workflow",
+  "expanded": "workflow to support analysis",
+  "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information. ",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "todo",
+      "expanded": "Todo",
+      "description": "Todo are the actions to be performed by one or more analyst(s) to apply cognitive methods, evaluation(s), weightening information, to validate hypothesis or complete additional tasks to improve the overall information or data being tagged with a todo. "
+    },
+    {
+      "value": "state",
+      "expanded": "State",
+      "description": "State are the different states of the information or data being tagged."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "todo",
+      "entry": [
+        {
+          "value": "expansion",
+          "expanded": "Expansion need to be applied to expand the information tagged"
+        },
+        {
+          "value": "review",
+          "expanded": "Additional review is required to reach a certain level of validation of the information tagged"
+        },
+        {
+          "value": "review-before-publication",
+          "expanded": "Review is required before publishing the information tagged"
+        },
+        {
+          "value": "review-for-false-positive",
+          "expanded": "Review the the information tagged to limit the number of false-positives and potentially remove any IDS/automation flag to avoid automation of the false-positives"
+        },
+        {
+          "value": "create-missing-misp-galaxy-cluster-values",
+          "expanded": "Add potential MISP galaxy cluster values missing about the information tagged"
+        },
+        {
+          "value": "create-missing-misp-galaxy-cluster",
+          "expanded": "Create missing MISP galaxy cluster about the information tagged"
+        },
+        {
+          "value": "add-context",
+          "expanded": "Add contextual information about the information tagged"
+        },
+        {
+          "value": "add-tagging",
+          "expanded": "Add adequate tagging and classification about the information tagged"
+        },
+        {
+          "value": "check-passive-dns-for-shared-hosting",
+          "expanded": "Check Passive DNS (or similar techniques) to review if the information tagged is used within shared hosting"
+        },
+        {
+          "value": "review-classification",
+          "expanded": "Review the classification of the information tagged to ensure adequate marking of the information before publication"
+        },
+        {
+          "value": "review-the-grammar",
+          "expanded": "Review the grammar of the information tagged to improve the overall quality "
+        }
+      ]
+    },
+    {
+      "predicate": "state",
+      "entry": [
+        {
+          "value": "incomplete",
+          "expanded": "Incomplete means that the information tagged is incomplete and has potential to be completed by other analysts, technical processes or the current analysts performing the analysis"
+        },
+        {
+          "value": "complete",
+          "expanded": "Complete means that the information tagged reach a state of completeness with the current capabilities of the analyst"
+        }
+      ]
+    }
+  ]
+}

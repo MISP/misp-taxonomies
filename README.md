@@ -45,6 +45,7 @@ The following taxonomies are described:
 - [Vocabulaire des probabilités estimatives](./vocabulaire-des-probabilites-estimatives)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 - [Binary Classification](./binary-class) safe/malicious binary tagging
+- [Workflow](./workflow) support language is a common language to support intelligence analysts to perform their analysis on data and information.
 
 ### [Admiralty Scale](./admiralty-scale)
 
