@@ -236,7 +236,7 @@
       "description": "Vocabulaire des probabilités estimatives"
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "workflow",
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information."
     }
@@ -245,5 +245,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20171210"
+  "version": "20171211"
 }
