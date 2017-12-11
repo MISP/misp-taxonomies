@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information. ",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "todo",
@@ -34,6 +34,10 @@
         {
           "value": "review-for-false-positive",
           "expanded": "Review the the information tagged to limit the number of false-positives and potentially remove any IDS/automation flag to avoid automation of the false-positives"
+        },
+        {
+          "value": "review-the-source-credibility",
+          "expanded": "Review the source credibility and add the corresponding marking like admiralty-scale on the origin"
         },
         {
           "value": "create-missing-misp-galaxy-cluster-values",
