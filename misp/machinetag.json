@@ -37,6 +37,15 @@
       ]
     },
     {
+      "predicate": "tool",
+      "entry": [
+        {
+          "expanded": "misp2stix",
+          "value": "misp2stix"
+        }
+      ]
+    },
+    {
       "predicate": "confidence-level",
       "entry": [
         {
@@ -130,9 +139,14 @@
       "description": "Event with this tag should not be synced to other MISP instances",
       "expanded": "Should not sync",
       "value": "should-not-sync"
+    },
+    {
+      "description": "Tool associated with the information taggged",
+      "expanded": "Tool",
+      "value": "tool"
     }
   ],
-  "version": 4,
+  "version": 5,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"

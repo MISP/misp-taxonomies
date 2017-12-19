@@ -156,7 +156,7 @@
       "description": "Malware classification based on a SANS whitepaper about malware."
     },
     {
-      "version": 3,
+      "version": 5,
       "name": "misp",
       "description": "Internal MISP taxonomy."
     },
