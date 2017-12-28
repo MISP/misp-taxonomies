@@ -1,0 +1,126 @@
+{
+  "namespace": "runtime-packer",
+  "description": "Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "portable-executable",
+      "expanded": "Portable Executable (PE)"
+    },
+    {
+      "value": "elf",
+      "expanded": "ELF"
+    },
+    {
+      "value": "cli-assembly",
+      "expanded": "CLI assembly"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "portable-executable",
+      "entry": [
+        {
+          "value": ".netshrink",
+          "expanded": ".netshrink"
+        },
+        {
+          "value": "armadillo",
+          "expanded": "Armadillo"
+        },
+        {
+          "value": "aspack",
+          "expanded": "ASPack"
+        },
+        {
+          "value": "aspr-asprotect",
+          "expanded": "ASPR (ASProtect)"
+        },
+        {
+          "value": "boxedapp-packer",
+          "expanded": "BoxedApp Packer"
+        },
+        {
+          "value": "cexe",
+          "expanded": "CExe"
+        },
+        {
+          "value": "dotbundle",
+          "expanded": "dotBundle"
+        },
+        {
+          "value": "enigma-protector",
+          "expanded": "Enigma Protector"
+        },
+        {
+          "value": "exe-bundle",
+          "expanded": "EXE Bundle"
+        },
+        {
+          "value": "exe-stealth",
+          "expanded": "EXE Stealth"
+        },
+        {
+          "value": "expressor",
+          "expanded": "eXPressor"
+        },
+        {
+          "value": "fsg",
+          "expanded": "FSG"
+        },
+        {
+          "value": "kkrunchy-src",
+          "expanded": "kkrunchy src"
+        },
+        {
+          "value": "mew",
+          "expanded": "MEW"
+        },
+        {
+          "value": "mpress",
+          "expanded": "MPRESS"
+        },
+        {
+          "value": "obsidium",
+          "expanded": "Obsidium"
+        },
+        {
+          "value": "pelock",
+          "expanded": "PELock"
+        },
+        {
+          "value": "pespin",
+          "expanded": "PESpin"
+        },
+        {
+          "value": "petite",
+          "expanded": "Petite"
+        },
+        {
+          "value": "rlpack-basic",
+          "expanded": "RLPack Basic"
+        },
+        {
+          "value": "smart-packer-pro",
+          "expanded": "Smart Packer Pro"
+        },
+        {
+          "value": "themida",
+          "expanded": "Themida"
+        },
+        {
+          "value": "upx",
+          "expanded": "UPX"
+        },
+        {
+          "value": "vmprotect",
+          "expanded": "VMProtect"
+        },
+        {
+          "value": "xcomp-xpack",
+          "expanded": "XComp/XPack"
+        }
+      ]
+    }
+  ]
+}

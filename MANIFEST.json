@@ -239,11 +239,16 @@
       "version": 2,
       "name": "workflow",
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information."
+    },
+    {
+      "version": 1,
+      "name": "runtime-packer",
+      "description": "Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20171211"
+  "version": "20171228"
 }
