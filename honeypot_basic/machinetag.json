@@ -1,0 +1,54 @@
+{
+  "namespace": "honeypot_basic",
+  "description": "Christian Seifert, Ian Welch, Peter Komisarczuk, ‘Taxonomy of Honeypots’, Technical Report CS-TR-06/12, VICTORIA UNIVERSITY OF WELLINGTON, School of Mathematical and Computing Sciences, June 2006, http://www.mcs.vuw.ac.nz/comp/Publications/archive/CS-TR-06/CS-TR-06-12.pdf",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "interaction-level",
+      "expanded": "Interaction Level",
+      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+    },
+    {
+      "value": "interaction-level",
+      "expanded": "Interaction Level",
+      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+    },
+    {
+      "value": "interaction-level",
+      "expanded": "Interaction Level",
+      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+    },
+    {
+      "value": "interaction-level",
+      "expanded": "Interaction Level",
+      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+    },
+    {
+      "value": "interaction-level",
+      "expanded": "Interaction Level",
+      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+    },
+    {
+      "value": "interaction-level",
+      "expanded": "Interaction Level",
+      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "interaction-level",
+      "entry": [
+        {
+          "value": "high",
+          "expanded": "High Interaction Level",
+          "description": "Exposed functionality of the honeypot is not limited."
+        },
+        {
+          "value": "low",
+          "expanded": "low Interaction Level",
+          "description": "Exposed functionality being limited. For example, a simulated SSH server of a honeypot is not able to authenticate against a valid login/password combination"
+        }
+      ]
+    }
+  ]
+}
