@@ -14,9 +14,9 @@
       "description": "Describes the type of data a honeypot is able to capture"
     },
     {
-      "value": "interaction-level",
-      "expanded": "Interaction Level",
-      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+      "value": "containment",
+      "expanded": "Containment",
+      "description": "Classifies the measures a honeypot takes to defend against malicious activity spreading from itself."
     },
     {
       "value": "interaction-level",
@@ -72,6 +72,31 @@
           "value": "none",
           "expanded": "None",
           "description": "The honeypot does not collect events, attacks, or intrusions."
+        }
+      ]
+    },
+    {
+      "predicate": "containment",
+      "entry": [
+        {
+          "value": "block",
+          "expanded": "Block",
+          "description": "Attacker’s actions are identified and blocked. The attack never reaches the target."
+        },
+        {
+          "value": "defuse",
+          "expanded": "Defuse",
+          "description": "The attack reaches the target, but is manipulated in a way that it fails against the target."
+        },
+        {
+          "value": "slow-down",
+          "expanded": "Slow Down",
+          "description": "Attacker is slowed down in his actions of spreading malicious activity."
+        },
+        {
+          "value": "none",
+          "expanded": "None",
+          "description": "No action is taken to limit the intruder’s spread of malicious activity against other systems."
         }
       ]
     }
