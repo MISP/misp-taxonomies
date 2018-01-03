@@ -24,9 +24,9 @@
       "description": "Describes whether the honeypot system appears to be confined to one system or multiple systems."
     },
     {
-      "value": "interaction-level",
-      "expanded": "Interaction Level",
-      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+      "value": "communication-interface",
+      "expanded": "Communication Interface",
+      "description": "Describes the interfaces one can use to interact directly with the honeypot."
     },
     {
       "value": "interaction-level",
@@ -112,6 +112,26 @@
           "value": "stand-alone",
           "expanded": "Stand-Alone",
           "description": "The honeypot is or appears to be one system."
+        }
+      ]
+    },
+    {
+      "predicate": "communication-interface",
+      "entry": [
+        {
+          "value": "network-interface",
+          "expanded": "Network Interface",
+          "description": "The honeypot can be directly communicated with via a network interface."
+        },
+        {
+          "value": "hardware-interface",
+          "expanded": "Non-Network Hardware Interface",
+          "description": "Examples: Printer port, CDROM drives, USB connections."
+        },
+        {
+          "value": "software-api",
+          "expanded": "Software API",
+          "description": "The honeypot can be interacted with via a software API."
         }
       ]
     }
