@@ -29,9 +29,9 @@
       "description": "Describes the interfaces one can use to interact directly with the honeypot."
     },
     {
-      "value": "interaction-level",
-      "expanded": "Interaction Level",
-      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+      "value": "role",
+      "expanded": "Role in Multi-tier Architecture",
+      "description": "Describes in what role the honeypot acts within a multi-tier architecture."
     }
   ],
   "values": [
@@ -132,6 +132,21 @@
           "value": "software-api",
           "expanded": "Software API",
           "description": "The honeypot can be interacted with via a software API."
+        }
+      ]
+    },
+    {
+      "predicate": "role",
+      "entry": [
+        {
+          "value": "server",
+          "expanded": "Server",
+          "description": "The honeypot is passively awaiting requests from clients."
+        },
+        {
+          "value": "client",
+          "expanded": "Client",
+          "description": "The honeypot is actively initiating requests to servers."
         }
       ]
     }
