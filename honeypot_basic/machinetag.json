@@ -19,9 +19,9 @@
       "description": "Classifies the measures a honeypot takes to defend against malicious activity spreading from itself."
     },
     {
-      "value": "interaction-level",
-      "expanded": "Interaction Level",
-      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+      "value": "distribution-appearance",
+      "expanded": "Distribution Appearance",
+      "description": "Describes whether the honeypot system appears to be confined to one system or multiple systems."
     },
     {
       "value": "interaction-level",
@@ -97,6 +97,21 @@
           "value": "none",
           "expanded": "None",
           "description": "No action is taken to limit the intruder’s spread of malicious activity against other systems."
+        }
+      ]
+    },
+    {
+      "predicate": "distribution-appearance",
+      "entry": [
+        {
+          "value": "distributed",
+          "expanded": "Distributed",
+          "description": "The honeypot is or appears to be composed of multiple systems."
+        },
+        {
+          "value": "stand-alone",
+          "expanded": "Stand-Alone",
+          "description": "The honeypot is or appears to be one system."
         }
       ]
     }
