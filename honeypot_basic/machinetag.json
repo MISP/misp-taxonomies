@@ -9,9 +9,9 @@
       "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
     },
     {
-      "value": "interaction-level",
-      "expanded": "Interaction Level",
-      "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services."
+      "value": "data-capture",
+      "expanded": "Data Capture",
+      "description": "Describes the type of data a honeypot is able to capture"
     },
     {
       "value": "interaction-level",
@@ -47,6 +47,31 @@
           "value": "low",
           "expanded": "low Interaction Level",
           "description": "Exposed functionality being limited. For example, a simulated SSH server of a honeypot is not able to authenticate against a valid login/password combination"
+        }
+      ]
+    },
+    {
+      "predicate": "data-capture",
+      "entry": [
+        {
+          "value": "events",
+          "expanded": "Events",
+          "description": "The honeypot collects data about something that has happened or took place, a change in state."
+        },
+        {
+          "value": "attacks",
+          "expanded": "Attacks",
+          "description": "The honeypot collects malicious activity."
+        },
+        {
+          "value": "intrusions",
+          "expanded": "Intrusions",
+          "description": "The honeypot collects malicious activity that leads to a security failure."
+        },
+        {
+          "value": "none",
+          "expanded": "None",
+          "description": "The honeypot does not collect events, attacks, or intrusions."
         }
       ]
     }
