@@ -71,6 +71,26 @@
       ]
     },
     {
+      "predicate": "automation-level",
+      "entry": [
+        {
+          "expanded": "Generated automatically without human verification",
+          "value": "unsupervised",
+          "numerical_value": 100
+        },
+        {
+          "expanded": "Generated automatically but verified by a human",
+          "value": "reviewed",
+          "numerical_value": 50
+        },
+        {
+          "expanded": "Output of human analysis",
+          "value": "manual",
+          "numerical_value": 0
+        }
+      ]
+    },
+    {
       "predicate": "threat-level",
       "entry": [
         {
@@ -136,6 +156,10 @@
       "value": "threat-level"
     },
     {
+      "expanded": "Automation level",
+      "value": "automation-level"
+    },
+    {
       "description": "Event with this tag should not be synced to other MISP instances",
       "expanded": "Should not sync",
       "value": "should-not-sync"
@@ -146,7 +170,7 @@
       "value": "tool"
     }
   ],
-  "version": 5,
+  "version": 6,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
