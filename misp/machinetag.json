@@ -75,7 +75,7 @@
       "entry": [
         {
           "expanded": "Generated automatically without human verification",
-          "value": "automatic",
+          "value": "unsupervised",
           "numerical_value": 100
         },
         {
