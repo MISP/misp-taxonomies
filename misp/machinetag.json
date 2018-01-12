@@ -156,6 +156,10 @@
       "value": "threat-level"
     },
     {
+      "expanded": "Automation level",
+      "value": "automation-level"
+    },
+    {
       "description": "Event with this tag should not be synced to other MISP instances",
       "expanded": "Should not sync",
       "value": "should-not-sync"
