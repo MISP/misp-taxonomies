@@ -170,7 +170,7 @@
       "value": "tool"
     }
   ],
-  "version": 5,
+  "version": 6,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
