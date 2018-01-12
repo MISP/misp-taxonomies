@@ -157,7 +157,8 @@
     },
     {
       "expanded": "Automation level",
-      "value": "automation-level"
+      "value": "automation-level",
+      "exclusive": true
     },
     {
       "description": "Event with this tag should not be synced to other MISP instances",
@@ -170,7 +171,7 @@
       "value": "tool"
     }
   ],
-  "version": 6,
+  "version": 7,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
