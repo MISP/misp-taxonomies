@@ -71,6 +71,26 @@
       ]
     },
     {
+      "predicate": "automation-level",
+      "entry": [
+        {
+          "expanded": "Generated automatically without human verification",
+          "value": "automatic",
+          "numerical_value": 100
+        },
+        {
+          "expanded": "Generated automatically but verified by a human",
+          "value": "reviewed",
+          "numerical_value": 50
+        },
+        {
+          "expanded": "Output of human analysis",
+          "value": "manual",
+          "numerical_value": 0
+        }
+      ]
+    },
+    {
       "predicate": "threat-level",
       "entry": [
         {
