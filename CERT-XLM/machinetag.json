@@ -125,6 +125,11 @@
           "value": "domain-compromise",
           "expanded": "Domain Compromise",
           "description": "The whole domain is compromised; this is commonly used for active directory and detected by a “pass the ticket” attack or a discovery of “ad dumps” files."
+        },
+	{
+          "value": "application-compromise",
+          "expanded": "Application Compromise",
+          "description": "An application is compromised; the attacker possess an uncontrolled access to data, server, and assets used by this application (CMDB, DB, Backend services, etc.)."
         }
       ]
     },
