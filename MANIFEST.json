@@ -37,6 +37,11 @@
     },
     {
       "version": 1,
+      "name": "CERT-XLM",
+      "description": "CERT-XLM Security Incident Classification."
+    },
+    {
+      "version": 1,
       "name": "circl",
       "description": "CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place."
     },
