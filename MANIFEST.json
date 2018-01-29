@@ -202,6 +202,11 @@
     },
     {
       "version": 1,
+      "name": "pentest",
+      "description": "Pentest taxonomy"
+    },
+    {
+      "version": 1,
       "name": "rt_event_status",
       "description": "Status of events used in Request Tracker."
     },
