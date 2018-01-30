@@ -1,0 +1,101 @@
+{
+  "namespace": "incident-disposition",
+  "description": "How an incident is classified in its process to be resolved. The taxonomy is inspired from NASA Incident Response and Management Handbook. https://www.nasa.gov/pdf/589502main_ITS-HBK-2810.09-02%20%5bNASA%20Information%20Security%20Incident%20Management%5d.pdf#page=9",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "incident",
+      "expanded": "Incident"
+    },
+    {
+      "value": "not-an-incident",
+      "expanded": "Not an incident"
+    },
+    {
+      "value": "duplicate",
+      "expanded": "Duplicate"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "incident",
+      "entry": [
+        {
+          "value": "confirmed",
+          "expanded": "Confirmed",
+          "description": "The incident is confirmed and response is underway following incident response procedure of the organisation."
+        },
+        {
+          "value": "deferred",
+          "expanded": "Deferred",
+          "description": "The incident is deferred due to resource constraints, information type or external reasons."
+        },
+        {
+          "value": "unidentified",
+          "expanded": "Unidentified",
+          "description": "The incident is unidentified because some assets, ressources or context is missing to go a state which can be handled following the incident response response procedure."
+        },
+        {
+          "value": "transferred",
+          "expanded": "Transferred",
+          "description": "The incident is transferred to another organisations for further processing or incident handling."
+        },
+        {
+          "value": "discarded",
+          "expanded": "Discarded",
+          "description": "The incident is discarded due to resource constraints, information type or external reasons."
+        },
+        {
+          "value": "silently-discarded",
+          "expanded": "Silently discarded",
+          "description": "The incident is silently discarded due to resource constraints, information type or external reasons."
+        }
+      ]
+    },
+    {
+      "predicate": "not-an-incident",
+      "entry": [
+        {
+          "value": "insufficient-data",
+          "expanded": "Insufficient data",
+          "description": "When insufficient data is available to explain an ambiguous (i.e., not definitively hostile or benign) indicator, the incident may be dispositioned as Insufficient Data."
+        },
+        {
+          "value": "faulty-indicator",
+          "expanded": "Faulty indicator",
+          "description": "A false positive where an investigation reveals that the source indicator used as the basis for incident detection was a Faulty Indicator."
+        },
+        {
+          "value": "misconfiguration",
+          "expanded": "Misconfiguration",
+          "description": "A false positive where an event that appeared to be malicious activity was subsequently disproven and determined to be a Misconfiguration (malfunction) of a system."
+        },
+        {
+          "value": "scan-probe",
+          "expanded": "Scan or Probe",
+          "description": "Reconnaissance activity which Scanned or Probed for the presence of a vulnerability which may be later exploited to gain unauthorized access."
+        },
+        {
+          "value": "failed",
+          "expanded": "Failed",
+          "description": "A Failed attempt to gain unauthorized access, conduct a denial of service, install malicious code, or misuse an IT resource, typically because a security control prevented it from succeeding."
+        },
+        {
+          "value": "refuted",
+          "expanded": "Refuted",
+          "description": "Any other circumstance where a suspected incident was determined to not be an incident and was Refuted."
+        }
+      ]
+    },
+    {
+      "predicate": "duplicate",
+      "entry": [
+        {
+          "value": "duplicate",
+          "expanded": "Duplicate",
+          "description": "An incident may be a Dup l icate of another record in the Incident Management System, and should be merged with the existing workflow."
+        }
+      ]
+    }
+  ]
+}
