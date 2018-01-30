@@ -254,11 +254,16 @@
       "version": 1,
       "name": "honeypot-basic",
       "description": "Christian Seifert, Ian Welch, Peter Komisarczuk, ‘Taxonomy of Honeypots’, Technical Report CS-TR-06/12, VICTORIA UNIVERSITY OF WELLINGTON, School of Mathematical and Computing Sciences, June 2006, http://www.mcs.vuw.ac.nz/comp/Publications/archive/CS-TR-06/CS-TR-06-12.pdf"
+    },
+    {
+      "version": 1,
+      "name": "incident-disposition",
+      "description": "How an incident is classified in its process to be resolved. The taxonomy is inspired from NASA Incident Response and Management Handbook."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180103"
+  "version": "20180130"
 }
