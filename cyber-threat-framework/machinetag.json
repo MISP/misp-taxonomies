@@ -2,6 +2,7 @@
   "namespace": "cyber-threat-framework",
   "expanded": "Cyber Threat Framework",
   "description": "Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries. https://www.dni.gov/index.php/cyber-threat-framework",
+  "version": 1,
   "predicates": [
     {
       "value": "Preparation",
