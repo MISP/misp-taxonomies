@@ -78,7 +78,7 @@ if args.n:
     taxonomies.append(args.n)
 
 
-def asciidoc(content=False, adoc=doc, t='title'):
+def asciidoc(content=False, adoc=doc, t='title', toplevel=False):
     if not args.a:
         return False
     adoc = adoc + "\n"
@@ -91,7 +91,9 @@ def asciidoc(content=False, adoc=doc, t='title'):
         content = "{}\n{}{} {}{}{} {}".format(content, 'NOTE: ', namespace, 'namespace available in JSON format at https://github.com/MISP/misp-taxonomies/blob/master/',
                                                 namespace, '/machinetag.json[*this location*]. The JSON format can be freely reused in your application',
                                                 'or automatically enabled in https://www.github.com/MISP/MISP[MISP] taxonomy.')
-    elif t == 'description':
+    elif t == 'description' and toplevel is True:
+        content = "\n{} \n".format(content)
+    elif t == 'description' and toplevel is False:
         try:
             (n, value) = content.split(":", 1)
             content = "\n{} \n".format(value)
@@ -129,7 +131,7 @@ for taxonomy in taxonomies:
         expanded_namespace = namespace
     if args.a:
         doc = asciidoc(content=t['namespace'], adoc=doc, t='namespace')
-        doc = asciidoc(content=t['description'], adoc=doc, t='description')
+        doc = asciidoc(content=t['description'], adoc=doc, t='description', toplevel = True)
         if t.get('exclusive'):
                 doc = asciidoc(content=machineTag(namespace=namespace, predicate=t['exclusive']), adoc=doc, t='exclusive')
     if args.v:
