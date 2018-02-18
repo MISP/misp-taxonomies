@@ -16,6 +16,7 @@ The following taxonomies are described:
 - [The CSSA agreed sharing taxonomy](./cssa)
 - [Collaborative intelligence](./collaborative-intelligence) - Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP. The objective of this language is to advance collaborative analysis and to share earlier than later.
 - [Cyber Kill Chain](./kill-chain) from Lockheed Martin
+- [The Cyber Threat Framework](./cyber-threat-framework) was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries.
 - DE German (DE) [Government classification markings (VS)](./de-vs)
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
 - [Diamond Model for Intrusion Analysis](./diamond-model)
@@ -64,6 +65,10 @@ CIRCL Taxonomy is a simple scheme for incident classification and area topic whe
 ### [Cyber Kill Chain](./kill-chain) from Lockheed Martin
 
 Cyber Kill Chain from Lockheed Martin as described in [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf).
+
+### [Cyber Threat Framework](./cyber-threat-framework) from DNI.gov
+
+[The Cyber Threat Framework was developed](https://www.dni.gov/index.php/cyber-threat-framework) by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries.
 
 ### DE German (DE) [Government classification markings (VS)](./de-vs)
 
