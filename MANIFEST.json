@@ -264,11 +264,16 @@
       "version": 1,
       "name": "incident-disposition",
       "description": "How an incident is classified in its process to be resolved. The taxonomy is inspired from NASA Incident Response and Management Handbook."
+    },
+    {
+      "version": 1,
+      "name": "cyber-threat-framework",
+      "description": "Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries. https://www.dni.gov/index.php/cyber-threat-framework"
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180130"
+  "version": "20180218"
 }

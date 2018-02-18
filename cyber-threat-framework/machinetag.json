@@ -1,0 +1,140 @@
+{
+  "namespace": "cyber-threat-framework",
+  "expanded": "Cyber Threat Framework",
+  "description": "Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries. https://www.dni.gov/index.php/cyber-threat-framework",
+  "predicates": [
+    {
+      "value": "Preparation",
+      "expanded": "Activities undertaken by a threat actor, their leadership and/or sponsor to prepare for conducting malicious cyber activities, e.g., establish governance and articulating intent, objectives, and strategy; identify potential victims and attack vectors; securing resources and develop capabilities; assess intended victim's cyber environment; and define measures for evaluating the success or failure of threat activities."
+    },
+    {
+      "value": "Engagement",
+      "expanded": "Threat actor activities taken prior to gaining but with the intent to gain unauthorized access to the intended victim's physical or virtual computer or information system(s), network(s), and/or data stores."
+    },
+    {
+      "value": "Presence",
+      "expanded": "Actions taken by the threat actor once unauthorized access to victim(s)' physical or virtual computer or information system has been achieved that establishes and maintains conditions or allows the threat actor to perform intended actions or operate at will against the host physical or virtual computer or information system, network and/or data stores."
+    },
+    {
+      "value": "Effect/Consequence",
+      "expanded": "Outcomes of threat actor actions on a victim's physical or virtual computer or information system(s), network(s), and/or data stores."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "Preparation",
+      "entry": [
+        {
+          "expanded": "Plan activity",
+          "value": "plan-activity",
+          "numerical_value": 10
+        },
+        {
+          "expanded": "Conduct research & analysis",
+          "value": "conduct-research-and-analysis",
+          "numerical_value": 11
+        },
+        {
+          "expanded": "Develop resources & capabilities",
+          "value": "develop-resource-and-capabilities",
+          "numerical_value": 12
+        },
+        {
+          "expanded": "Acquire victim & specific knowledge",
+          "value": "acquire-victim-and-specific-knowledge",
+          "numerical_value": 13
+        },
+        {
+          "expanded": "Complete preparations",
+          "value": "complete-preparations",
+          "numerical_value": 14
+        }
+      ]
+    },
+    {
+      "predicate": "Engagement",
+      "entry": [
+        {
+          "expanded": "Deploy capability",
+          "value": "deploy-capability",
+          "numerical_value": 20
+        },
+        {
+          "expanded": "Interact with intended victim",
+          "value": "interact-with-intended-victim",
+          "numerical_value": 21
+        },
+        {
+          "expanded": "Exploit vulnerabilities",
+          "value": "exploit-vulnerabilities",
+          "numerical_value": 22
+        },
+        {
+          "expanded": "Deliver malicious capabilities",
+          "value": "deliver-malicious-capabilities",
+          "numerical_value": 23
+        }
+      ]
+    },
+    {
+      "predicate": "Presence",
+      "entry": [
+        {
+          "expanded": "Establish controlled access",
+          "value": "establish-controlled-access",
+          "numerical_value": 30
+        },
+        {
+          "expanded": "Hide",
+          "value": "hide",
+          "numerical_value": 31
+        },
+        {
+          "expanded": "Expand presence",
+          "value": "expand-presence",
+          "numerical_value": 32
+        },
+        {
+          "expanded": "Refine focus of activity",
+          "value": "refine-focus-of-activity",
+          "numerical_value": 33
+        },
+        {
+          "expanded": "Establish persistence",
+          "value": "establish-persistence",
+          "numerical_value": 34
+        }
+      ]
+    },
+    {
+      "predicate": "Effect/Consequence",
+      "entry": [
+        {
+          "expanded": "Enable other operations",
+          "value": "enable-other-operations",
+          "numerical_value": 40
+        },
+        {
+          "expanded": "Deny access",
+          "value": "deny-access",
+          "numerical_value": 41
+        },
+        {
+          "expanded": "Extract data",
+          "value": "extract-data",
+          "numerical_value": 42
+        },
+        {
+          "expanded": "Alter data and/or computer, network or system behavior",
+          "value": "alter-data-and-or-computer-network-or-system-behavior",
+          "numerical_value": 43
+        },
+        {
+          "expanded": "Destroy HW/SW/data",
+          "value": "destroy-hardware-software-or-data",
+          "numerical_value": 44
+        }
+      ]
+    }
+  ]
+}
