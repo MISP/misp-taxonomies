@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "namespace": "CERT-XLM",
   "description": "CERT-XLM Security Incident Classification.",
   "values": [
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "predicate": "intrusions",
+      "predicate": "intrusion",
       "entry": [
         {
           "value": "privileged-account-compromise",
@@ -286,8 +286,8 @@
       "description": "Vulnerable"
     },
     {
-      "value": "comformity",
-      "expanded": "Comformity",
+      "value": "conformity",
+      "expanded": "Conformity",
       "description": "This group is for catching breach about controls given by the company or externals entities."
     },
     {
