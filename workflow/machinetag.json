@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information. ",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "todo",
@@ -46,6 +46,10 @@
         {
           "value": "create-missing-misp-galaxy-cluster",
           "expanded": "Create missing MISP galaxy cluster about the information tagged"
+        },
+        {
+          "value": "create-missing-misp-galaxy",
+          "expanded": "Create missing MISP galaxy at large about the information tagged (e.g. a new category of malware or activity)"
         },
         {
           "value": "add-context",
