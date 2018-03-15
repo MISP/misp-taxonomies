@@ -1,0 +1,57 @@
+{
+  "predicates": [
+    {
+      "expanded": "Emergency",
+      "value": "emergency",
+      "description": "An Emergency priority incident poses an imminent threat to the provision of wide-scale critical infrastructure services, national government stability, or the lives of U.S. persons.",
+      "colour": "#000000",
+      "numerical_value": 100
+    },
+    {
+      "expanded": "Severe",
+      "value": "severe",
+      "description": "A Severe priority incident is likely to result in a significant impact to public health or safety, national security, economic security, foreign relations, or civil liberties.",
+      "colour": "#CC0033",
+      "numerical_value": 90
+    },
+    {
+      "expanded": "High",
+      "value": "high",
+      "description": "A High priority incident is likely to result in a demonstrable impact to public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence.",
+      "colour": "#FFC000",
+      "numerical_value": 85
+    },
+    {
+      "expanded": "Medium",
+      "value": "medium",
+      "description": "A Medium priority incident may affect public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence.",
+      "colour": "#FCEE21",
+      "numerical_value": 75
+    },
+    {
+      "expanded": "Low",
+      "value": "low",
+      "description": "A Low priority incident is unlikely to affect public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence.",
+      "colour": "#339900",
+      "numerical_value": 50
+    },
+    {
+      "expanded": "Baseline - Minor",
+      "value": "baseline-minor",
+      "description": "A Baseline–Minor priority incident is an incident that is highly unlikely to affect public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence. The potential for impact, however, exists and warrants additional scrutiny.",
+      "colour": "#006699",
+      "numerical_value": 25
+    },
+    {
+      "expanded": "Baseline - Negligible",
+      "value": "baseline-negligible",
+      "description": "A Baseline–Negligible priority incident is an incident that is highly unlikely to affect public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence.",
+      "colour": "#FFFFFF",
+      "numerical_value": 0
+    }
+  ],
+  "version": 1,
+  "description": "After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System.",
+  "namespace": "priority-level",
+  "exclusive": true
+}
