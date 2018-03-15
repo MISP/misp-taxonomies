@@ -1,7 +1,7 @@
 {
   "namespace": "circl",
   "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "incident-classification",
@@ -67,6 +67,10 @@
         {
           "value": "scam",
           "expanded": "Scam"
+        },
+        {
+          "value": "cryptojacking",
+          "expanded": "Cryptojacking"
         }
       ]
     },
