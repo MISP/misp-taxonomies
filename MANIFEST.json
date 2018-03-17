@@ -274,11 +274,16 @@
       "version": 1,
       "name": "priority-level",
       "description": "After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System."
+    },
+    {
+      "version": 1,
+      "name": "eu-nis-sector-and-subsectors",
+      "description": "Sectors and sub sectors as identified by the NIS Directive."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180316"
+  "version": "20180317"
 }
