@@ -40,7 +40,7 @@
           "expanded": "Review the source credibility and add the corresponding marking like admiralty-scale on the origin"
         },
         {
-          "value": "create-missing-misp-galaxy-cluster-values",
+          "value": "add-missing-misp-galaxy-cluster-values",
           "expanded": "Add potential MISP galaxy cluster values missing about the information tagged"
         },
         {
