@@ -106,9 +106,9 @@
       "description": "ENISA Threat Taxonomy - A tool for structuring threat information as published in https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends/enisa-threat-landscape/etl2015/enisa-threat-taxonomy-a-tool-for-structuring-threat-information"
     },
     {
-      "version": 2,
+      "version": 3,
       "name": "estimative-language",
-      "description": "Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a))."
+      "description": "Estimative language - including likelihood or probability of event based on the Intelligence Community Directive 203 (ICD 203) (6.2.(a)) and JP 2-0, Joint Intelligence."
     },
     {
       "version": 1,
@@ -285,5 +285,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180317"
+  "version": "20180408"
 }
