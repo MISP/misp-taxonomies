@@ -279,11 +279,16 @@
       "version": 1,
       "name": "eu-nis-sector-and-subsectors",
       "description": "Sectors and sub sectors as identified by the NIS Directive."
+    },
+    {
+      "version": 1,
+      "name": "economical-impact",
+      "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180408"
+  "version": "20180424"
 }

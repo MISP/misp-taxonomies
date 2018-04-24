@@ -1,0 +1,73 @@
+{
+  "namespace": "economical-impact",
+  "expanded": " Economical Impact",
+  "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information.",
+  "version": 1,
+  "refs": [
+    "https://www.misp-project.org/"
+  ],
+  "values": [
+    {
+      "predicate": "loss",
+      "entry": [
+        {
+          "value": "none",
+          "expanded": "No loss"
+        },
+        {
+          "value": "less-than-25k-eur",
+          "expanded": "Less than 25K EUR"
+        },
+        {
+          "value": "less-than-50k-euro",
+          "expanded": "Less than 50K EUR"
+        },
+        {
+          "value": "less-than-100k-euro",
+          "expanded": "Less than 100K EUR"
+        },
+        {
+          "value": "less-than-1M-euro",
+          "expanded": "Less than EUR 1 000 000"
+        }
+      ]
+    },
+    {
+      "predicate": "gain",
+      "entry": [
+        {
+          "value": "none",
+          "expanded": "No gain"
+        },
+        {
+          "value": "less-than-25k-eur",
+          "expanded": "Less than 25K EUR"
+        },
+        {
+          "value": "less-than-50k-euro",
+          "expanded": "Less than 50K EUR"
+        },
+        {
+          "value": "less-than-100k-euro",
+          "expanded": "Less than 100K EUR"
+        },
+        {
+          "value": "less-than-1M-euro",
+          "expanded": "Less than EUR 1 000 000"
+        }
+      ]
+    }
+  ],
+  "predicates": [
+    {
+      "value": "loss",
+      "expanded": "Loss",
+      "description": "A financial impact evaluated as a casuality."
+    },
+    {
+      "value": "gain",
+      "expanded": "Gain",
+      "description": "A financial impact evaluated as a benefit."
+    }
+  ]
+}
