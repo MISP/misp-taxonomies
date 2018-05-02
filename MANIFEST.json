@@ -284,11 +284,21 @@
       "version": 1,
       "name": "economical-impact",
       "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information."
+    },
+    {
+      "version": 1,
+      "name": "fpf",
+      "description": "The Future of Privacy Forum (FPF) [visual guide to practical de-identification](https://fpf.org/2016/04/25/a-visual-guide-to-practical-data-de-identification/) taxonomy is used to evaluate the degree of identifiability of personal data and the types of pseudonymous data, de-identified data and anonymous data. The work of FPF is licensed under a creative commons attribution 4.0 international license."
+    },
+    {
+      "version": 1,
+      "name": "gdpr",
+      "description": "Taxonomy related to the REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)"
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180424"
+  "version": "20180502"
 }
