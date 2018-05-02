@@ -1,0 +1,99 @@
+{
+  "namespace": "fpf",
+  "description": "The Future of Privacy Forum (FPF) [visual guide to practical de-identification](https://fpf.org/2016/04/25/a-visual-guide-to-practical-data-de-identification/) taxonomy is used to evaluate the degree of identifiability of personal data and the types of pseudonymous data, de-identified data and anonymous data. The work of FPF is licensed under a creative commons attribution 4.0 international license.",
+  "version": 0,
+  "predicates": [
+    {
+      "value": "degrees-of-identifiability",
+      "expanded": "Degrees of identifiability",
+      "description": "Information containing direct and indirect identifiers."
+    },
+    {
+      "value": "pseudonymous-data",
+      "expanded": "Pseudonymous Data",
+      "description": "Information from which direct identifiers have been eliminated or transformed, but indirect entifiers remain intact."
+    },
+    {
+      "value": "de-identified-data",
+      "expanded": "De-identified data",
+      "description": "Direct and known indirect identifiers have been removed or manipulated to break the linkage to real world identities."
+    },
+    {
+      "value": "anonymous-data",
+      "expanded": "Anonymous data",
+      "description": "Direct and indirect identifiers have en removed or manipulated together with mathematical and technical guarantees to prevent re-identification."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "degrees-of-identifiability",
+      "entry": [
+        {
+          "value": "explicitly-personal",
+          "expanded": "Explicitly personal",
+          "description": "Name, address, phone number, SSN, government-issued ID (e.g., Jane Smith, 123 Main Street, 555-555-5555)"
+        },
+        {
+          "value": "potentially-identifiable",
+          "expanded": "Potentially identifiable",
+          "description": "Unique device ID, license plate, medical record number, cookie, IP address (e.g., MAC address 68:A8:6D:35:65:03)"
+        },
+        {
+          "value": "not-readily-identifiable",
+          "expanded": "Not readily identifiable",
+          "description": "Same as Potentially Identifiable except data are also protected by safeguards and controls (e.g., hashed MAC addresses & legal representations)"
+        }
+      ]
+    },
+    {
+      "predicate": "pseudonymous-data",
+      "entry": [
+        {
+          "value": "key-coded",
+          "expanded": "Key coded",
+          "description": "Clinical or research datasets where only curator retains key (e.g., Jane Smith, diabetes, HgB 15.1 g/dl = Csrk123)"
+        },
+        {
+          "value": "pseudonymous",
+          "expanded": "Pseudonymous",
+          "description": "Unique, artificial pseudonyms replace direct identifiers (e.g., HIPAA Limited Datasets, John Doe = 5L7T LX619Z) (unique sequence not used anywhere else)"
+        },
+        {
+          "value": "protected-pseudonymous",
+          "expanded": "Protected pseudonymous",
+          "description": "Same as Pseudonymous, except data are also protected by safeguards and controls"
+        }
+      ]
+    },
+    {
+      "predicate": "de-identified-data",
+      "entry": [
+        {
+          "value": "de-identified",
+          "expanded": "De-identified",
+          "description": "Data are suppressed, generalized, perturbed, swapped, etc. (e.g., GPA: 3.2 = 3.0-3.5, gender: female = gender: male)"
+        },
+        {
+          "value": "protected-de-identified",
+          "expanded": "Protected de-identified",
+          "description": "Same as De-Identified, except data are also protected by safeguards and controls"
+        }
+      ]
+    },
+    {
+      "predicate": "anonymous-data",
+      "entry": [
+        {
+          "value": "anonymous",
+          "expanded": "Anonymous",
+          "description": "For example, noise is calibrated to a data set to hide whether an individual is present or not (differential privacy)"
+        },
+        {
+          "value": "aggregated-anonymous",
+          "expanded": "Aggregated anonymous",
+          "description": "Very highly aggregated data (e.g., statistical data, census data, or population data that 52.6% of Washington, DC residents are women)"
+        }
+      ]
+    }
+  ]
+}

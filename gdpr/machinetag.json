@@ -1,0 +1,55 @@
+{
+  "namespace": "gdpr",
+  "description": "Taxonomy related to the REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)",
+  "version": 0,
+  "predicates": [
+    {
+      "value": "special-categories",
+      "expanded": "Special Categories",
+      "description": "Special categories of personal data, refer to Art. 9 of the GDPR"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "special-categories",
+      "entry": [
+        {
+          "value": "racial-or-ethnic-origin",
+          "expanded": "Racial or ethnic origin"
+        },
+        {
+          "value": "political-opinions",
+          "expanded": "Political opinions"
+        },
+        {
+          "value": "religious-or-philosophical-beliefs",
+          "expanded": "Religious or philosophical beliefs"
+        },
+        {
+          "value": "trade-union-membership",
+          "expanded": "Trade union membership"
+        },
+        {
+          "value": "genetic-data",
+          "expanded": "Genetic data",
+          "description": "Genetic data means personal data relating to the inherited or acquired genetic characteristics of a natural person which give unique information about the physiology or the health of that natural person and which result, in particular, from an analysis of a biological sample from the natural person in question."
+        },
+        {
+          "value": "biometric-data",
+          "expanded": "Biometric data",
+          "description": "Biometric data for the purpose of uniquely identifying a natural person. Biometric data means personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, which allow or confirm the unique identification of that natural person, such as facial images or dactyloscopic data."
+        },
+        {
+          "value": "health",
+          "expanded": "Health",
+          "description": "Data concerning health. Data concerning health means personal data related to the physical or mental health of a natural person, including the provision of health care services, which reveal information about his or her health status."
+        },
+        {
+          "value": "sex-life-or-sexual-orientation",
+          "expanded": "Sex life or sexual orientation",
+          "description": "Data concerning a natural person's sex life or sexual orientation"
+        }
+      ]
+    }
+  ]
+}
