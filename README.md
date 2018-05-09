@@ -2,16 +2,24 @@
 
 [![Build Status](https://travis-ci.org/MISP/misp-taxonomies.svg?branch=master)](https://travis-ci.org/MISP/misp-taxonomies)
 
+MISP Taxonomies is a set of common classification libraries to tag, classify and organise information. Taxonomy allows to express the same vocabulary among a distributed set of users and organisations.
+
 Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.
 
 ![Overview of the MISP taxonomies](tools/docs/images/taxonomy-explanation.png)
 
-The following taxonomies can be used in MISP (as local or distributed tags) or in other tools willing to share common taxonomies among security information sharing tools.
+The following taxonomies can be used in MISP (as local or distributed tags) or in other tools and software willing to share common taxonomies among security information sharing tools.
 
 The following taxonomies are described:
 
+- [Access-now](./accessnow)
+- [action-taken](./action-taken)
 - [Admiralty Scale](./admiralty-scale)
 - [adversary](./adversary) - description of an adversary infrastructure
+- [ais-marking](./ais-marking)
+- [analyst-assessment](./analyst-assessment)
+- [binary-class](./binary-class)
+- [CERT-XLM](./CERT-XLM)
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 - [The CSSA agreed sharing taxonomy](./cssa)
 - [Collaborative intelligence](./collaborative-intelligence) - Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP. The objective of this language is to advance collaborative analysis and to share earlier than later.
