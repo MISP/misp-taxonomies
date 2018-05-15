@@ -1,0 +1,204 @@
+{
+  "predicates": [
+    {
+      "expanded": "Source of the information leak",
+      "value": "source"
+    },
+    {
+      "expanded": "Type of information leak detected from a human analysis",
+      "value": "analyst-detection"
+    },
+    {
+      "expanded": "Type of information leak detected from automatic analysis",
+      "value": "automatic-detection"
+    },
+    {
+      "value": "certainty",
+      "expanded": "Certainty of the information to be a leak"
+    },
+    {
+      "value": "confirmed",
+      "expanded": "Confirmed information leak or not"
+    }
+  ],
+  "version": 1,
+  "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.",
+  "namespace": "infoleak",
+  "values": [
+    {
+      "predicate": "automatic-detection",
+      "entry": [
+        {
+          "value": "credential",
+          "expanded": "Credential"
+        },
+        {
+          "value": "credit-card",
+          "expanded": "Credit card"
+        },
+        {
+          "value": "phone-number",
+          "expanded": "Phone number"
+        },
+        {
+          "value": "api-key",
+          "expanded": "API key"
+        },
+        {
+          "value": "private-key",
+          "expanded": "Private key at large"
+        },
+        {
+          "value": "private-ssh-key",
+          "expanded": "Private ssh key"
+        },
+        {
+          "value": "private-static-key",
+          "expanded": "Private state key"
+        }
+      ]
+    },
+    {
+      "predicate": "analyst-detection",
+      "entry": [
+        {
+          "value": "credential",
+          "expanded": "Credential"
+        },
+        {
+          "value": "credit-card",
+          "expanded": "Credit card"
+        },
+        {
+          "value": "phone-number",
+          "expanded": "Phone number"
+        },
+        {
+          "value": "api-key",
+          "expanded": "API key"
+        },
+        {
+          "value": "private-key",
+          "expanded": "Private key at large"
+        },
+        {
+          "value": "private-ssh-key",
+          "expanded": "Private ssh key"
+        },
+        {
+          "value": "private-static-key",
+          "expanded": "Private state key"
+        }
+      ]
+    },
+    {
+      "predicate": "confirmed",
+      "entry": [
+        {
+          "value": "false-positive",
+          "expanded": "False positive"
+        },
+        {
+          "value": "false-negative",
+          "expanded": "False negative"
+        },
+        {
+          "value": "true-positive",
+          "expanded": "True positive"
+        },
+        {
+          "value": "true-negative",
+          "expanded": "True negative"
+        }
+      ]
+    },
+    {
+      "predicate": "source",
+      "entry": [
+        {
+          "value": "public-website",
+          "expanded": "Public website"
+        },
+        {
+          "value": "pastie-website",
+          "expanded": "Pastie-like website"
+        },
+        {
+          "value": "electronic-forum",
+          "expanded": "Electronic forum"
+        },
+        {
+          "value": "mailing-list",
+          "expanded": "Mailing-list"
+        },
+        {
+          "value": "source-code-repository",
+          "expanded": "Source code repository"
+        },
+        {
+          "value": "automatic-collection",
+          "expanded": "Automatic collection including honeypots, spamtramps or equivalent technologies"
+        },
+        {
+          "value": "manual-analysis",
+          "expanded": "Manual analysis or investigation where detection took place"
+        },
+        {
+          "value": "unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "other",
+          "expanded": "Other source not specified in this list"
+        }
+      ]
+    },
+    {
+      "entry": [
+        {
+          "description": "Certainty",
+          "expanded": "Certainty (probability equals 1 - 100%)",
+          "value": "100",
+          "numerical_value": 100
+        },
+        {
+          "description": "Almost certain",
+          "expanded": "Almost certain (probability equals 0.93 - 93%)",
+          "value": "93",
+          "numerical_value": 93
+        },
+        {
+          "description": "Probable",
+          "expanded": "Probable (probability equals 0.75 - 75%)",
+          "value": "75",
+          "numerical_value": 75
+        },
+        {
+          "description": "Chances about even",
+          "expanded": "Chances about even (probability equals 0.50 - 50%)",
+          "value": "50",
+          "numerical_value": 50
+        },
+        {
+          "description": "Probably not",
+          "expanded": "Probably not (probability equals 0.30 - 30%)",
+          "value": "30",
+          "numerical_value": 30
+        },
+        {
+          "description": "Almost certainly not",
+          "expanded": "Almost certainly not (probability equals 0.07 - 7%)",
+          "value": "7",
+          "numerical_value": 7
+        },
+        {
+          "description": "Impossibility",
+          "expanded": "Impossibility (probability equals 0 - 0%)",
+          "value": "0",
+          "numerical_value": 0
+        }
+      ],
+      "predicate": "certainty"
+    }
+  ]
+}
