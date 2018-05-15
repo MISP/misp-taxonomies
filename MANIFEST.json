@@ -294,11 +294,16 @@
       "version": 1,
       "name": "gdpr",
       "description": "Taxonomy related to the REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)"
+    },
+    {
+      "version": 1,
+      "name": "infoleak",
+      "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180502"
+  "version": "20180515"
 }
