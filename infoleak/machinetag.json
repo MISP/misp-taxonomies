@@ -1,24 +1,24 @@
 {
   "predicates": [
     {
-      "expanded": "Source of the information leak",
-      "value": "source"
+      "expanded": "Type of information leak detected from automatic analysis",
+      "value": "automatic-detection"
     },
     {
       "expanded": "Type of information leak detected from a human analysis",
       "value": "analyst-detection"
     },
     {
-      "expanded": "Type of information leak detected from automatic analysis",
-      "value": "automatic-detection"
+      "value": "confirmed",
+      "expanded": "Confirmed information leak or not"
+    },
+    {
+      "expanded": "Source of the information leak",
+      "value": "source"
     },
     {
       "value": "certainty",
       "expanded": "Certainty of the information to be a leak"
-    },
-    {
-      "value": "confirmed",
-      "expanded": "Confirmed information leak or not"
     }
   ],
   "version": 1,
