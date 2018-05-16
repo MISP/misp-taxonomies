@@ -26,10 +26,11 @@ def lookupPredicate(predicate=False):
 
 def lookupValues(predicate=False):
     if not predicate:
-        return False
+        return {}
     for p in output['values']:
         if p['predicate'] == predicate:
-            return True
+            return p
+    return {}
 
 
 def machineTag(namespace=False, predicate=False, value=None, expanded=None):
@@ -43,14 +44,18 @@ def machineTag(namespace=False, predicate=False, value=None, expanded=None):
             x = {}
             x['value'] = predicate
             output['predicates'].append(x)
-        y = {}
-        y['predicate'] = predicate
-        y['entry'] = []
         z = {}
         z['value'] = value
         z['expanded'] = expanded
-        y['entry'].append(z)
-        output['values'].append(y)
+        predicate_entries = lookupValues(predicate)
+        if predicate_entries:
+            predicate_entries['entry'].append(z)
+        else:
+            y = {}
+            y['predicate'] = predicate
+            y['entry'] = []
+            y['entry'].append(z)
+            output['values'].append(y)
         return ('{0}:{1}=\"{2}\"'.format(namespace, predicate, value))
 
 
@@ -66,7 +71,7 @@ def flatten(root, prefix_keys=True):
         if id(d) in seen:
             continue
         seen.add(id(d))
-        for k, v in d.items():
+        for k, v in sorted(d.items()):
             new_path = path + [k]
             prefix = ':'.join(new_path) if prefix_keys else k
             if hasattr(v, 'items'):
