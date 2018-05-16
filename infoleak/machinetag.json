@@ -37,6 +37,10 @@
           "expanded": "Credit card"
         },
         {
+          "value": "mail",
+          "expanded": "Mail"
+        },
+        {
           "value": "phone-number",
           "expanded": "Phone number"
         },
@@ -45,16 +49,80 @@
           "expanded": "API key"
         },
         {
+          "value": "google-api-key",
+          "expanded": "Google API key"
+        },
+        {
+          "value": "aws-key",
+          "expanded": "AWS key"
+        },
+        {
           "value": "private-key",
           "expanded": "Private key at large"
         },
         {
+          "value": "encrypted-private-key",
+          "expanded": "Encrypted private key at large"
+        },
+        {
           "value": "private-ssh-key",
-          "expanded": "Private ssh key"
+          "expanded": "Private SSH key"
         },
         {
           "value": "private-static-key",
           "expanded": "Private state key"
+        },
+        {
+          "value": "vpn-static-key",
+          "expanded": "VPN static key"
+        },
+        {
+          "value": "pgp-message",
+          "expanded": "PGP message"
+        },
+        {
+          "value": "pgp-private-key",
+          "expanded": "PGP private key"
+        },
+        {
+          "value": "certificate",
+          "expanded": "Certificate"
+        },
+        {
+          "value": "rsa-private-key",
+          "expanded": "RSA private key"
+        },
+        {
+          "value": "dsa-private-key",
+          "expanded": "DSA private key"
+        },
+        {
+          "value": "ec-private-key",
+          "expanded": "EC private key"
+        },
+        {
+          "value": "base64",
+          "expanded": "Base64"
+        },
+        {
+          "value": "bitcoin-address",
+          "expanded": "Bitcoin address"
+        },
+        {
+          "value": "bitcoin-private-key",
+          "expanded": "Bitcoin private key"
+        },
+        {
+          "value": "cve",
+          "expanded": "CVE"
+        },
+        {
+          "value": "onion",
+          "expanded": "Onion link"
+        },
+        {
+          "value": "sql-injection",
+          "expanded": "SQL injection"
         }
       ]
     },
@@ -70,6 +138,10 @@
           "expanded": "Credit card"
         },
         {
+          "value": "mail",
+          "expanded": "Mail"
+        },
+        {
           "value": "phone-number",
           "expanded": "Phone number"
         },
@@ -78,16 +150,80 @@
           "expanded": "API key"
         },
         {
+          "value": "google-api-key",
+          "expanded": "Google API key"
+        },
+        {
+          "value": "aws-key",
+          "expanded": "AWS key"
+        },
+        {
           "value": "private-key",
           "expanded": "Private key at large"
         },
         {
+          "value": "encrypted-private-key",
+          "expanded": "Encrypted private key at large"
+        },
+        {
           "value": "private-ssh-key",
-          "expanded": "Private ssh key"
+          "expanded": "Private SSH key"
         },
         {
           "value": "private-static-key",
           "expanded": "Private state key"
+        },
+        {
+          "value": "vpn-static-key",
+          "expanded": "VPN static key"
+        },
+        {
+          "value": "pgp-message",
+          "expanded": "PGP message"
+        },
+        {
+          "value": "pgp-private-key",
+          "expanded": "PGP private key"
+        },
+        {
+          "value": "certificate",
+          "expanded": "Certificate"
+        },
+        {
+          "value": "rsa-private-key",
+          "expanded": "RSA private key"
+        },
+        {
+          "value": "dsa-private-key",
+          "expanded": "DSA private key"
+        },
+        {
+          "value": "ec-private-key",
+          "expanded": "EC private key"
+        },
+        {
+          "value": "base64",
+          "expanded": "Base64"
+        },
+        {
+          "value": "bitcoin-address",
+          "expanded": "Bitcoin address"
+        },
+        {
+          "value": "bitcoin-private-key",
+          "expanded": "Bitcoin private key"
+        },
+        {
+          "value": "cve",
+          "expanded": "CVE"
+        },
+        {
+          "value": "onion",
+          "expanded": "Onion link"
+        },
+        {
+          "value": "sql-injection",
+          "expanded": "SQL injection"
         }
       ]
     },
