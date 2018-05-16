@@ -71,6 +71,18 @@
         {
           "value": "cryptojacking",
           "expanded": "Cryptojacking"
+        },
+        {
+          "value": "locker",
+          "expanded": "Locker"
+        },
+        {
+          "value": "screenlocker",
+          "expanded": "Screenlocker"
+        },
+        {
+          "value": "wiper",
+          "expanded": "Wiper"
         }
       ]
     },
