@@ -1,0 +1,53 @@
+{
+  "predicates": [
+    {
+      "expanded": "Sadistic/bestiality: (a) Pictures showing a child being tied, bound, beaten, whipped, or otherwise subjected to something that implies pain; (b) Pictures where an animal is involved in some form of sexual behavior with a child",
+      "valie": "level-10"
+    },
+    {
+      "expanded": "Gross assault: Grossly obscene pictures of sexual assault, involving penetrative sex, masturbation, or oral sex involving an adult",
+      "value": "level-9"
+    },
+    {
+      "expanded": "Assault: Pictures of children being subjected to a sexual assault, involving digital touching, involving an adult",
+      "value": "level-8"
+    },
+    {
+      "expanded": "Explicit sexual activity: Involves touching, mutual and self-masturbation, oral sex, and intercourse by child, not involving an adult",
+      "value": "level-7"
+    },
+    {
+      "expanded": "Explicit erotic posing: Emphasizing genital areas where the child is posing either naked, partially clothed, or fully clothed",
+      "value": "level-6"
+    },
+    {
+      "expanded": "Erotic posing: Deliberately posed pictures of fully or partially clothed or naked children in sexualized or provocative poses",
+      "value": "level-5"
+    },
+    {
+      "expanded": "Posing: Deliberately posed pictures of children fully or partially clothed or naked (where the amount, context, and organization suggests sexual interest)",
+      "value": "level-4"
+    },
+    {
+      "expanded": "Erotica: Surreptitiously taken photographs of children in play areas or other safe environments showing either underwear or varying degrees of nakedness",
+      "value": "level-3"
+    },
+    {
+      "expanded": "Nudist: Pictures of naked or seminaked children in appropriate nudist settings, and from legitimate sources",
+      "value": "level-2"
+    },
+    {
+      "expanded": "Indicative: Nonerotic and nonsexualized pictures showing children in their underwear, swimming costumes, and so on, from either commercial sources or family albums; pictures of children playing in normal settings, in which the context or organization of pictures by the collector indicates inappropriateness",
+      "value": "level-1"
+    }
+  ],
+  "refs": [
+    "https://en.wikipedia.org/wiki/COPINE_scale",
+    "http://journals.sagepub.com/doi/pdf/10.1177/1079063217724768"
+  ],
+  "version": 1,
+  "description": "The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse. The scale was developed by staff at the COPINE (Combating Paedophile Information Networks in Europe) project. The COPINE Project was founded in 1997, and is based in the Department of Applied Psychology, University College Cork, Ireland.",
+  "expanded": "COPINE Scale",
+  "namespace": "copine-scale",
+  "exclusive": true
+}
