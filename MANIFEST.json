@@ -299,11 +299,16 @@
       "version": 1,
       "name": "infoleak",
       "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked."
+    },
+    {
+      "version": 1,
+      "name": "copine-scale",
+      "description": "The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180515"
+  "version": "20180523"
 }
