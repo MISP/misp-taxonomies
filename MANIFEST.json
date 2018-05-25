@@ -304,11 +304,31 @@
       "version": 1,
       "name": "copine-scale",
       "description": "The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse."
+    },
+    {
+      "name": "maec-delivery-vectors",
+      "description": "Vectors used to deliver malware based on MAEC 5.0",
+      "version": 1
+    },
+    {
+      "name": "maec-malware-behavior",
+      "description": "Malware behaviours based on MAEC 5.0",
+      "version": 1
+    },
+    {
+      "name": "maec-malware-obfuscation-methods",
+      "description": "Obfuscation methods used by malware based on MAEC 5.0",
+      "version": 1
+    },
+    {
+      "name": "maec-malware-capabilities",
+      "description": "Malware Capabilities based on MAEC 5.0",
+      "version": 1
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180523"
+  "version": "20180525"
 }
