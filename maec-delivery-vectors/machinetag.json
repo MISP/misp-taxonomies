@@ -1,0 +1,86 @@
+{
+  "namespace": "MAEC Delivery Vectors",
+  "description": "Vectors used to deliver malware based on MAEC 5.0",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "maec-delivery-vector",
+      "expanded": "MAEC Delivery Vector"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "maec-delivery-vector",
+      "entry": [
+        {
+          "value": "active-attacker",
+          "expanded": "active Attacker"
+        },
+        {
+          "value": "auto-executing-media",
+          "expanded": "auto-executing-media"
+        },
+        {
+          "value": "downloader",
+          "expanded": "downloader"
+        },
+        {
+          "value": "dropper",
+          "expanded": "dropper"
+        },
+        {
+          "value": "email-attachment",
+          "expanded": "email-attachment"
+        },
+        {
+          "value": "exploit-kit-landing-page",
+          "expanded": "exploit-kit-landing-page"
+        },
+        {
+          "value": "fake-website",
+          "expanded": "fake-website"
+        },
+        {
+          "value": "janitor-attack",
+          "expanded": "janitor-attack"
+        },
+        {
+          "value": "malicious-iframes",
+          "expanded": "malicious-iframes"
+        },
+        {
+          "value": "malvertising",
+          "expanded": "malvertising"
+        },
+        {
+          "value": "media-baiting",
+          "expanded": "media-baiting"
+        },
+        {
+          "value": "pharming",
+          "expanded": "pharming"
+        },
+        {
+          "value": "phishing",
+          "expanded": "phishing"
+        },
+        {
+          "value": "trojanized-link",
+          "expanded": "trojanized-link"
+        },
+        {
+          "value": "trojanized-software",
+          "expanded": "trojanized-software"
+        },
+        {
+          "value": "usb-cable-syncing",
+          "expanded": "usb-cable-syncing"
+        },
+        {
+          "value": "watering-hole",
+          "expanded": "watering-hole"
+        }
+      ]
+    }
+  ]
+}
