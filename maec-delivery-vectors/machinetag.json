@@ -1,5 +1,5 @@
 {
-  "namespace": "MAEC Delivery Vectors",
+  "namespace": "maec-delivery-vectors",
   "description": "Vectors used to deliver malware based on MAEC 5.0",
   "version": 1,
   "predicates": [
