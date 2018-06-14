@@ -324,11 +324,16 @@
       "name": "maec-malware-capabilities",
       "description": "Malware Capabilities based on MAEC 5.0",
       "version": 1
+    },
+    {
+      "name": "smart-airports-threats",
+      "description": "Threat taxonomy in the scope of securing smart airports by ENISA.",
+      "version": 1
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180525"
+  "version": "20180614"
 }
