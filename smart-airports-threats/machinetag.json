@@ -86,6 +86,55 @@
           "expanded": "Software bugs"
         }
       ]
+    },
+    {
+      "predicate": "natural-and-social-phenomena",
+      "entry": [
+        {
+          "value": "earthquakes",
+          "expanded": "Earthquakes"
+        },
+        {
+          "value": "fires",
+          "expanded": "Fires"
+        },
+        {
+          "value": "extreme-weather",
+          "expanded": "Extreme weather (e.g. flood, heavy snow, blizzard, high temperatures, fog, sandtorm)"
+        },
+        {
+          "value": "solar-flare",
+          "expanded": "Solar flare"
+        },
+        {
+          "value": "volcano-explosion",
+          "expanded": "Volcano explosion"
+        },
+        {
+          "value": "nuclear-incident",
+          "expanded": "Nuclear incident"
+        },
+        {
+          "value": "dangerous-chemical-incidents",
+          "expanded": "Dangerous chemical incidents"
+        },
+        {
+          "value": "pandemic",
+          "expanded": "Pandemic (e.g. Ebola)"
+        },
+        {
+          "value": "social-disruptions",
+          "expanded": "Social disruptions (e.g. industrial actions, civil unrest, strikes, military actions, terrorist attacks, political instability)"
+        },
+        {
+          "value": "shortage-of-fuel",
+          "expanded": "Shortage of fuel"
+        },
+        {
+          "value": "space-debris-and-meteorites",
+          "expanded": "Space debirs and meteorites"
+        }
+      ]
     }
   ]
 }
