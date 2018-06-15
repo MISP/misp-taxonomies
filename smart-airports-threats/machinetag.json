@@ -45,6 +45,47 @@
           "expanded": "Non compliance with policies or procedure"
         }
       ]
+    },
+    {
+      "predicate": "system-failures",
+      "entry": [
+        {
+          "value": "failures-of-devices-or-systems",
+          "expanded": "Failures of devices or systems"
+        },
+        {
+          "value": "failures-or-disruptions-of-communication-links",
+          "expanded": "Failures or disruptions of communication links (communication networks"
+        },
+        {
+          "value": "failures-of-parts-of-devices",
+          "expanded": "Failures of parts of devices"
+        },
+        {
+          "value": "failures-or-disruptions-of-main-supply",
+          "expanded": "Failures or disruptions of main supply"
+        },
+        {
+          "value": "failures-or-disruptions-of-the-power-supply",
+          "expanded": "Failures or disruptions of the power supply"
+        },
+        {
+          "value": "malfunctions-of-parts-of-devices",
+          "expanded": "Malfunctions of parts of devices"
+        },
+        {
+          "value": "malfunctions-of-devices-or-systems",
+          "expanded": "Malfunctions of devices or systems"
+        },
+        {
+          "value": "failures-of-hardware",
+          "expanded": "Failures of hardware"
+        },
+        {
+          "value": "software-bugs",
+          "expanded": "Software bugs"
+        }
+      ]
     }
   ]
 }
