@@ -135,6 +135,31 @@
           "expanded": "Space debirs and meteorites"
         }
       ]
+    },
+    {
+      "predicate": "third-party-failures",
+      "entry": [
+        {
+          "value": "internet-service-provider",
+          "expanded": "Internet service provider"
+        },
+        {
+          "value": "cloud-service-provider",
+          "expanded": "Cloud service provider (SaaS / PaaS / IaaS / SecaaS)"
+        },
+        {
+          "value": "utilities-power-or-gas-or-water",
+          "expanded": "Utilities (power / gas /water)"
+        },
+        {
+          "value": "remote-maintenance-provider",
+          "expanded": "Remote maintenance provider"
+        },
+        {
+          "value": "security-testing-companies",
+          "expanded": "Security testing companies (i.e. penetration testing/vulnerability assessment)"
+        }
+      ]
     }
   ]
 }
