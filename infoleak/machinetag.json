@@ -17,11 +17,23 @@
       "value": "source"
     },
     {
+      "expanded": "type of submission",
+      "value": "submission"
+    },
+    {
+      "expanded": "Output format",
+      "value": "output-format"
+    },
+    {
       "value": "certainty",
       "expanded": "Certainty of the information to be a leak"
+    },
+    {
+      "value": "test",
+      "expanded": "Test"
     }
   ],
-  "version": 1,
+  "version": 2,
   "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.",
   "namespace": "infoleak",
   "values": [
@@ -286,6 +298,40 @@
         {
           "value": "other",
           "expanded": "Other source not specified in this list"
+        }
+      ]
+    },
+    {
+      "predicate": "submission",
+      "entry": [
+        {
+          "value": "manual",
+          "expanded": "Manual"
+        },
+        {
+          "value": "automatic",
+          "expanded": "Automatic"
+        },
+        {
+          "value": "crawler",
+          "expanded": "Crawler"
+        }
+      ]
+    },
+    {
+      "predicate": "output-format",
+      "entry": [
+        {
+          "value": "ail-daily",
+          "expanded": "Daily event"
+        },
+        {
+          "value": "ail-weekly",
+          "expanded": "Weekly event"
+        },
+        {
+          "value": "ail-monthly",
+          "expanded": "Monthly event"
         }
       ]
     },
