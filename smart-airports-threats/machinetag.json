@@ -160,6 +160,111 @@
           "expanded": "Security testing companies (i.e. penetration testing/vulnerability assessment)"
         }
       ]
+    },
+    {
+      "predicate": "malicious-actions",
+      "entry": [
+        {
+          "value": "denial-of-service-attacks-via-amplification-reflection",
+          "expanded": "Denial of Service attacks via amplifcation/reflection"
+        },
+        {
+          "value": "denial-of-service-attacks-via-flooding",
+          "expanded": "Denial of Service via flooding"
+        },
+        {
+          "value": "denial-of-service-attacks-via-jamming",
+          "expanded": "Denial of Service via jamming"
+        },
+        {
+          "value": "malicious-software-on-it-assets-malware",
+          "expanded": "Malicious software on IT assets (including passenger and staff devices) which can be Worm, Trojan, Virus, Rootkit, Exploitkit... "
+        },
+        {
+          "value": "malicious-software-on-it-assets-remote-arbitrary-code-execution",
+          "expanded": "Malicious software on IT assets such as remote arbitrary code execution (device under attacker control)"
+        },
+        {
+          "value": "exploitation-of-software-vulnerabilities-implementation-flaws",
+          "expanded": "exploitation of known or unknown software vulnerabilities such as implementation flaws (flaw in code)"
+        },
+        {
+          "value": "exploitation-of-software-vulnerabilities-design-flaws",
+          "expanded": "exploitation of known or unknown software vulnerabilities such as design flaws in IT assets (flaw in logic)"
+        },
+        {
+          "value": "exploitation-of-software-vulnerabilities-apt",
+          "expanded": "exploitation of known or unknown software vulnerabilities such as Advanced Persistent Threats (APT)"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-unauthorized-use-of-software",
+          "expanded": "misuse of authority or authorisation - unauthorized use of software"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-unauthorized-installation-of-software",
+          "expanded": "misuse of authority or authorisation - unauthorized installation of software"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-repudiation-of-actions",
+          "expanded": "misuse of authority or authorisation - repudiation of actions"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-abuse-of-personal-data",
+          "expanded": "misuse of authority or authorisation - abuse of personal data or identity fraud"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-using-information-from-an-unreliable-source",
+          "expanded": "misuse of authority or authorisation - using information from an unreliable source"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-unintentional-change-of-data-in-an-information-system",
+          "expanded": "misuse of authority or authorisation - unintional change of data in an information system"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-inadequate-design-and-planning-or-lack-of-adoption",
+          "expanded": "misuse of authority or authorisation inadequate design and planning or lack of adoption"
+        },
+        {
+          "value": "misuse-of-authority-or-authorisation-data-leakage-or-sharing",
+          "expanded": "misuse of authority data leakage or sharing (exfiltration, discarded, stolen media"
+        },
+        {
+          "value": "network-or-interception-attacks-manipulation-of-routing-information",
+          "expanded": "network or interception attacks - manipulation of routing information (including redirection to malicious sites)"
+        },
+        {
+          "value": "network-or-interception-attacks-spoofing",
+          "expanded": "network or interception attacks - spoofing"
+        },
+        {
+          "value": "network-or-interception-attacks-unauthorized-access",
+          "expanded": "network or interception attacks - unauthorized access to network/services"
+        },
+        {
+          "value": "network-or-interception-attacks-authentication-attacks",
+          "expanded": "network or interception attacks - authentication attacks (against insecure protocols or PKI)"
+        },
+        {
+          "value": "network-or-interception-attacks-replay-attacks",
+          "expanded": "network or interception attacks - replay attacks"
+        },
+        {
+          "value": "network-or-interception-attacks-repudiation-of-actions",
+          "expanded": "network or interception attacks - repudiation of actions"
+        },
+        {
+          "value": "network-or-interception-attacks-wiretaps",
+          "expanded": "network or interception attacks - wiretaps (wired)"
+        },
+        {
+          "value": "network-or-interception-attacks-wireless-comms",
+          "expanded": "network or interception attacks - wireless comms (eavesdropping, interception, jamming, electromagnetic interference)"
+        },
+        {
+          "value": "network-or-interception-attacks-network-reconnaissance-information-gathering",
+          "expanded": "network or interception attacks - network reconnaissance/information gathering"
+        }
+      ]
     }
   ]
 }
