@@ -263,6 +263,62 @@
         {
           "value": "network-or-interception-attacks-network-reconnaissance-information-gathering",
           "expanded": "network or interception attacks - network reconnaissance/information gathering"
+        },
+        {
+          "value": "social-attacks-phishing-spearphishing",
+          "expanded": "social attacks phishing or spearphishing"
+        },
+        {
+          "value": "social-attacks-pretexting",
+          "expanded": "social attacks pretexting"
+        },
+        {
+          "value": "social-attacks-untrusted-links",
+          "expanded": "social attacks untrusted links (fake websites/CSRF/XSS)"
+        },
+        {
+          "value": "social-attacks-baiting",
+          "expanded": "social attacks baiting"
+        },
+        {
+          "value": "social-attacks-reverse-social-engineering",
+          "expanded": "social attacks reverse social engineering"
+        },
+        {
+          "value": "social-attacks-impersonation",
+          "expanded": "social attacks impersonation"
+        },
+        {
+          "value": "tampering-with-devices-unauthorised-modification-of-data",
+          "expanded": "tampering with devices unauthorised modification of data (including compromising smart sensor data or threat image projection"
+        },
+        {
+          "value": "tampering-with-devices-unauthorised-modification-of-hardware-or-software",
+          "expanded": "tampering with devices unauthorised modification of hardware or software (including tampering with kiosk devices, inserting keyloggers, or malware)"
+        },
+        {
+          "value": "breach-of-physical-access-controls-bypass-authentication",
+          "expanded": "breach of physical access controls / administrative controls - bypass authentication"
+        },
+        {
+          "value": "breach-of-physical-access-controls-privilege-escalation",
+          "expanded": "breach of physical access controls / administrative controls - privilege escalation"
+        },
+        {
+          "value": "physical-attacks-on-airport-assets-vandalism",
+          "expanded": "Physical attacks on airport assets - vandalism"
+        },
+        {
+          "value": "physical-attacks-on-airport-assets-sabotage",
+          "expanded": "Physical attacks on airport assets - sabotage"
+        },
+        {
+          "value": "physical-attacks-on-airport-assets-explosive-or-bomb-threats",
+          "expanded": "Physical attacks on airport assets - explosive or bomb threats"
+        },
+        {
+          "value": "physical-attacks-on-airport-assets-malicious-tampering",
+          "expanded": "Physical attacks on airport assets - malicious tampering or control of assets resulting in damage"
         }
       ]
     }
