@@ -1,29 +1,29 @@
 {
+  "version": 1,
+  "description": "Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports",
+  "namespace": "smart-airports-threats",
   "predicates": [
     {
       "expanded": "Human errors",
       "value": "human-errors"
     },
     {
-      "expanded": "Natural and social phenomena",
-      "value": "natural-and-social-phenomena"
-    },
-    {
       "expanded": "System failures",
       "value": "system-failures"
     },
     {
-      "expanded": "Malicious actions",
-      "value": "malicious-actions"
+      "expanded": "Natural and social phenomena",
+      "value": "natural-and-social-phenomena"
     },
     {
       "expanded": "Third party failures",
       "value": "third-party-failures"
+    },
+    {
+      "expanded": "Malicious actions",
+      "value": "malicious-actions"
     }
   ],
-  "version": 1,
-  "description": "Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports",
-  "namespace": "smart-airports-threats",
   "values": [
     {
       "predicate": "human-errors",
