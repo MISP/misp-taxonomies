@@ -1,0 +1,38 @@
+{
+  "namespace": "false-positive",
+  "description": "This taxonomy aims to ballpark the expected amount of false positives.",
+  "version": 1,
+  "expanded": "False positive",
+  "predicates": [
+    {
+      "value": "risk",
+      "expanded": "Risk",
+      "description": "Risk of having false positives in the tagged value."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "risk",
+      "entry": [
+        {
+          "value": "low",
+          "expanded": "Low",
+          "description": "The risk of having false positives in the tagged value is low.",
+          "numerical_value": 25
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "description": "The risk of having false positives in the tagged value is medium.",
+          "numerical_value": 50
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "description": "The risk of having false positives in the tagged value is high.",
+          "numerical_value": 75
+        }
+      ]
+    }
+  ]
+}

@@ -329,6 +329,11 @@
       "name": "smart-airports-threats",
       "description": "Threat taxonomy in the scope of securing smart airports by ENISA.",
       "version": 1
+    },
+    {
+      "version": 1,
+      "name": "false-positive",
+      "description": "This taxonomy aims to ballpark the expected amount of false positives."
     }
   ],
   "path": "machinetag.json",
