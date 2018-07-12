@@ -334,11 +334,16 @@
       "version": 1,
       "name": "false-positive",
       "description": "This taxonomy aims to ballpark the expected amount of false positives."
+    },
+    {
+      "version": 1,
+      "name": "rsit",
+      "description": "Reference Security Incident Classification Taxonomy."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180614"
+  "version": "20180714"
 }
