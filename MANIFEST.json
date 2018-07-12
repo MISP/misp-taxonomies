@@ -337,7 +337,7 @@
     },
     {
       "version": 1,
-      "name": "RSIT",
+      "name": "rsit",
       "description": "Reference Security Incident Classification Taxonomy."
     }
   ],
