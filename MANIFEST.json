@@ -339,11 +339,16 @@
       "version": 1,
       "name": "rsit",
       "description": "Reference Security Incident Classification Taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "nis",
+      "description": "NIS Cybersecurity Incident Taxonomy."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180714"
+  "version": "20180718"
 }
