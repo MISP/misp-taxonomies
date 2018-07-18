@@ -1,0 +1,129 @@
+{
+  "namespace": "nis-impact",
+  "description": "This taxonomy is used to classify the impact of the incident, i.e. the impact it has on services, in which sector(s) of the economy and society.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "sectors-impacted",
+      "expanded": "Sectors impacted",
+      "description": "The impact on services, in the real world, indicating the sectors of the society and economy, where there is an impact on the services."
+    },
+    {
+      "value": "severity",
+      "expanded": "Severity of the impact",
+      "description": "The severity of the impact, nationally, in the real world, for society and/or the economy, i.e. the level of disruption for the country or a large region of the country, the level of risks for health and/or safety, the level of physical damages and/or financial costs."
+    },
+    {
+      "value": "outlook",
+      "expanded": "Outlook",
+      "description": "The outlook for the incident, the prognosis, for the coming hours, considering the impact in the real world, the impact on services, for the society and/or the economy"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "sectors-impacted",
+      "entry": [
+        {
+          "value": "energy",
+          "expanded": "Energy",
+          "description": "The impact is in the Energy sector and its subsectors such as electricity, oil, or gas, for example, impacting electricity suppliers, power plants, distribution system operators, transmission system operators, oil transmission, natural gas distribution, etc."
+        },
+        {
+          "value": "transport",
+          "expanded": "Transport",
+          "description": "The impact is in the transport sector and subsectors such as air, rail, water, road, for example, impacting air traffic control systems, railway companies, maritime port authorities, road traffic management systems, etc."
+        },
+        {
+          "value": "banking",
+          "expanded": "Banking",
+          "description": "The impact is in the Banking sector, for example impacting banks, online banking, credit services, payment services, etc."
+        },
+        {
+          "value": "financial",
+          "expanded": "Financial",
+          "description": "The impact is in the Financial market infrastructure sector, for example, impacting traders, trading platforms, clearing services, etc."
+        },
+        {
+          "value": "health",
+          "expanded": "Health",
+          "description": "The impact is in the Health sector, for example, impacting hospitals, medical devices, medicine supply, pharmacies, etc."
+        },
+        {
+          "value": "drinking-water",
+          "expanded": "Drinking water",
+          "description": "The impact is in the Drinking water supply and distribution sector, for example impacting drinking water supply, drinking water distribution systems, etc."
+        },
+        {
+          "value": "digital-infrastructure",
+          "expanded": "Digital infrastructure",
+          "description": "The impact is in the Digital infrastructure sector, for example impacting internet exchange points, domain name systems, top level domain registries, etc."
+        },
+        {
+          "value": "communications",
+          "expanded": "Communications",
+          "description": "The impact is in the Electronic communications sector, for example,impacting mobile network services, fixed telephone lines, satellite communications, etc."
+        },
+        {
+          "value": "digital-services",
+          "expanded": "Digital services",
+          "description": "The impact is in the digital services sector, for example, impacting cloud services, online market places, online search engines, etc."
+        },
+        {
+          "value": "trust-and-identification-services",
+          "expanded": "Trust and identification services",
+          "description": "The impact is in the electronic trust and identification services, for example, impacting certificate authorities, electronic identity systems, smartcards, etc."
+        },
+        {
+          "value": "government",
+          "expanded": "Government",
+          "description": "The impact is in the government sector, for example, impacting the functioning of public administrations, elections, or emergency services"
+        }
+      ]
+    },
+    {
+      "predicate": "severity",
+      "entry": [
+        {
+          "value": "red",
+          "expanded": "Red",
+          "description": "Very large impact"
+        },
+        {
+          "value": "yellow",
+          "expanded": "Yellow",
+          "description": "Large impact."
+        },
+        {
+          "value": "green",
+          "expanded": "Green",
+          "description": "Minor impact."
+        },
+        {
+          "value": "white",
+          "expanded": "White",
+          "description": "No impact."
+        }
+      ]
+    },
+    {
+      "predicate": "outlook",
+      "entry": [
+        {
+          "value": "improving",
+          "expanded": "Improving",
+          "description": "Severity of impact is expected to decrease in the next 6 hours."
+        },
+        {
+          "value": "stable",
+          "expanded": "Stable",
+          "description": "Severity of impact is expected to remain the same in the 6 hours."
+        },
+        {
+          "value": "worsening",
+          "expanded": "Worsening",
+          "description": "Severity of impact is expected to increase in the next 6 hours."
+        }
+      ]
+    }
+  ]
+}

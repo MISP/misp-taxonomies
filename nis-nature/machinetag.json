@@ -1,0 +1,69 @@
+{
+  "namespace": "nis-nature",
+  "description": "This taxonomy is used to classify the nature of the incident, i.e. the type of threat that triggered the incident, the severity of that threat.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "root-cause",
+      "expanded": "Root cause category",
+      "description": "The Root cause category is used to indicate what type event or threat triggered the incident."
+    },
+    {
+      "value": "severity",
+      "expanded": "Severity of the threat",
+      "description": "The severity of the threat is used to indicate, from a technical perspective, the potential impact, the risk associated with the threat. For example, the severity is high if an upcoming storm is exceptionally strong, if an observed DDoS attack is exceptionally powerful, or if a software vulnerability is easily exploited and present in many different systems. For example, in certain situations a critical software vulnerability would require concerted and urgent work by different organizations."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "root-cause",
+      "entry": [
+        {
+          "value": "system-failures",
+          "expanded": "System failures",
+          "description": "The incident is due to a failure of a system, i.e. without external causes. For example a hardware failure, software bug, a flaw in a procedure, etc. triggered the incident."
+        },
+        {
+          "value": "natural-phenomena",
+          "expanded": "Natural phenomena",
+          "description": "The incident is due to a natural phenomenon. For example a storm, lightning, solar flare, flood, earthquake, wildfire, etc. triggered the incident."
+        },
+        {
+          "value": "human-errors",
+          "expanded": "Human errors",
+          "description": "The incident is due to a human error, i.e. system worked correctly, but was used wrong. For example, a mistake, or carelessness triggered the incident."
+        },
+        {
+          "value": "malicious-actions",
+          "expanded": "Malicious actions",
+          "description": "The incident is due to a malicious action. For example, a cyber-attack or physical attack, vandalism, sabotage, insider attack, theft, etc., triggered the incident."
+        },
+        {
+          "value": "third-party-failures",
+          "expanded": "Third party failures",
+          "description": "The incident is due to a disruption of a third party service, like a utility. For example a power cut, or an internet outage, etc. triggered the incident."
+        }
+      ]
+    },
+    {
+      "predicate": "severity",
+      "entry": [
+        {
+          "value": "high",
+          "expanded": "High",
+          "description": "High severity, potential impact is high."
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "description": "Medium severity, potential impact is medium."
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "description": "Low severity, potential impact is low."
+        }
+      ]
+    }
+  ]
+}
