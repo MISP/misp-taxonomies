@@ -33,7 +33,7 @@
       "expanded": "Test"
     }
   ],
-  "version": 2,
+  "version": 3,
   "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.",
   "namespace": "infoleak",
   "values": [
@@ -115,6 +115,14 @@
         {
           "value": "base64",
           "expanded": "Base64"
+        },
+        {
+          "value": "binary",
+          "expanded": "Binary"
+        },
+        {
+          "value": "hexadecimal",
+          "expanded": "Hexadecimal"
         },
         {
           "value": "bitcoin-address",
@@ -216,6 +224,14 @@
         {
           "value": "base64",
           "expanded": "Base64"
+        },
+        {
+          "value": "binary",
+          "expanded": "Binary"
+        },
+        {
+          "value": "hexadecimal",
+          "expanded": "Hexadecimal"
         },
         {
           "value": "bitcoin-address",
