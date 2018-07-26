@@ -49,6 +49,10 @@
           "expanded": "Credit card"
         },
         {
+          "value": "iban",
+          "expanded": "Iban"
+        },
+        {
           "value": "mail",
           "expanded": "Mail"
         },
@@ -156,6 +160,10 @@
         {
           "value": "credit-card",
           "expanded": "Credit card"
+        },
+        {
+          "value": "iban",
+          "expanded": "Iban"
         },
         {
           "value": "mail",
