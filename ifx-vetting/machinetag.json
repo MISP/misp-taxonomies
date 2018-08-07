@@ -1,5 +1,5 @@
 {
-  "namespace": "IFX",
+  "namespace": "ifx-vetting",
   "description": "The IFX taxonomy is used to categorise information (MISP events and attributes) to aid in the intelligence vetting process",
   "version": 1,
   "predicates": [
