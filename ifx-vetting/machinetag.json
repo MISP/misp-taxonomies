@@ -1,0 +1,467 @@
+{
+    "namespace": "IFX",
+    "description": "The IFX taxonomy is used to categorise information (MISP events and attributes) to aid in the intelligence vetting process",
+    "version": 1,
+    "predicates": [
+        {
+            "value": "vetted",
+            "expanded": "state of the vetted intelligence"
+        },
+        {
+            "value": "score",
+            "expanded": ""
+        }
+    ],
+    "values": [
+        {
+            "predicate": "vetted",
+            "entry": [
+                {
+                    "value": "legit-but-compromised",
+                    "expanded": ""
+                },
+                {
+                    "value": "legit",
+                    "expanded": ""
+                },
+                {
+                    "value": "legit-uncertain",
+                    "expanded": ""
+                },
+                {
+                    "value": "malicious",
+                    "expanded": ""
+                },
+                {
+                    "value": "malicious-uncertain",
+                    "expanded": ""
+                },
+                {
+                    "value": "invalid",
+                    "expanded": ""
+                },
+                {
+                    "value": "irrelevant",
+                    "expanded": ""
+                },
+                {
+                    "value": "undetermined",
+                    "expanded": ""
+                },
+                {
+                    "value": "fast-track",
+                    "expanded": "this intelligence piece was not vetted but passed through for operational reasons"
+                }
+            ]
+        },
+        {
+            "predicate": "score",
+            "entry": [
+                { 
+                    "value": "0",
+                    "expanded": ""
+                },
+                { 
+                    "value": "1",
+                    "expanded": ""
+                },
+                { 
+                    "value": "2",
+                    "expanded": ""
+                },
+                { 
+                    "value": "3",
+                    "expanded": ""
+                },
+                { 
+                    "value": "4",
+                    "expanded": ""
+                },
+                { 
+                    "value": "5",
+                    "expanded": ""
+                },
+                { 
+                    "value": "6",
+                    "expanded": ""
+                },
+                { 
+                    "value": "7",
+                    "expanded": ""
+                },
+                { 
+                    "value": "8",
+                    "expanded": ""
+                },
+                { 
+                    "value": "9",
+                    "expanded": ""
+                },
+                { 
+                    "value": "10",
+                    "expanded": ""
+                },
+                { 
+                    "value": "11",
+                    "expanded": ""
+                },
+                { 
+                    "value": "12",
+                    "expanded": ""
+                },
+                { 
+                    "value": "13",
+                    "expanded": ""
+                },
+                { 
+                    "value": "14",
+                    "expanded": ""
+                },
+                { 
+                    "value": "15",
+                    "expanded": ""
+                },
+                { 
+                    "value": "16",
+                    "expanded": ""
+                },
+                { 
+                    "value": "17",
+                    "expanded": ""
+                },
+                { 
+                    "value": "18",
+                    "expanded": ""
+                },
+                { 
+                    "value": "19",
+                    "expanded": ""
+                },
+                { 
+                    "value": "20",
+                    "expanded": ""
+                },
+                { 
+                    "value": "21",
+                    "expanded": ""
+                },
+                { 
+                    "value": "22",
+                    "expanded": ""
+                },
+                { 
+                    "value": "23",
+                    "expanded": ""
+                },
+                { 
+                    "value": "24",
+                    "expanded": ""
+                },
+                { 
+                    "value": "25",
+                    "expanded": ""
+                },
+                { 
+                    "value": "26",
+                    "expanded": ""
+                },
+                { 
+                    "value": "27",
+                    "expanded": ""
+                },
+                { 
+                    "value": "28",
+                    "expanded": ""
+                },
+                { 
+                    "value": "29",
+                    "expanded": ""
+                },
+                { 
+                    "value": "30",
+                    "expanded": ""
+                },
+                { 
+                    "value": "31",
+                    "expanded": ""
+                },
+                { 
+                    "value": "32",
+                    "expanded": ""
+                },
+                { 
+                    "value": "33",
+                    "expanded": ""
+                },
+                { 
+                    "value": "34",
+                    "expanded": ""
+                },
+                { 
+                    "value": "35",
+                    "expanded": ""
+                },
+                { 
+                    "value": "36",
+                    "expanded": ""
+                },
+                { 
+                    "value": "37",
+                    "expanded": ""
+                },
+                { 
+                    "value": "38",
+                    "expanded": ""
+                },
+                { 
+                    "value": "39",
+                    "expanded": ""
+                },
+                { 
+                    "value": "40",
+                    "expanded": ""
+                },
+                { 
+                    "value": "41",
+                    "expanded": ""
+                },
+                { 
+                    "value": "42",
+                    "expanded": ""
+                },
+                { 
+                    "value": "43",
+                    "expanded": ""
+                },
+                { 
+                    "value": "44",
+                    "expanded": ""
+                },
+                { 
+                    "value": "45",
+                    "expanded": ""
+                },
+                { 
+                    "value": "46",
+                    "expanded": ""
+                },
+                { 
+                    "value": "47",
+                    "expanded": ""
+                },
+                { 
+                    "value": "48",
+                    "expanded": ""
+                },
+                { 
+                    "value": "49",
+                    "expanded": ""
+                },
+                { 
+                    "value": "50",
+                    "expanded": ""
+                },
+                { 
+                    "value": "51",
+                    "expanded": ""
+                },
+                { 
+                    "value": "52",
+                    "expanded": ""
+                },
+                { 
+                    "value": "53",
+                    "expanded": ""
+                },
+                { 
+                    "value": "54",
+                    "expanded": ""
+                },
+                { 
+                    "value": "55",
+                    "expanded": ""
+                },
+                { 
+                    "value": "56",
+                    "expanded": ""
+                },
+                { 
+                    "value": "57",
+                    "expanded": ""
+                },
+                { 
+                    "value": "58",
+                    "expanded": ""
+                },
+                { 
+                    "value": "59",
+                    "expanded": ""
+                },
+                { 
+                    "value": "60",
+                    "expanded": ""
+                },
+                { 
+                    "value": "61",
+                    "expanded": ""
+                },
+                { 
+                    "value": "62",
+                    "expanded": ""
+                },
+                { 
+                    "value": "63",
+                    "expanded": ""
+                },
+                { 
+                    "value": "64",
+                    "expanded": ""
+                },
+                { 
+                    "value": "65",
+                    "expanded": ""
+                },
+                { 
+                    "value": "66",
+                    "expanded": ""
+                },
+                { 
+                    "value": "67",
+                    "expanded": ""
+                },
+                { 
+                    "value": "68",
+                    "expanded": ""
+                },
+                { 
+                    "value": "69",
+                    "expanded": ""
+                },
+                { 
+                    "value": "70",
+                    "expanded": ""
+                },
+                { 
+                    "value": "71",
+                    "expanded": ""
+                },
+                { 
+                    "value": "72",
+                    "expanded": ""
+                },
+                { 
+                    "value": "73",
+                    "expanded": ""
+                },
+                { 
+                    "value": "74",
+                    "expanded": ""
+                },
+                { 
+                    "value": "75",
+                    "expanded": ""
+                },
+                { 
+                    "value": "76",
+                    "expanded": ""
+                },
+                { 
+                    "value": "77",
+                    "expanded": ""
+                },
+                { 
+                    "value": "78",
+                    "expanded": ""
+                },
+                { 
+                    "value": "79",
+                    "expanded": ""
+                },
+                { 
+                    "value": "80",
+                    "expanded": ""
+                },
+                { 
+                    "value": "81",
+                    "expanded": ""
+                },
+                { 
+                    "value": "82",
+                    "expanded": ""
+                },
+                { 
+                    "value": "83",
+                    "expanded": ""
+                },
+                { 
+                    "value": "84",
+                    "expanded": ""
+                },
+                { 
+                    "value": "85",
+                    "expanded": ""
+                },
+                { 
+                    "value": "86",
+                    "expanded": ""
+                },
+                { 
+                    "value": "87",
+                    "expanded": ""
+                },
+                { 
+                    "value": "88",
+                    "expanded": ""
+                },
+                { 
+                    "value": "89",
+                    "expanded": ""
+                },
+                { 
+                    "value": "90",
+                    "expanded": ""
+                },
+                { 
+                    "value": "91",
+                    "expanded": ""
+                },
+                { 
+                    "value": "92",
+                    "expanded": ""
+                },
+                { 
+                    "value": "93",
+                    "expanded": ""
+                },
+                { 
+                    "value": "94",
+                    "expanded": ""
+                },
+                { 
+                    "value": "95",
+                    "expanded": ""
+                },
+                { 
+                    "value": "96",
+                    "expanded": ""
+                },
+                { 
+                    "value": "97",
+                    "expanded": ""
+                },
+                { 
+                    "value": "98",
+                    "expanded": ""
+                },
+                { 
+                    "value": "99",
+                    "expanded": ""
+                },
+                { 
+                    "value": "100",
+                    "expanded": ""
+                }
+            ]
+        }
+    ]
+}
