@@ -9,7 +9,7 @@
         },
         {
             "value": "score",
-            "expanded": ""
+            "expanded": "A numerical score added by a scoring algorithm of choice. The score can either be considered by an analyst or in combination with other tags be used for automatic processing of the data."
         }
     ],
     "values": [
@@ -18,39 +18,39 @@
             "entry": [
                 {
                     "value": "legit-but-compromised",
-                    "expanded": ""
+                    "expanded": "The attribute/event describes something that is legitly used, but seems to be compromised by 3rd parties to be used for malicious activities. Consider this if blocking is your course of action."
                 },
                 {
                     "value": "legit",
-                    "expanded": ""
+                    "expanded": "The attribute/event describes something legitly used, that does not show signes of compromise or misuse."
                 },
                 {
                     "value": "legit-uncertain",
-                    "expanded": ""
+                    "expanded": "The attribute/event describes something where it is not 100% clear if it is used only legitly."
                 },
                 {
                     "value": "malicious",
-                    "expanded": ""
+                    "expanded": "The attribute/event describes something that is definitly used maliciously."
                 },
                 {
                     "value": "malicious-uncertain",
-                    "expanded": ""
+                    "expanded": "The attribute/event describes something that seems to be used maliciously, but there is no 100% proof."
                 },
                 {
                     "value": "invalid",
-                    "expanded": ""
+                    "expanded": "The attribute/event is invalid or wrong in respect to the situation described by the event."
                 },
                 {
                     "value": "irrelevant",
-                    "expanded": ""
+                    "expanded": "The attribute/event is irrelevant to your organization or CTI process."
                 },
                 {
                     "value": "undetermined",
-                    "expanded": ""
+                    "expanded": "The nature of the attribute/event cannot be further determined. Use this only as a last resort."
                 },
                 {
                     "value": "fast-track",
-                    "expanded": "this intelligence piece was not vetted but passed through for operational reasons"
+                    "expanded": "The attribute/event was not vetted but passed through for operational reasons. A result might be higher false-positive rates."
                 }
             ]
         },
