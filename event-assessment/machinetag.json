@@ -6,7 +6,7 @@
     "http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf"
   ],
   "description": "A series of assessment predicates describing the event assessment performed to make judgement(s) under a certain level of uncertainty.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "alternative-points-of-view-process",
@@ -24,7 +24,7 @@
         },
         {
           "value": "devils-advocates-methodology",
-          "expanded": "Devil's advocates methodlogy"
+          "expanded": "Devil's advocates methodology"
         },
         {
           "value": "competitive-analysis",
