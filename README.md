@@ -205,7 +205,9 @@ Create a JSON file Create a JSON file describing your taxonomy as triple tags.
 
 Once you are happy with your file go to MISP Web GUI taxonomies/index and update the taxonomies, the newly created taxonomy should be visible, now you need to activate the tags within your taxonomy.
 
-# MISP Taxonomies - tools
+# MISP Taxonomies
+
+## Tools
 
 [machinetag.py](./tools/machinetag.py) is a parsing tool to dump taxonomies expressed in Machine Tags (Triple Tags) and list all valid tags from a specific taxonomy.
 
@@ -226,6 +228,10 @@ Once you are happy with your file go to MISP Web GUI taxonomies/index and update
         admiralty-scale:information-credibility="6"
         ...
 ~~~~
+
+## Library
+
+- [PyTaxonomies](https://github.com/MISP/PyTaxonomies) is a Python module to use easily the MISP Taxonomies.
 
 # License
 
