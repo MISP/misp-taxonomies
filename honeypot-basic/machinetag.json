@@ -1,7 +1,7 @@
 {
   "namespace": "honeypot-basic",
-  "description": "Christian Seifert, Ian Welch, Peter Komisarczuk, ‘Taxonomy of Honeypots’, Technical Report CS-TR-06/12, VICTORIA UNIVERSITY OF WELLINGTON, School of Mathematical and Computing Sciences, June 2006, http://www.mcs.vuw.ac.nz/comp/Publications/archive/CS-TR-06/CS-TR-06-12.pdf",
-  "version": 1,
+  "description": "Updated from Christian Seifert, Ian Welch, Peter Komisarczuk, ‘Taxonomy of Honeypots’, Technical Report CS-TR-06/12, VICTORIA UNIVERSITY OF WELLINGTON, School of Mathematical and Computing Sciences, June 2006, http://www.mcs.vuw.ac.nz/comp/Publications/archive/CS-TR-06/CS-TR-06-12.pdf",
+  "version": 2,
   "predicates": [
     {
       "value": "interaction-level",
@@ -47,12 +47,22 @@
           "value": "low",
           "expanded": "low Interaction Level",
           "description": "Exposed functionality being limited. For example, a simulated SSH server of a honeypot is not able to authenticate against a valid login/password combination"
+        },
+        {
+          "value": "none",
+          "expanded": "No interaction capabilities",
+          "description": "No exposed functionality in the honeypot."
         }
       ]
     },
     {
       "predicate": "data-capture",
       "entry": [
+        {
+          "value": "network-capture",
+          "expanded": "Network capture",
+          "description": "The honeypot collects raw network capture."
+        },
         {
           "value": "events",
           "expanded": "Events",
