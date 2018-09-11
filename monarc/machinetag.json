@@ -174,7 +174,7 @@
 				{
 					"value": "breach-of-information-system-maintainability",
 					"expanded": "Breach of information system maintainability",
-					"description": "Lack of expertise in the system making retrofitting and upgrading impossible"
+					"description": "Lack of expertise in the system making retrofitting and upgrading impossible."
 				}
 			]
 		}
@@ -194,12 +194,12 @@
 				{
 					"value": "water-damage",
 					"expanded": "Water damage",
-					"description": "Situation facilitating the water hazard on equipment (floods, water leak, cellars, etc.)"
+					"description": "Situation facilitating the water hazard on equipment (floods, water leak, cellars, etc.)."
 				},
 				{
 					"value": "major-accident",
 					"expanded": "Major accident",
-					"description": "Any event that can physically destroy the premises"
+					"description": "Any event that can physically destroy the premises."
 				},
 				{
 					"value": "pollution",
