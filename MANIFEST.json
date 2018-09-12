@@ -349,11 +349,16 @@
       "version": 1,
       "name": "ifx-vetting",
       "description": "The IFX taxonomy is used to categorise information (MISP events and attributes) to aid in the intelligence vetting process"
+    },
+    {
+      "version": 1,
+      "name": "monarc-threat",
+      "description": "MONARC threat taxonomy."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180831"
+  "version": "20180912"
 }
