@@ -73,11 +73,11 @@
         },
         {
           "value": "do-not-delete",
-          "expended": "Element that should not be deleted (without asking)"
+          "expanded": "Element that should not be deleted (without asking)"
         },
         {
           "value": "add-mitre-attack-cluster",
-          "expended": "Describe cyber adversary behavior using MITRE ATT&CK"
+          "expanded": "Describe cyber adversary behavior using MITRE ATT&CK"
         }
       ]
     },
