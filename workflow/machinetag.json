@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information. ",
-  "version": 4,
+  "version": 5,
   "predicates": [
     {
       "value": "todo",
@@ -25,7 +25,7 @@
         },
         {
           "value": "review",
-          "expanded": "Additional review is required to reach a certain level of validation of the information tagged"
+          "expanded": "Additional review is required to reach a cert  ain level of validation of the information tagged"
         },
         {
           "value": "review-before-publication",
@@ -69,7 +69,15 @@
         },
         {
           "value": "review-the-grammar",
-          "expanded": "Review the grammar of the information tagged to improve the overall quality "
+          "expanded": "Review the grammar of the information tagged to improve the overall quality"
+        },
+        {
+          "value": "do-not-delete",
+          "expanded": "Element that should not be deleted (without asking)"
+        },
+        {
+          "value": "add-mitre-attack-cluster",
+          "expanded": "Describe cyber adversary behavior using MITRE ATT&CK"
         }
       ]
     },
