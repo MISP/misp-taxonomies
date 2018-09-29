@@ -1,7 +1,7 @@
 {
   "namespace": "admiralty-scale",
   "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "source-reliability",
@@ -43,7 +43,8 @@
         },
         {
           "value": "f",
-          "expanded": "Reliability cannot be judged"
+          "expanded": "Reliability cannot be judged",
+          "numerical_value": 50
         }
       ]
     },
@@ -77,7 +78,8 @@
         },
         {
           "value": "6",
-          "expanded": "Truth cannot be judged"
+          "expanded": "Truth cannot be judged",
+          "numerical_value": 50
         }
       ]
     }
