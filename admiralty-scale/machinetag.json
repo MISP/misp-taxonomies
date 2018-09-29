@@ -45,6 +45,11 @@
           "value": "f",
           "expanded": "Reliability cannot be judged",
           "numerical_value": 50
+        },
+        {
+          "value": "g",
+          "expanded": "Deliberatly deceptive",
+          "numerical_value": 0
         }
       ]
     },
