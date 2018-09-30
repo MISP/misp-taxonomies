@@ -357,7 +357,7 @@
     },
     {
       "version": 1,
-      "name": "file",
+      "name": "file-type",
       "description": "List of known file types."
     }
   ],
