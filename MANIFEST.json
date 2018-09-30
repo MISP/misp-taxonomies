@@ -354,11 +354,16 @@
       "version": 1,
       "name": "monarc-threat",
       "description": "MONARC threat taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "file-type",
+      "description": "List of known file types."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180924"
+  "version": "20180930"
 }
