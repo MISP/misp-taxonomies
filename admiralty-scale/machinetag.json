@@ -1,7 +1,7 @@
 {
   "namespace": "admiralty-scale",
-  "description": "The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.",
-  "version": 3,
+  "description": "The Admiralty Scale or Ranking (also called the NATO System) is used to rank the reliability of a source and the credibility of an information. Reference based on FM 2-22.3 (FM 34-52) HUMAN INTELLIGENCE COLLECTOR OPERATIONS and NATO documents.",
+  "version": 4,
   "predicates": [
     {
       "value": "source-reliability",
@@ -19,31 +19,37 @@
         {
           "value": "a",
           "expanded": "Completely reliable",
+          "description": "No doubt of authenticity, trustworthiness, or competency; has a history of complete reliability",
           "numerical_value": 100
         },
         {
           "value": "b",
           "expanded": "Usually reliable",
+          "description": "Minor doubt about authenticity, trustworthiness, or competency; has a history of valid information most of the time",
           "numerical_value": 75
         },
         {
           "value": "c",
           "expanded": "Fairly reliable",
+          "description": "Doubt of authenticity, trustworthiness, or competency but has provided valid information in the past",
           "numerical_value": 50
         },
         {
           "value": "d",
           "expanded": "Not usually reliable",
+          "description": "Significant doubt about authenticity, trustworthiness, or co mpetency but has provided valid information in the past",
           "numerical_value": 25
         },
         {
           "value": "e",
           "expanded": "Unreliable",
+          "description": "Lacking in authenticity, trustworthiness, and competency; history of invalid information",
           "numerical_value": 0
         },
         {
           "value": "f",
           "expanded": "Reliability cannot be judged",
+          "description": "No basis exists for evaluating the reliability of the source",
           "numerical_value": 50
         },
         {
@@ -59,31 +65,37 @@
         {
           "value": "1",
           "expanded": "Confirmed by other sources",
+          "description": "Confirmed by other independent sources; logical in itself; Consistent with other information on the subject",
           "numerical_value": 100
         },
         {
           "value": "2",
           "expanded": "Probably true",
+          "description": "Not confirmed; logical in itself; consistent with other information on the subject",
           "numerical_value": 75
         },
         {
           "value": "3",
           "expanded": "Possibly true",
+          "description": "Not confirmed; reasonably logical in itself; agrees with some other information on the subject",
           "numerical_value": 50
         },
         {
           "value": "4",
           "expanded": "Doubtful",
+          "description": "Not confirmed; possible but not logical ; no other information on the subject",
           "numerical_value": 25
         },
         {
           "value": "5",
           "expanded": "Improbable",
+          "description": "Not confirmed; not logical in itself; contradicted by other information on the subject",
           "numerical_value": 0
         },
         {
           "value": "6",
           "expanded": "Truth cannot be judged",
+          "description": "No basis exists for evaluating the validity of the information",
           "numerical_value": 50
         }
       ]
