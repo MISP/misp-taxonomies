@@ -202,7 +202,7 @@ $ cd privatetaxonomy
 $ vi machinetag.json
 ~~~~
 
-Create a JSON file Create a JSON file describing your taxonomy as triple tags.
+Create a JSON file describing your taxonomy as triple tags.
 
 Once you are happy with your file go to MISP Web GUI taxonomies/index and update the taxonomies, the newly created taxonomy should be visible, now you need to activate the tags within your taxonomy.
 
