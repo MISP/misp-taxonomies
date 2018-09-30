@@ -57,6 +57,7 @@ bfuscation techniques. This taxonomy lists all the known or official packer used
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 - [Binary Classification](./binary-class) safe/malicious binary tagging
 - [Workflow](./workflow) support language is a common language to support intelligence analysts to perform their analysis on data and information.
+- [file-type](./file-type) - List of known file types.
 
 ### [Admiralty Scale](./admiralty-scale)
 
