@@ -3,649 +3,649 @@
     {
       "entry": [
         {
-          "colour": "#00cc7e",
+          "colour": "#00804f",
           "expanded": "executable",
           "value": "peexe"
         },
         {
-          "colour": "#33ffb1",
+          "colour": "#00e68e",
           "expanded": "executable",
-          "value": " pedll"
+          "value": "pedll"
         },
         {
-          "colour": "#66ffc4",
+          "colour": "#00ff9d",
           "expanded": "executable",
-          "value": " neexe"
-        },
-        {
-          "colour": "#4dffbb",
-          "expanded": "executable",
-          "value": " nedll"
-        },
-        {
-          "colour": "#00804f",
-          "expanded": "executable",
-          "value": " mz"
-        },
-        {
-          "colour": "#00cc7e",
-          "expanded": "executable",
-          "value": " msi"
-        },
-        {
-          "colour": "#33ffb1",
-          "expanded": "executable",
-          "value": " com"
-        },
-        {
-          "colour": "#00804f",
-          "expanded": "executable",
-          "value": " coff"
-        },
-        {
-          "colour": "#ccffeb",
-          "expanded": "executable",
-          "value": " elf"
-        },
-        {
-          "colour": "#99ffd8",
-          "expanded": "executable",
-          "value": " krnl"
-        },
-        {
-          "colour": "#80ffce",
-          "expanded": "executable",
-          "value": " rpm"
-        },
-        {
-          "colour": "#00804f",
-          "expanded": "executable",
-          "value": " linux"
-        },
-        {
-          "colour": "#00804f",
-          "expanded": "executable",
-          "value": " macho"
-        },
-        {
-          "colour": "#00cc7e",
-          "expanded": "executable",
-          "value": " elf32"
-        },
-        {
-          "colour": "#00cc7e",
-          "expanded": "executable",
-          "value": " elf64"
+          "value": "neexe"
         },
         {
           "colour": "#00e68e",
           "expanded": "executable",
-          "value": " elfso"
+          "value": "nedll"
         },
         {
-          "colour": "#00804f",
+          "colour": "#1affa7",
           "expanded": "executable",
-          "value": " peexe32"
+          "value": "mz"
         },
         {
-          "colour": "#00cc7e",
+          "colour": "#00b36e",
           "expanded": "executable",
-          "value": " peexe64"
+          "value": "msi"
+        },
+        {
+          "colour": "#ccffeb",
+          "expanded": "executable",
+          "value": "com"
+        },
+        {
+          "colour": "#66ffc4",
+          "expanded": "executable",
+          "value": "coff"
+        },
+        {
+          "colour": "#1affa7",
+          "expanded": "executable",
+          "value": "elf"
         },
         {
           "colour": "#00663f",
           "expanded": "executable",
-          "value": " assembly"
+          "value": "krnl"
         },
         {
-          "colour": "#004d2f",
+          "colour": "#ccffeb",
+          "expanded": "executable",
+          "value": "rpm"
+        },
+        {
+          "colour": "#66ffc4",
+          "expanded": "executable",
+          "value": "linux"
+        },
+        {
+          "colour": "#ccffeb",
+          "expanded": "executable",
+          "value": "macho"
+        },
+        {
+          "colour": "#80ffce",
+          "expanded": "executable",
+          "value": "elf32"
+        },
+        {
+          "colour": "#99ffd8",
+          "expanded": "executable",
+          "value": "elf64"
+        },
+        {
+          "colour": "#00b36e",
+          "expanded": "executable",
+          "value": "elfso"
+        },
+        {
+          "colour": "#b3ffe2",
+          "expanded": "executable",
+          "value": "peexe32"
+        },
+        {
+          "colour": "#00995e",
+          "expanded": "executable",
+          "value": "peexe64"
+        },
+        {
+          "colour": "#00995e",
+          "expanded": "executable",
+          "value": "assembly"
+        },
+        {
+          "colour": "#33ffb1",
           "expanded": "internet",
           "value": "html"
         },
         {
+          "colour": "#00e68e",
+          "expanded": "internet",
+          "value": "xml"
+        },
+        {
+          "colour": "#ccffeb",
+          "expanded": "internet",
+          "value": "flash"
+        },
+        {
+          "colour": "#1affa7",
+          "expanded": "internet",
+          "value": "fla"
+        },
+        {
+          "colour": "#4dffbb",
+          "expanded": "internet",
+          "value": "iecookie"
+        },
+        {
           "colour": "#00995e",
           "expanded": "internet",
-          "value": " xml"
+          "value": "bittorrent"
         },
         {
-          "colour": "#80ffce",
+          "colour": "#b3ffe2",
           "expanded": "internet",
-          "value": " flash"
-        },
-        {
-          "colour": "#00663f",
-          "expanded": "internet",
-          "value": " fla"
-        },
-        {
-          "colour": "#99ffd8",
-          "expanded": "internet",
-          "value": " iecookie"
-        },
-        {
-          "colour": "#004d2f",
-          "expanded": "internet",
-          "value": " bittorrent"
-        },
-        {
-          "colour": "#00804f",
-          "expanded": "internet",
-          "value": " email"
-        },
-        {
-          "colour": "#99ffd8",
-          "expanded": "internet",
-          "value": " outlook"
+          "value": "email"
         },
         {
           "colour": "#33ffb1",
           "expanded": "internet",
-          "value": " cap"
+          "value": "outlook"
         },
         {
           "colour": "#00b36e",
+          "expanded": "internet",
+          "value": "cap"
+        },
+        {
+          "colour": "#1affa7",
           "expanded": "phone and tablet",
           "value": "symbian"
         },
         {
-          "colour": "#00663f",
+          "colour": "#00ff9d",
           "expanded": "phone and tablet",
-          "value": " palmos"
-        },
-        {
-          "colour": "#00cc7e",
-          "expanded": "phone and tablet",
-          "value": " wince"
-        },
-        {
-          "colour": "#99ffd8",
-          "expanded": "phone and tablet",
-          "value": " android"
-        },
-        {
-          "colour": "#b3ffe2",
-          "expanded": "phone and tablet",
-          "value": " iphone"
-        },
-        {
-          "colour": "#00cc7e",
-          "expanded": "image",
-          "value": "jpeg"
-        },
-        {
-          "colour": "#b3ffe2",
-          "expanded": "image",
-          "value": " emf"
-        },
-        {
-          "colour": "#ccffeb",
-          "expanded": "image",
-          "value": " tiff"
+          "value": "palmos"
         },
         {
           "colour": "#00e68e",
-          "expanded": "image",
-          "value": " gif"
+          "expanded": "phone and tablet",
+          "value": "wince"
+        },
+        {
+          "colour": "#4dffbb",
+          "expanded": "phone and tablet",
+          "value": "android"
+        },
+        {
+          "colour": "#00e68e",
+          "expanded": "phone and tablet",
+          "value": "iphone"
         },
         {
           "colour": "#4dffbb",
           "expanded": "image",
-          "value": " png"
-        },
-        {
-          "colour": "#00995e",
-          "expanded": "image",
-          "value": " bmp"
-        },
-        {
-          "colour": "#00b36e",
-          "expanded": "image",
-          "value": " gimp"
-        },
-        {
-          "colour": "#b3ffe2",
-          "expanded": "image",
-          "value": " indesign"
-        },
-        {
-          "colour": "#00ff9d",
-          "expanded": "image",
-          "value": " psd"
-        },
-        {
-          "colour": "#99ffd8",
-          "expanded": "image",
-          "value": " targa"
-        },
-        {
-          "colour": "#33ffb1",
-          "expanded": "image",
-          "value": " xws"
-        },
-        {
-          "colour": "#00e68e",
-          "expanded": "image",
-          "value": " dib"
-        },
-        {
-          "colour": "#80ffce",
-          "expanded": "image",
-          "value": " jng"
-        },
-        {
-          "colour": "#00e68e",
-          "expanded": "image",
-          "value": " ico"
-        },
-        {
-          "colour": "#1affa7",
-          "expanded": "image",
-          "value": " fpx"
-        },
-        {
-          "colour": "#80ffce",
-          "expanded": "image",
-          "value": " eps"
+          "value": "jpeg"
         },
         {
           "colour": "#66ffc4",
           "expanded": "image",
-          "value": " svg"
+          "value": "emf"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "image",
+          "value": "tiff"
+        },
+        {
+          "colour": "#4dffbb",
+          "expanded": "image",
+          "value": "gif"
+        },
+        {
+          "colour": "#00995e",
+          "expanded": "image",
+          "value": "png"
+        },
+        {
+          "colour": "#66ffc4",
+          "expanded": "image",
+          "value": "bmp"
+        },
+        {
+          "colour": "#b3ffe2",
+          "expanded": "image",
+          "value": "gimp"
+        },
+        {
+          "colour": "#80ffce",
+          "expanded": "image",
+          "value": "indesign"
         },
         {
           "colour": "#00e68e",
+          "expanded": "image",
+          "value": "psd"
+        },
+        {
+          "colour": "#004d2f",
+          "expanded": "image",
+          "value": "targa"
+        },
+        {
+          "colour": "#00cc7e",
+          "expanded": "image",
+          "value": "xws"
+        },
+        {
+          "colour": "#00cc7e",
+          "expanded": "image",
+          "value": "dib"
+        },
+        {
+          "colour": "#00fa9a",
+          "expanded": "image",
+          "value": "jng"
+        },
+        {
+          "colour": "#00804f",
+          "expanded": "image",
+          "value": "ico"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "image",
+          "value": "fpx"
+        },
+        {
+          "colour": "#b3ffe2",
+          "expanded": "image",
+          "value": "eps"
+        },
+        {
+          "colour": "#00cc7e",
+          "expanded": "image",
+          "value": "svg"
+        },
+        {
+          "colour": "#33ffb1",
           "expanded": "video and audio",
           "value": "ogg"
         },
         {
           "colour": "#80ffce",
           "expanded": "video and audio",
-          "value": " flc"
+          "value": "flc"
         },
         {
-          "colour": "#ccffeb",
+          "colour": "#00804f",
           "expanded": "video and audio",
-          "value": " fli"
-        },
-        {
-          "colour": "#80ffce",
-          "expanded": "video and audio",
-          "value": " mp3"
-        },
-        {
-          "colour": "#99ffd8",
-          "expanded": "video and audio",
-          "value": " flac"
-        },
-        {
-          "colour": "#00cc7e",
-          "expanded": "video and audio",
-          "value": " wav"
-        },
-        {
-          "colour": "#00cc7e",
-          "expanded": "video and audio",
-          "value": " midi"
-        },
-        {
-          "colour": "#00663f",
-          "expanded": "video and audio",
-          "value": " avi"
-        },
-        {
-          "colour": "#00663f",
-          "expanded": "video and audio",
-          "value": " mpeg"
+          "value": "fli"
         },
         {
           "colour": "#80ffce",
           "expanded": "video and audio",
-          "value": " qt"
+          "value": "mp3"
         },
         {
-          "colour": "#66ffc4",
+          "colour": "#33ffb1",
           "expanded": "video and audio",
-          "value": " asf"
+          "value": "flac"
         },
         {
-          "colour": "#00cc7e",
+          "colour": "#00ff9d",
           "expanded": "video and audio",
-          "value": " divx"
-        },
-        {
-          "colour": "#004d2f",
-          "expanded": "video and audio",
-          "value": " flv"
-        },
-        {
-          "colour": "#99ffd8",
-          "expanded": "video and audio",
-          "value": " wma"
+          "value": "wav"
         },
         {
           "colour": "#4dffbb",
           "expanded": "video and audio",
-          "value": " wmv"
+          "value": "midi"
         },
         {
-          "colour": "#b3ffe2",
+          "colour": "#00b36e",
           "expanded": "video and audio",
-          "value": " rm"
+          "value": "avi"
         },
         {
-          "colour": "#1affa7",
+          "colour": "#00e68e",
           "expanded": "video and audio",
-          "value": " mov"
+          "value": "mpeg"
         },
         {
-          "colour": "#66ffc4",
+          "colour": "#00804f",
           "expanded": "video and audio",
-          "value": " mp4"
+          "value": "qt"
         },
         {
           "colour": "#00cc7e",
           "expanded": "video and audio",
-          "value": " 3gp"
+          "value": "asf"
         },
         {
           "colour": "#ccffeb",
+          "expanded": "video and audio",
+          "value": "divx"
+        },
+        {
+          "colour": "#00b36e",
+          "expanded": "video and audio",
+          "value": "flv"
+        },
+        {
+          "colour": "#ccffeb",
+          "expanded": "video and audio",
+          "value": "wma"
+        },
+        {
+          "colour": "#00fa9a",
+          "expanded": "video and audio",
+          "value": "wmv"
+        },
+        {
+          "colour": "#00fa9a",
+          "expanded": "video and audio",
+          "value": "rm"
+        },
+        {
+          "colour": "#b3ffe2",
+          "expanded": "video and audio",
+          "value": "mov"
+        },
+        {
+          "colour": "#00fa9a",
+          "expanded": "video and audio",
+          "value": "mp4"
+        },
+        {
+          "colour": "#99ffd8",
+          "expanded": "video and audio",
+          "value": "3gp"
+        },
+        {
+          "colour": "#004d2f",
           "expanded": "document",
           "value": "text"
         },
         {
+          "colour": "#00995e",
+          "expanded": "document",
+          "value": "pdf"
+        },
+        {
           "colour": "#66ffc4",
           "expanded": "document",
-          "value": " pdf"
+          "value": "ps"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "document",
+          "value": "doc"
         },
         {
           "colour": "#ccffeb",
           "expanded": "document",
-          "value": " ps"
+          "value": "docx"
         },
         {
-          "colour": "#66ffc4",
+          "colour": "#00b36e",
           "expanded": "document",
-          "value": " doc"
+          "value": "rtf"
+        },
+        {
+          "colour": "#ccffeb",
+          "expanded": "document",
+          "value": "ppt"
         },
         {
           "colour": "#b3ffe2",
           "expanded": "document",
-          "value": " docx"
+          "value": "pptx"
         },
         {
-          "colour": "#b3ffe2",
+          "colour": "#99ffd8",
           "expanded": "document",
-          "value": " rtf"
-        },
-        {
-          "colour": "#80ffce",
-          "expanded": "document",
-          "value": " ppt"
-        },
-        {
-          "colour": "#1affa7",
-          "expanded": "document",
-          "value": " pptx"
-        },
-        {
-          "colour": "#33ffb1",
-          "expanded": "document",
-          "value": " xls"
-        },
-        {
-          "colour": "#00804f",
-          "expanded": "document",
-          "value": " xlsx"
+          "value": "xls"
         },
         {
           "colour": "#00663f",
           "expanded": "document",
-          "value": " odp"
+          "value": "xlsx"
         },
         {
-          "colour": "#00ff9d",
+          "colour": "#99ffd8",
           "expanded": "document",
-          "value": " ods"
+          "value": "odp"
         },
         {
-          "colour": "#00663f",
+          "colour": "#00fa9a",
           "expanded": "document",
-          "value": " odt"
+          "value": "ods"
         },
         {
-          "colour": "#33ffb1",
+          "colour": "#00995e",
           "expanded": "document",
-          "value": " hwp"
+          "value": "odt"
+        },
+        {
+          "colour": "#4dffbb",
+          "expanded": "document",
+          "value": "hwp"
+        },
+        {
+          "colour": "#00995e",
+          "expanded": "document",
+          "value": "gul"
+        },
+        {
+          "colour": "#ccffeb",
+          "expanded": "document",
+          "value": "ebook"
         },
         {
           "colour": "#004d2f",
           "expanded": "document",
-          "value": " gul"
+          "value": "latex"
         },
         {
-          "colour": "#ccffeb",
-          "expanded": "document",
-          "value": " ebook"
-        },
-        {
-          "colour": "#00b36e",
-          "expanded": "document",
-          "value": " latex"
-        },
-        {
-          "colour": "#00b36e",
+          "colour": "#00fa9a",
           "expanded": "bundle",
           "value": "isoimage"
         },
         {
-          "colour": "#33ffb1",
-          "expanded": "bundle",
-          "value": " zip"
-        },
-        {
           "colour": "#00b36e",
           "expanded": "bundle",
-          "value": " gzip"
-        },
-        {
-          "colour": "#00663f",
-          "expanded": "bundle",
-          "value": " bzip"
-        },
-        {
-          "colour": "#66ffc4",
-          "expanded": "bundle",
-          "value": " rzip"
-        },
-        {
-          "colour": "#b3ffe2",
-          "expanded": "bundle",
-          "value": " dzip"
-        },
-        {
-          "colour": "#99ffd8",
-          "expanded": "bundle",
-          "value": " 7zip"
-        },
-        {
-          "colour": "#4dffbb",
-          "expanded": "bundle",
-          "value": " cab"
-        },
-        {
-          "colour": "#99ffd8",
-          "expanded": "bundle",
-          "value": " jar"
-        },
-        {
-          "colour": "#ccffeb",
-          "expanded": "bundle",
-          "value": " rar"
+          "value": "zip"
         },
         {
           "colour": "#00fa9a",
           "expanded": "bundle",
-          "value": " mscompress"
-        },
-        {
-          "colour": "#80ffce",
-          "expanded": "bundle",
-          "value": " ace"
-        },
-        {
-          "colour": "#00804f",
-          "expanded": "bundle",
-          "value": " arc"
-        },
-        {
-          "colour": "#ccffeb",
-          "expanded": "bundle",
-          "value": " arj"
-        },
-        {
-          "colour": "#004d2f",
-          "expanded": "bundle",
-          "value": " asd"
+          "value": "gzip"
         },
         {
           "colour": "#33ffb1",
           "expanded": "bundle",
-          "value": " blackhole"
+          "value": "bzip"
         },
         {
-          "colour": "#00663f",
+          "colour": "#00995e",
           "expanded": "bundle",
-          "value": " kgb"
+          "value": "rzip"
+        },
+        {
+          "colour": "#ccffeb",
+          "expanded": "bundle",
+          "value": "dzip"
+        },
+        {
+          "colour": "#66ffc4",
+          "expanded": "bundle",
+          "value": "7zip"
+        },
+        {
+          "colour": "#00e68e",
+          "expanded": "bundle",
+          "value": "cab"
+        },
+        {
+          "colour": "#4dffbb",
+          "expanded": "bundle",
+          "value": "jar"
+        },
+        {
+          "colour": "#00995e",
+          "expanded": "bundle",
+          "value": "rar"
+        },
+        {
+          "colour": "#99ffd8",
+          "expanded": "bundle",
+          "value": "mscompress"
+        },
+        {
+          "colour": "#00e68e",
+          "expanded": "bundle",
+          "value": "ace"
+        },
+        {
+          "colour": "#00b36e",
+          "expanded": "bundle",
+          "value": "arc"
+        },
+        {
+          "colour": "#004d2f",
+          "expanded": "bundle",
+          "value": "arj"
+        },
+        {
+          "colour": "#00804f",
+          "expanded": "bundle",
+          "value": "asd"
+        },
+        {
+          "colour": "#4dffbb",
+          "expanded": "bundle",
+          "value": "blackhole"
         },
         {
           "colour": "#00cc7e",
           "expanded": "bundle",
-          "value": " xz"
+          "value": "kgb"
         },
         {
-          "colour": "#66ffc4",
+          "colour": "#00ff9d",
+          "expanded": "bundle",
+          "value": "xz"
+        },
+        {
+          "colour": "#33ffb1",
           "expanded": "code",
           "value": "script"
         },
         {
+          "colour": "#00e68e",
+          "expanded": "code",
+          "value": "php"
+        },
+        {
           "colour": "#4dffbb",
           "expanded": "code",
-          "value": " php"
+          "value": "python"
+        },
+        {
+          "colour": "#1affa7",
+          "expanded": "code",
+          "value": "perl"
+        },
+        {
+          "colour": "#66ffc4",
+          "expanded": "code",
+          "value": "ruby"
         },
         {
           "colour": "#99ffd8",
           "expanded": "code",
-          "value": " python"
-        },
-        {
-          "colour": "#004d2f",
-          "expanded": "code",
-          "value": " perl"
-        },
-        {
-          "colour": "#00995e",
-          "expanded": "code",
-          "value": " ruby"
-        },
-        {
-          "colour": "#1affa7",
-          "expanded": "code",
-          "value": " c"
-        },
-        {
-          "colour": "#00804f",
-          "expanded": "code",
-          "value": " cpp"
+          "value": "c"
         },
         {
           "colour": "#4dffbb",
           "expanded": "code",
-          "value": " java"
+          "value": "cpp"
         },
         {
-          "colour": "#1affa7",
+          "colour": "#00cc7e",
           "expanded": "code",
-          "value": " shell"
+          "value": "java"
         },
         {
-          "colour": "#00ff9d",
+          "colour": "#004d2f",
           "expanded": "code",
-          "value": " pascal"
+          "value": "shell"
         },
         {
-          "colour": "#00804f",
+          "colour": "#00663f",
           "expanded": "code",
-          "value": " awk"
+          "value": "pascal"
         },
         {
-          "colour": "#00804f",
+          "colour": "#b3ffe2",
           "expanded": "code",
-          "value": " dyalog"
-        },
-        {
-          "colour": "#00fa9a",
-          "expanded": "code",
-          "value": " fortran"
-        },
-        {
-          "colour": "#80ffce",
-          "expanded": "code",
-          "value": " java-bytecode"
+          "value": "awk"
         },
         {
           "colour": "#33ffb1",
+          "expanded": "code",
+          "value": "dyalog"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "code",
+          "value": "fortran"
+        },
+        {
+          "colour": "#99ffd8",
+          "expanded": "code",
+          "value": "java-bytecode"
+        },
+        {
+          "colour": "#004d2f",
           "expanded": "apple",
           "value": "apple"
         },
         {
-          "colour": "#33ffb1",
+          "colour": "#4dffbb",
           "expanded": "apple",
-          "value": " mac"
+          "value": "mac"
         },
         {
-          "colour": "#00804f",
+          "colour": "#99ffd8",
           "expanded": "apple",
-          "value": " applesingle"
+          "value": "applesingle"
         },
         {
-          "colour": "#00ff9d",
+          "colour": "#4dffbb",
           "expanded": "apple",
-          "value": " appledouble"
-        },
-        {
-          "colour": "#00b36e",
-          "expanded": "apple",
-          "value": " machfs"
-        },
-        {
-          "colour": "#00ff9d",
-          "expanded": "apple",
-          "value": " appleplist"
-        },
-        {
-          "colour": "#00b36e",
-          "expanded": "apple",
-          "value": " maclib"
+          "value": "appledouble"
         },
         {
           "colour": "#00663f",
+          "expanded": "apple",
+          "value": "machfs"
+        },
+        {
+          "colour": "#00b36e",
+          "expanded": "apple",
+          "value": "appleplist"
+        },
+        {
+          "colour": "#99ffd8",
+          "expanded": "apple",
+          "value": "maclib"
+        },
+        {
+          "colour": "#00cc7e",
           "expanded": "miscellaneous",
           "value": "lnk"
         },
         {
           "colour": "#1affa7",
           "expanded": "miscellaneous",
-          "value": " ttf"
+          "value": "ttf"
         },
         {
-          "colour": "#00ff9d",
+          "colour": "#ccffeb",
           "expanded": "miscellaneous",
-          "value": " rom"
+          "value": "rom"
         },
         {
-          "colour": "#00e68e",
+          "colour": "#00663f",
           "expanded": "miscellaneous",
-          "value": " data"
+          "value": "data"
         }
       ],
       "predicate": "type"
