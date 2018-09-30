@@ -659,5 +659,5 @@
   ],
   "version": 1,
   "description": "List of known file types.",
-  "namespace": "file"
+  "namespace": "file-type"
 }
