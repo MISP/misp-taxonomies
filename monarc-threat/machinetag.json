@@ -1,0 +1,217 @@
+{
+  "namespace": "monarc-threat",
+  "expanded": "MONARC Threats",
+  "version": 1,
+  "description": "MONARC Threats Taxonomy",
+  "refs": [
+    "https://monarc.lu"
+  ],
+  "predicates": [
+    {
+      "value": "compromise-of-functions",
+      "expanded": "Compromise of functions"
+    },
+    {
+      "value": "unauthorised-actions",
+      "expanded": "Unauthorised actions"
+    },
+    {
+      "value": "compromise-of-information",
+      "expanded": "Compromise of information"
+    },
+    {
+      "value": "loss-of-essential-services",
+      "expanded": "Loss of essential services"
+    },
+    {
+      "value": "technical-failures",
+      "expanded": "Technical failures"
+    },
+    {
+      "value": "physical-damage",
+      "expanded": "Physical damage"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "compromise-of-functions",
+      "entry": [
+        {
+          "value": "error-in-use",
+          "expanded": "Error in use",
+          "description": "A person commits an operating error, input error or utilisation error on hardware or software."
+        },
+        {
+          "value": "forging-of-rights",
+          "expanded": "Forging of rights",
+          "description": "A person assumes the identity of a different person in order to use his/her access rights to the information system, misinform the recipient, commit a fraud, etc."
+        },
+        {
+          "value": "eavesdropping",
+          "expanded": "Eavesdropping",
+          "description": "Someone connected to communication equipment or media or located inside the transmission coverage boundaries of a communication."
+        },
+        {
+          "value": "denial-of-actions",
+          "expanded": "Denial of actions",
+          "description": "A person or entity denies being involved in an exchange with a third party or carrying out an operation."
+        },
+        {
+          "value": "abuse-of-rights",
+          "expanded": "Abuse of rights",
+          "description": "Someone with special rights (network administration, computer specialists, etc.) modifies the operating characteristics of the resources."
+        },
+        {
+          "value": "breach-of-personnel-availability",
+          "expanded": "Breach of personnel availability",
+          "description": "Absence of qualified or authorised personnel to execute the usual operations."
+        }
+      ]
+    },
+    {
+      "predicate": "unauthorised-actions",
+      "entry": [
+        {
+          "value": "fraudulent-copying-or-use-of-counterfeit-software",
+          "expanded": "Fraudulent copying or use of counterfeit software",
+          "description": "Someone inside the organisation makes fraudulent copies (also called pirated copies) of package software or in-house software."
+        },
+        {
+          "value": "corruption-of-data",
+          "expanded": "Corruption of data",
+          "description": "Someone gains access to the communication equipment of the information system and corrupts transmission of information (by intercepting, inserting, destroying, etc.) or repeatedly attempts access until successful."
+        },
+        {
+          "value": "illegal-processing-of-data",
+          "expanded": "Illegal processing of data",
+          "description": "A person carries out information processing that is forbidden by the law or a regulation."
+        }
+      ]
+    },
+    {
+      "predicate": "compromise-of-information",
+      "entry": [
+        {
+          "value": "remote-spying",
+          "expanded": "Remote spying",
+          "description": "Personnel actions observable from a distance. Visual observation with or without optical equipment, for example observation of a user entering a code or password on a keyboard."
+        },
+        {
+          "value": "tampering-with-hardware",
+          "expanded": "Tampering with hardware",
+          "description": "Someone with access to a communication medium or equipment installs an interception or destruction device in it."
+        },
+        {
+          "value": "interception-of-compromising-interference-signals",
+          "expanded": "Interception of compromising interference signals",
+          "description": "Interfering signals from an electromagnetic source emitted by the equipment (by conduction on the electrical power supply cables or earth wires or by radiation in free space). Capture of these signals depends on the distance to the targeted equipment or the possibility of connecting to cables or any other conductor passing close to the equipment (coupling phenomenon)."
+        },
+        {
+          "value": "theft-or-destruction-of-media-documents-or-equipment",
+          "expanded": "Theft or destruction of media, documents or equipment",
+          "description": "Media, documents or equipment can be accessed by foreigners either internally or externally. It can be damaged or stolen."
+        },
+        {
+          "value": "retrieval-of-recycled-or-discarded media",
+          "expanded": "Retrieval of recycled or discarded media",
+          "description": "Retrieval of electronic media (hard discs, floppy discs, back-up cartridges, USB keys, ZIP discs, removable hard discs, etc.) or paper copies (lists, incomplete print-outs, messages, etc.) intended for recycling and containing retrievable information."
+        },
+        {
+          "value": "malware-infection",
+          "expanded": "Malware infection",
+          "description": "Unwanted software that is doing operations seeking to harm the company."
+        },
+        {
+          "value": "data-from-untrustworthy-sources",
+          "expanded": "Data from untrustworthy sources",
+          "description": "Receiving false data or unsuitable equipment from outside sources and using them in the organisation."
+        },
+        {
+          "value": "disclosure",
+          "expanded": "Disclosure",
+          "description": "Person who voluntarily or negligently disclosure information."
+        }
+      ]
+    },
+    {
+      "predicate": "loss-of-essential-services",
+      "entry": [
+        {
+          "value": "failure-of-telecommunication-equipment",
+          "expanded": "Failure of telecommunication equipment",
+          "description": "Disturbance, shutdown or incorrect sizing of telecommunications services (telephone, Internet access, Internet network)."
+        },
+        {
+          "value": "loss-of-power-supply",
+          "expanded": "Loss of power supply",
+          "description": "Failure, shutdown or incorrect sizing of the power supply to the assets arising either from the supplier's service or from the internal distribution system."
+        },
+        {
+          "value": "failure-of-air-conditioning",
+          "expanded": "Failure of air-conditioning",
+          "description": "Failure, shutdown or inadequacy of the air-conditioning service may cause assets requiring cooling or ventilation to shut down, malfunction or fail completely."
+        }
+      ]
+    },
+    {
+      "predicate": "technical-failures",
+      "entry": [
+        {
+          "value": "software-malfunction",
+          "expanded": "Software malfunction",
+          "description": "Design error, installation error or operating error committed during modification causing incorrect execution."
+        },
+        {
+          "value": "equipment-malfunction-or-failure",
+          "expanded": "Equipment malfunction or failure",
+          "description": "Logical or physical event causing hardware malfunctions or failures."
+        },
+        {
+          "value": "saturation-of-the-information-system",
+          "expanded": "Saturation of the information system",
+          "description": "A person or resource of a hardware, software or network type simulating an intense demand on resources by setting up continuous bombardment."
+        },
+        {
+          "value": "breach-of-information-system-maintainability",
+          "expanded": "Breach of information system maintainability",
+          "description": "Lack of expertise in the system making retrofitting and upgrading impossible"
+        }
+      ]
+    },
+    {
+      "predicate": "physical-damage",
+      "entry": [
+        {
+          "value": "destruction-of-equipment-or-supports",
+          "expanded": "Destruction of equipment or supports",
+          "description": "Event causing destruction of equipment or media."
+        },
+        {
+          "value": "fire",
+          "expanded": "Fire",
+          "description": "Any situation that could facilitate the conflagration of premises or equipment."
+        },
+        {
+          "value": "water-damage",
+          "expanded": "Water damage",
+          "description": "Situation facilitating the water hazard on equipment (floods, water leak, cellars, etc.)"
+        },
+        {
+          "value": "major-accident",
+          "expanded": "Major accident",
+          "description": "Any event that can physically destroy the premises"
+        },
+        {
+          "value": "pollution",
+          "expanded": "Pollution",
+          "description": "Presence of dust, vapours, corrosive or toxic gases in the ambient air."
+        },
+        {
+          "value": "environmental-disaster",
+          "expanded": "Environmental disaster (fire, flood, dust, dirt, etc.)",
+          "description": "Any event that can physically ruin the premises"
+        }
+      ]
+    }
+  ]
+}
