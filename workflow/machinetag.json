@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information. ",
-  "version": 5,
+  "version": 6,
   "predicates": [
     {
       "value": "todo",
@@ -78,6 +78,10 @@
         {
           "value": "add-mitre-attack-cluster",
           "expanded": "Describe cyber adversary behavior using MITRE ATT&CK"
+        },
+        {
+          "value": "additional-task",
+          "expanded": "Used to point an additional task that can not be describe by the rest of the taxonomy and need to be done"
         }
       ]
     },
