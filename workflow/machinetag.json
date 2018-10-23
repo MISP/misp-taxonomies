@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information. ",
-  "version": 6,
+  "version": 7,
   "predicates": [
     {
       "value": "todo",
@@ -30,6 +30,10 @@
         {
           "value": "review-before-publication",
           "expanded": "Review is required before publishing the information tagged"
+        },
+        {
+          "value": "release-requested",
+          "expanded": "Release of the information tagged is requested (often after the review process"
         },
         {
           "value": "review-for-false-positive",
@@ -95,6 +99,10 @@
         {
           "value": "complete",
           "expanded": "Complete means that the information tagged reach a state of completeness with the current capabilities of the analyst"
+        },
+        {
+          "value": "draft",
+          "expanded": "Draft means the information tagged can be released as a preliminary version or outline"
         }
       ]
     }
