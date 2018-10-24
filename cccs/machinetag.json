@@ -1,0 +1,235 @@
+{
+  "namespace": "cccs",
+  "description": "Internal taxonomy for CCCS.",
+  "version": 1,
+  "expanded": "CCCS",
+  "predicates": [
+    {
+      "value": "event",
+      "expanded": "Event type",
+      "description": "Type of event associated to the internal reference"
+    },
+    {
+      "value": "disclosure-type",
+      "expanded": "Disclosure type",
+      "description": "Type of information being disclosed."
+    },
+    {
+      "value": "exploitation-technique",
+      "expanded": "Exploitation technique",
+      "description": "The technique used to remotely exploit a GoC system."
+    },
+    {
+      "value": "origin",
+      "expanded": "Origin",
+      "description": "Where the request originated from."
+    },
+    {
+      "value": "originating-organization",
+      "expanded": "Originating organization",
+      "description": "Origin of a signature."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "event",
+      "entry": [
+        {
+          "value": "beacon",
+          "expanded": "Beacon",
+          "description": "A host infected with malware is connecting to threat actor owned infrastructure."
+        },
+        {
+          "value": "browser-based-exploitation",
+          "expanded": "Browser based exploitation",
+          "description": "A browser component is being exploited in order to infect a host."
+        },
+        {
+          "value": "dos",
+          "expanded": "Dos",
+          "description": "An attack in which the goal is to disrupt access to a host or resource."
+        },
+        {
+          "value": "email",
+          "expanded": "Email",
+          "description": "Malicious emails sent to a department (baiting, content delivery, phishing)."
+        },
+        {
+          "value": "exfiltration",
+          "expanded": "Exfiltration",
+          "description": "Unauthorized transfer of data from a target's network to a location a threat actor controls."
+        },
+        {
+          "value": "generic-event",
+          "expanded": "Generic event",
+          "description": "Represents a collection of virtually identical events within a range of time."
+        },
+        {
+          "value": "improper-usage",
+          "expanded": "Improper usage",
+          "description": "Technology used in a way that compromises security or violates policy."
+        },
+        {
+          "value": "malware-artifacts",
+          "expanded": "Malware artifacts",
+          "description": "Signs of the presence of malware observed on a host."
+        },
+        {
+          "value": "malware-download",
+          "expanded": "Malware download",
+          "description": "Malware was transferred (downloaded/uploaded) to a host."
+        },
+        {
+          "value": "phishing",
+          "expanded": "Phishing",
+          "description": "Information or credentials disclosed to a threat actor."
+        },
+        {
+          "value": "remote-access",
+          "expanded": "Remote access",
+          "description": "A threat actor is attempting to or succeeding in remotely logging in to a host."
+        },
+        {
+          "value": "remote-exploitation",
+          "expanded": "Remote exploitation",
+          "description": "A threat actor is attempting to exploit vulnerabilities remotely."
+        },
+        {
+          "value": "scan",
+          "expanded": "Scan",
+          "description": "A threat actor is scanning the network."
+        },
+        {
+          "value": "scraping",
+          "expanded": "Scraping",
+          "description": "Represents a collection of virtually identical scraping events within a range of time."
+        },
+        {
+          "value": "traffic-interception",
+          "expanded": "Traffic interception",
+          "description": "Represents a collection of virtually identical traffic interception events within a range of time."
+        }
+      ]
+    },
+    {
+      "predicate": "disclosure-type",
+      "entry": [
+        {
+          "value": "goc-credential-disclosure",
+          "expanded": "Goc credential disclosure",
+          "description": "Credentials for a GoC system or user were disclosed."
+        },
+        {
+          "value": "personal-credential-disclosure",
+          "expanded": "Personal credential disclosure",
+          "description": "Credentials not related to a GoC system or user were disclosed."
+        },
+        {
+          "value": "personal-information-disclosure",
+          "expanded": "Personal information disclosure",
+          "description": "Information about a person or persons was disclosed."
+        },
+        {
+          "value": "none",
+          "expanded": "None",
+          "description": "No information was disclosed."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Information other than credentials and personal information was disclosed."
+        }
+      ]
+    },
+    {
+      "predicate": "exploitation-technique",
+      "entry": [
+        {
+          "value": "sql-injection",
+          "expanded": "Sql injection",
+          "description": "Exploitation occurred due to malicious SQL queries being executed against a database."
+        },
+        {
+          "value": "directory-traversal",
+          "expanded": "Directory traversal",
+          "description": "Exploitation occurred through a directory traversal attack allowing access to a restricted directory."
+        },
+        {
+          "value": "remote-file-inclusion",
+          "expanded": "Remote file inclusion",
+          "description": "Exploitation occurred due to vulnerabilities allowing malicious files to be sent."
+        },
+        {
+          "value": "code-injection",
+          "expanded": "Code injection",
+          "description": "Exploitation occurred due to malicious code being injected."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other."
+        }
+      ]
+    },
+    {
+      "predicate": "origin",
+      "entry": [
+        {
+          "value": "subscriber",
+          "expanded": "Subscriber",
+          "description": "Subscriber."
+        },
+        {
+          "value": "internet",
+          "expanded": "Internet",
+          "description": "Internet."
+        }
+      ]
+    },
+    {
+      "predicate": "originating-organization",
+      "entry": [
+        {
+          "value": "cse",
+          "expanded": "Cse",
+          "description": "Communications Security Establishment."
+        },
+        {
+          "value": "nsa",
+          "expanded": "Nsa",
+          "description": "National Security Agency."
+        },
+        {
+          "value": "gchq",
+          "expanded": "Gchq",
+          "description": "Government Communications Headquarters."
+        },
+        {
+          "value": "asd",
+          "expanded": "Asd",
+          "description": "Australian Signals Directorate."
+        },
+        {
+          "value": "gcsb",
+          "expanded": "Gcsb",
+          "description": "Government Communications Security Bureau."
+        },
+        {
+          "value": "open-source",
+          "expanded": "Open source",
+          "description": "Originated from publically available information."
+        },
+        {
+          "value": "3rd-party",
+          "expanded": "3rd party",
+          "description": "Originated from a 3rd party organization."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other."
+        }
+      ]
+    }
+  ]
+}
