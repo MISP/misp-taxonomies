@@ -70,11 +70,15 @@ for datatype in ontology['dataTypes']:
 
 cccs.predicates[predicate.predicate] = predicate
 
-predicate_of_cccs = ['disclosure-type', 'origin', 'originating-organization', 'exploitation-technique']
-ignore = ['dos-type', 'report-state']
-skip_for_now = ['domain-category', 'email-type', 'ftp-type', 'host-category', 'ip-category',
-                'maliciousness', 'malware-category', 'method-match', 'misusage-type',
-                'mitigation-type', 'record-type', 'scan-type', 'severity', 'threat-vector']
+predicate_of_cccs = ['disclosure-type', 'origin', 'originating-organization',
+                     'exploitation-technique', 'domain-category', 'email-type',
+                     'ip-category', 'maliciousness', 'malware-category', 'misusage-type',
+                     'mitigation-type', 'scan-type', 'severity', 'threat-vector']
+
+skip_for_now = []
+
+ignore = ['dos-type', 'report-state', 'ftp-type', 'record-type', 'host-category',
+          'method-match']
 
 for propertytype in ontology['propertyTypes']:
     if 'accepts' in propertytype and propertytype['accepts']['name'] != 'list':
