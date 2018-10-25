@@ -1,0 +1,805 @@
+{
+  "namespace": "cccs",
+  "description": "Internal taxonomy for CCCS.",
+  "version": 2,
+  "expanded": "CCCS",
+  "predicates": [
+    {
+      "value": "event",
+      "expanded": "Event type",
+      "description": "Type of event associated to the internal reference"
+    },
+    {
+      "value": "disclosure-type",
+      "expanded": "Disclosure type",
+      "description": "Type of information being disclosed."
+    },
+    {
+      "value": "domain-category",
+      "expanded": "Domain category",
+      "description": "The Domain Category."
+    },
+    {
+      "value": "email-type",
+      "expanded": "Email type",
+      "description": "Type of email event."
+    },
+    {
+      "value": "exploitation-technique",
+      "expanded": "Exploitation technique",
+      "description": "The technique used to remotely exploit a GoC system."
+    },
+    {
+      "value": "ip-category",
+      "expanded": "Ip category",
+      "description": "The IP Category."
+    },
+    {
+      "value": "maliciousness",
+      "expanded": "Maliciousness",
+      "description": "Level of maliciousness."
+    },
+    {
+      "value": "malware-category",
+      "expanded": "Malware category",
+      "description": "The Malware Category."
+    },
+    {
+      "value": "misusage-type",
+      "expanded": "Misusage type",
+      "description": "The type of misusage."
+    },
+    {
+      "value": "mitigation-type",
+      "expanded": "Mitigation type",
+      "description": "The type of mitigation."
+    },
+    {
+      "value": "origin",
+      "expanded": "Origin",
+      "description": "Where the request originated from."
+    },
+    {
+      "value": "originating-organization",
+      "expanded": "Originating organization",
+      "description": "Origin of a signature."
+    },
+    {
+      "value": "scan-type",
+      "expanded": "Scan type",
+      "description": "The type of scan event."
+    },
+    {
+      "value": "severity",
+      "expanded": "Severity",
+      "description": "Severity of the event."
+    },
+    {
+      "value": "threat-vector",
+      "expanded": "Threat vector",
+      "description": "Specifies how the threat actor gained or attempted to gain initial access to the target GoC host."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "event",
+      "entry": [
+        {
+          "value": "beacon",
+          "expanded": "Beacon",
+          "description": "A host infected with malware is connecting to threat actor owned infrastructure."
+        },
+        {
+          "value": "browser-based-exploitation",
+          "expanded": "Browser based exploitation",
+          "description": "A browser component is being exploited in order to infect a host."
+        },
+        {
+          "value": "dos",
+          "expanded": "Dos",
+          "description": "An attack in which the goal is to disrupt access to a host or resource."
+        },
+        {
+          "value": "email",
+          "expanded": "Email",
+          "description": "Malicious emails sent to a department (baiting, content delivery, phishing)."
+        },
+        {
+          "value": "exfiltration",
+          "expanded": "Exfiltration",
+          "description": "Unauthorized transfer of data from a target's network to a location a threat actor controls."
+        },
+        {
+          "value": "generic-event",
+          "expanded": "Generic event",
+          "description": "Represents a collection of virtually identical events within a range of time."
+        },
+        {
+          "value": "improper-usage",
+          "expanded": "Improper usage",
+          "description": "Technology used in a way that compromises security or violates policy."
+        },
+        {
+          "value": "malware-artifacts",
+          "expanded": "Malware artifacts",
+          "description": "Signs of the presence of malware observed on a host."
+        },
+        {
+          "value": "malware-download",
+          "expanded": "Malware download",
+          "description": "Malware was transferred (downloaded/uploaded) to a host."
+        },
+        {
+          "value": "phishing",
+          "expanded": "Phishing",
+          "description": "Information or credentials disclosed to a threat actor."
+        },
+        {
+          "value": "remote-access",
+          "expanded": "Remote access",
+          "description": "A threat actor is attempting to or succeeding in remotely logging in to a host."
+        },
+        {
+          "value": "remote-exploitation",
+          "expanded": "Remote exploitation",
+          "description": "A threat actor is attempting to exploit vulnerabilities remotely."
+        },
+        {
+          "value": "scan",
+          "expanded": "Scan",
+          "description": "A threat actor is scanning the network."
+        },
+        {
+          "value": "scraping",
+          "expanded": "Scraping",
+          "description": "Represents a collection of virtually identical scraping events within a range of time."
+        },
+        {
+          "value": "traffic-interception",
+          "expanded": "Traffic interception",
+          "description": "Represents a collection of virtually identical traffic interception events within a range of time."
+        }
+      ]
+    },
+    {
+      "predicate": "disclosure-type",
+      "entry": [
+        {
+          "value": "goc-credential-disclosure",
+          "expanded": "Goc credential disclosure",
+          "description": "Credentials for a GoC system or user were disclosed."
+        },
+        {
+          "value": "personal-credential-disclosure",
+          "expanded": "Personal credential disclosure",
+          "description": "Credentials not related to a GoC system or user were disclosed."
+        },
+        {
+          "value": "personal-information-disclosure",
+          "expanded": "Personal information disclosure",
+          "description": "Information about a person or persons was disclosed."
+        },
+        {
+          "value": "none",
+          "expanded": "None",
+          "description": "No information was disclosed."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Information other than credentials and personal information was disclosed."
+        }
+      ]
+    },
+    {
+      "predicate": "domain-category",
+      "entry": [
+        {
+          "value": "c2",
+          "expanded": "C2",
+          "description": "Domain is being used as command-and-control infrastructure."
+        },
+        {
+          "value": "proxy",
+          "expanded": "Proxy",
+          "description": "Domain is being used as a proxy."
+        },
+        {
+          "value": "seeded",
+          "expanded": "Seeded",
+          "description": "Domain has been seeded with malware or other malicious code."
+        },
+        {
+          "value": "wateringhole",
+          "expanded": "Wateringhole",
+          "description": "Domain is being used a wateringhole."
+        },
+        {
+          "value": "cloud-infrastructure",
+          "expanded": "Cloud infrastructure",
+          "description": "Domain is hosted on cloud infrastructure."
+        },
+        {
+          "value": "name-server",
+          "expanded": "Name server",
+          "description": "Domain is a name server."
+        },
+        {
+          "value": "sinkholed",
+          "expanded": "Sinkholed",
+          "description": "Domain is being re-directed to a sinkhole."
+        }
+      ]
+    },
+    {
+      "predicate": "email-type",
+      "entry": [
+        {
+          "value": "spam",
+          "expanded": "Spam",
+          "description": "Unsolicited or junk email named after a Monty Python sketch."
+        },
+        {
+          "value": "content\\-delivery\\-attack",
+          "expanded": "Content\\-delivery\\-attack",
+          "description": "Email contained malicious content or attachments."
+        },
+        {
+          "value": "phishing",
+          "expanded": "Phishing",
+          "description": "Email designed to trick the recipient into providing sensitive information."
+        },
+        {
+          "value": "baiting",
+          "expanded": "Baiting",
+          "description": "Email designed to trick the recipient into providing sensitive information."
+        },
+        {
+          "value": "unknown",
+          "expanded": "Unknown",
+          "description": "Type of email was unknown."
+        }
+      ]
+    },
+    {
+      "predicate": "exploitation-technique",
+      "entry": [
+        {
+          "value": "sql-injection",
+          "expanded": "Sql injection",
+          "description": "Exploitation occurred due to malicious SQL queries being executed against a database."
+        },
+        {
+          "value": "directory-traversal",
+          "expanded": "Directory traversal",
+          "description": "Exploitation occurred through a directory traversal attack allowing access to a restricted directory."
+        },
+        {
+          "value": "remote-file-inclusion",
+          "expanded": "Remote file inclusion",
+          "description": "Exploitation occurred due to vulnerabilities allowing malicious files to be sent."
+        },
+        {
+          "value": "code-injection",
+          "expanded": "Code injection",
+          "description": "Exploitation occurred due to malicious code being injected."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other."
+        }
+      ]
+    },
+    {
+      "predicate": "ip-category",
+      "entry": [
+        {
+          "value": "c2",
+          "expanded": "C2",
+          "description": "IP address is a command-and-control server."
+        },
+        {
+          "value": "proxy",
+          "expanded": "Proxy",
+          "description": "IP address is a proxy server."
+        },
+        {
+          "value": "seeded",
+          "expanded": "Seeded",
+          "description": "IP address has been seeded with malware or other malicious code."
+        },
+        {
+          "value": "wateringhole",
+          "expanded": "Wateringhole",
+          "description": "IP address is a wateringhole."
+        },
+        {
+          "value": "cloud-infrastructure",
+          "expanded": "Cloud infrastructure",
+          "description": "IP address is part of cloud infrastructure."
+        },
+        {
+          "value": "network-gateway",
+          "expanded": "Network gateway",
+          "description": "IP address is a network gateway."
+        },
+        {
+          "value": "server",
+          "expanded": "Server",
+          "description": "IP address is a server of some type."
+        },
+        {
+          "value": "dns-server",
+          "expanded": "Dns server",
+          "description": "IP address is a DNS server."
+        },
+        {
+          "value": "smtp-server",
+          "expanded": "Smtp server",
+          "description": "IP address is a mail server."
+        },
+        {
+          "value": "web-server",
+          "expanded": "Web server",
+          "description": "IP address is a web server."
+        },
+        {
+          "value": "file-server",
+          "expanded": "File server",
+          "description": "IP address is a file server."
+        },
+        {
+          "value": "database-server",
+          "expanded": "Database server",
+          "description": "IP address is a database server."
+        },
+        {
+          "value": "security-appliance",
+          "expanded": "Security appliance",
+          "description": "IP address is a security appliance of some type."
+        },
+        {
+          "value": "tor-node",
+          "expanded": "Tor node",
+          "description": "IP address is a node of the TOR anonymization system."
+        },
+        {
+          "value": "sinkhole",
+          "expanded": "Sinkhole",
+          "description": "IP address is a sinkhole."
+        },
+        {
+          "value": "router",
+          "expanded": "Router",
+          "description": "IP address is a router device."
+        }
+      ]
+    },
+    {
+      "predicate": "maliciousness",
+      "entry": [
+        {
+          "value": "non-malicious",
+          "expanded": "Non-malicious",
+          "description": "Non-malicious is not malicious or suspicious."
+        },
+        {
+          "value": "suspicious",
+          "expanded": "Suspicious",
+          "description": "Suspicious is not non-malicious and not malicious."
+        },
+        {
+          "value": "malicious",
+          "expanded": "Malicious",
+          "description": "Malicious is not non-malicious or suspicious."
+        }
+      ]
+    },
+    {
+      "predicate": "malware-category",
+      "entry": [
+        {
+          "value": "exploit-kit",
+          "expanded": "Exploit kit",
+          "description": "Toolkit used to attack vulnerabilities in systems."
+        },
+        {
+          "value": "first-stage",
+          "expanded": "First stage",
+          "description": "Malware used in the initial phase of an attack and commonly used to retrieve a second stage."
+        },
+        {
+          "value": "second-stage",
+          "expanded": "Second stage",
+          "description": "Typical more complex malware retrieved by first stage malware."
+        },
+        {
+          "value": "scanner",
+          "expanded": "Scanner",
+          "description": "Malware used to look for common vulnerabilities or running software."
+        },
+        {
+          "value": "downloader",
+          "expanded": "Downloader",
+          "description": "Malware used to retrieve additional malware or tools."
+        },
+        {
+          "value": "proxy",
+          "expanded": "Proxy",
+          "description": "Malware used to proxy traffic on an infected host."
+        },
+        {
+          "value": "reverse-proxy",
+          "expanded": "Reverse proxy",
+          "description": "If you choose this option please provide a description of what it is to the ALFRED PO."
+        },
+        {
+          "value": "webshell",
+          "expanded": "Webshell",
+          "description": "Malware uploaded to a web server allowing remote access to an attacker."
+        },
+        {
+          "value": "ransomware",
+          "expanded": "Ransomware",
+          "description": "Malware used to hold infected host's data hostage, typically through encryption until a payment is made to the attackers."
+        },
+        {
+          "value": "adware",
+          "expanded": "Adware",
+          "description": "Malware used to display ads to the infected host."
+        },
+        {
+          "value": "spyware",
+          "expanded": "Spyware",
+          "description": "Malware used to collect information from the infected host, such as credentials."
+        },
+        {
+          "value": "virus",
+          "expanded": "Virus",
+          "description": "Malware that propogates by inserting a copy of itself into another program."
+        },
+        {
+          "value": "worm",
+          "expanded": "Worm",
+          "description": "Standalone malware that propogates by copying itself.."
+        },
+        {
+          "value": "trojan",
+          "expanded": "Trojan",
+          "description": "Malware that looks like legitimate software but hides malicious code."
+        },
+        {
+          "value": "rootkit",
+          "expanded": "Rootkit",
+          "description": "Malware that can hide the existance of other malware by modifying operating system functions."
+        },
+        {
+          "value": "keylogger",
+          "expanded": "Keylogger",
+          "description": "Malware that runs in the background, capturing keystrokes from a user unknowingly for exfiltration."
+        },
+        {
+          "value": "browser-hijacker",
+          "expanded": "Browser hijacker",
+          "description": "Malware that re-directs or otherwise intercepts Internet browsing by the user."
+        }
+      ]
+    },
+    {
+      "predicate": "misusage-type",
+      "entry": [
+        {
+          "value": "unauthorized-usage",
+          "expanded": "Unauthorized usage",
+          "description": "Usage of the system or resource was without appropriate permission or authorization."
+        },
+        {
+          "value": "misconfiguration",
+          "expanded": "Misconfiguration",
+          "description": "System or resource is misconfigured."
+        },
+        {
+          "value": "lack-of-encryption",
+          "expanded": "Lack of encryption",
+          "description": "System or resources has insufficient encryption or no encryption."
+        },
+        {
+          "value": "vulnerable-software",
+          "expanded": "Vulnerable software",
+          "description": "System or resource has software with known vulnerabilities."
+        },
+        {
+          "value": "privilege-escalation",
+          "expanded": "Privilege escalation",
+          "description": "System or resource was exploited to gain higher privilege level."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other."
+        }
+      ]
+    },
+    {
+      "predicate": "mitigation-type",
+      "entry": [
+        {
+          "value": "anti-virus",
+          "expanded": "Anti-virus",
+          "description": "Anti-Virus"
+        },
+        {
+          "value": "content-filtering-system",
+          "expanded": "Content filtering system",
+          "description": "Content Filtering System"
+        },
+        {
+          "value": "dynamic-defense",
+          "expanded": "Dynamic defense",
+          "description": "Dynamic Defense"
+        },
+        {
+          "value": "insufficient-privileges",
+          "expanded": "Insufficient privileges",
+          "description": "Insufficient Privileges"
+        },
+        {
+          "value": "ids",
+          "expanded": "Ids",
+          "description": "Intrusion Detection System"
+        },
+        {
+          "value": "sink-hole-/-take-down-by-third-party",
+          "expanded": "Sink hole / take down by third party",
+          "description": "Sink Hole / Take Down by Third Party"
+        },
+        {
+          "value": "isp",
+          "expanded": "Isp",
+          "description": "Internet Service Provider"
+        },
+        {
+          "value": "invalid-credentials",
+          "expanded": "Invalid credentials",
+          "description": "Invalid Credentials"
+        },
+        {
+          "value": "not-vulnerable",
+          "expanded": "Not vulnerable",
+          "description": "No mitigation was required because the system was not vulnerable to the attack."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other"
+        },
+        {
+          "value": "unknown",
+          "expanded": "Unknown",
+          "description": "Unknown"
+        },
+        {
+          "value": "user",
+          "expanded": "User",
+          "description": "User"
+        }
+      ]
+    },
+    {
+      "predicate": "origin",
+      "entry": [
+        {
+          "value": "subscriber",
+          "expanded": "Subscriber",
+          "description": "Subscriber."
+        },
+        {
+          "value": "internet",
+          "expanded": "Internet",
+          "description": "Internet."
+        }
+      ]
+    },
+    {
+      "predicate": "originating-organization",
+      "entry": [
+        {
+          "value": "cse",
+          "expanded": "Cse",
+          "description": "Communications Security Establishment."
+        },
+        {
+          "value": "nsa",
+          "expanded": "Nsa",
+          "description": "National Security Agency."
+        },
+        {
+          "value": "gchq",
+          "expanded": "Gchq",
+          "description": "Government Communications Headquarters."
+        },
+        {
+          "value": "asd",
+          "expanded": "Asd",
+          "description": "Australian Signals Directorate."
+        },
+        {
+          "value": "gcsb",
+          "expanded": "Gcsb",
+          "description": "Government Communications Security Bureau."
+        },
+        {
+          "value": "open-source",
+          "expanded": "Open source",
+          "description": "Originated from publically available information."
+        },
+        {
+          "value": "3rd-party",
+          "expanded": "3rd party",
+          "description": "Originated from a 3rd party organization."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other."
+        }
+      ]
+    },
+    {
+      "predicate": "scan-type",
+      "entry": [
+        {
+          "value": "open-port",
+          "expanded": "Open port",
+          "description": "Scan was looking for open ports corresponding to common applications or protocols."
+        },
+        {
+          "value": "icmp",
+          "expanded": "Icmp",
+          "description": "Scan was attempting to enumerate devices through the ICMP protocol."
+        },
+        {
+          "value": "os-fingerprinting",
+          "expanded": "Os fingerprinting",
+          "description": "Scan was looking for operating system information through unique characteristics in responses."
+        },
+        {
+          "value": "web",
+          "expanded": "Web",
+          "description": "Scan was enumerating or otherwise traversing web hosts."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other."
+        }
+      ]
+    },
+    {
+      "predicate": "severity",
+      "entry": [
+        {
+          "value": "reconnaissance",
+          "expanded": "Reconnaissance",
+          "description": "An actor attempted or succeeded in gaining information that may be used to identify and/or compromise systems or data."
+        },
+        {
+          "value": "attempted-compromise",
+          "expanded": "Attempted compromise",
+          "description": "An actor attempted affecting the confidentiality, integrity or availability of a system."
+        },
+        {
+          "value": "exploited",
+          "expanded": "Exploited",
+          "description": "A vulnerability was successfully exploited."
+        }
+      ]
+    },
+    {
+      "predicate": "threat-vector",
+      "entry": [
+        {
+          "value": "application:cms",
+          "expanded": "Application:cms",
+          "description": "Content Management System."
+        },
+        {
+          "value": "application:bash",
+          "expanded": "Application:bash",
+          "description": "BASH script."
+        },
+        {
+          "value": "application:acrobat-reader",
+          "expanded": "Application:acrobat reader",
+          "description": "Adobe Acrobat Reader."
+        },
+        {
+          "value": "application:ms-excel",
+          "expanded": "Application:ms excel",
+          "description": "Microsoft Excel."
+        },
+        {
+          "value": "application:other",
+          "expanded": "Application:other",
+          "description": "Other Application."
+        },
+        {
+          "value": "language:sql",
+          "expanded": "Language:sql",
+          "description": "Structured Query Language."
+        },
+        {
+          "value": "language:php",
+          "expanded": "Language:php",
+          "description": "PHP: Hypertext Preprocessor."
+        },
+        {
+          "value": "language:javascript",
+          "expanded": "Language:javascript",
+          "description": "JavaScript."
+        },
+        {
+          "value": "language:other",
+          "expanded": "Language:other",
+          "description": "Other Language."
+        },
+        {
+          "value": "protocol:dns",
+          "expanded": "Protocol:dns",
+          "description": "Domain Name System."
+        },
+        {
+          "value": "protocol:ftp",
+          "expanded": "Protocol:ftp",
+          "description": "File Transfer Protocol."
+        },
+        {
+          "value": "protocol:http",
+          "expanded": "Protocol:http",
+          "description": "Hyper Text Transfer Protocol."
+        },
+        {
+          "value": "protocol:icmp",
+          "expanded": "Protocol:icmp",
+          "description": "Internet Control Message Protocol."
+        },
+        {
+          "value": "protocol:ntp",
+          "expanded": "Protocol:ntp",
+          "description": "Network Time Protocol."
+        },
+        {
+          "value": "protocol:rdp",
+          "expanded": "Protocol:rdp",
+          "description": "Remote Desktop Protocol."
+        },
+        {
+          "value": "protocol:smb",
+          "expanded": "Protocol:smb",
+          "description": "Server Message Block."
+        },
+        {
+          "value": "protocol:snmp",
+          "expanded": "Protocol:snmp",
+          "description": "Simple Network Management Protocol."
+        },
+        {
+          "value": "protocol:ssl",
+          "expanded": "Protocol:ssl",
+          "description": "Secure Sockets Layer."
+        },
+        {
+          "value": "protocol:telnet",
+          "expanded": "Protocol:telnet",
+          "description": "Network Virtual Terminal Protocol."
+        },
+        {
+          "value": "protocol:sip",
+          "expanded": "Protocol:sip",
+          "description": "Session Initiation Protocol."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "namespace": "access-method",
+  "description": "The access method used to remotely access a system.",
+  "version": 1,
+  "expanded": "Access method",
+  "predicates": [
+    {
+      "value": "brute-force",
+      "expanded": "Brute force",
+      "description": "Access was gained through systematic trial of credentials in bulk."
+    },
+    {
+      "value": "password-guessing",
+      "expanded": "Password guessing",
+      "description": "Access was gained through guessing passwords through trial and error."
+    },
+    {
+      "value": "remote-desktop-application",
+      "expanded": "Remote desktop application",
+      "description": "Access was gained through an application designed for remote access."
+    },
+    {
+      "value": "stolen-credentials",
+      "expanded": "Stolen credentials",
+      "description": "Access was gained with stolen credentials."
+    },
+    {
+      "value": "pass-the-hash",
+      "expanded": "Pass the hash",
+      "description": "Access was gained through use of an existing known hash."
+    },
+    {
+      "value": "default-credentials",
+      "expanded": "Default credentials",
+      "description": "Access was gained through use of the system's default credentials."
+    },
+    {
+      "value": "shell",
+      "expanded": "Shell",
+      "description": "Access was gained through the use of a shell."
+    },
+    {
+      "value": "other",
+      "expanded": "Other",
+      "description": "Access was gained through another method."
+    }
+  ]
+}

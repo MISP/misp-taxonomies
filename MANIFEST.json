@@ -7,6 +7,11 @@
     },
     {
       "version": 1,
+      "name": "access-method",
+      "description": "The access method used to remotely access a system."
+    },
+    {
+      "version": 1,
       "name": "action-taken",
       "description": "Action taken."
     },
@@ -32,8 +37,18 @@
     },
     {
       "version": 1,
+      "name": "approved-category-of-action",
+      "description": "A pre-approved category of action for indicators being shared with partners (MIMIC)."
+    },
+    {
+      "version": 1,
       "name": "binary-class",
       "description": ""
+    },
+    {
+      "version": 1,
+      "name": "cccs",
+      "description": "Internal taxonomy for CCCS."
     },
     {
       "version": 1,
@@ -149,6 +164,11 @@
       "version": 1,
       "name": "information-security-indicators",
       "description": "Information security indicators have been standardized by the ETSI Industrial Specification Group (ISG) ISI. These indicators provide the basis to switch from a qualitative to a quantitative culture in IT Security Scope of measurements: External and internal threats (attempt and success), user's deviant behaviours, nonconformities and/or vulnerabilities (software, configuration, behavioural, general security framework). ETSI GS ISI 001-1 (V1.1.2): ISI Indicators"
+    },
+    {
+      "version": 1,
+      "name": "interception-method",
+      "description": "The interception method used to intercept traffic."
     },
     {
       "version": 1,

@@ -1,0 +1,43 @@
+{
+  "namespace": "interception-method",
+  "description": "The interception method used to intercept traffic.",
+  "version": 1,
+  "expanded": "Interception method",
+  "predicates": [
+    {
+      "value": "man-in-the-middle",
+      "expanded": "Man-in-the-middle",
+      "description": "Interception where an attacker secretly relayed and possibly altered the communication between two parties."
+    },
+    {
+      "value": "man-on-the-side",
+      "expanded": "Man-on-the-side",
+      "description": "Interception where an attacker could read and send messages between two parties but not alter messages."
+    },
+    {
+      "value": "passive",
+      "expanded": "Passive",
+      "description": "Interception where an attacker could read messages between two parties."
+    },
+    {
+      "value": "search-result-poisoning",
+      "expanded": "Search result poisoning",
+      "description": "Interception where an attacker creates malicious websites intended to show up in search engine queries."
+    },
+    {
+      "value": "dns",
+      "expanded": "Dns",
+      "description": "Interception where domain name resolution is altered to re-direct traffic to a malicious IP address."
+    },
+    {
+      "value": "host-file",
+      "expanded": "Host file",
+      "description": "Interception where the HOSTS file is modified to re-direct traffic to a malicious IP address."
+    },
+    {
+      "value": "other",
+      "expanded": "Other",
+      "description": "Other."
+    }
+  ]
+}
