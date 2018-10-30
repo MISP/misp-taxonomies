@@ -379,11 +379,16 @@
       "version": 1,
       "name": "file-type",
       "description": "List of known file types."
+    },
+    {
+      "version": 1,
+      "name": "gsma-attack-category",
+      "description": "Taxonomy used by GSMA for their information sharing program with telco describing the attack categories"
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20180930"
+  "version": "20181031"
 }
