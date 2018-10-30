@@ -1,7 +1,7 @@
 {
   "namespace": "gsma-network-technology",
   "description": "Taxonomy used by GSMA for their information sharing program with telco describing the types of infrastructure. WiP",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "user",
@@ -20,8 +20,8 @@
       "expanded": "Services"
     },
     {
-      "value": "radio-area-network",
-      "expanded": "Radio Area Network (RAN)"
+      "value": "radio-access-network",
+      "expanded": "Radio Access Network (RAN)"
     },
     {
       "value": "support-and-provisioning-systems",
