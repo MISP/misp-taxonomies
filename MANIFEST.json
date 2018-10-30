@@ -384,6 +384,11 @@
       "version": 1,
       "name": "gsma-attack-category",
       "description": "Taxonomy used by GSMA for their information sharing program with telco describing the attack categories"
+    },
+    {
+      "version": 1,
+      "name": "gsma-fraud",
+      "description": "Taxonomy used by GSMA for their information sharing program with telco describing the various aspects of fraud"
     }
   ],
   "path": "machinetag.json",

@@ -1,0 +1,250 @@
+{
+  "namespace": "gsma-fraud",
+  "description": "Taxonomy used by GSMA for their information sharing program with telco describing the various aspects of fraud",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "technical",
+      "expanded": "Technical"
+    },
+    {
+      "value": "subsription",
+      "expanded": "Subscription"
+    },
+    {
+      "value": "distribution",
+      "expanded": "Distribution"
+    },
+    {
+      "value": "business",
+      "expanded": "Business"
+    },
+    {
+      "value": "prepaid",
+      "expanded": "Prepaid"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "technical",
+      "entry": [
+        {
+          "value": "mailbox-hacking",
+          "expanded": "Mailbox Hacking (CLI Spoofing)"
+        },
+        {
+          "value": "imei-reprogramming",
+          "expanded": "IMEI Reprogramming"
+        },
+        {
+          "value": "call-forwarding-fraud",
+          "expanded": "Call Forwarding Fraud"
+        },
+        {
+          "value": "call-conference",
+          "expanded": "Call Conference / Multi-Party Calls"
+        },
+        {
+          "value": "hlr-tampering",
+          "expanded": "HLR Tampering / Switch Manipulation"
+        },
+        {
+          "value": "sim-card-cloning",
+          "expanded": "SIM Card Cloning"
+        },
+        {
+          "value": "false-base-station-attack",
+          "expanded": "False Base Station Attack"
+        },
+        {
+          "value": "spamming",
+          "expanded": "Spamming (SMS & IP services)"
+        },
+        {
+          "value": "phishing-pharming",
+          "expanded": "Phishing and Pharming"
+        },
+        {
+          "value": "mobile-malware",
+          "expanded": "Mobile Malware"
+        },
+        {
+          "value": "fraud-risks-associated-with-voice-over-ip-services",
+          "expanded": "Fraud Risks associated with Voice over IP Services"
+        },
+        {
+          "value": "pbx-hacking",
+          "expanded": "PBX Hacking"
+        },
+        {
+          "value": "fraud-risks-associated-with-m2m-services",
+          "expanded": "Fraud Risks Associated with M2M Services"
+        },
+        {
+          "value": "data-charing-bypass",
+          "expanded": "Data Charing Bypass"
+        }
+      ]
+    },
+    {
+      "predicate": "subscription",
+      "entry": [
+        {
+          "value": "subscription-fraud",
+          "expanded": "Subscription Fraud"
+        },
+        {
+          "value": "proxy-fraud",
+          "expanded": "Proxy Fraud"
+        },
+        {
+          "value": "account-takeover",
+          "expanded": "Account Takeover"
+        },
+        {
+          "value": "call-selling",
+          "expanded": "Call Selling"
+        },
+        {
+          "value": "direct-debit-fraud",
+          "expanded": "Direct Debug Fraud"
+        },
+        {
+          "value": "credit-card-fraud",
+          "expanded": "Credit Card Fraud (Card Present)"
+        },
+        {
+          "value": "credit-card-not-present-transactions",
+          "expanded": "Credit Card Not Present Transactions"
+        },
+        {
+          "value": "cheque-fraud",
+          "expanded": "Cheque Fraud"
+        }
+      ]
+    },
+    {
+      "predicate": "distribution",
+      "entry": [
+        {
+          "value": "dealer-fraud",
+          "expanded": "Dealer Fraud"
+        },
+        {
+          "value": "false-agent",
+          "expanded": "False Agent / Remote Activation Fraud"
+        },
+        {
+          "value": "theft-and-handling-stolen-goods",
+          "expanded": "Theft and Handling Stolen Goods"
+        },
+        {
+          "value": "handset-subsidy-loss",
+          "expanded": "Handset Subsidy Loss"
+        },
+        {
+          "value": "remote-order-fraud",
+          "expanded": "Remote Order Fraud"
+        }
+      ]
+    },
+    {
+      "predicate": "business",
+      "entry": [
+        {
+          "value": "premium-rate",
+          "expanded": "Premium Rate / Audiotext Services Fraud (PRS)"
+        },
+        {
+          "value": "roaming-fraud",
+          "expanded": "Roaming Fraud"
+        },
+        {
+          "value": "international-revenue-share-fraud",
+          "expanded": "International Revenue Share Fraud"
+        },
+        {
+          "value": "inbound-roaming-fraud-risk-to-vpmn",
+          "expanded": "Inbound Roaming Fraud Risk to VPMN"
+        },
+        {
+          "value": "interconnect-abuse",
+          "expanded": "Interconnect Abuse (GSM Gateways)"
+        },
+        {
+          "value": "refiling",
+          "expanded": "Refiling"
+        },
+        {
+          "value": "mobile-to-fixed-network-gateway-abuse",
+          "expanded": "Mobile to Fixed Network Gateways Abuse"
+        },
+        {
+          "value": "false-answer-false-ring",
+          "expanded": "False Answer / False Ring"
+        },
+        {
+          "value": "social-engineering",
+          "expanded": "Social Engineering"
+        },
+        {
+          "value": "internal-fraud",
+          "expanded": "Internal Fraud"
+        },
+        {
+          "value": "normal-business-fraud-crime",
+          "expanded": "Normal Business Fraud and Crime"
+        },
+        {
+          "value": "brand-name-logo-abuse",
+          "expanded": "Brand Name / Logo Abuse"
+        },
+        {
+          "value": "m-commerce-provider-content-fraud",
+          "expanded": "M-Commerce Provider Content Fraud"
+        },
+        {
+          "value": "m-commerce-provider-prs-fraud",
+          "expanded": "M-Commerce Provider PRS Fraud"
+        },
+        {
+          "value": "content-theft",
+          "expanded": "Content Theft"
+        },
+        {
+          "value": "wangiri",
+          "expanded": "Wangiri"
+        },
+        {
+          "value": "airtime-reseller-fraud",
+          "expanded": "Airtime Reseller Fraud"
+        }
+      ]
+    },
+    {
+      "predicate": "prepaid",
+      "entry": [
+        {
+          "value": "services-fraud",
+          "expanded": "Prepaid Services Fraud - General"
+        },
+        {
+          "value": "hlr-profile-manipulation",
+          "expanded": "HLR Profile Manipulation"
+        },
+        {
+          "value": "manual-recharging",
+          "expanded": "Manual Recharging"
+        },
+        {
+          "value": "generation-of-abusive-credits",
+          "expanded": "Generation of Abusive Calls"
+        },
+        {
+          "value": "scartch-card-abuse",
+          "expanded": "Scratch Card Abuse"
+        }
+      ]
+    }
+  ]
+}
