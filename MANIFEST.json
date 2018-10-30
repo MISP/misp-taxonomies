@@ -389,6 +389,11 @@
       "version": 1,
       "name": "gsma-fraud",
       "description": "Taxonomy used by GSMA for their information sharing program with telco describing the various aspects of fraud"
+    },
+    {
+      "version": 1,
+      "name": "gsma-network-technology",
+      "description": "Taxonomy used by GSMA for their information sharing program with telco describing the types of infrastructure. WiP"
     }
   ],
   "path": "machinetag.json",
