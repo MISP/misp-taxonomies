@@ -1,7 +1,7 @@
 {
   "namespace": "gsma-network-technology",
   "description": "Taxonomy used by GSMA for their information sharing program with telco describing the types of infrastructure. WiP",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "user",
@@ -36,8 +36,8 @@
       "expanded": "Core"
     },
     {
-      "value": "smart-cards-and-embedded-modules",
-      "expanded": "Smart cards and embedded modules"
+      "value": "sim-secure-element-modules",
+      "expanded": "SIM, Secure Element and Modules"
     }
   ],
   "values": [
