@@ -1,0 +1,39 @@
+{
+  "namespace": "gsma-attack-category",
+  "description": "Taxonomy used by GSMA for their information sharing program with telco describing the attack categories",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "denial-of-service",
+      "expanded": "(Distributed) Denial of Service"
+    },
+    {
+      "value": "exploit-attack",
+      "expanded": "Exploit attack"
+    },
+    {
+      "value": "information-gathering",
+      "expanded": "Information gathering"
+    },
+    {
+      "value": "insider-attack",
+      "expanded": "Insider attack"
+    },
+    {
+      "value": "interception-attack",
+      "expanded": "Interception attack"
+    },
+    {
+      "value": "manipulation-attack",
+      "expanded": "Manipulation attack"
+    },
+    {
+      "value": "physical-attack",
+      "expanded": "Physical attack"
+    },
+    {
+      "value": "spoofing",
+      "expanded": "Spoofing"
+    }
+  ]
+}
