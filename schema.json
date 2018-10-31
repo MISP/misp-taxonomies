@@ -3,8 +3,13 @@
   "title": "Validator for misp-taxonomies",
   "id": "https://www.github.com/MISP/misp-taxonomies/schema.json",
   "defs": {
+    "non-empty-string": {
+      "type": "string",
+      "minLength": 1
+    },
     "entry": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "items": {
         "type": "object",
@@ -14,16 +19,16 @@
             "type": "number"
           },
           "expanded": {
-            "type": "string"
+            "$ref": "#/defs/non-empty-string"
           },
           "description": {
-            "type": "string"
+            "$ref": "#/defs/non-empty-string"
           },
           "colour": {
-            "type": "string"
+            "$ref": "#/defs/non-empty-string"
           },
           "value": {
-            "type": "string"
+            "$ref": "#/defs/non-empty-string"
           },
           "required": [
             "value"
@@ -33,6 +38,7 @@
     },
     "values": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "items": {
         "type": "object",
@@ -42,7 +48,7 @@
             "$ref": "#/defs/entry"
           },
           "predicate": {
-            "type": "string"
+            "$ref": "#/defs/non-empty-string"
           }
         },
         "required": [
@@ -52,6 +58,7 @@
     },
     "predicates": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "items": {
         "type": "object",
@@ -61,16 +68,16 @@
             "type": "number"
           },
           "colour": {
-            "type": "string"
+            "$ref": "#/defs/non-empty-string"
           },
           "description": {
-            "type": "string"
+            "$ref": "#/defs/non-empty-string"
           },
           "expanded": {
-            "type": "string"
+            "$ref": "#/defs/non-empty-string"
           },
           "value": {
-            "type": "string"
+            "$ref": "#/defs/non-empty-string"
           },
           "exclusive": {
             "type": "boolean"
@@ -89,19 +96,20 @@
       "type": "integer"
     },
     "description": {
-      "type": "string"
+      "$ref": "#/defs/non-empty-string"
     },
     "expanded": {
-      "type": "string"
+      "$ref": "#/defs/non-empty-string"
     },
     "namespace": {
-      "type": "string"
+      "$ref": "#/defs/non-empty-string"
     },
     "exclusive": {
       "type": "boolean"
     },
     "type": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "items": {
         "type": "string",
@@ -115,9 +123,10 @@
     },
     "refs": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "items": {
-        "type": "string"
+        "$ref": "#/defs/non-empty-string"
       }
     },
     "predicates": {
