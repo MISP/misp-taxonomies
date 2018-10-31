@@ -42,20 +42,11 @@
   ],
   "values": [
     {
-      "predicate": "user",
-      "entry": []
-    },
-    {
-      "predicate": "application",
-      "entry": []
-    },
-    {
       "predicate": "end-devices-and-components",
       "entry": [
         {
           "value": "ms",
-          "expanded": "Mobile Station",
-          "description": ""
+          "expanded": "Mobile Station"
         },
         {
           "value": "mobile-equipment-radio",
