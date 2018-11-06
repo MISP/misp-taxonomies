@@ -394,6 +394,11 @@
       "version": 1,
       "name": "gsma-network-technology",
       "description": "Taxonomy used by GSMA for their information sharing program with telco describing the types of infrastructure. WiP"
+    },
+    {
+      "version": 1,
+      "name": "rtir_event_classification",
+      "description": "RTIR Event Classification."
     }
   ],
   "path": "machinetag.json",
