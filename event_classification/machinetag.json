@@ -1,6 +1,6 @@
 {
-  "namespace": "rtir_event_classification",
-  "description": "Classify an RT/IR event",
+  "namespace": "event_classification",
+  "description": "Classification of RT/IR and other kind of events",
   "version": 1,
   "predicates": [
     {
@@ -13,28 +13,28 @@
       "predicate": "event-class",
       "entry": [
         {
-          "value": "incident_reports",
-          "expanded": "Incident Reports"
+          "value": "incident_report",
+          "expanded": "Incident Report"
         },
         {
-          "value": "incidents",
-          "expanded": "Incidents"
+          "value": "incident",
+          "expanded": "Incident"
         },
         {
-          "value": "investigations",
-          "expanded": "Investigations"
+          "value": "investigation",
+          "expanded": "Investigation"
         },
         {
-          "value": "countermeasures",
-          "expanded": "Countermeasures"
+          "value": "countermeasure",
+          "expanded": "Countermeasure"
         },
         {
           "value": "general",
           "expanded": "General"
         },
         {
-          "value": "exercises",
-          "expanded": "Exercises"
+          "value": "exercise",
+          "expanded": "Exercise"
         }
       ]
     }
