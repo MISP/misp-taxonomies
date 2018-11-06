@@ -397,8 +397,8 @@
     },
     {
       "version": 1,
-      "name": "rtir_event_classification",
-      "description": "RTIR Event Classification."
+      "name": "event_classification",
+      "description": "Event Classification."
     }
   ],
   "path": "machinetag.json",
