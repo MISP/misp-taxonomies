@@ -397,7 +397,7 @@
     },
     {
       "version": 1,
-      "name": "event_classification",
+      "name": "event-classification",
       "description": "Event Classification."
     }
   ],
@@ -405,5 +405,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20181031"
+  "version": "20181106"
 }

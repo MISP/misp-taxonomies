@@ -1,6 +1,6 @@
 {
-  "namespace": "event_classification",
-  "description": "Classification of RT/IR and other kind of events",
+  "namespace": "event-classification",
+  "description": "Classification of events as seen in tools such as RT/IR, MISP and other",
   "version": 1,
   "predicates": [
     {
