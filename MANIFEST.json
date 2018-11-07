@@ -399,11 +399,16 @@
       "version": 1,
       "name": "event-classification",
       "description": "Event Classification."
+    },
+    {
+      "version": 1,
+      "name": "cyber-exercise",
+      "description": "Cyber exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise"
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20181106"
+  "version": "20181107"
 }
