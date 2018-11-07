@@ -19,9 +19,29 @@
       "description": "LÜKEX ist ein Kurzwort für Länderübergreifende Krisenmanagementübung (EXercise) und die Bezeichnung für regelmäßig stattfindende Übungen in der Bundesrepublik Deutschland. Ziel von Lükex ist es, das gemeinsame Management des Bundes und der Länder in nationalen Krisen aufgrund von außergewöhnlichen Gefahren- und Schadenslagen auf strategischer Ebene zu verbessern.",
       "expanded": "LÜKEX",
       "value": "lukex"
+    },
+    {
+      "description": "Cyber Coalition tests and trains cyber defenders from across the Alliance in their ability to defend NATO and national networks. From defence against malware, through tackling hybrid challenges involving social media, to attacks on mobile devices, the exercise has a challenging, realistic scenario that helps prepare our cyber defenders for real-life cyber challenges. The training includes testing of operational and legal procedures, exchange of information and work with industry and partners.",
+      "expanded": "Cyber Coalition",
+      "value": "cyber-coalition"
     }
   ],
   "values": [
+    {
+      "predicate": "cyber-coalition",
+      "entry": [
+        {
+          "value": "2017",
+          "expanded": "2017",
+          "description": "NATO Cyber Coalition 2017"
+        },
+        {
+          "value": "2018",
+          "expanded": "2018",
+          "description": "NATO Cyber Coalition 2018"
+        }
+      ]
+    },
     {
       "predicate": "cyber-europe",
       "entry": [
@@ -44,6 +64,11 @@
           "value": "2017",
           "expanded": "2017",
           "description": "Locked Shields 2017"
+        },
+        {
+          "value": "2018",
+          "expanded": "2018",
+          "description": "Locked Shields 2018"
         }
       ]
     },
@@ -68,7 +93,7 @@
       ]
     }
   ],
-  "version": 1,
+  "version": 2,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise"
