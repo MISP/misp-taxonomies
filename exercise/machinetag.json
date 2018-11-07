@@ -69,7 +69,7 @@
     }
   ],
   "version": 1,
-  "description": "Cyber exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
-  "expanded": "Cyber Exercise",
-  "namespace": "cyber-exercise"
+  "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
+  "expanded": "Exercise",
+  "namespace": "exercise"
 }

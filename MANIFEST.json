@@ -402,8 +402,8 @@
     },
     {
       "version": 1,
-      "name": "cyber-exercise",
-      "description": "Cyber exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise"
+      "name": "exercise",
+      "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise"
     }
   ],
   "path": "machinetag.json",
