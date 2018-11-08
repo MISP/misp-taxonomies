@@ -24,6 +24,11 @@
       "description": "Cyber Coalition tests and trains cyber defenders from across the Alliance in their ability to defend NATO and national networks. From defence against malware, through tackling hybrid challenges involving social media, to attacks on mobile devices, the exercise has a challenging, realistic scenario that helps prepare our cyber defenders for real-life cyber challenges. The training includes testing of operational and legal procedures, exchange of information and work with industry and partners.",
       "expanded": "Cyber Coalition",
       "value": "cyber-coalition"
+    },
+    {
+      "description": "NATO-EU Parallel and Coordinated Exercise. PACE focuses on four key areas, namely situational awareness, effectiveness of our instruments to counter cyber threats at EU level, speed of reaction and appropriate reactivity of our crisis response mechanisms, as well as our capacity to communicate fast and in a coordinated way.",
+      "expanded": "PACE",
+      "value": "pace"
     }
   ],
   "values": [
@@ -91,9 +96,23 @@
           "description": "Cyber-Angriff auf die deutsche Stromversorgung"
         }
       ]
+    },
+    {
+      "predicate": "pace",
+      "entry": [
+        {
+          "value": "2017",
+          "expanded": "2017",
+          "description": "PACE17 will focus on four key areas, namely situational awareness, effectiveness of our instruments to counter cyber threats at EU level, speed of reaction and appropriate reactivity of our crisis response mechanisms, as well as our capacity to communicate fast and in a coordinated way. The exercise will be followed by an evaluation phase, to identify lessons learned and improve our toolbox."
+        },
+        {
+          "value": "2018",
+          "expanded": "2018"
+        }
+      ]
     }
   ],
-  "version": 2,
+  "version": 3,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise"
