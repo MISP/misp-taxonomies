@@ -13,7 +13,7 @@
       "value": "certainty"
     }
   ],
-  "version": 9,
+  "version": 10,
   "description": "Open Source Intelligence - Classification (MISP taxonomies)",
   "namespace": "osint",
   "values": [
@@ -61,6 +61,10 @@
           "expanded": "Source code repository"
         },
         {
+          "value": "accessible-evidence",
+          "expanded": "Infrastructure allowing the gathering of the evidences such as open directories, public web services or left over on public services"
+        },
+        {
           "value": "expansion",
           "expanded": "Expansion"
         },
@@ -70,11 +74,15 @@
         },
         {
           "value": "automatic-collection",
-          "expanded": "Automatic collection including honeypots, spamtramps or equivalent technologies"
+          "expanded": "Automatic collection including honeypots, spamtraps or equivalent technologies"
         },
         {
           "value": "manual-analysis",
           "expanded": "Manual analysis or investigation"
+        },
+        {
+          "value": "manual-collection",
+          "expanded": "Manual collection from crawlers, honeypots, spamtraps, gathering tools or equivalent technologies"
         },
         {
           "value": "unknown",
