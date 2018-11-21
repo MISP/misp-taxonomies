@@ -33,21 +33,6 @@
   ],
   "values": [
     {
-      "predicate": "cyber-coalition",
-      "entry": [
-        {
-          "value": "2017",
-          "expanded": "2017",
-          "description": "NATO Cyber Coalition 2017"
-        },
-        {
-          "value": "2018",
-          "expanded": "2018",
-          "description": "NATO Cyber Coalition 2018"
-        }
-      ]
-    },
-    {
       "predicate": "cyber-europe",
       "entry": [
         {
@@ -59,6 +44,16 @@
           "value": "2016",
           "expanded": "2016",
           "description": "4th pan-European cyber exercise, Cyber Europe 2016"
+        }
+      ]
+    },
+    {
+      "predicate": "cyber-storm",
+      "entry": [
+        {
+          "value": "spring-2018",
+          "expanded": "Spring 2018",
+          "description": "The sixth iteration of the Cyber Storm exercise series, Cyber Storm VI, is scheduled for Spring 2018"
         }
       ]
     },
@@ -78,22 +73,27 @@
       ]
     },
     {
-      "predicate": "cyber-storm",
-      "entry": [
-        {
-          "value": "spring-2018",
-          "expanded": "Spring 2018",
-          "description": "The sixth iteration of the Cyber Storm exercise series, Cyber Storm VI, is scheduled for Spring 2018"
-        }
-      ]
-    },
-    {
       "predicate": "lukex",
       "entry": [
         {
           "value": "2020",
           "expanded": "2020",
           "description": "Cyber-Angriff auf die deutsche Stromversorgung"
+        }
+      ]
+    },
+    {
+      "predicate": "cyber-coalition",
+      "entry": [
+        {
+          "value": "2017",
+          "expanded": "2017",
+          "description": "NATO Cyber Coalition 2017"
+        },
+        {
+          "value": "2018",
+          "expanded": "2018",
+          "description": "NATO Cyber Coalition 2018"
         }
       ]
     },
