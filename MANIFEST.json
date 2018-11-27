@@ -31,9 +31,9 @@
       "description": "AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)"
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "analyst-assessment",
-      "description": ""
+      "description": "A series of assessment predicates describing the analyst capabilities to perform analysis. These assessment can be assigned by the analyst him/herself or by another party evaluating the analyst."
     },
     {
       "version": 1,
@@ -43,10 +43,10 @@
     {
       "version": 1,
       "name": "binary-class",
-      "description": ""
+      "description": "Custom taxonomy for types of binary file."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "cccs",
       "description": "Internal taxonomy for CCCS."
     },
@@ -56,7 +56,7 @@
       "description": "CERT-XLM Security Incident Classification."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "circl",
       "description": "CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place."
     },
@@ -71,12 +71,12 @@
       "description": "FIRST CSIRT Case Classification."
     },
     {
-      "version": 1,
+      "version": 4,
       "name": "cssa",
-      "description": ""
+      "description": "The CSSA agreed sharing taxonomy."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "ddos",
       "description": "Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too."
     },
@@ -223,7 +223,7 @@
     {
       "version": 1,
       "name": "pentest",
-      "description": "Pentest taxonomy"
+      "description": "Penetration test (pentest) classification."
     },
     {
       "version": 1,
@@ -410,5 +410,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20181107"
+  "version": "20181127"
 }
