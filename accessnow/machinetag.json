@@ -111,7 +111,7 @@
       "value": "youth-rights"
     }
   ],
-  "version": 2,
-  "description": "Access Now",
+  "version": 3,
+  "description": "Access Now classification to classify the issue (such as security, human rights, youth rights).",
   "namespace": "accessnow"
 }
