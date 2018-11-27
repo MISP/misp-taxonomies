@@ -1,9 +1,9 @@
 {
   "taxonomies": [
     {
-      "version": 1,
+      "version": 3,
       "name": "accessnow",
-      "description": "Access Now"
+      "description": "Access Now classification to classify an issue (such as security, human rights, youth rights)."
     },
     {
       "version": 1,
@@ -11,9 +11,9 @@
       "description": "The access method used to remotely access a system."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "action-taken",
-      "description": "Action taken."
+      "description": "Action taken in the case of a security incident (CSIRT perspective)."
     },
     {
       "version": 2,

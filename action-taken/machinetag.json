@@ -1,7 +1,7 @@
 {
   "namespace": "action-taken",
-  "description": "Action taken",
-  "version": 1,
+  "description": "Action taken in the case of a security incident (CSIRT perspective).",
+  "version": 2,
   "predicates": [
     {
       "value": "informed ISP/Hosting Service Provider",
