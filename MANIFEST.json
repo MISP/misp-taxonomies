@@ -401,6 +401,11 @@
       "description": "Event Classification."
     },
     {
+      "version": 1,
+      "name": "use-case-applicability",
+      "description": "The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems."
+    },
+    {
       "version": 2,
       "name": "exercise",
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise"
