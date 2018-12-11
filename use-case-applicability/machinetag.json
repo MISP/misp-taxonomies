@@ -1,0 +1,48 @@
+{
+  "namespace": "use-case-applicability",
+  "expanded": "Continuous Monitoring Resolution Category",
+  "description": "The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "announced-administrative/user-action",
+      "expanded": "Announced administrative/user action",
+      "description": "The process to communicate administrative activities or special user actions was in place and working correctly. Internal sensors are working and detecting privileged or irregular administrative behaviour."
+    },
+    {
+      "value": "unannounced-administrative/user-action",
+      "expanded": "Unannounced administrative/user action",
+      "description": "Internal sensors have detected privileged or user activity, which was not previously communicated. This category also includes improper usage."
+    },
+    {
+      "value": "log-management-rule-configuration-error",
+      "expanded": "Log management rule configuration error",
+      "description": "This category reflects false alerts that were raised due to configuration errors in the central log management system, often a SIEM, rule."
+    },
+    {
+      "value": "detection-device/rule-configuration-error",
+      "expanded": "Detection device/rule configuration error",
+      "description": "This category reflects rules on detection devices, which are usually passive or active components of network security."
+    },
+    {
+      "value": "bad-IOC/rule-pattern-value",
+      "expanded": "Bad IOC/rule pattern value",
+      "description": "Products often require external indicator information or security feeds to be applied on active or passive infrastructure components to create alerts."
+    },
+    {
+      "value": "test-alert",
+      "expanded": "Test alert",
+      "description": "This alert reflects alerts created for testing purposes. "
+    },
+    {
+      "value": "confirmed-attack-with-IR-actions",
+      "expanded": "Confirmed Attack with IR actions",
+      "description": "This alert represents the classic true positives, where all security controls in place were circumvented, a security control was lacking or a misconfiguration of a security element occurred."
+    },
+    {
+      "value": "confirmed-attack-attempt-without-IR-actions",
+      "expanded": "Confirmed Attack attempt without IR actions",
+      "description": "This category reflects an attempt by a threat actor, which in the end could be prevented by in place security measures but passed security controls associated with the delivery phase of the Cyber Kill Chain."
+    }
+  ]
+}
