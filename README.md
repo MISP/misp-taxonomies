@@ -53,6 +53,7 @@ bfuscation techniques. This taxonomy lists all the known or official packer used
 - [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./PAP)
 - [Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer.](./targeted-threat-index)
 - [TLP - Traffic Light Protocol](./tlp)
+- [Type](./type)
 - [Vocabulaire des probabilités estimatives](./vocabulaire-des-probabilites-estimatives)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 - [Binary Classification](./binary-class) safe/malicious binary tagging
@@ -271,4 +272,3 @@ or
 ~~~~~
 
 If a specific author of a taxonomy wants to license it under a different license, a pull request can be requested.
-
