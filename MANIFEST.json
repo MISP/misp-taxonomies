@@ -301,7 +301,7 @@
       "description": "Sectors and sub sectors as identified by the NIS Directive."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "economical-impact",
       "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information."
     },
