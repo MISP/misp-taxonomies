@@ -1,8 +1,8 @@
 {
   "namespace": "economical-impact",
   "expanded": " Economical Impact",
-  "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information.",
-  "version": 1,
+  "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information (e.g. data exfiltration loss, a positive gain for an adversary).",
+  "version": 2,
   "refs": [
     "https://www.misp-project.org/"
   ],
@@ -28,7 +28,23 @@
         },
         {
           "value": "less-than-1M-euro",
-          "expanded": "Less than EUR 1 000 000"
+          "expanded": "Less than 1 million EUR"
+        },
+        {
+          "value": "less-than-10M-euro",
+          "expanded": "Less than 10 million EUR"
+        },
+        {
+          "value": "less-than-100M-euro",
+          "expanded": "Less than 100 million EUR"
+        },
+        {
+          "value": "less-than-1B-euro",
+          "expanded": "Less than 1 billion EUR"
+        },
+        {
+          "value": "more-than-1B-euro",
+          "expanded": "More than 1 billion EUR"
         }
       ]
     },
@@ -53,7 +69,23 @@
         },
         {
           "value": "less-than-1M-euro",
-          "expanded": "Less than EUR 1 000 000"
+          "expanded": "Less than 1 million EUR"
+        },
+        {
+          "value": "less-than-10M-euro",
+          "expanded": "Less than 10 million EUR"
+        },
+        {
+          "value": "less-than-100M-euro",
+          "expanded": "Less than 100 million EUR"
+        },
+        {
+          "value": "less-than-1B-euro",
+          "expanded": "Less than 1 billion EUR"
+        },
+        {
+          "value": "more-than-1B-euro",
+          "expanded": "More than 1 billion EUR"
         }
       ]
     }
