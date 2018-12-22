@@ -408,12 +408,17 @@
     {
       "version": 2,
       "name": "exercise",
-      "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise"
+      "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise."
+    },
+    {
+      "version": 1,
+      "name": "data-classification",
+      "description": "Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20181127"
+  "version": "20181222"
 }
