@@ -2,10 +2,61 @@
   "predicates": [
     {
       "expanded": "Open Source Intelligence",
+      "description": "gathered from open sources",
       "value": "OSINT"
+    },
+    {
+      "expanded": "Signal Intelligence",
+      "description": "gathered from interception of signals",
+      "value": "SIGINT"
+    },
+    {
+      "expanded": "Technical Intelligence",
+      "description": "gathered from analysis of weapons and equipment used by the armed forces of foreign nations, or environmental conditions",
+      "value": "TECHINT"
+    },
+    {
+      "expanded": "Cyberspace Intelligence",
+      "description": "gathered from active or passive exploitation (CNE) in the cyberspace",
+      "value": "CYBINT"
+    },
+    {
+      "expanded": "Digital Network Intelligence",
+      "description": "gathered from active or passive expoilation (CNE) in the digital network.",
+      "value": "DNINT"
+    },
+    {
+      "expanded": "Human Intelligence",
+      "description": "gathered from a person in the location in question",
+      "value": "HUMINT"
+    },
+    {
+      "expanded": "Medical Intelligence",
+      "description": "gathered from analysis of medical records and/or actual physiological examinations to determine health and/or particular ailments/allergetic conditions for consideration",
+      "value": "MEDINT"
+    },
+    {
+      "expanded": "Geospatial Intelligence",
+      "description": "gathered from satellite, aerial photography, mapping/terrain data",
+      "value": "GEOINT"
+    },
+    {
+      "expanded": "Imagery Intelligence",
+      "description": "gathered from satellite and aerial photography",
+      "value": "IMINT"
+    },
+    {
+      "expanded": "Measurement and signature intelligence",
+      "description": "gathered from electro-optical, nuclear survey, geophysical measurements, radar, materials analysis",
+      "value": "MASINT"
+    },
+    {
+      "expanded": "Financial Intelligence",
+      "description": "gathered from analysis of monetary or financial transactions",
+      "value": "FININT"
     }
   ],
   "version": 1,
-  "description": "Taxonomy to describe different types of data",
+  "description": "Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence.",
   "namespace": "type"
 }

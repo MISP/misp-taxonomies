@@ -414,11 +414,16 @@
       "version": 1,
       "name": "data-classification",
       "description": "Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book."
+    },
+    {
+      "version": 1,
+      "name": "type",
+      "description": "Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20181222"
+  "version": "20181225"
 }
