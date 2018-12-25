@@ -1,0 +1,11 @@
+{
+  "predicates": [
+    {
+      "expanded": "Open Source Intelligence",
+      "value": "OSINT"
+    }
+  ],
+  "version": 1,
+  "description": "Taxonomy to describe different types of data",
+  "namespace": "type"
+}
