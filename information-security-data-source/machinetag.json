@@ -87,6 +87,21 @@
           "description": "Information regarding any object or characteristic that has value to an organization"
         }
       ]
+    },
+    {
+      "predicate": "originality",
+      "entry": [
+        {
+          "value": "original-source",
+          "expanded": "Original source",
+          "description": "Information originates from the data sources which publish their own information"
+        },
+        {
+          "value": "secondary-source",
+          "expanded": "Secondary source",
+          "description": "Information is integrated or copied from another information security data source"
+        }
+      ]
     }
   ]
 }
