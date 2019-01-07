@@ -419,11 +419,16 @@
       "version": 1,
       "name": "type",
       "description": "Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence."
+    },
+    {
+      "version": 1,
+      "name": "information-security-data-source",
+      "description": "Taxonomy to classify the information security data sources"
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20181225"
+  "version": "20190106"
 }
