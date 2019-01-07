@@ -59,32 +59,32 @@
         {
           "value": "vulnerability",
           "expanded": "Vulnerability",
-          "description": ""
+          "description": "Information regarding a weakness of an asset which might be exploited by a threat"
         },
         {
           "value": "threat",
           "expanded": "Threat",
-          "description": ""
+          "description": "Information regarding the potential cause on an unwanted incident"
         },
         {
           "value": "countermeasure",
           "expanded": "Countermeasure",
-          "description": ""
+          "description": "Information regarding any administrative, managerial, technical or legal control that is used to counteract an information security risk"
         },
         {
           "value": "attack",
           "expanded": "Attack",
-          "description": ""
+          "description": "Information regarding any unauthorized attempt to access, alter or destroy an asset"
         },
         {
           "value": "risk",
           "expanded": "Risk",
-          "description": ""
+          "description": "Information describing the consequences of a potential event, such as an attack"
         },
         {
           "value": "asset",
           "expanded": "Asset",
-          "description": ""
+          "description": "Information regarding any object or characteristic that has value to an organization"
         }
       ]
     }
