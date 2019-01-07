@@ -1,0 +1,92 @@
+{
+  "namespace": "information-security-data-source",
+  "description": "Taxonomy to classify the information security data sources.",
+  "refs": [
+    "https://www.sciencedirect.com/science/article/pii/S0167404818304978"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "originality",
+      "expanded": "Originality",
+      "description": "Originality and novelty of the provided information"
+    },
+    {
+      "value": "timeliness-sharing-behavior",
+      "expanded": "Timeliness sharing behavior",
+      "description": "Timeliness of the provided information"
+    },
+    {
+      "value": "type-of-information",
+      "expanded": "Type of information",
+      "description": "Type of provided information"
+    },
+    {
+      "value": "integrability-format",
+      "expanded": "Integrability format",
+      "description": "Level of integrability format for the provided information"
+    },
+    {
+      "value": "integrability-interface",
+      "expanded": "Integrability interface",
+      "description": "Level of integrability interface for the provided information"
+    },
+    {
+      "value": "type-of-source",
+      "expanded": "Type of source",
+      "description": "Types of information security data source"
+    },
+    {
+      "value": "trustworthiness-creditabilily",
+      "expanded": "Trustworthiness creditability",
+      "description": "Source of the creditability"
+    },
+    {
+      "value": "trustworthiness-traceability",
+      "expanded": "Trustworthiness traceability",
+      "description": "Traceability of the provided information"
+    },
+    {
+      "value": "trustworthiness-feedback-mechanism",
+      "expanded": "Trustworthiness feedback mechanism",
+      "description": "Feedback such as user ratings or comments regarding the usefulness of the provided information"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "type-of-information",
+      "entry": [
+        {
+          "value": "vulnerability",
+          "expanded": "Vulnerability",
+          "description": ""
+        },
+        {
+          "value": "threat",
+          "expanded": "Threat",
+          "description": ""
+        },
+        {
+          "value": "countermeasure",
+          "expanded": "Countermeasure",
+          "description": ""
+        },
+        {
+          "value": "attack",
+          "expanded": "Attack",
+          "description": ""
+        },
+        {
+          "value": "risk",
+          "expanded": "Risk",
+          "description": ""
+        },
+        {
+          "value": "asset",
+          "expanded": "Asset",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
