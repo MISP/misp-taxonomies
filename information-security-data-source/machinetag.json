@@ -102,6 +102,61 @@
           "description": "Information is integrated or copied from another information security data source"
         }
       ]
+    },
+    {
+      "predicate": "timeliness-sharing-behavior",
+      "entry": [
+        {
+          "value": "routine-sharing",
+          "expanded": "Routine sharing",
+          "description": "Information is published at a specific point in time on a regular basis, such as daily, weakly or monthly reports"
+        },
+        {
+          "value": "incident-specific",
+          "expanded": "Incident specific",
+          "description": "Information is published whenever news are available or a new incident occurs"
+        }
+      ]
+    },
+    {
+      "predicate": "integrability-format",
+      "entry": [
+        {
+          "value": "structured",
+          "expanded": "Structured",
+          "description": "The provided security information is available in an standardized and structured data format such as MISP core format"
+        },
+        {
+          "value": "unstructured",
+          "expanded": "Unstructured",
+          "description": "The provided security information is available in unstructured form without following a common data representation format"
+        }
+      ]
+    },
+    {
+      "predicate": "integrability-interface",
+      "entry": [
+        {
+          "value": "no-interface",
+          "expanded": "No interface",
+          "description": "The information security data source doesn’t provide any interface to access the information"
+        },
+        {
+          "value": "api",
+          "expanded": "API",
+          "description": "The information security data source provides an application programming interface (APIs) to obtain the provided information"
+        },
+        {
+          "value": "rss-feeds",
+          "expanded": "RSS Feeds",
+          "description": "The information security data source provides an RSS Feed to keep track of the provided information"
+        },
+        {
+          "value": "export",
+          "expanded": "Export",
+          "description": "The information security data source provides an interface to export contents as XML, JSON or plain text"
+        }
+      ]
     }
   ]
 }
