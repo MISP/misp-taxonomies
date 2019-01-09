@@ -157,6 +157,61 @@
           "description": "The information security data source provides an interface to export contents as XML, JSON or plain text"
         }
       ]
+    },
+    {
+      "predicate": "trustworthiness-creditabilily",
+      "entry": [
+        {
+          "value": "vendor",
+          "expanded": "Vendor",
+          "description": "The publisher of the information is a vendor"
+        },
+        {
+          "value": "government",
+          "expanded": "Government",
+          "description": "The publisher of the information is a government"
+        },
+        {
+          "value": "security-expert",
+          "expanded": "Security expert",
+          "description": "The publisher of the information is a security expert"
+        },
+        {
+          "value": "normal-user",
+          "expanded": "Normal user",
+          "description": "The publisher of the information is a normal user"
+        }
+      ]
+    },
+    {
+      "predicate": "trustworthiness-traceability",
+      "entry": [
+        {
+          "value": "yes",
+          "expanded": "Yes",
+          "description": "The provided information is classified as traceable if it can be traced back, based on meta-data, to a specific publisher and a publishing date"
+        },
+        {
+          "value": "no",
+          "expanded": "No",
+          "description": "The provided information cannot be traced back (meta-data are not provided)"
+        }
+      ]
+    },
+    {
+      "predicate": "trustworthiness-feedback-mechanism",
+      "entry": [
+        {
+          "value": "yes",
+          "expanded": "Yes",
+          "description": "The provided information is validated by including user rating, comments or additional analysis"
+        },
+        {
+          "value": "no",
+          "expanded": "No",
+          "description": "The provided information is not validated (a user rating, comments is not available)"
+        }
+      ]
     }
   ]
 }
