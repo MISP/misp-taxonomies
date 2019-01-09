@@ -212,6 +212,47 @@
           "description": "The provided information is not validated (a user rating, comments is not available)"
         }
       ]
+    },
+    {
+      "predicate": "type-of-source",
+      "entry": [
+        {
+          "value": "news-website",
+          "expanded": "News website"
+        },
+        {
+          "value": "expert-blog",
+          "expanded": "Expert blog"
+        },
+        {
+          "value": "security-product-vendor-website",
+          "expanded": "(Security product) vendor website"
+        },
+        {
+          "value": "vulnerability-database",
+          "expanded": "Vulnerability database"
+        },
+        {
+          "value": "mailing-list-archive",
+          "expanded": "Mailing list archive"
+        },
+        {
+          "value": "social-network",
+          "expanded": "Social network"
+        },
+        {
+          "value": "streaming-portal",
+          "expanded": "Streaming portal"
+        },
+        {
+          "value": "forum",
+          "expanded": "Forum"
+        },
+        {
+          "value": "other",
+          "expanded": "Other"
+        }
+      ]
     }
   ]
 }
