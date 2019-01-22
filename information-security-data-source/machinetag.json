@@ -7,6 +7,11 @@
   "version": 1,
   "predicates": [
     {
+      "value": "type-of-information",
+      "expanded": "Type of information",
+      "description": "Type of provided information"
+    },
+    {
       "value": "originality",
       "expanded": "Originality",
       "description": "Originality and novelty of the provided information"
@@ -17,11 +22,6 @@
       "description": "Timeliness of the provided information"
     },
     {
-      "value": "type-of-information",
-      "expanded": "Type of information",
-      "description": "Type of provided information"
-    },
-    {
       "value": "integrability-format",
       "expanded": "Integrability format",
       "description": "Level of integrability format for the provided information"
@@ -30,11 +30,6 @@
       "value": "integrability-interface",
       "expanded": "Integrability interface",
       "description": "Level of integrability interface for the provided information"
-    },
-    {
-      "value": "type-of-source",
-      "expanded": "Type of source",
-      "description": "Types of information security data source"
     },
     {
       "value": "trustworthiness-creditabilily",
@@ -50,6 +45,11 @@
       "value": "trustworthiness-feedback-mechanism",
       "expanded": "Trustworthiness feedback mechanism",
       "description": "Feedback such as user ratings or comments regarding the usefulness of the provided information"
+    },
+    {
+      "value": "type-of-source",
+      "expanded": "Type of source",
+      "description": "Types of information security data source"
     }
   ],
   "values": [
