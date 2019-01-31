@@ -23,6 +23,7 @@ The following taxonomies are described:
 - CIRCL [Taxonomy - Schemes of Classification in Incident Response and Detection](./circl)
 - [The CSSA agreed sharing taxonomy](./cssa)
 - [Collaborative intelligence](./collaborative-intelligence) - Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP. The objective of this language is to advance collaborative analysis and to share earlier than later.
+- [Cryptocurrency Threat](./cryptocurrency-threat) - Threats targetting cryptocurrency, based on CipherTrace report.
 - [Cyber Kill Chain](./kill-chain) from Lockheed Martin
 - [The Cyber Threat Framework](./cyber-threat-framework) was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries.
 - DE German (DE) [Government classification markings (VS)](./de-vs)
