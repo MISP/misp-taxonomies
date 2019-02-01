@@ -424,11 +424,16 @@
       "version": 1,
       "name": "information-security-data-source",
       "description": "Taxonomy to classify the information security data sources"
+    },
+    {
+      "version": 1,
+      "name": "cryptocurrency-threat",
+      "description": "Threats targetting cryptocurrency, based on CipherTrace report."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190106"
+  "version": "20190201"
 }
