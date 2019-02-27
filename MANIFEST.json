@@ -406,7 +406,7 @@
       "description": "The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems."
     },
     {
-      "version": 4,
+      "version": 5,
       "name": "exercise",
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise."
     },
@@ -435,5 +435,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190225"
+  "version": "20190226"
 }
