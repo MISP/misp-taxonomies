@@ -1,1 +1,362 @@
-
+{
+	"predicates": [{
+			"expanded": "industry",
+			"value": "Industry"
+		}
+	],
+	"version": 1,
+	"author": "Jim Palazzolo",
+	"contact": "jim.palazzolo@labyrinth-cis.com",
+	"description": "LabyrINTh BLS Industry Taxonomy (MISP taxonomies)",
+	"_comment": "Taken from https://www.bls.gov/iag/tgs/iag_index_alpha.htm",
+	"namespace": "industry",
+	"values": [{
+		"predicate": "industry",
+		"entry": [
+      {
+				"value": "Accommodation (NAICS 721)"
+			},
+			{
+				"value": "Accommodation and Food Services (NAICS 72)"
+			},
+      {
+				"value": "Administrative and Support Services (NAICS 561)"
+			},
+			{
+				"value": "Administrative and Support and Waste Management and Remediation Services (NAICS 56)"
+			},       
+      {
+				"value": "Agriculture, Forestry, Fishing and Hunting (NAICS 11)"
+			},
+			{
+				"value": "Air Transportation (NAICS 481)"
+			},
+      {
+				"value": "Ambulatory Health Care Services (NAICS 621)"
+			},
+			{
+				"value": "Amusement, Gambling, and Recreation Industries (NAICS 713)"
+			},           
+      {
+				"value": "Animal Production (NAICS 112)"
+			},
+			{
+				"value": "Apparel Manufacturing (NAICS 315)"
+			},
+      {
+				"value": "Arts, Entertainment, and Recreation (NAICS 71)"
+			},
+			{
+				"value": "Beverage and Tobacco Product Manufacturing (NAICS 312)"
+			},           
+      {
+				"value": "Broadcasting (except Internet) (NAICS 515)"
+			},
+			{
+				"value": "Building Material and Garden Equipment and Supplies Dealers (NAICS 444)"
+			},
+      {
+				"value": "Chemical Manufacturing (NAICS 325)"
+			},
+			{
+				"value": "Clothing and Clothing Accessories Stores (NAICS 448)"
+			},           
+      {
+				"value": "Computer and Electronic Product Manufacturing (NAICS 334)"
+			},
+			{
+				"value": "Construction (NAICS 23)"
+			},
+      {
+				"value": "Construction of Buildings (NAICS 236)"
+			},
+			{
+				"value": "Couriers and Messengers (NAICS 492)"
+			},           
+      {
+				"value": "Credit Intermediation and Related Activities (NAICS 522)"
+			},
+			{
+				"value": "Crop Production (NAICS 111)"
+			},
+      {
+				"value": "Data Processing, Hosting, and Related Services (NAICS 518)"
+			},
+			{
+				"value": "Education and Health Services"
+			},           
+      {
+				"value": "Educational Services (NAICS 61)"
+			},
+			{
+				"value": "Electrical Equipment, Appliance, and Component Manufacturing (NAICS 335)"
+			},
+      {
+				"value": "Electronics and Appliance Stores (NAICS 443)"
+			},
+			{
+				"value": "Fabricated Metal Product Manufacturing (NAICS 332)"
+			},           
+      {
+				"value": "Finance and Insurance (NAICS 52)"
+			},
+			{
+				"value": "Financial Activities"
+			},
+      {
+				"value": "Fishing, Hunting and Trapping (NAICS 114)"
+			},
+			{
+				"value": "Food Manufacturing (NAICS 311)"
+			},           
+      {
+				"value": "Food Services and Drinking Places (NAICS 722)"
+			},
+			{
+				"value": "Food and Beverage Stores (NAICS 445)"
+			},
+      {
+				"value": "Forestry and Logging (NAICS 113)"
+			},
+			{
+				"value": "Funds, Trusts, and Other Financial Vehicles (NAICS 525)"
+			},           
+      {
+				"value": "Furniture and Home Furnishings Stores (NAICS 442)"
+			},
+			{
+				"value": "Furniture and Related Product Manufacturing (NAICS 337)"
+			},
+      {
+				"value": "Gasoline Stations (NAICS 447)"
+			},
+			{
+				"value": "General Merchandise Stores (NAICS 452)"
+			},           
+      {
+				"value": "Goods-Producing Industries"
+			},
+			{
+				"value": "Health Care and Social Assistance (NAICS 62)"
+			},
+      {
+				"value": "Health and Personal Care Stores (NAICS 446)"
+			},
+			{
+				"value": "Heavy and Civil Engineering Construction (NAICS 237)"
+			},           
+      {
+				"value": "Hospitals (NAICS 622)"
+			},
+			{
+				"value": "Information (NAICS 51)"
+			},
+      {
+				"value": "Insurance Carriers and Related Activities (NAICS 524)"
+			},
+			{
+				"value": "Internet Publishing and Broadcasting (NAICS 516)"
+			},                  
+      {
+				"value": "Leather and Allied Product Manufacturing (NAICS 316)"
+			},
+			{
+				"value": "Leisure and Hospitality"
+			},
+      {
+				"value": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) (NAICS 533)"
+			},
+			{
+				"value": "Machinery Manufacturing (NAICS 333)"
+			},           
+      {
+				"value": "Management of Companies and Enterprises (NAICS 55)"
+			},
+			{
+				"value": "Manufacturing (NAICS 31-33)"
+			},
+      {
+				"value": "Merchant Wholesalers, Durable Goods (NAICS 423)"
+			},
+			{
+				"value": "Merchant Wholesalers, Nondurable Goods (NAICS 424)"
+			},                  
+      {
+				"value": "Mining (except Oil and Gas) (NAICS 212)"
+			},
+			{
+				"value": "Mining, Quarrying, and Oil and Gas Extraction (NAICS 21)"
+			},
+      {
+				"value": "Miscellaneous Manufacturing (NAICS 339)"
+			},
+			{
+				"value": "Miscellaneous Store Retailers (NAICS 453)"
+			},           
+      {
+				"value": "Monetary Authorities - Central Bank (NAICS 521)"
+			},
+			{
+				"value": "Motion Picture and Sound Recording Industries (NAICS 512)"
+			},
+      {
+				"value": "Motor Vehicle and Parts Dealers (NAICS 441)"
+			},
+			{
+				"value": "Museums, Historical Sites, and Similar Institutions (NAICS 712)"
+			},                  
+      {
+				"value": "Natural Resources and Mining"
+			},
+			{
+				"value": "Nonmetallic Mineral Product Manufacturing (NAICS 327)"
+			},
+      {
+				"value": "Nonstore Retailers (NAICS 454)"
+			},
+			{
+				"value": "Nursing and Residential Care Facilities (NAICS 623)"
+			},           
+      {
+				"value": "Oil and Gas Extraction (NAICS 211)"
+			},
+			{
+				"value": "Other Information Services (NAICS 519)"
+			},
+      {
+				"value": "Other Services (except Public Administration) (NAICS 81)"
+			},
+			{
+				"value": "Paper Manufacturing (NAICS 322)"
+			},                  
+      {
+				"value": "Performing Arts, Spectator Sports, and Related Industries (NAICS 711)"
+			},
+			{
+				"value": "Personal and Laundry Services (NAICS 812)"
+			},
+      {
+				"value": "Petroleum and Coal Products Manufacturing (NAICS 324)"
+			},
+			{
+				"value": "Pipeline Transportation (NAICS 486)"
+			},           
+      {
+				"value": "Plastics and Rubber Products Manufacturing (NAICS 326)"
+			},
+			{
+				"value": "Postal Service (NAICS 491)"
+			},
+      {
+				"value": "Primary Metal Manufacturing (NAICS 331)"
+			},
+			{
+				"value": "Printing and Related Support Activities (NAICS 323)"
+			},                          
+      {
+				"value": "Private Households (NAICS 814)"
+			},                  
+      {
+				"value": "Professional and Business Services"
+			},
+			{
+				"value": "Professional, Scientific, and Technical Services (NAICS 54)"
+			},
+      {
+				"value": "Publishing Industries (except Internet) (NAICS 511)"
+			},
+			{
+				"value": "Rail Transportation (NAICS 482)"
+			},           
+      {
+				"value": "Real Estate (NAICS 531)"
+			},
+			{
+				"value": "Real Estate and Rental and Leasing (NAICS 53)"
+			},
+      {
+				"value": "Religious, Grantmaking, Civic, Professional, and Similar Organizations (NAICS 813)"
+			},
+			{
+				"value": "Rental and Leasing Services (NAICS 532)"
+			},                              
+      {
+				"value": "Repair and Maintenance (NAICS 811)"
+			},
+      {
+				"value": "Retail Trade (NAICS 44-45)"
+			},
+			{
+				"value": "Scenic and Sightseeing Transportation (NAICS 487)"
+			},           
+      {
+				"value": "Securities, Commodity Contracts, and Other Financial Investments and Related Activities (NAICS 523)"
+			},
+			{
+				"value": "Service-Providing Industries"
+			},
+      {
+				"value": "Social Assistance (NAICS 624)"
+			},
+			{
+				"value": "Specialty Trade Contractors (NAICS 238)"
+			},                         
+      {
+				"value": "Sporting Goods, Hobby, Book, and Music Stores (NAICS 451)"
+			},
+      {
+				"value": "Support Activities for Agriculture and Forestry (NAICS 115)"
+			},
+			{
+				"value": "Support Activities for Mining (NAICS 213)"
+			},           
+      {
+				"value": "Support Activities for Transportation (NAICS 488)"
+			},
+			{
+				"value": "Telecommunications (NAICS 517)"
+			},
+      {
+				"value": "Textile Mills (NAICS 313)"
+			},
+			{
+				"value": "Textile Product Mills (NAICS 314)"
+			},                         
+       {
+				"value": "Trade, Transportation, and Utilities"
+			},
+			{
+				"value": "Transit and Ground Passenger Transportation (NAICS 485)"
+			},                         
+      {
+				"value": "Transportation Equipment Manufacturing (NAICS 336)"
+			},
+      {
+				"value": "Transportation and Warehousing (NAICS 48-49)"
+			},
+			{
+				"value": "Truck Transportation (NAICS 484)"
+			},           
+      {
+				"value": "Utilities (NAICS 22)"
+			},
+			{
+				"value": "Warehousing and Storage (NAICS 493)"
+			},
+      {
+				"value": "Waste Management and Remediation Services (NAICS 562)"
+			},
+			{
+				"value": "Water Transportation (NAICS 483)"
+			},                        
+      {
+				"value": "Wholesale Electronic Markets and Agents and Brokers (NAICS 425)"
+			},          
+			{
+				"value": "Wholesale Trade (NAICS 42)"
+			},  
+      {
+				"value": "Wood Product Manufacturing (NAICS 321)"
+			}]
+	}]
+}
