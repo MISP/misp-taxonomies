@@ -1,0 +1,50 @@
+{
+	"predicates": [{
+			"expanded": "breach-type",
+			"value": "breach-type"
+		}
+	],
+	"version": 1,
+	"author": "Jim Palazzolo",
+	"contact": "jim.palazzolo@labyrinth-cis.com",
+	"description": "LabyrINTh Data Breach Classification (MISP taxonomies)",
+	"namespace": "databreach",
+	"values": [{
+		"predicate": "breach-type",
+		"entry": [{
+				"_comment": "used if result of breach is from organizational insider",
+				"value": "insider",
+				"expanded": "Insider"
+			},
+			{
+				"_comment": "used if result of breach was due to system or app misconfiguration",
+				"value": "misconfiguration",
+				"expanded": "Misconfiguration"
+			},
+			{
+				"_comment": "used if result of breach was result of supply chain compromise",
+				"value": "supply-chain",
+				"expanded": "Supply Chain"
+			},
+			{
+				"_comment": "used if result of breach was due to ransomware",
+				"value": "ransomware",
+				"expanded": "Ransomware"
+			},
+			{
+				"_comment": "used if result of breach was due to social engineering attach on organization",
+				"value": "phishing-scam",
+				"expanded": "Phishing Scam"
+			},
+			{
+				"_comment": "used if result of breach was due to unauthorized access to the data by a third party",
+				"value": "unauthorized-third-party",
+				"expanded": "Unauthorized Third Party"
+			},
+			{
+				"_comment": "used if result of breach was due to malware infection of organizational systems",
+				"value": "malware",
+				"expanded": "Malware"
+			}]
+	}]
+}
