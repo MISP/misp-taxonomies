@@ -1,0 +1,60 @@
+{
+  "namespace": "flesch-reading-ease",
+  "description": "Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid).",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "score",
+      "expanded": "Score"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "score",
+      "entry": [
+        {
+          "value": "90-100",
+          "expanded": "Very Easy",
+          "description": "Very easy to read. Easily understood by an average 11-year-old student.",
+          "numerical_value": 100
+        },
+        {
+          "value": "80-89",
+          "expanded": "Easy",
+          "description": "Easy to read. Conversational English for consumers.",
+          "numerical_value": 89
+        },
+        {
+          "value": "70-79",
+          "expanded": "Fairly Easy",
+          "description": "Fairly easy to read.",
+          "numerical_value": 79
+        },
+        {
+          "value": "60-69",
+          "expanded": "Standard",
+          "description": "Plain English. Easily understood by 13- to 15-year-old students.",
+          "numerical_value": 69
+        },
+        {
+          "value": "50-59",
+          "expanded": "Fairly Difficult",
+          "description": "Fairly difficult to read.",
+          "numerical_value": 59
+        },
+        {
+          "value": "30-49",
+          "expanded": "Difficult",
+          "description": "Difficult to read.",
+          "numerical_value": 49
+        },
+        {
+          "value": "0-29",
+          "expanded": "Very Confusing",
+          "description": "Very difficult to read. Best understood by university graduates.",
+          "numerical_value": 29
+        }
+      ]
+    }
+  ]
+}

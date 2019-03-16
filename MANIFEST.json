@@ -429,11 +429,16 @@
       "version": 1,
       "name": "cryptocurrency-threat",
       "description": "Threats targetting cryptocurrency, based on CipherTrace report."
+    },
+    {
+      "version": 1,
+      "name": "flesch-reading-ease",
+      "description": "Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid)."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190226"
+  "version": "20190315"
 }
