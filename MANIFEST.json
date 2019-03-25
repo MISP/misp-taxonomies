@@ -77,7 +77,7 @@
     },
     {
       "version": 1,
-      "name": "DCSO-Sharing",
+      "name": "dcso-sharing",
       "description": "DCSO Sharing Taxonomy to classify certain types of MISP events using the DCSO Event Guide"
     },
     {
