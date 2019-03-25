@@ -1,5 +1,5 @@
 {
-  "namespace": "DCSO-Sharing",
+  "namespace": "dcso-sharing",
   "description": "Taxonomy defined in the DCSO MISP Event Guide. It provides guidance for the creation and consumption of MISP events in a way that minimises the extra effort for the sending party, while enhancing the usefulness for receiving parties.",
   "version": 1,
   "predicates": [
