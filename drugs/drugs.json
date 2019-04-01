@@ -1,7 +1,7 @@
 {
-  "namespace": "taxonomy_drugs",
+  "namespace": "drugs",
   "description": "A taxonomy based on the superclass and class of drugs. Based on https://www.drugbank.ca/releases/latest",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "alkaloids-and-derivatives",
