@@ -112,6 +112,11 @@
     },
     {
       "version": 1,
+      "name": "drugs",
+      "description": "A taxonomy based on the superclass and class of drugs, based on https://www.drugbank.ca/releases/latest"
+    },
+    {
+      "version": 1,
       "name": "ecsirt",
       "description": "eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates."
     },
