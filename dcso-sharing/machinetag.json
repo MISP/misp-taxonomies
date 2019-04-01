@@ -1,0 +1,42 @@
+{
+  "namespace": "dcso-sharing",
+  "description": "Taxonomy defined in the DCSO MISP Event Guide. It provides guidance for the creation and consumption of MISP events in a way that minimises the extra effort for the sending party, while enhancing the usefulness for receiving parties.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "event-type"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "event-type",
+      "entry": [
+        {
+          "value": "Observation",
+          "expanded": "This event describes traits and indicators closely related to a single entity, like an email campaign or sighting of a reference sample on VirusTotal. Events of this type are typically created by CSOC staff and may be verified by analysts. Observed and verified indicators would be consumed by automated filtering systems in order to support near-time threat prevention. In retrospect, observations could be correlated with reports and analysis events in order to help understand the motivation for an attack and to reassess the associated risk.",
+          "colour": "#00233e"
+        },
+        {
+          "value": "Incident",
+          "expanded": "This event describes traits and indicators related to a security incident. As such, the event may refer to multiple entities like organizations, bank account numbers, files, and URLs. Events of this type contain first-hand information, that is, the reporting organization took part in the analysis of the incident. Use event type \"Report\" for second-hand information. Events of this type are typically created and consumed by analysts.",
+          "colour": "#005d81"
+        },
+        {
+          "value": "Report",
+          "expanded": "Traceability of indicators can be essential to document compliance of processes with legal obligations or company regulations. This event preserves a report to document the origin and context of indicators. Events of this type need to be checked by a human to ensure correct reproduction of indicators and context. Intended consumers are automated processes. Events may also serve as a basis for analysis reports or to justify preventive measures. If your organization is or was directly involved in an incident and you want to provide a first-hand account, then please use event type \"Incident\" instead.",
+          "colour": "#3f97b8"
+        },
+        {
+          "value": "Analysis",
+          "expanded": "This event builds on \"observation\", \"incident\", and \"report\" events; adds enrichments; and provides context. Events of this type will be created by analysts with support by automated tools. Analysts are also the main consumers.",
+          "colour": "#5a8915"
+        },
+        {
+          "value": "Collection",
+          "expanded": "This event collects unrelated IoCs. For example, an event could combine all network IoCs that were learned of during a day or a week from events of other types.",
+          "colour": "#94a850"
+        }
+      ]
+    }
+  ]
+}

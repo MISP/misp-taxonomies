@@ -76,6 +76,11 @@
       "description": "The CSSA agreed sharing taxonomy."
     },
     {
+      "version": 1,
+      "name": "dcso-sharing",
+      "description": "DCSO Sharing Taxonomy to classify certain types of MISP events using the DCSO Event Guide"
+    },
+    {
       "version": 2,
       "name": "ddos",
       "description": "Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too."

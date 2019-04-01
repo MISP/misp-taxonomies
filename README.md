@@ -27,6 +27,7 @@ The following taxonomies are described:
 - [Cyber Kill Chain](./kill-chain) from Lockheed Martin
 - [The Cyber Threat Framework](./cyber-threat-framework) was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries.
 - DE German (DE) [Government classification markings (VS)](./de-vs)
+- [DCSO Sharing Taxonomy](./dcso-sharing) - DCSO Sharing Taxonomy  to classify certain types of MISP events using the DCSO Event Guide
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
 - [Diamond Model for Intrusion Analysis](./diamond-model)
 - [Detection Maturity Level](./DML)
