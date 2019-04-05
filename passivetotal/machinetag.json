@@ -2,15 +2,15 @@
   "namespace": "passivetotal",
   "expanded": "PassiveTotal",
   "description": "Tags from RiskIQ's PassiveTotal service",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "sinkholed",
       "expanded": "Sinkhole Status"
     },
     {
-      "value": "ever-comprimised",
-      "expanded": "Ever Comprimised?"
+      "value": "ever-compromised",
+      "expanded": "Ever Compromised?"
     },
     {
       "value": "dynamic-dns",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "predicate": "ever-comprimised",
+      "predicate": "ever-compromised",
       "entry": [
         {
           "value": "yes",

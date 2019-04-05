@@ -1,0 +1,258 @@
+{
+  "namespace": "information-security-data-source",
+  "description": "Taxonomy to classify the information security data sources.",
+  "refs": [
+    "https://www.sciencedirect.com/science/article/pii/S0167404818304978"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "type-of-information",
+      "expanded": "Type of information",
+      "description": "Type of provided information"
+    },
+    {
+      "value": "originality",
+      "expanded": "Originality",
+      "description": "Originality and novelty of the provided information"
+    },
+    {
+      "value": "timeliness-sharing-behavior",
+      "expanded": "Timeliness sharing behavior",
+      "description": "Timeliness of the provided information"
+    },
+    {
+      "value": "integrability-format",
+      "expanded": "Integrability format",
+      "description": "Level of integrability format for the provided information"
+    },
+    {
+      "value": "integrability-interface",
+      "expanded": "Integrability interface",
+      "description": "Level of integrability interface for the provided information"
+    },
+    {
+      "value": "trustworthiness-creditabilily",
+      "expanded": "Trustworthiness creditability",
+      "description": "Source of the creditability"
+    },
+    {
+      "value": "trustworthiness-traceability",
+      "expanded": "Trustworthiness traceability",
+      "description": "Traceability of the provided information"
+    },
+    {
+      "value": "trustworthiness-feedback-mechanism",
+      "expanded": "Trustworthiness feedback mechanism",
+      "description": "Feedback such as user ratings or comments regarding the usefulness of the provided information"
+    },
+    {
+      "value": "type-of-source",
+      "expanded": "Type of source",
+      "description": "Types of information security data source"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "type-of-information",
+      "entry": [
+        {
+          "value": "vulnerability",
+          "expanded": "Vulnerability",
+          "description": "Information regarding a weakness of an asset which might be exploited by a threat"
+        },
+        {
+          "value": "threat",
+          "expanded": "Threat",
+          "description": "Information regarding the potential cause on an unwanted incident"
+        },
+        {
+          "value": "countermeasure",
+          "expanded": "Countermeasure",
+          "description": "Information regarding any administrative, managerial, technical or legal control that is used to counteract an information security risk"
+        },
+        {
+          "value": "attack",
+          "expanded": "Attack",
+          "description": "Information regarding any unauthorized attempt to access, alter or destroy an asset"
+        },
+        {
+          "value": "risk",
+          "expanded": "Risk",
+          "description": "Information describing the consequences of a potential event, such as an attack"
+        },
+        {
+          "value": "asset",
+          "expanded": "Asset",
+          "description": "Information regarding any object or characteristic that has value to an organization"
+        }
+      ]
+    },
+    {
+      "predicate": "originality",
+      "entry": [
+        {
+          "value": "original-source",
+          "expanded": "Original source",
+          "description": "Information originates from the data sources which publish their own information"
+        },
+        {
+          "value": "secondary-source",
+          "expanded": "Secondary source",
+          "description": "Information is integrated or copied from another information security data source"
+        }
+      ]
+    },
+    {
+      "predicate": "timeliness-sharing-behavior",
+      "entry": [
+        {
+          "value": "routine-sharing",
+          "expanded": "Routine sharing",
+          "description": "Information is published at a specific point in time on a regular basis, such as daily, weakly or monthly reports"
+        },
+        {
+          "value": "incident-specific",
+          "expanded": "Incident specific",
+          "description": "Information is published whenever news are available or a new incident occurs"
+        }
+      ]
+    },
+    {
+      "predicate": "integrability-format",
+      "entry": [
+        {
+          "value": "structured",
+          "expanded": "Structured",
+          "description": "The provided security information is available in an standardized and structured data format such as MISP core format"
+        },
+        {
+          "value": "unstructured",
+          "expanded": "Unstructured",
+          "description": "The provided security information is available in unstructured form without following a common data representation format"
+        }
+      ]
+    },
+    {
+      "predicate": "integrability-interface",
+      "entry": [
+        {
+          "value": "no-interface",
+          "expanded": "No interface",
+          "description": "The information security data source doesn’t provide any interface to access the information"
+        },
+        {
+          "value": "api",
+          "expanded": "API",
+          "description": "The information security data source provides an application programming interface (APIs) to obtain the provided information"
+        },
+        {
+          "value": "rss-feeds",
+          "expanded": "RSS Feeds",
+          "description": "The information security data source provides an RSS Feed to keep track of the provided information"
+        },
+        {
+          "value": "export",
+          "expanded": "Export",
+          "description": "The information security data source provides an interface to export contents as XML, JSON or plain text"
+        }
+      ]
+    },
+    {
+      "predicate": "trustworthiness-creditabilily",
+      "entry": [
+        {
+          "value": "vendor",
+          "expanded": "Vendor",
+          "description": "The publisher of the information is a vendor"
+        },
+        {
+          "value": "government",
+          "expanded": "Government",
+          "description": "The publisher of the information is a government"
+        },
+        {
+          "value": "security-expert",
+          "expanded": "Security expert",
+          "description": "The publisher of the information is a security expert"
+        },
+        {
+          "value": "normal-user",
+          "expanded": "Normal user",
+          "description": "The publisher of the information is a normal user"
+        }
+      ]
+    },
+    {
+      "predicate": "trustworthiness-traceability",
+      "entry": [
+        {
+          "value": "yes",
+          "expanded": "Yes",
+          "description": "The provided information is classified as traceable if it can be traced back, based on meta-data, to a specific publisher and a publishing date"
+        },
+        {
+          "value": "no",
+          "expanded": "No",
+          "description": "The provided information cannot be traced back (meta-data are not provided)"
+        }
+      ]
+    },
+    {
+      "predicate": "trustworthiness-feedback-mechanism",
+      "entry": [
+        {
+          "value": "yes",
+          "expanded": "Yes",
+          "description": "The provided information is validated by including user rating, comments or additional analysis"
+        },
+        {
+          "value": "no",
+          "expanded": "No",
+          "description": "The provided information is not validated (a user rating, comments is not available)"
+        }
+      ]
+    },
+    {
+      "predicate": "type-of-source",
+      "entry": [
+        {
+          "value": "news-website",
+          "expanded": "News website"
+        },
+        {
+          "value": "expert-blog",
+          "expanded": "Expert blog"
+        },
+        {
+          "value": "security-product-vendor-website",
+          "expanded": "(Security product) vendor website"
+        },
+        {
+          "value": "vulnerability-database",
+          "expanded": "Vulnerability database"
+        },
+        {
+          "value": "mailing-list-archive",
+          "expanded": "Mailing list archive"
+        },
+        {
+          "value": "social-network",
+          "expanded": "Social network"
+        },
+        {
+          "value": "streaming-portal",
+          "expanded": "Streaming portal"
+        },
+        {
+          "value": "forum",
+          "expanded": "Forum"
+        },
+        {
+          "value": "other",
+          "expanded": "Other"
+        }
+      ]
+    }
+  ]
+}

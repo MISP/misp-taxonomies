@@ -1,0 +1,36 @@
+{
+  "predicates": [
+    {
+      "description": "Data which is regulated under a specific regulation or law such as PII, SPD, PCI or PHI.",
+      "expanded": "Regulated data",
+      "value": "regulated-data"
+    },
+    {
+      "description": "Data which represents a specific commercial value and is confidential to an organisation such as trade secrets, customer accounts.",
+      "expanded": "Commercially confidential information (CCI)",
+      "value": "commercially-confidential-information"
+    },
+    {
+      "description": "Data which represents a specific financial value to an organisation such as payroll, investment information.",
+      "expanded": "Financially sensitive information (FSI)",
+      "value": "financially-sensitive-information"
+    },
+    {
+      "description": "Data which is sensitive to the valuation of an organisation such as inside information (as defined by a Financial Services Authority).",
+      "expanded": "Valuation sensitive information (VSI)",
+      "value": "valuation-sensitive-information"
+    },
+    {
+      "description": "Data which is sensitive such as email or letters.",
+      "expanded": "Sensitive information",
+      "value": "sensitive-information"
+    }
+  ],
+  "refs": [
+    "https://www.wiley.com/en-be/Solving+Cyber+Risk:+Protecting+Your+Company+and+Society-p-9781119490920"
+  ],
+  "version": 1,
+  "description": "Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book.",
+  "expanded": "Data Classification",
+  "namespace": "data-classification"
+}
