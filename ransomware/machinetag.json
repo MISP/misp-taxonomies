@@ -34,7 +34,7 @@
           "value": "crypto-ransomware",
           "expanded": "Crypto ransomware, also called data locker prevents access to files or data. Crypto ransomware doesn’t necessarily have to use encryption to stop users from accessing their data, but the vast majority of it does."
         }
-      ],
+      ]
     },
     {
       "predicate": "element",
