@@ -3,6 +3,9 @@
   "expanded": "ransomware types and elements",
   "description": "Ransomware is used to define ransomware types and the elements that compose them.",
   "version": 1,
+  "refs": [
+    "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-evolution-of-ransomware.pdf"
+  ],
   "predicates": [
     {
       "value": "type",
@@ -21,15 +24,15 @@
       "entry": [
         {
           "value": "scareware",
-          "expanded": ""
+          "expanded": "Scareware is a form of malware which uses social engineering to cause shock, anxiety, or the perception of a threat in order to manipulate users into buying unwanted software."
         },
         {
-          "value": "locker",
-          "expanded": ""
+          "value": "locker-ransomware",
+          "expanded": "Locker eansomware, also called computer locker, denies access to the computer or device "
         },
         {
-          "value": "cryptolocker",
-          "expanded": ""
+          "value": "crypto-ransomware",
+          "expanded": "Crypto ransomware, also called data locker prevents access to files or data. Crypto ransomware doesn’t necessarily have to use encryption to stop users from accessing their data, but the vast majority of it does."
         }
       ],
     },
