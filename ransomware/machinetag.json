@@ -1,0 +1,58 @@
+{
+  "namespace": "ransomware",
+  "expanded": "ransomware types and elements",
+  "description": "Ransomware is used to define ransomware types and the elements that compose them.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "type",
+      "expanded": "Type",
+      "description": "Type is used to describe the type of a ransomware and how it works."
+    },
+    {
+      "value": "element",
+      "expanded": "Element",
+      "description": "Elements that composed or are linked to a ransomware and its execution."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "type",
+      "entry": [
+        {
+          "value": "scareware",
+          "expanded": ""
+        },
+        {
+          "value": "locker",
+          "expanded": ""
+        },
+        {
+          "value": "cryptolocker",
+          "expanded": ""
+        }
+      ],
+    },
+    {
+      "predicate": "type",
+      "entry": [
+        {
+          "value": "ransomnote",
+          "expanded": ""
+        },
+        {
+          "value": "decoy",
+          "expanded": ""
+        },
+        {
+          "value": "crypter",
+          "expanded": ""
+        },
+        {
+          "value": "downloader",
+          "expanded": ""
+        }
+      ]
+    }
+  ]
+}
