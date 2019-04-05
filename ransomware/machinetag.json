@@ -37,7 +37,7 @@
       ],
     },
     {
-      "predicate": "type",
+      "predicate": "element",
       "entry": [
         {
           "value": "ransomnote",
