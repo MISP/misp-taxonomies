@@ -16,6 +16,11 @@
       "value": "element",
       "expanded": "Element",
       "description": "Elements that composed or are linked to a ransomware and its execution."
+    },
+    {
+      "value": "complexity-level",
+      "expanded": "Complexity level",
+      "description": "Level of complexity of the ransomware."
     }
   ],
   "values": [
@@ -51,6 +56,48 @@
           "value": "downloader",
           "expanded": "a downloader is a means of getting malware into a machine while bypassing the security checks, by downloading it instead of carring it."
         }
+      ]
+    },
+    {
+      "predicate": "complexity-level",
+      "entry": [
+        {
+          "value": "no-actual-encryption-fake-scareware",
+          "expanded": "No actual encryption (fake scareware). infection merely poses as a ransomware by displaying a ransom note while not actually encrypting user files"
+        },
+        {
+          "value": "display-ransomnote-before-encrypting",
+          "expanded": "Displaying the ransom note before encryption process commences. As seen in the case of Nemucod, some ransomware will display a ransom note before file encryption. This is a serious operational flaw in the ransomware. The victim or their antivirus solution could effectively take prompt evasive action to prevent ransomware from commencing encryption."
+        },
+        {
+          "value": "",
+          "expanded": ""
+        },
+        {
+          "value": "",
+          "expanded": ""
+        },
+        {
+          "value": "",
+          "expanded": ""
+        },
+        {
+          "value": "",
+          "expanded": ""
+        },
+        {
+          "value": "",
+          "expanded": ""
+        },
+        {
+          "value": "",
+          "expanded": ""
+        },
+        {
+          "value": "",
+          "expanded": ""
+        },
+
       ]
     }
   ]
