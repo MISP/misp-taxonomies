@@ -41,19 +41,15 @@
       "entry": [
         {
           "value": "ransomnote",
-          "expanded": ""
+          "expanded": "A ransomnote is the message left by the attacker to threaten his victim and ask for ransom. It is usually seen as a text file or a picture set as background."
         },
         {
-          "value": "decoy",
-          "expanded": ""
-        },
-        {
-          "value": "crypter",
-          "expanded": ""
+          "value": "dropper",
+          "expanded": "A dropper is a means of getting malware into a machine while bypassing the security checks by carring the malware inside of itself."
         },
         {
           "value": "downloader",
-          "expanded": ""
+          "expanded": "a downloader is a means of getting malware into a machine while bypassing the security checks, by downloading it instead of carring it."
         }
       ]
     }
