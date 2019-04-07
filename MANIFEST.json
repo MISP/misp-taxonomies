@@ -444,11 +444,16 @@
       "version": 1,
       "name": "flesch-reading-ease",
       "description": "Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid)."
+    },
+    {
+      "version": 1,
+      "name": "common-taxonomy",
+      "description": "The Common Taxonomy for Law Enforcement and The National Network of CSIRTs bridges the gap between the CSIRTs and international Law Enforcement communities by adding a legislative framework to facilitate the harmonisation of incident reporting to competent authorities, the development of useful statistics and sharing information within the entire cybercrime ecosystem."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190315"
+  "version": "20190407"
 }
