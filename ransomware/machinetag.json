@@ -70,34 +70,61 @@
           "expanded": "Displaying the ransom note before encryption process commences. As seen in the case of Nemucod, some ransomware will display a ransom note before file encryption. This is a serious operational flaw in the ransomware. The victim or their antivirus solution could effectively take prompt evasive action to prevent ransomware from commencing encryption."
         },
         {
-          "value": "",
+          "value": "decryption-essentials-extracted-from-binary",
+          "expanded": "Decryption essentials can be reverse engineered from ransomware code or the user system. For example, if the ransomware uses a hard-coded key, then it becomes straight-forward for malware analysts to extract the key by disassembling the ransomware binary. "
+        },
+        {
+          "value": "derived-encryption-key-predicted  ",
+          "expanded": "Another possibility of reverse engineering the key is demonstrated in the case of the Linux.Encoder. Aransomware where a timestamp on the system was used to create keys for encryption resulting in easy decryption provided that the timestamp is still accessible."
+        },
+        {
+          "value": "same-key used-for-each-infection",
+          "expanded": "Ransomware uses the same key for every victim. If the same key is used to encrypt all victims during a campaign, then one victim can share the secret key with others."
+        },
+        {
+          "value": "encryption-circumvented",
+          "expanded": "decryption possible without key - Files can be decrypted without the need for a key due to poor choice or implementation of the encryption algorithm. Consider the case of desuCrypt that used an RC4 stream cipher for encryption. Using a stream cipher with key reuse is vulnerable to known plaintext attacks and known-ciphertext attacks due to the keyreuse vulnerability and hence this is a poor implementation of the encryption algorithm."
+        },
+        {
+          "value": "file-restoration-possible-using-shadow-volume-copies",
+          "expanded": "Files can be restored using system backups, e.g. Shadow Volume Copies on the New Technology File System (NTFS), that were neglected by the ransomware."
+        },
+        {
+          "value": "key-recovered-from-file-system-or-memory",
           "expanded": ""
         },
         {
-          "value": "",
+          "value": "due-diligence-prevented-ransomware-from-acquiring-key",
           "expanded": ""
         },
         {
-          "value": "",
+          "value": "click-and-run-decryptor-exists",
           "expanded": ""
         },
         {
-          "value": "",
+          "value": "kill-switch-exists-outside-of-attacker-s-control",
           "expanded": ""
         },
         {
-          "value": "",
+          "value": "decryption-key-recovered-from-a-C&C-server-or-network-communications",
           "expanded": ""
         },
         {
-          "value": "",
+          "value": "custom-encryption-algorithm-used",
           "expanded": ""
         },
         {
-          "value": "",
+          "value": "decryption-key-recovered-under-specialized-lab-setting",
           "expanded": ""
         },
-
+        {
+          "value": "small-subset-of-files-left-unencrypted",
+          "expanded": ""
+        },
+        {
+          "value": "encryption-model-is-seemingly-flawless",
+          "expanded": ""
+        }
       ]
     }
   ]
