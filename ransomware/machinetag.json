@@ -91,39 +91,39 @@
         },
         {
           "value": "key-recovered-from-file-system-or-memory",
-          "expanded": ""
+          "expanded": "Decryption key can be retrieved from the host machine’s file structure or memory by an average user without the need for an expert. In the case of CryptoDefense, the ransomware did not securely delete keys from the host machine. The user can look in the right folder to discover the decryption key."
         },
         {
           "value": "due-diligence-prevented-ransomware-from-acquiring-key",
-          "expanded": ""
+          "expanded": "User can prevent ransomware from acquiring the encryption key. Ransomware belongs in this category if its encryption procedure can be interrupted or blocked by due diligence on part of the user. For example, CryptoLocker discussed above cannot commence operation until it receives a key from the C&C server. A host or border firewall can block a list of known C&C servers hence rendering ransomware ineffective."
         },
         {
           "value": "click-and-run-decryptor-exists",
-          "expanded": ""
+          "expanded": "Easy ‘Click-and-run’ solution such as a decryptor has been created by the security community such that a user can simply run the program to decrypt all files."
         },
         {
           "value": "kill-switch-exists-outside-of-attacker-s-control",
-          "expanded": ""
+          "expanded": "There exists a kill switch outside of attacker’s control that renders the cryptoviral infection ineffective. For example, in the case of WannaCry, a global kill switch existed in the form of a domain name. The ransomware reached out to this domain before commencing encryption and if the domain existed, the ransomware aborted execution. This kill switch was outside the attacker’s control as anyone could register it and neutralize the ransomware outbreak."
         },
         {
           "value": "decryption-key-recovered-from-a-C&C-server-or-network-communications",
-          "expanded": ""
+          "expanded": "Key can be retrieved from a central location such as a C&C server on a compromised host or gleaned with some difficulty from communication between ransomware on the host and the C&C server. For instance, in the case of CryptoLocker, authorities were able to seize a network of compromised hosts used to spread CryptoLocker and gain access to decryption essentials of around 500, 000 victims."
         },
         {
           "value": "custom-encryption-algorithm-used",
-          "expanded": ""
+          "expanded": "Ransomware uses custom encryption techniques and violates the fundamental rule of cryptography: “do not roll your own crypto.” It is tempting to design a custom cipher that one cannot break themselves, however it will likely not withstand the scrutiny of professional cryptanalysts. Amateur custom cryptography in the ransomware implies there will likely soon be a solution to decrypt files without paying the ransom. An example of this is an early variant of the GPCoder ransomware that emerged in 2005 with weak custom encryption."
         },
         {
           "value": "decryption-key-recovered-under-specialized-lab-setting",
-          "expanded": ""
+          "expanded": "Key can only be retrieved under rare, specialized laboratory settings. For example, in the case of WannaCry, a vulnerability in a cryptographic API on an unpatched Windows XP system allowed users to acquire from RAM the prime numbers used to compute private keys and hence retrieve the decryption key. However, the victim had to have been running a specific version of Windows XP and be fortunate enough that the related address space in memory has not been reallocated to another process. In another example, it is theoretically possible to reverse WannaCry encryption by exploiting a flaw in the pseudo-random-number-generator (PRNG) in an unpatched Windows XP system that reveals keys generated in the past. Naturally, these specialized conditions are not true for most victims."
         },
         {
           "value": "small-subset-of-files-left-unencrypted",
-          "expanded": ""
+          "expanded": "A small subset of files left unencrypted by the ransomware for any number of reasons. Certain ransomware are known to only encrypt a file if its size exceeds a predetermined value. In addition, ransomware might decrypt a few files for free to prove decryption is possible. In such cases, a small number of victims may be lucky enough to only need these unencrypted files and can tolerate loss of the rest."
         },
         {
           "value": "encryption-model-is-seemingly-flawless",
-          "expanded": ""
+          "expanded": "Encryption model is resistant to cryptographic attacks and has been implemented seemingly flawlessly such that there are no known vulnerabilities in its execution. Simply put, there is no proven way yet to decrypt the files without paying the ransom."
         }
       ]
     }
