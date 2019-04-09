@@ -4,7 +4,9 @@
   "description": "Ransomware is used to define ransomware types and the elements that compose them.",
   "version": 1,
   "refs": [
-    "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-evolution-of-ransomware.pdf"
+    "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-evolution-of-ransomware.pdf",
+    "https://docs.apwg.org/ecrimeresearch/2018/5357083.pdf",
+    "https://bartblaze.blogspot.com/p/the-purpose-of-ransomware.html"
   ],
   "predicates": [
     {
@@ -21,6 +23,11 @@
       "value": "complexity-level",
       "expanded": "Complexity level",
       "description": "Level of complexity of the ransomware."
+    },
+    {
+      "value": "purpose",
+      "expanded": "Purpose",
+      "description": "Purpose of the ransomware."
     }
   ],
   "values": [
@@ -124,6 +131,43 @@
         {
           "value": "encryption-model-is-seemingly-flawless",
           "expanded": "Encryption model is resistant to cryptographic attacks and has been implemented seemingly flawlessly such that there are no known vulnerabilities in its execution. Simply put, there is no proven way yet to decrypt the files without paying the ransom."
+        }
+      ]
+    },
+    {
+      "predicate": "purpose",
+      "entry": [
+        {
+          "value": "deployed-as-ransomware-extortion",
+          "expanded": "This has been the traditional approach - ransomware is installed on the victim's machine, and its only purpose is to create income for the cybercriminal(s).  In fact, ransomware is simple extortion, but via digital means."
+        },
+        {
+          "value": "deployed-to-showcase-skills-for-fun-or-for-testing-purposes",
+          "expanded": "Some cybercriminals like to show off, and as such create the side-business of ransomware, or, more particularly to showcase their coding skills.\nAnother example may be to send ransomware 'as a joke' or for fun to your friends, and giving them a bad time.\nSome cybercriminals may be testing the waters by deploying ransomware in an organisation, to stress-test the defenses, or to test their own programming skills, or the lack thereof."
+        },
+        {
+          "value": "deployed-as-smokescreen",
+          "expanded": "A very interesting occurrence indeed: ransomware is installed to hide the real purpose of whatever the cybercriminal or attacker is doing. This may be data exfiltration, lateral movement, or anything else, in theory, everything is a possible scenario... except for the ransomware itself."
+        },
+        {
+          "value": "deployed-to-cause-frustration",
+          "expanded": "Another possible angle that goes hand in hand with the classic extortion scheme - deploying ransomware with intent of frustrating the victim. Basically, cyber bullying. While there may be a request for a monetary amount, it is not the purpose."
+        },
+        {
+          "value": "deployed-out-of-frustration",
+          "expanded": " Sometimes, an attacker may gain initial access to a server or other machine, but consequent attempts to, for example, exfiltrate data or attack other machine, is unsuccessful. This may be due to a number of things, but often due to the access being discovered, and quickly patched. On the other hand, it may have not been discovered yet, but the attacker is sitting with the same problem: the purpose is not fulfilled. Then, out of frustration, or to gain at least something out of the victim, the machine gets trashed with ransomware. Another possibility is a disgruntled employee, leaving ransomware as a 'present' before leaving the company."
+        },
+        {
+          "value": "deployed-as-a-cover-up",
+          "expanded": " This may sound ambiguous at first, but imagine a scenario where a company may face sanctions, is already compromised, or has a running investigation. The company or organisation deploying ransomware itself, is a viable way of destroying data forever, and any evidence may be lost.\nAnother possibility is, in order to cover up a much larger compromise, ransomware is installed, and everything is formatted to hide what actually happened.\nAgain, there is also the possibility of a disgruntled employee, or even an intruder: which brings us back to 'deployed as a smokescreen'."
+        },
+        {
+          "value": "deployed-as-a-penetration-test-or-user-awareness-training",
+          "expanded": "Ransomware is very effective in the sense that most people know what its purpose is, and the dangers it may cause. As such, it is an excellent tool that can be used for demonstration purposes, such as a user awareness training. Another possibility is an external pentest, with same purpose."
+        },
+        {
+          "value": "deployed-as-a-means-of-disruption-destruction",
+          "expanded": " Last but not least -  while ransomware can have several purposes, it can also serve a particularly nasty goal: destroy a company or organisation, or at least take them offline for several days, or even weeks.\nAgain, there are some possibilities, but this may be a rivalry company in a similar business, again a disgruntled employee, or to disrupt large organisations on a worldwide scale."
         }
       ]
     }
