@@ -1,7 +1,7 @@
 {
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
-  "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information. ",
+  "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
   "version": 8,
   "predicates": [
     {
