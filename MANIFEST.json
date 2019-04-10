@@ -449,11 +449,16 @@
       "version": 3,
       "name": "common-taxonomy",
       "description": "The Common Taxonomy for Law Enforcement and The National Network of CSIRTs bridges the gap between the CSIRTs and international Law Enforcement communities by adding a legislative framework to facilitate the harmonisation of incident reporting to competent authorities, the development of useful statistics and sharing information within the entire cybercrime ecosystem."
+    },
+    {
+      "version": 1,
+      "name": "ransomware",
+      "description": "Ransomware is used to define ransomware types and the elements that compose them."
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190408"
+  "version": "20190410"
 }
