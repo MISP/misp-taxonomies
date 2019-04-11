@@ -2,7 +2,7 @@
   "namespace": "ransomware",
   "expanded": "ransomware types and elements",
   "description": "Ransomware is used to define ransomware types and the elements that compose them.",
-  "version": 2.1,
+  "version": 3,
   "refs": [
     "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-evolution-of-ransomware.pdf",
     "https://docs.apwg.org/ecrimeresearch/2018/5357083.pdf",
