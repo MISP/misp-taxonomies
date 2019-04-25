@@ -125,6 +125,31 @@
         {
           "expanded": "misp2stix",
           "value": "misp2stix"
+        },
+        {
+          "expanded": "misp2yara",
+          "value": "misp2yara"
+        }
+      ]
+    },
+    {
+      "predicate": "misp2yara",
+      "entry": [
+        {
+          "expanded": "generated",
+          "value": "generated"
+        },
+        {
+          "expanded": "as-is",
+          "value": "as-is"
+        },
+        {
+          "expanded": "valid",
+          "value": "valid"
+        },
+        {
+          "expanded": "invalid",
+          "value": "invalid"
         }
       ]
     }
@@ -137,6 +162,10 @@
     {
       "expanded": "API related tag influencing the MISP behavior of the API.",
       "value": "api"
+    },
+    {
+      "expanded": "misp2yara export tool",
+      "value": "misp2yara"
     },
     {
       "description": "Expansion tag incluencing the MISP behavior using expansion modules",
@@ -171,7 +200,7 @@
       "value": "tool"
     }
   ],
-  "version": 7,
+  "version": 8,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
