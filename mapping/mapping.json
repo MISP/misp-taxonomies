@@ -3,9 +3,6 @@
     "values": [
       "rsit:availability=\"dos\"",
       "rsit:availability=\"ddos\"",
-      "rsit:availability=\"misconfiguration\"",
-      "rsit:availability=\"sabotage\"",
-      "rsit:availability=\"outage\"",
       "rsit:vulnerable=\"ddos-amplifier\"",
       "ecsirt:availability=\"ddos\"",
       "europol-incident:availability=\"dos-ddos\"",
@@ -32,13 +29,7 @@
   },
   "exploit": {
     "values": [
-      "rsit:intrusion-attempts=\"ids-alert\"",
       "rsit:intrusion-attempts=\"exploit\"",
-      "rsit:intrusions=\"application-compromise\"",
-      "rsit:intrusions=\"burglary\"",
-      "rsit:vulnerable=\"weak-crypto\"",
-      "rsit:vulnerable=\"information-disclosure\"",
-      "rsit:vulnerable=\"vulnerable-system\"",
       "veris:action:malware:variety=\"Exploit vuln\"",
       "ecsirt:intrusion-attempts=\"exploit\"",
       "europol-event:exploit",
@@ -48,7 +39,6 @@
   },
   "malware": {
     "values": [
-      "rsit:malicious-code=\"infected-system\"",
       "rsit:malicious-code=\"malware-distribution\"",
       "rsit:malicious-code=\"malware-configuration\"",
       "ecsirt:malicious-code=\"malware\"",
@@ -57,10 +47,6 @@
   },
   "Remote Access Tool": {
     "values": [
-      "rsit:information-content-security=\"unauthorised-information-access\"",
-      "rsit:information-content-security=\"unauthorised-information-modification\"",
-      "rsit:information-content-security=\"data-loss\"",
-      "rsit:vulnerable=\"potentially-unwanted-accessible\"",
       "enisa:nefarious-activity-abuse=\"remote-access-tool\"",
       "ms-caro-malware:malware-type=\"RemoteAccess\""
     ]
@@ -97,7 +83,6 @@
   },
   "scan network": {
     "values": [
-      "rsit:information-gathering=\"sniffing\"",
       "veris:action:malware:variety=\"Scan network\"",
       "europol-event:network-scanning"
     ]
@@ -111,7 +96,6 @@
   "phishing": {
     "values": [
       "rsit:fraud=\"phishing\"",
-      "rsit:information-gathering=\"social-engineering\"",
       "circl:incident-classification=\"phishing\"",
       "ecsirt:fraud=\"phishing\"",
       "veris:action:social:variety=\"Phishing\"",
@@ -130,8 +114,6 @@
   },
   "backdoor": {
     "values": [
-      "rsit:intrusions=\"privileged-account-compromise\"",
-      "rsit:intrusions=\"unprivileged-account-compromise\"",
       "ecsirt:intrusions=\"backdoor\"",
       "veris:action:malware:variety=\"Backdoor\"",
       "ms-caro-malware:malware-type=\"Backdoor\""
@@ -156,7 +138,6 @@
   },
   "Adware": {
     "values": [
-      "rsit:fraud=\"unauthorized-use-of-resources\"",
       "veris:action:malware:variety=\"Adware\"",
       "malware_classification:malware-category=\"Adware\"",
       "ms-caro-malware:malware-type=\"Adware\""
@@ -198,7 +179,7 @@
       "ecsirt:malicious-code=\"worm\""
     ]
   },
-  "Content": {
+  "content": {
     "values": [
       "rsit:abusive-content=\"harmful-speech\"",
       "rsit:abusive-content=\"violence\"",
