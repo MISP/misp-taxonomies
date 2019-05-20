@@ -33,7 +33,7 @@
       "expanded": "Test"
     }
   ],
-  "version": 3,
+  "version": 4,
   "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.",
   "namespace": "infoleak",
   "values": [
@@ -95,6 +95,14 @@
         {
           "value": "pgp-message",
           "expanded": "PGP message"
+        },
+        {
+          "value": "pgp-public-key-block",
+          "expanded": "PGP public key block"
+        },
+        {
+          "value": "pgp-signature",
+          "expanded": "PGP signature"
         },
         {
           "value": "pgp-private-key",
@@ -208,6 +216,14 @@
         {
           "value": "pgp-message",
           "expanded": "PGP message"
+        },
+        {
+          "value": "pgp-public-key-block",
+          "expanded": "PGP public key block"
+        },
+        {
+          "value": "pgp-signature",
+          "expanded": "PGP signature"
         },
         {
           "value": "pgp-private-key",
