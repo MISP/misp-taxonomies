@@ -2,7 +2,7 @@
   "namespace": "ransomware",
   "expanded": "ransomware types and elements",
   "description": "Ransomware is used to define ransomware types and the elements that compose them.",
-  "version": 3,
+  "version": 4,
   "refs": [
     "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-evolution-of-ransomware.pdf",
     "https://docs.apwg.org/ecrimeresearch/2018/5357083.pdf",
@@ -40,11 +40,11 @@
         },
         {
           "value": "locker-ransomware",
-          "expanded": "Locker ransomware, also called computer locker, denies access to the computer or device "
+          "expanded": "Locker ransomware, also called screen locker, denies access to the browser, computer or device."
         },
         {
           "value": "crypto-ransomware",
-          "expanded": "Crypto ransomware, also called data locker prevents access to files or data. Crypto ransomware doesn’t necessarily have to use encryption to stop users from accessing their data, but the vast majority of it does."
+          "expanded": "Crypto ransomware, also called data locker or cryptoware, prevents access to files or data. Crypto ransomware doesn’t necessarily have to use encryption to stop users from accessing their data, but the vast majority of it does."
         }
       ]
     },
@@ -53,7 +53,7 @@
       "entry": [
         {
           "value": "ransomnote",
-          "expanded": "A ransomnote is the message left by the attacker to threaten his victim and ask for ransom. It is usually seen as a text file or a picture set as background."
+          "expanded": "A ransomnote is the message left by the attacker to threaten their victim and ask for a ransom. It is usually seen as a text or HTML file, or a picture set as background."
         },
         {
           "value": "ransomware-appended-extension",
@@ -69,11 +69,11 @@
         },
         {
           "value": "dropper",
-          "expanded": "A dropper is a means of getting malware into a machine while bypassing the security checks by carring the malware inside of itself."
+          "expanded": "A dropper is a means of getting malware into a machine while bypassing the security checks, often by containing the malware inside of itself."
         },
         {
           "value": "downloader",
-          "expanded": "a downloader is a means of getting malware into a machine while bypassing the security checks, by downloading it instead of carring it."
+          "expanded": "A downloader is a means of getting malware into a machine while bypassing the security checks, by downloading it instead of containing it."
         }
       ]
     },
@@ -81,20 +81,20 @@
       "predicate": "complexity-level",
       "entry": [
         {
-          "value": "no-actual-encryption-fake-scareware",
-          "expanded": "No actual encryption (fake scareware). infection merely poses as a ransomware by displaying a ransom note while not actually encrypting user files"
+          "value": "no-actual-encryption-scareware",
+          "expanded": "No actual encryption (scareware). Infection merely poses as a ransomware by displaying a ransom note or message while not actually encrypting user files."
         },
         {
           "value": "display-ransomnote-before-encrypting",
-          "expanded": "Displaying the ransom note before encryption process commences. As seen in the case of Nemucod, some ransomware will display a ransom note before file encryption. This is a serious operational flaw in the ransomware. The victim or their antivirus solution could effectively take prompt evasive action to prevent ransomware from commencing encryption."
+          "expanded": "Displaying the ransom note before the encryption process commences. As seen in the case of Nemucod, some ransomware will display a ransom note before file encryption. This is a serious operational flaw in the ransomware. The victim or their antivirus solution could effectively take prompt evasive action to prevent ransomware from commencing encryption."
         },
         {
           "value": "decryption-essentials-extracted-from-binary",
-          "expanded": "Decryption essentials can be reverse engineered from ransomware code or the user system. For example, if the ransomware uses a hard-coded key, then it becomes straight-forward for malware analysts to extract the key by disassembling the ransomware binary. "
+          "expanded": "Decryption essentials can be reverse engineered from ransomware code or the user's system. For example, if the ransomware uses a hard-coded key, then it becomes straight-forward for malware analysts to extract the key by reverse engineering the ransomware binary. "
         },
         {
           "value": "derived-encryption-key-predicted  ",
-          "expanded": "Another possibility of reverse engineering the key is demonstrated in the case of the Linux.Encoder. Aransomware where a timestamp on the system was used to create keys for encryption resulting in easy decryption provided that the timestamp is still accessible."
+          "expanded": "Another possibility of reverse engineering the key is demonstrated in the case of Linux.Encoder, a type of ransomware where a timestamp on the system was used to create keys for encryption resulting in easy decryption provided that the timestamp is still accessible."
         },
         {
           "value": "same-key used-for-each-infection",
@@ -102,15 +102,19 @@
         },
         {
           "value": "encryption-circumvented",
-          "expanded": "decryption possible without key - Files can be decrypted without the need for a key due to poor choice or implementation of the encryption algorithm. Consider the case of desuCrypt that used an RC4 stream cipher for encryption. Using a stream cipher with key reuse is vulnerable to known plaintext attacks and known-ciphertext attacks due to the keyreuse vulnerability and hence this is a poor implementation of the encryption algorithm."
+          "expanded": "Decryption possible without key - files can be decrypted without the need for a key due to poor choice or implementation of the encryption algorithm. Consider the case of desuCrypt that used an RC4 stream cipher for encryption. Using a stream cipher with key reuse is vulnerable to known plaintext attacks and known ciphertext attacks due to key reuse and hence this is a poor implementation of an encryption algorithm."
         },
         {
           "value": "file-restoration-possible-using-shadow-volume-copies",
-          "expanded": "Files can be restored using system backups, e.g. Shadow Volume Copies on the New Technology File System (NTFS), that were neglected by the ransomware."
+          "expanded": "Files can be restored using Shadow Volume Copies (“Previous Versions”) on the New Technology File System (NTFS), that were neglected to be deleted by the ransomware."
+        },
+        {
+          "value": "file-restoration-possible-using-backups",
+          "expanded": "Files can be restored using a System State backup, System Image backup or other means of backup mechanisms (such as third-party backup software) that will render the ransomware's extortion attempt unsuccessful."
         },
         {
           "value": "key-recovered-from-file-system-or-memory",
-          "expanded": "Decryption key can be retrieved from the host machine’s file structure or memory by an average user without the need for an expert. In the case of CryptoDefense, the ransomware did not securely delete keys from the host machine. The user can look in the right folder to discover the decryption key."
+          "expanded": "Decryption key can be retrieved from the host machine’s file structure or memory by an average user without the need for an expert. In the case of CryptoDefense, the ransomware did not securely delete keys from the host machine. The user can examine the right file or folder to discover the decryption key."
         },
         {
           "value": "due-diligence-prevented-ransomware-from-acquiring-key",
@@ -118,19 +122,19 @@
         },
         {
           "value": "click-and-run-decryptor-exists",
-          "expanded": "Easy ‘Click-and-run’ solution such as a decryptor has been created by the security community such that a user can simply run the program to decrypt all files."
+          "expanded": "Easy “Click-and-run” solutions such as a decryptor has been created by the security community such that a user can simply run the program to decrypt all files."
         },
         {
           "value": "kill-switch-exists-outside-of-attacker-s-control",
-          "expanded": "There exists a kill switch outside of attacker’s control that renders the cryptoviral infection ineffective. For example, in the case of WannaCry, a global kill switch existed in the form of a domain name. The ransomware reached out to this domain before commencing encryption and if the domain existed, the ransomware aborted execution. This kill switch was outside the attacker’s control as anyone could register it and neutralize the ransomware outbreak."
+          "expanded": "There exists a kill switch outside of an attacker’s control that renders the cryptoviral infection ineffective. For example, in the case of WannaCry, a global kill switch existed in the form of a domain name. The ransomware reached out to this domain before commencing encryption and if the domain existed, the ransomware aborted execution. This kill switch was outside the attacker’s control as anyone could register it and neutralize the ransomware outbreak."
         },
         {
           "value": "decryption-key-recovered-from-a-C&C-server-or-network-communications",
-          "expanded": "Key can be retrieved from a central location such as a C&C server on a compromised host or gleaned with some difficulty from communication between ransomware on the host and the C&C server. For instance, in the case of CryptoLocker, authorities were able to seize a network of compromised hosts used to spread CryptoLocker and gain access to decryption essentials of around 500, 000 victims."
+          "expanded": "Key can be retrieved from a central location such as a C&C server on a compromised host or gleaned with some difficulty from communication between ransomware on the host and the C&C server. For instance, in the case of CryptoLocker, authorities were able to seize a network of compromised hosts used to spread CryptoLocker and gain access to decryption essentials of around 500,000 victims."
         },
         {
           "value": "custom-encryption-algorithm-used",
-          "expanded": "Ransomware uses custom encryption techniques and violates the fundamental rule of cryptography: “do not roll your own crypto.” It is tempting to design a custom cipher that one cannot break themselves, however it will likely not withstand the scrutiny of professional cryptanalysts. Amateur custom cryptography in the ransomware implies there will likely soon be a solution to decrypt files without paying the ransom. An example of this is an early variant of the GPCoder ransomware that emerged in 2005 with weak custom encryption."
+          "expanded": "Ransomware uses custom encryption techniques and violates the fundamental rule of cryptography: “do not roll your own crypto.” It is tempting to design a custom cipher that one cannot break themselves, however it will likely not withstand the scrutiny of professional cryptanalysts. Amateur custom cryptography in the ransomware implies there will likely soon be a solution to decrypt files without paying the ransom. An example of this is an early variant of the GPCode ransomware that emerged in 2005 with weak custom encryption."
         },
         {
           "value": "decryption-key-recovered-under-specialized-lab-setting",
