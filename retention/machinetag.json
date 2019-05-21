@@ -10,8 +10,7 @@
     {
       "value": "expired",
       "expanded": "Set when the retention period has expired",
-      "numerical_value": 0,
-      "hide_tag": true
+      "numerical_value": 0
     },
     {
       "value": "1d",
