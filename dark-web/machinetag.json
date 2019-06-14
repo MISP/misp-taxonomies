@@ -2,7 +2,7 @@
   "namespace": "dark-web",
   "expanded": "Dark Web",
   "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project",
-  "version": 1,
+  "version": 1.1,
   "predicates": [
     {
       "value": "topic",
@@ -13,6 +13,11 @@
       "value": "motivation",
       "description": "Motivation with the materials tagged",
       "expanded": "Motivation"
+    },
+    {
+      "value": "structure",
+      "description": "Structure of the materials tagged",
+      "expanded": "Structure"
     }
   ],
   "values": [
@@ -33,6 +38,16 @@
           "value": "finance",
           "expanded": "Finance",
           "description": "Any monetary/currency/exchangeable materials. Includes carding, Bitcoin, Litecoin etc."
+        },
+        {
+          "value": "cash-in",
+          "expanded": "Cash-in",
+          "description": "_"
+        },
+        {
+          "value": "cash-out",
+          "expanded": "Cash-out",
+          "description": "_"
         },
         {
           "value": "hacking",
@@ -85,9 +100,44 @@
           "description": "Materials specifically associated with materials and/or items for use in violent acts against persons or property. Examples include firearms and bomb-making ingredients."
         },
         {
+          "value": "credit-card",
+          "expanded": "Credit-Card",
+          "description": "Credit cards and payments materials"
+        },
+        {
+          "value": "counteir-feit-materials",
+          "expanded": "Counter-feit materials",
+          "description": "Fake identification papers."
+        },
+        {
+          "value": "gambling",
+          "expanded": "Gambling",
+          "description": "Games involving money"
+        },
+        {
+          "value": "library",
+          "expanded": "Library",
+          "description": "Library or list of books"
+        },
+        {
           "value": "other-not-illegal",
           "expanded": "Other not illegal",
           "description": "Material not of interest to law enforcement - e.g. personal sites, Facebook mirrors."
+        },
+        {
+          "value": "legitimate",
+          "expanded": "Legitimate",
+          "description": "Legitimate websites"
+        },
+        {
+          "value": "chat",
+          "expanded": "Chats platforms",
+          "description": "Chats space or equivalent, which are not forums"
+        },
+        {
+          "value": "mixer",
+          "expanded": "_",
+          "description": "_"
         }
       ]
     },
@@ -108,6 +158,16 @@
           "value": "forum",
           "expanded": "Forum",
           "description": "Sites specifically designed for multiple users to communicate as peers"
+        },
+        {
+          "value": "wiki",
+          "expanded": "Wiki",
+          "description": "Wiki pages and information display"
+        },
+        {
+          "value": "hosting",
+          "expanded": "Hosting",
+          "description": "Hosting providers"
         },
         {
           "value": "general",
@@ -133,6 +193,36 @@
           "value": "system-placeholder",
           "expanded": "System/Placeholder",
           "description": "Automatically generated content, not designed for any identifiable purpose other than diagnostics - e.g. “It Works” message provided by default by Apache2"
+        }
+      ]
+    },
+    {
+      "predicate": "structure",
+      "entry": [
+        {
+          "value": "incomplete",
+          "expanded": "Imcomplete websites or information",
+          "description": "Websites and pages that are unable to load completely properly"
+        },
+        {
+          "value": "captcha",
+          "expanded": "Captcha and Solvers",
+          "description": "Captchas and solvers elements"
+        },
+        {
+          "value": "LoginForms",
+          "expanded": "Logins forms and gates",
+          "description": "Authentification pages, login page, login forms that block access to an internal part of a website."
+        },
+        {
+          "value": "police-notice",
+          "expanded": "Police Notice",
+          "description": "Closed websites, with police-equivalent banners"
+        },
+        {
+          "value": "test",
+          "expanded": "Test",
+          "description": "Test websites without any real consequences or effects"
         }
       ]
     }
