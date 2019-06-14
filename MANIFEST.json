@@ -456,7 +456,7 @@
       "description": "Ransomware is used to define ransomware types and the elements that compose them."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "dark-web",
       "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project."
     },
@@ -470,5 +470,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190521"
+  "version": "20190614"
 }
