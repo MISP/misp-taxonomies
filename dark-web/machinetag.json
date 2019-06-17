@@ -42,12 +42,17 @@
         {
           "value": "cash-in",
           "expanded": "Cash-in",
-          "description": "_"
+          "description": "Buying parts of assets, conversion from liquid assets, currency, etc."
         },
         {
           "value": "cash-out",
           "expanded": "Cash-out",
-          "description": "_"
+          "description": "Selling parts of assets, conversion to liquid assets, currency, etc."
+        },
+        {
+          "value": "escrow",
+          "expanded": "Escrow",
+          "description": "Third party keeping assets in behalf of two other parties making a transactions."
         },
         {
           "value": "hacking",
@@ -100,6 +105,11 @@
           "description": "Materials specifically associated with materials and/or items for use in violent acts against persons or property. Examples include firearms and bomb-making ingredients."
         },
         {
+          "value": "softwares",
+          "expanded": "Softwares",
+          "description": "Illegal or armful software distribution"
+        },
+        {
           "value": "credit-card",
           "expanded": "Credit-Card",
           "description": "Credit cards and payments materials"
@@ -136,8 +146,8 @@
         },
         {
           "value": "mixer",
-          "expanded": "_",
-          "description": "_"
+          "expanded": "Mixer",
+          "description": "Anonymization tools for crypto-currencies transactions"
         }
       ]
     },
@@ -162,12 +172,12 @@
         {
           "value": "wiki",
           "expanded": "Wiki",
-          "description": "Wiki pages and information display"
+          "description": "Wiki pages, documentation and information display"
         },
         {
           "value": "hosting",
           "expanded": "Hosting",
-          "description": "Hosting providers"
+          "description": "Hosting providers, e-mails, websites, file-storage etc."
         },
         {
           "value": "general",
@@ -178,6 +188,11 @@
           "value": "information-sharing-reportage",
           "expanded": "Information Sharing/Reportage",
           "description": "Journalism/reporting on topics. Can include biased coverage, but obvious propaganda materials are covered by Recruitment/Advocacy."
+        },
+        {
+          "value": "scam",
+          "expanded": "Scam",
+          "description": "Intentional confidence trick to fraud people or group of people"
         },
         {
           "value": "marketplace-for-sale",
