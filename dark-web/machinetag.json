@@ -2,7 +2,7 @@
   "namespace": "dark-web",
   "expanded": "Dark Web",
   "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project",
-  "version": 1.1,
+  "version": 2,
   "predicates": [
     {
       "value": "topic",
@@ -241,5 +241,5 @@
         }
       ]
     }
-    ]
+  ]
 }
