@@ -148,6 +148,26 @@
           "value": "mixer",
           "expanded": "Mixer",
           "description": "Anonymization tools for crypto-currencies transactions"
+        },
+        {
+          "value": "mystery-box",
+          "expanded": "Mystery-Box",
+          "description": "Mystery Box seller"
+        },
+        {
+          "value": "anonymizer",
+          "expanded": "Anonymizer",
+          "description": "Anonymization tools"
+        },
+        {
+          "value": "vpn-provider",
+          "expanded": "VPN-Provider",
+          "description": "Provides VPN services and related"
+        },
+        {
+          "value": "email-provider",
+          "expanded": "EMail-Provider",
+          "description": "Provides e-mail services and related"
         }
       ]
     },
@@ -193,6 +213,11 @@
           "value": "scam",
           "expanded": "Scam",
           "description": "Intentional confidence trick to fraud people or group of people"
+        },
+        {
+          "value": "conspirationist",
+          "expanded": "Conspirationist",
+          "description": "Conspirationist content, fake news, etc."
         },
         {
           "value": "marketplace-for-sale",
