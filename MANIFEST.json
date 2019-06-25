@@ -191,7 +191,7 @@
       "description": "Malware classification based on a SANS whitepaper about malware."
     },
     {
-      "version": 5,
+      "version": 9,
       "name": "misp",
       "description": "Internal MISP taxonomy."
     },
@@ -271,7 +271,7 @@
       "description": "Vocabulary for Event Recording and Incident Sharing (VERIS)."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "vocabulaire-des-probabilites-estimatives",
       "description": "Vocabulaire des probabilités estimatives"
     },
@@ -311,7 +311,7 @@
       "description": "Sectors and sub sectors as identified by the NIS Directive."
     },
     {
-      "version": 2,
+      "version": 3,
       "name": "economical-impact",
       "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information."
     },
@@ -475,5 +475,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190621"
+  "version": "20190625"
 }

@@ -4,23 +4,28 @@
       "entry": [
         {
           "expanded": "Presque aucune chance - Quasi impossible Presque impossible Minces chances Très douteux Très peu probable Très improbable Improbable Peu de chances - 7 % (marge d’erreur d’environ 5 %)",
-          "value": "presque-aucune-chance"
+          "value": "presque-aucune-chance",
+          "numerical_value": 7
         },
         {
           "expanded": "Probablement pas - Invraisemblable Peu probable - 30 % (marge d’erreur d’environ 10 %)",
-          "value": "probablement-pas"
+          "value": "probablement-pas",
+          "numerical_value": 30
         },
         {
           "expanded": "Chances à peu près égales - une chance sur deux - 50% (marge d’erreur d’environ 10 %)",
-          "value": "chances-à-peu-près-egales"
+          "value": "chances-à-peu-près-egales",
+          "numerical_value": 50
         },
         {
           "expanded": "Probable - Vraisemblable Probable - 75 % (marge d’erreur d’environ 12 %)",
-          "value": "probable"
+          "value": "probable",
+          "numerical_value": 75
         },
         {
           "expanded": "Quasi certaine - Certain Presque certain Très probable - 93% (marge d’erreur d’environ 6 %)",
-          "value": "quasi-certaine"
+          "value": "quasi-certaine",
+          "numerical_value": 93
         }
       ],
       "predicate": "degré-de-probabilité"
@@ -33,7 +38,7 @@
       "value": "degré-de-probabilité"
     }
   ],
-  "version": 1,
+  "version": 2,
   "description": "Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité",
   "expanded": "Vocabulaire des probabilités estimatives",
   "namespace": "vocabulaire-des-probabilites-estimatives",
