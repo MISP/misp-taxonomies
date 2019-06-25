@@ -66,7 +66,8 @@
         },
         {
           "expanded": "Confidence cannot be evaluated",
-          "value": "confidence-cannot-be-evalued"
+          "value": "confidence-cannot-be-evalued",
+          "numerical_value": 50
         }
       ]
     },
@@ -105,7 +106,7 @@
         {
           "expanded": "Generated automatically without human verification",
           "value": "unsupervised",
-          "numerical_value": 100
+          "numerical_value": 0
         },
         {
           "expanded": "Generated automatically but verified by a human",
@@ -115,7 +116,7 @@
         {
           "expanded": "Output of human analysis",
           "value": "manual",
-          "numerical_value": 0
+          "numerical_value": 100
         }
       ]
     },
@@ -200,7 +201,7 @@
       "value": "tool"
     }
   ],
-  "version": 8,
+  "version": 9,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
