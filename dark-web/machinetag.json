@@ -168,6 +168,11 @@
           "value": "email-provider",
           "expanded": "EMail-Provider",
           "description": "Provides e-mail services and related"
+        },
+        {
+          "value": "ponies",
+          "expanded": "Ponies",
+          "description": "self-explanatory. It's ponies"
         }
       ]
     },
@@ -278,6 +283,11 @@
           "value": "test",
           "expanded": "Test",
           "description": "Test websites without any real consequences or effects"
+        },
+        {
+          "value": "videos",
+          "expanded": "Videos",
+          "description": "Videos and streaming"
         }
       ]
     }
