@@ -220,6 +220,16 @@
           "description": "Conspirationist content, fake news, etc."
         },
         {
+          "value": "hate-speech",
+          "expanded": "Hate-Speech",
+          "description": "Racism, violent, hate... speech."
+        },
+        {
+          "value": "religious",
+          "expanded": "Religious",
+          "description": "Religious, faith, doctrinal related content."
+        },
+        {
           "value": "marketplace-for-sale",
           "expanded": "Marketplace/For Sale",
           "description": "Services/goods for sale, regardless of means of payment."
@@ -258,6 +268,11 @@
           "value": "police-notice",
           "expanded": "Police Notice",
           "description": "Closed websites, with police-equivalent banners"
+        },
+        {
+          "value": "legal-statement",
+          "expanded": "Legal-Statement",
+          "description": "RGPD statement, Privacy-policy, ..."
         },
         {
           "value": "test",
