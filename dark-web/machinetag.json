@@ -173,6 +173,11 @@
           "value": "ponies",
           "expanded": "Ponies",
           "description": "self-explanatory. It's ponies"
+        },
+        {
+          "value": "whistleblower",
+          "expanded": "Whistleblower",
+          "description": "Exposition and sharing of confidential information with protection of the witness in mind"
         }
       ]
     },
@@ -205,6 +210,11 @@
           "description": "Hosting providers, e-mails, websites, file-storage etc."
         },
         {
+          "value": "ddos-services",
+          "expanded": "DDoS-Services",
+          "description": "Stresser, Booter, DDoSer, DDoS as a Service provider, DDoS tools, etc."
+        },
+        {
           "value": "general",
           "expanded": "General",
           "description": "Materials not covered by the other motivations. Typically, materials of a nature not of interest to law enforcement.  For example, personal biography sites."
@@ -228,6 +238,11 @@
           "value": "hate-speech",
           "expanded": "Hate-Speech",
           "description": "Racism, violent, hate... speech."
+        },
+        {
+          "value": "political-speech",
+          "expanded": "Political-Speech",
+          "description": "Political, activism, without extremism."
         },
         {
           "value": "religious",
