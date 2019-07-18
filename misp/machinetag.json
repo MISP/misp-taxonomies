@@ -165,10 +165,6 @@
       "value": "api"
     },
     {
-      "expanded": "misp2yara export tool",
-      "value": "misp2yara"
-    },
-    {
       "description": "Expansion tag incluencing the MISP behavior using expansion modules",
       "expanded": "Expansion",
       "value": "expansion"
@@ -199,6 +195,10 @@
       "description": "Tool associated with the information taggged",
       "expanded": "Tool",
       "value": "tool"
+    },
+    {
+      "expanded": "misp2yara export tool",
+      "value": "misp2yara"
     }
   ],
   "version": 9,
