@@ -65,7 +65,7 @@
         },
         {
           "value": "create-missing-relationship",
-          "exapanded": "Create missing relationship about the information tagged (e.g. create new relationship between MISP objects)"
+          "expanded": "Create missing relationship about the information tagged (e.g. create new relationship between MISP objects)"
         },
         {
           "value": "add-context",
