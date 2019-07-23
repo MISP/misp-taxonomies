@@ -474,7 +474,23 @@
       "version": 1,
       "name": "csirt-americas",
       "description": "Taxonomy from CSIRTAmericas.org."
+    },
+    {
+      "version": 1,
+      "name": "scrippsco2-fgc",
+      "description": "Flags describing the sample"
+    },
+    {
+      "version": 1,
+      "name": "scrippsco2-fgi",
+      "description": "Flags describing the sample for isotopic data (C14, O18)"
+    },
+    {
+      "version": 1,
+      "name": "scrippsco2-sampling-stations",
+      "description": "Sampling stations of the Scripps CO2 Program"
     }
+
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
