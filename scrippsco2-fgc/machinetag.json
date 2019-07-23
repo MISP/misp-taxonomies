@@ -52,5 +52,5 @@
   ],
   "version": 1,
   "description": "Flags describing the sample",
-  "namespace": "scrippsco2-flags"
+  "namespace": "scrippsco2-fgc"
 }
