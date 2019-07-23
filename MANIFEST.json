@@ -490,7 +490,6 @@
       "name": "scrippsco2-sampling-stations",
       "description": "Sampling stations of the Scripps CO2 Program"
     }
-
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
