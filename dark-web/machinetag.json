@@ -30,14 +30,24 @@
           "description": "Illegal drugs/chemical compounds for consumption/ingestion - either via blanket unlawfulness (e.g. proscribed drugs) or via unlawful access (e.g. prescription-only/restricted medications sold without lawful accessibility)."
         },
         {
-          "value": "extremism",
-          "expanded": "Extremism",
-          "description": "Illegal or ‘of concern’ levels of extremist ideology. Note this does not provide blanket coverage of fundamentalist ideologies and dogma - only those associated with illegal acts. Socialist/anarchist/religious materials (for example) will not be included unless inclusive or indicative of associated illegal conduct, such as hate crimes."
+          "value": "electronics",
+          "expanded": "Electronics",
+          "description": "Electronics and high tech materials, described or to sell for example."
         },
         {
           "value": "finance",
           "expanded": "Finance",
-          "description": "Any monetary/currency/exchangeable materials. Includes carding, Bitcoin, Litecoin etc."
+          "description": "Any monetary/currency/exchangeable materials. Includes carding, Paypal etc."
+        },
+        {
+          "value": "finance-crypto",
+          "expanded": "CryptoFinance",
+          "description": "Any monetary/currency/exchangeable materials based on cryptocurrencies. Includes Bitcoin, Litecoin etc."
+        },
+        {
+          "value": "credit-card",
+          "expanded": "Credit-Card",
+          "description": "Credit cards and payments materials"
         },
         {
           "value": "cash-in",
@@ -95,6 +105,11 @@
           "description": "Unable to completely establish topic of material."
         },
         {
+          "value": "extremism",
+          "expanded": "Extremism",
+          "description": "Illegal or ‘of concern’ levels of extremist ideology. Note this does not provide blanket coverage of fundamentalist ideologies and dogma - only those associated with illegal acts. Socialist/anarchist/religious materials (for example) will not be included unless inclusive or indicative of associated illegal conduct, such as hate crimes."
+        },
+        {
           "value": "violence",
           "expanded": "Violence",
           "description": "Materials relating to violence against persons or property."
@@ -108,11 +123,6 @@
           "value": "softwares",
           "expanded": "Softwares",
           "description": "Illegal or armful software distribution"
-        },
-        {
-          "value": "credit-card",
-          "expanded": "Credit-Card",
-          "description": "Credit cards and payments materials"
         },
         {
           "value": "counteir-feit-materials",
@@ -175,6 +185,16 @@
           "description": "self-explanatory. It's ponies"
         },
         {
+          "value": "games",
+          "expanded": "Games",
+          "description": "Flash or online games"
+        },
+        {
+          "value": "parody",
+          "expanded": "Parody or Joke",
+          "description": "Meme, Parody, Jokes, Trolling, ..."
+        },
+        {
           "value": "whistleblower",
           "expanded": "Whistleblower",
           "description": "Exposition and sharing of confidential information with protection of the witness in mind"
@@ -190,9 +210,9 @@
           "description": "Materials providing instruction - e.g. ‘how to’ guides"
         },
         {
-          "value": "file-sharing",
-          "expanded": "File Sharing",
-          "description": "General file sharing, typically (but not limited to) movie/image sharing"
+          "value": "wiki",
+          "expanded": "Wiki",
+          "description": "Wiki pages, documentation and information display"
         },
         {
           "value": "forum",
@@ -200,9 +220,9 @@
           "description": "Sites specifically designed for multiple users to communicate as peers"
         },
         {
-          "value": "wiki",
-          "expanded": "Wiki",
-          "description": "Wiki pages, documentation and information display"
+          "value": "file-sharing",
+          "expanded": "File Sharing",
+          "description": "General file sharing, typically (but not limited to) movie/image sharing"
         },
         {
           "value": "hosting",
@@ -230,6 +250,11 @@
           "description": "Intentional confidence trick to fraud people or group of people"
         },
         {
+          "value": "political-speech",
+          "expanded": "Political-Speech",
+          "description": "Political, activism, without extremism."
+        },
+        {
           "value": "conspirationist",
           "expanded": "Conspirationist",
           "description": "Conspirationist content, fake news, etc."
@@ -238,11 +263,6 @@
           "value": "hate-speech",
           "expanded": "Hate-Speech",
           "description": "Racism, violent, hate... speech."
-        },
-        {
-          "value": "political-speech",
-          "expanded": "Political-Speech",
-          "description": "Political, activism, without extremism."
         },
         {
           "value": "religious",
@@ -255,6 +275,11 @@
           "description": "Services/goods for sale, regardless of means of payment."
         },
         {
+          "value": "smuggling",
+          "expanded": "Smuggling",
+          "description": "Information or trading of wild animals, prohibited goods, ... "
+        },
+        {
           "value": "recruitment-advocacy",
           "expanded": "Recruitment/Advocacy",
           "description": "Propaganda"
@@ -263,6 +288,11 @@
           "value": "system-placeholder",
           "expanded": "System/Placeholder",
           "description": "Automatically generated content, not designed for any identifiable purpose other than diagnostics - e.g. “It Works” message provided by default by Apache2"
+        },
+        {
+          "value": "unclear",
+          "expanded": "Unclear",
+          "description": "Unable to completely establish motivation of material."
         }
       ]
     },
@@ -271,7 +301,7 @@
       "entry": [
         {
           "value": "incomplete",
-          "expanded": "Imcomplete websites or information",
+          "expanded": "Incomplete websites or information",
           "description": "Websites and pages that are unable to load completely properly"
         },
         {
@@ -280,9 +310,19 @@
           "description": "Captchas and solvers elements"
         },
         {
-          "value": "LoginForms",
+          "value": "login-forms",
           "expanded": "Logins forms and gates",
-          "description": "Authentification pages, login page, login forms that block access to an internal part of a website."
+          "description": "Authentication pages, login page, login forms that block access to an internal part of a website."
+        },
+        {
+          "value": "contact-forms",
+          "expanded": "Contact forms and gates",
+          "description": "Forms to perform a contact request, send an e-mail, fill information, enter a password, ..."
+        },
+        {
+          "value": "encryption-keys",
+          "expanded": "Encryption and decryption keys",
+          "description": "e.g. PGP Keys, passwords, ..."
         },
         {
           "value": "police-notice",
@@ -292,7 +332,7 @@
         {
           "value": "legal-statement",
           "expanded": "Legal-Statement",
-          "description": "RGPD statement, Privacy-policy, ..."
+          "description": "RGPD statement, Privacy-policy, guidelines of a websites or forum..."
         },
         {
           "value": "test",
@@ -303,6 +343,11 @@
           "value": "videos",
           "expanded": "Videos",
           "description": "Videos and streaming"
+        },
+        {
+          "value": "unclear",
+          "expanded": "Unclear",
+          "description": "Unable to completely establish structure of material."
         }
       ]
     }
