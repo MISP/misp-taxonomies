@@ -120,14 +120,17 @@
       "entry": [
         {
           "value": "take-down",
+          "expanded": "Take down",
           "description": "Take down notification sent to the operator where the phishing infrastructure is hosted."
         },
         {
           "value": "pending-law-enforcement-request",
+          "expanded": "Pending law enforcement request",
           "description": "Law enforcement requests are ongoing on the phishing infrastructure."
         },
         {
           "value": "pending-dispute-resolution",
+          "expanded": "Pending dispute resolution",
           "description": "Dispute resolution sent to competent authorities (e.g. domain authority, trademark dispute)."
         }
       ]
