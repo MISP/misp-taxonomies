@@ -125,6 +125,10 @@
         {
           "value": "pending-law-enforcement-request",
           "description": "Law enforcement requests are ongoing on the phishing infrastructure."
+        },
+        {
+          "value": "pending-dispute-resolution",
+          "description": "Dispute resolution sent to competent authorities (e.g. domain authority, trademark dispute)."
         }
       ]
     },
