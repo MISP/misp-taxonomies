@@ -1,0 +1,152 @@
+{
+  "namespace": "phishing",
+  "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "techniques",
+      "expanded": "Techniques",
+      "description": "Phishing techniques used."
+    },
+    {
+      "value": "reported",
+      "expanded": "Reported",
+      "description": "How the phishing information was reported."
+    },
+    {
+      "value": "origin",
+      "expanded": "Origin",
+      "description": "Origin or source of the phishing information such as tools or services."
+    },
+    {
+      "value": "action",
+      "expanded": "Action",
+      "description": "Action(s) taken related to the phishing tagged with this taxonomy."
+    },
+    {
+      "value": "state",
+      "expanded": "State",
+      "description": "State of the phishing."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "techniques",
+      "entry": [
+        {
+          "value": "fake-website",
+          "expanded": "Social engineering fake website",
+          "description": "Adversary controls a fake website to phish for credentials or information."
+        },
+        {
+          "value": "email-spoofing",
+          "expanded": "Social engineering email spoofing",
+          "description": "Adversary sends email with domains related to target. Adversary controls the domains used."
+        },
+        {
+          "value": "clone-phishing",
+          "expanded": "Clone phishing",
+          "description": "Adversary clones an email to target potential victims with duplicated content."
+        },
+        {
+          "value": "voice-phishing",
+          "expanded": "Voice phishing",
+          "description": "Adversary use voice-based techniques to trick a potential victim to give credentials or sensitive information. This is also named as vishing."
+        },
+        {
+          "value": "search-engines-abuse",
+          "expanded": "Social engineering search engines abuse",
+          "description": "Adversary controls the search engine result to get an advantage"
+        },
+        {
+          "value": "spear-phishing",
+          "expanded": "Spear phishing",
+          "description": "Adversary attempts targeted phishing to a user or a specific group of users based on knowledge known by the adversary."
+        },
+        {
+          "value": "bulk-phishing",
+          "expanded": "Bulk phishing",
+          "description": "Adversary attempts to target a large group of potential targets without specific knowledge of the victims."
+        },
+        {
+          "value": "sms-phishing",
+          "expanded": "SMS phishing",
+          "description": "Adversary sends an SMS to a potential victims to gather sensitive information or use another phishing techniques at a later stage."
+        }
+      ]
+    },
+    {
+      "predicate": "reported",
+      "entry": [
+        {
+          "value": "manual-reporting",
+          "expanded": "Manual reporting",
+          "description": "Phishing reported by a human (e.g. tickets, manual reporting)."
+        },
+        {
+          "value": "automatic-reporting",
+          "expanded": "Automatic reporting",
+          "description": "Phishing collected by automatic reporting (e.g. phishing report tool, API)."
+        }
+      ]
+    },
+    {
+      "predicate": "origin",
+      "entry": [
+        {
+          "value": "url-abuse",
+          "expanded": "url-abuse",
+          "description": "CIRCL url-abuse service."
+        },
+        {
+          "value": "lookyloo",
+          "expanded": "lookyloo",
+          "description": "CIRCL lookyloo service."
+        },
+        {
+          "value": "phishtank",
+          "expanded": "Phishtank",
+          "description": "Phishtank service."
+        },
+        {
+          "value": "spambee",
+          "expanded": "Spambee",
+          "description": "C-3 Spambee service."
+        }
+      ]
+    },
+    {
+      "predicate": "action",
+      "entry": [
+        {
+          "value": "take-down",
+          "description": "Take down notification sent to the operator where the phishing infrastructure is hosted."
+        },
+        {
+          "value": "pending-law-enforcement-request",
+          "description": "Law enforcement requests are ongoing on the phishing infrastructure."
+        }
+      ]
+    },
+    {
+      "predicate": "state",
+      "entry": [
+        {
+          "value": "unknown",
+          "expanded": "Phishing state is unknown or cannot be evaluated",
+          "numerical_value": 50
+        },
+        {
+          "value": "active",
+          "expanded": "Phishing state is active and actively used by the adversary",
+          "numerical_value": 100
+        },
+        {
+          "value": "down",
+          "expanded": "Phishing state is known to be down",
+          "numerical_value": 0
+        }
+      ]
+    }
+  ]
+}
