@@ -1,7 +1,7 @@
 {
   "namespace": "cssa",
   "description": "The CSSA agreed sharing taxonomy.",
-  "version": 4,
+  "version": 6,
   "predicates": [
     {
       "value": "sharing-class",
@@ -24,17 +24,20 @@
         {
           "value": "high_profile",
           "expanded": "Generated within the company during incident/case related investigations or forensic analysis or via malware reversing, validated by humans and highly contextualized.",
-          "colour": "#007695"
+          "colour": "#007695",
+          "numerical_value": 95
         },
         {
           "value": "vetted",
           "expanded": "Generated within the company, validated by a human prior to sharing, data points have been contextualized (to a degree) e.g. IPs are related to C2 or drop site.",
-          "colour": "#008aaf"
+          "colour": "#008aaf",
+          "numerical_value": 50
         },
         {
           "value": "unvetted",
           "expanded": "Generated within the company by automated means without human interaction e.g., by malware sandbox, honeypots, IDS, etc.",
-          "colour": "#00b3e2"
+          "colour": "#00b3e2",
+          "numerical_value": 10
         }
       ]
     },
