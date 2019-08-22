@@ -1,7 +1,7 @@
 {
   "namespace": "phishing",
   "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "techniques",
@@ -9,13 +9,18 @@
       "description": "Phishing techniques used."
     },
     {
-      "value": "reported",
-      "expanded": "Reported",
+      "value": "distribution",
+      "expanded": "Distribution",
+      "description": "How the phishing is distributed."
+    },
+    {
+      "value": "report-type",
+      "expanded": "Report type",
       "description": "How the phishing information was reported."
     },
     {
-      "value": "origin",
-      "expanded": "Origin",
+      "value": "report-origin",
+      "expanded": "Report origin",
       "description": "Origin or source of the phishing information such as tools or services."
     },
     {
@@ -27,6 +32,11 @@
       "value": "state",
       "expanded": "State",
       "description": "State of the phishing."
+    },
+    {
+      "value": "psychological-acceptability",
+      "expanded": "Psychological acceptability",
+      "description": "Quality of the phishing by its level of acceptance by the target."
     }
   ],
   "values": [
@@ -59,6 +69,16 @@
           "description": "Adversary controls the search engine result to get an advantage"
         },
         {
+          "value": "sms-phishing",
+          "expanded": "SMS phishing",
+          "description": "Adversary sends an SMS to a potential victims to gather sensitive information or use another phishing techniques at a later stage."
+        }
+      ]
+    },
+    {
+      "predicate": "distribution",
+      "entry": [
+        {
           "value": "spear-phishing",
           "expanded": "Spear phishing",
           "description": "Adversary attempts targeted phishing to a user or a specific group of users based on knowledge known by the adversary."
@@ -67,16 +87,11 @@
           "value": "bulk-phishing",
           "expanded": "Bulk phishing",
           "description": "Adversary attempts to target a large group of potential targets without specific knowledge of the victims."
-        },
-        {
-          "value": "sms-phishing",
-          "expanded": "SMS phishing",
-          "description": "Adversary sends an SMS to a potential victims to gather sensitive information or use another phishing techniques at a later stage."
         }
       ]
     },
     {
-      "predicate": "reported",
+      "predicate": "report-type",
       "entry": [
         {
           "value": "manual-reporting",
@@ -91,7 +106,7 @@
       ]
     },
     {
-      "predicate": "origin",
+      "predicate": "report-origin",
       "entry": [
         {
           "value": "url-abuse",
@@ -152,6 +167,30 @@
           "value": "down",
           "expanded": "Phishing state is known to be down",
           "numerical_value": 0
+        }
+      ]
+    },
+    {
+      "predicate": "psychological-acceptability",
+      "entry": [
+        {
+          "value": "unknown",
+          "expanded": "Phishing acceptance rate is unknown."
+        },
+        {
+          "value": "low",
+          "expanded": "Phishing acceptance rate is low.",
+          "numerical_value": 25
+        },
+        {
+          "value": "medium",
+          "expanded": "Phishing acceptance rate is medium.",
+          "numerical_value": 50
+        },
+        {
+          "value": "high",
+          "expanded": "Phishing acceptance rate is high.",
+          "numerical_value": 75
         }
       ]
     }
