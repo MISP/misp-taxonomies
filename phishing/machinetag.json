@@ -1,7 +1,7 @@
 {
   "namespace": "phishing",
   "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "techniques",
@@ -66,7 +66,7 @@
         {
           "value": "voice-phishing",
           "expanded": "Voice phishing",
-          "description": "Adversary use voice-based techniques to trick a potential victim to give credentials or sensitive information. This is also named as vishing."
+          "description": "Adversary uses voice-based techniques to trick a potential victim to give credentials or sensitive information. This is also known as vishing."
         },
         {
           "value": "search-engines-abuse",
@@ -76,7 +76,7 @@
         {
           "value": "sms-phishing",
           "expanded": "SMS phishing",
-          "description": "Adversary sends an SMS to a potential victims to gather sensitive information or use another phishing techniques at a later stage."
+          "description": "Adversary sends an SMS to a potential victims to gather sensitive information or use another phishing technique at a later stage."
         }
       ]
     },
