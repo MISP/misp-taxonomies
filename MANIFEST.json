@@ -491,7 +491,7 @@
       "description": "Sampling stations of the Scripps CO2 Program"
     },
     {
-      "version": 1,
+      "version": 4,
       "name": "phishing",
       "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status."
     }
@@ -500,5 +500,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190820"
+  "version": "20190822"
 }
