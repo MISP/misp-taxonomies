@@ -1,12 +1,40 @@
 {
   "predicates": [
     {
-      "colour": "#d208f4",
       "expanded": "OT Components Category",
       "value": "ot-components-category"
+    },
+    {
+      "expanded": "OT Operating Systems",
+      "value": "ot-operating-systems"
     }
   ],
   "values": [
+    {
+      "predicate": "ot-operating-systems",
+      "entry": [
+        {
+          "value": "rtos",
+          "expanded": "RTOS",
+          "description": "Please see the URL reference, there are a lot of it to be listed in here.  These OS are also referred as Firmware. https://en.wikipedia.org/wiki/Comparison_of_real-time_operating_systems"
+        },
+        {
+          "value": "linux-embedded-base-os",
+          "expanded": "Linux Embedded Base OS",
+          "description": "Yocto\\nBuildroot\\nOpenWRT\\nB & R Linux\\n Scientific Linux\\nRaspbian\\nAndroid"
+        },
+        {
+          "value": "bsd",
+          "expanded": "BSD",
+          "description": "NetBSD (NetBSD Embedded Systems)\\nFreeBSD (Modified. i.e.: Orbis OS)"
+        },
+        {
+          "value": "microsoft",
+          "expanded": "Microsoft",
+          "description": "Windows 10 IoT Enterprise\\n Windows Embedded 8.1 Industry Professional\\n Windows 7 Professional/Ultimate\\n Windows Embedded Standard 7\\n Windows Embedded Standard 2009\\n Windows CE 6.0\\n"
+        }
+      ]
+    },
     {
       "predicate": "ot-components-category",
       "entry": [
