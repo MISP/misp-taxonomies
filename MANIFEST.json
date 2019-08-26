@@ -494,11 +494,16 @@
       "version": 4,
       "name": "phishing",
       "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status."
+    },
+    {
+      "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
+      "version": 1,
+      "name": "ics"
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190822"
+  "version": "20190826"
 }

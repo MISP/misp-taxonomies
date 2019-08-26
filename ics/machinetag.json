@@ -1,0 +1,58 @@
+{
+  "predicates": [
+    {
+      "colour": "#d208f4",
+      "expanded": "OT Components Category",
+      "value": "ot-components-category"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "ot-components-category",
+      "entry": [
+        {
+          "value": "programmable-logic-controller",
+          "expanded": "Programmable Logic Controller (PLC)",
+          "description": "1. Computing device with user-programmable memory to storing instructions to operate a physical process.\\n\\n 2.Various PLC types for different processses"
+        },
+        {
+          "value": "remote-terminal-unit",
+          "expanded": "Remote Terminal Unit (RTU)",
+          "description": "1. Data aquisitionand control unit designedto support field sites and remote stations.\\n\\n2. Wired and wireless communication capabilities.\\n\\n3. No stored program logic."
+        },
+        {
+          "value": "human-machine-interface",
+          "expanded": "Human-Machine Interface (HMI)",
+          "description": "1. Hardware/software that operators used to interact with control system.\\n\\n2. From physical control panels to a complete computer systems"
+        },
+        {
+          "value": "sensors",
+          "expanded": "Sensors",
+          "description": "Pressure, Temperature, Flow, Voltage, Optical, Proximity"
+        },
+        {
+          "value": "actuators",
+          "expanded": "Actuators",
+          "description": "Variable Frequency Drive, Servo Drive, Valve, Circuit Breaker"
+        },
+        {
+          "value": "communications",
+          "expanded": "Communications",
+          "description": "Modems, Routers, Serial - Ethernet Converters, Swtiches"
+        },
+        {
+          "value": "supervisory-level-devices",
+          "expanded": "Supervisory Level Devices",
+          "description": "1. Control Server (Supervisory systems that hosts control software to manage lower level control devices like PLC).\\n\\n2. Data Historian (Centralized database for information about process, control activity and status record).\\n\\n3. Engineering workstations (Creating and revising control systems anbd programs, incl. project files)."
+        }
+      ]
+    }
+  ],
+  "refs": [
+    "https://www.first.org/global/sigs/cti/"
+  ],
+  "version": 1,
+  "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
+  "expanded": "Industrial Control System (ICS)",
+  "namespace": "ics"
+}
