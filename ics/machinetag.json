@@ -35,9 +35,58 @@
     {
       "expanded": "OT Network/Data Transmission Protocols in Automobile / Vehicle / Aviation",
       "value": "ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation"
+    },
+    {
+      "value": "ot-security-issues",
+      "expanded": "OT IR Security Issues"
     }
   ],
   "values": [
+    {
+      "predicate": "ot-security-issues",
+      "entry": [
+        {
+          "value": "Message Authentication",
+          "expanded": "Message Authentication",
+          "description": "Auth in used protocols is attacked and falsification command can be sent"
+        },
+        {
+          "value": "Message Integrity Checking",
+          "expanded": "Message Integrity Checking",
+          "description": "Message poart of the sent protocol is maliciously tampered"
+        },
+        {
+          "value": "Message Encryption",
+          "expanded": "Message Encryption",
+          "description": "Self explanatory, i.e. Weak encryption is attacked"
+        },
+        {
+          "value": "Command Injection",
+          "expanded": "Command Injection",
+          "description": "Either Remote Command Injection or Local. On local can be timer triggered under tampered firmware"
+        },
+        {
+          "value": "Replay Attack",
+          "expanded": "Replay Attack",
+          "description": "Self explanatory"
+        },
+        {
+          "value": "Man in the middle (MITM) Attack",
+          "expanded": "Man in the middle (MITM) Attack",
+          "description": "Self explanatory"
+        },
+        {
+          "value": "Undocumented instructions",
+          "expanded": "Undocumented instructions",
+          "description": "Vendor's left several instruction used for development or trouble shooting that is finally leaked and used to performed malicious activities on the devices."
+        },
+        {
+          "value": "Vendor proprietary protocols",
+          "expanded": "Vendor proprietary protocols",
+          "description": "Internal vendor protocols used for development or trouble shooting, that is being maliciously for an attack."
+        }
+      ]
+    },
     {
       "predicate": "ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation",
       "entry": [
