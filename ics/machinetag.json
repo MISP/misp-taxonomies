@@ -11,9 +11,407 @@
     {
       "expanded": "OT IR Communication Interface",
       "value": "ot-communication-interface"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Process Automation",
+      "value": "ot-network-data-transmission-protocols-process-automation"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Power System Automation",
+      "value": "ot-network-data-transmission-protocols-power-system-automation"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Building Automation",
+      "value": "ot-network-data-transmission-protocols-building-automation"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Industrial Control System",
+      "value": "ot-network-data-transmission-protocols-industrial-control-system"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Automatic Meter Reading",
+      "value": "ot-network-data-transmission-protocols-automatic-meter-reading"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Automobile / Vehicle / Aviation",
+      "value": "ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation"
     }
   ],
   "values": [
+    {
+      "predicate": "ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation",
+      "entry": [
+        {
+          "value": "ARINC 429",
+          "expanded": "ARINC 429"
+        },
+        {
+          "value": "CAN bus (ARINC 825 SAE J1939 NMEA 2000 FMS)",
+          "expanded": "CAN bus (ARINC 825 SAE J1939 NMEA 2000 FMS)"
+        },
+        {
+          "value": "Factory Instrumentation Protocol",
+          "expanded": "Factory Instrumentation Protocol"
+        },
+        {
+          "value": "FlexRay",
+          "expanded": "FlexRay"
+        },
+        {
+          "value": "IEBus",
+          "expanded": "IEBus"
+        },
+        {
+          "value": "J1587",
+          "expanded": "J1587"
+        },
+        {
+          "value": "J1708",
+          "expanded": "J1708"
+        },
+        {
+          "value": "Keyword Protocol 2000",
+          "expanded": "Keyword Protocol 2000"
+        },
+        {
+          "value": "Unified Diagnostic Services",
+          "expanded": "Unified Diagnostic Services"
+        },
+        {
+          "value": "LIN",
+          "expanded": "LIN"
+        },
+        {
+          "value": "MOST",
+          "expanded": "MOST"
+        },
+        {
+          "value": "VAN",
+          "expanded": "VAN"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-automatic-meter-reading",
+      "entry": [
+        {
+          "value": "ANSI C12.18",
+          "expanded": "ANSI C12.18"
+        },
+        {
+          "value": "IEC 61107",
+          "expanded": "IEC 61107"
+        },
+        {
+          "value": "DLMS/IEC 62056",
+          "expanded": "DLMS/IEC 62056"
+        },
+        {
+          "value": "M-Bus",
+          "expanded": "M-Bus"
+        },
+        {
+          "value": "Modbus",
+          "expanded": "Modbus"
+        },
+        {
+          "value": "ZigBee",
+          "expanded": "ZigBee"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-industrial-control-system",
+      "entry": [
+        {
+          "value": "MTConnect",
+          "expanded": "MTConnect"
+        },
+        {
+          "value": "OPC",
+          "expanded": "OPC"
+        },
+        {
+          "value": "DA",
+          "expanded": "DA"
+        },
+        {
+          "value": "OPC",
+          "expanded": "OPC"
+        },
+        {
+          "value": "HDA",
+          "expanded": "HDA"
+        },
+        {
+          "value": "OPC",
+          "expanded": "OPC"
+        },
+        {
+          "value": "UA",
+          "expanded": "UA"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-building-automation",
+      "entry": [
+        {
+          "value": "1-Wire",
+          "expanded": "1-Wire"
+        },
+        {
+          "value": "BACnet",
+          "expanded": "BACnet"
+        },
+        {
+          "value": "C-Bus",
+          "expanded": "C-Bus"
+        },
+        {
+          "value": "CEBus",
+          "expanded": "CEBus"
+        },
+        {
+          "value": "DALI",
+          "expanded": "DALI"
+        },
+        {
+          "value": "DSI",
+          "expanded": "DSI"
+        },
+        {
+          "value": "DyNet",
+          "expanded": "DyNet"
+        },
+        {
+          "value": "Factory Instrumentation Protocol",
+          "expanded": "Factory Instrumentation Protocol"
+        },
+        {
+          "value": "KNX",
+          "expanded": "KNX"
+        },
+        {
+          "value": "LonTalk",
+          "expanded": "LonTalk"
+        },
+        {
+          "value": "Modbus",
+          "expanded": "Modbus"
+        },
+        {
+          "value": "oBIX",
+          "expanded": "oBIX"
+        },
+        {
+          "value": "VSCP",
+          "expanded": "VSCP"
+        },
+        {
+          "value": "X10",
+          "expanded": "X10"
+        },
+        {
+          "value": "xAP",
+          "expanded": "xAP"
+        },
+        {
+          "value": "xPL",
+          "expanded": "xPL"
+        },
+        {
+          "value": "ZigBee",
+          "expanded": "ZigBee"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-power-system-automation",
+      "entry": [
+        {
+          "value": "IEC 60870",
+          "expanded": "IEC 60870"
+        },
+        {
+          "value": "DNP3",
+          "expanded": "DNP3"
+        },
+        {
+          "value": "Factory Instrumentation Protocol",
+          "expanded": "Factory Instrumentation Protocol"
+        },
+        {
+          "value": "IEC 61850",
+          "expanded": "IEC 61850"
+        },
+        {
+          "value": "IEC 62351",
+          "expanded": "IEC 62351"
+        },
+        {
+          "value": "Modbus",
+          "expanded": "Modbus"
+        },
+        {
+          "value": "Profibus",
+          "expanded": "Profibus"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-process-automation",
+      "entry": [
+        {
+          "value": "AS-i",
+          "expanded": "AS-i"
+        },
+        {
+          "value": "BSAP",
+          "expanded": "BSAP"
+        },
+        {
+          "value": "CC-Link Industrial Networks",
+          "expanded": "CC-Link Industrial Networks"
+        },
+        {
+          "value": "CIP",
+          "expanded": "CIP"
+        },
+        {
+          "value": "CAN bus",
+          "expanded": "CAN bus"
+        },
+        {
+          "value": "ControlNet",
+          "expanded": "ControlNet"
+        },
+        {
+          "value": "DF-1",
+          "expanded": "DF-1"
+        },
+        {
+          "value": "DirectNET",
+          "expanded": "DirectNET"
+        },
+        {
+          "value": "EtherCAT",
+          "expanded": "EtherCAT"
+        },
+        {
+          "value": "Ethernet Global Data (EGD)",
+          "expanded": "Ethernet Global Data (EGD)"
+        },
+        {
+          "value": "Ethernet Powerlink",
+          "expanded": "Ethernet Powerlink"
+        },
+        {
+          "value": "EtherNet/IP",
+          "expanded": "EtherNet/IP"
+        },
+        {
+          "value": "Experimental Physics and Industrial Control System (EPICS) StreamDevice protocol (i.e RF:FREQ 499.655 MHZ)",
+          "expanded": "Experimental Physics and Industrial Control System (EPICS) StreamDevice protocol (i.e RF:FREQ 499.655 MHZ)"
+        },
+        {
+          "value": "Factory Instrumentation Protocol",
+          "expanded": "Factory Instrumentation Protocol"
+        },
+        {
+          "value": "FINS",
+          "expanded": "FINS"
+        },
+        {
+          "value": "FOUNDATION fieldbus (H1 HSE)",
+          "expanded": "FOUNDATION fieldbus (H1 HSE)"
+        },
+        {
+          "value": "GE SRTP",
+          "expanded": "GE SRTP"
+        },
+        {
+          "value": "HART Protocol",
+          "expanded": "HART Protocol"
+        },
+        {
+          "value": "Honeywell SDS",
+          "expanded": "Honeywell SDS"
+        },
+        {
+          "value": "HostLink",
+          "expanded": "HostLink"
+        },
+        {
+          "value": "INTERBUS",
+          "expanded": "INTERBUS"
+        },
+        {
+          "value": "IO-Link",
+          "expanded": "IO-Link"
+        },
+        {
+          "value": "MECHATROLINK",
+          "expanded": "MECHATROLINK"
+        },
+        {
+          "value": "MelsecNet",
+          "expanded": "MelsecNet"
+        },
+        {
+          "value": "Modbus",
+          "expanded": "Modbus"
+        },
+        {
+          "value": "Optomu",
+          "expanded": "Optomu"
+        },
+        {
+          "value": "PieP",
+          "expanded": "PieP"
+        },
+        {
+          "value": "Ethernet Powerlink",
+          "expanded": "Ethernet Powerlink"
+        },
+        {
+          "value": "Profibus",
+          "expanded": "Profibus"
+        },
+        {
+          "value": "PROFINET IO",
+          "expanded": "PROFINET IO"
+        },
+        {
+          "value": "RAPIEnet",
+          "expanded": "RAPIEnet"
+        },
+        {
+          "value": "SERCOS interface",
+          "expanded": "SERCOS interface"
+        },
+        {
+          "value": "SERCOS III",
+          "expanded": "SERCOS III"
+        },
+        {
+          "value": "Sinec H1",
+          "expanded": "Sinec H1"
+        },
+        {
+          "value": "SynqNet",
+          "expanded": "SynqNet"
+        },
+        {
+          "value": "TTEthernet",
+          "expanded": "TTEthernet"
+        },
+        {
+          "value": "TCP/IP",
+          "expanded": "TCP/IP"
+        }
+      ]
+    },
     {
       "predicate": "ot-communication-interface",
       "entry": [
