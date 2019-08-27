@@ -361,7 +361,7 @@
       "version": 1
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "false-positive",
       "description": "This taxonomy aims to ballpark the expected amount of false positives."
     },
