@@ -185,16 +185,8 @@
           "expanded": "DA"
         },
         {
-          "value": "OPC",
-          "expanded": "OPC"
-        },
-        {
           "value": "HDA",
           "expanded": "HDA"
-        },
-        {
-          "value": "OPC",
-          "expanded": "OPC"
         },
         {
           "value": "UA",
@@ -418,10 +410,6 @@
         {
           "value": "PieP",
           "expanded": "PieP"
-        },
-        {
-          "value": "Ethernet Powerlink",
-          "expanded": "Ethernet Powerlink"
         },
         {
           "value": "Profibus",
