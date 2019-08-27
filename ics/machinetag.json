@@ -568,7 +568,9 @@
     }
   ],
   "refs": [
-    "https://www.first.org/global/sigs/cti/"
+    "https://www.first.org/global/sigs/cti/",
+    "https://www.isa.org/isa99/",
+    "https://www.isa.org/intech/201810standards/"
   ],
   "version": 1,
   "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
