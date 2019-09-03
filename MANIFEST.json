@@ -61,7 +61,7 @@
       "description": "CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place."
     },
     {
-      "version": 2,
+      "version": 3,
       "name": "collaborative-intelligence",
       "description": "Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP."
     },
