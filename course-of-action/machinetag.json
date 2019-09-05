@@ -1,0 +1,56 @@
+{
+  "namespace": "course-of-action",
+  "expanded": "Courses of Action",
+  "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "passive",
+      "expanded": "Passive actions have no influence of the adversarys doing."
+    },
+    {
+      "value": "active",
+      "expanded": "Active actions can impact the adversary doing."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "passive",
+      "entry": [
+        {
+          "value": "discover",
+          "expanded": "The discover action is a 'historical look at the data'. This action heavily relies on your capability to store logs for a reasonable amount of time and have them accessible for searching. Typically, this type of action is applied against security information and event management (SIEM) or stored network data. The goal is to determine whether you have seen a specific indicator in the past."
+        },
+        {
+          "value": "detect",
+          "expanded": "The passive action is setting up detection rules of an indicator for future traffic. These actions are most often executed via an intrusion detection system (IDS) or a specific logging rule on your firewall or application. It can also be configured as an alert in a SIEM when a specific condition is triggered."
+        }
+      ]
+    },
+    {
+      "predicate": "active",
+      "entry": [
+        {
+          "value": "deny",
+          "expanded": "The deny action prevents the event from taking place. Common examples include a firewall block or a proxy filter."
+        },
+        {
+          "value": "disrupt",
+          "expanded": "Disruption makes the event fail as it is occurring. Examples include quarantining or memory protection measures."
+        },
+        {
+          "value": "degrade",
+          "expanded": "Degrading will not immediately fail an event, but it will slow down the further actions of the attacker. This tactic allows you to catch up during an incident response process, but you have to consider that the attackers may eventually succeed in achieving their objectives. Throttling bandwidth is one way to degrade an intrusion."
+        },
+        {
+          "value": "decieve",
+          "expanded": "Deception allows you to learn more about the intentions of the attacker by making them think the action was successful. One way to do this is to put a honeypot in place and redirect the traffic, based on an indicator, towards the honeypot."
+        },
+        {
+          "value": "destroy",
+          "expanded": "The destroy action is rarely for 'usual' defenders, as this is an offensive action against the attacker. These actions, including physical destructive actions and arresting the attackers, are usually left to law enforcement agencies."
+        }
+      ]
+    }
+  ]
+}
