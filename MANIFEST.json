@@ -499,11 +499,16 @@
       "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
       "version": 1,
       "name": "ics"
+    },
+    {
+      "name": "course-of-action",
+      "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
+      "version": 1
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190827"
+  "version": "20190905"
 }
