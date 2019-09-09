@@ -499,6 +499,11 @@
       "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
       "version": 1,
       "name": "ics"
+    },
+    {
+      "name": "course-of-action",
+      "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
+      "version": 1
     }
   ],
   "path": "machinetag.json",
