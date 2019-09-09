@@ -361,7 +361,7 @@
       "version": 1
     },
     {
-      "version": 2,
+      "version": 3,
       "name": "false-positive",
       "description": "This taxonomy aims to ballpark the expected amount of false positives."
     },
@@ -505,5 +505,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190827"
+  "version": "20190909"
 }
