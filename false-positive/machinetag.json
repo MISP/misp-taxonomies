@@ -1,13 +1,18 @@
 {
   "namespace": "false-positive",
   "description": "This taxonomy aims to ballpark the expected amount of false positives.",
-  "version": 2,
+  "version": 3,
   "expanded": "False positive",
   "predicates": [
     {
       "value": "risk",
       "expanded": "Risk",
       "description": "Risk of having false positives in the tagged value."
+    },
+    {
+      "value": "confirmed",
+      "expanded": "Confirmed",
+      "description": "Confirmed false positives in the tagged value."
     }
   ],
   "values": [
