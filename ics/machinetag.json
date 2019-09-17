@@ -1,44 +1,44 @@
 {
   "predicates": [
     {
-      "expanded": "OT Components Category",
-      "value": "ot-components-category"
-    },
-    {
-      "expanded": "OT Operating Systems",
-      "value": "ot-operating-systems"
-    },
-    {
-      "expanded": "OT IR Communication Interface",
-      "value": "ot-communication-interface"
-    },
-    {
-      "expanded": "OT Network/Data Transmission Protocols in Process Automation",
-      "value": "ot-network-data-transmission-protocols-process-automation"
-    },
-    {
-      "expanded": "OT Network/Data Transmission Protocols in Power System Automation",
-      "value": "ot-network-data-transmission-protocols-power-system-automation"
-    },
-    {
-      "expanded": "OT Network/Data Transmission Protocols in Building Automation",
-      "value": "ot-network-data-transmission-protocols-building-automation"
-    },
-    {
-      "expanded": "OT Network/Data Transmission Protocols in Industrial Control System",
-      "value": "ot-network-data-transmission-protocols-industrial-control-system"
-    },
-    {
-      "expanded": "OT Network/Data Transmission Protocols in Automatic Meter Reading",
-      "value": "ot-network-data-transmission-protocols-automatic-meter-reading"
+      "value": "ot-security-issues",
+      "expanded": "OT IR Security Issues"
     },
     {
       "expanded": "OT Network/Data Transmission Protocols in Automobile / Vehicle / Aviation",
       "value": "ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation"
     },
     {
-      "value": "ot-security-issues",
-      "expanded": "OT IR Security Issues"
+      "expanded": "OT Network/Data Transmission Protocols in Automatic Meter Reading",
+      "value": "ot-network-data-transmission-protocols-automatic-meter-reading"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Industrial Control System",
+      "value": "ot-network-data-transmission-protocols-industrial-control-system"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Building Automation",
+      "value": "ot-network-data-transmission-protocols-building-automation"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Power System Automation",
+      "value": "ot-network-data-transmission-protocols-power-system-automation"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Process Automation",
+      "value": "ot-network-data-transmission-protocols-process-automation"
+    },
+    {
+      "expanded": "OT IR Communication Interface",
+      "value": "ot-communication-interface"
+    },
+    {
+      "expanded": "OT Operating Systems",
+      "value": "ot-operating-systems"
+    },
+    {
+      "expanded": "OT Components Category",
+      "value": "ot-components-category"
     }
   ],
   "values": [
