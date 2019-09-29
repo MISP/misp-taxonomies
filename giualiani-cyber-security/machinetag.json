@@ -1,0 +1,70 @@
+{
+  "namespace": "giuliani-cyber-security",
+  "expanded": "The Giuliani Cyber Security vocabulary",
+  "description": "A concise yet versatile vocabulary describing all things related to cyber attacks, as used by cyber security expert Rudy Giuliani",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "target-sector",
+      "expanded": "Potential targets of cyber attacks"
+    },
+    {
+      "value": "things-needed-for-security",
+      "expanded": "The various things you need for security"
+    },
+    {
+      "value": "things-to-detect-your-system-from",
+      "expanded": "An enumeration of the threats you need to detect yourself from"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "target-sector",
+      "entry": [
+        {
+          "value": "large corporate operation",
+          "expanded": "large corporate operation"
+        },
+        {
+          "value": "large government operation",
+          "expanded": "large government operation"
+        },
+        {
+          "value": "large individual operation",
+          "expanded": "large individual operation"
+        }
+      ]
+    },
+    {
+      "predicate": "things-needed-for-security",
+      "entry": [
+        {
+          "value": "your system",
+          "expanded": "The system you are trying to protect"
+        },
+        {
+          "value": "a triangle",
+          "expanded": "your perimeter"
+        }
+      ]
+    },
+    {
+      "predicate": "things-to-detect-your-system-from",
+      "entry": [
+        {
+          "value": "the outside",
+          "expanded": "the area full of hackers"
+        },
+        {
+          "value": "people trying to hack you",
+          "expanded": "The human factor is not to be neglected"
+        },
+        {
+          "value": "systems trying to hack you",
+          "expanded": "The real threat are the systems on the prowl for vulnerable prey, such as the system you are trying to protect"
+        }
+      ]
+    }
+  ]
+}
+
