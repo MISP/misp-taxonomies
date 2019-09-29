@@ -1,8 +1,8 @@
 {
   "namespace": "giuliani-cyber-security",
   "expanded": "The Giuliani Cyber Security vocabulary",
-  "description": "A concise yet versatile vocabulary describing all things related to cyber attacks, as used by cyber security expert Rudy Giuliani",
-  "version": 2,
+  "description": "A concise yet versatile vocabulary describing all things related to cyber attacks, as used by cyber security expert Rudy Giuliani. Source: https://twitter.com/propublica/status/1178020722427478016",
+  "version": 3,
   "predicates": [
     {
       "value": "target-sector",
@@ -14,7 +14,7 @@
     },
     {
       "value": "things-to-protect-your-system-from",
-      "expanded": "An enumeration of the threats you need to detect yourself from"
+      "expanded": "An enumeration of the threats you need to protect yourself from"
     }
   ],
   "values": [
