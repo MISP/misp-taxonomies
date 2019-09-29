@@ -2,7 +2,7 @@
   "namespace": "giuliani-cyber-security",
   "expanded": "The Giuliani Cyber Security vocabulary",
   "description": "A concise yet versatile vocabulary describing all things related to cyber attacks, as used by cyber security expert Rudy Giuliani",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "target-sector",
@@ -13,7 +13,7 @@
       "expanded": "The various things you need for security"
     },
     {
-      "value": "things-to-detect-your-system-from",
+      "value": "things-to-protect-your-system-from",
       "expanded": "An enumeration of the threats you need to detect yourself from"
     }
   ],
@@ -44,12 +44,16 @@
         },
         {
           "value": "a triangle",
-          "expanded": "your perimeter"
-        }
+          "expanded": "your triangle"
+        },
+	{
+          "value": "your perimeter",
+	  "expanded": "the perimeter around your triangle"
+	}
       ]
     },
     {
-      "predicate": "things-to-detect-your-system-from",
+      "predicate": "things-to-protect-your-system-from",
       "entry": [
         {
           "value": "the outside",
