@@ -46,10 +46,10 @@
           "value": "a triangle",
           "expanded": "your triangle"
         },
-	{
+        {
           "value": "your perimeter",
-	  "expanded": "the perimeter around your triangle"
-	}
+          "expanded": "the perimeter around your triangle"
+        }
       ]
     },
     {
@@ -71,4 +71,3 @@
     }
   ]
 }
-
