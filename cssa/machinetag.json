@@ -12,6 +12,10 @@
       "expanded": "Origin"
     },
     {
+      "value": "report",
+      "expanded": "Report"
+    },
+    {
       "value": "analyse",
       "expanded": "Please analyse sample",
       "colour": "#fab74d"
@@ -42,6 +46,26 @@
       ]
     },
     {
+      "predicate": "report",
+      "entry": [
+        {
+          "value": "details",
+          "expanded": "Description of the incidence.",
+          "colour": "#fbc166"
+        },
+        {
+          "value": "link",
+          "expanded": "Link to the original report location.",
+          "colour": "#fbcb7f"
+        },
+        {
+          "value": "attached",
+          "expanded": "Attached report.",
+          "colour": "#fcd597"
+        }
+      ]
+    },
+    {
       "predicate": "origin",
       "entry": [
         {
@@ -62,12 +86,17 @@
         {
           "value": "email",
           "expanded": "Information coming out of email infrastructure.",
-          "colour": "#3cb08a"
+          "colour": "#3db08a"
         },
         {
           "value": "3rd-party",
           "expanded": "Information from outside the company.",
           "colour": "#46c098"
+        },
+        {
+          "value": "report",
+          "expanded": "Information coming from a report.",
+          "colour": "#22644e"
         },
         {
           "value": "other",
