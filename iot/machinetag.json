@@ -72,27 +72,27 @@
         {
           "value": "0",
           "expanded": "No data involved",
-          "description": ""
+          "description": "No data involved, no control of the system"
         },
         {
           "value": "1",
           "expanded": "No sensitive data involved",
-          "description": ""
+          "description": "No sensitive data involved, no control of the objects in the system. Example: Wireless doorbell"
         },
         {
           "value": "2",
           "expanded": "Anonymous or aggregated data",
-          "description": ""
+          "description": "System provides anonymous, aggregated statistics, no control of the system. Example: Remote temperature sensors"
         },
         {
           "value": "3",
           "expanded": "Sensitive data",
-          "description": ""
+          "description": "System generates sensitive data or supports some degree of remote control of the system objects. Examples: Biometric data, door actuation mechanisms"
         },
         {
           "value": "4",
           "expanded": "Connects with external systems",
-          "description": ""
+          "description": "System generates sensitive data, supports some degree of remote control of the system objects and connects with external systems. Examples: Integrated facilities management systems, tele-health monitoring, security and safety systems"
         }
       ]
     },
@@ -102,27 +102,27 @@
         {
           "value": "0",
           "expanded": "No data shared",
-          "description": ""
+          "description": "No data is shared. Examples: Simple point-to-point monitoring systems such as consumer weather stations and wireless doorbells"
         },
         {
           "value": "1",
           "expanded": "Sharing between two parties",
-          "description": ""
+          "description": "Basic sharing between two parties: agreed sharing of sensitive data between the customer/buyer/user and the seller or provider (whether that seller or provider operates in the commercial or public sector). Examples: Cloud-based security systems, remote cameras, home monitoring systems"
         },
         {
           "value": "2",
           "expanded": "Third-party sharing",
-          "description": ""
+          "description": "Third person sharing: sharing of sensitive data between the seller or provider and unrelated third parties in a commercial context. Examples: Person tracking information to support targeted marketing offers"
         },
         {
           "value": "3",
           "expanded": "Multi-domain sharing",
-          "description": ""
+          "description": "Multi-domain and third-party sharing: sharing of sensitive data between the customer/buyer/user and multiple sellers or providers involved in delivering services, where those providers come from different ecosystems (including the commercial and public sectors). Examples: The aggregation of parking, traffic and environmental data in an urban traffic management application"
         },
         {
           "value": "4",
           "expanded": "Open access to sensitive data",
-          "description": ""
+          "description": "Open access to sensitive data, including data generated through use of public finance or infrastructure. Examples: Integration of multiple security systems in a public safety context"
         }
       ]
     }
