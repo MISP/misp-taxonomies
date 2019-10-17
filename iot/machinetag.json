@@ -1,0 +1,24 @@
+{
+  "namespace": "iot",
+  "description": "Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf",
+  "version": 1,
+  "expanded": "Internet of Things",
+  "predicates": [
+    {
+      "value": "TCom",
+      "expanded": "Technical complexity",
+      "description":"IoT projects vary tremendously in terms of their technical sophistication . Digital Catapult has developed a scale based on technology complexity (TCom) that enables us to understand the state of IoT in the UK, and to assess what is currently being researched, trialled or deployed in real-life implementations ."
+    },
+    {
+      "value": "SSL",
+      "expanded": "System Security Level",
+      "description": "A second characteristic of an IoT system concerns the inherent level of safety, privacy and security of that system . At one end of the spectrum, an IoT system may not gather data that is sensitive either in terms of safety or privacy, while at the other it may collect data about identifiable individuals or groups of individuals, involve financial transactions, or access to system data or have the ability to control objects that could compromise health, safety or security."
+    },
+    {
+      "value": "DSL",
+      "expanded": "Data Sharing Level",
+      "description": "A third characteristic of IoT systems concerns the degree of sharing of sensitive data between the object and the system, and subsequently between the system and the system operator(s) or participants, and third parties .Systems do not always need to share data, so IoT product, platform, service and system designers must be clear about when data is shared, what is shared and why."
+    }
+  ]
+
+}
