@@ -27,42 +27,42 @@
         {
           "value": "0",
           "expanded": "Unidentiable object",
-          "description": ""
+          "description": "Dumb/passive objects . Not connected, identified or monitored. Example: Any unconnected, unidentified object"
         },
         {
           "value": "1",
           "expanded": "Identifiable object",
-          "description": ""
+          "description": "Identifiable dumb/passive objects with a virtual existence that can meaningfully be counted/tracked by online systems. Examples: RFID Tags, barcoded or QR-coded objects"
         },
         {
           "value": "2",
           "expanded": "Connected object",
-          "description": ""
+          "description": "Connected objects . Objects linked to an IP network, with some means of reading, programming or controlling them . These should be counted as elements within the IoT universe, but they are often underused assets. Examples: Printers, doorbells, IP connected fire alarms or security systems"
         },
         {
           "value": "3",
           "expanded": "Connected homogeneous object",
-          "description": ""
+          "description": "Connected broadly homogeneous objects in a simple integrated system, whether the benefit of that system accrues to the end user or the system provider. Examples: Networks of multiple temperature sensors within a single building or campus . Environmental monitoring networks, wearable devices (such as Fitbit or other wellness technologies)"
         },
         {
           "value": "4",
           "expanded": "Connected heterogeneous objects",
-          "description": ""
+          "description": "Connected heterogeneous objects in a single, integrated system . This involves taking data from a variety of sensors of different types, all deployed for the same end user or organisation to help improve processes, make better decisions or change outcomes. Examples: The deployment of a range of sensors in a care home or hospital or the combination of parking, traffic volume and traffic control data in an urban road management system"
         },
         {
           "value": "5",
           "expanded": "Different objects in similar domain",
-          "description": ""
+          "description": "Different objects deployed across multiple interconnected systems for multiple organisations, in multiple locations, all within a similar domain .System supports analysis of aggregated data derived from all deployment locations. Examples: Partnering university campuses’ security cameras, fire alarms, temperature sensors, access control systems and energy monitoring systems integrated into a single unified control and monitoring solution"
         },
         {
           "value": "6",
           "expanded": "Different objects in multiple connected domains",
-          "description": ""
+          "description": "As for TCom 5, but where multiple domains are connected . This involves gathering data from a variety of sensor types, across a variety of systems and ecosystems, and creating combined views of the data that offer new sources of value (economic or social) or where there is a high degree of automation across homogeneous systems. Examples: Smart cities where multiple organisations, or different city departments and their partners, have built applications that draw on diverse sets of data from multiple sources to develop or improve services. Such applications might include the adjustment of street lighting in response to incoming data on night-time police activity levels, or the adjustment of traffic lights in response to real-time data sources about local environment data, or current people movement data based on mobile phone location data. Or, in the second case, the automated adjustment of environmental controls across a service provider’s care estate based on real-time data feeds from sensors deployed in those settings ."
         },
         {
           "value": "7",
           "expanded": "Involves multiple ecosystems and a high degree of automation",
-          "description": ""
+          "description": "As for TCom 6, but involving both multiple ecosystems and a high degree of automation. Examples: A smart city solution drawing data from multiple providers and sources, which is then used for automated traffic control and routing of emergency services, or the automated adjustment of traffic lights based on real-time mobile phone location data"
         }
       ]
     },
