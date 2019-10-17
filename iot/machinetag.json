@@ -7,7 +7,7 @@
     {
       "value": "TCom",
       "expanded": "Technical complexity",
-      "description":"IoT projects vary tremendously in terms of their technical sophistication . Digital Catapult has developed a scale based on technology complexity (TCom) that enables us to understand the state of IoT in the UK, and to assess what is currently being researched, trialled or deployed in real-life implementations ."
+      "description": "IoT projects vary tremendously in terms of their technical sophistication . Digital Catapult has developed a scale based on technology complexity (TCom) that enables us to understand the state of IoT in the UK, and to assess what is currently being researched, trialled or deployed in real-life implementations ."
     },
     {
       "value": "SSL",
@@ -19,6 +19,112 @@
       "expanded": "Data Sharing Level",
       "description": "A third characteristic of IoT systems concerns the degree of sharing of sensitive data between the object and the system, and subsequently between the system and the system operator(s) or participants, and third parties .Systems do not always need to share data, so IoT product, platform, service and system designers must be clear about when data is shared, what is shared and why."
     }
+  ],
+  "values": [
+    {
+      "predicate": "TCom",
+      "entry": [
+        {
+          "value": "0",
+          "expanded": "Unidentiable object",
+          "description": ""
+        },
+        {
+          "value": "1",
+          "expanded": "Identifiable object",
+          "description": ""
+        },
+        {
+          "value": "2",
+          "expanded": "Connected object",
+          "description": ""
+        },
+        {
+          "value": "3",
+          "expanded": "Connected homogeneous object",
+          "description": ""
+        },
+        {
+          "value": "4",
+          "expanded": "Connected heterogeneous objects",
+          "description": ""
+        },
+        {
+          "value": "5",
+          "expanded": "Different objects in similar domain",
+          "description": ""
+        },
+        {
+          "value": "6",
+          "expanded": "Different objects in multiple connected domains",
+          "description": ""
+        },
+        {
+          "value": "7",
+          "expanded": "Involves multiple ecosystems and a high degree of automation",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "predicate": "SSL",
+      "entry": [
+        {
+          "value": "0",
+          "expanded": "No data involved",
+          "description": ""
+        },
+        {
+          "value": "1",
+          "expanded": "No sensitive data involved",
+          "description": ""
+        },
+        {
+          "value": "2",
+          "expanded": "Anonymous or aggregated data",
+          "description": ""
+        },
+        {
+          "value": "3",
+          "expanded": "Sensitive data",
+          "description": ""
+        },
+        {
+          "value": "4",
+          "expanded": "Connects with external systems",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "predicate": "DSL",
+      "entry": [
+        {
+          "value": "0",
+          "expanded": "No data shared",
+          "description": ""
+        },
+        {
+          "value": "1",
+          "expanded": "Sharing between two parties",
+          "description": ""
+        },
+        {
+          "value": "2",
+          "expanded": "Third-party sharing",
+          "description": ""
+        },
+        {
+          "value": "3",
+          "expanded": "Multi-domain sharing",
+          "description": ""
+        },
+        {
+          "value": "4",
+          "expanded": "Open access to sensitive data",
+          "description": ""
+        }
+      ]
+    }
   ]
-
 }
