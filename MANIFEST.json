@@ -461,7 +461,7 @@
       "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "retention",
       "description": "Retention taxonomy to describe the retention period of the tagged information."
     },
@@ -510,5 +510,5 @@
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190909"
+  "version": "20191018"
 }
