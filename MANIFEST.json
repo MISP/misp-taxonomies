@@ -63,7 +63,7 @@
     {
       "version": 1,
       "name": "coa",
-      "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack."      
+      "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack."
     },
     {
       "version": 3,
