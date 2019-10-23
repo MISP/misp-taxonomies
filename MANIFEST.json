@@ -508,12 +508,12 @@
     {
       "name": "course-of-action",
       "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
-      "version": 1
+      "version": 2
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20191018"
+  "version": "20191023"
 }

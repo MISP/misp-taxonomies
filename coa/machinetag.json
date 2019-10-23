@@ -1,7 +1,7 @@
 {
   "namespace": "coa",
   "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "discover",
@@ -304,7 +304,7 @@
       ]
     },
     {
-      "predicate": "decieve",
+      "predicate": "deceive",
       "entry": [
         {
           "value": "honeypot",
