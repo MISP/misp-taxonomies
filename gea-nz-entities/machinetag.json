@@ -95,17 +95,17 @@
       "value": "items-artefact",
       "expanded": "Items Artefact",
       "description": "An artefact is an item of value and manifests in a concrete form such as reports, documents, tables, books, instruction manuals, evidence, etc."
-    },	
+    },
     {
       "value": "items-waste",
       "expanded": "Items Waste",
       "description": "Information related to the waste used, managed or produced by the organisation."
-    },	
+    },
     {
       "value": "items-item-usage",
       "expanded": "Items Item Usage",
       "description": "Identifies the ways in which an organisation may use an item."
-    },	
+    },
     {
       "value": "items-other-item",
       "expanded": "Items Other Item",
@@ -127,8 +127,8 @@
           "description": "Information dealing with an individual."
         }
       ]
-    }, 
-	{
+    },
+    {
       "predicate": "parties-qualification",
       "entry": [
         {
@@ -141,19 +141,19 @@
           "expanded": "Education",
           "description": "Detailed information relating to party's education history, such as higher education, schools, vocations."
         },
-		{
+        {
           "value": "industry",
           "expanded": "Industry",
           "description": "Detailed information relating to party's (mostly of an organisation) specific industry."
         },
-		{
+        {
           "value": "occupation",
           "expanded": "Occupation",
           "description": "Detailed information relating to a party's occupation."
         }
       ]
     },
-	{
+    {
       "predicate": "parties-role",
       "entry": [
         {
@@ -166,19 +166,19 @@
           "expanded": "Legal",
           "description": "Detailed information relating to legal roles, such as commissioner, counsel, defendant, investigator, offender, source, suspect, witness."
         },
-		{
+        {
           "value": "of-interest",
           "expanded": "Of Interest",
           "description": "Detailed information relating to roles a party plays in any subject of interest."
         },
-		{
+        {
           "value": "social",
           "expanded": "Social",
           "description": "Detailed information relating to social roles."
         }
       ]
     },
-	{
+    {
       "predicate": "parties-party-relationship",
       "entry": [
         {
@@ -191,19 +191,19 @@
           "expanded": "Employer",
           "description": "Detailed information relating to relationship of an employer towards other parties, such as employee, government, industry."
         },
-		{
+        {
           "value": "provider",
           "expanded": "Provider",
           "description": "Detailed information relating to relationship as a provider of services towards other parties."
         },
-		{
+        {
           "value": "delegation",
           "expanded": "Delegation",
           "description": "Detailed information related to the relationship of delegation, both delegator / delegated."
         }
       ]
     },
-	{
+    {
       "predicate": "places-address",
       "entry": [
         {
@@ -218,7 +218,7 @@
         }
       ]
     },
-	{
+    {
       "predicate": "places-location-type",
       "entry": [
         {
@@ -233,7 +233,7 @@
         }
       ]
     },
-	{
+    {
       "predicate": "places-address-type",
       "entry": [
         {
@@ -246,24 +246,24 @@
           "expanded": "PO Box",
           "description": "Detailed information relating to PO Box, a numbered box in a post office assigned to a person or organization, where letters for them are kept until called for."
         },
-		{
+        {
           "value": "rural-delivery-address",
           "expanded": "Rural Delivery Address",
           "description": "Detailed information relating to rural delivery addresses which have no standard NZ format."
         },
-		{
+        {
           "value": "ovearseas-address",
           "expanded": "Overseas Address",
           "description": "Detailed information relating to addresses in other countries."
         },
-		{
+        {
           "value": "location-addresss",
           "expanded": "Location Address",
           "description": "Detailed information relating to physical location addresses including coordinates."
         }
       ]
     },
-	{
+    {
       "predicate": "places-purpose-of-location",
       "entry": [
         {
@@ -276,22 +276,22 @@
           "expanded": "Delivery",
           "description": "Detailed information related to delivery addresses."
         },
-		{
+        {
           "value": "billing",
           "expanded": "Billing",
           "description": "Detailed information related to billing addresses."
         },
-		{
+        {
           "value": "place-of-birth",
           "expanded": "Place of Birth",
           "description": "Detailed information related to the place of birth."
         },
-		{
+        {
           "value": "consultation",
           "expanded": "Consultation",
           "description": "Detailed information related to the location of a consultation."
         },
-		{
+        {
           "value": "referral",
           "expanded": "Referral",
           "description": "Detailed information related to location of a referral."
@@ -306,29 +306,29 @@
           "expanded": "Treatment",
           "description": "Detailed information related to the location of a treatment."
         },
-		{
+        {
           "value": "work-place",
           "expanded": "Work Place",
           "description": "Detailed information related to the workplace location or address."
         },
-		{
+        {
           "value": "facility-location",
           "expanded": "Facility Location",
           "description": "Detailed information related to the location of a facility."
         },
-		{
+        {
           "value": "storage",
           "expanded": "Storage",
           "description": "Detailed information related to the location of storage of goods or other items."
         },
-		{
+        {
           "value": "place-of-event",
           "expanded": "Place of Event",
           "description": "Detailed information related to the location of an event."
         }
       ]
     },
-	{
+    {
       "predicate": "items-application-&-ict-services",
       "entry": [
         {
@@ -341,7 +341,7 @@
           "expanded": "Common Line of Business Application",
           "description": "Detailed information related to common LoB application, such as applications to manage product and services, marketing, customer and partner relationships, customer accounting, etc."
         },
-		{
+        {
           "value": "end-user-computing",
           "expanded": "End User Computing",
           "description": "Detailed information related to end user computing, such as applications to manage end user devices, end user tools, mobile applications, productivity suits, etc."
@@ -356,7 +356,7 @@
           "expanded": "Identity and Access Management",
           "description": "Detailed information related to identity and access management ICT services, such as services for identity governance, identity administration, authentication, authorisation, directory, etc."
         },
-		{
+        {
           "value": "security-service",
           "expanded": "Security Service",
           "description": "Detailed information related to security ICT services, such as encryption, network security; public key infrastructure, security controls, etc."
@@ -373,7 +373,7 @@
         }
       ]
     },
-	{
+    {
       "predicate": "items-ict-infrastructure",
       "entry": [
         {
@@ -398,7 +398,7 @@
         }
       ]
     },
-	{
+    {
       "predicate": "items-natural",
       "entry": [
         {
@@ -406,12 +406,12 @@
           "expanded": "Air",
           "description": "Detailed information related to air, such as condition, pollution, health."
         },
-		{
+        {
           "value": "fauna",
           "expanded": "Fauna",
           "description": "Detailed information related to fauna."
         },
-		{
+        {
           "value": "flora",
           "expanded": "Flora",
           "description": "Detailed information related to flora."
@@ -426,19 +426,19 @@
           "expanded": "Minerals",
           "description": "Detailed information related to minerals."
         },
-		{
+        {
           "value": "water",
           "expanded": "Water",
           "description": "Detailed information related to water, such as ground water, river water, sea water."
         },
-		{
+        {
           "value": "energy",
           "expanded": "Energy",
           "description": "Detailed information related to energy."
         }
       ]
     },
-	{
+    {
       "predicate": "items-financial",
       "entry": [
         {
@@ -446,12 +446,12 @@
           "expanded": "Allowance",
           "description": "Detailed information related to allowances."
         },
-		{
+        {
           "value": "award",
           "expanded": "Award",
           "description": "Detailed information related to awards."
         },
-		{
+        {
           "value": "benefit",
           "expanded": "Benefit",
           "description": "Detailed information related to benefits."
@@ -466,12 +466,12 @@
           "expanded": "Compensation",
           "description": "Detail information related to compensations."
         },
-		{
+        {
           "value": "concession",
           "expanded": "Concession",
           "description": "Detailed information related to concessions."
         },
-		{
+        {
           "value": "grant",
           "expanded": "Grant",
           "description": "Detailed information related to grants."
@@ -481,12 +481,12 @@
           "expanded": "Pension",
           "description": "Detailed information related to pensions."
         },
-		{
+        {
           "value": "subsidy",
           "expanded": "Subsidy",
           "description": "Detailed information related to subsidies."
         },
-		{
+        {
           "value": "wage",
           "expanded": "Wage",
           "description": "Detailed information related to wages."
@@ -501,29 +501,29 @@
           "expanded": "Duty",
           "description": "Detailed information related to income from duties."
         },
-		{
+        {
           "value": "excise",
           "expanded": "Excise",
           "description": "Detailed information related to income from internal tax or duty on certain commodities, as liquor or tobacco, levied on their manufacture, sale, or consumption within the country."
         },
-		{
+        {
           "value": "insurance",
           "expanded": "Insurance",
           "description": "Detailed information related to insurance."
         },
-		{
+        {
           "value": "loan",
           "expanded": "Loan",
           "description": "Detailed information related to revenue from loans."
         },
-		{
+        {
           "value": "tax",
           "expanded": "Tax",
           "description": "Detailed information related to revenue from taxes."
-        }		
+        }
       ]
     },
-	{
+    {
       "predicate": "items-goods",
       "entry": [
         {
@@ -531,12 +531,12 @@
           "expanded": "Chemical",
           "description": "Detailed information relating to chemicals used in industry, science and photography, as well as in agriculture, horticulture and forestry, unprocessed artificial resins, unprocessed plastics, manures, fire extinguishing compositions, tempering and soldering preparations, chemical substances for preserving foodstuffs, tanning substances, adhesives used in industry."
         },
-		{
+        {
           "value": "paint",
           "expanded": "Paint",
           "description": "Detailed information relating to paints, varnishes, lacquers, preservatives against rust and against deterioration of wood, colorants, mordant, raw natural resins, metals in foil and powder form for painters, decorators, printers and artists."
         },
-		{
+        {
           "value": "bleach",
           "expanded": "Bleach",
           "description": "Detailed information relating to bleaching preparations and other substances for laundry use, cleaning, polishing, scouring and abrasive preparations, soaps, perfumery, essential oils, cosmetics, hair lotions, dentifrices."
@@ -551,12 +551,12 @@
           "expanded": "Pharmaceutical Preparation",
           "description": "Detailed information relating to pharmaceutical and veterinary preparations, sanitary preparations for medical purposes, dietetic substances adapted for medical use, food for babies, plasters, materials for dressings, material for stopping teeth, dental wax, disinfectants, preparations for destroying vermin, fungicides, herbicides."
         },
-		{
+        {
           "value": "common-metal",
           "expanded": "Common Metal",
           "description": "Detailed information relating to common metals and their alloys, metal building materials, transportable buildings of metal, materials of metal for railway tracks, non-electric cables and wires of common metal, ironmongery, small items of metal hardware, pipes and tubes of metal, safes, goods of common metal not included in other classes, ores."
         },
-		{
+        {
           "value": "machine",
           "expanded": "Machine",
           "description": "Detailed information relating to machines and machine tools, motors and engines (except for land vehicles), machine coupling and transmission components (except for land vehicles), agricultural implements other than hand-operated, incubators for eggs."
@@ -566,12 +566,12 @@
           "expanded": "Hand Tool",
           "description": "Detailed information relating to hand tools and implements (hand-operated), cutlery, side arms, razors."
         },
-		{
+        {
           "value": "scientific-apparatus-and-instrument",
           "expanded": "Scientific Apparatus and Instrument",
           "description": "Detailed information relating to scientific, nautical, surveying, photographic, cinematographic, optical, weighing, measuring, signalling, checking (supervision), life-saving and teaching apparatus and instruments, apparatus and instruments for conducting, switching, transforming, accumulating, regulating or controlling electricity, apparatus for recording, transmission or reproduction of sound or images, magnetic data carriers, recording discs, automatic vending machines and mechanisms for coin-operated apparatus, cash registers, calculating machines, data processing equipment and computers, fire-extinguishing apparatus."
         },
-		{
+        {
           "value": "medical-apparatus-and-instrument",
           "expanded": "Medical Apparatus and Instrument",
           "description": "Detailed information relating to surgical, medical, dental and veterinary apparatus and instruments, artificial limbs, eyes and teeth, orthopaedic articles, suture materials."
@@ -586,22 +586,22 @@
           "expanded": "Vehicle",
           "description": "Detailed information relating to vehicles, apparatus for locomotion by land, air or water."
         },
-		{
+        {
           "value": "firearm",
           "expanded": "Firearm",
           "description": "Detailed information relating to firearms, ammunition and projectiles, explosives, fireworks"
         },
-		{
+        {
           "value": "precious-metal",
           "expanded": "Precious Metal",
           "description": "Detailed information relating to precious metals and their alloys and goods in precious metals or coated therewith, not included in other classes, jewellery, precious stones, horologic and chronometrical instruments."
         },
-		{
+        {
           "value": "musical-instrument",
           "expanded": "Musical Instrument",
           "description": "Detailed information relating to musical instruments."
         },
-		{
+        {
           "value": "paper",
           "expanded": "Paper",
           "description": "Detailed information relating to paper, cardboard and goods made from these materials, not included in other classes, printed matter, bookbinding material, photographs, stationery, adhesives for stationery or household purposes, artists' materials, paint brushes, typewriters and office requisites (except furniture), instructional and teaching material (except apparatus), plastic materials for packaging (not included in other classes), printers' type, printing blocks."
@@ -611,12 +611,12 @@
           "expanded": "Rubber Good",
           "description": "Detailed information relating to rubber, gutta-percha, gum, asbestos, mica and goods made from these materials and not included in other classes, plastics in extruded form for use in manufacture, packing, stopping and insulating materials, flexible pipes, not of metal."
         },
-		{
+        {
           "value": "leather",
           "expanded": "Leather",
           "description": "Detailed information relating to leather and imitations of leather, and goods made of these materials and not included in other classes, animal skins, hides, trunks and traveling bags, umbrellas, parasols and walking sticks, whips, harness and saddlery."
         },
-		{
+        {
           "value": "building-material",
           "expanded": "Building Material",
           "description": "Detailed information relating to Building materials (non-metallic), non-metallic rigid pipes for building, asphalt, pitch and bitumen, non-metallic transportable buildings, monuments, not of metal."
@@ -631,12 +631,12 @@
           "expanded": "Household Utensil",
           "description": "Detailed information relating to Household or kitchen utensils and containers (not of precious metal or coated therewith), combs and sponges, brushes (except paint brushes), brush-making materials, articles for cleaning purposes, steel wool, unworked or semi-worked glass (except glass used in building), glassware, porcelain and earthenware not included in other classes."
         },
-		{
+        {
           "value": "rope",
           "expanded": "Rope",
           "description": "Detailed information relating to ropes, string, nets, tents, awnings, tarpaulins, sails, sacks and bags (not included in other classes), padding and stuffing materials (except of rubber or plastics), raw fibrous textile materials."
         },
-		{
+        {
           "value": "yarn",
           "expanded": "Yarn",
           "description": "Detailed information relating to yarns and threads, for textile use."
@@ -646,12 +646,12 @@
           "expanded": "Textile",
           "description": "Detailed information relating to textiles and textile goods not included in other categories, like bed and table covers."
         },
-		{
+        {
           "value": "clothing",
           "expanded": "Clothing",
           "description": "Detailed information relating to clothing, footwear, headgear."
         },
-		{
+        {
           "value": "lace",
           "expanded": "Lace",
           "description": "Detailed information relating to lace and embroidery, ribbons and braid, buttons, hooks and eyes, pins and needles, artificial flowers."
@@ -666,39 +666,39 @@
           "expanded": "Toy",
           "description": "Detailed information relating to games and toys, gymnastic and sporting articles not included in other classes, decorations."
         },
-		{
+        {
           "value": "food",
           "expanded": "Food",
           "description": "Detailed information relating to food, such as meat, fish, poultry and game, meat extracts, preserved, dried and cooked fruits and vegetables, jellies, jams, compotes, eggs, milk and milk products, edible oils and fats."
-        },		
+        },
         {
           "value": "liquid-food",
           "expanded": "Liquid Food",
           "description": "Detailed information relating to coffee, tea, cocoa, sugar, rice, tapioca, sago, artificial coffee, flour and preparations made from cereals, bread, pastry and confectionery, ices, honey, treacle, yeast, baking-powder, salt, mustard, vinegar, sauces (condiments), spices, ice."
         },
-		{
+        {
           "value": "agricultural-product",
           "expanded": "Agricultural Product",
           "description": "Detailed information relating to agricultural, horticultural and forestry products and grains not included in other classes, live animals, fresh fruits and vegetables, seeds, natural plants and flowers, foodstuffs for animals, malt."
         },
-		{
+        {
           "value": "beverages",
           "expanded": "Beverages",
           "description": "Detailed information relating to beers, mineral and aerated waters and other non-alcoholic drinks, fruit drinks and fruit juices, syrups and other preparations for making beverages."
         },
-		{
+        {
           "value": "alcoholic-beverage",
           "expanded": "Alcoholic Beverage",
           "description": "Detailed information relating to Alcoholic beverages (except beers)."
         },
-		{
+        {
           "value": "tobacco",
           "expanded": "Tobacco",
           "description": "Detailed information relating to tobacco, smokers' articles, matches."
-        }			
+        }
       ]
-    },	
-	{
+    },
+    {
       "predicate": "items-regulatory",
       "entry": [
         {
@@ -711,24 +711,24 @@
           "expanded": "License",
           "description": "Detailed information related to licenses."
         },
-		{
+        {
           "value": "permit",
           "expanded": "Permit",
           "description": "Detailed information related to permits."
         },
-		{
+        {
           "value": "registration",
           "expanded": "Registration",
           "description": "Detailed information related to registrations."
         },
-		{
+        {
           "value": "declaration",
           "expanded": "Declaration",
           "description": "Detailed information related to declarations."
         }
       ]
     },
-	{
+    {
       "predicate": "items-urban-infrastructure",
       "entry": [
         {
@@ -741,24 +741,24 @@
           "expanded": "Electric Power System",
           "description": "Detailed information related to an electric power supply system. An electric power system is a network of electrical components used to supply, transmit and use electric power."
         },
-		{
+        {
           "value": "transport-network",
           "expanded": "Transport Network",
           "description": "Detailed information related to transport networks."
         },
-		{
+        {
           "value": "sanitation-system",
           "expanded": "Sanitation System",
           "description": "Detailed information related to sanitation systems to provide a hygienic means of promoting health through prevention of human contact with the hazards of wastes as well as the treatment and proper disposal of sewage or wastewater."
         },
-		{
+        {
           "value": "communication-system",
           "expanded": "Communication System",
           "description": "Detailed information related to a communication system."
         }
       ]
     },
-	{
+    {
       "predicate": "items-item-usage",
       "entry": [
         {
@@ -766,7 +766,7 @@
           "expanded": "Product",
           "description": "Information about tangible outputs of processes which an organisation can offer to other parties."
         },
-		{
+        {
           "value": "resource",
           "expanded": "Resource",
           "description": "Resources are not kept or assigned to parties except to accomplish an activity within the organisation, typically during an interaction or the supply of products or delivery of services."
@@ -775,8 +775,3 @@
     }
   ]
 }
-
-
-
-
-
