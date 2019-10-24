@@ -626,6 +626,35 @@
           "description": "Detailed information relating to regional jurisdictions."
         }
       ]
+    }, 
+    {
+      "predicate": "controls-risk-governance",
+      "entry": [
+        {
+          "value": "residual",
+          "expanded": "Residual"
+        },
+        {
+          "value": "acceptance",
+          "expanded": "Acceptance"
+        },
+        {
+          "value": "analysis",
+          "expanded": "Analysis"
+        },
+        {
+          "value": "assessement",
+          "expanded": "Assessement"
+        },
+        {
+          "value": "management",
+          "expanded": "Management"
+        },
+        {
+          "value": "treatment",
+          "expanded": "Treatment"
+        }
+      ]
     }
   ]
 }
