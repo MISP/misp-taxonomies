@@ -439,7 +439,7 @@
       "version": 1,
       "name": "information-security-data-source",
       "description": "Taxonomy to classify the information security data sources"
-    }, 
+    },
     {
       "version": 1,
       "name": "gea-nz-entities",

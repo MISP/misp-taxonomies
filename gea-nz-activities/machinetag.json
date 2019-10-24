@@ -40,62 +40,62 @@
       "value": "cases-order",
       "expanded": "Cases Order",
       "description": "Information relating to orders and tracking of the orders."
-    },	
+    },
     {
       "value": "events-personal",
       "expanded": "Events Personal",
       "description": "Information around personal events like birth, starting school, getting married, etc."
-    },	
+    },
     {
       "value": "events-crisis",
       "expanded": "Events Crisis",
       "description": "Information about events that describe a personal crisis."
-    },	
+    },
     {
       "value": "events-social",
       "expanded": "Events Social",
       "description": "Information relating to planned or spontaneous occurrences of a social nature that may require a response by an organisation."
-    },	
+    },
     {
       "value": "events-business",
       "expanded": "Events Business",
       "description": "Information related to a type of event relating to the business of the organisation."
-    },	
+    },
     {
       "value": "events-trade",
       "expanded": "Events Trade",
       "description": "Information about events that hold substantial meaning for an individual but which are tracked by an organisation such as birth, deaths, health condition etc."
-    },		
+    },
     {
       "value": "events-travel",
       "expanded": "Events Travel",
       "description": "Information related to traveling overseas or coming into France."
-    },		
+    },
     {
       "value": "events-environmental",
       "expanded": "Events Environmental",
       "description": "Information held by an organisation about environmental activities such as atmospheric pressures, geological formations, rainfall etc."
-    },			
+    },
     {
       "value": "events-uncontrolled",
       "expanded": "Events Uncontrolled",
       "description": "Information about events that occur spontaneously, but to which the organisation is required to respond."
-    },		
+    },
     {
       "value": "events-interaction",
       "expanded": "Events Interaction",
       "description": "Information about activity that describes a relevant process or action undertaken by the enterprise."
-    },		
+    },
     {
       "value": "services-france-society",
       "expanded": "Services France Society",
       "description": "Information related to services delivered across France individuals, communities, and businesses."
-    },		
+    },
     {
       "value": "services-inviduals-&-communities",
       "expanded": "Services Inviduals & Communities",
       "description": "Information related to services delivered specifically to France individuals and communities."
-    },	
+    },
     {
       "value": "services-services-to-business",
       "expanded": "Services Services to Business",
@@ -105,18 +105,18 @@
       "value": "services-civic-infrastructure",
       "expanded": "Services Civic Infrastructure",
       "description": "Information related to services delivering France infrastructure."
-    },	
+    },
     {
       "value": "services-government-administration",
       "expanded": "Services Government Infrastructure",
       "description": "Information related to delivering France government wide operations and support services."
-    },		
+    },
     {
       "value": "services-services-from-business",
       "expanded": "Services Services from Business",
       "description": "Information related to services delivered by businesses."
     }
- ],
+  ],
   "values": [
     {
       "predicate": "cases-compliance",
@@ -172,7 +172,7 @@
           "description": "Detailed information related to an offence."
         }
       ]
-    },	
+    },
     {
       "predicate": "cases-episode",
       "entry": [
@@ -227,7 +227,7 @@
           "description": "Detailed information related to cases concerning infringements, a breach or infraction, as of a law, right, or obligation; violation; transgression."
         }
       ]
-    },	
+    },
     {
       "predicate": "cases-claim",
       "entry": [
@@ -257,8 +257,8 @@
           "description": "Detailed information related to claims of fact."
         }
       ]
-    },	
-   {
+    },
+    {
       "predicate": "cases-request",
       "entry": [
         {
@@ -297,7 +297,7 @@
           "description": "Information relating to orders and tracking of the orders."
         }
       ]
-    },		
+    },
     {
       "predicate": "events-personal",
       "entry": [
@@ -357,7 +357,7 @@
           "description": "Detailed information related to getting a driver's licence."
         }
       ]
-    },		
+    },
     {
       "predicate": "events-crisis",
       "entry": [
@@ -392,7 +392,7 @@
           "description": "Detailed information related to being convicted of a crime."
         }
       ]
-    },		
+    },
     {
       "predicate": "events-social",
       "entry": [
@@ -427,7 +427,7 @@
           "description": "Detailed information related to festivals."
         }
       ]
-    },	
+    },
     {
       "predicate": "events-business",
       "entry": [
@@ -487,7 +487,7 @@
           "description": "Detailed information related to closing a company."
         }
       ]
-    },		
+    },
     {
       "predicate": "events-trade",
       "entry": [
@@ -517,7 +517,7 @@
           "description": "Detailed information related to renting goods or real estate."
         }
       ]
-    },		
+    },
     {
       "predicate": "events-travel",
       "entry": [
@@ -532,7 +532,7 @@
           "description": "Detailed information related to an extended stay in France."
         }
       ]
-    },	
+    },
     {
       "predicate": "events-environmental",
       "entry": [
@@ -557,7 +557,7 @@
           "description": "Detailed information related to seasonal events."
         }
       ]
-    },	
+    },
     {
       "predicate": "events-uncontrolled",
       "entry": [
@@ -582,7 +582,7 @@
           "description": "Detailed information related to other uncontrolled events."
         }
       ]
-    },		
+    },
     {
       "predicate": "events-interaction",
       "entry": [
@@ -602,7 +602,7 @@
           "description": "Actions represent the information about key interactions that occur. Concepts such as Operators Assisted and Self Service are just relationships from parties in their appropriate roles to an action."
         }
       ]
-    },		
+    },
     {
       "predicate": "services-france-society",
       "entry": [
@@ -682,7 +682,7 @@
           "description": "Detailed information related to services to provide high quality, objective and responsive statistics"
         }
       ]
-    },		
+    },
     {
       "predicate": "services-inviduals-&-communities",
       "entry": [
@@ -742,7 +742,7 @@
           "description": "Detailed information related to services to support employment, develop careers, and gain professional accreditation for individuals."
         }
       ]
-    },		
+    },
     {
       "predicate": "services-services-to-business",
       "entry": [
@@ -782,7 +782,7 @@
           "description": "Detailed information related to services to support purchase, sale or exchange of commodities and advising on trade regulations."
         }
       ]
-    },		
+    },
     {
       "predicate": "services-civic-infrastructure",
       "entry": [
@@ -822,7 +822,7 @@
           "description": "Detailed information related to services to support road, rail and air transportation systems."
         }
       ]
-    },		
+    },
     {
       "predicate": "services-government-administration",
       "entry": [
@@ -872,7 +872,7 @@
           "description": "Detailed information related to services that involve executing legislative processes in Houses of Parliament, assemblies or councils."
         }
       ]
-    },		
+    },
     {
       "predicate": "services-services-from-business",
       "entry": [
@@ -962,51 +962,6 @@
           "description": "Detailed information related to legal services, security services for the protection of property and individuals, personal and social services rendered by others to meet the needs of individuals."
         }
       ]
-    }		
+    }
   ]
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
