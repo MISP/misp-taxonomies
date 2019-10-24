@@ -2,7 +2,7 @@
   "namespace": "economical-impact",
   "expanded": " Economical Impact",
   "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information (e.g. data exfiltration loss, a positive gain for an adversary).",
-  "version": 2,
+  "version": 3,
   "refs": [
     "https://www.misp-project.org/"
   ],
@@ -12,39 +12,48 @@
       "entry": [
         {
           "value": "none",
-          "expanded": "No loss"
+          "expanded": "No loss",
+          "numerical_value": 0
         },
         {
           "value": "less-than-25k-eur",
-          "expanded": "Less than 25K EUR"
+          "expanded": "Less than 25K EUR",
+          "numerical_value": 10
         },
         {
           "value": "less-than-50k-euro",
-          "expanded": "Less than 50K EUR"
+          "expanded": "Less than 50K EUR",
+          "numerical_value": 20
         },
         {
           "value": "less-than-100k-euro",
-          "expanded": "Less than 100K EUR"
+          "expanded": "Less than 100K EUR",
+          "numerical_value": 30
         },
         {
           "value": "less-than-1M-euro",
-          "expanded": "Less than 1 million EUR"
+          "expanded": "Less than 1 million EUR",
+          "numerical_value": 40
         },
         {
           "value": "less-than-10M-euro",
-          "expanded": "Less than 10 million EUR"
+          "expanded": "Less than 10 million EUR",
+          "numerical_value": 50
         },
         {
           "value": "less-than-100M-euro",
-          "expanded": "Less than 100 million EUR"
+          "expanded": "Less than 100 million EUR",
+          "numerical_value": 60
         },
         {
           "value": "less-than-1B-euro",
-          "expanded": "Less than 1 billion EUR"
+          "expanded": "Less than 1 billion EUR",
+          "numerical_value": 70
         },
         {
           "value": "more-than-1B-euro",
-          "expanded": "More than 1 billion EUR"
+          "expanded": "More than 1 billion EUR",
+          "numerical_value": 80
         }
       ]
     },
@@ -53,39 +62,48 @@
       "entry": [
         {
           "value": "none",
-          "expanded": "No gain"
+          "expanded": "No gain",
+          "numerical_value": 0
         },
         {
           "value": "less-than-25k-eur",
-          "expanded": "Less than 25K EUR"
+          "expanded": "Less than 25K EUR",
+          "numerical_value": 10
         },
         {
           "value": "less-than-50k-euro",
-          "expanded": "Less than 50K EUR"
+          "expanded": "Less than 50K EUR",
+          "numerical_value": 20
         },
         {
           "value": "less-than-100k-euro",
-          "expanded": "Less than 100K EUR"
+          "expanded": "Less than 100K EUR",
+          "numerical_value": 30
         },
         {
           "value": "less-than-1M-euro",
-          "expanded": "Less than 1 million EUR"
+          "expanded": "Less than 1 million EUR",
+          "numerical_value": 40
         },
         {
           "value": "less-than-10M-euro",
-          "expanded": "Less than 10 million EUR"
+          "expanded": "Less than 10 million EUR",
+          "numerical_value": 50
         },
         {
           "value": "less-than-100M-euro",
-          "expanded": "Less than 100 million EUR"
+          "expanded": "Less than 100 million EUR",
+          "numerical_value": 60
         },
         {
           "value": "less-than-1B-euro",
-          "expanded": "Less than 1 billion EUR"
+          "expanded": "Less than 1 billion EUR",
+          "numerical_value": 70
         },
         {
           "value": "more-than-1B-euro",
-          "expanded": "More than 1 billion EUR"
+          "expanded": "More than 1 billion EUR",
+          "numerical_value": 80
         }
       ]
     }

@@ -2,7 +2,7 @@
   "namespace": "estimative-language",
   "expanded": "Estimative languages",
   "description": "Estimative language to describe quality and credibility of underlying sources, data, and methodologies based Intelligence Community Directive 203 (ICD 203) and JP 2-0, Joint Intelligence",
-  "version": 3,
+  "version": 4,
   "predicates": [
     {
       "value": "likelihood-probability",
@@ -62,17 +62,20 @@
         {
           "value": "low",
           "expanded": "Low",
-          "description": "Uncorroborated information from good or marginal sources. Many assumptions. Mostly weak logical inferences, minimal methods application. Glaring intelligence gaps exist. Terms or expressions used: 'Possible', 'Could, may, might', 'Cannot judge, unclear.'"
+          "description": "Uncorroborated information from good or marginal sources. Many assumptions. Mostly weak logical inferences, minimal methods application. Glaring intelligence gaps exist. Terms or expressions used: 'Possible', 'Could, may, might', 'Cannot judge, unclear.'",
+          "numerical_value": 0
         },
         {
           "value": "moderate",
           "expanded": "Moderate",
-          "description": "Partially corroborated information from good sources. Several assumptions. Mix of strong and weak inferences and methods. Minimum intelligence gaps exist. Terms or expressions used: 'Likely, unlikely', 'Probable, improbable' 'Anticipate, appear'."
+          "description": "Partially corroborated information from good sources. Several assumptions. Mix of strong and weak inferences and methods. Minimum intelligence gaps exist. Terms or expressions used: 'Likely, unlikely', 'Probable, improbable' 'Anticipate, appear'.",
+          "numerical_value": 55
         },
         {
           "value": "high",
           "expanded": "High",
-          "description": "Well-corroborated information from proven sources. Minimal assumptions. Strong logical inferences and methods. No or minor intelligence gaps exist. Terms or expressions used: 'Will, will not', 'Almost certainly, remote', 'Highly likely, highly unlikely', 'Expect, assert, affirm'."
+          "description": "Well-corroborated information from proven sources. Minimal assumptions. Strong logical inferences and methods. No or minor intelligence gaps exist. Terms or expressions used: 'Will, will not', 'Almost certainly, remote', 'Highly likely, highly unlikely', 'Expect, assert, affirm'.",
+          "numerical_value": 95
         }
       ]
     }

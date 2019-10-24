@@ -1,0 +1,567 @@
+{
+  "predicates": [
+    {
+      "value": "ot-security-issues",
+      "expanded": "OT IR Security Issues"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Automobile / Vehicle / Aviation",
+      "value": "ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Automatic Meter Reading",
+      "value": "ot-network-data-transmission-protocols-automatic-meter-reading"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Industrial Control System",
+      "value": "ot-network-data-transmission-protocols-industrial-control-system"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Building Automation",
+      "value": "ot-network-data-transmission-protocols-building-automation"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Power System Automation",
+      "value": "ot-network-data-transmission-protocols-power-system-automation"
+    },
+    {
+      "expanded": "OT Network/Data Transmission Protocols in Process Automation",
+      "value": "ot-network-data-transmission-protocols-process-automation"
+    },
+    {
+      "expanded": "OT IR Communication Interface",
+      "value": "ot-communication-interface"
+    },
+    {
+      "expanded": "OT Operating Systems",
+      "value": "ot-operating-systems"
+    },
+    {
+      "expanded": "OT Components Category",
+      "value": "ot-components-category"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "ot-security-issues",
+      "entry": [
+        {
+          "value": "Message Authentication",
+          "expanded": "Message Authentication",
+          "description": "Auth in used protocols is attacked and falsification command can be sent"
+        },
+        {
+          "value": "Message Integrity Checking",
+          "expanded": "Message Integrity Checking",
+          "description": "Message poart of the sent protocol is maliciously tampered"
+        },
+        {
+          "value": "Message Encryption",
+          "expanded": "Message Encryption",
+          "description": "Self explanatory, i.e. Weak encryption is attacked"
+        },
+        {
+          "value": "Command Injection",
+          "expanded": "Command Injection",
+          "description": "Either Remote Command Injection or Local. On local can be timer triggered under tampered firmware"
+        },
+        {
+          "value": "Replay Attack",
+          "expanded": "Replay Attack",
+          "description": "Self explanatory"
+        },
+        {
+          "value": "Man in the middle (MITM) Attack",
+          "expanded": "Man in the middle (MITM) Attack",
+          "description": "Self explanatory"
+        },
+        {
+          "value": "Undocumented instructions",
+          "expanded": "Undocumented instructions",
+          "description": "Vendor's left several instruction used for development or trouble shooting that is finally leaked and used to performed malicious activities on the devices."
+        },
+        {
+          "value": "Vendor proprietary protocols",
+          "expanded": "Vendor proprietary protocols",
+          "description": "Internal vendor protocols used for development or trouble shooting, that is being maliciously for an attack."
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation",
+      "entry": [
+        {
+          "value": "ARINC 429",
+          "expanded": "ARINC 429"
+        },
+        {
+          "value": "CAN bus (ARINC 825 SAE J1939 NMEA 2000 FMS)",
+          "expanded": "CAN bus (ARINC 825 SAE J1939 NMEA 2000 FMS)"
+        },
+        {
+          "value": "Factory Instrumentation Protocol",
+          "expanded": "Factory Instrumentation Protocol"
+        },
+        {
+          "value": "FlexRay",
+          "expanded": "FlexRay"
+        },
+        {
+          "value": "IEBus",
+          "expanded": "IEBus"
+        },
+        {
+          "value": "J1587",
+          "expanded": "J1587"
+        },
+        {
+          "value": "J1708",
+          "expanded": "J1708"
+        },
+        {
+          "value": "Keyword Protocol 2000",
+          "expanded": "Keyword Protocol 2000"
+        },
+        {
+          "value": "Unified Diagnostic Services",
+          "expanded": "Unified Diagnostic Services"
+        },
+        {
+          "value": "LIN",
+          "expanded": "LIN"
+        },
+        {
+          "value": "MOST",
+          "expanded": "MOST"
+        },
+        {
+          "value": "VAN",
+          "expanded": "VAN"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-automatic-meter-reading",
+      "entry": [
+        {
+          "value": "ANSI C12.18",
+          "expanded": "ANSI C12.18"
+        },
+        {
+          "value": "IEC 61107",
+          "expanded": "IEC 61107"
+        },
+        {
+          "value": "DLMS/IEC 62056",
+          "expanded": "DLMS/IEC 62056"
+        },
+        {
+          "value": "M-Bus",
+          "expanded": "M-Bus"
+        },
+        {
+          "value": "Modbus",
+          "expanded": "Modbus"
+        },
+        {
+          "value": "ZigBee",
+          "expanded": "ZigBee"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-industrial-control-system",
+      "entry": [
+        {
+          "value": "MTConnect",
+          "expanded": "MTConnect"
+        },
+        {
+          "value": "OPC",
+          "expanded": "OPC"
+        },
+        {
+          "value": "DA",
+          "expanded": "DA"
+        },
+        {
+          "value": "HDA",
+          "expanded": "HDA"
+        },
+        {
+          "value": "UA",
+          "expanded": "UA"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-building-automation",
+      "entry": [
+        {
+          "value": "1-Wire",
+          "expanded": "1-Wire"
+        },
+        {
+          "value": "BACnet",
+          "expanded": "BACnet"
+        },
+        {
+          "value": "C-Bus",
+          "expanded": "C-Bus"
+        },
+        {
+          "value": "CEBus",
+          "expanded": "CEBus"
+        },
+        {
+          "value": "DALI",
+          "expanded": "DALI"
+        },
+        {
+          "value": "DSI",
+          "expanded": "DSI"
+        },
+        {
+          "value": "DyNet",
+          "expanded": "DyNet"
+        },
+        {
+          "value": "Factory Instrumentation Protocol",
+          "expanded": "Factory Instrumentation Protocol"
+        },
+        {
+          "value": "KNX",
+          "expanded": "KNX"
+        },
+        {
+          "value": "LonTalk",
+          "expanded": "LonTalk"
+        },
+        {
+          "value": "Modbus",
+          "expanded": "Modbus"
+        },
+        {
+          "value": "oBIX",
+          "expanded": "oBIX"
+        },
+        {
+          "value": "VSCP",
+          "expanded": "VSCP"
+        },
+        {
+          "value": "X10",
+          "expanded": "X10"
+        },
+        {
+          "value": "xAP",
+          "expanded": "xAP"
+        },
+        {
+          "value": "xPL",
+          "expanded": "xPL"
+        },
+        {
+          "value": "ZigBee",
+          "expanded": "ZigBee"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-power-system-automation",
+      "entry": [
+        {
+          "value": "IEC 60870",
+          "expanded": "IEC 60870"
+        },
+        {
+          "value": "DNP3",
+          "expanded": "DNP3"
+        },
+        {
+          "value": "Factory Instrumentation Protocol",
+          "expanded": "Factory Instrumentation Protocol"
+        },
+        {
+          "value": "IEC 61850",
+          "expanded": "IEC 61850"
+        },
+        {
+          "value": "IEC 62351",
+          "expanded": "IEC 62351"
+        },
+        {
+          "value": "Modbus",
+          "expanded": "Modbus"
+        },
+        {
+          "value": "Profibus",
+          "expanded": "Profibus"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-network-data-transmission-protocols-process-automation",
+      "entry": [
+        {
+          "value": "AS-i",
+          "expanded": "AS-i"
+        },
+        {
+          "value": "BSAP",
+          "expanded": "BSAP"
+        },
+        {
+          "value": "CC-Link Industrial Networks",
+          "expanded": "CC-Link Industrial Networks"
+        },
+        {
+          "value": "CIP",
+          "expanded": "CIP"
+        },
+        {
+          "value": "CAN bus",
+          "expanded": "CAN bus"
+        },
+        {
+          "value": "ControlNet",
+          "expanded": "ControlNet"
+        },
+        {
+          "value": "DF-1",
+          "expanded": "DF-1"
+        },
+        {
+          "value": "DirectNET",
+          "expanded": "DirectNET"
+        },
+        {
+          "value": "EtherCAT",
+          "expanded": "EtherCAT"
+        },
+        {
+          "value": "Ethernet Global Data (EGD)",
+          "expanded": "Ethernet Global Data (EGD)"
+        },
+        {
+          "value": "Ethernet Powerlink",
+          "expanded": "Ethernet Powerlink"
+        },
+        {
+          "value": "EtherNet/IP",
+          "expanded": "EtherNet/IP"
+        },
+        {
+          "value": "Experimental Physics and Industrial Control System (EPICS) StreamDevice protocol (i.e RF:FREQ 499.655 MHZ)",
+          "expanded": "Experimental Physics and Industrial Control System (EPICS) StreamDevice protocol (i.e RF:FREQ 499.655 MHZ)"
+        },
+        {
+          "value": "Factory Instrumentation Protocol",
+          "expanded": "Factory Instrumentation Protocol"
+        },
+        {
+          "value": "FINS",
+          "expanded": "FINS"
+        },
+        {
+          "value": "FOUNDATION fieldbus (H1 HSE)",
+          "expanded": "FOUNDATION fieldbus (H1 HSE)"
+        },
+        {
+          "value": "GE SRTP",
+          "expanded": "GE SRTP"
+        },
+        {
+          "value": "HART Protocol",
+          "expanded": "HART Protocol"
+        },
+        {
+          "value": "Honeywell SDS",
+          "expanded": "Honeywell SDS"
+        },
+        {
+          "value": "HostLink",
+          "expanded": "HostLink"
+        },
+        {
+          "value": "INTERBUS",
+          "expanded": "INTERBUS"
+        },
+        {
+          "value": "IO-Link",
+          "expanded": "IO-Link"
+        },
+        {
+          "value": "MECHATROLINK",
+          "expanded": "MECHATROLINK"
+        },
+        {
+          "value": "MelsecNet",
+          "expanded": "MelsecNet"
+        },
+        {
+          "value": "Modbus",
+          "expanded": "Modbus"
+        },
+        {
+          "value": "Optomu",
+          "expanded": "Optomu"
+        },
+        {
+          "value": "PieP",
+          "expanded": "PieP"
+        },
+        {
+          "value": "Profibus",
+          "expanded": "Profibus"
+        },
+        {
+          "value": "PROFINET IO",
+          "expanded": "PROFINET IO"
+        },
+        {
+          "value": "RAPIEnet",
+          "expanded": "RAPIEnet"
+        },
+        {
+          "value": "SERCOS interface",
+          "expanded": "SERCOS interface"
+        },
+        {
+          "value": "SERCOS III",
+          "expanded": "SERCOS III"
+        },
+        {
+          "value": "Sinec H1",
+          "expanded": "Sinec H1"
+        },
+        {
+          "value": "SynqNet",
+          "expanded": "SynqNet"
+        },
+        {
+          "value": "TTEthernet",
+          "expanded": "TTEthernet"
+        },
+        {
+          "value": "TCP/IP",
+          "expanded": "TCP/IP"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-communication-interface",
+      "entry": [
+        {
+          "value": "rs-232",
+          "expanded": "RS-232 (comm port)",
+          "description": "Serial communication with an implementation comprises 2 data lines, 6 control lines and one ground."
+        },
+        {
+          "value": "rs-422, rs-423 or rs-485",
+          "expanded": "RS-422, RS-423 or RS-485",
+          "description": "RS-422 is compatible to RS-232, used in situations where long distances are required, it can drive up to 1200m at 100kbit/s, and up to 1Mbit/s over short distances.  RS-422 uses a differential driver, uses a four-conductor cable, and up to ten receivers can be on a multi-dropped network or bus.  RS-485 is like RS-422 but RS-422 allows just one driver with multiple receivers whereas RS-485 supports multiple drivers and receivers RS-485 also allows up to thirty two (32) multi-dropped receivers or transmitters on a multi-dropped network or bus. At 90 kbit/s, the maximum cable length is 1250 m, and at 10 Mbit/s it is 15 m. The devices are half-duplex (i.e. send or receive, but not both at the same time). For more nodes or long distances, you can use repeaters that regenerate the signals and begin a new RS-485 line. "
+        },
+        {
+          "value": "ieee-488-gpib",
+          "expanded": "IEEE-488 (GPIB)",
+          "description": "Known as Hewlett-Packard HP-IB but was renamed as GPIB (General Purpose Interface Bus) by the IEEE-488 (1975). IEEE-488 interface comprises 8 data lines, 8 control lines and 8 ground lines. Up to 15 devices can be interconnected on one bus. Each device is assigned a unique primary address, ranging from 4-30, by setting the address switches on the device. Devices are linked in either a daisy-chain or star (or some combination) configuration with up to 20 m of shielded 24-conductor cable. A maximum separation of 4 m is specified between any two devices, and an average of 2m over the entire bus.  The data transfer rate can be up to 1 Mbyte/s.  Three types of devices can be connected to an IEEE-488 bus (Listeners, Talkers, and Controllers)"
+        },
+        {
+          "value": "ieee-1394-firewire",
+          "expanded": "IEEE-1394 (FireWire)",
+          "description": "The IEEE-1394 defines a serial serial interface that can use the bus cable to power devices.  Firewire transmits data in packets and incurs some overhead as a result. Firewire frames are 125 msec long which means that despite a 'headline' transfer speed of 400 Mbit/s Firewire can be substantially slower in responding to instruments' service requests.  Firewire uses a peer-peer protocol, similar to IEEE-488. Using standard cable, the maximum length bus comprises 16 hops of 4.5m each. Each hop connects two devices, but each physical device can contain four logical nodes. A Firewire cable contains two twisted-pairs (signals and clock) and two untwisted conductors (power and ground)."
+        },
+        {
+          "value": "usb-universal-serial-bus",
+          "expanded": "USB (Universal Serial Bus)",
+          "description": "USB is the bus topology, and host-target protocol, mean that giving existing PC-based instruments a USB port not as trivial as it could be, but instruments with USB ports are coming onto the ICS market increasing numbers.  USB 1.1 has many features as serial data transmission, device powering, data sent in 1 ms packets. USB offers 1.5- and 12-Mbit/s speeds. Individual devices can use the bus for a maximum of 50% of the time. In practice, the maximum rate is not more than 0.6 Mbyte/s.  USB 2.0 specification was released in 2000. In addition to increasing the signaling rate from 12 MHz to 480 MHz, the specification describes a more advanced feature set and uses bandwidth more efficiently than 'Classic' USB. Version 2 of USB seems likely to prevent IEEE 1394 becoming widely adopted in instrument systems."
+        },
+        {
+          "value": "ethernet",
+          "expanded": "Ethernet",
+          "description": "Instruments with ethernet interfaces have the great advantage that they can be accessed and controlled from a desktop anywhere in the world. A web-enabled ICS device behaves can be operated with standard browser. Systems with comm based on these interface can make use of existing Ethernet networks and connecting an instrument directly into the internet makes sharing of data easy. Fast data transfer is possible. However, when connected to the public internet it is difficult to secure or maintain its security and a full evaluation of the risks involved for this interface usage is very essential."
+        },
+        {
+          "value": "others",
+          "expanded": "Others",
+          "description": "Other communication interface not listed."
+        }
+      ]
+    },
+    {
+      "predicate": "ot-operating-systems",
+      "entry": [
+        {
+          "value": "rtos",
+          "expanded": "RTOS",
+          "description": "Please see the URL reference, there are a lot of it to be listed in here.  These OS are also referred as Firmware. https://en.wikipedia.org/wiki/Comparison_of_real-time_operating_systems"
+        },
+        {
+          "value": "linux-embedded-base-os",
+          "expanded": "Linux Embedded Base OS",
+          "description": "Yocto\\nBuildroot\\nOpenWRT\\nB & R Linux\\n Scientific Linux\\nRaspbian\\nAndroid"
+        },
+        {
+          "value": "bsd",
+          "expanded": "BSD",
+          "description": "NetBSD (NetBSD Embedded Systems)\\nFreeBSD (Modified. i.e.: Orbis OS)"
+        },
+        {
+          "value": "microsoft",
+          "expanded": "Microsoft",
+          "description": "Windows 10 IoT Enterprise\\n Windows Embedded 8.1 Industry Professional\\n Windows 7 Professional/Ultimate\\n Windows Embedded Standard 7\\n Windows Embedded Standard 2009\\n Windows CE 6.0\\n"
+        }
+      ]
+    },
+    {
+      "predicate": "ot-components-category",
+      "entry": [
+        {
+          "value": "programmable-logic-controller",
+          "expanded": "Programmable Logic Controller (PLC)",
+          "description": "1. Computing device with user-programmable memory to storing instructions to operate a physical process.\\n\\n 2.Various PLC types for different processses"
+        },
+        {
+          "value": "remote-terminal-unit",
+          "expanded": "Remote Terminal Unit (RTU)",
+          "description": "1. Data aquisitionand control unit designedto support field sites and remote stations.\\n\\n2. Wired and wireless communication capabilities.\\n\\n3. No stored program logic."
+        },
+        {
+          "value": "human-machine-interface",
+          "expanded": "Human-Machine Interface (HMI)",
+          "description": "1. Hardware/software that operators used to interact with control system.\\n\\n2. From physical control panels to a complete computer systems"
+        },
+        {
+          "value": "sensors",
+          "expanded": "Sensors",
+          "description": "Pressure, Temperature, Flow, Voltage, Optical, Proximity"
+        },
+        {
+          "value": "actuators",
+          "expanded": "Actuators",
+          "description": "Variable Frequency Drive, Servo Drive, Valve, Circuit Breaker"
+        },
+        {
+          "value": "communications",
+          "expanded": "Communications",
+          "description": "Modems, Routers, Serial - Ethernet Converters, Swtiches"
+        },
+        {
+          "value": "supervisory-level-devices",
+          "expanded": "Supervisory Level Devices",
+          "description": "1. Control Server (Supervisory systems that hosts control software to manage lower level control devices like PLC).\\n\\n2. Data Historian (Centralized database for information about process, control activity and status record).\\n\\n3. Engineering workstations (Creating and revising control systems anbd programs, incl. project files)."
+        }
+      ]
+    }
+  ],
+  "refs": [
+    "https://www.first.org/global/sigs/cti/",
+    "https://www.isa.org/isa99/",
+    "https://www.isa.org/intech/201810standards/"
+  ],
+  "version": 1,
+  "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
+  "expanded": "Industrial Control System (ICS)",
+  "namespace": "ics"
+}

@@ -1,0 +1,355 @@
+{
+  "namespace": "dark-web",
+  "expanded": "Dark Web",
+  "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project",
+  "version": 3,
+  "predicates": [
+    {
+      "value": "topic",
+      "description": "Topic associated with the materials tagged",
+      "expanded": "Topic"
+    },
+    {
+      "value": "motivation",
+      "description": "Motivation with the materials tagged",
+      "expanded": "Motivation"
+    },
+    {
+      "value": "structure",
+      "description": "Structure of the materials tagged",
+      "expanded": "Structure"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "topic",
+      "entry": [
+        {
+          "value": "drugs-narcotics",
+          "expanded": "Drugs/Narcotics",
+          "description": "Illegal drugs/chemical compounds for consumption/ingestion - either via blanket unlawfulness (e.g. proscribed drugs) or via unlawful access (e.g. prescription-only/restricted medications sold without lawful accessibility)."
+        },
+        {
+          "value": "electronics",
+          "expanded": "Electronics",
+          "description": "Electronics and high tech materials, described or to sell for example."
+        },
+        {
+          "value": "finance",
+          "expanded": "Finance",
+          "description": "Any monetary/currency/exchangeable materials. Includes carding, Paypal etc."
+        },
+        {
+          "value": "finance-crypto",
+          "expanded": "CryptoFinance",
+          "description": "Any monetary/currency/exchangeable materials based on cryptocurrencies. Includes Bitcoin, Litecoin etc."
+        },
+        {
+          "value": "credit-card",
+          "expanded": "Credit-Card",
+          "description": "Credit cards and payments materials"
+        },
+        {
+          "value": "cash-in",
+          "expanded": "Cash-in",
+          "description": "Buying parts of assets, conversion from liquid assets, currency, etc."
+        },
+        {
+          "value": "cash-out",
+          "expanded": "Cash-out",
+          "description": "Selling parts of assets, conversion to liquid assets, currency, etc."
+        },
+        {
+          "value": "escrow",
+          "expanded": "Escrow",
+          "description": "Third party keeping assets in behalf of two other parties making a transactions."
+        },
+        {
+          "value": "hacking",
+          "expanded": "Hacking",
+          "description": "Materials relating to the illegal access to or alteration of data and/or electronic services."
+        },
+        {
+          "value": "identification-credentials",
+          "expanded": "Identification/Credentials",
+          "description": "Materials used for providing/establishing identification with third parties. Examples include passports, driver licenses and login credentials."
+        },
+        {
+          "value": "intellectual-property-copyright-materials",
+          "expanded": "Intellectual Property/Copyright Materials",
+          "description": "Otherwise lawful materials stored, transferred or made available without consent of their legal rights holders."
+        },
+        {
+          "value": "pornography-adult",
+          "expanded": "Pornography - Adult",
+          "description": "Lawful, ethical pornography (i.e. involving only consenting adults)."
+        },
+        {
+          "value": "pornography-child-exploitation",
+          "expanded": "Pornography - Child (Child Exploitation)",
+          "description": "Child abuse materials (aka child pornography), including 'fantasy' fiction materials, CGI. Also includes the provision/offering of child abuse materials and/or activities"
+        },
+        {
+          "value": "pornography-illicit-or-illegal",
+          "expanded": "Pornography - Illicit or Illegal",
+          "description": "Illegal pornography NOT including children/child abuse. Includes bestiality, stolen/revenge porn, hidden cameras etc."
+        },
+        {
+          "value": "search-engine-index",
+          "expanded": "Search Engine/Index",
+          "description": "Site providing links/references to other sites/services. Referred to as a ‘nexus’ by (Moore and Rid, 2016)"
+        },
+        {
+          "value": "unclear",
+          "expanded": "Unclear",
+          "description": "Unable to completely establish topic of material."
+        },
+        {
+          "value": "extremism",
+          "expanded": "Extremism",
+          "description": "Illegal or ‘of concern’ levels of extremist ideology. Note this does not provide blanket coverage of fundamentalist ideologies and dogma - only those associated with illegal acts. Socialist/anarchist/religious materials (for example) will not be included unless inclusive or indicative of associated illegal conduct, such as hate crimes."
+        },
+        {
+          "value": "violence",
+          "expanded": "Violence",
+          "description": "Materials relating to violence against persons or property."
+        },
+        {
+          "value": "weapons",
+          "expanded": "Weapons",
+          "description": "Materials specifically associated with materials and/or items for use in violent acts against persons or property. Examples include firearms and bomb-making ingredients."
+        },
+        {
+          "value": "softwares",
+          "expanded": "Softwares",
+          "description": "Illegal or armful software distribution"
+        },
+        {
+          "value": "counteir-feit-materials",
+          "expanded": "Counter-feit materials",
+          "description": "Fake identification papers."
+        },
+        {
+          "value": "gambling",
+          "expanded": "Gambling",
+          "description": "Games involving money"
+        },
+        {
+          "value": "library",
+          "expanded": "Library",
+          "description": "Library or list of books"
+        },
+        {
+          "value": "other-not-illegal",
+          "expanded": "Other not illegal",
+          "description": "Material not of interest to law enforcement - e.g. personal sites, Facebook mirrors."
+        },
+        {
+          "value": "legitimate",
+          "expanded": "Legitimate",
+          "description": "Legitimate websites"
+        },
+        {
+          "value": "chat",
+          "expanded": "Chats platforms",
+          "description": "Chats space or equivalent, which are not forums"
+        },
+        {
+          "value": "mixer",
+          "expanded": "Mixer",
+          "description": "Anonymization tools for crypto-currencies transactions"
+        },
+        {
+          "value": "mystery-box",
+          "expanded": "Mystery-Box",
+          "description": "Mystery Box seller"
+        },
+        {
+          "value": "anonymizer",
+          "expanded": "Anonymizer",
+          "description": "Anonymization tools"
+        },
+        {
+          "value": "vpn-provider",
+          "expanded": "VPN-Provider",
+          "description": "Provides VPN services and related"
+        },
+        {
+          "value": "email-provider",
+          "expanded": "EMail-Provider",
+          "description": "Provides e-mail services and related"
+        },
+        {
+          "value": "ponies",
+          "expanded": "Ponies",
+          "description": "self-explanatory. It's ponies"
+        },
+        {
+          "value": "games",
+          "expanded": "Games",
+          "description": "Flash or online games"
+        },
+        {
+          "value": "parody",
+          "expanded": "Parody or Joke",
+          "description": "Meme, Parody, Jokes, Trolling, ..."
+        },
+        {
+          "value": "whistleblower",
+          "expanded": "Whistleblower",
+          "description": "Exposition and sharing of confidential information with protection of the witness in mind"
+        }
+      ]
+    },
+    {
+      "predicate": "motivation",
+      "entry": [
+        {
+          "value": "education-training",
+          "expanded": "Education & Training",
+          "description": "Materials providing instruction - e.g. ‘how to’ guides"
+        },
+        {
+          "value": "wiki",
+          "expanded": "Wiki",
+          "description": "Wiki pages, documentation and information display"
+        },
+        {
+          "value": "forum",
+          "expanded": "Forum",
+          "description": "Sites specifically designed for multiple users to communicate as peers"
+        },
+        {
+          "value": "file-sharing",
+          "expanded": "File Sharing",
+          "description": "General file sharing, typically (but not limited to) movie/image sharing"
+        },
+        {
+          "value": "hosting",
+          "expanded": "Hosting",
+          "description": "Hosting providers, e-mails, websites, file-storage etc."
+        },
+        {
+          "value": "ddos-services",
+          "expanded": "DDoS-Services",
+          "description": "Stresser, Booter, DDoSer, DDoS as a Service provider, DDoS tools, etc."
+        },
+        {
+          "value": "general",
+          "expanded": "General",
+          "description": "Materials not covered by the other motivations. Typically, materials of a nature not of interest to law enforcement.  For example, personal biography sites."
+        },
+        {
+          "value": "information-sharing-reportage",
+          "expanded": "Information Sharing/Reportage",
+          "description": "Journalism/reporting on topics. Can include biased coverage, but obvious propaganda materials are covered by Recruitment/Advocacy."
+        },
+        {
+          "value": "scam",
+          "expanded": "Scam",
+          "description": "Intentional confidence trick to fraud people or group of people"
+        },
+        {
+          "value": "political-speech",
+          "expanded": "Political-Speech",
+          "description": "Political, activism, without extremism."
+        },
+        {
+          "value": "conspirationist",
+          "expanded": "Conspirationist",
+          "description": "Conspirationist content, fake news, etc."
+        },
+        {
+          "value": "hate-speech",
+          "expanded": "Hate-Speech",
+          "description": "Racism, violent, hate... speech."
+        },
+        {
+          "value": "religious",
+          "expanded": "Religious",
+          "description": "Religious, faith, doctrinal related content."
+        },
+        {
+          "value": "marketplace-for-sale",
+          "expanded": "Marketplace/For Sale",
+          "description": "Services/goods for sale, regardless of means of payment."
+        },
+        {
+          "value": "smuggling",
+          "expanded": "Smuggling",
+          "description": "Information or trading of wild animals, prohibited goods, ... "
+        },
+        {
+          "value": "recruitment-advocacy",
+          "expanded": "Recruitment/Advocacy",
+          "description": "Propaganda"
+        },
+        {
+          "value": "system-placeholder",
+          "expanded": "System/Placeholder",
+          "description": "Automatically generated content, not designed for any identifiable purpose other than diagnostics - e.g. “It Works” message provided by default by Apache2"
+        },
+        {
+          "value": "unclear",
+          "expanded": "Unclear",
+          "description": "Unable to completely establish motivation of material."
+        }
+      ]
+    },
+    {
+      "predicate": "structure",
+      "entry": [
+        {
+          "value": "incomplete",
+          "expanded": "Incomplete websites or information",
+          "description": "Websites and pages that are unable to load completely properly"
+        },
+        {
+          "value": "captcha",
+          "expanded": "Captcha and Solvers",
+          "description": "Captchas and solvers elements"
+        },
+        {
+          "value": "login-forms",
+          "expanded": "Logins forms and gates",
+          "description": "Authentication pages, login page, login forms that block access to an internal part of a website."
+        },
+        {
+          "value": "contact-forms",
+          "expanded": "Contact forms and gates",
+          "description": "Forms to perform a contact request, send an e-mail, fill information, enter a password, ..."
+        },
+        {
+          "value": "encryption-keys",
+          "expanded": "Encryption and decryption keys",
+          "description": "e.g. PGP Keys, passwords, ..."
+        },
+        {
+          "value": "police-notice",
+          "expanded": "Police Notice",
+          "description": "Closed websites, with police-equivalent banners"
+        },
+        {
+          "value": "legal-statement",
+          "expanded": "Legal-Statement",
+          "description": "RGPD statement, Privacy-policy, guidelines of a websites or forum..."
+        },
+        {
+          "value": "test",
+          "expanded": "Test",
+          "description": "Test websites without any real consequences or effects"
+        },
+        {
+          "value": "videos",
+          "expanded": "Videos",
+          "description": "Videos and streaming"
+        },
+        {
+          "value": "unclear",
+          "expanded": "Unclear",
+          "description": "Unable to completely establish structure of material."
+        }
+      ]
+    }
+  ]
+}

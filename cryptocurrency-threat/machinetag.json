@@ -1,0 +1,50 @@
+{
+  "namespace": "cryptocurrency-threat",
+  "description": "Threats targetting cryptocurrency, based on CipherTrace report.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "SIM Swapping",
+      "expanded": "An identity theft technique that takes over a victim's mobile device to steal credentials and break into wallets or exchange accounts to steal cryptocurrency."
+    },
+    {
+      "value": "Crypto Dusting",
+      "expanded": "A new form of blockchain spam that erodes the recipient's reputation by sending cryptocurrency from known money mixers."
+    },
+    {
+      "value": "Sanction Evasion",
+      "expanded": "Nation states using cryptocurrencies has been promoted by the Iranian and Venezuelan governments."
+    },
+    {
+      "value": "Next-Generation Crypto Mixers",
+      "expanded": "Money laundering services that promise to exchange tainted tokens for freshly mined crypto, but in reality, cleanse cryptocurrency through exchanges."
+    },
+    {
+      "value": "Shadow Money Service Businesses",
+      "expanded": "Unlicensed Money Service Businesses (MSBs) banking cryptocurrency without the knowledge of host financial institutions, and thus exposing banks to unknown risk."
+    },
+    {
+      "value": "Datacenter-Scale Crypto Jacking: ",
+      "expanded": "Takeover attacks that mine for cryptocurrency at a massive scale have been discovered in datacenters, including AWS."
+    },
+    {
+      "value": "Lightning Network Transactions",
+      "expanded": "Enable anonymous bitcoin transactions by going \"off-chain,\" and cannow scale to $2,150,000."
+    },
+    {
+      "value": "Decentralized Stable Coins",
+      "expanded": "Stabilized tokens that can be designed for use as private coins."
+    },
+    {
+      "value": "Email Extortion and Bomb Threats",
+      "expanded": "Cyber-extortionists stepped up mass-customized phishing emails campaigns using old passwords and spouse names in 2018. Bomb threat extortion scams demanding bitcoin spiked in December."
+    },
+    {
+      "value": "Crypto Robbing Ransomware",
+      "expanded": "Cyber-extortionists began distributing new malware that empties cryptocurrency wallets and steals private keys while holding user data hostage."
+    }
+  ],
+  "refs": [
+    "https://ciphertrace.com/wp-content/uploads/2019/01/crypto_aml_report_2018q4.pdf"
+  ]
+}

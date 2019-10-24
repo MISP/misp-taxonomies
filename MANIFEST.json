@@ -61,7 +61,12 @@
       "description": "CIRCL Taxonomy is a simple scheme for incident classification and area topic where the incident took place."
     },
     {
-      "version": 2,
+      "version": 1,
+      "name": "coa",
+      "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack."
+    },
+    {
+      "version": 3,
       "name": "collaborative-intelligence",
       "description": "Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP."
     },
@@ -74,6 +79,11 @@
       "version": 4,
       "name": "cssa",
       "description": "The CSSA agreed sharing taxonomy."
+    },
+    {
+      "version": 1,
+      "name": "dcso-sharing",
+      "description": "DCSO Sharing Taxonomy to classify certain types of MISP events using the DCSO Event Guide"
     },
     {
       "version": 2,
@@ -112,6 +122,11 @@
     },
     {
       "version": 1,
+      "name": "drugs",
+      "description": "A taxonomy based on the superclass and class of drugs, based on https://www.drugbank.ca/releases/latest"
+    },
+    {
+      "version": 1,
       "name": "ecsirt",
       "description": "eCSIRT incident classification Appendix C of the eCSIRT EU project including IntelMQ updates."
     },
@@ -128,7 +143,7 @@
     {
       "version": 1,
       "name": "euci",
-      "description": "EU classified information (EUCI) means any information or material designated by a EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the European Union or of one or more of the Member States as described in http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32013D0488&from=EN"
+      "description": "EU classified information (EUCI) means any information or material designated by a EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the European Union or of one or more of the Member States as described in COUNCIL DECISION of 23 September 2013 on the security rules for protecting EU classified information"
     },
     {
       "version": 2,
@@ -181,7 +196,7 @@
       "description": "Malware classification based on a SANS whitepaper about malware."
     },
     {
-      "version": 5,
+      "version": 9,
       "name": "misp",
       "description": "Internal MISP taxonomy."
     },
@@ -241,7 +256,7 @@
       "description": "Representation of the behavior or modus operandi of cyber adversaries (a.k.a TTP) as normalized in STIX"
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "targeted-threat-index",
       "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman."
     },
@@ -261,7 +276,7 @@
       "description": "Vocabulary for Event Recording and Incident Sharing (VERIS)."
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "vocabulaire-des-probabilites-estimatives",
       "description": "Vocabulaire des probabilités estimatives"
     },
@@ -301,7 +316,7 @@
       "description": "Sectors and sub sectors as identified by the NIS Directive."
     },
     {
-      "version": 2,
+      "version": 3,
       "name": "economical-impact",
       "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information."
     },
@@ -351,7 +366,7 @@
       "version": 1
     },
     {
-      "version": 1,
+      "version": 3,
       "name": "false-positive",
       "description": "This taxonomy aims to ballpark the expected amount of false positives."
     },
@@ -406,7 +421,7 @@
       "description": "The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems."
     },
     {
-      "version": 2,
+      "version": 5,
       "name": "exercise",
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise."
     },
@@ -424,7 +439,7 @@
       "version": 1,
       "name": "information-security-data-source",
       "description": "Taxonomy to classify the information security data sources"
-    }, //
+    }, 
     {
       "version": 1,
       "name": "gea-nz-entities",
@@ -439,11 +454,81 @@
       "version": 2,
       "name": "gea-nz-motivators",
       "description": "Information relating to authority or governance."
+    },
+    {
+      "version": 1,
+      "name": "cryptocurrency-threat",
+      "description": "Threats targetting cryptocurrency, based on CipherTrace report."
+    },
+    {
+      "version": 1,
+      "name": "flesch-reading-ease",
+      "description": "Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid)."
+    },
+    {
+      "version": 3,
+      "name": "common-taxonomy",
+      "description": "The Common Taxonomy for Law Enforcement and The National Network of CSIRTs bridges the gap between the CSIRTs and international Law Enforcement communities by adding a legislative framework to facilitate the harmonisation of incident reporting to competent authorities, the development of useful statistics and sharing information within the entire cybercrime ecosystem."
+    },
+    {
+      "version": 1,
+      "name": "ransomware",
+      "description": "Ransomware is used to define ransomware types and the elements that compose them."
+    },
+    {
+      "version": 3,
+      "name": "dark-web",
+      "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project."
+    },
+    {
+      "version": 2,
+      "name": "retention",
+      "description": "Retention taxonomy to describe the retention period of the tagged information."
+    },
+    {
+      "version": 1,
+      "name": "threats-to-dns",
+      "description": "An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1–1. doi:10.1109/comst.2018.2849614"
+    },
+    {
+      "version": 1,
+      "name": "csirt-americas",
+      "description": "Taxonomy from CSIRTAmericas.org."
+    },
+    {
+      "version": 1,
+      "name": "scrippsco2-fgc",
+      "description": "Flags describing the sample"
+    },
+    {
+      "version": 1,
+      "name": "scrippsco2-fgi",
+      "description": "Flags describing the sample for isotopic data (C14, O18)"
+    },
+    {
+      "version": 1,
+      "name": "scrippsco2-sampling-stations",
+      "description": "Sampling stations of the Scripps CO2 Program"
+    },
+    {
+      "version": 4,
+      "name": "phishing",
+      "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status."
+    },
+    {
+      "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
+      "version": 1,
+      "name": "ics"
+    },
+    {
+      "name": "course-of-action",
+      "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
+      "version": 2
     }
   ],
   "path": "machinetag.json",
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
   "description": "Manifest file of MISP taxonomies available.",
   "license": "CC-0",
-  "version": "20190106"
+  "version": "20191023"
 }

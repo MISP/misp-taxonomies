@@ -1,0 +1,129 @@
+{
+  "namespace": "threats-to-dns",
+  "expanded": "Threats to DNS",
+  "description": "An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1–1. doi:10.1109/comst.2018.2849614",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "dns-protocol-attacks",
+      "description": "DNS protocol attacks",
+      "expanded": "DNS protocol attacks"
+    },
+    {
+      "value": "dns-server-attacks",
+      "description": "DNS server attacks",
+      "expanded": "DNS server attacks"
+    },
+    {
+      "value": "dns-abuse-or-misuse",
+      "description": "DNS abuse/misuse"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "dns-protocol-attacks",
+      "entry": [
+        {
+          "value": "man-in-the-middle-attack",
+          "expanded": "Man-in-the-middle attack",
+          "description": "Man-in-the-middle attack"
+        },
+        {
+          "value": "dns-spoofing",
+          "expanded": "DNS spoofing",
+          "description": "DNS spoofing"
+        },
+        {
+          "value": "dns-rebinding",
+          "expanded": "DNS rebinding",
+          "description": "DNS rebinding"
+        }
+      ]
+    },
+    {
+      "predicate": "dns-server-attacks",
+      "entry": [
+        {
+          "value": "server-dos-and-ddos",
+          "expanded": "Server DoS & DDoS",
+          "description": "Server DoS & DDoS"
+        },
+        {
+          "value": "server-hijacking",
+          "expanded": "Server hijacking",
+          "description": "Server hijacking"
+        },
+        {
+          "value": "cache-poisoning",
+          "expanded": "Cache poisoning",
+          "description": "Cache poisoning"
+        }
+      ]
+    },
+    {
+      "predicate": "dns-abuse-or-misuse",
+      "entry": [
+        {
+          "value": "domain-name-registration-abuse-cybersquatting",
+          "expanded": "Domain name registration abuse such as cybersquatting",
+          "description": "Domain name registration abuse such as cybersquatting"
+        },
+        {
+          "value": "domain-name-registration-abuse-typosquatting",
+          "expanded": "Domain name registration abuse such as typosquatting",
+          "description": "Domain name registration abuse such as typosquatting"
+        },
+        {
+          "value": "domain-name-registration-abuse-domain-reputation-and-re-registration",
+          "expanded": "Domain name registration abuse as domain reputation and re-registration",
+          "description": "Domain name registration abuse as domain reputation and re-gistration"
+        },
+        {
+          "value": "dns-reflection-dns-amplification",
+          "expanded": "DNS reflection - DNS amplification",
+          "description": "DNS reflection - DNS amplification"
+        },
+        {
+          "value": "malicious-or-compromised-domains-ips-malicious-botnets-c2",
+          "expanded": "Malicious or compromised domains/IPs - Malicious botnets (C&C servers)",
+          "description": "Malicious or compromised domains/IPs - Malicious botnets (C&C servers)"
+        },
+        {
+          "value": "malicious-or-compromised-domains-ips-fast-flux-domains",
+          "expanded": "Malicious or compromised domains/IPs - Malicious fast-flux domain & networks",
+          "description": "Malicious or compromised domains/IPs - Malicious fast-flux domain & networks"
+        },
+        {
+          "value": "malicious-or-compromised-domains-ips-malicious-dgas",
+          "expanded": "Malicious or compromised domains/IPs - Malicious DGAs",
+          "description": "Malicious or compromised domains/IPs - Malicious DGAs"
+        },
+        {
+          "value": "covert-channels-malicious-dns-tunneling",
+          "expanded": "Covert channels - Malicious DNS tunneling",
+          "description": "Covert channels - Malicious DNS tunneling"
+        },
+        {
+          "value": "covert-channels-malicious-payload-distribution",
+          "expanded": "Covert channels - Malicious DNS tunneling",
+          "description": "Covert channels - Malicious DNS tunneling"
+        },
+        {
+          "value": "benign-services-applications-malicious-dns-resolvers",
+          "expanded": "Benign services and applications - Malicious DNS resolvers",
+          "description": "Benign services and applications - Malicious DNS resolvers"
+        },
+        {
+          "value": "benign-services-applications-malicious-scanners",
+          "expanded": "Benign services and applications - Malicious scanners",
+          "description": "Benign services and applications - Malicious scanners"
+        },
+        {
+          "value": "benign-services-applications-url-shorteners",
+          "expanded": "Benign services and applications - URL shorteners",
+          "description": "Benign services and applications - URL shorteners"
+        }
+      ]
+    }
+  ]
+}
