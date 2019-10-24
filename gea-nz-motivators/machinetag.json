@@ -1,0 +1,631 @@
+{
+  "namespace": "gea-nz-motivators",
+  "description": "Information relating to authority or governance.",
+  "refs": [
+    "https://www.dragon1.com/downloads/government-enterprise-architecture-for-new-zealand-v3.1.pdf"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "plans-budget",
+      "expanded": "Plans Budget",
+      "description": "Information relating to budget direction or processes."
+    },
+    {
+      "value": "plans-strategy",
+      "expanded": "Plans Strategy",
+      "description": "Detailed information relating to strategic management."
+    },
+    {
+      "value": "plans-effort",
+      "expanded": "Plans Effort",
+      "description": "Information relating to the required effort to achieve or fulfil a work related activity."
+    },
+    {
+      "value": "plans-measure",
+      "expanded": "Plans Measure",
+      "description": "Information which tracks the effectiveness in relation to activities managed by the organisation (inputs/outputs) or employee performance."
+    },
+    {
+      "value": "plans-risk",
+      "expanded": "Plans Risk",
+      "description": "Information about person(s) or thing(s) which relate to risk management within organisation."
+    },
+    {
+      "value": "plans-specification",
+      "expanded": "Plans Specification",
+      "description": "Information dealing with properties and constraints."
+    },
+    {
+      "value": "controls-operational",
+      "expanded": "Controls Operational",
+      "description": "Information about controls that provide the foundation for administration of an organisation."
+    },
+    {
+      "value": "controls-finance",
+      "expanded": "Controls Finance",
+      "description": "Information about the financial structures that provide management and control over the economic resources of the organisation."
+    },
+    {
+      "value": "controls-industry",
+      "expanded": "Controls Industry",
+      "description": "Information about industry practice issued by an industry specific regulation or professional body."
+    },
+    {
+      "value": "controls-technological",
+      "expanded": "Controls Technological",
+      "description": "Information about technical constraints."
+    },
+    {
+      "value": "controls-law",
+      "expanded": "Controls Law",
+      "description": "Information about controls in the form of legislation (statues, regulations, etc.)."
+    },
+    {
+      "value": "controls-personal",
+      "expanded": "Controls Personal",
+      "description": "Information about the constraints an individual places on interactions with the government, or agency."
+    },
+    {
+      "value": "controls-security",
+      "expanded": "Controls Security",
+      "description": "Information about the constraints security places on interactions within and across the government, agencies and 3th parties."
+    },
+    {
+      "value": "controls-risk-governance",
+      "expanded": "Controls Risk Governance"
+    },
+    {
+      "value": "contracts-arrangement",
+      "expanded": "Contracts Arrangement",
+      "description": "Information relating to contracts, agreements or other arrangements with other agencies, governments, public or private organizations."
+    },
+    {
+      "value": "contracts-rights",
+      "expanded": "Contracts Rights",
+      "description": "Information relating to moral or legal entitlement to have or do something."
+    },
+    {
+      "value": "contracts-obligation",
+      "expanded": "Contracts Obligation",
+      "description": "Information which is held by an organisation which relates to its obligations."
+    },
+    {
+      "value": "contracts-jurisdiction",
+      "expanded": "Contracts Jurisdicrion",
+      "description": "nformation about political and geographical areas in which an organisation operates."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "plans-budget",
+      "entry": [
+        {
+          "value": "capital",
+          "expanded": "Capital",
+          "description": "Detailed information relating to capital budget planning."
+        },
+        {
+          "value": "operating",
+          "expanded": "Operating",
+          "description": "Detailed information relating to operational budget planning."
+        }
+      ]
+    },
+    {
+      "predicate": "plans-strategy",
+      "entry": [
+        {
+          "value": "strategic-directive",
+          "expanded": "Strategic Directive",
+          "description": "Detailed information relating to planning of strategic or organisational directives."
+        },
+        {
+          "value": "strategic-goal",
+          "expanded": "Strategic Goal",
+          "description": "Detailed information relating to strategic and organisational goals, such as key learning, key results, targets, and others."
+        },
+        {
+          "value": "strategic-objective",
+          "expanded": "Strategic Objective",
+          "description": "Detailed information relating to strategic and organisational objectives, such as KPIs."
+        },
+        {
+          "value": "strategic-outcome",
+          "expanded": "Strategic Outcome",
+          "description": "Detailed information relating to strategic business outcomes."
+        },
+        {
+          "value": "road-map",
+          "expanded": "Road Map",
+          "description": "Detailed information relating to strategic business road maps."
+        },
+        {
+          "value": "challenge",
+          "expanded": "Challenge",
+          "description": "Detailed information relating to strategic and organisational challenges."
+        },
+        {
+          "value": "opportunity",
+          "expanded": "Opportunity",
+          "description": "Detailed information relating to strategic and organisational opportunities."
+        }
+      ]
+    },
+    {
+      "predicate": "plans-effort",
+      "entry": [
+        {
+          "value": "activity",
+          "expanded": "Activity",
+          "description": "Detailed information relating to planning of activities."
+        },
+        {
+          "value": "campaign",
+          "expanded": "Campaign",
+          "description": "Detailed information relating to planned campaigns."
+        },
+        {
+          "value": "care",
+          "expanded": "Care",
+          "description": "Detailed information relating to planning of activities for an individual to achieve an outcome (PDP)."
+        },
+        {
+          "value": "programme",
+          "expanded": "Programme",
+          "description": "Detailed information relating to programmes plans."
+        },
+        {
+          "value": "project",
+          "expanded": "Project",
+          "description": "Detailed information relating to project plans."
+        },
+        {
+          "value": "roster",
+          "expanded": "Roster",
+          "description": "Detailed information relating to rosters."
+        },
+        {
+          "value": "schedule",
+          "expanded": "Schedule",
+          "description": "Detailed information relating to schedules."
+        },
+        {
+          "value": "task",
+          "expanded": "Task",
+          "description": "Detailed information relating to planning of tasks."
+        }
+      ]
+    },
+    {
+      "predicate": "plans-measure",
+      "entry": [
+        {
+          "value": "input",
+          "expanded": "Input",
+          "description": "Detailed information relating to input measurements."
+        },
+        {
+          "value": "output",
+          "expanded": "Output",
+          "description": "Detailed information relating to output measurements."
+        },
+        {
+          "value": "performance",
+          "expanded": "Performance",
+          "description": "Detailed information regarding the performance of an individual, group, organization, system or component."
+        },
+        {
+          "value": "benefit",
+          "expanded": "Benefit",
+          "description": "Detailed information regarding the benefits of individual, group, organization, system or component."
+        }
+      ]
+    },
+    {
+      "predicate": "plans-risk",
+      "entry": [
+        {
+          "value": "consequence",
+          "expanded": "Consequence",
+          "description": "Detailed information relating to consequences of a risk."
+        },
+        {
+          "value": "hazard",
+          "expanded": "Hazard",
+          "description": "Detailed information relating to risk hazards."
+        },
+        {
+          "value": "likelihood",
+          "expanded": "Likelihood",
+          "description": "Detailed information relating to likelihood of a risk."
+        },
+        {
+          "value": "mitigation",
+          "expanded": "Mitigation",
+          "description": "Detailed information relating to risk mitigation."
+        },
+        {
+          "value": "influence",
+          "expanded": "Influence",
+          "description": "Detailed information relating to influences that can impact the organisation's operations, strategic goals, outcomes, etc."
+        },
+        {
+          "value": "disruption",
+          "expanded": "Disruption",
+          "description": "Detailed information relating to disruptions that can impact the organisation's operations, objectives, goals, outcomes, etc."
+        }
+      ]
+    },
+    {
+      "predicate": "plans-specification",
+      "entry": [
+        {
+          "value": "functional-requirement",
+          "expanded": "Functional Requirement",
+          "description": "Detailed information relating to functional requirements."
+        },
+        {
+          "value": "non-functional-requirement",
+          "expanded": "Non-Functional Requirement",
+          "description": "Detailed information relating to non-functional requirements."
+        },
+        {
+          "value": "design",
+          "expanded": "Design",
+          "description": "Detailed information relating to solution designs."
+        }
+      ]
+    },
+    {
+      "predicate": "controls-operational",
+      "entry": [
+        {
+          "value": "convention",
+          "expanded": "Convention",
+          "description": "Detailed information relating to conventions, which are general agreements about basic principles or procedures."
+        },
+        {
+          "value": "guideline",
+          "expanded": "Guideline",
+          "description": "Detailed information relating to guidelines, which are principles put forward to set standards or determine a course of action. For example guidelines on tax reform."
+        },
+        {
+          "value": "policy",
+          "expanded": "Policy",
+          "description": "Detailed information relating to policies. A policy is a plan or course of action intended to influence and determine decisions, actions, and other matters."
+        },
+        {
+          "value": "principle",
+          "expanded": "Principle",
+          "description": "Detailed information relating to principles, which are accepted rules or actions on conduct."
+        },
+        {
+          "value": "standard",
+          "expanded": "Standard",
+          "description": "Detailed information relating to standards, which are accepted or approved examples of something against which people, processes, items are measured."
+        },
+        {
+          "value": "procedure",
+          "expanded": "Procedure",
+          "description": "Detailed information relating to procedures. A procedure is a series of steps taken to accomplish an end."
+        },
+        {
+          "value": "process",
+          "expanded": "Process",
+          "description": "Detailed information relating to processes. A process is a series of operations performed in the making or treatment of a product."
+        },
+        {
+          "value": "capability",
+          "expanded": "Capability",
+          "description": "Detailed information relating to capabilities; capacity to be used, treated, or developed for a specific purpose."
+        },
+        {
+          "value": "rule",
+          "expanded": "Rule",
+          "description": "Detailed information relating to rules."
+        },
+        {
+          "value": "exception",
+          "expanded": "Exception",
+          "description": "Detailed information around anything excluded from or not in conformance with a general rules, principles, regulations, etc."
+        },
+        {
+          "value": "scope-of-use",
+          "expanded": "Scope of Use",
+          "description": "Detailed information around the scope of use of assets."
+        }
+      ]
+    },
+    {
+      "predicate": "controls-finance",
+      "entry": [
+        {
+          "value": "financial-asset",
+          "expanded": "Financial Asset",
+          "description": "Detailed information relating to the financial control of assets."
+        },
+        {
+          "value": "equity",
+          "expanded": "Equity",
+          "description": "Detailed information relating to the financial control of equities, monetary value of a property or business beyond any amounts owed on it in mortgages, claims, liens, etc."
+        },
+        {
+          "value": "expense",
+          "expanded": "Expense",
+          "description": "Detailed information relating to the financial control of expenses. An expense is a cost of something, such as time or labour, necessary for the attainment of a goal."
+        },
+        {
+          "value": "fee",
+          "expanded": "Fee",
+          "description": "Detailed information relating to the financial control of fees; a fixed sum charged, as by an institution or by law, for a privilege: a license fee; tuition fees. Also a charge for professional services: a surgeon's fee."
+        },
+        {
+          "value": "income",
+          "expanded": "Income",
+          "description": "Detailed information relating to the financial control of income."
+        },
+        {
+          "value": "financial-liability",
+          "expanded": "Financial Liability",
+          "description": "Detailed information relating to financial obligations entered in the balance sheet of the organisation."
+        },
+        {
+          "value": "acquisition-method",
+          "expanded": "Acquisition Method",
+          "description": "Detailed information relating to acquisition methods. An acquisition method defines the method by which assets are acquired."
+        }
+      ]
+    },
+    {
+      "predicate": "controls-industry",
+      "entry": [
+        {
+          "value": "best-practice",
+          "expanded": "Best Practice",
+          "description": "Detailed information relating to endorsed or recommended industry practices."
+        },
+        {
+          "value": "regulation",
+          "expanded": "Regulation",
+          "description": "Detailed information relating to endorsed or recommended industry specific regulations, rules of behaviour and procedure."
+        },
+        {
+          "value": "terminology",
+          "expanded": "Terminology",
+          "description": "Detailed information of defined sets of concepts and related terms, including definitions and usage guidelines, and the industry-specific business context within which they are to be used."
+        }
+      ]
+    },
+    {
+      "predicate": "controls-technological",
+      "entry": [
+        {
+          "value": "enforced-rules",
+          "expanded": "Enforced Rules",
+          "description": "Detailed information relating to enforced rules around chosen or legacy systems, i.e. Windows policies."
+        },
+        {
+          "value": "constraints",
+          "expanded": "Constraints",
+          "description": "Detailed information relating to technical constraints imposed by a chosen or legacy technology."
+        }
+      ]
+    },
+    {
+      "predicate": "controls-law",
+      "entry": [
+        {
+          "value": "common-law",
+          "expanded": "Common Law",
+          "description": "Detailed information relating to common laws A common law is established by court decisions rather than by statutes enacted by legislatures."
+        },
+        {
+          "value": "legislative-instrument",
+          "expanded": "Legislative Instrument",
+          "description": "Detailed information relating to legislation, which are laws enacted by a legislative body."
+        },
+        {
+          "value": "act",
+          "expanded": "Act",
+          "description": "Detailed information relating to Acts."
+        },
+        {
+          "value": "cabinet-minute",
+          "expanded": "Cabinet Minute",
+          "description": "Detailed information relating to Cabinet minutes."
+        }
+      ]
+    },
+    {
+      "predicate": "controls-personal",
+      "entry": [
+        {
+          "value": "personal-directive",
+          "expanded": "Personal Directive",
+          "description": "Detailed information relating to directives of an individual, such as release of personal information, advance care directive."
+        }
+      ]
+    },
+    {
+      "predicate": "contracts-arrangement",
+      "entry": [
+        {
+          "value": "memorandum-of-understanding",
+          "expanded": "Memorandum of Understanding",
+          "description": "Detailed information relating to terms of agreement, not the legal instrument."
+        },
+        {
+          "value": "offer",
+          "expanded": "Offer",
+          "description": "Detailed information relating to offers, such as proposals, quotes, and others."
+        },
+        {
+          "value": "order",
+          "expanded": "Order",
+          "description": "Detailed information relating to orders, official request to be made, supplied, or served."
+        },
+        {
+          "value": "agreement",
+          "expanded": "Agreement",
+          "description": "Detailed information relating to Service level Agreements (SLA), Master Service Agreements (MSA), Statement of Work (SoW), Purchase Agreement (PA), etc."
+        },
+        {
+          "value": "request",
+          "expanded": "Request",
+          "description": "Detailed information relating to requests, such as request for information, request for assistance, etc."
+        },
+        {
+          "value": "confidentiality",
+          "expanded": "Confidentiality",
+          "description": "Detailed information relating to confidentiality, such as commercial-in-confidence (CIC), non-disclosure, privacy, and other"
+        },
+        {
+          "value": "employment",
+          "expanded": "Employment",
+          "description": "Detailed information relating to employment contracts."
+        },
+        {
+          "value": "service",
+          "expanded": "Service",
+          "description": "Detailed information relating to service contracts."
+        },
+        {
+          "value": "supply",
+          "expanded": "Supply",
+          "description": "Detailed information relating to supply contracts."
+        }
+      ]
+    },
+    {
+      "predicate": "contracts-rights",
+      "entry": [
+        {
+          "value": "eligibility",
+          "expanded": "Eligibility",
+          "description": "Detailed information related to eligibilities (fit or proper to be chosen; worthy of choice; desirable)."
+        },
+        {
+          "value": "credits",
+          "expanded": "Credits",
+          "description": "Detailed information relating to credit rights like account receivable, e. i. a legally enforceable claim for payment held by a business against its customer/clients for goods supplied and/or services rendered in execution of the customer's order."
+        },
+        {
+          "value": "access-right",
+          "expanded": "Access Right",
+          "description": "Detailed information related to access rights to facilities, services, processes, information, etc."
+        },
+        {
+          "value": "authorisation",
+          "expanded": "Authorisation",
+          "description": "Detailed information related to authorisation, e. i. right to give orders or make decisions."
+        },
+        {
+          "value": "human-right",
+          "expanded": "Human Right",
+          "description": "Detailed information related to human rights."
+        },
+        {
+          "value": "employment-right",
+          "expanded": "Employment Right",
+          "description": "Detailed information related to employment rights. New Zealand has a comprehensive set of employment laws that help keep workplaces fair."
+        },
+        {
+          "value": "property-right",
+          "expanded": "Property Right",
+          "description": "Detailed information related to property rights."
+        },
+        {
+          "value": "consumer-right",
+          "expanded": "Consumer Right",
+          "description": "Detailed information related to consumer rights."
+        }
+      ]
+    },
+    {
+      "predicate": "contracts-obligation",
+      "entry": [
+        {
+          "value": "duty-of-care",
+          "expanded": "Duty of Care",
+          "description": "Detailed information relating to the obligations of duty of care."
+        },
+        {
+          "value": "fitness-for-purpose",
+          "expanded": "Fitness for Purpose",
+          "description": "Detailed information relating to something that is good enough to do the job it was designed to do."
+        },
+        {
+          "value": "warranty",
+          "expanded": "Warranty",
+          "description": "Detailed information relating to warranties."
+        },
+        {
+          "value": "privacy",
+          "expanded": "Privacy",
+          "description": "Detailed information relating to privacy obligations."
+        },
+        {
+          "value": "truthfulness",
+          "expanded": "Truthfulness",
+          "description": "Detailed information relating to the obligation to be truthful."
+        },
+        {
+          "value": "enforce-the-law",
+          "expanded": "Enforce the Law",
+          "description": "Detailed information relating to the obligation to enforce laws and regulations."
+        },
+        {
+          "value": "obey-the-law",
+          "expanded": "Obey the Law",
+          "description": "Detailed information relating to the obligation to obey laws and regulations."
+        },
+        {
+          "value": "account-payable",
+          "expanded": "Account Payable",
+          "description": "Detailed information related to account payables or billable, i.e. money which an agency owes to vendors for products and services purchased on credit."
+        },
+        {
+          "value": "enforce-rules",
+          "expanded": "Enforce Rules",
+          "description": "Detailed information relating to the obligation to enforce rules, like organisational rules, educational rules, industrial rules, etc."
+        },
+        {
+          "value": "obey-rules",
+          "expanded": "Obey Rules",
+          "description": "Detailed information relating to the obligation to obey rules, like organisational rules, educational rules, industrial rules, etc."
+        }
+      ]
+    },
+    {
+      "predicate": "contracts-jurisdiction",
+      "entry": [
+        {
+          "value": "national",
+          "expanded": "National",
+          "description": "Detailed information relating to national jurisdictions."
+        },
+        {
+          "value": "international",
+          "expanded": "International",
+          "description": "Detailed information relating to international jurisdictions."
+        },
+        {
+          "value": "local",
+          "expanded": "Local",
+          "description": "Detailed information relating to local jurisdictions."
+        },
+        {
+          "value": "political",
+          "expanded": "Political",
+          "description": "Detailed information relating to political jurisdictions."
+        },
+        {
+          "value": "regional",
+          "expanded": "Regional",
+          "description": "Detailed information relating to regional jurisdictions."
+        }
+      ]
+    }
+  ]
+}
