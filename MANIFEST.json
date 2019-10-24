@@ -424,6 +424,21 @@
       "version": 1,
       "name": "information-security-data-source",
       "description": "Taxonomy to classify the information security data sources"
+    }, //
+    {
+      "version": 1,
+      "name": "gea-nz-entities",
+      "description": "Information relating to instances of entities or things."
+    },
+    {
+      "version": 1,
+      "name": "gea-nz-activities",
+      "description": "Information needed to track or monitor moments, periods or events that occur over time. This type of information is focused on occurrences that must be tracked for business reasons or represent a specific point in the evolution of ‘The Business’."
+    },
+    {
+      "version": 2,
+      "name": "gea-nz-motivators",
+      "description": "Information relating to authority or governance."
     }
   ],
   "path": "machinetag.json",
