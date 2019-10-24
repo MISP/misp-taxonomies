@@ -1,5 +1,5 @@
 {
-  "namespace": "activities",
+  "namespace": "gea-nz-activities",
   "description": "Information needed to track or monitor moments, periods or events that occur over time. This type of information is focused on occurrences that must be tracked for business reasons or represent a specific point in the evolution of ‘The Business’.",
   "refs": [
     "https://www.dragon1.com/downloads/government-enterprise-architecture-for-new-zealand-v3.1.pdf"

@@ -1,5 +1,5 @@
 {
-  "namespace": "entities",
+  "namespace": "gea-nz-entities",
   "description": "Information relating to instances of entities or things.",
   "refs": [
     "https://www.dragon1.com/downloads/government-enterprise-architecture-for-new-zealand-v3.1.pdf"
