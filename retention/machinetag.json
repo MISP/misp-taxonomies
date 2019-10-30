@@ -1,0 +1,66 @@
+{
+  "namespace": "retention",
+  "expanded": "retention",
+  "description": "Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.",
+  "version": 2,
+  "refs": [
+    "https://en.wikipedia.org/wiki/Retention_period"
+  ],
+  "predicates": [
+    {
+      "value": "expired",
+      "expanded": "Set when the retention period has expired",
+      "numerical_value": 0
+    },
+    {
+      "value": "1d",
+      "expanded": "1 day",
+      "numerical_value": 1
+    },
+    {
+      "value": "2d",
+      "expanded": "2 days",
+      "numerical_value": 2
+    },
+    {
+      "value": "7d",
+      "expanded": "7 days",
+      "numerical_value": 7
+    },
+    {
+      "value": "2w",
+      "expanded": "2 weeks",
+      "numerical_value": 14
+    },
+    {
+      "value": "1m",
+      "expanded": "1 month",
+      "numerical_value": 30
+    },
+    {
+      "value": "2m",
+      "expanded": "2 months",
+      "numerical_value": 60
+    },
+    {
+      "value": "3m",
+      "expanded": "3 months",
+      "numerical_value": 90
+    },
+    {
+      "value": "6m",
+      "expanded": "6 months",
+      "numerical_value": 180
+    },
+    {
+      "value": "1y",
+      "expanded": "1 year",
+      "numerical_value": 365
+    },
+    {
+      "value": "10y",
+      "expanded": "10 year",
+      "numerical_value": 3650
+    }
+  ]
+}

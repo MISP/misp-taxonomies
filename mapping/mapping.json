@@ -1,6 +1,9 @@
 {
   "DDoS": {
     "values": [
+      "rsit:availability=\"dos\"",
+      "rsit:availability=\"ddos\"",
+      "rsit:vulnerable=\"ddos-amplifier\"",
       "ecsirt:availability=\"ddos\"",
       "europol-incident:availability=\"dos-ddos\"",
       "ms-caro-malware:malware-type=\"DDoS\"",
@@ -26,6 +29,7 @@
   },
   "exploit": {
     "values": [
+      "rsit:intrusion-attempts=\"exploit\"",
       "veris:action:malware:variety=\"Exploit vuln\"",
       "ecsirt:intrusion-attempts=\"exploit\"",
       "europol-event:exploit",
@@ -35,6 +39,8 @@
   },
   "malware": {
     "values": [
+      "rsit:malicious-code=\"malware-distribution\"",
+      "rsit:malicious-code=\"malware-configuration\"",
       "ecsirt:malicious-code=\"malware\"",
       "circl:incident-classification=\"malware\""
     ]
@@ -57,6 +63,7 @@
   },
   "spam": {
     "values": [
+      "rsit:abusive-content=\"spam\"",
       "circl:incident-classification=\"spam\"",
       "ecsirt:abusive-content=\"spam\"",
       "enisa:nefarious-activity-abuse=\"spam\"",
@@ -68,6 +75,7 @@
   },
   "scan": {
     "values": [
+      "rsit:information-gathering=\"scanner\"",
       "circl:incident-classification=\"scan\"",
       "ecsirt:information-gathering=\"scanner\"",
       "europol-incident:information-gathering=\"scanning\""
@@ -87,6 +95,7 @@
   },
   "phishing": {
     "values": [
+      "rsit:fraud=\"phishing\"",
       "circl:incident-classification=\"phishing\"",
       "ecsirt:fraud=\"phishing\"",
       "veris:action:social:variety=\"Phishing\"",
@@ -96,6 +105,7 @@
   },
   "brute force": {
     "values": [
+      "rsit:intrusion-attempts=\"brute-force\"",
       "ecsirt:intrusion-attempts=\"brute-force\"",
       "veris:action:malware:variety=\"Brute force\"",
       "europol-event:brute-force-attempt",
@@ -111,6 +121,7 @@
   },
   "c&c": {
     "values": [
+      "rsit:malicious-code=\"c2-server\"",
       "ecsirt:malicious-code=\"c&c\"",
       "europol-incident:malware=\"c&c\"",
       "europol-event:c&c-server-hosting",
@@ -166,6 +177,24 @@
       "malware_classification:malware-category=\"Worm\"",
       "ms-caro-malware:malware-type=\"Worm\"",
       "ecsirt:malicious-code=\"worm\""
+    ]
+  },
+  "content": {
+    "values": [
+      "rsit:abusive-content=\"harmful-speech\"",
+      "rsit:abusive-content=\"violence\"",
+      "rsit:fraud=\"copyright\"",
+      "rsit:fraud=\"masquerade\""
+    ]
+  },
+  "other": {
+    "values": [
+      "rsit:other=\"other\""
+    ]
+  },
+  "test": {
+    "values": [
+      "rsit:test=\"test\""
     ]
   },
   "tlp-white": {

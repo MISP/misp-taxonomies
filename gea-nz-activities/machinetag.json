@@ -1,0 +1,967 @@
+{
+  "namespace": "gea-nz-activities",
+  "description": "Information needed to track or monitor moments, periods or events that occur over time. This type of information is focused on occurrences that must be tracked for business reasons or represent a specific point in the evolution of ‘The Business’.",
+  "refs": [
+    "https://www.dragon1.com/downloads/government-enterprise-architecture-for-new-zealand-v3.1.pdf"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "cases-compliance",
+      "expanded": "Cases Compliance",
+      "description": "Information about an occurrence by a person or organisation that is under official investigation."
+    },
+    {
+      "value": "cases-proceeding",
+      "expanded": "Cases Proceeding",
+      "description": "Information about a case held by an organisation related to interpretation of the law."
+    },
+    {
+      "value": "cases-episode",
+      "expanded": "Cases Episode",
+      "description": "Information focused on individual’s interactions with an agency, organisation or enterprise, which is tacked as a sequence over a period of time."
+    },
+    {
+      "value": "cases-commission-of-inquiry",
+      "expanded": "Cases Commission of Inquiry",
+      "description": "Information relating to inquiries into various issues. Commissions report findings, give advice and make recommendations."
+    },
+    {
+      "value": "cases-claim",
+      "expanded": "Cases Claim",
+      "description": "Information about claims."
+    },
+    {
+      "value": "cases-request",
+      "expanded": "Cases Request",
+      "description": "Information about requests that need to be tracked."
+    },
+    {
+      "value": "cases-order",
+      "expanded": "Cases Order",
+      "description": "Information relating to orders and tracking of the orders."
+    },
+    {
+      "value": "events-personal",
+      "expanded": "Events Personal",
+      "description": "Information around personal events like birth, starting school, getting married, etc."
+    },
+    {
+      "value": "events-crisis",
+      "expanded": "Events Crisis",
+      "description": "Information about events that describe a personal crisis."
+    },
+    {
+      "value": "events-social",
+      "expanded": "Events Social",
+      "description": "Information relating to planned or spontaneous occurrences of a social nature that may require a response by an organisation."
+    },
+    {
+      "value": "events-business",
+      "expanded": "Events Business",
+      "description": "Information related to a type of event relating to the business of the organisation."
+    },
+    {
+      "value": "events-trade",
+      "expanded": "Events Trade",
+      "description": "Information about events that hold substantial meaning for an individual but which are tracked by an organisation such as birth, deaths, health condition etc."
+    },
+    {
+      "value": "events-travel",
+      "expanded": "Events Travel",
+      "description": "Information related to traveling overseas or coming into France."
+    },
+    {
+      "value": "events-environmental",
+      "expanded": "Events Environmental",
+      "description": "Information held by an organisation about environmental activities such as atmospheric pressures, geological formations, rainfall etc."
+    },
+    {
+      "value": "events-uncontrolled",
+      "expanded": "Events Uncontrolled",
+      "description": "Information about events that occur spontaneously, but to which the organisation is required to respond."
+    },
+    {
+      "value": "events-interaction",
+      "expanded": "Events Interaction",
+      "description": "Information about activity that describes a relevant process or action undertaken by the enterprise."
+    },
+    {
+      "value": "services-france-society",
+      "expanded": "Services France Society",
+      "description": "Information related to services delivered across France individuals, communities, and businesses."
+    },
+    {
+      "value": "services-inviduals-&-communities",
+      "expanded": "Services Inviduals & Communities",
+      "description": "Information related to services delivered specifically to France individuals and communities."
+    },
+    {
+      "value": "services-services-to-business",
+      "expanded": "Services Services to Business",
+      "description": "Information related to services delivered specifically to France businesses."
+    },
+    {
+      "value": "services-civic-infrastructure",
+      "expanded": "Services Civic Infrastructure",
+      "description": "Information related to services delivering France infrastructure."
+    },
+    {
+      "value": "services-government-administration",
+      "expanded": "Services Government Infrastructure",
+      "description": "Information related to delivering France government wide operations and support services."
+    },
+    {
+      "value": "services-services-from-business",
+      "expanded": "Services Services from Business",
+      "description": "Information related to services delivered by businesses."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "cases-compliance",
+      "entry": [
+        {
+          "value": "assessment",
+          "expanded": "Assessment",
+          "description": "Detailed information related to performing an assessment, the act of assessing; appraisal; evaluation."
+        },
+        {
+          "value": "audit",
+          "expanded": "Audit",
+          "description": "Detailed information related to performing an audit, to make an audit of; examine (accounts, records, etc.) for purposes of verification."
+        },
+        {
+          "value": "inspection",
+          "expanded": "Inspection",
+          "description": "Detailed information related to performing an inspection or viewing."
+        },
+        {
+          "value": "investigation",
+          "expanded": "Investigation",
+          "description": "Detailed information related to performing an investigation, to search out and examine the particulars of in an attempt to learn the facts about something hidden, unique, or complex, especially in an attempt to find a motive, cause, or culprit."
+        },
+        {
+          "value": "review",
+          "expanded": "Review",
+          "description": "Detailed information related to performing a review, to survey mentally; take a survey of."
+        }
+      ]
+    },
+    {
+      "predicate": "cases-proceeding",
+      "entry": [
+        {
+          "value": "breach",
+          "expanded": "Breach",
+          "description": "Detailed information related to breaches, such as breach of contract, defamation, the recovering of debts, and family disputes over care arrangements for children, and others."
+        },
+        {
+          "value": "fine",
+          "expanded": "Fine",
+          "description": "Detailed information related to fines, such as parking fine, speeding fine, and others."
+        },
+        {
+          "value": "fraud",
+          "expanded": "Fraud",
+          "description": "Detailed information related to fraud."
+        },
+        {
+          "value": "offence",
+          "expanded": "Offence",
+          "description": "Detailed information related to an offence."
+        }
+      ]
+    },
+    {
+      "predicate": "cases-episode",
+      "entry": [
+        {
+          "value": "defect",
+          "expanded": "Defect",
+          "description": "Detailed information related to cases concerning defects, such as time of occurrence, a repeated defect, solution, etc."
+        },
+        {
+          "value": "emergency",
+          "expanded": "Emergency",
+          "description": "Detailed information related to emergency cases."
+        },
+        {
+          "value": "error",
+          "expanded": "Error",
+          "description": "Detailed information related to errors, a deviation from accuracy or correctness."
+        },
+        {
+          "value": "fault",
+          "expanded": "Fault",
+          "description": "Detailed information related to cases concerning faults, a defect or imperfection; flaw; failing."
+        },
+        {
+          "value": "history",
+          "expanded": "History",
+          "description": "Detailed information related to history, meaning a sequence of events, such as family history."
+        },
+        {
+          "value": "incident",
+          "expanded": "Incident",
+          "description": "Detailed information related to cases concerning incidents, an individual occurrence or event."
+        },
+        {
+          "value": "issue",
+          "expanded": "Issue",
+          "description": "Detailed information related to cases concerning issues, a point in question or a matter that is in dispute which needs a decision."
+        },
+        {
+          "value": "problem",
+          "expanded": "Problem",
+          "description": "Detailed information related to problems, any question or matter involving doubt, uncertainty, or difficulty."
+        },
+        {
+          "value": "crime",
+          "expanded": "Crime",
+          "description": "Detailed information related to cases concerning crimes, actions or instances of negligence that is deemed injurious to the public welfare or morals or to the interests of the state and that is legally prohibited."
+        },
+        {
+          "value": "infrigement",
+          "expanded": "Infrigement",
+          "description": "Detailed information related to cases concerning infringements, a breach or infraction, as of a law, right, or obligation; violation; transgression."
+        }
+      ]
+    },
+    {
+      "predicate": "cases-claim",
+      "entry": [
+        {
+          "value": "claim-of-definition",
+          "expanded": "Claim of Definition",
+          "description": "Detailed information related to claims of definition."
+        },
+        {
+          "value": "claim-of-cause",
+          "expanded": "Claim of Cause",
+          "description": "Detailed information related to claims of cause."
+        },
+        {
+          "value": "claim-of-value",
+          "expanded": "Claim of Value",
+          "description": "Detailed information related to claims of value."
+        },
+        {
+          "value": "claim-of-policy",
+          "expanded": "Claim of Policy",
+          "description": "Detailed information related to claims of policy."
+        },
+        {
+          "value": "claim-of-fact",
+          "expanded": "Claim of Fact",
+          "description": "Detailed information related to claims of fact."
+        }
+      ]
+    },
+    {
+      "predicate": "cases-request",
+      "entry": [
+        {
+          "value": "request-for-information",
+          "expanded": "Request for Information",
+          "description": "Detailed information related to requests for information."
+        },
+        {
+          "value": "request-for-proposal",
+          "expanded": "Request for proposal",
+          "description": "Detailed information related to requests for proposals."
+        },
+        {
+          "value": "request-for-quotation",
+          "expanded": "Request for quotation",
+          "description": "Detailed information related to requests for quotation."
+        },
+        {
+          "value": "request-for-tender",
+          "expanded": "Request for Tender",
+          "description": "Detailed information related to requests for tender."
+        },
+        {
+          "value": "request-for-approval",
+          "expanded": "Request for Approval",
+          "description": "Detailed information related to requests for approval."
+        },
+        {
+          "value": "request-for-comments",
+          "expanded": "Request for Comments",
+          "description": "Detailed information related to requests for comments."
+        },
+        {
+          "value": "order",
+          "expanded": "Order",
+          "description": "Information relating to orders and tracking of the orders."
+        }
+      ]
+    },
+    {
+      "predicate": "events-personal",
+      "entry": [
+        {
+          "value": "birth",
+          "expanded": "Birth",
+          "description": "Detailed information related to giving birth."
+        },
+        {
+          "value": "starting-school",
+          "expanded": "Starting School",
+          "description": "Detailed information related to starting school."
+        },
+        {
+          "value": "adoption",
+          "expanded": "Adoption",
+          "description": "Detailed information related to adopting a child."
+        },
+        {
+          "value": "marriage",
+          "expanded": "Marriage",
+          "description": "Detailed information related to get married."
+        },
+        {
+          "value": "senior-citizenship",
+          "expanded": "Senior Citizenship",
+          "description": "Detailed information related to becoming a senior citizen."
+        },
+        {
+          "value": "care",
+          "expanded": "Care",
+          "description": "Detailed information related to going into care."
+        },
+        {
+          "value": "death",
+          "expanded": "Death",
+          "description": "Detailed information related to a death."
+        },
+        {
+          "value": "fostering",
+          "expanded": "Fostering",
+          "description": "Detailed information related to fostering a child."
+        },
+        {
+          "value": "enrol-to-vote",
+          "expanded": "Enrol to Vote",
+          "description": "Detailed information related to the event of enrolling to vote and voting."
+        },
+        {
+          "value": "volunteering",
+          "expanded": "Volunteering",
+          "description": "Detailed information related to the event of volunteering for public services."
+        },
+        {
+          "value": "driver's-licence",
+          "expanded": "Driver's Licence",
+          "description": "Detailed information related to getting a driver's licence."
+        }
+      ]
+    },
+    {
+      "predicate": "events-crisis",
+      "entry": [
+        {
+          "value": "victim-of-a-crime",
+          "expanded": "Victim of a Crime",
+          "description": "Detailed information related to the event of being a victim of a crime."
+        },
+        {
+          "value": "witness-of-a-crime",
+          "expanded": "Witness of a Crime",
+          "description": "Detailed information related to the event of being a witness of a crime."
+        },
+        {
+          "value": "health",
+          "expanded": "Health",
+          "description": "Detailed information related to a health event, such as illness and operations."
+        },
+        {
+          "value": "emergency",
+          "expanded": "Emergency",
+          "description": "Detailed information related to an emergency."
+        },
+        {
+          "value": "accused",
+          "expanded": "Accused",
+          "description": "Detailed information related to being accused of a crime."
+        },
+        {
+          "value": "convicted",
+          "expanded": "Convicted",
+          "description": "Detailed information related to being convicted of a crime."
+        }
+      ]
+    },
+    {
+      "predicate": "events-social",
+      "entry": [
+        {
+          "value": "ceremony",
+          "expanded": "Ceremony",
+          "description": "Detailed information related to ceremonies."
+        },
+        {
+          "value": "conference",
+          "expanded": "Conference",
+          "description": "Detailed information related to conferences."
+        },
+        {
+          "value": "concert",
+          "expanded": "Concert",
+          "description": "Detailed information related to concerts."
+        },
+        {
+          "value": "sporting-event",
+          "expanded": "Spporting Event",
+          "description": "Detailed information related to sporting events, an activity involving physical exertion and skill that is governed by a set of rules or customs and often undertaken competitively, often sports."
+        },
+        {
+          "value": "protest",
+          "expanded": "Protest",
+          "description": "Detailed information related to protests, an event at which people gather together to show strong disapproval about something."
+        },
+        {
+          "value": "festival",
+          "expanded": "Festival",
+          "description": "Detailed information related to festivals."
+        }
+      ]
+    },
+    {
+      "predicate": "events-business",
+      "entry": [
+        {
+          "value": "seed-capital",
+          "expanded": "Seed Capital",
+          "description": "Detailed information related to seeding a business."
+        },
+        {
+          "value": "start-up",
+          "expanded": "Start-up",
+          "description": "Detailed information related to starting up a business."
+        },
+        {
+          "value": "hiring",
+          "expanded": "Hiring",
+          "description": "Detailed information related to hiring staff."
+        },
+        {
+          "value": "termination-of-employment",
+          "expanded": "Termination of Employment",
+          "description": "Detailed information related to terminating a employment contract."
+        },
+        {
+          "value": "merge",
+          "expanded": "Merge",
+          "description": "Detailed information related to merging of two or more companies, generally by offering the stockholders of one company securities in the acquiring company in exchange for the surrender of their stock."
+        },
+        {
+          "value": "demerge",
+          "expanded": "Demerge",
+          "description": "Detailed information related to a demerger, the separation of a large company into two or more smaller organizations, particularly as the dissolution of an earlier merger."
+        },
+        {
+          "value": "stock-exchange-listing",
+          "expanded": "Stock Exchange Listing",
+          "description": "Detailed information related to listing a company on the stock exchange."
+        },
+        {
+          "value": "stock-exchange-delisting",
+          "expanded": "Stock Exchange Delisting",
+          "description": "Detailed information related to de-listing or removing a company from the stock exchange."
+        },
+        {
+          "value": "change-name",
+          "expanded": "Change Name",
+          "description": "Detailed information related to changing the name of a company."
+        },
+        {
+          "value": "bankruptcy",
+          "expanded": "Bankruptcy",
+          "description": "Detailed information related to a company going bankrupt."
+        },
+        {
+          "value": "cease",
+          "expanded": "Cease",
+          "description": "Detailed information related to closing a company."
+        }
+      ]
+    },
+    {
+      "predicate": "events-trade",
+      "entry": [
+        {
+          "value": "buying",
+          "expanded": "Buying",
+          "description": "Detailed information related to buying goods or real estates."
+        },
+        {
+          "value": "selling",
+          "expanded": "Selling",
+          "description": "Detailed information related to selling goods or real estates."
+        },
+        {
+          "value": "importing",
+          "expanded": "Importing",
+          "description": "Detailed information related to importing goods."
+        },
+        {
+          "value": "exporting",
+          "expanded": "Exporting",
+          "description": "Detailed information related to exporting goods."
+        },
+        {
+          "value": "renting",
+          "expanded": "Renting",
+          "description": "Detailed information related to renting goods or real estate."
+        }
+      ]
+    },
+    {
+      "predicate": "events-travel",
+      "entry": [
+        {
+          "value": "travelling-overseas",
+          "expanded": "Travelling Overseas",
+          "description": "Detailed information related to traveling overseas."
+        },
+        {
+          "value": "extended-stay-in-france",
+          "expanded": "Extended Stay in France",
+          "description": "Detailed information related to an extended stay in France."
+        }
+      ]
+    },
+    {
+      "predicate": "events-environmental",
+      "entry": [
+        {
+          "value": "atmospheric",
+          "expanded": "Atmospheric",
+          "description": "Detailed information related to atmospheric event, such as cyclone, hail, hurricane, lightning, rain, snow, typhoon, wind, pressure."
+        },
+        {
+          "value": "elemental",
+          "expanded": "Elemental",
+          "description": "Detailed information related to elemental event, such as avalanche, fire, flood, landslide, tsunami, etc."
+        },
+        {
+          "value": "geological",
+          "expanded": "Geological",
+          "description": "Detailed information related to geological event, such as earthquake, eruption, formation."
+        },
+        {
+          "value": "seasonal",
+          "expanded": "Seasonal",
+          "description": "Detailed information related to seasonal events."
+        }
+      ]
+    },
+    {
+      "predicate": "events-uncontrolled",
+      "entry": [
+        {
+          "value": "accident",
+          "expanded": "Accident",
+          "description": "Detailed information related to an accident, such as crash, explosion, implosion, spill, etc."
+        },
+        {
+          "value": "attack",
+          "expanded": "Attack",
+          "description": "Detailed information related to attacks, such as arson, bombing, coup, kidnapping, biological attack, terrorism, uprising, and threats which lead to an offence."
+        },
+        {
+          "value": "failure",
+          "expanded": "Failure",
+          "description": "Detailed information related to a failure, such as blackout, nuclear meltdown, etc."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Detailed information related to other uncontrolled events."
+        }
+      ]
+    },
+    {
+      "predicate": "events-interaction",
+      "entry": [
+        {
+          "value": "channel",
+          "expanded": "Channel",
+          "description": "A channel or mode by which an interaction takes place. For example face-to-face, in-person or by mail etc."
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "description": "The format in which information content is supplied to others, provided internally to the organisation or purchased from an external provider."
+        },
+        {
+          "value": "interaction-type",
+          "expanded": "Interaction Type",
+          "description": "Actions represent the information about key interactions that occur. Concepts such as Operators Assisted and Self Service are just relationships from parties in their appropriate roles to an action."
+        }
+      ]
+    },
+    {
+      "predicate": "services-france-society",
+      "entry": [
+        {
+          "value": "border-control",
+          "expanded": "Border Control",
+          "description": "Detailed information related to border control services."
+        },
+        {
+          "value": "culture-and-heritage",
+          "expanded": "Culture and Heritage",
+          "description": "Detailed information related to services to support culture and heritage."
+        },
+        {
+          "value": "defence",
+          "expanded": "Defence",
+          "description": "Detailed information related to services to support the defence and protection of the nation."
+        },
+        {
+          "value": "economic-service",
+          "expanded": "Economic Service",
+          "description": "Detailed information related to services to support the economic management of public funds and other resources."
+        },
+        {
+          "value": "environment",
+          "expanded": "Environment",
+          "description": "Detailed information related to services to support the management of surrounding natural and built environment."
+        },
+        {
+          "value": "financial-transaction-with-government",
+          "expanded": "Financial Transaction with Government",
+          "description": "Detailed information related to provisioning earned and unearned financial or monetary-like benefits to individuals, groups, or corporations."
+        },
+        {
+          "value": "international-relationship",
+          "expanded": "International Relationship",
+          "description": "Detailed information related to services around international relationships."
+        },
+        {
+          "value": "justice",
+          "expanded": "Justice",
+          "description": "Detailed information related to services to provide justice, apply legislation, etc."
+        },
+        {
+          "value": "france-society",
+          "expanded": "France Society",
+          "description": "Detailed information related to services to assist individuals and organisations."
+        },
+        {
+          "value": "natural-resources",
+          "expanded": "Natural Resources",
+          "description": "Detailed information related to services to support the sustainability use and management of energy, minerals, land, and water."
+        },
+        {
+          "value": "open-government",
+          "expanded": "Open Government",
+          "description": "Detailed information related to services around transparency that gives citizens oversight of the government."
+        },
+        {
+          "value": "regulatory-compliance-and-enforcement",
+          "expanded": "Regulatory Compliance and Enforcement",
+          "description": "Detailed information related to services to monitor and oversight of specific individuals, groups, industries, or communities participating in regulated activities."
+        },
+        {
+          "value": "science-and-research",
+          "expanded": "Science and Research",
+          "description": "Detailed information related to services to support and promote research and systematic studies."
+        },
+        {
+          "value": "security",
+          "expanded": "Security",
+          "description": "Detailed information related to services to maintain the safety of New Zealand at all levels of society."
+        },
+        {
+          "value": "statistical-services",
+          "expanded": "Statistical Services",
+          "description": "Detailed information related to services to provide high quality, objective and responsive statistics"
+        }
+      ]
+    },
+    {
+      "predicate": "services-inviduals-&-communities",
+      "entry": [
+        {
+          "value": "adopting-and-fostering",
+          "expanded": "Adopting and Fostering",
+          "description": "Detailed information related to services to support a person who wants to adopt or foster another person, usually a child."
+        },
+        {
+          "value": "births-deaths-and-marriages",
+          "expanded": "Births, Deaths and Marriages",
+          "description": "Detailed information related to these life events of France citizens, and residents."
+        },
+        {
+          "value": "citizenship-and-immigration",
+          "expanded": "Citizenship and Immigration",
+          "description": "Detailed information related to services to assist people wishing to enter France on a permanent or temporary basis"
+        },
+        {
+          "value": "community-support",
+          "expanded": "Community Support",
+          "description": "Detailed information related to services to assist citizens in a particular district or those with common interests and needs."
+        },
+        {
+          "value": "education-and-training",
+          "expanded": "Education and Training",
+          "description": "Detailed information related to services to support the provisioning of skills and knowledge to citizens and the strategies to make education available to the broadest possible cross-section of the community."
+        },
+        {
+          "value": "emergency-and-disaster-preparedness",
+          "expanded": "Emergency and Disaster Preparedness",
+          "description": "Detailed information related to services to deal with and avoid both natural and manmade disasters."
+        },
+        {
+          "value": "information-from-citizens",
+          "expanded": "Information from Citizens",
+          "description": "Detailed information related to services to support avenues through which the government exchange information and explicit knowledge with individuals."
+        },
+        {
+          "value": "health-care",
+          "expanded": "Health Care",
+          "description": "Detailed information related to services to prevent, diagnose and treat diseases or injuries, to provision health care services and medical research."
+        },
+        {
+          "value": "passport-travel-and-tourism",
+          "expanded": "Passport, Travel and Tourism",
+          "description": "Detailed information related to services to support France citizens traveling or living overseas, and local and overseas tourists traveling within France."
+        },
+        {
+          "value": "sport-and-recreation",
+          "expanded": "Sport and Recreation",
+          "description": "Detailed information related to services to support, promote and encourage operating and marinating amenities or facilities for cultural, recreational and sporting activities."
+        },
+        {
+          "value": "work-and-jobs",
+          "expanded": "Work and Jobs",
+          "description": "Detailed information related to services to support employment, develop careers, and gain professional accreditation for individuals."
+        }
+      ]
+    },
+    {
+      "predicate": "services-services-to-business",
+      "entry": [
+        {
+          "value": "business-development",
+          "expanded": "Business Development",
+          "description": "Detailed information related to services to assist business growth and management, and support advocacy programs and advising on regulations surrounding business activities."
+        },
+        {
+          "value": "business-support",
+          "expanded": "Business Support",
+          "description": "Detailed information related to services to support the private sector, including small business and non-profit organisations assisting businesses to comply with reporting requirements of the government."
+        },
+        {
+          "value": "commercial-sport",
+          "expanded": "Commercial Sport",
+          "description": "Detailed information related to services to cover the commercial aspects of sport when run as a business."
+        },
+        {
+          "value": "employment",
+          "expanded": "Employment",
+          "description": "Detailed information related to services to support the employment growth and working environment."
+        },
+        {
+          "value": "primal-industries",
+          "expanded": "Primal Industries",
+          "description": "Detailed information related to services to support rural and marine industries."
+        },
+        {
+          "value": "tourism",
+          "expanded": "Tourism",
+          "description": "Detailed information related to services to encourage recreational visitors to a region, and support the tourism industry."
+        },
+        {
+          "value": "trade",
+          "expanded": "Trade",
+          "description": "Detailed information related to services to support purchase, sale or exchange of commodities and advising on trade regulations."
+        }
+      ]
+    },
+    {
+      "predicate": "services-civic-infrastructure",
+      "entry": [
+        {
+          "value": "civic-management",
+          "expanded": "Civic Management",
+          "description": "Detailed information related to services to provision integrated support for town planning and building projects, coordinate of building projects, provide advice on building regulations and guidelines."
+        },
+        {
+          "value": "communications",
+          "expanded": "Communications",
+          "description": "Detailed information related to services to support the growth of industries that enable and facilitate communication and transmission of information."
+        },
+        {
+          "value": "essential-services",
+          "expanded": "Essential Services",
+          "description": "Detailed information related to services to provision essential community services, evaluate land use, town planning, etc."
+        },
+        {
+          "value": "maritime-services",
+          "expanded": "Maritime Services",
+          "description": "Detailed information related to services to negotiate passage for sea transport and maritime jurisdiction, provide advice on regulations and manage maritime infrastructure."
+        },
+        {
+          "value": "public-housing",
+          "expanded": "Public Housing",
+          "description": "Detailed information related to services to supply low cost accommodations, provide advice on guidelines, evaluate the need for public housing, setting construction targets, support on-going maintenance of public houses."
+        },
+        {
+          "value": "regional-development",
+          "expanded": "Regional Development",
+          "description": "Detailed information related to services to support infrastructure projects, extend facilities beyond urban boundaries and support the installation of equipment to enable communications."
+        },
+        {
+          "value": "transport",
+          "expanded": "Transport",
+          "description": "Detailed information related to services to support road, rail and air transportation systems."
+        }
+      ]
+    },
+    {
+      "predicate": "services-government-administration",
+      "entry": [
+        {
+          "value": "government-administration-management",
+          "expanded": "Government Administration Management",
+          "description": "Detailed information related to services that involve day-to day management and maintenance of the internal administrative operations."
+        },
+        {
+          "value": "government-business-management",
+          "expanded": "Government Business Management",
+          "description": "Detailed information related to services that involve activities associated with the management of how the government conduct its business."
+        },
+        {
+          "value": "government-credit-and-insurance",
+          "expanded": "Government Credit and Insurance",
+          "description": "Detailed information related to services that involve the use of government funds to cover the subsidy cost of a direct loan or loan guarantee or to protect/indemnify members of the public from financial losses."
+        },
+        {
+          "value": "government-financial-management",
+          "expanded": "Government Financial Management",
+          "description": "Detailed information related to services that involve agency's use of financial information to measure, operate and predict the effectiveness of efficiency of an entity's activities in relation to its objectives."
+        },
+        {
+          "value": "government-human-ressource-management",
+          "expanded": "Government Human Ressource Management",
+          "description": "Detailed information related to services that involve all activities associated with the recruitment and management of personnel."
+        },
+        {
+          "value": "government-ict-management",
+          "expanded": "Government ICT Management",
+          "description": "Detailed information related to services that involve the coordination of information and technology resources and solutions required to support or provide a service."
+        },
+        {
+          "value": "government-information-and-knowledge-management",
+          "expanded": "Government Information and Knowledge Management",
+          "description": "Detailed information related to services that involve the ownership or custody of information and intellectual assets held by the government."
+        },
+        {
+          "value": "government-strategy-planning-and-budgeting",
+          "expanded": "Government Strategy, Planning and Budgeting",
+          "description": "Detailed information related to services that involve the government activities of determining strategic direction, identifying and establishing programs, services and processes."
+        },
+        {
+          "value": "machinery-of-government",
+          "expanded": "Machinery of Government",
+          "description": "Detailed information related to services that involve executing legislative processes in Houses of Parliament, assemblies or councils."
+        }
+      ]
+    },
+    {
+      "predicate": "services-services-from-business",
+      "entry": [
+        {
+          "value": "advertising",
+          "expanded": "Advertising",
+          "description": "Detailed information related to advertising services rendered by advertising establishments primarily undertaking communications to the public, declarations or announcements by all means of diffusion and concerning all kinds of goods or services."
+        },
+        {
+          "value": "business-management",
+          "expanded": "Business Management",
+          "description": "Detailed information related to services to support business management, mainly services rendered by persons or organizations principally with the object of help in the working or management of a commercial undertaking, or help in the management of the business affairs or commercial functions of an industrial or commercial enterprise."
+        },
+        {
+          "value": "insurance",
+          "expanded": "Insurance",
+          "description": "Detailed information related to services rendered in relation to insurance contracts of all kinds, such as services dealing with insurance such as services rendered by agents or brokers engaged in insurance, services rendered to insured, and insurance underwriting services."
+        },
+        {
+          "value": "financial-service",
+          "expanded": "Finalcial Service",
+          "description": "Detailed information related to services rendered in financial and monetary affairs."
+        },
+        {
+          "value": "real-estate-affairs",
+          "expanded": "Real Estate Affairs",
+          "description": "Detailed information related to services of realty administrators of buildings, i.e., services of letting or valuation, or financing."
+        },
+        {
+          "value": "building-construction",
+          "expanded": "Building-Construction",
+          "description": "Detailed information related to services rendered by contractors or subcontractors in the construction or making of permanent buildings, as well as services rendered by persons or organizations engaged in the restoration of objects to their original condition or in their preservation without altering their physical or chemical properties."
+        },
+        {
+          "value": "telecommunication",
+          "expanded": "Telecommunication",
+          "description": "Detailed information related to services allowing at least one person to communicate with another by a sensory means."
+        },
+        {
+          "value": "transportation",
+          "expanded": "Transportation",
+          "description": "Detailed information related to services rendered in transporting people or goods from one place to another (by rail, road, water, air or pipeline) and services necessarily connected with such transport."
+        },
+        {
+          "value": "packaging-and-storage-of-goods",
+          "expanded": "Packaging and Storage of Goods",
+          "description": "Detailed information related to services relating to the storing of goods in a warehouse or other building for their preservation or guarding."
+        },
+        {
+          "value": "travel-arrangement",
+          "expanded": "Travel Arrangement",
+          "description": "Detailed information related to services consisting of information about journeys by tourist agencies, information relating to tariffs, timetables and methods of travel."
+        },
+        {
+          "value": "treatment-of-material",
+          "expanded": "Treatment of Material",
+          "description": "Detailed information related to services not included in other categories, rendered by the mechanical or chemical processing or transformation of objects or inorganic or organic substances and any process involving a change in its essential properties (for example, dyeing a garment), and services of material treatment which may be present during the production of any substance or object other than a building, for example, services which involve cutting, shaping, polishing by abrasion or metal coating."
+        },
+        {
+          "value": "providing-training",
+          "expanded": "Providing Training",
+          "description": "Detailed information related to services rendered by persons or institutions in the development of the mental faculties of persons or animals."
+        },
+        {
+          "value": "entertainment",
+          "expanded": "Entertainment",
+          "description": "Detailed information related to services having the basic aim of the entertainment, amusement or recreation of people."
+        },
+        {
+          "value": "scientific-service",
+          "expanded": "Scientific Service",
+          "description": "Detailed information related to services provided by persons, individually or collectively, in relation to the theoretical and practical aspects of complex fields of activities, such services are provided by members of professions such as chemists, physicists, engineers, computer programmers, etc."
+        },
+        {
+          "value": "providing-food-drink-and-accomodation",
+          "expanded": "Providing Food, Drinking and Accomodation",
+          "description": "Detailed information related to services provided by persons or establishments whose aim is to prepare food and drink for consumption and services provided to obtain bed and board in hotels, boarding houses or other establishments providing temporary accommodation."
+        },
+        {
+          "value": "medical-service",
+          "expanded": "Medical Service",
+          "description": "Detailed information related to medical care, hygienic and beauty care given by persons or establishments to human beings and animals, it also includes services relating to the fields of agriculture, horticulture and forestry."
+        },
+        {
+          "value": "legal-service",
+          "expanded": "Legal Service",
+          "description": "Detailed information related to legal services, security services for the protection of property and individuals, personal and social services rendered by others to meet the needs of individuals."
+        }
+      ]
+    }
+  ]
+}

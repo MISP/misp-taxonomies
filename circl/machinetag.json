@@ -1,7 +1,7 @@
 {
   "namespace": "circl",
   "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "incident-classification",
@@ -83,6 +83,10 @@
         {
           "value": "wiper",
           "expanded": "Wiper"
+        },
+        {
+          "value": "sextortion",
+          "expanded": "sextortion"
         }
       ]
     },

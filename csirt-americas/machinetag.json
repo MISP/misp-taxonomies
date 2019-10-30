@@ -1,0 +1,63 @@
+{
+  "namespace": "csirt-americas",
+  "description": "Taxonomía CSIRT Américas.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "defacement",
+      "expanded": "Defacement"
+    },
+    {
+      "value": "malware",
+      "expanded": "Malware"
+    },
+    {
+      "value": "ddos",
+      "expanded": "DDoS"
+    },
+    {
+      "value": "phishing",
+      "expanded": "Phishing"
+    },
+    {
+      "value": "spam",
+      "expanded": "Spam"
+    },
+    {
+      "value": "botnet",
+      "expanded": "Botnet"
+    },
+    {
+      "value": "fastflux",
+      "expanded": "Fastflux"
+    },
+    {
+      "value": "cryptojacking",
+      "expanded": "Cryptojacking"
+    },
+    {
+      "value": "xss",
+      "expanded": "XSS"
+    },
+    {
+      "value": "sqli",
+      "expanded": "SQL Injection"
+    },
+    {
+      "value": "vulnerability",
+      "expanded": "Vulnerability"
+    },
+    {
+      "value": "infoleak",
+      "expanded": "Information leak"
+    },
+    {
+      "value": "compromise",
+      "expanded": "System compromise"
+    },
+    {
+      "value": "other",
+      "expanded": "Other"
+    }
+  ]
+}

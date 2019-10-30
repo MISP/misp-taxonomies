@@ -66,7 +66,8 @@
         },
         {
           "expanded": "Confidence cannot be evaluated",
-          "value": "confidence-cannot-be-evalued"
+          "value": "confidence-cannot-be-evalued",
+          "numerical_value": 50
         }
       ]
     },
@@ -105,7 +106,7 @@
         {
           "expanded": "Generated automatically without human verification",
           "value": "unsupervised",
-          "numerical_value": 100
+          "numerical_value": 0
         },
         {
           "expanded": "Generated automatically but verified by a human",
@@ -115,7 +116,7 @@
         {
           "expanded": "Output of human analysis",
           "value": "manual",
-          "numerical_value": 0
+          "numerical_value": 100
         }
       ]
     },
@@ -125,6 +126,31 @@
         {
           "expanded": "misp2stix",
           "value": "misp2stix"
+        },
+        {
+          "expanded": "misp2yara",
+          "value": "misp2yara"
+        }
+      ]
+    },
+    {
+      "predicate": "misp2yara",
+      "entry": [
+        {
+          "expanded": "generated",
+          "value": "generated"
+        },
+        {
+          "expanded": "as-is",
+          "value": "as-is"
+        },
+        {
+          "expanded": "valid",
+          "value": "valid"
+        },
+        {
+          "expanded": "invalid",
+          "value": "invalid"
         }
       ]
     }
@@ -169,9 +195,13 @@
       "description": "Tool associated with the information taggged",
       "expanded": "Tool",
       "value": "tool"
+    },
+    {
+      "expanded": "misp2yara export tool",
+      "value": "misp2yara"
     }
   ],
-  "version": 7,
+  "version": 9,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"

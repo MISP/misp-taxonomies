@@ -1,0 +1,213 @@
+{
+  "values": [
+    {
+      "entry": [
+        {
+          "description": "Malware detected in a system.",
+          "expanded": "Infection",
+          "value": "infection"
+        },
+        {
+          "description": "Malware attached to a message or email message containing link to malicious URL or IP.",
+          "expanded": "Distribution",
+          "value": "distribution"
+        },
+        {
+          "description": "System used as a command-and-control point by a botnet. Also included in this field are systems serving as a point for gathering information stolen by botnets.",
+          "expanded": "Command & Control (C&C)",
+          "value": "command-and-control"
+        },
+        {
+          "description": "System attempting to gain access to a port normally linked to a specific type of malware / System attempting to gain access to an IP address or URL normally linked to a specific type of malware, e.g. C&C or a distribution page for components linked to a specific botnet.",
+          "expanded": "Malicious connection",
+          "value": "malicious-connection"
+        }
+      ],
+      "predicate": "malware"
+    },
+    {
+      "entry": [
+        {
+          "description": "Single source using specially designed software to affect the normal functioning of a specific service, by exploiting vulnerability / Mass mailing of requests (network packets, emails, etc.) from one single source to a specific service, aimed at affecting its normal functioning.",
+          "expanded": "Denial of Service (DoS) / Distributed Denial of Service (DDoS)",
+          "value": "dos-ddos"
+        },
+        {
+          "description": "Logical and physical activities which – although they are not aimed at causing damage to information or at preventing its transmission among systems – have this effect.",
+          "expanded": "Sabotage",
+          "value": "sabotage"
+        }
+      ],
+      "predicate": "availability"
+    },
+    {
+      "entry": [
+        {
+          "description": "Single system scan searching for open ports or services using these ports for responding / Scanning a network aimed at identifying systems which are active in the same network / Transfer of a specific DNS zone.",
+          "expanded": "Scanning",
+          "value": "scanning"
+        },
+        {
+          "description": "Logical or physical interception of communications.",
+          "expanded": "Sniffing",
+          "value": "sniffing"
+        },
+        {
+          "description": "Mass emailing aimed at collecting data for phishing purposes with regard to the victims / Hosting web sites for phishing purposes.",
+          "expanded": "Phishing",
+          "value": "phishing"
+        }
+      ],
+      "predicate": "information-gathering"
+    },
+    {
+      "entry": [
+        {
+          "description": "Unsuccessful use of a tool exploiting a specific vulnerability of the system / Unsuccessful attempt to manipulate or read the information of a database by using the SQL injection technique / Unsuccessful attempts to perform attacks by using cross-site scripting techniques / Unsuccessful attempt to include files in the system under attack by using file inclusion techniques / Unauthorised access to a system or component by bypassing an access control system in place.",
+          "expanded": "Exploitation of vulnerability attempt",
+          "value": "vulnerability-exploitation-attempt"
+        },
+        {
+          "description": "Unsuccessful login by using sequential credentials for gaining access to the system / Unsuccessful acquisition of access credentials by breaking the protective cryptographic keys / Unsuccessful login by using system access credentials previously loaded into a dictionary.",
+          "expanded": "Login attempt",
+          "value": "login-attempt"
+        }
+      ],
+      "predicate": "intrusion-attempt"
+    },
+    {
+      "entry": [
+        {
+          "description": "Unauthorised use of a tool exploiting a specific vulnerability of the system / Unauthorised manipulation or reading of information contained in a database by using the SQL injection technique / Attack performed with the use of cross-site scripting techniques / Unauthorised inclusion of files into a system under attack with the use of file inclusion techniques / Unauthorised access to a system or component by bypassing an access control system in place.",
+          "expanded": "(Successful) Exploitation of vulnerability",
+          "value": "vulnerability-exploitation"
+        },
+        {
+          "description": "Unauthorised access to a system or component by using stolen access credentials.",
+          "expanded": "Compromising an account",
+          "value": "account-compromise"
+        }
+      ],
+      "predicate": "intrusion"
+    },
+    {
+      "entry": [
+        {
+          "description": "Unauthorised access to a system or component / Unauthorised access to a set of information / Unauthorised access to and sharing of a specific set of information.",
+          "expanded": "Unauthorised access",
+          "value": "unauthorised-access"
+        },
+        {
+          "description": "Unauthorised changes to a specific set of information / Unauthorised deleting of a specific set of information.",
+          "expanded": "Unauthorised modification / deletion",
+          "value": "unauthorised-modification-or-deletion"
+        }
+      ],
+      "predicate": "information-security"
+    },
+    {
+      "entry": [
+        {
+          "description": "Use of institutional resources for purposes other than those intended.",
+          "expanded": "Misuse or unauthorised use of resources",
+          "value": "resources-misuse"
+        },
+        {
+          "description": "Unauthorised use of the name of an institution.",
+          "expanded": "False representation",
+          "value": "false-representation"
+        }
+      ],
+      "predicate": "fraud"
+    },
+    {
+      "entry": [
+        {
+          "description": "Sending an unusually large quantity of email messages / Unsolicited or unwanted email message sent to the recipient.",
+          "expanded": "SPAM",
+          "value": "spam"
+        },
+        {
+          "description": "Unauthorised distribution or sharing of content protected by Copyright and related rights.",
+          "expanded": "Copyright",
+          "value": "copyright"
+        },
+        {
+          "description": "Distribution or sharing of illegal content such as child sexual exploitation material, racism, xenophobia, etc.",
+          "expanded": "Child Sexual Exploitation, racism or incitement to violence",
+          "value": "cse-racism-violence-incitement"
+        }
+      ],
+      "predicate": "abusive-content"
+    },
+    {
+      "entry": [
+        {
+          "description": "Incidents which do not fit the existing classification, acting as an indicator for the classification’s update.",
+          "expanded": "Unclassified incident",
+          "value": "unclassified-incident"
+        },
+        {
+          "description": "Unprocessed incidents which have remained undetermined from the beginning.",
+          "expanded": "Undetermined incident",
+          "value": "undetermined-incident"
+        }
+      ],
+      "predicate": "other"
+    }
+  ],
+  "predicates": [
+    {
+      "description": "Infection of one or various systems with a specific type of malware / Connection performed by/from/to (a) suspicious system(s)",
+      "expanded": "Malicious software/code",
+      "value": "malware"
+    },
+    {
+      "description": "Disruption of the processing and response capacity of systems and networks in order to render them inoperative / Premeditated action to damage a system, interrupt a process, change or delete information, etc.",
+      "expanded": "Availability",
+      "value": "availability"
+    },
+    {
+      "description": "Active and passive gathering of information on systems or networks / Unauthorised monitoring and reading of network traffic / Attempt to gather information on a user or a system through phishing methods.",
+      "expanded": "Information Gathering",
+      "value": "information-gathering"
+    },
+    {
+      "description": "Attempt to intrude by exploiting vulnerability in a system, component or network / Attempt to log in to services or authentication/access control mechanisms.",
+      "expanded": "Intrusion Attempt",
+      "value": "intrusion-attempt"
+    },
+    {
+      "description": "Actual intrusion by exploiting vulnerability in the system, component or network / Actual intrusion in a system, component or network by compromising a user or administrator account.",
+      "expanded": "Intrusion",
+      "value": "intrusion"
+    },
+    {
+      "description": "Unauthorised access to a particular set of information / Unauthorised change or elimination of a particular set of information.",
+      "expanded": "Information Security",
+      "value": "information-security"
+    },
+    {
+      "description": "Loss of property caused with fraudulent or dishonest intent of procuring, without right, an economic benefit for oneself or for another person.",
+      "expanded": "Fraud",
+      "value": "fraud"
+    },
+    {
+      "description": "Sending SPAM messages / Distribution and sharing of copyright protected content / Dissemination of content forbidden by law.",
+      "expanded": "Abusive Content",
+      "value": "abusive-content"
+    },
+    {
+      "description": "Incidents not classified in the existing classification.",
+      "expanded": "Other",
+      "value": "other"
+    }
+  ],
+  "version": 3,
+  "description": "Common Taxonomy for Law enforcement and CSIRTs",
+  "refs": [
+    "https://www.europol.europa.eu/publications-documents/common-taxonomy-for-law-enforcement-and-csirts",
+    "https://www.enisa.europa.eu/publications/tools-and-methodologies-to-support-cooperation-between-csirts-and-law-enforcement"
+  ],
+  "namespace": "common-taxonomy"
+}

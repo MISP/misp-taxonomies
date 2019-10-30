@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
-  "version": 8,
+  "version": 9,
   "predicates": [
     {
       "value": "todo",
@@ -56,8 +56,16 @@
           "expanded": "Create missing MISP galaxy cluster about the information tagged"
         },
         {
+          "value": "create-missing-misp-galaxy-cluster-relationship",
+          "expanded": "create missing MISP galaxy cluster relationships (e.g. relationships between MISP clusters)"
+        },
+        {
           "value": "create-missing-misp-galaxy",
           "expanded": "Create missing MISP galaxy at large about the information tagged (e.g. a new category of malware or activity)"
+        },
+        {
+          "value": "create-missing-relationship",
+          "expanded": "Create missing relationship about the information tagged (e.g. create new relationship between MISP objects)"
         },
         {
           "value": "add-context",
@@ -90,6 +98,14 @@
         {
           "value": "additional-task",
           "expanded": "Used to point an additional task that can not be describe by the rest of the taxonomy and need to be done"
+        },
+        {
+          "value": "create-event",
+          "expanded": "A new MISP event need to be created from the tag reference"
+        },
+        {
+          "value": "preserve-evidence",
+          "expanded": "Preseve evidence mentioned in the information tagged"
         }
       ]
     },
@@ -107,6 +123,10 @@
         {
           "value": "draft",
           "expanded": "Draft means the information tagged can be released as a preliminary version or outline"
+        },
+        {
+          "value": "ongoing",
+          "expanded": "Analyst is currently working on this analysis. To remove when there is no more work to be done by the analyst."
         }
       ]
     }

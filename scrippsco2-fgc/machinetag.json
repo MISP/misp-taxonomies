@@ -1,0 +1,67 @@
+{
+  "predicates": [
+    {
+      "description": "Potentially Suspect Data Accepted",
+      "expanded": "accepted-suspect",
+      "value": "-3"
+    },
+    {
+      "description": "Accepted value from continuous analyzer replacing flask data",
+      "expanded": "accepted-continuous-analyzer",
+      "value": "-2"
+    },
+    {
+      "description": "Acepted Value retained although individual measurements deviated by more than selected tolerance",
+      "expanded": "accepted-deviated-tolerance",
+      "value": "-1"
+    },
+    {
+      "description": "Accepted Value",
+      "expanded": "accepted",
+      "value": "0"
+    },
+    {
+      "description": "Rejected during analysis",
+      "expanded": "rejected-during-analysis",
+      "value": "1"
+    },
+    {
+      "description": "Rejected unacceptably large flask-analyzer differences associated with night sampling (used only at MLO between Dec 1962 and Sep 1968)",
+      "expanded": "rejected-legacy-difference-night-mlo",
+      "value": "2"
+    },
+    {
+      "description": "Rejected flask measurement; used continuous data instead",
+      "expanded": "rejected-continuous-data",
+      "value": "3"
+    },
+    {
+      "description": "Rejected Replicates do not agree to selected tolerance or single flask",
+      "expanded": "rejected-tolerance-single-flask",
+      "value": "4"
+    },
+    {
+      "description": "Rejected Daily average deviates from fit by more than 3 standard deviations",
+      "expanded": "rejected-derivation",
+      "value": "5"
+    },
+    {
+      "description": "Rejected to improve local distribution of data such as too many data of generally poor quality (used only at two stations: KUM Aug 1979 - Jun 1980 and LJO Apr 1979 - Sep 1985)",
+      "expanded": "rejected-legacy-poor-quality-kum-ljo",
+      "value": "6"
+    },
+    {
+      "description": "Rejected Unsteady air at site (La Jolla only)",
+      "expanded": "rejected-unsteady-ljo",
+      "value": "7"
+    },
+    {
+      "description": "Rejected manually (see input/flag_flasks.csv)",
+      "expanded": "rejected-manual",
+      "value": "8"
+    }
+  ],
+  "version": 1,
+  "description": "Flags describing the sample",
+  "namespace": "scrippsco2-fgc"
+}

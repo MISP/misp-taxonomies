@@ -5,27 +5,27 @@
         {
           "expanded": "Less than 1 year",
           "value": "less-than-1-year",
-          "numerical_value": 1
+          "numerical_value": 20
         },
         {
           "expanded": "Between 1 and 5 years",
           "value": "between-1-and-5-years",
-          "numerical_value": 2
+          "numerical_value": 40
         },
         {
           "expanded": "Between 5 and 10 years",
           "value": "between-5-and-10-years",
-          "numerical_value": 3
+          "numerical_value": 60
         },
         {
           "expanded": "Between 10 and 20 years",
           "value": "between-10-and-20-years",
-          "numerical_value": 4
+          "numerical_value": 80
         },
         {
           "expanded": "More than 20 years",
           "value": "more-than-20-years",
-          "numerical_value": 5
+          "numerical_value": 100
         }
       ],
       "predicate": "experience"
@@ -56,27 +56,27 @@
         {
           "expanded": "Less than 1 year",
           "value": "less-than-1-year",
-          "numerical_value": 1
+          "numerical_value": 20
         },
         {
           "expanded": "Between 1 and 5 years",
           "value": "between-1-and-5-years",
-          "numerical_value": 2
+          "numerical_value": 40
         },
         {
           "expanded": "Between 5 and 10 years",
           "value": "between-5-and-10-years",
-          "numerical_value": 3
+          "numerical_value": 60
         },
         {
           "expanded": "Between 10 and 20 years",
           "value": "between-10-and-20-years",
-          "numerical_value": 4
+          "numerical_value": 80
         },
         {
           "expanded": "More than 20 years",
           "value": "more-than-20-years",
-          "numerical_value": 5
+          "numerical_value": 100
         }
       ],
       "predicate": "binary-reversing-experience"
@@ -132,27 +132,27 @@
         {
           "expanded": "Less than 1 year",
           "value": "less-than-1-year",
-          "numerical_value": 1
+          "numerical_value": 20
         },
         {
           "expanded": "Between 1 and 5 years",
           "value": "between-1-and-5-years",
-          "numerical_value": 2
+          "numerical_value": 40
         },
         {
           "expanded": "Between 5 and 10 years",
           "value": "between-5-and-10-years",
-          "numerical_value": 3
+          "numerical_value": 60
         },
         {
           "expanded": "Between 10 and 20 years",
           "value": "between-10-and-20-years",
-          "numerical_value": 4
+          "numerical_value": 80
         },
         {
           "expanded": "More than 20 years",
           "value": "more-than-20-years",
-          "numerical_value": 5
+          "numerical_value": 100
         }
       ],
       "predicate": "web-experience"
@@ -162,27 +162,27 @@
         {
           "expanded": "Less than 1 year",
           "value": "less-than-1-year",
-          "numerical_value": 1
+          "numerical_value": 20
         },
         {
           "expanded": "Between 1 and 5 years",
           "value": "between-1-and-5-years",
-          "numerical_value": 2
+          "numerical_value": 40
         },
         {
           "expanded": "Between 5 and 10 years",
           "value": "between-5-and-10-years",
-          "numerical_value": 3
+          "numerical_value": 60
         },
         {
           "expanded": "Between 10 and 20 years",
           "value": "between-10-and-20-years",
-          "numerical_value": 4
+          "numerical_value": 80
         },
         {
           "expanded": "More than 20 years",
           "value": "more-than-20-years",
-          "numerical_value": 5
+          "numerical_value": 100
         }
       ],
       "predicate": "crypto-experience"
@@ -229,7 +229,7 @@
     "org",
     "user"
   ],
-  "version": 2,
+  "version": 3,
   "description": "A series of assessment predicates describing the analyst capabilities to perform analysis. These assessment can be assigned by the analyst him/herself or by another party evaluating the analyst.",
   "expanded": "Analyst (Self) Assessment",
   "namespace": "analyst-assessment"

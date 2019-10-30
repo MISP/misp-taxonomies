@@ -1,0 +1,777 @@
+{
+  "namespace": "gea-nz-entities",
+  "description": "Information relating to instances of entities or things.",
+  "refs": [
+    "https://www.dragon1.com/downloads/government-enterprise-architecture-for-new-zealand-v3.1.pdf"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "parties-party",
+      "expanded": "Parties Party",
+      "description": "Information dealing with people or organisations."
+    },
+    {
+      "value": "parties-qualification",
+      "expanded": "Parties Qualification",
+      "description": "Information which relates to persons or organisations of a qualifying nature."
+    },
+    {
+      "value": "parties-role",
+      "expanded": "Parties Role",
+      "description": "Role information which relates to persons or organisations."
+    },
+    {
+      "value": "parties-party-relationship",
+      "expanded": "Parties Party Relationship",
+      "description": "Information about the relationship between two or more parties."
+    },
+    {
+      "value": "places-address",
+      "expanded": "Places Address",
+      "description": "Detailed information related to an address."
+    },
+    {
+      "value": "places-location-type",
+      "expanded": "Places Location Type",
+      "description": "Information of a geospatial or geopolitical nature held by an organisation."
+    },
+    {
+      "value": "places-address-type",
+      "expanded": "Places Address Type",
+      "description": "Identifies the types of address."
+    },
+    {
+      "value": "places-purpose-of-location",
+      "expanded": "Places Purpose of Location",
+      "description": "Information about the purpose of a given address or location."
+    },
+    {
+      "value": "items-application-&-ict-services",
+      "expanded": "Items Application & ICT Services",
+      "description": "Information about application and ICT service assets."
+    },
+    {
+      "value": "items-ict-infrastructure",
+      "expanded": "Items ICT Infrastructure",
+      "description": "Information about man made surroundings that provide setting for organisational activity, such as platforms, networks, facilities, and end user equipment."
+    },
+    {
+      "value": "items-natural",
+      "expanded": "Items natural",
+      "description": "Information held by organisation which relate to natural resources."
+    },
+    {
+      "value": "items-financial",
+      "expanded": "Items Financial",
+      "description": "Information related to financial assistance products."
+    },
+    {
+      "value": "items-goods",
+      "expanded": "Items Goods",
+      "description": "Information related to goods."
+    },
+    {
+      "value": "items-regulatory",
+      "expanded": "Items Regulatory",
+      "description": "Information on regulatory products managed by an organisation."
+    },
+    {
+      "value": "items-urban-infrastructure",
+      "expanded": "Items Urban Infrastructure",
+      "description": "Information related to urban infrastructure."
+    },
+    {
+      "value": "items-accommodation",
+      "expanded": "Items Accommodation",
+      "description": "Information related to short–term accommodation provided on a commercial basis, excluding long–term accommodation and accommodation that is provided on a non–commercial basis."
+    },
+    {
+      "value": "items-dwelling-type",
+      "expanded": "Items Dwelling Type",
+      "description": "Information related to occupied dwelling type is used to monitor trends and developments in housing and institutional dwellings, to plan for the future housing and service needs of the community."
+    },
+    {
+      "value": "items-artefact",
+      "expanded": "Items Artefact",
+      "description": "An artefact is an item of value and manifests in a concrete form such as reports, documents, tables, books, instruction manuals, evidence, etc."
+    },
+    {
+      "value": "items-waste",
+      "expanded": "Items Waste",
+      "description": "Information related to the waste used, managed or produced by the organisation."
+    },
+    {
+      "value": "items-item-usage",
+      "expanded": "Items Item Usage",
+      "description": "Identifies the ways in which an organisation may use an item."
+    },
+    {
+      "value": "items-other-item",
+      "expanded": "Items Other Item",
+      "description": "Detailed information of other items not categorised within Items."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "parties-party",
+      "entry": [
+        {
+          "value": "organisation",
+          "expanded": "Organisation",
+          "description": "Information dealing with organisations, particularly where an information asset has no requirement to address either of these party sub-types directly."
+        },
+        {
+          "value": "individual",
+          "expanded": "Individual",
+          "description": "Information dealing with an individual."
+        }
+      ]
+    },
+    {
+      "predicate": "parties-qualification",
+      "entry": [
+        {
+          "value": "competence",
+          "expanded": "Competence",
+          "description": "Detailed information relating to party's competencies, experience based or professional."
+        },
+        {
+          "value": "education",
+          "expanded": "Education",
+          "description": "Detailed information relating to party's education history, such as higher education, schools, vocations."
+        },
+        {
+          "value": "industry",
+          "expanded": "Industry",
+          "description": "Detailed information relating to party's (mostly of an organisation) specific industry."
+        },
+        {
+          "value": "occupation",
+          "expanded": "Occupation",
+          "description": "Detailed information relating to a party's occupation."
+        }
+      ]
+    },
+    {
+      "predicate": "parties-role",
+      "entry": [
+        {
+          "value": "commerce",
+          "expanded": "Commerce",
+          "description": "Detailed information relating to commercial roles."
+        },
+        {
+          "value": "legal",
+          "expanded": "Legal",
+          "description": "Detailed information relating to legal roles, such as commissioner, counsel, defendant, investigator, offender, source, suspect, witness."
+        },
+        {
+          "value": "of-interest",
+          "expanded": "Of Interest",
+          "description": "Detailed information relating to roles a party plays in any subject of interest."
+        },
+        {
+          "value": "social",
+          "expanded": "Social",
+          "description": "Detailed information relating to social roles."
+        }
+      ]
+    },
+    {
+      "predicate": "parties-party-relationship",
+      "entry": [
+        {
+          "value": "membership",
+          "expanded": "Membership",
+          "description": "Detailed information relating to membership to groups, forums, etc."
+        },
+        {
+          "value": "employer",
+          "expanded": "Employer",
+          "description": "Detailed information relating to relationship of an employer towards other parties, such as employee, government, industry."
+        },
+        {
+          "value": "provider",
+          "expanded": "Provider",
+          "description": "Detailed information relating to relationship as a provider of services towards other parties."
+        },
+        {
+          "value": "delegation",
+          "expanded": "Delegation",
+          "description": "Detailed information related to the relationship of delegation, both delegator / delegated."
+        }
+      ]
+    },
+    {
+      "predicate": "places-address",
+      "entry": [
+        {
+          "value": "electronic-address",
+          "expanded": "Electronic Address",
+          "description": "Detailed information around an electronic address."
+        },
+        {
+          "value": "physical-address",
+          "expanded": "Physical Address",
+          "description": "Detailed information related to geographic addresses."
+        }
+      ]
+    },
+    {
+      "predicate": "places-location-type",
+      "entry": [
+        {
+          "value": "geopolitical",
+          "expanded": "Geopolitical",
+          "description": "Detailed information related to geopolitical places, such as council, country, electorate, locality, nation, region, and province."
+        },
+        {
+          "value": "geospatial",
+          "expanded": "Geospatial",
+          "description": "Detailed information related to geospatial places, such as area, lot, parish, statistical area, suburb, town, village, and zone."
+        }
+      ]
+    },
+    {
+      "predicate": "places-address-type",
+      "entry": [
+        {
+          "value": "nz-standard-addresss",
+          "expanded": "NZ Standard Address",
+          "description": "Detailed information relating to standard New Zealand addresses."
+        },
+        {
+          "value": "po-box",
+          "expanded": "PO Box",
+          "description": "Detailed information relating to PO Box, a numbered box in a post office assigned to a person or organization, where letters for them are kept until called for."
+        },
+        {
+          "value": "rural-delivery-address",
+          "expanded": "Rural Delivery Address",
+          "description": "Detailed information relating to rural delivery addresses which have no standard NZ format."
+        },
+        {
+          "value": "ovearseas-address",
+          "expanded": "Overseas Address",
+          "description": "Detailed information relating to addresses in other countries."
+        },
+        {
+          "value": "location-addresss",
+          "expanded": "Location Address",
+          "description": "Detailed information relating to physical location addresses including coordinates."
+        }
+      ]
+    },
+    {
+      "predicate": "places-purpose-of-location",
+      "entry": [
+        {
+          "value": "residency",
+          "expanded": "Residency",
+          "description": "Detailed information relating to home addresses, both current and previous."
+        },
+        {
+          "value": "delivery",
+          "expanded": "Delivery",
+          "description": "Detailed information related to delivery addresses."
+        },
+        {
+          "value": "billing",
+          "expanded": "Billing",
+          "description": "Detailed information related to billing addresses."
+        },
+        {
+          "value": "place-of-birth",
+          "expanded": "Place of Birth",
+          "description": "Detailed information related to the place of birth."
+        },
+        {
+          "value": "consultation",
+          "expanded": "Consultation",
+          "description": "Detailed information related to the location of a consultation."
+        },
+        {
+          "value": "referral",
+          "expanded": "Referral",
+          "description": "Detailed information related to location of a referral."
+        },
+        {
+          "value": "admission",
+          "expanded": "Admission",
+          "description": "Detailed information related to the location of an admission."
+        },
+        {
+          "value": "treatment",
+          "expanded": "Treatment",
+          "description": "Detailed information related to the location of a treatment."
+        },
+        {
+          "value": "work-place",
+          "expanded": "Work Place",
+          "description": "Detailed information related to the workplace location or address."
+        },
+        {
+          "value": "facility-location",
+          "expanded": "Facility Location",
+          "description": "Detailed information related to the location of a facility."
+        },
+        {
+          "value": "storage",
+          "expanded": "Storage",
+          "description": "Detailed information related to the location of storage of goods or other items."
+        },
+        {
+          "value": "place-of-event",
+          "expanded": "Place of Event",
+          "description": "Detailed information related to the location of an event."
+        }
+      ]
+    },
+    {
+      "predicate": "items-application-&-ict-services",
+      "entry": [
+        {
+          "value": "corporate-application",
+          "expanded": "Corporate Application",
+          "description": "Detailed information related to corporate applications, such as applications for enterprise resource planning, financial and asset management, HR management, business continuity, etc.."
+        },
+        {
+          "value": "common-line-of-business-application",
+          "expanded": "Common Line of Business Application",
+          "description": "Detailed information related to common LoB application, such as applications to manage product and services, marketing, customer and partner relationships, customer accounting, etc."
+        },
+        {
+          "value": "end-user-computing",
+          "expanded": "End User Computing",
+          "description": "Detailed information related to end user computing, such as applications to manage end user devices, end user tools, mobile applications, productivity suits, etc."
+        },
+        {
+          "value": "data-and-information-management",
+          "expanded": "Data and Information Management",
+          "description": "Detailed information related to data and information management ICT services, such as services for interoperability, data governance, quality management, data protection etc."
+        },
+        {
+          "value": "identity-and-accesd-management",
+          "expanded": "Identity and Access Management",
+          "description": "Detailed information related to identity and access management ICT services, such as services for identity governance, identity administration, authentication, authorisation, directory, etc."
+        },
+        {
+          "value": "security-service",
+          "expanded": "Security Service",
+          "description": "Detailed information related to security ICT services, such as encryption, network security; public key infrastructure, security controls, etc."
+        },
+        {
+          "value": "ict-components-services-and-tools",
+          "expanded": "ICT Components, Services and Tools",
+          "description": "Detailed information related to software and ICT services for operational management and maintenance of applications, ICT components and services."
+        },
+        {
+          "value": "interface-and-integration",
+          "expanded": "Interface and Integration",
+          "description": "Detailed information related to software and ICT services that support how agencies will interface and integrate both internally and externally."
+        }
+      ]
+    },
+    {
+      "predicate": "items-ict-infrastructure",
+      "entry": [
+        {
+          "value": "platform",
+          "expanded": "Platform",
+          "description": "Detailed information related to platforms, such as hardware, platform operating systems, and virtualisation."
+        },
+        {
+          "value": "network",
+          "expanded": "Network",
+          "description": "Detailed information related to networks, such as network types, traffic types, network infrastructure, transmission types, and network protocol layering."
+        },
+        {
+          "value": "facility",
+          "expanded": "Facility",
+          "description": "Detailed information related to facilities, such as facility types, operational controls, facility physical security, and facility infrastructure."
+        },
+        {
+          "value": "end-user-equipment",
+          "expanded": "End User Equipment",
+          "description": "Detailed information related to end user equipment, such as desktop equipment, mobility equipment, user peripherals, embedded technology devices, and equipment operating systems."
+        }
+      ]
+    },
+    {
+      "predicate": "items-natural",
+      "entry": [
+        {
+          "value": "air",
+          "expanded": "Air",
+          "description": "Detailed information related to air, such as condition, pollution, health."
+        },
+        {
+          "value": "fauna",
+          "expanded": "Fauna",
+          "description": "Detailed information related to fauna."
+        },
+        {
+          "value": "flora",
+          "expanded": "Flora",
+          "description": "Detailed information related to flora."
+        },
+        {
+          "value": "land",
+          "expanded": "Land",
+          "description": "Detailed information related to land or earth, such as percentage of rocks, soil, mud, pollution, usage, etc."
+        },
+        {
+          "value": "minerals",
+          "expanded": "Minerals",
+          "description": "Detailed information related to minerals."
+        },
+        {
+          "value": "water",
+          "expanded": "Water",
+          "description": "Detailed information related to water, such as ground water, river water, sea water."
+        },
+        {
+          "value": "energy",
+          "expanded": "Energy",
+          "description": "Detailed information related to energy."
+        }
+      ]
+    },
+    {
+      "predicate": "items-financial",
+      "entry": [
+        {
+          "value": "allowance",
+          "expanded": "Allowance",
+          "description": "Detailed information related to allowances."
+        },
+        {
+          "value": "award",
+          "expanded": "Award",
+          "description": "Detailed information related to awards."
+        },
+        {
+          "value": "benefit",
+          "expanded": "Benefit",
+          "description": "Detailed information related to benefits."
+        },
+        {
+          "value": "bonus",
+          "expanded": "Bonus",
+          "description": "Detailed information related to bonuses."
+        },
+        {
+          "value": "compensation",
+          "expanded": "Compensation",
+          "description": "Detail information related to compensations."
+        },
+        {
+          "value": "concession",
+          "expanded": "Concession",
+          "description": "Detailed information related to concessions."
+        },
+        {
+          "value": "grant",
+          "expanded": "Grant",
+          "description": "Detailed information related to grants."
+        },
+        {
+          "value": "pension",
+          "expanded": "Pension",
+          "description": "Detailed information related to pensions."
+        },
+        {
+          "value": "subsidy",
+          "expanded": "Subsidy",
+          "description": "Detailed information related to subsidies."
+        },
+        {
+          "value": "wage",
+          "expanded": "Wage",
+          "description": "Detailed information related to wages."
+        },
+        {
+          "value": "bond",
+          "expanded": "Bond",
+          "description": "Detailed information related to bonds."
+        },
+        {
+          "value": "duty",
+          "expanded": "Duty",
+          "description": "Detailed information related to income from duties."
+        },
+        {
+          "value": "excise",
+          "expanded": "Excise",
+          "description": "Detailed information related to income from internal tax or duty on certain commodities, as liquor or tobacco, levied on their manufacture, sale, or consumption within the country."
+        },
+        {
+          "value": "insurance",
+          "expanded": "Insurance",
+          "description": "Detailed information related to insurance."
+        },
+        {
+          "value": "loan",
+          "expanded": "Loan",
+          "description": "Detailed information related to revenue from loans."
+        },
+        {
+          "value": "tax",
+          "expanded": "Tax",
+          "description": "Detailed information related to revenue from taxes."
+        }
+      ]
+    },
+    {
+      "predicate": "items-goods",
+      "entry": [
+        {
+          "value": "chemical",
+          "expanded": "Chemical",
+          "description": "Detailed information relating to chemicals used in industry, science and photography, as well as in agriculture, horticulture and forestry, unprocessed artificial resins, unprocessed plastics, manures, fire extinguishing compositions, tempering and soldering preparations, chemical substances for preserving foodstuffs, tanning substances, adhesives used in industry."
+        },
+        {
+          "value": "paint",
+          "expanded": "Paint",
+          "description": "Detailed information relating to paints, varnishes, lacquers, preservatives against rust and against deterioration of wood, colorants, mordant, raw natural resins, metals in foil and powder form for painters, decorators, printers and artists."
+        },
+        {
+          "value": "bleach",
+          "expanded": "Bleach",
+          "description": "Detailed information relating to bleaching preparations and other substances for laundry use, cleaning, polishing, scouring and abrasive preparations, soaps, perfumery, essential oils, cosmetics, hair lotions, dentifrices."
+        },
+        {
+          "value": "industrial-oil",
+          "expanded": "Industrial Oil",
+          "description": "Detailed information relating to industrial oils and greases, lubricants, dust absorbing, wetting and binding compositions, fuels (including motor spirit) and illuminants, candles and wicks for lighting."
+        },
+        {
+          "value": "pharmaceutical-preparation",
+          "expanded": "Pharmaceutical Preparation",
+          "description": "Detailed information relating to pharmaceutical and veterinary preparations, sanitary preparations for medical purposes, dietetic substances adapted for medical use, food for babies, plasters, materials for dressings, material for stopping teeth, dental wax, disinfectants, preparations for destroying vermin, fungicides, herbicides."
+        },
+        {
+          "value": "common-metal",
+          "expanded": "Common Metal",
+          "description": "Detailed information relating to common metals and their alloys, metal building materials, transportable buildings of metal, materials of metal for railway tracks, non-electric cables and wires of common metal, ironmongery, small items of metal hardware, pipes and tubes of metal, safes, goods of common metal not included in other classes, ores."
+        },
+        {
+          "value": "machine",
+          "expanded": "Machine",
+          "description": "Detailed information relating to machines and machine tools, motors and engines (except for land vehicles), machine coupling and transmission components (except for land vehicles), agricultural implements other than hand-operated, incubators for eggs."
+        },
+        {
+          "value": "hand-tool",
+          "expanded": "Hand Tool",
+          "description": "Detailed information relating to hand tools and implements (hand-operated), cutlery, side arms, razors."
+        },
+        {
+          "value": "scientific-apparatus-and-instrument",
+          "expanded": "Scientific Apparatus and Instrument",
+          "description": "Detailed information relating to scientific, nautical, surveying, photographic, cinematographic, optical, weighing, measuring, signalling, checking (supervision), life-saving and teaching apparatus and instruments, apparatus and instruments for conducting, switching, transforming, accumulating, regulating or controlling electricity, apparatus for recording, transmission or reproduction of sound or images, magnetic data carriers, recording discs, automatic vending machines and mechanisms for coin-operated apparatus, cash registers, calculating machines, data processing equipment and computers, fire-extinguishing apparatus."
+        },
+        {
+          "value": "medical-apparatus-and-instrument",
+          "expanded": "Medical Apparatus and Instrument",
+          "description": "Detailed information relating to surgical, medical, dental and veterinary apparatus and instruments, artificial limbs, eyes and teeth, orthopaedic articles, suture materials."
+        },
+        {
+          "value": "electrical-apparatus",
+          "expanded": "Electrical Apparatus",
+          "description": "Detailed information relating to apparatus for lighting, heating, steam generating, cooking, refrigerating, drying, ventilating, water supply and sanitary purposes."
+        },
+        {
+          "value": "vehicle",
+          "expanded": "Vehicle",
+          "description": "Detailed information relating to vehicles, apparatus for locomotion by land, air or water."
+        },
+        {
+          "value": "firearm",
+          "expanded": "Firearm",
+          "description": "Detailed information relating to firearms, ammunition and projectiles, explosives, fireworks"
+        },
+        {
+          "value": "precious-metal",
+          "expanded": "Precious Metal",
+          "description": "Detailed information relating to precious metals and their alloys and goods in precious metals or coated therewith, not included in other classes, jewellery, precious stones, horologic and chronometrical instruments."
+        },
+        {
+          "value": "musical-instrument",
+          "expanded": "Musical Instrument",
+          "description": "Detailed information relating to musical instruments."
+        },
+        {
+          "value": "paper",
+          "expanded": "Paper",
+          "description": "Detailed information relating to paper, cardboard and goods made from these materials, not included in other classes, printed matter, bookbinding material, photographs, stationery, adhesives for stationery or household purposes, artists' materials, paint brushes, typewriters and office requisites (except furniture), instructional and teaching material (except apparatus), plastic materials for packaging (not included in other classes), printers' type, printing blocks."
+        },
+        {
+          "value": "rubber-good",
+          "expanded": "Rubber Good",
+          "description": "Detailed information relating to rubber, gutta-percha, gum, asbestos, mica and goods made from these materials and not included in other classes, plastics in extruded form for use in manufacture, packing, stopping and insulating materials, flexible pipes, not of metal."
+        },
+        {
+          "value": "leather",
+          "expanded": "Leather",
+          "description": "Detailed information relating to leather and imitations of leather, and goods made of these materials and not included in other classes, animal skins, hides, trunks and traveling bags, umbrellas, parasols and walking sticks, whips, harness and saddlery."
+        },
+        {
+          "value": "building-material",
+          "expanded": "Building Material",
+          "description": "Detailed information relating to Building materials (non-metallic), non-metallic rigid pipes for building, asphalt, pitch and bitumen, non-metallic transportable buildings, monuments, not of metal."
+        },
+        {
+          "value": "furniture",
+          "expanded": "Furniture",
+          "description": "Detailed information relating to furniture, mirrors, picture frames, goods (not included in other categories) of wood, cork, reed, cane, wicker, horn, bone, ivory, whalebone, shell, amber, mother-of-pearl, meerschaum and substitutes for all these materials, or of plastics."
+        },
+        {
+          "value": "household-utensil",
+          "expanded": "Household Utensil",
+          "description": "Detailed information relating to Household or kitchen utensils and containers (not of precious metal or coated therewith), combs and sponges, brushes (except paint brushes), brush-making materials, articles for cleaning purposes, steel wool, unworked or semi-worked glass (except glass used in building), glassware, porcelain and earthenware not included in other classes."
+        },
+        {
+          "value": "rope",
+          "expanded": "Rope",
+          "description": "Detailed information relating to ropes, string, nets, tents, awnings, tarpaulins, sails, sacks and bags (not included in other classes), padding and stuffing materials (except of rubber or plastics), raw fibrous textile materials."
+        },
+        {
+          "value": "yarn",
+          "expanded": "Yarn",
+          "description": "Detailed information relating to yarns and threads, for textile use."
+        },
+        {
+          "value": "textile",
+          "expanded": "Textile",
+          "description": "Detailed information relating to textiles and textile goods not included in other categories, like bed and table covers."
+        },
+        {
+          "value": "clothing",
+          "expanded": "Clothing",
+          "description": "Detailed information relating to clothing, footwear, headgear."
+        },
+        {
+          "value": "lace",
+          "expanded": "Lace",
+          "description": "Detailed information relating to lace and embroidery, ribbons and braid, buttons, hooks and eyes, pins and needles, artificial flowers."
+        },
+        {
+          "value": "carpet",
+          "expanded": "Carpet",
+          "description": "Detailed information relating to carpets, rugs, mats and matting, linoleum and other materials for covering existing floors wall hangings (non-textile)."
+        },
+        {
+          "value": "toy",
+          "expanded": "Toy",
+          "description": "Detailed information relating to games and toys, gymnastic and sporting articles not included in other classes, decorations."
+        },
+        {
+          "value": "food",
+          "expanded": "Food",
+          "description": "Detailed information relating to food, such as meat, fish, poultry and game, meat extracts, preserved, dried and cooked fruits and vegetables, jellies, jams, compotes, eggs, milk and milk products, edible oils and fats."
+        },
+        {
+          "value": "liquid-food",
+          "expanded": "Liquid Food",
+          "description": "Detailed information relating to coffee, tea, cocoa, sugar, rice, tapioca, sago, artificial coffee, flour and preparations made from cereals, bread, pastry and confectionery, ices, honey, treacle, yeast, baking-powder, salt, mustard, vinegar, sauces (condiments), spices, ice."
+        },
+        {
+          "value": "agricultural-product",
+          "expanded": "Agricultural Product",
+          "description": "Detailed information relating to agricultural, horticultural and forestry products and grains not included in other classes, live animals, fresh fruits and vegetables, seeds, natural plants and flowers, foodstuffs for animals, malt."
+        },
+        {
+          "value": "beverages",
+          "expanded": "Beverages",
+          "description": "Detailed information relating to beers, mineral and aerated waters and other non-alcoholic drinks, fruit drinks and fruit juices, syrups and other preparations for making beverages."
+        },
+        {
+          "value": "alcoholic-beverage",
+          "expanded": "Alcoholic Beverage",
+          "description": "Detailed information relating to Alcoholic beverages (except beers)."
+        },
+        {
+          "value": "tobacco",
+          "expanded": "Tobacco",
+          "description": "Detailed information relating to tobacco, smokers' articles, matches."
+        }
+      ]
+    },
+    {
+      "predicate": "items-regulatory",
+      "entry": [
+        {
+          "value": "certificate",
+          "expanded": "Certificate",
+          "description": "Detailed information related to certificates."
+        },
+        {
+          "value": "license",
+          "expanded": "License",
+          "description": "Detailed information related to licenses."
+        },
+        {
+          "value": "permit",
+          "expanded": "Permit",
+          "description": "Detailed information related to permits."
+        },
+        {
+          "value": "registration",
+          "expanded": "Registration",
+          "description": "Detailed information related to registrations."
+        },
+        {
+          "value": "declaration",
+          "expanded": "Declaration",
+          "description": "Detailed information related to declarations."
+        }
+      ]
+    },
+    {
+      "predicate": "items-urban-infrastructure",
+      "entry": [
+        {
+          "value": "water-supply-system",
+          "expanded": "Water Supply System",
+          "description": "Detailed information related to a water supply system. A water supply system or water supply network is a system of engineered hydrologic and hydraulic components which provide water supply."
+        },
+        {
+          "value": "electric-power-system",
+          "expanded": "Electric Power System",
+          "description": "Detailed information related to an electric power supply system. An electric power system is a network of electrical components used to supply, transmit and use electric power."
+        },
+        {
+          "value": "transport-network",
+          "expanded": "Transport Network",
+          "description": "Detailed information related to transport networks."
+        },
+        {
+          "value": "sanitation-system",
+          "expanded": "Sanitation System",
+          "description": "Detailed information related to sanitation systems to provide a hygienic means of promoting health through prevention of human contact with the hazards of wastes as well as the treatment and proper disposal of sewage or wastewater."
+        },
+        {
+          "value": "communication-system",
+          "expanded": "Communication System",
+          "description": "Detailed information related to a communication system."
+        }
+      ]
+    },
+    {
+      "predicate": "items-item-usage",
+      "entry": [
+        {
+          "value": "product",
+          "expanded": "Product",
+          "description": "Information about tangible outputs of processes which an organisation can offer to other parties."
+        },
+        {
+          "value": "resource",
+          "expanded": "Resource",
+          "description": "Resources are not kept or assigned to parties except to accomplish an activity within the organisation, typically during an interaction or the supply of products or delivery of services."
+        }
+      ]
+    }
+  ]
+}
