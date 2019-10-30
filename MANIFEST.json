@@ -524,6 +524,11 @@
       "name": "course-of-action",
       "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
       "version": 2
+    },
+    {
+      "name": "iot",
+      "description":"Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf",
+      "version": 1
     }
   ],
   "path": "machinetag.json",
