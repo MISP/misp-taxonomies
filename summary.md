@@ -1,0 +1,1156 @@
+# Taxonomies
+- Generation date: 2019-11-05
+- license: CC-0
+- description: Manifest file of MISP taxonomies available.
+
+## Taxonomies
+
+### CERT-XLM
+- description: CERT-XLM Security Incident Classification.
+- version: 2
+- Predicates
+    - abusive-content
+    - malicious-code
+    - information-gathering
+    - intrusion-attempts
+    - intrusion
+    - availability
+    - information-content-security
+    - fraud
+    - vulnerable
+    - conformity
+    - other
+    - test
+### DML
+- description: The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program.
+- version: 1
+- Predicates
+    - 8
+    - 7
+    - 6
+    - 5
+    - 4
+    - 3
+    - 2
+    - 1
+    - 0
+### PAP
+- description: The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.
+- version: 2
+- Predicates
+    - RED
+    - AMBER
+    - GREEN
+    - WHITE
+### access-method
+- description: The access method used to remotely access a system.
+- version: 1
+- Predicates
+    - brute-force
+    - password-guessing
+    - remote-desktop-application
+    - stolen-credentials
+    - pass-the-hash
+    - default-credentials
+    - shell
+    - other
+### accessnow
+- description: Access Now classification to classify an issue (such as security, human rights, youth rights).
+- version: 3
+- Predicates
+    - anti-corruption-transparency
+    - anti-war-violence
+    - culture
+    - economic-change
+    - education
+    - election-monitoring
+    - environment
+    - freedom-expression
+    - freedom-tool-development
+    - funding
+    - health
+    - human-rights
+    - internet-telecom
+    - lgbt-gender-sexuality
+    - policy
+    - politics
+    - privacy
+    - rapid-response
+    - refugees
+    - security
+    - womens-right
+    - youth-rights
+### action-taken
+- description: Action taken in the case of a security incident (CSIRT perspective).
+- version: 2
+- Predicates
+    - informed ISP/Hosting Service Provider
+    - informed Registrar
+    - informed Registrant
+    - informed abuse-contact (domain)
+    - informed abuse-contact (IP)
+    - informed legal department
+### admiralty-scale
+- description: The Admiralty Scale or Ranking (also called the NATO System) is used to rank the reliability of a source and the credibility of an information. Reference based on FM 2-22.3 (FM 34-52) HUMAN INTELLIGENCE COLLECTOR OPERATIONS and NATO documents.
+- version: 5
+- Predicates
+    - source-reliability
+    - information-credibility
+### adversary
+- description: An overview and description of the adversary infrastructure
+- version: 4
+- Predicates
+    - infrastructure-status
+    - infrastructure-action
+    - infrastructure-state
+    - infrastructure-type
+### ais-marking
+- description: The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)
+- version: 2
+- Predicates
+    - TLPMarking
+    - AISConsent
+    - CISA_Proprietary
+    - AISMarking
+### analyst-assessment
+- description: A series of assessment predicates describing the analyst capabilities to perform analysis. These assessment can be assigned by the analyst him/herself or by another party evaluating the analyst.
+- version: 4
+- Predicates
+    - experience
+    - binary-reversing-arch
+    - binary-reversing-experience
+    - os
+    - web
+    - web-experience
+    - crypto-experience
+### approved-category-of-action
+- description: A pre-approved category of action for indicators being shared with partners (MIMIC).
+- version: 1
+- Predicates
+    - cat1
+    - cat2
+    - cat3
+    - cat4
+    - cat5
+    - cat6
+### binary-class
+- description: Custom taxonomy for types of binary file.
+- version: 2
+- Predicates
+    - type
+### cccs
+- description: Internal taxonomy for CCCS.
+- version: 2
+- Predicates
+    - event
+    - disclosure-type
+    - domain-category
+    - email-type
+    - exploitation-technique
+    - ip-category
+    - maliciousness
+    - malware-category
+    - misusage-type
+    - mitigation-type
+    - origin
+    - originating-organization
+    - scan-type
+    - severity
+    - threat-vector
+### circl
+- description: CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection
+- version: 3
+- Predicates
+    - incident-classification
+    - topic
+### coa
+- description: Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.
+- version: 2
+- Predicates
+    - discover
+    - detect
+    - deny
+    - disrupt
+    - degrade
+    - deceive
+    - destroy
+### collaborative-intelligence
+- description: Collaborative intelligence support language is a common language to support analysts to perform their analysis to get crowdsourced support when using threat intelligence sharing platform like MISP. The objective of this language is to advance collaborative analysis and to share earlier than later.
+- version: 3
+- Predicates
+    - request
+### common-taxonomy
+- description: Common Taxonomy for Law enforcement and CSIRTs
+- version: 3
+- Predicates
+    - malware
+    - availability
+    - information-gathering
+    - intrusion-attempt
+    - intrusion
+    - information-security
+    - fraud
+    - abusive-content
+    - other
+### copine-scale
+- description: The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse. The scale was developed by staff at the COPINE (Combating Paedophile Information Networks in Europe) project. The COPINE Project was founded in 1997, and is based in the Department of Applied Psychology, University College Cork, Ireland.
+- version: 3
+- Predicates
+    - level-10
+    - level-9
+    - level-8
+    - level-7
+    - level-6
+    - level-5
+    - level-4
+    - level-3
+    - level-2
+    - level-1
+### course-of-action
+- description: A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.
+- version: 1
+- Predicates
+    - passive
+    - active
+### cryptocurrency-threat
+- description: Threats targetting cryptocurrency, based on CipherTrace report.
+- version: 1
+- Predicates
+    - SIM Swapping
+    - Crypto Dusting
+    - Sanction Evasion
+    - Next-Generation Crypto Mixers
+    - Shadow Money Service Businesses
+    - Datacenter-Scale Crypto Jacking: 
+    - Lightning Network Transactions
+    - Decentralized Stable Coins
+    - Email Extortion and Bomb Threats
+    - Crypto Robbing Ransomware
+### csirt-americas
+- description: Taxonomía CSIRT Américas.
+- version: 1
+- Predicates
+    - defacement
+    - malware
+    - ddos
+    - phishing
+    - spam
+    - botnet
+    - fastflux
+    - cryptojacking
+    - xss
+    - sqli
+    - vulnerability
+    - infoleak
+    - compromise
+    - other
+### csirt_case_classification
+- description: It is critical that the CSIRT provide consistent and timely response to the customer, and that sensitive information is handled appropriately.  This document provides the guidelines needed for CSIRT Incident Managers (IM) to classify the case category, criticality level, and sensitivity level for each CSIRT case.  This information will be entered into the Incident Tracking System (ITS) when a case is created.  Consistent case classification is required for the CSIRT to provide accurate reporting to management on a regular basis.  In addition, the classifications will provide CSIRT IM’s with proper case handling procedures and will form the basis of SLA’s between the CSIRT and other Company departments.
+- version: 1
+- Predicates
+    - incident-category
+    - criticality-classification
+    - sensitivity-classification
+### cssa
+- description: The CSSA agreed sharing taxonomy.
+- version: 7
+- Predicates
+    - sharing-class
+    - origin
+    - report
+    - analyse
+### cyber-threat-framework
+- description: Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries. https://www.dni.gov/index.php/cyber-threat-framework
+- version: 2
+- Predicates
+    - Preparation
+    - Engagement
+    - Presence
+    - Effect/Consequence
+### dark-web
+- description: Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project
+- version: 3
+- Predicates
+    - topic
+    - motivation
+    - structure
+### data-classification
+- description: Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book.
+- version: 1
+- Predicates
+    - regulated-data
+    - commercially-confidential-information
+    - financially-sensitive-information
+    - valuation-sensitive-information
+    - sensitive-information
+### dcso-sharing
+- description: Taxonomy defined in the DCSO MISP Event Guide. It provides guidance for the creation and consumption of MISP events in a way that minimises the extra effort for the sending party, while enhancing the usefulness for receiving parties.
+- version: 1
+- Predicates
+    - event-type
+### ddos
+- description: Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too.
+- version: 2
+- Predicates
+    - type
+### de-vs
+- description: German (DE) Government classification markings (VS).
+- version: 1
+- Predicates
+    - Einstufung
+    - Schutzwort
+### dhs-ciip-sectors
+- description: DHS critical sectors as in https://www.dhs.gov/critical-infrastructure-sectors
+- version: 2
+- Predicates
+    - DHS-critical-sectors
+    - sector
+### diamond-model
+- description: The Diamond Model for Intrusion Analysis establishes the basic atomic element of any intrusion activity, the event, composed of four core features: adversary, infrastructure, capability, and victim.
+- version: 1
+- Predicates
+    - Adversary
+    - Capability
+    - Infrastructure
+    - Victim
+### dni-ism
+- description: A subset of Information Security Marking Metadata ISM as required by Executive Order (EO) 13526. As described by DNI.gov as Data Encoding Specifications for Information Security Marking Metadata in Controlled Vocabulary Enumeration Values for ISM
+- version: 3
+- Predicates
+    - classification:all
+    - classification:us
+    - scicontrols
+    - complies:with
+    - atomicenergymarkings
+    - notice
+    - nonic
+    - nonuscontrols
+    - dissem
+### domain-abuse
+- description: Domain Name Abuse - taxonomy to tag domain names used for cybercrime. Use europol-incident to tag abuse-activity
+- version: 1
+- Predicates
+    - domain-status
+    - domain-access-method
+### drugs
+- description: A taxonomy based on the superclass and class of drugs. Based on https://www.drugbank.ca/releases/latest
+- version: 2
+- Predicates
+    - alkaloids-and-derivatives
+    - benzenoids
+    - homogeneous-metal-compounds
+    - homogeneous-non-metal-compounds
+    - hydrocarbons
+    - hydrocarbon-derivatives
+    - lignans,-neolignans-and-related-compounds
+    - lipids-and-lipid-like-molecules
+    - mixed-metal/non-metal-compounds
+    - nucleosides,-nucleotides,-and-analogues
+    - organic-1,3-dipolar-compounds
+    - organic-acids-and-derivatives
+    - organic-acids
+    - organic-nitrogen-compounds
+    - organic-oxygen-compounds
+    - organic-polymers
+    - organic-salts
+    - organohalogen-compounds
+    - organoheterocyclic-compounds
+    - organometallic-compounds
+    - organophosphorus-compounds
+    - organosulfur-compounds
+    - phenylpropanoids-and-polyketides
+### economical-impact
+- description: Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information (e.g. data exfiltration loss, a positive gain for an adversary).
+- version: 4
+- Predicates
+    - loss
+    - gain
+### ecsirt
+- description: Incident Classification by the ecsirt.net version mkVI of 31 March 2015 enriched with IntelMQ taxonomy-type mapping.
+- version: 2
+- Predicates
+    - abusive-content
+    - malicious-code
+    - information-gathering
+    - intrusion-attempts
+    - intrusions
+    - availability
+    - information-content-security
+    - fraud
+    - vulnerable
+    - other
+    - test
+### enisa
+- description: The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015.
+- version: 20170725
+- Predicates
+    - physical-attack
+    - unintentional-damage
+    - disaster
+    - failures-malfunction
+    - outages
+    - eavesdropping-interception-hijacking
+    - legal
+    - nefarious-activity-abuse
+### estimative-language
+- description: Estimative language to describe quality and credibility of underlying sources, data, and methodologies based Intelligence Community Directive 203 (ICD 203) and JP 2-0, Joint Intelligence
+- version: 5
+- Predicates
+    - likelihood-probability
+    - confidence-in-analytic-judgment
+### eu-marketop-and-publicadmin
+- description: Market operators and public administrations that must comply to some notifications requirements under EU NIS directive
+- version: 1
+- Predicates
+    - critical-infra-operators
+    - info-services
+    - public-admin
+### eu-nis-sector-and-subsectors
+- description: Sectors and sub sectors as identified by the NIS Directive
+- version: 1
+- Predicates
+    - eu-nis-oes
+    - eu-nis-oes-energy
+    - eu-nis-oes-transport
+    - eu-nis-oes-banking
+    - eu-nis-oes-financial
+    - eu-nis-oes-health
+    - eu-nis-oes-water
+    - eu-nis-oes-diginfra
+    - eu-nis-dsp
+### euci
+- description: EU classified information (EUCI) means any information or material designated by a EU security classification, the unauthorised disclosure of which could cause varying degrees of prejudice to the interests of the European Union or of one or more of the Member States.
+- version: 3
+- Predicates
+    - TS-UE/EU-TS
+    - S-UE/EU-S
+    - C-UE/EU-C
+    - R-UE/EU-R
+### europol-event
+- description: This taxonomy was designed to describe the type of events
+- version: 1
+- Predicates
+    - infected-by-known-malware
+    - dissemination-malware-email
+    - hosting-malware-webpage
+    - c&c-server-hosting
+    - worm-spreading
+    - connection-malware-port
+    - connection-malware-system
+    - flood
+    - exploit-tool-exhausting-resources
+    - packet-flood
+    - exploit-framework-exhausting-resources
+    - vandalism
+    - disruption-data-transmission
+    - system-probe
+    - network-scanning
+    - dns-zone-transfer
+    - wiretapping
+    - dissemination-phishing-emails
+    - hosting-phishing-sites
+    - aggregation-information-phishing-schemes
+    - exploit-attempt
+    - sql-injection-attempt
+    - xss-attempt
+    - file-inclusion-attempt
+    - brute-force-attempt
+    - password-cracking-attempt
+    - dictionary-attack-attempt
+    - exploit
+    - sql-injection
+    - xss
+    - file-inclusion
+    - control-system-bypass
+    - theft-access-credentials
+    - unauthorized-access-system
+    - unauthorized-access-information
+    - data-exfiltration
+    - modification-information
+    - deletion-information
+    - illegitimate-use-resources
+    - illegitimate-use-name
+    - email-flooding
+    - spam
+    - copyrighted-content
+    - content-forbidden-by-law
+    - unspecified
+    - undetermined
+### europol-incident
+- description: This taxonomy was designed to describe the type of incidents by class.
+- version: 1
+- Predicates
+    - malware
+    - availability
+    - information-gathering
+    - intrusion-attempt
+    - intrusion
+    - information-security
+    - fraud
+    - abusive-content
+    - other
+### event-assessment
+- description: A series of assessment predicates describing the event assessment performed to make judgement(s) under a certain level of uncertainty.
+- version: 2
+- Predicates
+    - alternative-points-of-view-process
+### event-classification
+- description: Classification of events as seen in tools such as RT/IR, MISP and other
+- version: 1
+- Predicates
+    - event-class
+### exercise
+- description: Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.
+- version: 5
+- Predicates
+    - cyber-europe
+    - cyber-storm
+    - locked-shields
+    - lukex
+    - cyber-coalition
+    - pace
+    - cyber-sopex
+### false-positive
+- description: This taxonomy aims to ballpark the expected amount of false positives.
+- version: 4
+- Predicates
+    - risk
+    - confirmed
+### file-type
+- description: List of known file types.
+- version: 1
+- Predicates
+    - type
+### flesch-reading-ease
+- description: Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid).
+- version: 2
+- Predicates
+    - score
+### fpf
+- description: The Future of Privacy Forum (FPF) [visual guide to practical de-identification](https://fpf.org/2016/04/25/a-visual-guide-to-practical-data-de-identification/) taxonomy is used to evaluate the degree of identifiability of personal data and the types of pseudonymous data, de-identified data and anonymous data. The work of FPF is licensed under a creative commons attribution 4.0 international license.
+- version: 0
+- Predicates
+    - degrees-of-identifiability
+    - pseudonymous-data
+    - de-identified-data
+    - anonymous-data
+### fr-classif
+- description: French gov information classification system
+- version: 3
+- Predicates
+    - classifiees-defense
+    - non-classifiees-defense
+    - non-classifiees
+### gdpr
+- description: Taxonomy related to the REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+- version: 0
+- Predicates
+    - special-categories
+### gea-nz-activities
+- description: Information needed to track or monitor moments, periods or events that occur over time. This type of information is focused on occurrences that must be tracked for business reasons or represent a specific point in the evolution of ‘The Business’.
+- version: 1
+- Predicates
+    - cases-compliance
+    - cases-proceeding
+    - cases-episode
+    - cases-commission-of-inquiry
+    - cases-claim
+    - cases-request
+    - cases-order
+    - events-personal
+    - events-crisis
+    - events-social
+    - events-business
+    - events-trade
+    - events-travel
+    - events-environmental
+    - events-uncontrolled
+    - events-interaction
+    - services-france-society
+    - services-inviduals-&-communities
+    - services-services-to-business
+    - services-civic-infrastructure
+    - services-government-administration
+    - services-services-from-business
+### gea-nz-entities
+- description: Information relating to instances of entities or things.
+- version: 1
+- Predicates
+    - parties-party
+    - parties-qualification
+    - parties-role
+    - parties-party-relationship
+    - places-address
+    - places-location-type
+    - places-address-type
+    - places-purpose-of-location
+    - items-application-&-ict-services
+    - items-ict-infrastructure
+    - items-natural
+    - items-financial
+    - items-goods
+    - items-regulatory
+    - items-urban-infrastructure
+    - items-accommodation
+    - items-dwelling-type
+    - items-artefact
+    - items-waste
+    - items-item-usage
+    - items-other-item
+### gea-nz-motivators
+- description: Information relating to authority or governance.
+- version: 1
+- Predicates
+    - plans-budget
+    - plans-strategy
+    - plans-effort
+    - plans-measure
+    - plans-risk
+    - plans-specification
+    - controls-operational
+    - controls-finance
+    - controls-industry
+    - controls-technological
+    - controls-law
+    - controls-personal
+    - controls-security
+    - controls-risk-governance
+    - contracts-arrangement
+    - contracts-rights
+    - contracts-obligation
+    - contracts-jurisdiction
+### gsma-attack-category
+- description: Taxonomy used by GSMA for their information sharing program with telco describing the attack categories
+- version: 1
+- Predicates
+    - denial-of-service
+    - exploit-attack
+    - information-gathering
+    - insider-attack
+    - interception-attack
+    - manipulation-attack
+    - physical-attack
+    - spoofing
+### gsma-fraud
+- description: Taxonomy used by GSMA for their information sharing program with telco describing the various aspects of fraud
+- version: 1
+- Predicates
+    - technical
+    - subscription
+    - distribution
+    - business
+    - prepaid
+### gsma-network-technology
+- description: Taxonomy used by GSMA for their information sharing program with telco describing the types of infrastructure. WiP
+- version: 3
+- Predicates
+    - user
+    - applications
+    - end-devices-and-components
+    - services
+    - radio-access-network
+    - support-and-provisioning-systems
+    - interconnects
+    - core
+    - sim-secure-element-modules
+### honeypot-basic
+- description: Updated (CIRCL, Seamus Dowling and EURECOM) from Christian Seifert, Ian Welch, Peter Komisarczuk, ‘Taxonomy of Honeypots’, Technical Report CS-TR-06/12, VICTORIA UNIVERSITY OF WELLINGTON, School of Mathematical and Computing Sciences, June 2006, http://www.mcs.vuw.ac.nz/comp/Publications/archive/CS-TR-06/CS-TR-06-12.pdf
+- version: 4
+- Predicates
+    - interaction-level
+    - data-capture
+    - containment
+    - distribution-appearance
+    - communication-interface
+    - role
+### ics
+- description: FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project
+- version: 1
+- Predicates
+    - ot-security-issues
+    - ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation
+    - ot-network-data-transmission-protocols-automatic-meter-reading
+    - ot-network-data-transmission-protocols-industrial-control-system
+    - ot-network-data-transmission-protocols-building-automation
+    - ot-network-data-transmission-protocols-power-system-automation
+    - ot-network-data-transmission-protocols-process-automation
+    - ot-communication-interface
+    - ot-operating-systems
+    - ot-components-category
+### iep
+- description: Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) framework
+- version: 2
+- Predicates
+    - commercial-use
+    - external-reference
+    - encrypt-in-transit
+    - encrypt-at-rest
+    - permitted-actions
+    - affected-party-notifications
+    - traffic-light-protocol
+    - provider-attribution
+    - obfuscate-affected-parties
+    - unmodified-resale
+    - start-date
+    - end-date
+    - reference
+    - name
+    - version
+    - id
+### ifx-vetting
+- description: The IFX taxonomy is used to categorise information (MISP events and attributes) to aid in the intelligence vetting process
+- version: 3
+- Predicates
+    - vetted
+    - score
+### incident-disposition
+- description: How an incident is classified in its process to be resolved. The taxonomy is inspired from NASA Incident Response and Management Handbook. https://www.nasa.gov/pdf/589502main_ITS-HBK-2810.09-02%20%5bNASA%20Information%20Security%20Incident%20Management%5d.pdf#page=9
+- version: 2
+- Predicates
+    - incident
+    - not-an-incident
+    - duplicate
+### infoleak
+- description: A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.
+- version: 7
+- Predicates
+    - automatic-detection
+    - analyst-detection
+    - confirmed
+    - source
+    - submission
+    - output-format
+    - certainty
+### information-security-data-source
+- description: Taxonomy to classify the information security data sources.
+- version: 1
+- Predicates
+    - type-of-information
+    - originality
+    - timeliness-sharing-behavior
+    - integrability-format
+    - integrability-interface
+    - trustworthiness-creditabilily
+    - trustworthiness-traceability
+    - trustworthiness-feedback-mechanism
+    - type-of-source
+### information-security-indicators
+- description: A full set of operational indicators for organizations to use to benchmark their security posture.
+- version: 1
+- Predicates
+    - IEX
+    - IMF
+    - IDB
+    - IWH
+    - VBH
+    - VSW
+    - VCF
+    - VTC
+    - VOR
+    - IMP
+### interception-method
+- description: The interception method used to intercept traffic.
+- version: 1
+- Predicates
+    - man-in-the-middle
+    - man-on-the-side
+    - passive
+    - search-result-poisoning
+    - dns
+    - host-file
+    - other
+### iot
+- description: Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf
+- version: 1
+- Predicates
+    - TCom
+    - SSL
+    - DSL
+### kill-chain
+- description: The Cyber Kill Chain, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack.
+- version: 2
+- Predicates
+    - Reconnaissance
+    - Weaponization
+    - Delivery
+    - Exploitation
+    - Installation
+    - Command and Control
+    - Actions on Objectives
+### maec-delivery-vectors
+- description: Vectors used to deliver malware based on MAEC 5.0
+- version: 1
+- Predicates
+    - maec-delivery-vector
+### maec-malware-behavior
+- description: Malware behaviours based on MAEC 5.0
+- version: 1
+- Predicates
+    - maec-malware-behavior
+### maec-malware-capabilities
+- description: Malware Capabilities based on MAEC 5.0
+- version: 2
+- Predicates
+    - maec-malware-capability
+### maec-malware-obfuscation-methods
+- description: Obfuscation methods used by malware based on MAEC 5.0
+- version: 1
+- Predicates
+    - maec-obfuscation-methods
+### malware_classification
+- description: Classification based on different categories. Based on https://www.sans.org/reading-room/whitepapers/incident/malware-101-viruses-32848
+- version: 2
+- Predicates
+    - malware-category
+    - obfuscation-technique
+    - payload-classification
+    - memory-classification
+### misp
+- description: MISP taxonomy to infer with MISP behavior or operation.
+- version: 10
+- Predicates
+    - ui
+    - api
+    - expansion
+    - contributor
+    - confidence-level
+    - threat-level
+    - automation-level
+    - should-not-sync
+    - tool
+    - misp2yara
+### monarc-threat
+- description: MONARC Threats Taxonomy
+- version: 1
+- Predicates
+    - compromise-of-functions
+    - unauthorised-actions
+    - compromise-of-information
+    - loss-of-essential-services
+    - technical-failures
+    - physical-damage
+### ms-caro-malware
+- description: Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology. Based on https://www.microsoft.com/en-us/security/portal/mmpc/shared/malwarenaming.aspx, https://www.microsoft.com/security/portal/mmpc/shared/glossary.aspx, https://www.microsoft.com/security/portal/mmpc/shared/objectivecriteria.aspx, and http://www.caro.org/definitions/index.html. Malware families are extracted from Microsoft SIRs since 2008 based on https://www.microsoft.com/security/sir/archive/default.aspx and https://www.microsoft.com/en-us/security/portal/threat/threats.aspx. Note that SIRs do NOT include all Microsoft malware families.
+- version: 1
+- Predicates
+    - malware-type
+    - malware-platform
+### ms-caro-malware-full
+- description: Malware Type and Platform classification based on Microsoft's implementation of the Computer Antivirus Research Organization (CARO) Naming Scheme and Malware Terminology. Based on https://www.microsoft.com/en-us/security/portal/mmpc/shared/malwarenaming.aspx, https://www.microsoft.com/security/portal/mmpc/shared/glossary.aspx, https://www.microsoft.com/security/portal/mmpc/shared/objectivecriteria.aspx, and http://www.caro.org/definitions/index.html. Malware families are extracted from Microsoft SIRs since 2008 based on https://www.microsoft.com/security/sir/archive/default.aspx and https://www.microsoft.com/en-us/security/portal/threat/threats.aspx. Note that SIRs do NOT include all Microsoft malware families.
+- version: 2
+- Predicates
+    - malware-type
+    - malware-platform
+    - malware-family
+### nato
+- description: NATO classification markings.
+- version: 2
+- Predicates
+    - classification
+### nis
+- description: The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 September 2017, also known as the blueprint. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.
+- version: 2
+- Predicates
+    - impact-sectors-impacted
+    - impact-severity
+    - impact-outlook
+    - nature-root-cause
+    - nature-severity
+    - test
+### open_threat
+- description: Open Threat Taxonomy v1.1 base on James Tarala of SANS http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf, https://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Using-Open-Tools-to-Convert-Threat-Intelligence-into-Practical-Defenses-James-Tarala-SANS-Institute.pdf, https://www.youtube.com/watch?v=5rdGOOFC_yE, and https://www.rsaconference.com/writable/presentations/file_upload/str-r04_using-an-open-source-threat-model-for-prioritized-defense-final.pdf
+- version: 1
+- Predicates
+    - threat-category
+    - threat-name
+### osint
+- description: Open Source Intelligence - Classification (MISP taxonomies)
+- version: 11
+- Predicates
+    - source-type
+    - lifetime
+    - certainty
+### passivetotal
+- description: Tags from RiskIQ's PassiveTotal service
+- version: 2
+- Predicates
+    - sinkholed
+    - ever-compromised
+    - dynamic-dns
+    - class
+### pentest
+- description: Penetration test (pentest) classification.
+- version: 3
+- Predicates
+    - approach
+    - scan
+    - exploit
+    - post_exploitation
+    - web
+    - network
+    - social_engineering
+    - vulnerability
+### phishing
+- description: Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.
+- version: 4
+- Predicates
+    - techniques
+    - distribution
+    - report-type
+    - report-origin
+    - action
+    - state
+    - psychological-acceptability
+    - principle-of-persuasion
+### priority-level
+- description: After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System.
+- version: 2
+- Predicates
+    - emergency
+    - severe
+    - high
+    - medium
+    - low
+    - baseline-minor
+    - baseline-negligible
+### ransomware
+- description: Ransomware is used to define ransomware types and the elements that compose them.
+- version: 4
+- Predicates
+    - type
+    - element
+    - complexity-level
+    - purpose
+### retention
+- description: Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.
+- version: 3
+- Predicates
+    - expired
+    - 1d
+    - 2d
+    - 7d
+    - 2w
+    - 1m
+    - 2m
+    - 3m
+    - 6m
+    - 1y
+    - 10y
+### rsit
+- description: Reference Security Incident Classification Taxonomy
+- version: 3
+- Predicates
+    - abusive-content
+    - malicious-code
+    - information-gathering
+    - intrusion-attempts
+    - intrusions
+    - availability
+    - information-content-security
+    - fraud
+    - vulnerable
+    - other
+    - test
+### rt_event_status
+- description: Status of events used in Request Tracker.
+- version: 2
+- Predicates
+    - event-status
+### runtime-packer
+- description: Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.
+- version: 1
+- Predicates
+    - portable-executable
+    - elf
+    - cli-assembly
+### scrippsco2-fgc
+- description: Flags describing the sample
+- version: 1
+- Predicates
+    - -3
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+### scrippsco2-fgi
+- description: Flags describing the sample for isotopic data (C14, O18)
+- version: 1
+- Predicates
+    - -3
+    - 0
+    - 3
+    - 5
+    - 6
+    - 8
+    - 9
+### scrippsco2-sampling-stations
+- description: Sampling stations of the Scripps CO2 Program
+- version: 1
+- Predicates
+    - ALT
+    - PTB
+    - STP
+    - LJO
+    - BCS
+    - MLO
+    - KUM
+    - CHR
+    - SAM
+    - KER
+    - NZD
+    - PSA
+    - SPO
+### smart-airports-threats
+- description: Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports
+- version: 1
+- Predicates
+    - human-errors
+    - system-failures
+    - natural-and-social-phenomena
+    - third-party-failures
+    - malicious-actions
+### stealth_malware
+- description: Classification based on malware stealth techniques. Described in https://vxheaven.org/lib/pdf/Introducing%20Stealth%20Malware%20Taxonomy.pdf
+- version: 1
+- Predicates
+    - type
+### stix-ttp
+- description: TTPs are representations of the behavior or modus operandi of cyber adversaries.
+- version: 1
+- Predicates
+    - victim-targeting
+### targeted-threat-index
+- description: The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman.
+- version: 3
+- Predicates
+    - targeting-sophistication-base-value
+    - technical-sophistication-multiplier
+### threats-to-dns
+- description: An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1–1. doi:10.1109/comst.2018.2849614
+- version: 1
+- Predicates
+    - dns-protocol-attacks
+    - dns-server-attacks
+    - dns-abuse-or-misuse
+### tlp
+- description: The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.
+- version: 5
+- Predicates
+    - red
+    - amber
+    - green
+    - white
+    - ex:chr
+### tor
+- description: Taxonomy to describe Tor network infrastructure
+- version: 1
+- Predicates
+    - tor-relay-type
+### type
+- description: Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence.
+- version: 1
+- Predicates
+    - OSINT
+    - SIGINT
+    - TECHINT
+    - CYBINT
+    - DNINT
+    - HUMINT
+    - MEDINT
+    - GEOINT
+    - IMINT
+    - MASINT
+    - FININT
+### use-case-applicability
+- description: The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems.
+- version: 1
+- Predicates
+    - announced-administrative/user-action
+    - unannounced-administrative/user-action
+    - log-management-rule-configuration-error
+    - detection-device/rule-configuration-error
+    - bad-IOC/rule-pattern-value
+    - test-alert
+    - confirmed-attack-with-IR-actions
+    - confirmed-attack-attempt-without-IR-actions
+### veris
+- description: Vocabulary for Event Recording and Incident Sharing (VERIS)
+- version: 2
+- Predicates
+    - confidence
+    - cost_corrective_action
+    - discovery_method
+    - security_incident
+    - targeted
+    - asset:accessibility
+    - asset:cloud
+    - asset:country
+    - asset:governance
+    - asset:hosting
+    - asset:management
+    - asset:ownership
+    - impact:iso_currency_code
+    - impact:overall_rating
+    - victim:country
+    - victim:employee_count
+    - action:environmental:variety
+    - action:error:variety
+    - action:error:vector
+    - action:hacking:result
+    - action:hacking:variety
+    - action:hacking:vector
+    - action:malware:result
+    - action:malware:variety
+    - action:malware:vector
+    - action:misuse:result
+    - action:misuse:variety
+    - action:misuse:vector
+    - action:physical:result
+    - action:physical:variety
+    - action:physical:vector
+    - action:social:result
+    - action:social:target
+    - action:social:variety
+    - action:social:vector
+    - action:unknown:result
+    - actor:external:country
+    - actor:external:motive
+    - actor:external:variety
+    - actor:internal:job_change
+    - actor:internal:motive
+    - actor:internal:variety
+    - actor:partner:country
+    - actor:partner:motive
+    - asset:assets:variety
+    - attribute:availability:variety
+    - attribute:confidentiality:data_disclosure
+    - attribute:confidentiality:data_victim
+    - attribute:confidentiality:state
+    - attribute:integrity:variety
+    - impact:loss:rating
+    - impact:loss:variety
+    - timeline:compromise:unit
+    - timeline:containment:unit
+    - timeline:discovery:unit
+    - timeline:exfiltration:unit
+    - victim:revenue:iso_currency_code
+    - attribute:availability:duration:unit
+    - attribute:confidentiality:data:variety
+### vocabulaire-des-probabilites-estimatives
+- description: Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité
+- version: 3
+- Predicates
+    - degré-de-probabilité
+### workflow
+- description: Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.
+- version: 10
+- Predicates
+    - todo
+    - state
