@@ -48,7 +48,8 @@
       "value": "classification"
     }
   ],
-  "version": 1,
+  "version": 2,
   "description": "NATO classification markings.",
-  "namespace": "nato"
+  "namespace": "nato",
+  "exclusive": true
 }

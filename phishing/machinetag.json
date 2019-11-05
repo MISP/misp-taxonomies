@@ -1,7 +1,7 @@
 {
   "namespace": "phishing",
   "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.",
-  "version": 3,
+  "version": 4,
   "predicates": [
     {
       "value": "techniques",
@@ -31,12 +31,14 @@
     {
       "value": "state",
       "expanded": "State",
-      "description": "State of the phishing."
+      "description": "State of the phishing.",
+      "exclusive": true
     },
     {
       "value": "psychological-acceptability",
       "expanded": "Psychological acceptability",
-      "description": "Quality of the phishing by its level of acceptance by the target."
+      "description": "Quality of the phishing by its level of acceptance by the target.",
+      "exclusive": true
     },
     {
       "value": "principle-of-persuasion",

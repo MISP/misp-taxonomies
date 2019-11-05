@@ -2,7 +2,7 @@
   "namespace": "economical-impact",
   "expanded": " Economical Impact",
   "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information (e.g. data exfiltration loss, a positive gain for an adversary).",
-  "version": 3,
+  "version": 4,
   "refs": [
     "https://www.misp-project.org/"
   ],
@@ -112,12 +112,14 @@
     {
       "value": "loss",
       "expanded": "Loss",
-      "description": "A financial impact evaluated as a casuality."
+      "description": "A financial impact evaluated as a casuality.",
+      "exclusive": true
     },
     {
       "value": "gain",
       "expanded": "Gain",
-      "description": "A financial impact evaluated as a benefit."
+      "description": "A financial impact evaluated as a benefit.",
+      "exclusive": true
     }
   ]
 }

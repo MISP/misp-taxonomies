@@ -10,7 +10,8 @@
     },
     {
       "value": "confirmed",
-      "expanded": "Confirmed information leak or not"
+      "expanded": "Confirmed information leak or not",
+      "exclusive": true
     },
     {
       "expanded": "Source of the information leak",
@@ -22,18 +23,16 @@
     },
     {
       "expanded": "Output format",
-      "value": "output-format"
+      "value": "output-format",
+      "exclusive": true
     },
     {
       "value": "certainty",
-      "expanded": "Certainty of the information to be a leak"
-    },
-    {
-      "value": "test",
-      "expanded": "Test"
+      "expanded": "Certainty of the information to be a leak",
+      "exclusive": true
     }
   ],
-  "version": 6,
+  "version": 7,
   "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.",
   "namespace": "infoleak",
   "values": [

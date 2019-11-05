@@ -1,7 +1,7 @@
 {
   "namespace": "incident-disposition",
   "description": "How an incident is classified in its process to be resolved. The taxonomy is inspired from NASA Incident Response and Management Handbook. https://www.nasa.gov/pdf/589502main_ITS-HBK-2810.09-02%20%5bNASA%20Information%20Security%20Incident%20Management%5d.pdf#page=9",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "incident",
@@ -93,7 +93,7 @@
         {
           "value": "duplicate",
           "expanded": "Duplicate",
-          "description": "An incident may be a Dup l icate of another record in the Incident Management System, and should be merged with the existing workflow."
+          "description": "An incident may be a Duplicate of another record in the Incident Management System, and should be merged with the existing workflow."
         }
       ]
     }

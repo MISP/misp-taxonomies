@@ -229,7 +229,7 @@
     "org",
     "user"
   ],
-  "version": 3,
+  "version": 4,
   "description": "A series of assessment predicates describing the analyst capabilities to perform analysis. These assessment can be assigned by the analyst him/herself or by another party evaluating the analyst.",
   "expanded": "Analyst (Self) Assessment",
   "namespace": "analyst-assessment"
