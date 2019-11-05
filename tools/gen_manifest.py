@@ -40,6 +40,7 @@ def generateManifest(taxonomies):
 def saveManifest(manifest):
     with open(TAXONOMY_ROOT_PATH / 'MANIFEST.json', 'w') as f:
         json.dump(manifest, f, indent=2, sort_keys=True, ensure_ascii=False)
+        f.write('\n')
 
 def awesomePrint(text):
     print('\033[1;32m{}\033[0;39m'.format(text))
