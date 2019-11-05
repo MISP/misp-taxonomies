@@ -78,7 +78,7 @@
       "value": "technical-sophistication-multiplier"
     }
   ],
-  "version": 2,
+  "version": 3,
   "refs": [
     "https://citizenlab.org/2013/10/targeted-threat-index/",
     "https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-hardy.pdf"

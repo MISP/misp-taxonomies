@@ -13,7 +13,7 @@
       "value": "certainty"
     }
   ],
-  "version": 10,
+  "version": 11,
   "description": "Open Source Intelligence - Classification (MISP taxonomies)",
   "namespace": "osint",
   "values": [

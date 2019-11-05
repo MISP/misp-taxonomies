@@ -55,7 +55,7 @@
     "https://en.wikipedia.org/wiki/COPINE_scale",
     "http://journals.sagepub.com/doi/pdf/10.1177/1079063217724768"
   ],
-  "version": 2,
+  "version": 3,
   "description": "The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse. The scale was developed by staff at the COPINE (Combating Paedophile Information Networks in Europe) project. The COPINE Project was founded in 1997, and is based in the Department of Applied Psychology, University College Cork, Ireland.",
   "expanded": "COPINE Scale",
   "namespace": "copine-scale",
