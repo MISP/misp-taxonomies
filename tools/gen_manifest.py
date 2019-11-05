@@ -10,7 +10,9 @@ TAXONOMY_ROOT_PATH = Path(__file__).resolve().parent.parent
 def fetchTaxonomies():
     taxonomiesFolder = TAXONOMY_ROOT_PATH
     taxonomies = []
-    for taxonomyFile in taxonomiesFolder.glob('./*/machinetag.json'):
+    allTaxonomies = list(taxonomiesFolder.glob('./*/machinetag.json'))
+    allTaxonomies.sort()
+    for taxonomyFile in allTaxonomies:
         with open(taxonomyFile) as f:
             taxonomy = json.load(f)
             taxonomies.append(taxonomy)
