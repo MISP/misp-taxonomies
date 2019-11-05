@@ -38,10 +38,11 @@
       "value": "degré-de-probabilité"
     }
   ],
-  "version": 2,
+  "version": 3,
   "description": "Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité",
   "expanded": "Vocabulaire des probabilités estimatives",
   "namespace": "vocabulaire-des-probabilites-estimatives",
+  "exclusive": true,
   "refs": [
     "http://publications.gc.ca/collections/collection_2013/sp-ps/PS64-106-2007-fra.pdf"
   ]

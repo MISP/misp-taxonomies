@@ -1,7 +1,8 @@
 {
   "namespace": "binary-class",
   "description": "Custom taxonomy for types of binary file.",
-  "version": 1,
+  "exclusive": true,
+  "version": 2,
   "predicates": [
     {
       "value": "type",

@@ -175,11 +175,13 @@
     },
     {
       "expanded": "Confidence level",
-      "value": "confidence-level"
+      "value": "confidence-level",
+      "exclusive": true
     },
     {
       "expanded": "Cyberthreat Effect Universal Scale - MISP's internal threat level taxonomy",
-      "value": "threat-level"
+      "value": "threat-level",
+      "exclusive": true
     },
     {
       "expanded": "Automation level",
@@ -198,10 +200,11 @@
     },
     {
       "expanded": "misp2yara export tool",
-      "value": "misp2yara"
+      "value": "misp2yara",
+      "exclusive": true
     }
   ],
-  "version": 9,
+  "version": 10,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
