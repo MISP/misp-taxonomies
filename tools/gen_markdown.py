@@ -14,7 +14,7 @@ def fetchTaxonomies():
     allTaxonomies = list(taxonomiesFolder.glob('./*/machinetag.json'))
     allTaxonomies.sort()
     for taxonomyFile in allTaxonomies:
-        with open(taxonomyFile) as f:
+        with open(taxonomyFile, 'rb') as f:
             taxonomy = json.load(f)
             taxonomies.append(taxonomy)
     return taxonomies
@@ -39,7 +39,7 @@ def generateMarkdown(taxonomies):
     return markdown
 
 def saveMarkdown(markdown):
-    with open(TAXONOMY_ROOT_PATH / 'Summary.md', 'w') as f:
+    with open(TAXONOMY_ROOT_PATH / 'summary.md', 'w') as f:
         f.write(markdown)
 
 def awesomePrint(text):

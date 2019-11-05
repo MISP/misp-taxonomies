@@ -14,7 +14,7 @@ def fetchTaxonomies():
     allTaxonomies = list(taxonomiesFolder.glob('./*/machinetag.json'))
     allTaxonomies.sort()
     for taxonomyFile in allTaxonomies:
-        with open(taxonomyFile) as f:
+        with open(taxonomyFile, 'rb') as f:
             taxonomy = json.load(f)
             taxonomies.append(taxonomy)
     return taxonomies
@@ -39,7 +39,7 @@ def generateManifest(taxonomies):
 
 def saveManifest(manifest):
     with open(TAXONOMY_ROOT_PATH / 'MANIFEST.json', 'w') as f:
-        json.dump(manifest, f, indent=2, sort_keys=True)
+        json.dump(manifest, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 def awesomePrint(text):
     print('\033[1;32m{}\033[0;39m'.format(text))
