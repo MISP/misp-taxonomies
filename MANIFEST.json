@@ -341,7 +341,7 @@
     {
       "description": "Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf",
       "name": "iot",
-      "version": 1
+      "version": 2
     },
     {
       "description": "The Cyber Kill Chain, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack.",
@@ -535,5 +535,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20191105"
+  "version": "20191106"
 }
