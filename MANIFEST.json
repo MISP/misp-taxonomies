@@ -116,7 +116,7 @@
     {
       "description": "The CSSA agreed sharing taxonomy.",
       "name": "cssa",
-      "version": 7
+      "version": 8
     },
     {
       "description": "Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries. https://www.dni.gov/index.php/cyber-threat-framework",
@@ -236,7 +236,7 @@
     {
       "description": "This taxonomy aims to ballpark the expected amount of false positives.",
       "name": "false-positive",
-      "version": 4
+      "version": 5
     },
     {
       "description": "List of known file types.",
@@ -535,5 +535,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20191106"
+  "version": "20191107"
 }

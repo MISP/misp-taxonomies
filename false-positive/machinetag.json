@@ -1,7 +1,7 @@
 {
   "namespace": "false-positive",
   "description": "This taxonomy aims to ballpark the expected amount of false positives.",
-  "version": 4,
+  "version": 5,
   "expanded": "False positive",
   "predicates": [
     {
@@ -46,11 +46,13 @@
       "entry": [
         {
           "value": "true",
+          "expanded": "True",
           "description": "The false positive is confirmed.",
           "numerical_value": 0
         },
         {
           "value": "false",
+          "expanded": "False",
           "description": "The flase positive is not confirmed.",
           "numerical_value": 50
         }
