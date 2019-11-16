@@ -231,7 +231,7 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 5
+      "version": 6
     },
     {
       "description": "This taxonomy aims to ballpark the expected amount of false positives.",
@@ -535,5 +535,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20191107"
+  "version": "20191116"
 }
