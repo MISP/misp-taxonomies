@@ -79,6 +79,11 @@
           "value": "2019",
           "expanded": "2019",
           "description": "Locked Shields 2019"
+        },
+        {
+          "value": "2020",
+          "expanded": "2020",
+          "description": "Locked Shields 2020"
         }
       ]
     },
@@ -135,7 +140,7 @@
       ]
     }
   ],
-  "version": 5,
+  "version": 6,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise"
