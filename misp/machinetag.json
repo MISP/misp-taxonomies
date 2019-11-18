@@ -153,6 +153,26 @@
           "value": "invalid"
         }
       ]
+    },
+    {
+      "predicate": "ids",
+      "entry": [
+        {
+          "expanded": "force",
+          "value": "force",
+          "description": "Force the IDS flag to be the one from the tag."
+        },
+        {
+          "expanded": "true",
+          "value": "true",
+          "description": "Overwrite the current IDS flag of the information tag by IDS true."
+        },
+        {
+          "expanded": "false",
+          "value": "false",
+          "description": "Overwrite the current IDS flag of the information tag by IDS false."
+        }
+      ]
     }
   ],
   "predicates": [
@@ -163,6 +183,10 @@
     {
       "expanded": "API related tag influencing the MISP behavior of the API.",
       "value": "api"
+    },
+    {
+      "expanded": "IDS related tag unfluencing the MISP behavior of the IDS flag.",
+      "value": "ids"
     },
     {
       "description": "Expansion tag incluencing the MISP behavior using expansion modules",
@@ -204,7 +228,7 @@
       "exclusive": true
     }
   ],
-  "version": 10,
+  "version": 11,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
