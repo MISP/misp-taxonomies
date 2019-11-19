@@ -1,0 +1,356 @@
+{
+  "namespace": "mwdb",
+  "description": "Malware Database (mwdb) Taxonomy - Tags used across the platform",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "location_type",
+      "expanded": "Location Type",
+      "description": "Type of malicious URL."
+    },
+    {
+      "value": "family",
+      "expanded": "Malware Family"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "location_type",
+      "entry": [
+        {
+          "value": "cnc",
+          "expanded": "CNC",
+          "description": "C&C server, usually administrated by criminals. Malware connects to it (usually with a custom protocol) to get new commands and updates."
+        },
+        {
+          "value": "download_url",
+          "expanded": "Download URL",
+          "description": "Download url. Used to download more malware samples. Sometimes just a hacked legitimate website."
+        },
+        {
+          "value": "panel",
+          "expanded": "Panel",
+          "description": "Malware panel. HTTP service used by criminals to manage the botnet."
+        },
+        {
+          "value": "peer",
+          "expanded": "Peer",
+          "description": "Peer. IP/port of infected machine of a legitimate computer user."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other kind of URL found in the malware."
+        }
+      ]
+    },
+    {
+      "predicate": "family",
+      "entry": [
+        {
+          "value": "agenttesla"
+        },
+        {
+          "value": "andromeda"
+        },
+        {
+          "value": "anubis"
+        },
+        {
+          "value": "avemaria"
+        },
+        {
+          "value": "azorult"
+        },
+        {
+          "value": "brushaloader"
+        },
+        {
+          "value": "bublik"
+        },
+        {
+          "value": "bunitu"
+        },
+        {
+          "value": "cerber"
+        },
+        {
+          "value": "chthonic"
+        },
+        {
+          "value": "citadel"
+        },
+        {
+          "value": "corebot"
+        },
+        {
+          "value": "cryptomix"
+        },
+        {
+          "value": "cryptoshield"
+        },
+        {
+          "value": "cryptowall"
+        },
+        {
+          "value": "danabot"
+        },
+        {
+          "value": "danaloader"
+        },
+        {
+          "value": "dridex"
+        },
+        {
+          "value": "dridex-worker"
+        },
+        {
+          "value": "dyre"
+        },
+        {
+          "value": "emotet"
+        },
+        {
+          "value": "emotet5_upnp"
+        },
+        {
+          "value": "emotet_doc"
+        },
+        {
+          "value": "emotet_spam"
+        },
+        {
+          "value": "emotet_upnp"
+        },
+        {
+          "value": "evil-pony"
+        },
+        {
+          "value": "flokibot"
+        },
+        {
+          "value": "formbook"
+        },
+        {
+          "value": "gandcrab"
+        },
+        {
+          "value": "get2"
+        },
+        {
+          "value": "globeimposter"
+        },
+        {
+          "value": "gluedropper"
+        },
+        {
+          "value": "gootkit"
+        },
+        {
+          "value": "h1n1"
+        },
+        {
+          "value": "hancitor"
+        },
+        {
+          "value": "hawkeye"
+        },
+        {
+          "value": "icedid"
+        },
+        {
+          "value": "iceid"
+        },
+        {
+          "value": "iceix"
+        },
+        {
+          "value": "isfb"
+        },
+        {
+          "value": "jaff"
+        },
+        {
+          "value": "kbot"
+        },
+        {
+          "value": "kegotip"
+        },
+        {
+          "value": "kins"
+        },
+        {
+          "value": "kovter"
+        },
+        {
+          "value": "kpot"
+        },
+        {
+          "value": "kronos"
+        },
+        {
+          "value": "locky"
+        },
+        {
+          "value": "lokibot"
+        },
+        {
+          "value": "madlocker"
+        },
+        {
+          "value": "madness_pro"
+        },
+        {
+          "value": "maoloa"
+        },
+        {
+          "value": "mirai"
+        },
+        {
+          "value": "mmbb"
+        },
+        {
+          "value": "nanocore"
+        },
+        {
+          "value": "necurs"
+        },
+        {
+          "value": "netwire"
+        },
+        {
+          "value": "neutrino"
+        },
+        {
+          "value": "njrat"
+        },
+        {
+          "value": "nymaim"
+        },
+        {
+          "value": "odinaff"
+        },
+        {
+          "value": "onliner"
+        },
+        {
+          "value": "ostap"
+        },
+        {
+          "value": "panda"
+        },
+        {
+          "value": "phorpiex"
+        },
+        {
+          "value": "pony"
+        },
+        {
+          "value": "pushdo"
+        },
+        {
+          "value": "qadars"
+        },
+        {
+          "value": "qakbot"
+        },
+        {
+          "value": "quantloader"
+        },
+        {
+          "value": "quasarrat"
+        },
+        {
+          "value": "ramnit"
+        },
+        {
+          "value": "remcos"
+        },
+        {
+          "value": "retefe"
+        },
+        {
+          "value": "ruckguv"
+        },
+        {
+          "value": "sage"
+        },
+        {
+          "value": "sendsafe"
+        },
+        {
+          "value": "shifu"
+        },
+        {
+          "value": "slave"
+        },
+        {
+          "value": "smokeloader"
+        },
+        {
+          "value": "systembc"
+        },
+        {
+          "value": "teslacrypt"
+        },
+        {
+          "value": "test"
+        },
+        {
+          "value": "testmod"
+        },
+        {
+          "value": "tinba"
+        },
+        {
+          "value": "tinba_dga"
+        },
+        {
+          "value": "tinynuke"
+        },
+        {
+          "value": "tofsee"
+        },
+        {
+          "value": "torment"
+        },
+        {
+          "value": "torrentlocker"
+        },
+        {
+          "value": "trickbot"
+        },
+        {
+          "value": "troldesh"
+        },
+        {
+          "value": "unknown"
+        },
+        {
+          "value": "vawtrak"
+        },
+        {
+          "value": "vjworm"
+        },
+        {
+          "value": "vmzeus"
+        },
+        {
+          "value": "vmzeus2"
+        },
+        {
+          "value": "wannacry"
+        },
+        {
+          "value": "xagent"
+        },
+        {
+          "value": "zeus"
+        },
+        {
+          "value": "zloader"
+        }
+      ]
+    }
+  ]
+}

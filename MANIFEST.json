@@ -474,6 +474,11 @@
       "version": 1,
       "name": "csirt-americas",
       "description": "Taxonomy from CSIRTAmericas.org."
+    },
+    {
+      "version": 1,
+      "name": "mwdb",
+      "description": "Malware Database (mwdb) Taxonomy - Tags used across the platform"
     }
   ],
   "path": "machinetag.json",
