@@ -1,0 +1,230 @@
+{
+  "namespace": "phishing",
+  "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.",
+  "version": 4,
+  "predicates": [
+    {
+      "value": "techniques",
+      "expanded": "Techniques",
+      "description": "Phishing techniques used."
+    },
+    {
+      "value": "distribution",
+      "expanded": "Distribution",
+      "description": "How the phishing is distributed."
+    },
+    {
+      "value": "report-type",
+      "expanded": "Report type",
+      "description": "How the phishing information was reported."
+    },
+    {
+      "value": "report-origin",
+      "expanded": "Report origin",
+      "description": "Origin or source of the phishing information such as tools or services."
+    },
+    {
+      "value": "action",
+      "expanded": "Action",
+      "description": "Action(s) taken related to the phishing tagged with this taxonomy."
+    },
+    {
+      "value": "state",
+      "expanded": "State",
+      "description": "State of the phishing.",
+      "exclusive": true
+    },
+    {
+      "value": "psychological-acceptability",
+      "expanded": "Psychological acceptability",
+      "description": "Quality of the phishing by its level of acceptance by the target.",
+      "exclusive": true
+    },
+    {
+      "value": "principle-of-persuasion",
+      "expanded": "Principle of Persuasion",
+      "description": "The principle of persuasion used during the attack to higher psychological acceptability."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "techniques",
+      "entry": [
+        {
+          "value": "fake-website",
+          "expanded": "Social engineering fake website",
+          "description": "Adversary controls a fake website to phish for credentials or information."
+        },
+        {
+          "value": "email-spoofing",
+          "expanded": "Social engineering email spoofing",
+          "description": "Adversary sends email with domains related to target. Adversary controls the domains used."
+        },
+        {
+          "value": "clone-phishing",
+          "expanded": "Clone phishing",
+          "description": "Adversary clones an email to target potential victims with duplicated content."
+        },
+        {
+          "value": "voice-phishing",
+          "expanded": "Voice phishing",
+          "description": "Adversary uses voice-based techniques to trick a potential victim to give credentials or sensitive information. This is also known as vishing."
+        },
+        {
+          "value": "search-engines-abuse",
+          "expanded": "Social engineering search engines abuse",
+          "description": "Adversary controls the search engine result to get an advantage"
+        },
+        {
+          "value": "sms-phishing",
+          "expanded": "SMS phishing",
+          "description": "Adversary sends an SMS to a potential victims to gather sensitive information or use another phishing technique at a later stage."
+        }
+      ]
+    },
+    {
+      "predicate": "distribution",
+      "entry": [
+        {
+          "value": "spear-phishing",
+          "expanded": "Spear phishing",
+          "description": "Adversary attempts targeted phishing to a user or a specific group of users based on knowledge known by the adversary."
+        },
+        {
+          "value": "bulk-phishing",
+          "expanded": "Bulk phishing",
+          "description": "Adversary attempts to target a large group of potential targets without specific knowledge of the victims."
+        }
+      ]
+    },
+    {
+      "predicate": "report-type",
+      "entry": [
+        {
+          "value": "manual-reporting",
+          "expanded": "Manual reporting",
+          "description": "Phishing reported by a human (e.g. tickets, manual reporting)."
+        },
+        {
+          "value": "automatic-reporting",
+          "expanded": "Automatic reporting",
+          "description": "Phishing collected by automatic reporting (e.g. phishing report tool, API)."
+        }
+      ]
+    },
+    {
+      "predicate": "report-origin",
+      "entry": [
+        {
+          "value": "url-abuse",
+          "expanded": "url-abuse",
+          "description": "CIRCL url-abuse service."
+        },
+        {
+          "value": "lookyloo",
+          "expanded": "lookyloo",
+          "description": "CIRCL lookyloo service."
+        },
+        {
+          "value": "phishtank",
+          "expanded": "Phishtank",
+          "description": "Phishtank service."
+        },
+        {
+          "value": "spambee",
+          "expanded": "Spambee",
+          "description": "C-3 Spambee service."
+        }
+      ]
+    },
+    {
+      "predicate": "action",
+      "entry": [
+        {
+          "value": "take-down",
+          "expanded": "Take down",
+          "description": "Take down notification sent to the operator where the phishing infrastructure is hosted."
+        },
+        {
+          "value": "pending-law-enforcement-request",
+          "expanded": "Pending law enforcement request",
+          "description": "Law enforcement requests are ongoing on the phishing infrastructure."
+        },
+        {
+          "value": "pending-dispute-resolution",
+          "expanded": "Pending dispute resolution",
+          "description": "Dispute resolution sent to competent authorities (e.g. domain authority, trademark dispute)."
+        }
+      ]
+    },
+    {
+      "predicate": "state",
+      "entry": [
+        {
+          "value": "unknown",
+          "expanded": "Phishing state is unknown or cannot be evaluated",
+          "numerical_value": 50
+        },
+        {
+          "value": "active",
+          "expanded": "Phishing state is active and actively used by the adversary",
+          "numerical_value": 100
+        },
+        {
+          "value": "down",
+          "expanded": "Phishing state is known to be down",
+          "numerical_value": 0
+        }
+      ]
+    },
+    {
+      "predicate": "psychological-acceptability",
+      "entry": [
+        {
+          "value": "unknown",
+          "expanded": "Phishing acceptance rate is unknown."
+        },
+        {
+          "value": "low",
+          "expanded": "Phishing acceptance rate is low.",
+          "numerical_value": 25
+        },
+        {
+          "value": "medium",
+          "expanded": "Phishing acceptance rate is medium.",
+          "numerical_value": 50
+        },
+        {
+          "value": "high",
+          "expanded": "Phishing acceptance rate is high.",
+          "numerical_value": 75
+        }
+      ]
+    },
+    {
+      "predicate": "principle-of-persuasion",
+      "entry": [
+        {
+          "value": "authority",
+          "expanded": "Society trains people not to question authority so they are conditioned to respond to it. People usually follow an expert or pretense of authority and do a great deal for someone they think is an authority."
+        },
+        {
+          "value": "social-proof",
+          "expanded": "People tend to mimic what the majority of people do or seem to be doing. People let their guard and suspicion down when everyone else appears to share the same behaviours and risks. In this way, they will not be held solely responsible for their actions."
+        },
+        {
+          "value": "liking-similarity-deception",
+          "expanded": "People prefer to abide to whom (they think) they know or like, or to whom they are similar to or familiar with, as well as attracted to."
+        },
+        {
+          "value": "commitment-reciprocation-consistency",
+          "expanded": "People feel more confident in their decision once they commit (publically) to a specific action and need to follow it through until the end. This is true whether in the workplace, or in a situation when their action is illegal. People have tendency to believe what others say and need, and they want to appear consistent in what they do, for instance, when they owe a favour. There is an automatic response of repaying a favour."
+        },
+        {
+          "value": "distraction",
+          "expanded": "People focus on one thing and ignore other things that may happen without them noticing; they focus attention on what they can gain, what they need, what they can lose or miss out on, or if that thing will soon be unavailable, has been censored, restricted or will be more expensive later. These distractions can heighten people’s emotional state and make them forget other logical facts to consider when making decisions."
+        }
+      ]
+    }
+  ]
+}

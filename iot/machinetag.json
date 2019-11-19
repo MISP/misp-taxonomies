@@ -1,0 +1,131 @@
+{
+  "namespace": "iot",
+  "description": "Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf",
+  "version": 2,
+  "expanded": "Internet of Things",
+  "predicates": [
+    {
+      "value": "TCom",
+      "expanded": "Technical complexity",
+      "description": "IoT projects vary tremendously in terms of their technical sophistication. Digital Catapult has developed a scale based on technology complexity (TCom) that enables us to understand the state of IoT in the UK, and to assess what is currently being researched, trialled or deployed in real-life implementations."
+    },
+    {
+      "value": "SSL",
+      "expanded": "System Security Level",
+      "description": "A second characteristic of an IoT system concerns the inherent level of safety, privacy and security of that system. At one end of the spectrum, an IoT system may not gather data that is sensitive either in terms of safety or privacy, while at the other it may collect data about identifiable individuals or groups of individuals, involve financial transactions, or access to system data or have the ability to control objects that could compromise health, safety or security."
+    },
+    {
+      "value": "DSL",
+      "expanded": "Data Sharing Level",
+      "description": "A third characteristic of IoT systems concerns the degree of sharing of sensitive data between the object and the system, and subsequently between the system and the system operator(s) or participants, and third parties. Systems do not always need to share data, so IoT product, platform, service and system designers must be clear about when data is shared, what is shared and why.",
+      "exclusive": true
+    }
+  ],
+  "values": [
+    {
+      "predicate": "TCom",
+      "entry": [
+        {
+          "value": "0",
+          "expanded": "Unidentiable object",
+          "description": "Dumb/passive objects . Not connected, identified or monitored. Example: Any unconnected, unidentified object"
+        },
+        {
+          "value": "1",
+          "expanded": "Identifiable object",
+          "description": "Identifiable dumb/passive objects with a virtual existence that can meaningfully be counted/tracked by online systems. Examples: RFID Tags, barcoded or QR-coded objects"
+        },
+        {
+          "value": "2",
+          "expanded": "Connected object",
+          "description": "Connected objects . Objects linked to an IP network, with some means of reading, programming or controlling them . These should be counted as elements within the IoT universe, but they are often underused assets. Examples: Printers, doorbells, IP connected fire alarms or security systems"
+        },
+        {
+          "value": "3",
+          "expanded": "Connected homogeneous object",
+          "description": "Connected broadly homogeneous objects in a simple integrated system, whether the benefit of that system accrues to the end user or the system provider. Examples: Networks of multiple temperature sensors within a single building or campus . Environmental monitoring networks, wearable devices (such as Fitbit or other wellness technologies)"
+        },
+        {
+          "value": "4",
+          "expanded": "Connected heterogeneous objects",
+          "description": "Connected heterogeneous objects in a single, integrated system . This involves taking data from a variety of sensors of different types, all deployed for the same end user or organisation to help improve processes, make better decisions or change outcomes. Examples: The deployment of a range of sensors in a care home or hospital or the combination of parking, traffic volume and traffic control data in an urban road management system"
+        },
+        {
+          "value": "5",
+          "expanded": "Different objects in similar domain",
+          "description": "Different objects deployed across multiple interconnected systems for multiple organisations, in multiple locations, all within a similar domain .System supports analysis of aggregated data derived from all deployment locations. Examples: Partnering university campuses’ security cameras, fire alarms, temperature sensors, access control systems and energy monitoring systems integrated into a single unified control and monitoring solution"
+        },
+        {
+          "value": "6",
+          "expanded": "Different objects in multiple connected domains",
+          "description": "As for TCom 5, but where multiple domains are connected . This involves gathering data from a variety of sensor types, across a variety of systems and ecosystems, and creating combined views of the data that offer new sources of value (economic or social) or where there is a high degree of automation across homogeneous systems. Examples: Smart cities where multiple organisations, or different city departments and their partners, have built applications that draw on diverse sets of data from multiple sources to develop or improve services. Such applications might include the adjustment of street lighting in response to incoming data on night-time police activity levels, or the adjustment of traffic lights in response to real-time data sources about local environment data, or current people movement data based on mobile phone location data. Or, in the second case, the automated adjustment of environmental controls across a service provider’s care estate based on real-time data feeds from sensors deployed in those settings ."
+        },
+        {
+          "value": "7",
+          "expanded": "Involves multiple ecosystems and a high degree of automation",
+          "description": "As for TCom 6, but involving both multiple ecosystems and a high degree of automation. Examples: A smart city solution drawing data from multiple providers and sources, which is then used for automated traffic control and routing of emergency services, or the automated adjustment of traffic lights based on real-time mobile phone location data"
+        }
+      ]
+    },
+    {
+      "predicate": "SSL",
+      "entry": [
+        {
+          "value": "0",
+          "expanded": "No data involved",
+          "description": "No data involved, no control of the system"
+        },
+        {
+          "value": "1",
+          "expanded": "No sensitive data involved",
+          "description": "No sensitive data involved, no control of the objects in the system. Example: Wireless doorbell"
+        },
+        {
+          "value": "2",
+          "expanded": "Anonymous or aggregated data",
+          "description": "System provides anonymous, aggregated statistics, no control of the system. Example: Remote temperature sensors"
+        },
+        {
+          "value": "3",
+          "expanded": "Sensitive data",
+          "description": "System generates sensitive data or supports some degree of remote control of the system objects. Examples: Biometric data, door actuation mechanisms"
+        },
+        {
+          "value": "4",
+          "expanded": "Connects with external systems",
+          "description": "System generates sensitive data, supports some degree of remote control of the system objects and connects with external systems. Examples: Integrated facilities management systems, tele-health monitoring, security and safety systems"
+        }
+      ]
+    },
+    {
+      "predicate": "DSL",
+      "entry": [
+        {
+          "value": "0",
+          "expanded": "No data shared",
+          "description": "No data is shared. Examples: Simple point-to-point monitoring systems such as consumer weather stations and wireless doorbells"
+        },
+        {
+          "value": "1",
+          "expanded": "Sharing between two parties",
+          "description": "Basic sharing between two parties: agreed sharing of sensitive data between the customer/buyer/user and the seller or provider (whether that seller or provider operates in the commercial or public sector). Examples: Cloud-based security systems, remote cameras, home monitoring systems"
+        },
+        {
+          "value": "2",
+          "expanded": "Third-party sharing",
+          "description": "Third person sharing: sharing of sensitive data between the seller or provider and unrelated third parties in a commercial context. Examples: Person tracking information to support targeted marketing offers"
+        },
+        {
+          "value": "3",
+          "expanded": "Multi-domain sharing",
+          "description": "Multi-domain and third-party sharing: sharing of sensitive data between the customer/buyer/user and multiple sellers or providers involved in delivering services, where those providers come from different ecosystems (including the commercial and public sectors). Examples: The aggregation of parking, traffic and environmental data in an urban traffic management application"
+        },
+        {
+          "value": "4",
+          "expanded": "Open access to sensitive data",
+          "description": "Open access to sensitive data, including data generated through use of public finance or infrastructure. Examples: Integration of multiple security systems in a public safety context"
+        }
+      ]
+    }
+  ]
+}

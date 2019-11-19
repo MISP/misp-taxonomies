@@ -62,6 +62,7 @@ bfuscation techniques. This taxonomy lists all the known or official packer used
 - [Binary Classification](./binary-class) safe/malicious binary tagging
 - [Workflow](./workflow) support language is a common language to support intelligence analysts to perform their analysis on data and information.
 - [file-type](./file-type) - List of known file types.
+- [iot](./iot) - Interbet of Things Taxonomy
 
 ### [Admiralty Scale](./admiralty-scale)
 
@@ -247,11 +248,11 @@ The MISP taxonomies (JSON files) are dual-licensed under:
 or
 
 ~~~~
- Copyright (c) 2015-2018 Alexandre Dulaunoy - a@foo.be
- Copyright (c) 2015-2018 CIRCL - Computer Incident Response Center Luxembourg
- Copyright (c) 2015-2018 Andras Iklody
- Copyright (c) 2015-2018 Raphael Vinot
- Copyright (c) 2016-2018 Various contributors to MISP Project
+ Copyright (c) 2015-2019 Alexandre Dulaunoy - a@foo.be
+ Copyright (c) 2015-2019 CIRCL - Computer Incident Response Center Luxembourg
+ Copyright (c) 2015-2019 Andras Iklody
+ Copyright (c) 2015-2019 Raphael Vinot
+ Copyright (c) 2016-2019 Various contributors to MISP Project
 
  Redistribution and use in source and binary forms, with or without modification,
  are permitted provided that the following conditions are met:

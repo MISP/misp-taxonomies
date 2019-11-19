@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
-  "version": 9,
+  "version": 10,
   "predicates": [
     {
       "value": "todo",
@@ -12,7 +12,8 @@
     {
       "value": "state",
       "expanded": "State",
-      "description": "State are the different states of the information or data being tagged."
+      "description": "State are the different states of the information or data being tagged.",
+      "exclusive": true
     }
   ],
   "values": [

@@ -61,8 +61,7 @@
       "exclusive": true
     }
   ],
-  "version": 2,
+  "version": 3,
   "description": "French gov information classification system",
-  "namespace": "fr-classif",
-  "exclusive": true
+  "namespace": "fr-classif"
 }

@@ -1,0 +1,42 @@
+{
+  "predicates": [
+    {
+      "description": "Suspect but accepted isotopic measurement",
+      "expanded": "accepted-suspect",
+      "value": "-3"
+    },
+    {
+      "description": "Accepted isotopic measurement",
+      "expanded": "accepted",
+      "value": "0"
+    },
+    {
+      "description": "Rejected",
+      "expanded": "rejected",
+      "value": "3"
+    },
+    {
+      "description": "Outlier from fit",
+      "expanded": "outlier",
+      "value": "5"
+    },
+    {
+      "description": "Other rejected, older data",
+      "expanded": "rejected-old-data",
+      "value": "6"
+    },
+    {
+      "description": "Flask extracted but not analyzed yet",
+      "expanded": "extracted-not-analyzed",
+      "value": "8"
+    },
+    {
+      "description": "Flask not extracted",
+      "expanded": "not-extracted",
+      "value": "9"
+    }
+  ],
+  "version": 1,
+  "description": "Flags describing the sample for isotopic data (C14, O18)",
+  "namespace": "scrippsco2-fgi"
+}

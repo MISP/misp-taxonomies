@@ -1,0 +1,377 @@
+{
+  "namespace": "coa",
+  "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",
+  "version": 2,
+  "predicates": [
+    {
+      "value": "discover",
+      "expanded": "Search historical data for an indicator."
+    },
+    {
+      "value": "detect",
+      "expanded": "Set up a detection rule for an indicator for future alerting."
+    },
+    {
+      "value": "deny",
+      "expanded": "Prevent an event from taking place."
+    },
+    {
+      "value": "disrupt",
+      "expanded": "Make an event fail when it is taking place."
+    },
+    {
+      "value": "degrade",
+      "expanded": "Slow down attacker activity; reduce attacker efficiency."
+    },
+    {
+      "value": "deceive",
+      "expanded": "Pretend only that an action was successful or provide misinformation to the attacker."
+    },
+    {
+      "value": "destroy",
+      "expanded": "Offensive action against the attacker."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "discover",
+      "entry": [
+        {
+          "value": "proxy",
+          "expanded": "Searched historical proxy logs.",
+          "colour": "#005065"
+        },
+        {
+          "value": "ids",
+          "expanded": "Searched historical IDS logs.",
+          "colour": "#00586f"
+        },
+        {
+          "value": "firewall",
+          "expanded": "Searched historical firewall logs.",
+          "colour": "#005f78"
+        },
+        {
+          "value": "pcap",
+          "expanded": "Discovered in packet-capture logs",
+          "colour": "#006681"
+        },
+        {
+          "value": "remote-access",
+          "expanded": "Searched historical remote access logs.",
+          "colour": "#006e8b"
+        },
+        {
+          "value": "authentication",
+          "expanded": "Searched historical authentication logs.",
+          "colour": "#007594"
+        },
+        {
+          "value": "honeypot",
+          "expanded": "Searched historical honeypot data.",
+          "colour": "#007c9d"
+        },
+        {
+          "value": "syslog",
+          "expanded": "Searched historical system logs.",
+          "colour": "#0084a6"
+        },
+        {
+          "value": "web",
+          "expanded": "Searched historical WAF and web application logs.",
+          "colour": "#008bb0"
+        },
+        {
+          "value": "database",
+          "expanded": "Searched historcial database logs.",
+          "colour": "#0092b9"
+        },
+        {
+          "value": "mail",
+          "expanded": "Searched historical mail logs.",
+          "colour": "#009ac2"
+        },
+        {
+          "value": "antivirus",
+          "expanded": "Searched historical antivirus alerts.",
+          "colour": "#00a1cb"
+        },
+        {
+          "value": "malware-collection",
+          "expanded": "Retro hunted in a malware collection.",
+          "colour": "#00a8d5"
+        },
+        {
+          "value": "other",
+          "expanded": "Searched other historical data.",
+          "colour": "#00b0de"
+        },
+        {
+          "value": "unspecified",
+          "expanded": "Unspecified information.",
+          "colour": "#00b7e7"
+        }
+      ]
+    },
+    {
+      "predicate": "detect",
+      "entry": [
+        {
+          "value": "proxy",
+          "expanded": "Detect by Proxy infrastructure",
+          "colour": "#0abdeb"
+        },
+        {
+          "value": "nids",
+          "expanded": "Detect by Network Intrusion detection system.",
+          "colour": "#13c5f4"
+        },
+        {
+          "value": "hids",
+          "expanded": "Detect by Host Intrusion detection system.",
+          "colour": "#24c9f5"
+        },
+        {
+          "value": "other",
+          "expanded": "Detect by other tools.",
+          "colour": "#35cef5"
+        },
+        {
+          "value": "syslog",
+          "expanded": "Detect in system logs.",
+          "colour": "#45d2f6"
+        },
+        {
+          "value": "firewall",
+          "expanded": "Detect by firewall.",
+          "colour": "#56d6f7"
+        },
+        {
+          "value": "email",
+          "expanded": "Detect by MTA.",
+          "colour": "#67daf8"
+        },
+        {
+          "value": "web",
+          "expanded": "Detect by web infrastructure including WAF.",
+          "colour": "#78def8"
+        },
+        {
+          "value": "database",
+          "expanded": "Detect in database.",
+          "colour": "#89e2f9"
+        },
+        {
+          "value": "remote-access",
+          "expanded": "Detect in remote-access logs.",
+          "colour": "#9ae6fa"
+        },
+        {
+          "value": "malware-collection",
+          "expanded": "Detect in malware-collection.",
+          "colour": "#aaeafb"
+        },
+        {
+          "value": "antivirus",
+          "expanded": "Detect with antivirus.",
+          "colour": "#bbeefb"
+        },
+        {
+          "value": "unspecified",
+          "expanded": "Unspecified information.",
+          "colour": "#ccf2fc"
+        }
+      ]
+    },
+    {
+      "predicate": "deny",
+      "entry": [
+        {
+          "value": "proxy",
+          "expanded": "Implemented a proxy filter.",
+          "colour": "#f09105"
+        },
+        {
+          "value": "firewall",
+          "expanded": "Implemented a block rule on a firewall.",
+          "colour": "#f99a0e"
+        },
+        {
+          "value": "waf",
+          "expanded": "Implemented a block rule on a web application firewall.",
+          "colour": "#f9a11f"
+        },
+        {
+          "value": "email",
+          "expanded": "Implemented a filter on a mail transfer agent.",
+          "colour": "#faa830"
+        },
+        {
+          "value": "chroot",
+          "expanded": "Implemented a chroot jail.",
+          "colour": "#faaf41"
+        },
+        {
+          "value": "remote-access",
+          "expanded": "Blocked an account for remote access.",
+          "colour": "#fbb653"
+        },
+        {
+          "value": "other",
+          "expanded": "Denied an action by other means.",
+          "colour": "#fbbe64"
+        },
+        {
+          "value": "unspecified",
+          "expanded": "Unspecified information.",
+          "colour": "#fbc575"
+        }
+      ]
+    },
+    {
+      "predicate": "disrupt",
+      "entry": [
+        {
+          "value": "nips",
+          "expanded": "Implemented a rule on a network IPS.",
+          "colour": "#660389"
+        },
+        {
+          "value": "hips",
+          "expanded": "Implemented a rule on a host-based IPS.",
+          "colour": "#73039a"
+        },
+        {
+          "value": "other",
+          "expanded": "Disrupted an action by other means.",
+          "colour": "#8003ab"
+        },
+        {
+          "value": "email",
+          "expanded": "Quarantined an email.",
+          "colour": "#8d04bd"
+        },
+        {
+          "value": "memory-protection",
+          "expanded": "Implemented memory protection like DEP and/or ASLR.",
+          "colour": "#9a04ce"
+        },
+        {
+          "value": "sandboxing",
+          "expanded": "Exploded in a sandbox.",
+          "colour": "#a605df"
+        },
+        {
+          "value": "antivirus",
+          "expanded": "Activated an antivirus signature.",
+          "colour": "#b305f0"
+        },
+        {
+          "value": "unspecified",
+          "expanded": "Unspecified information.",
+          "colour": "#bc0ef9"
+        }
+      ]
+    },
+    {
+      "predicate": "degrade",
+      "entry": [
+        {
+          "value": "bandwidth",
+          "expanded": "Throttled the bandwidth.",
+          "colour": "#0421ce"
+        },
+        {
+          "value": "tarpit",
+          "expanded": "Implement a network tarpit.",
+          "colour": "#0523df"
+        },
+        {
+          "value": "other",
+          "expanded": "Degraded an action by other means.",
+          "colour": "#0526f0"
+        },
+        {
+          "value": "email",
+          "expanded": "Queued an email.",
+          "colour": "#0e2ff9"
+        },
+        {
+          "value": "unspecified",
+          "expanded": "Unspecified information.",
+          "colour": "#1f3ef9"
+        }
+      ]
+    },
+    {
+      "predicate": "deceive",
+      "entry": [
+        {
+          "value": "honeypot",
+          "expanded": "Implemented an interactive honeypot.",
+          "colour": "#0eb274"
+        },
+        {
+          "value": "DNS",
+          "expanded": "Implemented DNS redirects, e.g. a response policy zone.",
+          "colour": "#10c37f"
+        },
+        {
+          "value": "other",
+          "expanded": "Deceived the attacker with other technology.",
+          "colour": "#11d389"
+        },
+        {
+          "value": "email",
+          "expanded": "Implemented email redirection.",
+          "colour": "#12e394"
+        },
+        {
+          "value": "unspecified",
+          "expanded": "Unspecified information.",
+          "colour": "#1bec9d"
+        }
+      ]
+    },
+    {
+      "predicate": "destroy",
+      "entry": [
+        {
+          "value": "arrest",
+          "expanded": "Arrested the threat actor.",
+          "colour": "#c33210"
+        },
+        {
+          "value": "seize",
+          "expanded": "Seized attacker infrastructure.",
+          "colour": "#d33611"
+        },
+        {
+          "value": "physical",
+          "expanded": "Physically destroyed attacker hardware.",
+          "colour": "#e33b12"
+        },
+        {
+          "value": "dos",
+          "expanded": "Performed a denial-of-service attack against attacker infrastructure.",
+          "colour": "#ec441b"
+        },
+        {
+          "value": "hack-back",
+          "expanded": "Hack back against the threat actor.",
+          "colour": "#ed512b"
+        },
+        {
+          "value": "other",
+          "expanded": "Carried out other offensive actions against the attacker.",
+          "colour": "#ee5e3b"
+        },
+        {
+          "value": "unspecified",
+          "expanded": "Unspecified information.",
+          "colour": "#f06c4c"
+        }
+      ]
+    }
+  ]
+}

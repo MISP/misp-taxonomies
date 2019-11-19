@@ -1,13 +1,20 @@
 {
   "namespace": "false-positive",
   "description": "This taxonomy aims to ballpark the expected amount of false positives.",
-  "version": 1,
+  "version": 5,
   "expanded": "False positive",
   "predicates": [
     {
       "value": "risk",
       "expanded": "Risk",
-      "description": "Risk of having false positives in the tagged value."
+      "description": "Risk of having false positives in the tagged value.",
+      "exclusive": true
+    },
+    {
+      "value": "confirmed",
+      "expanded": "Confirmed",
+      "description": "Confirmed false positives in the tagged value.",
+      "exclusive": true
     }
   ],
   "values": [
@@ -18,7 +25,7 @@
           "value": "low",
           "expanded": "Low",
           "description": "The risk of having false positives in the tagged value is low.",
-          "numerical_value": 25
+          "numerical_value": 75
         },
         {
           "value": "medium",
@@ -30,7 +37,24 @@
           "value": "high",
           "expanded": "High",
           "description": "The risk of having false positives in the tagged value is high.",
-          "numerical_value": 75
+          "numerical_value": 25
+        }
+      ]
+    },
+    {
+      "predicate": "confirmed",
+      "entry": [
+        {
+          "value": "true",
+          "expanded": "True",
+          "description": "The false positive is confirmed.",
+          "numerical_value": 0
+        },
+        {
+          "value": "false",
+          "expanded": "False",
+          "description": "The flase positive is not confirmed.",
+          "numerical_value": 50
         }
       ]
     }

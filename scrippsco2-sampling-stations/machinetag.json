@@ -1,0 +1,59 @@
+{
+  "predicates": [
+    {
+      "expanded": "Alert, NWT, Canada",
+      "value": "ALT"
+    },
+    {
+      "expanded": "Point Barrow, Alaska",
+      "value": "PTB"
+    },
+    {
+      "expanded": "Station P",
+      "value": "STP"
+    },
+    {
+      "expanded": "La Jolla Pier, California",
+      "value": "LJO"
+    },
+    {
+      "expanded": "Baja California Sur, Mexico",
+      "value": "BCS"
+    },
+    {
+      "expanded": "Mauna Loa Observatory, Hawaii",
+      "value": "MLO"
+    },
+    {
+      "expanded": "Cape Kumukahi, Hawaii ",
+      "value": "KUM"
+    },
+    {
+      "expanded": "Christmas Island, Fanning Island",
+      "value": "CHR"
+    },
+    {
+      "expanded": "American Samoa",
+      "value": "SAM"
+    },
+    {
+      "expanded": "Kermadec Islands, Raoul Island",
+      "value": "KER"
+    },
+    {
+      "expanded": "Baring Head, New Zealand",
+      "value": "NZD"
+    },
+    {
+      "expanded": "Palmer Station, Antarctica",
+      "value": "PSA"
+    },
+    {
+      "expanded": "South Pole",
+      "value": "SPO"
+    }
+  ],
+  "version": 1,
+  "description": "Sampling stations of the Scripps CO2 Program",
+  "namespace": "scrippsco2-sampling-stations"
+}

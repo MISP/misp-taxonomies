@@ -153,6 +153,26 @@
           "value": "invalid"
         }
       ]
+    },
+    {
+      "predicate": "ids",
+      "entry": [
+        {
+          "expanded": "force",
+          "value": "force",
+          "description": "Force the IDS flag to be the one from the tag."
+        },
+        {
+          "expanded": "true",
+          "value": "true",
+          "description": "Overwrite the current IDS flag of the information tag by IDS true."
+        },
+        {
+          "expanded": "false",
+          "value": "false",
+          "description": "Overwrite the current IDS flag of the information tag by IDS false."
+        }
+      ]
     }
   ],
   "predicates": [
@@ -165,8 +185,8 @@
       "value": "api"
     },
     {
-      "expanded": "misp2yara export tool",
-      "value": "misp2yara"
+      "expanded": "IDS related tag unfluencing the MISP behavior of the IDS flag.",
+      "value": "ids"
     },
     {
       "description": "Expansion tag incluencing the MISP behavior using expansion modules",
@@ -179,11 +199,13 @@
     },
     {
       "expanded": "Confidence level",
-      "value": "confidence-level"
+      "value": "confidence-level",
+      "exclusive": true
     },
     {
       "expanded": "Cyberthreat Effect Universal Scale - MISP's internal threat level taxonomy",
-      "value": "threat-level"
+      "value": "threat-level",
+      "exclusive": true
     },
     {
       "expanded": "Automation level",
@@ -199,9 +221,14 @@
       "description": "Tool associated with the information taggged",
       "expanded": "Tool",
       "value": "tool"
+    },
+    {
+      "expanded": "misp2yara export tool",
+      "value": "misp2yara",
+      "exclusive": true
     }
   ],
-  "version": 9,
+  "version": 11,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"

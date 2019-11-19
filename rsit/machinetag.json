@@ -206,12 +206,7 @@
           "description": "Publicly accessible services potentially disclosing sensitive information, e.g. SNMP or Redis.",
           "expanded": "Information disclosure",
           "value": "information-disclosure"
-        }
-      ],
-      "predicate": "vulnerable"
-    },
-    {
-      "entry": [
+        },
         {
           "description": "A system which is vulnerable to certain attacks. Example: misconfigured client proxy settings (example: WPAD), outdated operating system version, etc.",
           "expanded": "Vulnerable system",
@@ -298,7 +293,7 @@
       "value": "test"
     }
   ],
-  "version": 2,
+  "version": 3,
   "description": "Reference Security Incident Classification Taxonomy",
   "namespace": "rsit"
 }
