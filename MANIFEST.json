@@ -394,6 +394,11 @@
       "version": 2
     },
     {
+      "description": "Malware Database (mwdb) Taxonomy - Tags used across the platform",
+      "name": "mwdb",
+      "version": 2
+    },
+    {
       "description": "NATO classification markings.",
       "name": "nato",
       "version": 2
@@ -529,16 +534,11 @@
       "version": 3
     },
     {
-      "version": 1,
-      "name": "mwdb",
-      "description": "Malware Database (mwdb) Taxonomy - Tags used across the platform"
-    },
-    {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
       "version": 10
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20191119"
+  "version": "20191121"
 }
