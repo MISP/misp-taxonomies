@@ -1,7 +1,7 @@
 {
   "namespace": "mwdb",
   "description": "Malware Database (mwdb) Taxonomy - Tags used across the platform",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "location_type",
@@ -48,307 +48,408 @@
       "predicate": "family",
       "entry": [
         {
-          "value": "agenttesla"
+          "value": "agenttesla",
+          "expanded": "agenttesla"
         },
         {
-          "value": "andromeda"
+          "value": "andromeda",
+          "expanded": "andromeda"
         },
         {
-          "value": "anubis"
+          "value": "anubis",
+          "expanded": "anubis"
         },
         {
-          "value": "avemaria"
+          "value": "avemaria",
+          "expanded": "avemaria"
         },
         {
-          "value": "azorult"
+          "value": "azorult",
+          "expanded": "azorult"
         },
         {
-          "value": "brushaloader"
+          "value": "brushaloader",
+          "expanded": "brushaloader"
         },
         {
-          "value": "bublik"
+          "value": "bublik",
+          "expanded": "bublik"
         },
         {
-          "value": "bunitu"
+          "value": "bunitu",
+          "expanded": "bunitu"
         },
         {
-          "value": "cerber"
+          "value": "cerber",
+          "expanded": "cerber"
         },
         {
-          "value": "chthonic"
+          "value": "chthonic",
+          "expanded": "chthonic"
         },
         {
-          "value": "citadel"
+          "value": "citadel",
+          "expanded": "citadel"
         },
         {
-          "value": "corebot"
+          "value": "corebot",
+          "expanded": "corebot"
         },
         {
-          "value": "cryptomix"
+          "value": "cryptomix",
+          "expanded": "cryptomix"
         },
         {
-          "value": "cryptoshield"
+          "value": "cryptoshield",
+          "expanded": "cryptoshield"
         },
         {
-          "value": "cryptowall"
+          "value": "cryptowall",
+          "expanded": "cryptowall"
         },
         {
-          "value": "danabot"
+          "value": "danabot",
+          "expanded": "danabot"
         },
         {
-          "value": "danaloader"
+          "value": "danaloader",
+          "expanded": "danaloader"
         },
         {
-          "value": "dridex"
+          "value": "dridex",
+          "expanded": "dridex"
         },
         {
-          "value": "dridex-worker"
+          "value": "dridex-worker",
+          "expanded": "dridex-worker"
         },
         {
-          "value": "dyre"
+          "value": "dyre",
+          "expanded": "dyre"
         },
         {
-          "value": "emotet"
+          "value": "emotet",
+          "expanded": "emotet"
         },
         {
-          "value": "emotet5_upnp"
+          "value": "emotet5_upnp",
+          "expanded": "emotet5_upnp"
         },
         {
-          "value": "emotet_doc"
+          "value": "emotet_doc",
+          "expanded": "emotet_doc"
         },
         {
-          "value": "emotet_spam"
+          "value": "emotet_spam",
+          "expanded": "emotet_spam"
         },
         {
-          "value": "emotet_upnp"
+          "value": "emotet_upnp",
+          "expanded": "emotet_upnp"
         },
         {
-          "value": "evil-pony"
+          "value": "evil-pony",
+          "expanded": "evil-pony"
         },
         {
-          "value": "flokibot"
+          "value": "flokibot",
+          "expanded": "flokibot"
         },
         {
-          "value": "formbook"
+          "value": "formbook",
+          "expanded": "formbook"
         },
         {
-          "value": "gandcrab"
+          "value": "gandcrab",
+          "expanded": "gandcrab"
         },
         {
-          "value": "get2"
+          "value": "get2",
+          "expanded": "get2"
         },
         {
-          "value": "globeimposter"
+          "value": "globeimposter",
+          "expanded": "globeimposter"
         },
         {
-          "value": "gluedropper"
+          "value": "gluedropper",
+          "expanded": "gluedropper"
         },
         {
-          "value": "gootkit"
+          "value": "gootkit",
+          "expanded": "gootkit"
         },
         {
-          "value": "h1n1"
+          "value": "h1n1",
+          "expanded": "h1n1"
         },
         {
-          "value": "hancitor"
+          "value": "hancitor",
+          "expanded": "hancitor"
         },
         {
-          "value": "hawkeye"
+          "value": "hawkeye",
+          "expanded": "hawkeye"
         },
         {
-          "value": "icedid"
+          "value": "icedid",
+          "expanded": "icedid"
         },
         {
-          "value": "iceid"
+          "value": "iceid",
+          "expanded": "iceid"
         },
         {
-          "value": "iceix"
+          "value": "iceix",
+          "expanded": "iceix"
         },
         {
-          "value": "isfb"
+          "value": "isfb",
+          "expanded": "isfb"
         },
         {
-          "value": "jaff"
+          "value": "jaff",
+          "expanded": "jaff"
         },
         {
-          "value": "kbot"
+          "value": "kbot",
+          "expanded": "kbot"
         },
         {
-          "value": "kegotip"
+          "value": "kegotip",
+          "expanded": "kegotip"
         },
         {
-          "value": "kins"
+          "value": "kins",
+          "expanded": "kins"
         },
         {
-          "value": "kovter"
+          "value": "kovter",
+          "expanded": "kovter"
         },
         {
-          "value": "kpot"
+          "value": "kpot",
+          "expanded": "kpot"
         },
         {
-          "value": "kronos"
+          "value": "kronos",
+          "expanded": "kronos"
         },
         {
-          "value": "locky"
+          "value": "locky",
+          "expanded": "locky"
         },
         {
-          "value": "lokibot"
+          "value": "lokibot",
+          "expanded": "lokibot"
         },
         {
-          "value": "madlocker"
+          "value": "madlocker",
+          "expanded": "madlocker"
         },
         {
-          "value": "madness_pro"
+          "value": "madness_pro",
+          "expanded": "madness_pro"
         },
         {
-          "value": "maoloa"
+          "value": "maoloa",
+          "expanded": "maoloa"
         },
         {
-          "value": "mirai"
+          "value": "mirai",
+          "expanded": "mirai"
         },
         {
-          "value": "mmbb"
+          "value": "mmbb",
+          "expanded": "mmbb"
         },
         {
-          "value": "nanocore"
+          "value": "nanocore",
+          "expanded": "nanocore"
         },
         {
-          "value": "necurs"
+          "value": "necurs",
+          "expanded": "necurs"
         },
         {
-          "value": "netwire"
+          "value": "netwire",
+          "expanded": "netwire"
         },
         {
-          "value": "neutrino"
+          "value": "neutrino",
+          "expanded": "neutrino"
         },
         {
-          "value": "njrat"
+          "value": "njrat",
+          "expanded": "njrat"
         },
         {
-          "value": "nymaim"
+          "value": "nymaim",
+          "expanded": "nymaim"
         },
         {
-          "value": "odinaff"
+          "value": "odinaff",
+          "expanded": "odinaff"
         },
         {
-          "value": "onliner"
+          "value": "onliner",
+          "expanded": "onliner"
         },
         {
-          "value": "ostap"
+          "value": "ostap",
+          "expanded": "ostap"
         },
         {
-          "value": "panda"
+          "value": "panda",
+          "expanded": "panda"
         },
         {
-          "value": "phorpiex"
+          "value": "phorpiex",
+          "expanded": "phorpiex"
         },
         {
-          "value": "pony"
+          "value": "pony",
+          "expanded": "pony"
         },
         {
-          "value": "pushdo"
+          "value": "pushdo",
+          "expanded": "pushdo"
         },
         {
-          "value": "qadars"
+          "value": "qadars",
+          "expanded": "qadars"
         },
         {
-          "value": "qakbot"
+          "value": "qakbot",
+          "expanded": "qakbot"
         },
         {
-          "value": "quantloader"
+          "value": "quantloader",
+          "expanded": "quantloader"
         },
         {
-          "value": "quasarrat"
+          "value": "quasarrat",
+          "expanded": "quasarrat"
         },
         {
-          "value": "ramnit"
+          "value": "ramnit",
+          "expanded": "ramnit"
         },
         {
-          "value": "remcos"
+          "value": "remcos",
+          "expanded": "remcos"
         },
         {
-          "value": "retefe"
+          "value": "retefe",
+          "expanded": "retefe"
         },
         {
-          "value": "ruckguv"
+          "value": "ruckguv",
+          "expanded": "ruckguv"
         },
         {
-          "value": "sage"
+          "value": "sage",
+          "expanded": "sage"
         },
         {
-          "value": "sendsafe"
+          "value": "sendsafe",
+          "expanded": "sendsafe"
         },
         {
-          "value": "shifu"
+          "value": "shifu",
+          "expanded": "shifu"
         },
         {
-          "value": "slave"
+          "value": "slave",
+          "expanded": "slave"
         },
         {
-          "value": "smokeloader"
+          "value": "smokeloader",
+          "expanded": "smokeloader"
         },
         {
-          "value": "systembc"
+          "value": "systembc",
+          "expanded": "systembc"
         },
         {
-          "value": "teslacrypt"
+          "value": "teslacrypt",
+          "expanded": "teslacrypt"
         },
         {
-          "value": "test"
+          "value": "test",
+          "expanded": "test"
         },
         {
-          "value": "testmod"
+          "value": "testmod",
+          "expanded": "testmod"
         },
         {
-          "value": "tinba"
+          "value": "tinba",
+          "expanded": "tinba"
         },
         {
-          "value": "tinba_dga"
+          "value": "tinba_dga",
+          "expanded": "tinba_dga"
         },
         {
-          "value": "tinynuke"
+          "value": "tinynuke",
+          "expanded": "tinynuke"
         },
         {
-          "value": "tofsee"
+          "value": "tofsee",
+          "expanded": "tofsee"
         },
         {
-          "value": "torment"
+          "value": "torment",
+          "expanded": "torment"
         },
         {
-          "value": "torrentlocker"
+          "value": "torrentlocker",
+          "expanded": "torrentlocker"
         },
         {
-          "value": "trickbot"
+          "value": "trickbot",
+          "expanded": "trickbot"
         },
         {
-          "value": "troldesh"
+          "value": "troldesh",
+          "expanded": "troldesh"
         },
         {
-          "value": "unknown"
+          "value": "unknown",
+          "expanded": "unknown"
         },
         {
-          "value": "vawtrak"
+          "value": "vawtrak",
+          "expanded": "vawtrak"
         },
         {
-          "value": "vjworm"
+          "value": "vjworm",
+          "expanded": "vjworm"
         },
         {
-          "value": "vmzeus"
+          "value": "vmzeus",
+          "expanded": "vmzeus"
         },
         {
-          "value": "vmzeus2"
+          "value": "vmzeus2",
+          "expanded": "vmzeus2"
         },
         {
-          "value": "wannacry"
+          "value": "wannacry",
+          "expanded": "wannacry"
         },
         {
-          "value": "xagent"
+          "value": "xagent",
+          "expanded": "xagent"
         },
         {
-          "value": "zeus"
+          "value": "zeus",
+          "expanded": "zeus"
         },
         {
-          "value": "zloader"
+          "value": "zloader",
+          "expanded": "zloader"
         }
       ]
     }
