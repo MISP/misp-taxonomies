@@ -72,10 +72,6 @@
       "description": "Information about the constraints security places on interactions within and across the government, agencies and 3th parties."
     },
     {
-      "value": "controls-risk-governance",
-      "expanded": "Controls Risk Governance"
-    },
-    {
       "value": "contracts-arrangement",
       "expanded": "Contracts Arrangement",
       "description": "Information relating to contracts, agreements or other arrangements with other agencies, governments, public or private organizations."
@@ -94,6 +90,10 @@
       "value": "contracts-jurisdiction",
       "expanded": "Contracts Jurisdicrion",
       "description": "nformation about political and geographical areas in which an organisation operates."
+    },
+    {
+      "value": "controls-risk-governance",
+      "expanded": "Controls Risk Governance"
     }
   ],
   "values": [

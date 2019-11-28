@@ -185,10 +185,6 @@
       "value": "api"
     },
     {
-      "expanded": "IDS related tag unfluencing the MISP behavior of the IDS flag.",
-      "value": "ids"
-    },
-    {
       "description": "Expansion tag incluencing the MISP behavior using expansion modules",
       "expanded": "Expansion",
       "value": "expansion"
@@ -226,6 +222,10 @@
       "expanded": "misp2yara export tool",
       "value": "misp2yara",
       "exclusive": true
+    },
+    {
+      "expanded": "IDS related tag unfluencing the MISP behavior of the IDS flag.",
+      "value": "ids"
     }
   ],
   "version": 11,
