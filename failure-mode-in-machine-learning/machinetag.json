@@ -1,0 +1,118 @@
+{
+  "predicates": [
+    {
+      "description": "Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.",
+      "expanded": "Unintended Failures Summary",
+      "value": "unintended-failures-summary"
+    },
+    {
+      "expanded": "Intentionally-Motivated Failures Summary",
+      "description": "Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm.",
+      "value": "intentionally-motivated-failures-summary"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "intentionally-motivated-failures-summary",
+      "entry": [
+        {
+          "value": "1-perturbation-attack",
+          "expanded": "Perturbation attack",
+          "description": "Attacker modifies the query to get appropriate response. It doesn't violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "2-poisoning-attack",
+          "expanded": "Poisoning attack",
+          "description": "Attacker contaminates the training phase of ML systems to get intended result. It doesn't violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "3-model-inversion",
+          "expanded": "Model Inversion",
+          "description": "Attacker recovers the secret features used in the model by through careful queries. It doesn't violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "4-membership-inference",
+          "expanded": "Membership Inference",
+          "description": "Attacker can infer if a given data record was part of the model’s training dataset or not. It doesn't violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "5-model-stealing",
+          "expanded": "Model Stealing",
+          "description": "Attacker is able to recover the model through carefully-crafted queries. It doesn't violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "6-reprogramming-ML-system",
+          "expanded": "Reprogramming ML system",
+          "description": "Repurpose the ML system to perform an activity it was not programmed for. It doesn't violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "7-adversarial-example-in-physical-domain",
+          "expanded": "Adversarial Example in Physical Domain ",
+          "description": "Repurpose the ML system to perform an activity it was not programmed for. It doesn't violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "8-malicious-ML-provider-recovering-training-data",
+          "expanded": "Malicious ML provider recovering training data",
+          "description": "Malicious ML provider can query the model used by customer and recover customer’s training data. It does violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "9-attacking-the-ML-supply-chain",
+          "expanded": "Attacking the ML supply chain",
+          "description": "Attacker compromises the ML models as it is being downloaded for use. It does violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "10-backdoor-ML",
+          "expanded": "Backdoor ML",
+          "description": "Malicious ML provider backdoors algorithm to activate with a specific trigger. It does violate traditional technological notion of access/authorization."
+        },
+        {
+          "value": "10-exploit-software-dependencies",
+          "expanded": "Exploit Software Dependencies",
+          "description": "Attacker uses traditional software exploits like buffer overflow to confuse/control ML systems. It does violate traditional technological notion of access/authorization."
+        }
+      ]
+    },
+    {
+      "predicate": "unintended-failures-summary",
+      "entry": [
+        {
+          "value": "12-reward-hacking",
+          "expanded": "Reward Hacking",
+          "description": "Reinforcement Learning (RL) systems act in unintended ways because of mismatch between stated reward and true reward"
+        },
+        {
+          "value": "13-side-effects",
+          "expanded": "Side Effects",
+          "description": "RL system disrupts the environment as it tries to attain its goal"
+        },
+        {
+          "value": "14-distributional-shifts",
+          "expanded": "Distributional shifts",
+          "description": "The system is tested in one kind of environment, but is unable to adapt to changes in other kinds of environment"
+        },
+        {
+          "value": "15-natural-adversarial-examples",
+          "expanded": "Natural Adversarial Examples",
+          "description": "Without attacker perturbations, the ML system fails owing to hard negative mining"
+        },
+        {
+          "value": "16-common-corruption",
+          "expanded": "Common Corruption",
+          "description": "The system is not able to handle common corruptions and perturbations such as tilting, zooming, or noisy images"
+        },
+        {
+          "value": "17-incomplete-testing",
+          "expanded": "Incomplete Testing",
+          "description": "The ML system is not tested in the realistic conditions that it is meant to operate in"
+        }
+      ]
+    }
+  ],
+  "refs": [
+    "https://docs.microsoft.com/en-us/security/failure-modes-in-machine-learning"
+  ],
+  "version": 1,
+  "description": "The purpose of this taxonomy is to jointly tabulate both the of these failure modes in a single place. Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm. Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.",
+  "expanded": "Failure mode in machine learning.",
+  "namespace": "failure-mode-in-machine-learning"
+}
