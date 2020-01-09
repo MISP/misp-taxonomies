@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2019-11-05
+- Generation date: 2020-01-09
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -253,11 +253,11 @@
     - sensitivity-classification
 ### cssa
 - description: The CSSA agreed sharing taxonomy.
-- version: 7
+- version: 8
 - Predicates
     - sharing-class
-    - origin
     - report
+    - origin
     - analyse
 ### cyber-threat-framework
 - description: Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries. https://www.dni.gov/index.php/cyber-threat-framework
@@ -501,7 +501,7 @@
     - event-class
 ### exercise
 - description: Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.
-- version: 5
+- version: 7
 - Predicates
     - cyber-europe
     - cyber-storm
@@ -510,9 +510,15 @@
     - cyber-coalition
     - pace
     - cyber-sopex
+### failure-mode-in-machine-learning
+- description: The purpose of this taxonomy is to jointly tabulate both the of these failure modes in a single place. Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm. Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.
+- version: 1
+- Predicates
+    - unintended-failures-summary
+    - intentionally-motivated-failures-summary
 ### false-positive
 - description: This taxonomy aims to ballpark the expected amount of false positives.
-- version: 4
+- version: 5
 - Predicates
     - risk
     - confirmed
@@ -614,11 +620,11 @@
     - controls-law
     - controls-personal
     - controls-security
-    - controls-risk-governance
     - contracts-arrangement
     - contracts-rights
     - contracts-obligation
     - contracts-jurisdiction
+    - controls-risk-governance
 ### gsma-attack-category
 - description: Taxonomy used by GSMA for their information sharing program with telco describing the attack categories
 - version: 1
@@ -697,6 +703,30 @@
     - name
     - version
     - id
+### iep2-policy
+- description: Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) v2.0 Policy
+- version: 1
+- Predicates
+    - id
+    - name
+    - description
+    - iep_version
+    - start_date
+    - end_date
+    - encrypt_in_transit
+    - permitted_actions
+    - affected_party_notifications
+    - tlp
+    - attribution
+    - unmodified_resale
+    - external_reference
+### iep2-reference
+- description: Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) v2.0 Reference
+- version: 1
+- Predicates
+    - id_ref
+    - url
+    - iep_version
 ### ifx-vetting
 - description: The IFX taxonomy is used to categorise information (MISP events and attributes) to aid in the intelligence vetting process
 - version: 3
@@ -761,7 +791,7 @@
     - other
 ### iot
 - description: Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf
-- version: 1
+- version: 2
 - Predicates
     - TCom
     - SSL
@@ -807,7 +837,7 @@
     - memory-classification
 ### misp
 - description: MISP taxonomy to infer with MISP behavior or operation.
-- version: 10
+- version: 11
 - Predicates
     - ui
     - api
@@ -819,6 +849,7 @@
     - should-not-sync
     - tool
     - misp2yara
+    - ids
 ### monarc-threat
 - description: MONARC Threats Taxonomy
 - version: 1
@@ -842,6 +873,12 @@
     - malware-type
     - malware-platform
     - malware-family
+### mwdb
+- description: Malware Database (mwdb) Taxonomy - Tags used across the platform
+- version: 2
+- Predicates
+    - location_type
+    - family
 ### nato
 - description: NATO classification markings.
 - version: 2
