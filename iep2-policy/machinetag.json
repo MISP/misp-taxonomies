@@ -1,0 +1,239 @@
+{
+  "namespace": "iep2-policy",
+  "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) v2.0 Policy",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "id",
+      "expanded": "POLICY ID",
+      "description": "Provides a unique ID to identify a specific IEP policy."
+    },
+    {
+      "value": "name",
+      "expanded": "POLICY NAME",
+      "description": "This statement can be used to provide a name for an IEP policy."
+    },
+    {
+      "value": "description",
+      "expanded": "POLICY DESCRIPTION",
+      "description": "This statement can be used to provide more details as a background for an IEP policy."
+    },
+    {
+      "value": "iep_version",
+      "expanded": "IEP POLICY VERSION",
+      "description": "States the version of the IEP framework that has been used. Must be set to 2.0."
+    },
+    {
+      "value": "start_date",
+      "expanded": "POLICY START DATE",
+      "description": "States the UTC date that the IEP is effective from."
+    },
+    {
+      "value": "end_date",
+      "expanded": "POLICY END DATE",
+      "description": "States the UTC date that the IEP is effective until."
+    },
+    {
+      "value": "encrypt_in_transit",
+      "expanded": "ENCRYPT IN TRANSIT",
+      "description": "States whether the received information has to be encrypted when it is retransmitted by the recipient."
+    },
+    {
+      "value": "permitted_actions",
+      "expanded": "PERMITTED ACTIONS",
+      "description": "States the permitted actions that Recipients can take upon information received."
+    },
+    {
+      "value": "affected_party_notifications",
+      "expanded": "AFFECTED PARTY NOTIFICATIONS",
+      "description": "Recipients are permitted notify affected third parties of a potential compromise or threat."
+    },
+    {
+      "value": "tlp",
+      "expanded": "TRAFFIC LIGHT PROTOCOL",
+      "description": "Recipients are permitted to redistribute the information received within the redistribution scope as defined by the enumerations."
+    },
+    {
+      "value": "attribution",
+      "expanded": "ATTRIBUTION",
+      "description": "Recipients could be required to attribute or anonymize the Provider when redistributing the information received."
+    },
+    {
+      "value": "unmodified_resale",
+      "expanded": "UNMODIFIED RESALE",
+      "description": "States whether the recipient MAY or MUST NOT resell the information received unmodified or in a semantically equivalent format."
+    },
+    {
+      "value": "external_reference",
+      "expanded": "EXTERNAL REFERENCE",
+      "description": "This statement can be used to convey a description or reference to any applicable licenses, agreements, or conditions between the producer and receiver."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "id",
+      "entry": [
+        {
+          "value": "$text",
+          "expanded": "An id value is required"
+        }
+      ]
+    },
+    {
+      "predicate": "name",
+      "entry": [
+        {
+          "value": "$text",
+          "expanded": "A name value is required"
+        }
+      ]
+    },
+    {
+      "predicate": "description",
+      "entry": [
+        {
+          "value": "$text",
+          "expanded": "A description value is required"
+        }
+      ]
+    },
+    {
+      "predicate": "iep_version",
+      "entry": [
+        {
+          "value": "2.0",
+          "expanded": "The IEP version value must be 2.0"
+        }
+      ]
+    },
+    {
+      "predicate": "start_date",
+      "entry": [
+        {
+          "value": "$text",
+          "expanded": "A start_date value is required.  It must be a UTC date in RFC3339 format."
+        }
+      ]
+    },
+    {
+      "predicate": "end_date",
+      "entry": [
+        {
+          "value": "$text",
+          "expanded": "An end_date value is required. It must be a UTC date in RFC3339 format, or 'null'. null is used when the IEP policy never expires."
+        }
+      ]
+    },
+    {
+      "predicate": "encrypt_in_transit",
+      "entry": [
+        {
+          "value": "must",
+          "expanded": "Recipients MUST encrypt the information received when it is retransmitted or redistributed."
+        },
+        {
+          "value": "may",
+          "expanded": "Recipients MAY encrypt the information received when it is retransmitted or redistributed."
+        }
+      ]
+    },
+    {
+      "predicate": "permitted_actions",
+      "entry": [
+        {
+          "value": "none",
+          "expanded": "Recipients MUST contact the Providers before acting upon the information received."
+        },
+        {
+          "value": "contact-for-instruction",
+          "expanded": "Recipients MUST contact the Providers before acting upon the information received."
+        },
+        {
+          "value": "internally-visible-actions",
+          "expanded": "Recipients MAY conduct actions on the information received that are only visible on the Recipients internal networks and systems, and MUST NOT conduct actions that are visible outside of the Recipients networks and systems, or visible to third parties."
+        },
+        {
+          "value": "externally-visible-indirect-actions",
+          "expanded": "Recipients MAY conduct indirect, or passive, actions on the information received that are externally visible and MUST NOT conduct direct, or active, actions."
+        },
+        {
+          "value": "externally-visible-direct-actions",
+          "expanded": "Recipients MAY conduct direct, or active, actions on the information received that are externally visible."
+        }
+      ]
+    },
+    {
+      "predicate": "affected_party_notifications",
+      "entry": [
+        {
+          "value": "may",
+          "expanded": "Recipients MAY notify affected parties of a potential compromise or threat."
+        },
+        {
+          "value": "must-not",
+          "expanded": "Recipients MUST NOT notify affected parties of potential compromise or threat."
+        }
+      ]
+    },
+    {
+      "predicate": "tlp",
+      "entry": [
+        {
+          "value": "red",
+          "expanded": "Personal for identified recipients only."
+        },
+        {
+          "value": "amber",
+          "expanded": "Limited sharing on the basis of need-to-know."
+        },
+        {
+          "value": "green",
+          "expanded": "Community wide sharing."
+        },
+        {
+          "value": "white",
+          "expanded": "Unlimited sharing."
+        }
+      ]
+    },
+    {
+      "predicate": "attribution",
+      "entry": [
+        {
+          "value": "may",
+          "expanded": "Recipients MAY attribute the Provider when redistributing the information received."
+        },
+        {
+          "value": "must",
+          "expanded": "Recipients MUST attribute the Provider when redistributing the information received."
+        },
+        {
+          "value": "must-not",
+          "expanded": "Recipients MUST NOT attribute the Provider when redistributing the information received."
+        }
+      ]
+    },
+    {
+      "predicate": "unmodified_resale",
+      "entry": [
+        {
+          "value": "may",
+          "expanded": "Recipients MAY resell the information received."
+        },
+        {
+          "value": "must-not",
+          "expanded": "Recipients MUST NOT resell the information received unmodified or in a semantically equivalent format."
+        }
+      ]
+    },
+    {
+      "predicate": "external_reference",
+      "entry": [
+        {
+          "value": "$text",
+          "expanded": "An external_reference value is a URL that contains information relevant for this IEP policy. The URL MUST adhere to RFC3986."
+        }
+      ]
+    }
+  ]
+}

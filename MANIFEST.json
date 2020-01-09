@@ -314,6 +314,16 @@
       "version": 2
     },
     {
+      "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) v2.0 Policy",
+      "name": "iep2-policy",
+      "version": 1
+    },
+    {
+      "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) v2.0 Reference",
+      "name": "iep2-reference",
+      "version": 1
+    },
+    {
       "description": "The IFX taxonomy is used to categorise information (MISP events and attributes) to aid in the intelligence vetting process",
       "name": "ifx-vetting",
       "version": 3
@@ -545,5 +555,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20191211"
+  "version": "20200109"
 }

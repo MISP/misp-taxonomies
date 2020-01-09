@@ -1,0 +1,51 @@
+{
+  "namespace": "iep2-reference",
+  "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) v2.0 Reference",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "id_ref",
+      "expanded": "POLICY ID REFERENCE",
+      "description": "Refers to a unique IEP Policy ID to identify a specific IEP policy at a remote location."
+    },
+    {
+      "value": "url",
+      "expanded": "URL",
+      "description": "This is the remote URL specifying the IEP Policy File that contains the IEP Policy you wish to use."
+    },
+    {
+      "value": "iep_version",
+      "expanded": "IEP POLICY VERSION",
+      "description": "States the version of the IEP framework that has been used. Must be set to 2.0."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "id_ref",
+      "entry": [
+        {
+          "value": "$text",
+          "expanded": "An id_ref value is required"
+        }
+      ]
+    },
+    {
+      "predicate": "url",
+      "entry": [
+        {
+          "value": "$text",
+          "expanded": "A URL value is required"
+        }
+      ]
+    },
+    {
+      "predicate": "iep_version",
+      "entry": [
+        {
+          "value": "2.0",
+          "expanded": "The IEP version value must be 2.0"
+        }
+      ]
+    }
+  ]
+}
