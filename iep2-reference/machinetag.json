@@ -42,7 +42,7 @@
       "predicate": "iep_version",
       "entry": [
         {
-          "value": 2.0,
+          "value": "2.0",
           "expanded": "The IEP version value must be 2.0"
         }
       ]
