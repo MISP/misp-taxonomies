@@ -1,6 +1,6 @@
 {
-  "namespace": "iep2-policy-reference",
-  "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) framework v2.0 policy reference",
+  "namespace": "iep2-reference",
+  "description": "Forum of Incident Response and Security Teams (FIRST) Information Exchange Policy (IEP) v2.0 Reference",
   "version": 1,
   "predicates": [
     {
