@@ -101,7 +101,7 @@
       "predicate": "iep_version",
       "entry": [
         {
-          "value": "2.0",
+          "value": 2.0,
           "expanded": "The IEP version value must be 2.0"
         }
       ]
@@ -111,7 +111,7 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "A start_date value is required"
+          "expanded": "A start_date value is required.  It must be a UTC date in RFC3339 format."
         }
       ]
     },
@@ -120,7 +120,7 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "An end_date value is required"
+          "expanded": "An end_date value is required. It must be a UTC date in RFC3339 format, or 'null'. null is used when the IEP policy never expires."
         }
       ]
     },
@@ -128,11 +128,11 @@
       "predicate": "encrypt_in_transit",
       "entry": [
         {
-          "value": "MUST",
+          "value": "must",
           "expanded": "Recipients MUST encrypt the information received when it is retransmitted or redistributed."
         },
         {
-          "value": "MAY",
+          "value": "may",
           "expanded": "Recipients MAY encrypt the information received when it is retransmitted or redistributed."
         }
       ]
@@ -141,23 +141,23 @@
       "predicate": "permitted_actions",
       "entry": [
         {
-          "value": "NONE",
+          "value": "none",
           "expanded": "Recipients MUST contact the Providers before acting upon the information received."
         },
         {
-          "value": "CONTACT FOR INSTRUCTION",
+          "value": "contact-for-instruction",
           "expanded": "Recipients MUST contact the Providers before acting upon the information received."
         },
         {
-          "value": "INTERNALLY VISIBLE ACTIONS",
+          "value": "internally-visible-actions",
           "expanded": "Recipients MAY conduct actions on the information received that are only visible on the Recipients internal networks and systems, and MUST NOT conduct actions that are visible outside of the Recipients networks and systems, or visible to third parties."
         },
         {
-          "value": "EXTERNALLY VISIBLE INDIRECT ACTIONS",
+          "value": "externally-visible-indirect-actions",
           "expanded": "Recipients MAY conduct indirect, or passive, actions on the information received that are externally visible and MUST NOT conduct direct, or active, actions."
         },
         {
-          "value": "EXTERNALLY VISIBLE DIRECT ACTIONS",
+          "value": "externally-visible-direct-actions",
           "expanded": "Recipients MAY conduct direct, or active, actions on the information received that are externally visible."
         }
       ]
@@ -166,11 +166,11 @@
       "predicate": "affected_party_notifications",
       "entry": [
         {
-          "value": "MAY",
+          "value": "may",
           "expanded": "Recipients MAY notify affected parties of a potential compromise or threat."
         },
         {
-          "value": "MUST NOT",
+          "value": "must-not",
           "expanded": "Recipients MUST NOT notify affected parties of potential compromise or threat."
         }
       ]
@@ -179,19 +179,19 @@
       "predicate": "tlp",
       "entry": [
         {
-          "value": "RED",
+          "value": "red",
           "expanded": "Personal for identified recipients only."
         },
         {
-          "value": "AMBER",
+          "value": "amber",
           "expanded": "Limited sharing on the basis of need-to-know."
         },
         {
-          "value": "GREEN",
+          "value": "green",
           "expanded": "Community wide sharing."
         },
         {
-          "value": "WHITE",
+          "value": "white",
           "expanded": "Unlimited sharing."
         }
       ]
@@ -200,15 +200,15 @@
       "predicate": "attribution",
       "entry": [
         {
-          "value": "MAY",
+          "value": "may",
           "expanded": "Recipients MAY attribute the Provider when redistributing the information received."
         },
         {
-          "value": "MUST",
+          "value": "must",
           "expanded": "Recipients MUST attribute the Provider when redistributing the information received."
         },
         {
-          "value": "MUST NOT",
+          "value": "must-not",
           "expanded": "Recipients MUST NOT attribute the Provider when redistributing the information received."
         }
       ]
@@ -217,11 +217,11 @@
       "predicate": "unmodified_resale",
       "entry": [
         {
-          "value": "MAY",
+          "value": "may",
           "expanded": "Recipients MAY resell the information received."
         },
         {
-          "value": "MUST NOT",
+          "value": "must-not",
           "expanded": "Recipients MUST NOT resell the information received unmodified or in a semantically equivalent format."
         }
       ]
@@ -231,7 +231,7 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "An external_reference value is a link to an external "
+          "expanded": "An external_reference value is a URL that contains information relevant for this IEP policy. The URL MUST adhere to RFC3986."
         }
       ]
     }
