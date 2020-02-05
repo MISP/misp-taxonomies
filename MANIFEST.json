@@ -9,6 +9,11 @@
       "version": 2
     },
     {
+      "description": "DFRLab Dichotomies of Disinformation.",
+      "name": "DFRLab-disinformation",
+      "version": 1
+    },
+    {
       "description": "The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program.",
       "name": "DML",
       "version": 1
@@ -555,5 +560,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20200109"
+  "version": "20200205"
 }
