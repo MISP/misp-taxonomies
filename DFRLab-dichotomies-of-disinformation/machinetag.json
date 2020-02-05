@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "namespace": "DFRLab-disinformation",
+  "namespace": "DFRLab-dichotomies-of-disinformation",
   "description": "DFRLab Dichotomies of Disinformation.",
   "refs": [
     "https://github.com/DFRLab/Dichotomies-of-Disinformation/blob/master/20200204_Codebook.pdf"
