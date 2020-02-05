@@ -1,0 +1,2700 @@
+{
+  "version": 1,
+  "namespace": "DFRLab-disinformation",
+  "description": "DFRLab Dichotomies of Disinformation.",
+  "refs": [
+    "https://github.com/DFRLab/Dichotomies-of-Disinformation/blob/master/20200204_Codebook.pdf"
+  ],
+  "values": [
+    {
+      "predicate": "primary-target",
+      "entry": [
+        {
+          "value": "AD",
+          "expanded": "Andorra"
+        },
+        {
+          "value": "AE",
+          "expanded": "United Arab Emirates"
+        },
+        {
+          "value": "AF",
+          "expanded": "Afghanistan"
+        },
+        {
+          "value": "AG",
+          "expanded": "Antigua and Barbuda"
+        },
+        {
+          "value": "AI",
+          "expanded": "Anguilla"
+        },
+        {
+          "value": "AL",
+          "expanded": "Albania"
+        },
+        {
+          "value": "AM",
+          "expanded": "Armenia"
+        },
+        {
+          "value": "AO",
+          "expanded": "Angola"
+        },
+        {
+          "value": "AQ",
+          "expanded": "Antarctica"
+        },
+        {
+          "value": "AR",
+          "expanded": "Argentina"
+        },
+        {
+          "value": "AS",
+          "expanded": "American Samoa"
+        },
+        {
+          "value": "AT",
+          "expanded": "Austria"
+        },
+        {
+          "value": "AU",
+          "expanded": "Australia"
+        },
+        {
+          "value": "AW",
+          "expanded": "Aruba"
+        },
+        {
+          "value": "AX",
+          "expanded": "Aland Islands"
+        },
+        {
+          "value": "AZ",
+          "expanded": "Azerbaijan"
+        },
+        {
+          "value": "BA",
+          "expanded": "Bosnia and Herzegovina"
+        },
+        {
+          "value": "BB",
+          "expanded": "Barbados"
+        },
+        {
+          "value": "BD",
+          "expanded": "Bangladesh"
+        },
+        {
+          "value": "BE",
+          "expanded": "Belgium"
+        },
+        {
+          "value": "BF",
+          "expanded": "Burkina Faso"
+        },
+        {
+          "value": "BG",
+          "expanded": "Bulgaria"
+        },
+        {
+          "value": "BH",
+          "expanded": "Bahrain"
+        },
+        {
+          "value": "BI",
+          "expanded": "Burundi"
+        },
+        {
+          "value": "BJ",
+          "expanded": "Benin"
+        },
+        {
+          "value": "BL",
+          "expanded": "Saint-Barthelemy"
+        },
+        {
+          "value": "BM",
+          "expanded": "Bermuda"
+        },
+        {
+          "value": "BN",
+          "expanded": "Brunei Darussalam"
+        },
+        {
+          "value": "BO",
+          "expanded": "Bolivia"
+        },
+        {
+          "value": "BQ",
+          "expanded": "Bonaire,  Saint Eustatius and Saba"
+        },
+        {
+          "value": "BR",
+          "expanded": "Brazil"
+        },
+        {
+          "value": "BS",
+          "expanded": "Bahamas"
+        },
+        {
+          "value": "BT",
+          "expanded": "Bhutan"
+        },
+        {
+          "value": "BV",
+          "expanded": "Bouvet Island"
+        },
+        {
+          "value": "BW",
+          "expanded": "Botswana"
+        },
+        {
+          "value": "BY",
+          "expanded": "Belarus"
+        },
+        {
+          "value": "BZ",
+          "expanded": "Belize"
+        },
+        {
+          "value": "CA",
+          "expanded": "Canada"
+        },
+        {
+          "value": "CC",
+          "expanded": "Cocos (Keeling) Islands"
+        },
+        {
+          "value": "CD",
+          "expanded": "Congo, Democratic Republic of the"
+        },
+        {
+          "value": "CF",
+          "expanded": "Central African Republic"
+        },
+        {
+          "value": "CG",
+          "expanded": "Congo"
+        },
+        {
+          "value": "CH",
+          "expanded": "Switzerland"
+        },
+        {
+          "value": "CI",
+          "expanded": "Cote d'Ivoire"
+        },
+        {
+          "value": "CK",
+          "expanded": "Cook Islands"
+        },
+        {
+          "value": "CL",
+          "expanded": "Chile"
+        },
+        {
+          "value": "CM",
+          "expanded": "Cameroon"
+        },
+        {
+          "value": "CN",
+          "expanded": "China"
+        },
+        {
+          "value": "CO",
+          "expanded": "Colombia"
+        },
+        {
+          "value": "CR",
+          "expanded": "Costa Rica"
+        },
+        {
+          "value": "CU",
+          "expanded": "Cuba"
+        },
+        {
+          "value": "CV",
+          "expanded": "Cape Verde"
+        },
+        {
+          "value": "CW",
+          "expanded": "Curacao"
+        },
+        {
+          "value": "CX",
+          "expanded": "Christmas Island"
+        },
+        {
+          "value": "CY",
+          "expanded": "Cyprus"
+        },
+        {
+          "value": "CZ",
+          "expanded": "Czech Republic"
+        },
+        {
+          "value": "DE",
+          "expanded": "Germany"
+        },
+        {
+          "value": "DJ",
+          "expanded": "Djibouti"
+        },
+        {
+          "value": "DK",
+          "expanded": "Denmark"
+        },
+        {
+          "value": "DM",
+          "expanded": "Dominica"
+        },
+        {
+          "value": "DO",
+          "expanded": "Dominican Republic"
+        },
+        {
+          "value": "DZ",
+          "expanded": "Algeria"
+        },
+        {
+          "value": "EC",
+          "expanded": "Ecuador"
+        },
+        {
+          "value": "EE",
+          "expanded": "Estonia"
+        },
+        {
+          "value": "EG",
+          "expanded": "Egypt"
+        },
+        {
+          "value": "EH",
+          "expanded": "Western Sahara"
+        },
+        {
+          "value": "ER",
+          "expanded": "Eritrea"
+        },
+        {
+          "value": "ES",
+          "expanded": "Spain"
+        },
+        {
+          "value": "ET",
+          "expanded": "Ethiopia"
+        },
+        {
+          "value": "FI",
+          "expanded": "Finland"
+        },
+        {
+          "value": "FJ",
+          "expanded": "Fiji"
+        },
+        {
+          "value": "FK",
+          "expanded": "Faeroe Islands"
+        },
+        {
+          "value": "FM",
+          "expanded": "Micronesia (Federated States of)"
+        },
+        {
+          "value": "FO",
+          "expanded": "Falkland Islands (Malvinas)"
+        },
+        {
+          "value": "FR",
+          "expanded": "France"
+        },
+        {
+          "value": "GA",
+          "expanded": "Gabon"
+        },
+        {
+          "value": "GB",
+          "expanded": "United Kingdom"
+        },
+        {
+          "value": "GD",
+          "expanded": "Grenada"
+        },
+        {
+          "value": "GE",
+          "expanded": "Georgia"
+        },
+        {
+          "value": "GF",
+          "expanded": "French Guiana"
+        },
+        {
+          "value": "GG",
+          "expanded": "Guernsey"
+        },
+        {
+          "value": "GH",
+          "expanded": "Ghana"
+        },
+        {
+          "value": "GI",
+          "expanded": "Gibraltar"
+        },
+        {
+          "value": "GL",
+          "expanded": "Greenland"
+        },
+        {
+          "value": "GM",
+          "expanded": "Gambia"
+        },
+        {
+          "value": "GN",
+          "expanded": "Guinea"
+        },
+        {
+          "value": "GP",
+          "expanded": "Guadeloupe"
+        },
+        {
+          "value": "GQ",
+          "expanded": "Equatorial Guinea"
+        },
+        {
+          "value": "GR",
+          "expanded": "Greece"
+        },
+        {
+          "value": "GS",
+          "expanded": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "value": "GT",
+          "expanded": "Guatemala"
+        },
+        {
+          "value": "GU",
+          "expanded": "Guam"
+        },
+        {
+          "value": "GW",
+          "expanded": "Guinea-Bissau"
+        },
+        {
+          "value": "GY",
+          "expanded": "Guyana"
+        },
+        {
+          "value": "HK",
+          "expanded": "Hong Kong"
+        },
+        {
+          "value": "HM",
+          "expanded": "Heard Island and McDonal Islands"
+        },
+        {
+          "value": "HN",
+          "expanded": "Honduras"
+        },
+        {
+          "value": "HR",
+          "expanded": "Croatia"
+        },
+        {
+          "value": "HT",
+          "expanded": "Haiti"
+        },
+        {
+          "value": "HU",
+          "expanded": "Hungary"
+        },
+        {
+          "value": "ID",
+          "expanded": "Indonesia"
+        },
+        {
+          "value": "IE",
+          "expanded": "Ireland"
+        },
+        {
+          "value": "IL",
+          "expanded": "Israel"
+        },
+        {
+          "value": "IM",
+          "expanded": "Isle of Man"
+        },
+        {
+          "value": "IN",
+          "expanded": "India"
+        },
+        {
+          "value": "IO",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "IQ",
+          "expanded": "Iraq"
+        },
+        {
+          "value": "IR",
+          "expanded": "Iran (Islamic Republic of)"
+        },
+        {
+          "value": "IS",
+          "expanded": "Iceland"
+        },
+        {
+          "value": "IT",
+          "expanded": "Italy"
+        },
+        {
+          "value": "JE",
+          "expanded": "Jersey"
+        },
+        {
+          "value": "JM",
+          "expanded": "Jamaica"
+        },
+        {
+          "value": "JO",
+          "expanded": "Jordan"
+        },
+        {
+          "value": "JP",
+          "expanded": "Japan"
+        },
+        {
+          "value": "KE",
+          "expanded": "Kenya"
+        },
+        {
+          "value": "KG",
+          "expanded": "Kyrgyzstan"
+        },
+        {
+          "value": "KH",
+          "expanded": "Cambodia"
+        },
+        {
+          "value": "KI",
+          "expanded": "Kiribati"
+        },
+        {
+          "value": "KM",
+          "expanded": "Comoros"
+        },
+        {
+          "value": "KN",
+          "expanded": "Saint Kitts and Nevis"
+        },
+        {
+          "value": "KP",
+          "expanded": "Korea, Democratic People's Republic of"
+        },
+        {
+          "value": "KR",
+          "expanded": "Korea, Republic of"
+        },
+        {
+          "value": "KW",
+          "expanded": "Kuwait"
+        },
+        {
+          "value": "KY",
+          "expanded": "Cayman Islands"
+        },
+        {
+          "value": "KZ",
+          "expanded": "Kazakhstan"
+        },
+        {
+          "value": "LA",
+          "expanded": "Lao People's Democratic Republic"
+        },
+        {
+          "value": "LB",
+          "expanded": "Lebanon"
+        },
+        {
+          "value": "LC",
+          "expanded": "Saint Lucia"
+        },
+        {
+          "value": "LI",
+          "expanded": "Liechtenstein"
+        },
+        {
+          "value": "LK",
+          "expanded": "Sri Lanka"
+        },
+        {
+          "value": "LR",
+          "expanded": "Liberia"
+        },
+        {
+          "value": "LS",
+          "expanded": "Lesotho"
+        },
+        {
+          "value": "LT",
+          "expanded": "Lithuania"
+        },
+        {
+          "value": "LU",
+          "expanded": "Luxembourg"
+        },
+        {
+          "value": "LV",
+          "expanded": "Latvia"
+        },
+        {
+          "value": "LY",
+          "expanded": "Libya"
+        },
+        {
+          "value": "MA",
+          "expanded": "Morocco"
+        },
+        {
+          "value": "MC",
+          "expanded": "Monaco"
+        },
+        {
+          "value": "MD",
+          "expanded": "Moldova, Republic of"
+        },
+        {
+          "value": "ME",
+          "expanded": "Montenegro"
+        },
+        {
+          "value": "MF",
+          "expanded": "Saint Martin (French part)"
+        },
+        {
+          "value": "MG",
+          "expanded": "Madagascar"
+        },
+        {
+          "value": "MH",
+          "expanded": "Marshall Islands"
+        },
+        {
+          "value": "MK",
+          "expanded": "Macedonia, The former Yugoslav Republic of"
+        },
+        {
+          "value": "ML",
+          "expanded": "Mali"
+        },
+        {
+          "value": "MM",
+          "expanded": "Myanmar"
+        },
+        {
+          "value": "MN",
+          "expanded": "Mongolia"
+        },
+        {
+          "value": "MO",
+          "expanded": "Macao"
+        },
+        {
+          "value": "MP",
+          "expanded": "Northern Mariana Islands"
+        },
+        {
+          "value": "MQ",
+          "expanded": "Martinique"
+        },
+        {
+          "value": "MR",
+          "expanded": "Mauritania"
+        },
+        {
+          "value": "MS",
+          "expanded": "Montserrat"
+        },
+        {
+          "value": "MT",
+          "expanded": "Malta"
+        },
+        {
+          "value": "MU",
+          "expanded": "Mauritius"
+        },
+        {
+          "value": "MV",
+          "expanded": "Maldives"
+        },
+        {
+          "value": "MW",
+          "expanded": "Malawi"
+        },
+        {
+          "value": "MX",
+          "expanded": "Mexico"
+        },
+        {
+          "value": "MY",
+          "expanded": "Malaysia"
+        },
+        {
+          "value": "MZ",
+          "expanded": "Mozambique"
+        },
+        {
+          "value": "NA",
+          "expanded": "Namibia"
+        },
+        {
+          "value": "NC",
+          "expanded": "New Caledonia"
+        },
+        {
+          "value": "NE",
+          "expanded": "Niger"
+        },
+        {
+          "value": "NF",
+          "expanded": "Norfolk Island"
+        },
+        {
+          "value": "NG",
+          "expanded": "Nigeria"
+        },
+        {
+          "value": "NI",
+          "expanded": "Nicaragua"
+        },
+        {
+          "value": "NL",
+          "expanded": "Netherlands"
+        },
+        {
+          "value": "NO",
+          "expanded": "Norway"
+        },
+        {
+          "value": "NP",
+          "expanded": "Nepal"
+        },
+        {
+          "value": "NR",
+          "expanded": "Nauru"
+        },
+        {
+          "value": "NU",
+          "expanded": "Niue"
+        },
+        {
+          "value": "NZ",
+          "expanded": "New Zealand"
+        },
+        {
+          "value": "OM",
+          "expanded": "Oman"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "PA",
+          "expanded": "Panama"
+        },
+        {
+          "value": "PE",
+          "expanded": "Peru"
+        },
+        {
+          "value": "PF",
+          "expanded": "French Polynesia"
+        },
+        {
+          "value": "PG",
+          "expanded": "Papua New Guinea"
+        },
+        {
+          "value": "PH",
+          "expanded": "Philippines"
+        },
+        {
+          "value": "PK",
+          "expanded": "Pakistan"
+        },
+        {
+          "value": "PL",
+          "expanded": "Poland"
+        },
+        {
+          "value": "PM",
+          "expanded": "Saint Pierre and Miquelon"
+        },
+        {
+          "value": "PN",
+          "expanded": "Pitcairn"
+        },
+        {
+          "value": "PR",
+          "expanded": "Puerto Rico"
+        },
+        {
+          "value": "PS",
+          "expanded": "Palestinian Territory, Occupied"
+        },
+        {
+          "value": "PT",
+          "expanded": "Portugal"
+        },
+        {
+          "value": "PW",
+          "expanded": "Palau"
+        },
+        {
+          "value": "PY",
+          "expanded": "Paraguay"
+        },
+        {
+          "value": "QA",
+          "expanded": "Qatar"
+        },
+        {
+          "value": "RE",
+          "expanded": "Reunion"
+        },
+        {
+          "value": "RO",
+          "expanded": "Romania"
+        },
+        {
+          "value": "RS",
+          "expanded": "Serbia"
+        },
+        {
+          "value": "RU",
+          "expanded": "Russian Federation"
+        },
+        {
+          "value": "RW",
+          "expanded": "Rwanda"
+        },
+        {
+          "value": "SA",
+          "expanded": "Saudi Arabia"
+        },
+        {
+          "value": "SB",
+          "expanded": "Solomon Islands"
+        },
+        {
+          "value": "SC",
+          "expanded": "Seychelles"
+        },
+        {
+          "value": "SD",
+          "expanded": "Sudan"
+        },
+        {
+          "value": "SE",
+          "expanded": "Sweden"
+        },
+        {
+          "value": "SG",
+          "expanded": "Singapore"
+        },
+        {
+          "value": "SH",
+          "expanded": "Saint Helena"
+        },
+        {
+          "value": "SI",
+          "expanded": "Slovenia"
+        },
+        {
+          "value": "SJ",
+          "expanded": "Svalbard and Jan Mayen Islands"
+        },
+        {
+          "value": "SK",
+          "expanded": "Slovakia"
+        },
+        {
+          "value": "SL",
+          "expanded": "Sierra Leone"
+        },
+        {
+          "value": "SM",
+          "expanded": "San Marino"
+        },
+        {
+          "value": "SN",
+          "expanded": "Senegal"
+        },
+        {
+          "value": "SO",
+          "expanded": "Somalia"
+        },
+        {
+          "value": "SR",
+          "expanded": "Suriname"
+        },
+        {
+          "value": "SS",
+          "expanded": "South Sudan"
+        },
+        {
+          "value": "ST",
+          "expanded": "Sao Tome and Principe"
+        },
+        {
+          "value": "SV",
+          "expanded": "El Salvador"
+        },
+        {
+          "value": "SX",
+          "expanded": "Sint Maarten (Dutch part)"
+        },
+        {
+          "value": "SY",
+          "expanded": "Syrian Arab Republic"
+        },
+        {
+          "value": "SZ",
+          "expanded": "Swaziland"
+        },
+        {
+          "value": "TC",
+          "expanded": "Turks and Caicos Islands"
+        },
+        {
+          "value": "TD",
+          "expanded": "Chad"
+        },
+        {
+          "value": "TF",
+          "expanded": "French Southern Territories"
+        },
+        {
+          "value": "TG",
+          "expanded": "Togo"
+        },
+        {
+          "value": "TH",
+          "expanded": "Thailand"
+        },
+        {
+          "value": "TJ",
+          "expanded": "Tajikistan"
+        },
+        {
+          "value": "TK",
+          "expanded": "Tokelau"
+        },
+        {
+          "value": "TL",
+          "expanded": "Timor-Leste"
+        },
+        {
+          "value": "TM",
+          "expanded": "Turkmenistan"
+        },
+        {
+          "value": "TN",
+          "expanded": "Tunisia"
+        },
+        {
+          "value": "TO",
+          "expanded": "Tonga"
+        },
+        {
+          "value": "TR",
+          "expanded": "Turkey"
+        },
+        {
+          "value": "TT",
+          "expanded": "Trinidad and Tobago"
+        },
+        {
+          "value": "TV",
+          "expanded": "Tuvalu"
+        },
+        {
+          "value": "TW",
+          "expanded": "Taiwan, Province of China"
+        },
+        {
+          "value": "TZ",
+          "expanded": "Tanzania, United Republic of"
+        },
+        {
+          "value": "UA",
+          "expanded": "Ukraine"
+        },
+        {
+          "value": "UG",
+          "expanded": "Uganda"
+        },
+        {
+          "value": "UM",
+          "expanded": "United States Minor Outlying Islands"
+        },
+        {
+          "value": "US",
+          "expanded": "United States of America"
+        },
+        {
+          "value": "UY",
+          "expanded": "Uruguay"
+        },
+        {
+          "value": "UZ",
+          "expanded": "Uzbekistan"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "VA",
+          "expanded": "Holy See"
+        },
+        {
+          "value": "VC",
+          "expanded": "Saint Vincent and the Grenadines"
+        },
+        {
+          "value": "VE",
+          "expanded": "Venezuela (Bolivarian Republic of)"
+        },
+        {
+          "value": "VG",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "VI",
+          "expanded": "United States Virgin Islands"
+        },
+        {
+          "value": "VN",
+          "expanded": "Viet Nam"
+        },
+        {
+          "value": "VU",
+          "expanded": "Vanuatu"
+        },
+        {
+          "value": "WF",
+          "expanded": "Wallis and Futuna Islands"
+        },
+        {
+          "value": "WS",
+          "expanded": "Samoa"
+        },
+        {
+          "value": "YE",
+          "expanded": "Yemen"
+        },
+        {
+          "value": "YT",
+          "expanded": "Mayotte"
+        },
+        {
+          "value": "ZA",
+          "expanded": "South Africa"
+        },
+        {
+          "value": "ZM",
+          "expanded": "Zambia"
+        },
+        {
+          "value": "ZW",
+          "expanded": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "predicate": "primary-disinformant",
+      "entry": [
+        {
+          "value": "AD",
+          "expanded": "Andorra"
+        },
+        {
+          "value": "AE",
+          "expanded": "United Arab Emirates"
+        },
+        {
+          "value": "AF",
+          "expanded": "Afghanistan"
+        },
+        {
+          "value": "AG",
+          "expanded": "Antigua and Barbuda"
+        },
+        {
+          "value": "AI",
+          "expanded": "Anguilla"
+        },
+        {
+          "value": "AL",
+          "expanded": "Albania"
+        },
+        {
+          "value": "AM",
+          "expanded": "Armenia"
+        },
+        {
+          "value": "AO",
+          "expanded": "Angola"
+        },
+        {
+          "value": "AQ",
+          "expanded": "Antarctica"
+        },
+        {
+          "value": "AR",
+          "expanded": "Argentina"
+        },
+        {
+          "value": "AS",
+          "expanded": "American Samoa"
+        },
+        {
+          "value": "AT",
+          "expanded": "Austria"
+        },
+        {
+          "value": "AU",
+          "expanded": "Australia"
+        },
+        {
+          "value": "AW",
+          "expanded": "Aruba"
+        },
+        {
+          "value": "AX",
+          "expanded": "Aland Islands"
+        },
+        {
+          "value": "AZ",
+          "expanded": "Azerbaijan"
+        },
+        {
+          "value": "BA",
+          "expanded": "Bosnia and Herzegovina"
+        },
+        {
+          "value": "BB",
+          "expanded": "Barbados"
+        },
+        {
+          "value": "BD",
+          "expanded": "Bangladesh"
+        },
+        {
+          "value": "BE",
+          "expanded": "Belgium"
+        },
+        {
+          "value": "BF",
+          "expanded": "Burkina Faso"
+        },
+        {
+          "value": "BG",
+          "expanded": "Bulgaria"
+        },
+        {
+          "value": "BH",
+          "expanded": "Bahrain"
+        },
+        {
+          "value": "BI",
+          "expanded": "Burundi"
+        },
+        {
+          "value": "BJ",
+          "expanded": "Benin"
+        },
+        {
+          "value": "BL",
+          "expanded": "Saint-Barthelemy"
+        },
+        {
+          "value": "BM",
+          "expanded": "Bermuda"
+        },
+        {
+          "value": "BN",
+          "expanded": "Brunei Darussalam"
+        },
+        {
+          "value": "BO",
+          "expanded": "Bolivia"
+        },
+        {
+          "value": "BQ",
+          "expanded": "Bonaire,  Saint Eustatius and Saba"
+        },
+        {
+          "value": "BR",
+          "expanded": "Brazil"
+        },
+        {
+          "value": "BS",
+          "expanded": "Bahamas"
+        },
+        {
+          "value": "BT",
+          "expanded": "Bhutan"
+        },
+        {
+          "value": "BV",
+          "expanded": "Bouvet Island"
+        },
+        {
+          "value": "BW",
+          "expanded": "Botswana"
+        },
+        {
+          "value": "BY",
+          "expanded": "Belarus"
+        },
+        {
+          "value": "BZ",
+          "expanded": "Belize"
+        },
+        {
+          "value": "CA",
+          "expanded": "Canada"
+        },
+        {
+          "value": "CC",
+          "expanded": "Cocos (Keeling) Islands"
+        },
+        {
+          "value": "CD",
+          "expanded": "Congo, Democratic Republic of the"
+        },
+        {
+          "value": "CF",
+          "expanded": "Central African Republic"
+        },
+        {
+          "value": "CG",
+          "expanded": "Congo"
+        },
+        {
+          "value": "CH",
+          "expanded": "Switzerland"
+        },
+        {
+          "value": "CI",
+          "expanded": "Cote d'Ivoire"
+        },
+        {
+          "value": "CK",
+          "expanded": "Cook Islands"
+        },
+        {
+          "value": "CL",
+          "expanded": "Chile"
+        },
+        {
+          "value": "CM",
+          "expanded": "Cameroon"
+        },
+        {
+          "value": "CN",
+          "expanded": "China"
+        },
+        {
+          "value": "CO",
+          "expanded": "Colombia"
+        },
+        {
+          "value": "CR",
+          "expanded": "Costa Rica"
+        },
+        {
+          "value": "CU",
+          "expanded": "Cuba"
+        },
+        {
+          "value": "CV",
+          "expanded": "Cape Verde"
+        },
+        {
+          "value": "CW",
+          "expanded": "Curacao"
+        },
+        {
+          "value": "CX",
+          "expanded": "Christmas Island"
+        },
+        {
+          "value": "CY",
+          "expanded": "Cyprus"
+        },
+        {
+          "value": "CZ",
+          "expanded": "Czech Republic"
+        },
+        {
+          "value": "DE",
+          "expanded": "Germany"
+        },
+        {
+          "value": "DJ",
+          "expanded": "Djibouti"
+        },
+        {
+          "value": "DK",
+          "expanded": "Denmark"
+        },
+        {
+          "value": "DM",
+          "expanded": "Dominica"
+        },
+        {
+          "value": "DO",
+          "expanded": "Dominican Republic"
+        },
+        {
+          "value": "DZ",
+          "expanded": "Algeria"
+        },
+        {
+          "value": "EC",
+          "expanded": "Ecuador"
+        },
+        {
+          "value": "EE",
+          "expanded": "Estonia"
+        },
+        {
+          "value": "EG",
+          "expanded": "Egypt"
+        },
+        {
+          "value": "EH",
+          "expanded": "Western Sahara"
+        },
+        {
+          "value": "ER",
+          "expanded": "Eritrea"
+        },
+        {
+          "value": "ES",
+          "expanded": "Spain"
+        },
+        {
+          "value": "ET",
+          "expanded": "Ethiopia"
+        },
+        {
+          "value": "FI",
+          "expanded": "Finland"
+        },
+        {
+          "value": "FJ",
+          "expanded": "Fiji"
+        },
+        {
+          "value": "FK",
+          "expanded": "Faeroe Islands"
+        },
+        {
+          "value": "FM",
+          "expanded": "Micronesia (Federated States of)"
+        },
+        {
+          "value": "FO",
+          "expanded": "Falkland Islands (Malvinas)"
+        },
+        {
+          "value": "FR",
+          "expanded": "France"
+        },
+        {
+          "value": "GA",
+          "expanded": "Gabon"
+        },
+        {
+          "value": "GB",
+          "expanded": "United Kingdom"
+        },
+        {
+          "value": "GD",
+          "expanded": "Grenada"
+        },
+        {
+          "value": "GE",
+          "expanded": "Georgia"
+        },
+        {
+          "value": "GF",
+          "expanded": "French Guiana"
+        },
+        {
+          "value": "GG",
+          "expanded": "Guernsey"
+        },
+        {
+          "value": "GH",
+          "expanded": "Ghana"
+        },
+        {
+          "value": "GI",
+          "expanded": "Gibraltar"
+        },
+        {
+          "value": "GL",
+          "expanded": "Greenland"
+        },
+        {
+          "value": "GM",
+          "expanded": "Gambia"
+        },
+        {
+          "value": "GN",
+          "expanded": "Guinea"
+        },
+        {
+          "value": "GP",
+          "expanded": "Guadeloupe"
+        },
+        {
+          "value": "GQ",
+          "expanded": "Equatorial Guinea"
+        },
+        {
+          "value": "GR",
+          "expanded": "Greece"
+        },
+        {
+          "value": "GS",
+          "expanded": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "value": "GT",
+          "expanded": "Guatemala"
+        },
+        {
+          "value": "GU",
+          "expanded": "Guam"
+        },
+        {
+          "value": "GW",
+          "expanded": "Guinea-Bissau"
+        },
+        {
+          "value": "GY",
+          "expanded": "Guyana"
+        },
+        {
+          "value": "HK",
+          "expanded": "Hong Kong"
+        },
+        {
+          "value": "HM",
+          "expanded": "Heard Island and McDonal Islands"
+        },
+        {
+          "value": "HN",
+          "expanded": "Honduras"
+        },
+        {
+          "value": "HR",
+          "expanded": "Croatia"
+        },
+        {
+          "value": "HT",
+          "expanded": "Haiti"
+        },
+        {
+          "value": "HU",
+          "expanded": "Hungary"
+        },
+        {
+          "value": "ID",
+          "expanded": "Indonesia"
+        },
+        {
+          "value": "IE",
+          "expanded": "Ireland"
+        },
+        {
+          "value": "IL",
+          "expanded": "Israel"
+        },
+        {
+          "value": "IM",
+          "expanded": "Isle of Man"
+        },
+        {
+          "value": "IN",
+          "expanded": "India"
+        },
+        {
+          "value": "IO",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "IQ",
+          "expanded": "Iraq"
+        },
+        {
+          "value": "IR",
+          "expanded": "Iran (Islamic Republic of)"
+        },
+        {
+          "value": "IS",
+          "expanded": "Iceland"
+        },
+        {
+          "value": "IT",
+          "expanded": "Italy"
+        },
+        {
+          "value": "JE",
+          "expanded": "Jersey"
+        },
+        {
+          "value": "JM",
+          "expanded": "Jamaica"
+        },
+        {
+          "value": "JO",
+          "expanded": "Jordan"
+        },
+        {
+          "value": "JP",
+          "expanded": "Japan"
+        },
+        {
+          "value": "KE",
+          "expanded": "Kenya"
+        },
+        {
+          "value": "KG",
+          "expanded": "Kyrgyzstan"
+        },
+        {
+          "value": "KH",
+          "expanded": "Cambodia"
+        },
+        {
+          "value": "KI",
+          "expanded": "Kiribati"
+        },
+        {
+          "value": "KM",
+          "expanded": "Comoros"
+        },
+        {
+          "value": "KN",
+          "expanded": "Saint Kitts and Nevis"
+        },
+        {
+          "value": "KP",
+          "expanded": "Korea, Democratic People's Republic of"
+        },
+        {
+          "value": "KR",
+          "expanded": "Korea, Republic of"
+        },
+        {
+          "value": "KW",
+          "expanded": "Kuwait"
+        },
+        {
+          "value": "KY",
+          "expanded": "Cayman Islands"
+        },
+        {
+          "value": "KZ",
+          "expanded": "Kazakhstan"
+        },
+        {
+          "value": "LA",
+          "expanded": "Lao People's Democratic Republic"
+        },
+        {
+          "value": "LB",
+          "expanded": "Lebanon"
+        },
+        {
+          "value": "LC",
+          "expanded": "Saint Lucia"
+        },
+        {
+          "value": "LI",
+          "expanded": "Liechtenstein"
+        },
+        {
+          "value": "LK",
+          "expanded": "Sri Lanka"
+        },
+        {
+          "value": "LR",
+          "expanded": "Liberia"
+        },
+        {
+          "value": "LS",
+          "expanded": "Lesotho"
+        },
+        {
+          "value": "LT",
+          "expanded": "Lithuania"
+        },
+        {
+          "value": "LU",
+          "expanded": "Luxembourg"
+        },
+        {
+          "value": "LV",
+          "expanded": "Latvia"
+        },
+        {
+          "value": "LY",
+          "expanded": "Libya"
+        },
+        {
+          "value": "MA",
+          "expanded": "Morocco"
+        },
+        {
+          "value": "MC",
+          "expanded": "Monaco"
+        },
+        {
+          "value": "MD",
+          "expanded": "Moldova, Republic of"
+        },
+        {
+          "value": "ME",
+          "expanded": "Montenegro"
+        },
+        {
+          "value": "MF",
+          "expanded": "Saint Martin (French part)"
+        },
+        {
+          "value": "MG",
+          "expanded": "Madagascar"
+        },
+        {
+          "value": "MH",
+          "expanded": "Marshall Islands"
+        },
+        {
+          "value": "MK",
+          "expanded": "Macedonia, The former Yugoslav Republic of"
+        },
+        {
+          "value": "ML",
+          "expanded": "Mali"
+        },
+        {
+          "value": "MM",
+          "expanded": "Myanmar"
+        },
+        {
+          "value": "MN",
+          "expanded": "Mongolia"
+        },
+        {
+          "value": "MO",
+          "expanded": "Macao"
+        },
+        {
+          "value": "MP",
+          "expanded": "Northern Mariana Islands"
+        },
+        {
+          "value": "MQ",
+          "expanded": "Martinique"
+        },
+        {
+          "value": "MR",
+          "expanded": "Mauritania"
+        },
+        {
+          "value": "MS",
+          "expanded": "Montserrat"
+        },
+        {
+          "value": "MT",
+          "expanded": "Malta"
+        },
+        {
+          "value": "MU",
+          "expanded": "Mauritius"
+        },
+        {
+          "value": "MV",
+          "expanded": "Maldives"
+        },
+        {
+          "value": "MW",
+          "expanded": "Malawi"
+        },
+        {
+          "value": "MX",
+          "expanded": "Mexico"
+        },
+        {
+          "value": "MY",
+          "expanded": "Malaysia"
+        },
+        {
+          "value": "MZ",
+          "expanded": "Mozambique"
+        },
+        {
+          "value": "NA",
+          "expanded": "Namibia"
+        },
+        {
+          "value": "NC",
+          "expanded": "New Caledonia"
+        },
+        {
+          "value": "NE",
+          "expanded": "Niger"
+        },
+        {
+          "value": "NF",
+          "expanded": "Norfolk Island"
+        },
+        {
+          "value": "NG",
+          "expanded": "Nigeria"
+        },
+        {
+          "value": "NI",
+          "expanded": "Nicaragua"
+        },
+        {
+          "value": "NL",
+          "expanded": "Netherlands"
+        },
+        {
+          "value": "NO",
+          "expanded": "Norway"
+        },
+        {
+          "value": "NP",
+          "expanded": "Nepal"
+        },
+        {
+          "value": "NR",
+          "expanded": "Nauru"
+        },
+        {
+          "value": "NU",
+          "expanded": "Niue"
+        },
+        {
+          "value": "NZ",
+          "expanded": "New Zealand"
+        },
+        {
+          "value": "OM",
+          "expanded": "Oman"
+        },
+        {
+          "value": "Other",
+          "expanded": "Other"
+        },
+        {
+          "value": "PA",
+          "expanded": "Panama"
+        },
+        {
+          "value": "PE",
+          "expanded": "Peru"
+        },
+        {
+          "value": "PF",
+          "expanded": "French Polynesia"
+        },
+        {
+          "value": "PG",
+          "expanded": "Papua New Guinea"
+        },
+        {
+          "value": "PH",
+          "expanded": "Philippines"
+        },
+        {
+          "value": "PK",
+          "expanded": "Pakistan"
+        },
+        {
+          "value": "PL",
+          "expanded": "Poland"
+        },
+        {
+          "value": "PM",
+          "expanded": "Saint Pierre and Miquelon"
+        },
+        {
+          "value": "PN",
+          "expanded": "Pitcairn"
+        },
+        {
+          "value": "PR",
+          "expanded": "Puerto Rico"
+        },
+        {
+          "value": "PS",
+          "expanded": "Palestinian Territory, Occupied"
+        },
+        {
+          "value": "PT",
+          "expanded": "Portugal"
+        },
+        {
+          "value": "PW",
+          "expanded": "Palau"
+        },
+        {
+          "value": "PY",
+          "expanded": "Paraguay"
+        },
+        {
+          "value": "QA",
+          "expanded": "Qatar"
+        },
+        {
+          "value": "RE",
+          "expanded": "Reunion"
+        },
+        {
+          "value": "RO",
+          "expanded": "Romania"
+        },
+        {
+          "value": "RS",
+          "expanded": "Serbia"
+        },
+        {
+          "value": "RU",
+          "expanded": "Russian Federation"
+        },
+        {
+          "value": "RW",
+          "expanded": "Rwanda"
+        },
+        {
+          "value": "SA",
+          "expanded": "Saudi Arabia"
+        },
+        {
+          "value": "SB",
+          "expanded": "Solomon Islands"
+        },
+        {
+          "value": "SC",
+          "expanded": "Seychelles"
+        },
+        {
+          "value": "SD",
+          "expanded": "Sudan"
+        },
+        {
+          "value": "SE",
+          "expanded": "Sweden"
+        },
+        {
+          "value": "SG",
+          "expanded": "Singapore"
+        },
+        {
+          "value": "SH",
+          "expanded": "Saint Helena"
+        },
+        {
+          "value": "SI",
+          "expanded": "Slovenia"
+        },
+        {
+          "value": "SJ",
+          "expanded": "Svalbard and Jan Mayen Islands"
+        },
+        {
+          "value": "SK",
+          "expanded": "Slovakia"
+        },
+        {
+          "value": "SL",
+          "expanded": "Sierra Leone"
+        },
+        {
+          "value": "SM",
+          "expanded": "San Marino"
+        },
+        {
+          "value": "SN",
+          "expanded": "Senegal"
+        },
+        {
+          "value": "SO",
+          "expanded": "Somalia"
+        },
+        {
+          "value": "SR",
+          "expanded": "Suriname"
+        },
+        {
+          "value": "SS",
+          "expanded": "South Sudan"
+        },
+        {
+          "value": "ST",
+          "expanded": "Sao Tome and Principe"
+        },
+        {
+          "value": "SV",
+          "expanded": "El Salvador"
+        },
+        {
+          "value": "SX",
+          "expanded": "Sint Maarten (Dutch part)"
+        },
+        {
+          "value": "SY",
+          "expanded": "Syrian Arab Republic"
+        },
+        {
+          "value": "SZ",
+          "expanded": "Swaziland"
+        },
+        {
+          "value": "TC",
+          "expanded": "Turks and Caicos Islands"
+        },
+        {
+          "value": "TD",
+          "expanded": "Chad"
+        },
+        {
+          "value": "TF",
+          "expanded": "French Southern Territories"
+        },
+        {
+          "value": "TG",
+          "expanded": "Togo"
+        },
+        {
+          "value": "TH",
+          "expanded": "Thailand"
+        },
+        {
+          "value": "TJ",
+          "expanded": "Tajikistan"
+        },
+        {
+          "value": "TK",
+          "expanded": "Tokelau"
+        },
+        {
+          "value": "TL",
+          "expanded": "Timor-Leste"
+        },
+        {
+          "value": "TM",
+          "expanded": "Turkmenistan"
+        },
+        {
+          "value": "TN",
+          "expanded": "Tunisia"
+        },
+        {
+          "value": "TO",
+          "expanded": "Tonga"
+        },
+        {
+          "value": "TR",
+          "expanded": "Turkey"
+        },
+        {
+          "value": "TT",
+          "expanded": "Trinidad and Tobago"
+        },
+        {
+          "value": "TV",
+          "expanded": "Tuvalu"
+        },
+        {
+          "value": "TW",
+          "expanded": "Taiwan, Province of China"
+        },
+        {
+          "value": "TZ",
+          "expanded": "Tanzania, United Republic of"
+        },
+        {
+          "value": "UA",
+          "expanded": "Ukraine"
+        },
+        {
+          "value": "UG",
+          "expanded": "Uganda"
+        },
+        {
+          "value": "UM",
+          "expanded": "United States Minor Outlying Islands"
+        },
+        {
+          "value": "US",
+          "expanded": "United States of America"
+        },
+        {
+          "value": "UY",
+          "expanded": "Uruguay"
+        },
+        {
+          "value": "UZ",
+          "expanded": "Uzbekistan"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        },
+        {
+          "value": "VA",
+          "expanded": "Holy See"
+        },
+        {
+          "value": "VC",
+          "expanded": "Saint Vincent and the Grenadines"
+        },
+        {
+          "value": "VE",
+          "expanded": "Venezuela (Bolivarian Republic of)"
+        },
+        {
+          "value": "VG",
+          "expanded": "British Virgin Islands"
+        },
+        {
+          "value": "VI",
+          "expanded": "United States Virgin Islands"
+        },
+        {
+          "value": "VN",
+          "expanded": "Viet Nam"
+        },
+        {
+          "value": "VU",
+          "expanded": "Vanuatu"
+        },
+        {
+          "value": "WF",
+          "expanded": "Wallis and Futuna Islands"
+        },
+        {
+          "value": "WS",
+          "expanded": "Samoa"
+        },
+        {
+          "value": "YE",
+          "expanded": "Yemen"
+        },
+        {
+          "value": "YT",
+          "expanded": "Mayotte"
+        },
+        {
+          "value": "ZA",
+          "expanded": "South Africa"
+        },
+        {
+          "value": "ZM",
+          "expanded": "Zambia"
+        },
+        {
+          "value": "ZW",
+          "expanded": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "predicate": "target-category",
+      "entry": [
+        {
+          "value": "government-civilian",
+          "expanded": "Government: Civilian",
+          "description": "The governing body and functions of a state, including national leaders, institutions, and non-military departments and agencies. Includes incumbent politicians running for re-election."
+        },
+        {
+          "value": "government-military",
+          "expanded": "Government: Military",
+          "description": "Military departments and agencies which enjoy the sanctioned use of force"
+        },
+        {
+          "value": "political-party",
+          "expanded": "Political Party",
+          "description": "Organized competitors for political power who can obtain or wield power directly. Includes politicians currently in office, as well as non-incumbent politicians running for office who are associated with a political party. Can also be an individual working for a party."
+        },
+        {
+          "value": "non-state-political-actor",
+          "expanded": "Non-State Political Actor",
+          "description": "Organized competitors for political power who can obtain or wield power, even if indirectly; not necessarily enfranchised. Non-state political actors are formally organized, coordinated, and cohesive. e.g. Greenpeace, the NRA, or the KKK."
+        },
+        {
+          "value": "business",
+          "expanded": "Business",
+          "description": "Includes groups that contract out to the government, individuals looking for financial gain, and mercenaries."
+        },
+        {
+          "value": "influential-individuals",
+          "expanded": "Influential Individuals",
+          "description": "Individuals who are influential but who do not belong to a ruling government coalition. Includes groups of individuals who are not formally organized but work together. e.g. journalists, former politicians, or organized 4channers. For individuals who operate their own charitable foundations (and thus could be placed in Non-State Political Actor), coding depends on whether or not the disinformation is foremost targeting the individual, their foundation, or both."
+        },
+        {
+          "value": "electorate",
+          "expanded": "Electorate",
+          "description": "The enfranchised population in a specific country or within a demarcated boundary."
+        },
+        {
+          "value": "racial",
+          "expanded": "Racial",
+          "description": "A specific minority/majority group."
+        },
+        {
+          "value": "ethnic",
+          "expanded": "Ethnic",
+          "description": "A specific minority/majority group."
+        },
+        {
+          "value": "sexual-identity-group",
+          "expanded": "Sexual Identity Group",
+          "description": "A specific minority/majority group."
+        },
+        {
+          "value": "religious",
+          "expanded": "Religious",
+          "description": "A specific minority/majority group."
+        }
+      ]
+    },
+    {
+      "predicate": "target-concurrent-events",
+      "entry": [
+        {
+          "value": "inter-state-war",
+          "expanded": "Inter-State War",
+          "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research."
+        },
+        {
+          "value": "extra-state-war",
+          "expanded": "Extra-State War",
+          "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before."
+        },
+        {
+          "value": "intra-state-war",
+          "expanded": "Intra-State War",
+          "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research."
+        },
+        {
+          "value": "non-state-war",
+          "expanded": "Non-State War",
+          "description": "War in non-state territory or across state borders. Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research."
+        },
+        {
+          "value": "federal-election",
+          "expanded": "Federal Election",
+          "description": "Includes elections at province, municipality, administrative region, department, prefecture, and local levels."
+        },
+        {
+          "value": "state-election",
+          "expanded": "State Election",
+          "description": "Includes elections at province, municipality, administrative region, department, prefecture, and local levels."
+        }
+      ]
+    },
+    {
+      "predicate": "platforms-open-web",
+      "entry": [
+        {
+          "value": "state-media",
+          "expanded": "State Media",
+          "description": "Includes “state-adjacent” media, operated by government proxies or otherwise beholden to the state."
+        },
+        {
+          "value": "independent-media",
+          "expanded": "Independent Media",
+          "description": "Media institutions that are not beholden to the government and can be reasonably assessed to score > 60 by the NewsGuard rating process."
+        },
+        {
+          "value": "junk-news-websites",
+          "expanded": "Junk News Websites",
+          "description": "A website that trafficks in deceptive headlines, fails to correct errors, avoids disclosure of funding sources, and avoids labeling advertisements. One that can be reasonably assessed to score < 60 by the NewsGuard rating process."
+        }
+      ]
+    },
+    {
+      "predicate": "platforms-social-media",
+      "entry": [
+        {
+          "value": "facebook",
+          "expanded": "Facebook",
+          "description": "Social media accounts created by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "instagram",
+          "expanded": "Instagram",
+          "description": "Social media accounts created by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "twitter",
+          "expanded": "Twitter",
+          "description": "Social media accounts created by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "youtube",
+          "expanded": "YouTube",
+          "description": "Social media accounts created by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "linkedin",
+          "expanded": "LinkedIn",
+          "description": "Social media accounts created by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "reddit",
+          "expanded": "Reddit",
+          "description": "Social media accounts created by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "vk",
+          "expanded": "VK",
+          "description": "Social media accounts created by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "forum",
+          "expanded": "Forum",
+          "description": "Social media accounts created by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Social media accounts created by the disinformants for deceptive purposes."
+        }
+      ]
+    },
+    {
+      "predicate": "platforms-messaging",
+      "entry": [
+        {
+          "value": "whatsapp",
+          "expanded": "WhatsApp",
+          "description": "Messaging platforms used by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "telegram",
+          "expanded": "Telegram",
+          "description": "Messaging platforms used by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "signal",
+          "expanded": "Signal",
+          "description": "Messaging platforms used by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "line",
+          "expanded": "Line",
+          "description": "Messaging platforms used by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "wechat",
+          "expanded": "WeChat",
+          "description": "Messaging platforms used by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "sms",
+          "expanded": "SMS",
+          "description": "Messaging platforms used by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Messaging platforms used by the disinformants for deceptive purposes."
+        }
+      ]
+    },
+    {
+      "predicate": "platforms",
+      "entry": [
+        {
+          "value": "advertisement",
+          "expanded": "Advertisement",
+          "description": "Advertisements purchased by disinformants to disseminate a message of disinformation. Includes ads on social media and the open web."
+        },
+        {
+          "value": "email",
+          "expanded": "Email",
+          "description": "Email used by the disinformants for deceptive purposes."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other platforms used by the disinformants for deceptive purposes."
+        }
+      ]
+    },
+    {
+      "predicate": "content-language",
+      "entry": [
+        {
+          "value": "english",
+          "expanded": "English",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "russian",
+          "expanded": "Russian",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "french",
+          "expanded": "French",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "chinese",
+          "expanded": "Chinese",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "german",
+          "expanded": "German",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "spanish",
+          "expanded": "Spanish",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "hindi",
+          "expanded": "Hindi",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "portuguese",
+          "expanded": "Portuguese",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "bengali",
+          "expanded": "Bengali",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "japanese",
+          "expanded": "Japanese",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "turkish",
+          "expanded": "Turkish",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "polish",
+          "expanded": "Polish",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "ukrainian",
+          "expanded": "Ukrainian",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "arabic",
+          "expanded": "Arabic",
+          "description": "The language of the disinformation."
+        },
+        {
+          "value": "iranian-persian",
+          "expanded": "iranian-persian",
+          "description": "The language of the disinformation."
+        }
+      ]
+    },
+    {
+      "predicate": "content-topic",
+      "entry": [
+        {
+          "value": "government",
+          "expanded": "Government",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "military",
+          "expanded": "Mility",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "political-party",
+          "expanded": "Political Party",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "elections",
+          "expanded": "Elections",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "non-state-political-actor",
+          "expanded": "Non-State Political Actor",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "business",
+          "expanded": "Business",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "influential-individuals",
+          "expanded": "Influential Individuals",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "racial",
+          "expanded": "Racial",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "ethnic",
+          "expanded": "Ethnic",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "religious",
+          "expanded": "Religious",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "sexual-identity-group",
+          "expanded": "Sexual Identity Group",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "terrorism",
+          "expanded": "Terrorism",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "immigration",
+          "expanded": "Immigration",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "economic-issue",
+          "expanded": "Economic Issue",
+          "description": "Subject evident in the campaign."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Subject evident in the campaign."
+        }
+      ]
+    },
+    {
+      "predicate": "methods-tactics",
+      "entry": [
+        {
+          "value": "brigading",
+          "expanded": "Brigading",
+          "description": "Patriotic trolls or organic coordination in which disinformants seemingly operate under their real identities. A concentrated effort by one online group to manipulate another, e.g. through mass-commenting a certain message."
+        },
+        {
+          "value": "sockpuppets",
+          "expanded": "Sockpuppets",
+          "description": "Inauthentic social media accounts used for the purpose of deception which evidence a high likelihood of human operation. This includes catfishing and other highly tailored operations conducted under inauthentic personas."
+        },
+        {
+          "value": "botnets",
+          "expanded": "Botnets",
+          "description": "Inauthentic social media accounts used for the purpose of deception which evidence a high likelihood of automation. These accounts evidence no sustained human intervention beyond the effort necessary to program them initially. They often form large networks for the purpose of inauthentic amplification. This includes both fresh and repurposed accounts."
+        },
+        {
+          "value": "search-engine-manipulation",
+          "expanded": "Search Engine Manipulation",
+          "description": "Undermining search engine optimization techniques with the intention of creating an inorganic correlation of search queries and results. Often realized by way of cooperative efforts by online communities. e.g. “Google Bombing.” May also include typosquatting with the intention to mislead or redirect to another URL."
+        },
+        {
+          "value": "ddos",
+          "expanded": "Hacking: DDos",
+          "description": "Distributed denial-of-service. Malicious attempt to disrupt server traffic. In the context of political disinformation campaigns, this is intended to make it more difficult for the target to launch an effective counter-messaging effort."
+        },
+        {
+          "value": "data-exfiltration",
+          "expanded": "Hacking: Data Exfiltration",
+          "description": "The unauthorized movement of data. In the context of political disinformation campaigns, this is the acquisition of sensitive information through spearphishing or similar techniques that can be subsequently released by the disinformant to boost their messaging effort."
+        },
+        {
+          "value": "deep-learning-processes",
+          "expanded": "Deceptive Content Manipulation: Deep Learning Processes",
+          "description": "Any content that has been deceptively edited by use of Photoshop or similar software. This includes the deceptive co-option and re-use of extant media branding and style guides. This does not include the use of deep learning processes."
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Inauthentic social media accounts used for the purpose of deception which evidence a high likelihood of human operation. This includes catfishing and other highly tailored operations conducted under inauthentic personas."
+        }
+      ]
+    },
+    {
+      "predicate": "methods-narrative-techniques",
+      "entry": [
+        {
+          "value": "constructive-activate",
+          "expanded": "Constructive: Activate",
+          "description": "Bandwagon, pander, ignite. e.g., “If you love Mr. Trump, RT this.”"
+        },
+        {
+          "value": "constructive-astroturf",
+          "expanded": "Constructive: Astroturf",
+          "description": "Artificial consensus-building, inflation, or amplification. Also called a “Potemkin Village.” e.g., “The #1 trending hashtag can’t be wrong.”"
+        },
+        {
+          "value": "destructive-suppress",
+          "expanded": "Destructive: Suppress",
+          "description": "Harass, intimidate, exhaust. Often targets influential individuals."
+        },
+        {
+          "value": "destructive-discredit",
+          "expanded": "Destructive: Discredit",
+          "description": "Libel, leak, tarnish. Often targets government, political parties, elections, or other institutions."
+        },
+        {
+          "value": "oblique-troll",
+          "expanded": "Oblique: Troll",
+          "description": "Confusion by way of discourse infiltration and targeted distraction. Conscious efforts by disinformants to derail political movements through tailored engagement."
+        },
+        {
+          "value": "oblique-flood",
+          "expanded": "Oblique: Flood",
+          "description": "Confusion by way of hashtag invasion and mass noise generation. The hijacking of an online political movement through appropriation of an existing hashtag and addition of large quantity of unrelated material."
+        }
+      ]
+    },
+    {
+      "predicate": "disinformant-category",
+      "entry": [
+        {
+          "value": "government-direct-attribution",
+          "expanded": "Government: Direct Attribution",
+          "description": "Public, definitive attribution to a national government by a social media platform or trusted government entity. These entities have access to signals intelligence and other publicly unavailable information."
+        },
+        {
+          "value": "government-inferred-attribution",
+          "expanded": "Government: Proxy/Inferred Attribution",
+          "description": "Informed attribution to a government or government-adjacent proxy in which definitive proof is absent. Such attribution is based on open-source data and inference. This includes attribution to political parties, non-state political actors, businesses, and influential individuals who are suspected to be working at the government’s direction."
+        },
+        {
+          "value": "political-party",
+          "expanded": "Political Party",
+          "description": "Organized competitors for political power who can obtain or wield power directly. Includes politicians currently in office, as well as non-incumbent politicians running for office who are associated with a political party. Can also be an individual working for a party."
+        },
+        {
+          "value": "non-state-political-actor",
+          "expanded": "Non-State Political Actor",
+          "description": "Organized competitors for political power who can obtain or wield power, even if indirectly; not necessarily enfranchised. Non-state political actors are formally organized, coordinated, and cohesive. e.g. Greenpeace, the NRA, or the KKK."
+        },
+        {
+          "value": "business",
+          "expanded": "Business",
+          "description": "Includes groups that contract out to the government, individuals looking for financial gain, and mercenaries."
+        },
+        {
+          "value": "influential-individuals",
+          "expanded": "Influential Individuals",
+          "description": "Individuals who are influential but who do not belong to a ruling government coalition. Includes groups of individuals who are not formally organized but work together. e.g. journalists, former politicians, or organized 4channers. For individuals who operate their own charitable foundations (and thus could be placed in Non-State Political Actor), coding depends on whether or not the disinformation is foremost targeting the individual, their foundation, or both."
+        },
+        {
+          "value": "electorate",
+          "expanded": "Electorate",
+          "description": "The enfranchised population in a specific country or within a demarcated boundary."
+        },
+        {
+          "value": "racial",
+          "expanded": "Racial",
+          "description": "A specific minority/majority group."
+        },
+        {
+          "value": "ethnic",
+          "expanded": "Ethnic",
+          "description": "A specific minority/majority group."
+        },
+        {
+          "value": "sexual-identity-group",
+          "expanded": "Sexual Identity Group",
+          "description": "A specific minority/majority group."
+        },
+        {
+          "value": "religious",
+          "expanded": "Religious",
+          "description": "A specific minority/majority group."
+        }
+      ]
+    },
+    {
+      "predicate": "disinformant-concurrent-events",
+      "entry": [
+        {
+          "value": "inter-state-war",
+          "expanded": "Inter-State War",
+          "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research."
+        },
+        {
+          "value": "extra-state-war",
+          "expanded": "Extra-State War",
+          "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before."
+        },
+        {
+          "value": "intra-state-war",
+          "expanded": "Intra-State War",
+          "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research."
+        },
+        {
+          "value": "non-state-war",
+          "expanded": "Non-State War",
+          "description": "War in non-state territory or across state borders. Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research."
+        },
+        {
+          "value": "federal-election",
+          "expanded": "Federal Election",
+          "description": "Includes elections at province, municipality, administrative region, department, prefecture, and local levels."
+        },
+        {
+          "value": "state-election",
+          "expanded": "State Election",
+          "description": "Includes elections at province, municipality, administrative region, department, prefecture, and local levels."
+        }
+      ]
+    },
+    {
+      "predicate": "disinformant-intent",
+      "entry": [
+        {
+          "value": "civil",
+          "expanded": "Civil",
+          "description": "To include electoral interference, policy change."
+        },
+        {
+          "value": "social",
+          "expanded": "Social",
+          "description": "To include marginalization of majority/minority groups and general social fissure."
+        },
+        {
+          "value": "economic",
+          "expanded": "Economic",
+          "description": "To include suppression of economic activity, destruction of capital."
+        },
+        {
+          "value": "military",
+          "expanded": "Military",
+          "description": "To include complement to offensive military campaign, or information paralysis of an adversary’s military institutions."
+        }
+      ]
+    }
+  ],
+  "predicates": [
+    {
+      "value": "primary-target",
+      "expanded": "Target: Nation of Origin",
+      "description": "This should be filled out even when the target is not a nation. When a campaign targets a non-state political actor, the nation of origin of that non-state political actor is filled in this field, if that information is available. Distinguishable territories are nations."
+    },
+    {
+      "value": "target-category",
+      "expanded": "Target: Category",
+      "description": "When a campaign targets an actor, the category of that actor is filled in this field, if that information is available. Categories are not mutually exclusive. All relevant categories can be added."
+    },
+    {
+      "value": "target-concurrent-events",
+      "expanded": "Target: Concurrent Events",
+      "description": "When a campaign targets an actor, events which take place during the campaign are said to be concurrent events."
+    },
+    {
+      "value": "platforms-open-web",
+      "expanded": "Platforms: Open Web",
+      "description": "Open web media platform through which a campaign targets an actor."
+    },
+    {
+      "value": "platforms-social-media",
+      "expanded": "Platforms: Social Media",
+      "description": "Social media platform through which a campaign targets an actor."
+    },
+    {
+      "value": "platforms-messaging",
+      "expanded": "Platforms: Messaging",
+      "description": "Messaging platform through which a campaign targets an actor."
+    },
+    {
+      "value": "platforms-advertisement",
+      "expanded": "Platforms: Advertisements",
+      "description": "Advertisement through which a campaign targets an actor."
+    },
+    {
+      "value": "platforms-email",
+      "expanded": "Platforms: Email",
+      "description": "Email through which a campaign targets an actor."
+    },
+    {
+      "value": "platforms",
+      "expanded": "Platforms",
+      "description": "Platforms through which a campaign targets an actor."
+    },
+    {
+      "value": "content-language",
+      "expanded": "Content: Language",
+      "description": "The language of the disinformation."
+    },
+    {
+      "value": "content-topic",
+      "expanded": "Content: Topic",
+      "description": "The subject evident in the campaign."
+    },
+    {
+      "value": "methods-tactics",
+      "expanded": "Methods: Tactics",
+      "description": "The tactics evident in the campaign."
+    },
+    {
+      "value": "methods-narrative-techniques",
+      "expanded": "Methods: Narrative Techniques",
+      "description": "The narrative techniques evident in the campaign."
+    },
+    {
+      "value": "primary-disinformant",
+      "expanded": "Disinformant: Nation of Origin",
+      "description": "This should be filled out even when the attacker is not a national government. When a campaign is run by a non-state political actor, the nation of origin of that non-state political actor is filled in this field, if that information is available. Likewise, this should be filled out if the preponderance of attacker activity originates from within a single nation. Distinguishable territories are nations."
+    },
+    {
+      "value": "disinformant-category",
+      "expanded": "Disinformant: Category",
+      "description": "When a disinformant targets an actor, the category of that disinformant is filled in this field, if that information is available. Categories are not mutually exclusive. All relevant categories can be added."
+    },
+    {
+      "value": "disinformant-concurrent-events",
+      "expanded": "Disinformant: Concurrent Events",
+      "description": "When a disinformant targets an actor, the category of that disinformant is filled in this field, if that information is available. Categories are not mutually exclusive. All relevant categories can be added."
+    },
+    {
+      "value": "disinformant-intent",
+      "expanded": "Disinformant: Intent",
+      "description": "This is the intent of the primary disinformant and any other disinformants coded."
+    }
+  ]
+}
