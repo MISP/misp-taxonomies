@@ -1,14 +1,14 @@
 {
   "predicates": [
     {
-      "description": "Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.",
-      "expanded": "Unintended Failures Summary",
-      "value": "unintended-failures-summary"
-    },
-    {
       "expanded": "Intentionally-Motivated Failures Summary",
       "description": "Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm.",
       "value": "intentionally-motivated-failures-summary"
+    },
+    {
+      "description": "Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.",
+      "expanded": "Unintended Failures Summary",
+      "value": "unintended-failures-summary"
     }
   ],
   "values": [

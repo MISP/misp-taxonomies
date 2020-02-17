@@ -2617,6 +2617,21 @@
       "description": "This should be filled out even when the target is not a nation. When a campaign targets a non-state political actor, the nation of origin of that non-state political actor is filled in this field, if that information is available. Distinguishable territories are nations."
     },
     {
+      "value": "platforms-advertisement",
+      "expanded": "Platforms: Advertisements",
+      "description": "Advertisement through which a campaign targets an actor."
+    },
+    {
+      "value": "platforms-email",
+      "expanded": "Platforms: Email",
+      "description": "Email through which a campaign targets an actor."
+    },
+    {
+      "value": "primary-disinformant",
+      "expanded": "Disinformant: Nation of Origin",
+      "description": "This should be filled out even when the attacker is not a national government. When a campaign is run by a non-state political actor, the nation of origin of that non-state political actor is filled in this field, if that information is available. Likewise, this should be filled out if the preponderance of attacker activity originates from within a single nation. Distinguishable territories are nations."
+    },
+    {
       "value": "target-category",
       "expanded": "Target: Category",
       "description": "When a campaign targets an actor, the category of that actor is filled in this field, if that information is available. Categories are not mutually exclusive. All relevant categories can be added."
@@ -2642,16 +2657,6 @@
       "description": "Messaging platform through which a campaign targets an actor."
     },
     {
-      "value": "platforms-advertisement",
-      "expanded": "Platforms: Advertisements",
-      "description": "Advertisement through which a campaign targets an actor."
-    },
-    {
-      "value": "platforms-email",
-      "expanded": "Platforms: Email",
-      "description": "Email through which a campaign targets an actor."
-    },
-    {
       "value": "platforms",
       "expanded": "Platforms",
       "description": "Platforms through which a campaign targets an actor."
@@ -2675,11 +2680,6 @@
       "value": "methods-narrative-techniques",
       "expanded": "Methods: Narrative Techniques",
       "description": "The narrative techniques evident in the campaign."
-    },
-    {
-      "value": "primary-disinformant",
-      "expanded": "Disinformant: Nation of Origin",
-      "description": "This should be filled out even when the attacker is not a national government. When a campaign is run by a non-state political actor, the nation of origin of that non-state political actor is filled in this field, if that information is available. Likewise, this should be filled out if the preponderance of attacker activity originates from within a single nation. Distinguishable territories are nations."
     },
     {
       "value": "disinformant-category",
