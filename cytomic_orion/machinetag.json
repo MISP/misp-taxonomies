@@ -1,0 +1,31 @@
+{
+  "namespace": "cytomic-orion",
+  "description": "Taxonomy to describe desired actions for Cytomic Orion",
+  "version": 1,
+  "expanded": "cytomic-orion",
+  "predicates": [
+    {
+      "value": "action",
+      "expanded": "API action",
+      "description": "Desired action of background jobs with the API",
+      "exclusive": true
+    }
+  ],
+  "values": [
+    {
+      "predicate": "action",
+      "entry": [
+        {
+          "value": "upload",
+          "expanded": "upload",
+          "description": "Upload IOC to Cytomic Orion"
+        },
+        {
+          "value": "delete",
+          "expanded": "delete",
+          "description": "Delete IOC from Cytomic Orion"
+        }
+      ]
+    }
+  ]
+}
