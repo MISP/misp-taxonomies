@@ -18,4 +18,4 @@ install:
 
 script:
     - ./validate_all.sh
-    - pytaxonomies -l MANIFEST.json -a
+      #    - pytaxonomies -l MANIFEST.json -a
