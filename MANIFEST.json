@@ -129,6 +129,11 @@
       "version": 2
     },
     {
+      "description": "Taxonomy to describe desired actions for Cytomic Orion",
+      "name": "cytomic-orion",
+      "version": 1
+    },
+    {
       "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project",
       "name": "dark-web",
       "version": 3
@@ -560,5 +565,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20200205"
+  "version": "20200308"
 }
