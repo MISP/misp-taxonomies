@@ -14,7 +14,7 @@ install:
     - sudo apt-get update -qq
     - sudo apt-get install -y -qq jq moreutils
     - pip3 install jsonschema
-    - pip3 install git+https://github.com/MISP/PyTaxonomies.git
+    - pip3 install pytaxonomies
 
 script:
     - ./validate_all.sh
