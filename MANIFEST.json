@@ -76,7 +76,7 @@
     {
       "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
       "name": "circl",
-      "version": 3
+      "version": 4
     },
     {
       "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",
@@ -565,5 +565,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20200308"
+  "version": "20200323"
 }

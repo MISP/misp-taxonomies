@@ -1,7 +1,7 @@
 {
   "namespace": "circl",
   "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
-  "version": 3,
+  "version": 4,
   "predicates": [
     {
       "value": "incident-classification",
@@ -87,6 +87,10 @@
         {
           "value": "sextortion",
           "expanded": "sextortion"
+        },
+        {
+          "value": "covid-19",
+          "expanded": "covid-19"
         }
       ]
     },
