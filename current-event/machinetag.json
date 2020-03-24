@@ -1,0 +1,43 @@
+{
+  "namespace": "current-event",
+  "description": "Current events - Schemes of Classification in Incident Response and Detection",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "pandemic",
+      "expanded": "Pandemic"
+    },
+    {
+      "value": "election",
+      "expanded": "Election"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "pandemic",
+      "entry": [
+        {
+          "value": "sars-cov",
+          "expanded": "SARS-CoV 2003"
+        },
+        {
+          "value": "covid-19",
+          "expanded": "COVID-19"
+        }
+      ]
+    },
+    {
+      "predicate": "election",
+      "entry": [
+        {
+          "value": "eu-par-2019",
+          "expanded": "European Parliament election, 2019"
+        },
+        {
+          "value": "us-pres-2020",
+          "expanded": "United States Presidential election, 2020"
+        }
+      ]
+    }
+  ]
+}
