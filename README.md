@@ -49,6 +49,7 @@ The following taxonomies are described:
 - [NATO Classification Marking](./nato)
 - [Open Threat Taxonomy v1.1 (SANS)](./open_threat)
 - [OSINT Open Source Intelligence - Classification](./osint)
+- [Pandemic](./pandemic) - Pandemic events
 - [Ransomware](./ransomware)
 - [runtime-packer](./runtime-packer) - Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other o
 bfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.
