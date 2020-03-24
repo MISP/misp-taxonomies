@@ -26,6 +26,7 @@ The following taxonomies are described:
 - [Cryptocurrency Threat](./cryptocurrency-threat) - Threats targetting cryptocurrency, based on CipherTrace report.
 - [Cyber Kill Chain](./kill-chain) from Lockheed Martin
 - [The Cyber Threat Framework](./cyber-threat-framework) was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries.
+- [Current Events](./current-events) - List of current events ranging from political to medical matters.
 - DE German (DE) [Government classification markings (VS)](./de-vs)
 - [DCSO Sharing Taxonomy](./dcso-sharing) - DCSO Sharing Taxonomy  to classify certain types of MISP events using the DCSO Event Guide
 - [DHS CIIP Sectors](./dhs-ciip-sectors)
