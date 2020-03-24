@@ -1,7 +1,7 @@
 {
   "namespace": "pandemic",
   "description": "Pandemic",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "covid-19",
@@ -14,11 +14,13 @@
       "entry": [
         {
           "value": "health",
-          "expanded": "Health"
+          "expanded": "Health",
+          "description": "Information tagged about COVID-19 and related to health"
         },
         {
           "value": "cyber",
-          "expanded": "Cyber"
+          "expanded": "Cyber",
+          "description": "Information tagged about COVID-19 and related to cybersecurity"
         }
       ]
     }
