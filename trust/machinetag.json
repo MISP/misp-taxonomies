@@ -55,19 +55,19 @@
       "entry": [
         {
           "value": "low",
-          "expanded": ""
+          "expanded": "Low Change"
         },
         {
           "value": "medium",
-          "expanded": ""
+          "expanded": "Medium Change"
         },
         {
           "value": "high",
-          "expanded": ""
+          "expanded": "High Change"
         },
         {
           "value": "unknown",
-          "expanded": ""
+          "expanded": "Unknown Change Likelihood"
         }
       ]
     }
