@@ -1,83 +1,125 @@
 {
-  "predicates": [
-    {
-      "colour": "#2657ff",
-      "description": "This domain is known to be good",
-      "expanded": "A domain, the human name given to a host can be trusted",
-      "value": "domain"
-    },
-    {
-      "colour": "#e8c90e",
-      "description": "This IP is known to be good",
-      "expanded": "This IP address can be trusted",
-      "value": "ip"
-    },
-    {
-      "colour": "#0E40E8",
-      "description": "This SHA256 Hash is trust worthy",
-      "expanded": "This SHA256 Hash can be trusted",
-      "value": "sha256"
-    },
-    {
-      "colour": "#0E40E8",
-      "description": "This SHA384 Hash is trust worthy",
-      "expanded": "This SHA384 Hash can be trusted",
-      "value": "sha384"
-    },
-    {
-      "colour": "#0E40E8",
-      "description": "This SHA512 Hash is trust worthy",
-      "expanded": "This SHA512 Hash can be trusted",
-      "value": "sha512"
-    },
-    {
-      "colour": "#00BD25",
-      "description": "This URI is trust worthy",
-      "expanded": "This URI can be trusted",
-      "value": "uri"
-    },
-    {
-      "colour": "#00BD25",
-      "description": "This URL is trust worthy",
-      "expanded": "This URL can be trusted",
-      "value": "url"
-    },
-    {
-      "colour": "#9D9D9D",
-      "description": "This email is trust worthy",
-      "expanded": "This email can be trusted",
-      "value": "email"
-    }
-  ],
+    "predicates": [
+	{
+	    "colour": "#2657ff",
+	    "description": "This domain is known to be good",
+	    "expanded": "A domain, the human name given to a host can be trusted",
+	    "value": "domain"
+	},
+	{
+	    "colour": "#e8c90e",
+	    "description": "This IP is known to be good",
+	    "expanded": "This IP address can be trusted",
+	    "value": "ip"
+	},
+	{
+	    "colour": "#0E40E8",
+	    "description": "This SHA256 Hash can be trusted",
+	    "expanded": "This SHA256 Hash can be trusted",
+	    "value": "sha256"
+	},
+	{
+	    "colour": "#0E40E8",
+	    "description": "This SHA384 Hash can be trusted",
+	    "expanded": "This SHA384 Hash can be trusted",
+	    "value": "sha384"
+	},
+	{
+	    "colour": "#0E40E8",
+	    "description": "This SHA512 Hash can be trusted",
+	    "expanded": "This SHA512 Hash can be trusted",
+	    "value": "sha512"
+	},
+	{
+	    "colour": "#00BD25",
+	    "description": "This URI can be trusted",
+	    "expanded": "This URI can be trusted",
+	    "value": "uri"
+	},
+	{
+	    "colour": "#00BD25",
+	    "description": "This URL can be trusted",
+	    "expanded": "This URL can be trusted",
+	    "value": "url"
+	},
+	{
+	    "colour": "#9D9D9D",
+	    "description": "This email is trusted",
+	    "expanded": "This email can be trusted",
+	    "value": "email"
+	}
+    ],
   "values": [
     {
-      "predicate": "change-likelihood",
+      "predicate": "confidence",
       "entry": [
         {
-          "value": "low",
-          "expanded": "Low Change"
+          "value": "High",
+          "expanded": "High confidence"
         },
         {
-          "value": "medium",
-          "expanded": "Medium Change"
+          "value": "Low",
+          "expanded": "Low confidence"
         },
         {
-          "value": "high",
-          "expanded": "High Change"
-        },
-        {
-          "value": "unknown",
-          "expanded": "Unknown Change Likelihood"
+          "value": "Medium",
+          "expanded": "Medium confidence"
         }
       ]
-    }
-  ],
-  "refs": [
-    "https://trust.fyi"
-  ],
-  "version": 1,
-  "description": "Indicators of Trust provide insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good.",
-  "expanded": "Indicators of Trust",
-  "namespace": "trust",
-  "exclusive": true
+    },
+    {
+      "predicate": "periodicity",
+      "entry": [
+        {
+          "value": "hourly",
+          "expanded": "This attribute is likely to happen at an hourly interval"
+        },
+        {
+          "value": "daily",
+          "expanded": "This attribute is likely to happen at a daily interval"
+        },
+        {
+          "value": "weekly",
+          "expanded": "This attribute is likely to happen at a weekly interval"
+        },
+        {
+          "value": "monthly",
+          "expanded": "This attribute is likely to happen at a monthly interval"
+        },
+        {
+          "value": "yearly",
+          "expanded": "This attribute is likely to happen at a yearly interval"
+        }
+      ]
+    },
+	{
+	    "predicate": "change-likelihood",
+	    "entry": [
+		{
+		    "value": "low",
+		    "expanded": "Low change probability"
+		},
+		{
+		    "value": "medium",
+		    "expanded": "Medium change probability"
+		},
+		{
+		    "value": "high",
+		    "expanded": "High change probability"
+		},
+		{
+		    "value": "unknown",
+		    "expanded": "Unknown change probability"
+		}
+	    ]
+	}
+    ],
+    "refs": [
+	"https://trust.fyi/"
+    ],
+    "version": 1,
+    "description": "The Indicator of Trust provides insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good.",
+    "expanded": "Indicators of Trust",
+    "namespace": "trust",
+    "exclusive": true
 }
