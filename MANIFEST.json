@@ -544,6 +544,11 @@
       "version": 5
     },
     {
+      "description": "The Indicator of Trust provides insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good.",
+      "name": "trust",
+      "version": 1
+    },
+    {
       "description": "Taxonomy to describe Tor network infrastructure",
       "name": "tor",
       "version": 1
