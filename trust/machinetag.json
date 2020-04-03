@@ -12,54 +12,6 @@
     },
     {
       "value": "change-likelihood"
-    },
-    {
-      "colour": "#2657ff",
-      "description": "This domain is known to be good",
-      "expanded": "A domain, the human name given to a host can be trusted",
-      "value": "domain"
-    },
-    {
-      "colour": "#e8c90e",
-      "description": "This IP is known to be good",
-      "expanded": "This IP address can be trusted",
-      "value": "ip"
-    },
-    {
-      "colour": "#0E40E8",
-      "description": "This SHA256 Hash can be trusted",
-      "expanded": "This SHA256 Hash can be trusted",
-      "value": "sha256"
-    },
-    {
-      "colour": "#0E40E8",
-      "description": "This SHA384 Hash can be trusted",
-      "expanded": "This SHA384 Hash can be trusted",
-      "value": "sha384"
-    },
-    {
-      "colour": "#0E40E8",
-      "description": "This SHA512 Hash can be trusted",
-      "expanded": "This SHA512 Hash can be trusted",
-      "value": "sha512"
-    },
-    {
-      "colour": "#00BD25",
-      "description": "This URI can be trusted",
-      "expanded": "This URI can be trusted",
-      "value": "uri"
-    },
-    {
-      "colour": "#00BD25",
-      "description": "This URL can be trusted",
-      "expanded": "This URL can be trusted",
-      "value": "url"
-    },
-    {
-      "colour": "#9D9D9D",
-      "description": "This email is trusted",
-      "expanded": "This email can be trusted",
-      "value": "email"
     }
   ],
   "values": [
