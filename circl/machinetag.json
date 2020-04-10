@@ -25,13 +25,13 @@
           "expanded": "System compromise"
         },
         {
-					"value": "sabotage",
-					"expanded": "Sabotage"
-				},
-				{
-					"value": "gdpr-violation",
-					"expanded": "GDPR Violation"
-				},
+	  "value": "sabotage",
+	  "expanded": "Sabotage"
+	},
+	{
+	  "value": "gdpr-violation",
+	  "expanded": "GDPR Violation"
+	},
         {
           "value": "scan",
           "expanded": "Scan"
@@ -49,13 +49,13 @@
           "expanded": "Phishing"
         },
         {
-					"value": "whaling",
-					"expanded": "Whaling"
-				},
+	  "value": "whaling",
+	  "expanded": "Whaling"
+	},
         {
-					"value": "smishing",
-					"expanded": "Sms Phishing"
-				},
+	  "value": "smishing",
+	  "expanded": "Sms Phishing"
+	},
         {
           "value": "malware",
           "expanded": "Malware"
@@ -109,13 +109,13 @@
           "expanded": "sextortion"
         },
         {
-					"value": "social-engineering",
-					"expanded": "Social Engineering"
-				},
-				{
-					"value": "gdpr-violation",
-					"expanded": "GDPR Violation"
-				},
+	  "value": "social-engineering",
+	  "expanded": "Social Engineering"
+	},
+	{
+	  "value": "gdpr-violation",
+	  "expanded": "GDPR Violation"
+	},
         {
           "value": "covid-19",
           "expanded": "covid-19"
@@ -123,25 +123,26 @@
       ]
     },
     {
-			"predicate": "information-classfication",
-			"entry": [{
-					"value": "confidential",
-					"expanded": "Confidential Information (top confidentiality level)"
-				},
-				{
-					"value": "restricted",
-					"expanded": "Restricted Information (medium confidentiality level)"
-				},
-				{
-					"value": "internal-use",
-					"expanded": "Internal Use Information (lowest level of confidentiality)"
-				},
-				{
-					"value": "public",
-					"expanded": "Public Information (everyone can see the information)"
-				}
-			]
-		},
+      "predicate": "information-classfication",
+      "entry": [
+	{
+          "value": "confidential",
+          "expanded": "Confidential Information (top confidentiality level)"
+	},
+	{
+	  "value": "restricted",
+	  "expanded": "Restricted Information (medium confidentiality level)"
+	},
+	{
+	"value": "internal-use",
+	"expanded": "Internal Use Information (lowest level of confidentiality)"
+	},
+	{
+	"value": "public",
+	"expanded": "Public Information (everyone can see the information)"
+	}
+      ]
+    },
     {
       "predicate": "topic",
       "entry": [
