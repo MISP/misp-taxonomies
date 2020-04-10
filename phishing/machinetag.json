@@ -95,6 +95,11 @@
           "expanded": "Bulk phishing",
           "description": "Adversary attempts to target a large group of potential targets without specific knowledge of the victims."
         }
+        {
+          "value": "whaling",
+          "expanded": "Whaling phishing",
+          "description": "Adversary attempts to target executives and high-level employees (like public spokespersons)."
+        }
       ]
     },
     {
