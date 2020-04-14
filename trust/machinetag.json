@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "description": "The Indicator of Trust provides insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good.",
+  "expanded": "Indicators of Trust",
+  "namespace": "trust",
+  "exclusive": true,
+  "predicates": [
+    {
+      "value": "trust",
+      "expanded": "How much trust the analyst has with this indicator."
+    },
+    {
+      "value": "frequency",
+      "expanded": "Recency/count of occurence at which the indicator occurs in data."
+    },
+    {
+      "value": "valid",
+      "expanded": "Whether this indicator was pushed as trusted but cannot be trusted (ie. MD5 cannot be valid because it is cryptographically broken)."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "trust",
+      "entry": [
+        {
+          "value": "unknown",
+          "expanded": "Unknown Confidence State"
+        },
+        {
+          "value": "none",
+          "expanded": "Cannot Trust, no confidence"
+        },
+        {
+          "value": "partial",
+          "expanded": "Low confidence"
+        },
+        {
+          "value": "relationship",
+          "expanded": "Inherited Full Trust by a third party that we trust"
+        },
+        {
+          "value": "full",
+          "expanded": "We fully trust it"
+        }
+      ]
+    },
+    {
+      "predicate": "frequency",
+      "entry": [
+        {
+          "value": "hourly",
+          "expanded": "This attribute is likely to happen at an hourly interval"
+        },
+        {
+          "value": "daily",
+          "expanded": "This attribute is likely to happen at a daily interval"
+        },
+        {
+          "value": "weekly",
+          "expanded": "This attribute is likely to happen at a weekly interval"
+        },
+        {
+          "value": "monthly",
+          "expanded": "This attribute is likely to happen at a monthly interval"
+        },
+        {
+          "value": "yearly",
+          "expanded": "Thie attribute is likely to happen at a yearly interval"
+        }
+      ]
+    },
+    {
+      "predicate": "valid",
+      "entry": [
+        {
+          "value": "true",
+          "expanded": "This Trust is valid"
+        },
+        {
+          "value": "false",
+          "expanded": "This trust is invalid. Such as a MD5 Hash etc."
+        }
+      ]
+    }
+  ],
+  "refs": [
+    "https://trust.fyi/"
+  ]
+}

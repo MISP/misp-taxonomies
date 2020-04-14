@@ -544,6 +544,11 @@
       "version": 5
     },
     {
+      "description": "The Indicators of Trust provide insight on data about what can be trusted",
+      "name": "trust",
+      "version": 1
+    },
+    {
       "description": "Taxonomy to describe Tor network infrastructure",
       "name": "tor",
       "version": 1

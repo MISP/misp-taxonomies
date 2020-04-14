@@ -58,6 +58,7 @@ bfuscation techniques. This taxonomy lists all the known or official packer used
 - [The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.](./PAP)
 - [Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer.](./targeted-threat-index)
 - [TLP - Traffic Light Protocol](./tlp)
+- [Trust - Indicators of Trust](./trust)
 - [Type](./type)
 - [Vocabulaire des probabilités estimatives](./vocabulaire-des-probabilites-estimatives)
 - Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
@@ -179,6 +180,10 @@ The Permissible Actions Protocol - or short: PAP - was designed to indicate how 
 ### [TLP - Traffic Light Protocol](./tlp)
 
 The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.
+
+### [Trust - Indicators of Trust](./trust)
+
+The Trust Taxonomy provides a way to use Indicators of Trust within MISP to get insight on data about what can be trusted. Similar to a whitelist but on steroids, leveraging MISP features one would use with Inidicators of Compromise, but to filter out what is known to be good.
 
 ### Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 
