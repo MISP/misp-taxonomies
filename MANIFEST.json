@@ -451,7 +451,7 @@
     {
       "description": "Pandemic",
       "name": "pandemic",
-      "version": 2
+      "version": 4
     },
     {
       "description": "Tags from RiskIQ's PassiveTotal service",
@@ -544,13 +544,13 @@
       "version": 5
     },
     {
-      "description": "The Indicators of Trust provide insight on data about what can be trusted",
-      "name": "trust",
+      "description": "Taxonomy to describe Tor network infrastructure",
+      "name": "tor",
       "version": 1
     },
     {
-      "description": "Taxonomy to describe Tor network infrastructure",
-      "name": "tor",
+      "description": "The Indicator of Trust provides insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good.",
+      "name": "trust",
       "version": 1
     },
     {
@@ -580,5 +580,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20200324"
+  "version": "20200424"
 }
