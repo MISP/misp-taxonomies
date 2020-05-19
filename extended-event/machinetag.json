@@ -1,0 +1,43 @@
+{
+  "namespace": "extended-event",
+  "description": "Reasons why an event has been extended : ",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "competitive-analysis",
+      "expanded": "Competitive analysis"
+    },
+    {
+      "value": "extended-analysis",
+      "expanded": "Extended analysis"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "competitive-analysis",
+      "entry": [
+        {
+          "value": "devil-advocate",
+          "description": "Devil's advocate"
+        },
+        {
+          "value": "absurd-reasoning",
+          "expanded": "Absurd reasoning"
+        }
+      ]
+    },
+    {
+      "predicate": "extended-analysis",
+      "entry": [
+        {
+          "value": "automatic-expansion",
+          "description": "Automatic expansion"
+        },
+        {
+          "value": "aggressive-pivoting",
+          "description": "Aggressive pivoting"
+        }
+      ]
+    }
+  ]
+}
