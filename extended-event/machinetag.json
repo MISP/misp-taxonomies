@@ -23,7 +23,15 @@
         {
           "value": "absurd-reasoning",
           "expanded": "Absurd reasoning"
-        }
+        },
+	{
+	"value": "role-playing",
+	"expanded": "Role playing"
+	}, 
+	{
+	"value": "crystal-ball",
+	"expanded": "Crystal ball"
+	}
       ]
     },
     {
