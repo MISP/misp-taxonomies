@@ -79,7 +79,7 @@
         {
           "value": "time-based",
           "expanded": "Time based",
-          "dscription": "is an element of a serie of extended events, split by matter of time"
+          "description": "is an element of a serie of extended events, split by matter of time"
         },
         {
           "value": "counter-based",
