@@ -1,0 +1,262 @@
+{
+    "predicates": [
+        {
+            "value": "prior-to-incident-crime",
+            "expanded": "Prior to incident/crime",
+            "description": "Prior to incident/crime"
+        },
+        {
+            "value": "during-the-incident-crime",
+            "expanded": "During the incident/crime",
+            "description": "During the incident/crime"
+        },
+        {
+            "value": "post-incident-crime",
+            "expanded": "Post incident/crime",
+            "description": "Post incident/crime"
+        }        
+    ],
+    "values": [
+      {
+        "predicate": "prior-to-incident-crime",          
+        "entry": [
+          {
+            "description": "Problem-solving and critical thinking skills",
+            "expanded": "Delivering training",
+            "value": "delivering-training",
+            "numerical_value": 1,
+            "actors": [ "csirt", "lea", "judge", "prosec" ]
+          },
+          {
+            "description": "Problem-solving and critical thinking skills",
+            "expanded": "Participating in training",
+            "value": "participating-training",
+            "numerical_value": 2,
+            "actors": [ "csirt", "lea", "judge", "prosec" ]
+          },
+          {
+            "description": "Knowledge of cyber threat intelligence landscape",
+            "expanded": "Collecting cyber threat intelligence",
+            "value": "collecting-cyber-threat-intelligence",
+            "numerical_value": 3,
+            "actors": [ "csirt", "lea", "prosec" ]
+          },
+          {
+            "description": "Development and distribution of tools for preventive and reactive mitigation",
+            "expanded": "Analysis of vulnerabilities and threats",
+            "value": "analysis-of-vulnerabilities-and-threats",
+            "numerical_value": 4,
+            "actors": [ "csirt", "lea", "prosec" ]
+          },
+          {
+            "description": "Dealing with specific types of threats and vulnerabilities",
+            "expanded": "Issuing recommendations for new vulnerabilities and threats",
+            "value": "issuing-recommendations-for-new-vulnerabilities-and-threats",
+            "numerical_value": 5,
+            "actors": [ "csirt" ]
+          },          
+          {
+            "description": "Raising awareness on preventive measures against cybercrime",
+            "expanded": "Advising potential victims on preventive measures against cybercrime",
+            "value": "advising-potential-victims-on-preventive-measures-against-cybercrime",
+            "numerical_value": 6,
+            "actors": [ "csirt", "lea" ]
+          }                        
+        ]
+      },
+      {
+        "predicate": "during-the-incident-crime",
+        "entry": [
+            {
+                "description": "Digital investigations; forensics tools; penetration testing; vulnerability scanning; flow analysis",
+                "expanded": "Discovery of the cyber security incident/crime",
+                "value": "discovery-of-the-cyber-security-incident-crime",
+                "numerical_value": 7,
+                "actors": [ "csirt", "lea" ]
+            },
+            {
+                "description": "Incident and crime classification and identification",
+                "expanded": "Identification and classification of the cyber security incident/crime",
+                "value": "incident-and-crime-classification-and-identification",
+                "numerical_value": 8,
+                "actors": [ "csirt", "lea", "prosec" ]
+            },
+            {
+                "description": "Knowledge of cyber threats and incident response procedures",
+                "expanded": "Identify the type and severity of the compromise",
+                "value": "identify-the-type-and-severity-of-the-compromise",
+                "numerical_value": 9,
+                "actors": [ "csirt", "lea", "prosec" ]
+            },
+            {
+                "description": "Knowledge of what kind of data to collect; organisation skills",
+                "expanded": "Evidence collection",
+                "value": "evidence-collection",
+                "numerical_value": 10,
+                "actors": [ "csirt", "lea", "prosec" ]
+            },
+            {
+                "description": "Technical skills",
+                "expanded": "Providing technical expertise",
+                "value": "providing-technical-expertise",
+                "numerical_value": 11,
+                "actors": [ "csirt" ]
+            },
+            {
+                "description": "Digital investigations; forensics tools;",
+                "expanded": "Preserving the evidence that may be crucial for the detection of a crime in a criminal trial",
+                "value": "preserving-the-evidence",
+                "numerical_value": 12,
+                "actors": [ "csirt", "lea", "prosec" ]
+            },
+            {
+                "description": "Obligations and restriction on information sharing; communication channels",
+                "expanded": "Advising the victim to report / obligation to report a cybercrime to law enforcement (LE)",
+                "value": "advising-the-victim-to-report-",
+                "numerical_value": 13,
+                "actors": [ "csirt", "prosec" ]
+            },
+            {
+                "description": "Obligations and restrictions to the information sharing",
+                "expanded": "Duty to inform the victim of a cybercrime",
+                "value": "duty-to-inform-the-victim-of-a-cybercrime",
+                "numerical_value": 14,
+                "actors": [ "csirt", "lea", "prosec" ]
+            },
+            {
+                "description": "Obligations and rules for information sharing among communities",
+                "expanded": "Duty to inform other stakeholders/authorities (operators of vulnerable systems, data protection authorities, telecommunications authorities, etc.)",
+                "value": "duty-to-inform-other-stakeholders-authorities",
+                "numerical_value": 15,
+                "actors": [ "csirt" ]
+            },
+            {
+                "description": "Communication skills; communication channel",
+                "expanded": "Acting as a single point of contact (PoC) for any communication with other EU Member States for the incident handling",
+                "value": "acting-as-a-single-point-of-contact",
+                "numerical_value": 16,
+                "actors": [ "csirt" ]
+            },
+            {
+                "description": "Well-prepared & well-organised to react promptly in an incident",
+                "expanded": "Mitigation of an incident",
+                "value": "mitigation-of-an-incident",
+                "numerical_value": 17,
+                "actors": [ "csirt" ]
+            },
+            {
+                "description": "Knowledge of the legal framework; decision- making skills",
+                "expanded": "Conducting the criminal investigation",
+                "value": "conducting-the-criminal-investigation",
+                "numerical_value": 18,
+                "actors": [ "lea", "prosec" ]
+            },
+            {
+                "description": "Knowledge of the incident response plan; leadership skills",
+                "expanded": "Leading the criminal investigation",
+                "value": "leading-the-criminal-investigation",
+                "numerical_value": 19,
+                "actors": [ "judge", "prosec" ]
+            },
+            {
+                "description": "Knowledge of the legal framework; decision- making skills",
+                "expanded": "In the case of disagreement, the final say for an investigation",
+                "value": "the-final-say-for-an-investigation",
+                "numerical_value": 20,
+                "actors": [ "judge", "prosec" ]
+            },            
+            {
+                "description": "Decision-making in the criminal procedure",
+                "expanded": "Authorizing the investigation carried out by the LE",
+                "value": "authorizing-the-investigation-carried-out-by-the-le",
+                "numerical_value": 21,
+                "actors": [ "lea", "judge", "prosec" ]
+            },
+            {
+                "description": "Fundamental rights in criminal investigations and prosecutions",
+                "expanded": "Ensuring that fundamental rights are respected during the investigation and prosecution",
+                "value": "ensuring-that-fundamental-rights-are-respected",
+                "numerical_value": 22,
+                "actors": [ "csirt", "lea", "judge", "prosec" ]
+            }
+        ]
+      },
+      {
+        "predicate": "post-incident-crime",          
+        "entry": [
+          {
+            "description": "Technical skills",
+            "expanded": "Systems recovery",
+            "value": "systems-recovery",
+            "numerical_value": 23,
+            "actors": [ "csirt" ]
+          },
+          {
+            "description": "Drafting and establishing procedures; technical knowledge",
+            "expanded": "Protecting the constituency",
+            "value": "protecting-the-constituency",
+            "numerical_value": 24,
+            "actors": [ "csirt" ]
+          },        
+          {
+            "description": "Technical skills pertaining to system administration, network administration, technical support or intrusion detection",
+            "expanded": "Preventing and containing IT incidents from a technical point of view",
+            "value": "preventing-and-containing-it-incidents",
+            "numerical_value": 25,
+            "actors": [ "csirt" ]
+          },
+          {
+            "description": "Criminalistics, digital forensics, admissible evidence",
+            "expanded": "Analysis and interpretation of collected evidence",
+            "value": "analysis-and-interpretation-of-collected-evidence",
+            "numerical_value": 26,
+            "actors": [ "lea", "judge", "prosec" ]
+          },             
+          {
+            "description": "Testimonies in a criminal trial",
+            "expanded": "Requesting testimonies from CSIRTs and LE",
+            "value": "requesting-testimonies-from-csirts-and-le",
+            "numerical_value": 27,
+            "actors": [ "judge", "prosec" ]
+          },             
+          {
+            "description": "Evidence in a criminal trial",
+            "expanded": "Admitting and assessing the evidence",
+            "value": "admitting-and-assessing-the-evidence",
+            "numerical_value": 28,
+            "actors": [ "judge", "prosec" ]
+          },                       
+          {
+            "description": "Technical knowledge and knowledge of the legal framework",
+            "expanded": "Judging who committed a crime",
+            "value": "judging-who-committed-a-crime",
+            "numerical_value": 29,
+            "actors": [ "judge" ]
+          },                               
+          {
+            "description": "Evaluation skills",
+            "expanded": "Assessing incident damage and cost",
+            "value": "assessing-incident-damage-and-cost",
+            "numerical_value": 30,
+            "actors": [ "csirt", "lea", "judge", "prosec" ]
+          },
+          {
+            "description": "Knowledge how to draft an incident response and procedures",
+            "expanded": "Reviewing the response and update policies and procedures",
+            "value": "reviewing-the-response-and-update-policies-and-procedures",
+            "numerical_value": 31,
+            "actors": [ "csirt" ]
+          }
+        ]
+    }      
+    ],
+
+  "refs": [
+    "https://www.enisa.europa.eu/publications/support-the-fight-against-cybercrime-tools-for-enhancing-cooperation-between-csirts-and-le"
+  ],
+  "version": 1,
+  "description": "The Segregation (or separation) of Duties (SoD) Matrix for CSIRTs, LEA and Judiciary. Description field contains training topics.",
+  "expanded": "Segregation of Duties Matrix",
+  "namespace": "sod-matrix",
+  "exclusive": true
+}
