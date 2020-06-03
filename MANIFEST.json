@@ -564,11 +564,6 @@
       "version": 1
     },
     {
-      "description": "Indicators of Trust provide insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good.",
-      "name": "trust",
-      "version": 1
-    },
-    {
       "description": "The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems.",
       "name": "use-case-applicability",
       "version": 1
