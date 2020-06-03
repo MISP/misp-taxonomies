@@ -246,7 +246,12 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 7
+      "version": 8
+    },
+    {
+      "description": "Reasons why an event has been extended. ",
+      "name": "extended-event",
+      "version": 1
     },
     {
       "description": "The purpose of this taxonomy is to jointly tabulate both the of these failure modes in a single place. Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm. Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.",
@@ -451,7 +456,7 @@
     {
       "description": "Pandemic",
       "name": "pandemic",
-      "version": 2
+      "version": 4
     },
     {
       "description": "Tags from RiskIQ's PassiveTotal service",
@@ -549,6 +554,11 @@
       "version": 1
     },
     {
+      "description": "The Indicator of Trust provides insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good.",
+      "name": "trust",
+      "version": 1
+    },
+    {
       "description": "Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence.",
       "name": "type",
       "version": 1
@@ -580,5 +590,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20200401"
+  "version": "20200526"
 }

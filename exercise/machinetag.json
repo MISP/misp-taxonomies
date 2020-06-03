@@ -34,6 +34,11 @@
       "description": "Cyber SOPEx (formerly known as EuroSOPEx) is the first step in a series of ENISA exercises focusing on training the participants on situational awareness, information sharing, understanding roles and responsibilities and utilising related tools, as agreed by the CSIRTs Network",
       "expanded": "Cyber SOPEx",
       "value": "cyber-sopex"
+    },
+    {
+      "value": "generic",
+      "expanded": "Generic",
+      "description": "Generic exercise which are not named."
     }
   ],
   "values": [
@@ -166,9 +171,19 @@
           "expanded": "2021"
         }
       ]
+    },
+    {
+      "predicate": "generic",
+      "entry": [
+        {
+          "value": "comcheck",
+          "expanded": "Communication check",
+          "description": "A communication check exercise which can include digital or non-digital communication."
+        }
+      ]
     }
   ],
-  "version": 7,
+  "version": 8,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise"

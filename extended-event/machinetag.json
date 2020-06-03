@@ -1,0 +1,92 @@
+{
+  "namespace": "extended-event",
+  "description": "Reasons why an event has been extended. ",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "competitive-analysis",
+      "expanded": "Competitive analysis"
+    },
+    {
+      "value": "extended-analysis",
+      "expanded": "Extended analysis"
+    },
+    {
+      "value": "human-readable",
+      "expanded": "Human readable",
+      "description": "This extended event makes a human readable output of a  machine or technical report."
+    },
+    {
+      "value": "chunked-event",
+      "expanded": "Chunked Event",
+      "description": "This extended event is a part of a large event."
+    },
+    {
+      "value": "update",
+      "expanded": "Update",
+      "description": "Original event is deprecated"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "competitive-analysis",
+      "entry": [
+        {
+          "value": "devil-advocate",
+          "expanded": "Devil's advocate",
+          "description": "Is a competitive analysis of devil's advocate type."
+        },
+        {
+          "value": "absurd-reasoning",
+          "expanded": "Absurd reasoning",
+          "description": "Is a competitive analysis of absurd reasoning type"
+        },
+        {
+          "value": "role-playing",
+          "expanded": "Role playing",
+          "description": "Is a competitive analysis of role playing type"
+        },
+        {
+          "value": "crystal-ball",
+          "expanded": "Crystal ball",
+          "description": "Is a competitive analysis of crystal ball type"
+        }
+      ]
+    },
+    {
+      "predicate": "extended-analysis",
+      "entry": [
+        {
+          "value": "automatic-expansion",
+          "expanded": "Automatic expansion",
+          "description": "This extended event is composed of elements derived from automatic expanxions services"
+        },
+        {
+          "value": "aggressive-pivoting",
+          "expanded": "Aggressive pivoting",
+          "description": "This extended event is composed of elements resulting of a careless pivoting"
+        },
+        {
+          "value": "complementary-analysis",
+          "expanded": "Complementary analysis",
+          "description": "This extended event is composed of elements gathered by a different analyst than the original one"
+        }
+      ]
+    },
+    {
+      "predicate": "chunked-event",
+      "entry": [
+        {
+          "value": "time-based",
+          "expanded": "Time based",
+          "description": "is an element of a serie of extended events, split by matter of time"
+        },
+        {
+          "value": "counter-based",
+          "expanded": "Counter based",
+          "description": "is an element of a serie of extended events, split by number of elements"
+        }
+      ]
+    }
+  ]
+}

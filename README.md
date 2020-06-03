@@ -183,7 +183,7 @@ The Traffic Light Protocol - or short: TLP - was designed with the objective to 
 
 ### [Trust - Indicators of Trust](./trust)
 
-Indicators of Trust provide insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good.
+The Trust Taxonomy provides a way to use Indicators of Trust within MISP to get insight on data about what can be trusted. Similar to a whitelist but on steroids, leveraging MISP features one would use with Inidicators of Compromise, but to filter out what is known to be good.
 
 ### Vocabulary for Event Recording and Incident Sharing [VERIS](./veris)
 

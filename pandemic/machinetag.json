@@ -1,7 +1,7 @@
 {
   "namespace": "pandemic",
   "description": "Pandemic",
-  "version": 2,
+  "version": 4,
   "predicates": [
     {
       "value": "covid-19",
@@ -21,6 +21,16 @@
           "value": "cyber",
           "expanded": "Cyber",
           "description": "Information tagged about COVID-19 and related to cybersecurity"
+        },
+        {
+          "value": "disinformation",
+          "expanded": "Disinformation",
+          "description": "Information tagged about COVID-19 and related to disinformation"
+        },
+        {
+          "value": "geostrategy",
+          "expanded": "Geostrategy",
+          "description": "Information tagged about COVID-19 and related to geostrategy or geopolitics"
         }
       ]
     }
