@@ -1,6 +1,6 @@
 {
   "namespace": "misinformation-website-label",
-  "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical 'News' Sources by Melissa Zimdars 2019",
+  "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical News Sources by Melissa Zimdars 2019",
   "version": 1,
   "predicates": [
     {
@@ -21,7 +21,7 @@
     {
       "value": "conspiracy",
       "expanded": "Conspiracy",
-      "description": "Sources that are well-known promoters of kooky conspiracy theories. Ex: 9/11 conspiracies, chem-trails, lizard people in the sewer systems, birther rumors, flat earth ‘theory,’ fluoride as mind control, vaccines as mind control etc"
+      "description": "Sources that are well-known promoters of kooky conspiracy theories. Ex: 9/11 conspiracies, chem-trails, lizard people in the sewer systems, birther rumors, flat earth theory fluoride as mind control, vaccines as mind control etc"
     },
     {
       "value": "rumor",
@@ -82,8 +82,8 @@
           "expanded": "Irony"
         },
         {
-          "value": "",
-          "expanded": "exaggeration"
+          "value": "exaggeration",
+          "expanded": "Exaggeration"
         },
         {
           "value": "false-information",
