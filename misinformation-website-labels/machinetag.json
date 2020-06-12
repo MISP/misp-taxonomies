@@ -1,0 +1,154 @@
+{
+	"namespace":"misinformation-website-label",
+	"description":"classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical 'News' Sources by Melissa Zimdars 2019",
+	"version":"1",
+	"predicates": [
+		{
+			"value":"fake-news",
+			"expanded":"Fake news",
+			"description":"Sources that fabricate information, disseminate deceptive content, or grossly distort actual news reports"
+		},
+		{
+			"value":"satire",
+			"expanded":"Satire",
+			"description":"Sources that use humor, irony, exaggeration, ridicule, and false information to comment current events"
+		},
+		{
+			"value":"extreme-bias",
+			"expanded":"'Extreme' Bias",
+			"description":"Sources that come from a particular point of view and may rely on propaganda, decontextualized information, opinions distorded as facts"
+		},
+		{
+			"value":"conspiracy",
+			"expanded":"Conspiracy",
+			"description":"Sources that are well-known promoters of kooky conspiracy theories. Ex: 9/11 conspiracies, chem-trails, lizard people in the sewer systems, birther rumors, flat earth ‘theory,’ fluoride as mind control, vaccines as mind control etc"
+		},
+		{
+			"value":"rumor",
+			"expanded":"Rumor Mill",
+			"description":"Sources that traffic in rumors, gossip, innuendo, unverified claims"
+		},
+		{
+			"value":"state-news",
+			"expanded":"State News",
+			"description":"Sources in repressive states operating under government sanction"
+		}
+		,
+		{
+			"value":"junk-sciences",
+			"expanded":"Junk Sciences",
+			"description":"Sources that promotes pseudo-sciences, metaphysics, naturalistic fallacies, and other scientificallt dubious claims"
+		},
+		{
+			"value":"hate-news",
+			"expanded":"Hate News",
+			"description":"Sources that promote racism, misogyny, homophobia, and other forms of discrimination"
+		},
+		{
+			"value":"clickbait",
+			"expanded":"Clickbait",
+			"description":"Sources that provide generally credible content, but use exaggerated, misleading, OR questionable headlines, social media descriptions, and/or images.  These sources may also use sensational language to generate interest, clickthroughs, and shares, but their content is typically verifiable"
+		},
+		{
+			"value":"proceed-with-caution",
+			"expanded":"Proceed with caution-unreliable",
+			"description":"Sources that may be reliable but whose contents require further verification or to be read in conjunction with other sources"
+		},
+		{
+			"value":"political",
+			"expanded":"Political",
+			"description":"Sources that provide generally verifiable information in support of certain points of view or political orientations"
+		},
+		{
+			"value":"credible",
+			"expanded":"Credible-reliable",
+			"description":"Sources that circulate news and information in a manner consistent with traditional and ethical practices in journalism"
+		},
+		{
+			"value":"unknown",
+			"expanded":"Unknown-unidentified",
+			"description":"Sources that have not yet been analyzed (many of these were suggested by readers/users or are found on other lists and resources)."
+		}
+	],
+	"values":[
+		{
+			"predicate":"satire",
+			"entry":[
+				{
+					"value":"humor",
+					"expanded":"Humor"
+				},
+				{
+					"value":"irony",
+					"expanded":"Irony"
+				},
+				{
+					"value":"",
+					"expanded":"exaggeration"
+				},
+				{
+					"value":"false-information",
+					"expanded":"False information"
+				}
+			]
+		},
+		{
+			"predicate":"extreme-bias",
+			"entry":[
+				{
+					"value":"propaganda",
+					"expanded":"Propaganda"
+				},
+				{
+					"value":"decontextualized-information",
+					"expanded":"Decontextualized Information"
+				},
+				{
+					"value":"opinions-distorded-as-facts",
+					"expanded":"Opinions distorded as facts"
+				}
+			]
+		},
+		{
+			"predicate":"rumor",
+			"entry":[
+			{
+				"value":"rumors",
+				"expanded":"Rumors"
+			},
+			{
+				"value":"gossip",
+				"expanded":"Gossip"
+			},
+			{
+				"value":"innuendo",
+				"expanded":"Innuendo"
+			},
+			{
+				"value":"unverified-claims",
+				"expanded":"Unverified Claims"
+			}
+			]
+		},
+		{
+			"predicate":"hate-news",
+			"entry":[
+				{
+					"value":"racism",
+					"expanded":"Racism"
+				},
+				{
+				"value":"misogyny",
+				"expanded":"Misogyny"
+				},
+				{
+					"value":"homophobia",
+					"expanded":"Homophobia"
+				},
+				{
+					"value":"discrimination-other",
+					"expanded":"Discrimination other"
+				}
+			]
+		}
+}
