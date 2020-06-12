@@ -1,7 +1,7 @@
 {
   "namespace": "misinformation-website-label",
   "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical 'News' Sources by Melissa Zimdars 2019",
-  "version": "1",
+  "version": 1,
   "predicates": [
     {
       "value": "fake-news",
