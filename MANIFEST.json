@@ -409,6 +409,11 @@
       "version": 2
     },
     {
+      "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical 'News' Sources by Melissa Zimdars 2019",
+      "name": "misinformation-website-label",
+      "version": "1"
+    },
+    {
       "description": "MISP taxonomy to infer with MISP behavior or operation.",
       "name": "misp",
       "version": 11
@@ -585,5 +590,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20200526"
+  "version": "20200612"
 }
