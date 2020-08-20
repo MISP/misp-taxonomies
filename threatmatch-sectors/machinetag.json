@@ -1,0 +1,167 @@
+{
+  "namespace": "ThreatMatch",
+  "expanded": "Sector Types for Sharing into ThreatMatch and MISP",
+  "version": 1,
+  "description": "The ThreatMatch Sector types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
+  "refs": [
+    "https://www.secalliance.com/platform/",
+    "https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.pr200227_1~062992656b.en.html"
+  ],
+  "predicates":[
+    {
+      "value": "sector",
+      "expanded": "Threat Match sector definitions"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "sector",
+      "entry": [
+         {
+           "value": "Banking & Capital Markets",
+           "expanded": "Banking & capital markets"
+         },
+         {
+           "value": "Financial Services",
+           "expanded": "Financial Services"
+         },
+         {
+           "value": "Insurance",
+           "expanded": "Insurance"
+         },
+         {
+           "value": "Pension",
+           "expanded": "Pension"
+         },
+         {
+           "value": "Government & Public Service",
+           "expanded": "Government & Public Service"
+         },
+         {
+           "value": "Diplomatic Services",
+           "expanded": "Diplomatic Services"
+         },
+         {
+           "value": "Energy, Utilities & Mining",
+           "expanded": "Energy, Utilities & Mining"
+         },
+         {
+           "value": "Telecommunications",
+           "expanded": "Telecommunications"
+         },
+         {
+           "value": "Technology",
+           "expanded": "Technology"
+         },
+         {
+           "value": "Academic/Research Institutes",
+           "expanded": "Academic/Research Institutes"
+         },
+         {
+           "value": "Aerospace, Defence & Security",
+           "expanded": "Aerospace, Defence & Security"
+         },
+         {
+           "value": "Agriculture",
+           "expanded": "Agriculture"
+         },
+         {
+           "value": "Asset & Wealth Management",
+           "expanded": "Asset & Wealth Management"
+         },
+         {
+           "value": "Automotive",
+           "expanded": "Automotive"
+         },
+         {
+           "value": "Business and Professional Services",
+           "expanded": "Business and Professional Services"
+         },
+         {
+           "value": "Capital Projects & Infrastructure",
+           "expanded": "Capital Projects & Infrastructure"
+         },
+         {
+           "value": "Charity/Not-for-Profit",
+           "expanded": "Charity/Not-for-Profit"
+         },
+         {
+           "value": "Chemicals",
+           "expanded": "Chemicals"
+         },
+         {
+           "value": "Commercial Aviation",
+           "expanded": "Commercial Aviation"
+         },
+         {
+           "value": "Commodities",
+           "expanded": "Commodities"
+         },
+         {
+           "value": "Education",
+           "expanded": "Education"
+         },
+         {
+           "value": "Engineering & Construction",
+           "expanded": "Engineering & Construction"
+         },
+         {
+           "value": "Entertainment & Media",
+           "expanded": "Entertainment & Media"
+         },
+         {
+           "value": "Forest, Paper & Packaging",
+           "expanded": "Forest, Paper & Packaging"
+         },
+         {
+           "value": "Healthcare",
+           "expanded": "Healthcare"
+         },
+         {
+           "value": "Hospitality & Leisure",
+           "expanded": "Hospitality & Leisure"
+         },
+         {
+           "value": "Industrial Manufacturing",
+           "expanded": "Industrial Manufacturing"
+         },
+         {
+           "value": "IT Industry",
+           "expanded": "IT Industry"
+         },
+         {
+           "value": "Legal",
+           "expanded": "Legal"
+         },
+         {
+           "value": "Metals",
+           "expanded": "Metals"
+         },
+         {
+           "value": "Pharmaceuticals & Life Sciences",
+           "expanded": "Pharmaceuticals & Life Sciences"
+         },
+         {
+           "value": "Private Equity",
+           "expanded": "Private Equity"
+         },
+         {
+           "value": "Retail & Consumer",
+           "expanded": "Retail & Consumer"
+         },
+         {
+           "value": "Semiconductors",
+           "expanded": "Semiconductors"
+         },
+         {
+           "value": "Sovereign Investment Funds",
+           "expanded": "Sovereign Investment Funds"
+         },
+         {
+           "value": "Transport & Logistics",
+           "expanded": "Transport & Logistics"
+         }
+      ]
+    }
+  ]
+}
