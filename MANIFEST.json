@@ -545,22 +545,22 @@
     },
     {
       "description": "The ThreatMatch Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
-      "name": "ThreatMatch",
+      "name": "threatmatch-alert-types",
       "version": 1
     },
     {
       "description": "The ThreatMatch Incident types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
-      "name": "ThreatMatch",
+      "name": "threatmatch-incident-types",
       "version": 1
     },
     {
       "description": "The ThreatMatch Malware types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
-      "name": "ThreatMatch",
+      "name": "threatmatch-malware-types",
       "version": 1
     },
     {
       "description": "The ThreatMatch Sector types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
-      "name": "ThreatMatch",
+      "name": "threatmatch-sectors",
       "version": 1
     },
     {

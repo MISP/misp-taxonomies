@@ -1,5 +1,5 @@
 {
-  "namespace": "ThreatMatch",
+  "namespace": "threatmatch-incident-types",
   "expanded": "Incident Types for Sharing into ThreatMatch and MISP",
   "version": 1,
   "description": "The ThreatMatch Incident types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",

@@ -1,5 +1,5 @@
 {
-  "namespace": "ThreatMatch",
+  "namespace": "threatmatch-alert-types",
   "expanded": "Alert Types for Sharing into ThreatMatch and MISP.",
   "version": 1,
   "description": "The ThreatMatch Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
