@@ -1,0 +1,175 @@
+{
+  "namespace": "ThreatMatch",
+  "expanded": "Incident Types for Sharing into ThreatMatch and MISP",
+  "version": 1,
+  "description": "The ThreatMatch Incident types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
+  "refs": [
+    "https://www.secalliance.com/platform/",
+    "https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.pr200227_1~062992656b.en.html"
+  ],
+  "predicates": [
+    {
+      "value": "incident_type",
+      "expanded": "Threat Match incident types"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "incident_type",
+      "entry": [
+        {
+          "value": "ATM Attacks",
+          "expanded": "ATM Attacks"
+        },
+        {
+          "value": "ATM Breach",
+          "expanded": "ATM Breach"
+        },
+        {
+          "value": "Attempted Exploitation",
+          "expanded": "Attempted Exploitation"
+        },
+        {
+          "value": "Botnet Activity",
+          "expanded": "Botnet Activity"
+        },
+        {
+          "value": "Business Email Compromise",
+          "expanded": "Business Email Compromise"
+        },
+        {
+          "value": "Crypto Mining",
+          "expanded": "Crypto Mining"
+        },
+        {
+          "value": "Data Breach/Compromise",
+          "expanded": "Data Breach/Compromise"
+        },
+        {
+          "value": "Data Dump",
+          "expanded": "Data Dump"
+        },
+        {
+          "value": "Data Leakage",
+          "expanded": "Data Leakage"
+        },
+        {
+          "value": "DDoS",
+          "expanded": "DDoS"
+        },
+        {
+          "value": "Defacement Activity",
+          "expanded": "Defacement Activity"
+        },
+        {
+          "value": "Denial of Service (DoS)",
+          "expanded": "Denial of Service (DoS)"
+        },
+        {
+          "value": "Disruption Activity",
+          "expanded": "Disruption Activity"
+        },
+        {
+          "value": "Espionage",
+          "expanded": "Espionage"
+        },
+        {
+          "value": "Espionage Activity",
+          "expanded": "Espionage Activity"
+        },
+        {
+          "value": "Exec Targeting ",
+          "expanded": "Exec Targeting "
+        },
+        {
+          "value": "Exposure of Data",
+          "expanded": "Exposure of Data"
+        },
+        {
+          "value": "Extortion Activity",
+          "expanded": "Extortion Activity"
+        },
+        {
+          "value": "Fraud Activity",
+          "expanded": "Fraud Activity"
+        },
+        {
+          "value": "General Notification",
+          "expanded": "General Notification"
+        },
+        {
+          "value": "Hacktivism Activity",
+          "expanded": "Hacktivism Activity"
+        },
+        {
+          "value": "Malicious Insider",
+          "expanded": "Malicious Insider"
+        },
+        {
+          "value": "Malware Infection",
+          "expanded": "Malware Infection"
+        },
+        {
+          "value": "Man in the Middle Attacks",
+          "expanded": "Man in the Middle Attacks"
+        },
+        {
+          "value": "MFA Attack",
+          "expanded": "MFA Attack"
+        },
+        {
+          "value": "Mobile Malware",
+          "expanded": "Mobile Malware"
+        },
+        {
+          "value": "Phishing Activity",
+          "expanded": "Phishing Activity"
+        },
+        {
+          "value": "Ransomware Activity",
+          "expanded": "Ransomware Activity"
+        },
+        {
+          "value": "Social Engineering Activity",
+          "expanded": "Social Engineering Activity"
+        },
+        {
+          "value": "Social Media Compromise",
+          "expanded": "Social Media Compromise"
+        },
+        {
+          "value": "Spear-phishing Activity",
+          "expanded": "Spear-phishing Activity"
+        },
+        {
+          "value": "Spyware",
+          "expanded": "Spyware"
+        },
+        {
+          "value": "SQL Injection Activity",
+          "expanded": "SQL Injection Activity"
+        },
+        {
+          "value": "Supply Chain Compromise",
+          "expanded": "Supply Chain Compromise"
+        },
+        {
+          "value": "Trojanised Software",
+          "expanded": "Trojanised Software"
+        },
+        {
+          "value": "Vishing",
+          "expanded": "Vishing"
+        },
+        {
+          "value": "Website Attack (Other)",
+          "expanded": "Website Attack (Other)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    }
+  ]
+}

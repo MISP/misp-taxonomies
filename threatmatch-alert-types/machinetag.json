@@ -1,0 +1,99 @@
+{
+  "namespace": "ThreatMatch",
+  "expanded": "Alert Types for Sharing into ThreatMatch and MISP.",
+  "version": 1,
+  "description": "The ThreatMatch Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
+  "refs": [
+    "https://www.secalliance.com/platform/",
+    "https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.pr200227_1~062992656b.en.html"
+  ],
+  "predicates": [
+    {
+      "value": "alert_type",
+      "expanded": "Alert type"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "alert_type",
+      "entry": [
+        {
+          "value": "Actor Campaigns",
+          "expanded": "Actor Campaigns"
+        },
+        {
+          "value": "Credential Breaches",
+          "expanded": "Credential Breaches"
+        },
+        {
+          "value": "DDoS",
+          "expanded": "DDoS"
+        },
+        {
+          "value": "Exploit Alert",
+          "expanded": "Exploit Alert"
+        },
+        {
+          "value": "General Notification",
+          "expanded": "General Notification"
+        },
+        {
+          "value": "High Impact Vulnerabilities",
+          "expanded": "High Impact Vulnerabilities"
+        },
+        {
+          "value": "Information Leakages",
+          "expanded": "Information Leakages"
+        },
+        {
+          "value": "Malware Analysis",
+          "expanded": "Malware Analysis"
+        },
+        {
+          "value": "Nefarious Domains",
+          "expanded": "Nefarious Domains"
+        },
+        {
+          "value": "Nefarious Forum Mention",
+          "expanded": "Nefarious Forum Mention"
+        },
+        {
+          "value": "Pastebin Dumps",
+          "expanded": "Pastebin Dumps"
+        },
+        {
+          "value": "Phishing Attempts",
+          "expanded": "Phishing Attempts"
+        },
+        {
+          "value": "PII Exposure",
+          "expanded": "PII Exposure"
+        },
+        {
+          "value": "Sensitive Information Disclosures",
+          "expanded": "Sensitive Information Disclosures"
+        },
+        {
+          "value": "Social Media Alerts",
+          "expanded": "Social Media Alerts"
+        },
+        {
+          "value": "Supply Chain Event",
+          "expanded": "Supply Chain Event"
+        },
+        {
+          "value": "Technical Exposure",
+          "expanded": "Technical Exposure"
+        },
+        {
+          "value": "Threat Actor Updates",
+          "expanded": "Threat Actor Updates"
+        },
+        {
+          "value": "Trigger Events",
+          "expanded": "Trigger Events"
+        }
+      ]
+    }
+  ]
+}
