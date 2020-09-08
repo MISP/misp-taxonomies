@@ -88,7 +88,7 @@ def asciidoc(content=False, adoc=doc, t='title', toplevel=False):
         content = '=== ' + content
     elif t == 'namespace':
         content = '== ' + content + '\n'
-        content = "{}\n{}{} {}{}{} {}".format(content, 'NOTE: ', namespace, 'namespace available in JSON format at https://github.com/MISP/misp-taxonomies/blob/master/',
+        content = "{}\n{}{} {}{}{} {}".format(content, 'NOTE: ', namespace, 'namespace available in JSON format at https://github.com/MISP/misp-taxonomies/blob/main/',
                                                 namespace, '/machinetag.json[*this location*]. The JSON format can be freely reused in your application',
                                                 'or automatically enabled in https://www.github.com/MISP/MISP[MISP] taxonomy.')
     elif t == 'description' and toplevel is True:

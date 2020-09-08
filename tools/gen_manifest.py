@@ -23,7 +23,7 @@ def generateManifest(taxonomies):
     manifest = {}
     manifest['taxonomies'] = []
     manifest['path'] = 'machinetag.json'
-    manifest['url'] = 'https://raw.githubusercontent.com/MISP/misp-taxonomies/master/'
+    manifest['url'] = 'https://raw.githubusercontent.com/MISP/misp-taxonomies/main/'
     manifest['description'] = 'Manifest file of MISP taxonomies available.'
     manifest['license'] = 'CC-0'
     now = datetime.now()

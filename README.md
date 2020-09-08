@@ -1,6 +1,6 @@
 # MISP Taxonomies
 
-[![Build Status](https://travis-ci.org/MISP/misp-taxonomies.svg?branch=master)](https://travis-ci.org/MISP/misp-taxonomies)
+[![Build Status](https://travis-ci.org/MISP/misp-taxonomies.svg?branch=main)](https://travis-ci.org/MISP/misp-taxonomies)
 
 MISP Taxonomies is a set of common classification libraries to tag, classify and organise information. Taxonomy allows to express the same vocabulary among a distributed set of users and organisations.
 
@@ -197,7 +197,7 @@ The following taxonomy namespaces are reserved and used internally to MISP.
 
 # Documentation
 
-A documentation of the taxonomies is [generated automatically](https://github.com/MISP/misp-taxonomies/blob/master/tools/machinetag.py) from the taxonomies description and available in [PDF](https://www.misp.software/taxonomies.pdf) and [HTML](https://www.misp.software/taxonomies.html).
+A documentation of the taxonomies is [generated automatically](https://github.com/MISP/misp-taxonomies/blob/main/tools/machinetag.py) from the taxonomies description and available in [PDF](https://www.misp.software/taxonomies.pdf) and [HTML](https://www.misp.software/taxonomies.html).
 
 # How to contribute your taxonomy?
 
