@@ -1,6 +1,6 @@
 # MISP Taxonomies
 
-[![Build Status](https://travis-ci.org/MISP/misp-taxonomies.svg?branch=main)](https://travis-ci.org/MISP/misp-taxonomies)
+![Python application](https://github.com/MISP/misp-taxonomies/workflows/Python%20application/badge.svg)
 
 MISP Taxonomies is a set of common classification libraries to tag, classify and organise information. Taxonomy allows to express the same vocabulary among a distributed set of users and organisations.
 
