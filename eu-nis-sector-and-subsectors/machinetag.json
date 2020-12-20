@@ -1,6 +1,6 @@
 {
   "namespace": "eu-nis-sector-and-subsectors",
-  "description": "Sectors and sub sectors as identified by the NIS Directive",
+  "description": "Sectors, subsectors, and digital services as identified by the NIS Directive",
   "version": 1,
   "predicates": [
     {
@@ -50,7 +50,7 @@
         },
         {
           "value": "transport",
-          "expanded": "Transport Sector"
+          "expanded": "Transport"
         },
         {
           "value": "banking",
@@ -58,7 +58,7 @@
         },
         {
           "value": "financial",
-          "expanded": "Financial market operators"
+          "expanded": "Financial Market Infrastructures"
         },
         {
           "value": "health",
@@ -79,15 +79,15 @@
       "entry": [
         {
           "value": "electricity-energy",
-          "expanded": "Electricity Sub Sector"
+          "expanded": "Electricity Subsector"
         },
         {
           "value": "oil-energy",
-          "expanded": "Oil Sub Sector"
+          "expanded": "Oil Subsector"
         },
         {
           "value": "gas-energy",
-          "expanded": "Gas Sub Sector"
+          "expanded": "Gas Subsector"
         }
       ]
     },
@@ -96,80 +96,19 @@
       "entry": [
         {
           "value": "air-transport",
-          "expanded": "Air Transport Sub Sector"
+          "expanded": "Air Transport Subsector"
         },
         {
           "value": "rail-transport",
-          "expanded": "Rail Transport Sub Sector"
+          "expanded": "Rail Transport Subsector"
         },
         {
           "value": "water-transport",
-          "expanded": "Water Transport Sub Sector"
+          "expanded": "Water Transport Subsector"
         },
         {
           "value": "road-transport",
-          "expanded": "Road Transport Sub Sector"
-        }
-      ]
-    },
-    {
-      "predicate": "eu-nis-oes-banking",
-      "entry": [
-        {
-          "value": "credit-banking",
-          "expanded": "Bank Credit Institutions Sub Sector"
-        }
-      ]
-    },
-    {
-      "predicate": "eu-nis-oes-financial",
-      "entry": [
-        {
-          "value": "trading-financial",
-          "expanded": "Operators of Financial Trading Sub Sector"
-        },
-        {
-          "value": "ccp-financial",
-          "expanded": "Financial Central Counterparty Sub Sector"
-        }
-      ]
-    },
-    {
-      "predicate": "eu-nis-oes-health",
-      "entry": [
-        {
-          "value": "healthcare-health",
-          "expanded": "Healthcare Provider Sub Sector"
-        }
-      ]
-    },
-    {
-      "predicate": "eu-nis-oes-water",
-      "entry": [
-        {
-          "value": "supply-water",
-          "expanded": "Water Supply Sub Sector"
-        },
-        {
-          "value": "distribution-water",
-          "expanded": "Water Distribution Sub Sector"
-        }
-      ]
-    },
-    {
-      "predicate": "eu-nis-oes-diginfra",
-      "entry": [
-        {
-          "value": "ixp-diginfra",
-          "expanded": "IXPs Sub Sector"
-        },
-        {
-          "value": "dns-diginfra",
-          "expanded": "DNS Service Provider Sub Sector"
-        },
-        {
-          "value": "tld-diginfra",
-          "expanded": "TLD Name Registry Sub Sector"
+          "expanded": "Road Transport Subsector"
         }
       ]
     },
@@ -178,15 +117,15 @@
       "entry": [
         {
           "value": "market-dsp",
-          "expanded": "Online Marketplace Sub Sector"
+          "expanded": "Online Marketplace Digital Service"
         },
         {
           "value": "search-dsp",
-          "expanded": "Online Search Engine Sub Sector"
+          "expanded": "Online Search Engine Digital Service"
         },
         {
           "value": "cloud-dsp",
-          "expanded": "Cloud Computing Service Sub Sector"
+          "expanded": "Cloud Computing Digital Service"
         }
       ]
     }
