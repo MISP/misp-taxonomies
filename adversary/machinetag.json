@@ -1,7 +1,7 @@
 {
   "namespace": "adversary",
   "description": "An overview and description of the adversary infrastructure",
-  "version": 4,
+  "version": 5,
   "predicates": [
     {
       "value": "infrastructure-status",
@@ -56,6 +56,10 @@
         {
           "value": "pending-law-enforcement-request",
           "expanded": "Law enforcement requests are ongoing on the adversary infrastructure"
+        },
+        {
+          "value": "sinkholed",
+          "expanded": "Infrastructure of the adversary is sinkholed and information is collected"
         }
       ]
     },
