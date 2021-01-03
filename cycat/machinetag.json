@@ -1,7 +1,7 @@
 {
   "namespace": "cycat",
-  "expanded": " Universal Cybersecurity Catalogue",
-  "description": "Taxonomy used by cycat (Universal Cybersecurity Catalogue) to categorize namespace available in their cybersecurity catalogue.",
+  "expanded": " Universal Cybersecurity Resource Catalogue",
+  "description": "Taxonomy used by cycat (Universal Cybersecurity Resource Catalogue) to categorize namespaces available in their cybersecurity catalogue.",
   "version": 1,
   "refs": [
     "https://www.cycat.org/"
@@ -13,27 +13,27 @@
         {
           "value": "tool",
           "expanded": "Tool",
-          "description": "Cybersecurity tool is an open source or proprietaty tools used in the cybersecurity scope."
+          "description": "Cybersecurity tool is an open source or proprietaty tool used in the cybersecurity scope."
         },
         {
           "value": "playbook",
           "expanded": "Playbook",
-          "description": "Cybersecurity playbook such as a defined set of rules with one or more actions triggered by different events to response, orchestrate or automate cybersecurity related actions."
+          "description": "Cybersecurity playbook such as a defined set of rules with one or more actions triggered by different events to respond to, orchestrate or automate cybersecurity related actions."
         },
         {
           "value": "taxonomy",
           "expanded": "Taxonomy",
-          "description": "Cybersecurity taxonomy is a set of labels used to classify (in both terms - arrange in classes or/and designe to national classification) cybersecurity related information."
+          "description": "Cybersecurity taxonomy is a set of labels used to classify (in both terms - arrange in classes or/and design to national classification) cybersecurity related information."
         },
         {
           "value": "ruleset",
           "expanded": "Ruleset",
-          "description": "Cybersecurity ruleset are rules used for detection in the cybersecurity field. Ruleset can be different format for (N/L)IDS (such as Snort, Suricata, Zeek, Sigma, Yara format) or any other tool capable of parsing such ruleset."
+          "description": "Cybersecurity rulesets are rules used for detection in the cybersecurity field. Rulesets can be in different formats for (N/L)IDS/SIEM (such as Snort, Suricata, Zeek, Sigma, Yara format) or any other tool capable of parsing such a ruleset."
         },
         {
           "value": "notebook",
           "expanded": "Notebook",
-          "description": "Cybersecurity notebook is an interactive document to code, experiment, train or visualize cybersecurity related information. A notebook can be in a different format such as Jupyter, Apache Zeppelin, Google Colab."
+          "description": "Cybersecurity notebook is an interactive document to code, experiment, train or visualize cybersecurity related information. A notebook can be transcribed in a format such as Jupyter Notebooks, Apache Zeppelin, Google Colab."
         },
         {
           "value": "vulnerability",
@@ -48,7 +48,7 @@
         {
           "value": "fingerprint",
           "expanded": "Fingerprint",
-          "description": "Cybersecurity fingerprint are fingerprint to uniquely identify specific pattern. Fingerprint can be in different formats such as ja3, ja3s, hassh, jarm, favicon-mmh3."
+          "description": "Cybersecurity fingerprints are codes to uniquely identify specific cybersecurity-relevant patterns. Fingerprints can be expressed in different formats such as ja3, ja3s, hassh, jarm, favicon-mmh3."
         }
       ]
     },
@@ -56,8 +56,8 @@
       "predicate": "scope",
       "entry": [
         {
-          "value": "defense",
-          "expanded": "Defense"
+          "value": "protection",
+          "expanded": "Protection"
         },
         {
           "value": "detection",
