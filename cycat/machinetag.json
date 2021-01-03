@@ -56,12 +56,24 @@
       "predicate": "scope",
       "entry": [
         {
+          "value": "identify",
+          "expanded": "Identify"
+        },
+        {
           "value": "protection",
           "expanded": "Protection"
         },
         {
           "value": "detection",
           "expanded": "Detection"
+        },
+        {
+          "value": "response",
+          "expanded": "Response"
+        },
+        {
+          "value": "recover",
+          "expanded": "Recover"
         },
         {
           "value": "exploitation",
