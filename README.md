@@ -255,11 +255,11 @@ The MISP taxonomies (JSON files) are dual-licensed under:
 or
 
 ~~~~
- Copyright (c) 2015-2019 Alexandre Dulaunoy - a@foo.be
- Copyright (c) 2015-2019 CIRCL - Computer Incident Response Center Luxembourg
- Copyright (c) 2015-2019 Andras Iklody
- Copyright (c) 2015-2019 Raphael Vinot
- Copyright (c) 2016-2019 Various contributors to MISP Project
+ Copyright (c) 2015-2021 Alexandre Dulaunoy - a@foo.be
+ Copyright (c) 2015-2021 CIRCL - Computer Incident Response Center Luxembourg
+ Copyright (c) 2015-2021 Andras Iklody
+ Copyright (c) 2015-2021 Raphael Vinot
+ Copyright (c) 2016-2021 Various contributors to MISP Project
 
  Redistribution and use in source and binary forms, with or without modification,
  are permitted provided that the following conditions are met:
