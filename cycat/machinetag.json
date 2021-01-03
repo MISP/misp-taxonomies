@@ -1,0 +1,93 @@
+{
+  "namespace": "cycat",
+  "expanded": " Universal Cybersecurity Catalogue",
+  "description": "Taxonomy used by cycat (Universal Cybersecurity Catalogue) to categorize namespace available in their cybersecurity catalogue.",
+  "version": 1,
+  "refs": [
+    "https://www.cycat.org/"
+  ],
+  "values": [
+    {
+      "predicate": "type",
+      "entry": [
+        {
+          "value": "tool",
+          "expanded": "Tool",
+          "description": "Cybersecurity tool is an open source or proprietaty tools used in the cybersecurity scope."
+        },
+        {
+          "value": "playbook",
+          "expanded": "Playbook",
+          "description": "Cybersecurity playbook such as a defined set of rules with one or more actions triggered by different events to response, orchestrate or automate cybersecurity related actions."
+        },
+        {
+          "value": "taxonomy",
+          "expanded": "Taxonomy",
+          "description": "Cybersecurity taxonomy is a set of labels used to classify (in both terms - arrange in classes or/and designe to national classification) cybersecurity related information."
+        },
+        {
+          "value": "ruleset",
+          "expanded": "Ruleset",
+          "description": "Cybersecurity ruleset are rules used for detection in the cybersecurity field. Ruleset can be different format for (N/L)IDS (such as Snort, Suricata, Zeek, Sigma, Yara format) or any other tool capable of parsing such ruleset."
+        },
+        {
+          "value": "notebook",
+          "expanded": "Notebook",
+          "description": "Cybersecurity notebook is an interactive document to code, experiment, train or visualize cybersecurity related information. A notebook can be in a different format such as Jupyter, Apache Zeppelin, Google Colab."
+        },
+        {
+          "value": "vulnerability",
+          "expanded": "Vulnerability",
+          "description": "Vulnerability is a known (public or non-public) information about a security vulnerability in a specific software, hardware or service."
+        },
+        {
+          "value": "proof-of-concept",
+          "expanded": "Proof-of-concept",
+          "description": "Cybersecurity proof-of-concept is a validation code to a known vulnerability."
+        },
+        {
+          "value": "fingerprint",
+          "expanded": "Fingerprint",
+          "description": "Cybersecurity fingerprint are fingerprint to uniquely identify specific pattern. Fingerprint can be in different formats such as ja3, ja3s, hassh, jarm, favicon-mmh3."
+        }
+      ]
+    },
+    {
+      "predicate": "scope",
+      "entry": [
+        {
+          "value": "defense",
+          "expanded": "Defense"
+        },
+        {
+          "value": "detection",
+          "expanded": "Detection"
+        },
+        {
+          "value": "exploitation",
+          "expanded": "Exploitation"
+        },
+        {
+          "value": "investigation",
+          "expanded": "Investigation"
+        },
+        {
+          "value": "training",
+          "expanded": "Training"
+        }
+      ]
+    }
+  ],
+  "predicates": [
+    {
+      "value": "type",
+      "expanded": "Type",
+      "description": "Type of entry in the catalogue."
+    },
+    {
+      "value": "scope",
+      "expanded": "Scope",
+      "description": "Scope of usage for the entry in the catalogue."
+    }
+  ]
+}
