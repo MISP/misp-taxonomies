@@ -46,7 +46,7 @@
     {
       "description": "An overview and description of the adversary infrastructure",
       "name": "adversary",
-      "version": 4
+      "version": 5
     },
     {
       "description": "The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)",
@@ -134,6 +134,11 @@
       "version": 2
     },
     {
+      "description": "Taxonomy used by cycat (Universal Cybersecurity Catalogue) to categorize namespace available in their cybersecurity catalogue.",
+      "name": "cycat",
+      "version": 1
+    },
+    {
       "description": "Taxonomy to describe desired actions for Cytomic Orion",
       "name": "cytomic-orion",
       "version": 1
@@ -214,7 +219,7 @@
       "version": 1
     },
     {
-      "description": "Sectors and sub sectors as identified by the NIS Directive",
+      "description": "Sectors, subsectors, and digital services as identified by the NIS Directive",
       "name": "eu-nis-sector-and-subsectors",
       "version": 1
     },
@@ -610,5 +615,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20200820"
+  "version": "20210103"
 }
