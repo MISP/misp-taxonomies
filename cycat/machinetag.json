@@ -1,7 +1,7 @@
 {
   "namespace": "cycat",
   "expanded": " Universal Cybersecurity Resource Catalogue",
-  "description": "Taxonomy used by cycat (Universal Cybersecurity Resource Catalogue) to categorize namespaces available in their cybersecurity catalogue.",
+  "description": "Taxonomy used by CyCAT, the Universal Cybersecurity Resource Catalogue, to categorize the namespaces it supports and uses.",
   "version": 1,
   "refs": [
     "https://www.cycat.org/"
@@ -13,12 +13,12 @@
         {
           "value": "tool",
           "expanded": "Tool",
-          "description": "Cybersecurity tool is an open source or proprietaty tool used in the cybersecurity scope."
+          "description": "Open source or proprietary tool used in cybersecurity."
         },
         {
           "value": "playbook",
           "expanded": "Playbook",
-          "description": "Cybersecurity playbook such as a defined set of rules with one or more actions triggered by different events to respond to, orchestrate or automate cybersecurity related actions."
+          "description": "Playbook, such as a defined set of rules with one or more actions triggered by different events to respond to, orchestrate or automate cybersecurity related actions."
         },
         {
           "value": "taxonomy",
@@ -28,27 +28,27 @@
         {
           "value": "ruleset",
           "expanded": "Ruleset",
-          "description": "Cybersecurity rulesets are rules used for detection in the cybersecurity field. Rulesets can be in different formats for (N/L)IDS/SIEM (such as Snort, Suricata, Zeek, Sigma, Yara format) or any other tool capable of parsing such a ruleset."
+          "description": "Set of detection rules used in the cybersecurity field. Rulesets can be in different formats for (N/L)IDS/SIEM (such as Snort, Suricata, Zeek, SIGMA or YARA) or any other tool capable of parsing them."
         },
         {
           "value": "notebook",
           "expanded": "Notebook",
-          "description": "Cybersecurity notebook is an interactive document to code, experiment, train or visualize cybersecurity related information. A notebook can be transcribed in a format such as Jupyter Notebooks, Apache Zeppelin, Google Colab."
+          "description": "Interactive document to code, experiment, train or visualize cybersecurity-related information. A notebook can be transcribed in a format such as Jupyter Notebooks, Apache Zeppelin, Pluton or Google Colab."
         },
         {
           "value": "vulnerability",
           "expanded": "Vulnerability",
-          "description": "Vulnerability is a known (public or non-public) information about a security vulnerability in a specific software, hardware or service."
+          "description": "Public or non-public information about a security vulnerability in a specific software, hardware or service."
         },
         {
           "value": "proof-of-concept",
           "expanded": "Proof-of-concept",
-          "description": "Cybersecurity proof-of-concept is a validation code to a known vulnerability."
+          "description": "Code to validate a known vulnerability."
         },
         {
           "value": "fingerprint",
           "expanded": "Fingerprint",
-          "description": "Cybersecurity fingerprints are codes to uniquely identify specific cybersecurity-relevant patterns. Fingerprints can be expressed in different formats such as ja3, ja3s, hassh, jarm, favicon-mmh3."
+          "description": "Code to uniquely identify specific cybersecurity-relevant patterns. Fingerprints can be expressed in different formats such as ja3, ja3s, hassh, jarm or favicon-mmh3."
         }
       ]
     },
@@ -60,32 +60,32 @@
           "expanded": "Identify"
         },
         {
-          "value": "protection",
-          "expanded": "Protection"
+          "value": "protect",
+          "expanded": "Protect"
         },
         {
-          "value": "detection",
-          "expanded": "Detection"
+          "value": "detect",
+          "expanded": "Detect"
         },
         {
-          "value": "response",
-          "expanded": "Response"
+          "value": "respond",
+          "expanded": "Respond"
         },
         {
           "value": "recover",
           "expanded": "Recover"
         },
         {
-          "value": "exploitation",
-          "expanded": "Exploitation"
+          "value": "exploit",
+          "expanded": "Exploit"
         },
         {
-          "value": "investigation",
-          "expanded": "Investigation"
+          "value": "investigate",
+          "expanded": "Investigate"
         },
         {
-          "value": "training",
-          "expanded": "Training"
+          "value": "train",
+          "expanded": "Train"
         }
       ]
     }
