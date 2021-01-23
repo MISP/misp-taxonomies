@@ -49,6 +49,11 @@
           "value": "fingerprint",
           "expanded": "Fingerprint",
           "description": "Code to uniquely identify specific cybersecurity-relevant patterns. Fingerprints can be expressed in different formats such as ja3, ja3s, hassh, jarm or favicon-mmh3."
+        },
+        {
+          "value": "policy",
+          "expanded": "Policy",
+          "description": "Public or non-public policy used in organisation's risk management practices."
         }
       ]
     },
