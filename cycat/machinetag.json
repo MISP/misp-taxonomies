@@ -51,9 +51,9 @@
           "description": "Code to uniquely identify specific cybersecurity-relevant patterns. Fingerprints can be expressed in different formats such as ja3, ja3s, hassh, jarm or favicon-mmh3."
         },
         {
-          "value": "control",
-          "expanded": "Control",
-          "description": "Mitigating control used to prevent unwanted activity from happening, like specific a configuration of the operating system/tools or an implementation policy."
+          "value": "mitigation",
+          "expanded": "Mitigation",
+          "description": "Mitigating control to prevent unwanted activity from happening, like a specific configuration of the operating system/tools or an implementation policy."
         }
       ]
     },
