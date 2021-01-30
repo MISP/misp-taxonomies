@@ -26,9 +26,9 @@
           "description": "Cybersecurity taxonomy is a set of labels used to classify (in both terms - arrange in classes or/and design to national classification) cybersecurity related information."
         },
         {
-          "value": "ruleset",
-          "expanded": "Ruleset",
-          "description": "Set of detection rules used in the cybersecurity field. Rulesets can be in different formats for (N/L)IDS/SIEM (such as Snort, Suricata, Zeek, SIGMA or YARA) or any other tool capable of parsing them."
+          "value": "rule",
+          "expanded": "Rule",
+          "description": "Detection rule or set of detection rules used in the cybersecurity field. Rulesets can be in different formats for (N/L)IDS/SIEM (such as Snort, Suricata, Zeek, SIGMA or YARA) or any other tool capable of parsing them."
         },
         {
           "value": "notebook",
@@ -51,9 +51,9 @@
           "description": "Code to uniquely identify specific cybersecurity-relevant patterns. Fingerprints can be expressed in different formats such as ja3, ja3s, hassh, jarm or favicon-mmh3."
         },
         {
-          "value": "policy",
-          "expanded": "Policy",
-          "description": "Public or non-public policy used in organisation's risk management practices."
+          "value": "control",
+          "expanded": "Control",
+          "description": "Mitigating control used to prevent unwanted activity from happening, like specific a configuration of the operating system/tools or an implementation policy."
         }
       ]
     },
