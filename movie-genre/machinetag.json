@@ -1,0 +1,130 @@
+{
+  "predicates": [
+    {
+      "description": "The Action movie genre",
+      "value": "Action",
+      "expanded": "Action"
+    },
+    {
+      "description": "The Adventure movie genre",
+      "value": "Adventure",
+      "expanded": "Adventure"
+    },
+    {
+      "description": "The Animation movie genre",
+      "value": "Animation",
+      "expanded": "Animation"
+    },
+    {
+      "description": "The Biography movie genre",
+      "value": "Biography",
+      "expanded": "Biography"
+    },
+    {
+      "description": "The Comedy movie genre",
+      "value": "Comedy",
+      "expanded": "Comedy"
+    },
+    {
+      "description": "The Crime movie genre",
+      "value": "Crime",
+      "expanded": "Crime"
+    },
+    {
+      "description": "The Documentary movie genre",
+      "value": "Documentary",
+      "expanded": "Documentary"
+    },
+    {
+      "description": "The Drama movie genre",
+      "value": "Drama",
+      "expanded": "Drama"
+    },
+    {
+      "description": "The Family movie genre",
+      "value": "Family",
+      "expanded": "Family"
+    },
+    {
+      "description": "The Fantasy movie genre",
+      "value": "Fantasy",
+      "expanded": "Fantasy"
+    },
+    {
+      "description": "The Film Noir movie genre",
+      "value": "Film Noir",
+      "expanded": "Film Noir"
+    },
+    {
+      "description": "The History movie genre",
+      "value": "History",
+      "expanded": "History"
+    },
+    {
+      "description": "The Horror movie genre",
+      "value": "Horror",
+      "expanded": "Horror"
+    },
+    {
+      "description": "The Music movie genre",
+      "value": "Music",
+      "expanded": "Music"
+    },
+    {
+      "description": "The Musical movie genre",
+      "value": "Musical",
+      "expanded": "Musical"
+    },
+    {
+      "description": "The Mystery movie genre",
+      "value": "Mystery",
+      "expanded": "Mystery"
+    },
+    {
+      "description": "The Romance movie genre",
+      "value": "Romance",
+      "expanded": "Romance"
+    },
+    {
+      "description": "The Sci-Fi movie genre",
+      "value": "Sci-Fi",
+      "expanded": "Sci-Fi"
+    },
+    {
+      "description": "The Short movie genre",
+      "value": "Short",
+      "expanded": "Short"
+    },
+    {
+      "description": "The Sport movie genre",
+      "value": "Sport",
+      "expanded": "Sport"
+    },
+    {
+      "description": "The Superhero movie genre",
+      "value": "Superhero",
+      "expanded": "Superhero"
+    },
+    {
+      "description": "The Thriller movie genre",
+      "value": "Thriller",
+      "expanded": "Thriller"
+    },
+    {
+      "description": "The War movie genre",
+      "value": "War",
+      "expanded": "War"
+    },
+    {
+      "description": "The Western movie genre",
+      "value": "Western",
+      "expanded": "Western"
+    }
+  ],
+  "refs": [],
+  "version": 1,
+  "description": "Popular movie genres.",
+  "expanded": "Movie genre",
+  "namespace": "movie-genre",
+  "exclusive": false
+}
