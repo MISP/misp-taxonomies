@@ -54,6 +54,11 @@
           "value": "mitigation",
           "expanded": "Mitigation",
           "description": "Mitigating control to prevent unwanted activity from happening, like a specific configuration of the operating system/tools or an implementation policy."
+        },
+        {
+          "value": "dataset",
+          "expanded": "Dataset",
+          "description": "Dataset for validation of detections and tool stacks,"
         }
       ]
     },
@@ -91,6 +96,10 @@
         {
           "value": "train",
           "expanded": "Train"
+        },
+        {
+          "value": "test",
+          "expanded": "Test"
         }
       ]
     }
