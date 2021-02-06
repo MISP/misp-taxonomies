@@ -134,7 +134,7 @@
       "version": 2
     },
     {
-      "description": "Taxonomy used by cycat (Universal Cybersecurity Catalogue) to categorize namespace available in their cybersecurity catalogue.",
+      "description": "Taxonomy used by CyCAT, the Universal Cybersecurity Resource Catalogue, to categorize the namespaces it supports and uses.",
       "name": "cycat",
       "version": 1
     },
@@ -615,5 +615,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20210103"
+  "version": "20210206"
 }
