@@ -421,7 +421,7 @@
     {
       "description": "MISP taxonomy to infer with MISP behavior or operation.",
       "name": "misp",
-      "version": 11
+      "version": 12
     },
     {
       "description": "MONARC Threats Taxonomy",
@@ -615,5 +615,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20210206"
+  "version": "20210208"
 }
