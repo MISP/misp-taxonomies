@@ -3,18 +3,18 @@
     {
       "entry": [
         {
-          "description": "Or 'Unsolicited Bulk Email', this means that the recipient has not granted verifiable permission for the message to be sent and that the message is sent as part of a larger collection of messages, all having a functionally comparable content.",
+          "description": "Or 'Unsolicited Bulk Email', this means that the recipient has not granted verifiable permission for the message to be sent and that the message is sent as part of a larger collection of messages, all having a functionally comparable content. This IOC refers to resources, which make up a SPAM infrastructure, be it a harvesters like address verification, URLs in spam e-mails etc.",
           "expanded": "Spam",
           "value": "spam"
         },
         {
-          "description": "Discreditation or discrimination of somebody, e.g. cyber stalking, racism or threats against one or more individuals.",
+          "description": "Discretization or discrimination of somebody, e.g. cyber stalking, racism or threats against one or more individuals.",
           "expanded": "Harmful Speech",
           "value": "harmful-speech"
         },
         {
-          "description": "Child pornography, glorification of violence, etc.",
-          "expanded": "Child Porn/Sexual/Violent Content",
+          "description": "Child Sexual Exploitation (CSE), Sexual content, glorification of violence, etc.",
+          "expanded": "(Child) Sexual Exploitation/Sexual/Violent Content",
           "value": "violence"
         }
       ],
@@ -23,7 +23,7 @@
     {
       "entry": [
         {
-          "description": "System infected with malware, e.g. PC, smartphone or server infected with a rootkit.",
+          "description": "System infected with malware, e.g. PC, smartphone or server infected with a rootkit. Most often this refers to a connection to a sinkholed C2 server",
           "expanded": "Infected System",
           "value": "infected-system"
         },
@@ -33,12 +33,12 @@
           "value": "c2-server"
         },
         {
-          "description": "URI used for malware distribution, e.g. a download URL included in fake invoice malware spam.",
+          "description": "URI used for malware distribution, e.g. a download URL included in fake invoice malware spam or exploit-kits (on websites).",
           "expanded": "Malware Distribution",
           "value": "malware-distribution"
         },
         {
-          "description": "URI hosting a malware configuration file, e.g. webinjects for a banking trojan.",
+          "description": "URI hosting a malware configuration file, e.g. web-injects for a banking trojan.",
           "expanded": "Malware Configuration",
           "value": "malware-configuration"
         }
@@ -73,7 +73,7 @@
           "value": "ids-alert"
         },
         {
-          "description": "Multiple login attempts (Guessing / cracking of passwords, brute force).",
+          "description": "Multiple login attempts (Guessing / cracking of passwords, brute force). This IOC refers to a resource, which has been observed to perform brute-force attacks over a given application protocol.",
           "expanded": "Login attempts",
           "value": "brute-force"
         },
@@ -98,12 +98,17 @@
           "value": "unprivileged-account-compromise"
         },
         {
-          "description": "Compromise of an application by exploiting (un)known software vulnerabilities, e.g. SQL injection.",
+          "description": "Compromise of an application by exploiting (un-)known software vulnerabilities, e.g. SQL injection.",
           "expanded": "Application Compromise",
           "value": "application-compromise"
         },
         {
-          "description": "Physical intrusion, e.g. into corporate building or data center.",
+          "description": "Compromise of a system, e.g. unauthorised logins or commands. This includes compromising attempts on honeypot systems.",
+          "expanded": "System Compromise",
+          "value": "system-compromise"
+        },
+        {
+          "description": "Physical intrusion, e.g. into corporate building or data-centre.",
           "expanded": "Burglary",
           "value": "burglary"
         }
@@ -143,12 +148,12 @@
     {
       "entry": [
         {
-          "description": "Unauthorized access to information, e.g. by abusing stolen login credentials for a system or application, intercepting traffic or gaining access to physical documents.",
+          "description": "Unauthorised access to information, e.g. by abusing stolen login credentials for a system or application, intercepting traffic or gaining access to physical documents.",
           "expanded": "Unauthorised access to information",
           "value": "unauthorised-information-access"
         },
         {
-          "description": "Unauthorised modification of information, e.g. by an attacker abusing stolen login credentials for a system or application or a ransomware encrypting data.",
+          "description": "Unauthorised modification of information, e.g. by an attacker abusing stolen login credentials for a system or application or a ransomware encrypting data. Also includes defacements.",
           "expanded": "Unauthorised modification of information",
           "value": "unauthorised-information-modification"
         },
@@ -156,6 +161,11 @@
           "description": "Loss of data, e.g. caused by harddisk failure or physical theft.",
           "expanded": "Data Loss",
           "value": "data-loss"
+        },
+        {
+          "description": "Leaked confidential information like credentials or personal data.",
+          "expanded": "Leak of confidential information",
+          "value": "data-leak"
         }
       ],
       "predicate": "information-content-security"
@@ -163,9 +173,9 @@
     {
       "entry": [
         {
-          "description": "Using resources for unauthorized purposes including profit-making ventures, e.g. the use of e-mail to participate in illegal profit chain letters or pyramid schemes.",
-          "expanded": "Unauthorized use of resources",
-          "value": "unauthorized-use-of-resources"
+          "description": "Using resources for unauthorised purposes including profit-making ventures, e.g. the use of e-mail to participate in illegal profit chain letters or pyramid schemes.",
+          "expanded": "Unauthorised use of resources",
+          "value": "unauthorised-use-of-resources"
         },
         {
           "description": "Offering or Installing copies of unlicensed commercial software or other copyright protected materials (Warez).",
@@ -178,7 +188,7 @@
           "value": "masquerade"
         },
         {
-          "description": "Masquerading as another entity in order to persuade the user to reveal private credentials.",
+          "description": "Masquerading as another entity in order to persuade the user to reveal private credentials. This IOC most often refers to a URL, which is used to phish user credentials.",
           "expanded": "Phishing",
           "value": "phishing"
         }
@@ -208,7 +218,7 @@
           "value": "information-disclosure"
         },
         {
-          "description": "A system which is vulnerable to certain attacks. Example: misconfigured client proxy settings (example: WPAD), outdated operating system version, etc.",
+          "description": "A system which is vulnerable to certain attacks. Example: misconfigured client proxy settings (example: WPAD), outdated operating system version, XSS vulnerabilities, etc.",
           "expanded": "Vulnerable system",
           "value": "vulnerable-system"
         }
@@ -218,9 +228,14 @@
     {
       "entry": [
         {
-          "description": "All incidents which don't fit in one of the given categories should be put into this class.",
-          "expanded": "Other",
+          "description": "All incidents which don't fit in one of the given categories should be put into this class or the incident is not categorised.",
+          "expanded": "Uncategorised",
           "value": "other"
+        },
+        {
+          "description": "The categorisation of the incident is unknown/undetermined.",
+          "expanded": "Undetermined",
+          "value": "undetermined"
         }
       ],
       "predicate": "other"
@@ -258,7 +273,7 @@
       "value": "intrusion-attempts"
     },
     {
-      "description": "A successful compromise of a system or application (service). This can have been caused remotely by a known or new vulnerability, but also by an unauthorized local access. Also includes being part of a botnet.",
+      "description": "A successful compromise of a system or application (service). This can have been caused remotely by a known or new vulnerability, but also by an unauthorised local access. Also includes being part of a botnet.",
       "expanded": "Intrusions",
       "value": "intrusions"
     },
@@ -293,7 +308,7 @@
       "value": "test"
     }
   ],
-  "version": 3,
+  "version": 1002,
   "description": "Reference Security Incident Classification Taxonomy",
   "namespace": "rsit"
 }
