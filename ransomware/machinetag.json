@@ -2,7 +2,7 @@
   "namespace": "ransomware",
   "expanded": "ransomware types and elements",
   "description": "Ransomware is used to define ransomware types and the elements that compose them.",
-  "version": 4,
+  "version": 5,
   "refs": [
     "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-evolution-of-ransomware.pdf",
     "https://docs.apwg.org/ecrimeresearch/2018/5357083.pdf",
@@ -28,6 +28,26 @@
       "value": "purpose",
       "expanded": "Purpose",
       "description": "Purpose of the ransomware."
+    },
+    {
+      "value": "target",
+      "expanded": "Target",
+      "description": "Target of the ransomware."
+    },
+    {
+      "value": "infection",
+      "expanded": "Infection",
+      "description": "Infection vector used by the ransomware."
+    },
+    {
+      "value": "communication",
+      "expanded": "Communication",
+      "description": "Communication method used by the ransomware;"
+    },
+    {
+      "value": "malicious-action",
+      "expanded": "Malicious Action",
+      "description": "Malicious action performed by the ransomware."
     }
   ],
   "values": [
@@ -184,6 +204,102 @@
         {
           "value": "deployed-as-a-means-of-disruption-destruction",
           "expanded": "Last but not least -  while ransomware can have several purposes, it can also serve a particularly nasty goal: destroy a company or organisation, or at least take them offline for several days, or even weeks.\nAgain, there are some possibilities, but this may be a rivalry company in a similar business, again a disgruntled employee, or to disrupt large organisations on a worldwide scale."
+        }
+      ]
+    },
+    {
+      "predicate": "target",
+      "entry": [
+        {
+          "value": "pc-workstation",
+          "expanded": "Ransomware that targets PCs or workstations."
+        },
+        {
+          "value": "mobile-device",
+          "expanded": "Ransomware that targets mobile devices."
+        },
+        {
+          "value": "iot-cps-device",
+          "expanded": "Ransomware that targets IoT or CPS devoces."
+        },
+        {
+          "value": "end-user",
+          "expanded": "Ransomware that targets end users."
+        },
+        {
+          "value": "organisation",
+          "expanded": "Ransomware that targets organisation."
+        }
+      ]
+    },
+    {
+      "predicate": "infection",
+      "entry": [
+        {
+          "value": "phishing-e=mails",
+          "expanded": "Malicious e-mails are the most commonly used infection vectors for ransomware. Attackers send spam e-mails to victims that have attachments containing ransomware. Such spam campaigns can be distributed using botnets. Ransomware may come with an attached malicious file, or the e-mail may contain a malicious link that will trigger the installation of ransomware once visited (drive-by download)."
+        },
+        {
+          "value": "sms-instant-message",
+          "expanded": "SMS Messages or IMs are used frequently for mobile ransomware. In such kind of infections, attackers send SMS messages or IMs to the victims that will cause them to browse a malicious website to download ransomware to their platforms."
+        },
+        {
+          "value": "malicious-apps",
+          "expanded": "Malicious Applications are used by ransomware attackers who develop and deploy mobile applications that contain ransomware camouflaged as a benign application."
+        },
+        {
+          "value": "drive-by-download",
+          "expanded": "Drive-by download happens when a user unknowingly visits an infected website or clicks a malicious advertisement (i.e., malvertisement) and then the malware is downloaded and installed without the user’s knowledge."
+        },
+        {
+          "value": "vulnerabilities",
+          "expanded": "Vulnerabilities in the victim platform such as vulnerabilities in operating systems, browsers, or software can be used by ransomware authors as infection vectors. Attackers can use helper applications, exploit kits, to exploit the known or zero-day vulnerabilities in target systems. Attackers can redirect victims to those kits via malvertisement and malicious links."
+        }
+      ]
+    },
+    {
+      "predicate": "communication",
+      "entry": [
+        {
+          "value": "hard-coded-ip",
+          "expanded": "Ransomware connecting to C&C via hard-coded IP addresses or domains"
+        },
+        {
+          "value": "dga-based",
+          "expanded": "Ransomware connecting to C&C via dynamically fast-fluxed/generated/shifted domain names using Domain Generation Algorithms (DGA)"
+        }
+      ]
+    },
+    {
+      "predicate": "malicious-action",
+      "entry": [
+        {
+          "value": "symmetric-key-encryption",
+          "expanded": "Ransomware that encrypts data using symmetric-key encryption."
+        },
+        {
+          "value": "asymmetric-key-encryption",
+          "expanded": "Ransomware that encrypts data using asymmetric-key encryption."
+        },
+        {
+          "value": "hybrid-key-encryption",
+          "expanded": "Ransomware that encrypts data using hybrid-key encryption."
+        },
+        {
+          "value": "screen-locking",
+          "expanded": "Ransomware that locks the system’s graphical user interface and prevent access."
+        },
+        {
+          "value": "browser-locking",
+          "expanded": "Ransomware that locks slock web browser of the victim."
+        },
+        {
+          "value": "mbr-locking",
+          "expanded": "Ransomware that locks Master Boot Records."
+        },
+        {
+          "value": "data-exfiltration",
+          "expanded": "Ransomware that exfiltrates data."
         }
       ]
     }
