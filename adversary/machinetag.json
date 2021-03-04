@@ -1,7 +1,7 @@
 {
   "namespace": "adversary",
   "description": "An overview and description of the adversary infrastructure",
-  "version": 5,
+  "version": 6,
   "predicates": [
     {
       "value": "infrastructure-status",
@@ -110,6 +110,10 @@
         {
           "value": "tds",
           "expanded": "Traffic Distribution Systems including exploit delivery or/and web monetization channels"
+        },
+        {
+          "value": "c2",
+          "expanded": "C2 infrastructure without known specific type."
         }
       ]
     }
