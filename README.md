@@ -97,8 +97,7 @@ DHS critical sectors as described in https://www.dhs.gov/critical-infrastructure
 
 ### [Diamond Model for Intrusion Analysis](./diamond-model)
 
-The Diamond Model for Intrusion Analysis, a phase-based model developed by Lockheed Martin, aims to help categorise and identify the stage of an attack
-as described in [http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf](http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf).
+The Diamond Model for Intrusion Analysis establishes the basic atomic element of any intrusion activity, the event, composed of four core features: adversary, infrastructure, capability, and victim. [https://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf](https://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf).
 
 ### [Detection Maturity Level](./DML)
 
