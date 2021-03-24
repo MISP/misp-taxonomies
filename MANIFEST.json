@@ -46,7 +46,7 @@
     {
       "description": "An overview and description of the adversary infrastructure",
       "name": "adversary",
-      "version": 5
+      "version": 6
     },
     {
       "description": "The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)",
@@ -491,7 +491,7 @@
     {
       "description": "Ransomware is used to define ransomware types and the elements that compose them.",
       "name": "ransomware",
-      "version": 4
+      "version": 6
     },
     {
       "description": "Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.",
@@ -501,7 +501,7 @@
     {
       "description": "Reference Security Incident Classification Taxonomy",
       "name": "rsit",
-      "version": 3
+      "version": 1002
     },
     {
       "description": "Status of events used in Request Tracker.",
@@ -615,5 +615,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20210208"
+  "version": "20210324"
 }
