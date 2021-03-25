@@ -124,6 +124,11 @@
       "version": 8
     },
     {
+      "description": "Cyber Threat Intelligence cycle to control workflow state of your process.",
+      "name": "cti",
+      "version": 1
+    },
+    {
       "description": "Current events - Schemes of Classification in Incident Response and Detection",
       "name": "current-event",
       "version": 1
@@ -376,6 +381,11 @@
     {
       "description": "The interception method used to intercept traffic.",
       "name": "interception-method",
+      "version": 1
+    },
+    {
+      "description": "An IOC classification to facilitate automation of malicious and non malicious artifacts",
+      "name": "ioc",
       "version": 1
     },
     {
