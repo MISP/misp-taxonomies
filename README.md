@@ -131,6 +131,11 @@ It is critical that the CSIRT provide consistent and timely response to the cust
 [cssa](https://github.com/MISP/misp-taxonomies/tree/main/cssa) :
 The CSSA agreed sharing taxonomy. [Overview](https://www.misp-project.org/taxonomies.html#_cssa)
 
+### cti
+
+[cti](https://github.com/MISP/misp-taxonomies/tree/main/cti) :
+Cyber Threat Intelligence cycle to control workflow state of your process. [Overview](https://www.misp-project.org/taxonomies.html#_cti)
+
 ### current-event
 
 [current-event](https://github.com/MISP/misp-taxonomies/tree/main/current-event) :
@@ -386,6 +391,11 @@ A full set of operational indicators for organizations to use to benchmark their
 [interception-method](https://github.com/MISP/misp-taxonomies/tree/main/interception-method) :
 The interception method used to intercept traffic. [Overview](https://www.misp-project.org/taxonomies.html#_interception_method)
 
+### ioc
+
+[ioc](https://github.com/MISP/misp-taxonomies/tree/main/ioc) :
+An IOC classification to facilitate automation of malicious and non malicious artifacts [Overview](https://www.misp-project.org/taxonomies.html#_ioc)
+
 ### iot
 
 [iot](https://github.com/MISP/misp-taxonomies/tree/main/iot) :
@@ -610,6 +620,11 @@ The Use Case Applicability categories reflect standard resolution categories, to
 
 [veris](https://github.com/MISP/misp-taxonomies/tree/main/veris) :
 Vocabulary for Event Recording and Incident Sharing (VERIS) [Overview](https://www.misp-project.org/taxonomies.html#_veris)
+
+### vmray
+
+[vmray](https://github.com/MISP/misp-taxonomies/tree/main/vmray) :
+VMRay taxonomies to map VMRay Thread Identifier scores and artifacts. [Overview](https://www.misp-project.org/taxonomies.html#_vmray)
 
 ### vocabulaire-des-probabilites-estimatives
 
