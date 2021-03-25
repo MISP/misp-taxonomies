@@ -76,7 +76,7 @@
     {
       "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
       "name": "circl",
-      "version": 4
+      "version": 5
     },
     {
       "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",
