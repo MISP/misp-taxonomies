@@ -5,34 +5,33 @@
   "predicates": [
     {
       "value": "planning",
-          "description":"CTI requirementes being generated.",
+      "description": "CTI requirementes being generated.",
       "expanded": "Phase"
     },
-        {
+    {
       "value": "collection",
-          "description":"Data collection initiated.",
+      "description": "Data collection initiated.",
       "expanded": "Phase"
     },
-        {
+    {
       "value": "processing-and-analysis",
-          "description":"Data is being processed and analyzed",
+      "description": "Data is being processed and analyzed",
       "expanded": "Phase"
     },
-        {
+    {
       "value": "dissemination-done",
-          "description":"CTI product created and delivered to stakeholders.",
+      "description": "CTI product created and delivered to stakeholders.",
       "expanded": "Phase"
     },
-        {
+    {
       "value": "feedback-received",
-          "description":"Feedback received by stakeholders.",
+      "description": "Feedback received by stakeholders.",
       "expanded": "Phase"
     },
-        {
+    {
       "value": "feedback-pending",
-          "description":"Feedback pending by stakeholders.",
+      "description": "Feedback pending by stakeholders.",
       "expanded": "Phase"
     }
-
   ]
 }
