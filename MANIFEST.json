@@ -604,6 +604,11 @@
       "version": 2
     },
     {
+      "description": "VMRay taxonomies to map VMRay Thread Identifier scores and artifacts.",
+      "name": "vmray",
+      "version": 1
+    },
+    {
       "description": "Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité",
       "name": "vocabulaire-des-probabilites-estimatives",
       "version": 3
@@ -615,5 +620,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20210324"
+  "version": "20210325"
 }
