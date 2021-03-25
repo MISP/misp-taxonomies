@@ -76,7 +76,7 @@
     {
       "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
       "name": "circl",
-      "version": 4
+      "version": 5
     },
     {
       "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",
@@ -409,9 +409,9 @@
       "version": 2
     },
     {
-      "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical 'News' Sources by Melissa Zimdars 2019",
+      "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical News Sources by Melissa Zimdars 2019",
       "name": "misinformation-website-label",
-      "version": "1"
+      "version": 1
     },
     {
       "description": "MISP taxonomy to infer with MISP behavior or operation.",
@@ -590,5 +590,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20200612"
+  "version": "20210325"
 }
