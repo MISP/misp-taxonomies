@@ -386,7 +386,7 @@
     {
       "description": "An IOC classification to facilitate automation of malicious and non malicious artifacts",
       "name": "ioc",
-      "version": 1
+      "version": 2
     },
     {
       "description": "Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf",
