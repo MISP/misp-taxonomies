@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2021-03-24
+- Generation date: 2021-04-13
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -180,7 +180,7 @@
     - threat-vector
 ### circl
 - description: CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection
-- version: 4
+- version: 5
 - Predicates
     - incident-classification
     - topic
@@ -280,6 +280,16 @@
     - report
     - origin
     - analyse
+### cti
+- description: Cyber Threat Intelligence cycle to control workflow state of your process.
+- version: 1
+- Predicates
+    - planning
+    - collection
+    - processing-and-analysis
+    - dissemination-done
+    - feedback-received
+    - feedback-pending
 ### current-event
 - description: Current events - Schemes of Classification in Incident Response and Detection
 - version: 1
@@ -837,6 +847,11 @@
     - dns
     - host-file
     - other
+### ioc
+- description: An IOC classification to facilitate automation of malicious and non malicious artifacts
+- version: 2
+- Predicates
+    - artifact-state
 ### iot
 - description: Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf
 - version: 2
@@ -1144,26 +1159,14 @@
 - Predicates
     - targeting-sophistication-base-value
     - technical-sophistication-multiplier
-### threatmatch-alert-types
-- description: The ThreatMatch Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.
-- version: 1
-- Predicates
-    - alert_type
-### threatmatch-incident-types
-- description: The ThreatMatch Incident types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.
-- version: 1
-- Predicates
-    - incident_type
-### threatmatch-malware-types
-- description: The ThreatMatch Malware types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.
-- version: 1
-- Predicates
-    - malware_type
-### threatmatch-sectors
-- description: The ThreatMatch Sector types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.
+### ThreatMatch
+- description: The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.
 - version: 1
 - Predicates
     - sector
+    - incident-type
+    - malware-type
+    - alert-type
 ### threats-to-dns
 - description: An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1–1. doi:10.1109/comst.2018.2849614
 - version: 1
@@ -1282,6 +1285,13 @@
     - victim:revenue:iso_currency_code
     - attribute:availability:duration:unit
     - attribute:confidentiality:data:variety
+### vmray
+- description: VMRay taxonomies to map VMRay Thread Identifier scores and artifacts.
+- version: 1
+- Predicates
+    - artifact
+    - verdict
+    - vti_analysis_score
 ### vocabulaire-des-probabilites-estimatives
 - description: Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité
 - version: 3

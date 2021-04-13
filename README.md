@@ -10,7 +10,6 @@ Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) (2.4) and ot
 
 The following taxonomies can be used in MISP (as local or distributed tags) or in other tools and software willing to share common taxonomies among security information sharing tools.
 
-
 ### CERT-XLM
 
 [CERT-XLM](https://github.com/MISP/misp-taxonomies/tree/main/CERT-XLM) :
@@ -30,6 +29,11 @@ The Detection Maturity Level (DML) model is a capability maturity model for refe
 
 [PAP](https://github.com/MISP/misp-taxonomies/tree/main/PAP) :
 The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used. [Overview](https://www.misp-project.org/taxonomies.html#_PAP)
+
+### ThreatMatch
+
+[ThreatMatch](https://github.com/MISP/misp-taxonomies/tree/main/ThreatMatch) :
+The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects. [Overview](https://www.misp-project.org/taxonomies.html#_ThreatMatch)
 
 ### access-method
 
@@ -565,26 +569,6 @@ TTPs are representations of the behavior or modus operandi of cyber adversaries.
 
 [targeted-threat-index](https://github.com/MISP/misp-taxonomies/tree/main/targeted-threat-index) :
 The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman. [Overview](https://www.misp-project.org/taxonomies.html#_targeted_threat_index)
-
-### threatmatch-alert-types
-
-[threatmatch-alert-types](https://github.com/MISP/misp-taxonomies/tree/main/threatmatch-alert-types) :
-The ThreatMatch Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects. [Overview](https://www.misp-project.org/taxonomies.html#_threatmatch_alert_types)
-
-### threatmatch-incident-types
-
-[threatmatch-incident-types](https://github.com/MISP/misp-taxonomies/tree/main/threatmatch-incident-types) :
-The ThreatMatch Incident types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects. [Overview](https://www.misp-project.org/taxonomies.html#_threatmatch_incident_types)
-
-### threatmatch-malware-types
-
-[threatmatch-malware-types](https://github.com/MISP/misp-taxonomies/tree/main/threatmatch-malware-types) :
-The ThreatMatch Malware types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects. [Overview](https://www.misp-project.org/taxonomies.html#_threatmatch_malware_types)
-
-### threatmatch-sectors
-
-[threatmatch-sectors](https://github.com/MISP/misp-taxonomies/tree/main/threatmatch-sectors) :
-The ThreatMatch Sector types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects. [Overview](https://www.misp-project.org/taxonomies.html#_threatmatch_sectors)
 
 ### threats-to-dns
 

@@ -7,7 +7,7 @@
     "https://www.secalliance.com/platform/",
     "https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.pr200227_1~062992656b.en.html"
   ],
-  "predicates":[
+  "predicates": [
     {
       "value": "sector",
       "expanded": "Extensive list of sector definition tags"
@@ -29,150 +29,150 @@
     {
       "predicate": "sector",
       "entry": [
-         {
-           "value": "Banking & Capital Markets",
-           "expanded": "Banking & capital markets"
-         },
-         {
-           "value": "Financial Services",
-           "expanded": "Financial Services"
-         },
-         {
-           "value": "Insurance",
-           "expanded": "Insurance"
-         },
-         {
-           "value": "Pension",
-           "expanded": "Pension"
-         },
-         {
-           "value": "Government & Public Service",
-           "expanded": "Government & Public Service"
-         },
-         {
-           "value": "Diplomatic Services",
-           "expanded": "Diplomatic Services"
-         },
-         {
-           "value": "Energy, Utilities & Mining",
-           "expanded": "Energy, Utilities & Mining"
-         },
-         {
-           "value": "Telecommunications",
-           "expanded": "Telecommunications"
-         },
-         {
-           "value": "Technology",
-           "expanded": "Technology"
-         },
-         {
-           "value": "Academic/Research Institutes",
-           "expanded": "Academic/Research Institutes"
-         },
-         {
-           "value": "Aerospace, Defence & Security",
-           "expanded": "Aerospace, Defence & Security"
-         },
-         {
-           "value": "Agriculture",
-           "expanded": "Agriculture"
-         },
-         {
-           "value": "Asset & Wealth Management",
-           "expanded": "Asset & Wealth Management"
-         },
-         {
-           "value": "Automotive",
-           "expanded": "Automotive"
-         },
-         {
-           "value": "Business and Professional Services",
-           "expanded": "Business and Professional Services"
-         },
-         {
-           "value": "Capital Projects & Infrastructure",
-           "expanded": "Capital Projects & Infrastructure"
-         },
-         {
-           "value": "Charity/Not-for-Profit",
-           "expanded": "Charity/Not-for-Profit"
-         },
-         {
-           "value": "Chemicals",
-           "expanded": "Chemicals"
-         },
-         {
-           "value": "Commercial Aviation",
-           "expanded": "Commercial Aviation"
-         },
-         {
-           "value": "Commodities",
-           "expanded": "Commodities"
-         },
-         {
-           "value": "Education",
-           "expanded": "Education"
-         },
-         {
-           "value": "Engineering & Construction",
-           "expanded": "Engineering & Construction"
-         },
-         {
-           "value": "Entertainment & Media",
-           "expanded": "Entertainment & Media"
-         },
-         {
-           "value": "Forest, Paper & Packaging",
-           "expanded": "Forest, Paper & Packaging"
-         },
-         {
-           "value": "Healthcare",
-           "expanded": "Healthcare"
-         },
-         {
-           "value": "Hospitality & Leisure",
-           "expanded": "Hospitality & Leisure"
-         },
-         {
-           "value": "Industrial Manufacturing",
-           "expanded": "Industrial Manufacturing"
-         },
-         {
-           "value": "IT Industry",
-           "expanded": "IT Industry"
-         },
-         {
-           "value": "Legal",
-           "expanded": "Legal"
-         },
-         {
-           "value": "Metals",
-           "expanded": "Metals"
-         },
-         {
-           "value": "Pharmaceuticals & Life Sciences",
-           "expanded": "Pharmaceuticals & Life Sciences"
-         },
-         {
-           "value": "Private Equity",
-           "expanded": "Private Equity"
-         },
-         {
-           "value": "Retail & Consumer",
-           "expanded": "Retail & Consumer"
-         },
-         {
-           "value": "Semiconductors",
-           "expanded": "Semiconductors"
-         },
-         {
-           "value": "Sovereign Investment Funds",
-           "expanded": "Sovereign Investment Funds"
-         },
-         {
-           "value": "Transport & Logistics",
-           "expanded": "Transport & Logistics"
-         }
+        {
+          "value": "Banking & Capital Markets",
+          "expanded": "Banking & capital markets"
+        },
+        {
+          "value": "Financial Services",
+          "expanded": "Financial Services"
+        },
+        {
+          "value": "Insurance",
+          "expanded": "Insurance"
+        },
+        {
+          "value": "Pension",
+          "expanded": "Pension"
+        },
+        {
+          "value": "Government & Public Service",
+          "expanded": "Government & Public Service"
+        },
+        {
+          "value": "Diplomatic Services",
+          "expanded": "Diplomatic Services"
+        },
+        {
+          "value": "Energy, Utilities & Mining",
+          "expanded": "Energy, Utilities & Mining"
+        },
+        {
+          "value": "Telecommunications",
+          "expanded": "Telecommunications"
+        },
+        {
+          "value": "Technology",
+          "expanded": "Technology"
+        },
+        {
+          "value": "Academic/Research Institutes",
+          "expanded": "Academic/Research Institutes"
+        },
+        {
+          "value": "Aerospace, Defence & Security",
+          "expanded": "Aerospace, Defence & Security"
+        },
+        {
+          "value": "Agriculture",
+          "expanded": "Agriculture"
+        },
+        {
+          "value": "Asset & Wealth Management",
+          "expanded": "Asset & Wealth Management"
+        },
+        {
+          "value": "Automotive",
+          "expanded": "Automotive"
+        },
+        {
+          "value": "Business and Professional Services",
+          "expanded": "Business and Professional Services"
+        },
+        {
+          "value": "Capital Projects & Infrastructure",
+          "expanded": "Capital Projects & Infrastructure"
+        },
+        {
+          "value": "Charity/Not-for-Profit",
+          "expanded": "Charity/Not-for-Profit"
+        },
+        {
+          "value": "Chemicals",
+          "expanded": "Chemicals"
+        },
+        {
+          "value": "Commercial Aviation",
+          "expanded": "Commercial Aviation"
+        },
+        {
+          "value": "Commodities",
+          "expanded": "Commodities"
+        },
+        {
+          "value": "Education",
+          "expanded": "Education"
+        },
+        {
+          "value": "Engineering & Construction",
+          "expanded": "Engineering & Construction"
+        },
+        {
+          "value": "Entertainment & Media",
+          "expanded": "Entertainment & Media"
+        },
+        {
+          "value": "Forest, Paper & Packaging",
+          "expanded": "Forest, Paper & Packaging"
+        },
+        {
+          "value": "Healthcare",
+          "expanded": "Healthcare"
+        },
+        {
+          "value": "Hospitality & Leisure",
+          "expanded": "Hospitality & Leisure"
+        },
+        {
+          "value": "Industrial Manufacturing",
+          "expanded": "Industrial Manufacturing"
+        },
+        {
+          "value": "IT Industry",
+          "expanded": "IT Industry"
+        },
+        {
+          "value": "Legal",
+          "expanded": "Legal"
+        },
+        {
+          "value": "Metals",
+          "expanded": "Metals"
+        },
+        {
+          "value": "Pharmaceuticals & Life Sciences",
+          "expanded": "Pharmaceuticals & Life Sciences"
+        },
+        {
+          "value": "Private Equity",
+          "expanded": "Private Equity"
+        },
+        {
+          "value": "Retail & Consumer",
+          "expanded": "Retail & Consumer"
+        },
+        {
+          "value": "Semiconductors",
+          "expanded": "Semiconductors"
+        },
+        {
+          "value": "Sovereign Investment Funds",
+          "expanded": "Sovereign Investment Funds"
+        },
+        {
+          "value": "Transport & Logistics",
+          "expanded": "Transport & Logistics"
+        }
       ]
     },
     {
@@ -332,184 +332,183 @@
         }
       ]
     },
-      {
-        "predicate": "malware_type",
-        "entry": [
-           {
-             "value": "Adware",
-             "expanded": "Adware"
-           },
-           {
-             "value": "Backdoor",
-             "expanded": "Backdoor"
-           },
-           {
-             "value": "Banking Trojan",
-             "expanded": "Banking Trojan"
-           },
-           {
-             "value": "Botnet",
-             "expanded": "Botnet"
-           },
-           {
-             "value": "Destructive",
-             "expanded": "Destructive"
-           },
-           {
-             "value": "Downloader",
-             "expanded": "Downloader"
-           },
-           {
-             "value": "Exploit Kit",
-             "expanded": "Exploit Kit"
-           },
-           {
-             "value": "Fileless Malware",
-             "expanded": "Fileless Malware"
-           },
-           {
-             "value": "Keylogger",
-             "expanded": "Keylogger"
-           },
-           {
-             "value": "Legitimate Tool",
-             "expanded": "Legitimate Tool"
-           },
-           {
-             "value": "Mobile Application",
-             "expanded": "Mobile Application"
-           },
-           {
-             "value": "Mobile Malware",
-             "expanded": "Mobile Malware"
-           },
-           {
-             "value": "Point-of-Sale (PoS)",
-             "expanded": "Point-of-Sale (PoS)"
-           },
-           {
-             "value": "Remote Access Trojan",
-             "expanded": "Remote Access Trojan"
-           },
-           {
-             "value": "Rootkit",
-             "expanded": "Rootkit"
-           },
-           {
-             "value": "Skimmer",
-             "expanded": "Skimmer"
-           },
-           {
-             "value": "Spyware",
-             "expanded": "Spyware"
-           },
-           {
-             "value": "Surveillance Tool",
-             "expanded": "Surveillance Tool"
-           },
-           {
-             "value": "Trojan",
-             "expanded": "Trojan"
-           },
-           {
-             "value": "Virus",
-             "expanded": "Virus "
-           },
-           {
-             "value": "Worm",
-             "expanded": "Worm"
-           },
-           {
-             "value": "Zero-day",
-             "expanded": "Zero-day"
-           },
-           {
-             "value": "Unknown",
-             "expanded": "Unknown"
-           }
-          ]
-      },
+    {
+      "predicate": "malware_type",
+      "entry": [
+        {
+          "value": "Adware",
+          "expanded": "Adware"
+        },
+        {
+          "value": "Backdoor",
+          "expanded": "Backdoor"
+        },
+        {
+          "value": "Banking Trojan",
+          "expanded": "Banking Trojan"
+        },
+        {
+          "value": "Botnet",
+          "expanded": "Botnet"
+        },
+        {
+          "value": "Destructive",
+          "expanded": "Destructive"
+        },
+        {
+          "value": "Downloader",
+          "expanded": "Downloader"
+        },
+        {
+          "value": "Exploit Kit",
+          "expanded": "Exploit Kit"
+        },
+        {
+          "value": "Fileless Malware",
+          "expanded": "Fileless Malware"
+        },
+        {
+          "value": "Keylogger",
+          "expanded": "Keylogger"
+        },
+        {
+          "value": "Legitimate Tool",
+          "expanded": "Legitimate Tool"
+        },
+        {
+          "value": "Mobile Application",
+          "expanded": "Mobile Application"
+        },
+        {
+          "value": "Mobile Malware",
+          "expanded": "Mobile Malware"
+        },
+        {
+          "value": "Point-of-Sale (PoS)",
+          "expanded": "Point-of-Sale (PoS)"
+        },
+        {
+          "value": "Remote Access Trojan",
+          "expanded": "Remote Access Trojan"
+        },
+        {
+          "value": "Rootkit",
+          "expanded": "Rootkit"
+        },
+        {
+          "value": "Skimmer",
+          "expanded": "Skimmer"
+        },
+        {
+          "value": "Spyware",
+          "expanded": "Spyware"
+        },
+        {
+          "value": "Surveillance Tool",
+          "expanded": "Surveillance Tool"
+        },
+        {
+          "value": "Trojan",
+          "expanded": "Trojan"
+        },
+        {
+          "value": "Virus",
+          "expanded": "Virus "
+        },
+        {
+          "value": "Worm",
+          "expanded": "Worm"
+        },
+        {
+          "value": "Zero-day",
+          "expanded": "Zero-day"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
     {
       "predicate": "alert_type",
       "entry": [
         {
-        "value": "Actor Campaigns",
-        "expanded": "Actor Campaigns"
+          "value": "Actor Campaigns",
+          "expanded": "Actor Campaigns"
         },
         {
-        "value": "Credential Breaches",
-        "expanded": "Credential Breaches"
+          "value": "Credential Breaches",
+          "expanded": "Credential Breaches"
         },
         {
-        "value": "DDoS",
-        "expanded": "DDoS"
+          "value": "DDoS",
+          "expanded": "DDoS"
         },
         {
-        "value": "Exploit Alert",
-        "expanded": "Exploit Alert"
+          "value": "Exploit Alert",
+          "expanded": "Exploit Alert"
         },
         {
-        "value": "General Notification",
-        "expanded": "General Notification"
+          "value": "General Notification",
+          "expanded": "General Notification"
         },
         {
-        "value": "High Impact Vulnerabilities",
-        "expanded": "High Impact Vulnerabilities"
+          "value": "High Impact Vulnerabilities",
+          "expanded": "High Impact Vulnerabilities"
         },
         {
-        "value": "Information Leakages",
-        "expanded": "Information Leakages"
+          "value": "Information Leakages",
+          "expanded": "Information Leakages"
         },
         {
-        "value": "Malware Analysis",
-        "expanded": "Malware Analysis"
+          "value": "Malware Analysis",
+          "expanded": "Malware Analysis"
         },
         {
-        "value": "Nefarious Domains",
-        "expanded": "Nefarious Domains"
+          "value": "Nefarious Domains",
+          "expanded": "Nefarious Domains"
         },
         {
-        "value": "Nefarious Forum Mention",
-        "expanded": "Nefarious Forum Mention"
+          "value": "Nefarious Forum Mention",
+          "expanded": "Nefarious Forum Mention"
         },
         {
-        "value": "Pastebin Dumps",
-        "expanded": "Pastebin Dumps"
+          "value": "Pastebin Dumps",
+          "expanded": "Pastebin Dumps"
         },
         {
-        "value": "Phishing Attempts",
-        "expanded": "Phishing Attempts"
+          "value": "Phishing Attempts",
+          "expanded": "Phishing Attempts"
         },
         {
-        "value": "PII Exposure",
-        "expanded": "PII Exposure"
+          "value": "PII Exposure",
+          "expanded": "PII Exposure"
         },
         {
-        "value": "Sensitive Information Disclosures",
-        "expanded": "Sensitive Information Disclosures"
+          "value": "Sensitive Information Disclosures",
+          "expanded": "Sensitive Information Disclosures"
         },
         {
-        "value": "Social Media Alerts",
-        "expanded": "Social Media Alerts"
+          "value": "Social Media Alerts",
+          "expanded": "Social Media Alerts"
         },
         {
-        "value": "Supply Chain Event",
-        "expanded": "Supply Chain Event"
+          "value": "Supply Chain Event",
+          "expanded": "Supply Chain Event"
         },
         {
-        "value": "Technical Exposure",
-        "expanded": "Technical Exposure"
+          "value": "Technical Exposure",
+          "expanded": "Technical Exposure"
         },
         {
-        "value": "Threat Actor Updates",
-        "expanded": "Threat Actor Updates"
+          "value": "Threat Actor Updates",
+          "expanded": "Threat Actor Updates"
         },
         {
-        "value": "Trigger Events",
-        "expanded": "Trigger Events"
+          "value": "Trigger Events",
+          "expanded": "Trigger Events"
         }
       ]
     }
-
   ]
 }
