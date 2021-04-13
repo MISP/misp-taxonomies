@@ -1,5 +1,5 @@
 {
-  "namespace": "ThreatMatch",
+  "namespace": "threatmatch",
   "expanded": "ThreatMatch categories for sharing into ThreatMatch and MISP",
   "version": 1,
   "description": "The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
