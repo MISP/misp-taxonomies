@@ -13,15 +13,15 @@
       "expanded": "Extensive list of sector definition tags"
     },
     {
-      "value": "incident_type",
+      "value": "incident-type",
       "expanded": "Incident tags are used by the ThreatMatch platform to categorise a relevant incident event."
     },
     {
-      "value": "malware_type",
+      "value": "malware-type",
       "expanded": "Malware tags are used by the ThreatMatch platform to categorise malware types."
     },
     {
-      "value": "alert_type",
+      "value": "alert-type",
       "expanded": "Alert tags are used by the ThreatMatch platform to categorise a relevant threat."
     }
   ],
