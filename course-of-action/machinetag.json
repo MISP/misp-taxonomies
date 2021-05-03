@@ -2,7 +2,7 @@
   "namespace": "course-of-action",
   "expanded": "Courses of Action",
   "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "passive",
@@ -43,7 +43,7 @@
           "expanded": "Degrading will not immediately fail an event, but it will slow down the further actions of the attacker. This tactic allows you to catch up during an incident response process, but you have to consider that the attackers may eventually succeed in achieving their objectives. Throttling bandwidth is one way to degrade an intrusion."
         },
         {
-          "value": "decieve",
+          "value": "deceive",
           "expanded": "Deception allows you to learn more about the intentions of the attacker by making them think the action was successful. One way to do this is to put a honeypot in place and redirect the traffic, based on an indicator, towards the honeypot."
         },
         {
