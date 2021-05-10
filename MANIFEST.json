@@ -189,9 +189,9 @@
       "version": 3
     },
     {
-      "description": "Domain Name Abuse - taxonomy to tag domain names used for cybercrime. Use europol-incident to tag abuse-activity",
+      "description": "Domain Name Abuse - taxonomy to tag domain names used for cybercrime.",
       "name": "domain-abuse",
-      "version": 1
+      "version": 2
     },
     {
       "description": "A taxonomy based on the superclass and class of drugs. Based on https://www.drugbank.ca/releases/latest",
@@ -615,5 +615,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20210503"
+  "version": "20210510"
 }

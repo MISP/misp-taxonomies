@@ -1,8 +1,8 @@
 {
   "namespace": "domain-abuse",
   "expanded": "Domain Name Abuse",
-  "description": "Domain Name Abuse - taxonomy to tag domain names used for cybercrime. Use europol-incident to tag abuse-activity",
-  "version": 1,
+  "description": "Domain Name Abuse - taxonomy to tag domain names used for cybercrime.",
+  "version": 2,
   "predicates": [
     {
       "value": "domain-status",
@@ -73,6 +73,16 @@
           "value": "sinkhole",
           "expanded": "Sinkhole",
           "description": "Domain Name is sinkholed for research, detection, LE"
+        },
+        {
+          "value": "compromised-domain-name-registrar",
+          "expanded": "Compromised domain name registrar",
+          "description": "Domain name is compromised due to an incident at the registrar"
+        },
+        {
+          "value": "compromised-domain-name-registry",
+          "expanded": "Compromised domain name registry",
+          "description": "Domain name is compromised due to an incident at the registry"
         }
       ]
     }
