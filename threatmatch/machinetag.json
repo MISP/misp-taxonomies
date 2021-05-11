@@ -1,7 +1,7 @@
 {
   "namespace": "threatmatch",
   "expanded": "ThreatMatch categories for sharing into ThreatMatch and MISP",
-  "version": 2,
+  "version": 3,
   "description": "The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
   "refs": [
     "https://www.secalliance.com/platform/",
@@ -333,7 +333,7 @@
       ]
     },
     {
-      "predicate": "malware_type",
+      "predicate": "malware-type",
       "entry": [
         {
           "value": "Adware",
@@ -430,7 +430,7 @@
       ]
     },
     {
-      "predicate": "alert_type",
+      "predicate": "alert-type",
       "entry": [
         {
           "value": "Actor Campaigns",
