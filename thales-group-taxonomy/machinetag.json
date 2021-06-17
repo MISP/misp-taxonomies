@@ -63,7 +63,6 @@
           "description": "This TAG will insure you that this Event will be kept on your side. This Event will NOT be shared to the Thales Group community. Distribution: Your organisation only",
           "expanded": "Use it when you want to keep the Event on your Organization ONLY. Distribution: Your organisation only",
           "value": "team_eyes_only",
-          "exportable": false,
           "numerical_value": 0
         },
         {
