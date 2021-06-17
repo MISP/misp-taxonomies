@@ -572,7 +572,7 @@ The Targeted Threat Index is a metric for assigning an overall threat ranking sc
 
 ### thales-group-taxonomy
 
-[thales-group-taxonomy](https://github.com/MISP/misp-taxonomies/tree/main/thales-group-taxonomy)
+[thales-group-taxonomy](https://github.com/MISP/misp-taxonomies/tree/main/thales-group-taxonomy) : 
 This taxonomy was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.
 
 ### threats-to-dns
