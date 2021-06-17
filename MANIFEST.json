@@ -559,9 +559,14 @@
       "version": 3
     },
     {
+      "description": "Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.",
+      "name": "thales_group",
+      "version": 2
+    },
+    {
       "description": "The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
       "name": "threatmatch",
-      "version": 1
+      "version": 3
     },
     {
       "description": "An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1–1. doi:10.1109/comst.2018.2849614",
@@ -615,5 +620,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20210510"
+  "version": "20210617"
 }
