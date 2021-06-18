@@ -115,5 +115,5 @@
   "version": 2,
   "description": "Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.",
   "expanded": "Thales Group Taxonomy",
-  "namespace": "thales-group-taxonomy"
+  "namespace": "thales-group"
 }
