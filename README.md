@@ -570,10 +570,10 @@ TTPs are representations of the behavior or modus operandi of cyber adversaries.
 [targeted-threat-index](https://github.com/MISP/misp-taxonomies/tree/main/targeted-threat-index) :
 The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman. [Overview](https://www.misp-project.org/taxonomies.html#_targeted_threat_index)
 
-### thales-group-taxonomy
+### thales-group
 
-[thales-group-taxonomy](https://github.com/MISP/misp-taxonomies/tree/main/thales-group-taxonomy) : 
-This taxonomy was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.
+[thales-group](https://github.com/MISP/misp-taxonomies/tree/main/thales-group) : 
+The Thales Group taxonomy was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.
 
 ### threats-to-dns
 
