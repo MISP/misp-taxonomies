@@ -10,6 +10,8 @@ Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) (2.4) and ot
 
 The following taxonomies can be used in MISP (as local or distributed tags) or in other tools and software willing to share common taxonomies among security information sharing tools.
 
+## List of available taxonomies
+
 ### CERT-XLM
 
 [CERT-XLM](https://github.com/MISP/misp-taxonomies/tree/main/CERT-XLM) :
@@ -29,11 +31,6 @@ The Detection Maturity Level (DML) model is a capability maturity model for refe
 
 [PAP](https://github.com/MISP/misp-taxonomies/tree/main/PAP) :
 The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used. [Overview](https://www.misp-project.org/taxonomies.html#_PAP)
-
-### ThreatMatch
-
-[ThreatMatch](https://github.com/MISP/misp-taxonomies/tree/main/ThreatMatch) :
-The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects. [Overview](https://www.misp-project.org/taxonomies.html#_ThreatMatch)
 
 ### access-method
 
@@ -203,7 +200,7 @@ A subset of Information Security Marking Metadata ISM as required by Executive O
 ### domain-abuse
 
 [domain-abuse](https://github.com/MISP/misp-taxonomies/tree/main/domain-abuse) :
-Domain Name Abuse - taxonomy to tag domain names used for cybercrime. Use europol-incident to tag abuse-activity [Overview](https://www.misp-project.org/taxonomies.html#_domain_abuse)
+Domain Name Abuse - taxonomy to tag domain names used for cybercrime. [Overview](https://www.misp-project.org/taxonomies.html#_domain_abuse)
 
 ### drugs
 
@@ -570,10 +567,15 @@ TTPs are representations of the behavior or modus operandi of cyber adversaries.
 [targeted-threat-index](https://github.com/MISP/misp-taxonomies/tree/main/targeted-threat-index) :
 The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman. [Overview](https://www.misp-project.org/taxonomies.html#_targeted_threat_index)
 
-### thales-group-taxonomy
+### thales_group
 
-[thales-group-taxonomy](https://github.com/MISP/misp-taxonomies/tree/main/thales-group-taxonomy) : 
-This taxonomy was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.
+[thales_group](https://github.com/MISP/misp-taxonomies/tree/main/thales_group) :
+Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities. [Overview](https://www.misp-project.org/taxonomies.html#_thales_group)
+
+### threatmatch
+
+[threatmatch](https://github.com/MISP/misp-taxonomies/tree/main/threatmatch) :
+The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects. [Overview](https://www.misp-project.org/taxonomies.html#_threatmatch)
 
 ### threats-to-dns
 
@@ -624,7 +626,6 @@ Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de prob
 
 [workflow](https://github.com/MISP/misp-taxonomies/tree/main/workflow) :
 Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information. [Overview](https://www.misp-project.org/taxonomies.html#_workflow)
-
 
 # Reserved Taxonomy
 
