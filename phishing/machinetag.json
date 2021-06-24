@@ -79,6 +79,11 @@
           "value": "sms-phishing",
           "expanded": "SMS phishing",
           "description": "Adversary sends an SMS to a potential victims to gather sensitive information or use another phishing technique at a later stage."
+        },
+        {
+          "value": "business email compromise",
+          "expanded": "Business Email Compromise",
+          "description": "Adversary sends an email containing a malicious artefact from a legitimate businrdd email address which has connections to you as an individual or your organisation."
         }
       ]
     },
