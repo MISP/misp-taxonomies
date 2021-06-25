@@ -1,7 +1,7 @@
 {
   "namespace": "phishing",
   "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.",
-  "version": 4,
+  "version": 5,
   "predicates": [
     {
       "value": "techniques",
@@ -83,7 +83,7 @@
         {
           "value": "business email compromise",
           "expanded": "Business Email Compromise",
-          "description": "Adversary sends an email containing a malicious artefact from a legitimate businrdd email address which has connections to you as an individual or your organisation."
+          "description": "Adversary sends an email containing a malicious artefact from a legitimate business email address which has connections to you as an individual or your organisation."
         }
       ]
     },
