@@ -253,12 +253,12 @@
       "exclusive": true
     },
     {
-      "expanded": "IDS related tag unfluencing the MISP behavior of the IDS flag.",
-      "value": "ids"
-    },
-    {
       "expanded": "Type of the event.",
       "value": "event-type"
+    },
+    {
+      "expanded": "IDS related tag unfluencing the MISP behavior of the IDS flag.",
+      "value": "ids"
     }
   ],
   "version": 12,

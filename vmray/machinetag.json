@@ -3,16 +3,16 @@
   "namespace": "vmray",
   "predicates": [
     {
-      "expanded": "VMRay Artifact",
-      "value": "artifact"
-    },
-    {
       "expanded": "VMRay Verdict",
       "value": "verdict"
     },
     {
       "expanded": "VMRay Threat Identifier Analysis Score",
       "value": "vti_analysis_score"
+    },
+    {
+      "expanded": "VMRay Artifact",
+      "value": "artifact"
     }
   ],
   "values": [
