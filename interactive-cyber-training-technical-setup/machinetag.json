@@ -1,0 +1,109 @@
+{
+  "namespace": "interactive-cyber-training-technical-setup",
+  "description": "",
+  "version": 1,
+  "expanded": "Interactive Cyber Training - Technical Setup",
+  "predicates": [
+      {
+        "value": "environment-structure",
+        "expanded": "Environment Structure"
+      },
+      {
+        "value": "deployment",
+        "expanded": "Deployment"
+      },
+      {
+        "value": "orchestration",
+        "expanded": "Orchestration"
+      }
+    ],
+    "values": [
+      {
+        "predicate": "environment-structure",
+        "entry": [
+          {
+            "value": "tabletop-style",
+            "expanded": "Tabletop Style`"
+          },
+          {
+            "value": "online-collaboration-platform",
+            "expanded": "Online Platform - Collaboration Platform"
+          },
+          {
+            "value": "online-e-learning-platform",
+            "expanded": "Online Platform - E-Learning Platform"
+          },
+          {
+            "value": "hosting",
+            "expanded": "Hosting"
+          },
+          {
+            "value": "simulated-network-infrastructure",
+            "expanded": "Network Infrastruture - Simulated"
+          },
+          {
+            "value": "emulated-network-infrastructure",
+            "expanded": "Network Infrastruture - Emulated"
+          },
+          {
+            "value": "real-network-infrastructure",
+            "expanded": "Network Infrastruture - Real"
+          }
+        ]
+      },
+      {
+        "predicate": "deployment",
+        "entry": [
+          {
+            "value": "physical-on-premise",
+            "expanded": "On Premise - Physical"
+          },
+          {
+            "value": "virtual-on-premise",
+            "expanded": "On Premise - Virtual"
+          },
+          {
+            "value": "cloud",
+            "expanded": "Cloud"
+          }
+        ]
+      },
+      {
+        "predicate": "orchestration",
+        "entry": [
+          {
+            "value": "none-degree-automation",
+            "expanded": "None Degree Automation"
+          },
+          {
+            "value": "partially-degree-automation",
+            "expanded": "Partially Degree Automation"
+          },
+          {
+            "value": "complete-degree-automation",
+            "expanded": "Complete Degree Automation"
+          },
+          {
+            "value": "portability-miscellaneous",
+            "expanded": "Portability - Miscellaneous"
+          },
+          {
+            "value": "portability-exchangenable-format",
+            "expanded": "Portability - Exchangenable Format"
+          },
+          {
+            "value": "maintainability-modifiability",
+            "expanded": "Maintability - Modifiability"
+          },
+          {
+            "value": "maintainability-modularity",
+            "expanded": "Maintability - Modularity"
+          },
+          {
+            "value": "compatibility",
+            "expanded": "Compatibility"
+          }
+        ]
+      }
+  ]
+}

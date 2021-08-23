@@ -1,0 +1,130 @@
+{
+  "namespace": "interactive-cyber-training-training-setup",
+  "description": "",
+  "version": 1,
+  "expanded": "Interactive Cyber Training - Training Setup",
+  "predicates": [
+      {
+        "value": "scoring",
+        "expanded": "Scoring"
+      },
+      {
+        "value": "roles",
+        "expanded": "Roles"
+      },
+      {
+        "value": "training-mode",
+        "expanded": "Training Mode"
+      },
+      {
+        "value": "customization-level",
+        "expanded": "Customization Level"
+      }
+    ],
+    "values": [
+      {
+        "predicate": "scoring",
+        "entry": [
+          {
+            "value": "no-scoring",
+            "expanded": "No Scoring"
+          },
+          {
+            "value": "assessment-static",
+            "expanded": "Assessment: Static"
+          },
+          {
+            "value": "assessment-dynamic",
+            "expanded": "Assessment: Dynamic"
+          },
+          {
+            "value": "awarding-manual",
+            "expanded": "Awarding: Manual"
+          },
+          {
+            "value": "awarding-automatic",
+            "expanded": "Awarding: Automatic"
+          },
+          {
+            "value": "awarding-mixed",
+            "expanded": "Awarding: Mixed"
+          }
+        ]
+      },
+      {
+        "predicate": "roles",
+        "entry": [
+          {
+            "value": "no-specific-role",
+            "expanded": "No specific Role"
+          },
+          {
+            "value": "transparent-team-observer-watcher",
+            "expanded": "Transparent Team - Observer/Watcher"
+          },
+          {
+            "value": "white-team-trainer-instructor",
+            "expanded": "White Team - Trainer/Instructor"
+          },
+          {
+            "value": "green-team-organizer-admin",
+            "expanded": "Green Team - Organizer/Admin"
+          },
+          {
+            "value": "red-team-attacker",
+            "expanded": "Red Team - Attacker"
+          },
+          {
+            "value": "blue-team-defender",
+            "expanded": "Blue Team - Defender"
+          },
+          {
+            "value": "gray-team-bystander",
+            "expanded": "Gray Team - Bystander"
+          },
+          {
+            "value": "yellow-team-insider",
+            "expanded": "Yellow Team - Insider"
+          },
+          {
+            "value": "purple-team-bridge",
+            "expanded": "Purple Team - Bridge"
+          }
+        ]
+      },
+      {
+        "predicate": "training-mode",
+        "entry": [
+          {
+            "value": "single",
+            "expanded": "Single"
+          },
+          {
+            "value": "team",
+            "expanded": "Team"
+          },
+          {
+            "value": "cross-group",
+            "expanded": "Cross-Group"
+          }
+        ]
+      },
+      {
+        "predicate": "customization-level",
+        "entry": [
+          {
+            "value": "general",
+            "expanded": "General"
+          },
+          {
+            "value": "specific",
+            "expanded": "Specific"
+          },
+          {
+            "value": "individual",
+            "expanded": "Individual"
+          }
+        ]
+      }
+  ]
+}

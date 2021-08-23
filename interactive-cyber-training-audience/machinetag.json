@@ -1,0 +1,126 @@
+{
+  "namespace": "interactive-cyber-training-audience",
+  "description": "",
+  "version": 1,
+  "expanded": "Interactive Cyber Training - Audience",
+  "predicates": [
+    {
+      "value": "sector",
+      "expanded": "Sector"
+    },
+    {
+      "value": "purpose",
+      "expanded": "Purpose"
+    },
+    {
+      "value": "proficiency-level",
+      "expanded": "Proficiency Level"
+    },
+    {
+      "value": "target-audience",
+      "expanded": "Target Audience"
+    }
+      ],
+    "values": [
+      {
+        "predicate": "sector",
+        "entry": [
+          {
+            "value": "academic-school",
+            "expanded": "Academic - School"
+          },
+          {
+            "value": "academic-university",
+            "expanded": "Academic - University"
+          },
+          {
+            "value": "public-government",
+            "expanded": "Public - Government"
+          },
+          {
+            "value": "public-authorities",
+            "expanded": "Public - Authorities"
+          },
+          {
+            "value": "public-ngo",
+            "expanded": "Public - NGO"
+          },
+          {
+            "value": "public-military",
+            "expanded": "Public - Military"
+          },
+          {
+            "value": "private",
+            "expanded": "Private"
+          }
+        ]
+      },
+      {
+        "predicate": "purpose",
+        "entry": [
+          {
+            "value": "awareness",
+            "expanded": "Awareness"
+          },
+          {
+            "value": "skills",
+            "expanded": "Skills"
+          },
+          {
+            "value": "collaboration",
+            "expanded": "Collaboration"
+          },
+          {
+            "value": "communication",
+            "expanded": "Communication"
+          },
+          {
+            "value": "leadership",
+            "expanded": "Leadership"
+          }
+        ]
+      },
+      {
+        "predicate": "proficiency-level",
+        "entry": [
+          {
+            "value": "beginner",
+            "expanded": "Beginner"
+          },
+          {
+            "value": "professional",
+            "expanded": "Professional"
+          },
+          {
+            "value": "expert",
+            "expanded": "Expert"
+          }
+        ]
+      },
+      {
+        "predicate": "target-audience",
+        "entry": [
+          {
+            "value": "student-trainee",
+            "expanded": "Student/Trainee"
+          },
+          {
+            "value": "it-user",
+            "expanded": "IT User"
+          },
+          {
+            "value": "it-professional",
+            "expanded": "IT Professional"
+          },
+          {
+            "value": "it-specialist",
+            "expanded": "IT Specialist"
+          },
+          {
+            "value": "management",
+            "expanded": "Management"
+          }
+        ]
+      }
+  ]
+}

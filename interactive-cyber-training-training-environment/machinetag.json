@@ -1,0 +1,104 @@
+{
+  "namespace": "interactive-cyber-training-training-environment",
+  "description": "",
+  "version": 1,
+  "expanded": "Interactive Cyber Training - Training Environment",
+  "predicates": [
+    {
+      "value": "training-type",
+      "expanded": "Training Type"
+    },
+    {
+      "value": "scenario",
+      "expanded": "Scenario"
+    }
+    ],
+    "values": [
+      {
+        "predicate": "training-type",
+        "entry": [
+          {
+            "value": "tabletop-game-speech",
+            "expanded": "Tabletop Game - Speech"
+          },
+          {
+            "value": "tabletop-game-text",
+            "expanded": "Tabletop Game - text"
+          },
+          {
+            "value": "tabletop-game-multimedia",
+            "expanded": "Tabletop Game - Multimedia"
+          },
+          {
+            "value": "capture-the-flag-quiz",
+            "expanded": "Capture the Flag - Quiz"
+          },
+          {
+            "value": "capture-the-flag-jeopardy",
+            "expanded": "Capture the Flag - Jeopardy"
+          },
+          {
+            "value": "capture-the-flag-attack",
+            "expanded": "Capture the Flag - Attack"
+          },
+          {
+            "value": "capture-the-flag-defence",
+            "expanded": "Capture the Flag - Defence"
+          },
+          {
+            "value": "capture-the-flag-attack-defence",
+            "expanded": "Capture the Flag - Attack-Defence"
+          },
+          {
+            "value": "cyber-training-range-classroom-practice",
+            "expanded": "Cyber Training Range - Classroom Practice"
+          },
+          {
+            "value": "cyber-training-range-single-team-training",
+            "expanded": "Cyber Training Range - Single Team Training"
+          },
+          {
+            "value": "cyber-training-range-multiple-team-training",
+            "expanded": "Cyber Training Range - Multiple Team Training"
+          },
+          {
+            "value": "project-approach",
+            "expanded": "Project Approach"
+          }
+        ]
+      },
+      {
+        "predicate": "scenario",
+        "entry": [
+          {
+            "value": "supervised",
+            "expanded": "Supervision: Supervised"
+          },
+          {
+            "value": "unsupervised",
+            "expanded": "Supervision: Unsupervised"
+          },
+          {
+            "value": "free-multiple-choice",
+            "expanded": "Style: Free-/Multiple Choice"
+          },
+          {
+            "value": "problem-driven",
+            "expanded": "Style: Problem-Driven"
+          },
+          {
+            "value": "storyline-driven",
+            "expanded": "Style: Storyline-Driven"
+          },
+          {
+              "value": "challenges-target",
+              "expended": "Challenges: Target"
+          },
+          {
+            "value": "challenges-type",
+            "expended": "Challenges: Type"
+          }
+        ]
+      }
+  ]
+}
