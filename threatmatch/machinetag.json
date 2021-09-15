@@ -1,0 +1,514 @@
+{
+  "namespace": "threatmatch",
+  "expanded": "ThreatMatch categories for sharing into ThreatMatch and MISP",
+  "version": 3,
+  "description": "The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
+  "refs": [
+    "https://www.secalliance.com/platform/",
+    "https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.pr200227_1~062992656b.en.html"
+  ],
+  "predicates": [
+    {
+      "value": "sector",
+      "expanded": "Extensive list of sector definition tags"
+    },
+    {
+      "value": "incident-type",
+      "expanded": "Incident tags are used by the ThreatMatch platform to categorise a relevant incident event."
+    },
+    {
+      "value": "malware-type",
+      "expanded": "Malware tags are used by the ThreatMatch platform to categorise malware types."
+    },
+    {
+      "value": "alert-type",
+      "expanded": "Alert tags are used by the ThreatMatch platform to categorise a relevant threat."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "sector",
+      "entry": [
+        {
+          "value": "Banking & Capital Markets",
+          "expanded": "Banking & capital markets"
+        },
+        {
+          "value": "Financial Services",
+          "expanded": "Financial Services"
+        },
+        {
+          "value": "Insurance",
+          "expanded": "Insurance"
+        },
+        {
+          "value": "Pension",
+          "expanded": "Pension"
+        },
+        {
+          "value": "Government & Public Service",
+          "expanded": "Government & Public Service"
+        },
+        {
+          "value": "Diplomatic Services",
+          "expanded": "Diplomatic Services"
+        },
+        {
+          "value": "Energy, Utilities & Mining",
+          "expanded": "Energy, Utilities & Mining"
+        },
+        {
+          "value": "Telecommunications",
+          "expanded": "Telecommunications"
+        },
+        {
+          "value": "Technology",
+          "expanded": "Technology"
+        },
+        {
+          "value": "Academic/Research Institutes",
+          "expanded": "Academic/Research Institutes"
+        },
+        {
+          "value": "Aerospace, Defence & Security",
+          "expanded": "Aerospace, Defence & Security"
+        },
+        {
+          "value": "Agriculture",
+          "expanded": "Agriculture"
+        },
+        {
+          "value": "Asset & Wealth Management",
+          "expanded": "Asset & Wealth Management"
+        },
+        {
+          "value": "Automotive",
+          "expanded": "Automotive"
+        },
+        {
+          "value": "Business and Professional Services",
+          "expanded": "Business and Professional Services"
+        },
+        {
+          "value": "Capital Projects & Infrastructure",
+          "expanded": "Capital Projects & Infrastructure"
+        },
+        {
+          "value": "Charity/Not-for-Profit",
+          "expanded": "Charity/Not-for-Profit"
+        },
+        {
+          "value": "Chemicals",
+          "expanded": "Chemicals"
+        },
+        {
+          "value": "Commercial Aviation",
+          "expanded": "Commercial Aviation"
+        },
+        {
+          "value": "Commodities",
+          "expanded": "Commodities"
+        },
+        {
+          "value": "Education",
+          "expanded": "Education"
+        },
+        {
+          "value": "Engineering & Construction",
+          "expanded": "Engineering & Construction"
+        },
+        {
+          "value": "Entertainment & Media",
+          "expanded": "Entertainment & Media"
+        },
+        {
+          "value": "Forest, Paper & Packaging",
+          "expanded": "Forest, Paper & Packaging"
+        },
+        {
+          "value": "Healthcare",
+          "expanded": "Healthcare"
+        },
+        {
+          "value": "Hospitality & Leisure",
+          "expanded": "Hospitality & Leisure"
+        },
+        {
+          "value": "Industrial Manufacturing",
+          "expanded": "Industrial Manufacturing"
+        },
+        {
+          "value": "IT Industry",
+          "expanded": "IT Industry"
+        },
+        {
+          "value": "Legal",
+          "expanded": "Legal"
+        },
+        {
+          "value": "Metals",
+          "expanded": "Metals"
+        },
+        {
+          "value": "Pharmaceuticals & Life Sciences",
+          "expanded": "Pharmaceuticals & Life Sciences"
+        },
+        {
+          "value": "Private Equity",
+          "expanded": "Private Equity"
+        },
+        {
+          "value": "Retail & Consumer",
+          "expanded": "Retail & Consumer"
+        },
+        {
+          "value": "Semiconductors",
+          "expanded": "Semiconductors"
+        },
+        {
+          "value": "Sovereign Investment Funds",
+          "expanded": "Sovereign Investment Funds"
+        },
+        {
+          "value": "Transport & Logistics",
+          "expanded": "Transport & Logistics"
+        }
+      ]
+    },
+    {
+      "predicate": "incident-type",
+      "entry": [
+        {
+          "value": "ATM Attacks",
+          "expanded": "ATM Attacks"
+        },
+        {
+          "value": "ATM Breach",
+          "expanded": "ATM Breach"
+        },
+        {
+          "value": "Attempted Exploitation",
+          "expanded": "Attempted Exploitation"
+        },
+        {
+          "value": "Botnet Activity",
+          "expanded": "Botnet Activity"
+        },
+        {
+          "value": "Business Email Compromise",
+          "expanded": "Business Email Compromise"
+        },
+        {
+          "value": "Crypto Mining",
+          "expanded": "Crypto Mining"
+        },
+        {
+          "value": "Data Breach/Compromise",
+          "expanded": "Data Breach/Compromise"
+        },
+        {
+          "value": "Data Dump",
+          "expanded": "Data Dump"
+        },
+        {
+          "value": "Data Leakage",
+          "expanded": "Data Leakage"
+        },
+        {
+          "value": "DDoS",
+          "expanded": "DDoS"
+        },
+        {
+          "value": "Defacement Activity",
+          "expanded": "Defacement Activity"
+        },
+        {
+          "value": "Denial of Service (DoS)",
+          "expanded": "Denial of Service (DoS)"
+        },
+        {
+          "value": "Disruption Activity",
+          "expanded": "Disruption Activity"
+        },
+        {
+          "value": "Espionage",
+          "expanded": "Espionage"
+        },
+        {
+          "value": "Espionage Activity",
+          "expanded": "Espionage Activity"
+        },
+        {
+          "value": "Exec Targeting ",
+          "expanded": "Exec Targeting "
+        },
+        {
+          "value": "Exposure of Data",
+          "expanded": "Exposure of Data"
+        },
+        {
+          "value": "Extortion Activity",
+          "expanded": "Extortion Activity"
+        },
+        {
+          "value": "Fraud Activity",
+          "expanded": "Fraud Activity"
+        },
+        {
+          "value": "General Notification",
+          "expanded": "General Notification"
+        },
+        {
+          "value": "Hacktivism Activity",
+          "expanded": "Hacktivism Activity"
+        },
+        {
+          "value": "Malicious Insider",
+          "expanded": "Malicious Insider"
+        },
+        {
+          "value": "Malware Infection",
+          "expanded": "Malware Infection"
+        },
+        {
+          "value": "Man in the Middle Attacks",
+          "expanded": "Man in the Middle Attacks"
+        },
+        {
+          "value": "MFA Attack",
+          "expanded": "MFA Attack"
+        },
+        {
+          "value": "Mobile Malware",
+          "expanded": "Mobile Malware"
+        },
+        {
+          "value": "Phishing Activity",
+          "expanded": "Phishing Activity"
+        },
+        {
+          "value": "Ransomware Activity",
+          "expanded": "Ransomware Activity"
+        },
+        {
+          "value": "Social Engineering Activity",
+          "expanded": "Social Engineering Activity"
+        },
+        {
+          "value": "Social Media Compromise",
+          "expanded": "Social Media Compromise"
+        },
+        {
+          "value": "Spear-phishing Activity",
+          "expanded": "Spear-phishing Activity"
+        },
+        {
+          "value": "Spyware",
+          "expanded": "Spyware"
+        },
+        {
+          "value": "SQL Injection Activity",
+          "expanded": "SQL Injection Activity"
+        },
+        {
+          "value": "Supply Chain Compromise",
+          "expanded": "Supply Chain Compromise"
+        },
+        {
+          "value": "Trojanised Software",
+          "expanded": "Trojanised Software"
+        },
+        {
+          "value": "Vishing",
+          "expanded": "Vishing"
+        },
+        {
+          "value": "Website Attack (Other)",
+          "expanded": "Website Attack (Other)"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "malware-type",
+      "entry": [
+        {
+          "value": "Adware",
+          "expanded": "Adware"
+        },
+        {
+          "value": "Backdoor",
+          "expanded": "Backdoor"
+        },
+        {
+          "value": "Banking Trojan",
+          "expanded": "Banking Trojan"
+        },
+        {
+          "value": "Botnet",
+          "expanded": "Botnet"
+        },
+        {
+          "value": "Destructive",
+          "expanded": "Destructive"
+        },
+        {
+          "value": "Downloader",
+          "expanded": "Downloader"
+        },
+        {
+          "value": "Exploit Kit",
+          "expanded": "Exploit Kit"
+        },
+        {
+          "value": "Fileless Malware",
+          "expanded": "Fileless Malware"
+        },
+        {
+          "value": "Keylogger",
+          "expanded": "Keylogger"
+        },
+        {
+          "value": "Legitimate Tool",
+          "expanded": "Legitimate Tool"
+        },
+        {
+          "value": "Mobile Application",
+          "expanded": "Mobile Application"
+        },
+        {
+          "value": "Mobile Malware",
+          "expanded": "Mobile Malware"
+        },
+        {
+          "value": "Point-of-Sale (PoS)",
+          "expanded": "Point-of-Sale (PoS)"
+        },
+        {
+          "value": "Remote Access Trojan",
+          "expanded": "Remote Access Trojan"
+        },
+        {
+          "value": "Rootkit",
+          "expanded": "Rootkit"
+        },
+        {
+          "value": "Skimmer",
+          "expanded": "Skimmer"
+        },
+        {
+          "value": "Spyware",
+          "expanded": "Spyware"
+        },
+        {
+          "value": "Surveillance Tool",
+          "expanded": "Surveillance Tool"
+        },
+        {
+          "value": "Trojan",
+          "expanded": "Trojan"
+        },
+        {
+          "value": "Virus",
+          "expanded": "Virus "
+        },
+        {
+          "value": "Worm",
+          "expanded": "Worm"
+        },
+        {
+          "value": "Zero-day",
+          "expanded": "Zero-day"
+        },
+        {
+          "value": "Unknown",
+          "expanded": "Unknown"
+        }
+      ]
+    },
+    {
+      "predicate": "alert-type",
+      "entry": [
+        {
+          "value": "Actor Campaigns",
+          "expanded": "Actor Campaigns"
+        },
+        {
+          "value": "Credential Breaches",
+          "expanded": "Credential Breaches"
+        },
+        {
+          "value": "DDoS",
+          "expanded": "DDoS"
+        },
+        {
+          "value": "Exploit Alert",
+          "expanded": "Exploit Alert"
+        },
+        {
+          "value": "General Notification",
+          "expanded": "General Notification"
+        },
+        {
+          "value": "High Impact Vulnerabilities",
+          "expanded": "High Impact Vulnerabilities"
+        },
+        {
+          "value": "Information Leakages",
+          "expanded": "Information Leakages"
+        },
+        {
+          "value": "Malware Analysis",
+          "expanded": "Malware Analysis"
+        },
+        {
+          "value": "Nefarious Domains",
+          "expanded": "Nefarious Domains"
+        },
+        {
+          "value": "Nefarious Forum Mention",
+          "expanded": "Nefarious Forum Mention"
+        },
+        {
+          "value": "Pastebin Dumps",
+          "expanded": "Pastebin Dumps"
+        },
+        {
+          "value": "Phishing Attempts",
+          "expanded": "Phishing Attempts"
+        },
+        {
+          "value": "PII Exposure",
+          "expanded": "PII Exposure"
+        },
+        {
+          "value": "Sensitive Information Disclosures",
+          "expanded": "Sensitive Information Disclosures"
+        },
+        {
+          "value": "Social Media Alerts",
+          "expanded": "Social Media Alerts"
+        },
+        {
+          "value": "Supply Chain Event",
+          "expanded": "Supply Chain Event"
+        },
+        {
+          "value": "Technical Exposure",
+          "expanded": "Technical Exposure"
+        },
+        {
+          "value": "Threat Actor Updates",
+          "expanded": "Threat Actor Updates"
+        },
+        {
+          "value": "Trigger Events",
+          "expanded": "Trigger Events"
+        }
+      ]
+    }
+  ]
+}

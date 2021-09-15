@@ -1,0 +1,26 @@
+{
+  "namespace": "ioc",
+  "description": "An IOC classification to facilitate automation of malicious and non malicious artifacts",
+  "version": 2,
+  "predicates": [
+    {
+      "value": "artifact-state",
+      "expanded": "Artifact State"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "artifact-state",
+      "entry": [
+        {
+          "value": "malicious",
+          "expanded": "Malicious"
+        },
+        {
+          "value": "not-malicious",
+          "expanded": "Not Malicious"
+        }
+      ]
+    }
+  ]
+}

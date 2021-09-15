@@ -1,0 +1,91 @@
+{
+  "description": "VMRay taxonomies to map VMRay Thread Identifier scores and artifacts.",
+  "namespace": "vmray",
+  "predicates": [
+    {
+      "expanded": "VMRay Verdict",
+      "value": "verdict"
+    },
+    {
+      "expanded": "VMRay Threat Identifier Analysis Score",
+      "value": "vti_analysis_score"
+    },
+    {
+      "expanded": "VMRay Artifact",
+      "value": "artifact"
+    }
+  ],
+  "values": [
+    {
+      "entry": [
+        {
+          "colour": "#B22F45",
+          "expanded": "Malicious",
+          "value": "malicious"
+        },
+        {
+          "colour": "#EDBB7E",
+          "expanded": "Suspicious",
+          "value": "suspicious"
+        },
+        {
+          "colour": "#3A9A81",
+          "expanded": "Clean",
+          "value": "clean"
+        },
+        {
+          "colour": "#969696",
+          "expanded": "N/A",
+          "value": "n/a"
+        }
+      ],
+      "predicate": "verdict"
+    },
+    {
+      "entry": [
+        {
+          "colour": "#3A9A81",
+          "expanded": "-1/5",
+          "value": "-1/5"
+        },
+        {
+          "colour": "#969696",
+          "expanded": "1/5",
+          "value": "1/5"
+        },
+        {
+          "colour": "#F9DA51",
+          "expanded": "2/5",
+          "value": "2/5"
+        },
+        {
+          "colour": "#EDBB7E",
+          "expanded": "3/5",
+          "value": "3/5"
+        },
+        {
+          "colour": "#E25959",
+          "expanded": "4/5",
+          "value": "4/5"
+        },
+        {
+          "colour": "#B22F45",
+          "expanded": "5/5",
+          "value": "5/5"
+        }
+      ],
+      "predicate": "vti_analysis_score"
+    },
+    {
+      "entry": [
+        {
+          "colour": "#1E516E",
+          "expanded": "is IOC",
+          "value": "ioc"
+        }
+      ],
+      "predicate": "artifact"
+    }
+  ],
+  "version": 1
+}

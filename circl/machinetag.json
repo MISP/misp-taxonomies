@@ -1,7 +1,7 @@
 {
   "namespace": "circl",
   "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
-  "version": 4,
+  "version": 5,
   "predicates": [
     {
       "value": "incident-classification",
@@ -25,6 +25,14 @@
           "expanded": "System compromise"
         },
         {
+          "value": "sabotage",
+          "expanded": "Sabotage"
+        },
+        {
+          "value": "privacy-violation",
+          "expanded": "Privacy violation"
+        },
+        {
           "value": "scan",
           "expanded": "Scan"
         },
@@ -41,6 +49,14 @@
           "expanded": "Phishing"
         },
         {
+          "value": "whaling",
+          "expanded": "Whaling"
+        },
+        {
+          "value": "smishing",
+          "expanded": "SMS Phishing"
+        },
+        {
           "value": "malware",
           "expanded": "Malware"
         },
@@ -55,6 +71,10 @@
         {
           "value": "fastflux",
           "expanded": "Fastflux"
+        },
+        {
+          "value": "domain-fronting",
+          "expanded": "Domain Fronting"
         },
         {
           "value": "sql-injection",
@@ -85,8 +105,20 @@
           "expanded": "Wiper"
         },
         {
+          "value": "ransomware",
+          "expanded": "ransomware"
+        },
+        {
           "value": "sextortion",
           "expanded": "sextortion"
+        },
+        {
+          "value": "social-engineering",
+          "expanded": "Social Engineering"
+        },
+        {
+          "value": "gdpr-violation",
+          "expanded": "GDPR Violation"
         },
         {
           "value": "covid-19",

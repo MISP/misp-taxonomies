@@ -1,7 +1,7 @@
 {
   "namespace": "phishing",
   "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.",
-  "version": 4,
+  "version": 5,
   "predicates": [
     {
       "value": "techniques",
@@ -79,6 +79,11 @@
           "value": "sms-phishing",
           "expanded": "SMS phishing",
           "description": "Adversary sends an SMS to a potential victims to gather sensitive information or use another phishing technique at a later stage."
+        },
+        {
+          "value": "business email compromise",
+          "expanded": "Business Email Compromise",
+          "description": "Adversary sends an email containing a malicious artefact from a legitimate business email address which has connections to you as an individual or your organisation."
         }
       ]
     },

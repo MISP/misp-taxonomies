@@ -2,7 +2,7 @@ import json
 import requests
 
 debug = False
-galaxy_url = 'https://raw.githubusercontent.com/MISP/misp-galaxy/master/clusters/'
+galaxy_url = 'https://raw.githubusercontent.com/MISP/misp-galaxy/main/clusters/'
 elements = ['tools.json', 'threat-actors.json']
 # elements = ['threat-actor-tools.json']
 

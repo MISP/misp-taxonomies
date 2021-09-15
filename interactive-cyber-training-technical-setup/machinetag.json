@@ -1,0 +1,131 @@
+{
+  "namespace": "interactive-cyber-training-technical-setup",
+  "description": "The technical setup consists of environment structure, deployment, and orchestration.",
+  "version": 1,
+  "refs": ["https://arxiv.org/abs/2101.05538"],
+  "expanded": "Interactive Cyber Training - Technical Setup",
+  "predicates": [
+      {
+        "value": "environment-structure",
+        "expanded": "Environment Structure",
+        "description": "The environment structure refers to the basic characteristic of the event."
+      },
+      {
+        "value": "deployment",
+        "expanded": "Deployment",
+        "description": "The environment of cyber training can either be deployed on premise or on cloud infrastructures"
+      },
+      {
+        "value": "orchestration",
+        "expanded": "Orchestration",
+        "description": "The composition of parts and components of a pool of tasks. The goal is to setup a holistic scenario and integrate cyber training session. Furthermore, it includes a declarative description of the overall process in the form of a composite and harmonic collaboration."
+      }
+    ],
+    "values": [
+      {
+        "predicate": "environment-structure",
+        "entry": [
+          {
+            "value": "tabletop-style",
+            "expanded": "Tabletop Style",
+            "description": "A session that involves the movement of counters or other objects round a board or on a flat surface"
+          },
+          {
+            "value": "online-collaboration-platform",
+            "expanded": "Online Platform - Collaboration Platform",
+            "description": "The environment allows organizations to incorporate real-time communication capabilities and providing remote access to other systems. This includes the exchange of files and messages in text, audio, and video formats between different computers or users."
+          },
+          {
+            "value": "online-e-learning-platform",
+            "expanded": "Online Platform - E-Learning Platform",
+            "description": "A software application for the administration, documentation, tracking, reporting, and delivery of educational courses, training programs, or learning and development programs."
+          },
+          {
+            "value": "hosting",
+            "expanded": "Hosting",
+            "description": "A cyber training based on single hosts uses primarily a personal computer to providing tasks and challenges for a user. It allows a direct interaction with the systems."
+          },
+          {
+            "value": "simulated-network-infrastructure",
+            "expanded": "Network Infrastruture - Simulated",
+            "description": "Dependent of the realization type, a network-based environment consists of servers and clients, which are connected to each other in a local area network (LAN) or wide area network (WAN). A simulation copies the network components from the real world into a virtual environment. It provides an idea about how something works. It simulates the basic behavior but does not necessarily abide to all the rules of the real systems."
+          },
+          {
+            "value": "emulated-network-infrastructure",
+            "expanded": "Network Infrastruture - Emulated",
+            "description": "Dependent of the realization type, a network-based environment consists of servers and clients, which are connected to each other in a local area network (LAN) or wide area network (WAN). An emulator duplicates things exactly as they exist in real life. The emulation is effectively a complete imitation of the real thing. It operates in a virtual environment instead of the real world."
+          },
+          {
+            "value": "real-network-infrastructure",
+            "expanded": "Network Infrastruture - Real",
+            "description": "Dependent of the realization type, a network-based environment consists of servers and clients, which are connected to each other in a local area network (LAN) or wide area network (WAN). In a real network infrastructure, physical components are used to connect the systems and to setup a scenario."
+          }
+        ]
+      },
+      {
+        "predicate": "deployment",
+        "entry": [
+          {
+            "value": "physical-on-premise",
+            "expanded": "On Premise - Physical",
+            "description": "The environment for the training run on physical machines. The data is stored locally and not on cloud; nor is a third party involved. The advantages of on premise solutions are the physical accessibility, which makes it possible to use the complete range of cyber challenges."
+          },
+          {
+            "value": "virtual-on-premise",
+            "expanded": "On Premise - Virtual",
+            "description": "The environment for the training run virtual machines. The data is stored locally and not on cloud; nor is a third party involved. The benefit of virtual machines is the maximum of configurability. The advantages of on premise solutions are the physical accessibility, which makes it possible to use the complete range of cyber challenges."
+          },
+          {
+            "value": "cloud",
+            "expanded": "Cloud",
+            "description": "Training setup deployed in the cloud has on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. In contrast to on premise setups, cloud solutions are rapid elastic on request. So the training can be adapted flexible on a large amount of users and is easily usable world wide."
+          }
+        ]
+      },
+      {
+        "predicate": "orchestration",
+        "entry": [
+          {
+            "value": "none-automation",
+            "expanded": "None Automation",
+            "description": "Specifies the automation of processes and the amount of human interaction with the system to maintain and administrate, especially for repetitive exercise; Here none automation is present."
+          },
+          {
+            "value": "partially-automation",
+            "expanded": "Partially Automation",
+            "description": "Specifies the automation of processes and the amount of human interaction with the system to maintain and administrate, especially for repetitive exercise; Here partially automated."
+          },
+          {
+            "value": "complete-automation",
+            "expanded": "Complete Automation",
+            "description": "Specifies the automation of processes and the amount of human interaction with the system to maintain and administrate, especially for repetitive exercise; Here full-automated."
+          },
+          {
+            "value": "portability-miscellaneous",
+            "expanded": "Portability - Miscellaneous",
+            "description": "Miscellaneous approaches are used to ensure the possibility to exchange data, challenges, or entire scenarios to other environments or locations."
+          },
+          {
+            "value": "portability-exchangenable-format",
+            "expanded": "Portability - Exchangenable Format",
+            "description": "Common data format (YALM, XML, JSON, ...) is used to ensure the possibility to exchange data, challenges, or entire scenarios to other environments or locations."
+          },
+          {
+            "value": "maintainability-modifiability",
+            "expanded": "Maintability - Modifiability",
+            "description": "Maintainability represents effectiveness and efficiency with which a session can be modified or adapted to changes."
+          },
+          {
+            "value": "maintainability-modularity",
+            "expanded": "Maintability - Modularity",
+            "description": "A modular concept has advantages in reusability and combinability."
+          },
+          {
+            "value": "compatibility",
+            "expanded": "Compatibility",
+            "description": "The Compatibility deals with the technical interaction possibilities via interfaces to other applications, data, and protocols."
+          }
+        ]
+      }
+  ]
+}

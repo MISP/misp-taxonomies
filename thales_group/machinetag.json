@@ -1,0 +1,119 @@
+{
+  "predicates": [
+    {
+      "value": "distribution",
+      "exclusive": true
+    },
+    {
+      "colour": "#750806",
+      "description": "This TAG will insure you that these Event Attributes will be blocked on the Thales DIS Proxy (More to come). Distribution: All communities",
+      "expanded": "Use it when you want to block Event Attributes on the Thales DIS Proxy (More to come). Distribution: All communities",
+      "value": "to_block",
+      "numerical_value": 4
+    },
+    {
+      "colour": "#0A1EF7",
+      "description": "This TAG will insure you to share ONLY to the Thales Group MinArm alliance. Distribution: All communities",
+      "expanded": "Use it when you want to share to the Thales Group MinArm alliance ONLY. Distribution: All communities",
+      "value": "minarm",
+      "numerical_value": 5
+    },
+    {
+      "colour": "#A107E3",
+      "description": "This TAG will insure you to share ONLY to the Thales Group ACN alliance. Distribution: All communities",
+      "expanded": "Use it when you want to share to the Thales Group ACN alliance ONLY. Distribution: All communities",
+      "value": "acn",
+      "numerical_value": 6
+    },
+    {
+      "colour": "#FF6F00",
+      "description": "This TAG will insure you to share ONLY to the Thales Group Sigpart alliance. Distribution: All communities",
+      "expanded": "Use it when you want to share to the Thales Group Sigpart alliance ONLY. Distribution: All communities",
+      "value": "sigpart",
+      "numerical_value": 7
+    },
+    {
+      "colour": "#75646A",
+      "description": "Distribution: All communities",
+      "expanded": "Use it when you want to assign a trust category to an Attribute or Globally to an Event. Distribution: All communities",
+      "value": "ioc_confidence",
+      "exclusive": true
+    },
+    {
+      "colour": "#000000",
+      "description": "Distribution: Restricted Sharing Group",
+      "expanded": "(TLP:BLACK) Information cannot be effectively acted outside of strict and reduced circle of a trust. Distribution: Restricted Sharing Group",
+      "value": "tlp:black",
+      "numerical_value": 11
+    },
+    {
+      "colour": "#375a7f",
+      "description": "Distribution: All communities",
+      "expanded": "Use it when this came from Watcher Platform. Distribution: All communities",
+      "value": "Watcher",
+      "numerical_value": 12
+    }
+  ],
+  "values": [
+    {
+      "predicate": "distribution",
+      "entry": [
+        {
+          "colour": "#CC0033",
+          "description": "This TAG will insure you that this Event will be kept on your side. This Event will NOT be shared to the Thales Group community. Distribution: Your organisation only",
+          "expanded": "Use it when you want to keep the Event on your Organization ONLY. Distribution: Your organisation only",
+          "value": "team_eyes_only",
+          "numerical_value": 0
+        },
+        {
+          "colour": "#FFC000",
+          "description": "This TAG will insure you to share ONLY to the Thales Group Community. Distribution: All communities",
+          "expanded": "Use it when you want to share to the Thales Group Community ONLY. Distribution: All communities",
+          "value": "limited_distribution",
+          "numerical_value": 1
+        },
+        {
+          "colour": "#339900",
+          "description": "This TAG will insure you to share to the Thales Group External Alliances. Distribution: All communities",
+          "expanded": "Use it when you want to share to the Thales Group External Alliances (MinArm, ACN, InterCERT-FR). Distribution: All communities",
+          "value": "external_alliances",
+          "numerical_value": 2
+        },
+        {
+          "colour": "#ffffff",
+          "description": "This TAG will insure you to share to the Thales Group Customers. Distribution: All communities",
+          "expanded": "Use it when you want to share to the Thales Group Customers. Distribution: All communities",
+          "value": "customers",
+          "numerical_value": 3
+        }
+      ]
+    },
+    {
+      "predicate": "ioc_confidence",
+      "entry": [
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 8
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "numerical_value": 9
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 10
+        }
+      ]
+    }
+  ],
+  "refs": [
+    "https://www.thalesgroup.com/en/cert"
+  ],
+  "version": 2,
+  "description": "Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.",
+  "expanded": "Thales Group Taxonomy",
+  "namespace": "thales_group"
+}

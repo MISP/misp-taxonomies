@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2020-01-09
+- Generation date: 2021-04-13
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -21,6 +21,27 @@
     - conformity
     - other
     - test
+### DFRLab-dichotomies-of-disinformation
+- description: DFRLab Dichotomies of Disinformation.
+- version: 1
+- Predicates
+    - primary-target
+    - platforms-advertisement
+    - platforms-email
+    - primary-disinformant
+    - target-category
+    - target-concurrent-events
+    - platforms-open-web
+    - platforms-social-media
+    - platforms-messaging
+    - platforms
+    - content-language
+    - content-topic
+    - methods-tactics
+    - methods-narrative-techniques
+    - disinformant-category
+    - disinformant-concurrent-events
+    - disinformant-intent
 ### DML
 - description: The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program.
 - version: 1
@@ -98,7 +119,7 @@
     - information-credibility
 ### adversary
 - description: An overview and description of the adversary infrastructure
-- version: 4
+- version: 6
 - Predicates
     - infrastructure-status
     - infrastructure-action
@@ -159,7 +180,7 @@
     - threat-vector
 ### circl
 - description: CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection
-- version: 3
+- version: 5
 - Predicates
     - incident-classification
     - topic
@@ -259,6 +280,22 @@
     - report
     - origin
     - analyse
+### cti
+- description: Cyber Threat Intelligence cycle to control workflow state of your process.
+- version: 1
+- Predicates
+    - planning
+    - collection
+    - processing-and-analysis
+    - dissemination-done
+    - feedback-received
+    - feedback-pending
+### current-event
+- description: Current events - Schemes of Classification in Incident Response and Detection
+- version: 1
+- Predicates
+    - pandemic
+    - election
 ### cyber-threat-framework
 - description: Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries. https://www.dni.gov/index.php/cyber-threat-framework
 - version: 2
@@ -267,6 +304,17 @@
     - Engagement
     - Presence
     - Effect/Consequence
+### cycat
+- description: Taxonomy used by CyCAT, the Universal Cybersecurity Resource Catalogue, to categorize the namespaces it supports and uses.
+- version: 1
+- Predicates
+    - type
+    - scope
+### cytomic-orion
+- description: Taxonomy to describe desired actions for Cytomic Orion
+- version: 1
+- Predicates
+    - action
 ### dark-web
 - description: Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project
 - version: 3
@@ -406,7 +454,7 @@
     - info-services
     - public-admin
 ### eu-nis-sector-and-subsectors
-- description: Sectors and sub sectors as identified by the NIS Directive
+- description: Sectors, subsectors, and digital services as identified by the NIS Directive
 - version: 1
 - Predicates
     - eu-nis-oes
@@ -501,7 +549,7 @@
     - event-class
 ### exercise
 - description: Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.
-- version: 7
+- version: 8
 - Predicates
     - cyber-europe
     - cyber-storm
@@ -510,12 +558,22 @@
     - cyber-coalition
     - pace
     - cyber-sopex
+    - generic
+### extended-event
+- description: Reasons why an event has been extended. 
+- version: 1
+- Predicates
+    - competitive-analysis
+    - extended-analysis
+    - human-readable
+    - chunked-event
+    - update
 ### failure-mode-in-machine-learning
 - description: The purpose of this taxonomy is to jointly tabulate both the of these failure modes in a single place. Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm. Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.
 - version: 1
 - Predicates
-    - unintended-failures-summary
     - intentionally-motivated-failures-summary
+    - unintended-failures-summary
 ### false-positive
 - description: This taxonomy aims to ballpark the expected amount of false positives.
 - version: 5
@@ -789,6 +847,11 @@
     - dns
     - host-file
     - other
+### ioc
+- description: An IOC classification to facilitate automation of malicious and non malicious artifacts
+- version: 2
+- Predicates
+    - artifact-state
 ### iot
 - description: Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf
 - version: 2
@@ -835,9 +898,26 @@
     - obfuscation-technique
     - payload-classification
     - memory-classification
+### misinformation-website-label
+- description: classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical News Sources by Melissa Zimdars 2019
+- version: 1
+- Predicates
+    - fake-news
+    - satire
+    - extreme-bias
+    - conspiracy
+    - rumor
+    - state-news
+    - junk-sciences
+    - hate-news
+    - clickbait
+    - proceed-with-caution
+    - political
+    - credible
+    - unknown
 ### misp
 - description: MISP taxonomy to infer with MISP behavior or operation.
-- version: 11
+- version: 12
 - Predicates
     - ui
     - api
@@ -850,6 +930,7 @@
     - tool
     - misp2yara
     - ids
+    - event-type
 ### monarc-threat
 - description: MONARC Threats Taxonomy
 - version: 1
@@ -907,6 +988,11 @@
     - source-type
     - lifetime
     - certainty
+### pandemic
+- description: Pandemic
+- version: 4
+- Predicates
+    - covid-19
 ### passivetotal
 - description: Tags from RiskIQ's PassiveTotal service
 - version: 2
@@ -952,12 +1038,16 @@
     - baseline-negligible
 ### ransomware
 - description: Ransomware is used to define ransomware types and the elements that compose them.
-- version: 4
+- version: 6
 - Predicates
     - type
     - element
     - complexity-level
     - purpose
+    - target
+    - infection
+    - communication
+    - malicious-action
 ### retention
 - description: Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.
 - version: 3
@@ -975,7 +1065,7 @@
     - 10y
 ### rsit
 - description: Reference Security Incident Classification Taxonomy
-- version: 3
+- version: 1002
 - Predicates
     - abusive-content
     - malicious-code
@@ -1069,6 +1159,14 @@
 - Predicates
     - targeting-sophistication-base-value
     - technical-sophistication-multiplier
+### ThreatMatch
+- description: The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.
+- version: 1
+- Predicates
+    - sector
+    - incident-type
+    - malware-type
+    - alert-type
 ### threats-to-dns
 - description: An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1–1. doi:10.1109/comst.2018.2849614
 - version: 1
@@ -1090,6 +1188,13 @@
 - version: 1
 - Predicates
     - tor-relay-type
+### trust
+- description: The Indicator of Trust provides insight about data on what can be trusted and known as a good actor. Similar to a whitelist but on steroids, reusing features one would use with Indicators of Compromise, but to filter out what is known to be good.
+- version: 1
+- Predicates
+    - trust
+    - frequency
+    - valid
 ### type
 - description: Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence.
 - version: 1
@@ -1180,6 +1285,13 @@
     - victim:revenue:iso_currency_code
     - attribute:availability:duration:unit
     - attribute:confidentiality:data:variety
+### vmray
+- description: VMRay taxonomies to map VMRay Thread Identifier scores and artifacts.
+- version: 1
+- Predicates
+    - artifact
+    - verdict
+    - vti_analysis_score
 ### vocabulaire-des-probabilites-estimatives
 - description: Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité
 - version: 3

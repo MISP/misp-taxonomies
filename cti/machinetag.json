@@ -1,0 +1,37 @@
+{
+  "namespace": "cti",
+  "description": "Cyber Threat Intelligence cycle to control workflow state of your process.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "planning",
+      "description": "CTI requirementes being generated.",
+      "expanded": "Phase"
+    },
+    {
+      "value": "collection",
+      "description": "Data collection initiated.",
+      "expanded": "Phase"
+    },
+    {
+      "value": "processing-and-analysis",
+      "description": "Data is being processed and analyzed",
+      "expanded": "Phase"
+    },
+    {
+      "value": "dissemination-done",
+      "description": "CTI product created and delivered to stakeholders.",
+      "expanded": "Phase"
+    },
+    {
+      "value": "feedback-received",
+      "description": "Feedback received by stakeholders.",
+      "expanded": "Phase"
+    },
+    {
+      "value": "feedback-pending",
+      "description": "Feedback pending by stakeholders.",
+      "expanded": "Phase"
+    }
+  ]
+}

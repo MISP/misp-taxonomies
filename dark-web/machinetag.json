@@ -2,7 +2,7 @@
   "namespace": "dark-web",
   "expanded": "Dark Web",
   "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project",
-  "version": 3,
+  "version": 4,
   "predicates": [
     {
       "value": "topic",
@@ -198,6 +198,11 @@
           "value": "whistleblower",
           "expanded": "Whistleblower",
           "description": "Exposition and sharing of confidential information with protection of the witness in mind"
+        },
+        {
+          "value": "ransomware-group",
+          "expanded": "Ransomware Group",
+          "description": "Ransomware group PR or leak website"
         }
       ]
     },

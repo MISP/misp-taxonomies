@@ -46,7 +46,7 @@
     {
       "description": "An overview and description of the adversary infrastructure",
       "name": "adversary",
-      "version": 4
+      "version": 6
     },
     {
       "description": "The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)",
@@ -76,7 +76,7 @@
     {
       "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
       "name": "circl",
-      "version": 4
+      "version": 5
     },
     {
       "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",
@@ -101,7 +101,7 @@
     {
       "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
       "name": "course-of-action",
-      "version": 1
+      "version": 2
     },
     {
       "description": "Threats targetting cryptocurrency, based on CipherTrace report.",
@@ -124,6 +124,11 @@
       "version": 8
     },
     {
+      "description": "Cyber Threat Intelligence cycle to control workflow state of your process.",
+      "name": "cti",
+      "version": 1
+    },
+    {
       "description": "Current events - Schemes of Classification in Incident Response and Detection",
       "name": "current-event",
       "version": 1
@@ -132,6 +137,11 @@
       "description": "Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries. https://www.dni.gov/index.php/cyber-threat-framework",
       "name": "cyber-threat-framework",
       "version": 2
+    },
+    {
+      "description": "Taxonomy used by CyCAT, the Universal Cybersecurity Resource Catalogue, to categorize the namespaces it supports and uses.",
+      "name": "cycat",
+      "version": 1
     },
     {
       "description": "Taxonomy to describe desired actions for Cytomic Orion",
@@ -179,9 +189,9 @@
       "version": 3
     },
     {
-      "description": "Domain Name Abuse - taxonomy to tag domain names used for cybercrime. Use europol-incident to tag abuse-activity",
+      "description": "Domain Name Abuse - taxonomy to tag domain names used for cybercrime.",
       "name": "domain-abuse",
-      "version": 1
+      "version": 2
     },
     {
       "description": "A taxonomy based on the superclass and class of drugs. Based on https://www.drugbank.ca/releases/latest",
@@ -214,7 +224,7 @@
       "version": 1
     },
     {
-      "description": "Sectors and sub sectors as identified by the NIS Directive",
+      "description": "Sectors, subsectors, and digital services as identified by the NIS Directive",
       "name": "eu-nis-sector-and-subsectors",
       "version": 1
     },
@@ -374,6 +384,11 @@
       "version": 1
     },
     {
+      "description": "An IOC classification to facilitate automation of malicious and non malicious artifacts",
+      "name": "ioc",
+      "version": 2
+    },
+    {
       "description": "Internet of Things taxonomy, based on IOT UK report https://iotuk.org.uk/wp-content/uploads/2017/01/IOT-Taxonomy-Report.pdf",
       "name": "iot",
       "version": 2
@@ -409,14 +424,14 @@
       "version": 2
     },
     {
-      "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical 'News' Sources by Melissa Zimdars 2019",
+      "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical News Sources by Melissa Zimdars 2019",
       "name": "misinformation-website-label",
-      "version": "1"
+      "version": 1
     },
     {
       "description": "MISP taxonomy to infer with MISP behavior or operation.",
       "name": "misp",
-      "version": 11
+      "version": 12
     },
     {
       "description": "MONARC Threats Taxonomy",
@@ -486,7 +501,7 @@
     {
       "description": "Ransomware is used to define ransomware types and the elements that compose them.",
       "name": "ransomware",
-      "version": 4
+      "version": 6
     },
     {
       "description": "Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.",
@@ -496,7 +511,7 @@
     {
       "description": "Reference Security Incident Classification Taxonomy",
       "name": "rsit",
-      "version": 3
+      "version": 1002
     },
     {
       "description": "Status of events used in Request Tracker.",
@@ -544,6 +559,16 @@
       "version": 3
     },
     {
+      "description": "Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.",
+      "name": "thales_group",
+      "version": 2
+    },
+    {
+      "description": "The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
+      "name": "threatmatch",
+      "version": 3
+    },
+    {
       "description": "An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1–1. doi:10.1109/comst.2018.2849614",
       "name": "threats-to-dns",
       "version": 1
@@ -579,6 +604,11 @@
       "version": 2
     },
     {
+      "description": "VMRay taxonomies to map VMRay Thread Identifier scores and artifacts.",
+      "name": "vmray",
+      "version": 1
+    },
+    {
       "description": "Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité",
       "name": "vocabulaire-des-probabilites-estimatives",
       "version": 3
@@ -589,6 +619,6 @@
       "version": 10
     }
   ],
-  "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/master/",
-  "version": "20200612"
+  "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
+  "version": "20210621"
 }

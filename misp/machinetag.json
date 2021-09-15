@@ -66,7 +66,7 @@
         },
         {
           "expanded": "Confidence cannot be evaluated",
-          "value": "confidence-cannot-be-evalued",
+          "value": "confidence-cannot-be-evaluated",
           "numerical_value": 50
         }
       ]
@@ -155,6 +155,35 @@
       ]
     },
     {
+      "predicate": "event-type",
+      "entry": [
+        {
+          "expanded": "observation",
+          "value": "observation"
+        },
+        {
+          "expanded": "incident",
+          "value": "incident"
+        },
+        {
+          "expanded": "report",
+          "value": "report"
+        },
+        {
+          "expanded": "collection",
+          "value": "collection"
+        },
+        {
+          "expanded": "analysis",
+          "value": "analysis"
+        },
+        {
+          "expanded": "automatic-analysis",
+          "value": "automatic-analysis"
+        }
+      ]
+    },
+    {
       "predicate": "ids",
       "entry": [
         {
@@ -224,11 +253,15 @@
       "exclusive": true
     },
     {
+      "expanded": "Type of the event.",
+      "value": "event-type"
+    },
+    {
       "expanded": "IDS related tag unfluencing the MISP behavior of the IDS flag.",
       "value": "ids"
     }
   ],
-  "version": 11,
+  "version": 12,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
   "namespace": "misp"
