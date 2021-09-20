@@ -1,0 +1,193 @@
+{
+  "namespace": "interactive-cyber-training-training-environment",
+  "description": "The training environment details the environment around the training, consisting of training type and scenario.",
+  "version": 1,
+  "refs": [
+    "https://arxiv.org/abs/2101.05538"
+  ],
+  "expanded": "Interactive Cyber Training - Training Environment",
+  "predicates": [
+    {
+      "value": "training-type",
+      "expanded": "Training Type",
+      "description": "Education in cybersecurity follows different approaches. The level of interaction and hands-on experience distinguishes different types of training."
+    },
+    {
+      "value": "scenario",
+      "expanded": "Scenario",
+      "description": "The scenario is a main component of cybersecurity training. Scenarios are needed to reach the goal of the training."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "training-type",
+      "entry": [
+        {
+          "value": "tabletop-game-speech",
+          "expanded": "Tabletop Game - Speech",
+          "description": "Table Top training -here based on speech-only- are a lightweight, but intellectually intense exercise. In this setting, the involved teams or participants focus on opposing missions. On a theoretical basis, the teams develop different strategies and countermeasures to explore the offensive cyber effects on operations."
+        },
+        {
+          "value": "tabletop-game-text",
+          "expanded": "Tabletop Game - text",
+          "description": "Table Top training -here based on text-only- are a lightweight, but intellectually intense exercise. In this setting, the involved teams or participants focus on opposing missions. On a theoretical basis, the teams develop different strategies and countermeasures to explore the offensive cyber effects on operations."
+        },
+        {
+          "value": "tabletop-game-multimedia",
+          "expanded": "Tabletop Game - Multimedia",
+          "description": "Table Top training -here based on multimedia- are a lightweight, but intellectually intense exercise. In this setting, the involved teams or participants focus on opposing missions. On a theoretical basis, the teams develop different strategies and countermeasures to explore the offensive cyber effects on operations."
+        },
+        {
+          "value": "capture-the-flag-quiz",
+          "expanded": "Capture the Flag - Quiz",
+          "description": "Capture the Flag (CTF) is a well-known cybersecurity contest in which participants compete in real-time, which can exists as a quiz."
+        },
+        {
+          "value": "capture-the-flag-jeopardy",
+          "expanded": "Capture the Flag - Jeopardy",
+          "description": "Capture the Flag (CTF) is a well-known cybersecurity contest in which participants compete in real-time, which can exists as jeopardy."
+        },
+        {
+          "value": "capture-the-flag-attack",
+          "expanded": "Capture the Flag - Attack",
+          "description": "Capture the Flag (CTF) is a well-known cybersecurity contest in which participants compete in real-time, which can exists as an attack-only scenario."
+        },
+        {
+          "value": "capture-the-flag-defence",
+          "expanded": "Capture the Flag - Defence",
+          "description": "Capture the Flag (CTF) is a well-known cybersecurity contest in which participants compete in real-time, which can exists as an defence-only scenario."
+        },
+        {
+          "value": "capture-the-flag-attack-defence",
+          "expanded": "Capture the Flag - Attack-Defence",
+          "description": "Capture the Flag (CTF) is a well-known cybersecurity contest in which participants compete in real-time, which can exists as an attack-defence scenario."
+        },
+        {
+          "value": "cyber-training-range-classroom-practice",
+          "expanded": "Cyber Training Range - Classroom Practice",
+          "description": "A cyber range provides an environment to practice network operation skills. It should represent real-world scenarios and offer isolation from other networks to contain malicious activity. In this training type, complex attacks take place in a simulated environment. The participants perform divers educational hands-on activities according to their role. In these trainings the roles that are not covered by participants are simulated or covered by the instructors. Trainings can be classroom practice."
+        },
+        {
+          "value": "cyber-training-range-single-team-training",
+          "expanded": "Cyber Training Range - Single Team Training",
+          "description": "A cyber range provides an environment to practice network operation skills. It should represent real-world scenarios and offer isolation from other networks to contain malicious activity. In this training type, complex attacks take place in a simulated environment. The participants perform divers educational hands-on activities according to their role. In these trainings the roles that are not covered by participants are simulated or covered by the instructors. Trainings can be single team trainings."
+        },
+        {
+          "value": "cyber-training-range-multiple-team-training",
+          "expanded": "Cyber Training Range - Multiple Team Training",
+          "description": "A cyber range provides an environment to practice network operation skills. It should represent real-world scenarios and offer isolation from other networks to contain malicious activity. In this training type, complex attacks take place in a simulated environment. The participants perform divers educational hands-on activities according to their role. In these trainings the roles that are not covered by participants are simulated or covered by the instructors. Trainings can be multiple team trainings."
+        },
+        {
+          "value": "project-approach",
+          "expanded": "Project Approach",
+          "description": "In this type of training, hands-on projects are to be completed during the training. Thereby, the participants learn and understand the basic concepts of security. During the projects, the teachers can intervene and control the learning process."
+        }
+      ]
+    },
+    {
+      "predicate": "scenario",
+      "entry": [
+        {
+          "value": "supervised",
+          "expanded": "Supervision: Supervised",
+          "description": "Describes if the training is supervised. For instance, cyber range trainings are typically supervised."
+        },
+        {
+          "value": "unsupervised",
+          "expanded": "Supervision: Unsupervised",
+          "description": "Describes if the training is unsupervised. For instance, jeopardy CTF are usually unsupervised."
+        },
+        {
+          "value": "free-multiple-choice",
+          "expanded": "Style: Free-/Multiple Choice",
+          "description": "Decribes the challenges within the training as Free-/Multi Choice. (can be the case with CTFs)"
+        },
+        {
+          "value": "problem-driven",
+          "expanded": "Style: Problem-Driven",
+          "description": "Describes the challenge within the training as Problem-driven."
+        },
+        {
+          "value": "storyline-driven",
+          "expanded": "Style: Storyline-Driven",
+          "description": "Describes the challenge within the training as Storyline-driven."
+        },
+        {
+          "value": "challenges-target-network",
+          "expanded": "Challenges: Network Target",
+          "description": "The target in this challenge is network."
+        },
+        {
+          "value": "challenges-target-host",
+          "expanded": "Challenges: Host Target",
+          "description": "The target in this challenge is host."
+        },
+        {
+          "value": "challenges-target-application",
+          "expanded": "Challenges: Application Target",
+          "description": "The target in this challenge is application."
+        },
+        {
+          "value": "challenges-target-protocol",
+          "expanded": "Challenges: Protocol Target",
+          "description": "The target in this challenge is protocol."
+        },
+        {
+          "value": "challenges-target-data",
+          "expanded": "Challenges: Data Target",
+          "description": "The target in this challenge is data."
+        },
+        {
+          "value": "challenges-target-person",
+          "expanded": "Challenges: Person Target",
+          "description": "The target in this challenge is person."
+        },
+        {
+          "value": "challenges-target-physical",
+          "expanded": "Challenges: Physical Target",
+          "description": "The target in this challenge is physical."
+        },
+        {
+          "value": "challenges-type-foot-printing",
+          "expanded": "Challenges: Foot-printing Type",
+          "description": "Foot-printing is needed to solve this challenge."
+        },
+        {
+          "value": "challenges-type-scanning",
+          "expanded": "Challenges: Scanning Type",
+          "description": "Scanning is needed to solve this challenge."
+        },
+        {
+          "value": "challenges-type-enumeration",
+          "expanded": "Challenges: Enumeration Type",
+          "description": "Enumeration is needed to solve this challenge."
+        },
+        {
+          "value": "challenges-type-pivoting",
+          "expanded": "Challenges: Pivoting Type",
+          "description": "Pivoting is needed to solve this challenge."
+        },
+        {
+          "value": "challenges-type-exploitation",
+          "expanded": "Challenges: Exploitation Type",
+          "description": "Exploitation is needed to solve this challenge."
+        },
+        {
+          "value": "challenges-type-privilege-escalation",
+          "expanded": "Challenges: Privilege escalation Type",
+          "description": "Privilege escalation is needed to solve this challenge."
+        },
+        {
+          "value": "challenges-type-covering-tracks",
+          "expanded": "Challenges: Covering tracks Type",
+          "description": "Covering tracks is needed to solve this challenge."
+        },
+        {
+          "value": "challenges-type-maintaining",
+          "expanded": "Challenges: maintaining Type",
+          "description": "Maintaining access is needed to solve this challenge."
+        }
+      ]
+    }
+  ]
+}
