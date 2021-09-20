@@ -384,13 +384,13 @@
       "version": 1
     },
     {
-      "description": "The training environment details the environment around the training, consisting of training type and scenario.",
-      "name": "interactive-cyber-training-training-environment",
+      "description": "The technical setup consists of environment structure, deployment, and orchestration.",
+      "name": "interactive-cyber-training-technical-setup",
       "version": 1
     },
     {
-      "description": "The technical setup consists of environment structure, deployment, and orchestration.",
-      "name": "interactive-cyber-training-technical-setup",
+      "description": "The training environment details the environment around the training, consisting of training type and scenario.",
+      "name": "interactive-cyber-training-training-environment",
       "version": 1
     },
     {
