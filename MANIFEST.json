@@ -384,8 +384,18 @@
       "version": 1
     },
     {
+      "description": "The training environment details the environment around the training, consisting of training type and scenario.",
+      "name": "interactive-cyber-training-training-environment",
+      "version": 1
+    },
+    {
       "description": "The technical setup consists of environment structure, deployment, and orchestration.",
       "name": "interactive-cyber-training-technical-setup",
+      "version": 1
+    },
+    {
+      "description": "The training setup further describes the training itself with the scoring, roles, the training mode as well as the customization level.",
+      "name": "interactive-cyber-training-training-setup",
       "version": 1
     },
     {
@@ -630,5 +640,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20210915"
+  "version": "20210920"
 }
