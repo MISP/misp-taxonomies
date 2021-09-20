@@ -1,0 +1,158 @@
+{
+  "namespace": "interactive-cyber-training-training-setup",
+  "description": "The training setup further describes the training itself with the scoring, roles, the training mode as well as the customization level.",
+  "version": 1,
+  "refs": [
+    "https://arxiv.org/abs/2101.05538"
+  ],
+  "expanded": "Interactive Cyber Training - Training Setup",
+  "predicates": [
+    {
+      "value": "scoring",
+      "expanded": "Scoring",
+      "description": "Scoring is not only used in competition-oriented training like CTF but also to motivate participants, give feedback, track the progress. The scoring can be based, but is not limited to monitoring systems, defined objectives, or over-the-shoulder evaluation mechanisms."
+    },
+    {
+      "value": "roles",
+      "expanded": "Roles",
+      "description": "Participants in a training are split in different teams, according to their skills, role and tasks."
+    },
+    {
+      "value": "training-mode",
+      "expanded": "Training Mode",
+      "description": "Defines whether the training opposes singles persons, teams or groups."
+    },
+    {
+      "value": "customization-level",
+      "expanded": "Customization Level",
+      "description": "Defines the level of customization of the training."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "scoring",
+      "entry": [
+        {
+          "value": "no-scoring",
+          "expanded": "No Scoring",
+          "description": "The training have no type of scoring."
+        },
+        {
+          "value": "assessment-static",
+          "expanded": "Assessment: Static",
+          "description": "The scoring in this variant relies on the static setting of different scores for tasks and objectives, possibly incluing a degree of difficulty as well."
+        },
+        {
+          "value": "assessment-dynamic",
+          "expanded": "Assessment: Dynamic",
+          "description": "The scoring in this variant is set dynamically using mathematical functions or dynamic methods such as teh Elo Rating System."
+        },
+        {
+          "value": "awarding-manual",
+          "expanded": "Awarding: Manual",
+          "description": "Awards are given manually."
+        },
+        {
+          "value": "awarding-automatic",
+          "expanded": "Awarding: Automatic",
+          "description": "Awards are given automatically."
+        },
+        {
+          "value": "awarding-mixed",
+          "expanded": "Awarding: Mixed",
+          "description": "Awards are given manually and/or automatically."
+        }
+      ]
+    },
+    {
+      "predicate": "roles",
+      "entry": [
+        {
+          "value": "no-specific-role",
+          "expanded": "No specific Role",
+          "description": "Individuals who do not fit into the defined teams can be assigned to this role."
+        },
+        {
+          "value": "transparent-team-observer-watcher",
+          "expanded": "Transparent Team - Observer/Watcher",
+          "description": "Members of this team observe the training. Usually, these people have a defined purpose, but have no influence on the training itself. Possible purposes are learning about the training topic and roles, studying strategies of participants, or supervising employees."
+        },
+        {
+          "value": "white-team-trainer-instructor",
+          "expanded": "White Team - Trainer/Instructor",
+          "description": "This team consists of instructors, referees, organizers, and training managers. They design the training scenario including objectives, rules, background story, and tasks. During the training, this team controls the progress and assigns tasks to the teams. These so-called injects also include simulated media, operation coordination, or law enforcement agencies. Giving hints for the training teams could also be part of this team."
+        },
+        {
+          "value": "green-team-organizer-admin",
+          "expanded": "Green Team - Organizer/Admin",
+          "description": "The operators that are responsible for the exercise infrastructure build this team. Before a training, this team sets up and configures the environment and takes it down afterwards. During a training, it also monitors the environments health and handles problems that may arise."
+        },
+        {
+          "value": "red-team-attacker",
+          "expanded": "Red Team - Attacker",
+          "description": "This team consists of people authorized and organized to model security adversaries. They are responsible to identify and exploit potential vulnerabilities present in the training environment. Depending on the training environment, the tasks can follow a predefined attack path."
+        },
+        {
+          "value": "blue-team-defender",
+          "expanded": "Blue Team - Defender",
+          "description": "The group of individuals that is responsible for defending the training environment. They deal with the red team’s attacks and secure the compromised networks. Guidelines for that team are the training rules and local cyber law."
+        },
+        {
+          "value": "gray-team-bystander",
+          "expanded": "Gray Team - Bystander",
+          "description": "Bystanders of a training form this team. They do not necessarily have a specific intention or purpose, but an interest in the training event itself. It is also possible that this team interacts with participants and thereby unintentionally influences the training."
+        },
+        {
+          "value": "yellow-team-insider",
+          "expanded": "Yellow Team - Insider",
+          "description": "Members of this team perform not only tasks like generating legitimate network traffic and user behavior but also perform erroneous actions that lead to vulnerabilities and attacks. This team can also include the regular system builders, like programmers, developers, and software engineers and architects."
+        },
+        {
+          "value": "purple-team-bridge",
+          "expanded": "Purple Team - Bridge",
+          "description": "In a training, this team is a bridge between red and blue teams that helps to improve the performance of both. Through joint red-blue activities it improves the scope of the training participants. Goals are to maximize the Blue Teams capability and the effectiveness of Red Teams activities."
+        }
+      ]
+    },
+    {
+      "predicate": "training-mode",
+      "entry": [
+        {
+          "value": "single",
+          "expanded": "Single",
+          "description": "A single player plays against others. Others can be real persons, butalso scripted opponents."
+        },
+        {
+          "value": "team",
+          "expanded": "Team",
+          "description": "A team plays against others. In this alignments, each player can bring its expertise into the training, focussing on different aspects. Examples are Blue and Red Teams."
+        },
+        {
+          "value": "cross-group",
+          "expanded": "Cross-Group",
+          "description": "A group plays against others. In this setting, the group members might not know each other. Example are CTF competitions and training for the entire organization in a breach scenario."
+        }
+      ]
+    },
+    {
+      "predicate": "customization-level",
+      "entry": [
+        {
+          "value": "general",
+          "expanded": "General",
+          "description": "A general purpose training setup is not, or only little customized. This variant is suited for an entry level training or to learn about general processes without regard to the underlying setup."
+        },
+        {
+          "value": "specific",
+          "expanded": "Specific",
+          "description": "The training setup can be customized for a specific training goal or target audience. Examples for this variant are specific trainings within the High School education or for the health sector."
+        },
+        {
+          "value": "individual",
+          "expanded": "Individual",
+          "description": "The most tailored variant is an individual customization. Hereby, the training setup corresponds to a real environment in the best possible way. Exemplary uses of this variant are the training of teams in their environment or the training of new expert-level employees."
+        }
+      ]
+    }
+  ]
+}
