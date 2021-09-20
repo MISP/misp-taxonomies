@@ -114,77 +114,77 @@
         },
         {
           "value": "challenges-target-network",
-          "expended": "Challenges: Network Target",
+          "expanded": "Challenges: Network Target",
           "description": "The target in this challenge is network."
         },
         {
           "value": "challenges-target-host",
-          "expended": "Challenges: Host Target",
+          "expanded": "Challenges: Host Target",
           "description": "The target in this challenge is host."
         },
         {
           "value": "challenges-target-application",
-          "expended": "Challenges: Application Target",
+          "expanded": "Challenges: Application Target",
           "description": "The target in this challenge is application."
         },
         {
           "value": "challenges-target-protocol",
-          "expended": "Challenges: Protocol Target",
+          "expanded": "Challenges: Protocol Target",
           "description": "The target in this challenge is protocol."
         },
         {
           "value": "challenges-target-data",
-          "expended": "Challenges: Data Target",
+          "expanded": "Challenges: Data Target",
           "description": "The target in this challenge is data."
         },
         {
           "value": "challenges-target-person",
-          "expended": "Challenges: Person Target",
+          "expanded": "Challenges: Person Target",
           "description": "The target in this challenge is person."
         },
         {
           "value": "challenges-target-physical",
-          "expended": "Challenges: Physical Target",
+          "expanded": "Challenges: Physical Target",
           "description": "The target in this challenge is physical."
         },
         {
           "value": "challenges-type-foot-printing",
-          "expended": "Challenges: Foot-printing Type",
+          "expanded": "Challenges: Foot-printing Type",
           "description": "Foot-printing is needed to solve this challenge."
         },
         {
           "value": "challenges-type-scanning",
-          "expended": "Challenges: Scanning Type",
+          "expanded": "Challenges: Scanning Type",
           "description": "Scanning is needed to solve this challenge."
         },
         {
           "value": "challenges-type-enumeration",
-          "expended": "Challenges: Enumeration Type",
+          "expanded": "Challenges: Enumeration Type",
           "description": "Enumeration is needed to solve this challenge."
         },
         {
           "value": "challenges-type-pivoting",
-          "expended": "Challenges: Pivoting Type",
+          "expanded": "Challenges: Pivoting Type",
           "description": "Pivoting is needed to solve this challenge."
         },
         {
           "value": "challenges-type-exploitation",
-          "expended": "Challenges: Exploitation Type",
+          "expanded": "Challenges: Exploitation Type",
           "description": "Exploitation is needed to solve this challenge."
         },
         {
           "value": "challenges-type-privilege-escalation",
-          "expended": "Challenges: Privilege escalation Type",
+          "expanded": "Challenges: Privilege escalation Type",
           "description": "Privilege escalation is needed to solve this challenge."
         },
         {
           "value": "challenges-type-covering-tracks",
-          "expended": "Challenges: Covering tracks Type",
+          "expanded": "Challenges: Covering tracks Type",
           "description": "Covering tracks is needed to solve this challenge."
         },
         {
           "value": "challenges-type-maintaining",
-          "expended": "Challenges: maintaining Type",
+          "expanded": "Challenges: maintaining Type",
           "description": "Maintaining access is needed to solve this challenge."
         }
       ]
