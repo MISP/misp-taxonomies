@@ -2,7 +2,9 @@
   "namespace": "interactive-cyber-training-audience",
   "description": "Describes the target of cyber training and education.",
   "version": 1,
-  "refs": ["https://arxiv.org/abs/2101.05538"],
+  "refs": [
+    "https://arxiv.org/abs/2101.05538"
+  ],
   "expanded": "Interactive Cyber Training - Audience",
   "predicates": [
     {
@@ -25,127 +27,127 @@
       "expanded": "Target Audience",
       "description": "Target audience describes the audience, which is targeted by the training."
     }
-      ],
-    "values": [
-      {
-        "predicate": "sector",
-        "entry": [
-          {
-            "value": "academic-school",
-            "expanded": "Academic - School",
-            "description": "The focus is on the principles underlying cybersecurity, ranging from theoretical to applied, at school level."
-          },
-          {
-            "value": "academic-university",
-            "expanded": "Academic - University",
-            "description": "The focus is on the principles underlying cybersecurity, ranging from theoretical to applied, at university level."
-          },
-          {
-            "value": "public-government",
-            "expanded": "Public - Government",
-            "description": "In public sector such as government, Cybersecurity is seen as tool to protect the public interest. Hence, it emphasizes on developing policies and systems to implement laws and regulations."
-          },
-          {
-            "value": "public-authorities",
-            "expanded": "Public - Authorities",
-            "description": "In public sector such as authorities, Cybersecurity is seen as tool to protect the public interest. Hence, it emphasizes on developing policies and systems to implement laws and regulations."
-          },
-          {
-            "value": "public-ngo",
-            "expanded": "Public - NGO",
-            "description": "In public sector such as NGO, Cybersecurity is seen as tool to protect the public interest. Hence, it emphasizes on developing policies and systems to implement laws and regulations."
-          },
-          {
-            "value": "public-military",
-            "expanded": "Public - Military",
-            "description": "In public sector such as military sector, Cybersecurity is seen as tool to protect the public interest. Hence, it emphasizes on developing policies and systems to implement laws and regulations."
-          },
-          {
-            "value": "private",
-            "expanded": "Private",
-            "description": "The private sector and industry focuses more on protecting its investments. The effectiveness of security mechanisms and people are more important than principles they embody."
-          }
-        ]
-      },
-      {
-        "predicate": "purpose",
-        "entry": [
-          {
-            "value": "awareness",
-            "expanded": "Awareness",
-            "description": "This training should be used to raise the awareness in multiple and different security threats."
-          },
-          {
-            "value": "skills",
-            "expanded": "Skills",
-            "description": "This training should be used to recognize the different skill levels of the participants so that can they be improved in a targeted manner."
-          },
-          {
-            "value": "collaboration",
-            "expanded": "Collaboration",
-            "description": "This training should be used to improve the cooperation within a team or beyond."
-          },
-          {
-            "value": "communication",
-            "expanded": "Communication",
-            "description": "This training should be used to increase the efficiency of internal and external communication in case of an incident."
-          },
-          {
-            "value": "leadership",
-            "expanded": "Leadership",
-            "description": "This training should be used to improve the management and coordination of the responsible entities."
-          }
-        ]
-      },
-      {
-        "predicate": "proficiency-level",
-        "entry": [
-          {
-            "value": "beginner",
-            "expanded": "Beginner",
-            "description": "The lowest level. Beginner are limited in abilities and knowledge. They have the possibility to use foundational conceptual and procedural knowledge in a controlled and limited environment. Beginners cannot solve critical tasks and need significant supervision. They are able to perform daily processing tasks. The focus is on learning."
-          },
-          {
-            "value": "professional",
-            "expanded": "Professional",
-            "description": "The mid level. Professionals have deeper knowledge and understanding in specific sectors. For these sectors they are able to complete tasks as requested. Sometimes supervision is needed but usually they perform independently. The focus is on enhancing and applying existing knowledge."
-          },
-          {
-            "value": "expert",
-            "expanded": "Expert",
-            "description": "The highest level. Experts have deeper knowledge and understanding in different sectors. They complete tasks self-dependent and have the possibilities to achieve goals in the most effective and efficient way. Experts have comprehensive understanding and abilities to lead and train others. The focus is on strategic action."
-          }
-        ]
-      },
-      {
-        "predicate": "target-audience",
-        "entry": [
-          {
-            "value": "student-trainee",
-            "expanded": "Student/Trainee",
-            "description": "Student and trainees have little to none practical knowledge. Training can be used for students and trainees, to enhance their knowledge and to practice theoretical courses."
-          },
-          {
-            "value": "it-user",
-            "expanded": "IT User",
-            "description": "IT users use the IT but have little to none knowledge about IT security. Users can get trained to understand principles of IT security and to grow awareness."
-          },
-          {
-            "value": "it-professional",
-            "expanded": "IT Professional",
-            "description": "Professionals have little to medium knowledge about IT security. Their professional focus is in specific sectors, therefore, they receive IT security knowledge for their sectors."
-          },
-          {
-            "value": "it-specialist",
-            "expanded": "IT Specialist",
-            "description": "Specialists already have a comprehensive knowledge in IT security. Therefore, the training is focussed on specific aspects."
-          },
-          {
-            "value": "management",
-            "expanded": "Management",
-            "description": "Management has little knowledge about IT security, but a broad overview. By the training, management can understand changed settings better."
-          }
-        ]
-      }
+  ],
+  "values": [
+    {
+      "predicate": "sector",
+      "entry": [
+        {
+          "value": "academic-school",
+          "expanded": "Academic - School",
+          "description": "The focus is on the principles underlying cybersecurity, ranging from theoretical to applied, at school level."
+        },
+        {
+          "value": "academic-university",
+          "expanded": "Academic - University",
+          "description": "The focus is on the principles underlying cybersecurity, ranging from theoretical to applied, at university level."
+        },
+        {
+          "value": "public-government",
+          "expanded": "Public - Government",
+          "description": "In public sector such as government, Cybersecurity is seen as tool to protect the public interest. Hence, it emphasizes on developing policies and systems to implement laws and regulations."
+        },
+        {
+          "value": "public-authorities",
+          "expanded": "Public - Authorities",
+          "description": "In public sector such as authorities, Cybersecurity is seen as tool to protect the public interest. Hence, it emphasizes on developing policies and systems to implement laws and regulations."
+        },
+        {
+          "value": "public-ngo",
+          "expanded": "Public - NGO",
+          "description": "In public sector such as NGO, Cybersecurity is seen as tool to protect the public interest. Hence, it emphasizes on developing policies and systems to implement laws and regulations."
+        },
+        {
+          "value": "public-military",
+          "expanded": "Public - Military",
+          "description": "In public sector such as military sector, Cybersecurity is seen as tool to protect the public interest. Hence, it emphasizes on developing policies and systems to implement laws and regulations."
+        },
+        {
+          "value": "private",
+          "expanded": "Private",
+          "description": "The private sector and industry focuses more on protecting its investments. The effectiveness of security mechanisms and people are more important than principles they embody."
+        }
+      ]
+    },
+    {
+      "predicate": "purpose",
+      "entry": [
+        {
+          "value": "awareness",
+          "expanded": "Awareness",
+          "description": "This training should be used to raise the awareness in multiple and different security threats."
+        },
+        {
+          "value": "skills",
+          "expanded": "Skills",
+          "description": "This training should be used to recognize the different skill levels of the participants so that can they be improved in a targeted manner."
+        },
+        {
+          "value": "collaboration",
+          "expanded": "Collaboration",
+          "description": "This training should be used to improve the cooperation within a team or beyond."
+        },
+        {
+          "value": "communication",
+          "expanded": "Communication",
+          "description": "This training should be used to increase the efficiency of internal and external communication in case of an incident."
+        },
+        {
+          "value": "leadership",
+          "expanded": "Leadership",
+          "description": "This training should be used to improve the management and coordination of the responsible entities."
+        }
+      ]
+    },
+    {
+      "predicate": "proficiency-level",
+      "entry": [
+        {
+          "value": "beginner",
+          "expanded": "Beginner",
+          "description": "The lowest level. Beginner are limited in abilities and knowledge. They have the possibility to use foundational conceptual and procedural knowledge in a controlled and limited environment. Beginners cannot solve critical tasks and need significant supervision. They are able to perform daily processing tasks. The focus is on learning."
+        },
+        {
+          "value": "professional",
+          "expanded": "Professional",
+          "description": "The mid level. Professionals have deeper knowledge and understanding in specific sectors. For these sectors they are able to complete tasks as requested. Sometimes supervision is needed but usually they perform independently. The focus is on enhancing and applying existing knowledge."
+        },
+        {
+          "value": "expert",
+          "expanded": "Expert",
+          "description": "The highest level. Experts have deeper knowledge and understanding in different sectors. They complete tasks self-dependent and have the possibilities to achieve goals in the most effective and efficient way. Experts have comprehensive understanding and abilities to lead and train others. The focus is on strategic action."
+        }
+      ]
+    },
+    {
+      "predicate": "target-audience",
+      "entry": [
+        {
+          "value": "student-trainee",
+          "expanded": "Student/Trainee",
+          "description": "Student and trainees have little to none practical knowledge. Training can be used for students and trainees, to enhance their knowledge and to practice theoretical courses."
+        },
+        {
+          "value": "it-user",
+          "expanded": "IT User",
+          "description": "IT users use the IT but have little to none knowledge about IT security. Users can get trained to understand principles of IT security and to grow awareness."
+        },
+        {
+          "value": "it-professional",
+          "expanded": "IT Professional",
+          "description": "Professionals have little to medium knowledge about IT security. Their professional focus is in specific sectors, therefore, they receive IT security knowledge for their sectors."
+        },
+        {
+          "value": "it-specialist",
+          "expanded": "IT Specialist",
+          "description": "Specialists already have a comprehensive knowledge in IT security. Therefore, the training is focussed on specific aspects."
+        },
+        {
+          "value": "management",
+          "expanded": "Management",
+          "description": "Management has little knowledge about IT security, but a broad overview. By the training, management can understand changed settings better."
+        }
+      ]
+    }
   ]
 }
