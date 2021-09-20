@@ -151,7 +151,7 @@
     {
       "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project",
       "name": "dark-web",
-      "version": 3
+      "version": 4
     },
     {
       "description": "Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book.",
@@ -379,6 +379,26 @@
       "version": 1
     },
     {
+      "description": "Describes the target of cyber training and education.",
+      "name": "interactive-cyber-training-audience",
+      "version": 1
+    },
+    {
+      "description": "The technical setup consists of environment structure, deployment, and orchestration.",
+      "name": "interactive-cyber-training-technical-setup",
+      "version": 1
+    },
+    {
+      "description": "The training environment details the environment around the training, consisting of training type and scenario.",
+      "name": "interactive-cyber-training-training-environment",
+      "version": 1
+    },
+    {
+      "description": "The training setup further describes the training itself with the scoring, roles, the training mode as well as the customization level.",
+      "name": "interactive-cyber-training-training-setup",
+      "version": 1
+    },
+    {
       "description": "The interception method used to intercept traffic.",
       "name": "interception-method",
       "version": 1
@@ -491,7 +511,7 @@
     {
       "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.",
       "name": "phishing",
-      "version": 4
+      "version": 5
     },
     {
       "description": "After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System.",
@@ -511,7 +531,7 @@
     {
       "description": "Reference Security Incident Classification Taxonomy",
       "name": "rsit",
-      "version": 1002
+      "version": 1003
     },
     {
       "description": "Status of events used in Request Tracker.",
@@ -620,5 +640,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20210621"
+  "version": "20210920"
 }
