@@ -94,6 +94,11 @@
           "value": "2021",
           "expanded": "2021",
           "description": "Locked Shields 2021"
+        },
+        {
+          "value": "2022",
+          "expanded": "2022",
+          "description": "Locked Shields 2022"
         }
       ]
     },
@@ -183,7 +188,7 @@
       ]
     }
   ],
-  "version": 8,
+  "version": 9,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise"
