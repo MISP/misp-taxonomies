@@ -23,8 +23,8 @@
           "colour": "#f87272"
         },
         {
-          "expanded": "NON CLASSIFIEES",
-          "value": "NON-CLASSIFIEES",
+          "expanded": "NON PROTEGE",
+          "value": "NON-PROTEGE",
           "colour": "#f89595"
         }
       ],
@@ -58,7 +58,7 @@
       "exclusive": false
     }
   ],
-  "version": 5,
+  "version": 6,
   "description": "French gov information classification system",
   "namespace": "fr-classif"
 }
