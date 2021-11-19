@@ -1,0 +1,243 @@
+{
+  "namespace": "deception",
+  "description": "Deception is an important component of information operations, valuable for both offense and defense. ",
+  "version": 1,
+  "refs": [
+    "https://faculty.nps.edu/ncrowe/rowe_iciw06.htm"
+  ],
+  "expanded": "Deception",
+  "predicates": [
+    {
+      "value": "space",
+      "expanded": "Space",
+      "description": "Actions have associated locations, and deception can apply to those references."
+    },
+    {
+      "value": "time",
+      "expanded": "Time",
+      "description": "Many actions on computer are timestamped, and attackers and defenders can deceive in regard to those times. An attacker could change the times of events recorded in a log file or the directory information about files to conceal records of their activities."
+    },
+    {
+      "value": "participant",
+      "expanded": "Participant",
+      "description": "Actions have associated participants and the tools or objects by actions are accomplished."
+    },
+    {
+      "value": "causality",
+      "expanded": "Causality",
+      "description": "Deception in cause, purpose, and effect is important in many kinds of social-engineering attacks where false reasons like \"I have a deadline\" or \"It didn't work\" are given for requests for actions or information that aid the adversary. Deception in a contradiction action is not possible in cyberspace because commands do not generally relate actions."
+    },
+    {
+      "value": "quality",
+      "expanded": "Quality",
+      "description": "The \"quality\" semantic cases cover the manner in which actions are performed."
+    },
+    {
+      "value": "essence",
+      "expanded": "Essence",
+      "description": "Deception can occur in the ontological features of an action, its type and the context to which is belongs."
+    },
+    {
+      "value": "speech-act-theory",
+      "expanded": "Speech-Act-Theory",
+      "description": "Deception can involve semantic cases related to communication. Both internal and external preconditions provide useful deceptions by defenders since it is often hard to confirm deception in such conditions in cyberspace."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "space",
+      "entry": [
+        {
+          "value": "direction",
+          "expanded": "Direction",
+          "description": "direction of the action. Direction cases can arise with some actions that are supposedly one-way like file transfers."
+        },
+        {
+          "value": "location-at",
+          "expanded": "Location at",
+          "description": "Location where something occured"
+        },
+        {
+          "value": "location-from",
+          "expanded": "Location from",
+          "description": "Location where something started"
+        },
+        {
+          "value": "location-to",
+          "expanded": "Location to",
+          "description": "Location where something finished"
+        },
+        {
+          "value": "location-through",
+          "expanded": "Location through",
+          "description": "Location where some action passed through"
+        },
+        {
+          "value": "orientation",
+          "expanded": "Orientation",
+          "description": "Orientation (in some space). Orientation cases can arise with some actions that are supposedly one-way like file transfers."
+        }
+      ]
+    },
+    {
+      "predicate": "time",
+      "entry": [
+        {
+          "value": "frequency",
+          "expanded": "Frequency",
+          "description": "Frequency of occurrence of a repeated action. Frequency is an excellent case for deception, as in denial-of-service attacks that greatly increase the frequency of requests or transactions to tie up computer resources."
+        },
+        {
+          "value": "time-at",
+          "expanded": "Time at",
+          "description": "Time at which something occurred"
+        },
+        {
+          "value": "time-from",
+          "expanded": "Time from",
+          "description": "Time at which something started"
+        },
+        {
+          "value": "time-to",
+          "expanded": "Time to",
+          "description": "Time at which something ended"
+        },
+        {
+          "value": "time-through",
+          "expanded": "Time through",
+          "description": "Time through which something occurred"
+        }
+      ]
+    },
+    {
+      "predicate": "participant",
+      "entry": [
+        {
+          "value": "agent",
+          "expanded": "Agent",
+          "description": "Who initiates the action.Identification of participants responsible for actions (\"agents\") is a key problem in cyberspace, and is an easy target for deception."
+        },
+        {
+          "value": "beneficiary",
+          "expanded": "Beneficiary",
+          "description": "Who benefits. Deceptions involving the beneficiary of an action occur with phishing and other email scams."
+        },
+        {
+          "value": "experiencer",
+          "expanded": "Experiencer",
+          "description": "Who senses, experiences the action. Deception in the \"experiencer\" case occurs with secret monitoring of adversary activities."
+        },
+        {
+          "value": "instrument",
+          "expanded": "Instrument",
+          "description": "What helps accomplish the action. Deception is easy with the instrument case because details of how software accomplishes things are often hidden in cyberspace."
+        },
+        {
+          "value": "object",
+          "expanded": "Object",
+          "description": "What the action is done for. Deception in objects of the action is easy: Honeypots deceive as to the hardware and software objects of an attack, and \"bait\" data such as credit-card numbers can also be deceptive objects."
+        },
+        {
+          "value": "recipient",
+          "expanded": "Recipient",
+          "description": "Who receives the action. The recipient of an action in cyberspace is usually the object. "
+        }
+      ]
+    },
+    {
+      "predicate": "causality",
+      "entry": [
+        {
+          "value": "cause",
+          "expanded": "Cause",
+          "description": "Cause of the action"
+        },
+        {
+          "value": "contradiction",
+          "expanded": "Contradiction",
+          "description": "What this action opposes if anything"
+        },
+        {
+          "value": "effect",
+          "expanded": "Effect",
+          "description": "Effect of the action"
+        },
+        {
+          "value": "purpose",
+          "expanded": "Purpose",
+          "description": "Purpose of the action"
+        }
+      ]
+    },
+    {
+      "predicate": "quality",
+      "entry": [
+        {
+          "value": "accompaniment",
+          "expanded": "Accompaniment",
+          "description": "An additionnal object associated with the action"
+        },
+        {
+          "value": "content",
+          "expanded": "Content",
+          "description": "What is contained by th eaction object"
+        },
+        {
+          "value": "manner",
+          "expanded": "Manner",
+          "description": "The way in which action is done. (Deception in manner does not generally apply because the manner in which a command is issued or executed should not affect the outcome.)"
+        },
+        {
+          "value": "material",
+          "expanded": "Material",
+          "description": "The atomic units out of which the action is composed. Deception in material does not apply much because everything is represented as bits in cyberspace, though defenders can deceive this way by simulating commands rather than executing them."
+        },
+        {
+          "value": "measure",
+          "expanded": "Measure",
+          "description": "The mesurement associated with the action. Deception in measure (the amount of data) is important in denial-of-service attacks and can also done defensively by swamping the attacker with data."
+        },
+        {
+          "value": "order",
+          "expanded": "Order",
+          "description": "With respect to other actions"
+        },
+        {
+          "value": "value",
+          "expanded": "Value",
+          "description": "The data transmitted by the action (the software sense of the term). Deception in value (or subroutine \"argument\") can occur defensively as in a ploy of misunderstanding attacker commands."
+        }
+      ]
+    },
+    {
+      "predicate": "essence",
+      "entry": [
+        {
+          "value": "supertype",
+          "expanded": "Supertype",
+          "description": "a generalization of the action type. Phishing email is an example of deception in supertype."
+        },
+        {
+          "value": "whole",
+          "expanded": "Whole",
+          "description": "of which the action is a part"
+        }
+      ]
+    },
+    {
+      "predicate": "speech-act-theory",
+      "entry": [
+        {
+          "value": "external-precondition",
+          "expanded": "External precondition",
+          "description": "external precondition on the action. External preconditions are on the rest of the world such as the ability of a site to accept a particular user-supplied password. "
+        },
+        {
+          "value": "internal-precondition",
+          "expanded": "Internal precondition",
+          "description": "internal precondition, on the ability of the agent to perform the action. Internal preconditions are on the agent of the action, such as ability of a user to change their password."
+        }
+      ]
+    }
+  ]
+}
