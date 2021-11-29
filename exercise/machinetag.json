@@ -46,6 +46,11 @@
       "predicate": "cyber-europe",
       "entry": [
         {
+          "value": "2022",
+          "expanded": "2022",
+          "description": "6th pan European cyber crisis exercise: Cyber Europe 2020 (CE2020)"
+        },
+        {
           "value": "2018",
           "expanded": "2018",
           "description": "5th pan European cyber crisis exercise, Cyber Europe 2018 (CE2018)"
@@ -188,7 +193,7 @@
       ]
     }
   ],
-  "version": 9,
+  "version": 10,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise"
