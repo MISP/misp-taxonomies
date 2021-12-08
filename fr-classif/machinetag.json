@@ -3,65 +3,62 @@
     {
       "entry": [
         {
-          "expanded": "TRES SECRET DEFENSE",
-          "value": "TRES_SECRET_DEFENSE"
+          "expanded": "TRES SECRET",
+          "value": "TRES_SECRET",
+          "colour": "#f54a4a"
         },
-        {
-          "expanded": "SECRET DEFENSE",
-          "value": "SECRET_DEFENSE"
-        },
-        {
-          "expanded": "CONFIDENTIEL DEFENSE",
-          "value": "CONFIDENTIEL_DEFENSE"
-        }
-      ],
-      "predicate": "classifiees-defense"
-    },
-    {
-      "entry": [
         {
           "expanded": "SECRET",
-          "value": "SECRET"
-        },
-        {
-          "expanded": "CONFIDENTIEL",
-          "value": "CONFIDENTIEL"
-        },
-        {
-          "expanded": "DIFFUSION RESTREINTE",
-          "value": "DIFFUSION_RESTREINTE"
+          "value": "SECRET",
+          "colour": "#f54a4a"
         }
       ],
-      "predicate": "non-classifiees-defense"
+      "predicate": "classifiees"
     },
     {
       "entry": [
         {
-          "expanded": "NON CLASSIFIEES",
-          "value": "NON-CLASSIFIEES"
+          "expanded": "DIFFUSION RESTREINTE",
+          "value": "DIFFUSION_RESTREINTE",
+          "colour": "#f87272"
+        },
+        {
+          "expanded": "NON PROTEGE",
+          "value": "NON-PROTEGE",
+          "colour": "#f89595"
         }
       ],
       "predicate": "non-classifiees"
+    },
+    {
+      "entry": [
+        {
+          "expanded": "SPECIAL FRANCE",
+          "value": "SPECIAL_FRANCE",
+          "colour": "#0434cc"
+        }
+      ],
+      "predicate": "special-france"
     }
   ],
   "predicates": [
     {
-      "expanded": "Informations classifiées défense",
-      "value": "classifiees-defense",
-      "exclusive": true
-    },
-    {
-      "expanded": "Informations non classifiées defense",
-      "value": "non-classifiees-defense",
+      "expanded": "Informations classifiées",
+      "value": "classifiees",
       "exclusive": true
     },
     {
       "expanded": "Informations non classifiées",
       "value": "non-classifiees",
       "exclusive": true
+    },
+    {
+      "expanded": "Mention Spécial France",
+      "value": "special-france",
+      "exclusive": false
     }
   ],
-  "version": 3,
+  "version": 6,
   "description": "French gov information classification system",
   "namespace": "fr-classif"
 }
