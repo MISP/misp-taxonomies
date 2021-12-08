@@ -12,7 +12,7 @@
     {
       "value": "left-right-spectrum",
       "expanded": "Left-Right spectrum",
-      "description": "The left–right political spectrum is a system of classifying political positions characteristic of left-right politics, ideologies and parties with emphasis placed on issues of social equality and social hierarchy.",
+      "description": "The left–right political spectrum is a system of classifying political positions characteristic of left-right politics, ideologies and parties with emphasis placed on issues of social equality and social hierarchy."
     }
   ],
   "values": [
@@ -114,7 +114,7 @@
           "expanded": "Social democracy",
           "colour": "#F50E0E",
           "description": "Social democracy is a political, social, and economic philosophy within socialism that supports political and economic democracy. As a policy regime, it is described by academics as advocating economic and social interventions to promote social justice within the framework of a liberal-democratic polity and a capitalist-oriented mixed economy."
-          },
+        },
         {
           "value": "socialism",
           "expanded": "Socialism",
