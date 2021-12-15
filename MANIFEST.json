@@ -261,7 +261,7 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 9
+      "version": 10
     },
     {
       "description": "Reasons why an event has been extended. ",
@@ -645,5 +645,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20211119"
+  "version": "20211129"
 }
