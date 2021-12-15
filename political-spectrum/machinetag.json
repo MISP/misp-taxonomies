@@ -1,0 +1,157 @@
+{
+  "namespace": "political-spectrum",
+  "description": "A political spectrum is a system to characterize and classify different political positions in relation to one another.",
+  "version": 1,
+  "expanded": "Political Spectrum",
+  "predicates": [
+    {
+      "value": "ideology",
+      "expanded": "Ideology",
+      "description": "Political ideologies are one of the major organizing features of political parties, and parties often officially align themselves with specific ideologies."
+    },
+    {
+      "value": "left-right-spectrum",
+      "expanded": "Left-Right spectrum",
+      "description": "The left–right political spectrum is a system of classifying political positions characteristic of left-right politics, ideologies and parties with emphasis placed on issues of social equality and social hierarchy."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "ideology",
+      "entry": [
+        {
+          "value": "agrarianism",
+          "expanded": "Agrarianism",
+          "colour": "#006400",
+          "description": "political and social philosophy that has promoted subsistence agriculture, smallholdings, egalitarianism, with agrarian political parties normally supporting the rights and sustainability of small farmers and poor peasants against the wealthy in society."
+        },
+        {
+          "value": "anarchism",
+          "expanded": "Anarchism",
+          "colour": "#000000",
+          "description": "Anarchism is a political philosophy and movement that is sceptical of authority and rejects all involuntary, coercive forms of hierarchy."
+        },
+        {
+          "value": "centrism",
+          "expanded": "Centrism",
+          "colour": "#9932CC",
+          "description": "Centrism is a political outlook or position that involves acceptance and/or support of a balance of social equality and a degree of social hierarchy, while opposing political changes which would result in a significant shift of society strongly to either the left or the right."
+        },
+        {
+          "value": "christian-democracy",
+          "expanded": "Christian Democracy",
+          "colour": "#FF7700",
+          "description": "combination of modern democratic ideas and traditional Christian values, incorporating social justice as well as the social teachings espoused by the Catholic, Lutheran, Reformed, Pentecostal and other denominational traditions of Christianity in various parts of the world. After World War II, Catholic and Protestant movements of neo-scholasticism and the Social Gospel, respectively, played a role in shaping Christian democracy."
+        },
+        {
+          "value": "communism",
+          "expanded": "Communism",
+          "colour": "#F50E0E",
+          "description": "Communism is a philosophical, social, political, and economic ideology and movement whose goal is the establishment of a communist society, namely a socioeconomic order structured upon the ideas of common ownership of the means of production and the absence of social classes, money, and the state."
+        },
+        {
+          "value": "conservatism",
+          "expanded": "Conservatism",
+          "colour": "#4584F2",
+          "description": "Conservatism is an aesthetic, cultural, social, and political philosophy, which seeks to promote and to preserve traditional social institutions. The central tenets of conservatism may vary in relation to the traditional values or practices of the culture and civilization in which it appears. In Western culture, conservatives seek to preserve a range of institutions such as organized religion, parliamentary government, and property rights. Adherents of conservatism often oppose modernism and seek a return to traditional values."
+        },
+        {
+          "value": "democratic-socialism",
+          "expanded": "Democratic socialism",
+          "colour": "#F50E0E",
+          "description": "Democratic socialism is a political philosophy that supports political democracy within a socially owned economy, with a particular emphasis on economic democracy, workplace democracy, and workers' self-management within a market socialist economy, or an alternative form of decentralised planned socialist economy."
+        },
+        {
+          "value": "fascism",
+          "expanded": "Fascism",
+          "colour": "#964B00",
+          "description": "Fascism is a form of far-right, authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition, and strong regimentation of society and of the economy, which came to prominence in early 20th-century Europe.Fascists believe that liberal democracy is obsolete. They regard the complete mobilization of society under a totalitarian one-party state as necessary to prepare a nation for armed conflict and to respond effectively to economic difficulties."
+        },
+        {
+          "value": "feminism",
+          "expanded": "Feminism",
+          "colour": "#FFC0CB",
+          "description": "Feminism is a range of social movements and ideologies that aim to define and establish the political, economic, personal, and social equality of the sexes. Feminism incorporates the position that societies prioritize the male point of view, and that women are treated unjustly within those societies. Efforts to change that include fighting against gender stereotypes and establishing educational, professional, and interpersonal opportunities and outcomes for women that are equal to those for men."
+        },
+        {
+          "value": "green-politics",
+          "expanded": "Green politics",
+          "colour": "#006400",
+          "description": "Green politics, or ecopolitics, is a political ideology that aims to foster an ecologically sustainable society often, but not always, rooted in environmentalism, nonviolence, social justice and grassroots democracy."
+        },
+        {
+          "value": "islamism",
+          "expanded": "Islamism",
+          "colour": "#006400",
+          "description": "Islamism (also often called political Islam or Islamic fundamentalism) is a political ideology which posits that modern states and regions should be reconstituted in constitutional, economic and judicial terms, in accordance with what is conceived as a revival or a return to authentic Islamic practice in its totality."
+        },
+        {
+          "value": "liberalism",
+          "expanded": "Liberalism",
+          "colour": "#FFFF33",
+          "description": "Liberalism is a political and moral philosophy based on liberty, consent of the governed and equality before the law. Liberals espouse a wide array of views depending on their understanding of these principles, but they generally support individual rights (including civil rights and human rights), democracy, secularism, freedom of speech, freedom of the press, freedom of religion and a market economy."
+        },
+        {
+          "value": "libertarianism",
+          "expanded": "Libertarianism",
+          "colour": "#FFFF33",
+          "description": "Libertarianism is a political philosophy that upholds liberty as a core principle. Libertarians seek to maximize autonomy and political freedom, emphasizing free association, freedom of choice, individualism and voluntary association. Libertarians share a skepticism of authority and state power, but some libertarians diverge on the scope of their opposition to existing economic and political systems."
+        },
+        {
+          "value": "monarchism",
+          "expanded": "Monarchism",
+          "colour": "#9932CC",
+          "description": "Monarchism is the advocacy of the system of monarchy or monarchical rule."
+        },
+        {
+          "value": "pacifism",
+          "expanded": "Pacifism",
+          "colour": "#FFFFFF",
+          "description": "Pacifism covers a spectrum of views, including the belief that international disputes can and should be peacefully resolved, calls for the abolition of the institutions of the military and war, opposition to any organization of society through governmental force (anarchist or libertarian pacifism), rejection of the use of physical violence to obtain political, economic or social goals, the obliteration of force, and opposition to violence under any circumstance, even defence of self and others."
+        },
+        {
+          "value": "social-democracy",
+          "expanded": "Social democracy",
+          "colour": "#F50E0E",
+          "description": "Social democracy is a political, social, and economic philosophy within socialism that supports political and economic democracy. As a policy regime, it is described by academics as advocating economic and social interventions to promote social justice within the framework of a liberal-democratic polity and a capitalist-oriented mixed economy."
+        },
+        {
+          "value": "socialism",
+          "expanded": "Socialism",
+          "colour": "#F50E0E",
+          "description": "Socialism is a political, social, and economic philosophy encompassing a range of economic and social systems characterised by social ownership of the means of production. It includes the political theories and movements associated with such systems. Social ownership can be public, collective, cooperative, or of equity. While no single definition encapsulates the many types of socialism, social ownership is the one common element."
+        }
+      ]
+    },
+    {
+      "predicate": "left-right-spectrum",
+      "entry": [
+        {
+          "value": "far-left",
+          "expanded": "Far-left",
+          "description": "There are different definitions of the far-left. It could represent the left of social democraty, or also limited to the left of communist parties. Sometimes it is also associated with some forms of anarchism and communims, or groupsthat advocate for revolutionary anti-capitalism and anti-globalization."
+        },
+        {
+          "value": "centre-left",
+          "expanded": "Centre-left",
+          "description": "Also refered as moderate-left politics. Believes in working within the established systems to improve social justice. Promotes a degree of social equality that it believes is achievable through promoting equal opportunity. Emphasizes that the achievement of equality requires personal responsibility in areas in control by the individual person through their abilities and talents as well as social responsibility in areas outside control by the person in their abilities or talents."
+        },
+        {
+          "value": "radical-centre",
+          "expanded": "Radical centre",
+          "description": "The radical in the term refers to a willingness on the part of most radical centrists to call for fundamental reform of institutions.[ The centrism refers to a belief that genuine solutions require realism and pragmatism, not just idealism and emotion. Radical centrists borrow ideas from the left and the right, often melding them together."
+        },
+        {
+          "value": "centre-right",
+          "expanded": "Centre-right",
+          "description": "Also referred to as moderate-right politics. Ideologies characterised as centre-right include liberal conservatism and some variants of liberalism and Christian democracy, among others."
+        },
+        {
+          "value": "far-right",
+          "expanded": "Far-right",
+          "description": "Referred to as the extreme right or right-wing extremism. Are usually described as anti-communist, authoritarian, ultranationalist, and having nativist ideologies and tendencies. Today far-right politics include neo-fascism, neo-Nazism, the Third Position, the alt-right, racial supremacism, and other ideologies or organizations that feature aspects of ultranationalist, chauvinist, xenophobic, theocratic, racist, homophobic, transphobic, or reactionary views."
+        }
+      ]
+    }
+  ]
+}
