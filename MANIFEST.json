@@ -647,6 +647,11 @@
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
       "version": 10
+    },
+    {
+      "description": "The Unified Kill Chain is a refinement to the Kill Chain.",
+      "name": "unified-kill-chain",
+      "version": 1
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
