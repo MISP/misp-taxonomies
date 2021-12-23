@@ -4,7 +4,7 @@
 
 MISP Taxonomies is a set of common classification libraries to tag, classify and organise information. Taxonomy allows to express the same vocabulary among a distributed set of users and organisations.
 
-Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.
+Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.
 
 ![Overview of the MISP taxonomies](tools/docs/images/taxonomy-explanation.png)
 
@@ -181,6 +181,11 @@ Distributed Denial of Service - or short: DDoS - taxonomy supports the descripti
 
 [de-vs](https://github.com/MISP/misp-taxonomies/tree/main/de-vs) :
 German (DE) Government classification markings (VS). [Overview](https://www.misp-project.org/taxonomies.html#_de_vs)
+
+### deception
+
+[deception](https://github.com/MISP/misp-taxonomies/tree/main/deception) :
+Deception is an important component of information operations, valuable for both offense and defense.  [Overview](https://www.misp-project.org/taxonomies.html#_deception)
 
 ### dhs-ciip-sectors
 
@@ -387,6 +392,26 @@ Taxonomy to classify the information security data sources. [Overview](https://w
 [information-security-indicators](https://github.com/MISP/misp-taxonomies/tree/main/information-security-indicators) :
 A full set of operational indicators for organizations to use to benchmark their security posture. [Overview](https://www.misp-project.org/taxonomies.html#_information_security_indicators)
 
+### interactive-cyber-training-audience
+
+[interactive-cyber-training-audience](https://github.com/MISP/misp-taxonomies/tree/main/interactive-cyber-training-audience) :
+Describes the target of cyber training and education. [Overview](https://www.misp-project.org/taxonomies.html#_interactive_cyber_training_audience)
+
+### interactive-cyber-training-technical-setup
+
+[interactive-cyber-training-technical-setup](https://github.com/MISP/misp-taxonomies/tree/main/interactive-cyber-training-technical-setup) :
+The technical setup consists of environment structure, deployment, and orchestration. [Overview](https://www.misp-project.org/taxonomies.html#_interactive_cyber_training_technical_setup)
+
+### interactive-cyber-training-training-environment
+
+[interactive-cyber-training-training-environment](https://github.com/MISP/misp-taxonomies/tree/main/interactive-cyber-training-training-environment) :
+The training environment details the environment around the training, consisting of training type and scenario. [Overview](https://www.misp-project.org/taxonomies.html#_interactive_cyber_training_training_environment)
+
+### interactive-cyber-training-training-setup
+
+[interactive-cyber-training-training-setup](https://github.com/MISP/misp-taxonomies/tree/main/interactive-cyber-training-training-setup) :
+The training setup further describes the training itself with the scoring, roles, the training mode as well as the customization level. [Overview](https://www.misp-project.org/taxonomies.html#_interactive_cyber_training_training_setup)
+
 ### interception-method
 
 [interception-method](https://github.com/MISP/misp-taxonomies/tree/main/interception-method) :
@@ -502,6 +527,11 @@ Penetration test (pentest) classification. [Overview](https://www.misp-project.o
 [phishing](https://github.com/MISP/misp-taxonomies/tree/main/phishing) :
 Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status. [Overview](https://www.misp-project.org/taxonomies.html#_phishing)
 
+### political-spectrum
+
+[political-spectrum](https://github.com/MISP/misp-taxonomies/tree/main/political-spectrum) :
+political spectrum is a system to characterize and classify different political positions [Overview](https://www.misp-project.org/taxonomies.html#_political_spectrum)
+
 ### priority-level
 
 [priority-level](https://github.com/MISP/misp-taxonomies/tree/main/priority-level) :
@@ -601,6 +631,11 @@ The Indicator of Trust provides insight about data on what can be trusted and kn
 
 [type](https://github.com/MISP/misp-taxonomies/tree/main/type) :
 Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence. [Overview](https://www.misp-project.org/taxonomies.html#_type)
+
+### unified-kill-chain
+
+[unified-kill-chain](https://github.com/MISP/misp-taxonomies/tree/main/unified-kill-chain) :
+The Unified Kill Chain is a refinement to the Kill Chain. [Overview](https://www.misp-project.org/taxonomies.html#_unified_kill_chain)
 
 ### use-case-applicability
 
