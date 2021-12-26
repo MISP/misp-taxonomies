@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
-  "version": 10,
+  "version": 11,
   "predicates": [
     {
       "value": "todo",
@@ -115,19 +115,23 @@
       "entry": [
         {
           "value": "incomplete",
-          "expanded": "Incomplete means that the information tagged is incomplete and has potential to be completed by other analysts, technical processes or the current analysts performing the analysis"
+          "expanded": "Incomplete means that the information tagged is incomplete and has potential to be completed by other analysts, technical processes or the current analysts performing the analysis."
         },
         {
           "value": "complete",
-          "expanded": "Complete means that the information tagged reach a state of completeness with the current capabilities of the analyst"
+          "expanded": "Complete means that the information tagged reach a state of completeness with the current capabilities of the analyst."
         },
         {
           "value": "draft",
-          "expanded": "Draft means the information tagged can be released as a preliminary version or outline"
+          "expanded": "Draft means the information tagged can be released as a preliminary version or outline."
         },
         {
           "value": "ongoing",
           "expanded": "Analyst is currently working on this analysis. To remove when there is no more work to be done by the analyst."
+        },
+        {
+          "value": "rejected",
+          "expanded": "Analyst rejected the process. The object will not reach state of completeness."
         }
       ]
     }
