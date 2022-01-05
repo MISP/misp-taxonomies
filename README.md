@@ -4,7 +4,7 @@
 
 MISP Taxonomies is a set of common classification libraries to tag, classify and organise information. Taxonomy allows to express the same vocabulary among a distributed set of users and organisations.
 
-Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.
+Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) and other information sharing tool, are expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.
 
 ![Overview of the MISP taxonomies](tools/docs/images/taxonomy-explanation.png)
 
