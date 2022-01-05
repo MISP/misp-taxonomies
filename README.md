@@ -15,22 +15,22 @@ The following taxonomies can be used in MISP (as local or distributed tags) or i
 ### CERT-XLM
 
 [CERT-XLM](https://github.com/MISP/misp-taxonomies/tree/main/CERT-XLM) :
-CERT-XLM Security Incident Classification. [Overview](https://www.misp-project.org/taxonomies.html#_CERT_XLM)
+CERT-XLM Security Incident Classification. [Overview](https://www.misp-project.org/taxonomies.html#_cert_xlm)
 
 ### DFRLab-dichotomies-of-disinformation
 
 [DFRLab-dichotomies-of-disinformation](https://github.com/MISP/misp-taxonomies/tree/main/DFRLab-dichotomies-of-disinformation) :
-DFRLab Dichotomies of Disinformation. [Overview](https://www.misp-project.org/taxonomies.html#_DFRLab_dichotomies_of_disinformation)
+DFRLab Dichotomies of Disinformation. [Overview](https://www.misp-project.org/taxonomies.html#_dfrlab_dichotomies_of_disinformation)
 
 ### DML
 
 [DML](https://github.com/MISP/misp-taxonomies/tree/main/DML) :
-The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program. [Overview](https://www.misp-project.org/taxonomies.html#_DML)
+The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program. [Overview](https://www.misp-project.org/taxonomies.html#_dml)
 
 ### PAP
 
 [PAP](https://github.com/MISP/misp-taxonomies/tree/main/PAP) :
-The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used. [Overview](https://www.misp-project.org/taxonomies.html#_PAP)
+The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used. [Overview](https://www.misp-project.org/taxonomies.html#_pap)
 
 ### access-method
 
