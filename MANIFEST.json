@@ -519,7 +519,7 @@
       "version": 5
     },
     {
-      "description": "political spectrum is a system to characterize and classify different political positions",
+      "description": "A political spectrum is a system to characterize and classify different political positions in relation to one another.",
       "name": "political-spectrum",
       "version": 1
     },
@@ -624,6 +624,11 @@
       "version": 1
     },
     {
+      "description": "The Unified Kill Chain is a refinement to the Kill Chain.",
+      "name": "unified-kill-chain",
+      "version": 1
+    },
+    {
       "description": "The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems.",
       "name": "use-case-applicability",
       "version": 1
@@ -646,14 +651,9 @@
     {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
-      "version": 10
-    },
-    {
-      "description": "The Unified Kill Chain is a refinement to the Kill Chain.",
-      "name": "unified-kill-chain",
-      "version": 1
+      "version": 11
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20211215"
+  "version": "20220106"
 }
