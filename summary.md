@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2021-04-13
+- Generation date: 2022-01-22
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -229,7 +229,7 @@
     - level-1
 ### course-of-action
 - description: A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.
-- version: 1
+- version: 2
 - Predicates
     - passive
     - active
@@ -317,7 +317,7 @@
     - action
 ### dark-web
 - description: Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project
-- version: 3
+- version: 4
 - Predicates
     - topic
     - motivation
@@ -347,6 +347,17 @@
 - Predicates
     - Einstufung
     - Schutzwort
+### deception
+- description: Deception is an important component of information operations, valuable for both offense and defense. 
+- version: 1
+- Predicates
+    - space
+    - time
+    - participant
+    - causality
+    - quality
+    - essence
+    - speech-act-theory
 ### dhs-ciip-sectors
 - description: DHS critical sectors as in https://www.dhs.gov/critical-infrastructure-sectors
 - version: 2
@@ -375,8 +386,8 @@
     - nonuscontrols
     - dissem
 ### domain-abuse
-- description: Domain Name Abuse - taxonomy to tag domain names used for cybercrime. Use europol-incident to tag abuse-activity
-- version: 1
+- description: Domain Name Abuse - taxonomy to tag domain names used for cybercrime.
+- version: 2
 - Predicates
     - domain-status
     - domain-access-method
@@ -549,7 +560,7 @@
     - event-class
 ### exercise
 - description: Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.
-- version: 8
+- version: 10
 - Predicates
     - cyber-europe
     - cyber-storm
@@ -600,11 +611,11 @@
     - anonymous-data
 ### fr-classif
 - description: French gov information classification system
-- version: 3
+- version: 6
 - Predicates
-    - classifiees-defense
-    - non-classifiees-defense
+    - classifiees
     - non-classifiees
+    - special-france
 ### gdpr
 - description: Taxonomy related to the REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
 - version: 0
@@ -836,6 +847,35 @@
     - VTC
     - VOR
     - IMP
+### interactive-cyber-training-audience
+- description: Describes the target of cyber training and education.
+- version: 1
+- Predicates
+    - sector
+    - purpose
+    - proficiency-level
+    - target-audience
+### interactive-cyber-training-technical-setup
+- description: The technical setup consists of environment structure, deployment, and orchestration.
+- version: 1
+- Predicates
+    - environment-structure
+    - deployment
+    - orchestration
+### interactive-cyber-training-training-environment
+- description: The training environment details the environment around the training, consisting of training type and scenario.
+- version: 1
+- Predicates
+    - training-type
+    - scenario
+### interactive-cyber-training-training-setup
+- description: The training setup further describes the training itself with the scoring, roles, the training mode as well as the customization level.
+- version: 1
+- Predicates
+    - scoring
+    - roles
+    - training-mode
+    - customization-level
 ### interception-method
 - description: The interception method used to intercept traffic.
 - version: 1
@@ -929,8 +969,8 @@
     - should-not-sync
     - tool
     - misp2yara
-    - ids
     - event-type
+    - ids
 ### monarc-threat
 - description: MONARC Threats Taxonomy
 - version: 1
@@ -1015,7 +1055,7 @@
     - vulnerability
 ### phishing
 - description: Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.
-- version: 4
+- version: 5
 - Predicates
     - techniques
     - distribution
@@ -1025,6 +1065,12 @@
     - state
     - psychological-acceptability
     - principle-of-persuasion
+### political-spectrum
+- description: A political spectrum is a system to characterize and classify different political positions in relation to one another.
+- version: 1
+- Predicates
+    - ideology
+    - left-right-spectrum
 ### priority-level
 - description: After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System.
 - version: 2
@@ -1065,7 +1111,7 @@
     - 10y
 ### rsit
 - description: Reference Security Incident Classification Taxonomy
-- version: 1002
+- version: 1003
 - Predicates
     - abusive-content
     - malicious-code
@@ -1143,6 +1189,20 @@
     - natural-and-social-phenomena
     - third-party-failures
     - malicious-actions
+### state-responsibility
+- description: A spectrum of state responsibility to more directly tie the goals of attribution to the needs of policymakers.
+- version: 1
+- Predicates
+    - state-prohibited.
+    - state-prohibited-but-inadequate.
+    - state-ignored
+    - state-encouraged
+    - state-shaped
+    - state-coordinated
+    - state-ordered
+    - state-rogue-conducted
+    - state-executed
+    - state-integrated
 ### stealth_malware
 - description: Classification based on malware stealth techniques. Described in https://vxheaven.org/lib/pdf/Introducing%20Stealth%20Malware%20Taxonomy.pdf
 - version: 1
@@ -1159,9 +1219,21 @@
 - Predicates
     - targeting-sophistication-base-value
     - technical-sophistication-multiplier
-### ThreatMatch
+### thales_group
+- description: Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.
+- version: 2
+- Predicates
+    - distribution
+    - to_block
+    - minarm
+    - acn
+    - sigpart
+    - ioc_confidence
+    - tlp:black
+    - Watcher
+### threatmatch
 - description: The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.
-- version: 1
+- version: 3
 - Predicates
     - sector
     - incident-type
@@ -1210,6 +1282,13 @@
     - IMINT
     - MASINT
     - FININT
+### unified-kill-chain
+- description: The Unified Kill Chain is a refinement to the Kill Chain.
+- version: 1
+- Predicates
+    - Initial Foothold
+    - Network Propagation
+    - Action on Objectives
 ### use-case-applicability
 - description: The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems.
 - version: 1
@@ -1289,9 +1368,9 @@
 - description: VMRay taxonomies to map VMRay Thread Identifier scores and artifacts.
 - version: 1
 - Predicates
-    - artifact
     - verdict
     - vti_analysis_score
+    - artifact
 ### vocabulaire-des-probabilites-estimatives
 - description: Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité
 - version: 3
@@ -1299,7 +1378,7 @@
     - degré-de-probabilité
 ### workflow
 - description: Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.
-- version: 10
+- version: 11
 - Predicates
     - todo
     - state

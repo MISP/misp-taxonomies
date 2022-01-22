@@ -530,7 +530,7 @@ Taxonomy to classify phishing attacks including techniques, collection mechanism
 ### political-spectrum
 
 [political-spectrum](https://github.com/MISP/misp-taxonomies/tree/main/political-spectrum) :
-political spectrum is a system to characterize and classify different political positions [Overview](https://www.misp-project.org/taxonomies.html#_political_spectrum)
+A political spectrum is a system to characterize and classify different political positions in relation to one another. [Overview](https://www.misp-project.org/taxonomies.html#_political_spectrum)
 
 ### priority-level
 
@@ -581,6 +581,11 @@ Sampling stations of the Scripps CO2 Program [Overview](https://www.misp-project
 
 [smart-airports-threats](https://github.com/MISP/misp-taxonomies/tree/main/smart-airports-threats) :
 Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports [Overview](https://www.misp-project.org/taxonomies.html#_smart_airports_threats)
+
+### state-responsibility
+
+[state-responsibility](https://github.com/MISP/misp-taxonomies/tree/main/state-responsibility) :
+A spectrum of state responsibility to more directly tie the goals of attribution to the needs of policymakers. [Overview](https://www.misp-project.org/taxonomies.html#_state_responsibility)
 
 ### stealth_malware
 

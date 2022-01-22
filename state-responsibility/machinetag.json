@@ -1,0 +1,61 @@
+{
+  "predicates": [
+    {
+      "description": "The national government will help stop the third-party attack, which may originate from its territory or merely be transiting through its networks. This responsibility is the most passive on the scale: though the government is cooperating, it still has some small share of responsibility for the insecure systems involved in the attack. In reality, nations cannot ensure the proper behavior of the tens or hundreds of millions of computers in their borders at all times.",
+      "expanded": "State-prohibited.",
+      "value": "state-prohibited."
+    },
+    {
+      "description": "The national government is cooperative and would stop the third-party attack but is unable to do so. The country might lack the proper laws, procedures, technical tools, or political will to use them. Though the nation could itself be a victim, it bears some passive responsibility for the attack, both for being unable to stop it and for having insecure systems in the first place.",
+      "expanded": "State-prohibited-but-inadequate",
+      "value": "state-prohibited-but-inadequate."
+    },
+    {
+      "description": "The national government knows about the third-party attacks but, as a matter of policy, is unwilling to take any official action. A government may even agree with the goals and results of the attackers and tip them off to avoid being detected.",
+      "expanded": "State-ignored",
+      "value": "state-ignored"
+    },
+    {
+      "description": "Third parties control and conduct the attack, but the national government encourages them to continue as a matter of policy. This encouragement could include editorials in state-run press or leadership publicly agreeing with the goals of the attacks; members of government cyber offensive or intelligence organizations may be encouraged to undertake supportive recreational hacking while off duty. The nation is unlikely to be cooperative in any investigation and is likely to tip off the attackers",
+      "expanded": "State-encouraged",
+      "value": "state-encouraged"
+    },
+    {
+      "description": "Third parties control and conduct the attack, but the state provides some support, such as informal coordination between like-minded individuals in the government and the attacking group. To further their policy while retaining plausible deniability, the government may  encourage members of their cyber forces to undertake 'recreational hacking' while off duty.",
+      "expanded": "State-shaped",
+      "value": "state-shaped"
+    },
+    {
+      "description": "The national government coordinates the third-party attackers—usually out of public view—by 'suggesting' targets, timing, or other operational details. The government may also provide technical or tactical assistance. Similar to state-shaped attacks, the government may encourage its cyber forces to engage in recreational hacking during off hours",
+      "expanded": "State-coordinated",
+      "value": "state-coordinated"
+    },
+    {
+      "description": "The national government, as a matter of policy, directs third-party proxies to conduct the attack on its behalf. This is as “state-sponsored” as an attack can be, without direct attack from government cyber forces. Any attackers that are under state control could be considered to be de facto agents of the state under international law.",
+      "expanded": "State-ordered",
+      "value": "state-ordered"
+    },
+    {
+      "description": "Elements of cyber forces of the national government conduct the attack. In this case, however, they carry out attacks without the knowledge, or approval, of the national leadership, which may act to stop the attacks should they learn of them. For example, local units or junior officers could be taking the initiative to counterattack out of the senior officers sight. More worrisome, this category could include sophisticated and persistent attacks from large bureaucracies conducting attacks that are at odds with the national leadership. Based on current precedence, a state could likely be held responsible by international courts for such rogue attacks.",
+      "expanded": "State-rogue-conducted.",
+      "value": "state-rogue-conducted"
+    },
+    {
+      "description": "The national government, as a matter of policy, directly controls and conducts the attack using its own cyber forces",
+      "expanded": "State-executed",
+      "value": "state-executed"
+    },
+    {
+      "description": "The national government integrates third-party attackers and government cyber forces, with common command and control. Orders and coordination may be formal or informal, but the government is in control of selecting targets, timing, and tempo. The attackers are de facto agents of the state",
+      "expanded": "State-integrated",
+      "value": "state-integrated"
+    }
+  ],
+  "refs": [
+    "https://www.atlanticcouncil.org/wp-content/uploads/2012/02/022212_ACUS_NatlResponsibilityCyber.PDF"
+  ],
+  "version": 1,
+  "description": "A spectrum of state responsibility to more directly tie the goals of attribution to the needs of policymakers.",
+  "expanded": "The Spectrum of State Responsibility",
+  "namespace": "state-responsibility"
+}
