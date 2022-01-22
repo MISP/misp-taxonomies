@@ -574,6 +574,11 @@
       "version": 1
     },
     {
+      "description": "A spectrum of state responsibility to more directly tie the goals of attribution to the needs of policymakers.",
+      "name": "state-responsibility",
+      "version": 1
+    },
+    {
       "description": "Classification based on malware stealth techniques. Described in https://vxheaven.org/lib/pdf/Introducing%20Stealth%20Malware%20Taxonomy.pdf",
       "name": "stealth_malware",
       "version": 1
@@ -655,5 +660,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20220106"
+  "version": "20220122"
 }
