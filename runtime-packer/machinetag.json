@@ -1,6 +1,6 @@
 {
   "namespace": "runtime-packer",
-  "description": "Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.",
+  "description": "Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.",
   "version": 1,
   "predicates": [
     {
@@ -8,8 +8,16 @@
       "expanded": "Portable Executable (PE)"
     },
     {
+      "value": "dex",
+      "expanded": "Dalvik Executable (DEX)"
+    },
+    {
       "value": "elf",
-      "expanded": "ELF"
+      "expanded": "Executable Linkable Format (ELF)"
+    },
+    {
+      "value": "mach-o",
+      "expanded": "Mach-object (Mach-O)"
     },
     {
       "value": "cli-assembly",
@@ -25,6 +33,18 @@
           "expanded": ".netshrink"
         },
         {
+          "value": "alienyze",
+          "expanded": "Alienyze"
+        },
+        {
+          "value": "apack",
+          "expanded": "aPack"
+        },
+        {
+          "value": "apk-protect",
+          "expanded": "APK Protect"
+        },
+        {
           "value": "armadillo",
           "expanded": "Armadillo"
         },
@@ -37,12 +57,32 @@
           "expanded": "ASPR (ASProtect)"
         },
         {
+          "value": "autoit",
+          "expanded": "AutoIT"
+        },
+        {
+          "value": "bero",
+          "expanded": "BeRo EXE Packer"
+        },
+        {
           "value": "boxedapp-packer",
           "expanded": "BoxedApp Packer"
         },
         {
           "value": "cexe",
           "expanded": "CExe"
+        },
+        {
+          "value": "code-virtualizer",
+          "expanded": "Code Virtualizer"
+        },
+        {
+          "value": "dexguard",
+          "expanded": "DexGuard"
+        },
+        {
+          "value": "dexprotector",
+          "expanded": "DexProtector"
         },
         {
           "value": "dotbundle",
@@ -69,8 +109,16 @@
           "expanded": "FSG"
         },
         {
-          "value": "kkrunchy-src",
-          "expanded": "kkrunchy src"
+          "value": "gzexe",
+          "expanded": "GzExe"
+        },
+        {
+          "value": "kkrunchy",
+          "expanded": "Kkrunchy"
+        },
+        {
+          "value": "liapp",
+          "expanded": "LIAPP"
         },
         {
           "value": "mew",
@@ -81,12 +129,24 @@
           "expanded": "MPRESS"
         },
         {
+          "value": "nspack",
+          "expanded": "NSPack"
+        },
+        {
           "value": "obsidium",
           "expanded": "Obsidium"
         },
         {
+          "value": "pecompact",
+          "expanded": "PECompact"
+        },
+        {
           "value": "pelock",
           "expanded": "PELock"
+        },
+        {
+          "value": "peshield",
+          "expanded": "PEShield"
         },
         {
           "value": "pespin",
@@ -94,7 +154,7 @@
         },
         {
           "value": "petite",
-          "expanded": "Petite"
+          "expanded": "PEtite"
         },
         {
           "value": "rlpack-basic",
@@ -109,6 +169,10 @@
           "expanded": "Themida"
         },
         {
+          "value": "upack",
+          "expanded": "UPack"
+        },
+        {
           "value": "upx",
           "expanded": "UPX"
         },
@@ -119,6 +183,18 @@
         {
           "value": "xcomp-xpack",
           "expanded": "XComp/XPack"
+        },
+        {
+          "value": "yoda-crypter",
+          "expanded": "Yoda's Crypter"
+        },
+        {
+          "value": "yoda-protector",
+          "expanded": "Yoda's Protector"
+        },
+        {
+          "value": "zprotect",
+          "expanded": "ZProtect"
         }
       ]
     }
