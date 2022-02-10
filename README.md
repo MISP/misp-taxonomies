@@ -560,7 +560,7 @@ Status of events used in Request Tracker. [Overview](https://www.misp-project.or
 ### runtime-packer
 
 [runtime-packer](https://github.com/MISP/misp-taxonomies/tree/main/runtime-packer) :
-Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries. [Overview](https://www.misp-project.org/taxonomies.html#_runtime_packer)
+Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries. [Overview](https://www.misp-project.org/taxonomies.html#_runtime_packer)
 
 ### scrippsco2-fgc
 
@@ -581,6 +581,11 @@ Sampling stations of the Scripps CO2 Program [Overview](https://www.misp-project
 
 [smart-airports-threats](https://github.com/MISP/misp-taxonomies/tree/main/smart-airports-threats) :
 Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports [Overview](https://www.misp-project.org/taxonomies.html#_smart_airports_threats)
+
+### social-engineering-attack-vectors
+
+[social-engineering-attack-vectors](https://github.com/MISP/misp-taxonomies/tree/main/social-engineering-attack-vectors) :
+Attack vectors used in social engineering as described in 'A Taxonomy of Social Engineering Defense Mechanisms' by Dalal Alharthi and others. [Overview](https://www.misp-project.org/taxonomies.html#_social_engineering_attack_vectors)
 
 ### state-responsibility
 
@@ -661,6 +666,11 @@ VMRay taxonomies to map VMRay Thread Identifier scores and artifacts. [Overview]
 
 [vocabulaire-des-probabilites-estimatives](https://github.com/MISP/misp-taxonomies/tree/main/vocabulaire-des-probabilites-estimatives) :
 Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité [Overview](https://www.misp-project.org/taxonomies.html#_vocabulaire_des_probabilites_estimatives)
+
+### workflow
+
+[workflow](https://github.com/MISP/misp-taxonomies/tree/main/workflow) :
+Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information. [Overview](https://www.misp-project.org/taxonomies.html#_workflow)
 
 ### workflow
 
