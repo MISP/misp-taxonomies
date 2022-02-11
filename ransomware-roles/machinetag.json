@@ -1,0 +1,21 @@
+{
+  "namespace": "ransomware-roles",
+  "expanded": "Ransomware Actor Roles",
+  "description": "The seven roles seen in most ransomware incidents.",
+  "refs": [
+    "[TODO NIEUWSUUR]"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "1 - Initial Access Brokers",
+      "expanded": "1 - Initial Access Brokers",
+      "description": "Initial Access Brokers obtain the initial access to organizations. They monetize this access by offering it for sale to any actor."
+    },
+    {
+      "value": "2 - Ransomware Affiliates",
+      "expanded": "2 - Ransomware Affiliates",
+      "description": "Ransomware Affiliates obtain persistance. They reconnaissance the network of the victim, and make use of lateral movement and privilege escalation to move to points of interest. Once such points are found, ransomware is deployed."
+    }
+  ]
+}
