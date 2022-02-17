@@ -8,7 +8,7 @@ set -x
 diffs=`git status --porcelain | wc -l`
 
 if ! [ $diffs -eq 0 ]; then
-	echo "Please make sure you run ./jq_all_the_things.sh before commiting."
+	echo "Please make sure you run ./jq_all_the_things.sh before committing."
 	exit 1
 fi
 
