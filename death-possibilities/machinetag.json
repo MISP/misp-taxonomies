@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "namespace": "JODA",
+  "namespace": "death-possibilities",
   "description": "Taxonomy of Death Possibilities",
   "predicates": [
     {
