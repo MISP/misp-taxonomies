@@ -1,0 +1,4304 @@
+{
+  "version": 1,
+  "namespace": "death-possibilities",
+  "description": "Taxonomy of Death Possibilities",
+  "predicates": [
+    {
+      "value": "(001-009) Intestinal infectious diseases"
+    },
+    {
+      "value": "(010-018) Tuberculosis"
+    },
+    {
+      "value": "(020-027) Zoonotic bacterial diseases"
+    },
+    {
+      "value": "(030-041) Other bacterial diseases"
+    },
+    {
+      "value": "(042-042) Human immunodeficiency virus [HIV] infection"
+    },
+    {
+      "value": "(045-049) Poliomyelitis and other non-arthropod-borne viral diseases of central nervous system"
+    },
+    {
+      "value": "(050-057) Viral diseases accompanied by exanthem"
+    },
+    {
+      "value": "(060-066) Arthropod-borne viral diseases"
+    },
+    {
+      "value": "(070-079) Other diseases due to viruses and Chlamydiae"
+    },
+    {
+      "value": "(080-088) Rickettsioses and other arthropod-borne diseases"
+    },
+    {
+      "value": "(090-099) Syphilis and other venereal diseases"
+    },
+    {
+      "value": "(100-104) Other spirochaetal diseases"
+    },
+    {
+      "value": "(110-118) Mycoses"
+    },
+    {
+      "value": "(120-129) Helminthiases"
+    },
+    {
+      "value": "(130-136) Other infectious and parasitic diseases"
+    },
+    {
+      "value": "(137-139) Late effects of infectious and parasitic diseases"
+    },
+    {
+      "value": "(140-149) Malignant neoplasm of lip, oral cavity and pharynx"
+    },
+    {
+      "value": "(150-159) Malignant neoplasm of digestive organs and peritoneum"
+    },
+    {
+      "value": "(160-165) Malignant neoplasm of respiratory and intrathoracic organs"
+    },
+    {
+      "value": "(170-176) Malignant neoplasm of bone, connective tissue, skin and breast"
+    },
+    {
+      "value": "(179-189) Malignant neoplasm of genito-urinary organs"
+    },
+    {
+      "value": "(190-199) Malignant neoplasm of other and unspecified sites"
+    },
+    {
+      "value": "(200-208) Malignant neoplasm of lymphatic and haematopoietic tissue"
+    },
+    {
+      "value": "(210-229) Benign neoplasms"
+    },
+    {
+      "value": "(230-234) Carcinoma in situ"
+    },
+    {
+      "value": "(235-238) Neoplasms of uncertain behaviour"
+    },
+    {
+      "value": "(239-239) Neoplasms of unspecified nature"
+    },
+    {
+      "value": "(240-246) Disorders of thyroid gland"
+    },
+    {
+      "value": "(250-259) Diseases of other endocrine glands"
+    },
+    {
+      "value": "(260-269) Nutritional deficiencies"
+    },
+    {
+      "value": "(270-279) Other metabolic disorders and immunity disorders"
+    },
+    {
+      "value": "(280-289) Diseases of blood and blood-forming organs"
+    },
+    {
+      "value": "(290-294) Organic psychotic conditions"
+    },
+    {
+      "value": "(295-299) Other psychoses"
+    },
+    {
+      "value": "(300-316) Neurotic disorders, personality disorders and other nonpsychotic mental disorders"
+    },
+    {
+      "value": "(317-319) Mental retardation"
+    },
+    {
+      "value": "(320-326) Inflammatory diseases of the central nervous system"
+    },
+    {
+      "value": "(330-337) Hereditary and degenerative diseases of the central nervous system"
+    },
+    {
+      "value": "(340-349) Other disorders of the central nervous system"
+    },
+    {
+      "value": "(350-359) Disorders of the peripheral nervous system"
+    },
+    {
+      "value": "(360-379) Disorders of the eye and adnexa"
+    },
+    {
+      "value": "(380-389) Diseases of the ear and mastoid process"
+    },
+    {
+      "value": "(390-392) Acute rheumatic fever"
+    },
+    {
+      "value": "(393-398) Chronic rheumatic heart disease"
+    },
+    {
+      "value": "(401-405) Hypertensive disease"
+    },
+    {
+      "value": "(410-414) Ischaemic heart disease"
+    },
+    {
+      "value": "(415-417) Diseases of pulmonary circulation"
+    },
+    {
+      "value": "(420-429) Other forms of heart disease"
+    },
+    {
+      "value": "(430-438) Cerebrovascular disease"
+    },
+    {
+      "value": "(440-448) Diseases of arteries, arterioles and capillaries"
+    },
+    {
+      "value": "(451-459) Diseases of veins and lymphatics, and other diseases of circulatory system"
+    },
+    {
+      "value": "(460-466) Acute respiratory infections"
+    },
+    {
+      "value": "(470-478) Other diseases of upper respiratory tract"
+    },
+    {
+      "value": "(480-487) Pneumonia and influenza"
+    },
+    {
+      "value": "(490-496) Chronic obstructive pulmonary disease and allied conditions"
+    },
+    {
+      "value": "(500-508) Pneumoconioses and other lung diseases due to external agents"
+    },
+    {
+      "value": "(510-519) Other diseases of respiratory system"
+    },
+    {
+      "value": "(520-529) Diseases of oral cavity, salivary glands and jaws"
+    },
+    {
+      "value": "(530-537) Diseases of oesophagus, stomach and duodenum"
+    },
+    {
+      "value": "(540-543) Appendicitis"
+    },
+    {
+      "value": "(550-553) Hernia of abdominal cavity"
+    },
+    {
+      "value": "(555-558) Non-infective enteritis and colitis"
+    },
+    {
+      "value": "(560-569) Other diseases of intestines and peritoneum"
+    },
+    {
+      "value": "(570-579) Other diseases of digestive system"
+    },
+    {
+      "value": "(580-589) Nephritis, nephrotic syndrome and nephrosis"
+    },
+    {
+      "value": "(590-599) Other diseases of urinary system"
+    },
+    {
+      "value": "(600-608) Diseases of male genital organs"
+    },
+    {
+      "value": "(610-611) Disorders of breast"
+    },
+    {
+      "value": "(614-616) Inflammatory disease of female pelvic organs"
+    },
+    {
+      "value": "(617-629) Other disorders of female genital tract"
+    },
+    {
+      "value": "(630-633) Ectopic and molar pregnancy"
+    },
+    {
+      "value": "(634-639) Other pregnancy with abortive outcome"
+    },
+    {
+      "value": "(640-648) Complications mainly related to pregnancy"
+    },
+    {
+      "value": "(650-659) Normal delivery and other indications for care in pregnancy, labour and delivery"
+    },
+    {
+      "value": "(660-669) Complications occurring mainly in the course of labour and delivery"
+    },
+    {
+      "value": "(670-677) Complications of the puerperium"
+    },
+    {
+      "value": "(680-686) Infections of skin and subcutaneous tissue"
+    },
+    {
+      "value": "(690-698) Other inflammatory conditions of skin and subcutaneous tissue"
+    },
+    {
+      "value": "(700-709) Other diseases of skin and subcutaneous tissue"
+    },
+    {
+      "value": "(710-719) Arthropathies and related disorders"
+    },
+    {
+      "value": "(720-724) Dorsopathies"
+    },
+    {
+      "value": "(725-729) Rheumatism, excluding the back"
+    },
+    {
+      "value": "(730-739) Osteopathies, chondropathies and acquired musculoskeletal deformities"
+    },
+    {
+      "value": "(740-759) Congenital anomalies"
+    },
+    {
+      "value": "(760-763) Maternal causes of perinatal morbidity and mortality"
+    },
+    {
+      "value": "(764-779) Other conditions originating in the perinatal period"
+    },
+    {
+      "value": "(780-789) Symptoms"
+    },
+    {
+      "value": "(790-796) Nonspecific abnormal findings"
+    },
+    {
+      "value": "(797-799) Ill-defined and unknown causes of morbidity and mortality"
+    },
+    {
+      "value": "(800-804) Fracture of skull"
+    },
+    {
+      "value": "(805-809) Fracture of neck and trunk"
+    },
+    {
+      "value": "(810-819) Fracture of upper limb"
+    },
+    {
+      "value": "(820-829) Fracture of lower limb"
+    },
+    {
+      "value": "(830-839) Dislocation"
+    },
+    {
+      "value": "(840-848) Sprains and strains of joints and adjacent muscles"
+    },
+    {
+      "value": "(850-854) Intracranial injury, excluding those with skull fracture"
+    },
+    {
+      "value": "(860-869) Internal injury of chest, abdomen and pelvis"
+    },
+    {
+      "value": "(870-879) Open wound of head, neck and trunk"
+    },
+    {
+      "value": "(880-887) Open wound of upper limb"
+    },
+    {
+      "value": "(890-897) Open wound of lower limb"
+    },
+    {
+      "value": "(900-904) Injury to blood vessels"
+    },
+    {
+      "value": "(905-909) Late effects of injuries, poisonings, toxic effects and other external causes"
+    },
+    {
+      "value": "(910-919) Superficial injury"
+    },
+    {
+      "value": "(920-924) Contusion with intact skin surface"
+    },
+    {
+      "value": "(925-929) Crushing injury"
+    },
+    {
+      "value": "(930-939) Effects of foreign body entering through orifice"
+    },
+    {
+      "value": "(940-949) Burns"
+    },
+    {
+      "value": "(950-957) Injury to nerves and spinal cord"
+    },
+    {
+      "value": "(958-959) Certain traumatic complications and unspecified injuries"
+    },
+    {
+      "value": "(960-979) Poisoning by drugs, medicaments and biological substances"
+    },
+    {
+      "value": "(980-989) Toxic effects of substances chiefly nonmedicinal as to source"
+    },
+    {
+      "value": "(990-995) Other and unspecified effects of external causes"
+    },
+    {
+      "value": "(996-999) Complications of surgical and medical care, not elsewhere classified"
+    },
+    {
+      "value": "(E800-E807) Railway accidents"
+    },
+    {
+      "value": "(E810-E819) Motor vehicle traffic accidents"
+    },
+    {
+      "value": "(E820-E825) Motor vehicle nontraffic accidents"
+    },
+    {
+      "value": "(E826-E829) Other road vehicle accidents"
+    },
+    {
+      "value": "(E830-E838) Water transport accidents"
+    },
+    {
+      "value": "(E840-E845) Air and space transport accidents"
+    },
+    {
+      "value": "(E846-E848) Vehicle accidents not elsewhere classifiable"
+    },
+    {
+      "value": "(E849-E858) Accidental poisoning by drugs, medicaments and biologicals"
+    },
+    {
+      "value": "(E860-E869) Accidental poisoning by other solid and liquid substances, gases and vapours"
+    },
+    {
+      "value": "(E870-E876) Misadventures to patients during surgical and medical care"
+    },
+    {
+      "value": "(E878-E879) Surgical and medical procedures as the cause of abnormal reaction of patient or later complication, without mention of misadventure at the time of procedure"
+    },
+    {
+      "value": "(E880-E888) Accidental falls"
+    },
+    {
+      "value": "(E890-E899) Accidents caused by fire and flames"
+    },
+    {
+      "value": "(E900-E909) Accidents due to natural and environmental factors"
+    },
+    {
+      "value": "(E910-E915) Accidents caused by submersion, suffocation and foreign bodies"
+    },
+    {
+      "value": "(E916-E928) Other accidents"
+    },
+    {
+      "value": "(E929-E929) Late effects of accidental injury"
+    },
+    {
+      "value": "(E930-E949) Drugs, medicaments and biological substances causing adverse effects in therapeutic use"
+    },
+    {
+      "value": "(E950-E959) Suicide and self-inflicted injury"
+    },
+    {
+      "value": "(E960-E969) Homicide and injury purposely inflicted by other persons"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "(001-009) Intestinal infectious diseases",
+      "entry": [
+        {
+          "value": "001 Cholera"
+        },
+        {
+          "value": "002 Typhoid and paratyphoid fevers"
+        },
+        {
+          "value": "003 Other Salmonella infections"
+        },
+        {
+          "value": "004 Shigellosis"
+        },
+        {
+          "value": "005 Other food poisoning (bacterial)"
+        },
+        {
+          "value": "006 Amoebiasis"
+        },
+        {
+          "value": "007 Other protozoal intestinal diseases"
+        },
+        {
+          "value": "008 Intestinal infections due to other organisms"
+        },
+        {
+          "value": "009 Ill-defined intestinal infections"
+        }
+      ]
+    },
+    {
+      "predicate": "(010-018) Tuberculosis",
+      "entry": [
+        {
+          "value": "010 Primary tuberculous infection"
+        },
+        {
+          "value": "011 Pulmonary tuberculosis"
+        },
+        {
+          "value": "012 Other respiratory tuberculosis"
+        },
+        {
+          "value": "013 Tuberculosis of meninges and central nervous system"
+        },
+        {
+          "value": "014 Tuberculosis of intestines, peritoneum and mesenteric glands"
+        },
+        {
+          "value": "015 Tuberculosis of bones and joints"
+        },
+        {
+          "value": "016 Tuberculosis of genito-urinary system"
+        },
+        {
+          "value": "017 Tuberculosis of other organs"
+        },
+        {
+          "value": "018 Miliary tuberculosis"
+        }
+      ]
+    },
+    {
+      "predicate": "(020-027) Zoonotic bacterial diseases",
+      "entry": [
+        {
+          "value": "020 Plague"
+        },
+        {
+          "value": "021 Tularaemia"
+        },
+        {
+          "value": "022 Anthrax"
+        },
+        {
+          "value": "023 Brucellosis"
+        },
+        {
+          "value": "024 Glanders"
+        },
+        {
+          "value": "025 Melioidosis"
+        },
+        {
+          "value": "026 Rat-bite fever"
+        },
+        {
+          "value": "027 Other zoonotic bacterial diseases"
+        }
+      ]
+    },
+    {
+      "predicate": "(030-041) Other bacterial diseases",
+      "entry": [
+        {
+          "value": "030 Leprosy"
+        },
+        {
+          "value": "031 Diseases due to other mycobacteria"
+        },
+        {
+          "value": "032 Diphtheria"
+        },
+        {
+          "value": "033 Whooping cough"
+        },
+        {
+          "value": "034 Streptococcal sore throat and scarlatina"
+        },
+        {
+          "value": "035 Erysipelas"
+        },
+        {
+          "value": "036 Meningococcal infection"
+        },
+        {
+          "value": "037 Tetanus"
+        },
+        {
+          "value": "038 Septicaemia"
+        },
+        {
+          "value": "039 Actinomycotic infections"
+        },
+        {
+          "value": "040 Other bacterial diseases"
+        },
+        {
+          "value": "041 Bacterial infection in conditions classified elsewhere and of unspecified site"
+        }
+      ]
+    },
+    {
+      "predicate": "(042-042) Human immunodeficiency virus [HIV] infection",
+      "entry": [
+        {
+          "value": "042 Human immunodeficiency virus [HIV] disease"
+        }
+      ]
+    },
+    {
+      "predicate": "(045-049) Poliomyelitis and other non-arthropod-borne viral diseases of central nervous system",
+      "entry": [
+        {
+          "value": "045 Acute poliomyelitis"
+        },
+        {
+          "value": "046 Slow virus infection of central nervous system"
+        },
+        {
+          "value": "047 Meningitis due to enterovirus"
+        },
+        {
+          "value": "048 Other enterovirus diseases of central nervous system"
+        },
+        {
+          "value": "049 Other non-arthropod-borne viral diseases of central nervous system"
+        }
+      ]
+    },
+    {
+      "predicate": "(050-057) Viral diseases accompanied by exanthem",
+      "entry": [
+        {
+          "value": "050 Smallpox"
+        },
+        {
+          "value": "051 Cowpox and paravaccinia"
+        },
+        {
+          "value": "052 Chickenpox"
+        },
+        {
+          "value": "053 Herpes zoster"
+        },
+        {
+          "value": "054 Herpes simplex"
+        },
+        {
+          "value": "055 Measles"
+        },
+        {
+          "value": "056 Rubella"
+        },
+        {
+          "value": "057 Other viral exanthemata"
+        }
+      ]
+    },
+    {
+      "predicate": "(060-066) Arthropod-borne viral diseases",
+      "entry": [
+        {
+          "value": "060 Yellow fever"
+        },
+        {
+          "value": "061 Dengue"
+        },
+        {
+          "value": "062 Mosquito-borne viral encephalitis"
+        },
+        {
+          "value": "063 Tick-borne viral encephalitis"
+        },
+        {
+          "value": "064 Viral encephalitis transmitted by other and unspecified arthropods"
+        },
+        {
+          "value": "065 Arthropod-borne haemorrhagic fever"
+        },
+        {
+          "value": "066 Other arthropod-borne viral diseases"
+        }
+      ]
+    },
+    {
+      "predicate": "(070-079) Other diseases due to viruses and Chlamydiae",
+      "entry": [
+        {
+          "value": "070 Viral hepatitis"
+        },
+        {
+          "value": "071 Rabies"
+        },
+        {
+          "value": "072 Mumps"
+        },
+        {
+          "value": "073 Ornithosis"
+        },
+        {
+          "value": "074 Specific diseases due to Coxsackie virus"
+        },
+        {
+          "value": "075 Infectious mononucleosis"
+        },
+        {
+          "value": "076 Trachoma"
+        },
+        {
+          "value": "077 Other diseases of conjunctiva due to viruses and Chlamydiae"
+        },
+        {
+          "value": "078 Other diseases due to viruses and Chlamydiae"
+        },
+        {
+          "value": "079 Viral and chlamydial infection in conditions classified elsewhere and of unspecified site"
+        }
+      ]
+    },
+    {
+      "predicate": "(080-088) Rickettsioses and other arthropod-borne diseases",
+      "entry": [
+        {
+          "value": "080 Louse-borne [epidemic] typhus"
+        },
+        {
+          "value": "081 Other typhus"
+        },
+        {
+          "value": "082 Tick-borne rickettsioses"
+        },
+        {
+          "value": "083 Other rickettsioses"
+        },
+        {
+          "value": "084 Malaria"
+        },
+        {
+          "value": "085 Leishmaniasis"
+        },
+        {
+          "value": "086 Trypanosomiasis"
+        },
+        {
+          "value": "087 Relapsing fever"
+        },
+        {
+          "value": "088 Other arthropod-borne diseases"
+        }
+      ]
+    },
+    {
+      "predicate": "(090-099) Syphilis and other venereal diseases",
+      "entry": [
+        {
+          "value": "090 Congenital syphilis"
+        },
+        {
+          "value": "091 Early syphilis, symptomatic"
+        },
+        {
+          "value": "092 Early syphilis, latent"
+        },
+        {
+          "value": "093 Cardiovascular syphilis"
+        },
+        {
+          "value": "094 Neurosyphilis"
+        },
+        {
+          "value": "095 Other forms of late syphilis, with symptoms"
+        },
+        {
+          "value": "096 Late syphilis, latent"
+        },
+        {
+          "value": "097 Other and unspecified syphilis"
+        },
+        {
+          "value": "098 Gonococcal infections"
+        },
+        {
+          "value": "099 Other venereal diseases"
+        }
+      ]
+    },
+    {
+      "predicate": "(100-104) Other spirochaetal diseases",
+      "entry": [
+        {
+          "value": "100 Leptospirosis"
+        },
+        {
+          "value": "101 Vincent's angina"
+        },
+        {
+          "value": "102 Yaws"
+        },
+        {
+          "value": "103 Pinta"
+        },
+        {
+          "value": "104 Other spirochaetal infection"
+        }
+      ]
+    },
+    {
+      "predicate": "(110-118) Mycoses",
+      "entry": [
+        {
+          "value": "110 Dermatophytosis"
+        },
+        {
+          "value": "111 Dermatomycosis, other and unspecified"
+        },
+        {
+          "value": "112 Candidiasis"
+        },
+        {
+          "value": "113 Actinomycosis"
+        },
+        {
+          "value": "114 Coccidioidomycosis"
+        },
+        {
+          "value": "115 Histoplasmosis"
+        },
+        {
+          "value": "116 Blastomycotic infection"
+        },
+        {
+          "value": "117 Other mycoses"
+        },
+        {
+          "value": "118 Opportunistic mycoses"
+        }
+      ]
+    },
+    {
+      "predicate": "(120-129) Helminthiases",
+      "entry": [
+        {
+          "value": "120 Schistosomiasis [bilharziasis]"
+        },
+        {
+          "value": "121 Other trematode infections"
+        },
+        {
+          "value": "122 Echinococcosis"
+        },
+        {
+          "value": "123 Other cestode infection"
+        },
+        {
+          "value": "124 Trichinosis"
+        },
+        {
+          "value": "125 Filarial infection and dracontiasis"
+        },
+        {
+          "value": "126 Ankylostomiasis and necatoriasis"
+        },
+        {
+          "value": "127 Other intestinal helminthiases"
+        },
+        {
+          "value": "128 Other and unspecified helminthiases"
+        },
+        {
+          "value": "129 Intestinal parasitism, unspecified"
+        }
+      ]
+    },
+    {
+      "predicate": "(130-136) Other infectious and parasitic diseases",
+      "entry": [
+        {
+          "value": "130 Toxoplasmosis"
+        },
+        {
+          "value": "131 Trichomoniasis"
+        },
+        {
+          "value": "132 Pediculosis and phthirus infestation"
+        },
+        {
+          "value": "133 Acariasis"
+        },
+        {
+          "value": "134 Other infestation"
+        },
+        {
+          "value": "135 Sarcoidosis"
+        },
+        {
+          "value": "136 Other and unspecified infectious and parasitic diseases"
+        }
+      ]
+    },
+    {
+      "predicate": "(137-139) Late effects of infectious and parasitic diseases",
+      "entry": [
+        {
+          "value": "137 Late effects of tuberculosis"
+        },
+        {
+          "value": "138 Late effects of acute poliomyelitis"
+        },
+        {
+          "value": "139 Late effects of other infectious and parasitic diseases"
+        }
+      ]
+    },
+    {
+      "predicate": "(140-149) Malignant neoplasm of lip, oral cavity and pharynx",
+      "entry": [
+        {
+          "value": "140 Malignant neoplasm of lip"
+        },
+        {
+          "value": "141 Malignant neoplasm of tongue"
+        },
+        {
+          "value": "142 Malignant neoplasm of major salivary glands"
+        },
+        {
+          "value": "143 Malignant neoplasm of gum"
+        },
+        {
+          "value": "144 Malignant neoplasm of floor of mouth"
+        },
+        {
+          "value": "145 Malignant neoplasm of other and unspecified parts of mouth"
+        },
+        {
+          "value": "146 Malignant neoplasm of oropharynx"
+        },
+        {
+          "value": "147 Malignant neoplasm of nasopharynx"
+        },
+        {
+          "value": "148 Malignant neoplasm of hypopharynx"
+        },
+        {
+          "value": "149 Malignant neoplasm of other and ill-defined sites within the lip, oral cavity and pharynx"
+        }
+      ]
+    },
+    {
+      "predicate": "(150-159) Malignant neoplasm of digestive organs and peritoneum",
+      "entry": [
+        {
+          "value": "150 Malignant neoplasm of oesophagus"
+        },
+        {
+          "value": "151 Malignant neoplasm of stomach"
+        },
+        {
+          "value": "152 Malignant neoplasm of small intestine, including duodenum"
+        },
+        {
+          "value": "153 Malignant neoplasm of colon"
+        },
+        {
+          "value": "154 Malignant neoplasm of rectum, rectosigmoid junction and anus"
+        },
+        {
+          "value": "155 Malignant neoplasm of liver and intrahepatic bile ducts"
+        },
+        {
+          "value": "156 Malignant neoplasm of gallbladder and extrahepatic bile ducts"
+        },
+        {
+          "value": "157 Malignant neoplasm of pancreas"
+        },
+        {
+          "value": "158 Malignant neoplasm of retroperitoneum and peritoneum"
+        },
+        {
+          "value": "159 Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum"
+        }
+      ]
+    },
+    {
+      "predicate": "(160-165) Malignant neoplasm of respiratory and intrathoracic organs",
+      "entry": [
+        {
+          "value": "160 Malignant neoplasm of nasal cavities, middle ear and accessory sinuses"
+        },
+        {
+          "value": "161 Malignant neoplasm of larynx"
+        },
+        {
+          "value": "162 Malignant neoplasm of trachea, bronchus and lung"
+        },
+        {
+          "value": "163 Malignant neoplasm of pleura"
+        },
+        {
+          "value": "164 Malignant neoplasm of thymus, heart and mediastinum"
+        },
+        {
+          "value": "165 Malignant neoplasm of other and ill-defined sites within the respiratory system and intrathoracic organs"
+        }
+      ]
+    },
+    {
+      "predicate": "(170-176) Malignant neoplasm of bone, connective tissue, skin and breast",
+      "entry": [
+        {
+          "value": "170 Malignant neoplasm of bone and articular cartilage"
+        },
+        {
+          "value": "171 Malignant neoplasm of connective and other soft tissue"
+        },
+        {
+          "value": "172 Malignant melanoma of skin"
+        },
+        {
+          "value": "173 Other malignant neoplasm of skin"
+        },
+        {
+          "value": "174 Malignant neoplasm of female breast"
+        },
+        {
+          "value": "175 Malignant neoplasm of male breast"
+        },
+        {
+          "value": "176 Kaposi's sarcoma"
+        }
+      ]
+    },
+    {
+      "predicate": "(179-189) Malignant neoplasm of genito-urinary organs",
+      "entry": [
+        {
+          "value": "179 Malignant neoplasm of uterus, part unspecified"
+        },
+        {
+          "value": "180 Malignant neoplasm of cervix uteri"
+        },
+        {
+          "value": "181 Malignant neoplasm of placenta"
+        },
+        {
+          "value": "182 Malignant neoplasm of body of uterus"
+        },
+        {
+          "value": "183 Malignant neoplasm of ovary and other uterine adnexa"
+        },
+        {
+          "value": "184 Malignant neoplasm of other and unspecified female genital organs"
+        },
+        {
+          "value": "185 Malignant neoplasm of prostate"
+        },
+        {
+          "value": "186 Malignant neoplasm of testis"
+        },
+        {
+          "value": "187 Malignant neoplasm of penis and other male genital organs"
+        },
+        {
+          "value": "188 Malignant neoplasm of bladder"
+        },
+        {
+          "value": "189 Malignant neoplasm of kidney and other and unspecified urinary organs"
+        }
+      ]
+    },
+    {
+      "predicate": "(190-199) Malignant neoplasm of other and unspecified sites",
+      "entry": [
+        {
+          "value": "190 Malignant neoplasm of eye"
+        },
+        {
+          "value": "191 Malignant neoplasm of brain"
+        },
+        {
+          "value": "192 Malignant neoplasm of other and unspecified parts of nervous system"
+        },
+        {
+          "value": "193 Malignant neoplasm of thyroid gland"
+        },
+        {
+          "value": "194 Malignant neoplasm of other endocrine glands and related structures"
+        },
+        {
+          "value": "195 Malignant neoplasm of other and ill-defined sites"
+        },
+        {
+          "value": "196 Secondary and unspecified malignant neoplasm of lymph nodes"
+        },
+        {
+          "value": "197 Secondary malignant neoplasm of respiratory and digestive systems"
+        },
+        {
+          "value": "198 Secondary malignant neoplasm of other specified sites"
+        },
+        {
+          "value": "199 Malignant neoplasm without specification of site"
+        }
+      ]
+    },
+    {
+      "predicate": "(200-208) Malignant neoplasm of lymphatic and haematopoietic tissue",
+      "entry": [
+        {
+          "value": "200 Lymphosarcoma and reticulosarcoma"
+        },
+        {
+          "value": "201 Hodgkin's disease"
+        },
+        {
+          "value": "202 Other malignant neoplasm of lymphoid and histiocytic tissue"
+        },
+        {
+          "value": "203 Multiple myeloma and immunoproliferative neoplasms"
+        },
+        {
+          "value": "204 Lymphoid leukaemia"
+        },
+        {
+          "value": "205 Myeloid leukaemia"
+        },
+        {
+          "value": "206 Monocytic leukaemia"
+        },
+        {
+          "value": "207 Other specified leukaemia"
+        },
+        {
+          "value": "208 Leukaemia of unspecified cell type"
+        }
+      ]
+    },
+    {
+      "predicate": "(210-229) Benign neoplasms",
+      "entry": [
+        {
+          "value": "210 Benign neoplasm of lip, oral cavity and pharynx"
+        },
+        {
+          "value": "211 Benign neoplasm of other parts of digestive system"
+        },
+        {
+          "value": "212 Benign neoplasm of respiratory and intrathoracic organs"
+        },
+        {
+          "value": "213 Benign neoplasm of bone and articular cartilage"
+        },
+        {
+          "value": "214 Lipoma"
+        },
+        {
+          "value": "215 Other benign neoplasm of connective and other soft tissue"
+        },
+        {
+          "value": "216 Benign neoplasm of skin"
+        },
+        {
+          "value": "217 Benign neoplasm of breast"
+        },
+        {
+          "value": "218 Uterine leiomyoma"
+        },
+        {
+          "value": "219 Other benign neoplasm of uterus"
+        },
+        {
+          "value": "220 Benign neoplasm of ovary"
+        },
+        {
+          "value": "221 Benign neoplasm of other female genital organs"
+        },
+        {
+          "value": "222 Benign neoplasm of male genital organs"
+        },
+        {
+          "value": "223 Benign neoplasm of kidney and other urinary organs"
+        },
+        {
+          "value": "224 Benign neoplasm of eye"
+        },
+        {
+          "value": "225 Benign neoplasm of brain and other parts of nervous system"
+        },
+        {
+          "value": "226 Benign neoplasm of thyroid gland"
+        },
+        {
+          "value": "227 Benign neoplasm of other endocrine glands and related structures"
+        },
+        {
+          "value": "228 Haemangioma and lymphangioma, any site"
+        },
+        {
+          "value": "229 Benign neoplasm of other and unspecified sites"
+        }
+      ]
+    },
+    {
+      "predicate": "(230-234) Carcinoma in situ",
+      "entry": [
+        {
+          "value": "230 Carcinoma in situ of digestive organs"
+        },
+        {
+          "value": "231 Carcinoma in situ of respiratory system"
+        },
+        {
+          "value": "232 Carcinoma in situ of skin"
+        },
+        {
+          "value": "233 Carcinoma in situ of breast and genito-urinary system"
+        },
+        {
+          "value": "234 Carcinoma in situ of other and unspecified sites"
+        }
+      ]
+    },
+    {
+      "predicate": "(235-238) Neoplasms of uncertain behaviour",
+      "entry": [
+        {
+          "value": "235 Neoplasm of uncertain behaviour of digestive and respiratory systems"
+        },
+        {
+          "value": "236 Neoplasm of uncertain behaviour of genito-urinary organs"
+        },
+        {
+          "value": "237 Neoplasm of uncertain behaviour of endocrine glands and nervous system"
+        },
+        {
+          "value": "238 Neoplasm of uncertain behaviour of other and unspecified sites and tissues"
+        }
+      ]
+    },
+    {
+      "predicate": "(239-239) Neoplasms of unspecified nature",
+      "entry": [
+        {
+          "value": "239 Neoplasm of unspecified nature"
+        }
+      ]
+    },
+    {
+      "predicate": "(240-246) Disorders of thyroid gland",
+      "entry": [
+        {
+          "value": "240 Simple and unspecified goitre"
+        },
+        {
+          "value": "241 Non-toxic nodular goitre"
+        },
+        {
+          "value": "242 Thyrotoxicosis with or without goitre"
+        },
+        {
+          "value": "243 Congenital hypothyroidism"
+        },
+        {
+          "value": "244 Acquired hypothyroidism"
+        },
+        {
+          "value": "245 Thyroiditis"
+        },
+        {
+          "value": "246 Other disorders of thyroid"
+        }
+      ]
+    },
+    {
+      "predicate": "(250-259) Diseases of other endocrine glands",
+      "entry": [
+        {
+          "value": "250 Diabetes mellitus"
+        },
+        {
+          "value": "251 Other disorders of pancreatic internal secretion"
+        },
+        {
+          "value": "252 Disorders of parathyroid gland"
+        },
+        {
+          "value": "253 Disorders of the pituitary gland and its hypothalamic control"
+        },
+        {
+          "value": "254 Diseases of thymus gland"
+        },
+        {
+          "value": "255 Disorders of adrenal glands"
+        },
+        {
+          "value": "256 Ovarian dysfunction"
+        },
+        {
+          "value": "257 Testicular dysfunction"
+        },
+        {
+          "value": "258 Polyglandular dysfunction and related disorders"
+        },
+        {
+          "value": "259 Other endocrine disorders"
+        }
+      ]
+    },
+    {
+      "predicate": "(260-269) Nutritional deficiencies",
+      "entry": [
+        {
+          "value": "260 Kwashiorkor"
+        },
+        {
+          "value": "261 Nutritional marasmus"
+        },
+        {
+          "value": "262 Other severe protein-calorie malnutrition"
+        },
+        {
+          "value": "263 Other and unspecified protein-calorie malnutrition"
+        },
+        {
+          "value": "264 Vitamin A deficiency"
+        },
+        {
+          "value": "265 Thiamine and niacin deficiency states"
+        },
+        {
+          "value": "266 Deficiency of B-complex components"
+        },
+        {
+          "value": "267 Ascorbic acid deficiency"
+        },
+        {
+          "value": "268 Vitamin D deficiency"
+        },
+        {
+          "value": "269 Other nutritional deficiencies"
+        }
+      ]
+    },
+    {
+      "predicate": "(270-279) Other metabolic disorders and immunity disorders",
+      "entry": [
+        {
+          "value": "270 Disorders of amino-acid transport and metabolism"
+        },
+        {
+          "value": "271 Disorders of carbohydrate transport and metabolism"
+        },
+        {
+          "value": "272 Disorders of lipoid metabolism"
+        },
+        {
+          "value": "273 Disorders of plasma protein metabolism"
+        },
+        {
+          "value": "274 Gout"
+        },
+        {
+          "value": "275 Disorders of mineral metabolism"
+        },
+        {
+          "value": "276 Disorders of fluid, electrolyte and acid-base balance"
+        },
+        {
+          "value": "277 Other and unspecified disorders of metabolism"
+        },
+        {
+          "value": "278 Obesity and other hyperalimentation"
+        },
+        {
+          "value": "279 Disorders involving the immune mechanism"
+        }
+      ]
+    },
+    {
+      "predicate": "(280-289) Diseases of blood and blood-forming organs",
+      "entry": [
+        {
+          "value": "280 Iron deficiency anaemias"
+        },
+        {
+          "value": "281 Other deficiency anaemias"
+        },
+        {
+          "value": "282 Hereditary haemolytic anaemias"
+        },
+        {
+          "value": "283 Acquired haemolytic anaemias"
+        },
+        {
+          "value": "284 Aplastic anaemia"
+        },
+        {
+          "value": "285 Other and unspecified anaemias"
+        },
+        {
+          "value": "286 Coagulation defects"
+        },
+        {
+          "value": "287 Purpura and other haemorrhagic conditions"
+        },
+        {
+          "value": "288 Diseases of white blood cells"
+        },
+        {
+          "value": "289 Other diseases of blood and blood-forming organs"
+        }
+      ]
+    },
+    {
+      "predicate": "(290-294) Organic psychotic conditions",
+      "entry": [
+        {
+          "value": "290 Senile and presenile organic psychotic conditions"
+        },
+        {
+          "value": "291 Alcoholic psychoses"
+        },
+        {
+          "value": "292 Drug psychoses"
+        },
+        {
+          "value": "293 Transient organic psychotic conditions"
+        },
+        {
+          "value": "294 Other organic psychotic conditions (chronic)"
+        }
+      ]
+    },
+    {
+      "predicate": "(295-299) Other psychoses",
+      "entry": [
+        {
+          "value": "295 Schizophrenic psychoses"
+        },
+        {
+          "value": "296 Affective psychoses"
+        },
+        {
+          "value": "297 Paranoid states"
+        },
+        {
+          "value": "298 Other nonorganic psychoses"
+        },
+        {
+          "value": "299 Psychoses with origin specific to childhood"
+        }
+      ]
+    },
+    {
+      "predicate": "(300-316) Neurotic disorders, personality disorders and other nonpsychotic mental disorders",
+      "entry": [
+        {
+          "value": "300 Neurotic disorders"
+        },
+        {
+          "value": "301 Personality disorders"
+        },
+        {
+          "value": "302 Sexual deviations and disorders"
+        },
+        {
+          "value": "303 Alcohol dependence syndrome"
+        },
+        {
+          "value": "304 Drug dependence"
+        },
+        {
+          "value": "305 Nondependent abuse of drugs"
+        },
+        {
+          "value": "306 Physiological malfunction arising from mental factors"
+        },
+        {
+          "value": "307 Special symptoms or syndromes not elsewhere classified"
+        },
+        {
+          "value": "308 Acute reaction to stress"
+        },
+        {
+          "value": "309 Adjustment reaction"
+        },
+        {
+          "value": "310 Specific nonpsychotic mental disorders following organic brain damage"
+        },
+        {
+          "value": "311 Depressive disorder, not elsewhere classified"
+        },
+        {
+          "value": "312 Disturbance of conduct not elsewhere classified"
+        },
+        {
+          "value": "313 Disturbance of emotions specific to childhood and adolescence"
+        },
+        {
+          "value": "314 Hyperkinetic syndrome of childhood"
+        },
+        {
+          "value": "315 Specific delays in development"
+        },
+        {
+          "value": "316 Psychic factors associated with diseases classified elsewhere"
+        }
+      ]
+    },
+    {
+      "predicate": "(317-319) Mental retardation",
+      "entry": [
+        {
+          "value": "317 Mild mental retardation"
+        },
+        {
+          "value": "318 Other specified mental retardation"
+        },
+        {
+          "value": "319 Unspecified mental retardation"
+        }
+      ]
+    },
+    {
+      "predicate": "(320-326) Inflammatory diseases of the central nervous system",
+      "entry": [
+        {
+          "value": "320 Bacterial meningitis"
+        },
+        {
+          "value": "321 Meningitis due to other organisms"
+        },
+        {
+          "value": "322 Meningitis of unspecified cause"
+        },
+        {
+          "value": "323 Encephalitis, myelitis and encephalomyelitis"
+        },
+        {
+          "value": "324 Intracranial and intraspinal abscess"
+        },
+        {
+          "value": "325 Phlebitis and thrombophlebitis of intracranial venous sinuses"
+        },
+        {
+          "value": "326 Late effects of intracranial abscess or pyogenic infection"
+        }
+      ]
+    },
+    {
+      "predicate": "(330-337) Hereditary and degenerative diseases of the central nervous system",
+      "entry": [
+        {
+          "value": "330 Cerebral degenerations usually manifest in childhood"
+        },
+        {
+          "value": "331 Other cerebral degenerations"
+        },
+        {
+          "value": "332 Parkinson's disease"
+        },
+        {
+          "value": "333 Other extrapyramidal disease and abnormal movement disorders"
+        },
+        {
+          "value": "334 Spinocerebellar disease"
+        },
+        {
+          "value": "335 Anterior horn cell disease"
+        },
+        {
+          "value": "336 Other diseases of spinal cord"
+        },
+        {
+          "value": "337 Disorders of the autonomic nervous system"
+        }
+      ]
+    },
+    {
+      "predicate": "(340-349) Other disorders of the central nervous system",
+      "entry": [
+        {
+          "value": "340 Multiple sclerosis"
+        },
+        {
+          "value": "341 Other demyelinating diseases of central nervous system"
+        },
+        {
+          "value": "342 Hemiplegia"
+        },
+        {
+          "value": "343 Infantile cerebral palsy"
+        },
+        {
+          "value": "344 Other paralytic syndromes"
+        },
+        {
+          "value": "345 Epilepsy"
+        },
+        {
+          "value": "346 Migraine"
+        },
+        {
+          "value": "347 Cataplexy and narcolepsy"
+        },
+        {
+          "value": "348 Other conditions of brain"
+        },
+        {
+          "value": "349 Other and unspecified disorders of the nervous system"
+        }
+      ]
+    },
+    {
+      "predicate": "(350-359) Disorders of the peripheral nervous system",
+      "entry": [
+        {
+          "value": "350 Trigeminal nerve disorders"
+        },
+        {
+          "value": "351 Facial nerve disorders"
+        },
+        {
+          "value": "352 Disorders of other cranial nerves"
+        },
+        {
+          "value": "353 Nerve root and plexus disorders"
+        },
+        {
+          "value": "354 Mononeuritis of upper limb and mononeuritis multiplex"
+        },
+        {
+          "value": "355 Mononeuritis of lower limb"
+        },
+        {
+          "value": "356 Hereditary and idiopathic peripheral neuropathy"
+        },
+        {
+          "value": "357 Inflammatory and toxic neuropathy"
+        },
+        {
+          "value": "358 Myoneural disorders"
+        },
+        {
+          "value": "359 Muscular dystrophies and other myopathies"
+        }
+      ]
+    },
+    {
+      "predicate": "(360-379) Disorders of the eye and adnexa",
+      "entry": [
+        {
+          "value": "360 Disorders of the globe"
+        },
+        {
+          "value": "361 Retinal detachments and defects"
+        },
+        {
+          "value": "362 Other retinal disorders"
+        },
+        {
+          "value": "363 Chorioretinal inflammations and scars and other disorders of choroid"
+        },
+        {
+          "value": "364 Disorders of iris and ciliary body"
+        },
+        {
+          "value": "365 Glaucoma"
+        },
+        {
+          "value": "366 Cataract"
+        },
+        {
+          "value": "367 Disorders of refraction and accommodation"
+        },
+        {
+          "value": "368 Visual disturbances"
+        },
+        {
+          "value": "369 Blindness and low vision"
+        },
+        {
+          "value": "370 Keratitis"
+        },
+        {
+          "value": "371 Corneal opacity and other disorders of cornea"
+        },
+        {
+          "value": "372 Disorders of conjunctiva"
+        },
+        {
+          "value": "373 Inflammation of eyelids"
+        },
+        {
+          "value": "374 Other disorders of eyelids"
+        },
+        {
+          "value": "375 Disorders of lachrymal system"
+        },
+        {
+          "value": "376 Disorders of the orbit"
+        },
+        {
+          "value": "377 Disorders of optic nerve and visual pathways"
+        },
+        {
+          "value": "378 Strabismus and other disorders of binocular eye movements"
+        },
+        {
+          "value": "379 Other disorders of eye"
+        }
+      ]
+    },
+    {
+      "predicate": "(380-389) Diseases of the ear and mastoid process",
+      "entry": [
+        {
+          "value": "380 Disorders of external ear"
+        },
+        {
+          "value": "381 Nonsuppurative otitis media and Eustachian tube disorders"
+        },
+        {
+          "value": "382 Suppurative and unspecified otitis media"
+        },
+        {
+          "value": "383 Mastoiditis and related conditions"
+        },
+        {
+          "value": "384 Other disorders of tympanic membrane"
+        },
+        {
+          "value": "385 Other disorders of middle ear and mastoid"
+        },
+        {
+          "value": "386 Vertiginous syndromes and other disorders of vestibular system"
+        },
+        {
+          "value": "387 Otosclerosis"
+        },
+        {
+          "value": "388 Other disorders of ear"
+        },
+        {
+          "value": "389 Deafness"
+        }
+      ]
+    },
+    {
+      "predicate": "(390-392) Acute rheumatic fever",
+      "entry": [
+        {
+          "value": "390 Rheumatic fever without mention of heart involvement"
+        },
+        {
+          "value": "391 Rheumatic fever with heart involvement"
+        },
+        {
+          "value": "392 Rheumatic chorea"
+        }
+      ]
+    },
+    {
+      "predicate": "(393-398) Chronic rheumatic heart disease",
+      "entry": [
+        {
+          "value": "393 Chronic rheumatic pericarditis"
+        },
+        {
+          "value": "394 Diseases of mitral valve"
+        },
+        {
+          "value": "395 Diseases of aortic valve"
+        },
+        {
+          "value": "396 Diseases of mitral and aortic valves"
+        },
+        {
+          "value": "397 Diseases of other endocardial structures"
+        },
+        {
+          "value": "398 Other rheumatic heart disease"
+        }
+      ]
+    },
+    {
+      "predicate": "(401-405) Hypertensive disease",
+      "entry": [
+        {
+          "value": "401 Essential hypertension"
+        },
+        {
+          "value": "402 Hypertensive heart disease"
+        },
+        {
+          "value": "403 Hypertensive renal disease"
+        },
+        {
+          "value": "404 Hypertensive heart and renal disease"
+        },
+        {
+          "value": "405 Secondary hypertension"
+        }
+      ]
+    },
+    {
+      "predicate": "(410-414) Ischaemic heart disease",
+      "entry": [
+        {
+          "value": "410 Acute myocardial infarction"
+        },
+        {
+          "value": "411 Other acute and subacute forms of ischaemic heart disease"
+        },
+        {
+          "value": "412 Old myocardial infarction"
+        },
+        {
+          "value": "413 Angina pectoris"
+        },
+        {
+          "value": "414 Other forms of chronic ischaemic heart disease"
+        }
+      ]
+    },
+    {
+      "predicate": "(415-417) Diseases of pulmonary circulation",
+      "entry": [
+        {
+          "value": "415 Acute pulmonary heart disease"
+        },
+        {
+          "value": "416 Chronic pulmonary heart disease"
+        },
+        {
+          "value": "417 Other diseases of pulmonary circulation"
+        }
+      ]
+    },
+    {
+      "predicate": "(420-429) Other forms of heart disease",
+      "entry": [
+        {
+          "value": "420 Acute pericarditis"
+        },
+        {
+          "value": "421 Acute and subacute endocarditis"
+        },
+        {
+          "value": "422 Acute myocarditis"
+        },
+        {
+          "value": "423 Other diseases of pericardium"
+        },
+        {
+          "value": "424 Other diseases of endocardium"
+        },
+        {
+          "value": "425 Cardiomyopathy"
+        },
+        {
+          "value": "426 Conduction disorders"
+        },
+        {
+          "value": "427 Cardiac dysrhythmias"
+        },
+        {
+          "value": "428 Heart failure"
+        },
+        {
+          "value": "429 Ill-defined descriptions and complications of heart disease"
+        }
+      ]
+    },
+    {
+      "predicate": "(430-438) Cerebrovascular disease",
+      "entry": [
+        {
+          "value": "430 Subarachnoid haemorrhage"
+        },
+        {
+          "value": "431 Intracerebral haemorrhage"
+        },
+        {
+          "value": "432 Other and unspecified intracranial haemorrhage"
+        },
+        {
+          "value": "433 Occlusion and stenosis of precerebral arteries"
+        },
+        {
+          "value": "434 Occlusion of cerebral arteries"
+        },
+        {
+          "value": "435 Transient cerebral ischaemia"
+        },
+        {
+          "value": "436 Acute but ill-defined cerebrovascular disease"
+        },
+        {
+          "value": "437 Other and ill-defined cerebrovascular disease"
+        },
+        {
+          "value": "438 Late effects of cerebrovascular disease"
+        }
+      ]
+    },
+    {
+      "predicate": "(440-448) Diseases of arteries, arterioles and capillaries",
+      "entry": [
+        {
+          "value": "440 Atherosclerosis"
+        },
+        {
+          "value": "441 Aortic aneurysm"
+        },
+        {
+          "value": "442 Other aneurysm"
+        },
+        {
+          "value": "443 Other peripheral vascular disease"
+        },
+        {
+          "value": "444 Arterial embolism and thrombosis"
+        },
+        {
+          "value": "446 Polyarteritis nodosa and allied conditions"
+        },
+        {
+          "value": "447 Other disorders of arteries and arterioles"
+        },
+        {
+          "value": "448 Diseases of capillaries"
+        }
+      ]
+    },
+    {
+      "predicate": "(451-459) Diseases of veins and lymphatics, and other diseases of circulatory system",
+      "entry": [
+        {
+          "value": "451 Phlebitis and thrombophlebitis"
+        },
+        {
+          "value": "452 Portal vein thrombosis"
+        },
+        {
+          "value": "453 Other venous embolism and thrombosis"
+        },
+        {
+          "value": "454 Varicose veins of lower extremities"
+        },
+        {
+          "value": "455 Haemorrhoids"
+        },
+        {
+          "value": "456 Varicose veins of other sites"
+        },
+        {
+          "value": "457 Non-infective disorders of lymphatic channels"
+        },
+        {
+          "value": "458 Hypotension"
+        },
+        {
+          "value": "459 Other disorders of circulatory system"
+        }
+      ]
+    },
+    {
+      "predicate": "(460-466) Acute respiratory infections",
+      "entry": [
+        {
+          "value": "460 Acute nasopharyngitis [common cold]"
+        },
+        {
+          "value": "461 Acute sinusitis"
+        },
+        {
+          "value": "462 Acute pharyngitis"
+        },
+        {
+          "value": "463 Acute tonsillitis"
+        },
+        {
+          "value": "464 Acute laryngitis and tracheitis"
+        },
+        {
+          "value": "465 Acute upper respiratory infections of multiple or unspecified sites"
+        },
+        {
+          "value": "466 Acute bronchitis and bronchiolitis"
+        }
+      ]
+    },
+    {
+      "predicate": "(470-478) Other diseases of upper respiratory tract",
+      "entry": [
+        {
+          "value": "470 Deflected nasal septum"
+        },
+        {
+          "value": "471 Nasal polyps"
+        },
+        {
+          "value": "472 Chronic pharyngitis and nasopharyngitis"
+        },
+        {
+          "value": "473 Chronic sinusitis"
+        },
+        {
+          "value": "474 Chronic disease of tonsils and adenoids"
+        },
+        {
+          "value": "475 Peritonsillar abscess"
+        },
+        {
+          "value": "476 Chronic laryngitis and laryngotracheitis"
+        },
+        {
+          "value": "477 Allergic rhinitis"
+        },
+        {
+          "value": "478 Other diseases of upper respiratory tract"
+        }
+      ]
+    },
+    {
+      "predicate": "(480-487) Pneumonia and influenza",
+      "entry": [
+        {
+          "value": "480 Viral pneumonia"
+        },
+        {
+          "value": "481 Pneumococcal pneumonia"
+        },
+        {
+          "value": "482 Other bacterial pneumonia"
+        },
+        {
+          "value": "483 Pneumonia due to other specified organism"
+        },
+        {
+          "value": "484 Pneumonia in infectious diseases classified elsewhere"
+        },
+        {
+          "value": "485 Bronchopneumonia, organism unspecified"
+        },
+        {
+          "value": "486 Pneumonia, organism unspecified"
+        },
+        {
+          "value": "487 Influenza"
+        }
+      ]
+    },
+    {
+      "predicate": "(490-496) Chronic obstructive pulmonary disease and allied conditions",
+      "entry": [
+        {
+          "value": "490 Bronchitis, not specified as acute or chronic"
+        },
+        {
+          "value": "491 Chronic bronchitis"
+        },
+        {
+          "value": "492 Emphysema"
+        },
+        {
+          "value": "493 Asthma"
+        },
+        {
+          "value": "494 Bronchiectasis"
+        },
+        {
+          "value": "495 Extrinsic allergic alveolitis"
+        },
+        {
+          "value": "496 Chronic airways obstruction, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "predicate": "(500-508) Pneumoconioses and other lung diseases due to external agents",
+      "entry": [
+        {
+          "value": "500 Coalworkers' pneumoconiosis"
+        },
+        {
+          "value": "501 Asbestosis"
+        },
+        {
+          "value": "502 Pneumoconiosis due to other silica or silicates"
+        },
+        {
+          "value": "503 Pneumoconiosis due to other inorganic dust"
+        },
+        {
+          "value": "504 Pneumopathy due to inhalation of other dust"
+        },
+        {
+          "value": "505 Pneumoconiosis, unspecified"
+        },
+        {
+          "value": "506 Respiratory conditions due to chemical fumes and vapours"
+        },
+        {
+          "value": "507 Pneumonitis due to solids and liquids"
+        },
+        {
+          "value": "508 Respiratory conditions due to other and unspecified external agents"
+        }
+      ]
+    },
+    {
+      "predicate": "(510-519) Other diseases of respiratory system",
+      "entry": [
+        {
+          "value": "510 Empyema"
+        },
+        {
+          "value": "511 Pleurisy"
+        },
+        {
+          "value": "512 Pneumothorax"
+        },
+        {
+          "value": "513 Abscess of lung and mediastinum"
+        },
+        {
+          "value": "514 Pulmonary congestion and hypostasis"
+        },
+        {
+          "value": "515 Postinflammatory pulmonary fibrosis"
+        },
+        {
+          "value": "516 Other alveolar and parietoalveolar pneumopathy"
+        },
+        {
+          "value": "517 Lung involvement in conditions classified elsewhere"
+        },
+        {
+          "value": "518 Other diseases of lung"
+        },
+        {
+          "value": "519 Other diseases of respiratory system"
+        }
+      ]
+    },
+    {
+      "predicate": "(520-529) Diseases of oral cavity, salivary glands and jaws",
+      "entry": [
+        {
+          "value": "520 Disorders of tooth development and eruption"
+        },
+        {
+          "value": "521 Diseases of hard tissues of teeth"
+        },
+        {
+          "value": "522 Diseases of pulp and periapical tissues"
+        },
+        {
+          "value": "523 Gingival and periodontal diseases"
+        },
+        {
+          "value": "524 Dentofacial anomalies, including malocclusion"
+        },
+        {
+          "value": "525 Other diseases and conditions of the teeth and supporting structures"
+        },
+        {
+          "value": "526 Diseases of the jaws"
+        },
+        {
+          "value": "527 Diseases of the salivary glands"
+        },
+        {
+          "value": "528 Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue"
+        },
+        {
+          "value": "529 Diseases and other conditions of the tongue"
+        }
+      ]
+    },
+    {
+      "predicate": "(530-537) Diseases of oesophagus, stomach and duodenum",
+      "entry": [
+        {
+          "value": "530 Diseases of oesophagus"
+        },
+        {
+          "value": "531 Gastric ulcer"
+        },
+        {
+          "value": "532 Duodenal ulcer"
+        },
+        {
+          "value": "533 Peptic ulcer, site unspecified"
+        },
+        {
+          "value": "534 Gastrojejunal ulcer"
+        },
+        {
+          "value": "535 Gastritis and duodenitis"
+        },
+        {
+          "value": "536 Disorders of function of stomach"
+        },
+        {
+          "value": "537 Other disorders of stomach and duodenum"
+        }
+      ]
+    },
+    {
+      "predicate": "(540-543) Appendicitis",
+      "entry": [
+        {
+          "value": "540 Acute appendicitis"
+        },
+        {
+          "value": "541 Appendicitis, unqualified"
+        },
+        {
+          "value": "542 Other appendicitis"
+        },
+        {
+          "value": "543 Other diseases of appendix"
+        }
+      ]
+    },
+    {
+      "predicate": "(550-553) Hernia of abdominal cavity",
+      "entry": [
+        {
+          "value": "550 Inguinal hernia"
+        },
+        {
+          "value": "551 Other hernia of abdominal cavity, with gangrene"
+        },
+        {
+          "value": "552 Other hernia of abdominal cavity with obstruction, without mention of gangrene"
+        },
+        {
+          "value": "553 Other hernia of abdominal cavity without mention of obstruction or gangrene"
+        }
+      ]
+    },
+    {
+      "predicate": "(555-558) Non-infective enteritis and colitis",
+      "entry": [
+        {
+          "value": "555 Regional enteritis"
+        },
+        {
+          "value": "556 Idiopathic proctocolitis"
+        },
+        {
+          "value": "557 Vascular insufficiency of intestine"
+        },
+        {
+          "value": "558 Other non-infective gastro-enteritis and colitis"
+        }
+      ]
+    },
+    {
+      "predicate": "(560-569) Other diseases of intestines and peritoneum",
+      "entry": [
+        {
+          "value": "560 Intestinal obstruction without mention of hernia"
+        },
+        {
+          "value": "562 Diverticula of intestine"
+        },
+        {
+          "value": "564 Functional digestive disorders, not elsewhere classified"
+        },
+        {
+          "value": "565 Anal fissure and fistula"
+        },
+        {
+          "value": "566 Abscess of anal and rectal regions"
+        },
+        {
+          "value": "567 Peritonitis"
+        },
+        {
+          "value": "568 Other disorders of peritoneum"
+        },
+        {
+          "value": "569 Other disorders of intestine"
+        }
+      ]
+    },
+    {
+      "predicate": "(570-579) Other diseases of digestive system",
+      "entry": [
+        {
+          "value": "570 Acute and subacute necrosis of liver"
+        },
+        {
+          "value": "571 Chronic liver disease and cirrhosis"
+        },
+        {
+          "value": "572 Liver abscess and sequelae of chronic liver disease"
+        },
+        {
+          "value": "573 Other disorders of liver"
+        },
+        {
+          "value": "574 Cholelithiasis"
+        },
+        {
+          "value": "575 Other disorders of gallbladder"
+        },
+        {
+          "value": "576 Other disorders of biliary tract"
+        },
+        {
+          "value": "577 Diseases of pancreas"
+        },
+        {
+          "value": "578 Gastro-intestinal haemorrhage"
+        },
+        {
+          "value": "579 Intestinal malabsorption"
+        }
+      ]
+    },
+    {
+      "predicate": "(580-589) Nephritis, nephrotic syndrome and nephrosis",
+      "entry": [
+        {
+          "value": "580 Acute glomerulonephritis"
+        },
+        {
+          "value": "581 Nephrotic syndrome"
+        },
+        {
+          "value": "582 Chronic glomerulonephritis"
+        },
+        {
+          "value": "583 Nephritis and nephropathy, not specified as acute or chronic"
+        },
+        {
+          "value": "584 Acute renal failure"
+        },
+        {
+          "value": "585 Chronic renal failure"
+        },
+        {
+          "value": "586 Renal failure, unspecified"
+        },
+        {
+          "value": "587 Renal sclerosis, unspecified"
+        },
+        {
+          "value": "588 Disorders resulting from impaired renal function"
+        },
+        {
+          "value": "589 Small kidney of unknown cause"
+        }
+      ]
+    },
+    {
+      "predicate": "(590-599) Other diseases of urinary system",
+      "entry": [
+        {
+          "value": "590 Infections of kidney"
+        },
+        {
+          "value": "591 Hydronephrosis"
+        },
+        {
+          "value": "592 Calculus of kidney and ureter"
+        },
+        {
+          "value": "593 Other disorders of kidney and ureter"
+        },
+        {
+          "value": "594 Calculus of lower urinary tract"
+        },
+        {
+          "value": "595 Cystitis"
+        },
+        {
+          "value": "596 Other disorders of bladder"
+        },
+        {
+          "value": "597 Urethritis, not sexually transmitted, and urethral syndrome"
+        },
+        {
+          "value": "598 Urethral stricture"
+        },
+        {
+          "value": "599 Other disorders of urethra and urinary tract"
+        }
+      ]
+    },
+    {
+      "predicate": "(600-608) Diseases of male genital organs",
+      "entry": [
+        {
+          "value": "600 Hyperplasia of prostate"
+        },
+        {
+          "value": "601 Inflammatory diseases of prostate"
+        },
+        {
+          "value": "602 Other disorders of prostate"
+        },
+        {
+          "value": "603 Hydrocele"
+        },
+        {
+          "value": "604 Orchitis and epididymitis"
+        },
+        {
+          "value": "605 Redundant prepuce and phimosis"
+        },
+        {
+          "value": "606 Infertility, male"
+        },
+        {
+          "value": "607 Disorders of penis"
+        },
+        {
+          "value": "608 Other disorders of male genital organs"
+        }
+      ]
+    },
+    {
+      "predicate": "(610-611) Disorders of breast",
+      "entry": [
+        {
+          "value": "610 Benign mammary dysplasias"
+        },
+        {
+          "value": "611 Other disorders of breast"
+        }
+      ]
+    },
+    {
+      "predicate": "(614-616) Inflammatory disease of female pelvic organs",
+      "entry": [
+        {
+          "value": "614 Inflammatory disease of ovary, Fallopian tube, pelvic cellular tissue and peritoneum"
+        },
+        {
+          "value": "615 Inflammatory diseases of uterus, except cervix"
+        },
+        {
+          "value": "616 Inflammatory disease of cervix, vagina and vulva"
+        }
+      ]
+    },
+    {
+      "predicate": "(617-629) Other disorders of female genital tract",
+      "entry": [
+        {
+          "value": "617 Endometriosis"
+        },
+        {
+          "value": "618 Genital prolapse"
+        },
+        {
+          "value": "619 Fistulae involving female genital tract"
+        },
+        {
+          "value": "620 Noninflammatory disorders of ovary, Fallopian tube and broad ligament"
+        },
+        {
+          "value": "621 Disorders of uterus, not elsewhere classified"
+        },
+        {
+          "value": "622 Noninflammatory disorders of cervix"
+        },
+        {
+          "value": "623 Noninflammatory disorders of vagina"
+        },
+        {
+          "value": "624 Noninflammatory disorders of vulva and perineum"
+        },
+        {
+          "value": "625 Pain and other symptoms associated with female genital organs"
+        },
+        {
+          "value": "626 Disorders of menstruation and other abnormal bleeding from female genital tract"
+        },
+        {
+          "value": "627 Menopausal and postmenopausal disorders"
+        },
+        {
+          "value": "628 Infertility, female"
+        },
+        {
+          "value": "629 Other disorders of female genital organs"
+        }
+      ]
+    },
+    {
+      "predicate": "(630-633) Ectopic and molar pregnancy",
+      "entry": [
+        {
+          "value": "630 Hydatidiform mole"
+        },
+        {
+          "value": "631 Other abnormal product of conception"
+        },
+        {
+          "value": "632 Missed abortion"
+        },
+        {
+          "value": "633 Ectopic pregnancy"
+        }
+      ]
+    },
+    {
+      "predicate": "(634-639) Other pregnancy with abortive outcome",
+      "entry": [
+        {
+          "value": "634 Spontaneous abortion"
+        },
+        {
+          "value": "635 Legally induced abortion"
+        },
+        {
+          "value": "636 Illegally induced abortion"
+        },
+        {
+          "value": "637 Unspecified abortion"
+        },
+        {
+          "value": "638 Failed attempted abortion"
+        },
+        {
+          "value": "639 Complications following abortion and ectopic and molar pregnancies"
+        }
+      ]
+    },
+    {
+      "predicate": "(640-648) Complications mainly related to pregnancy",
+      "entry": [
+        {
+          "value": "640 Haemorrhage in early pregnancy"
+        },
+        {
+          "value": "641 Antepartum haemorrhage, abruptio placentae and placenta praevia"
+        },
+        {
+          "value": "642 Hypertension complicating pregnancy, childbirth and the puerperium"
+        },
+        {
+          "value": "643 Excessive vomiting in pregnancy"
+        },
+        {
+          "value": "644 Early or threatened labour"
+        },
+        {
+          "value": "645 Prolonged pregnancy"
+        },
+        {
+          "value": "646 Other complications of pregnancy, not elsewhere classified"
+        },
+        {
+          "value": "647 Infective and parasitic conditions in the mother classifiable elsewhere but complicating pregnancy, childbirth and the puerperium"
+        },
+        {
+          "value": "648 Other current conditions in the mother classifiable elsewhere but complicating pregnancy, childbirth and the puerperium"
+        }
+      ]
+    },
+    {
+      "predicate": "(650-659) Normal delivery and other indications for care in pregnancy, labour and delivery",
+      "entry": [
+        {
+          "value": "650 Delivery in a completely normal case"
+        },
+        {
+          "value": "651 Multiple gestation"
+        },
+        {
+          "value": "652 Malposition and malpresentation of foetus"
+        },
+        {
+          "value": "653 Disproportion"
+        },
+        {
+          "value": "654 Abnormality of organs and soft tissues of pelvis"
+        },
+        {
+          "value": "655 Known or suspected foetal abnormality affecting management of mother"
+        },
+        {
+          "value": "656 Other foetal and placental problems affecting management of mother"
+        },
+        {
+          "value": "657 Polyhydramnios"
+        },
+        {
+          "value": "658 Other problems associated with amniotic cavity and membranes"
+        },
+        {
+          "value": "659 Other indications for care or intervention related to labour and delivery and not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "predicate": "(660-669) Complications occurring mainly in the course of labour and delivery",
+      "entry": [
+        {
+          "value": "660 Obstructed labour"
+        },
+        {
+          "value": "661 Abnormality of forces of labour"
+        },
+        {
+          "value": "662 Long labour"
+        },
+        {
+          "value": "663 Umbilical cord complications"
+        },
+        {
+          "value": "664 Trauma to perineum and vulva during delivery"
+        },
+        {
+          "value": "665 Other obstetrical trauma"
+        },
+        {
+          "value": "666 Postpartum haemorrhage"
+        },
+        {
+          "value": "667 Retained placenta or membranes, without haemorrhage"
+        },
+        {
+          "value": "668 Complications of the administration of anaesthetic or other sedation in labour and delivery"
+        },
+        {
+          "value": "669 Other complications of labour and delivery, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "predicate": "(670-677) Complications of the puerperium",
+      "entry": [
+        {
+          "value": "670 Major puerperal infection"
+        },
+        {
+          "value": "671 Venous complications in pregnancy and the puerperium"
+        },
+        {
+          "value": "672 Pyrexia of unknown origin during the puerperium"
+        },
+        {
+          "value": "673 Obstetrical pulmonary embolism"
+        },
+        {
+          "value": "674 Other and unspecified complications of the puerperium, not elsewhere classified"
+        },
+        {
+          "value": "675 Infections of the breast and nipple associated with childbirth"
+        },
+        {
+          "value": "676 Other disorders of the breast associated with childbirth, and disorders of lactation"
+        },
+        {
+          "value": "677 Late effect of complication of pregnancy, childbirth and the puerperium"
+        }
+      ]
+    },
+    {
+      "predicate": "(680-686) Infections of skin and subcutaneous tissue",
+      "entry": [
+        {
+          "value": "680 Carbuncle and furuncle"
+        },
+        {
+          "value": "681 Cellulitis and abscess of finger and toe"
+        },
+        {
+          "value": "682 Other cellulitis and abscess"
+        },
+        {
+          "value": "683 Acute lymphadenitis"
+        },
+        {
+          "value": "684 Impetigo"
+        },
+        {
+          "value": "685 Pilonidal cyst"
+        },
+        {
+          "value": "686 Other local infections of skin and subcutaneous tissue"
+        }
+      ]
+    },
+    {
+      "predicate": "(690-698) Other inflammatory conditions of skin and subcutaneous tissue",
+      "entry": [
+        {
+          "value": "690 Erythematosquamous dermatosis"
+        },
+        {
+          "value": "691 Atopic dermatitis and related conditions"
+        },
+        {
+          "value": "692 Contact dermatitis and other eczema"
+        },
+        {
+          "value": "693 Dermatitis due to substances taken internally"
+        },
+        {
+          "value": "694 Bullous dermatoses"
+        },
+        {
+          "value": "695 Erythematous conditions"
+        },
+        {
+          "value": "696 Psoriasis and similar disorders"
+        },
+        {
+          "value": "697 Lichen"
+        },
+        {
+          "value": "698 Pruritus and related conditions"
+        }
+      ]
+    },
+    {
+      "predicate": "(700-709) Other diseases of skin and subcutaneous tissue",
+      "entry": [
+        {
+          "value": "700 Corns and callosities"
+        },
+        {
+          "value": "701 Other hypertrophic and atrophic conditions of skin"
+        },
+        {
+          "value": "702 Other dermatoses"
+        },
+        {
+          "value": "703 Diseases of nail"
+        },
+        {
+          "value": "704 Diseases of hair and hair follicles"
+        },
+        {
+          "value": "705 Disorders of sweat glands"
+        },
+        {
+          "value": "706 Diseases of sebaceous glands"
+        },
+        {
+          "value": "707 Chronic ulcer of skin"
+        },
+        {
+          "value": "708 Urticaria"
+        },
+        {
+          "value": "709 Other disorders of skin and subcutaneous tissue"
+        }
+      ]
+    },
+    {
+      "predicate": "(710-719) Arthropathies and related disorders",
+      "entry": [
+        {
+          "value": "710 Diffuse diseases of connective tissue"
+        },
+        {
+          "value": "711 Arthropathy associated with infections"
+        },
+        {
+          "value": "712 Crystal arthropathies"
+        },
+        {
+          "value": "713 Arthropathy associated with other disorders classified elsewhere"
+        },
+        {
+          "value": "714 Rheumatoid arthritis and other inflammatory polyarthropathies"
+        },
+        {
+          "value": "715 Osteo-arthrosis and allied disorders"
+        },
+        {
+          "value": "716 Other and unspecified arthropathies"
+        },
+        {
+          "value": "717 Internal derangement of knee"
+        },
+        {
+          "value": "718 Other derangement of joint"
+        },
+        {
+          "value": "719 Other and unspecified disorder of joint"
+        }
+      ]
+    },
+    {
+      "predicate": "(720-724) Dorsopathies",
+      "entry": [
+        {
+          "value": "720 Ankylosing spondylitis and other inflammatory spondylopathies"
+        },
+        {
+          "value": "721 Spondylosis and allied disorders"
+        },
+        {
+          "value": "722 Intervertebral disk disorders"
+        },
+        {
+          "value": "723 Other disorders of cervical region"
+        },
+        {
+          "value": "724 Other and unspecified disorders of back"
+        }
+      ]
+    },
+    {
+      "predicate": "(725-729) Rheumatism, excluding the back",
+      "entry": [
+        {
+          "value": "725 Polymyalgia rheumatica"
+        },
+        {
+          "value": "726 Peripheral enthesopathies and allied syndromes"
+        },
+        {
+          "value": "727 Other disorders of synovium, tendon and bursa"
+        },
+        {
+          "value": "728 Disorders of muscle, ligament and fascia"
+        },
+        {
+          "value": "729 Other disorders of soft tissues"
+        }
+      ]
+    },
+    {
+      "predicate": "(730-739) Osteopathies, chondropathies and acquired musculoskeletal deformities",
+      "entry": [
+        {
+          "value": "730 Osteomyelitis, periostitis and other infections involving bone"
+        },
+        {
+          "value": "731 Osteitis deformans and osteopathies associated with other disorders classified elsewhere"
+        },
+        {
+          "value": "732 Osteochondropathies"
+        },
+        {
+          "value": "733 Other disorders of bone and cartilage"
+        },
+        {
+          "value": "734 Flat foot"
+        },
+        {
+          "value": "735 Acquired deformities of toe"
+        },
+        {
+          "value": "736 Other acquired deformities of limbs"
+        },
+        {
+          "value": "737 Curvature of spine"
+        },
+        {
+          "value": "738 Other acquired deformity"
+        },
+        {
+          "value": "739 Nonallopathic lesions, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "predicate": "(740-759) Congenital anomalies",
+      "entry": [
+        {
+          "value": "740 Anencephalus and similar anomalies"
+        },
+        {
+          "value": "741 Spina bifida"
+        },
+        {
+          "value": "742 Other congenital anomalies of nervous system"
+        },
+        {
+          "value": "743 Congenital anomalies of eye"
+        },
+        {
+          "value": "744 Congenital anomalies of ear, face and neck"
+        },
+        {
+          "value": "745 Bulbus cordis anomalies and anomalies of cardiac septal closure"
+        },
+        {
+          "value": "746 Other congenital anomalies of heart"
+        },
+        {
+          "value": "747 Other congenital anomalies of circulatory system"
+        },
+        {
+          "value": "748 Congenital anomalies of respiratory system"
+        },
+        {
+          "value": "749 Cleft palate and cleft lip"
+        },
+        {
+          "value": "750 Other congenital anomalies of upper alimentary tract"
+        },
+        {
+          "value": "751 Other congenital anomalies of digestive system"
+        },
+        {
+          "value": "752 Congenital anomalies of genital organs"
+        },
+        {
+          "value": "753 Congenital anomalies of urinary system"
+        },
+        {
+          "value": "754 Certain congenital musculoskeletal deformities"
+        },
+        {
+          "value": "755 Other congenital anomalies of limbs"
+        },
+        {
+          "value": "756 Other congenital musculoskeletal anomalies"
+        },
+        {
+          "value": "757 Congenital anomalies of the integument"
+        },
+        {
+          "value": "758 Chromosomal anomalies"
+        },
+        {
+          "value": "759 Other and unspecified congenital anomalies"
+        }
+      ]
+    },
+    {
+      "predicate": "(760-763) Maternal causes of perinatal morbidity and mortality",
+      "entry": [
+        {
+          "value": "760 Foetus or newborn affected by maternal conditions which may be unrelated to present pregnancy"
+        },
+        {
+          "value": "761 Foetus or newborn affected by maternal complications of pregnancy"
+        },
+        {
+          "value": "762 Foetus or newborn affected by complications of placenta, cord and membranes"
+        },
+        {
+          "value": "763 Foetus or newborn affected by other complications of labour and delivery"
+        }
+      ]
+    },
+    {
+      "predicate": "(764-779) Other conditions originating in the perinatal period",
+      "entry": [
+        {
+          "value": "764 Slow foetal growth and foetal malnutrition"
+        },
+        {
+          "value": "765 Disorders relating to short gestation and unspecified low birthweight"
+        },
+        {
+          "value": "766 Disorders relating to long gestation and high birthweight"
+        },
+        {
+          "value": "767 Birth trauma"
+        },
+        {
+          "value": "768 Intra-uterine hypoxia and birth asphyxia"
+        },
+        {
+          "value": "769 Respiratory distress syndrome"
+        },
+        {
+          "value": "770 Other respiratory conditions of foetus and newborn"
+        },
+        {
+          "value": "771 Infections specific to the perinatal period"
+        },
+        {
+          "value": "772 Foetal and neonatal haemorrhage"
+        },
+        {
+          "value": "773 Haemolytic disease of foetus or newborn, due to isoimmunisation"
+        },
+        {
+          "value": "774 Other perinatal jaundice"
+        },
+        {
+          "value": "775 Endocrine and metabolic disturbances specific to the foetus and newborn"
+        },
+        {
+          "value": "776 Haematological disorders of foetus and newborn"
+        },
+        {
+          "value": "777 Perinatal disorders of digestive system"
+        },
+        {
+          "value": "778 Conditions involving the integument and temperature regulation of foetus and newborn"
+        },
+        {
+          "value": "779 Other and ill-defined conditions originating in the perinatal period"
+        }
+      ]
+    },
+    {
+      "predicate": "(780-789) Symptoms",
+      "entry": [
+        {
+          "value": "780 General symptoms"
+        },
+        {
+          "value": "781 Symptoms involving nervous and musculoskeletal systems"
+        },
+        {
+          "value": "782 Symptoms involving skin and other integumentary tissue"
+        },
+        {
+          "value": "783 Symptoms concerning nutrition, metabolism and development"
+        },
+        {
+          "value": "784 Symptoms involving head and neck"
+        },
+        {
+          "value": "785 Symptoms involving cardiovascular system"
+        },
+        {
+          "value": "786 Symptoms involving respiratory system and other chest symptoms"
+        },
+        {
+          "value": "787 Symptoms involving digestive system"
+        },
+        {
+          "value": "788 Symptoms involving urinary system"
+        },
+        {
+          "value": "789 Other symptoms involving abdomen and pelvis"
+        }
+      ]
+    },
+    {
+      "predicate": "(790-796) Nonspecific abnormal findings",
+      "entry": [
+        {
+          "value": "790 Nonspecific findings on examination of blood"
+        },
+        {
+          "value": "791 Nonspecific findings on examination of urine"
+        },
+        {
+          "value": "792 Nonspecific abnormal findings in other body substances"
+        },
+        {
+          "value": "793 Nonspecific abnormal findings on radiological and other examination of body structure"
+        },
+        {
+          "value": "794 Nonspecific abnormal results of function studies"
+        },
+        {
+          "value": "795 Nonspecific abnormal histological and immunological findings"
+        },
+        {
+          "value": "796 Other nonspecific abnormal findings"
+        }
+      ]
+    },
+    {
+      "predicate": "(797-799) Ill-defined and unknown causes of morbidity and mortality",
+      "entry": [
+        {
+          "value": "797 Senility without mention of psychosis"
+        },
+        {
+          "value": "798 Sudden death, cause unknown"
+        },
+        {
+          "value": "799 Other ill-defined and unknown causes of morbidity and mortality"
+        }
+      ]
+    },
+    {
+      "predicate": "(800-804) Fracture of skull",
+      "entry": [
+        {
+          "value": "800 Fracture of vault of skull"
+        },
+        {
+          "value": "801 Fracture of base of skull"
+        },
+        {
+          "value": "802 Fracture of face bones"
+        },
+        {
+          "value": "803 Other and unqualified skull fractures"
+        },
+        {
+          "value": "804 Multiple fractures involving skull or face with other bones"
+        }
+      ]
+    },
+    {
+      "predicate": "(805-809) Fracture of neck and trunk",
+      "entry": [
+        {
+          "value": "805 Fracture of vertebral column without mention of spinal cord lesion"
+        },
+        {
+          "value": "806 Fracture of vertebral column with spinal cord lesion"
+        },
+        {
+          "value": "807 Fracture of rib(s), sternum, larynx and trachea"
+        },
+        {
+          "value": "808 Fracture of pelvis"
+        },
+        {
+          "value": "809 Ill-defined fractures of trunk"
+        }
+      ]
+    },
+    {
+      "predicate": "(810-819) Fracture of upper limb",
+      "entry": [
+        {
+          "value": "810 Fracture of clavicle"
+        },
+        {
+          "value": "811 Fracture of scapula"
+        },
+        {
+          "value": "812 Fracture of humerus"
+        },
+        {
+          "value": "813 Fracture of radius and ulna"
+        },
+        {
+          "value": "814 Fracture of carpal bone(s)"
+        },
+        {
+          "value": "815 Fracture of metacarpal bone(s)"
+        },
+        {
+          "value": "816 Fracture of one or more phalanges of hand"
+        },
+        {
+          "value": "817 Multiple fractures of hand bones"
+        },
+        {
+          "value": "818 Ill-defined fractures of upper limb"
+        },
+        {
+          "value": "819 Multiple fractures involving both upper limbs and upper limb with rib(s) and sternum"
+        }
+      ]
+    },
+    {
+      "predicate": "(820-829) Fracture of lower limb",
+      "entry": [
+        {
+          "value": "820 Fracture of neck of femur"
+        },
+        {
+          "value": "821 Fracture of other and unspecified parts of femur"
+        },
+        {
+          "value": "822 Fracture of patella"
+        },
+        {
+          "value": "823 Fracture of tibia and fibula"
+        },
+        {
+          "value": "824 Fracture of ankle"
+        },
+        {
+          "value": "825 Fracture of one or more tarsal and metatarsal bones"
+        },
+        {
+          "value": "826 Fracture of one or more phalanges of foot"
+        },
+        {
+          "value": "827 Other, multiple and ill-defined fractures of lower limb"
+        },
+        {
+          "value": "828 Multiple fractures involving both lower limbs, lower with upper limb and lower limb(s) with rib(s) and sternum"
+        },
+        {
+          "value": "829 Fracture of unspecified bones"
+        }
+      ]
+    },
+    {
+      "predicate": "(830-839) Dislocation",
+      "entry": [
+        {
+          "value": "830 Dislocation of jaw"
+        },
+        {
+          "value": "831 Dislocation of shoulder"
+        },
+        {
+          "value": "832 Dislocation of elbow"
+        },
+        {
+          "value": "833 Dislocation of wrist"
+        },
+        {
+          "value": "834 Dislocation of finger"
+        },
+        {
+          "value": "835 Dislocation of hip"
+        },
+        {
+          "value": "836 Dislocation of knee"
+        },
+        {
+          "value": "837 Dislocation of ankle"
+        },
+        {
+          "value": "838 Dislocation of foot"
+        },
+        {
+          "value": "839 Other, multiple and ill-defined dislocations"
+        }
+      ]
+    },
+    {
+      "predicate": "(840-848) Sprains and strains of joints and adjacent muscles",
+      "entry": [
+        {
+          "value": "840 Sprains and strains of shoulder and upper arm"
+        },
+        {
+          "value": "841 Sprains and strains of elbow and forearm"
+        },
+        {
+          "value": "842 Sprains and strains of wrist and hand"
+        },
+        {
+          "value": "843 Sprains and strains of hip and thigh"
+        },
+        {
+          "value": "844 Sprains and strains of knee and leg"
+        },
+        {
+          "value": "845 Sprains and strains of ankle and foot"
+        },
+        {
+          "value": "846 Sprains and strains of sacro-iliac region"
+        },
+        {
+          "value": "847 Sprains and strains of other and unspecified parts of back"
+        },
+        {
+          "value": "848 Other and ill-defined sprains and strains"
+        }
+      ]
+    },
+    {
+      "predicate": "(850-854) Intracranial injury, excluding those with skull fracture",
+      "entry": [
+        {
+          "value": "850 Concussion"
+        },
+        {
+          "value": "851 Cerebral laceration and contusion"
+        },
+        {
+          "value": "852 Subarachnoid, subdural and extradural haemorrhage, following injury"
+        },
+        {
+          "value": "853 Other and unspecified intracranial haemorrhage following injury"
+        },
+        {
+          "value": "854 Intracranial injury of other and unspecified nature"
+        }
+      ]
+    },
+    {
+      "predicate": "(860-869) Internal injury of chest, abdomen and pelvis",
+      "entry": [
+        {
+          "value": "860 Traumatic pneumothorax and haemothorax"
+        },
+        {
+          "value": "861 Injury to heart and lung"
+        },
+        {
+          "value": "862 Injury to other and unspecified intrathoracic organs"
+        },
+        {
+          "value": "863 Injury to gastro-intestinal tract"
+        },
+        {
+          "value": "864 Injury to liver"
+        },
+        {
+          "value": "865 Injury to spleen"
+        },
+        {
+          "value": "866 Injury to kidney"
+        },
+        {
+          "value": "867 Injury to pelvic organs"
+        },
+        {
+          "value": "868 Injury to other intra-abdominal organs"
+        },
+        {
+          "value": "869 Internal injury to unspecified or ill-defined organs"
+        }
+      ]
+    },
+    {
+      "predicate": "(870-879) Open wound of head, neck and trunk",
+      "entry": [
+        {
+          "value": "870 Open wound of ocular adnexa"
+        },
+        {
+          "value": "871 Open wound of eyeball"
+        },
+        {
+          "value": "872 Open wound of ear"
+        },
+        {
+          "value": "873 Other open wound of head"
+        },
+        {
+          "value": "874 Open wound of neck"
+        },
+        {
+          "value": "875 Open wound of chest (wall)"
+        },
+        {
+          "value": "876 Open wound of back"
+        },
+        {
+          "value": "877 Open wound of buttock"
+        },
+        {
+          "value": "878 Open wound of genital organs (external), including traumatic amputation"
+        },
+        {
+          "value": "879 Open wound of other and unspecified sites, except limbs"
+        }
+      ]
+    },
+    {
+      "predicate": "(880-887) Open wound of upper limb",
+      "entry": [
+        {
+          "value": "880 Open wound of shoulder and upper arm"
+        },
+        {
+          "value": "881 Open wound of elbow, forearm and wrist"
+        },
+        {
+          "value": "882 Open wound of hand except finger(s) alone"
+        },
+        {
+          "value": "883 Open wound of finger(s)"
+        },
+        {
+          "value": "884 Multiple and unspecified open wound of upper limb"
+        },
+        {
+          "value": "885 Traumatic amputation of thumb (complete) (partial)"
+        },
+        {
+          "value": "886 Traumatic amputation of other finger(s) (complete) (partial)"
+        },
+        {
+          "value": "887 Traumatic amputation of arm and hand (complete) (partial)"
+        }
+      ]
+    },
+    {
+      "predicate": "(890-897) Open wound of lower limb",
+      "entry": [
+        {
+          "value": "890 Open wound of hip and thigh"
+        },
+        {
+          "value": "891 Open wound of knee, leg [except thigh] and ankle"
+        },
+        {
+          "value": "892 Open wound of foot except toe(s) alone"
+        },
+        {
+          "value": "893 Open wound of toe(s)"
+        },
+        {
+          "value": "894 Multiple and unspecified open wound of lower limb"
+        },
+        {
+          "value": "895 Traumatic amputation of toe(s) (complete) (partial)"
+        },
+        {
+          "value": "896 Traumatic amputation of foot (complete) (partial)"
+        },
+        {
+          "value": "897 Traumatic amputation of leg(s) (complete) (partial)"
+        }
+      ]
+    },
+    {
+      "predicate": "(900-904) Injury to blood vessels",
+      "entry": [
+        {
+          "value": "900 Injury to blood vessels of head and neck"
+        },
+        {
+          "value": "901 Injury to blood vessels of thorax"
+        },
+        {
+          "value": "902 Injury to blood vessels of abdomen and pelvis"
+        },
+        {
+          "value": "903 Injury to blood vessels of upper extremity"
+        },
+        {
+          "value": "904 Injury to blood vessels of lower extremity and unspecified sites"
+        }
+      ]
+    },
+    {
+      "predicate": "(905-909) Late effects of injuries, poisonings, toxic effects and other external causes",
+      "entry": [
+        {
+          "value": "905 Late effects of musculoskeletal and connective tissue injuries"
+        },
+        {
+          "value": "906 Late effects of injuries to skin and subcutaneous tissues"
+        },
+        {
+          "value": "907 Late effects of injuries to the nervous system"
+        },
+        {
+          "value": "908 Late effects of other and unspecified injuries"
+        },
+        {
+          "value": "909 Late effects of other and unspecified external causes"
+        }
+      ]
+    },
+    {
+      "predicate": "(910-919) Superficial injury",
+      "entry": [
+        {
+          "value": "910 Superficial injury of face, neck and scalp except eye"
+        },
+        {
+          "value": "911 Superficial injury of trunk"
+        },
+        {
+          "value": "912 Superficial injury of shoulder and upper arm"
+        },
+        {
+          "value": "913 Superficial injury of elbow, forearm and wrist"
+        },
+        {
+          "value": "914 Superficial injury of hand(s) except finger(s) alone"
+        },
+        {
+          "value": "915 Superficial injury of finger(s)"
+        },
+        {
+          "value": "916 Superficial injury of hip, thigh, leg and ankle"
+        },
+        {
+          "value": "917 Superficial injury of foot and toe(s)"
+        },
+        {
+          "value": "918 Superficial injury of eye and adnexa"
+        },
+        {
+          "value": "919 Superficial injury of other, multiple and unspecified sites"
+        }
+      ]
+    },
+    {
+      "predicate": "(920-924) Contusion with intact skin surface",
+      "entry": [
+        {
+          "value": "920 Contusion of face, scalp and neck except eye(s)"
+        },
+        {
+          "value": "921 Contusion of eye and adnexa"
+        },
+        {
+          "value": "922 Contusion of trunk"
+        },
+        {
+          "value": "923 Contusion of upper limb"
+        },
+        {
+          "value": "924 Contusion of lower limb and of other and unspecified sites"
+        }
+      ]
+    },
+    {
+      "predicate": "(925-929) Crushing injury",
+      "entry": [
+        {
+          "value": "925 Crushing injury of face, scalp and neck"
+        },
+        {
+          "value": "926 Crushing injury of trunk"
+        },
+        {
+          "value": "927 Crushing injury of upper limb"
+        },
+        {
+          "value": "928 Crushing injury of lower limb"
+        },
+        {
+          "value": "929 Crushing injury of multiple and unspecified sites"
+        }
+      ]
+    },
+    {
+      "predicate": "(930-939) Effects of foreign body entering through orifice",
+      "entry": [
+        {
+          "value": "930 Foreign body on external eye"
+        },
+        {
+          "value": "931 Foreign body in ear"
+        },
+        {
+          "value": "932 Foreign body in nose"
+        },
+        {
+          "value": "933 Foreign body in pharynx and larynx"
+        },
+        {
+          "value": "934 Foreign body in trachea, bronchus and lung"
+        },
+        {
+          "value": "935 Foreign body in mouth, oesophagus and stomach"
+        },
+        {
+          "value": "936 Foreign body in intestine and colon"
+        },
+        {
+          "value": "937 Foreign body in anus and rectum"
+        },
+        {
+          "value": "938 Foreign body in digestive system, unspecified"
+        },
+        {
+          "value": "939 Foreign body in genito-urinary tract"
+        }
+      ]
+    },
+    {
+      "predicate": "(940-949) Burns",
+      "entry": [
+        {
+          "value": "940 Burn confined to eye and adnexa"
+        },
+        {
+          "value": "941 Burn of face, head and neck"
+        },
+        {
+          "value": "942 Burn of trunk"
+        },
+        {
+          "value": "943 Burn of upper limb, except wrist and hand"
+        },
+        {
+          "value": "944 Burn of wrist(s) and hand(s)"
+        },
+        {
+          "value": "945 Burn of lower limb(s)"
+        },
+        {
+          "value": "946 Burns of multiple specified sites"
+        },
+        {
+          "value": "947 Burn of internal organs"
+        },
+        {
+          "value": "948 Burns classified according to extent of body surface involved"
+        },
+        {
+          "value": "949 Burn, unspecified"
+        }
+      ]
+    },
+    {
+      "predicate": "(950-957) Injury to nerves and spinal cord",
+      "entry": [
+        {
+          "value": "950 Injury to optic nerve and pathways"
+        },
+        {
+          "value": "951 Injury to other cranial nerve(s)"
+        },
+        {
+          "value": "952 Spinal cord lesion without evidence of spinal bone injury"
+        },
+        {
+          "value": "953 Injury to nerve roots and spinal plexus"
+        },
+        {
+          "value": "954 Injury to other nerve(s) of trunk excluding shoulder and pelvic girdles"
+        },
+        {
+          "value": "955 Injury to peripheral nerve(s) of shoulder girdle and upper limb"
+        },
+        {
+          "value": "956 Injury to peripheral nerve(s) of pelvic girdle and lower limb"
+        },
+        {
+          "value": "957 Injury to other and unspecified nerves"
+        }
+      ]
+    },
+    {
+      "predicate": "(958-959) Certain traumatic complications and unspecified injuries",
+      "entry": [
+        {
+          "value": "958 Certain early complications of trauma"
+        },
+        {
+          "value": "959 Injury, other and unspecified"
+        }
+      ]
+    },
+    {
+      "predicate": "(960-979) Poisoning by drugs, medicaments and biological substances",
+      "entry": [
+        {
+          "value": "960 Poisoning by antibiotics"
+        },
+        {
+          "value": "961 Poisoning by other anti-infectives"
+        },
+        {
+          "value": "962 Poisoning by hormones and synthetic substitutes"
+        },
+        {
+          "value": "963 Poisoning by primarily systemic agents"
+        },
+        {
+          "value": "964 Poisoning by agents primarily affecting blood constituents"
+        },
+        {
+          "value": "965 Poisoning by analgesics, antipyretics and antirheumatics"
+        },
+        {
+          "value": "966 Poisoning by anticonvulsants and anti-Parkinsonism drugs"
+        },
+        {
+          "value": "967 Poisoning by sedatives and hypnotics"
+        },
+        {
+          "value": "968 Poisoning by other central nervous system depressants and anaesthetics"
+        },
+        {
+          "value": "969 Poisoning by psychotropic agents"
+        },
+        {
+          "value": "970 Poisoning by central nervous system stimulants"
+        },
+        {
+          "value": "971 Poisoning by drugs primarily affecting the autonomic nervous system"
+        },
+        {
+          "value": "972 Poisoning by agents primarily affecting the cardiovascular system"
+        },
+        {
+          "value": "973 Poisoning by agents primarily affecting the gastro-intestinal system"
+        },
+        {
+          "value": "974 Poisoning by water, mineral and uric acid metabolism drugs"
+        },
+        {
+          "value": "975 Poisoning by agents primarily acting on the smooth and skeletal muscles and respiratory system"
+        },
+        {
+          "value": "976 Poisoning by agents primarily affecting skin and mucous membrane, ophthalmological, otorhinolaryngological and dental drugs"
+        },
+        {
+          "value": "977 Poisoning by other and unspecified drugs and medicaments"
+        },
+        {
+          "value": "978 Poisoning by bacterial vaccines"
+        },
+        {
+          "value": "979 Poisoning by other vaccines and biological substances"
+        }
+      ]
+    },
+    {
+      "predicate": "(980-989) Toxic effects of substances chiefly nonmedicinal as to source",
+      "entry": [
+        {
+          "value": "980 Toxic effect of alcohol"
+        },
+        {
+          "value": "981 Toxic effect of petroleum products"
+        },
+        {
+          "value": "982 Toxic effect of solvents other than petroleum-based"
+        },
+        {
+          "value": "983 Toxic effect of corrosive aromatics, acids and caustic alkalis"
+        },
+        {
+          "value": "984 Toxic effect of lead and its compounds (including fumes)"
+        },
+        {
+          "value": "985 Toxic effect of other metals"
+        },
+        {
+          "value": "986 Toxic effect of carbon monoxide"
+        },
+        {
+          "value": "987 Toxic effect of other gases, fumes or vapours"
+        },
+        {
+          "value": "988 Toxic effect of noxious substances eaten as food"
+        },
+        {
+          "value": "989 Toxic effect of other substances, chiefly nonmedicinal as to source"
+        }
+      ]
+    },
+    {
+      "predicate": "(990-995) Other and unspecified effects of external causes",
+      "entry": [
+        {
+          "value": "990 Effects of radiation, unspecified"
+        },
+        {
+          "value": "991 Effects of reduced temperature"
+        },
+        {
+          "value": "992 Effects of heat and light"
+        },
+        {
+          "value": "993 Effects of air pressure"
+        },
+        {
+          "value": "994 Effects of other external causes"
+        },
+        {
+          "value": "995 Certain adverse effects not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "predicate": "(996-999) Complications of surgical and medical care, not elsewhere classified",
+      "entry": [
+        {
+          "value": "996 Complications peculiar to certain specified procedures"
+        },
+        {
+          "value": "997 Complications affecting specified body systems, not elsewhere classified"
+        },
+        {
+          "value": "998 Other complications of procedures, not elsewhere classified"
+        },
+        {
+          "value": "999 Complications of medical care, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "predicate": "(E800-E807) Railway accidents",
+      "entry": [
+        {
+          "value": "E800 Railway accident involving collision with rolling stock"
+        },
+        {
+          "value": "E801 Railway accident involving collision with other object"
+        },
+        {
+          "value": "E802 Railway accident involving derailment without antecedent collision"
+        },
+        {
+          "value": "E803 Railway accident involving explosion, fire or burning"
+        },
+        {
+          "value": "E804 Fall in, on or from railway train"
+        },
+        {
+          "value": "E805 Hit by rolling stock"
+        },
+        {
+          "value": "E806 Other specified railway accident"
+        },
+        {
+          "value": "E807 Railway accident of unspecified nature"
+        }
+      ]
+    },
+    {
+      "predicate": "(E810-E819) Motor vehicle traffic accidents",
+      "entry": [
+        {
+          "value": "E810 Motor vehicle traffic accident involving collision with train"
+        },
+        {
+          "value": "E811 Motor vehicle traffic accident involving re-entrant collision with another motor vehicle"
+        },
+        {
+          "value": "E812 Other motor vehicle traffic accident involving collision with another motor vehicle"
+        },
+        {
+          "value": "E813 Motor vehicle traffic accident involving collision with other vehicle"
+        },
+        {
+          "value": "E814 Motor vehicle traffic accident involving collision with pedestrian"
+        },
+        {
+          "value": "E815 Other motor vehicle traffic accident involving collision on the highway"
+        },
+        {
+          "value": "E816 Motor vehicle traffic accident due to loss of control, without collision on the highway"
+        },
+        {
+          "value": "E817 Noncollision motor vehicle traffic accident while boarding or alighting"
+        },
+        {
+          "value": "E818 Other noncollision motor vehicle traffic accident"
+        },
+        {
+          "value": "E819 Motor vehicle traffic accident of unspecified nature"
+        }
+      ]
+    },
+    {
+      "predicate": "(E820-E825) Motor vehicle nontraffic accidents",
+      "entry": [
+        {
+          "value": "E820 Nontraffic accident involving motor-driven snow vehicle"
+        },
+        {
+          "value": "E821 Nontraffic accident involving other off-road motor vehicle"
+        },
+        {
+          "value": "E822 Other motor vehicle nontraffic accident involving collision with moving object"
+        },
+        {
+          "value": "E823 Other motor vehicle nontraffic accident involving collision with stationary object"
+        },
+        {
+          "value": "E824 Other motor vehicle nontraffic accident while boarding and alighting"
+        },
+        {
+          "value": "E825 Other motor vehicle nontraffic accident of other and unspecified nature"
+        }
+      ]
+    },
+    {
+      "predicate": "(E826-E829) Other road vehicle accidents",
+      "entry": [
+        {
+          "value": "E826 Pedal cycle accident"
+        },
+        {
+          "value": "E827 Animal-drawn vehicle accident"
+        },
+        {
+          "value": "E828 Accident involving animal being ridden"
+        },
+        {
+          "value": "E829 Other road vehicle accidents"
+        }
+      ]
+    },
+    {
+      "predicate": "(E830-E838) Water transport accidents",
+      "entry": [
+        {
+          "value": "E830 Accident to watercraft causing submersion"
+        },
+        {
+          "value": "E831 Accident to watercraft causing other injury"
+        },
+        {
+          "value": "E832 Other accidental submersion or drowning in water transport accident"
+        },
+        {
+          "value": "E833 Fall on stairs or ladders in water transport"
+        },
+        {
+          "value": "E834 Other fall from one level to another in water transport"
+        },
+        {
+          "value": "E835 Other and unspecified fall in water transport"
+        },
+        {
+          "value": "E836 Machinery accident in water transport"
+        },
+        {
+          "value": "E837 Explosion, fire or burning in watercraft"
+        },
+        {
+          "value": "E838 Other and unspecified water transport accident"
+        }
+      ]
+    },
+    {
+      "predicate": "(E840-E845) Air and space transport accidents",
+      "entry": [
+        {
+          "value": "E840 Accident to powered aircraft at takeoff or landing"
+        },
+        {
+          "value": "E841 Accident to powered aircraft, other and unspecified"
+        },
+        {
+          "value": "E842 Accident to unpowered aircraft"
+        },
+        {
+          "value": "E843 Fall in, on or from aircraft"
+        },
+        {
+          "value": "E844 Other specified air transport accidents"
+        },
+        {
+          "value": "E845 Accident involving spacecraft"
+        }
+      ]
+    },
+    {
+      "predicate": "(E846-E848) Vehicle accidents not elsewhere classifiable",
+      "entry": [
+        {
+          "value": "E846 Accidents involving powered vehicles used solely within the buildings and premises of an industrial or commercial establishment"
+        },
+        {
+          "value": "E847 Accidents involving cable cars not running on rails"
+        },
+        {
+          "value": "E848 Accidents involving other vehicles not elsewhere classifiable"
+        }
+      ]
+    },
+    {
+      "predicate": "(E849-E858) Accidental poisoning by drugs, medicaments and biologicals",
+      "entry": [
+        {
+          "value": "E849 Place of occurrence"
+        },
+        {
+          "value": "E850 Accidental poisoning by analgesics, antipyretics, antirheumatics"
+        },
+        {
+          "value": "E851 Accidental poisoning by barbiturates"
+        },
+        {
+          "value": "E852 Accidental poisoning by other sedatives and hypnotics"
+        },
+        {
+          "value": "E853 Accidental poisoning by tranquillisers"
+        },
+        {
+          "value": "E854 Accidental poisoning by other psychotropic agents"
+        },
+        {
+          "value": "E855 Accidental poisoning by other drugs acting on central and autonomic nervous systems"
+        },
+        {
+          "value": "E856 Accidental poisoning by antibiotics"
+        },
+        {
+          "value": "E857 Accidental poisoning by anti-infectives"
+        },
+        {
+          "value": "E858 Accidental poisoning by other drugs"
+        }
+      ]
+    },
+    {
+      "predicate": "(E860-E869) Accidental poisoning by other solid and liquid substances, gases and vapours",
+      "entry": [
+        {
+          "value": "E860 Accidental poisoning by alcohol, not elsewhere classified"
+        },
+        {
+          "value": "E861 Accidental poisoning by cleansing and polishing agents, disinfectants, paints and varnishes"
+        },
+        {
+          "value": "E862 Accidental poisoning by petroleum products, other solvents and their vapours, not elsewhere classified"
+        },
+        {
+          "value": "E863 Accidental poisoning by agricultural and horticultural chemical and pharmaceutical preparations other than plant foods and fertilisers"
+        },
+        {
+          "value": "E864 Accidental poisoning by corrosives and caustics, not elsewhere classified"
+        },
+        {
+          "value": "E865 Accidental poisoning from foodstuffs and poisonous plants"
+        },
+        {
+          "value": "E866 Accidental poisoning by other and unspecified solid and liquid substances"
+        },
+        {
+          "value": "E867 Accidental poisoning by gas distributed by pipeline"
+        },
+        {
+          "value": "E868 Accidental poisoning by other utility gas and other carbon monoxide"
+        },
+        {
+          "value": "E869 Accidental poisoning by other gases and vapours"
+        }
+      ]
+    },
+    {
+      "predicate": "(E870-E876) Misadventures to patients during surgical and medical care",
+      "entry": [
+        {
+          "value": "E870 Accidental cut, puncture, perforation or haemorrhage during medical care"
+        },
+        {
+          "value": "E871 Foreign object left in body during procedure"
+        },
+        {
+          "value": "E872 Failure of sterile precautions during procedure"
+        },
+        {
+          "value": "E873 Failure in dosage"
+        },
+        {
+          "value": "E874 Mechanical failure of instrument or apparatus during procedure"
+        },
+        {
+          "value": "E875 Contaminated or infected blood, other fluid, drug or biological substance"
+        },
+        {
+          "value": "E876 Other and unspecified misadventures during medical care"
+        }
+      ]
+    },
+    {
+      "predicate": "(E878-E879) Surgical and medical procedures as the cause of abnormal reaction of patient or later complication, without mention of misadventure at the time of procedure",
+      "entry": [
+        {
+          "value": "E878 Surgical operation and other surgical procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation"
+        },
+        {
+          "value": "E879 Other procedures, without mention of misadventure at the time of procedure, as the cause of abnormal reaction of patient, or of later complication"
+        }
+      ]
+    },
+    {
+      "predicate": "(E880-E888) Accidental falls",
+      "entry": [
+        {
+          "value": "E880 Fall on or from stairs or steps"
+        },
+        {
+          "value": "E881 Fall on or from ladders or scaffolding"
+        },
+        {
+          "value": "E882 Fall from or out of building or other structure"
+        },
+        {
+          "value": "E883 Fall into hole or other opening in surface"
+        },
+        {
+          "value": "E884 Other fall from one level to another"
+        },
+        {
+          "value": "E885 Fall on same level from slipping, tripping or stumbling"
+        },
+        {
+          "value": "E886 Fall on same level from collision, pushing or shoving, by or with other person"
+        },
+        {
+          "value": "E887 Fracture, cause unspecified"
+        },
+        {
+          "value": "E888 Other and unspecified fall"
+        }
+      ]
+    },
+    {
+      "predicate": "(E890-E899) Accidents caused by fire and flames",
+      "entry": [
+        {
+          "value": "E890 Conflagration in private dwelling"
+        },
+        {
+          "value": "E891 Conflagration in other and unspecified building or structure"
+        },
+        {
+          "value": "E892 Conflagration not in building or structure"
+        },
+        {
+          "value": "E893 Accident caused by ignition of clothing"
+        },
+        {
+          "value": "E894 Ignition of highly inflammable material"
+        },
+        {
+          "value": "E895 Accident caused by controlled fire in private dwelling"
+        },
+        {
+          "value": "E896 Accident caused by controlled fire in other and unspecified building or structure"
+        },
+        {
+          "value": "E897 Accident caused by controlled fire not in building or structure"
+        },
+        {
+          "value": "E898 Accident caused by other specified fire and flames"
+        },
+        {
+          "value": "E899 Accident caused by unspecified fire"
+        }
+      ]
+    },
+    {
+      "predicate": "(E900-E909) Accidents due to natural and environmental factors",
+      "entry": [
+        {
+          "value": "E900 Excessive heat"
+        },
+        {
+          "value": "E901 Excessive cold"
+        },
+        {
+          "value": "E902 High and low air pressure and changes in air pressure"
+        },
+        {
+          "value": "E903 Travel and motion"
+        },
+        {
+          "value": "E904 Hunger, thirst, exposure, neglect"
+        },
+        {
+          "value": "E905 Venomous animals and plants as the cause of poisoning and toxic reactions"
+        },
+        {
+          "value": "E906 Other injury caused by animals"
+        },
+        {
+          "value": "E907 Lightning"
+        },
+        {
+          "value": "E908 Cataclysmic storms and floods resulting from storms"
+        },
+        {
+          "value": "E909 Cataclysmic earth surface movements and eruptions"
+        }
+      ]
+    },
+    {
+      "predicate": "(E910-E915) Accidents caused by submersion, suffocation and foreign bodies",
+      "entry": [
+        {
+          "value": "E910 Accidental drowning and submersion"
+        },
+        {
+          "value": "E911 Inhalation and ingestion of food causing obstruction of respiratory tract or suffocation"
+        },
+        {
+          "value": "E912 Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation"
+        },
+        {
+          "value": "E913 Accidental mechanical suffocation"
+        },
+        {
+          "value": "E914 Foreign body accidentally entering eye and adnexa"
+        },
+        {
+          "value": "E915 Foreign body accidentally entering other orifice"
+        }
+      ]
+    },
+    {
+      "predicate": "(E916-E928) Other accidents",
+      "entry": [
+        {
+          "value": "E916 Struck accidentally by falling object"
+        },
+        {
+          "value": "E917 Striking against or struck accidentally by objects or persons"
+        },
+        {
+          "value": "E918 Caught accidentally in or between objects"
+        },
+        {
+          "value": "E919 Accidents caused by machinery"
+        },
+        {
+          "value": "E920 Accidents caused by cutting and piercing instruments or objects"
+        },
+        {
+          "value": "E921 Accident caused by explosion of pressure vessel"
+        },
+        {
+          "value": "E922 Accident caused by firearm missile"
+        },
+        {
+          "value": "E923 Accident caused by explosive material"
+        },
+        {
+          "value": "E924 Accident caused by hot substance or object, caustic or corrosive material and steam"
+        },
+        {
+          "value": "E925 Accident caused by electric current"
+        },
+        {
+          "value": "E926 Exposure to radiation"
+        },
+        {
+          "value": "E927 Overexertion and strenuous movements"
+        },
+        {
+          "value": "E928 Other and unspecified environmental and accidental causes"
+        }
+      ]
+    },
+    {
+      "predicate": "(E929-E929) Late effects of accidental injury",
+      "entry": [
+        {
+          "value": "E929 Late effects of accidental injury"
+        }
+      ]
+    },
+    {
+      "predicate": "(E930-E949) Drugs, medicaments and biological substances causing adverse effects in therapeutic use",
+      "entry": [
+        {
+          "value": "E930 Antibiotics"
+        },
+        {
+          "value": "E931 Other anti-infectives"
+        },
+        {
+          "value": "E932 Hormones and synthetic substitutes"
+        },
+        {
+          "value": "E933 Primarily systemic agents"
+        },
+        {
+          "value": "E934 Agents primarily affecting blood constituents"
+        },
+        {
+          "value": "E935 Analgesics, antipyretics and antirheumatics"
+        },
+        {
+          "value": "E936 Anticonvulsants and anti-Parkinsonism drugs"
+        },
+        {
+          "value": "E937 Sedatives and hypnotics"
+        },
+        {
+          "value": "E938 Other central nervous system depressants and anaesthetics"
+        },
+        {
+          "value": "E939 Psychotropic agents"
+        },
+        {
+          "value": "E940 Central nervous system stimulants"
+        },
+        {
+          "value": "E941 Drugs primarily affecting the autonomic nervous system"
+        },
+        {
+          "value": "E942 Agents primarily affecting the cardiovascular system"
+        },
+        {
+          "value": "E943 Agents primarily affecting gastro-intestinal system"
+        },
+        {
+          "value": "E944 Water, mineral and uric acid metabolism drugs"
+        },
+        {
+          "value": "E945 Agents primarily acting on the smooth and skeletal muscles and respiratory system"
+        },
+        {
+          "value": "E946 Agents primarily affecting skin and mucous membrane, ophthalmological, otorhinolaryngological and dental drugs"
+        },
+        {
+          "value": "E947 Other and unspecified drugs and medicaments"
+        },
+        {
+          "value": "E948 Bacterial vaccines"
+        },
+        {
+          "value": "E949 Other vaccines and biological substances"
+        }
+      ]
+    },
+    {
+      "predicate": "(E950-E959) Suicide and self-inflicted injury",
+      "entry": [
+        {
+          "value": "E950 Suicide and self-inflicted poisoning by solid or liquid substances"
+        },
+        {
+          "value": "E951 Suicide and self-inflicted poisoning by gases in domestic use"
+        },
+        {
+          "value": "E952 Suicide and self-inflicted poisoning by other gases and vapours"
+        },
+        {
+          "value": "E953 Suicide and self-inflicted injury by hanging, strangulation and suffocation"
+        },
+        {
+          "value": "E954 Suicide and self-inflicted injury by submersion [drowning]"
+        },
+        {
+          "value": "E955 Suicide and self-inflicted injury by firearms and explosives"
+        },
+        {
+          "value": "E956 Suicide and self-inflicted injury by cutting and piercing instruments"
+        },
+        {
+          "value": "E957 Suicide and self-inflicted injuries by jumping from high place"
+        },
+        {
+          "value": "E958 Suicide and self-inflicted injury by other and unspecified means"
+        },
+        {
+          "value": "E959 Late effects of self-inflicted injury"
+        }
+      ]
+    },
+    {
+      "predicate": "(E960-E969) Homicide and injury purposely inflicted by other persons",
+      "entry": [
+        {
+          "value": "E960 Fight, brawl, rape"
+        },
+        {
+          "value": "E961 Assault by corrosive or caustic substance, except poisoning"
+        },
+        {
+          "value": "E962 Assault by poisoning"
+        },
+        {
+          "value": "E963 Assault by hanging and strangulation"
+        },
+        {
+          "value": "E964 Assault by submersion [drowning]"
+        },
+        {
+          "value": "E965 Assault by firearms and explosives"
+        },
+        {
+          "value": "E966 Assault by cutting and piercing instrument"
+        },
+        {
+          "value": "E967 Child battering and other maltreatment"
+        },
+        {
+          "value": "E968 Assault by other and unspecified means"
+        },
+        {
+          "value": "E969 Late effects of injury purposely inflicted by other person"
+        }
+      ]
+    }
+  ]
+}
