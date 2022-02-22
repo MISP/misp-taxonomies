@@ -1,0 +1,46 @@
+{
+  "namespace": "ransomware-roles",
+  "expanded": "Ransomware Actor Roles",
+  "description": "The seven roles seen in most ransomware incidents.",
+  "refs": [
+    "https://www.northwave-security.com/"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "1 - Initial Access Broker",
+      "expanded": "1 - Initial Access Broker",
+      "description": "Initial Access Brokers obtain the initial access to organizations. They monetize this access by offering it for sale to any actor."
+    },
+    {
+      "value": "2 - Ransomware Affiliate",
+      "expanded": "2 - Ransomware Affiliate",
+      "description": "Ransomware affiliates are responsible for obtaining control of a victim's network and monetizing it. They perform reconnaissance of the network as well as privilege escalation, and are responsible for destroying any backup options and deployment of ransomware. Ransomware Affiliates can make use of different ransomware families in different attacks."
+    },
+    {
+      "value": "3 - Data Manager",
+      "expanded": "3 - Data Manager",
+      "description": "Data managers are responsible for exfiltrating data as well as managing and leaking that exfiltrated data when necessary."
+    },
+    {
+      "value": "4 - Ransomware Operator",
+      "expanded": "4 - Ransomware Operator",
+      "description": "Ransomware Operators facilitate the ransomware business model by providing ransomware and hosting the infrastructure needed to run it."
+    },
+    {
+      "value": "5 - Negotiator",
+      "expanded": "5 - Negotiator",
+      "description": "Negotiators are responsible for interacting with the victim and coming to an agreement with the victim regarding the ransom payment."
+    },
+    {
+      "value": "6 - Chaser",
+      "expanded": "6 - Chaser",
+      "description": "Chasers put pressure on the victim by emailing and calling key employee. Chasers threaten these employees with continued attacks or publication of confidential data if the ransom is not payed."
+    },
+    {
+      "value": "7 - Accountant",
+      "expanded": "7 - Accountant",
+      "description": "Accountants launder the ransom."
+    }
+  ]
+}
