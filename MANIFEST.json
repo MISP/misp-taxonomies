@@ -667,6 +667,11 @@
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
       "version": 11
+    },
+    {
+      "description": "The seven actor roles seen in most ransomware incidents.",
+      "name": "ransomware-roles",
+      "version": 11
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
