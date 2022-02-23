@@ -4,7 +4,7 @@
 # Python script parsing the MISP taxonomies expressed in Machine Tags (Triple
 # Tags) to list all valid tags from a specific taxonomy.
 #
-# Copyright (c) 2015-2017 Alexandre Dulaunoy - a@foo.be
+# Copyright (c) 2015-2022 Alexandre Dulaunoy - a@foo.be
 #
 # Redistribution and use in source and binary forms, with or without modification,
 # are permitted provided that the following conditions are met:
@@ -30,7 +30,9 @@ import json
 import os.path
 import argparse
 import os
+import sys
 
+skip_list = ['death-possibilities']
 taxonomies = []
 
 # Get our current directory from file location
@@ -47,7 +49,11 @@ argParser.add_argument('-e', action='store_true', help='Include expanded tags')
 argParser.add_argument('-a', action='store_true', help='Generate asciidoctor document from MISP taxonomies')
 argParser.add_argument('-v', action='store_true', help='Include descriptions')
 argParser.add_argument('-n', default=False, help='Show only the specified namespace')
+argParser.add_argument('--disable-skip-list', default=False, action='store_true', help='disable default skip list')
 args = argParser.parse_args()
+
+if args.disable_skip_list:
+    skip_list = ''
 
 doc = ''
 if args.a:
@@ -121,6 +127,9 @@ def machineTag(namespace=False, predicate=False, value=None):
 
 
 for taxonomy in taxonomies:
+    if taxonomy in skip_list:
+        sys.stderr.write(f"Skip {taxonomy}")
+        continue
     filename = os.path.join(thisDir, "../", taxonomy, "machinetag.json")
     with open(filename) as fp:
         t = json.load(fp)
