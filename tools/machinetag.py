@@ -38,12 +38,6 @@ taxonomies = []
 # Get our current directory from file location
 thisDir = os.path.dirname(__file__)
 
-for folder in os.listdir(os.path.join(thisDir, '../')):
-    if os.path.isfile(os.path.join(thisDir, '../', folder, 'machinetag.json')):
-        taxonomies.append(folder)
-
-taxonomies.sort()
-
 argParser = argparse.ArgumentParser(description='Dump Machine Tags (Triple Tags) from MISP taxonomies', epilog='Available taxonomies are {0}'.format(taxonomies))
 argParser.add_argument('-e', action='store_true', help='Include expanded tags')
 argParser.add_argument('-a', action='store_true', help='Generate asciidoctor document from MISP taxonomies')
@@ -54,6 +48,15 @@ args = argParser.parse_args()
 
 if args.disable_skip_list:
     skip_list = ''
+
+for folder in os.listdir(os.path.join(thisDir, '../')):
+    if os.path.isfile(os.path.join(thisDir, '../', folder, 'machinetag.json')):
+        if folder in skip_list:
+            continue
+        taxonomies.append(folder)
+
+taxonomies.sort()
+
 
 doc = ''
 if args.a:
