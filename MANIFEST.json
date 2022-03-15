@@ -525,7 +525,7 @@
     },
     {
       "description": "Non-exhaustive taxonomy of natural poison",
-      "name": "poison Taxonomy",
+      "name": "poison-taxonomy",
       "version": 1
     },
     {
