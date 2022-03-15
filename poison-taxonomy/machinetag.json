@@ -1,5 +1,5 @@
 {
-  "namespace": "poison Taxonomy",
+  "namespace": "poison-taxonomy",
   "description": "Non-exhaustive taxonomy of natural poison",
   "version": 1,
   "predicates": [
