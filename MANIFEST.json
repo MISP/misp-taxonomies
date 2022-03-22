@@ -524,6 +524,11 @@
       "version": 5
     },
     {
+      "description": "Non-exhaustive taxonomy of natural poison",
+      "name": "poison-taxonomy",
+      "version": 1
+    },
+    {
       "description": "A political spectrum is a system to characterize and classify different political positions in relation to one another.",
       "name": "political-spectrum",
       "version": 1
@@ -537,6 +542,11 @@
       "description": "Ransomware is used to define ransomware types and the elements that compose them.",
       "name": "ransomware",
       "version": 6
+    },
+    {
+      "description": "The seven roles seen in most ransomware incidents.",
+      "name": "ransomware-roles",
+      "version": 1
     },
     {
       "description": "Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.",
@@ -667,13 +677,8 @@
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
       "version": 11
-    },
-    {
-      "description": "The seven actor roles seen in most ransomware incidents.",
-      "name": "ransomware-roles",
-      "version": 11
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20220218"
+  "version": "20220314"
 }
