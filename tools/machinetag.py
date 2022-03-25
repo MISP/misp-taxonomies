@@ -32,7 +32,7 @@ import argparse
 import os
 import sys
 
-skip_list = ['death-possibilities']
+skip_list = ['death-possibilities', 'poison-taxonomy']
 taxonomies = []
 
 # Get our current directory from file location
