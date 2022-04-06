@@ -1,7 +1,7 @@
 {
   "namespace": "extended-event",
-  "description": "Reasons why an event has been extended. ",
-  "version": 1,
+  "description": "Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf",
+  "version": 2,
   "predicates": [
     {
       "value": "competitive-analysis",
@@ -25,6 +25,11 @@
       "value": "update",
       "expanded": "Update",
       "description": "Original event is deprecated"
+    },
+    {
+      "value": "counter-analysis",
+      "expanded": "Counter analysis",
+      "description": "This extended event is a counter analysis of the original one. The author disagrees with the original statement."
     }
   ],
   "values": [
@@ -34,22 +39,22 @@
         {
           "value": "devil-advocate",
           "expanded": "Devil's advocate",
-          "description": "Is a competitive analysis of devil's advocate type."
+          "description": "Is a competitive analysis of devil's advocate type. A devil’s advocate is someone who defends a minority point of view."
         },
         {
           "value": "absurd-reasoning",
           "expanded": "Absurd reasoning",
-          "description": "Is a competitive analysis of absurd reasoning type"
+          "description": "Is a competitive analysis of absurd reasoning type."
         },
         {
           "value": "role-playing",
           "expanded": "Role playing",
-          "description": "Is a competitive analysis of role playing type"
+          "description": "Is a competitive analysis of role playing type. Role playing is commonly used to overcome con- straints and inhibitions that limit the range of one’s thinking. Playing a role changes “where you sit.” It also gives one license to think and act differently."
         },
         {
           "value": "crystal-ball",
           "expanded": "Crystal ball",
-          "description": "Is a competitive analysis of crystal ball type"
+          "description": "Is a competitive analysis of crystal ball type. The crystal ball approach works in much the same way as thinking backwards. Imagine that a “perfect” intelligence source (such as a crystal ball) has told you a certain assumption is wrong. You must then develop a scenario to explain how this could be true. If you can develop a plausible scenario, this suggests your assumption is open to some question."
         }
       ]
     },
@@ -59,7 +64,7 @@
         {
           "value": "automatic-expansion",
           "expanded": "Automatic expansion",
-          "description": "This extended event is composed of elements derived from automatic expanxions services"
+          "description": "This extended event is composed of elements derived from automatic expansions services"
         },
         {
           "value": "aggressive-pivoting",
