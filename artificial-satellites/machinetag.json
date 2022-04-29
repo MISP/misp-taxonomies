@@ -2,7 +2,7 @@
   "version": 1,
   "description": "This taxonomy was designed to describe artificial satellites",
   "expanded": "Artificial satellites taxonomy",
-  "namespace": "Artificial satellites",
+  "namespace": "artificial-satellites",
   "predicates": [
     {
       "value": "Meteorological and Earth observation",
