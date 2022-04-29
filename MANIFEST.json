@@ -64,6 +64,11 @@
       "version": 1
     },
     {
+      "description": "This taxonomy was designed to describe artificial satellites",
+      "name": "Artificial satellites",
+      "version": 1
+    },
+    {
       "description": "Custom taxonomy for types of binary file.",
       "name": "binary-class",
       "version": 2
@@ -269,9 +274,9 @@
       "version": 10
     },
     {
-      "description": "Reasons why an event has been extended. ",
+      "description": "Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf",
       "name": "extended-event",
-      "version": 1
+      "version": 2
     },
     {
       "description": "The purpose of this taxonomy is to jointly tabulate both the of these failure modes in a single place. Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm. Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.",
@@ -680,5 +685,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20220314"
+  "version": "20220429"
 }
