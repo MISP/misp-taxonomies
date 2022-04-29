@@ -21,7 +21,7 @@
     {
       "description": "Gray Zone of Active defense includes all elements which lay between reactive defense elements and offensive operations. It does fill the gray spot between them. Taxo may be used for active defense planning or modeling.",
       "name": "GrayZone",
-      "version": 2
+      "version": 3
     },
     {
       "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
