@@ -1,51 +1,51 @@
 {
   "namespace": "GrayZone",
   "description": "Gray Zone of Active defense includes all elements which lay between reactive defense elements and offensive operations. It does fill the gray spot between them. Taxo may be used for active defense planning or modeling.",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "Adversary Emulation",
-      "expanded": ""
+      "expanded": "Adversary Emulation"
     },
     {
       "value": "Beacons",
-      "expanded": ""
+      "expanded": "Beacons"
     },
     {
       "value": "Deterrence",
-      "expanded": ""
+      "expanded": "Deterrence"
     },
     {
       "value": "Deception",
-      "expanded": ""
+      "expanded": "Deception"
     },
     {
       "value": "Tarpits, Sandboxes and Honeypots",
-      "expanded": ""
+      "expanded": "Tarpits, Sandboxes and Honeypots"
     },
     {
       "value": "Threat Intelligence",
-      "expanded": ""
+      "expanded": "Threat Intelligence"
     },
     {
       "value": "Threat Hunting",
-      "expanded": ""
+      "expanded": "Threat Hunting"
     },
     {
       "value": "Adversary Takedowns",
-      "expanded": ""
+      "expanded": "Adversary Takedowns"
     },
     {
       "value": "Ransomware",
-      "expanded": ""
+      "expanded": "Ransomware"
     },
     {
       "value": "Rescue Missions",
-      "expanded": ""
+      "expanded": "Rescue Missions"
     },
     {
       "value": "Sanctions, Indictments & Trade Remedies",
-      "expanded": ""
+      "expanded": "Sanctions, Indictments & Trade Remedies"
     }
   ],
   "values": [
