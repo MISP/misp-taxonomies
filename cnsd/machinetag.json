@@ -1,6 +1,11 @@
 {
+  "version": 20220426,
+  "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital.",
+  "expanded": "CNSD Taxonomia de Incidentes de Seguridad Digital",
+  "namespace": "cnsd",  
   "values": [
     {
+      "predicate": "Contenido abusivo"
       "entry": [
         {
           "description": "Correo electrónico masivo no solicitado, el destinatario no ha otorgado un permiso verificable",
@@ -18,9 +23,9 @@
           "value": "explotacion sexual infantil"
         }
       ],
-      "predicate": "Contenido abusivo"
     },
     {
+      "predicate": "Disponibilidad"      
       "entry": [
         {
           "description": "Inundaciones ICMP y SYN, los ataques Teardrop y los bombardeos por correo, y los ataques DDoS que se originan por bots.",
@@ -33,9 +38,9 @@
           "value": "sabotaje"
         }
       ],
-      "predicate": "Disponibilidad"
     },
     {
+      "predicate": "Fraude"      
       "entry": [
         {
           "description": "Mal uso o uso no autorizado de recursos, incluidas empresas con fines de lucro, cadenas de ganancias o esquemas piramidales.",
@@ -48,9 +53,9 @@
           "value": "repres-falsa"
         }
       ],
-      "predicate": "Fraude"
     },
     {
+      "predicate": "Fuga de Información"      
       "entry": [
         {
           "description": "Son ataques que interceptan y acceden a la información durante la transmisión.",
@@ -63,9 +68,9 @@
           "value": "modi-elim-no-autorizada"
         }
       ],
-      "predicate": "Fuga de Información"
     },
     {
+      "predicate": "Intentos de intrusión"      
       "entry": [
         {
           "description": "Un intento de comprometer un sistema o interrumpir cualquier servicio mediante la explotación de vulnerabilidades.",
@@ -78,9 +83,9 @@
           "value": "intento-inicio-sesión"
         }
       ],
-      "predicate": "Intentos de intrusión"
     },
     {
+      "predicate": "Intrusión"      
       "entry": [
         {
           "description": "Un intento de comprometer un sistema o interrumpir cualquier servicio mediante la explotación de vulnerabilidades.",
@@ -93,9 +98,9 @@
           "value": "comprometer-cuenta"
         }
       ],
-      "predicate": "Intrusión"
     },
     {
+      "predicate": "Malware"      
       "entry": [
         {
           "description": "Se através de dispositivos extraibles, descargas de internet, adjuntos en correos, por scripts y vulneabilidades XSS.",
@@ -123,9 +128,9 @@
           "value": "indeterminado"
         }
       ],
-      "predicate": "Malware"
     },
     {
+      "predicate": "Recopilación de información"      
       "entry": [
         {
           "description": "Se através de dispositivos extraibles, descargas de internet, adjuntos en correos, por scripts y vulneabilidades XSS.",
@@ -143,9 +148,9 @@
           "value": "phishing"
         }
       ],
-      "predicate": "Recopilación de información"
     },
     {
+      "predicate": "Otros"      
       "entry": [
         {
           "description": "Incidente no encontrado en la lista.",
@@ -173,7 +178,6 @@
           "value": "danos-en-activos"
         }
       ],
-      "predicate": "Otros"
     }
   ],
   "predicates": [
@@ -218,8 +222,4 @@
       "value": "Recopilación de información"
     }
   ],
-  "version": 20220426,
-  "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital.",
-  "expanded": "CNSD Taxonomia de Incidentes de Seguridad Digital",
-  "namespace": "cnsd"
 }
