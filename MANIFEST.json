@@ -84,6 +84,11 @@
       "version": 5
     },
     {
+      "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital.",
+      "name": "cnsd",
+      "version": 20220426
+    },
+    {
       "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",
       "name": "coa",
       "version": 2
@@ -685,5 +690,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20220429"
+  "version": "20220505"
 }
