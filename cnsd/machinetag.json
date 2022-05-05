@@ -1,4 +1,8 @@
 {
+  "version": 20220426,
+  "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital.",
+  "expanded": "CNSD Taxonomia de Incidentes de Seguridad Digital",
+  "namespace": "cnsd",  
   "values": [
     {
       "entry": [
@@ -218,8 +222,4 @@
       "value": "Recopilación de información"
     }
   ],
-  "version": 20220426,
-  "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital.",
-  "expanded": "CNSD Taxonomia de Incidentes de Seguridad Digital",
-  "namespace": "cnsd"
 }
