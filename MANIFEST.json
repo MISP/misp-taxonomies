@@ -69,6 +69,11 @@
       "version": 1
     },
     {
+      "description": "This taxonomy was designed to describe artificial satellites",
+      "name": "artificial-satellites",
+      "version": 1
+    },
+    {
       "description": "Custom taxonomy for types of binary file.",
       "name": "binary-class",
       "version": 2
@@ -82,6 +87,11 @@
       "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
       "name": "circl",
       "version": 5
+    },
+    {
+      "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital.",
+      "name": "cnsd",
+      "version": 20220426
     },
     {
       "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",
@@ -685,5 +695,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20220429"
+  "version": "20220505"
 }

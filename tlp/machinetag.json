@@ -36,6 +36,6 @@
   "version": 5,
   "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.",
   "expanded": "Traffic Light Protocol",
-  "namespace": "tlp",
-  "exclusive": true
+  "exclusive": true,
+  "namespace": "tlp"
 }
