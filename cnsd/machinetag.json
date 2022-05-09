@@ -219,7 +219,7 @@
     }
   ],
   "version": 20220426,
-  "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital.",
+  "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
   "expanded": "CNSD Taxonomia de Incidentes de Seguridad Digital",
   "namespace": "cnsd"
 }
