@@ -1,0 +1,56 @@
+{
+  "namespace": "dga",
+  "expanded": "Domain-Generation Algorithms",
+  "description": "A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "generation-scheme",
+      "expanded": "Generation scheme used for the DGA"
+    },
+    {
+      "value": "seeding",
+      "expanded": "Seeding scheme used for the DGA"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "generation-scheme",
+      "entry": [
+        {
+          "value": "arithmetic",
+          "expanded": "Arithmetic",
+          "description": "Calculate a sequence of values that either have a direct ASCII representation usable for a domain name or designate an offset in one or more hard- coded arrays, constituting the alphabet of the DGA. "
+        },
+        {
+          "value": "hash",
+          "expanded": "Hash",
+          "description": "Use the hexdigest representation of a hash to produce the domain."
+        },
+        {
+          "value": "wordlist",
+          "expanded": "Wordlist",
+          "description": " Concatenate a sequence of words from one or more wordlists, resulting in less randomly appealing and thus more camouflaging domains"
+        },
+        {
+          "value": "permutation",
+          "expanded": "Permutation",
+          "description": "derive all possible AGDs (Algorithmically-Generated Domain) through permutation of an initial domain name."
+        }
+      ]
+    },
+    {
+      "predicate": "seeding",
+      "entry": [
+        {
+          "value": "time-dependent",
+          "expanded": "Time dependent"
+        },
+        {
+          "value": "deterministic",
+          "expanded": "Deterministic"
+        }
+      ]
+    }
+  ]
+}

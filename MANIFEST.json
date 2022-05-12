@@ -89,7 +89,7 @@
       "version": 5
     },
     {
-      "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital.",
+      "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
       "name": "cnsd",
       "version": 20220426
     },
@@ -196,6 +196,11 @@
     {
       "description": "Deception is an important component of information operations, valuable for both offense and defense. ",
       "name": "deception",
+      "version": 1
+    },
+    {
+      "description": "A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others.",
+      "name": "dga",
       "version": 1
     },
     {
@@ -695,5 +700,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20220505"
+  "version": "20220512"
 }
