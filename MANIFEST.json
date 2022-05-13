@@ -91,7 +91,7 @@
     {
       "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
       "name": "cnsd",
-      "version": 20220426
+      "version": 20220513
     },
     {
       "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",

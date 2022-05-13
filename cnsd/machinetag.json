@@ -178,11 +178,6 @@
   ],
   "predicates": [
     {
-      "value": "Otros",
-      "expanded": "Otros",
-      "description": "Otros"
-    },
-    {
       "description": "Comprende aquellos incidentes de contenido comercial no autorizados, comentarios ofensivos, violencia y/o delitos sexuales.",
       "expanded": "Contenido abusivo",
       "value": "Contenido abusivo"
@@ -221,9 +216,14 @@
       "description": "Comprende aquellos incidentes relacionados con el uso de analizadores de paquetes, ingenieria social o ataques de fuerza bruta.",
       "expanded": "Recopilación de información",
       "value": "Recopilación de información"
+    },
+    {
+      "value": "Otros",
+      "expanded": "Otros",
+      "description": "Otros"
     }
   ],
-  "version": 20220426,
+  "version": 20220513,
   "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
   "expanded": "CNSD Taxonomia de Incidentes de Seguridad Digital",
   "namespace": "cnsd"
