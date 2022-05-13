@@ -30,7 +30,7 @@
         {
           "value": "wordlist",
           "expanded": "Wordlist",
-          "description": " Concatenate a sequence of words from one or more wordlists, resulting in less randomly appealing and thus more camouflaging domains"
+          "description": "Concatenate a sequence of words from one or more wordlists, resulting in less randomly appealing and thus more camouflaging domains"
         },
         {
           "value": "permutation",
