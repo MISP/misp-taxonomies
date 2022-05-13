@@ -2,7 +2,7 @@
   "namespace": "dga",
   "expanded": "Domain-Generation Algorithms",
   "description": "A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "generation-scheme",
@@ -44,11 +44,19 @@
       "entry": [
         {
           "value": "time-dependent",
-          "expanded": "Time dependent"
+          "expanded": "The DGA uses temporal information in the seeding for its domain generation, resulting in sets of domains with certain validity time spans."
+        },
+        {
+          "value": "time-independent",
+          "expanded": "The DGA does not rely on temporal information in the seeding for its domain generation, resulting in a single set of domains."
         },
         {
           "value": "deterministic",
-          "expanded": "Deterministic"
+          "expanded": "Given the implementation of the DGA and a seed, its full set of possible domains can be calculated at any point in time."
+        },
+        {
+          "value": "non-deterministic",
+          "expanded": "Domains depend on unpredictable seed input, e.g. on external dynamic information that can be published at a later time (e.g. via posting on social media), on data specific to the system it is executed on, or on arbitrary non-predictable PRNG output."
         }
       ]
     }
