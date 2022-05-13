@@ -21,7 +21,7 @@
       "expanded": " Tracking Satellites"
     },
     {
-      "value": "Search & Rescue (SARSAT)",
+      "value": "Search & Rescue",
       "expanded": " Search & Rescue (SARSAT) Satellites"
     },
     {
@@ -29,8 +29,8 @@
       "expanded": " Earth Ressources Satellites"
     },
     {
-      "value": "Disaster Monotoring",
-      "expanded": " Disaster Monotoring Satellites "
+      "value": "Disaster Monitoring",
+      "expanded": " Disaster Monitoring Satellites "
     },
     {
       "value": "GNSS",
@@ -10711,7 +10711,7 @@
       ]
     },
     {
-      "predicate": "Disaster Monotororing",
+      "predicate": "Disaster Monitoring",
       "entry": [
         {
           "value": "BEIJING 1",
