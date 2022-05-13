@@ -63,7 +63,7 @@
           "value": "modi-elim-no-autorizada"
         }
       ],
-      "predicate": "Fuga de Información"
+      "predicate": "Fuga de información"
     },
     {
       "entry": [
@@ -177,6 +177,11 @@
     }
   ],
   "predicates": [
+    {
+      "value": "Otros",
+      "expanded": "Otros",
+      "description": "Otros"
+    },
     {
       "description": "Comprende aquellos incidentes de contenido comercial no autorizados, comentarios ofensivos, violencia y/o delitos sexuales.",
       "expanded": "Contenido abusivo",
