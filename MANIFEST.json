@@ -707,6 +707,11 @@
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
       "version": 11
+    },
+    {
+      "version": 1,
+      "name": "pyoti",
+      "description": "PyOTI automated enrichment schemes for point in time classification of indicators."
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
