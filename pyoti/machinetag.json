@@ -3,7 +3,9 @@
   "description": "PyOTI automated enrichment schemes for point in time classification of indicators.",
   "version": 1,
   "expanded": "PyOTI Enrichment",
-  "refs": "https://github.com/RH-ISAC/PyOTI",
+  "refs": [
+    "https://github.com/RH-ISAC/PyOTI"
+  ],
   "predicates": [
     {
       "value": "checkdmarc",
