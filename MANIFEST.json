@@ -709,7 +709,7 @@
       "version": 11
     },
     {
-      "version": 1,
+      "version": 2,
       "name": "pyoti",
       "description": "PyOTI automated enrichment schemes for point in time classification of indicators."
     }
