@@ -1,7 +1,7 @@
 {
   "namespace": "pyoti",
   "description": "PyOTI automated enrichment schemes for point in time classification of indicators.",
-  "version": 2,
+  "version": 3,
   "expanded": "PyOTI Enrichment",
   "refs": [
     "https://github.com/RH-ISAC/PyOTI",
@@ -10,8 +10,7 @@
   "predicates": [
     {
       "value": "checkdmarc",
-      "expanded": "CheckDMARC",
-      "description": "CheckDMARC validates SPF and DMARC DNS records."
+      "expanded": "CheckDMARC"
     },
     {
       "value": "disposable-email",
@@ -20,43 +19,35 @@
     },
     {
       "value": "emailrepio",
-      "expanded": "EmailRepIO",
-      "description": "EmailRep.io is a system of crawlers, scanners and enrichment services that collects data on email addresses, domains, and internet personas."
+      "expanded": "EmailRepIO"
     },
     {
       "value": "iris-investigate",
-      "expanded": "Iris Investigate",
-      "description": "Iris Investigate gives visibility into what type of risk the domain represents."
+      "expanded": "Iris Investigate"
     },
     {
       "value": "virustotal",
-      "expanded": "VirusTotal",
-      "description": "Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community."
+      "expanded": "VirusTotal"
     },
     {
       "value": "circl-hashlookup",
-      "expanded": "CIRCL Hash Lookup",
-      "description": "Lookup hash values against database of known files. NSRL RDS database is included, as well as many others."
+      "expanded": "CIRCL Hash Lookup"
     },
     {
       "value": "reputation-block-list",
-      "expanded": "Reputation Block List",
-      "description": "Reputation Block Lists are lists of domains, URLs, and IP addresses that have been investigated and subsequently identified as posing security threats."
+      "expanded": "Reputation Block List"
     },
     {
       "value": "abuseipdb",
-      "expanded": "AbuseIPDB",
-      "description": "AbuseIPDB is a project dedicated to helping combat the spread of hackers, spammers, and abusive activity on the internet."
+      "expanded": "AbuseIPDB"
     },
     {
       "value": "greynoise-riot",
-      "expanded": "GreyNoise RIOT",
-      "description": "GreyNoise RIOT identifies IPs from known benign services and organizations that commonly cause false positives in network security and threat intelligence products."
+      "expanded": "GreyNoise RIOT"
     },
     {
       "value": "googlesafebrowsing",
-      "expanded": "Google Safe Browsing",
-      "description": "Google Safe Browsing is a blacklist service provided by Google that provides lists of URLs for web resources that contain malware or phishing content."
+      "expanded": "Google Safe Browsing"
     }
   ],
   "values": [
@@ -172,6 +163,11 @@
           "value": "valid-signature",
           "expanded": "Valid Signature",
           "description": "The valid-signature entry indicates a file is signed with a valid signature."
+        },
+        {
+          "value": "invalid-signature",
+          "expanded": "Invalid Signature",
+          "description": "The invalid-signature entry indicates a file is signed with an invalid signature."
         }
       ]
     },
