@@ -1,16 +1,16 @@
 {
   "namespace": "pyoti",
   "description": "PyOTI automated enrichment schemes for point in time classification of indicators.",
-  "version": 1,
+  "version": 3,
   "expanded": "PyOTI Enrichment",
   "refs": [
-    "https://github.com/RH-ISAC/PyOTI"
+    "https://github.com/RH-ISAC/PyOTI",
+    "https://github.com/RH-ISAC/PyOTI/blob/main/examples/enrich_misp_event.py"
   ],
   "predicates": [
     {
       "value": "checkdmarc",
-      "expanded": "CheckDMARC",
-      "description": "CheckDMARC validates SPF and DMARC DNS records."
+      "expanded": "CheckDMARC"
     },
     {
       "value": "disposable-email",
@@ -19,43 +19,35 @@
     },
     {
       "value": "emailrepio",
-      "expanded": "EmailRepIO",
-      "description": "EmailRep.io is a system of crawlers, scanners and enrichment services that collects data on email addresses, domains, and internet personas."
+      "expanded": "EmailRepIO"
     },
     {
       "value": "iris-investigate",
-      "expanded": "Iris Investigate",
-      "description": "Iris Investigate gives visibility into what type of risk the domain represents."
+      "expanded": "Iris Investigate"
     },
     {
       "value": "virustotal",
-      "expanded": "VirusTotal",
-      "description": "Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community."
+      "expanded": "VirusTotal"
     },
     {
       "value": "circl-hashlookup",
-      "expanded": "CIRCL Hash Lookup",
-      "description": "Lookup hash values against database of known files. NSRL RDS database is included, as well as many others."
+      "expanded": "CIRCL Hash Lookup"
     },
     {
       "value": "reputation-block-list",
-      "expanded": "Reputation Block List",
-      "description": "Reputation Block Lists are lists of domains, URLs, and IP addresses that have been investigated and subsequently identified as posing security threats."
+      "expanded": "Reputation Block List"
     },
     {
       "value": "abuseipdb",
-      "expanded": "AbuseIPDB",
-      "description": "AbuseIPDB is a project dedicated to helping combat the spread of hackers, spammers, and abusive activity on the internet."
+      "expanded": "AbuseIPDB"
     },
     {
       "value": "greynoise-riot",
-      "expanded": "GreyNoise RIOT",
-      "description": "GreyNoise RIOT identifies IPs from known benign services and organizations that commonly cause false positives in network security and threat intelligence products."
+      "expanded": "GreyNoise RIOT"
     },
     {
       "value": "googlesafebrowsing",
-      "expanded": "Google Safe Browsing",
-      "description": "Google Safe Browsing is a blacklist service provided by Google that provides lists of URLs for web resources that contain malware or phishing content."
+      "expanded": "Google Safe Browsing"
     }
   ],
   "values": [
@@ -171,6 +163,11 @@
           "value": "valid-signature",
           "expanded": "Valid Signature",
           "description": "The valid-signature entry indicates a file is signed with a valid signature."
+        },
+        {
+          "value": "invalid-signature",
+          "expanded": "Invalid Signature",
+          "description": "The invalid-signature entry indicates a file is signed with an invalid signature."
         }
       ]
     },
@@ -236,6 +233,91 @@
           "value": "spamhaus-drop",
           "expanded": "Spamhaus Don't Route Or Peer",
           "description": "Spamhaus Don't Route Or Peer (DROP) is an advisory 'drop all traffic' list. DROP is a tiny subset of the SBL which is designed for use by firewalls or routing equipment."
+        },
+        {
+          "value": "spamhaus-spam",
+          "expanded": "Spamhaus Domain Block List Spam Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used for spam."
+        },
+        {
+          "value": "spamhaus-phish",
+          "expanded": "Spamhaus Domain Block List Phish Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used for phishing."
+        },
+        {
+          "value": "spamhaus-malware",
+          "expanded": "Spamhaus Domain Block List Malware Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used to serve malware."
+        },
+        {
+          "value": "spamhaus-botnet-c2",
+          "expanded": "Spamhaus Domain Block List Botnet C2 Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used for botnet command and control."
+        },
+        {
+          "value": "spamhaus-abused-legit-spam",
+          "expanded": "Spamhaus Domain Block List Abused Legit Spam Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used for spam."
+        },
+        {
+          "value": "spamhaus-abused-spammed-redirector",
+          "expanded": "Spamhaus Domain Block List Abused Spammed Redirector Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate spammed domain names with poor reputations used as redirector domains."
+        },
+        {
+          "value": "spamhaus-abused-legit-phish",
+          "expanded": "Spamhaus Domain Block List Abused Legit Phish Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used for phishing."
+        },
+        {
+          "value": "spamhaus-abused-legit-malware",
+          "expanded": "Spamhaus Domain Block List Abused Legit Malware Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used to serve malware."
+        },
+        {
+          "value": "spamhaus-abused-legit-botnet-c2",
+          "expanded": "Spamhaus Domain Block List Abused Legit Botnet C2 Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used for botnet command and control."
+        },
+        {
+          "value": "surbl-phish",
+          "expanded": "SURBL Phishing Sites",
+          "description": "Phishing data from multiple sources is included in this list. Data includes PhishTank, OITC, PhishLabs, Malware Domains and several other sources, including proprietary research by SURBL."
+        },
+        {
+          "value": "surbl-malware",
+          "expanded": "SURBL Malware Sites",
+          "description": "This list contains data from multiple sources that cover sites hosting malware. This includes OITC, abuse.ch, The DNS blackhole malicious site data from malwaredomains.com and others. Malware data also includes significant proprietary research by SURBL."
+        },
+        {
+          "value": "surbl-spam",
+          "expanded": "SURBL Spam Sites",
+          "description": "This list contains mainly general spam sites. It combines data from the formerly separate JP, WS, SC and AB lists. It also includes data from Internet security, anti-abuse, ISP, ESP and other communities, such as Telenor. Most of the data in this list comes from internal, proprietary research by SURBL."
+        },
+        {
+          "value": "surbl-abused-legit",
+          "expanded": "SURBL Abused Legit Sites",
+          "description": "This list contains data from multiple sources that cover cracked sites, including SURBL internal ones. Criminals steal credentials or abuse vulnerabilities to break into websites and add malicious content. Often cracked pages will redirect to spam sites or to other cracked sites. Cracked sites usually still contain the original legitimate content and may still be mentioned in legitimate emails, besides the malicious pages referenced in spam."
+        },
+        {
+          "value": "uribl-black",
+          "expanded": "URIBL Black",
+          "description": "URIBL Black list contains domain names belonging to and used by spammers, including but not restricted to those that appear in URIs found in Unsolicited Bulk and/or Commercial Email (UBE/UCE). This list has a goal of zero False Positives."
+        },
+        {
+          "value": "uribl-grey",
+          "expanded": "URIBL Grey",
+          "description": "URIBL Grey list contains domains found in UBE/UCE, and possibly honour opt-out requests. It may include ESPs which allow customers to import their recipient lists and may have no control over the subscription methods. This list can and probably will cause False Positives depending on your definition of UBE/UCE."
+        },
+        {
+          "value": "uribl-red",
+          "expanded": "URIBL Red",
+          "description": "URIBL Red list contains domains that actively show up in mail flow, are not listed on URIBL black, and are either: being monitored, very young (domain age via whois), or use whois privacy features to protect their identity. This list is automated in nature, so please use at your own risk."
+        },
+        {
+          "value": "uribl-multi",
+          "expanded": "URIBL Multi",
+          "description": "URIBL Multi list contains all of the public URIBL lists."
         }
       ]
     },
