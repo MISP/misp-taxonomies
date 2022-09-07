@@ -1,7 +1,7 @@
 {
   "namespace": "false-positive",
   "description": "This taxonomy aims to ballpark the expected amount of false positives.",
-  "version": 5,
+  "version": 6,
   "expanded": "False positive",
   "predicates": [
     {
@@ -37,6 +37,12 @@
           "value": "high",
           "expanded": "High",
           "description": "The risk of having false positives in the tagged value is high.",
+          "numerical_value": 25
+        },
+        {
+          "value": "cannot-be-judged",
+          "expanded": "Risk cannot be judged",
+          "description": "The risk of having false positives in the tagged value is cannot be judged.",
           "numerical_value": 25
         }
       ]
