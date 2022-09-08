@@ -108,6 +108,11 @@
           "value": "xml"
         },
         {
+          "colour": "#11eded",
+          "expanded": "internet",
+          "value": "hta"
+        },
+        {
           "colour": "#ccffeb",
           "expanded": "internet",
           "value": "flash"
@@ -571,6 +576,11 @@
           "colour": "#00663f",
           "expanded": "code",
           "value": "pascal"
+        },
+        {
+          "colour": "#33b5a5",
+          "expanded": "code",
+          "value": "vbs"
         },
         {
           "colour": "#b3ffe2",
