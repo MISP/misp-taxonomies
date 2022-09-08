@@ -208,6 +208,11 @@
           "value": "gimp"
         },
         {
+          "colour": "#25c3e6",
+          "expanded": "image",
+          "value": "img"
+        },
+        {
           "colour": "#80ffce",
           "expanded": "image",
           "value": "indesign"
@@ -371,6 +376,11 @@
           "colour": "#33ffb1",
           "expanded": "document",
           "value": "doc"
+        },
+        {
+          "colour": "#35b8f0",
+          "expanded": "document",
+          "value": "txt"
         },
         {
           "colour": "#ccffeb",
@@ -601,6 +611,11 @@
           "colour": "#99ffd8",
           "expanded": "code",
           "value": "java-bytecode"
+        },
+        {
+          "colour": "#2e73db",
+          "expanded": "code",
+          "value": "ppa"
         },
         {
           "colour": "#004d2f",
