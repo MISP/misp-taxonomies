@@ -378,6 +378,11 @@
           "value": "doc"
         },
         {
+          "colour": "#35b8f0",
+          "expanded": "document",
+          "value": "txt"
+        },
+        {
           "colour": "#ccffeb",
           "expanded": "document",
           "value": "docx"
@@ -606,6 +611,11 @@
           "colour": "#99ffd8",
           "expanded": "code",
           "value": "java-bytecode"
+        },
+        {
+          "colour": "#2e73db",
+          "expanded": "code",
+          "value": "ppa"
         },
         {
           "colour": "#004d2f",
