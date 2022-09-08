@@ -208,6 +208,11 @@
           "value": "gimp"
         },
         {
+          "colour": "#25c3e6",
+          "expanded": "image",
+          "value": "img"
+        },
+        {
           "colour": "#80ffce",
           "expanded": "image",
           "value": "indesign"
