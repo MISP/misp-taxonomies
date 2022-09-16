@@ -413,6 +413,11 @@
           "value": "xlsx"
         },
         {
+          "colour": "#00663f",
+          "expanded": "document",
+          "value": "xlsm"
+        },
+        {
           "colour": "#99ffd8",
           "expanded": "document",
           "value": "odp"
