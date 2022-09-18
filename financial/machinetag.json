@@ -27,7 +27,7 @@
       "entry": [
         {
           "value": "banking",
-          "expanded": "Bamking",
+          "expanded": "Banking",
           "description": "Financial entity described or/and regulated as banking."
         },
         {
@@ -101,7 +101,7 @@
           "description": "Corporate structure is located in the European Union."
         },
         {
-          "value": "corporate-structure-worlwide",
+          "value": "corporate-structure-worldwide",
           "expanded": "Corporate structure is worldwide",
           "description": "Corporate structure is located worldwide."
         }
@@ -123,7 +123,7 @@
         {
           "value": "crucial",
           "expanded": "Crucial",
-          "description": "Online presence of the financial entity is crucial and only includes online serices without physical presence."
+          "description": "Online presence of the financial entity is crucial and only includes online services without physical presence."
         }
       ]
     },
@@ -143,7 +143,7 @@
       ]
     }
   ],
-  "version": 3,
+  "version": 4,
   "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
   "expanded": "Financial",
   "namespace": "financial"
