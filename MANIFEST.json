@@ -316,7 +316,7 @@
     {
       "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
       "name": "financial",
-      "version": 1
+      "version": 3
     },
     {
       "description": "Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid).",
