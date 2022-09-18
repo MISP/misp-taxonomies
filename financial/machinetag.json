@@ -14,6 +14,11 @@
       "description": "Online presence of the financial entity.",
       "expanded": "Online presence",
       "value": "online-presence"
+    },
+    {
+      "description": "Physical presence of the financial entity.",
+      "expanded": "Physical presence",
+      "value": "physical-presence"
     }
   ],
   "values": [
@@ -121,9 +126,24 @@
           "description": "Online presence of the financial entity is crucial and only includes online serices without physical presence."
         }
       ]
+    },
+    {
+      "predicate": "physical-presence",
+      "entry": [
+        {
+          "value": "atm",
+          "expanded": "Automated teller machines",
+          "description": "The financial entity owns and/or operates automated teller machines (ATM)."
+        },
+        {
+          "value": "pos",
+          "expanded": "Point of sale terminals",
+          "description": "The financial entity owns and/or operates point of sale terminals (POS)."
+        }
+      ]
     }
   ],
-  "version": 2,
+  "version": 3,
   "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
   "expanded": "Financial",
   "namespace": "financial"
