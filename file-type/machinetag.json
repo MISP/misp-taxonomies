@@ -375,12 +375,32 @@
         {
           "colour": "#33ffb1",
           "expanded": "document",
+          "value": "dot"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "document",
+          "value": "dotm"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "document",
+          "value": "dotx"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "document",
           "value": "doc"
         },
         {
           "colour": "#35b8f0",
           "expanded": "document",
           "value": "txt"
+        },
+        {
+          "colour": "#ccffeb",
+          "expanded": "document",
+          "value": "docm"
         },
         {
           "colour": "#ccffeb",
@@ -460,12 +480,22 @@
         {
           "colour": "#00b36e",
           "expanded": "bundle",
+          "value": "txz"
+        },
+        {
+          "colour": "#00b36e",
+          "expanded": "bundle",
           "value": "zip"
         },
         {
           "colour": "#00fa9a",
           "expanded": "bundle",
           "value": "gzip"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "bundle",
+          "value": "tar"
         },
         {
           "colour": "#33ffb1",
@@ -545,6 +575,11 @@
         {
           "colour": "#33ffb1",
           "expanded": "code",
+          "value": "bat"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "code",
           "value": "script"
         },
         {
@@ -576,6 +611,11 @@
           "colour": "#4dffbb",
           "expanded": "code",
           "value": "cpp"
+        },
+        {
+          "colour": "#00cc7e",
+          "expanded": "code",
+          "value": "javascript"
         },
         {
           "colour": "#00cc7e",
@@ -675,7 +715,7 @@
         {
           "colour": "#00663f",
           "expanded": "miscellaneous",
-          "value": "data"
+          "value": "dat"
         }
       ],
       "predicate": "type"
