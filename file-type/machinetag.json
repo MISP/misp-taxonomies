@@ -545,6 +545,11 @@
         {
           "colour": "#33ffb1",
           "expanded": "code",
+          "value": "bat"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "code",
           "value": "script"
         },
         {
@@ -675,7 +680,7 @@
         {
           "colour": "#00663f",
           "expanded": "miscellaneous",
-          "value": "data"
+          "value": "dat"
         }
       ],
       "predicate": "type"
