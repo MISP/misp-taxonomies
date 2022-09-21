@@ -33,6 +33,20 @@
       "numerical_value": 7
     },
     {
+      "colour": "#FF6F00",
+      "description": "This TAG will insure you to share ONLY to the Thales Group ISAC alliance. Distribution: All communities",
+      "expanded": "Use it when you want to share to the Thales Group ISAC alliance ONLY. Distribution: All communities",
+      "value": "isac",
+      "numerical_value": 8
+    },
+    {
+      "colour": "#FF6F00",
+      "description": "This TAG will insure you to share ONLY to the Thales Group InterCERT France alliance. Distribution: All communities",
+      "expanded": "Use it when you want to share to the Thales Group InterCERT France alliance ONLY. Distribution: All communities",
+      "value": "intercert_france",
+      "numerical_value": 9
+    },
+    {
       "colour": "#75646A",
       "description": "Distribution: All communities",
       "expanded": "Use it when you want to assign a trust category to an Attribute or Globally to an Event. Distribution: All communities",
@@ -44,14 +58,14 @@
       "description": "Distribution: Restricted Sharing Group",
       "expanded": "(TLP:BLACK) Information cannot be effectively acted outside of strict and reduced circle of a trust. Distribution: Restricted Sharing Group",
       "value": "tlp:black",
-      "numerical_value": 11
+      "numerical_value": 13
     },
     {
       "colour": "#375a7f",
       "description": "Distribution: All communities",
       "expanded": "Use it when this came from Watcher Platform. Distribution: All communities",
       "value": "Watcher",
-      "numerical_value": 12
+      "numerical_value": 14
     }
   ],
   "values": [
@@ -94,17 +108,17 @@
         {
           "value": "high",
           "expanded": "High",
-          "numerical_value": 8
+          "numerical_value": 10
         },
         {
           "value": "medium",
           "expanded": "Medium",
-          "numerical_value": 9
+          "numerical_value": 11
         },
         {
           "value": "low",
           "expanded": "Low",
-          "numerical_value": 10
+          "numerical_value": 12
         }
       ]
     }
@@ -112,7 +126,7 @@
   "refs": [
     "https://www.thalesgroup.com/en/cert"
   ],
-  "version": 2,
+  "version": 3,
   "description": "Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.",
   "expanded": "Thales Group Taxonomy",
   "namespace": "thales_group"
