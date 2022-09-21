@@ -306,12 +306,17 @@
     {
       "description": "This taxonomy aims to ballpark the expected amount of false positives.",
       "name": "false-positive",
-      "version": 5
+      "version": 7
     },
     {
       "description": "List of known file types.",
       "name": "file-type",
       "version": 1
+    },
+    {
+      "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
+      "name": "financial",
+      "version": 3
     },
     {
       "description": "Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid).",
@@ -664,9 +669,9 @@
       "version": 1
     },
     {
-      "description": "The Traffic Light Protocol (TLP) (v2.0) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four labels used to indicate the sharing boundaries to be applied by the recipients. Only labels listed in this standard are considered valid by FIRST. This taxonomy includes additional labels for backward compatibility which are no more validated by FIRST.",
+      "description": "The Traffic Light Protocol (TLP) (v2.0) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four standard labels (a fifth label is included in amber to limit the diffusion) used to indicate the sharing boundaries to be applied by the recipients. Only labels listed in this standard are considered valid by FIRST. This taxonomy includes additional labels for backward compatibility which are no more validated by FIRST SIG.",
       "name": "tlp",
-      "version": 6
+      "version": 7
     },
     {
       "description": "Taxonomy to describe Tor network infrastructure",
@@ -715,5 +720,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20220803"
+  "version": "20220918"
 }
