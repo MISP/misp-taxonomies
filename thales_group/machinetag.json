@@ -33,14 +33,14 @@
       "numerical_value": 7
     },
     {
-      "colour": "#FF6F00",
+      "colour": "#043C86",
       "description": "This TAG will insure you to share ONLY to the Thales Group ISAC alliance. Distribution: All communities",
       "expanded": "Use it when you want to share to the Thales Group ISAC alliance ONLY. Distribution: All communities",
       "value": "isac",
       "numerical_value": 8
     },
     {
-      "colour": "#FF6F00",
+      "colour": "#12294D",
       "description": "This TAG will insure you to share ONLY to the Thales Group InterCERT France alliance. Distribution: All communities",
       "expanded": "Use it when you want to share to the Thales Group InterCERT France alliance ONLY. Distribution: All communities",
       "value": "intercert_france",
