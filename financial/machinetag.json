@@ -46,13 +46,13 @@
           "description": "Financial entity having physical possessions of clients financial assets or instruments."
         },
         {
-          "value": "stock-exchange",
-          "expanded": "Stock exchange",
-          "description": "Financial entity having a stock exchange where securities are exchanged."
+          "value": "financial-market-infrastructure",
+          "expanded": "Financial market infrastructure",
+          "description": "Financial market infrastructure such as stock exchange, CSD"
         },
         {
-          "value": "fund-management",
-          "expanded": "Fund management",
+          "value": "asset-management",
+          "expanded": "Asset management",
           "description": "Financial entity managing financial assets on behalf of others."
         },
         {
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "predicate": "online-presence",
+      "predicate": "online-exposition",
       "entry": [
         {
           "value": "limited",
@@ -123,7 +123,7 @@
         {
           "value": "crucial",
           "expanded": "Crucial",
-          "description": "Online presence of the financial entity is crucial and only includes online services without physical presence."
+          "description": "Online presence of the financial entity is crucial and business depends on online presence, extensive use of cloud computing, APIs, etc."
         }
       ]
     },
@@ -143,7 +143,7 @@
       ]
     }
   ],
-  "version": 4,
+  "version": 5,
   "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
   "expanded": "Financial",
   "namespace": "financial"
