@@ -19,6 +19,11 @@
       "description": "Physical presence of the financial entity.",
       "expanded": "Physical presence",
       "value": "physical-presence"
+    },
+    {
+      "description": "Services provided by the financial entity.",
+      "expanded": "Services",
+      "value": "services"
     }
   ],
   "values": [
@@ -141,9 +146,54 @@
           "description": "The financial entity owns and/or operates point of sale terminals (POS)."
         }
       ]
+    },
+    {
+      "predicate": "services",
+      "entry": [
+        {
+          "value": "settlement",
+          "expanded": "Settlement",
+          "description": "A financial entity providing settlement services."
+        },
+        {
+          "value": "collateral-management",
+          "expanded": "Collatoral management",
+          "description": "A financial entity providing collateral management services."
+        },
+        {
+          "value": "listing-operation-of-trading-platform",
+          "expanded": "Listing and operation of trading platform",
+          "description": "A financial entity providing listing and operation of trading platform."
+        },
+        {
+          "value": "credit-granting",
+          "expanded": "Credit granting",
+          "description": "A financial entity providing credit granting."
+        },
+        {
+          "value": "deposit-management",
+          "expanded": "Deposit management",
+          "description": "A financial entity providing deposit management."
+        },
+        {
+          "value": "custodian-banking",
+          "expanded": "Custodian banking",
+          "description": "A financial entity providing custodian banking."
+        },
+        {
+          "value": "payment-services",
+          "expanded": "Payment services",
+          "description": "A financial entity providing payment services."
+        },
+        {
+          "value": "investment-services",
+          "expanded": "Investment services",
+          "description": "A financial entity providing investment services."
+        }
+      ]
     }
   ],
-  "version": 5,
+  "version": 6,
   "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
   "expanded": "Financial",
   "namespace": "financial"
