@@ -11,9 +11,9 @@
       "value": "geographical-footprint"
     },
     {
-      "description": "Online presence of the financial entity.",
-      "expanded": "Online presence",
-      "value": "online-presence"
+      "description": "Online exposition of the financial entity.",
+      "expanded": "Online exposition",
+      "value": "online-exposition"
     },
     {
       "description": "Physical presence of the financial entity.",
@@ -193,7 +193,7 @@
       ]
     }
   ],
-  "version": 6,
+  "version": 7,
   "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
   "expanded": "Financial",
   "namespace": "financial"
