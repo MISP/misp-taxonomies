@@ -36,7 +36,7 @@
       "colour": "#043C86",
       "description": "This TAG will insure you to share ONLY to the Thales Group ISAC alliance. Distribution: All communities",
       "expanded": "Use it when you want to share to the Thales Group ISAC alliance ONLY. Distribution: All communities",
-      "value": "isac",
+      "value": "a_isac",
       "numerical_value": 8
     },
     {
@@ -126,7 +126,7 @@
   "refs": [
     "https://www.thalesgroup.com/en/cert"
   ],
-  "version": 3,
+  "version": 4,
   "description": "Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.",
   "expanded": "Thales Group Taxonomy",
   "namespace": "thales_group"
