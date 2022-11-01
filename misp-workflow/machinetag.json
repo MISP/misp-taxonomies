@@ -2,17 +2,17 @@
   "namespace": "misp-workflow",
   "expanded": "MISP workflow",
   "description": "MISP workflow taxonomy to support result of workflow execution.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
-      "value": "result",
-      "expanded": "result",
-      "description": "Result of the workflow execution"
+      "value": "action-taken",
+      "expanded": "Action taken",
+      "description": "Action taken during the workflow execution"
     }
   ],
   "values": [
     {
-      "predicate": "result",
+      "predicate": "action-taken",
       "entry": [
         {
           "value": "ids-flag-removed",
