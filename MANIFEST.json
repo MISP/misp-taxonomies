@@ -316,7 +316,7 @@
     {
       "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
       "name": "financial",
-      "version": 3
+      "version": 7
     },
     {
       "description": "Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid).",
@@ -494,6 +494,11 @@
       "version": 12
     },
     {
+      "description": "MISP workflow taxonomy to support result of workflow execution.",
+      "name": "misp-workflow",
+      "version": 1
+    },
+    {
       "description": "MONARC Threats Taxonomy",
       "name": "monarc-threat",
       "version": 1
@@ -656,7 +661,7 @@
     {
       "description": "Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.",
       "name": "thales_group",
-      "version": 2
+      "version": 4
     },
     {
       "description": "The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
@@ -720,5 +725,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20220918"
+  "version": "20221101"
 }

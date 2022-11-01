@@ -1,0 +1,44 @@
+{
+  "namespace": "misp-workflow",
+  "expanded": "MISP workflow",
+  "description": "MISP workflow taxonomy to support result of workflow execution.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "result",
+      "expanded": "result",
+      "description": "Result of the workflow execution"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "result",
+      "entry": [
+        {
+          "value": "ids-flag-removed",
+          "expanded": "IDS flag removed"
+        },
+        {
+          "value": "ids-flag-added",
+          "expanded": "IDS flag added"
+        },
+        {
+          "value": "pushed-to-zmq",
+          "expanded": "Pushed to ZMQ"
+        },
+        {
+          "value": "email-sent",
+          "expanded": "Email sent"
+        },
+        {
+          "value": "webhook-triggered",
+          "expanded": "Webhook triggered"
+        },
+        {
+          "value": "execution-stopped",
+          "expanded": "Execution stopped"
+        }
+      ]
+    }
+  ]
+}
