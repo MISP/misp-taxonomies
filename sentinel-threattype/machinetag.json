@@ -1,0 +1,56 @@
+{
+  "namespace": "sentinel-threattype",
+  "expanded": "sentinel-threattype",
+  "description": "Sentinel indicator threat types.",
+  "version": 1,
+  "exclusive": true,
+  "refs": [
+    "https://learn.microsoft.com/en-us/graph/api/resources/tiindicator?view=graph-rest-beta#threattype-values"
+  ],
+  "predicates": [
+    {
+      "value": "Botnet",
+      "expanded": "Indicator is detailing a botnet node/member."
+    },
+    {
+      "value": "C2",
+      "expanded": "Indicator is detailing a Command & Control node of a botnet."
+    },
+    {
+      "value": "CryptoMining",
+      "expanded": "Traffic involving this network address / URL is an indication of CyrptoMining / Resource abuse."
+    },
+    {
+      "value": "Darknet",
+      "expanded": "Indicator is that of a Darknet node/network."
+    },
+    {
+      "value": "DDoS",
+      "expanded": "Indicators relating to an active or upcoming DDoS campaign."
+    },
+    {
+      "value": "MaliciousUrl",
+      "expanded": "URL that is serving malware."
+    },
+    {
+      "value": "Malware",
+      "expanded": "Indicator describing a malicious file or files."
+    },
+    {
+      "value": "Phishing",
+      "expanded": "Indicators relating to a phishing campaign."
+    },
+    {
+      "value": "Proxy",
+      "expanded": "Indicator is that of a proxy service."
+    },
+    {
+      "value": "PUA",
+      "expanded": "Potentially Unwanted Application."
+    },
+    {
+      "value": "WatchList",
+      "expanded": "This is the generic bucket into which indicators are placed when it cannot be determined exactly what the threat is or will require manual interpretation. This should typically not be used by partners submitting data into the system."
+    }
+  ]
+}

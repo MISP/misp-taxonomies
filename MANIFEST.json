@@ -629,6 +629,11 @@
       "version": 1
     },
     {
+      "description": "Sentinel indicator threat types.",
+      "name": "sentinel-threattype",
+      "version": 1
+    },
+    {
       "description": "Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports",
       "name": "smart-airports-threats",
       "version": 1
@@ -725,5 +730,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20221101"
+  "version": "20221104"
 }
