@@ -21,6 +21,11 @@
       "colour": "#33ff00"
     },
     {
+      "value": "WHITE",
+      "expanded": "(PAP:WHITE) No restrictions in using this information. This tag exists for backward compatibilty.",
+      "colour": "#ffffff"
+    },
+    {
       "value": "CLEAR",
       "expanded": "(PAP:CLEAR) No restrictions in using this information.",
       "colour": "#ffffff"
