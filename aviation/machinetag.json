@@ -1,0 +1,357 @@
+{
+  "predicates": [
+    {
+      "expanded": "Target Sub Systems",
+      "value": "target-sub-systems"
+    },
+    {
+      "expanded": "Target systems",
+      "value": "target-systems"
+    },
+    {
+      "value": "impact",
+      "expanded": "Impact",
+      "exclusive": true
+    },
+    {
+      "expanded": "Target",
+      "value": "target"
+    },
+    {
+      "expanded": "Mission Critical",
+      "value": "mission-critical"
+    },
+    {
+      "value": "likelihood",
+      "expanded": "Likelihood",
+      "exclusive": true
+    },
+    {
+      "value": "certainty",
+      "expanded": "Certainty",
+      "exclusive": true
+    }
+  ],
+  "version": 1,
+  "description": "A taxonomy describing security threats or incidents against the aviation sector.",
+  "namespace": "aviation",
+  "values": [
+    {
+      "predicate": "target",
+      "entry": [
+        {
+          "value": "airspace users",
+          "expanded": "Airspace Users",
+          "description": "Airspace users including airlines"
+        },
+        {
+          "value": "airport",
+          "expanded": "Airport"
+        },
+        {
+          "value": "air-navigation-service-provider",
+          "expanded": "Air Navigation Service Provider"
+        },
+        {
+          "value": "international-association",
+          "expanded": "International Association"
+        },
+        {
+          "value": "civil-aviation-authority",
+          "expanded": "Civil Aviation Authority"
+        },
+        {
+          "value": "manufacturer",
+          "expanded": "Manufacturer"
+        },
+        {
+          "value": "service-provider",
+          "expanded": "Service Provider"
+        },
+        {
+          "value": "network-manager",
+          "expanded": "Network Manager"
+        },
+        {
+          "value": "military",
+          "expanded": "Military"
+        }
+      ]
+    },
+    {
+      "predicate": "target-systems",
+      "entry": [
+        {
+          "value": "ATM",
+          "expanded": "ATM - Air Traffic Management"
+        },
+        {
+          "value": "AIS",
+          "expanded": "AIS - Aeronautical Information Service"
+        },
+        {
+          "value": "MET",
+          "expanded": "MET - Meteorological Service"
+        },
+        {
+          "value": "SAR",
+          "expanded": "SAR - Search and Rescue"
+        },
+        {
+          "value": "CNS",
+          "expanded": "CNS - Communication, Navigation and Surveillance"
+        },
+        {
+          "value": "airport-management-systems",
+          "expanded": "Airport Management Systems"
+        },
+        {
+          "value": "airport-online-services",
+          "expanded": "Airport Online Services"
+        },
+        {
+          "value": "airport-fids-systems",
+          "expanded": "Airport FIDS systems"
+        },
+        {
+          "value": "airline-management-systems",
+          "expanded": "Airline Management Systems"
+        },
+        {
+          "value": "airline-online-services",
+          "expanded": "Airline Online Services"
+        }
+      ]
+    },
+    {
+      "predicate": "target-sub-systems",
+      "entry": [
+        {
+          "value": "ATM:ATS:ATC",
+          "expanded": "ATM ATS ATC - Air Traffic Control"
+        },
+        {
+          "value": "ATM:ATS:FIS",
+          "expanded": "ATM ATS FIST - Flight Information Services"
+        },
+        {
+          "value": "ATM:ATS:ALRS",
+          "expanded": "ATM ATS ALRS - Alerting Services"
+        },
+        {
+          "value": "CNS:COM:Ground-Ground",
+          "expanded": "CNS COM Ground-Ground"
+        },
+        {
+          "value": "CNS:COM:Ground-Air",
+          "expanded": "CNS COM Ground Air"
+        },
+        {
+          "value": "CNS:COM:Air-Air",
+          "expanded": "CNS COM Air Air"
+        },
+        {
+          "value": "CNS:COM:Asterix",
+          "expanded": "CNS COM Asterix"
+        },
+        {
+          "value": "CNS:COM:VDL",
+          "expanded": "CNS COM VDL"
+        },
+        {
+          "value": "CNS:COM:Reserved1",
+          "expanded": "CNS COM Reserved1"
+        },
+        {
+          "value": "CNS:COM:Reserved2",
+          "expanded": "CNS COM Reserved2"
+        },
+        {
+          "value": "CNS:SUR:ADS-B",
+          "expanded": "CNS SUR ADS-B"
+        },
+        {
+          "value": "CNS:SUR:ADS-C",
+          "expanded": "CNS SUR ADS-C"
+        },
+        {
+          "value": "CNS:SUR:Radar",
+          "expanded": "CNS SUR Radar"
+        },
+        {
+          "value": "CNS:SUR:PR",
+          "expanded": "CNS SUR PR"
+        },
+        {
+          "value": "CNS:SUR:SSR",
+          "expanded": "CNS SUR SSR"
+        },
+        {
+          "value": "CNS:SUR:Reserved1",
+          "expanded": "CNS SUR Reserved1"
+        },
+        {
+          "value": "CNS:SUR:Reserved2",
+          "expanded": "CNS SUR Reserved2"
+        },
+        {
+          "value": "CNS:SUR:Reserved3",
+          "expanded": "CNS SUR Reserved3"
+        },
+        {
+          "value": "CNS:Nav:GPS",
+          "expanded": "CNS Nav GPS"
+        },
+        {
+          "value": "CNS:Nav:GLONASS",
+          "expanded": "CNS Nav GLONASS"
+        },
+        {
+          "value": "CNS:Nav:ILS",
+          "expanded": "CNS Nav ILS"
+        },
+        {
+          "value": "CNS:Nav:GLS",
+          "expanded": "CNS Nav GLS"
+        },
+        {
+          "value": "CNS:Nav:Reserved1",
+          "expanded": "CNS Nav Reserved1"
+        },
+        {
+          "value": "CNS:Nav:Reserved2",
+          "expanded": "CNS Nav Reserved2"
+        },
+        {
+          "value": "CNS:Nav:Reserved3",
+          "expanded": "CNS Mav Reserved3"
+        }
+      ]
+    },
+    {
+      "predicate": "impact",
+      "entry": [
+        {
+          "value": "trivial",
+          "expanded": "Trivial"
+        },
+        {
+          "value": "minor",
+          "expanded": "Minor"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate"
+        },
+        {
+          "value": "major",
+          "expanded": "Major"
+        },
+        {
+          "value": "extreme",
+          "expanded": "Extreme"
+        }
+      ]
+    },
+    {
+      "predicate": "likelihood",
+      "entry": [
+        {
+          "value": "almost-no-chance",
+          "expanded": "Almost no chance - remote - 01-05%",
+          "numerical_value": 0
+        },
+        {
+          "value": "very-unlikely",
+          "expanded": "Very unlikely - highly improbable - 05-20%",
+          "numerical_value": 5
+        },
+        {
+          "value": "unlikely",
+          "expanded": "Unlikely - improbable (improbably) - 20-45%",
+          "numerical_value": 20
+        },
+        {
+          "value": "roughly-even-chance",
+          "expanded": "Roughly even change - roughly even odds - 45-55%",
+          "numerical_value": 45
+        },
+        {
+          "value": "likely",
+          "expanded": "Likely - probable (probably) - 55-80%",
+          "numerical_value": 55
+        },
+        {
+          "value": "very-likely",
+          "expanded": "Very likely - highly probable - 80-95%",
+          "numerical_value": 80
+        },
+        {
+          "value": "almost-certain",
+          "expanded": "Almost certain(ly) - nearly certain - 95-99%",
+          "numerical_value": 95
+        }
+      ]
+    },
+    {
+      "predicate": "mission-critical",
+      "entry": [
+        {
+          "value": "mission-critical",
+          "expanded": "Mission Critical"
+        },
+        {
+          "value": "safety-critical",
+          "expanded": "Safety Critical"
+        }
+      ]
+    },
+    {
+      "entry": [
+        {
+          "description": "Certainty",
+          "expanded": "Certainty (probability equals 1 - 100%)",
+          "value": "100",
+          "numerical_value": 100
+        },
+        {
+          "description": "Almost certain",
+          "expanded": "Almost certain (probability equals 0.93 - 93%)",
+          "value": "93",
+          "numerical_value": 93
+        },
+        {
+          "description": "Probable",
+          "expanded": "Probable (probability equals 0.75 - 75%)",
+          "value": "75",
+          "numerical_value": 75
+        },
+        {
+          "description": "Chances about even",
+          "expanded": "Chances about even (probability equals 0.50 - 50%)",
+          "value": "50",
+          "numerical_value": 50
+        },
+        {
+          "description": "Probably not",
+          "expanded": "Probably not (probability equals 0.30 - 30%)",
+          "value": "30",
+          "numerical_value": 30
+        },
+        {
+          "description": "Almost certainly not",
+          "expanded": "Almost certainly not (probability equals 0.07 - 7%)",
+          "value": "7",
+          "numerical_value": 7
+        },
+        {
+          "description": "Impossibility",
+          "expanded": "Impossibility (probability equals 0 - 0%)",
+          "value": "0",
+          "numerical_value": 0
+        }
+      ],
+      "predicate": "certainty"
+    }
+  ]
+}

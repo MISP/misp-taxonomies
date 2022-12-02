@@ -74,6 +74,11 @@
       "version": 1
     },
     {
+      "description": "A taxonomy describing security threats or incidents against the aviation sector.",
+      "name": "aviation",
+      "version": 1
+    },
+    {
       "description": "Custom taxonomy for types of binary file.",
       "name": "binary-class",
       "version": 2
@@ -496,7 +501,7 @@
     {
       "description": "MISP workflow taxonomy to support result of workflow execution.",
       "name": "misp-workflow",
-      "version": 1
+      "version": 2
     },
     {
       "description": "MONARC Threats Taxonomy",
@@ -730,5 +735,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20221104"
+  "version": "20221202"
 }
