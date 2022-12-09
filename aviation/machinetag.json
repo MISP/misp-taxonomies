@@ -1,12 +1,16 @@
 {
   "predicates": [
     {
-      "expanded": "Target Sub Systems",
-      "value": "target-sub-systems"
+      "expanded": "Target",
+      "value": "target"
     },
     {
       "expanded": "Target systems",
       "value": "target-systems"
+    },
+    {
+      "expanded": "Target Sub Systems",
+      "value": "target-sub-systems"
     },
     {
       "value": "impact",
@@ -14,17 +18,13 @@
       "exclusive": true
     },
     {
-      "expanded": "Target",
-      "value": "target"
+      "value": "likelihood",
+      "expanded": "Likelihood",
+      "exclusive": true
     },
     {
       "expanded": "Mission Critical",
       "value": "mission-critical"
-    },
-    {
-      "value": "likelihood",
-      "expanded": "Likelihood",
-      "exclusive": true
     },
     {
       "value": "certainty",
