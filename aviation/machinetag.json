@@ -23,8 +23,8 @@
       "exclusive": true
     },
     {
-      "expanded": "Mission Critical",
-      "value": "mission-critical"
+      "expanded": "criticality",
+      "value": "Criticality"
     },
     {
       "value": "certainty",
@@ -40,41 +40,54 @@
       "predicate": "target",
       "entry": [
         {
+          "value": "airline",
+          "expanded": "airline",
+          "description": "airlines or airline groups"
+        },
+        {
           "value": "airspace users",
           "expanded": "Airspace Users",
-          "description": "Airspace users including airlines"
+          "description": "Airspace users other than airlines like drone, helicopter, baloon operators"
         },
         {
           "value": "airport",
-          "expanded": "Airport"
+          "expanded": "Airport",
+          "description": "Airports or airport operators"
         },
         {
-          "value": "air-navigation-service-provider",
-          "expanded": "Air Navigation Service Provider"
+          "value": "ansp",
+          "expanded": "Air Navigation Service Provider",
+          "description": "Air Navigation Service Provider who is managing the airspace of a country or a specific region"
         },
         {
           "value": "international-association",
-          "expanded": "International Association"
+          "expanded": "International Association",
+          "description": "International associations related with aviation sector"
         },
         {
-          "value": "civil-aviation-authority",
-          "expanded": "Civil Aviation Authority"
+          "value": "caa",
+          "expanded": "Civil Aviation Authority",
+          "description": "Civil Aviation Authority who is responsible for regulation the aviation of a country"
         },
         {
           "value": "manufacturer",
-          "expanded": "Manufacturer"
+          "expanded": "Manufacturer",
+          "description": "Manufacturers who produce aircrafts,aircraft or ATM related components"
         },
         {
           "value": "service-provider",
-          "expanded": "Service Provider"
+          "expanded": "Service Provider",
+          "description": "Service providers who provide different services to the aviation stakeholders"
         },
         {
           "value": "network-manager",
-          "expanded": "Network Manager"
+          "expanded": "Network Manager",
+          "description": "Network Manager manages ATM network functions (airspace design, flow management) as well as scarce resources"
         },
         {
           "value": "military",
-          "expanded": "Military"
+          "expanded": "Military",
+          "description": "Military aviation"
         }
       ]
     },
@@ -83,43 +96,53 @@
       "entry": [
         {
           "value": "ATM",
-          "expanded": "ATM - Air Traffic Management"
+          "expanded": "ATM - Air Traffic Management",
+          "description": "Air traffic management systems which manage airspace"
         },
         {
           "value": "AIS",
-          "expanded": "AIS - Aeronautical Information Service"
+          "expanded": "AIS - Aeronautical Information Service",
+          "description": "Aeronatutical Infromation Service whose objective is to ensure the flow of aeronautical information and data necessary for the safety, regularity and efficiency of international air navigation"
         },
         {
           "value": "MET",
-          "expanded": "MET - Meteorological Service"
+          "expanded": "MET - Meteorological Service",
+          "description": "Meteorological service which provides meteo data to the airspace users"
         },
         {
           "value": "SAR",
-          "expanded": "SAR - Search and Rescue"
+          "expanded": "SAR - Search and Rescue",
+          "description": "Search and rescue (SAR) service is provided to the survivors of aircraft accidents as well as aircraft in distress (and their occupants) regardless of their nationality"
         },
         {
           "value": "CNS",
-          "expanded": "CNS - Communication, Navigation and Surveillance"
+          "expanded": "CNS - Communication, Navigation and Surveillance",
+          "description": "The main functions of ATM: Communication, Navigation and Surveillance"
         },
         {
           "value": "airport-management-systems",
-          "expanded": "Airport Management Systems"
+          "expanded": "Airport Management Systems",
+          "description": "Airport IT and OT systems that manage airport internal operations"
         },
         {
           "value": "airport-online-services",
-          "expanded": "Airport Online Services"
+          "expanded": "Airport Online Services",
+          "description": "Airport online service that helps external users to reach airport services"
         },
         {
           "value": "airport-fids-systems",
-          "expanded": "Airport FIDS systems"
+          "expanded": "Airport Flight Information Display Systems",
+          "description": "Airport Flight Information Display Systems that guide the passangers about flights"
         },
         {
           "value": "airline-management-systems",
-          "expanded": "Airline Management Systems"
+          "expanded": "Airline Management Systems",
+          "description": "Airline Management Systems that manage airline intenal operations"
         },
         {
           "value": "airline-online-services",
-          "expanded": "Airline Online Services"
+          "expanded": "Airline Online Services",
+          "description": "Airline Online Services that helps external users to reach airlines services"
         }
       ]
     },
@@ -127,104 +150,114 @@
       "predicate": "target-sub-systems",
       "entry": [
         {
+          "value": "ATM:NewPENS",
+          "expanded": "ATM New PENS(Pan-European Network Service)",
+          "description": "ATM New PENS(Pan-European Network Service) which is private network for aviation stakeholders"
+        },
+        {
+          "value": "ATM:SWIM",
+          "expanded": "ATM SWIM(Sytem Wide Information Management)",
+          "description": "ATM SWIM(System Wide Information Management) is the system that enables seamless information access and interchange between all providers and users of ATM information and services"
+        },
+        {
           "value": "ATM:ATS:ATC",
-          "expanded": "ATM ATS ATC - Air Traffic Control"
+          "expanded": "ATM ATS(Air Traffic Service) ATC - Air Traffic Control",
+          "description": "ATM ATS(Air Traffic Service) ATC - Air Traffic Control systems"
         },
         {
           "value": "ATM:ATS:FIS",
-          "expanded": "ATM ATS FIST - Flight Information Services"
+          "expanded": "ATM ATS FIS - Flight Information Services",
+          "description": "ATM ATS FIS - Flight Information Services systems"
         },
         {
           "value": "ATM:ATS:ALRS",
-          "expanded": "ATM ATS ALRS - Alerting Services"
+          "expanded": "ATM ATS ALRS - Alerting Services",
+          "description": "ATM ATS ALRS - Alerting Services systems"
+        },
+        {
+          "value": "ATM:ATS:ATFM",
+          "expanded": "ATM ATS ATFM(Air Traffic Flow Management)",
+          "description": "ATM ATS ATFM(Air Traffic Flow Management) systems "
+        },
+        {
+          "value": "ATM:ATS:ASM",
+          "expanded": "ATM ATS ASM(Airspace management)",
+          "description": "ATM ATS ASM(Airspace management) systems "
         },
         {
           "value": "CNS:COM:Ground-Ground",
-          "expanded": "CNS COM Ground-Ground"
+          "expanded": "CNS COM Ground-Ground",
+          "description": "Ground-ground communication systems"
         },
         {
           "value": "CNS:COM:Ground-Air",
-          "expanded": "CNS COM Ground Air"
+          "expanded": "CNS COM Ground Air",
+          "description": "Ground-Air communication systems"
         },
         {
           "value": "CNS:COM:Air-Air",
-          "expanded": "CNS COM Air Air"
+          "expanded": "CNS COM Air Air",
+          "description": "Air-Air Communication systems"
         },
         {
           "value": "CNS:COM:Asterix",
-          "expanded": "CNS COM Asterix"
+          "expanded": "CNS COM Asterix",
+          "description": "Asterix radar data protocol processing systems"
         },
         {
           "value": "CNS:COM:VDL",
-          "expanded": "CNS COM VDL"
-        },
-        {
-          "value": "CNS:COM:Reserved1",
-          "expanded": "CNS COM Reserved1"
-        },
-        {
-          "value": "CNS:COM:Reserved2",
-          "expanded": "CNS COM Reserved2"
+          "expanded": "CNS COM VDL",
+          "description": "Very High Frequency Data link"
         },
         {
           "value": "CNS:SUR:ADS-B",
-          "expanded": "CNS SUR ADS-B"
+          "expanded": "CNS SUR ADS-B(Automatic Dependent Surveillance-Broadcast)",
+          "description": "ADS-B Automatic Dependent Surveillance-Broadcast) protocol"
         },
         {
           "value": "CNS:SUR:ADS-C",
-          "expanded": "CNS SUR ADS-C"
+          "expanded": "CNS SUR ADS-C(Automatic dependent surveillance-contract)",
+          "description": "ADS-C Automatic Dependent Surveillance-contract"
         },
         {
           "value": "CNS:SUR:Radar",
-          "expanded": "CNS SUR Radar"
+          "expanded": "CNS SUR Radar",
+          "description": "Radar related systems"
         },
         {
           "value": "CNS:SUR:PR",
-          "expanded": "CNS SUR PR"
+          "expanded": "CNS SUR PR(Primary Radar)",
+          "description": "Primary Radar related systems"
         },
         {
           "value": "CNS:SUR:SSR",
-          "expanded": "CNS SUR SSR"
+          "expanded": "CNS SUR SSR(Secondary Surveillance Radar)",
+          "description": "Secondary Surveillance Radar related systems"
         },
         {
-          "value": "CNS:SUR:Reserved1",
-          "expanded": "CNS SUR Reserved1"
-        },
-        {
-          "value": "CNS:SUR:Reserved2",
-          "expanded": "CNS SUR Reserved2"
-        },
-        {
-          "value": "CNS:SUR:Reserved3",
-          "expanded": "CNS SUR Reserved3"
+          "value": "CNS:Nav:GNSS",
+          "expanded": "CNS Nav GNSS(Global Navigation Satellite Systems)",
+          "description": "GNSS(Global Naviation Satellite Systems) related systems"
         },
         {
           "value": "CNS:Nav:GPS",
-          "expanded": "CNS Nav GPS"
+          "expanded": "CNS Nav GPS(Global Positioning Systems)",
+          "description": "GPS(Global Positioning Systems) related systems"
         },
         {
           "value": "CNS:Nav:GLONASS",
-          "expanded": "CNS Nav GLONASS"
+          "expanded": "CNS Nav GLONASS(GLObal NAvigation Satellite Systems)",
+          "description": "GLONASS(GLObal NAvigation Satellite Systems) related systems"
         },
         {
           "value": "CNS:Nav:ILS",
-          "expanded": "CNS Nav ILS"
+          "expanded": "CNS Nav ILS(Instrument landing systems)",
+          "description": "ILS(Instrument landing systems) related systems"
         },
         {
           "value": "CNS:Nav:GLS",
-          "expanded": "CNS Nav GLS"
-        },
-        {
-          "value": "CNS:Nav:Reserved1",
-          "expanded": "CNS Nav Reserved1"
-        },
-        {
-          "value": "CNS:Nav:Reserved2",
-          "expanded": "CNS Nav Reserved2"
-        },
-        {
-          "value": "CNS:Nav:Reserved3",
-          "expanded": "CNS Mav Reserved3"
+          "expanded": "CNS Nav GLS (GNSS dependent landing systems",
+          "description": "GLS(GNSS dependent landing systems) related systems"
         }
       ]
     },
@@ -294,15 +327,22 @@
       ]
     },
     {
-      "predicate": "mission-critical",
+      "predicate": "criticality",
       "entry": [
         {
-          "value": "mission-critical",
-          "expanded": "Mission Critical"
+          "value": "safety-critical",
+          "expanded": "Safety Critical",
+          "description": "Criticality level that threatens human life"
         },
         {
-          "value": "safety-critical",
-          "expanded": "Safety Critical"
+          "value": "mission-critical",
+          "expanded": "Mission Critical",
+          "description": "Criticality level that affects the critical services impacting the airspace management"
+        },
+        {
+          "value": "business-critical",
+          "expanded": "business Critical",
+          "description": "Criticality level that affects business functions"
         }
       ]
     },
