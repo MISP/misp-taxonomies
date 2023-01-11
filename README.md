@@ -82,6 +82,11 @@ A pre-approved category of action for indicators being shared with partners (MIM
 [artificial-satellites](https://github.com/MISP/misp-taxonomies/tree/main/artificial-satellites) :
 This taxonomy was designed to describe artificial satellites [Overview](https://www.misp-project.org/taxonomies.html#_artificial_satellites)
 
+### aviation
+
+[aviation](https://github.com/MISP/misp-taxonomies/tree/main/aviation) :
+A taxonomy describing security threats or incidents against the aviation sector. [Overview](https://www.misp-project.org/taxonomies.html#_aviation)
+
 ### binary-class
 
 [binary-class](https://github.com/MISP/misp-taxonomies/tree/main/binary-class) :
@@ -502,6 +507,11 @@ classification for the identification of type of misinformation among websites. 
 [misp](https://github.com/MISP/misp-taxonomies/tree/main/misp) :
 MISP taxonomy to infer with MISP behavior or operation. [Overview](https://www.misp-project.org/taxonomies.html#_misp)
 
+### misp-workflow
+
+[misp-workflow](https://github.com/MISP/misp-taxonomies/tree/main/misp-workflow) :
+MISP workflow taxonomy to support result of workflow execution. [Overview](https://www.misp-project.org/taxonomies.html#_misp_workflow)
+
 ### monarc-threat
 
 [monarc-threat](https://github.com/MISP/misp-taxonomies/tree/main/monarc-threat) :
@@ -631,6 +641,11 @@ Flags describing the sample for isotopic data (C14, O18) [Overview](https://www.
 
 [scrippsco2-sampling-stations](https://github.com/MISP/misp-taxonomies/tree/main/scrippsco2-sampling-stations) :
 Sampling stations of the Scripps CO2 Program [Overview](https://www.misp-project.org/taxonomies.html#_scrippsco2_sampling_stations)
+
+### sentinel-threattype
+
+[sentinel-threattype](https://github.com/MISP/misp-taxonomies/tree/main/sentinel-threattype) :
+Sentinel indicator threat types. [Overview](https://www.misp-project.org/taxonomies.html#_sentinel_threattype)
 
 ### smart-airports-threats
 
