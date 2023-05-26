@@ -9,6 +9,21 @@
       "description": "The impact on services, in the real world, indicating the sectors of the society and economy, where there is an impact on the services."
     },
     {
+      "value": "impact-subsectors-impacted",
+      "expanded": "Impact subsectors impacted",
+      "description": "Impact subsectors impacted"
+    },
+    {
+      "value": "important-entities",
+      "expanded": "Important entities",
+      "description": "Important entities"
+    },
+    {
+      "value": "impact-subsectors-important-entities",
+      "expanded": "Impact subsectors important entities",
+      "description": "Impact subsectors important entities"
+    },
+    {
       "value": "impact-severity",
       "expanded": "Severity of the impact",
       "description": "The severity of the impact, nationally, in the real world, for society and/or the economy, i.e. the level of disruption for the country or a large region of the country, the level of risks for health and/or safety, the level of physical damages and/or financial costs.",
@@ -36,21 +51,6 @@
       "value": "test",
       "expanded": "Test",
       "description": "A test predicate meant to test interoperability between tools. Tags contained within this predicate are to be ignored."
-    },
-    {
-      "value": "impact-subsectors-important-entities",
-      "expanded": "Impact subsectors important entities",
-      "description": "Impact subsectors important entities"
-    },
-    {
-      "value": "important-entities",
-      "expanded": "Important entities",
-      "description": "Important entities"
-    },
-    {
-      "value": "impact-subsectors-impacted",
-      "expanded": "Impact subsectors impacted",
-      "description": "Impact subsectors impacted"
     }
   ],
   "values": [

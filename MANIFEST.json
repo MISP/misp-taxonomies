@@ -169,9 +169,9 @@
       "version": 1
     },
     {
-      "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project",
+      "description": "Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.",
       "name": "dark-web",
-      "version": 4
+      "version": 5
     },
     {
       "description": "Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book.",
@@ -412,6 +412,11 @@
       "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.",
       "name": "infoleak",
       "version": 7
+    },
+    {
+      "description": "Taxonomy for tagging information by its origin: human-generated or AI-generated.",
+      "name": "information-origin",
+      "version": 2
     },
     {
       "description": "Taxonomy to classify the information security data sources.",
@@ -735,5 +740,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20221202"
+  "version": "20230514"
 }

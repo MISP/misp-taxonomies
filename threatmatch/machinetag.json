@@ -437,8 +437,8 @@
           "expanded": "Actor Campaigns"
         },
         {
-          "value": "Credential Breaches",
-          "expanded": "Credential Breaches"
+          "value": "Credential Breach",
+          "expanded": "Credential Breach"
         },
         {
           "value": "DDoS",
@@ -453,40 +453,28 @@
           "expanded": "General Notification"
         },
         {
-          "value": "High Impact Vulnerabilities",
-          "expanded": "High Impact Vulnerabilities"
+          "value": "Vulnerability",
+          "expanded": "Vulnerability"
         },
         {
           "value": "Information Leakages",
           "expanded": "Information Leakages"
         },
         {
-          "value": "Malware Analysis",
-          "expanded": "Malware Analysis"
+          "value": "Malware",
+          "expanded": "Malware"
         },
         {
-          "value": "Nefarious Domains",
-          "expanded": "Nefarious Domains"
+          "value": "Suspicious Domain",
+          "expanded": "Suspicious Domain"
         },
         {
-          "value": "Nefarious Forum Mention",
-          "expanded": "Nefarious Forum Mention"
-        },
-        {
-          "value": "Pastebin Dumps",
-          "expanded": "Pastebin Dumps"
+          "value": "Forum Mention",
+          "expanded": "Forum Mention"
         },
         {
           "value": "Phishing Attempts",
           "expanded": "Phishing Attempts"
-        },
-        {
-          "value": "PII Exposure",
-          "expanded": "PII Exposure"
-        },
-        {
-          "value": "Sensitive Information Disclosures",
-          "expanded": "Sensitive Information Disclosures"
         },
         {
           "value": "Social Media Alerts",
@@ -501,12 +489,28 @@
           "expanded": "Technical Exposure"
         },
         {
-          "value": "Threat Actor Updates",
-          "expanded": "Threat Actor Updates"
+          "value": "Threat Actor Update",
+          "expanded": "Threat Actor Update"
         },
         {
-          "value": "Trigger Events",
-          "expanded": "Trigger Events"
+          "value": "Direct Targeting ",
+          "expanded": "Direct Targeting "
+        },
+        {
+          "value": "Protest Activity",
+          "expanded": "Protest Activity"
+        },
+        {
+          "value": "Violent Event",
+          "expanded": "Violent Event"
+        },
+        {
+          "value": "Strategic Event",
+          "expanded": "Strategic Event"
+        },
+        {
+          "value": "Insider Threat",
+          "expanded": "Insider Threat"
         }
       ]
     }

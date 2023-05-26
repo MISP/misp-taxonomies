@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
-  "version": 11,
+  "version": 12,
   "predicates": [
     {
       "value": "todo",
@@ -132,6 +132,10 @@
         {
           "value": "rejected",
           "expanded": "Analyst rejected the process. The object will not reach state of completeness."
+        },
+        {
+          "value": "release",
+          "expanded": "Analyst approved the information to be released. Like a MISP event to be released and published."
         }
       ]
     }
