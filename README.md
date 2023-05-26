@@ -132,6 +132,11 @@ The COPINE Scale is a rating system created in Ireland and used in the United Ki
 [course-of-action](https://github.com/MISP/misp-taxonomies/tree/main/course-of-action) :
 A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability. [Overview](https://www.misp-project.org/taxonomies.html#_course_of_action)
 
+### crowdsec
+
+[crowdsec](https://github.com/MISP/misp-taxonomies/tree/main/crowdsec) :
+The Crowdsec behaviors and classifications taxonomy is the [list of taxonomies used in Crowdsec](https://doc.crowdsec.net/docs/next/cti_api/taxonomy) to describe the behaviors and classifications of an IP address. The behaviors are a list of attack categories for which a given IP address was reported, where the classifications describe a list of categories associated to an IP address and, when applicable, a list of false positive categories. [Overview](https://www.misp-project.org/taxonomies.html#_crowdsec)
+
 ### cryptocurrency-threat
 
 [cryptocurrency-threat](https://github.com/MISP/misp-taxonomies/tree/main/cryptocurrency-threat) :

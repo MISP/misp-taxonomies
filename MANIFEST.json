@@ -124,6 +124,11 @@
       "version": 2
     },
     {
+      "description": "The Crowdsec behaviors and classifications taxonomy is the list of taxonomies used in Crowdsec to describe the behaviors and classifications of an IP address. The behaviors are a list of attack categories for which a given IP address was reported, where the classifications describe a list of categories associated to an IP address and, when applicable, a list of false positive categories.",
+      "name": "crowdsec",
+      "version": 1
+    },
+    {
       "description": "Threats targetting cryptocurrency, based on CipherTrace report.",
       "name": "cryptocurrency-threat",
       "version": 1

@@ -233,6 +233,13 @@
 - Predicates
     - passive
     - active
+### crowdsec
+- description: The Crowdsec behaviors and classifications taxonomy is the list of taxonomies used in Crowdsec to describe the behaviors and classifications of an IP address. The behaviors are a list of attack categories for which a given IP address was reported, where the classifications describe a list of categories associated to an IP address and, when applicable, a list of false positive categories.
+- version: 1
+- predicates
+    - behavior
+    - false-positive
+    - classification
 ### cryptocurrency-threat
 - description: Threats targetting cryptocurrency, based on CipherTrace report.
 - version: 1
