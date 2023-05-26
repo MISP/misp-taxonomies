@@ -157,11 +157,6 @@
           "value": "seo-pinterest",
           "expanded": "Pinterest crawler",
           "description": "IP belongs to Pinterest crawler and should not be flagged as a threat."
-        },
-        {
-          "value": "seo-crawler",
-          "expanded": "SEO crawler",
-          "description": "IP belongs to a known SEO crawler and should not be flagged as a threat."
         }
       ]
     },
