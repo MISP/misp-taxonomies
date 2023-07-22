@@ -42,8 +42,12 @@
     {
       "value": "Crypto Robbing Ransomware",
       "expanded": "Cyber-extortionists began distributing new malware that empties cryptocurrency wallets and steals private keys while holding user data hostage."
-    }
-  ],
+    },
+    {
+      "value": "Rag Pull",
+      "expanded": "Crypto scam that occurs when a team pumps their project’s token before disappearing with the funds, leaving their investors with a valueless asset." 
+    }  
+      ],
   "refs": [
     "https://ciphertrace.com/wp-content/uploads/2019/01/crypto_aml_report_2018q4.pdf"
   ]
