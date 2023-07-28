@@ -2,7 +2,7 @@
   "namespace": "misp-workflow",
   "expanded": "MISP workflow",
   "description": "MISP workflow taxonomy to support result of workflow execution.",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "action-taken",
