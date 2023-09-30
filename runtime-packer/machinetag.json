@@ -4,7 +4,7 @@
   "version": 1,
   "predicates": [
     {
-      "value": "portable-executable",
+      "value": "pe",
       "expanded": "Portable Executable (PE)"
     },
     {
@@ -33,6 +33,10 @@
           "expanded": ".netshrink"
         },
         {
+          "value": "acprotect",
+          "expanded": "ACProtect"
+        },
+        {
           "value": "alienyze",
           "expanded": "Alienyze"
         },
@@ -53,8 +57,8 @@
           "expanded": "ASPack"
         },
         {
-          "value": "aspr-asprotect",
-          "expanded": "ASPR (ASProtect)"
+          "value": "asprotect",
+          "expanded": "ASProtect"
         },
         {
           "value": "autoit",
@@ -93,12 +97,20 @@
           "expanded": "Enigma Protector"
         },
         {
+          "value": "enigma-virtual-box",
+          "expanded": "Enigma Virtual Box"
+        },
+        {
           "value": "exe-bundle",
           "expanded": "EXE Bundle"
         },
         {
           "value": "exe-stealth",
           "expanded": "EXE Stealth"
+        },
+        {
+          "value": "exe32pack",
+          "expanded": "EXE32Pack"
         },
         {
           "value": "expressor",
@@ -113,6 +125,14 @@
           "expanded": "GzExe"
         },
         {
+          "value": "hxor-packer",
+          "expanded": "hXOR Packer"
+        },
+        {
+          "value": "jdpack",
+          "expanded": "JDPack"
+        },
+        {
           "value": "kkrunchy",
           "expanded": "Kkrunchy"
         },
@@ -125,8 +145,32 @@
           "expanded": "MEW"
         },
         {
+          "value": "midgetpack",
+          "expanded": "MidgetPack"
+        },
+        {
+          "value": "molebox",
+          "expanded": "MoleBox"
+        },
+        {
+          "value": "morphine",
+          "expanded": "Morphine"
+        },
+        {
           "value": "mpress",
           "expanded": "MPRESS"
+        },
+        {
+          "value": "muncho",
+          "expanded": "Muncho"
+        },
+        {
+          "value": "neolite",
+          "expanded": "Neolite"
+        },
+        {
+          "value": "netcrypt",
+          "expanded": "NetCrypt"
         },
         {
           "value": "nspack",
@@ -137,12 +181,24 @@
           "expanded": "Obsidium"
         },
         {
+          "value": "packman",
+          "expanded": "Packman"
+        },
+        {
+          "value": "pakkero",
+          "expanded": "Pakkero"
+        },
+        {
           "value": "pecompact",
           "expanded": "PECompact"
         },
         {
           "value": "pelock",
           "expanded": "PELock"
+        },
+        {
+          "value": "pepacker",
+          "expanded": "PE Packer"
         },
         {
           "value": "peshield",
@@ -161,12 +217,28 @@
           "expanded": "RLPack Basic"
         },
         {
+          "value": "shiva",
+          "expanded": "Shiva"
+        },
+        {
           "value": "smart-packer-pro",
           "expanded": "Smart Packer Pro"
         },
         {
+          "value": "squishy",
+          "expanded": "Squishy"
+        },
+        {
+          "value": "telock",
+          "expanded": "Telock"
+        },
+        {
           "value": "themida",
           "expanded": "Themida"
+        },
+        {
+          "value": "thinstall",
+          "expanded": "Thinstall"
         },
         {
           "value": "upack",
