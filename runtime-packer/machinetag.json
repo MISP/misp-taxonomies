@@ -1,7 +1,7 @@
 {
   "namespace": "runtime-packer",
   "description": "Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "pe",
