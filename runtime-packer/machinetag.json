@@ -4,10 +4,6 @@
   "version": 2,
   "predicates": [
     {
-      "value": "pe",
-      "expanded": "Portable Executable (PE)"
-    },
-    {
       "value": "dex",
       "expanded": "Dalvik Executable (DEX)"
     },
@@ -18,6 +14,10 @@
     {
       "value": "macho",
       "expanded": "Mach-object (Mach-O)"
+    },
+    {
+      "value": "pe",
+      "expanded": "Portable Executable (PE)"
     },
     {
       "value": "cli-assembly",
