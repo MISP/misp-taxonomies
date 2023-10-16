@@ -1,0 +1,1006 @@
+{
+  "namespace": "doping-substances",
+  "description": "This taxonomy aims to list doping substances",
+  "version": 2,
+  "expanded": "Doping substances",
+  "predicates": [
+    {
+      "value": "ANABOLIC AGENTS",
+      "description": "Anabolic agents are prohibited."
+    },
+    {
+      "value": "PEPTIDE HORMONES, GROWTH FACTORS, RELATED SUBSTANCES AND MIMETICS",
+      "description": "The following substances, and other substances with similar chemical structure or similar biological effect(s), are prohibited:"
+    },
+    {
+      "value": "BETA-2 AGONISTS",
+      "description": "All selective and non-selective beta-2 agonists, including all optical isomers, are prohibited."
+    },
+    {
+      "value": "HORMONE AND METABOLIC MODULATORS",
+      "description": "The following hormone and metabolic modulators are prohibited."
+    },
+    {
+      "value": "DIURETICS AND MASKING AGENTS",
+      "description": "All diuretics and masking agents, including all optical isomers, e.g. d- and l- where relevant,\nare prohibited."
+    },
+    {
+      "value": "MANIPULATION OF BLOOD AND BLOOD COMPONENTS",
+      "description": "The following are prohibited:"
+    },
+    {
+      "value": "CHEMICAL AND PHYSICAL MANIPULATION",
+      "description": "The following are prohibited:"
+    },
+    {
+      "value": "GENE AND CELL DOPING",
+      "description": "The following, with the potential to enhance sport performance, are prohibited:"
+    },
+    {
+      "value": "STIMULANTS",
+      "description": "Substances of Abuse in this section: cocaine and methylenedioxymethamphetamine (MDMA / “ecstasy”)."
+    },
+    {
+      "value": "NARCOTICS",
+      "description": "The following narcotics, including all optical isomers, e.g. d- and l- where relevant, are prohibited."
+    },
+    {
+      "value": "CANNABINOIDS",
+      "description": " "
+    },
+    {
+      "value": "GLUCOCORTICOIDS",
+      "description": "\nAll glucocorticoids are prohibited when administered by any injectable, oral [including oromucosal (e.g. buccal, gingival, sublingual)] or rectal route."
+    },
+    {
+      "value": "BETA-BLOCKERS",
+      "description": "Beta-blockers are prohibited In-Competition only, in the following sports, and also prohibited Out-of-Competition where indicated (*)."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "ANABOLIC AGENTS",
+      "entry": [
+        {
+          "value": "1-Androstenediol (5α-androst-1-ene-3β, 17β-diol)"
+        },
+        {
+          "value": "1-Androstenedione (5α-androst-1-ene-3, 17-dione)"
+        },
+        {
+          "value": "1-Androsterone (3α-hydroxy-5α-androst-1- ene-17-one)"
+        },
+        {
+          "value": "1-Epiandrosterone (3β-hydroxy-5α-androst- 1-ene-17-one)"
+        },
+        {
+          "value": "1-Testosterone (17β-hydroxy-5α-androst-1- en-3-one)"
+        },
+        {
+          "value": "4-Androstenediol (androst-4-ene-3β,17β- diol)"
+        },
+        {
+          "value": "4-Hydroxytestosterone (4,17β-dihydroxyandrost-4-en-3-one)"
+        },
+        {
+          "value": "5-Androstenedione (androst-5-ene-3,17- dione)"
+        },
+        {
+          "value": "7α-hydroxy-DHEA"
+        },
+        {
+          "value": "7β-hydroxy-DHEA"
+        },
+        {
+          "value": "7-Keto-DHEA"
+        },
+        {
+          "value": "17α-methylepithiostanol (epistane)"
+        },
+        {
+          "value": "19-Norandrostenediol  (estr-4-ene-3,17-diol)"
+        },
+        {
+          "value": "19-Norandrostenedione (estr-4-ene-3,17- dione)"
+        },
+        {
+          "value": "Androst-4-ene-3,11,17-trione (11-ketoandrostenedione, adrenosterone)"
+        },
+        {
+          "value": "Androstanolone (5α-dihydrotestosterone, 17β-hydroxy-5α-androstan-3-one)"
+        },
+        {
+          "value": "Androstenediol (androst-5-ene-3β,17β-diol)"
+        },
+        {
+          "value": "Androstenedione (androst-4-ene-3,17- dione)"
+        },
+        {
+          "value": "Bolasterone"
+        },
+        {
+          "value": "Boldenone"
+        },
+        {
+          "value": "Boldione (androsta-1,4-diene-3,17-dione)"
+        },
+        {
+          "value": "Calusterone"
+        },
+        {
+          "value": "Clostebol"
+        },
+        {
+          "value": "Danazol ([1,2]oxazolo[4’,5’:2,3]pregna-4-en- 20-yn-17α-ol)"
+        },
+        {
+          "value": "Dehydrochlormethyltestosterone (4-chloro- 17β-hydroxy-17α-methylandrosta-1,4-dien- 3-one)"
+        },
+        {
+          "value": "Desoxymethyltestosterone (17α-methyl-5α- androst-2-en-17β-ol and 17α-methyl-5α- androst-3-en-17β-ol)"
+        },
+        {
+          "value": "Drostanolone"
+        },
+        {
+          "value": "Epiandrosterone (3β-hydroxy-5α-androstan- 17-one)"
+        },
+        {
+          "value": "Epi-dihydrotestosterone (17β-hydroxy-5β- androstan-3-one)"
+        },
+        {
+          "value": "Epitestosterone"
+        },
+        {
+          "value": "Ethylestrenol  (19-norpregna-4-en-17α-ol)"
+        },
+        {
+          "value": "Fluoxymesterone"
+        },
+        {
+          "value": "Formebolone"
+        },
+        {
+          "value": "Furazabol (17α-methyl [1,2,5] oxadiazolo[3’,4’:2,3]-5α-androstan-17β-ol)"
+        },
+        {
+          "value": "Gestrinone"
+        },
+        {
+          "value": "Mestanolone"
+        },
+        {
+          "value": "Mesterolone"
+        },
+        {
+          "value": "Metandienone (17β-hydroxy-17α- methylandrosta-1,4-dien-3-one)"
+        },
+        {
+          "value": "Metenolone"
+        },
+        {
+          "value": "Methandriol"
+        },
+        {
+          "value": "Methasterone (17β-hydroxy-2α,17α- dimethyl-5α-androstan-3-one)"
+        },
+        {
+          "value": "Methyl-1-testosterone (17β-hydroxy-17α- methyl-5α-androst-1-en-3-one)"
+        },
+        {
+          "value": "Methylclostebol"
+        },
+        {
+          "value": "Methyldienolone (17β-hydroxy-17α- methylestra-4,9-dien-3-one)"
+        },
+        {
+          "value": "Methylnortestosterone (17β-hydroxy-17α- methylestr-4-en-3-one)"
+        },
+        {
+          "value": "Methyltestosterone"
+        },
+        {
+          "value": "Metribolone (methyltrienolone, 17β-hydroxy- 17α-methylestra-4,9,11-trien-3-one)"
+        },
+        {
+          "value": "Mibolerone"
+        },
+        {
+          "value": "Nandrolone (19-nortestosterone)"
+        },
+        {
+          "value": "Norboletone"
+        },
+        {
+          "value": "Norclostebol (4-chloro-17β-ol-estr-4-en-3- one)"
+        },
+        {
+          "value": "Norethandrolone"
+        },
+        {
+          "value": "Oxabolone"
+        },
+        {
+          "value": "Oxandrolone"
+        },
+        {
+          "value": "Oxymesterone"
+        },
+        {
+          "value": "Oxymetholone"
+        },
+        {
+          "value": "Prasterone (dehydroepiandrosterone, DHEA, 3β-hydroxyandrost-5-en-17-one)"
+        },
+        {
+          "value": "Prostanozol (17β-[(tetrahydropyran-2-yl) oxy]-1’H-pyrazolo[3,4:2,3]-5α-androstane)"
+        },
+        {
+          "value": "Quinbolone"
+        },
+        {
+          "value": "Stanozolol"
+        },
+        {
+          "value": "Stenbolone"
+        },
+        {
+          "value": "Testosterone"
+        },
+        {
+          "value": "Tetrahydrogestrinone (17-hydroxy-18a- homo-19-nor-17α-pregna-4,9,11-trien-3- one)"
+        },
+        {
+          "value": "Tibolone"
+        },
+        {
+          "value": "Trenbolone (17β-hydroxyestr-4,9,11-trien-3- one)\n\tand other substances with a similar chemical structure or similar biological effect(s)."
+        },
+        {
+          "value": "Clenbuterol"
+        },
+        {
+          "value": "Osilodrostat"
+        },
+        {
+          "value": "Ractopamine"
+        },
+        {
+          "value": "Selective androgen receptor modulators [SARMs, e.g. andarine, enobosarm (ostarine), LGD-4033 (ligandrol), RAD140, S-23 and YK-11]"
+        },
+        {
+          "value": "Zeranol"
+        },
+        {
+          "value": "Zilpaterol"
+        }
+      ]
+    },
+    {
+      "predicate": "PEPTIDE HORMONES, GROWTH FACTORS, RELATED SUBSTANCES AND MIMETICS",
+      "entry": [
+        {
+          "value": "Darbepoetins (dEPO)"
+        },
+        {
+          "value": "Erythropoietins (EPO)"
+        },
+        {
+          "value": "EPO-based constructs [e.g. EPO-Fc, methoxy polyethylene glycol-epoetin beta (CERA)]"
+        },
+        {
+          "value": "EPO-mimetic agents and their constructs (e.g. CNTO-530, peginesatide)"
+        },
+        {
+          "value": "Cobalt"
+        },
+        {
+          "value": "Daprodustat (GSK1278863)"
+        },
+        {
+          "value": "IOX2"
+        },
+        {
+          "value": "Molidustat (BAY 85-3934)"
+        },
+        {
+          "value": "Roxadustat (FG-4592)"
+        },
+        {
+          "value": "Vadadustat (AKB-6548)"
+        },
+        {
+          "value": "Xenon"
+        },
+        {
+          "value": "K-11706"
+        },
+        {
+          "value": "Luspatercept"
+        },
+        {
+          "value": "Sotatercept"
+        },
+        {
+          "value": "Asialo EPO"
+        },
+        {
+          "value": "Carbamylated EPO (CEPO)"
+        },
+        {
+          "value": "Buserelin "
+        },
+        {
+          "value": "Deslorelin"
+        },
+        {
+          "value": "Gonadorelin"
+        },
+        {
+          "value": "Goserelin"
+        },
+        {
+          "value": "Leuprorelin"
+        },
+        {
+          "value": "Nafarelin"
+        },
+        {
+          "value": "Triptorelin"
+        },
+        {
+          "value": "Corticorelin"
+        },
+        {
+          "value": "growth hormone analogues, e.g. lonapegsomatropin, somapacitan and somatrogon"
+        },
+        {
+          "value": "growth hormone fragments, e.g. AOD-9604 and hGH 176-191"
+        },
+        {
+          "value": "growth hormone-releasing hormone (GHRH) and its analogues (e.g. CJC-1293, CJC-1295, sermorelin and tesamorelin)"
+        },
+        {
+          "value": "growth hormone secretagogues (GHS) and their mimetics [e.g. lenomorelin (ghrelin), anamorelin, ipamorelin, macimorelin and tabimorelin]"
+        },
+        {
+          "value": "GH-releasing peptides (GHRPs) [e.g. alexamorelin, GHRP-1, GHRP-2 (pralmorelin), GHRP-3, GHRP-4, GHRP-5, GHRP-6, and examorelin (hexarelin)]"
+        },
+        {
+          "value": "Fibroblast growth factors (FGFs)"
+        },
+        {
+          "value": "Hepatocyte growth factor (HGF)"
+        },
+        {
+          "value": "Insulin-like growth factor 1 (IGF-1) and its analogues"
+        },
+        {
+          "value": "Mechano growth factors (MGFs)"
+        },
+        {
+          "value": "Platelet-derived growth factor (PDGF)"
+        },
+        {
+          "value": "Thymosin-β4 and its derivatives e.g. TB-500"
+        },
+        {
+          "value": "Vascular endothelial growth factor (VEGF)\n\tand other growth factors or growth factor modulators affecting muscle, tendon or ligament protein synthesis/degradation, vascularisation, energy utilization, regenerative capacity or fibre type switching."
+        }
+      ]
+    },
+    {
+      "predicate": "BETA-2 AGONISTS",
+      "entry": [
+        {
+          "value": "Arformoterol"
+        },
+        {
+          "value": "Fenoterol"
+        },
+        {
+          "value": "Formoterol"
+        },
+        {
+          "value": "Higenamine"
+        },
+        {
+          "value": "Indacaterol"
+        },
+        {
+          "value": "Levosalbutamol"
+        },
+        {
+          "value": "Olodaterol"
+        },
+        {
+          "value": "Procaterol"
+        },
+        {
+          "value": "Reproterol"
+        },
+        {
+          "value": "Salbutamol"
+        },
+        {
+          "value": "Salmeterol"
+        },
+        {
+          "value": "Terbutaline"
+        },
+        {
+          "value": "Tretoquinol (trimetoquinol)"
+        },
+        {
+          "value": "Tulobuterol"
+        },
+        {
+          "value": "Vilanterol"
+        },
+        {
+          "value": "Inhaled salbutamol: maximum 1600 micrograms over 24 hours in divided doses not to exceed 600 micrograms over 8 hours starting from any dose"
+        },
+        {
+          "value": "Inhaled formoterol: maximum delivered dose of 54 micrograms over 24 hours"
+        },
+        {
+          "value": "Inhaled salmeterol: maximum 200 micrograms over 24 hours"
+        },
+        {
+          "value": "Inhaled vilanterol: maximum 25 micrograms over 24 hours"
+        }
+      ]
+    },
+    {
+      "predicate": "HORMONE AND METABOLIC MODULATORS",
+      "entry": [
+        {
+          "value": "2-Androstenol  (5α-androst-2-en-17-ol)"
+        },
+        {
+          "value": "2-Androstenone (5α-androst-2-en-17-one)"
+        },
+        {
+          "value": "3-Androstenol  (5α-androst-3-en-17-ol)"
+        },
+        {
+          "value": "3-Androstenone (5α-androst-3-en-17-one)"
+        },
+        {
+          "value": "4-Androstene-3,6,17 trione (6-oxo)"
+        },
+        {
+          "value": "Aminoglutethimide"
+        },
+        {
+          "value": "Anastrozole"
+        },
+        {
+          "value": "Androsta-1,4,6-triene-3,17-dione (androstatrienedione)"
+        },
+        {
+          "value": "Androsta-3,5-diene-7,17-dione (arimistane)"
+        },
+        {
+          "value": "Exemestane"
+        },
+        {
+          "value": "Formestane"
+        },
+        {
+          "value": "Letrozole"
+        },
+        {
+          "value": "Testolactone"
+        },
+        {
+          "value": "Bazedoxifene"
+        },
+        {
+          "value": "Clomifene"
+        },
+        {
+          "value": "Cyclofenil"
+        },
+        {
+          "value": "Fulvestrant"
+        },
+        {
+          "value": "Ospemifene"
+        },
+        {
+          "value": "Raloxifene"
+        },
+        {
+          "value": "Tamoxifen"
+        },
+        {
+          "value": "Toremifene"
+        },
+        {
+          "value": "Activin A-neutralizing antibodies"
+        },
+        {
+          "value": "Activin receptor IIB competitors such as: \nDecoy activin receptors (e.g. ACE-031)\n"
+        },
+        {
+          "value": "Decoy activin receptors (e.g. ACE-031)"
+        },
+        {
+          "value": "Anti-activin receptor IIB antibodies (e.g. bimagrumab)"
+        },
+        {
+          "value": "Myostatin inhibitors such as:\nAgents reducing or ablating myostatin expression\nMyostatin-binding proteins (e.g. follistatin, myostatin propeptide)\nMyostatin- or precursor - neutralizing  antibodies (e.g. apitegromab, domagrozumab, landogrozumab, stamulumab)\n"
+        },
+        {
+          "value": "Agents reducing or ablating myostatin expression"
+        },
+        {
+          "value": "Myostatin-binding proteins (e.g. follistatin, myostatin propeptide)"
+        },
+        {
+          "value": "Myostatin- or precursor - neutralizing  antibodies (e.g. apitegromab, domagrozumab, landogrozumab, stamulumab)"
+        }
+      ]
+    },
+    {
+      "predicate": "DIURETICS AND MASKING AGENTS",
+      "entry": [
+        {
+          "value": "Desmopressin; probenecid; plasma expanders, e.g. intravenous administration of albumin, dextran, hydroxyethyl starch and mannitol."
+        },
+        {
+          "value": "Acetazolamide; amiloride; bumetanide; canrenone; chlortalidone; etacrynic acid; furosemide; indapamide; metolazone; spironolactone; thiazides, e.g. bendroflumethiazide, chlorothiazide and hydrochlorothiazide; torasemide; triamterene and vaptans, e.g. tolvaptan."
+        },
+        {
+          "value": "Drospirenone; pamabrom; and topical ophthalmic administration of carbonic anhydrase inhibitors (e.g. dorzolamide, brinzolamide)"
+        },
+        {
+          "value": "Local administration of felypressin in dental anaesthesia"
+        }
+      ]
+    },
+    {
+      "predicate": "STIMULANTS",
+      "entry": [
+        {
+          "value": "Adrafinil"
+        },
+        {
+          "value": "Amfepramone"
+        },
+        {
+          "value": "Amfetamine"
+        },
+        {
+          "value": "Amfetaminil"
+        },
+        {
+          "value": "Amiphenazole"
+        },
+        {
+          "value": "Benfluorex"
+        },
+        {
+          "value": "Benzylpiperazine"
+        },
+        {
+          "value": "Bromantan"
+        },
+        {
+          "value": "Clobenzorex"
+        },
+        {
+          "value": "Cocaine"
+        },
+        {
+          "value": "Cropropamide"
+        },
+        {
+          "value": "Crotetamide"
+        },
+        {
+          "value": "Fencamine"
+        },
+        {
+          "value": "Fenetylline"
+        },
+        {
+          "value": "Fenfluramine"
+        },
+        {
+          "value": "Fenproporex"
+        },
+        {
+          "value": "Fonturacetam [4-phenylpiracetam (carphedon)]"
+        },
+        {
+          "value": "Furfenorex"
+        },
+        {
+          "value": "Lisdexamfetamine"
+        },
+        {
+          "value": "Mefenorex"
+        },
+        {
+          "value": "Mephentermine"
+        },
+        {
+          "value": "Mesocarb"
+        },
+        {
+          "value": "Metamfetamine(d-)"
+        },
+        {
+          "value": "p-methylamfetamine"
+        },
+        {
+          "value": "Modafinil"
+        },
+        {
+          "value": "Norfenfluramine"
+        },
+        {
+          "value": "Phendimetrazine"
+        },
+        {
+          "value": "Phentermine"
+        },
+        {
+          "value": "Prenylamine"
+        },
+        {
+          "value": "Prolintane"
+        },
+        {
+          "value": "3-Methylhexan-2-amine (1,2-dimethylpentylamine)"
+        },
+        {
+          "value": "4-fluoromethylphenidate"
+        },
+        {
+          "value": "4-Methylhexan-2-amine (methylhexaneamine, 1,3-dimethylamylamine, 1,3 DMAA)"
+        },
+        {
+          "value": "4-Methylpentan-2-amine (1,3-dimethylbutylamine)"
+        },
+        {
+          "value": "5-Methylhexan-2-amine (1,4-dimethylpentylamine, 1,4-dimethylamylamine, 1,4-DMAA)"
+        },
+        {
+          "value": "Benzfetamine"
+        },
+        {
+          "value": "Cathine**"
+        },
+        {
+          "value": "Cathinone and its analogues, e.g. mephedrone, methedrone, and α - pyrrolidinovalerophenone"
+        },
+        {
+          "value": "Dimetamfetamine (dimethylamphetamine)"
+        },
+        {
+          "value": "Ephedrine***"
+        },
+        {
+          "value": "Epinephrine**** (adrenaline)"
+        },
+        {
+          "value": "Etamivan"
+        },
+        {
+          "value": "Ethylphenidate"
+        },
+        {
+          "value": "Etilamfetamine"
+        },
+        {
+          "value": "Etilefrine"
+        },
+        {
+          "value": "Famprofazone"
+        },
+        {
+          "value": "Fenbutrazate"
+        },
+        {
+          "value": "Fencamfamin"
+        },
+        {
+          "value": "Heptaminol"
+        },
+        {
+          "value": "Hydrafinil (fluorenol)"
+        },
+        {
+          "value": "Hydroxyamfetamine (parahydroxyamphetamine)"
+        },
+        {
+          "value": "Isometheptene"
+        },
+        {
+          "value": "Levmetamfetamine"
+        },
+        {
+          "value": "Meclofenoxate"
+        },
+        {
+          "value": "Methylenedioxymetham- phetamine"
+        },
+        {
+          "value": "Methylephedrine***"
+        },
+        {
+          "value": "Methylnaphthidate [((±)-methyl-2-(naphthalen-2-yl)-2-(piperidin-2-yl)acetate]"
+        },
+        {
+          "value": "Methylphenidate"
+        },
+        {
+          "value": "Nikethamide"
+        },
+        {
+          "value": "Norfenefrine"
+        },
+        {
+          "value": "Octodrine (1,5-dimethylhex- ylamine)"
+        },
+        {
+          "value": "Octopamine"
+        },
+        {
+          "value": "Oxilofrine (methylsynephrine)"
+        },
+        {
+          "value": "Pemoline"
+        },
+        {
+          "value": "Pentetrazol"
+        },
+        {
+          "value": "Phenethylamine and its derivatives"
+        },
+        {
+          "value": "Phenmetrazine"
+        },
+        {
+          "value": "Phenpromethamine"
+        },
+        {
+          "value": "Propylhexedrine"
+        },
+        {
+          "value": "Pseudoephedrine*****"
+        },
+        {
+          "value": "Selegiline"
+        },
+        {
+          "value": "Sibutramine"
+        },
+        {
+          "value": "Solriamfetol"
+        },
+        {
+          "value": "Strychnine"
+        },
+        {
+          "value": "Tenamfetamine (methylenedioxyamphet- amine)"
+        },
+        {
+          "value": "Tuaminoheptane"
+        },
+        {
+          "value": "Clonidine"
+        },
+        {
+          "value": "Imidazole derivatives for dermatological, nasal, ophthalmic or otic use (e.g. brimonidine, clonazoline, fenoxazoline, indanazoline, naphazoline, oxymetazoline, tetryzoline, xylometazoline) and those stimulants included in the 2023 Monitoring Program*"
+        }
+      ]
+    },
+    {
+      "predicate": "NARCOTICS",
+      "entry": [
+        {
+          "value": "Buprenorphine"
+        },
+        {
+          "value": "Dextromoramide"
+        },
+        {
+          "value": "Diamorphine (heroin)"
+        },
+        {
+          "value": "Fentanyl and its derivatives"
+        },
+        {
+          "value": "Hydromorphone"
+        },
+        {
+          "value": "Methadone"
+        },
+        {
+          "value": "Morphine"
+        },
+        {
+          "value": "Nicomorphine"
+        },
+        {
+          "value": "Oxycodone"
+        },
+        {
+          "value": "Oxymorphone"
+        },
+        {
+          "value": "Pentazocine"
+        },
+        {
+          "value": "Pethidine"
+        }
+      ]
+    },
+    {
+      "predicate": "CANNABINOIDS",
+      "entry": [
+        {
+          "value": "In cannabis (hashish, marijuana) and cannabis products"
+        },
+        {
+          "value": "Synthetic cannabinoids that mimic the effects of THC"
+        },
+        {
+          "value": "Natural and synthetic tetrahydrocannabinols (THCs)"
+        },
+        {
+          "value": "Cannabidiol"
+        }
+      ]
+    },
+    {
+      "predicate": "GLUCOCORTICOIDS",
+      "entry": [
+        {
+          "value": "Beclometasone"
+        },
+        {
+          "value": "Betamethasone"
+        },
+        {
+          "value": "Budesonide"
+        },
+        {
+          "value": "Ciclesonide"
+        },
+        {
+          "value": "Cortisone"
+        },
+        {
+          "value": "Deflazacort"
+        },
+        {
+          "value": "Dexamethasone"
+        },
+        {
+          "value": "Flucortolone"
+        },
+        {
+          "value": "Flunisolide"
+        },
+        {
+          "value": "Fluticasone"
+        },
+        {
+          "value": "Hydrocortisone"
+        },
+        {
+          "value": "Methylprednisolone"
+        },
+        {
+          "value": "Mometasone"
+        },
+        {
+          "value": "Prednisolone"
+        },
+        {
+          "value": "Prednisone"
+        },
+        {
+          "value": "Triamcinolone acetonide"
+        }
+      ]
+    },
+    {
+      "predicate": "BETA-BLOCKERS",
+      "entry": [
+        {
+          "value": "Archery (WA)*"
+        },
+        {
+          "value": "Automobile (FIA)"
+        },
+        {
+          "value": "Billiards (all disciplines) (WCBS)"
+        },
+        {
+          "value": "Darts (WDF)"
+        },
+        {
+          "value": "Golf (IGF)"
+        },
+        {
+          "value": "Mini-Golf (WMF)"
+        },
+        {
+          "value": "Shooting (ISSF, IPC)*"
+        },
+        {
+          "value": "Skiing/Snowboarding (FIS) in ski jumping, freestyle aerials/halfpipe and snowboard halfpipe/big air"
+        },
+        {
+          "value": "Underwater sports (CMAS)* in all subdisciplines of freediving, spearfishing and target shooting"
+        },
+        {
+          "value": "Acebutolol"
+        },
+        {
+          "value": "Alprenolol"
+        },
+        {
+          "value": "Atenolol"
+        },
+        {
+          "value": "Betaxolol"
+        },
+        {
+          "value": "Bisoprolol"
+        },
+        {
+          "value": "Bunolol"
+        },
+        {
+          "value": "Carteolol"
+        },
+        {
+          "value": "Carvedilol"
+        },
+        {
+          "value": "Celiprolol"
+        },
+        {
+          "value": "Esmolol"
+        },
+        {
+          "value": "Labetalol"
+        },
+        {
+          "value": "Metipranolol"
+        },
+        {
+          "value": "Metoprolol"
+        },
+        {
+          "value": "Nadolol"
+        },
+        {
+          "value": "Nebivolol"
+        },
+        {
+          "value": "Oxprenolol"
+        },
+        {
+          "value": "Pindolol"
+        },
+        {
+          "value": "Propranolol"
+        },
+        {
+          "value": "Sotalol"
+        },
+        {
+          "value": "Timolol"
+        }
+      ]
+    }
+  ]
+}
