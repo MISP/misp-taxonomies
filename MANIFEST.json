@@ -742,6 +742,11 @@
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
       "version": 11
+    },
+    {
+      "description": "This taxonomy aims to list doping substances",
+      "name": "doping-substances",
+      "version": 2
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
