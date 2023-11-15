@@ -1,0 +1,191 @@
+{
+  "namespace": "srbcert",
+  "description": "SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "incident-type",
+      "expanded": "Incident Type"
+    },
+    {
+      "value": "incident-criticality-level",
+      "expanded": "Incident Criticality Level"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "incident-type",
+      "entry": [
+        {
+          "value": "virus",
+          "expanded": "Virus"
+        },
+        {
+          "value": "worm",
+          "expanded": "Worm"
+        },
+        {
+          "value": "ransomware",
+          "expanded": "Ransomware"
+        },
+        {
+          "value": "trojan",
+          "expanded": "Trojan"
+        },
+        {
+          "value": "spyware",
+          "expanded": "Spyware"
+        },
+        {
+          "value": "rootkit",
+          "expanded": "Rootkit"
+        },
+        {
+          "value": "malware",
+          "expanded": "Malware"
+        },
+        {
+          "value": "port-scanning",
+          "expanded": "Port scanning"
+        },
+        {
+          "value": "sniffing",
+          "expanded": "Sniffing"
+        },
+        {
+          "value": "social-engineering",
+          "expanded": "Social engineering"
+        },
+        {
+          "value": "data-breaches",
+          "expanded": "Data breaches"
+        },
+        {
+          "value": "other-type-of-information-gathering",
+          "expanded": "Other type of information gathering"
+        },
+        {
+          "value": "phishing",
+          "expanded": "Phishing"
+        },
+        {
+          "value": "unauthorized-use-of-resources",
+          "expanded": "Unauthorized use of resources"
+        },
+        {
+          "value": "fraud",
+          "expanded": "Fraud"
+        },
+        {
+          "value": "exploiting-known-vulnerabilities",
+          "expanded": "Exploiting known vulnerabilities"
+        },
+        {
+          "value": "brute-force",
+          "expanded": "Brute force"
+        },
+        {
+          "value": "other-type-of-intrusion-attempts",
+          "expanded": "Other type of Intrusion Attempts"
+        },
+        {
+          "value": "privilege-account-compromise",
+          "expanded": "Privilege account compromise"
+        },
+        {
+          "value": "unprivileged-account-compromise",
+          "expanded": "Unprivileged account compromise"
+        },
+        {
+          "value": "application-compromise",
+          "expanded": "Application compromise"
+        },
+        {
+          "value": "botnet",
+          "expanded": "Botnet"
+        },
+        {
+          "value": "other-type-of-intrusions",
+          "expanded": "Other type of intrusions"
+        },
+        {
+          "value": "dos",
+          "expanded": "DoS"
+        },
+        {
+          "value": "ddos",
+          "expanded": "DDoS"
+        },
+        {
+          "value": "sabotage",
+          "expanded": "Sabotage"
+        },
+        {
+          "value": "outage",
+          "expanded": "Outage"
+        },
+        {
+          "value": "other-type-of-availability-incident",
+          "expanded": "Other type of Availability incident"
+        },
+        {
+          "value": "unauthorized-access-to-information",
+          "expanded": "Unauthorized access to information"
+        },
+        {
+          "value": "unauthorized-modification-of-information",
+          "expanded": "Unauthorized modification of information"
+        },
+        {
+          "value": "cryptographic-attack",
+          "expanded": "Cryptographic attack"
+        },
+        {
+          "value": "other-type-of-information-content-security-incident",
+          "expanded": "Other type of Information Content Security incident"
+        },
+        {
+          "value": "hardware-errors",
+          "expanded": "Hardware errors"
+        },
+        {
+          "value": "software-errors",
+          "expanded": "Software errors"
+        },
+        {
+          "value": "software-errors",
+          "expanded": "Software errors"
+        },
+        {
+          "value": "hardware-components-theft",
+          "expanded": "hardware-components-theft"
+        },
+        {
+          "value": "other",
+          "expanded": "Other"
+        }
+      ]
+    },
+    {
+      "predicate": "incident-criticality-level",
+      "entry": [
+        {
+          "value": "low",
+          "expanded": "Low"
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium"
+        },
+        {
+          "value": "high",
+          "expanded": "High"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very High"
+        }
+      ]
+    }
+  ]
+}
