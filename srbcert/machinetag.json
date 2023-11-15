@@ -1,7 +1,7 @@
 {
   "namespace": "srbcert",
   "description": "SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection",
-  "version": 1,
+  "version": 3,
   "predicates": [
     {
       "value": "incident-type",
@@ -18,11 +18,13 @@
       "entry": [
         {
           "value": "virus",
-          "expanded": "Virus"
+          "expanded": "virus",
+          "description": "Virus is a piece of malicious code that aims to spread from computer to computer by attacking executable files and documents and can cause deliberate deletion of files from the hard drive and similar damage"
         },
         {
           "value": "worm",
-          "expanded": "Worm"
+          "expanded": "worm",
+          "description": "Worm is a program that contains malicious code that spreads over a network, in such a way that it can reproduce and transfer , which reproduces and transfers independently, i.e. it does not depend on the files of the infected person device. Worms spread to email addresses from the victim's contact list or exploit the vulnerabilities of network applications and, due to the high speed of propagation, serve for transmission of other types of malicious software "
         },
         {
           "value": "ransomware",
@@ -42,7 +44,7 @@
         },
         {
           "value": "malware",
-          "expanded": "Malware"
+          "expanded": "Malware is a word derived from two words - Malicious Software, and represents any software that is written for malicious purposes, i.e. that aims to cause harm computer systems or networks"
         },
         {
           "value": "port-scanning",
@@ -153,10 +155,6 @@
           "expanded": "Software errors"
         },
         {
-          "value": "software-errors",
-          "expanded": "Software errors"
-        },
-        {
           "value": "hardware-components-theft",
           "expanded": "hardware-components-theft"
         },
@@ -171,19 +169,23 @@
       "entry": [
         {
           "value": "low",
-          "expanded": "Low"
+          "expanded": "Low",
+          "numerical_value": 25
         },
         {
           "value": "medium",
-          "expanded": "Medium"
+          "expanded": "Medium",
+          "numerical_value": 50
         },
         {
           "value": "high",
-          "expanded": "High"
+          "expanded": "High",
+          "numerical_value": 75
         },
         {
           "value": "very-high",
-          "expanded": "Very High"
+          "expanded": "Very High",
+          "numerical_value": 100
         }
       ]
     }
