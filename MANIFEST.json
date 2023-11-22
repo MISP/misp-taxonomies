@@ -26,7 +26,7 @@
     {
       "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
       "name": "PAP",
-      "version": 2
+      "version": 3
     },
     {
       "description": "The access method used to remotely access a system.",
@@ -666,7 +666,7 @@
     {
       "description": "SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection",
       "name": "srbcert",
-      "version": 1
+      "version": 3
     },
     {
       "description": "A spectrum of state responsibility to more directly tie the goals of attribution to the needs of policymakers.",
@@ -706,7 +706,7 @@
     {
       "description": "The Traffic Light Protocol (TLP) (v2.0) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four standard labels (a fifth label is included in amber to limit the diffusion) used to indicate the sharing boundaries to be applied by the recipients. Only labels listed in this standard are considered valid by FIRST. This taxonomy includes additional labels for backward compatibility which are no more validated by FIRST SIG.",
       "name": "tlp",
-      "version": 9
+      "version": 10
     },
     {
       "description": "Taxonomy to describe Tor network infrastructure",
@@ -755,5 +755,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20231115"
+  "version": "20231122"
 }
