@@ -15,7 +15,7 @@
     {
       "colour": "#FFC000",
       "description": "Limited disclosure, recipients can only spread this on a need-to-know basis within their organization. Sources may use TLP:AMBER+STRICT when information requires support to be effectively acted upon, yet carries risk to privacy, reputation, or operations if shared outside of the organizations involved. Recipients may share TLP:AMBER+STRICT information with members of their own organization.",
-      "expanded": "Limited disclosure, recipients can only spread this on a need-to-know basis within their organization.",
+      "expanded": "(TLP:AMBER+STRICT) Limited disclosure, recipients can only spread this on a need-to-know basis within their organization.",
       "value": "amber+strict"
     },
     {
@@ -40,12 +40,17 @@
       "colour": "#d208f4",
       "expanded": "(TLP:EX:CHR) Information extended with a specific tag called Chatham House Rule (CHR). When this specific CHR tag is mentioned, the attribution (the source of information) must not be disclosed. This additional rule is at the discretion of the initial sender who can decide to apply or not the CHR tag.",
       "value": "ex:chr"
+    },
+    {
+      "colour": "#7e7eae",
+      "expanded": "(TLP:UNCLEAR) Community, Organization, Clients, and Recipients are all so confused what the appropriate disclosure level is, and if this or that indicator can or cannot be shared. Assumptions are rampant and the confusion is so high that a chi-square test might in fact be required to ensure the randomness of the mess before labelling this case TLP:UNCLEAR.",
+      "value": "unclear"
     }
   ],
   "refs": [
     "https://www.first.org/tlp"
   ],
-  "version": 7,
+  "version": 10,
   "description": "The Traffic Light Protocol (TLP) (v2.0) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four standard labels (a fifth label is included in amber to limit the diffusion) used to indicate the sharing boundaries to be applied by the recipients. Only labels listed in this standard are considered valid by FIRST. This taxonomy includes additional labels for backward compatibility which are no more validated by FIRST SIG.",
   "expanded": "Traffic Light Protocol",
   "exclusive": true,

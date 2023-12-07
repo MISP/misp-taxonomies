@@ -1,0 +1,193 @@
+{
+  "namespace": "srbcert",
+  "description": "SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection",
+  "version": 3,
+  "predicates": [
+    {
+      "value": "incident-type",
+      "expanded": "Incident Type"
+    },
+    {
+      "value": "incident-criticality-level",
+      "expanded": "Incident Criticality Level"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "incident-type",
+      "entry": [
+        {
+          "value": "virus",
+          "expanded": "virus",
+          "description": "Virus is a piece of malicious code that aims to spread from computer to computer by attacking executable files and documents and can cause deliberate deletion of files from the hard drive and similar damage"
+        },
+        {
+          "value": "worm",
+          "expanded": "worm",
+          "description": "Worm is a program that contains malicious code that spreads over a network, in such a way that it can reproduce and transfer , which reproduces and transfers independently, i.e. it does not depend on the files of the infected person device. Worms spread to email addresses from the victim's contact list or exploit the vulnerabilities of network applications and, due to the high speed of propagation, serve for transmission of other types of malicious software "
+        },
+        {
+          "value": "ransomware",
+          "expanded": "Ransomware"
+        },
+        {
+          "value": "trojan",
+          "expanded": "Trojan"
+        },
+        {
+          "value": "spyware",
+          "expanded": "Spyware"
+        },
+        {
+          "value": "rootkit",
+          "expanded": "Rootkit"
+        },
+        {
+          "value": "malware",
+          "expanded": "Malware is a word derived from two words - Malicious Software, and represents any software that is written for malicious purposes, i.e. that aims to cause harm computer systems or networks"
+        },
+        {
+          "value": "port-scanning",
+          "expanded": "Port scanning"
+        },
+        {
+          "value": "sniffing",
+          "expanded": "Sniffing"
+        },
+        {
+          "value": "social-engineering",
+          "expanded": "Social engineering"
+        },
+        {
+          "value": "data-breaches",
+          "expanded": "Data breaches"
+        },
+        {
+          "value": "other-type-of-information-gathering",
+          "expanded": "Other type of information gathering"
+        },
+        {
+          "value": "phishing",
+          "expanded": "Phishing"
+        },
+        {
+          "value": "unauthorized-use-of-resources",
+          "expanded": "Unauthorized use of resources"
+        },
+        {
+          "value": "fraud",
+          "expanded": "Fraud"
+        },
+        {
+          "value": "exploiting-known-vulnerabilities",
+          "expanded": "Exploiting known vulnerabilities"
+        },
+        {
+          "value": "brute-force",
+          "expanded": "Brute force"
+        },
+        {
+          "value": "other-type-of-intrusion-attempts",
+          "expanded": "Other type of Intrusion Attempts"
+        },
+        {
+          "value": "privilege-account-compromise",
+          "expanded": "Privilege account compromise"
+        },
+        {
+          "value": "unprivileged-account-compromise",
+          "expanded": "Unprivileged account compromise"
+        },
+        {
+          "value": "application-compromise",
+          "expanded": "Application compromise"
+        },
+        {
+          "value": "botnet",
+          "expanded": "Botnet"
+        },
+        {
+          "value": "other-type-of-intrusions",
+          "expanded": "Other type of intrusions"
+        },
+        {
+          "value": "dos",
+          "expanded": "DoS"
+        },
+        {
+          "value": "ddos",
+          "expanded": "DDoS"
+        },
+        {
+          "value": "sabotage",
+          "expanded": "Sabotage"
+        },
+        {
+          "value": "outage",
+          "expanded": "Outage"
+        },
+        {
+          "value": "other-type-of-availability-incident",
+          "expanded": "Other type of Availability incident"
+        },
+        {
+          "value": "unauthorized-access-to-information",
+          "expanded": "Unauthorized access to information"
+        },
+        {
+          "value": "unauthorized-modification-of-information",
+          "expanded": "Unauthorized modification of information"
+        },
+        {
+          "value": "cryptographic-attack",
+          "expanded": "Cryptographic attack"
+        },
+        {
+          "value": "other-type-of-information-content-security-incident",
+          "expanded": "Other type of Information Content Security incident"
+        },
+        {
+          "value": "hardware-errors",
+          "expanded": "Hardware errors"
+        },
+        {
+          "value": "software-errors",
+          "expanded": "Software errors"
+        },
+        {
+          "value": "hardware-components-theft",
+          "expanded": "hardware-components-theft"
+        },
+        {
+          "value": "other",
+          "expanded": "Other"
+        }
+      ]
+    },
+    {
+      "predicate": "incident-criticality-level",
+      "entry": [
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "numerical_value": 50
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very High",
+          "numerical_value": 100
+        }
+      ]
+    }
+  ]
+}

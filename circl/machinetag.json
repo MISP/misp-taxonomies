@@ -1,7 +1,7 @@
 {
   "namespace": "circl",
-  "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
-  "version": 5,
+  "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection.",
+  "version": 6,
   "predicates": [
     {
       "value": "incident-classification",
@@ -10,6 +10,11 @@
     {
       "value": "topic",
       "expanded": "Topic"
+    },
+    {
+      "value": "significant",
+      "expanded": "Significant",
+      "description": "Significant topic which has been evaluated to have a certain level of significancy which can have or had a severe impact."
     }
   ],
   "values": [
