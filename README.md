@@ -100,7 +100,7 @@ Internal taxonomy for CCCS. [Overview](https://www.misp-project.org/taxonomies.h
 ### circl
 
 [circl](https://github.com/MISP/misp-taxonomies/tree/main/circl) :
-CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection [Overview](https://www.misp-project.org/taxonomies.html#_circl)
+CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection. [Overview](https://www.misp-project.org/taxonomies.html#_circl)
 
 ### cnsd
 
@@ -135,7 +135,7 @@ A Course Of Action analysis considers six potential courses of action for the de
 ### crowdsec
 
 [crowdsec](https://github.com/MISP/misp-taxonomies/tree/main/crowdsec) :
-The Crowdsec behaviors and classifications taxonomy is the [list of taxonomies used in Crowdsec](https://doc.crowdsec.net/docs/next/cti_api/taxonomy) to describe the behaviors and classifications of an IP address. The behaviors are a list of attack categories for which a given IP address was reported, where the classifications describe a list of categories associated to an IP address and, when applicable, a list of false positive categories. [Overview](https://www.misp-project.org/taxonomies.html#_crowdsec)
+Crowdsec IP address classifications and behaviors taxonomy. [Overview](https://www.misp-project.org/taxonomies.html#_crowdsec)
 
 ### cryptocurrency-threat
 
@@ -185,7 +185,7 @@ Taxonomy to describe desired actions for Cytomic Orion [Overview](https://www.mi
 ### dark-web
 
 [dark-web](https://github.com/MISP/misp-taxonomies/tree/main/dark-web) :
-Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project [Overview](https://www.misp-project.org/taxonomies.html#_dark_web)
+Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission. [Overview](https://www.misp-project.org/taxonomies.html#_dark_web)
 
 ### data-classification
 
@@ -246,6 +246,11 @@ A subset of Information Security Marking Metadata ISM as required by Executive O
 
 [domain-abuse](https://github.com/MISP/misp-taxonomies/tree/main/domain-abuse) :
 Domain Name Abuse - taxonomy to tag domain names used for cybercrime. [Overview](https://www.misp-project.org/taxonomies.html#_domain_abuse)
+
+### doping-substances
+
+[doping-substances](https://github.com/MISP/misp-taxonomies/tree/main/doping-substances) :
+This taxonomy aims to list doping substances [Overview](https://www.misp-project.org/taxonomies.html#_doping_substances)
 
 ### drugs
 
@@ -426,6 +431,11 @@ How an incident is classified in its process to be resolved. The taxonomy is ins
 
 [infoleak](https://github.com/MISP/misp-taxonomies/tree/main/infoleak) :
 A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information. [Overview](https://www.misp-project.org/taxonomies.html#_infoleak)
+
+### information-origin
+
+[information-origin](https://github.com/MISP/misp-taxonomies/tree/main/information-origin) :
+Taxonomy for tagging information by its origin: human-generated or AI-generated. [Overview](https://www.misp-project.org/taxonomies.html#_information_origin)
 
 ### information-security-data-source
 
@@ -661,6 +671,11 @@ Threat taxonomy in the scope of securing smart airports by ENISA. https://www.en
 
 [social-engineering-attack-vectors](https://github.com/MISP/misp-taxonomies/tree/main/social-engineering-attack-vectors) :
 Attack vectors used in social engineering as described in 'A Taxonomy of Social Engineering Defense Mechanisms' by Dalal Alharthi and others. [Overview](https://www.misp-project.org/taxonomies.html#_social_engineering_attack_vectors)
+
+### srbcert
+
+[srbcert](https://github.com/MISP/misp-taxonomies/tree/main/srbcert) :
+SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection [Overview](https://www.misp-project.org/taxonomies.html#_srbcert)
 
 ### state-responsibility
 
