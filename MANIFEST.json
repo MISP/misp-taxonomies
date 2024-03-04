@@ -121,7 +121,7 @@
     {
       "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
       "name": "course-of-action",
-      "version": 2
+      "version": 3
     },
     {
       "description": "Crowdsec IP address classifications and behaviors taxonomy.",
@@ -176,7 +176,7 @@
     {
       "description": "Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.",
       "name": "dark-web",
-      "version": 5
+      "version": 6
     },
     {
       "description": "Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book.",
@@ -306,7 +306,7 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 10
+      "version": 11
     },
     {
       "description": "Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf",
@@ -755,5 +755,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20231231"
+  "version": "20240304"
 }
