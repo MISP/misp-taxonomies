@@ -165,7 +165,7 @@ for taxonomy in taxonomies:
                 if predicate.get('numerical_value'):
                     doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['numerical_value']), adoc=doc, t='description')
                 if predicate.get('exclusive'):
-                    doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['exclusive']), adoc=adoc, t='exclusive')
+                    doc = asciidoc(content=machineTag(namespace=namespace, predicate=predicate['exclusive']), adoc=doc, t='exclusive')
             else:
                 print(machineTag(namespace=namespace, predicate=predicate['value']))
             if args.e:
