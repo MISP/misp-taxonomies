@@ -1,0 +1,31 @@
+{
+  "namespace": "diamond-model-for-influence-operations",
+  "expanded": "The Diamond Model for Influence Operations Analysis",
+  "description": "The diamond model for influence operations analysis is a framework that leads analysts and researchers toward a comprehensive understanding of a malign influence campaign by addressing the socio-political, technical, and psychological aspects of the campaign. The diamond model for influence operations analysis consists of 5 components: 4 corners and a core element. The 4 corners are divided into 2 axes: influencer and audience on the socio-political axis, capabilities and infrastructure on the technical axis. Narrative makes up the core of the diamond.",
+  "version": 1,
+  "refs": [
+    "https://go.recordedfuture.com/hubfs/white-papers/diamond-model-influence-operations-analysis.pdf"
+  ],
+  "predicates": [
+    {
+      "value": "Influencer",
+      "expanded": "The influencer is an individual or organization that is conducting malign influence activity."
+    },
+    {
+      "value": "Capabilities",
+      "expanded": "Capabilities are the influencer’s TTPs. Studying the way influencers plan, test, and execute their operations can enable analysts to be more proactive in defending against malign influence and to discern how to neutralize harmful narratives when they are identified. "
+    },
+    {
+      "value": "Infrastructure",
+      "expanded": "The infrastructure used by influencers can include print media, television, digital platforms like websites, mobile phones, mobile applications, and more. "
+    },
+    {
+      "value": "Audience",
+      "expanded": "The audience is the intended target of the influence operation. The audience can range in size from a single individual to a large international audience. "
+    },
+    {
+      "value": "Narrative",
+      "expanded": "The narrative is often key to identifying who would be affected by the story and who would be motivated to propagate that particular message. "
+    }
+  ]
+}

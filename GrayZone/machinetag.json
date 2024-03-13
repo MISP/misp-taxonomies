@@ -1,0 +1,243 @@
+{
+  "namespace": "GrayZone",
+  "description": "Gray Zone of Active defense includes all elements which lay between reactive defense elements and offensive operations. It does fill the gray spot between them. Taxo may be used for active defense planning or modeling.",
+  "version": 3,
+  "predicates": [
+    {
+      "value": "Adversary Emulation",
+      "expanded": "Adversary Emulation"
+    },
+    {
+      "value": "Beacons",
+      "expanded": "Beacons"
+    },
+    {
+      "value": "Deterrence",
+      "expanded": "Deterrence"
+    },
+    {
+      "value": "Deception",
+      "expanded": "Deception"
+    },
+    {
+      "value": "Tarpits, Sandboxes and Honeypots",
+      "expanded": "Tarpits, Sandboxes and Honeypots"
+    },
+    {
+      "value": "Threat Intelligence",
+      "expanded": "Threat Intelligence"
+    },
+    {
+      "value": "Threat Hunting",
+      "expanded": "Threat Hunting"
+    },
+    {
+      "value": "Adversary Takedowns",
+      "expanded": "Adversary Takedowns"
+    },
+    {
+      "value": "Ransomware",
+      "expanded": "Ransomware"
+    },
+    {
+      "value": "Rescue Missions",
+      "expanded": "Rescue Missions"
+    },
+    {
+      "value": "Sanctions, Indictments & Trade Remedies",
+      "expanded": "Sanctions, Indictments & Trade Remedies"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "Adversary Emulation",
+      "entry": [
+        {
+          "value": "Threat Modeling",
+          "expanded": "Arch threat modeling",
+          "description": "Modeling threat in services or/and in applications"
+        },
+        {
+          "value": "Purple Teaming",
+          "expanded": "Purple team collaboration",
+          "description": "Collaboration between red and blue team"
+        },
+        {
+          "value": "Blue Team",
+          "expanded": "Blue Team activities",
+          "description": "Defenders team actions, TTPs etc."
+        },
+        {
+          "value": "Red Team",
+          "expanded": "Red Team activities",
+          "description": "Actions, TTPs etc.of Red Team"
+        }
+      ]
+    },
+    {
+      "predicate": "Beacons",
+      "entry": [
+        {
+          "value": "Inform",
+          "expanded": "Information from beacon",
+          "description": "Provide defender with informations about beacon user, intentional or not"
+        },
+        {
+          "value": "Notify",
+          "expanded": "Notification from beacon",
+          "description": "Beacon will just send alert, that has been accessed"
+        }
+      ]
+    },
+    {
+      "predicate": "Deterrence",
+      "entry": [
+        {
+          "value": "by Retaliation",
+          "expanded": "Retaliation risk",
+          "description": "Adversary is threatened by retaliation if it will continue in actions"
+        },
+        {
+          "value": "by Denial",
+          "expanded": "Risk of Denial",
+          "description": "Deny action ever happened - example: if the attribution is important for adversary"
+        },
+        {
+          "value": "by Entanglement",
+          "expanded": "Risk of reputation loss",
+          "description": "By continuing in action adversary may be exhibited to punishment from defenders ally"
+        }
+      ]
+    },
+    {
+      "predicate": "Deception",
+      "entry": [
+        {
+          "value": "Deception",
+          "expanded": "Deceptive actions",
+          "description": "Confuse adversary by deception, can be either whole campaign or just simple word in internal manuals"
+        },
+        {
+          "value": "Denial",
+          "expanded": "Suppress anything",
+          "description": "You can deny any part of infrastructure or whole including servers, personal computers, users, machine accounts etc."
+        },
+        {
+          "value": "CounterDeception",
+          "expanded": "Answer to deception",
+          "description": "Answer to deception from adversary is counter-deception, for example: answer to phish with shadow user account to uncover next adversary actions"
+        },
+        {
+          "value": "Counter-Deception",
+          "expanded": "Active counterdeception",
+          "description": "Answer to adversary deception and his tactical goals, example: if You know the adversary goal(extraction) You can plant documents with fake content to enable damage on adversary sources (fake blueprints of engine, which explode on purpose)"
+        }
+      ]
+    },
+    {
+      "predicate": "Tarpits, Sandboxes and Honeypots",
+      "entry": [
+        {
+          "value": "Honeypots",
+          "expanded": "Honeypots",
+          "description": "Emulating technical resources as services or whole machines or identities"
+        },
+        {
+          "value": "Sandboxes",
+          "expanded": "Sandboxes",
+          "description": "Place for secure detonation of anything"
+        },
+        {
+          "value": "Tarpits",
+          "expanded": "Slow Downs",
+          "description": "You can slow adversary from action for example by sending slow responses to request"
+        }
+      ]
+    },
+    {
+      "predicate": "Threat Intelligence",
+      "entry": [
+        {
+          "value": "Passive - OSINT",
+          "expanded": "OpenSourceINTelligence",
+          "description": "Use of OSINT for creating of Threat Intelligence"
+        },
+        {
+          "value": "Passive - platforms",
+          "expanded": "Platforms for TI",
+          "description": "Save, share and collaborate on threat intelligence platforms"
+        },
+        {
+          "value": "Counter-Intelligence public",
+          "expanded": "Counter Intelligence",
+          "description": "Active retrieval of Threat Intelligence for purpose of defense collected with available public resources - example: active monitoring of web services to uncover action before happen (forum hacktivist group)"
+        },
+        {
+          "value": "Counter-Intelligence government",
+          "expanded": "Counter Intelligence",
+          "description": "Active retrieval of Threat Intelligence for purpose of defense collected with non-public resources - example: cooperation between secret services in EU"
+        }
+      ]
+    },
+    {
+      "predicate": "Threat Hunting",
+      "entry": [
+        {
+          "value": "Threat Hunting",
+          "expanded": "Threat Hunting",
+          "description": "Threat Hunting is the activity of active search for possible signs of adversary in environment"
+        }
+      ]
+    },
+    {
+      "predicate": "Adversary Takedowns",
+      "entry": [
+        {
+          "value": "Botnet Takedowns",
+          "expanded": "Botnet Takedowns",
+          "description": "Activity with approval of legal governmental entities ie. courts to stop unwanted actions or prevent them"
+        },
+        {
+          "value": "Domain Takedowns",
+          "expanded": "Domain Takedowns",
+          "description": "Activity with approval of legal governmental entities ie. courts to stop unwanted actions or prevent them"
+        },
+        {
+          "value": "Infrastructure Takedowns",
+          "expanded": "Whole environment takedowns",
+          "description": "Activity with approval of legal governmental entities ie. courts to stop unwanted actions or prevent them"
+        }
+      ]
+    },
+    {
+      "predicate": "Ransomware",
+      "entry": [
+        {
+          "value": "Ransomware",
+          "expanded": "Ransomware by defenders",
+          "description": "Activity with approval of legal governmental entities ie. courts to stop unwanted actions or prevent them"
+        }
+      ]
+    },
+    {
+      "predicate": "Rescue Missions",
+      "entry": [
+        {
+          "value": "Rescue Missions",
+          "expanded": "Rescue Missions",
+          "description": "Activity with approval of legal governmental entities ie. courts to stop unwanted actions or prevent them"
+        }
+      ]
+    },
+    {
+      "predicate": "Sanctions, Indictments & Trade Remedies",
+      "entry": [
+        {
+          "value": "Sanctions, Indictments & Trade Remedies",
+          "expanded": "Business and diplomatic actions and counteractions",
+          "description": "Activity with approval of legal governmental entities ie. courts, states, governments to stop unwanted actions or prevent them"
+        }
+      ]
+    }
+  ]
+}

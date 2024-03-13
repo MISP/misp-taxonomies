@@ -45,8 +45,12 @@
     },
     {
       "value": "Rag Pull",
-      "expanded": "Crypto scam that occurs when a team pumps their project’s token before disappearing with the funds, leaving their investors with a valueless asset." 
-    }  
+      "expanded": "Crypto scam that occurs when a team pumps their project’s token before disappearing with the funds, leaving their investors with a valueless asset."
+    },
+    {
+      "value": "Pig Butchering Scam",
+      "expanded": "Cryptocurrency investment fraud that lures individuals into investing their money in seemingly legitimate and profitable ventures."
+    }
   ],
   "refs": [
     "https://ciphertrace.com/wp-content/uploads/2019/01/crypto_aml_report_2018q4.pdf"

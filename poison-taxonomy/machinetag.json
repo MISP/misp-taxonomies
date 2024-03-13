@@ -1,0 +1,476 @@
+{
+  "namespace": "poison-taxonomy",
+  "description": "Non-exhaustive taxonomy of natural poison",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "Poisonous plant"
+    },
+    {
+      "value": "Poisonous fungus"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "Poisonous fungus",
+      "entry": [
+        {
+          "value": "Agaricus californicus/California "
+        },
+        {
+          "value": "Agaricus hondensis/Felt-ringed "
+        },
+        {
+          "value": "Agaricus menieri"
+        },
+        {
+          "value": "Agaricus moelleri"
+        },
+        {
+          "value": "Agaricus phaeolepidotus"
+        },
+        {
+          "value": "Agaricus placomyces"
+        },
+        {
+          "value": "Agaricus xanthodermus/Yellow-staining mushroom"
+        },
+        {
+          "value": "Amanita abrupta/American abrupt-bulbed Lepidella"
+        },
+        {
+          "value": "Amanita aprica/Sunshine amanita"
+        },
+        {
+          "value": "Amanita boudieri/Boudier's lepidella"
+        },
+        {
+          "value": "Amanita citrina"
+        },
+        {
+          "value": "Amanita cokeri/Coker's amanita"
+        },
+        {
+          "value": "Amanita cothurnata/Booted amanita"
+        },
+        {
+          "value": "Amanita echinocephala/European solitary amanita"
+        },
+        {
+          "value": "Amanita farinosa/Powdery Amanita"
+        },
+        {
+          "value": "Amanita flavorubescens"
+        },
+        {
+          "value": "Amanita gemmata/Gemmed Amanita"
+        },
+        {
+          "value": "Amanita gioiosa"
+        },
+        {
+          "value": "Amanita gracilior"
+        },
+        {
+          "value": "Amanita heterochroma/Eucalyptus fly agaric"
+        },
+        {
+          "value": "Amanita hongoi/Hongo's Amanita"
+        },
+        {
+          "value": "Amanita ibotengutake/Japanese ringed-bulbed Amanita"
+        },
+        {
+          "value": "Amanita muscaria/Fly agaric"
+        },
+        {
+          "value": "Amanita neoovoidea/East Asian egg amidella"
+        },
+        {
+          "value": "Amanita pantherina/Panther cap"
+        },
+        {
+          "value": "Amanita porphyria/Grey veiled Amanita"
+        },
+        {
+          "value": "Amanita pseudoporphyria/Hongo's false death cap"
+        },
+        {
+          "value": "Amanita pseudoregalis/False royal fly agaric"
+        },
+        {
+          "value": "Amanita pseudorubescens/False blusher"
+        },
+        {
+          "value": "Amanita regalis/Royal fly agaric"
+        },
+        {
+          "value": "Amanita smithiana/Smith's Amanita"
+        },
+        {
+          "value": "Ampulloclitocybe clavipes/Club-footed clitocybe"
+        },
+        {
+          "value": "Chlorophyllum molybdites/Green-spored parasol"
+        },
+        {
+          "value": "Clitocybe cerussata"
+        },
+        {
+          "value": "Clitocybe dealbata"
+        },
+        {
+          "value": "Coprinopsis alopecia"
+        },
+        {
+          "value": "Coprinopsis atramentaria/Common ink cap"
+        },
+        {
+          "value": "Coprinopsis romagnesiana/Scaly ink cap"
+        },
+        {
+          "value": "Cortinarius bolaris"
+        },
+        {
+          "value": "Cortinarius callisteus"
+        },
+        {
+          "value": "Cortinarius cinnabarinus"
+        },
+        {
+          "value": "Cortinarius cinnamomeofulvus"
+        },
+        {
+          "value": "Cortinarius cinnamomeoluteus"
+        },
+        {
+          "value": "Cortinarius cinnamomeus"
+        },
+        {
+          "value": "Cortinarius cruentus"
+        },
+        {
+          "value": "Cortinarius gentilis"
+        },
+        {
+          "value": "Cortinarius limonius"
+        },
+        {
+          "value": "Cortinarius malicorius"
+        },
+        {
+          "value": "Cortinarius mirandus"
+        },
+        {
+          "value": "Cortinarius palustris"
+        },
+        {
+          "value": "Cortinarius phoeniceus"
+        },
+        {
+          "value": "Cortinarius rubicundulus"
+        },
+        {
+          "value": "Cortinarius smithii/Smith's Cortinarius"
+        },
+        {
+          "value": "Cudonia circinans"
+        },
+        {
+          "value": "Gyromitra perlata/Pig's ears"
+        },
+        {
+          "value": "Echinoderma asperum/Freckled dapperling"
+        },
+        {
+          "value": "Echinoderma calcicola"
+        },
+        {
+          "value": "Entoloma albidum"
+        },
+        {
+          "value": "Entoloma rhodopolium/Wood pinkgill"
+        },
+        {
+          "value": "Entoloma sinuatum/Livid Entoloma"
+        },
+        {
+          "value": "Hebeloma crustuliniforme/Poison pie"
+        },
+        {
+          "value": "Hebeloma sinapizans/Rough-stalked hebeloma"
+        },
+        {
+          "value": "Helvella crispa/Elfin saddle"
+        },
+        {
+          "value": "Helvella dryophila/Oak-loving elfin saddle"
+        },
+        {
+          "value": "Helvella lactea"
+        },
+        {
+          "value": "Helvella lacunosa/Slate grey saddle"
+        },
+        {
+          "value": "Helvella vespertina/Western black elfin saddle"
+        },
+        {
+          "value": "Hapalopilus nidulans/Tender nesting polypore"
+        },
+        {
+          "value": "Hypholoma fasciculare/Sulphur tuft"
+        },
+        {
+          "value": "Hypholoma lateritium/Brick cap"
+        },
+        {
+          "value": "Hypholoma marginatum"
+        },
+        {
+          "value": "Hypholoma radicosum"
+        },
+        {
+          "value": "Imperator rhodopurpureus"
+        },
+        {
+          "value": "Imperator torosus"
+        },
+        {
+          "value": "Inocybe fibrosa"
+        },
+        {
+          "value": "Inocybe geophylla/Earthy inocybe"
+        },
+        {
+          "value": "Inocybe hystrix"
+        },
+        {
+          "value": "Inocybe lacera/Torn fibercap"
+        },
+        {
+          "value": "Inocybe lilacina"
+        },
+        {
+          "value": "Inocybe sublilacina"
+        },
+        {
+          "value": "Inocybe rimosa"
+        },
+        {
+          "value": "Inocybe sambucina"
+        },
+        {
+          "value": "Lactarius torminosus/Woolly milkcap"
+        },
+        {
+          "value": "Mycena diosma"
+        },
+        {
+          "value": "Mycena pura/Lilac bonnet"
+        },
+        {
+          "value": "Mycena rosea/Rosy bonnet"
+        },
+        {
+          "value": "Neonothopanus nambi"
+        },
+        {
+          "value": "Panaeolus cinctulus/banded mottlegill"
+        },
+        {
+          "value": "Psilocybe semilanceata/Liberty cap"
+        },
+        {
+          "value": "Omphalotus illudens/Jack-O'lantern mushroom"
+        },
+        {
+          "value": "Omphalotus japonicus/Tsukiyotake"
+        },
+        {
+          "value": "Omphalotus nidiformis/Ghost fungus"
+        },
+        {
+          "value": "Omphalotus olearius/Jack-O'lantern mushroom"
+        },
+        {
+          "value": "Omphalotus olivascens/Western jack-o'-lantern mushroom"
+        },
+        {
+          "value": "Paralepistopsis acromelalga"
+        },
+        {
+          "value": "Paralepistopsis amoenolens/Paralysis funnel"
+        },
+        {
+          "value": "Pholiotina rugosa"
+        },
+        {
+          "value": "Ramaria formosa/Beautiful clavaria"
+        },
+        {
+          "value": "Ramaria neoformosa"
+        },
+        {
+          "value": "Ramaria pallida"
+        },
+        {
+          "value": "Rubroboletus legaliae/Le Gal's bolete"
+        },
+        {
+          "value": "Rubroboletus lupinus/Wolves bolete"
+        },
+        {
+          "value": "Rubroboletus pulcherrimus"
+        },
+        {
+          "value": "Rubroboletus satanas/Satan's bolete"
+        },
+        {
+          "value": "Russula emetica/The sickener"
+        },
+        {
+          "value": "Russula subnigricans"
+        },
+        {
+          "value": "Sarcosphaera coronaria/Pink crown"
+        },
+        {
+          "value": "Tricholoma equestre/Yellow knight"
+        },
+        {
+          "value": "Tricholoma filamentosum"
+        },
+        {
+          "value": "Tricholoma pardinum/Tiger tricholoma"
+        },
+        {
+          "value": "Tricholoma muscarium"
+        },
+        {
+          "value": "Trogia venenata/Little white mushroom"
+        },
+        {
+          "value": "Turbinellus floccosus/Woolly false chanterelle"
+        },
+        {
+          "value": "Turbinellus kauffmanii"
+        },
+        {
+          "value": "Agrocybe arenicola"
+        },
+        {
+          "value": "Amanita albocreata/Ringless panther"
+        },
+        {
+          "value": "Amanita altipes/Yellow long-stem Amanita"
+        },
+        {
+          "value": "Amanita breckonii"
+        },
+        {
+          "value": "Amanita ceciliae/Snakeskin grisette"
+        },
+        {
+          "value": "Amanita eliae/Fries's Amanita"
+        },
+        {
+          "value": "Amanita flavoconia/Yellow-dust Amanita"
+        },
+        {
+          "value": "Amanita frostiana/Frost's Amanita"
+        },
+        {
+          "value": "Amanita nehuta/Mahori dust Amanita"
+        },
+        {
+          "value": "Amanita parcivolvata"
+        },
+        {
+          "value": "Amanita parvipantherina"
+        },
+        {
+          "value": "Amanita petalinivolva"
+        },
+        {
+          "value": "Amanita roseotincta"
+        },
+        {
+          "value": "Amanita rubrovolvata/Red volva Amanita"
+        },
+        {
+          "value": "Amanita subfrostiana/False Frost's Amanita"
+        },
+        {
+          "value": "Amanita velatipes"
+        },
+        {
+          "value": "Amanita viscidolutea"
+        },
+        {
+          "value": "Amanita wellsii/Wells's Amanita"
+        },
+        {
+          "value": "Amanita xanthocephala/Vermilion grisette"
+        },
+        {
+          "value": "Armillaria mellea/Honey fungus"
+        },
+        {
+          "value": "Calocera viscosa/Yellow stagshorn"
+        },
+        {
+          "value": "Chlorophyllum brunneum/Shaggy parasol"
+        },
+        {
+          "value": "Choiromyces venosus"
+        },
+        {
+          "value": "Clitocybe fragrans"
+        },
+        {
+          "value": "Clitocybe nebularis/Clouded agaric"
+        },
+        {
+          "value": "Conocybe subovalis"
+        },
+        {
+          "value": "Coprinellus micaceus/Mica cap"
+        },
+        {
+          "value": "Lactarius chrysorrheus/Yellowdrop milkcap"
+        },
+        {
+          "value": "Lactarius helvus/Fenugreek milkcap"
+        },
+        {
+          "value": "Lepiota cristata/Stinking dapperling"
+        },
+        {
+          "value": "Marasmius collinus"
+        },
+        {
+          "value": "Russula olivacea"
+        },
+        {
+          "value": "Russula viscida"
+        },
+        {
+          "value": "Schizophyllum commune"
+        },
+        {
+          "value": "Scleroderma citrinum/common earthball"
+        },
+        {
+          "value": "Stropharia aeruginosa/Verdigris agaric"
+        },
+        {
+          "value": "Suillus granulatus/Weeping bolete"
+        },
+        {
+          "value": "Tricholoma sulphureum/Gas agaric"
+        }
+      ]
+    }
+  ]
+}

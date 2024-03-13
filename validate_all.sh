@@ -8,7 +8,7 @@ set -x
 diffs=`git status --porcelain | wc -l`
 
 if ! [ $diffs -eq 0 ]; then
-	echo "Please make sure you run ./jq_all_the_things.sh before commiting."
+	echo "Please make sure you run ./jq_all_the_things.sh before committing."
 	exit 1
 fi
 
@@ -20,11 +20,6 @@ if ! [ $((directories-2)) -eq $manifest_entries ]; then
     exit 1
 fi
 
-for dir in */machinetag.json
-do
-  echo -n "${dir}: "
-  jsonschema -i ${dir} schema.json
-  echo ''
-done
+python3 validate_all.py
 
 jsonschema -i mapping/mapping.json schema_mapping.json

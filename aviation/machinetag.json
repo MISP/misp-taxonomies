@@ -1,0 +1,397 @@
+{
+  "predicates": [
+    {
+      "expanded": "Target",
+      "value": "target"
+    },
+    {
+      "expanded": "Target systems",
+      "value": "target-systems"
+    },
+    {
+      "expanded": "Target Sub Systems",
+      "value": "target-sub-systems"
+    },
+    {
+      "value": "impact",
+      "expanded": "Impact",
+      "exclusive": true
+    },
+    {
+      "value": "likelihood",
+      "expanded": "Likelihood",
+      "exclusive": true
+    },
+    {
+      "expanded": "Criticality",
+      "value": "criticality"
+    },
+    {
+      "value": "certainty",
+      "expanded": "Certainty",
+      "exclusive": true
+    }
+  ],
+  "version": 1,
+  "description": "A taxonomy describing security threats or incidents against the aviation sector.",
+  "namespace": "aviation",
+  "values": [
+    {
+      "predicate": "target",
+      "entry": [
+        {
+          "value": "airline",
+          "expanded": "airline",
+          "description": "airlines or airline groups"
+        },
+        {
+          "value": "airspace users",
+          "expanded": "Airspace Users",
+          "description": "Airspace users other than airlines like drone, helicopter, baloon operators"
+        },
+        {
+          "value": "airport",
+          "expanded": "Airport",
+          "description": "Airports or airport operators"
+        },
+        {
+          "value": "ansp",
+          "expanded": "Air Navigation Service Provider",
+          "description": "Air Navigation Service Provider who is managing the airspace of a country or a specific region"
+        },
+        {
+          "value": "international-association",
+          "expanded": "International Association",
+          "description": "International associations related with aviation sector"
+        },
+        {
+          "value": "caa",
+          "expanded": "Civil Aviation Authority",
+          "description": "Civil Aviation Authority who is responsible for regulation the aviation of a country"
+        },
+        {
+          "value": "manufacturer",
+          "expanded": "Manufacturer",
+          "description": "Manufacturers who produce aircrafts,aircraft or ATM related components"
+        },
+        {
+          "value": "service-provider",
+          "expanded": "Service Provider",
+          "description": "Service providers who provide different services to the aviation stakeholders"
+        },
+        {
+          "value": "network-manager",
+          "expanded": "Network Manager",
+          "description": "Network Manager manages ATM network functions (airspace design, flow management) as well as scarce resources"
+        },
+        {
+          "value": "military",
+          "expanded": "Military",
+          "description": "Military aviation"
+        }
+      ]
+    },
+    {
+      "predicate": "target-systems",
+      "entry": [
+        {
+          "value": "ATM",
+          "expanded": "ATM - Air Traffic Management",
+          "description": "Air traffic management systems which manage airspace"
+        },
+        {
+          "value": "AIS",
+          "expanded": "AIS - Aeronautical Information Service",
+          "description": "Aeronatutical Infromation Service whose objective is to ensure the flow of aeronautical information and data necessary for the safety, regularity and efficiency of international air navigation"
+        },
+        {
+          "value": "MET",
+          "expanded": "MET - Meteorological Service",
+          "description": "Meteorological service which provides meteo data to the airspace users"
+        },
+        {
+          "value": "SAR",
+          "expanded": "SAR - Search and Rescue",
+          "description": "Search and rescue (SAR) service is provided to the survivors of aircraft accidents as well as aircraft in distress (and their occupants) regardless of their nationality"
+        },
+        {
+          "value": "CNS",
+          "expanded": "CNS - Communication, Navigation and Surveillance",
+          "description": "The main functions of ATM: Communication, Navigation and Surveillance"
+        },
+        {
+          "value": "airport-management-systems",
+          "expanded": "Airport Management Systems",
+          "description": "Airport IT and OT systems that manage airport internal operations"
+        },
+        {
+          "value": "airport-online-services",
+          "expanded": "Airport Online Services",
+          "description": "Airport online service that helps external users to reach airport services"
+        },
+        {
+          "value": "airport-fids-systems",
+          "expanded": "Airport Flight Information Display Systems",
+          "description": "Airport Flight Information Display Systems that guide the passangers about flights"
+        },
+        {
+          "value": "airline-management-systems",
+          "expanded": "Airline Management Systems",
+          "description": "Airline Management Systems that manage airline intenal operations"
+        },
+        {
+          "value": "airline-online-services",
+          "expanded": "Airline Online Services",
+          "description": "Airline Online Services that helps external users to reach airlines services"
+        }
+      ]
+    },
+    {
+      "predicate": "target-sub-systems",
+      "entry": [
+        {
+          "value": "ATM:NewPENS",
+          "expanded": "ATM New PENS(Pan-European Network Service)",
+          "description": "ATM New PENS(Pan-European Network Service) which is private network for aviation stakeholders"
+        },
+        {
+          "value": "ATM:SWIM",
+          "expanded": "ATM SWIM(Sytem Wide Information Management)",
+          "description": "ATM SWIM(System Wide Information Management) is the system that enables seamless information access and interchange between all providers and users of ATM information and services"
+        },
+        {
+          "value": "ATM:ATS:ATC",
+          "expanded": "ATM ATS(Air Traffic Service) ATC - Air Traffic Control",
+          "description": "ATM ATS(Air Traffic Service) ATC - Air Traffic Control systems"
+        },
+        {
+          "value": "ATM:ATS:FIS",
+          "expanded": "ATM ATS FIS - Flight Information Services",
+          "description": "ATM ATS FIS - Flight Information Services systems"
+        },
+        {
+          "value": "ATM:ATS:ALRS",
+          "expanded": "ATM ATS ALRS - Alerting Services",
+          "description": "ATM ATS ALRS - Alerting Services systems"
+        },
+        {
+          "value": "ATM:ATS:ATFM",
+          "expanded": "ATM ATS ATFM(Air Traffic Flow Management)",
+          "description": "ATM ATS ATFM(Air Traffic Flow Management) systems "
+        },
+        {
+          "value": "ATM:ATS:ASM",
+          "expanded": "ATM ATS ASM(Airspace management)",
+          "description": "ATM ATS ASM(Airspace management) systems "
+        },
+        {
+          "value": "CNS:COM:Ground-Ground",
+          "expanded": "CNS COM Ground-Ground",
+          "description": "Ground-ground communication systems"
+        },
+        {
+          "value": "CNS:COM:Ground-Air",
+          "expanded": "CNS COM Ground Air",
+          "description": "Ground-Air communication systems"
+        },
+        {
+          "value": "CNS:COM:Air-Air",
+          "expanded": "CNS COM Air Air",
+          "description": "Air-Air Communication systems"
+        },
+        {
+          "value": "CNS:COM:Asterix",
+          "expanded": "CNS COM Asterix",
+          "description": "Asterix radar data protocol processing systems"
+        },
+        {
+          "value": "CNS:COM:VDL",
+          "expanded": "CNS COM VDL",
+          "description": "Very High Frequency Data link"
+        },
+        {
+          "value": "CNS:SUR:ADS-B",
+          "expanded": "CNS SUR ADS-B(Automatic Dependent Surveillance-Broadcast)",
+          "description": "ADS-B Automatic Dependent Surveillance-Broadcast) protocol"
+        },
+        {
+          "value": "CNS:SUR:ADS-C",
+          "expanded": "CNS SUR ADS-C(Automatic dependent surveillance-contract)",
+          "description": "ADS-C Automatic Dependent Surveillance-contract"
+        },
+        {
+          "value": "CNS:SUR:Radar",
+          "expanded": "CNS SUR Radar",
+          "description": "Radar related systems"
+        },
+        {
+          "value": "CNS:SUR:PR",
+          "expanded": "CNS SUR PR(Primary Radar)",
+          "description": "Primary Radar related systems"
+        },
+        {
+          "value": "CNS:SUR:SSR",
+          "expanded": "CNS SUR SSR(Secondary Surveillance Radar)",
+          "description": "Secondary Surveillance Radar related systems"
+        },
+        {
+          "value": "CNS:Nav:GNSS",
+          "expanded": "CNS Nav GNSS(Global Navigation Satellite Systems)",
+          "description": "GNSS(Global Naviation Satellite Systems) related systems"
+        },
+        {
+          "value": "CNS:Nav:GPS",
+          "expanded": "CNS Nav GPS(Global Positioning Systems)",
+          "description": "GPS(Global Positioning Systems) related systems"
+        },
+        {
+          "value": "CNS:Nav:GLONASS",
+          "expanded": "CNS Nav GLONASS(GLObal NAvigation Satellite Systems)",
+          "description": "GLONASS(GLObal NAvigation Satellite Systems) related systems"
+        },
+        {
+          "value": "CNS:Nav:ILS",
+          "expanded": "CNS Nav ILS(Instrument landing systems)",
+          "description": "ILS(Instrument landing systems) related systems"
+        },
+        {
+          "value": "CNS:Nav:GLS",
+          "expanded": "CNS Nav GLS (GNSS dependent landing systems",
+          "description": "GLS(GNSS dependent landing systems) related systems"
+        }
+      ]
+    },
+    {
+      "predicate": "impact",
+      "entry": [
+        {
+          "value": "trivial",
+          "expanded": "Trivial"
+        },
+        {
+          "value": "minor",
+          "expanded": "Minor"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate"
+        },
+        {
+          "value": "major",
+          "expanded": "Major"
+        },
+        {
+          "value": "extreme",
+          "expanded": "Extreme"
+        }
+      ]
+    },
+    {
+      "predicate": "likelihood",
+      "entry": [
+        {
+          "value": "almost-no-chance",
+          "expanded": "Almost no chance - remote - 01-05%",
+          "numerical_value": 0
+        },
+        {
+          "value": "very-unlikely",
+          "expanded": "Very unlikely - highly improbable - 05-20%",
+          "numerical_value": 5
+        },
+        {
+          "value": "unlikely",
+          "expanded": "Unlikely - improbable (improbably) - 20-45%",
+          "numerical_value": 20
+        },
+        {
+          "value": "roughly-even-chance",
+          "expanded": "Roughly even change - roughly even odds - 45-55%",
+          "numerical_value": 45
+        },
+        {
+          "value": "likely",
+          "expanded": "Likely - probable (probably) - 55-80%",
+          "numerical_value": 55
+        },
+        {
+          "value": "very-likely",
+          "expanded": "Very likely - highly probable - 80-95%",
+          "numerical_value": 80
+        },
+        {
+          "value": "almost-certain",
+          "expanded": "Almost certain(ly) - nearly certain - 95-99%",
+          "numerical_value": 95
+        }
+      ]
+    },
+    {
+      "predicate": "criticality",
+      "entry": [
+        {
+          "value": "safety-critical",
+          "expanded": "Safety Critical",
+          "description": "Criticality level that threatens human life"
+        },
+        {
+          "value": "mission-critical",
+          "expanded": "Mission Critical",
+          "description": "Criticality level that affects the critical services impacting the airspace management"
+        },
+        {
+          "value": "business-critical",
+          "expanded": "business Critical",
+          "description": "Criticality level that affects business functions"
+        }
+      ]
+    },
+    {
+      "entry": [
+        {
+          "description": "Certainty",
+          "expanded": "Certainty (probability equals 1 - 100%)",
+          "value": "100",
+          "numerical_value": 100
+        },
+        {
+          "description": "Almost certain",
+          "expanded": "Almost certain (probability equals 0.93 - 93%)",
+          "value": "93",
+          "numerical_value": 93
+        },
+        {
+          "description": "Probable",
+          "expanded": "Probable (probability equals 0.75 - 75%)",
+          "value": "75",
+          "numerical_value": 75
+        },
+        {
+          "description": "Chances about even",
+          "expanded": "Chances about even (probability equals 0.50 - 50%)",
+          "value": "50",
+          "numerical_value": 50
+        },
+        {
+          "description": "Probably not",
+          "expanded": "Probably not (probability equals 0.30 - 30%)",
+          "value": "30",
+          "numerical_value": 30
+        },
+        {
+          "description": "Almost certainly not",
+          "expanded": "Almost certainly not (probability equals 0.07 - 7%)",
+          "value": "7",
+          "numerical_value": 7
+        },
+        {
+          "description": "Impossibility",
+          "expanded": "Impossibility (probability equals 0 - 0%)",
+          "value": "0",
+          "numerical_value": 0
+        }
+      ],
+      "predicate": "certainty"
+    }
+  ]
+}

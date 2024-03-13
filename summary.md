@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2021-04-13
+- Generation date: 2023-12-31
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -55,13 +55,29 @@
     - 2
     - 1
     - 0
+### GrayZone
+- description: Gray Zone of Active defense includes all elements which lay between reactive defense elements and offensive operations. It does fill the gray spot between them. Taxo may be used for active defense planning or modeling.
+- version: 3
+- Predicates
+    - Adversary Emulation
+    - Beacons
+    - Deterrence
+    - Deception
+    - Tarpits, Sandboxes and Honeypots
+    - Threat Intelligence
+    - Threat Hunting
+    - Adversary Takedowns
+    - Ransomware
+    - Rescue Missions
+    - Sanctions, Indictments & Trade Remedies
 ### PAP
 - description: The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.
-- version: 2
+- version: 3
 - Predicates
     - RED
     - AMBER
     - GREEN
+    - CLEAR
     - WHITE
 ### access-method
 - description: The access method used to remotely access a system.
@@ -154,6 +170,33 @@
     - cat4
     - cat5
     - cat6
+### artificial-satellites
+- description: This taxonomy was designed to describe artificial satellites
+- version: 1
+- Predicates
+    - Meteorological and Earth observation
+    - Indian Space Research
+    - GEO
+    - Tracking
+    - Search & Rescue
+    - Earth Ressources
+    - Disaster Monitoring
+    - GNSS
+    - Space & Earth Science
+    - Geodetic
+    - Engineering
+    - Education
+### aviation
+- description: A taxonomy describing security threats or incidents against the aviation sector.
+- version: 1
+- Predicates
+    - target
+    - target-systems
+    - target-sub-systems
+    - impact
+    - likelihood
+    - criticality
+    - certainty
 ### binary-class
 - description: Custom taxonomy for types of binary file.
 - version: 2
@@ -179,11 +222,25 @@
     - severity
     - threat-vector
 ### circl
-- description: CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection
-- version: 5
+- description: CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection.
+- version: 6
 - Predicates
     - incident-classification
     - topic
+    - significant
+### cnsd
+- description: La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.
+- version: 20220513
+- Predicates
+    - Contenido abusivo
+    - Disponibilidad
+    - Fraude
+    - Fuga de información
+    - Intentos de intrusión
+    - Intrusión
+    - Malware
+    - Recopilación de información
+    - Otros
 ### coa
 - description: Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.
 - version: 2
@@ -229,10 +286,17 @@
     - level-1
 ### course-of-action
 - description: A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.
-- version: 1
+- version: 2
 - Predicates
     - passive
     - active
+### crowdsec
+- description: Crowdsec IP address classifications and behaviors taxonomy.
+- version: 1
+- Predicates
+    - behavior
+    - false-positive
+    - classification
 ### cryptocurrency-threat
 - description: Threats targetting cryptocurrency, based on CipherTrace report.
 - version: 1
@@ -247,6 +311,7 @@
     - Decentralized Stable Coins
     - Email Extortion and Bomb Threats
     - Crypto Robbing Ransomware
+    - Pig Butchering Scam
 ### csirt-americas
 - description: Taxonomía CSIRT Américas.
 - version: 1
@@ -316,12 +381,14 @@
 - Predicates
     - action
 ### dark-web
-- description: Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project
-- version: 3
+- description: Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.
+- version: 5
 - Predicates
     - topic
     - motivation
     - structure
+    - service
+    - content
 ### data-classification
 - description: Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book.
 - version: 1
@@ -347,6 +414,160 @@
 - Predicates
     - Einstufung
     - Schutzwort
+### death-possibilities
+- description: Taxonomy of Death Possibilities
+- version: 1
+- Predicates
+    - (001-009) Intestinal infectious diseases
+    - (010-018) Tuberculosis
+    - (020-027) Zoonotic bacterial diseases
+    - (030-041) Other bacterial diseases
+    - (042-042) Human immunodeficiency virus [HIV] infection
+    - (045-049) Poliomyelitis and other non-arthropod-borne viral diseases of central nervous system
+    - (050-057) Viral diseases accompanied by exanthem
+    - (060-066) Arthropod-borne viral diseases
+    - (070-079) Other diseases due to viruses and Chlamydiae
+    - (080-088) Rickettsioses and other arthropod-borne diseases
+    - (090-099) Syphilis and other venereal diseases
+    - (100-104) Other spirochaetal diseases
+    - (110-118) Mycoses
+    - (120-129) Helminthiases
+    - (130-136) Other infectious and parasitic diseases
+    - (137-139) Late effects of infectious and parasitic diseases
+    - (140-149) Malignant neoplasm of lip, oral cavity and pharynx
+    - (150-159) Malignant neoplasm of digestive organs and peritoneum
+    - (160-165) Malignant neoplasm of respiratory and intrathoracic organs
+    - (170-176) Malignant neoplasm of bone, connective tissue, skin and breast
+    - (179-189) Malignant neoplasm of genito-urinary organs
+    - (190-199) Malignant neoplasm of other and unspecified sites
+    - (200-208) Malignant neoplasm of lymphatic and haematopoietic tissue
+    - (210-229) Benign neoplasms
+    - (230-234) Carcinoma in situ
+    - (235-238) Neoplasms of uncertain behaviour
+    - (239-239) Neoplasms of unspecified nature
+    - (240-246) Disorders of thyroid gland
+    - (250-259) Diseases of other endocrine glands
+    - (260-269) Nutritional deficiencies
+    - (270-279) Other metabolic disorders and immunity disorders
+    - (280-289) Diseases of blood and blood-forming organs
+    - (290-294) Organic psychotic conditions
+    - (295-299) Other psychoses
+    - (300-316) Neurotic disorders, personality disorders and other nonpsychotic mental disorders
+    - (317-319) Mental retardation
+    - (320-326) Inflammatory diseases of the central nervous system
+    - (330-337) Hereditary and degenerative diseases of the central nervous system
+    - (340-349) Other disorders of the central nervous system
+    - (350-359) Disorders of the peripheral nervous system
+    - (360-379) Disorders of the eye and adnexa
+    - (380-389) Diseases of the ear and mastoid process
+    - (390-392) Acute rheumatic fever
+    - (393-398) Chronic rheumatic heart disease
+    - (401-405) Hypertensive disease
+    - (410-414) Ischaemic heart disease
+    - (415-417) Diseases of pulmonary circulation
+    - (420-429) Other forms of heart disease
+    - (430-438) Cerebrovascular disease
+    - (440-448) Diseases of arteries, arterioles and capillaries
+    - (451-459) Diseases of veins and lymphatics, and other diseases of circulatory system
+    - (460-466) Acute respiratory infections
+    - (470-478) Other diseases of upper respiratory tract
+    - (480-487) Pneumonia and influenza
+    - (490-496) Chronic obstructive pulmonary disease and allied conditions
+    - (500-508) Pneumoconioses and other lung diseases due to external agents
+    - (510-519) Other diseases of respiratory system
+    - (520-529) Diseases of oral cavity, salivary glands and jaws
+    - (530-537) Diseases of oesophagus, stomach and duodenum
+    - (540-543) Appendicitis
+    - (550-553) Hernia of abdominal cavity
+    - (555-558) Non-infective enteritis and colitis
+    - (560-569) Other diseases of intestines and peritoneum
+    - (570-579) Other diseases of digestive system
+    - (580-589) Nephritis, nephrotic syndrome and nephrosis
+    - (590-599) Other diseases of urinary system
+    - (600-608) Diseases of male genital organs
+    - (610-611) Disorders of breast
+    - (614-616) Inflammatory disease of female pelvic organs
+    - (617-629) Other disorders of female genital tract
+    - (630-633) Ectopic and molar pregnancy
+    - (634-639) Other pregnancy with abortive outcome
+    - (640-648) Complications mainly related to pregnancy
+    - (650-659) Normal delivery and other indications for care in pregnancy, labour and delivery
+    - (660-669) Complications occurring mainly in the course of labour and delivery
+    - (670-677) Complications of the puerperium
+    - (680-686) Infections of skin and subcutaneous tissue
+    - (690-698) Other inflammatory conditions of skin and subcutaneous tissue
+    - (700-709) Other diseases of skin and subcutaneous tissue
+    - (710-719) Arthropathies and related disorders
+    - (720-724) Dorsopathies
+    - (725-729) Rheumatism, excluding the back
+    - (730-739) Osteopathies, chondropathies and acquired musculoskeletal deformities
+    - (740-759) Congenital anomalies
+    - (760-763) Maternal causes of perinatal morbidity and mortality
+    - (764-779) Other conditions originating in the perinatal period
+    - (780-789) Symptoms
+    - (790-796) Nonspecific abnormal findings
+    - (797-799) Ill-defined and unknown causes of morbidity and mortality
+    - (800-804) Fracture of skull
+    - (805-809) Fracture of neck and trunk
+    - (810-819) Fracture of upper limb
+    - (820-829) Fracture of lower limb
+    - (830-839) Dislocation
+    - (840-848) Sprains and strains of joints and adjacent muscles
+    - (850-854) Intracranial injury, excluding those with skull fracture
+    - (860-869) Internal injury of chest, abdomen and pelvis
+    - (870-879) Open wound of head, neck and trunk
+    - (880-887) Open wound of upper limb
+    - (890-897) Open wound of lower limb
+    - (900-904) Injury to blood vessels
+    - (905-909) Late effects of injuries, poisonings, toxic effects and other external causes
+    - (910-919) Superficial injury
+    - (920-924) Contusion with intact skin surface
+    - (925-929) Crushing injury
+    - (930-939) Effects of foreign body entering through orifice
+    - (940-949) Burns
+    - (950-957) Injury to nerves and spinal cord
+    - (958-959) Certain traumatic complications and unspecified injuries
+    - (960-979) Poisoning by drugs, medicaments and biological substances
+    - (980-989) Toxic effects of substances chiefly nonmedicinal as to source
+    - (990-995) Other and unspecified effects of external causes
+    - (996-999) Complications of surgical and medical care, not elsewhere classified
+    - (E800-E807) Railway accidents
+    - (E810-E819) Motor vehicle traffic accidents
+    - (E820-E825) Motor vehicle nontraffic accidents
+    - (E826-E829) Other road vehicle accidents
+    - (E830-E838) Water transport accidents
+    - (E840-E845) Air and space transport accidents
+    - (E846-E848) Vehicle accidents not elsewhere classifiable
+    - (E849-E858) Accidental poisoning by drugs, medicaments and biologicals
+    - (E860-E869) Accidental poisoning by other solid and liquid substances, gases and vapours
+    - (E870-E876) Misadventures to patients during surgical and medical care
+    - (E878-E879) Surgical and medical procedures as the cause of abnormal reaction of patient or later complication, without mention of misadventure at the time of procedure
+    - (E880-E888) Accidental falls
+    - (E890-E899) Accidents caused by fire and flames
+    - (E900-E909) Accidents due to natural and environmental factors
+    - (E910-E915) Accidents caused by submersion, suffocation and foreign bodies
+    - (E916-E928) Other accidents
+    - (E929-E929) Late effects of accidental injury
+    - (E930-E949) Drugs, medicaments and biological substances causing adverse effects in therapeutic use
+    - (E950-E959) Suicide and self-inflicted injury
+    - (E960-E969) Homicide and injury purposely inflicted by other persons
+### deception
+- description: Deception is an important component of information operations, valuable for both offense and defense. 
+- version: 1
+- Predicates
+    - space
+    - time
+    - participant
+    - causality
+    - quality
+    - essence
+    - speech-act-theory
+### dga
+- description: A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others.
+- version: 2
+- Predicates
+    - generation-scheme
+    - seeding
 ### dhs-ciip-sectors
 - description: DHS critical sectors as in https://www.dhs.gov/critical-infrastructure-sectors
 - version: 2
@@ -361,6 +582,15 @@
     - Capability
     - Infrastructure
     - Victim
+### diamond-model-for-influence-operations
+- description: The diamond model for influence operations analysis is a framework that leads analysts and researchers toward a comprehensive understanding of a malign influence campaign by addressing the socio-political, technical, and psychological aspects of the campaign. The diamond model for influence operations analysis consists of 5 components: 4 corners and a core element. The 4 corners are divided into 2 axes: influencer and audience on the socio-political axis, capabilities and infrastructure on the technical axis. Narrative makes up the core of the diamond.
+- version: 1
+- Predicates
+    - Influencer
+    - Capabilities
+    - Infrastructure
+    - Audience
+    - Narrative
 ### dni-ism
 - description: A subset of Information Security Marking Metadata ISM as required by Executive Order (EO) 13526. As described by DNI.gov as Data Encoding Specifications for Information Security Marking Metadata in Controlled Vocabulary Enumeration Values for ISM
 - version: 3
@@ -375,11 +605,28 @@
     - nonuscontrols
     - dissem
 ### domain-abuse
-- description: Domain Name Abuse - taxonomy to tag domain names used for cybercrime. Use europol-incident to tag abuse-activity
-- version: 1
+- description: Domain Name Abuse - taxonomy to tag domain names used for cybercrime.
+- version: 2
 - Predicates
     - domain-status
     - domain-access-method
+### doping-substances
+- description: This taxonomy aims to list doping substances
+- version: 2
+- Predicates
+    - anabolic agents
+    - peptide hormones, growth factors, related substances and mimetics
+    - beta-2 agonists
+    - hormone and metabolic modulators
+    - diuretics and masking agents
+    - manipulation of blood and blood components
+    - chemical and physical manipulation
+    - gene and cell doping
+    - stimulants
+    - narcotics
+    - cannabinoids
+    - glucocorticoids
+    - beta-blockers
 ### drugs
 - description: A taxonomy based on the superclass and class of drugs. Based on https://www.drugbank.ca/releases/latest
 - version: 2
@@ -549,7 +796,7 @@
     - event-class
 ### exercise
 - description: Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.
-- version: 8
+- version: 10
 - Predicates
     - cyber-europe
     - cyber-storm
@@ -560,14 +807,15 @@
     - cyber-sopex
     - generic
 ### extended-event
-- description: Reasons why an event has been extended. 
-- version: 1
+- description: Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf
+- version: 2
 - Predicates
     - competitive-analysis
     - extended-analysis
     - human-readable
     - chunked-event
     - update
+    - counter-analysis
 ### failure-mode-in-machine-learning
 - description: The purpose of this taxonomy is to jointly tabulate both the of these failure modes in a single place. Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm. Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.
 - version: 1
@@ -576,7 +824,7 @@
     - unintended-failures-summary
 ### false-positive
 - description: This taxonomy aims to ballpark the expected amount of false positives.
-- version: 5
+- version: 7
 - Predicates
     - risk
     - confirmed
@@ -585,6 +833,15 @@
 - version: 1
 - Predicates
     - type
+### financial
+- description: Financial taxonomy to describe financial services, infrastructure and financial scope.
+- version: 7
+- Predicates
+    - categories-and-types-of-services
+    - geographical-footprint
+    - online-exposition
+    - physical-presence
+    - services
 ### flesch-reading-ease
 - description: Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid).
 - version: 2
@@ -600,11 +857,11 @@
     - anonymous-data
 ### fr-classif
 - description: French gov information classification system
-- version: 3
+- version: 6
 - Predicates
-    - classifiees-defense
-    - non-classifiees-defense
+    - classifiees
     - non-classifiees
+    - special-france
 ### gdpr
 - description: Taxonomy related to the REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
 - version: 0
@@ -809,6 +1066,13 @@
     - submission
     - output-format
     - certainty
+### information-origin
+- description: Taxonomy for tagging information by its origin: human-generated or AI-generated.
+- version: 2
+- Predicates
+    - human-generated
+    - AI-generated
+    - uncertain-origin
 ### information-security-data-source
 - description: Taxonomy to classify the information security data sources.
 - version: 1
@@ -836,6 +1100,35 @@
     - VTC
     - VOR
     - IMP
+### interactive-cyber-training-audience
+- description: Describes the target of cyber training and education.
+- version: 1
+- Predicates
+    - sector
+    - purpose
+    - proficiency-level
+    - target-audience
+### interactive-cyber-training-technical-setup
+- description: The technical setup consists of environment structure, deployment, and orchestration.
+- version: 1
+- Predicates
+    - environment-structure
+    - deployment
+    - orchestration
+### interactive-cyber-training-training-environment
+- description: The training environment details the environment around the training, consisting of training type and scenario.
+- version: 1
+- Predicates
+    - training-type
+    - scenario
+### interactive-cyber-training-training-setup
+- description: The training setup further describes the training itself with the scoring, roles, the training mode as well as the customization level.
+- version: 1
+- Predicates
+    - scoring
+    - roles
+    - training-mode
+    - customization-level
 ### interception-method
 - description: The interception method used to intercept traffic.
 - version: 1
@@ -929,8 +1222,16 @@
     - should-not-sync
     - tool
     - misp2yara
-    - ids
     - event-type
+    - ids
+### misp-workflow
+- description: MISP workflow taxonomy to support result of workflow execution.
+- version: 3
+- Predicates
+    - action-taken
+    - analysis
+    - mutability
+    - run
 ### monarc-threat
 - description: MONARC Threats Taxonomy
 - version: 1
@@ -970,6 +1271,19 @@
 - version: 2
 - Predicates
     - impact-sectors-impacted
+    - impact-severity
+    - impact-outlook
+    - nature-root-cause
+    - nature-severity
+    - test
+### nis2
+- description: The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 May 2022, also known as the provisional agreement. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.
+- version: 3
+- Predicates
+    - impact-sectors-impacted
+    - impact-subsectors-impacted
+    - important-entities
+    - impact-subsectors-important-entities
     - impact-severity
     - impact-outlook
     - nature-root-cause
@@ -1015,7 +1329,7 @@
     - vulnerability
 ### phishing
 - description: Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.
-- version: 4
+- version: 5
 - Predicates
     - techniques
     - distribution
@@ -1025,6 +1339,18 @@
     - state
     - psychological-acceptability
     - principle-of-persuasion
+### poison-taxonomy
+- description: Non-exhaustive taxonomy of natural poison
+- version: 1
+- Predicates
+    - Poisonous plant
+    - Poisonous fungus
+### political-spectrum
+- description: A political spectrum is a system to characterize and classify different political positions in relation to one another.
+- version: 1
+- Predicates
+    - ideology
+    - left-right-spectrum
 ### priority-level
 - description: After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System.
 - version: 2
@@ -1036,6 +1362,20 @@
     - low
     - baseline-minor
     - baseline-negligible
+### pyoti
+- description: PyOTI automated enrichment schemes for point in time classification of indicators.
+- version: 3
+- Predicates
+    - checkdmarc
+    - disposable-email
+    - emailrepio
+    - iris-investigate
+    - virustotal
+    - circl-hashlookup
+    - reputation-block-list
+    - abuseipdb
+    - greynoise-riot
+    - googlesafebrowsing
 ### ransomware
 - description: Ransomware is used to define ransomware types and the elements that compose them.
 - version: 6
@@ -1048,6 +1388,17 @@
     - infection
     - communication
     - malicious-action
+### ransomware-roles
+- description: The seven roles seen in most ransomware incidents.
+- version: 1
+- Predicates
+    - 1 - Initial Access Broker
+    - 2 - Ransomware Affiliate
+    - 3 - Data Manager
+    - 4 - Ransomware Operator
+    - 5 - Negotiator
+    - 6 - Chaser
+    - 7 - Accountant
 ### retention
 - description: Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.
 - version: 3
@@ -1065,7 +1416,7 @@
     - 10y
 ### rsit
 - description: Reference Security Incident Classification Taxonomy
-- version: 1002
+- version: 1003
 - Predicates
     - abusive-content
     - malicious-code
@@ -1084,11 +1435,13 @@
 - Predicates
     - event-status
 ### runtime-packer
-- description: Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.
-- version: 1
+- description: Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.
+- version: 2
 - Predicates
-    - portable-executable
+    - dex
     - elf
+    - macho
+    - pe
     - cli-assembly
 ### scrippsco2-fgc
 - description: Flags describing the sample
@@ -1134,6 +1487,21 @@
     - NZD
     - PSA
     - SPO
+### sentinel-threattype
+- description: Sentinel indicator threat types.
+- version: 1
+- Predicates
+    - Botnet
+    - C2
+    - CryptoMining
+    - Darknet
+    - DDoS
+    - MaliciousUrl
+    - Malware
+    - Phishing
+    - Proxy
+    - PUA
+    - WatchList
 ### smart-airports-threats
 - description: Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports
 - version: 1
@@ -1143,6 +1511,32 @@
     - natural-and-social-phenomena
     - third-party-failures
     - malicious-actions
+### social-engineering-attack-vectors
+- description: Attack vectors used in social engineering as described in 'A Taxonomy of Social Engineering Defense Mechanisms' by Dalal Alharthi and others.
+- version: 1
+- Predicates
+    - technical
+    - non-technical
+### srbcert
+- description: SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection
+- version: 3
+- Predicates
+    - incident-type
+    - incident-criticality-level
+### state-responsibility
+- description: A spectrum of state responsibility to more directly tie the goals of attribution to the needs of policymakers.
+- version: 1
+- Predicates
+    - state-prohibited.
+    - state-prohibited-but-inadequate.
+    - state-ignored
+    - state-encouraged
+    - state-shaped
+    - state-coordinated
+    - state-ordered
+    - state-rogue-conducted
+    - state-executed
+    - state-integrated
 ### stealth_malware
 - description: Classification based on malware stealth techniques. Described in https://vxheaven.org/lib/pdf/Introducing%20Stealth%20Malware%20Taxonomy.pdf
 - version: 1
@@ -1159,9 +1553,23 @@
 - Predicates
     - targeting-sophistication-base-value
     - technical-sophistication-multiplier
-### ThreatMatch
+### thales_group
+- description: Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.
+- version: 4
+- Predicates
+    - distribution
+    - to_block
+    - minarm
+    - acn
+    - sigpart
+    - a_isac
+    - intercert_france
+    - ioc_confidence
+    - tlp:black
+    - Watcher
+### threatmatch
 - description: The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.
-- version: 1
+- version: 3
 - Predicates
     - sector
     - incident-type
@@ -1175,14 +1583,17 @@
     - dns-server-attacks
     - dns-abuse-or-misuse
 ### tlp
-- description: The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.
-- version: 5
+- description: The Traffic Light Protocol (TLP) (v2.0) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four standard labels (a fifth label is included in amber to limit the diffusion) used to indicate the sharing boundaries to be applied by the recipients. Only labels listed in this standard are considered valid by FIRST. This taxonomy includes additional labels for backward compatibility which are no more validated by FIRST SIG.
+- version: 10
 - Predicates
     - red
     - amber
+    - amber+strict
     - green
     - white
+    - clear
     - ex:chr
+    - unclear
 ### tor
 - description: Taxonomy to describe Tor network infrastructure
 - version: 1
@@ -1210,6 +1621,13 @@
     - IMINT
     - MASINT
     - FININT
+### unified-kill-chain
+- description: The Unified Kill Chain is a refinement to the Kill Chain.
+- version: 1
+- Predicates
+    - Initial Foothold
+    - Network Propagation
+    - Action on Objectives
 ### use-case-applicability
 - description: The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems.
 - version: 1
@@ -1289,9 +1707,9 @@
 - description: VMRay taxonomies to map VMRay Thread Identifier scores and artifacts.
 - version: 1
 - Predicates
-    - artifact
     - verdict
     - vti_analysis_score
+    - artifact
 ### vocabulaire-des-probabilites-estimatives
 - description: Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité
 - version: 3
@@ -1299,7 +1717,7 @@
     - degré-de-probabilité
 ### workflow
 - description: Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.
-- version: 10
+- version: 12
 - Predicates
     - todo
     - state

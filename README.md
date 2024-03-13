@@ -4,7 +4,7 @@
 
 MISP Taxonomies is a set of common classification libraries to tag, classify and organise information. Taxonomy allows to express the same vocabulary among a distributed set of users and organisations.
 
-Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) (2.4) and other information sharing tool and expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.
+Taxonomies that can be used in [MISP](https://github.com/MISP/MISP) and other information sharing tool, are expressed in Machine Tags (Triple Tags). A machine tag is composed of a namespace (MUST), a predicate (MUST) and an (OPTIONAL) value. Machine tags are often called triple tag due to their format.
 
 ![Overview of the MISP taxonomies](tools/docs/images/taxonomy-explanation.png)
 
@@ -15,22 +15,27 @@ The following taxonomies can be used in MISP (as local or distributed tags) or i
 ### CERT-XLM
 
 [CERT-XLM](https://github.com/MISP/misp-taxonomies/tree/main/CERT-XLM) :
-CERT-XLM Security Incident Classification. [Overview](https://www.misp-project.org/taxonomies.html#_CERT_XLM)
+CERT-XLM Security Incident Classification. [Overview](https://www.misp-project.org/taxonomies.html#_cert_xlm)
 
 ### DFRLab-dichotomies-of-disinformation
 
 [DFRLab-dichotomies-of-disinformation](https://github.com/MISP/misp-taxonomies/tree/main/DFRLab-dichotomies-of-disinformation) :
-DFRLab Dichotomies of Disinformation. [Overview](https://www.misp-project.org/taxonomies.html#_DFRLab_dichotomies_of_disinformation)
+DFRLab Dichotomies of Disinformation. [Overview](https://www.misp-project.org/taxonomies.html#_dfrlab_dichotomies_of_disinformation)
 
 ### DML
 
 [DML](https://github.com/MISP/misp-taxonomies/tree/main/DML) :
-The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program. [Overview](https://www.misp-project.org/taxonomies.html#_DML)
+The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program. [Overview](https://www.misp-project.org/taxonomies.html#_dml)
+
+### GrayZone
+
+[GrayZone](https://github.com/MISP/misp-taxonomies/tree/main/GrayZone) :
+Gray Zone of Active defense includes all elements which lay between reactive defense elements and offensive operations. It does fill the gray spot between them. Taxo may be used for active defense planning or modeling. [Overview](https://www.misp-project.org/taxonomies.html#_grayzone)
 
 ### PAP
 
 [PAP](https://github.com/MISP/misp-taxonomies/tree/main/PAP) :
-The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used. [Overview](https://www.misp-project.org/taxonomies.html#_PAP)
+The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used. [Overview](https://www.misp-project.org/taxonomies.html#_pap)
 
 ### access-method
 
@@ -72,6 +77,16 @@ A series of assessment predicates describing the analyst capabilities to perform
 [approved-category-of-action](https://github.com/MISP/misp-taxonomies/tree/main/approved-category-of-action) :
 A pre-approved category of action for indicators being shared with partners (MIMIC). [Overview](https://www.misp-project.org/taxonomies.html#_approved_category_of_action)
 
+### artificial-satellites
+
+[artificial-satellites](https://github.com/MISP/misp-taxonomies/tree/main/artificial-satellites) :
+This taxonomy was designed to describe artificial satellites [Overview](https://www.misp-project.org/taxonomies.html#_artificial_satellites)
+
+### aviation
+
+[aviation](https://github.com/MISP/misp-taxonomies/tree/main/aviation) :
+A taxonomy describing security threats or incidents against the aviation sector. [Overview](https://www.misp-project.org/taxonomies.html#_aviation)
+
 ### binary-class
 
 [binary-class](https://github.com/MISP/misp-taxonomies/tree/main/binary-class) :
@@ -85,7 +100,12 @@ Internal taxonomy for CCCS. [Overview](https://www.misp-project.org/taxonomies.h
 ### circl
 
 [circl](https://github.com/MISP/misp-taxonomies/tree/main/circl) :
-CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection [Overview](https://www.misp-project.org/taxonomies.html#_circl)
+CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection. [Overview](https://www.misp-project.org/taxonomies.html#_circl)
+
+### cnsd
+
+[cnsd](https://github.com/MISP/misp-taxonomies/tree/main/cnsd) :
+La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú. [Overview](https://www.misp-project.org/taxonomies.html#_cnsd)
 
 ### coa
 
@@ -111,6 +131,11 @@ The COPINE Scale is a rating system created in Ireland and used in the United Ki
 
 [course-of-action](https://github.com/MISP/misp-taxonomies/tree/main/course-of-action) :
 A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability. [Overview](https://www.misp-project.org/taxonomies.html#_course_of_action)
+
+### crowdsec
+
+[crowdsec](https://github.com/MISP/misp-taxonomies/tree/main/crowdsec) :
+Crowdsec IP address classifications and behaviors taxonomy. [Overview](https://www.misp-project.org/taxonomies.html#_crowdsec)
 
 ### cryptocurrency-threat
 
@@ -160,7 +185,7 @@ Taxonomy to describe desired actions for Cytomic Orion [Overview](https://www.mi
 ### dark-web
 
 [dark-web](https://github.com/MISP/misp-taxonomies/tree/main/dark-web) :
-Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project [Overview](https://www.misp-project.org/taxonomies.html#_dark_web)
+Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission. [Overview](https://www.misp-project.org/taxonomies.html#_dark_web)
 
 ### data-classification
 
@@ -182,6 +207,21 @@ Distributed Denial of Service - or short: DDoS - taxonomy supports the descripti
 [de-vs](https://github.com/MISP/misp-taxonomies/tree/main/de-vs) :
 German (DE) Government classification markings (VS). [Overview](https://www.misp-project.org/taxonomies.html#_de_vs)
 
+### death-possibilities
+
+[death-possibilities](https://github.com/MISP/misp-taxonomies/tree/main/death-possibilities) :
+Taxonomy of Death Possibilities [Overview](https://www.misp-project.org/taxonomies.html#_death_possibilities)
+
+### deception
+
+[deception](https://github.com/MISP/misp-taxonomies/tree/main/deception) :
+Deception is an important component of information operations, valuable for both offense and defense.  [Overview](https://www.misp-project.org/taxonomies.html#_deception)
+
+### dga
+
+[dga](https://github.com/MISP/misp-taxonomies/tree/main/dga) :
+A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others. [Overview](https://www.misp-project.org/taxonomies.html#_dga)
+
 ### dhs-ciip-sectors
 
 [dhs-ciip-sectors](https://github.com/MISP/misp-taxonomies/tree/main/dhs-ciip-sectors) :
@@ -192,6 +232,11 @@ DHS critical sectors as in https://www.dhs.gov/critical-infrastructure-sectors [
 [diamond-model](https://github.com/MISP/misp-taxonomies/tree/main/diamond-model) :
 The Diamond Model for Intrusion Analysis establishes the basic atomic element of any intrusion activity, the event, composed of four core features: adversary, infrastructure, capability, and victim. [Overview](https://www.misp-project.org/taxonomies.html#_diamond_model)
 
+### diamond-model-for-influence-operations
+
+[diamond-model-for-influence-operations](https://github.com/MISP/misp-taxonomies/tree/main/diamond-model-for-influence-operations) :
+The diamond model for influence operations analysis is a framework that leads analysts and researchers toward a comprehensive understanding of a malign influence campaign by addressing the socio-political, technical, and psychological aspects of the campaign. The diamond model for influence operations analysis consists of 5 components: 4 corners and a core element. The 4 corners are divided into 2 axes: influencer and audience on the socio-political axis, capabilities and infrastructure on the technical axis. Narrative makes up the core of the diamond. [Overview](https://www.misp-project.org/taxonomies.html#_diamond_model_for_influence_operations)
+
 ### dni-ism
 
 [dni-ism](https://github.com/MISP/misp-taxonomies/tree/main/dni-ism) :
@@ -201,6 +246,11 @@ A subset of Information Security Marking Metadata ISM as required by Executive O
 
 [domain-abuse](https://github.com/MISP/misp-taxonomies/tree/main/domain-abuse) :
 Domain Name Abuse - taxonomy to tag domain names used for cybercrime. [Overview](https://www.misp-project.org/taxonomies.html#_domain_abuse)
+
+### doping-substances
+
+[doping-substances](https://github.com/MISP/misp-taxonomies/tree/main/doping-substances) :
+This taxonomy aims to list doping substances [Overview](https://www.misp-project.org/taxonomies.html#_doping_substances)
 
 ### drugs
 
@@ -270,7 +320,7 @@ Exercise is a taxonomy to describe if the information is part of one or more cyb
 ### extended-event
 
 [extended-event](https://github.com/MISP/misp-taxonomies/tree/main/extended-event) :
-Reasons why an event has been extended.  [Overview](https://www.misp-project.org/taxonomies.html#_extended_event)
+Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf [Overview](https://www.misp-project.org/taxonomies.html#_extended_event)
 
 ### failure-mode-in-machine-learning
 
@@ -286,6 +336,11 @@ This taxonomy aims to ballpark the expected amount of false positives. [Overview
 
 [file-type](https://github.com/MISP/misp-taxonomies/tree/main/file-type) :
 List of known file types. [Overview](https://www.misp-project.org/taxonomies.html#_file_type)
+
+### financial
+
+[financial](https://github.com/MISP/misp-taxonomies/tree/main/financial) :
+Financial taxonomy to describe financial services, infrastructure and financial scope. [Overview](https://www.misp-project.org/taxonomies.html#_financial)
 
 ### flesch-reading-ease
 
@@ -377,6 +432,11 @@ How an incident is classified in its process to be resolved. The taxonomy is ins
 [infoleak](https://github.com/MISP/misp-taxonomies/tree/main/infoleak) :
 A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information. [Overview](https://www.misp-project.org/taxonomies.html#_infoleak)
 
+### information-origin
+
+[information-origin](https://github.com/MISP/misp-taxonomies/tree/main/information-origin) :
+Taxonomy for tagging information by its origin: human-generated or AI-generated. [Overview](https://www.misp-project.org/taxonomies.html#_information_origin)
+
 ### information-security-data-source
 
 [information-security-data-source](https://github.com/MISP/misp-taxonomies/tree/main/information-security-data-source) :
@@ -386,6 +446,26 @@ Taxonomy to classify the information security data sources. [Overview](https://w
 
 [information-security-indicators](https://github.com/MISP/misp-taxonomies/tree/main/information-security-indicators) :
 A full set of operational indicators for organizations to use to benchmark their security posture. [Overview](https://www.misp-project.org/taxonomies.html#_information_security_indicators)
+
+### interactive-cyber-training-audience
+
+[interactive-cyber-training-audience](https://github.com/MISP/misp-taxonomies/tree/main/interactive-cyber-training-audience) :
+Describes the target of cyber training and education. [Overview](https://www.misp-project.org/taxonomies.html#_interactive_cyber_training_audience)
+
+### interactive-cyber-training-technical-setup
+
+[interactive-cyber-training-technical-setup](https://github.com/MISP/misp-taxonomies/tree/main/interactive-cyber-training-technical-setup) :
+The technical setup consists of environment structure, deployment, and orchestration. [Overview](https://www.misp-project.org/taxonomies.html#_interactive_cyber_training_technical_setup)
+
+### interactive-cyber-training-training-environment
+
+[interactive-cyber-training-training-environment](https://github.com/MISP/misp-taxonomies/tree/main/interactive-cyber-training-training-environment) :
+The training environment details the environment around the training, consisting of training type and scenario. [Overview](https://www.misp-project.org/taxonomies.html#_interactive_cyber_training_training_environment)
+
+### interactive-cyber-training-training-setup
+
+[interactive-cyber-training-training-setup](https://github.com/MISP/misp-taxonomies/tree/main/interactive-cyber-training-training-setup) :
+The training setup further describes the training itself with the scoring, roles, the training mode as well as the customization level. [Overview](https://www.misp-project.org/taxonomies.html#_interactive_cyber_training_training_setup)
 
 ### interception-method
 
@@ -442,6 +522,11 @@ classification for the identification of type of misinformation among websites. 
 [misp](https://github.com/MISP/misp-taxonomies/tree/main/misp) :
 MISP taxonomy to infer with MISP behavior or operation. [Overview](https://www.misp-project.org/taxonomies.html#_misp)
 
+### misp-workflow
+
+[misp-workflow](https://github.com/MISP/misp-taxonomies/tree/main/misp-workflow) :
+MISP workflow taxonomy to support result of workflow execution. [Overview](https://www.misp-project.org/taxonomies.html#_misp_workflow)
+
 ### monarc-threat
 
 [monarc-threat](https://github.com/MISP/misp-taxonomies/tree/main/monarc-threat) :
@@ -471,6 +556,11 @@ NATO classification markings. [Overview](https://www.misp-project.org/taxonomies
 
 [nis](https://github.com/MISP/misp-taxonomies/tree/main/nis) :
 The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 September 2017, also known as the blueprint. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society. [Overview](https://www.misp-project.org/taxonomies.html#_nis)
+
+### nis2
+
+[nis2](https://github.com/MISP/misp-taxonomies/tree/main/nis2) :
+The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 May 2022, also known as the provisional agreement. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society. [Overview](https://www.misp-project.org/taxonomies.html#_nis2)
 
 ### open_threat
 
@@ -502,15 +592,35 @@ Penetration test (pentest) classification. [Overview](https://www.misp-project.o
 [phishing](https://github.com/MISP/misp-taxonomies/tree/main/phishing) :
 Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status. [Overview](https://www.misp-project.org/taxonomies.html#_phishing)
 
+### poison-taxonomy
+
+[poison-taxonomy](https://github.com/MISP/misp-taxonomies/tree/main/poison-taxonomy) :
+Non-exhaustive taxonomy of natural poison [Overview](https://www.misp-project.org/taxonomies.html#_poison_taxonomy)
+
+### political-spectrum
+
+[political-spectrum](https://github.com/MISP/misp-taxonomies/tree/main/political-spectrum) :
+A political spectrum is a system to characterize and classify different political positions in relation to one another. [Overview](https://www.misp-project.org/taxonomies.html#_political_spectrum)
+
 ### priority-level
 
 [priority-level](https://github.com/MISP/misp-taxonomies/tree/main/priority-level) :
 After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System. [Overview](https://www.misp-project.org/taxonomies.html#_priority_level)
 
+### pyoti
+
+[pyoti](https://github.com/MISP/misp-taxonomies/tree/main/pyoti) :
+PyOTI automated enrichment schemes for point in time classification of indicators. [Overview](https://www.misp-project.org/taxonomies.html#_pyoti)
+
 ### ransomware
 
 [ransomware](https://github.com/MISP/misp-taxonomies/tree/main/ransomware) :
 Ransomware is used to define ransomware types and the elements that compose them. [Overview](https://www.misp-project.org/taxonomies.html#_ransomware)
+
+### ransomware-roles
+
+[ransomware-roles](https://github.com/MISP/misp-taxonomies/tree/main/ransomware-roles) :
+The seven roles seen in most ransomware incidents. [Overview](https://www.misp-project.org/taxonomies.html#_ransomware_roles)
 
 ### retention
 
@@ -530,7 +640,7 @@ Status of events used in Request Tracker. [Overview](https://www.misp-project.or
 ### runtime-packer
 
 [runtime-packer](https://github.com/MISP/misp-taxonomies/tree/main/runtime-packer) :
-Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries. [Overview](https://www.misp-project.org/taxonomies.html#_runtime_packer)
+Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries. [Overview](https://www.misp-project.org/taxonomies.html#_runtime_packer)
 
 ### scrippsco2-fgc
 
@@ -547,10 +657,30 @@ Flags describing the sample for isotopic data (C14, O18) [Overview](https://www.
 [scrippsco2-sampling-stations](https://github.com/MISP/misp-taxonomies/tree/main/scrippsco2-sampling-stations) :
 Sampling stations of the Scripps CO2 Program [Overview](https://www.misp-project.org/taxonomies.html#_scrippsco2_sampling_stations)
 
+### sentinel-threattype
+
+[sentinel-threattype](https://github.com/MISP/misp-taxonomies/tree/main/sentinel-threattype) :
+Sentinel indicator threat types. [Overview](https://www.misp-project.org/taxonomies.html#_sentinel_threattype)
+
 ### smart-airports-threats
 
 [smart-airports-threats](https://github.com/MISP/misp-taxonomies/tree/main/smart-airports-threats) :
 Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports [Overview](https://www.misp-project.org/taxonomies.html#_smart_airports_threats)
+
+### social-engineering-attack-vectors
+
+[social-engineering-attack-vectors](https://github.com/MISP/misp-taxonomies/tree/main/social-engineering-attack-vectors) :
+Attack vectors used in social engineering as described in 'A Taxonomy of Social Engineering Defense Mechanisms' by Dalal Alharthi and others. [Overview](https://www.misp-project.org/taxonomies.html#_social_engineering_attack_vectors)
+
+### srbcert
+
+[srbcert](https://github.com/MISP/misp-taxonomies/tree/main/srbcert) :
+SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection [Overview](https://www.misp-project.org/taxonomies.html#_srbcert)
+
+### state-responsibility
+
+[state-responsibility](https://github.com/MISP/misp-taxonomies/tree/main/state-responsibility) :
+A spectrum of state responsibility to more directly tie the goals of attribution to the needs of policymakers. [Overview](https://www.misp-project.org/taxonomies.html#_state_responsibility)
 
 ### stealth_malware
 
@@ -585,7 +715,7 @@ An overview of some of the known attacks related to DNS as described by Torabi, 
 ### tlp
 
 [tlp](https://github.com/MISP/misp-taxonomies/tree/main/tlp) :
-The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time. [Overview](https://www.misp-project.org/taxonomies.html#_tlp)
+The Traffic Light Protocol (TLP) (v2.0) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four standard labels (a fifth label is included in amber to limit the diffusion) used to indicate the sharing boundaries to be applied by the recipients. Only labels listed in this standard are considered valid by FIRST. This taxonomy includes additional labels for backward compatibility which are no more validated by FIRST SIG. [Overview](https://www.misp-project.org/taxonomies.html#_tlp)
 
 ### tor
 
@@ -601,6 +731,11 @@ The Indicator of Trust provides insight about data on what can be trusted and kn
 
 [type](https://github.com/MISP/misp-taxonomies/tree/main/type) :
 Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence. [Overview](https://www.misp-project.org/taxonomies.html#_type)
+
+### unified-kill-chain
+
+[unified-kill-chain](https://github.com/MISP/misp-taxonomies/tree/main/unified-kill-chain) :
+The Unified Kill Chain is a refinement to the Kill Chain. [Overview](https://www.misp-project.org/taxonomies.html#_unified_kill_chain)
 
 ### use-case-applicability
 

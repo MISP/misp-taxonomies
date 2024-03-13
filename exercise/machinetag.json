@@ -46,6 +46,16 @@
       "predicate": "cyber-europe",
       "entry": [
         {
+          "value": "2024",
+          "expanded": "2024",
+          "description": "7th pan European cyber crisis exercise: Cyber Europe 2024 (CE2024)"
+        },
+        {
+          "value": "2022",
+          "expanded": "2022",
+          "description": "6th pan European cyber crisis exercise: Cyber Europe 2022 (CE2022)"
+        },
+        {
           "value": "2018",
           "expanded": "2018",
           "description": "5th pan European cyber crisis exercise, Cyber Europe 2018 (CE2018)"
@@ -94,6 +104,21 @@
           "value": "2021",
           "expanded": "2021",
           "description": "Locked Shields 2021"
+        },
+        {
+          "value": "2022",
+          "expanded": "2022",
+          "description": "Locked Shields 2022"
+        },
+        {
+          "value": "2023",
+          "expanded": "2023",
+          "description": "Locked Shields 2023"
+        },
+        {
+          "value": "2024",
+          "expanded": "2024",
+          "description": "Locked Shields 2024"
         }
       ]
     },
@@ -183,7 +208,7 @@
       ]
     }
   ],
-  "version": 8,
+  "version": 11,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise"

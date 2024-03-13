@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "description": "Attack vectors used in social engineering as described in 'A Taxonomy of Social Engineering Defense Mechanisms' by Dalal Alharthi and others.",
+  "expanded": "Social Engineering Attack Vectors",
+  "namespace": "social-engineering-attack-vectors",
+  "exclusive": false,
+  "predicates": [
+    {
+      "value": "technical",
+      "expanded": "Technical"
+    },
+    {
+      "value": "non-technical",
+      "expanded": "Non-technical"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "technical",
+      "entry": [
+        {
+          "value": "vishing",
+          "expanded": "Vishing"
+        },
+        {
+          "value": "spear-phishing",
+          "expanded": "Spear phishing"
+        },
+        {
+          "value": "interesting-software",
+          "expanded": "Interesting software"
+        },
+        {
+          "value": "baiting",
+          "expanded": "Baiting"
+        },
+        {
+          "value": "waterholing",
+          "expanded": "Waterholing"
+        },
+        {
+          "value": "phishing-and-trojan-email",
+          "expanded": "Phishing and Trojan email"
+        },
+        {
+          "value": "spam-email",
+          "expanded": "Spam Email"
+        },
+        {
+          "value": "popup-window",
+          "expanded": "Popup Window"
+        },
+        {
+          "value": "tailgating",
+          "expanded": "Tailgating"
+        }
+      ]
+    },
+    {
+      "predicate": "non-technical",
+      "entry": [
+        {
+          "value": "pretexting-impersonation",
+          "expanded": "Pretexting/Impersonation"
+        },
+        {
+          "value": "hoaxing",
+          "expanded": "Hoaxing"
+        },
+        {
+          "value": "authoritative-voice",
+          "expanded": "Authoritative voice"
+        },
+        {
+          "value": "technical-expert",
+          "expanded": "Technical expert"
+        },
+        {
+          "value": "smudge-attack",
+          "expanded": "Smudge Attack"
+        },
+        {
+          "value": "dumpser-diving",
+          "expanded": "Dumpster Diving"
+        },
+        {
+          "value": "shoulder-surfing",
+          "expanded": "Shoulder surfing"
+        },
+        {
+          "value": "spying",
+          "expanded": "Spying"
+        },
+        {
+          "value": "support-staff",
+          "expanded": "Support staff"
+        }
+      ]
+    }
+  ],
+  "refs": [
+    "https://www.researchgate.net/publication/339224082_A_Taxonomy_of_Social_Engineering_Defense_Mechanisms"
+  ]
+}

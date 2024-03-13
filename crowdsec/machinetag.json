@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "namespace": "crowdsec",
+  "description": "Crowdsec IP address classifications and behaviors taxonomy.",
+  "predicates": [
+    {
+      "value": "behavior",
+      "expanded": "Behavior",
+      "description": "Attack categories and behaviors associated with an IP address."
+    },
+    {
+      "value": "false-positive",
+      "expanded": "False positive",
+      "description": "Defines whether an IP address is a known false positive."
+    },
+    {
+      "value": "classification",
+      "expanded": "Classification",
+      "description": "Category associated to an IP address."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "behavior",
+      "entry": [
+        {
+          "value": "database-bruteforce",
+          "expanded": "Database Bruteforce",
+          "description": "IP has been reported for performing brute force on databases."
+        },
+        {
+          "value": "ftp-bruteforce",
+          "expanded": "FTP Bruteforce",
+          "description": "IP has been reported for performing brute force on FTP services."
+        },
+        {
+          "value": "generic-exploit",
+          "expanded": "Exploitation attempt",
+          "description": "IP has been reported trying to exploit known vulnerability/CVE on unspecified protocol."
+        },
+        {
+          "value": "http-bruteforce",
+          "expanded": "HTTP Bruteforce",
+          "description": "IP has been reported for performing a HTTP brute force attack (either generic http probing or applicative related brute force)."
+        },
+        {
+          "value": "http-crawl",
+          "expanded": "HTTP Crawl",
+          "description": "IP has been reported for performing aggressive crawling of web applications."
+        },
+        {
+          "value": "http-exploit",
+          "expanded": "HTTP Exploit",
+          "description": "IP has been reported for attempting to exploit a vulnerability in a web application."
+        },
+        {
+          "value": "http-scan",
+          "expanded": "HTTP Scan",
+          "description": "IP has been reported for performing actions related to HTTP vulnerability scanning and discovery."
+        },
+        {
+          "value": "http-spam",
+          "expanded": "Web form spam",
+          "description": "IP has been reported trying to perform spam via web forms/forums."
+        },
+        {
+          "value": "iot-bruteforce",
+          "expanded": "IOT Bruteforce",
+          "description": "IP has been reported for performing brute force on IOT management interfaces."
+        },
+        {
+          "value": "ldap-bruteforce",
+          "expanded": "LDAP Bruteforce",
+          "description": "IP has been reported for performing brute force on ldap services."
+        },
+        {
+          "value": "pop3/imap-bruteforce",
+          "expanded": "POP3/IMAP Bruteforce",
+          "description": "IP has been reported for performing a POP3/IMAP brute force attack."
+        },
+        {
+          "value": "sip-bruteforce",
+          "expanded": "SIP Bruteforce",
+          "description": "IP has been reported for performing a SIP (VOIP) brute force attack."
+        },
+        {
+          "value": "smb-bruteforce",
+          "expanded": "SMB Bruteforce",
+          "description": "IP has been reported for performing brute force on samba services."
+        },
+        {
+          "value": "smtp-spam",
+          "expanded": "SMTP spam",
+          "description": "IP has been reported trying to perform spam SMTP service."
+        },
+        {
+          "value": "ssh-bruteforce",
+          "expanded": "SSH Bruteforce",
+          "description": "IP has been reported for performing brute force on ssh services."
+        },
+        {
+          "value": "tcp-scan",
+          "expanded": "TCP Scan",
+          "description": "IP has been reported for performing TCP port scanning."
+        },
+        {
+          "value": "telnet-bruteforce",
+          "expanded": "TELNET Bruteforce",
+          "description": "IP has been reported for performing brute force on telnet services."
+        },
+        {
+          "value": "vm-management-bruteforce",
+          "expanded": "VM Management Bruteforce",
+          "description": "IP has been reported for performing brute force on virtual environement management applications."
+        },
+        {
+          "value": "windows-bruteforce",
+          "expanded": "SMB/RDP bruteforce",
+          "description": "IP has been reported for performing brute force on Windows (samba, remote desktop) services."
+        }
+      ]
+    },
+    {
+      "predicate": "false-positive",
+      "entry": [
+        {
+          "value": "cdn-cloudflare_exit_node",
+          "expanded": "Cloudflare CDN",
+          "description": "IP is a Cloudflare CDN exit IP and should not be flagged as a threat."
+        },
+        {
+          "value": "cdn-exit_node",
+          "expanded": "CDN exit node",
+          "description": "IP is a CDN exit IP and should not be flagged as a threat."
+        },
+        {
+          "value": "ip-private_range",
+          "expanded": "Private IP address range",
+          "description": "This IP address is in a private IP range"
+        },
+        {
+          "value": "msp-scanner",
+          "expanded": "Legitimate Scanner",
+          "description": "IP belongs to a known 'legitimate' scanner (MSP) and should not be flagged as a threat."
+        },
+        {
+          "value": "seo-crawler",
+          "expanded": "SEO crawler",
+          "description": "IP belongs to a known SEO crawler and should not be flagged as a threat."
+        },
+        {
+          "value": "seo-duckduckbot",
+          "expanded": "Duckduckbot SEO crawler",
+          "description": "IP belongs to Duckduckbot SEO crawler and should not be flagged as a threat."
+        },
+        {
+          "value": "seo-pinterest",
+          "expanded": "Pinterest crawler",
+          "description": "IP belongs to Pinterest crawler and should not be flagged as a threat."
+        }
+      ]
+    },
+    {
+      "predicate": "classification",
+      "entry": [
+        {
+          "value": "community-blocklist",
+          "expanded": "CrowdSec Community Blocklist",
+          "description": "IP belong to the CrowdSec Community Blocklist"
+        },
+        {
+          "value": "profile-insecure_services",
+          "expanded": "Dangerous Services Exposed",
+          "description": "IP exposes dangerous services (vnc, telnet, rdp), possibly due to a misconfiguration or because it's a honeypot."
+        },
+        {
+          "value": "profile-many_services",
+          "expanded": "Many Services Exposed",
+          "description": "IP exposes many open port, possibly due to a misconfiguration or because it's a honeypot."
+        },
+        {
+          "value": "proxy-tor",
+          "expanded": "TOR exit node",
+          "description": "IP is being flagged as a TOR exit node."
+        },
+        {
+          "value": "proxy-vpn",
+          "expanded": "VPN",
+          "description": "IP exposes a VPN service or is being flagged as one."
+        },
+        {
+          "value": "range-data_center",
+          "expanded": "Data Center",
+          "description": "IP is known to be hosted in a data center."
+        },
+        {
+          "value": "scanner-alphastrike",
+          "expanded": "Known Security Company",
+          "description": "IP belongs to a company that scans internet : AlphaSrike."
+        },
+        {
+          "value": "scanner-binaryedge",
+          "expanded": "Known Security Company",
+          "description": "IP belongs to a company that scans internet : binaryedge."
+        },
+        {
+          "value": "scanner-censys",
+          "expanded": "Known Security Company",
+          "description": "IP belongs to a company that scans internet : Censys."
+        },
+        {
+          "value": "scanner-cert.ssi.gouv.fr",
+          "expanded": "Known CERT",
+          "description": "IP belongs to an entity that scans internet : cert.ssi.gouv.fr."
+        },
+        {
+          "value": "scanner-cisa.dhs.gov",
+          "expanded": "Known CERT",
+          "description": "IP belongs to an entity that scans internet : cisa.dhs.gov."
+        },
+        {
+          "value": "scanner-internet-census",
+          "expanded": "Known Security Company",
+          "description": "IP belongs to a company that scans internet : internet-census."
+        },
+        {
+          "value": "scanner-leakix",
+          "expanded": "Known Security Company",
+          "description": "IP belongs to a company that scans internet : leakix."
+        },
+        {
+          "value": "scanner-legit",
+          "expanded": "Legit scanner",
+          "description": "IP belongs to a company that scans internet"
+        },
+        {
+          "value": "scanner-shadowserver.org",
+          "expanded": "Known Security Company",
+          "description": "IP belongs to an entity that scans internet : www.shadowserver.org."
+        },
+        {
+          "value": "scanner-shodan",
+          "expanded": "Known Security Company",
+          "description": "IP belongs to a company that scans internet : Shodan."
+        },
+        {
+          "value": "scanner-stretchoid",
+          "expanded": "Known Security Company",
+          "description": "IP belongs to an entity that scans internet : stretchoid."
+        },
+        {
+          "value": "profile-fake_rdns",
+          "expanded": "Fake RDNS",
+          "description": "IP is using a fake RDNS"
+        },
+        {
+          "value": "profile-nxdomain",
+          "expanded": "NXDOMAIN",
+          "description": "RDNS doesn't exist"
+        },
+        {
+          "value": "profile-router",
+          "expanded": "Router",
+          "description": "IP belongs to a router exping services on the internet"
+        },
+        {
+          "value": "profile-proxy",
+          "expanded": "Proxy",
+          "description": "IP exposes services that are commonly used by proxies"
+        },
+        {
+          "value": "profile-jupiter-vpn",
+          "expanded": "JupiterVPN",
+          "description": "IP belongs to a jupiter vpn"
+        },
+        {
+          "value": "device-cyberoam",
+          "expanded": "Cyberoam",
+          "description": "IP belongs to a Cyberoam router"
+        },
+        {
+          "value": "device-microtik",
+          "expanded": "Mikrotik",
+          "description": "IP belongs to a Mikrotik router"
+        },
+        {
+          "value": "device-asuswrt",
+          "expanded": "AsusWRT",
+          "description": "IP belongs to a AsusWRT router"
+        },
+        {
+          "value": "device-hikvision",
+          "expanded": "Hikvision",
+          "description": "IP belongs to a Hikvision camera"
+        },
+        {
+          "value": "device-ipcam",
+          "expanded": "IpCamera",
+          "description": "IP belongs to a IP camera"
+        },
+        {
+          "value": "profile-likely_botnet",
+          "expanded": "Likely Botnet",
+          "description": "IP is likely to belong to a botnet (based on behaviour and/or characteristics)"
+        }
+      ]
+    }
+  ]
+}

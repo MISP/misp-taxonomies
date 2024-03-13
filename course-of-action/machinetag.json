@@ -2,7 +2,7 @@
   "namespace": "course-of-action",
   "expanded": "Courses of Action",
   "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
-  "version": 2,
+  "version": 3,
   "predicates": [
     {
       "value": "passive",
@@ -20,6 +20,10 @@
         {
           "value": "discover",
           "expanded": "The discover action is a 'historical look at the data'. This action heavily relies on your capability to store logs for a reasonable amount of time and have them accessible for searching. Typically, this type of action is applied against security information and event management (SIEM) or stored network data. The goal is to determine whether you have seen a specific indicator in the past."
+        },
+        {
+          "value": "nodiscover",
+          "expanded": "The no-discover action is a negation of discover in case you want to explicit prohibit 'historical look at the data'. The goal is to exclude a specific indicator from searches of historical data."
         },
         {
           "value": "detect",

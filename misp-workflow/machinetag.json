@@ -1,0 +1,94 @@
+{
+  "namespace": "misp-workflow",
+  "expanded": "MISP workflow",
+  "description": "MISP workflow taxonomy to support result of workflow execution.",
+  "version": 3,
+  "predicates": [
+    {
+      "value": "action-taken",
+      "expanded": "Action taken",
+      "description": "Action taken during the workflow execution"
+    },
+    {
+      "value": "analysis",
+      "expanded": "Analysis",
+      "description": "Result of the analysis executed during the workflow execution"
+    },
+    {
+      "value": "mutability",
+      "expanded": "Mutability",
+      "description": "Describe if the workflow is allowed to modify data"
+    },
+    {
+      "value": "run",
+      "expanded": "Run",
+      "description": "Describe if the workflow is allowed to run on the data being passed"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "action-taken",
+      "entry": [
+        {
+          "value": "ids-flag-removed",
+          "expanded": "IDS flag removed"
+        },
+        {
+          "value": "ids-flag-added",
+          "expanded": "IDS flag added"
+        },
+        {
+          "value": "pushed-to-zmq",
+          "expanded": "Pushed to ZMQ"
+        },
+        {
+          "value": "email-sent",
+          "expanded": "Email sent"
+        },
+        {
+          "value": "webhook-triggered",
+          "expanded": "Webhook triggered"
+        },
+        {
+          "value": "execution-stopped",
+          "expanded": "Execution stopped"
+        }
+      ]
+    },
+    {
+      "predicate": "analysis",
+      "entry": [
+        {
+          "value": "false-positive",
+          "expanded": "False positive"
+        },
+        {
+          "value": "highly-likely-positive",
+          "expanded": "Highly Likely Positive"
+        },
+        {
+          "value": "known-file-hash",
+          "expanded": "Known file hash"
+        }
+      ]
+    },
+    {
+      "predicate": "mutability",
+      "entry": [
+        {
+          "value": "allowed",
+          "expanded": "Allowed"
+        }
+      ]
+    },
+    {
+      "predicate": "run",
+      "entry": [
+        {
+          "value": "allowed",
+          "expanded": "Allowed"
+        }
+      ]
+    }
+  ]
+}

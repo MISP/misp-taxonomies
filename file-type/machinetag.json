@@ -108,6 +108,11 @@
           "value": "xml"
         },
         {
+          "colour": "#11eded",
+          "expanded": "internet",
+          "value": "hta"
+        },
+        {
           "colour": "#ccffeb",
           "expanded": "internet",
           "value": "flash"
@@ -201,6 +206,11 @@
           "colour": "#b3ffe2",
           "expanded": "image",
           "value": "gimp"
+        },
+        {
+          "colour": "#25c3e6",
+          "expanded": "image",
+          "value": "img"
         },
         {
           "colour": "#80ffce",
@@ -365,7 +375,32 @@
         {
           "colour": "#33ffb1",
           "expanded": "document",
+          "value": "dot"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "document",
+          "value": "dotm"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "document",
+          "value": "dotx"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "document",
           "value": "doc"
+        },
+        {
+          "colour": "#35b8f0",
+          "expanded": "document",
+          "value": "txt"
+        },
+        {
+          "colour": "#ccffeb",
+          "expanded": "document",
+          "value": "docm"
         },
         {
           "colour": "#ccffeb",
@@ -396,6 +431,11 @@
           "colour": "#00663f",
           "expanded": "document",
           "value": "xlsx"
+        },
+        {
+          "colour": "#00663f",
+          "expanded": "document",
+          "value": "xlsm"
         },
         {
           "colour": "#99ffd8",
@@ -440,12 +480,22 @@
         {
           "colour": "#00b36e",
           "expanded": "bundle",
+          "value": "txz"
+        },
+        {
+          "colour": "#00b36e",
+          "expanded": "bundle",
           "value": "zip"
         },
         {
           "colour": "#00fa9a",
           "expanded": "bundle",
           "value": "gzip"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "bundle",
+          "value": "tar"
         },
         {
           "colour": "#33ffb1",
@@ -525,6 +575,11 @@
         {
           "colour": "#33ffb1",
           "expanded": "code",
+          "value": "bat"
+        },
+        {
+          "colour": "#33ffb1",
+          "expanded": "code",
           "value": "script"
         },
         {
@@ -560,6 +615,11 @@
         {
           "colour": "#00cc7e",
           "expanded": "code",
+          "value": "javascript"
+        },
+        {
+          "colour": "#00cc7e",
+          "expanded": "code",
           "value": "java"
         },
         {
@@ -571,6 +631,11 @@
           "colour": "#00663f",
           "expanded": "code",
           "value": "pascal"
+        },
+        {
+          "colour": "#33b5a5",
+          "expanded": "code",
+          "value": "vbs"
         },
         {
           "colour": "#b3ffe2",
@@ -591,6 +656,11 @@
           "colour": "#99ffd8",
           "expanded": "code",
           "value": "java-bytecode"
+        },
+        {
+          "colour": "#2e73db",
+          "expanded": "code",
+          "value": "ppa"
         },
         {
           "colour": "#004d2f",
@@ -645,7 +715,7 @@
         {
           "colour": "#00663f",
           "expanded": "miscellaneous",
-          "value": "data"
+          "value": "dat"
         }
       ],
       "predicate": "type"

@@ -1,0 +1,384 @@
+{
+  "namespace": "nis2",
+  "description": "The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 May 2022, also known as the provisional agreement. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.",
+  "version": 3,
+  "predicates": [
+    {
+      "value": "impact-sectors-impacted",
+      "expanded": "Sectors impacted",
+      "description": "The impact on services, in the real world, indicating the sectors of the society and economy, where there is an impact on the services."
+    },
+    {
+      "value": "impact-subsectors-impacted",
+      "expanded": "Impact subsectors impacted",
+      "description": "Impact subsectors impacted"
+    },
+    {
+      "value": "important-entities",
+      "expanded": "Important entities",
+      "description": "Important entities"
+    },
+    {
+      "value": "impact-subsectors-important-entities",
+      "expanded": "Impact subsectors important entities",
+      "description": "Impact subsectors important entities"
+    },
+    {
+      "value": "impact-severity",
+      "expanded": "Severity of the impact",
+      "description": "The severity of the impact, nationally, in the real world, for society and/or the economy, i.e. the level of disruption for the country or a large region of the country, the level of risks for health and/or safety, the level of physical damages and/or financial costs.",
+      "exclusive": true
+    },
+    {
+      "value": "impact-outlook",
+      "expanded": "Outlook",
+      "description": "The outlook for the incident, the prognosis, for the coming hours, considering the impact in the real world, the impact on services, for the society and/or the economy",
+      "exclusive": true
+    },
+    {
+      "value": "nature-root-cause",
+      "expanded": "Root cause category",
+      "description": "The Root cause category is used to indicate what type event or threat triggered the incident.",
+      "exclusive": true
+    },
+    {
+      "value": "nature-severity",
+      "expanded": "Severity of the threat",
+      "description": "The severity of the threat is used to indicate, from a technical perspective, the potential impact, the risk associated with the threat. For example, the severity is high if an upcoming storm is exceptionally strong, if an observed DDoS attack is exceptionally powerful, or if a software vulnerability is easily exploited and present in many different systems. For example, in certain situations a critical software vulnerability would require concerted and urgent work by different organizations.",
+      "exclusive": true
+    },
+    {
+      "value": "test",
+      "expanded": "Test",
+      "description": "A test predicate meant to test interoperability between tools. Tags contained within this predicate are to be ignored."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "impact-sectors-impacted",
+      "entry": [
+        {
+          "value": "energy",
+          "expanded": "Energy",
+          "description": "The impact is in the Energy sector and its subsectors such as electricity, oil, or gas, for example, impacting electricity suppliers, power plants, distribution system operators, transmission system operators, oil transmission, natural gas distribution, etc."
+        },
+        {
+          "value": "transport",
+          "expanded": "Transport",
+          "description": "The impact is in the transport sector and subsectors such as air, rail, water, road, for example, impacting air traffic control systems, railway companies, maritime port authorities, road traffic management systems, etc."
+        },
+        {
+          "value": "banking",
+          "expanded": "Banking",
+          "description": "The impact is in the Banking sector, for example impacting banks, online banking, credit services, payment services, etc."
+        },
+        {
+          "value": "financial",
+          "expanded": "Financial market infrastructures",
+          "description": "The impact is in the Financial market infrastructure sector, for example, impacting traders, trading platforms, clearing services, etc."
+        },
+        {
+          "value": "health",
+          "expanded": "Health",
+          "description": "The impact is in the Health sector, for example, impacting hospitals, medical devices, medicine supply, pharmacies, etc."
+        },
+        {
+          "value": "drinking-water",
+          "expanded": "Drinking water",
+          "description": "The impact is in the Drinking water supply and distribution sector, for example impacting drinking water supply, drinking water distribution systems, etc."
+        },
+        {
+          "value": "waste-water",
+          "expanded": "Waste water",
+          "description": "The impact is in the Waste water supply and distribution sector, excluding distributors for whom distribution of water for human consumption"
+        },
+        {
+          "value": "digital-infrastructure",
+          "expanded": "Digital infrastructure",
+          "description": "The impact is in the Digital infrastructure sector, for example impacting internet exchange points, domain name systems, top level domain registries, etc."
+        },
+        {
+          "value": "public-administration",
+          "expanded": "Public administartion",
+          "description": "The impact is in the government sector, for example, impacting the functioning of public administrations, elections, or emergency services"
+        },
+        {
+          "value": "space",
+          "expanded": "Space",
+          "description": "The impact is in the space-based services"
+        }
+      ]
+    },
+    {
+      "predicate": "impact-subsectors-impacted",
+      "entry": [
+        {
+          "value": "electricity",
+          "expanded": "Electricity undertaking",
+          "description": "Electricity undertaking means a natural or legal person who carries out at least one of the following functions: generation, transmission, distribution, aggregation, demand response, energy storage, supply or purchase of electricity"
+        },
+        {
+          "value": "district-heating-and-cooling",
+          "expanded": "The use of energy from renewable sources",
+          "description": "District heating’ or ‘district cooling’ means the distribution of thermal energy in the form of steam, hot water or chilled liquids, from central or decentralised sources"
+        },
+        {
+          "value": "oil",
+          "expanded": "Operators of oil energy",
+          "description": "Operators transmission pipelines oil production, refining and treatment facilities, storage and transmission, central oil stockholding entities"
+        },
+        {
+          "value": "gas",
+          "expanded": "Operators of gas energy",
+          "description": "operators of distribution, transmission, storage of gas and LNG system operators"
+        },
+        {
+          "value": "hydrogen",
+          "expanded": "Operators of hydrogen energy",
+          "description": "Operators of hydrogen production, storage and transmission"
+        },
+        {
+          "value": "air",
+          "expanded": "Air trasportation",
+          "description": "Air carriers, airport managing bodies, airports,  core airports and entities operating ancillary installations contained within airports, traffic management control operators providing air traffic control (ATC) services"
+        },
+        {
+          "value": "rail",
+          "expanded": "Rail transportation",
+          "description": "Infrastructure managers, railway undertakings including operators of service facilities"
+        },
+        {
+          "value": "water",
+          "expanded": "Water transportation",
+          "description": "Inland, sea and coastal passenger and freight water transport companies, managing bodies of ports including their port facilities, and entities operating works and equipment contained within ports, operators of vessel traffic services (VTS)"
+        },
+        {
+          "value": "road",
+          "expanded": "Road transportation",
+          "description": "Road authorities responsible for traffic management control, operators of Intelligent Transport Systems (ITS)"
+        },
+        {
+          "value": "banking-subsector",
+          "expanded": "Credits",
+          "description": "Credit institutions, i.e. an undertaking the business of which is to take deposits or other repayable funds from the public and to grant credits for its own account"
+        },
+        {
+          "value": "financial-subsector",
+          "expanded": "Finanacial market infrastructures",
+          "description": "Operators of trading venues, central counterparties (CCPs), i.e. a legal person that interposes itself between the counterparties to the contracts traded on one or more financial markets, becoming the buyer to every seller and the seller to every buyer"
+        },
+        {
+          "value": "health-subsector",
+          "expanded": "Health entities",
+          "description": "Healthcare providers, EU reference laboratories, entities carrying out research and development activities of medicinal products, entities manufacturing  basic pharmaceutical products and pharmaceutical preparations, entities manufacturing medical devices considered as critical during a public health emergency"
+        },
+        {
+          "value": "drinking-water-subsector",
+          "expanded": "Drinking water entities",
+          "description": "Suppliers and distributors of water intended for human consumption"
+        },
+        {
+          "value": "waste-water-subsector",
+          "expanded": "Waste water entities",
+          "description": "Undertakings collecting, disposing or treating urban, domestic and industrial waste water"
+        },
+        {
+          "value": "digital-ifrastructure-subsector",
+          "expanded": "Digital infrastructure entities",
+          "description": "Internet Exchange Point providers (IXP), DNS service providers, Top-Level Domain (TLD) name registries, cloud computing service providers, Data centre service providers, content delivery network providers, providers of public electronic communications networks or providers of electronic communications services where their services are publicly available"
+        },
+        {
+          "value": "public-administration-subsector",
+          "expanded": "Public administration entities",
+          "description": "Public administration entities of central governments, Public administration entities of NUTS level 1 regions (population min. 3 million – max. 7 million) and NUTS level 2  regions (population min. 800.000 – max 3 million)"
+        },
+        {
+          "value": "space-subsector",
+          "expanded": "Space entities",
+          "description": "Operators of ground-based infrastructure, owned, managed and operated by Member States or by private parties, that support the provision of space-based services, excluding providers of public electronic communications networks. ‘Public electronic communications network’ means an electronic communications network used wholly or mainly for the provision of publicly available electronic communications services which support the transfer of information between network termination points"
+        }
+      ]
+    },
+    {
+      "predicate": "important-entities",
+      "entry": [
+        {
+          "value": "postal",
+          "expanded": "Postal service providers",
+          "description": "i.e. services involving the clearance, sorting, transport, and delivery of postal items"
+        },
+        {
+          "value": "waste",
+          "expanded": "Waste management",
+          "description": "Undertakings carrying out waste management excluding undertakings for whom waste management is not their principal economic activity. ‘Waste management’ means the collection, transport, recovery, and disposal of waste, including the supervision of such operations and the aftercare of disposal sites, and including actions taken as a dealer or broker"
+        },
+        {
+          "value": "chemicals",
+          "expanded": "Manufacture, production and distribution of chemicals",
+          "description": "Undertakings carrying out the manufacture, production and distribution of chemicals. ‘Producer’ means any natural or legal person who makes or assembles an article. ‘Manufacturer’ means any natural or legal person who manufactures a substance. ‘Distributor’ means any natural or legal person, including a retailer, who only stores and places on the market a substance, on its own or in a mixture, for third parties"
+        },
+        {
+          "value": "manufacturing",
+          "expanded": "Manufacture",
+          "description": "Entities manufacturing medical devices, computers, electrical equipment, machinery, motor vehicles, transport equipment "
+        },
+        {
+          "value": "digital",
+          "expanded": "Digital providers",
+          "description": "Providers of online marketplaces, providers of online search engines, providers of social networks"
+        }
+      ]
+    },
+    {
+      "predicate": "impact-subsectors-important-entities",
+      "entry": [
+        {
+          "value": "medical-devices-manufacturing",
+          "expanded": "Manufacture of medical devices and in vitro diagnostic medical devices",
+          "description": "Entities manufacturing medical devices and entities manufacturing in vitro diagnostic medical devices"
+        },
+        {
+          "value": "computer-manufacturing",
+          "expanded": "Manufacture of computer, electronic and optical products",
+          "description": "Undertakings carrying out the manufacture of computers, electronical and optical products. This includes the manufacture of computers, computer peripherals, communications equipment, and similar electronic products, as well as the manufacture of components for such products. Also included is the manufacture of consumer electronics, measuring, testing, and navigating equipment, irradiation, electromedical and electrotherapeutic equipment, optical instruments and equipment, and the manufacture of magnetic and optical media"
+        },
+        {
+          "value": "electrical-equipment-manufacturing",
+          "expanded": "Manufacture of computer, electronic and optical products",
+          "description": "Undertakings carrying out the manufacture of electrical equipment. This includes the manufacture of products that generate, distribute, and use electrical power. Also included is the manufacture of electrical lighting, signalling equipment and electric household appliances"
+        },
+        {
+          "value": "machinery-equipment-manufacturing",
+          "expanded": "Manufacture of machinery and equipment N.E.C",
+          "description": "Undertakings carrying out the manufacture of machinery and equipment n.e.c. This includes the manufacture of machinery and equipment that act independently on materials either mechanically or thermally or perform operations on materials (such as handling, spraying, weighing, or packing), including their mechanical components that produce and apply force, and any specially manufactured primary parts. "
+        },
+        {
+          "value": "vehicles-trailers-manufacturing",
+          "expanded": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "description": "Undertakings carrying out the manufacture of motor vehicles for transporting passengers or freight. The manufacture of various parts and accessories, as well as the manufacture of trailers and semi-trailers, is also included"
+        },
+        {
+          "value": "other-transport-manufacturing",
+          "expanded": "Manufacture of other transport equipment",
+          "description": "Undertakings carrying out the manufacture of motor vehicles for transporting passengers or freight. The manufacture of various parts and accessories, as well as the manufacture of trailers and semi-trailers, is also included"
+        }
+      ]
+    },
+    {
+      "predicate": "impact-severity",
+      "entry": [
+        {
+          "value": "red",
+          "expanded": "Red",
+          "description": "Very large impact",
+          "colour": "#CC0033"
+        },
+        {
+          "value": "yellow",
+          "expanded": "Yellow",
+          "description": "Large impact.",
+          "colour": "#FFC000"
+        },
+        {
+          "value": "green",
+          "expanded": "Green",
+          "description": "Minor impact.",
+          "colour": "#339900"
+        },
+        {
+          "value": "white",
+          "expanded": "White",
+          "description": "No impact.",
+          "colour": "#ffffff"
+        }
+      ]
+    },
+    {
+      "predicate": "impact-outlook",
+      "entry": [
+        {
+          "value": "improving",
+          "expanded": "Improving",
+          "description": "Severity of impact is expected to decrease in the next 6 hours.",
+          "colour": "#339900"
+        },
+        {
+          "value": "stable",
+          "expanded": "Stable",
+          "description": "Severity of impact is expected to remain the same in the 6 hours.",
+          "colour": "#FFC000"
+        },
+        {
+          "value": "worsening",
+          "expanded": "Worsening",
+          "description": "Severity of impact is expected to increase in the next 6 hours.",
+          "colour": "#CC0033"
+        }
+      ]
+    },
+    {
+      "predicate": "nature-root-cause",
+      "entry": [
+        {
+          "value": "system-failures",
+          "expanded": "System failures",
+          "description": "The incident is due to a failure of a system, i.e. without external causes. For example a hardware failure, software bug, a flaw in a procedure, etc. triggered the incident."
+        },
+        {
+          "value": "natural-phenomena",
+          "expanded": "Natural phenomena",
+          "description": "The incident is due to a natural phenomenon. For example a storm, lightning, solar flare, flood, earthquake, wildfire, etc. triggered the incident."
+        },
+        {
+          "value": "human-errors",
+          "expanded": "Human errors",
+          "description": "The incident is due to a human error, i.e. system worked correctly, but was used wrong. For example, a mistake, or carelessness triggered the incident."
+        },
+        {
+          "value": "malicious-actions",
+          "expanded": "Malicious actions",
+          "description": "The incident is due to a malicious action. For example, a cyber-attack or physical attack, vandalism, sabotage, insider attack, theft, etc., triggered the incident."
+        },
+        {
+          "value": "third-party-failures",
+          "expanded": "Third party failures",
+          "description": "The incident is due to a disruption of a third party service, like a utility. For example a power cut, or an internet outage, etc. triggered the incident."
+        }
+      ]
+    },
+    {
+      "predicate": "nature-severity",
+      "entry": [
+        {
+          "value": "high",
+          "expanded": "High",
+          "description": "High severity, potential impact is high.",
+          "colour": "#CC0033"
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "description": "Medium severity, potential impact is medium.",
+          "colour": "#FFC000"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "description": "Low severity, potential impact is low.",
+          "colour": "#339900"
+        }
+      ]
+    },
+    {
+      "predicate": "test",
+      "entry": [
+        {
+          "value": "test",
+          "expanded": "Test",
+          "description": "Test value meant for testing interoperability. Tags with this value are to be ignored.",
+          "colour": "#F81894"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "predicates": [
+    {
+      "description": "Categories and types of services in the financial scope. An entity can be tag with one or more categories or types of services.",
+      "expanded": "Categories and types of services",
+      "value": "categories-and-types-of-services"
+    },
+    {
+      "description": "Geographical footprint of the financial entity.",
+      "expanded": "Geographical footprint",
+      "value": "geographical-footprint"
+    },
+    {
+      "description": "Online exposition of the financial entity.",
+      "expanded": "Online exposition",
+      "value": "online-exposition"
+    },
+    {
+      "description": "Physical presence of the financial entity.",
+      "expanded": "Physical presence",
+      "value": "physical-presence"
+    },
+    {
+      "description": "Services provided by the financial entity.",
+      "expanded": "Services",
+      "value": "services"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "categories-and-types-of-services",
+      "entry": [
+        {
+          "value": "banking",
+          "expanded": "Banking",
+          "description": "Financial entity described or/and regulated as banking."
+        },
+        {
+          "value": "private",
+          "expanded": "Private",
+          "description": "Financial entity engaged in private banking."
+        },
+        {
+          "value": "retail",
+          "expanded": "Retail",
+          "description": "Financial entity engaged in retail banking."
+        },
+        {
+          "value": "custodian-banking",
+          "expanded": "Custodian banking",
+          "description": "Financial entity having physical possessions of clients financial assets or instruments."
+        },
+        {
+          "value": "financial-market-infrastructure",
+          "expanded": "Financial market infrastructure",
+          "description": "Financial market infrastructure such as stock exchange, CSD"
+        },
+        {
+          "value": "asset-management",
+          "expanded": "Asset management",
+          "description": "Financial entity managing financial assets on behalf of others."
+        },
+        {
+          "value": "it-provider",
+          "expanded": "IT provider",
+          "description": "IT provider supporting financial entities and regulated in the financial legal framework (such as support PFS in Luxembourg)."
+        },
+        {
+          "value": "e-money-and-payment",
+          "expanded": "e-money and payment",
+          "description": "Financial entity managing electronic money as alternative to cash payment. (EU directive - Directive 2009/110/EC)"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Other entity classified as financial entity with other activities not defined in this taxonomy."
+        }
+      ]
+    },
+    {
+      "predicate": "geographical-footprint",
+      "entry": [
+        {
+          "value": "client-coverage-local",
+          "expanded": "Client coverage is local",
+          "description": "Client and customer coverage is local to the financial entity (such as a country)."
+        },
+        {
+          "value": "client-coverage-eu",
+          "expanded": "Client coverage in EU",
+          "description": "Client and customer coverage is limited to the European Union."
+        },
+        {
+          "value": "client-coverage-worldwide",
+          "expanded": "Client coverage is worldwide",
+          "description": "Client and customer coverage is worldwide."
+        },
+        {
+          "value": "corporate-structure-local",
+          "expanded": "Corporate structure is local",
+          "description": "Corporate structure is local to the financial entity (such as a country)."
+        },
+        {
+          "value": "corporate-structure-eu",
+          "expanded": "Corporate structure in EU",
+          "description": "Corporate structure is located in the European Union."
+        },
+        {
+          "value": "corporate-structure-worldwide",
+          "expanded": "Corporate structure is worldwide",
+          "description": "Corporate structure is located worldwide."
+        }
+      ]
+    },
+    {
+      "predicate": "online-exposition",
+      "entry": [
+        {
+          "value": "limited",
+          "expanded": "Limited",
+          "description": "Online presence of the financial entity is limited such as just a public web server and/or email services."
+        },
+        {
+          "value": "extended",
+          "expanded": "Extended",
+          "description": "Online presence of the financial entity is extended with online services for the clients and customers but still with a physical presence."
+        },
+        {
+          "value": "crucial",
+          "expanded": "Crucial",
+          "description": "Online presence of the financial entity is crucial and business depends on online presence, extensive use of cloud computing, APIs, etc."
+        }
+      ]
+    },
+    {
+      "predicate": "physical-presence",
+      "entry": [
+        {
+          "value": "atm",
+          "expanded": "Automated teller machines",
+          "description": "The financial entity owns and/or operates automated teller machines (ATM)."
+        },
+        {
+          "value": "pos",
+          "expanded": "Point of sale terminals",
+          "description": "The financial entity owns and/or operates point of sale terminals (POS)."
+        }
+      ]
+    },
+    {
+      "predicate": "services",
+      "entry": [
+        {
+          "value": "settlement",
+          "expanded": "Settlement",
+          "description": "A financial entity providing settlement services."
+        },
+        {
+          "value": "collateral-management",
+          "expanded": "Collatoral management",
+          "description": "A financial entity providing collateral management services."
+        },
+        {
+          "value": "listing-operation-of-trading-platform",
+          "expanded": "Listing and operation of trading platform",
+          "description": "A financial entity providing listing and operation of trading platform."
+        },
+        {
+          "value": "credit-granting",
+          "expanded": "Credit granting",
+          "description": "A financial entity providing credit granting."
+        },
+        {
+          "value": "deposit-management",
+          "expanded": "Deposit management",
+          "description": "A financial entity providing deposit management."
+        },
+        {
+          "value": "custodian-banking",
+          "expanded": "Custodian banking",
+          "description": "A financial entity providing custodian banking."
+        },
+        {
+          "value": "payment-services",
+          "expanded": "Payment services",
+          "description": "A financial entity providing payment services."
+        },
+        {
+          "value": "investment-services",
+          "expanded": "Investment services",
+          "description": "A financial entity providing investment services."
+        }
+      ]
+    }
+  ],
+  "version": 7,
+  "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
+  "expanded": "Financial",
+  "namespace": "financial"
+}

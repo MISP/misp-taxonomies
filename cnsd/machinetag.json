@@ -1,0 +1,230 @@
+{
+  "values": [
+    {
+      "entry": [
+        {
+          "description": "Correo electrónico masivo no solicitado, el destinatario no ha otorgado un permiso verificable",
+          "expanded": "Spam",
+          "value": "spam"
+        },
+        {
+          "description": "Ofrecer o instalar copias de software, u otros materiales sin licencia o derechos adquiridos de autor",
+          "expanded": "Copyright",
+          "value": "copyright"
+        },
+        {
+          "description": "Comprende los incidentes relacionados con la explotación sexual infantil, glorificación de la violencia o incitación al terrorismo.",
+          "expanded": "Explotación sexual infantil, racismo e incitación a la violencia.",
+          "value": "explotacion sexual infantil"
+        }
+      ],
+      "predicate": "Contenido abusivo"
+    },
+    {
+      "entry": [
+        {
+          "description": "Inundaciones ICMP y SYN, los ataques Teardrop y los bombardeos por correo, y los ataques DDoS que se originan por bots.",
+          "expanded": "DoS/DDoS",
+          "value": "DoS/DDoS"
+        },
+        {
+          "description": "La disponibilidad tambien puede verse afectada por acciones locales o por fuerza mayor.",
+          "expanded": "sabotaje",
+          "value": "sabotaje"
+        }
+      ],
+      "predicate": "Disponibilidad"
+    },
+    {
+      "entry": [
+        {
+          "description": "Mal uso o uso no autorizado de recursos, incluidas empresas con fines de lucro, cadenas de ganancias o esquemas piramidales.",
+          "expanded": "Mal-Uso",
+          "value": "mal-uso"
+        },
+        {
+          "description": "Una entidad u organización asume o se atribuye ilegitimamente la identidad de otra para beneficiarse de ella.",
+          "expanded": "Repres-Falsa",
+          "value": "repres-falsa"
+        }
+      ],
+      "predicate": "Fraude"
+    },
+    {
+      "entry": [
+        {
+          "description": "Son ataques que interceptan y acceden a la información durante la transmisión.",
+          "expanded": "Acc-No-autorizado",
+          "value": "acc-no-autorizado"
+        },
+        {
+          "description": "El error humano de configuración de software puede ser una causa.",
+          "expanded": "Modi-Elim-No-Autorizada",
+          "value": "modi-elim-no-autorizada"
+        }
+      ],
+      "predicate": "Fuga de información"
+    },
+    {
+      "entry": [
+        {
+          "description": "Un intento de comprometer un sistema o interrumpir cualquier servicio mediante la explotación de vulnerabilidades.",
+          "expanded": "Explot-Vulnerab",
+          "value": "explot-vulnerab"
+        },
+        {
+          "description": "Múltiples intentos de inicio de sesión (adivinar, descifrar contraseñas, fuerza bruta).",
+          "expanded": "Intento-Inicio-Sesión",
+          "value": "intento-inicio-sesión"
+        }
+      ],
+      "predicate": "Intentos de intrusión"
+    },
+    {
+      "entry": [
+        {
+          "description": "Un intento de comprometer un sistema o interrumpir cualquier servicio mediante la explotación de vulnerabilidades.",
+          "expanded": "Explot-Extra-Vulnerab",
+          "value": "explot-extra-vulnerab"
+        },
+        {
+          "description": "Compromiso de un sistema en el que el atacante ha adquirido privilegios, accesa y sustrae de datos del centro de datos.",
+          "expanded": "Comprometer-Cuenta",
+          "value": "comprometer-cuenta"
+        }
+      ],
+      "predicate": "Intrusión"
+    },
+    {
+      "entry": [
+        {
+          "description": "Se através de dispositivos extraibles, descargas de internet, adjuntos en correos, por scripts y vulneabilidades XSS.",
+          "expanded": "Infección",
+          "value": "infección"
+        },
+        {
+          "description": "Se presenta cuando un recurso de la organización es utilizado para la distribución de malware.",
+          "expanded": "Distribución",
+          "value": "distribución"
+        },
+        {
+          "description": "Conexión con servidor de mando y Control, mediante malware o sistemas infectados.",
+          "expanded": "C&C",
+          "value": "c&c"
+        },
+        {
+          "description": "Intercambio de información a nivel de red local o pública, cuyo origen o destino no este plenamente identificado.",
+          "expanded": "Conexión-Maliciosa",
+          "value": "conexión-maliciosa"
+        },
+        {
+          "description": "No se puede determinar.",
+          "expanded": "Indeterminado",
+          "value": "indeterminado"
+        }
+      ],
+      "predicate": "Malware"
+    },
+    {
+      "entry": [
+        {
+          "description": "Se através de dispositivos extraibles, descargas de internet, adjuntos en correos, por scripts y vulneabilidades XSS.",
+          "expanded": "Scanning",
+          "value": "scanning"
+        },
+        {
+          "description": "Se presenta cuando un recurso de la organización es utilizado para la distribución de malware.",
+          "expanded": "Sniffing",
+          "value": "sniffing"
+        },
+        {
+          "description": "Conexión con servidor de mando y Control, mediante malware o sistemas infectados.",
+          "expanded": "Phishing",
+          "value": "phishing"
+        }
+      ],
+      "predicate": "Recopilación de información"
+    },
+    {
+      "entry": [
+        {
+          "description": "Incidente no encontrado en la lista.",
+          "expanded": "Inc-No-Listado",
+          "value": "inc-no-listado"
+        },
+        {
+          "description": "Incidente que no se puede determinar o clasificar.",
+          "expanded": "Inc-Indeter",
+          "value": "inc-indeter"
+        },
+        {
+          "description": "Amenaza Avanzada Persistente (APT), ataques dirigidos contra entidades u organizaciones concretas, con mecanismos sofisticados.",
+          "expanded": "APT",
+          "value": "APT"
+        },
+        {
+          "description": "Uso de redes o sistemas de información con fines de caracter terrorista.",
+          "expanded": "Ciberterrorismo",
+          "value": "ciberterrorismo"
+        },
+        {
+          "description": "Daños en activos críticos nacionales, comprende el borrado, dañado, alteración, supresión o inaccesibilidad a un activo crítico.",
+          "expanded": "Danos-en-Activos",
+          "value": "danos-en-activos"
+        }
+      ],
+      "predicate": "Otros"
+    }
+  ],
+  "predicates": [
+    {
+      "description": "Comprende aquellos incidentes de contenido comercial no autorizados, comentarios ofensivos, violencia y/o delitos sexuales.",
+      "expanded": "Contenido abusivo",
+      "value": "Contenido abusivo"
+    },
+    {
+      "description": "Las operaciones se retrasan o el sistema se bloquea debido al gran número de peticiones concurrentes u orquestadas.",
+      "expanded": "Disponibilidad",
+      "value": "Disponibilidad"
+    },
+    {
+      "description": "Uso no autorizado de un bien o servicio, violación de derechos de autor o propiedad, suplantación de identidad.",
+      "expanded": "Fraude",
+      "value": "Fraude"
+    },
+    {
+      "description": "Pérdida de los datos e información, debido al acceso o conocimiento del contenido por parte de personas no autorizadas.",
+      "expanded": "Fuga de información",
+      "value": "Fuga de información"
+    },
+    {
+      "description": "Intento de comprometer la confidencialidad, integridad y disponibilidad de un activo de información.",
+      "expanded": "Intentos de intrusión",
+      "value": "Intentos de intrusión"
+    },
+    {
+      "description": "Se manifiesta el claro acceso a cuentas de usuarios con el propósito de comprometer la información crítica del negocio.",
+      "expanded": "Intrusión",
+      "value": "Intrusión"
+    },
+    {
+      "description": "Incidente relacionado con el uso de software que se incluye o inserta intencionalmente en el sistema para causar daño.",
+      "expanded": "Malware",
+      "value": "Malware"
+    },
+    {
+      "description": "Comprende aquellos incidentes relacionados con el uso de analizadores de paquetes, ingenieria social o ataques de fuerza bruta.",
+      "expanded": "Recopilación de información",
+      "value": "Recopilación de información"
+    },
+    {
+      "value": "Otros",
+      "expanded": "Otros",
+      "description": "Otros"
+    }
+  ],
+  "version": 20220513,
+  "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
+  "expanded": "CNSD Taxonomia de Incidentes de Seguridad Digital",
+  "namespace": "cnsd"
+}

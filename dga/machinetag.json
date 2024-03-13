@@ -1,0 +1,64 @@
+{
+  "namespace": "dga",
+  "expanded": "Domain-Generation Algorithms",
+  "description": "A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others.",
+  "version": 2,
+  "predicates": [
+    {
+      "value": "generation-scheme",
+      "expanded": "Generation scheme used for the DGA"
+    },
+    {
+      "value": "seeding",
+      "expanded": "Seeding scheme used for the DGA"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "generation-scheme",
+      "entry": [
+        {
+          "value": "arithmetic",
+          "expanded": "Arithmetic",
+          "description": "Calculate a sequence of values that either have a direct ASCII representation usable for a domain name or designate an offset in one or more hard- coded arrays, constituting the alphabet of the DGA. "
+        },
+        {
+          "value": "hash",
+          "expanded": "Hash",
+          "description": "Use the hexdigest representation of a hash to produce the domain."
+        },
+        {
+          "value": "wordlist",
+          "expanded": "Wordlist",
+          "description": "Concatenate a sequence of words from one or more wordlists, resulting in less randomly appealing and thus more camouflaging domains"
+        },
+        {
+          "value": "permutation",
+          "expanded": "Permutation",
+          "description": "derive all possible AGDs (Algorithmically-Generated Domain) through permutation of an initial domain name."
+        }
+      ]
+    },
+    {
+      "predicate": "seeding",
+      "entry": [
+        {
+          "value": "time-dependent",
+          "expanded": "The DGA uses temporal information in the seeding for its domain generation, resulting in sets of domains with certain validity time spans."
+        },
+        {
+          "value": "time-independent",
+          "expanded": "The DGA does not rely on temporal information in the seeding for its domain generation, resulting in a single set of domains."
+        },
+        {
+          "value": "deterministic",
+          "expanded": "Given the implementation of the DGA and a seed, its full set of possible domains can be calculated at any point in time."
+        },
+        {
+          "value": "non-deterministic",
+          "expanded": "Domains depend on unpredictable seed input, e.g. on external dynamic information that can be published at a later time (e.g. via posting on social media), on data specific to the system it is executed on, or on arbitrary non-predictable PRNG output."
+        }
+      ]
+    }
+  ]
+}

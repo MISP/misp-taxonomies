@@ -19,9 +19,14 @@
       "version": 1
     },
     {
+      "description": "Gray Zone of Active defense includes all elements which lay between reactive defense elements and offensive operations. It does fill the gray spot between them. Taxo may be used for active defense planning or modeling.",
+      "name": "GrayZone",
+      "version": 3
+    },
+    {
       "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
       "name": "PAP",
-      "version": 2
+      "version": 3
     },
     {
       "description": "The access method used to remotely access a system.",
@@ -64,6 +69,16 @@
       "version": 1
     },
     {
+      "description": "This taxonomy was designed to describe artificial satellites",
+      "name": "artificial-satellites",
+      "version": 1
+    },
+    {
+      "description": "A taxonomy describing security threats or incidents against the aviation sector.",
+      "name": "aviation",
+      "version": 1
+    },
+    {
       "description": "Custom taxonomy for types of binary file.",
       "name": "binary-class",
       "version": 2
@@ -74,9 +89,14 @@
       "version": 2
     },
     {
-      "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection",
+      "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection.",
       "name": "circl",
-      "version": 5
+      "version": 6
+    },
+    {
+      "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
+      "name": "cnsd",
+      "version": 20220513
     },
     {
       "description": "Course of action taken within organization to discover, detect, deny, disrupt, degrade, deceive and/or destroy an attack.",
@@ -101,7 +121,12 @@
     {
       "description": "A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.",
       "name": "course-of-action",
-      "version": 2
+      "version": 3
+    },
+    {
+      "description": "Crowdsec IP address classifications and behaviors taxonomy.",
+      "name": "crowdsec",
+      "version": 1
     },
     {
       "description": "Threats targetting cryptocurrency, based on CipherTrace report.",
@@ -149,9 +174,9 @@
       "version": 1
     },
     {
-      "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project",
+      "description": "Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.",
       "name": "dark-web",
-      "version": 3
+      "version": 6
     },
     {
       "description": "Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book.",
@@ -174,6 +199,21 @@
       "version": 1
     },
     {
+      "description": "Taxonomy of Death Possibilities",
+      "name": "death-possibilities",
+      "version": 1
+    },
+    {
+      "description": "Deception is an important component of information operations, valuable for both offense and defense. ",
+      "name": "deception",
+      "version": 1
+    },
+    {
+      "description": "A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others.",
+      "name": "dga",
+      "version": 2
+    },
+    {
       "description": "DHS critical sectors as in https://www.dhs.gov/critical-infrastructure-sectors",
       "name": "dhs-ciip-sectors",
       "version": 2
@@ -184,6 +224,11 @@
       "version": 1
     },
     {
+      "description": "The diamond model for influence operations analysis is a framework that leads analysts and researchers toward a comprehensive understanding of a malign influence campaign by addressing the socio-political, technical, and psychological aspects of the campaign. The diamond model for influence operations analysis consists of 5 components: 4 corners and a core element. The 4 corners are divided into 2 axes: influencer and audience on the socio-political axis, capabilities and infrastructure on the technical axis. Narrative makes up the core of the diamond.",
+      "name": "diamond-model-for-influence-operations",
+      "version": 1
+    },
+    {
       "description": "A subset of Information Security Marking Metadata ISM as required by Executive Order (EO) 13526. As described by DNI.gov as Data Encoding Specifications for Information Security Marking Metadata in Controlled Vocabulary Enumeration Values for ISM",
       "name": "dni-ism",
       "version": 3
@@ -191,6 +236,11 @@
     {
       "description": "Domain Name Abuse - taxonomy to tag domain names used for cybercrime.",
       "name": "domain-abuse",
+      "version": 2
+    },
+    {
+      "description": "This taxonomy aims to list doping substances",
+      "name": "doping-substances",
       "version": 2
     },
     {
@@ -256,12 +306,12 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 8
+      "version": 11
     },
     {
-      "description": "Reasons why an event has been extended. ",
+      "description": "Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf",
       "name": "extended-event",
-      "version": 1
+      "version": 2
     },
     {
       "description": "The purpose of this taxonomy is to jointly tabulate both the of these failure modes in a single place. Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm. Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.",
@@ -271,12 +321,17 @@
     {
       "description": "This taxonomy aims to ballpark the expected amount of false positives.",
       "name": "false-positive",
-      "version": 5
+      "version": 7
     },
     {
       "description": "List of known file types.",
       "name": "file-type",
       "version": 1
+    },
+    {
+      "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
+      "name": "financial",
+      "version": 7
     },
     {
       "description": "Flesch Reading Ease is a revised system for determining the comprehension difficulty of written material. The scoring of the flesh score can have a maximum of 121.22 and there is no limit on how low a score can be (negative score are valid).",
@@ -291,7 +346,7 @@
     {
       "description": "French gov information classification system",
       "name": "fr-classif",
-      "version": 3
+      "version": 6
     },
     {
       "description": "Taxonomy related to the REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)",
@@ -369,6 +424,11 @@
       "version": 7
     },
     {
+      "description": "Taxonomy for tagging information by its origin: human-generated or AI-generated.",
+      "name": "information-origin",
+      "version": 2
+    },
+    {
       "description": "Taxonomy to classify the information security data sources.",
       "name": "information-security-data-source",
       "version": 1
@@ -376,6 +436,26 @@
     {
       "description": "A full set of operational indicators for organizations to use to benchmark their security posture.",
       "name": "information-security-indicators",
+      "version": 1
+    },
+    {
+      "description": "Describes the target of cyber training and education.",
+      "name": "interactive-cyber-training-audience",
+      "version": 1
+    },
+    {
+      "description": "The technical setup consists of environment structure, deployment, and orchestration.",
+      "name": "interactive-cyber-training-technical-setup",
+      "version": 1
+    },
+    {
+      "description": "The training environment details the environment around the training, consisting of training type and scenario.",
+      "name": "interactive-cyber-training-training-environment",
+      "version": 1
+    },
+    {
+      "description": "The training setup further describes the training itself with the scoring, roles, the training mode as well as the customization level.",
+      "name": "interactive-cyber-training-training-setup",
       "version": 1
     },
     {
@@ -434,6 +514,11 @@
       "version": 12
     },
     {
+      "description": "MISP workflow taxonomy to support result of workflow execution.",
+      "name": "misp-workflow",
+      "version": 3
+    },
+    {
       "description": "MONARC Threats Taxonomy",
       "name": "monarc-threat",
       "version": 1
@@ -464,6 +549,11 @@
       "version": 2
     },
     {
+      "description": "The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 May 2022, also known as the provisional agreement. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.",
+      "name": "nis2",
+      "version": 3
+    },
+    {
       "description": "Open Threat Taxonomy v1.1 base on James Tarala of SANS http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf, https://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Using-Open-Tools-to-Convert-Threat-Intelligence-into-Practical-Defenses-James-Tarala-SANS-Institute.pdf, https://www.youtube.com/watch?v=5rdGOOFC_yE, and https://www.rsaconference.com/writable/presentations/file_upload/str-r04_using-an-open-source-threat-model-for-prioritized-defense-final.pdf",
       "name": "open_threat",
       "version": 1
@@ -491,7 +581,17 @@
     {
       "description": "Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.",
       "name": "phishing",
-      "version": 4
+      "version": 5
+    },
+    {
+      "description": "Non-exhaustive taxonomy of natural poison",
+      "name": "poison-taxonomy",
+      "version": 1
+    },
+    {
+      "description": "A political spectrum is a system to characterize and classify different political positions in relation to one another.",
+      "name": "political-spectrum",
+      "version": 1
     },
     {
       "description": "After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System.",
@@ -499,9 +599,19 @@
       "version": 2
     },
     {
+      "description": "PyOTI automated enrichment schemes for point in time classification of indicators.",
+      "name": "pyoti",
+      "version": 3
+    },
+    {
       "description": "Ransomware is used to define ransomware types and the elements that compose them.",
       "name": "ransomware",
       "version": 6
+    },
+    {
+      "description": "The seven roles seen in most ransomware incidents.",
+      "name": "ransomware-roles",
+      "version": 1
     },
     {
       "description": "Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.",
@@ -511,7 +621,7 @@
     {
       "description": "Reference Security Incident Classification Taxonomy",
       "name": "rsit",
-      "version": 1002
+      "version": 1003
     },
     {
       "description": "Status of events used in Request Tracker.",
@@ -519,9 +629,9 @@
       "version": 2
     },
     {
-      "description": "Runtime or software packer used to combine compressed data with the decompression code. The decompression code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.",
+      "description": "Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.",
       "name": "runtime-packer",
-      "version": 1
+      "version": 2
     },
     {
       "description": "Flags describing the sample",
@@ -539,8 +649,28 @@
       "version": 1
     },
     {
+      "description": "Sentinel indicator threat types.",
+      "name": "sentinel-threattype",
+      "version": 1
+    },
+    {
       "description": "Threat taxonomy in the scope of securing smart airports by ENISA. https://www.enisa.europa.eu/publications/securing-smart-airports",
       "name": "smart-airports-threats",
+      "version": 1
+    },
+    {
+      "description": "Attack vectors used in social engineering as described in 'A Taxonomy of Social Engineering Defense Mechanisms' by Dalal Alharthi and others.",
+      "name": "social-engineering-attack-vectors",
+      "version": 1
+    },
+    {
+      "description": "SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection",
+      "name": "srbcert",
+      "version": 3
+    },
+    {
+      "description": "A spectrum of state responsibility to more directly tie the goals of attribution to the needs of policymakers.",
+      "name": "state-responsibility",
       "version": 1
     },
     {
@@ -561,7 +691,7 @@
     {
       "description": "Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.",
       "name": "thales_group",
-      "version": 2
+      "version": 4
     },
     {
       "description": "The ThreatMatch Sectors, Incident types, Malware types and Alert types are applicable for any ThreatMatch instances and should be used for all CIISI and TIBER Projects.",
@@ -574,9 +704,9 @@
       "version": 1
     },
     {
-      "description": "The Traffic Light Protocol - or short: TLP - was designed with the objective to create a favorable classification scheme for sharing sensitive information while keeping the control over its distribution at the same time.",
+      "description": "The Traffic Light Protocol (TLP) (v2.0) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four standard labels (a fifth label is included in amber to limit the diffusion) used to indicate the sharing boundaries to be applied by the recipients. Only labels listed in this standard are considered valid by FIRST. This taxonomy includes additional labels for backward compatibility which are no more validated by FIRST SIG.",
       "name": "tlp",
-      "version": 5
+      "version": 10
     },
     {
       "description": "Taxonomy to describe Tor network infrastructure",
@@ -591,6 +721,11 @@
     {
       "description": "Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence.",
       "name": "type",
+      "version": 1
+    },
+    {
+      "description": "The Unified Kill Chain is a refinement to the Kill Chain.",
+      "name": "unified-kill-chain",
       "version": 1
     },
     {
@@ -616,9 +751,9 @@
     {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
-      "version": 10
+      "version": 12
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20210621"
+  "version": "20240304"
 }

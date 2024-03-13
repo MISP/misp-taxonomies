@@ -26,7 +26,7 @@ def generateMarkdown(taxonomies):
     markdown_line_array.append("- license: %s" % 'CC-0')
     markdown_line_array.append("- description: %s" % 'Manifest file of MISP taxonomies available.')
     markdown_line_array.append("")
-    
+
     markdown_line_array.append("## Taxonomies")
     markdown_line_array.append("")
     for taxonomy in taxonomies:

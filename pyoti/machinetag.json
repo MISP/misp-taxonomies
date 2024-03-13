@@ -1,0 +1,395 @@
+{
+  "namespace": "pyoti",
+  "description": "PyOTI automated enrichment schemes for point in time classification of indicators.",
+  "version": 3,
+  "expanded": "PyOTI Enrichment",
+  "refs": [
+    "https://github.com/RH-ISAC/PyOTI",
+    "https://github.com/RH-ISAC/PyOTI/blob/main/examples/enrich_misp_event.py"
+  ],
+  "predicates": [
+    {
+      "value": "checkdmarc",
+      "expanded": "CheckDMARC"
+    },
+    {
+      "value": "disposable-email",
+      "expanded": "Disposable Email Domain",
+      "description": "The email domain is from a disposable email service."
+    },
+    {
+      "value": "emailrepio",
+      "expanded": "EmailRepIO"
+    },
+    {
+      "value": "iris-investigate",
+      "expanded": "Iris Investigate"
+    },
+    {
+      "value": "virustotal",
+      "expanded": "VirusTotal"
+    },
+    {
+      "value": "circl-hashlookup",
+      "expanded": "CIRCL Hash Lookup"
+    },
+    {
+      "value": "reputation-block-list",
+      "expanded": "Reputation Block List"
+    },
+    {
+      "value": "abuseipdb",
+      "expanded": "AbuseIPDB"
+    },
+    {
+      "value": "greynoise-riot",
+      "expanded": "GreyNoise RIOT"
+    },
+    {
+      "value": "googlesafebrowsing",
+      "expanded": "Google Safe Browsing"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "checkdmarc",
+      "entry": [
+        {
+          "value": "spoofable",
+          "expanded": "Spoofable",
+          "description": "The email address can be spoofed (e.g. no strict SPF policy/DMARC is not enforced)."
+        }
+      ]
+    },
+    {
+      "predicate": "emailrepio",
+      "entry": [
+        {
+          "value": "spoofable",
+          "expanded": "Spoofable",
+          "description": "The email address can be spoofed (e.g. no strict SPF policy/DMARC is not enforced)."
+        },
+        {
+          "value": "suspicious",
+          "expanded": "Suspicious",
+          "description": "The email address should be treated as suspicious or risky."
+        },
+        {
+          "value": "blacklisted",
+          "expanded": "Blacklisted",
+          "description": "The email address is believed to be malicious or spammy."
+        },
+        {
+          "value": "malicious-activity",
+          "expanded": "Malicious Activity",
+          "description": "The email address has exhibited malicious behavior (e.g. phishing/fraud)."
+        },
+        {
+          "value": "malicious-activity-recent",
+          "expanded": "Malicious Activity Recent",
+          "description": "The email address has exhibited malicious behavior in the last 90 days (e.g. in the case of temporal account takeovers)."
+        },
+        {
+          "value": "credentials-leaked",
+          "expanded": "Credentials Leaked",
+          "description": "The email address has had credentials leaked at some point in time (e.g. a data breach, pastebin, dark web, etc)."
+        },
+        {
+          "value": "credentials-leaked-recent",
+          "expanded": "Credentials Leaked Recent",
+          "description": "The email address has had credentials leaked in the last 90 days."
+        },
+        {
+          "value": "reputation-high",
+          "expanded": "Reputation High",
+          "description": "The email address has a high reputation."
+        },
+        {
+          "value": "reputation-medium",
+          "expanded": "Reputation Medium",
+          "description": "The email address has a medium reputation."
+        },
+        {
+          "value": "reputation-low",
+          "expanded": "Reputation Low",
+          "description": "The email address has a low reputation."
+        },
+        {
+          "value": "suspicious-tld",
+          "expanded": "Suspicious TLD",
+          "description": "The email address top-level domain is suspicious."
+        },
+        {
+          "value": "spam",
+          "expanded": "Spam",
+          "description": "The email address has exhibited spammy behavior (e.g. spam traps, login form abuse, etc)."
+        }
+      ]
+    },
+    {
+      "predicate": "iris-investigate",
+      "entry": [
+        {
+          "value": "high",
+          "expanded": "High",
+          "description": "The domain risk score is high (76-100)."
+        },
+        {
+          "value": "medium-high",
+          "expanded": "Medium High",
+          "description": "The domain risk score is medium-high (51-75)."
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "description": "The domain risk score is medium (26-50)."
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "description": "The domain risk score is low (0-25)."
+        }
+      ]
+    },
+    {
+      "predicate": "virustotal",
+      "entry": [
+        {
+          "value": "known-distributor",
+          "expanded": "Known Distributor",
+          "description": "The known-distributor entry indicates a file is from a known distributor."
+        },
+        {
+          "value": "valid-signature",
+          "expanded": "Valid Signature",
+          "description": "The valid-signature entry indicates a file is signed with a valid signature."
+        },
+        {
+          "value": "invalid-signature",
+          "expanded": "Invalid Signature",
+          "description": "The invalid-signature entry indicates a file is signed with an invalid signature."
+        }
+      ]
+    },
+    {
+      "predicate": "circl-hashlookup",
+      "entry": [
+        {
+          "value": "high-trust",
+          "expanded": "High Trust",
+          "description": "The trust level is high (76-100)."
+        },
+        {
+          "value": "medium-high-trust",
+          "expanded": "Medium High Trust",
+          "description": "The trust level is medium-high (51-75)."
+        },
+        {
+          "value": "medium-trust",
+          "expanded": "Medium Trust",
+          "description": "The trust level is medium (26-50)."
+        },
+        {
+          "value": "low-trust",
+          "expanded": "Low Trust",
+          "description": "The trust level is low (0-25)."
+        }
+      ]
+    },
+    {
+      "predicate": "reputation-block-list",
+      "entry": [
+        {
+          "value": "barracudacentral-brbl",
+          "expanded": "Barracuda Reputation Block List",
+          "description": "Barracuda Reputation Block List (BRBL) is a free DNSBL of IP addresses known to send spam. Barracuda Networks fights spam and created the BRBL to help stop the spread of spam."
+        },
+        {
+          "value": "spamcop-scbl",
+          "expanded": "SpamCop Blocking List",
+          "description": "The SpamCop Blocking List (SCBL) lists IP addresses which have transmitted reported email to SpamCop users. SpamCop, service providers and individual users then use the SCBL to block and filter unwanted email."
+        },
+        {
+          "value": "spamhaus-sbl",
+          "expanded": "Spamhaus Block List",
+          "description": "The Spamhaus Block List (SBL) Advisory is a database of IP addresses from which Spamhaus does not recommend the acceptance of electronic mail."
+        },
+        {
+          "value": "spamhaus-xbl",
+          "expanded": "Spamhaus Exploits Block List",
+          "description": "The Spamhaus Exploits Block List (XBL) is a realtime database of IP addresses of hijacked PCs infected by illegal 3rd party exploits, including open proxies (HTTP, socks, AnalogX, wingate, etc), worms/viruses with built-in spam engines, and other types of trojan-horse exploits."
+        },
+        {
+          "value": "spamhaus-pbl",
+          "expanded": "Spamhaus Policy Block List",
+          "description": "The Spamhaus PBL is a DNSBL database of end-user IP address ranges which should not be delivering unauthenticated SMTP email to any Internet mail server except those provided for specifically by an ISP for that customer's use."
+        },
+        {
+          "value": "spamhaus-css",
+          "expanded": "Spamhaus CSS",
+          "description": "The Spamhaus CSS list is an automatically produced dataset of IP addresses that are involved in sending low-reputation email. CSS mostly targets static spam emitters that are not covered in the PBL or XBL, such as snowshoe spam operations, but may also include other senders that display a risk to our users, such as compromised hosts."
+        },
+        {
+          "value": "spamhaus-drop",
+          "expanded": "Spamhaus Don't Route Or Peer",
+          "description": "Spamhaus Don't Route Or Peer (DROP) is an advisory 'drop all traffic' list. DROP is a tiny subset of the SBL which is designed for use by firewalls or routing equipment."
+        },
+        {
+          "value": "spamhaus-spam",
+          "expanded": "Spamhaus Domain Block List Spam Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used for spam."
+        },
+        {
+          "value": "spamhaus-phish",
+          "expanded": "Spamhaus Domain Block List Phish Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used for phishing."
+        },
+        {
+          "value": "spamhaus-malware",
+          "expanded": "Spamhaus Domain Block List Malware Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used to serve malware."
+        },
+        {
+          "value": "spamhaus-botnet-c2",
+          "expanded": "Spamhaus Domain Block List Botnet C2 Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used for botnet command and control."
+        },
+        {
+          "value": "spamhaus-abused-legit-spam",
+          "expanded": "Spamhaus Domain Block List Abused Legit Spam Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used for spam."
+        },
+        {
+          "value": "spamhaus-abused-spammed-redirector",
+          "expanded": "Spamhaus Domain Block List Abused Spammed Redirector Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate spammed domain names with poor reputations used as redirector domains."
+        },
+        {
+          "value": "spamhaus-abused-legit-phish",
+          "expanded": "Spamhaus Domain Block List Abused Legit Phish Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used for phishing."
+        },
+        {
+          "value": "spamhaus-abused-legit-malware",
+          "expanded": "Spamhaus Domain Block List Abused Legit Malware Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used to serve malware."
+        },
+        {
+          "value": "spamhaus-abused-legit-botnet-c2",
+          "expanded": "Spamhaus Domain Block List Abused Legit Botnet C2 Domain",
+          "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used for botnet command and control."
+        },
+        {
+          "value": "surbl-phish",
+          "expanded": "SURBL Phishing Sites",
+          "description": "Phishing data from multiple sources is included in this list. Data includes PhishTank, OITC, PhishLabs, Malware Domains and several other sources, including proprietary research by SURBL."
+        },
+        {
+          "value": "surbl-malware",
+          "expanded": "SURBL Malware Sites",
+          "description": "This list contains data from multiple sources that cover sites hosting malware. This includes OITC, abuse.ch, The DNS blackhole malicious site data from malwaredomains.com and others. Malware data also includes significant proprietary research by SURBL."
+        },
+        {
+          "value": "surbl-spam",
+          "expanded": "SURBL Spam Sites",
+          "description": "This list contains mainly general spam sites. It combines data from the formerly separate JP, WS, SC and AB lists. It also includes data from Internet security, anti-abuse, ISP, ESP and other communities, such as Telenor. Most of the data in this list comes from internal, proprietary research by SURBL."
+        },
+        {
+          "value": "surbl-abused-legit",
+          "expanded": "SURBL Abused Legit Sites",
+          "description": "This list contains data from multiple sources that cover cracked sites, including SURBL internal ones. Criminals steal credentials or abuse vulnerabilities to break into websites and add malicious content. Often cracked pages will redirect to spam sites or to other cracked sites. Cracked sites usually still contain the original legitimate content and may still be mentioned in legitimate emails, besides the malicious pages referenced in spam."
+        },
+        {
+          "value": "uribl-black",
+          "expanded": "URIBL Black",
+          "description": "URIBL Black list contains domain names belonging to and used by spammers, including but not restricted to those that appear in URIs found in Unsolicited Bulk and/or Commercial Email (UBE/UCE). This list has a goal of zero False Positives."
+        },
+        {
+          "value": "uribl-grey",
+          "expanded": "URIBL Grey",
+          "description": "URIBL Grey list contains domains found in UBE/UCE, and possibly honour opt-out requests. It may include ESPs which allow customers to import their recipient lists and may have no control over the subscription methods. This list can and probably will cause False Positives depending on your definition of UBE/UCE."
+        },
+        {
+          "value": "uribl-red",
+          "expanded": "URIBL Red",
+          "description": "URIBL Red list contains domains that actively show up in mail flow, are not listed on URIBL black, and are either: being monitored, very young (domain age via whois), or use whois privacy features to protect their identity. This list is automated in nature, so please use at your own risk."
+        },
+        {
+          "value": "uribl-multi",
+          "expanded": "URIBL Multi",
+          "description": "URIBL Multi list contains all of the public URIBL lists."
+        }
+      ]
+    },
+    {
+      "predicate": "abuseipdb",
+      "entry": [
+        {
+          "value": "high",
+          "expanded": "High",
+          "description": "The IP abuse confidence score is high (76-100)."
+        },
+        {
+          "value": "medium-high",
+          "expanded": "Medium High",
+          "description": "The IP abuse confidence score is medium-high (51-75)."
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "description": "The IP abuse confidence score is medium (26-50)."
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "description": "The IP abuse confidence score is low (0-25)."
+        }
+      ]
+    },
+    {
+      "predicate": "greynoise-riot",
+      "entry": [
+        {
+          "value": "trust-level-1",
+          "expanded": "Trust Level 1",
+          "description": "These IPs are trustworthy because the companies or services assigned are generally responsible for the interactions with this IP. Adding these ranges to an allow-list may make sense."
+        },
+        {
+          "value": "trust-level-2",
+          "expanded": "Trust Level 2",
+          "description": "These IPs are somewhat trustworthy because they are necessary for regular and common business internet use. Companies that own these IPs typically do not claim responsibility or have accountability for interactions with these IPs. Malicious actions may be associated with these IPs but adding this entire range to a block-list does not make sense."
+        }
+      ]
+    },
+    {
+      "predicate": "googlesafebrowsing",
+      "entry": [
+        {
+          "value": "malware",
+          "expanded": "MALWARE",
+          "description": "Malware threat type."
+        },
+        {
+          "value": "social-engineering",
+          "expanded": "SOCIAL_ENGINEERING",
+          "description": "Social engineering threat type."
+        },
+        {
+          "value": "unwanted-software",
+          "expanded": "UNWANTED_SOFTWARE",
+          "description": "Unwanted software threat type."
+        },
+        {
+          "value": "potentially-harmful-application",
+          "expanded": "POTENTIALLY_HARMFUL_APPLICATION",
+          "description": "Potentially harmful application threat type."
+        },
+        {
+          "value": "unspecified",
+          "expanded": "THREAT_TYPE_UNSPECIFIED",
+          "description": "Unknown threat type."
+        }
+      ]
+    }
+  ]
+}

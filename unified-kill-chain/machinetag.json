@@ -1,0 +1,113 @@
+{
+  "namespace": "unified-kill-chain",
+  "expanded": "Unified Kill Chain",
+  "description": "The Unified Kill Chain is a refinement to the Kill Chain.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "Initial Foothold",
+      "expanded": "Initial Foothold"
+    },
+    {
+      "value": "Network Propagation",
+      "expanded": "Network Propagation"
+    },
+    {
+      "value": "Action on Objectives",
+      "expanded": "Action on Objectives"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "Initial Foothold",
+      "entry": [
+        {
+          "expanded": "Reconnaissance",
+          "value": "reconnaissance"
+        },
+        {
+          "expanded": "Weaponization",
+          "value": "weaponization"
+        },
+        {
+          "expanded": "Delivery",
+          "value": "delivery"
+        },
+        {
+          "expanded": "Social Engineering",
+          "value": "social-engineering"
+        },
+        {
+          "expanded": "Exploitation",
+          "value": "exploitation"
+        },
+        {
+          "expanded": "Persistence",
+          "value": "persistence"
+        },
+        {
+          "expanded": "Defense Evasion",
+          "value": "defense-evasion"
+        },
+        {
+          "expanded": "Command & Control",
+          "value": "command-control"
+        }
+      ]
+    },
+    {
+      "predicate": "Network Propagation",
+      "entry": [
+        {
+          "expanded": "Pivoting",
+          "value": "pivoting"
+        },
+        {
+          "expanded": "Discovery",
+          "value": "discovery"
+        },
+        {
+          "expanded": "Privilege Escalation",
+          "value": "privilege-escalation"
+        },
+        {
+          "expanded": "Execution",
+          "value": "execution"
+        },
+        {
+          "expanded": "Credential Access",
+          "value": "credential-access"
+        },
+        {
+          "expanded": "Lateral Movement",
+          "value": "lateral-movement"
+        }
+      ]
+    },
+    {
+      "predicate": "Action on Objectives",
+      "entry": [
+        {
+          "expanded": "Access",
+          "value": "access"
+        },
+        {
+          "expanded": "Collection",
+          "value": "collection"
+        },
+        {
+          "expanded": "Exfiltration",
+          "value": "exfiltration"
+        },
+        {
+          "expanded": "Impact",
+          "value": "impact"
+        },
+        {
+          "expanded": "Objectives",
+          "value": "objectives"
+        }
+      ]
+    }
+  ]
+}

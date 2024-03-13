@@ -1,8 +1,8 @@
 {
   "namespace": "dark-web",
   "expanded": "Dark Web",
-  "description": "Criminal motivation on the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project",
-  "version": 4,
+  "description": "Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.",
+  "version": 6,
   "predicates": [
     {
       "value": "topic",
@@ -18,6 +18,16 @@
       "value": "structure",
       "description": "Structure of the materials tagged",
       "expanded": "Structure"
+    },
+    {
+      "value": "service",
+      "description": "Information related to an Dark-Web service",
+      "expanded": "Service"
+    },
+    {
+      "value": "content",
+      "description": "Identifiable entities and information contained in a Dark-Web service",
+      "expanded": "Content"
     }
   ],
   "values": [
@@ -26,182 +36,182 @@
       "entry": [
         {
           "value": "drugs-narcotics",
-          "expanded": "Drugs/Narcotics",
+          "expanded": "drugsNarcotics",
           "description": "Illegal drugs/chemical compounds for consumption/ingestion - either via blanket unlawfulness (e.g. proscribed drugs) or via unlawful access (e.g. prescription-only/restricted medications sold without lawful accessibility)."
         },
         {
           "value": "electronics",
-          "expanded": "Electronics",
+          "expanded": "electronics",
           "description": "Electronics and high tech materials, described or to sell for example."
         },
         {
           "value": "finance",
-          "expanded": "Finance",
+          "expanded": "finance",
           "description": "Any monetary/currency/exchangeable materials. Includes carding, Paypal etc."
         },
         {
           "value": "finance-crypto",
-          "expanded": "CryptoFinance",
+          "expanded": "cryptoFinance",
           "description": "Any monetary/currency/exchangeable materials based on cryptocurrencies. Includes Bitcoin, Litecoin etc."
         },
         {
           "value": "credit-card",
-          "expanded": "Credit-Card",
+          "expanded": "creditCard",
           "description": "Credit cards and payments materials"
         },
         {
           "value": "cash-in",
-          "expanded": "Cash-in",
+          "expanded": "cashIn",
           "description": "Buying parts of assets, conversion from liquid assets, currency, etc."
         },
         {
           "value": "cash-out",
-          "expanded": "Cash-out",
+          "expanded": "cashOut",
           "description": "Selling parts of assets, conversion to liquid assets, currency, etc."
         },
         {
           "value": "escrow",
-          "expanded": "Escrow",
+          "expanded": "escrow",
           "description": "Third party keeping assets in behalf of two other parties making a transactions."
         },
         {
           "value": "hacking",
-          "expanded": "Hacking",
+          "expanded": "hacking",
           "description": "Materials relating to the illegal access to or alteration of data and/or electronic services."
         },
         {
           "value": "identification-credentials",
-          "expanded": "Identification/Credentials",
+          "expanded": "identificationCredentials",
           "description": "Materials used for providing/establishing identification with third parties. Examples include passports, driver licenses and login credentials."
         },
         {
           "value": "intellectual-property-copyright-materials",
-          "expanded": "Intellectual Property/Copyright Materials",
+          "expanded": "intellectualPropertyCopyrightMaterials",
           "description": "Otherwise lawful materials stored, transferred or made available without consent of their legal rights holders."
         },
         {
           "value": "pornography-adult",
-          "expanded": "Pornography - Adult",
+          "expanded": "pornographyAdult",
           "description": "Lawful, ethical pornography (i.e. involving only consenting adults)."
         },
         {
           "value": "pornography-child-exploitation",
-          "expanded": "Pornography - Child (Child Exploitation)",
+          "expanded": "pornographyChild(ChildExploitation)",
           "description": "Child abuse materials (aka child pornography), including 'fantasy' fiction materials, CGI. Also includes the provision/offering of child abuse materials and/or activities"
         },
         {
           "value": "pornography-illicit-or-illegal",
-          "expanded": "Pornography - Illicit or Illegal",
+          "expanded": "pornographyIllicitOrIllegal",
           "description": "Illegal pornography NOT including children/child abuse. Includes bestiality, stolen/revenge porn, hidden cameras etc."
         },
         {
           "value": "search-engine-index",
-          "expanded": "Search Engine/Index",
+          "expanded": "searchEngineIndex",
           "description": "Site providing links/references to other sites/services. Referred to as a ‘nexus’ by (Moore and Rid, 2016)"
         },
         {
           "value": "unclear",
-          "expanded": "Unclear",
+          "expanded": "unclear",
           "description": "Unable to completely establish topic of material."
         },
         {
           "value": "extremism",
-          "expanded": "Extremism",
+          "expanded": "extremism",
           "description": "Illegal or ‘of concern’ levels of extremist ideology. Note this does not provide blanket coverage of fundamentalist ideologies and dogma - only those associated with illegal acts. Socialist/anarchist/religious materials (for example) will not be included unless inclusive or indicative of associated illegal conduct, such as hate crimes."
         },
         {
           "value": "violence",
-          "expanded": "Violence",
+          "expanded": "violence",
           "description": "Materials relating to violence against persons or property."
         },
         {
           "value": "weapons",
-          "expanded": "Weapons",
+          "expanded": "weapons",
           "description": "Materials specifically associated with materials and/or items for use in violent acts against persons or property. Examples include firearms and bomb-making ingredients."
         },
         {
           "value": "softwares",
-          "expanded": "Softwares",
+          "expanded": "softwares",
           "description": "Illegal or armful software distribution"
         },
         {
           "value": "counteir-feit-materials",
-          "expanded": "Counter-feit materials",
+          "expanded": "counterFeitMaterials",
           "description": "Fake identification papers."
         },
         {
           "value": "gambling",
-          "expanded": "Gambling",
+          "expanded": "gambling",
           "description": "Games involving money"
         },
         {
           "value": "library",
-          "expanded": "Library",
+          "expanded": "library",
           "description": "Library or list of books"
         },
         {
           "value": "other-not-illegal",
-          "expanded": "Other not illegal",
+          "expanded": "otherNotIllegal",
           "description": "Material not of interest to law enforcement - e.g. personal sites, Facebook mirrors."
         },
         {
           "value": "legitimate",
-          "expanded": "Legitimate",
+          "expanded": "legitimate",
           "description": "Legitimate websites"
         },
         {
           "value": "chat",
-          "expanded": "Chats platforms",
+          "expanded": "chatsPlatforms",
           "description": "Chats space or equivalent, which are not forums"
         },
         {
           "value": "mixer",
-          "expanded": "Mixer",
+          "expanded": "mixer",
           "description": "Anonymization tools for crypto-currencies transactions"
         },
         {
           "value": "mystery-box",
-          "expanded": "Mystery-Box",
+          "expanded": "mysteryBox",
           "description": "Mystery Box seller"
         },
         {
           "value": "anonymizer",
-          "expanded": "Anonymizer",
+          "expanded": "anonymizer",
           "description": "Anonymization tools"
         },
         {
           "value": "vpn-provider",
-          "expanded": "VPN-Provider",
+          "expanded": "vpnProvider",
           "description": "Provides VPN services and related"
         },
         {
           "value": "email-provider",
-          "expanded": "EMail-Provider",
+          "expanded": "emailProvider",
           "description": "Provides e-mail services and related"
         },
         {
           "value": "ponies",
-          "expanded": "Ponies",
+          "expanded": "ponies",
           "description": "self-explanatory. It's ponies"
         },
         {
           "value": "games",
-          "expanded": "Games",
+          "expanded": "games",
           "description": "Flash or online games"
         },
         {
           "value": "parody",
-          "expanded": "Parody or Joke",
+          "expanded": "parodyOrJoke",
           "description": "Meme, Parody, Jokes, Trolling, ..."
         },
         {
           "value": "whistleblower",
-          "expanded": "Whistleblower",
+          "expanded": "whistleblower",
           "description": "Exposition and sharing of confidential information with protection of the witness in mind"
         },
         {
           "value": "ransomware-group",
-          "expanded": "Ransomware Group",
+          "expanded": "ransomwareGroup",
           "description": "Ransomware group PR or leak website"
         }
       ]
@@ -211,92 +221,92 @@
       "entry": [
         {
           "value": "education-training",
-          "expanded": "Education & Training",
+          "expanded": "educationTraining",
           "description": "Materials providing instruction - e.g. ‘how to’ guides"
         },
         {
           "value": "wiki",
-          "expanded": "Wiki",
+          "expanded": "wiki",
           "description": "Wiki pages, documentation and information display"
         },
         {
           "value": "forum",
-          "expanded": "Forum",
+          "expanded": "forum",
           "description": "Sites specifically designed for multiple users to communicate as peers"
         },
         {
           "value": "file-sharing",
-          "expanded": "File Sharing",
+          "expanded": "fileSharing",
           "description": "General file sharing, typically (but not limited to) movie/image sharing"
         },
         {
           "value": "hosting",
-          "expanded": "Hosting",
+          "expanded": "hosting",
           "description": "Hosting providers, e-mails, websites, file-storage etc."
         },
         {
           "value": "ddos-services",
-          "expanded": "DDoS-Services",
+          "expanded": "ddosServices",
           "description": "Stresser, Booter, DDoSer, DDoS as a Service provider, DDoS tools, etc."
         },
         {
           "value": "general",
-          "expanded": "General",
+          "expanded": "general",
           "description": "Materials not covered by the other motivations. Typically, materials of a nature not of interest to law enforcement.  For example, personal biography sites."
         },
         {
           "value": "information-sharing-reportage",
-          "expanded": "Information Sharing/Reportage",
+          "expanded": "InformationSharingReportage",
           "description": "Journalism/reporting on topics. Can include biased coverage, but obvious propaganda materials are covered by Recruitment/Advocacy."
         },
         {
           "value": "scam",
-          "expanded": "Scam",
+          "expanded": "scam",
           "description": "Intentional confidence trick to fraud people or group of people"
         },
         {
           "value": "political-speech",
-          "expanded": "Political-Speech",
+          "expanded": "politicalSpeech",
           "description": "Political, activism, without extremism."
         },
         {
           "value": "conspirationist",
-          "expanded": "Conspirationist",
+          "expanded": "conspirationist",
           "description": "Conspirationist content, fake news, etc."
         },
         {
           "value": "hate-speech",
-          "expanded": "Hate-Speech",
+          "expanded": "hateSpeech",
           "description": "Racism, violent, hate... speech."
         },
         {
           "value": "religious",
-          "expanded": "Religious",
+          "expanded": "religious",
           "description": "Religious, faith, doctrinal related content."
         },
         {
           "value": "marketplace-for-sale",
-          "expanded": "Marketplace/For Sale",
+          "expanded": "marketplaceForSale",
           "description": "Services/goods for sale, regardless of means of payment."
         },
         {
           "value": "smuggling",
-          "expanded": "Smuggling",
+          "expanded": "smuggling",
           "description": "Information or trading of wild animals, prohibited goods, ... "
         },
         {
           "value": "recruitment-advocacy",
-          "expanded": "Recruitment/Advocacy",
+          "expanded": "recruitmentAdvocacy",
           "description": "Propaganda"
         },
         {
           "value": "system-placeholder",
-          "expanded": "System/Placeholder",
+          "expanded": "systemPlaceholder",
           "description": "Automatically generated content, not designed for any identifiable purpose other than diagnostics - e.g. “It Works” message provided by default by Apache2"
         },
         {
           "value": "unclear",
-          "expanded": "Unclear",
+          "expanded": "unclear",
           "description": "Unable to completely establish motivation of material."
         }
       ]
@@ -306,53 +316,193 @@
       "entry": [
         {
           "value": "incomplete",
-          "expanded": "Incomplete websites or information",
+          "expanded": "incomplete",
           "description": "Websites and pages that are unable to load completely properly"
         },
         {
           "value": "captcha",
-          "expanded": "Captcha and Solvers",
+          "expanded": "captcha",
           "description": "Captchas and solvers elements"
         },
         {
           "value": "login-forms",
-          "expanded": "Logins forms and gates",
+          "expanded": "loginForms",
           "description": "Authentication pages, login page, login forms that block access to an internal part of a website."
         },
         {
           "value": "contact-forms",
-          "expanded": "Contact forms and gates",
+          "expanded": "contactForms",
           "description": "Forms to perform a contact request, send an e-mail, fill information, enter a password, ..."
         },
         {
           "value": "encryption-keys",
-          "expanded": "Encryption and decryption keys",
+          "expanded": "encryptionKeys",
           "description": "e.g. PGP Keys, passwords, ..."
         },
         {
           "value": "police-notice",
-          "expanded": "Police Notice",
+          "expanded": "policeNotice",
           "description": "Closed websites, with police-equivalent banners"
         },
         {
           "value": "legal-statement",
-          "expanded": "Legal-Statement",
+          "expanded": "legalStatement",
           "description": "RGPD statement, Privacy-policy, guidelines of a websites or forum..."
         },
         {
           "value": "test",
-          "expanded": "Test",
+          "expanded": "test",
           "description": "Test websites without any real consequences or effects"
         },
         {
           "value": "videos",
-          "expanded": "Videos",
+          "expanded": "videos",
           "description": "Videos and streaming"
         },
         {
+          "value": "ransomware-post",
+          "expanded": "ransomwarePost",
+          "description": "Ransomware post published by a ransomware group"
+        },
+        {
           "value": "unclear",
-          "expanded": "Unclear",
+          "expanded": "unclear",
           "description": "Unable to completely establish structure of material."
+        }
+      ]
+    },
+    {
+      "predicate": "service",
+      "entry": [
+        {
+          "value": "url",
+          "expanded": "url",
+          "description": "Uniform Resource Locator (URL) of a dark-web. The url should indicate a protocol (http), a hostname (www.example.com), and a file name (index.html). Example: http://www.example.com/index.html"
+        },
+        {
+          "value": "content-type",
+          "expanded": "contentType",
+          "description": "Content-Type representaton headerused to indicate the original media type of the resource (prior to any content encoding applied for sending). https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type"
+        },
+        {
+          "value": "path",
+          "expanded": "path",
+          "description": "The URL path is the string of information that comes after the top level domain name "
+        },
+        {
+          "value": "detection-date",
+          "expanded": "detectionDate",
+          "description": "Date in which the dark-web was detected. The date should be in ISO 8601 format. Example: 2019-01-01T00:00:00Z"
+        },
+        {
+          "value": "network-protocol",
+          "expanded": "networkProtocol",
+          "description": "Network protocol used to access the dark-web site (e.g., HTTP, HTTPS)"
+        },
+        {
+          "value": "port",
+          "expanded": "port",
+          "description": "Port number where the dark-web service is being offered"
+        },
+        {
+          "value": "network",
+          "expanded": "network",
+          "description": "Overlay network  (darknet) that host the service or content"
+        },
+        {
+          "value": "found-at",
+          "expanded": "foundAt",
+          "description": "Domain or service where the dark-web where found at"
+        }
+      ]
+    },
+    {
+      "predicate": "content",
+      "entry": [
+        {
+          "value": "sha1sum",
+          "expanded": "sha1sum",
+          "description": "SHA-1 (Secure Hash Algorithm 1) hash of the HTML or objectName content"
+        },
+        {
+          "value": "sha256sum",
+          "expanded": "sha256sum",
+          "description": "SHA-256 hash of the HTML or objectName content"
+        },
+        {
+          "value": "ssdeep",
+          "expanded": "ssdeep",
+          "description": "ssdeep fuzzy hash of the HTML or objectName content"
+        },
+        {
+          "value": "language",
+          "expanded": "language",
+          "description": "Detected language of the service in ISO 639‑1 Code. Example: en"
+        },
+        {
+          "value": "html",
+          "expanded": "html",
+          "description": "HyperText Markup Language (HTML) used in a website"
+        },
+        {
+          "value": "css",
+          "expanded": "css",
+          "description": "CSS (Cascading Style Sheets) used in a dark-web site"
+        },
+        {
+          "value": "text",
+          "expanded": "text",
+          "description": "Content of the dark-web service without HTML tags"
+        },
+        {
+          "value": "page-title",
+          "expanded": "pageTitle",
+          "description": "HTML <title> tag content of a dark-web site"
+        },
+        {
+          "value": "phone-number",
+          "expanded": "phoneNumber",
+          "description": "Phone number identified in the dark-web site"
+        },
+        {
+          "value": "creditCard",
+          "expanded": "creditCard",
+          "description": "Credit card identified in the dark-web site"
+        },
+        {
+          "value": "email",
+          "expanded": "email",
+          "description": "Email address identified in the dark-web site"
+        },
+        {
+          "value": "pgp-public-key-block",
+          "expanded": "pgpPublicKeyBlock",
+          "description": "PGP public key block identified in the dark-web site"
+        },
+        {
+          "value": "country",
+          "expanded": "country",
+          "description": "Associated country detected on the code of the dark-web site, following ISO 3166-1 alpha-2"
+        },
+        {
+          "value": "company-name",
+          "expanded": "companyName",
+          "description": "Company name identified in a dark-web site"
+        },
+        {
+          "value": "company-link",
+          "expanded": "companyLink",
+          "description": "Company link identified in a dark-web site"
+        },
+        {
+          "value": "victim-address",
+          "expanded": "victimAddress",
+          "description": "Business address identified in a dark-web site"
+        },
+        {
+          "value": "victim-TLD",
+          "expanded": "victimTLD",
+          "description": "Business Top Level Domain (TLD) of a company identified in a dark-web site"
         }
       ]
     }
