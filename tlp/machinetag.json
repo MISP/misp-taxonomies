@@ -13,6 +13,12 @@
       "value": "amber"
     },
     {
+      "colour": "#FFC000",
+      "description": "Limited disclosure, restricted to participants’ organizations only. Sources may use TLP:AMBER+STRICT when information requires support to be effectively acted upon, yet carries risks to privacy, reputation, or operations if shared outside of the organizations involved. Recipients may only share TLP:AMBER+STRICT information with members of their own organization only. Sources are at liberty to specify additional intended limits of the sharing: these must be adhered to.",
+      "expanded": "(TLP:AMBER+STRICT) Information exclusively given to an organization; sharing limited within the organization to be effectively acted upon.",
+      "value": "amber+strict"
+    },
+    {
       "colour": "#339900",
       "description": "Limited disclosure, restricted to the community. Sources may use TLP:GREEN when information is useful for the awareness of all participating organizations as well as with peers within the broader community or sector. Recipients may share TLP:GREEN information with peers and partner organizations within their sector or community, but not via publicly accessible channels. Information in this category can be circulated widely within a particular community. TLP:GREEN information may not be released outside of the community.",
       "expanded": "(TLP:GREEN) Information given to a community or a group of organizations at large. The information cannot be publicly released.",
@@ -20,9 +26,9 @@
     },
     {
       "colour": "#ffffff",
-      "description": "Disclosure is not limited.  Sources may use TLP:WHITE when information carries minimal or no foreseeable risk of misuse, in accordance with applicable rules and procedures for public release. Subject to standard copyright rules, TLP:WHITE information may be distributed without restriction.",
-      "expanded": "(TLP:WHITE) Information can be shared publicly in accordance with the law.",
-      "value": "white"
+      "description": "Disclosure is not limited.  Sources may use TLP:WHITE when information carries minimal or no foreseeable risk of misuse, in accordance with applicable rules and procedures for public release. Subject to standard copyright rules, TLP:CLEAR information may be distributed without restriction.",
+      "expanded": "(TLP:CLEAR) Information can be shared publicly in accordance with the law.",
+      "value": "clear"
     },
     {
       "colour": "#d208f4",
