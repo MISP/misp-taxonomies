@@ -2,7 +2,7 @@
   "namespace": "workflow",
   "expanded": "workflow to support analysis",
   "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
-  "version": 12,
+  "version": 13,
   "predicates": [
     {
       "value": "todo",
@@ -106,7 +106,15 @@
         },
         {
           "value": "preserve-evidence",
-          "expanded": "Preseve evidence mentioned in the information tagged"
+          "expanded": "Preserve evidence mentioned in the information tagged"
+        },
+        {
+          "value": "review-relevance",
+          "expanded": "Review if the event is relevant"
+        },
+        {
+          "value": "review-completeness",
+          "expanded": "Review if the event is complete"
         }
       ]
     },
