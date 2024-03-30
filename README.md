@@ -605,7 +605,7 @@ A political spectrum is a system to characterize and classify different politica
 ### priority-level
 
 [priority-level](https://github.com/MISP/misp-taxonomies/tree/main/priority-level) :
-After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.us-cert.gov/NCCIC-Cyber-Incident-Scoring-System. [Overview](https://www.misp-project.org/taxonomies.html#_priority_level)
+After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.cisa.gov/news-events/news/cisa-national-cyber-incident-scoring-system-nciss. [Overview](https://www.misp-project.org/taxonomies.html#_priority_level)
 
 ### pyoti
 
