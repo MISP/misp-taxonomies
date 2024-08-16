@@ -1,0 +1,89 @@
+{
+  "name": "Engage",
+  "description": "MITRE Engage Framework Taxonomy: A structured approach to influence and understand adversary behavior through proactive defense strategies.",
+  "version": 1,
+  "author": "DCG420",
+  "values": [
+    {
+      "value": "approach",
+      "expanded": "Engage Approach",
+      "description": "The overarching strategies used in the Engage framework to influence adversary behavior and enhance defense postures.",
+      "children": [
+        {
+          "value": "engage_defend",
+          "expanded": "Engage Defend",
+          "description": "Strategies and tactics focused on reinforcing the security posture to make it harder for adversaries to achieve their objectives. This includes hardening defenses, improving access controls, and deploying advanced threat detection systems. Example: Implementing multi-factor authentication across critical systems to prevent unauthorized access."
+        },
+        {
+          "value": "engage_disrupt",
+          "expanded": "Engage Disrupt",
+          "description": "Actions aimed at interrupting or hindering adversary activities. This might involve disrupting communication channels, corrupting adversary data, or creating uncertainty in their operational environment. Example: Injecting false data into adversary's command and control (C2) channels to cause operational confusion."
+        },
+        {
+          "value": "engage_detect",
+          "expanded": "Engage Detect",
+          "description": "Methods to improve the visibility and detection of adversary actions within the network. This includes deploying sensors, enhancing monitoring, and using behavioral analytics to detect unusual activities. Example: Utilizing machine learning models to detect deviations from normal user behavior indicating potential insider threats."
+        },
+        {
+          "value": "engage_deceive",
+          "expanded": "Engage Deceive",
+          "description": "Techniques designed to mislead, confuse, or provide false information to adversaries, causing them to make poor decisions. This may include honeypots, decoy systems, or false narratives. Example: Deploying decoy systems that mimic critical infrastructure to lure attackers away from real assets."
+        }
+      ]
+    },
+    {
+      "value": "goals",
+      "expanded": "Engage Goals",
+      "description": "The desired outcomes of employing Engage approaches, focused on reducing risks, understanding adversaries, and protecting assets.",
+      "children": [
+        {
+          "value": "reduce_risk",
+          "expanded": "Reduce Risk",
+          "description": "Minimize the likelihood and impact of successful adversary actions by proactively managing vulnerabilities and threats. Example: Regularly updating and patching software to close known vulnerabilities that adversaries could exploit."
+        },
+        {
+          "value": "increase_cost",
+          "expanded": "Increase Adversary's Cost",
+          "description": "Raise the resources (time, money, effort) adversaries must expend to achieve their objectives, thereby deterring attacks. Example: Implementing layered defenses that require adversaries to breach multiple barriers, increasing their operational complexity and cost."
+        },
+        {
+          "value": "reduce_impact",
+          "expanded": "Reduce Impact",
+          "description": "Limit the damage or disruption caused by successful adversary actions through resilient design and rapid response. Example: Designing critical systems with redundancy to ensure continuous operation even if one component is compromised."
+        },
+        {
+          "value": "understand_adversary",
+          "expanded": "Understand Adversary",
+          "description": "Gain insights into the tactics, techniques, procedures (TTPs), and motivations of adversaries to inform better defense strategies. Example: Analyzing threat intelligence reports to identify patterns in adversary behavior and anticipate future attacks."
+        }
+      ]
+    },
+    {
+      "value": "actions",
+      "expanded": "Engage Actions",
+      "description": "Specific activities undertaken to implement the Engage approaches, aimed at countering or exploiting adversary actions.",
+      "children": [
+        {
+          "value": "introduce_noise",
+          "expanded": "Introduce Noise",
+          "description": "Add misleading or irrelevant information into adversary operations to degrade their decision-making and operational efficiency. Example: Inserting fake credentials into the environment that adversaries might use, leading them to incorrect conclusions."
+        },
+        {
+          "value": "control_information",
+          "expanded": "Control Information",
+          "description": "Manage and manipulate the information that adversaries can access, shaping their perception and actions. Example: Using data masking techniques to protect sensitive information while allowing adversaries to access less critical data."
+        },
+        {
+          "value": "isolate_adversary",
+          "expanded": "Isolate Adversary",
+          "description": "Limit the adversary's ability to move laterally within the network or communicate with external command centers. Example: Segmenting networks to prevent adversaries from easily navigating between different systems and isolating compromised assets."
+        },
+        {
+          "value": "monitor_adversary",
+          "expanded": "Monitor Adversary",
+          "description": "Continuously observe adversary activities to gather intelligence and adapt defense strategies. Example: Using honeynets to attract adversaries and study their techniques in a controlled environment."
+        }
+      ]
+    }
+  ]
+}
