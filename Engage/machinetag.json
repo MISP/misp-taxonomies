@@ -1,87 +1,232 @@
 {
-  "name": "Engage",
-  "description": "MITRE Engage Framework Taxonomy: A structured approach to influence and understand adversary behavior through proactive defense strategies.",
+  "name": "engage",
+  "description": "MITRE Engage Framework Taxonomy: Structured around Engage Goals, Approaches, and Actions.",
   "version": 1,
-  "author": "DCG420",
+  "author": "Your Name or Organization",
+  "category": "Mitigation",
   "values": [
-    {
-      "value": "approach",
-      "expanded": "Engage Approach",
-      "description": "The overarching strategies used in the Engage framework to influence adversary behavior and enhance defense postures.",
-      "children": [
-        {
-          "value": "engage_defend",
-          "expanded": "Engage Defend",
-          "description": "Strategies and tactics focused on reinforcing the security posture to make it harder for adversaries to achieve their objectives. This includes hardening defenses, improving access controls, and deploying advanced threat detection systems. Example: Implementing multi-factor authentication across critical systems to prevent unauthorized access."
-        },
-        {
-          "value": "engage_disrupt",
-          "expanded": "Engage Disrupt",
-          "description": "Actions aimed at interrupting or hindering adversary activities. This might involve disrupting communication channels, corrupting adversary data, or creating uncertainty in their operational environment. Example: Injecting false data into adversary's command and control (C2) channels to cause operational confusion."
-        },
-        {
-          "value": "engage_detect",
-          "expanded": "Engage Detect",
-          "description": "Methods to improve the visibility and detection of adversary actions within the network. This includes deploying sensors, enhancing monitoring, and using behavioral analytics to detect unusual activities. Example: Utilizing machine learning models to detect deviations from normal user behavior indicating potential insider threats."
-        },
-        {
-          "value": "engage_deceive",
-          "expanded": "Engage Deceive",
-          "description": "Techniques designed to mislead, confuse, or provide false information to adversaries, causing them to make poor decisions. This may include honeypots, decoy systems, or false narratives. Example: Deploying decoy systems that mimic critical infrastructure to lure attackers away from real assets."
-        }
-      ]
-    },
     {
       "value": "goals",
       "expanded": "Engage Goals",
-      "description": "The desired outcomes of employing Engage approaches, focused on reducing risks, understanding adversaries, and protecting assets.",
+      "description": "The high-level objectives aimed at influencing or understanding adversary behavior.",
       "children": [
         {
-          "value": "reduce_risk",
-          "expanded": "Reduce Risk",
-          "description": "Minimize the likelihood and impact of successful adversary actions by proactively managing vulnerabilities and threats. Example: Regularly updating and patching software to close known vulnerabilities that adversaries could exploit."
+          "value": "expose",
+          "expanded": "Expose (EGO0001)",
+          "description": "Reveal adversary actions, intentions, or vulnerabilities."
         },
         {
-          "value": "increase_cost",
-          "expanded": "Increase Adversary's Cost",
-          "description": "Raise the resources (time, money, effort) adversaries must expend to achieve their objectives, thereby deterring attacks. Example: Implementing layered defenses that require adversaries to breach multiple barriers, increasing their operational complexity and cost."
+          "value": "affect",
+          "expanded": "Affect (EGO0002)",
+          "description": "Influence or alter adversary behaviors, decisions, or operations."
         },
         {
-          "value": "reduce_impact",
-          "expanded": "Reduce Impact",
-          "description": "Limit the damage or disruption caused by successful adversary actions through resilient design and rapid response. Example: Designing critical systems with redundancy to ensure continuous operation even if one component is compromised."
-        },
-        {
-          "value": "understand_adversary",
-          "expanded": "Understand Adversary",
-          "description": "Gain insights into the tactics, techniques, procedures (TTPs), and motivations of adversaries to inform better defense strategies. Example: Analyzing threat intelligence reports to identify patterns in adversary behavior and anticipate future attacks."
+          "value": "elicit",
+          "expanded": "Elicit (EGO0003)",
+          "description": "Draw out responses or actions from the adversary."
         }
       ]
     },
     {
-      "value": "actions",
-      "expanded": "Engage Actions",
-      "description": "Specific activities undertaken to implement the Engage approaches, aimed at countering or exploiting adversary actions.",
+      "value": "strategic_goals",
+      "expanded": "Strategic Goals",
+      "description": "Long-term objectives to ensure preparedness and understanding of adversary behavior.",
       "children": [
         {
-          "value": "introduce_noise",
-          "expanded": "Introduce Noise",
-          "description": "Add misleading or irrelevant information into adversary operations to degrade their decision-making and operational efficiency. Example: Inserting fake credentials into the environment that adversaries might use, leading them to incorrect conclusions."
+          "value": "prepare",
+          "expanded": "Prepare (SGO0001)",
+          "description": "Establish readiness and resilience to address adversary activities."
         },
         {
-          "value": "control_information",
-          "expanded": "Control Information",
-          "description": "Manage and manipulate the information that adversaries can access, shaping their perception and actions. Example: Using data masking techniques to protect sensitive information while allowing adversaries to access less critical data."
+          "value": "understand",
+          "expanded": "Understand (SGO0002)",
+          "description": "Gain insights into adversary tactics and motivations."
+        }
+      ]
+    },
+    {
+      "value": "approaches",
+      "expanded": "Engage Approaches",
+      "description": "The methods used to achieve the Engage Goals.",
+      "children": [
+        {
+          "value": "collect",
+          "expanded": "Collect (EAP0001)",
+          "description": "Gather relevant information or intelligence.",
+          "children": [
+            {
+              "value": "gather_intelligence",
+              "expanded": "Gather Intelligence from Open Sources",
+              "description": "Collecting information from publicly available sources to understand adversary activities."
+            },
+            {
+              "value": "network_traffic_analysis",
+              "expanded": "Conduct Network Traffic Analysis",
+              "description": "Analyzing network traffic to identify suspicious activities or patterns."
+            }
+          ]
         },
         {
-          "value": "isolate_adversary",
-          "expanded": "Isolate Adversary",
-          "description": "Limit the adversary's ability to move laterally within the network or communicate with external command centers. Example: Segmenting networks to prevent adversaries from easily navigating between different systems and isolating compromised assets."
+          "value": "detect",
+          "expanded": "Detect (EAP0002)",
+          "description": "Identify adversary activities or indicators of compromise.",
+          "children": [
+            {
+              "value": "deploy_ids",
+              "expanded": "Deploy Intrusion Detection Systems",
+              "description": "Implementing IDS to monitor and detect unauthorized access or activities."
+            },
+            {
+              "value": "monitor_user_behavior",
+              "expanded": "Monitor User Behavior for Anomalies",
+              "description": "Tracking user activities to identify unusual or suspicious behavior patterns."
+            },
+            {
+              "value": "introduce_perception_of_detection",
+              "expanded": "Introduce Perception of Detection",
+              "description": "Making the adversary believe they have been or might be detected, influencing their behavior."
+            }
+          ]
         },
         {
-          "value": "monitor_adversary",
-          "expanded": "Monitor Adversary",
-          "description": "Continuously observe adversary activities to gather intelligence and adapt defense strategies. Example: Using honeynets to attract adversaries and study their techniques in a controlled environment."
+          "value": "prevent",
+          "expanded": "Prevent (EAP0003)",
+          "description": "Implement measures to stop adversary actions before they occur.",
+          "children": [
+            {
+              "value": "implement_access_controls",
+              "expanded": "Implement Access Controls",
+              "description": "Enforcing strict access policies to prevent unauthorized access."
+            },
+            {
+              "value": "apply_patches",
+              "expanded": "Apply Patches and Updates Regularly",
+              "description": "Ensuring that all software and systems are up-to-date to close vulnerabilities."
+            }
+          ]
+        },
+        {
+          "value": "direct",
+          "expanded": "Direct (EAP0004)",
+          "description": "Influence or guide adversary actions in a desired direction.",
+          "children": [
+            {
+              "value": "create_decoy_systems",
+              "expanded": "Create Decoy Systems",
+              "description": "Deploying systems designed to attract adversaries and gather intelligence on their methods."
+            },
+            {
+              "value": "deploy_misinformation",
+              "expanded": "Deploy Misinformation Campaigns",
+              "description": "Spreading false information to mislead adversaries."
+            }
+          ]
+        },
+        {
+          "value": "disrupt",
+          "expanded": "Disrupt (EAP0005)",
+          "description": "Interrupt or hinder adversary operations.",
+          "children": [
+            {
+              "value": "disrupt_c2",
+              "expanded": "Disrupt Command and Control Channels",
+              "description": "Targeting adversary communication channels to break their operational effectiveness."
+            },
+            {
+              "value": "disable_infrastructure",
+              "expanded": "Disable Adversary Infrastructure",
+              "description": "Taking down or disabling servers, networks, or tools used by adversaries."
+            },
+            {
+              "value": "introduce_friction",
+              "expanded": "Introduce Friction",
+              "description": "Adding delays or complications to disrupt adversary activities."
+            }
+          ]
+        },
+        {
+          "value": "reassure",
+          "expanded": "Reassure (EAP0006)",
+          "description": "Provide confidence to stakeholders or allies.",
+          "children": [
+            {
+              "value": "issue_public_statements",
+              "expanded": "Issue Public Statements",
+              "description": "Communicating openly to reassure the public or stakeholders of ongoing efforts."
+            },
+            {
+              "value": "engage_diplomatic_measures",
+              "expanded": "Engage in Diplomatic Measures",
+              "description": "Working with international partners to address cybersecurity concerns."
+            }
+          ]
+        },
+        {
+          "value": "motivate",
+          "expanded": "Motivate (EAP0007)",
+          "description": "Encourage or drive certain behaviors.",
+          "children": [
+            {
+              "value": "incentivize_compliance",
+              "expanded": "Incentivize Compliance",
+              "description": "Offering rewards or benefits to encourage adherence to security policies."
+            },
+            {
+              "value": "support_allied_efforts",
+              "expanded": "Support Allied Cybersecurity Efforts",
+              "description": "Providing assistance or resources to partners or allies in their cybersecurity efforts."
+            },
+            {
+              "value": "increase_opportunity_cost",
+              "expanded": "Increase Opportunity Cost",
+              "description": "Raising the resources required by the adversary to achieve their objectives, making the attack less appealing."
+            }
+          ]
+        },
+        {
+          "value": "confuse",
+          "expanded": "Confuse (EAP0008)",
+          "description": "Provide misleading or contradictory information to disrupt the adversary’s understanding and decision-making.",
+          "children": [
+            {
+              "value": "mislead",
+              "expanded": "Mislead",
+              "description": "Directing the adversary toward incorrect conclusions through false information or deceptive practices."
+            },
+            {
+              "value": "introduce_ambiguity",
+              "expanded": "Introduce Ambiguity",
+              "description": "Creating uncertainty for the adversary by altering the information or environment they rely on."
+            }
+          ]
+        },
+        {
+          "value": "exhaust",
+          "expanded": "Exhaust (EAP0009)",
+          "description": "Deplete the adversary’s resources, such as time, effort, or tools, to reduce their effectiveness.",
+          "children": [
+            {
+              "value": "exhaust_resources",
+              "expanded": "Exhaust Resources",
+              "description": "Using tactics to drain adversary resources and reduce their operational effectiveness."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "strategic_approaches",
+      "expanded": "Strategic Approaches",
+      "children": [
+        {
+          "value": "plan",
+          "expanded": "Plan (SAP0001)",
+          "description": "Develop strategies and actions to address adversary behavior."
+        },
+        {
+          "value": "analyze",
+          "expanded": "Analyze (SAP0002)",
+          "description": "Examine information and intelligence to understand adversary TTPs."
         }
       ]
     }
