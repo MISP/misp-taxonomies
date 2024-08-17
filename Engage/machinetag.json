@@ -1,8 +1,8 @@
 {
-  "name": "engage",
+  "name": "Engage",
   "description": "MITRE Engage Framework Taxonomy: Structured around Engage Goals, Approaches, and Actions.",
   "version": 1,
-  "author": "Your Name or Organization",
+  "author": "DCG420",
   "category": "Mitigation",
   "values": [
     {
