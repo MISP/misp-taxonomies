@@ -501,7 +501,7 @@
     {
       "description": "Classification based on different categories. Based on https://www.sans.org/reading-room/whitepapers/incident/malware-101-viruses-32848",
       "name": "malware_classification",
-      "version": 2
+      "version": 3
     },
     {
       "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical News Sources by Melissa Zimdars 2019",
@@ -511,7 +511,7 @@
     {
       "description": "MISP taxonomy to infer with MISP behavior or operation.",
       "name": "misp",
-      "version": 12
+      "version": 14
     },
     {
       "description": "MISP workflow taxonomy to support result of workflow execution.",
@@ -749,11 +749,16 @@
       "version": 3
     },
     {
+      "description": "A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.",
+      "name": "vulnerability",
+      "version": 1
+    },
+    {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
-      "version": 12
+      "version": 14
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20240304"
+  "version": "20240830"
 }
