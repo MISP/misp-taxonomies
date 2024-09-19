@@ -1,7 +1,7 @@
 {
   "namespace": "GrayZone",
   "description": "Gray Zone of Active defense includes all elements which lay between reactive defense elements and offensive operations. It does fill the gray spot between them. Taxo may be used for active defense planning or modeling.",
-  "version": 3.1,
+  "version": 3,
   "predicates": [
     {
       "value": "Adversary Emulation",
