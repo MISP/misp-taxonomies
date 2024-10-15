@@ -1,0 +1,275 @@
+{
+  "namespace": "acs-marking",
+  "description": "The Access Control Specification (ACS) marking type defines the object types required to implement automated access control systems based on the relevant policies governing sharing between participants.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "privilege_action",
+      "expanded": "Privilege Action",
+      "description": "Indicates the action that may be taken."
+    },
+    {
+      "value": "classification",
+      "expanded": "Classification",
+      "description": "The Classification value contains the classification of the data based on the Executive Order 13526, Classified National Security Information and the Information Security Manual (ISM) marking system.",
+      "exclusive": true
+    },
+    {
+      "value": "formal_determination",
+      "expanded": "Formal Determination",
+      "description": "Indicates other formal determinations beyond classification that have been applied to a resource."
+    },
+    {
+      "value": "caveat",
+      "expanded": "Caveat",
+      "description": "Indicates a specific protocol."
+    },
+    {
+      "value": "sensitivity",
+      "expanded": "Sensitivity",
+      "description": "The sensitivity property is used to specify an inherent sensitivity about the data that requires specific restrictions in access or handling."
+    },
+    {
+      "value": "shareability",
+      "expanded": "Shareability",
+      "description": "property is used to identify the shareability of a resource that may be released based on the determination of an originator in accordance with established disclosure procedures."
+    },
+    {
+      "value": "entity",
+      "expanded": "Entity",
+      "description": "property is used to identify the entities to which information may be released based on the determination of an originator."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "privilege_action",
+      "entry": [
+        {
+          "value": "DSPLY",
+          "expanded": "Display",
+          "description": "The action of displaying, either in a hard copy document or a visual presentation of the resource. DSPLY should be used to permit display when there is generally a global deny for all actions."
+        },
+        {
+          "value": "IDSRC",
+          "expanded": "Identify the Source",
+          "description": "The action of identifying the source of the resource further than the entity receiving the resource. The use of IDSRC does not authorize any changes to markings on the resource. For example, the removal of the source information will not change the classification of the resource."
+        },
+        {
+          "value": "TENOT",
+          "expanded": "Notify a Target Entity",
+          "description": "The action of notifying a targeted entity of a cybersecurity incident based on the resource."
+        },
+        {
+          "value": "NETDEF",
+          "expanded": "Network Defense",
+          "description": "The action of taking network defense actions including detection and mitigation, remediation, and local analysis and signature development, based on the resource."
+        },
+        {
+          "value": "LEGAL",
+          "expanded": "Legal",
+          "description": "The action of using the resource in legal proceedings."
+        },
+        {
+          "value": "INTEL",
+          "expanded": "Intelligence Analysis",
+          "description": "The action of conducting additional intelligence analysis based on the resource."
+        },
+        {
+          "value": "TEARLINE",
+          "expanded": "Tear Line",
+          "description": "The action of removing and taking further action on components of a resource based on their component markings. To be tear- lineable indicates that marked components of a document may be removed and treated as individually marked components."
+        },
+        {
+          "value": "OPACTION",
+          "expanded": "Operation Action",
+          "description": "The action of conducting cyber-based operations applied to adversary capabilities based on the resource."
+        },
+        {
+          "value": "REQUEST",
+          "expanded": "Request",
+          "description": "The action of requesting a waiver to an access privilege restriction."
+        },
+        {
+          "value": "ANONYMOUSACCESS",
+          "expanded": "Anonymous Access",
+          "description": "The action of allowing anonymous access to the resource. This action is included to support the restrictions placed on the indicators shared with the US government from the DHS Automated Indicator Sharing (AIS) program."
+        },
+        {
+          "value": "CISAUSES",
+          "expanded": "Allowed in the Cybersecurity Information Sharing Act",
+          "description": "The cybersecurity purposes allowed in the Cybersecurity Information Sharing Act of 2015."
+        }
+      ]
+    },
+    {
+      "predicate": "classification",
+      "entry": [
+        {
+          "value": "U",
+          "expanded": "Unclassified"
+        },
+        {
+          "value": "C",
+          "expanded": "Classified"
+        },
+        {
+          "value": "S",
+          "expanded": "Secret"
+        },
+        {
+          "value": "TS",
+          "expanded": "Top Secret"
+        }
+      ]
+    },
+    {
+      "predicate": "formal_determination",
+      "entry": [
+        {
+          "value": "AIS",
+          "expanded": "Automated Indicator Sharing",
+          "description": "The resource is appropriate for AIS (Automated Indicator Sharing)"
+        },
+        {
+          "value": "FOUO",
+          "expanded": "For Official Use Only",
+          "description": "The resource is appropriate For Official Use Only."
+        },
+        {
+          "value": "NF",
+          "expanded": "Not releasable to Foreign Nationals",
+          "description": "Indicates that the resource is releasable to U.S. citizens and not releasable to foreign nationals without the permission of the originator."
+        },
+        {
+          "value": "PII-NECESSARY-TO-UNDERSTAND-THREAT",
+          "expanded": "Personally Identifiable Information Necessary to Understand Threat",
+          "description": "Personally identifiable information (PII) necessary to understand the context of the resource is present."
+        },
+        {
+          "value": "NO-PII-PRESENT",
+          "expanded": "No Personally Identifiable Information Present",
+          "description": "Personally identifiable Information (PII) is not present."
+        },
+        {
+          "value": "PUBREL",
+          "expanded": "Public Release",
+          "description": "Approved for Public Release."
+        },
+        {
+          "value": "INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT",
+          "expanded": "Information Directly Related to a Cybersecurity Threat",
+          "description": "Indicates that any personal information of a specific individual or information that identifies a specific individual has been determined to be directly related to a cybersecurity threat."
+        }
+      ]
+    },
+    {
+      "predicate": "caveat",
+      "entry": [
+        {
+          "value": "FISA",
+          "expanded": "Foreign Intelligence Surveillance Act",
+          "description": "The FISA caveat marking denotes the presence of Foreign Intelligence Surveillance Act (FISA) (Reference 18) or FISA-derived information in the document. This is an informational marking only to highlight such information. Recipients of resources with the FISA control marking are responsible for ensuring that the resource is protected in conformance with the legal requirements of the FISA for limitations on use and warning displays."
+        },
+        {
+          "value": "POSSIBLEPII",
+          "expanded": "Possible Personally Identifiable Information",
+          "description": "The POSSIBLEPII caveat marking indicates to the recipient that the resource may contain Personally Identifiable Information (PII). Recipients are responsible for ensuring that the resource is protected according to their agencies policies related to PII."
+        },
+        {
+          "value": "CISAPROPRIETARY",
+          "expanded": "Cybersecurity Information Sharing Act Proprietary",
+          "description": "The CISAPROPRIETARY caveat marking indicates that the resource must observe appropriate restrictions as requested by the originator in accordance with the Cybersecurity Information Sharing Act of 2015."
+        }
+      ]
+    },
+    {
+      "predicate": "sensitivity",
+      "entry": [
+        {
+          "value": "NTOC_DHS_ECYBER_SVC_SHARE.NSA.NSA",
+          "expanded": "Enhanced Cybersecurity Services"
+        },
+        {
+          "value": "PCII",
+          "expanded": "Protected Critical Infrastructure Information"
+        },
+        {
+          "value": "LES",
+          "expanded": "Law Enforcement Sensitive Information"
+        },
+        {
+          "value": "INT",
+          "expanded": "Intelligence Information"
+        },
+        {
+          "value": "PII",
+          "expanded": "Personally Identifiable Information"
+        },
+        {
+          "value": "PR",
+          "expanded": "Cybersecurity Targeted Entity Information"
+        },
+        {
+          "value": "TEI",
+          "expanded": "Commercial Proprietary Information"
+        }
+      ]
+    },
+    {
+      "predicate": "shareability",
+      "entry": [
+        {
+          "value": "NCC",
+          "expanded": "National Cyber Centers"
+        },
+        {
+          "value": "EM",
+          "expanded": "Emergency Management"
+        },
+        {
+          "value": "LE",
+          "expanded": "Law Enforcement"
+        },
+        {
+          "value": "IC",
+          "expanded": "Intelligence Community"
+        }
+      ]
+    },
+    {
+      "predicate": "entity",
+      "entry": [
+        {
+          "value": "MIL",
+          "expanded": "Military Service Member"
+        },
+        {
+          "value": "GOV",
+          "expanded": "US Government",
+          "description": "U.S. federal government civilian employee."
+        },
+        {
+          "value": "CTR",
+          "expanded": "Contractor"
+        },
+        {
+          "value": "SVR",
+          "expanded": "Server"
+        },
+        {
+          "value": "SVC",
+          "expanded": "Service",
+          "description": "Service, Widget, Application, Software, etc."
+        },
+        {
+          "value": "DEV",
+          "expanded": "End-point Device."
+        },
+        {
+          "value": "NET",
+          "expanded": "Network Device"
+        }
+      ]
+    }
+  ]
+}
