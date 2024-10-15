@@ -39,6 +39,11 @@
       "version": 3
     },
     {
+      "description": "The Access Control Specification (ACS) marking type defines the object types required to implement automated access control systems based on the relevant policies governing sharing between participants.",
+      "name": "acs-marking",
+      "version": 1
+    },
+    {
       "description": "Action taken in the case of a security incident (CSIRT perspective).",
       "name": "action-taken",
       "version": 2
@@ -421,7 +426,7 @@
     {
       "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.",
       "name": "infoleak",
-      "version": 7
+      "version": 8
     },
     {
       "description": "Taxonomy for tagging information by its origin: human-generated or AI-generated.",
@@ -760,5 +765,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20240830"
+  "version": "20241015"
 }
