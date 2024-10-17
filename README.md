@@ -47,6 +47,11 @@ The access method used to remotely access a system. [Overview](https://www.misp-
 [accessnow](https://github.com/MISP/misp-taxonomies/tree/main/accessnow) :
 Access Now classification to classify an issue (such as security, human rights, youth rights). [Overview](https://www.misp-project.org/taxonomies.html#_accessnow)
 
+### acs-marking
+
+[acs-marking](https://github.com/MISP/misp-taxonomies/tree/main/acs-marking) :
+The Access Control Specification (ACS) marking type defines the object types required to implement automated access control systems based on the relevant policies governing sharing between participants. [Overview](https://www.misp-project.org/taxonomies.html#_acs_marking)
+
 ### action-taken
 
 [action-taken](https://github.com/MISP/misp-taxonomies/tree/main/action-taken) :
@@ -756,6 +761,11 @@ VMRay taxonomies to map VMRay Thread Identifier scores and artifacts. [Overview]
 
 [vocabulaire-des-probabilites-estimatives](https://github.com/MISP/misp-taxonomies/tree/main/vocabulaire-des-probabilites-estimatives) :
 Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité [Overview](https://www.misp-project.org/taxonomies.html#_vocabulaire_des_probabilites_estimatives)
+
+### vulnerability
+
+[vulnerability](https://github.com/MISP/misp-taxonomies/tree/main/vulnerability) :
+A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information. [Overview](https://www.misp-project.org/taxonomies.html#_vulnerability)
 
 ### workflow
 
