@@ -24,12 +24,8 @@
       "expanded": "Tarpits, Sandboxes and Honeypots"
     },
     {
-      "value": "Threat Intelligence",
-      "expanded": "Threat Intelligence"
-    },
-    {
-      "value": "Threat Hunting",
-      "expanded": "Threat Hunting"
+      "value": "Intelligence and Counterintelligence",
+      "expanded": "Intelligence and Counterintelligence"
     },
     {
       "value": "Adversary Takedowns",
@@ -126,11 +122,6 @@
           "value": "CounterDeception",
           "expanded": "Answer to deception",
           "description": "Answer to deception from adversary is counter-deception, for example: answer to phish with shadow user account to uncover next adversary actions"
-        },
-        {
-          "value": "Counter-Deception",
-          "expanded": "Active counterdeception",
-          "description": "Answer to adversary deception and his tactical goals, example: if You know the adversary goal(extraction) You can plant documents with fake content to enable damage on adversary sources (fake blueprints of engine, which explode on purpose)"
         }
       ]
     },
@@ -155,37 +146,52 @@
       ]
     },
     {
-      "predicate": "Threat Intelligence",
+      "predicate": "Intelligence and Counterintelligence",
       "entry": [
         {
-          "value": "Passive - OSINT",
-          "expanded": "OpenSourceINTelligence",
-          "description": "Use of OSINT for creating of Threat Intelligence"
+          "value": "Intel Passive",
+          "expanded": "Passive gathering, managing etc. of threat intelligence. Ie. getting data from public, available resources",
+          "description": "Getting threat intel from open and publicly available resources"
         },
         {
-          "value": "Passive - platforms",
-          "expanded": "Platforms for TI",
-          "description": "Save, share and collaborate on threat intelligence platforms"
+          "value": "Intel Active",
+          "expanded": "Active or proactive intel gathering, collecting etc. Ie. closed resources as private forums, gossip ...",
+          "description": "Getting threat intel from closed resources or trusted parties as private chats or exploitation of groups etc."
         },
         {
-          "value": "Counter-Intelligence public",
-          "expanded": "Counter Intelligence",
-          "description": "Active retrieval of Threat Intelligence for purpose of defense collected with available public resources - example: active monitoring of web services to uncover action before happen (forum hacktivist group)"
+          "value": "Counterintel Defensive",
+          "expanded": "Includes subcategories as Deterrence and Detection ",
+          "description": "Focuses on detecting and neutralizing adversary efforts to compromise or exploit digital systems."
         },
         {
-          "value": "Counter-Intelligence government",
-          "expanded": "Counter Intelligence",
-          "description": "Active retrieval of Threat Intelligence for purpose of defense collected with non-public resources - example: cooperation between secret services in EU"
-        }
-      ]
-    },
-    {
-      "predicate": "Threat Hunting",
-      "entry": [
+          "value": "Counterintel Defensive - Deterrence",
+          "expanded": "Deterrende in cyber space as part of strategy",
+          "description": "Aims to discourage adversary actions by demonstrating strong protective measures and potential consequences."
+        },
         {
-          "value": "Threat Hunting",
-          "expanded": "Threat Hunting",
-          "description": "Threat Hunting is the activity of active search for possible signs of adversary in environment"
+          "value": "Counterintel Defensive - Detection",
+          "expanded": "Detection Engineering",
+          "description": "Ideally focuses on identifying and exposing adversary activities before they can cause harm."
+        },
+        {
+          "value": "Counterintel Offensive",
+          "expanded": "Includes subcategories as Detection, Deception and Neutralization",
+          "description": "Involves actively disrupting or deceiving adversary intelligence operations to gain strategic advantage"
+        },
+        {
+          "value": "Counterintel Offensive - Detection",
+          "expanded": "Detect operations of adversary before they reach friendly environment",
+          "description": "Detection involves actively identifying and exposing adversary cyber operations to disrupt their efforts."
+        },
+        {
+          "value": "Counterintel Offensive - Deception",
+          "expanded": "Creating deception campaigns, fake accounts, penetrating adversary communication with use of deception...",
+          "description": "Uses false information and tactics to mislead and confuse adversaries in their cyber operations."
+        },
+        {
+          "value": "Counterintel Offensive - Neutralization",
+          "expanded": "Adversary disruption as influence operation, environment disturbance to prevent adversary operations...",
+          "description": "Neutralization aims to disrupt and eliminate adversary cyber threats before they can inflict damage."
         }
       ]
     },
