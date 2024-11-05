@@ -32,7 +32,7 @@
       "exclusive": true
     }
   ],
-  "version": 8,
+  "version": 9,
   "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.",
   "namespace": "infoleak",
   "values": [
@@ -158,6 +158,10 @@
         {
           "value": "onion",
           "expanded": "Onion link"
+        },
+        {
+          "value": "barcode",
+          "expanded": "Barcode"
         },
         {
           "value": "qrcode",
@@ -291,6 +295,10 @@
         {
           "value": "onion",
           "expanded": "Onion link"
+        },
+        {
+          "value": "barcode",
+          "expanded": "Barcode"
         },
         {
           "value": "qrcode",
