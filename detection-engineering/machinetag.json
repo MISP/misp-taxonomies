@@ -1,0 +1,38 @@
+{
+  "namespace": "detection-engineering",
+  "description": "Taxonomy related to detection engineering techniques",
+  "version": 1,
+  "expanded": "Detection engineering",
+  "predicates": [
+    {
+      "value": "pattern-matching",
+      "expanded": "Pattern matching",
+      "description": "Describe the cardinality of patterns matching."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "pattern-matching",
+      "entry": [
+        {
+          "value": "high",
+          "expanded": "high",
+          "description": "A high number of patterns detected in the tagged item.",
+          "numerical_value": 100
+        },
+        {
+          "value": "medium",
+          "expanded": "medium",
+          "description": "A medium number of patterns detected in the tagged item.",
+          "numerical_value": 50
+        },
+        {
+          "value": "low",
+          "expanded": "low",
+          "description": "A low number of patterns detected in the tagged item.",
+          "numerical_value": 25
+        }
+      ]
+    }
+  ]
+}
