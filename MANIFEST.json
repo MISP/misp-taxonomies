@@ -214,6 +214,11 @@
       "version": 1
     },
     {
+      "description": "Taxonomy related to detection engineering techniques",
+      "name": "detection-engineering",
+      "version": 1
+    },
+    {
       "description": "A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others.",
       "name": "dga",
       "version": 2
@@ -765,5 +770,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20241015"
+  "version": "20241107"
 }
