@@ -431,7 +431,7 @@
     {
       "description": "A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.",
       "name": "infoleak",
-      "version": 8
+      "version": 10
     },
     {
       "description": "Taxonomy for tagging information by its origin: human-generated or AI-generated.",
@@ -770,5 +770,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20241107"
+  "version": "20241111"
 }
