@@ -204,11 +204,16 @@
           "value": "comcheck",
           "expanded": "Communication check",
           "description": "A communication check exercise which can include digital or non-digital communication."
+        },
+        {
+          "value": "red-teaming",
+          "expanded": "Red teaming",
+          "description": "An exercise which can be classified as red teaming."
         }
       ]
     }
   ],
-  "version": 11,
+  "version": 12,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise"
