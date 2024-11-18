@@ -316,7 +316,7 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 11
+      "version": 12
     },
     {
       "description": "Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf",
@@ -761,7 +761,7 @@
     {
       "description": "A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.",
       "name": "vulnerability",
-      "version": 1
+      "version": 2
     },
     {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
@@ -770,5 +770,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20241111"
+  "version": "20241118"
 }
