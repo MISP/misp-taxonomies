@@ -1,0 +1,42 @@
+{
+  "predicates": [
+    {
+      "colour": "#FF2B2B",
+      "description": "Divulgation limitée explicitement aux destinataires L’information transmise est diffusée à des individus spécifiques, par exemple lors d’échanges entre participants à une réunion ou à une conversation. Aucun partage n’est autorisé. L’information doit préférablement être communiquée verbalement.  En plus du code de couleurs précisant la diffusion autorisée, le divulgateur de l’information peut préciser sous l’étiquette d’autres contraintes de diffusion.",
+      "expanded": "(PFC:ROUGE) Divulgation limitée explicitement aux destinataires.",
+      "value": "rouge"
+    },
+    {
+      "colour": "#FFC000",
+      "description": "Divulgation limitée au destinataire et aux organismes du portefeuille du destinataire, sur la base du « besoin de connaître » L’information transmise peut être communiquée sur la base du « besoin de connaître » à l’organisation du destinataire et à tout autre organisme du portefeuille budgétaire du destinataire. Le MCN se réserve le droit d’anonymiser un message reçu avec le code PFC:AMBRE afin de permettre sa diffusion auprès de destinataires non prévus par le divulgateur lorsqu’il existe un besoin de partager l’information pour se protéger ou prévenir d’autres dommages.",
+      "expanded": "(PFC:AMBRE) Divulgation limitée au destinataire et aux organismes du portefeuille du destinataire, sur la base du « besoin de connaître ».",
+      "value": "ambre"
+    },
+    {
+      "colour": "#FFC000",
+      "description": "Divulgation limitée au destinataire et à son organisation, sur la base du « besoin de connaître »  L’information transmise peut être communiquée sur la base du « besoin de connaître » à l’organisation du destinataire seulement.  Le MCN se réserve le droit « d’anonymiser » un message reçu avec le code PFC:AMBRE+STRICT afin de permettre sa diffusion auprès de destinataires non prévus par le divulgateur lorsqu’il existe un besoin de partager l’information pour se protéger ou prévenir d’autres dommages.",
+      "expanded": "(PFC:AMBRE+STRICT) Divulgation limitée au destinataire et à son organisation, sur la base du « besoin de connaître ».",
+      "value": "ambre+strict"
+    },
+    {
+      "colour": "#33FF00",
+      "description": "L’information transmise peut être communiquée à tout organisme de l’écosystème québécois de cyberdéfense, qui inclut les organismes assujettis aux articles 12.2 à 12.4 de la Loi sur la gouvernance et la gestion des ressources informationnelles des organismes publics et des entreprises du gouvernement, ainsi que les organisations ayant une mission en lien avec la cyberdéfense et avec lesquelles le ministère de la Cybersécurité et du Numérique (MCN) a conclu une entente de confidentialité. La diffusion doit se faire par des canaux qui ne sont pas accessibles au public.",
+      "expanded": "(PFC:VERT) Divulgation limitée à l’écosystème québécois de cyberdéfense ",
+      "value": "vert"
+    },
+    {
+      "colour": "#ffffff",
+      "description": "L’information transmise peut être communiquée à tout public.",
+      "expanded": "(PFC:LIBRE) Divulgation libre (non restreinte).",
+      "value": "libre"
+    }
+  ],
+  "refs": [
+    "https://www.cyber.gouv.qc.ca/pfc"
+  ],
+  "version": 1,
+  "description": "Le Protocole des feux de circulation (PFC) est basé sur le standard « Traffic Light Protocol (TLP) » conçu par le FIRST. Il a pour objectif d’informer sur les limites autorisées pour la diffusion des informations. Il est classé selon des codes de couleurs.",
+  "expanded": "Protocole des Feux de Circulation",
+  "exclusive": true,
+  "namespace": "pfc"
+}
