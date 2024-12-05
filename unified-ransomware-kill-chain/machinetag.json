@@ -31,11 +31,11 @@
     {
       "value": "Deployment Preparation",
       "expanded": "Ransomware affiliates disable and remove security solutions or available backups prior to ransomware deployment."
-    }
+    },
     {
       "value": "Ransomware Deployment",
       "expanded": "Ransomware affiliates attempt to achieve their main goal: deploy the ransomware."
-    }
+    },
     {
       "value": "Extortion",
       "expanded": "Ransomware affiliates, after encrypting the victim's assets, may start to upload sample of exfiltrated data on the DLS, call the victims' employees, and even perform DDOS attacks against the compromised infrastructure only to facilitate extortion."
