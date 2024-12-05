@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2023-12-31
+- Generation date: 2024-12-05
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -64,8 +64,7 @@
     - Deterrence
     - Deception
     - Tarpits, Sandboxes and Honeypots
-    - Threat Intelligence
-    - Threat Hunting
+    - Intelligence and Counterintelligence
     - Adversary Takedowns
     - Ransomware
     - Rescue Missions
@@ -117,6 +116,17 @@
     - security
     - womens-right
     - youth-rights
+### acs-marking
+- description: The Access Control Specification (ACS) marking type defines the object types required to implement automated access control systems based on the relevant policies governing sharing between participants.
+- version: 1
+- Predicates
+    - privilege_action
+    - classification
+    - formal_determination
+    - caveat
+    - sensitivity
+    - shareability
+    - entity
 ### action-taken
 - description: Action taken in the case of a security incident (CSIRT perspective).
 - version: 2
@@ -286,7 +296,7 @@
     - level-1
 ### course-of-action
 - description: A Course Of Action analysis considers six potential courses of action for the development of a cyber security capability.
-- version: 2
+- version: 3
 - Predicates
     - passive
     - active
@@ -311,6 +321,7 @@
     - Decentralized Stable Coins
     - Email Extortion and Bomb Threats
     - Crypto Robbing Ransomware
+    - Rag Pull
     - Pig Butchering Scam
 ### csirt-americas
 - description: Taxonomía CSIRT Américas.
@@ -382,7 +393,7 @@
     - action
 ### dark-web
 - description: Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.
-- version: 5
+- version: 7
 - Predicates
     - topic
     - motivation
@@ -562,6 +573,11 @@
     - quality
     - essence
     - speech-act-theory
+### detection-engineering
+- description: Taxonomy related to detection engineering techniques
+- version: 1
+- Predicates
+    - pattern-matching
 ### dga
 - description: A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others.
 - version: 2
@@ -796,7 +812,7 @@
     - event-class
 ### exercise
 - description: Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.
-- version: 10
+- version: 12
 - Predicates
     - cyber-europe
     - cyber-storm
@@ -1057,7 +1073,7 @@
     - duplicate
 ### infoleak
 - description: A taxonomy describing information leaks and especially information classified as being potentially leaked. The taxonomy is based on the work by CIRCL on the AIL framework. The taxonomy aim is to be used at large to improve classification of leaked information.
-- version: 7
+- version: 10
 - Predicates
     - automatic-detection
     - analyst-detection
@@ -1185,7 +1201,7 @@
     - maec-obfuscation-methods
 ### malware_classification
 - description: Classification based on different categories. Based on https://www.sans.org/reading-room/whitepapers/incident/malware-101-viruses-32848
-- version: 2
+- version: 3
 - Predicates
     - malware-category
     - obfuscation-technique
@@ -1210,7 +1226,7 @@
     - unknown
 ### misp
 - description: MISP taxonomy to infer with MISP behavior or operation.
-- version: 12
+- version: 14
 - Predicates
     - ui
     - api
@@ -1327,6 +1343,15 @@
     - network
     - social_engineering
     - vulnerability
+### pfc
+- description: Le Protocole des feux de circulation (PFC) est basé sur le standard « Traffic Light Protocol (TLP) » conçu par le FIRST. Il a pour objectif d’informer sur les limites autorisées pour la diffusion des informations. Il est classé selon des codes de couleurs.
+- version: 1
+- Predicates
+    - rouge
+    - ambre
+    - ambre+strict
+    - vert
+    - libre
 ### phishing
 - description: Taxonomy to classify phishing attacks including techniques, collection mechanisms and analysis status.
 - version: 5
@@ -1628,6 +1653,19 @@
     - Initial Foothold
     - Network Propagation
     - Action on Objectives
+### unified-ransomware-kill-chain
+- description: The Unified Ransomware Kill Chain, a intelligence driven model developed by Oleg Skulkin, aims to track every single phase of a ransomware attack.
+- version: 1
+- Predicates
+    - Gain Access
+    - Establish Foothold
+    - Network Discovery
+    - Key Assets Discovery
+    - Network Propagation
+    - Data Exfiltration
+    - Deployment Preparation
+    - Ransomware Deployment
+    - Extortion
 ### use-case-applicability
 - description: The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems.
 - version: 1
@@ -1715,9 +1753,16 @@
 - version: 3
 - Predicates
     - degré-de-probabilité
+### vulnerability
+- description: A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.
+- version: 3
+- Predicates
+    - exploitability
+    - information
+    - sighting
 ### workflow
 - description: Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.
-- version: 12
+- version: 14
 - Predicates
     - todo
     - state
