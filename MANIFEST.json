@@ -744,6 +744,11 @@
       "version": 1
     },
     {
+      "description": "The Unified Ransomware Kill Chain, a intelligence driven model developed by Oleg Skulkin, aims to track every single phase of a ransomware attack.",
+      "name": "unified-ransomware-kill-chain",
+      "version": 1
+    },
+    {
       "description": "The Use Case Applicability categories reflect standard resolution categories, to clearly display alerting rule configuration problems.",
       "name": "use-case-applicability",
       "version": 1
@@ -775,5 +780,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20241203"
+  "version": "20241205"
 }
