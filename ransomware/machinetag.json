@@ -216,6 +216,14 @@
           "expanded": "Ransomware that targets PCs or workstations."
         },
         {
+          "value": "nas",
+          "expanded": "Ransomware that targets network attached storage."
+        },
+        {
+          "value": "vm",
+          "expanded": "Ransomware that targets virtualized environment such as Vmware or Hyper-V."
+        },
+        {
           "value": "mobile-device",
           "expanded": "Ransomware that targets mobile devices."
         },
