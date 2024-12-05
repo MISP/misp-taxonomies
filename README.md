@@ -745,7 +745,7 @@ The Unified Kill Chain is a refinement to the Kill Chain. [Overview](https://www
 ### unified-ransomware-kill-chain
 
 [unified-ransomware-kill-chain](https://github.com/MISP/misp-taxonomies/tree/main/unified-ransomware-kill-chain) :
-The Unified Ransomware Kill Chain, a intelligence driven model aiming to track every single phase of a ransomware attack.
+The Unified Ransomware Kill Chain, an intelligence driven model aiming to track every single phase of a ransomware attack.
 
 ### use-case-applicability
 
