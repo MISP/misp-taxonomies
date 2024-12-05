@@ -742,6 +742,11 @@ Taxonomy to describe different types of intelligence gathering discipline which 
 [unified-kill-chain](https://github.com/MISP/misp-taxonomies/tree/main/unified-kill-chain) :
 The Unified Kill Chain is a refinement to the Kill Chain. [Overview](https://www.misp-project.org/taxonomies.html#_unified_kill_chain)
 
+### unified-ransomware-kill-chain
+
+[unified-ransomware-kill-chain](https://github.com/MISP/misp-taxonomies/tree/main/unified-ransomware-kill-chain) :
+The Unified Ransomware Kill Chain, a intelligence driven model aiming to track every single phase of a ransomware attack.
+
 ### use-case-applicability
 
 [use-case-applicability](https://github.com/MISP/misp-taxonomies/tree/main/use-case-applicability) :
