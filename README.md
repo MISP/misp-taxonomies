@@ -222,6 +222,11 @@ Taxonomy of Death Possibilities [Overview](https://www.misp-project.org/taxonomi
 [deception](https://github.com/MISP/misp-taxonomies/tree/main/deception) :
 Deception is an important component of information operations, valuable for both offense and defense.  [Overview](https://www.misp-project.org/taxonomies.html#_deception)
 
+### detection-engineering
+
+[detection-engineering](https://github.com/MISP/misp-taxonomies/tree/main/detection-engineering) :
+Taxonomy related to detection engineering techniques [Overview](https://www.misp-project.org/taxonomies.html#_detection_engineering)
+
 ### dga
 
 [dga](https://github.com/MISP/misp-taxonomies/tree/main/dga) :
@@ -592,6 +597,11 @@ Tags from RiskIQ's PassiveTotal service [Overview](https://www.misp-project.org/
 [pentest](https://github.com/MISP/misp-taxonomies/tree/main/pentest) :
 Penetration test (pentest) classification. [Overview](https://www.misp-project.org/taxonomies.html#_pentest)
 
+### pfc
+
+[pfc](https://github.com/MISP/misp-taxonomies/tree/main/pfc) :
+Le Protocole des feux de circulation (PFC) est basé sur le standard « Traffic Light Protocol (TLP) » conçu par le FIRST. Il a pour objectif d’informer sur les limites autorisées pour la diffusion des informations. Il est classé selon des codes de couleurs. [Overview](https://www.misp-project.org/taxonomies.html#_pfc)
+
 ### phishing
 
 [phishing](https://github.com/MISP/misp-taxonomies/tree/main/phishing) :
@@ -741,6 +751,11 @@ Taxonomy to describe different types of intelligence gathering discipline which 
 
 [unified-kill-chain](https://github.com/MISP/misp-taxonomies/tree/main/unified-kill-chain) :
 The Unified Kill Chain is a refinement to the Kill Chain. [Overview](https://www.misp-project.org/taxonomies.html#_unified_kill_chain)
+
+### unified-ransomware-kill-chain
+
+[unified-ransomware-kill-chain](https://github.com/MISP/misp-taxonomies/tree/main/unified-ransomware-kill-chain) :
+The Unified Ransomware Kill Chain, a intelligence driven model developed by Oleg Skulkin, aims to track every single phase of a ransomware attack. [Overview](https://www.misp-project.org/taxonomies.html#_unified_ransomware_kill_chain)
 
 ### use-case-applicability
 
