@@ -1,0 +1,44 @@
+{
+  "namespace": "unified-ransomware-kill-chain",
+  "expanded": "Unified Ransomware Kill Chain",
+  "description": "The Unified Ransomware Kill Chain, a intelligence driven model developed by Oleg Skulkin, aims to track every single phase of a ransomware attack.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "Gain Access",
+      "expanded": "Ransomware affiliates may gain the access to the target network or purchase such access from the initial access brokers."
+    },
+    {
+      "value": "Establish Foothold",
+      "expanded": "Ransomware affiliates may need to collect information about the compromised perimeter, elevate its privileges and access credentials, as well as disabling or bypassing defenses to initiate the discovery and propagation."
+    },
+    {
+      "value": "Network Discovery",
+      "expanded": "Ransomware affiliates, before starting network propagation, need to collect information about remote systems."
+    },
+    {
+      "value": "Key Assets Discovery",
+      "expanded": "Ransomware affiliates start to acquire additional data, such as privileged credentials, sensitive information and backup related to critical assets."
+    },
+    {
+      "value": "Network Propagation",
+      "expanded": "Ransomware affiliates use legitimate tools and techniques to move laterally through the network."
+    },
+    {
+      "value": "Data Exfiltration",
+      "expanded": "Ransomware affiliates may collect data from one or multiple sources, such as network attached storages, cloud storages and so on, and proceed with the exfiltration."
+    },
+    {
+      "value": "Deployment Preparation",
+      "expanded": "Ransomware affiliates disable and remove security solutions or available backups prior to ransomware deployment."
+    },
+    {
+      "value": "Ransomware Deployment",
+      "expanded": "Ransomware affiliates attempt to achieve their main goal: deploy the ransomware."
+    },
+    {
+      "value": "Extortion",
+      "expanded": "Ransomware affiliates, after encrypting the victim's assets, may start to upload sample of exfiltrated data on the DLS, call the victims' employees, and even perform DDOS attacks against the compromised infrastructure only to facilitate extortion."
+    }
+  ]
+}
