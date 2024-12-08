@@ -1,0 +1,291 @@
+{
+  "name": "organizational-cyber-harm",
+  "description": "A taxonomy to classify organizational cyber harms based on categories like physical, economic, psychological, reputational, and social/societal impacts.",
+  "refs": [
+    "https://academic.oup.com/cybersecurity/article/4/1/tyy006/5133288?login=false"
+  ],
+  "version": 1,
+  "namespace": "organizational-cyber-harm",
+  "predicates": [
+    {
+      "value": "physical-digital",
+      "expanded": "Physical digital",
+      "description": "Physical/Digital harm to assets or individuals."
+    },
+    {
+      "value": "economic",
+      "expanded": "Economic",
+      "description": "Economic harm caused by cyber incidents."
+    },
+    {
+      "value": "psychological",
+      "expanded": "Psychological",
+      "description": "Psychological effects of cyber incidents."
+    },
+    {
+      "value": "reputational",
+      "expanded": "Reputational",
+      "description": "Reputational damage caused by cyber incidents."
+    },
+    {
+      "value": "social-societal",
+      "expanded": "Social or societal",
+      "description": "Social and societal impacts of cyber incidents."
+    }
+  ],
+  "values": [
+    {
+      "predicate": "physical-digital",
+      "entry": [
+        {
+          "value": "damaged-or-unavailable",
+          "expanded": "damaged or unavailable"
+        },
+        {
+          "value": "destroyed",
+          "expanded": "destroyed"
+        },
+        {
+          "value": "theft",
+          "expanded": "theft"
+        },
+        {
+          "value": "compromised",
+          "expanded": "compromised"
+        },
+        {
+          "value": "infected",
+          "expanded": "infected"
+        },
+        {
+          "value": "exposed-leaked",
+          "expanded": "exposed or leaked"
+        },
+        {
+          "value": "corrupted",
+          "expanded": "corrupted"
+        },
+        {
+          "value": "reduced-performance",
+          "expanded": "reduced performance"
+        },
+        {
+          "value": "bodily-injury",
+          "expanded": "bodily injury"
+        },
+        {
+          "value": "pain",
+          "expanded": "pain"
+        },
+        {
+          "value": "loss-of-life",
+          "expanded": "loss of life"
+        },
+        {
+          "value": "prosecution",
+          "expanded": "prosecution"
+        },
+        {
+          "value": "abuse",
+          "expanded": "abuse"
+        },
+        {
+          "value": "mistreatment",
+          "expanded": "mistreatment"
+        },
+        {
+          "value": "identity-theft",
+          "expanded": "identity theft"
+        }
+      ]
+    },
+    {
+      "predicate": "economic",
+      "entry": [
+        {
+          "value": "disrupted-operations",
+          "expanded": "disrupted operations"
+        },
+        {
+          "value": "disrupted-sales",
+          "expanded": "disrupted sales"
+        },
+        {
+          "value": "reduced-customers",
+          "expanded": "reduced customers"
+        },
+        {
+          "value": "reduced-profits",
+          "expanded": "reduced profits"
+        },
+        {
+          "value": "reduced-growth",
+          "expanded": "reduced growth"
+        },
+        {
+          "value": "reduced-investments",
+          "expanded": "reduced investments"
+        },
+        {
+          "value": "fall-in-stock-price",
+          "expanded": "fall in stock price"
+        },
+        {
+          "value": "theft-of-finances",
+          "expanded": "threft of finances"
+        },
+        {
+          "value": "loss-of-finances",
+          "expanded": "loss of finances"
+        },
+        {
+          "value": "regulatory-fines",
+          "expanded": "regulatory fines"
+        },
+        {
+          "value": "investigation-costs",
+          "expanded": "investigations costs"
+        },
+        {
+          "value": "pr-response-costs",
+          "expanded": "pr response costs"
+        },
+        {
+          "value": "compensation-payments",
+          "expanded": "compensation payments"
+        },
+        {
+          "value": "extortion-payments",
+          "expanded": "extortion payments"
+        },
+        {
+          "value": "loss-of-jobs",
+          "expanded": "loss of jobs"
+        },
+        {
+          "value": "scammed",
+          "expanded": "scammed"
+        }
+      ]
+    },
+    {
+      "predicate": "psychological",
+      "entry": [
+        {
+          "value": "confusion",
+          "expanded": "confusion"
+        },
+        {
+          "value": "discomfort",
+          "expanded": "discomfort"
+        },
+        {
+          "value": "frustration",
+          "expanded": "frustration"
+        },
+        {
+          "value": "worry-anxiety",
+          "expanded": "worry or anxiety"
+        },
+        {
+          "value": "feeling-upset",
+          "expanded": "feeling upset"
+        },
+        {
+          "value": "depressed",
+          "expanded": "depressed"
+        },
+        {
+          "value": "embarrassed",
+          "expanded": "embarrassed"
+        },
+        {
+          "value": "shameful",
+          "expanded": "shameful"
+        },
+        {
+          "value": "guilty",
+          "expanded": "guilty"
+        },
+        {
+          "value": "loss-of-self-confidence",
+          "expanded": "loss of self-confidence"
+        },
+        {
+          "value": "low-satisfaction",
+          "expanded": "low satisfaction"
+        },
+        {
+          "value": "negative-changes-in-perception",
+          "expanded": "negative changes in perception"
+        }
+      ]
+    },
+    {
+      "predicate": "reputational",
+      "entry": [
+        {
+          "value": "damaged-public-perception",
+          "expanded": "damaged public perception"
+        },
+        {
+          "value": "reduced-corporate-goodwill",
+          "expanded": "reduced corporate goodwill"
+        },
+        {
+          "value": "damaged-customer-relationships",
+          "expanded": "damaged customer relationship"
+        },
+        {
+          "value": "damaged-supplier-relationships",
+          "expanded": "damaged supplier relationship"
+        },
+        {
+          "value": "reduced-business-opportunities",
+          "expanded": "reduced business opportunities"
+        },
+        {
+          "value": "inability-to-recruit",
+          "expanded": "inability to recruit"
+        },
+        {
+          "value": "media-scrutiny",
+          "expanded": "media scrutiny"
+        },
+        {
+          "value": "loss-of-key-staff",
+          "expanded": "loss of key staff"
+        },
+        {
+          "value": "loss-of-accreditations",
+          "expanded": "loss of accreditations"
+        },
+        {
+          "value": "reduced-credit-scores",
+          "expanded": "reduced credit scores"
+        }
+      ]
+    },
+    {
+      "predicate": "social-societal",
+      "entry": [
+        {
+          "value": "negative-changes-in-public-perception",
+          "expanded": "negative changes in public perception"
+        },
+        {
+          "value": "disruption-in-daily-activities",
+          "expanded": "disruption in daily activities"
+        },
+        {
+          "value": "negative-impact-on-network",
+          "expanded": "negative impact on network"
+        },
+        {
+          "value": "drop-in-internal-morale",
+          "expanded": "drop-in internal morale"
+        }
+      ]
+    }
+  ]
+}
