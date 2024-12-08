@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2024-12-05
+- Generation date: 2024-12-08
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -393,7 +393,7 @@
     - action
 ### dark-web
 - description: Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.
-- version: 7
+- version: 9
 - Predicates
     - topic
     - motivation
@@ -1311,6 +1311,15 @@
 - Predicates
     - threat-category
     - threat-name
+### organizational-cyber-harm
+- description: A taxonomy to classify organizational cyber harms based on categories like physical, economic, psychological, reputational, and social/societal impacts.
+- version: 1
+- Predicates
+    - physical-digital
+    - economic
+    - psychological
+    - reputational
+    - social-societal
 ### osint
 - description: Open Source Intelligence - Classification (MISP taxonomies)
 - version: 11
