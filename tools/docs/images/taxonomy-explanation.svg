@@ -2,19 +2,22 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1052.3622"
    height="744.09448"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="taxonomy-explanation.svg">
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="taxonomy-explanation.svg"
+   inkscape:export-filename="/home/adulau/git/misp-taxonomies/tools/docs/images/taxonomy-explanation.png"
+   inkscape:export-xdpi="80"
+   inkscape:export-ydpi="80"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4">
     <clipPath
@@ -42,16 +45,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.79"
-     inkscape:cx="525.63291"
-     inkscape:cy="352.67849"
+     inkscape:cx="525.94937"
+     inkscape:cy="352.53165"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="876"
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
      inkscape:window-x="0"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -60,7 +64,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,41 +74,44 @@
      transform="translate(0,-308.2677)">
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
        x="780.3432"
        y="400.99222"
-       id="text2985-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text2985-0"><tspan
          sodipodi:role="line"
-         x="780.3432"
+         x="794.36664"
          y="400.99222"
-         id="tspan2993-9" /></text>
+         id="tspan2993-9"
+         style="font-size:40px;line-height:1.25"> </tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
        x="703.20038"
        y="438.13507"
-       id="text2985-5"
-       sodipodi:linespacing="125%"><tspan
+       id="text2985-5"><tspan
          sodipodi:role="line"
          x="703.20038"
          y="438.13507"
-         id="tspan2991-9" /><tspan
+         id="tspan2991-9"
+         style="font-size:40px;line-height:1.25"> </tspan><tspan
          sodipodi:role="line"
-         x="703.20038"
+         x="717.22382"
          y="488.13507"
-         id="tspan2993-90" /></text>
+         id="tspan2993-90"
+         style="font-size:40px;line-height:1.25"> </tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3078"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
          id="flowRegion3080"><rect
            id="rect3082"
            width="205.71428"
            height="65.714287"
            x="508.57144"
            y="600.93359" /></flowRegion><flowPara
-         id="flowPara3084"></flowPara></flowRoot>    <rect
+         id="flowPara3084"
+         style="font-size:40px;line-height:1.25"> </flowPara></flowRoot>
+    <rect
        style="opacity:0.66519997;fill:#2fa1db;fill-opacity:1"
        id="rect3118-2"
        width="243.79248"
@@ -131,27 +137,30 @@
        transform="scale(1,-1)" />
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
        x="155.78424"
        y="919.81262"
-       id="text3100-8"
-       sodipodi:linespacing="125%"><tspan
+       id="text3100-8"><tspan
          sodipodi:role="line"
          id="tspan3102-2"
          x="155.78424"
-         y="919.81262">namespace</tspan><tspan
+         y="919.81262"
+         style="font-size:24px;line-height:1.25">namespace</tspan><tspan
          sodipodi:role="line"
-         x="164.36237"
+         x="155.78424"
          y="949.81262"
-         id="tspan3104-4">predicate </tspan><tspan
+         id="tspan3104-4"
+         style="font-size:24px;line-height:1.25">predicate </tspan><tspan
          sodipodi:role="line"
          x="155.78424"
          y="979.81262"
-         id="tspan3108-2">value</tspan><tspan
+         id="tspan3108-2"
+         style="font-size:24px;line-height:1.25">value</tspan><tspan
          sodipodi:role="line"
-         x="155.78424"
+         x="164.1983"
          y="1009.8126"
-         id="tspan3106-0" /></text>
+         id="tspan3106-0"
+         style="font-size:24px;line-height:1.25"> </tspan></text>
     <g
        id="g1076"
        transform="matrix(0.71466678,0,0,-0.71466678,843.28503,945.67074)"
@@ -203,18 +212,18 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:16.00853539px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5f6062;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5f6062;fill-opacity:1;stroke:none"
        x="846.43933"
        y="989.22388"
        id="text4094"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="/home/adulau/misp.png"
        inkscape:export-xdpi="100"
        inkscape:export-ydpi="100"><tspan
          sodipodi:role="line"
          id="tspan4096"
          x="846.43933"
-         y="989.22388">Threat Sharing</tspan></text>
+         y="989.22388"
+         style="font-size:16.0085px;line-height:1.25;font-family:sans-serif">Threat Sharing</tspan></text>
     <g
        id="g308"
        transform="matrix(0.35757523,0,0,-0.35757523,821.81561,1095.8071)">
@@ -245,62 +254,71 @@
        id="g3681"
        transform="translate(13.456543,30)">
       <text
-         sodipodi:linespacing="125%"
          id="text2985"
          y="425.42651"
          x="986.71375"
-         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            id="tspan2991"
            y="425.42651"
            x="986.71375"
-           sodipodi:role="line">admiralty-scale:source-reliability=&quot;c&quot;</tspan><tspan
-           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+           sodipodi:role="line"
+           style="font-size:32px;line-height:1.25">admiralty-scale:source-reliability=&quot;c&quot;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:125%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;writing-mode:lr-tb;text-anchor:end"
            id="tspan3056"
-           y="453.17596"
+           y="465.42651"
            x="986.71375"
            sodipodi:role="line">admiralty-scale:Source Reliability=&quot;Fairly reliable&quot;</tspan><tspan
            id="tspan3058"
-           y="475.67596"
+           y="505.42651"
            x="986.71375"
-           sodipodi:role="line" /><tspan
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan><tspan
            id="tspan3060"
-           y="498.17596"
+           y="545.42651"
            x="986.71375"
-           sodipodi:role="line" /><tspan
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan><tspan
            id="tspan2993"
-           y="532.92651"
+           y="585.42651"
            x="986.71375"
-           sodipodi:role="line">admiralty-scale:information-credibility=&quot;3&quot;</tspan><tspan
-           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+           sodipodi:role="line"
+           style="font-size:32px;line-height:1.25">admiralty-scale:information-credibility=&quot;3&quot;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:125%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;writing-mode:lr-tb;text-anchor:end"
            id="tspan3062"
-           y="560.67596"
+           y="625.42651"
            x="986.71375"
            sodipodi:role="line">admiralty-scale:Information Credibility=&quot;Possibly true&quot;</tspan><tspan
            id="tspan3068"
-           y="583.17596"
+           y="665.42651"
            x="986.71375"
-           sodipodi:role="line" /><tspan
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan><tspan
            id="tspan3070"
-           y="605.67596"
+           y="705.42651"
            x="986.71375"
-           sodipodi:role="line" /><tspan
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan><tspan
            id="tspan3074"
-           y="628.17596"
+           y="745.42651"
            x="986.71375"
-           sodipodi:role="line" /><tspan
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan><tspan
            id="tspan3076"
-           y="650.67596"
+           y="785.42651"
            x="986.71375"
-           sodipodi:role="line" /><tspan
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan><tspan
            id="tspan3064"
-           y="673.17596"
+           y="825.42651"
            x="986.71375"
-           sodipodi:role="line" /><tspan
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan><tspan
            id="tspan3066"
-           y="695.67596"
-           x="986.71375"
-           sodipodi:role="line" /></text>
+           y="865.42651"
+           x="997.9325"
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan></text>
       <g
          id="g3676">
         <rect
@@ -355,43 +373,45 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
        x="995.01685"
        y="412.42221"
        id="text3545"
-       sodipodi:linespacing="125%"
        transform="translate(0,308.2677)"><tspan
          sodipodi:role="line"
          id="tspan3547"
          x="995.01685"
-         y="412.42221"></tspan><tspan
+         y="412.42221"
+         style="font-size:40px;line-height:1.25"> </tspan><tspan
          sodipodi:role="line"
          id="tspan3549"
-         x="995.01685"
-         y="462.42221" /></text>
+         x="1009.0403"
+         y="462.42221"
+         style="font-size:40px;line-height:1.25"> </tspan></text>
     <g
        id="g3703"
        transform="translate(28,30)">
       <text
-         sodipodi:linespacing="125%"
          id="text3088"
          y="635.74384"
          x="972.17029"
-         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            id="tspan3092"
            y="635.74384"
            x="972.17029"
-           sodipodi:role="line">nato:classification=&quot;NU&quot;</tspan><tspan
-           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+           sodipodi:role="line"
+           style="font-size:32px;line-height:1.25">nato:classification=&quot;NU&quot;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:125%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;writing-mode:lr-tb;text-anchor:end"
            id="tspan3098"
-           y="663.49329"
+           y="675.74384"
            x="972.17029"
            sodipodi:role="line"> nato:Classification=&quot;NATO UNCLASSIFIED&quot;</tspan><tspan
            id="tspan3094"
-           y="685.99329"
-           x="972.17029"
-           sodipodi:role="line" /></text>
+           y="715.74384"
+           x="983.38904"
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan></text>
       <rect
          transform="scale(1,-1)"
          y="-648.82391"
@@ -421,34 +441,36 @@
        id="g3712"
        transform="translate(3.683838,30)">
       <text
-         sodipodi:linespacing="125%"
          id="text3100"
          y="721.41504"
          x="995.02747"
-         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            y="721.41504"
            x="995.02747"
            id="tspan3102"
-           sodipodi:role="line">tlp:amber</tspan><tspan
-           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+           sodipodi:role="line"
+           style="font-size:32px;line-height:1.25">tlp:amber</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:125%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;writing-mode:lr-tb;text-anchor:end"
            id="tspan3551"
-           y="749.16449"
-           x="1001.4611"
+           y="761.41504"
+           x="995.02747"
            sodipodi:role="line">Traffic Light Protocol:(TLP:AMBER) Information exclusively given to an organization; </tspan><tspan
-           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:125%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;writing-mode:lr-tb;text-anchor:end"
            id="tspan3553"
-           y="771.66449"
+           y="801.41504"
            x="995.02747"
            sodipodi:role="line">sharing limited within the organization to be effectively acted upon.</tspan><tspan
            id="tspan3108"
-           y="794.16449"
+           y="841.41504"
            x="995.02747"
-           sodipodi:role="line" /><tspan
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan><tspan
            id="tspan3106"
-           y="816.66449"
-           x="995.02747"
-           sodipodi:role="line" /></text>
+           y="881.41504"
+           x="1006.2462"
+           sodipodi:role="line"
+           style="font-size:18px;line-height:1.25"> </tspan></text>
       <rect
          transform="scale(1,-1)"
          y="-733.742"
@@ -468,28 +490,29 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
        x="928.3775"
        y="359.98413"
-       id="text3100-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text3100-3"><tspan
          sodipodi:role="line"
          x="928.3775"
          y="359.98413"
          id="tspan3553-8"
-         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Sawasdee;-inkscape-font-specification:Sawasdee">MISP taxonomies - Flexible Classification for Information Sharing</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;writing-mode:lr-tb;text-anchor:end">MISP taxonomies - Flexible Classification for Information Sharing</tspan><tspan
          sodipodi:role="line"
          x="928.3775"
          y="399.98413"
-         id="tspan3108-7" /><tspan
+         id="tspan3108-7"
+         style="font-size:32px;line-height:1.25"> </tspan><tspan
          sodipodi:role="line"
-         x="928.3775"
+         x="939.59625"
          y="439.98413"
-         id="tspan3106-8" /></text>
+         id="tspan3106-8"
+         style="font-size:32px;line-height:1.25"> </tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3888"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        transform="translate(0,308.2677)"><flowRegion
          id="flowRegion3890"><rect
            id="rect3892"
@@ -498,27 +521,33 @@
            x="19.283272"
            y="109.67484"
            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sawasdee;-inkscape-font-specification:Sawasdee" /></flowRegion><flowPara
-         id="flowPara3906">MISP taxonomies is a solution to use existing taxonomies (or create your own) to<flowSpan
-   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
-   id="flowSpan3929"> classify your cybersecurity events, indicators and threats</flowSpan>. This technique is integrated as a default mechanism for tagging in  MISP (Malware Information Sharing Platform &amp; Threat Sharing) and to support a distributed classification where organizations can share <flowSpan
-   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
+         id="flowPara3906"
+         style="font-size:18px;line-height:1.25">MISP taxonomies is a solution to use existing taxonomies (or create your own) to<flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:125%;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan3929"> classify your cybersecurity events, indicators and threat intelligence</flowSpan>. This technique is integrated as a default mechanism for tagging in  MISP (Threat Intelligence Information Sharing Platform) and to support a distributed classification where organizations can share <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:125%;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="flowSpan3931">common taxonomies in a local or distributed fashion</flowSpan>.</flowPara><flowPara
-         id="flowPara3908"></flowPara><flowPara
-         id="flowPara3910">Classifications are distributed as simple JSON files to use with MISP but <flowSpan
-   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
-   id="flowSpan3933">can be easily integrated into any other information sharing software</flowSpan>. You can also propose new taxonomies to the community. </flowPara><flowPara
-         id="flowPara3912"></flowPara><flowPara
-         id="flowPara3914"></flowPara></flowRoot>    <text
+         id="flowPara3908"
+         style="font-size:18px;line-height:1.25"> </flowPara><flowPara
+         id="flowPara3910"
+         style="font-size:18px;line-height:1.25">Classifications are distributed as simple JSON files to use with MISP but <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:125%;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
+   id="flowSpan3933">can be easily integrated into any other information sharing software</flowSpan>. You can also propose new taxonomies to the community.   </flowPara><flowPara
+         id="flowPara3912"
+         style="font-size:18px;line-height:1.25" /><flowPara
+         id="flowPara3914"
+         style="font-size:18px;line-height:1.25" /></flowRoot>
+    <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
        x="765.29291"
        y="409.46368"
-       id="text3100-3-8"
-       sodipodi:linespacing="125%"><tspan
+       id="text3100-3-8"><tspan
          sodipodi:role="line"
          id="tspan4843"
          x="765.29291"
-         y="409.46368">Examples of machine tags and human readable tags :</tspan></text>
+         y="409.46368"
+         style="font-size:18px;line-height:1.25">Examples of machine tags and human readable tags :</tspan></text>
     <rect
        style="fill:#babdb6;fill-opacity:1"
        id="rect4837"
@@ -528,14 +557,14 @@
        y="395.80521" />
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
        x="981.67816"
        y="1013.6528"
-       id="text3100-3-8-6"
-       sodipodi:linespacing="125%"><tspan
+       id="text3100-3-8-6"><tspan
          sodipodi:role="line"
          id="tspan4843-1"
          x="981.67816"
-         y="1013.6528">https://github.com/MISP/misp-taxonomies/</tspan></text>
+         y="1013.6528"
+         style="font-size:18px;line-height:1.25">https://github.com/MISP/misp-taxonomies/</tspan></text>
   </g>
 </svg>
