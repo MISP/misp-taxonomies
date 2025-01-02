@@ -1,7 +1,7 @@
 {
   "namespace": "cryptocurrency-threat",
-  "description": "Threats targetting cryptocurrency, based on CipherTrace report.",
-  "version": 1,
+  "description": "Threats targeting cryptocurrency, based on CipherTrace report.",
+  "version": 2,
   "predicates": [
     {
       "value": "SIM Swapping",
