@@ -1,8 +1,8 @@
 {
   "namespace": "retention",
   "expanded": "retention",
-  "description": "Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.",
-  "version": 3,
+  "description": "Add a retention time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.",
+  "version": 4,
   "exclusive": true,
   "refs": [
     "https://en.wikipedia.org/wiki/Retention_period"
