@@ -1,7 +1,7 @@
 {
   "namespace": "runtime-packer",
-  "description": "Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.",
-  "version": 2,
+  "description": "Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer, virtualization or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.",
+  "version": 3,
   "predicates": [
     {
       "value": "dex",
@@ -33,12 +33,40 @@
           "expanded": "APK Protect"
         },
         {
+          "value": "appcode-packer",
+          "expanded": "APPCode Packer"
+        },
+        {
+          "value": "appsealing",
+          "expanded": "AppSealing"
+        },
+        {
+          "value": "arxan",
+          "expanded": "Arxan"
+        },
+        {
+          "value": "bangcle",
+          "expanded": "Bangcle"
+        },
+        {
           "value": "dexguard",
           "expanded": "DexGuard"
         },
         {
           "value": "dexprotector",
           "expanded": "DexProtector"
+        },
+        {
+          "value": "jiagu",
+          "expanded": "Jiagu"
+        },
+        {
+          "value": "legu",
+          "expanded": "Legu"
+        },
+        {
+          "value": "proguard",
+          "expanded": "ProGuard"
         }
       ]
     },
@@ -46,8 +74,16 @@
       "predicate": "elf",
       "entry": [
         {
+          "value": "burneye",
+          "expanded": "BurnEye"
+        },
+        {
           "value": "bzexe",
           "expanded": "BzExe"
+        },
+        {
+          "value": "elfuck",
+          "expanded": "ELFuck"
         },
         {
           "value": "ezuri",
@@ -56,6 +92,10 @@
         {
           "value": "gzexe",
           "expanded": "GzExe"
+        },
+        {
+          "value": "m0dern_p4cker",
+          "expanded": "M0dern_P4cker"
         },
         {
           "value": "midgetpack",
@@ -74,8 +114,16 @@
           "expanded": "Shiva"
         },
         {
+          "value": "silent_packer",
+          "expanded": "Silent_Packer"
+        },
+        {
           "value": "upx",
           "expanded": "UPX"
+        },
+        {
+          "value": "ward",
+          "expanded": "Ward"
         }
       ]
     },
@@ -87,12 +135,20 @@
           "expanded": "ElecKey"
         },
         {
-          "value": "muncho",
-          "expanded": "Muncho"
+          "value": "laturi",
+          "expanded": "Laturi"
         },
         {
           "value": "mpress",
           "expanded": "MPRESS"
+        },
+        {
+          "value": "muncho",
+          "expanded": "Muncho"
+        },
+        {
+          "value": "pakr",
+          "expanded": "Pakr"
         },
         {
           "value": "upx",
@@ -112,8 +168,24 @@
           "expanded": "ACProtect"
         },
         {
+          "value": "aegis",
+          "expanded": "Aegis Crypter"
+        },
+        {
+          "value": "ainexe",
+          "expanded": "AinEXE"
+        },
+        {
           "value": "alienyze",
           "expanded": "Alienyze"
+        },
+        {
+          "value": "amber",
+          "expanded": "Amber"
+        },
+        {
+          "value": "andromeda",
+          "expanded": "Andromeda"
         },
         {
           "value": "apack",
@@ -130,6 +202,10 @@
         {
           "value": "asprotect",
           "expanded": "ASProtect"
+        },
+        {
+          "value": "atompepacker",
+          "expanded": "AtomPePacker"
         },
         {
           "value": "autoit",
@@ -160,6 +236,14 @@
           "expanded": "ConfuserEx"
         },
         {
+          "value": "crinkler",
+          "expanded": "Crinkler"
+        },
+        {
+          "value": "crunch",
+          "expanded": "Crunch"
+        },
+        {
           "value": "dotbundle",
           "expanded": "dotBundle"
         },
@@ -180,6 +264,10 @@
           "expanded": "Enigma Virtual Box"
         },
         {
+          "value": "eronana-packer",
+          "expanded": "Eronana Packer"
+        },
+        {
           "value": "exe-bundle",
           "expanded": "EXE Bundle"
         },
@@ -197,7 +285,15 @@
         },
         {
           "value": "fsg",
-          "expanded": "FSG"
+          "expanded": "Fast Small Good (FSG)"
+        },
+        {
+          "value": "gopacker",
+          "expanded": "GoPacker"
+        },
+        {
+          "value": "huan",
+          "expanded": "Huan"
         },
         {
           "value": "hxor-packer",
@@ -214,6 +310,10 @@
         {
           "value": "liapp",
           "expanded": "LIAPP"
+        },
+        {
+          "value": "maskpe",
+          "expanded": "MaskPE"
         },
         {
           "value": "mew",
@@ -248,6 +348,10 @@
           "expanded": "Obsidium"
         },
         {
+          "value": "origami",
+          "expanded": "Origami"
+        },
+        {
           "value": "packman",
           "expanded": "Packman"
         },
@@ -264,6 +368,10 @@
           "expanded": "PE Packer"
         },
         {
+          "value": "perplex",
+          "expanded": "PErplex"
+        },
+        {
           "value": "peshield",
           "expanded": "PEShield"
         },
@@ -276,12 +384,32 @@
           "expanded": "PEtite"
         },
         {
+          "value": "petoy",
+          "expanded": "PE Toy"
+        },
+        {
+          "value": "pezor",
+          "expanded": "PEzor"
+        },
+        {
           "value": "procrypt",
           "expanded": "ProCrypt"
         },
         {
           "value": "rlpack-basic",
           "expanded": "RLPack Basic"
+        },
+        {
+          "value": "rpcrypt",
+          "expanded": "RPCrypt"
+        },
+        {
+          "value": "sepacker",
+          "expanded": "SEPacker"
+        },
+        {
+          "value": "simpledpack",
+          "expanded": "SimpleDpack"
         },
         {
           "value": "smart-packer-pro",
@@ -294,6 +422,10 @@
         {
           "value": "telock",
           "expanded": "Telock"
+        },
+        {
+          "value": "theark",
+          "expanded": "TheArk"
         },
         {
           "value": "themida",
@@ -314,6 +446,18 @@
         {
           "value": "vmprotect",
           "expanded": "VMProtect"
+        },
+        {
+          "value": "vprotect",
+          "expanded": "VProtect"
+        },
+        {
+          "value": "winupack",
+          "expanded": "WinUPack"
+        },
+        {
+          "value": "wwpack",
+          "expanded": "WWPack"
         },
         {
           "value": "xcomp-xpack",
