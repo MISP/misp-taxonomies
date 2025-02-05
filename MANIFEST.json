@@ -134,9 +134,9 @@
       "version": 1
     },
     {
-      "description": "Threats targetting cryptocurrency, based on CipherTrace report.",
+      "description": "Threats targeting cryptocurrency, based on CipherTrace report.",
       "name": "cryptocurrency-threat",
-      "version": 1
+      "version": 2
     },
     {
       "description": "Taxonomía CSIRT Américas.",
@@ -259,9 +259,9 @@
       "version": 2
     },
     {
-      "description": "Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information (e.g. data exfiltration loss, a positive gain for an adversary).",
+      "description": "Economic impact refers to a taxonomy used to describe whether financial effects are positive or negative outcomes related to tagged information. For instance, data exfiltration loss represents a positive outcome for an adversary.",
       "name": "economical-impact",
-      "version": 4
+      "version": 5
     },
     {
       "description": "Incident Classification by the ecsirt.net version mkVI of 31 March 2015 enriched with IntelMQ taxonomy-type mapping.",
@@ -634,9 +634,9 @@
       "version": 1
     },
     {
-      "description": "Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.",
+      "description": "Add a retention time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.",
       "name": "retention",
-      "version": 3
+      "version": 4
     },
     {
       "description": "Reference Security Incident Classification Taxonomy",
@@ -785,5 +785,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20241208"
+  "version": "20250205"
 }
