@@ -183,7 +183,7 @@
           "description": "Undertakings collecting, disposing or treating urban, domestic and industrial waste water"
         },
         {
-          "value": "digital-ifrastructure-subsector",
+          "value": "digital-infrastructure-subsector",
           "expanded": "Digital infrastructure entities",
           "description": "Internet Exchange Point providers (IXP), DNS service providers, Top-Level Domain (TLD) name registries, cloud computing service providers, Data centre service providers, content delivery network providers, providers of public electronic communications networks or providers of electronic communications services where their services are publicly available"
         },
