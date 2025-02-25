@@ -1,7 +1,7 @@
 {
   "namespace": "nis2",
   "description": "The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 May 2022, also known as the provisional agreement. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.",
-  "version": 4,
+  "version": 5,
   "predicates": [
     {
       "value": "impact-sectors-impacted",
@@ -98,14 +98,54 @@
           "description": "The impact is in the Digital infrastructure sector, for example impacting internet exchange points, domain name systems, top level domain registries, etc."
         },
         {
+          "value": "ict-services",
+          "expanded": "ICT service management (business-to-business)",
+          "description": "The impact is in the ICT services, systems or products , for example, impacting on processing and storing personal data management, or disruptions in digital services consumed by other critical infrastructures."
+        },
+        {
           "value": "public-administration",
-          "expanded": "Public administartion",
+          "expanded": "Public administration",
           "description": "The impact is in the government sector, for example, impacting the functioning of public administrations, elections, or emergency services"
         },
         {
           "value": "space",
           "expanded": "Space",
           "description": "The impact is in the space-based services"
+        },
+        {
+          "value": "courier",
+          "expanded": "Postal and courier services",
+          "description": "The impact is in the message or package transport sector, for example, unable to deliver sensitive information to be signed, or medical items to a hospital"
+        },
+        {
+          "value": "waste-management",
+          "expanded": "Waste management",
+          "description": "The impact is in the public or private waste management companies, for example, stopping from removing waste from cities may lead to public heath issues"
+        },
+        {
+          "value": "chemical",
+          "expanded": "Manufacture, production and distribution of chemicals",
+          "description": "The impact is in the chemical sector, for example, by accidental leaks when transporting chemical products or incidents in the production facilities"
+        },
+        {
+          "value": "food",
+          "expanded": "Production, processing and distribution of food",
+          "description": "The impact is in the food management sector, for example, in global disruptions of staple aliments caused by droughts or food poisoning during the production/processing/distribution phases"
+        },
+        {
+          "value": "manufacturing",
+          "expanded": "Manufacturing",
+          "description": "The impact is in the manufacturing sector, for example, on production shortages caused by availability of critical items, generating disruption in the whole supply chain"
+        },
+        {
+          "value": "digital-providers",
+          "expanded": "Digital providers",
+          "description": "The impact is in the providers of online marketplaces for B2C or B2B, online search engines or social network platforms, for example, when buying dangerous items are not prevented, or when biased information is flooded to change general opinion on a topic"
+        },
+        {
+          "value": "research",
+          "expanded": "Research",
+          "description": "The impact is in the Research sector, for example, by stealing data on breakthrough scientific achievements, or misuse of technologies that can generate out-of-control situations"
         }
       ]
     },
@@ -139,7 +179,7 @@
         },
         {
           "value": "air",
-          "expanded": "Air trasportation",
+          "expanded": "Air transportation",
           "description": "Air carriers, airport managing bodies, airports,  core airports and entities operating ancillary installations contained within airports, traffic management control operators providing air traffic control (ATC) services"
         },
         {
@@ -164,7 +204,7 @@
         },
         {
           "value": "financial-subsector",
-          "expanded": "Finanacial market infrastructures",
+          "expanded": "Financial market infrastructures",
           "description": "Operators of trading venues, central counterparties (CCPs), i.e. a legal person that interposes itself between the counterparties to the contracts traded on one or more financial markets, becoming the buyer to every seller and the seller to every buyer"
         },
         {
@@ -188,6 +228,11 @@
           "description": "Internet Exchange Point providers (IXP), DNS service providers, Top-Level Domain (TLD) name registries, cloud computing service providers, Data centre service providers, content delivery network providers, providers of public electronic communications networks or providers of electronic communications services where their services are publicly available"
         },
         {
+          "value": "ict-management-subsector",
+          "expanded": "ICT service management (business-to-business)",
+          "description": "Managed service providers (SaaS, PaaS, etc), security services providers (IAMs, personal info vaults, etc."
+        },
+        {
           "value": "public-administration-subsector",
           "expanded": "Public administration entities",
           "description": "Public administration entities of central governments, Public administration entities of NUTS level 1 regions (population min. 3 million – max. 7 million) and NUTS level 2  regions (population min. 800.000 – max 3 million)"
@@ -196,6 +241,66 @@
           "value": "space-subsector",
           "expanded": "Space entities",
           "description": "Operators of ground-based infrastructure, owned, managed and operated by Member States or by private parties, that support the provision of space-based services, excluding providers of public electronic communications networks. ‘Public electronic communications network’ means an electronic communications network used wholly or mainly for the provision of publicly available electronic communications services which support the transfer of information between network termination points"
+        },
+        {
+          "value": "courier-subsector",
+          "expanded": "Postal and courier services",
+          "description": "Certificate documents, credentials or sensitive items delivery"
+        },
+        {
+          "value": "waste-management-subsector",
+          "expanded": "Waste management",
+          "description": "Urban waste transport and management, hazardous waste subproducts management from chemical companies, waste disposal facilities"
+        },
+        {
+          "value": "chemical-subsector",
+          "expanded": "Manufacture, production and distribution of chemicals",
+          "description": "Oil companies, industrial chemical companies, agricultural fertilizers producers"
+        },
+        {
+          "value": "food-subsector",
+          "expanded": "Production, processing and distribution of food",
+          "description": "Plants, meat or fish gatherers, distribution and processing of food, supermarkets and other food vendors"
+        },
+        {
+          "value": "medical-devices-subsector",
+          "expanded": "Manufacture of medical devices and in vitro diagnostic medical devices",
+          "description": "Manufacture of medical appliances and devices (excepting the ones for critical emergencies which should be set to the health-subsector), in vitro diagnostic devices"
+        },
+        {
+          "value": "electronic-optical-subsector",
+          "expanded": "Manufacture of computer, electronic and optical products",
+          "description": "Chip design or manufacturing companies, Fiber optics, consumer electronics"
+        },        
+        {
+          "value": "electrical-equipment-subsector",
+          "expanded": "Manufacture of electrical equipment",
+          "description": "Power electronics providers, transformers, electrical motors, turbines"
+        },
+        {
+          "value": "machine-tool-subsector",
+          "expanded": "Manufacture of machinery and equipment n.e.c",
+          "description": "CNCs, lathes, milling machines"
+        },
+        {
+          "value": "vehicle-manufacturing-subsector",
+          "expanded": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "description": "Car, truck, bus production facilities, vehicle part suppliers, wheels"
+        },
+        {
+          "value": "other-transport-equipment-subsector",
+          "expanded": "Manufacture of other transport equipment",
+          "description": "Ship, train, aircraft manufacturers"
+        },       
+        {
+          "value": "digital-providers-subsector",
+          "expanded": "Digital providers",
+          "description": "The impact is in the providers of online marketplaces for B2C or B2B, online search engines or social network platforms, for example, when buying dangerous items are not prevented, or when biased information is flooded to change general opinion on a topic"
+        },
+        {
+          "value": "research-subsector",
+          "expanded": "Research",
+          "description": "The impact is in the Research sector, for example, by stealing data on breakthrough scientific achievements, or misuse of technologies that can generate out-of-control situations"
         }
       ]
     },
@@ -240,12 +345,12 @@
         {
           "value": "computer-manufacturing",
           "expanded": "Manufacture of computer, electronic and optical products",
-          "description": "Undertakings carrying out the manufacture of computers, electronical and optical products. This includes the manufacture of computers, computer peripherals, communications equipment, and similar electronic products, as well as the manufacture of components for such products. Also included is the manufacture of consumer electronics, measuring, testing, and navigating equipment, irradiation, electromedical and electrotherapeutic equipment, optical instruments and equipment, and the manufacture of magnetic and optical media"
+          "description": "Undertakings carrying out the manufacture of computers, electronic and optical products. This includes the manufacture of computers, computer peripherals, communications equipment, and similar electronic products, as well as the manufacture of components for such products. Also included is the manufacture of consumer electronics, measuring, testing, and navigating equipment, irradiation, electromedical and electrotherapeutic equipment, optical instruments and equipment, and the manufacture of magnetic and optical media"
         },
         {
           "value": "electrical-equipment-manufacturing",
           "expanded": "Manufacture of computer, electronic and optical products",
-          "description": "Undertakings carrying out the manufacture of electrical equipment. This includes the manufacture of products that generate, distribute, and use electrical power. Also included is the manufacture of electrical lighting, signalling equipment and electric household appliances"
+          "description": "Undertakings carrying out the manufacture of electrical equipment. This includes the manufacture of products that generate, distribute, and use electrical power. Also included is the manufacture of electrical lighting, signaling equipment and electric household appliances"
         },
         {
           "value": "machinery-equipment-manufacturing",
