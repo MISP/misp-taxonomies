@@ -6,32 +6,39 @@
     {
       "value": "planning",
       "description": "CTI requirementes being generated.",
-      "expanded": "Phase"
+      "expanded": "Phase",
+      "uuid": "405f1c7c-a209-5eb6-979a-061813ab3c93"
     },
     {
       "value": "collection",
       "description": "Data collection initiated.",
-      "expanded": "Phase"
+      "expanded": "Phase",
+      "uuid": "45dfe0c0-71f7-5e0b-9892-a755afd37dd8"
     },
     {
       "value": "processing-and-analysis",
       "description": "Data is being processed and analyzed",
-      "expanded": "Phase"
+      "expanded": "Phase",
+      "uuid": "43c2c60b-fb52-57c3-9ddf-d01b09426b4e"
     },
     {
       "value": "dissemination-done",
       "description": "CTI product created and delivered to stakeholders.",
-      "expanded": "Phase"
+      "expanded": "Phase",
+      "uuid": "bb13550b-a465-50e1-b65c-cc2f388305f2"
     },
     {
       "value": "feedback-received",
       "description": "Feedback received by stakeholders.",
-      "expanded": "Phase"
+      "expanded": "Phase",
+      "uuid": "4bc5dd61-cdbb-5f6c-ba6c-32874a420067"
     },
     {
       "value": "feedback-pending",
       "description": "Feedback pending by stakeholders.",
-      "expanded": "Phase"
+      "expanded": "Phase",
+      "uuid": "a2d87617-96a0-508d-af53-6b9a92bd15a1"
     }
-  ]
+  ],
+  "uuid": "074c6a53-14d1-5df9-9717-c616a340fb9c"
 }

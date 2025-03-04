@@ -12,1257 +12,1257 @@
         {
           "value": "AD",
           "expanded": "Andorra",
-          "uuid": "b5ea572e-9670-5566-8152-418823f03212"
+          "uuid": "6b159df4-feb7-5251-9da9-f8d66f590452"
         },
         {
           "value": "AE",
           "expanded": "United Arab Emirates",
-          "uuid": "8d0543e2-a58e-52d8-a0ed-618254babf95"
+          "uuid": "ee0d8af1-3fb2-53b6-aabb-cf82dd8d54a3"
         },
         {
           "value": "AF",
           "expanded": "Afghanistan",
-          "uuid": "6193e316-7263-5ced-950d-c11767d7f251"
+          "uuid": "6c08565b-5c7c-5f30-89fb-a173391a69fd"
         },
         {
           "value": "AG",
           "expanded": "Antigua and Barbuda",
-          "uuid": "6c3b2725-4964-5394-b175-e7738d9b1966"
+          "uuid": "a080c1b8-c3de-589e-85c5-70336a0e809a"
         },
         {
           "value": "AI",
           "expanded": "Anguilla",
-          "uuid": "4cddbcdd-4d15-52f7-a2f9-a116b6abb084"
+          "uuid": "c01d5a5b-643f-5dad-ade1-982a9c8c5abf"
         },
         {
           "value": "AL",
           "expanded": "Albania",
-          "uuid": "0b240fcb-1dce-54f6-a021-575626416dce"
+          "uuid": "b8b38248-9f01-592b-9e90-ebc6c8aa29a5"
         },
         {
           "value": "AM",
           "expanded": "Armenia",
-          "uuid": "9c2f71ee-17ff-568b-a6b0-7b58bf786a5c"
+          "uuid": "18a72d7e-a111-5080-8ec7-73703c3d9f51"
         },
         {
           "value": "AO",
           "expanded": "Angola",
-          "uuid": "a8b1a66c-fbf2-5596-8067-ace4bc03723b"
+          "uuid": "51c4a75c-72a9-5bd6-a2c4-fecde1f96bad"
         },
         {
           "value": "AQ",
           "expanded": "Antarctica",
-          "uuid": "63fb5fa4-1e56-5b5d-b534-1e3997a78198"
+          "uuid": "9d498408-fa2a-57c9-903a-9e0a86de89cc"
         },
         {
           "value": "AR",
           "expanded": "Argentina",
-          "uuid": "4863c83f-76f5-5384-892a-f8a47fcbb797"
+          "uuid": "4155efdc-36b1-5b2b-951e-e879a160dea9"
         },
         {
           "value": "AS",
           "expanded": "American Samoa",
-          "uuid": "b242da07-cb3b-50e2-9581-24a6a806ccfd"
+          "uuid": "35799f7c-f83c-5c32-a118-309f2cee392d"
         },
         {
           "value": "AT",
           "expanded": "Austria",
-          "uuid": "df3e9c08-896a-5a02-85eb-be549486c3e9"
+          "uuid": "82c91956-d905-5d5e-b48d-643a1fea135d"
         },
         {
           "value": "AU",
           "expanded": "Australia",
-          "uuid": "70745729-d6cb-50a7-9d93-069ba3314c23"
+          "uuid": "dbfdb5a6-b2b7-5d62-a86d-b1b8343a0008"
         },
         {
           "value": "AW",
           "expanded": "Aruba",
-          "uuid": "fec65f38-f53f-5288-97ed-a228c25e673a"
+          "uuid": "ec85c0f4-dca6-5807-a6b9-90d7c364d303"
         },
         {
           "value": "AX",
           "expanded": "Aland Islands",
-          "uuid": "1e052aef-a8de-503a-94ae-6aa118291f96"
+          "uuid": "79b1ee3a-c7ce-54f9-8a6e-f5f1f0c5d4cd"
         },
         {
           "value": "AZ",
           "expanded": "Azerbaijan",
-          "uuid": "b456323d-6e3f-52ee-a2c2-5c1e22d7313e"
+          "uuid": "c9976ad6-8d78-5bd3-b6d1-58feb81e7218"
         },
         {
           "value": "BA",
           "expanded": "Bosnia and Herzegovina",
-          "uuid": "40f5a897-89ea-5e27-945f-fab3db8c6360"
+          "uuid": "5c6c9e51-2db6-54be-a270-e7aef3232b79"
         },
         {
           "value": "BB",
           "expanded": "Barbados",
-          "uuid": "37ba9df6-cce1-52b5-919a-f19a14e3019f"
+          "uuid": "1ef0312e-096a-5ce6-b9e7-cbb55c65da8b"
         },
         {
           "value": "BD",
           "expanded": "Bangladesh",
-          "uuid": "2fa5cbb0-14ca-5f07-9725-b1fa4b12f3d7"
+          "uuid": "de946b3d-3c2f-5d70-a19d-3e9630ad34e1"
         },
         {
           "value": "BE",
           "expanded": "Belgium",
-          "uuid": "02815bf4-6c83-5a24-857f-f8c9e889efb8"
+          "uuid": "aac20fba-68a3-5677-bbf3-7dd07ac43593"
         },
         {
           "value": "BF",
           "expanded": "Burkina Faso",
-          "uuid": "56163cb1-13df-5ced-9d3b-69aaceacc93d"
+          "uuid": "d9e43884-f4a1-549e-b50d-88daba47b8c6"
         },
         {
           "value": "BG",
           "expanded": "Bulgaria",
-          "uuid": "e3264fda-e1af-5612-9e95-0d1287c1d68e"
+          "uuid": "e54ee6e5-0726-5539-ab5c-778414f87d33"
         },
         {
           "value": "BH",
           "expanded": "Bahrain",
-          "uuid": "99d8091e-2a5a-5659-b1cb-bc41d2044bd3"
+          "uuid": "864e6dfd-423e-5599-960f-c80586903819"
         },
         {
           "value": "BI",
           "expanded": "Burundi",
-          "uuid": "ad0aee9e-bbbb-57dd-8ee5-cbe715f7aace"
+          "uuid": "a7657c59-6685-5208-a81a-ca408b17067c"
         },
         {
           "value": "BJ",
           "expanded": "Benin",
-          "uuid": "6a38d25d-f5b1-58cd-8563-ae743b844b3b"
+          "uuid": "8aacf4b5-815a-5779-a362-284cae9299f4"
         },
         {
           "value": "BL",
           "expanded": "Saint-Barthelemy",
-          "uuid": "b4615ca3-282c-512d-9579-64457b0b65db"
+          "uuid": "01b81e98-c5c9-5c1b-9258-b833850cffc1"
         },
         {
           "value": "BM",
           "expanded": "Bermuda",
-          "uuid": "338844bf-17da-5f22-96b7-b1d94d4fec38"
+          "uuid": "60e27c0e-6094-5ca2-a85b-aceafb2ab14c"
         },
         {
           "value": "BN",
           "expanded": "Brunei Darussalam",
-          "uuid": "79569122-dae1-5c8e-a281-f7376c47ae64"
+          "uuid": "1cb36547-9a6b-5c6b-8225-5d33aa095c55"
         },
         {
           "value": "BO",
           "expanded": "Bolivia",
-          "uuid": "458ade0b-a3a5-5dba-a5a7-3caa41f773e0"
+          "uuid": "829b5c59-8287-5052-8fb7-0ad7eab96ae1"
         },
         {
           "value": "BQ",
           "expanded": "Bonaire,  Saint Eustatius and Saba",
-          "uuid": "25e4b764-ed07-5247-8e4f-0c641a1c36c8"
+          "uuid": "0c825f60-078b-5229-b7b6-34ce90feb04c"
         },
         {
           "value": "BR",
           "expanded": "Brazil",
-          "uuid": "f173ba4e-750a-5453-8457-29dae057f257"
+          "uuid": "040c6beb-4dea-54d0-915f-00a144999c21"
         },
         {
           "value": "BS",
           "expanded": "Bahamas",
-          "uuid": "830435cc-5b51-5868-9839-c794ec3fef8c"
+          "uuid": "475370fe-7742-5093-8367-d9636fd88f6f"
         },
         {
           "value": "BT",
           "expanded": "Bhutan",
-          "uuid": "41557bf1-09a8-5e75-8337-f37e0c644dec"
+          "uuid": "18cd7632-52bd-5e65-b440-8341f4590656"
         },
         {
           "value": "BV",
           "expanded": "Bouvet Island",
-          "uuid": "2c23292e-8e6a-5912-a929-c86269bede75"
+          "uuid": "5d345d29-fabe-57e1-aba2-86c5228db55a"
         },
         {
           "value": "BW",
           "expanded": "Botswana",
-          "uuid": "d88ebad8-ceff-5ac9-a571-b813a92e2c38"
+          "uuid": "4b3a7680-4a73-5637-b7c8-b4666338cfb3"
         },
         {
           "value": "BY",
           "expanded": "Belarus",
-          "uuid": "d2640934-1c4f-532c-a698-3e7b1fedcece"
+          "uuid": "9457243b-ccbb-5fb0-9b87-eb66d7ab17d5"
         },
         {
           "value": "BZ",
           "expanded": "Belize",
-          "uuid": "4eb9a994-72ee-5dbf-84fd-e1efc24e42b6"
+          "uuid": "040621d6-10ec-5b29-80fc-0b75e77d7e02"
         },
         {
           "value": "CA",
           "expanded": "Canada",
-          "uuid": "41e8fa8d-678a-5682-a827-2eab2e7f2b19"
+          "uuid": "7ddcd1f9-d02b-5f44-9c77-b8f8178e4f0c"
         },
         {
           "value": "CC",
           "expanded": "Cocos (Keeling) Islands",
-          "uuid": "1844b2c7-fdc4-53a7-9753-256469596e91"
+          "uuid": "af4e171d-8269-5d30-9db8-a39cc2939472"
         },
         {
           "value": "CD",
           "expanded": "Congo, Democratic Republic of the",
-          "uuid": "47eb3034-3bcf-5742-a330-3c6b1ce05e0b"
+          "uuid": "8f9785e5-8d53-5ead-83f1-87ad1a22bbeb"
         },
         {
           "value": "CF",
           "expanded": "Central African Republic",
-          "uuid": "d678754e-e3f9-5965-8e10-49e1fd0d2807"
+          "uuid": "411c5830-65d9-5c85-bca4-92a8f6c5f174"
         },
         {
           "value": "CG",
           "expanded": "Congo",
-          "uuid": "1e44f314-1f66-503b-97c0-21ef71e8c2f0"
+          "uuid": "1577b4f3-b08d-5ec7-8b23-780440e5be16"
         },
         {
           "value": "CH",
           "expanded": "Switzerland",
-          "uuid": "c62df758-c1f0-5451-b173-c11e5b29ac0d"
+          "uuid": "8a6f16bc-557c-5a94-82fa-09df74d400c1"
         },
         {
           "value": "CI",
           "expanded": "Cote d'Ivoire",
-          "uuid": "9439b4f2-eaa6-5506-a373-5e6212a8a5f7"
+          "uuid": "1ece6e8e-e061-5597-90de-4b1a6803f7e6"
         },
         {
           "value": "CK",
           "expanded": "Cook Islands",
-          "uuid": "3b7ecde6-3b5b-5632-9734-23dcce154caf"
+          "uuid": "296e4689-0c58-52d3-a19a-093aeabcff94"
         },
         {
           "value": "CL",
           "expanded": "Chile",
-          "uuid": "6719c860-232f-56ca-b297-c93d3a09b7ec"
+          "uuid": "5ecf1279-670f-5eee-9563-29dc6b58c621"
         },
         {
           "value": "CM",
           "expanded": "Cameroon",
-          "uuid": "da156043-d5f9-581b-8a38-3b32f539d428"
+          "uuid": "1a3df860-21fb-54fd-8643-3b3ce7dec8e0"
         },
         {
           "value": "CN",
           "expanded": "China",
-          "uuid": "aabde609-6ddb-5e42-8e27-004d82e7fcd3"
+          "uuid": "60d4ff75-8e62-59ec-81d8-168f227b633d"
         },
         {
           "value": "CO",
           "expanded": "Colombia",
-          "uuid": "f14aea6d-bea0-5b67-a60f-761fb064e0a8"
+          "uuid": "99540a63-471d-5fc0-a336-977bf33e93ce"
         },
         {
           "value": "CR",
           "expanded": "Costa Rica",
-          "uuid": "fc160213-3278-5779-bab6-4841d49cc9e3"
+          "uuid": "865adfb6-1c14-5315-8208-b87a9fbaeee9"
         },
         {
           "value": "CU",
           "expanded": "Cuba",
-          "uuid": "3f6e32fb-b100-5a1e-b664-8cc184d0203a"
+          "uuid": "a1c520e7-882b-5506-9b54-bbcbcb5b567f"
         },
         {
           "value": "CV",
           "expanded": "Cape Verde",
-          "uuid": "83c3d899-4605-575b-ac1d-aafd9bd24f2b"
+          "uuid": "d7a969dc-987b-5c8b-856c-e0f4c200b353"
         },
         {
           "value": "CW",
           "expanded": "Curacao",
-          "uuid": "6a8a3e7a-f68f-5765-8802-36956c8b34f1"
+          "uuid": "06360cd1-9f1a-5c18-971d-42fe2cb448eb"
         },
         {
           "value": "CX",
           "expanded": "Christmas Island",
-          "uuid": "fe385614-aa84-5a7c-8007-57b685976d90"
+          "uuid": "dc6c5301-85ed-5be9-8cc8-dac661b7abe9"
         },
         {
           "value": "CY",
           "expanded": "Cyprus",
-          "uuid": "71ae2082-570c-5d09-87fb-cb90137ad800"
+          "uuid": "7129ac82-122f-584e-9e20-e7b91d096058"
         },
         {
           "value": "CZ",
           "expanded": "Czech Republic",
-          "uuid": "0c992082-be99-5872-be7f-1e450470c808"
+          "uuid": "c0f7f11d-62e5-5710-a895-ef0206f6db50"
         },
         {
           "value": "DE",
           "expanded": "Germany",
-          "uuid": "ff6ea04a-d5d1-5baa-9d55-356baf074514"
+          "uuid": "d92ee876-b281-5704-8849-6ea459686899"
         },
         {
           "value": "DJ",
           "expanded": "Djibouti",
-          "uuid": "467f0d78-121b-577e-9779-efe34c23cab9"
+          "uuid": "78e9ddd7-cc38-56ec-b316-a7ec560a170b"
         },
         {
           "value": "DK",
           "expanded": "Denmark",
-          "uuid": "d9563fce-563b-5419-bc27-2a157c511780"
+          "uuid": "f502a2e4-8c3a-5d33-a526-3e3633b82e7c"
         },
         {
           "value": "DM",
           "expanded": "Dominica",
-          "uuid": "d7880e63-ce90-5432-a03d-78734ee95401"
+          "uuid": "049e77d9-0725-501d-b6c5-5837517197b3"
         },
         {
           "value": "DO",
           "expanded": "Dominican Republic",
-          "uuid": "1c34577a-9ec3-5882-bec9-5edfe8a9a9d8"
+          "uuid": "4c0cc8f4-ea61-5875-988a-109e42d0234f"
         },
         {
           "value": "DZ",
           "expanded": "Algeria",
-          "uuid": "03fbee3d-0b3f-51bc-b88c-479eb923da0c"
+          "uuid": "9007c266-d07d-5f1d-9907-19ab3e93790c"
         },
         {
           "value": "EC",
           "expanded": "Ecuador",
-          "uuid": "92935a6c-aa1b-5401-b000-282b686dd362"
+          "uuid": "573ecc05-a4d4-55c5-90f9-ad9204732ae1"
         },
         {
           "value": "EE",
           "expanded": "Estonia",
-          "uuid": "41b04f16-55bf-526f-a4ad-820580fafb85"
+          "uuid": "a1fb0212-e68a-52e3-bd31-d40c8523cb02"
         },
         {
           "value": "EG",
           "expanded": "Egypt",
-          "uuid": "e7ee58e0-e8c1-59c1-9046-4ef3653dd8f4"
+          "uuid": "501e71e9-1ef2-5e17-87cf-ff326544f7d0"
         },
         {
           "value": "EH",
           "expanded": "Western Sahara",
-          "uuid": "8dcb6ca7-c92f-5311-a797-701cf733ad58"
+          "uuid": "df35a5d3-eea7-5ef2-a4dc-3be5d785a67c"
         },
         {
           "value": "ER",
           "expanded": "Eritrea",
-          "uuid": "4a711321-0ed5-5eb6-ab73-b45d3bfae513"
+          "uuid": "46c6ad75-8bf3-5df7-865d-e334fb632ed0"
         },
         {
           "value": "ES",
           "expanded": "Spain",
-          "uuid": "56db4803-d587-54d6-8954-060a46ee8257"
+          "uuid": "7f22a50f-c7c3-57f7-9f8b-e397df43fa8b"
         },
         {
           "value": "ET",
           "expanded": "Ethiopia",
-          "uuid": "44a47a66-a8e5-58d9-bceb-d09ee4583a8a"
+          "uuid": "1b322180-fe2e-59ae-946e-8febb26e334f"
         },
         {
           "value": "FI",
           "expanded": "Finland",
-          "uuid": "29cf381f-330d-5694-930a-c18f5f1d9af5"
+          "uuid": "7147c5f2-2869-5801-8730-6d6415a60db5"
         },
         {
           "value": "FJ",
           "expanded": "Fiji",
-          "uuid": "506ab291-ad2d-5b1d-84f8-9c655b890331"
+          "uuid": "dcf3bc13-034f-57f4-9dff-0482e98ae134"
         },
         {
           "value": "FK",
           "expanded": "Faeroe Islands",
-          "uuid": "568462e1-8dc6-5e3a-bfe7-47385da881ab"
+          "uuid": "cd8b7b8b-71ab-5aa6-8a81-61f8b2a4b602"
         },
         {
           "value": "FM",
           "expanded": "Micronesia (Federated States of)",
-          "uuid": "5b8a0745-e8ae-5ea6-a0a2-ff294fd4b16d"
+          "uuid": "8514b079-e2e8-563c-a89e-0698e5d52509"
         },
         {
           "value": "FO",
           "expanded": "Falkland Islands (Malvinas)",
-          "uuid": "c04ba181-bb4c-50e7-a2bd-6d171279cc27"
+          "uuid": "dd1058e2-294e-54ea-b332-84a58a4183f7"
         },
         {
           "value": "FR",
           "expanded": "France",
-          "uuid": "8eaa137a-5720-580d-9b6c-f3b80023d28d"
+          "uuid": "b09953c2-9a4f-5257-8d3a-af3645563c68"
         },
         {
           "value": "GA",
           "expanded": "Gabon",
-          "uuid": "3046bc21-75d6-551c-b8ce-0b30a1c51658"
+          "uuid": "3da5e1c2-423c-5be6-b790-76fdae5cd11d"
         },
         {
           "value": "GB",
           "expanded": "United Kingdom",
-          "uuid": "42622a63-9bd4-5969-a594-27d90e6e135c"
+          "uuid": "8717cf38-acb0-5c3b-b505-351a339d7f0d"
         },
         {
           "value": "GD",
           "expanded": "Grenada",
-          "uuid": "1a9d4a14-165a-5cfa-99f9-86c6a8ee607d"
+          "uuid": "f155c4f6-6d4e-577c-8964-e5d0f0b27c5c"
         },
         {
           "value": "GE",
           "expanded": "Georgia",
-          "uuid": "ecdc07a9-72cd-5511-b5b2-bf45c4893e72"
+          "uuid": "0e8fdf78-51cb-5fd4-9ff0-8bd7ebdf084f"
         },
         {
           "value": "GF",
           "expanded": "French Guiana",
-          "uuid": "d7df8196-9e21-5b18-9437-be87b5bb8956"
+          "uuid": "090f7473-2761-59fe-9a73-e0082f021c3a"
         },
         {
           "value": "GG",
           "expanded": "Guernsey",
-          "uuid": "e591369f-f30e-5b4f-8049-67f01a88b884"
+          "uuid": "7719a1f8-bec5-5cd3-a074-63baed6580b0"
         },
         {
           "value": "GH",
           "expanded": "Ghana",
-          "uuid": "5be41674-a6fd-53b1-8a2a-50dedafd8b6a"
+          "uuid": "1bc553a9-5abb-5f1d-b1b4-fbca00f46a34"
         },
         {
           "value": "GI",
           "expanded": "Gibraltar",
-          "uuid": "96788b13-70fd-57d1-a39e-cdfe561d913c"
+          "uuid": "170418b9-0461-5f0c-b500-cafe71aeeb10"
         },
         {
           "value": "GL",
           "expanded": "Greenland",
-          "uuid": "ba035a66-4526-5ec6-b07e-7c0fd55f6a4b"
+          "uuid": "792e117e-645a-5322-8699-4fecae4fcc06"
         },
         {
           "value": "GM",
           "expanded": "Gambia",
-          "uuid": "e058f6f4-c67d-59c4-8a94-deea2b4d9221"
+          "uuid": "8bff172a-df8e-5a90-8cee-47ba7d077710"
         },
         {
           "value": "GN",
           "expanded": "Guinea",
-          "uuid": "6093bcfb-b002-5e3a-8afd-e7769fe19e74"
+          "uuid": "73bfa73e-70fa-5c60-a16d-91afab4e4b6d"
         },
         {
           "value": "GP",
           "expanded": "Guadeloupe",
-          "uuid": "0fe2398c-f451-5bd8-9f86-506e9e0a9cae"
+          "uuid": "9bf212c1-b0d1-5292-baf5-61202f0ca8e1"
         },
         {
           "value": "GQ",
           "expanded": "Equatorial Guinea",
-          "uuid": "f7ad6b2b-9a48-5b37-b4ef-2c22fa1927e6"
+          "uuid": "4fcd72a3-f0b6-5db5-be95-e7442506982c"
         },
         {
           "value": "GR",
           "expanded": "Greece",
-          "uuid": "fb8e2bd3-8aa5-555f-9b7d-2202a889b572"
+          "uuid": "2863235c-32af-5d98-83c1-d3835018934c"
         },
         {
           "value": "GS",
           "expanded": "South Georgia and the South Sandwich Islands",
-          "uuid": "dd91aafd-0d27-59cf-b1c2-44ccf6eaa988"
+          "uuid": "755902b8-0bd4-595f-b40e-c2b4a63c2e2a"
         },
         {
           "value": "GT",
           "expanded": "Guatemala",
-          "uuid": "e051176f-5ae0-512c-a93c-667b5cc2bf0f"
+          "uuid": "71633c93-9ed2-5fd5-9172-b01f559cabfe"
         },
         {
           "value": "GU",
           "expanded": "Guam",
-          "uuid": "585b91cd-b9b0-58de-8f92-bed51c9c94a0"
+          "uuid": "9af3f4c0-95ef-5460-a68f-3968e9dc7424"
         },
         {
           "value": "GW",
           "expanded": "Guinea-Bissau",
-          "uuid": "177d2c61-3991-5e0c-a164-e137339f8e69"
+          "uuid": "88292a82-1e33-5900-b461-92b0e18f2f3f"
         },
         {
           "value": "GY",
           "expanded": "Guyana",
-          "uuid": "57a8c789-f157-58c7-8222-1616325c3700"
+          "uuid": "da234ba2-963a-55ea-b66f-df279ae35fe1"
         },
         {
           "value": "HK",
           "expanded": "Hong Kong",
-          "uuid": "86c93c58-7ad5-591e-a161-5ec997fd90eb"
+          "uuid": "36dca13a-5461-52c0-a8da-3c06011cf808"
         },
         {
           "value": "HM",
           "expanded": "Heard Island and McDonal Islands",
-          "uuid": "da83ea58-1db2-59f1-815d-dc7432e1d08f"
+          "uuid": "09dc81d5-5ba0-55fd-85a1-5acc033b057d"
         },
         {
           "value": "HN",
           "expanded": "Honduras",
-          "uuid": "12c1b95c-8f85-55e1-a3c7-f801eb0482b5"
+          "uuid": "cc458f53-28ed-5ee5-b1f7-3befe89f2f9e"
         },
         {
           "value": "HR",
           "expanded": "Croatia",
-          "uuid": "bdc278da-6916-503c-a30d-31400698240a"
+          "uuid": "26a2b293-5479-5663-990c-e76873fe1b65"
         },
         {
           "value": "HT",
           "expanded": "Haiti",
-          "uuid": "902e2c8f-6c53-5e10-8fc1-af7561c0abc8"
+          "uuid": "3ba6c7e1-a318-5030-afa6-ca48e4fd5ceb"
         },
         {
           "value": "HU",
           "expanded": "Hungary",
-          "uuid": "3fd0fd83-f6c0-5585-b3cc-166c72401c05"
+          "uuid": "38acff8d-ce30-5f92-98b5-0377e9b6c8a7"
         },
         {
           "value": "ID",
           "expanded": "Indonesia",
-          "uuid": "8288f13e-1eda-5677-b422-a8a8db679749"
+          "uuid": "a6e2b9b8-6e5e-5eac-8e19-8692b939b2a3"
         },
         {
           "value": "IE",
           "expanded": "Ireland",
-          "uuid": "d4025b08-3142-5fe2-92d9-8c04d142a8a0"
+          "uuid": "10bb4720-82f2-5d9f-b22d-3f6497369b24"
         },
         {
           "value": "IL",
           "expanded": "Israel",
-          "uuid": "191a9d8e-ce7c-521f-a9da-ca1b1550612f"
+          "uuid": "53e8204a-a26a-51e2-8f7b-37203e880f17"
         },
         {
           "value": "IM",
           "expanded": "Isle of Man",
-          "uuid": "5b7bbf68-ae05-56ac-ab4a-ed818a85c74d"
+          "uuid": "d13efb52-39a9-5f5f-8209-047137d37d91"
         },
         {
           "value": "IN",
           "expanded": "India",
-          "uuid": "91eb336b-18ad-5e27-85f6-972e1a43deb2"
+          "uuid": "8a5349c2-5cd9-5755-bcc8-2c16ce6af911"
         },
         {
           "value": "IO",
           "expanded": "British Virgin Islands",
-          "uuid": "ec1f7329-55b0-5710-ba8d-d727bc08648b"
+          "uuid": "7fe6dc55-f5c0-51ef-9af2-b95f639ecaa4"
         },
         {
           "value": "IQ",
           "expanded": "Iraq",
-          "uuid": "351d72a3-22f9-56ef-ba0b-2ce5dbf38513"
+          "uuid": "3dfdf417-889a-5aea-82ef-226a846576b7"
         },
         {
           "value": "IR",
           "expanded": "Iran (Islamic Republic of)",
-          "uuid": "b99e6368-cfb8-5d0f-93da-c01ab37140f2"
+          "uuid": "a34566d0-1aae-5940-9a4d-9f40dfd1e57f"
         },
         {
           "value": "IS",
           "expanded": "Iceland",
-          "uuid": "798dd8f0-1ee6-5097-be49-df4d8e2fbf1e"
+          "uuid": "0be57e68-acfb-5597-9ed7-d724c6a6eb9e"
         },
         {
           "value": "IT",
           "expanded": "Italy",
-          "uuid": "3034ab68-372c-566f-97c6-e95be7e40f91"
+          "uuid": "f9cdf4f6-bdb1-5aa9-84de-2ac3bc46de07"
         },
         {
           "value": "JE",
           "expanded": "Jersey",
-          "uuid": "67328972-8f0b-5adb-8f63-5211e260aac9"
+          "uuid": "02a4f0af-09d3-56f0-9fc1-839358801372"
         },
         {
           "value": "JM",
           "expanded": "Jamaica",
-          "uuid": "ceddbd4a-4467-5aba-bbfb-d493cd14356f"
+          "uuid": "bf2318ce-4ca4-5e0b-ba1f-ec360fba51e3"
         },
         {
           "value": "JO",
           "expanded": "Jordan",
-          "uuid": "51f556ca-0315-5fc9-9825-42db08a4783d"
+          "uuid": "0b9f953c-7941-5ed5-b20d-81660439a41e"
         },
         {
           "value": "JP",
           "expanded": "Japan",
-          "uuid": "3498f542-f7d4-57b3-b65b-affe66616d03"
+          "uuid": "4042ade6-36b1-577b-8991-d27769a7c158"
         },
         {
           "value": "KE",
           "expanded": "Kenya",
-          "uuid": "782ec0d3-ec32-59e6-9ac5-65bb37ee1a84"
+          "uuid": "656619f9-195a-5efa-947a-4dfce16e8465"
         },
         {
           "value": "KG",
           "expanded": "Kyrgyzstan",
-          "uuid": "4749c740-4682-53d8-9d1c-751ccb97bb71"
+          "uuid": "fc739ed4-6cd2-5346-a960-7502c7b38ce5"
         },
         {
           "value": "KH",
           "expanded": "Cambodia",
-          "uuid": "ac783f62-3f44-51a8-b116-d2c5b27bbc0d"
+          "uuid": "b8b245b1-ec98-5671-bce5-e264667db33f"
         },
         {
           "value": "KI",
           "expanded": "Kiribati",
-          "uuid": "96b136f5-18b8-5537-bcfa-47379580804a"
+          "uuid": "4ff00769-6836-58a1-a8ca-125ba5774484"
         },
         {
           "value": "KM",
           "expanded": "Comoros",
-          "uuid": "8c2d1e4d-039a-5a70-9641-9cc2b684fc9c"
+          "uuid": "bf5a4c6f-6068-58d0-a498-782cd0bda954"
         },
         {
           "value": "KN",
           "expanded": "Saint Kitts and Nevis",
-          "uuid": "fd563b01-8e0b-5ffd-a479-d46db3138865"
+          "uuid": "47810d0b-92d5-529b-bf1e-09cbc318bcc1"
         },
         {
           "value": "KP",
           "expanded": "Korea, Democratic People's Republic of",
-          "uuid": "0c07f669-2a05-5b0a-8b81-46707af3022e"
+          "uuid": "38d002ca-1a22-573e-8536-6b91d4d88fa3"
         },
         {
           "value": "KR",
           "expanded": "Korea, Republic of",
-          "uuid": "facfc08b-cc8a-5e00-b122-0bbe2baf1d2f"
+          "uuid": "106bb726-a408-51c2-9e38-c213cbc7ceeb"
         },
         {
           "value": "KW",
           "expanded": "Kuwait",
-          "uuid": "aa83e890-17aa-563f-817f-6c9f68d50241"
+          "uuid": "b225e1d3-2d90-5579-b908-f1d5af4a2ddc"
         },
         {
           "value": "KY",
           "expanded": "Cayman Islands",
-          "uuid": "f9adee94-12af-533e-a436-0d9e4fd123d8"
+          "uuid": "5f972c1c-6e2a-5f95-8f85-893f5c179ba6"
         },
         {
           "value": "KZ",
           "expanded": "Kazakhstan",
-          "uuid": "9cb03199-6427-5810-a12d-21072e217b03"
+          "uuid": "a496cc3e-c0ad-57a8-bda9-ac601396db44"
         },
         {
           "value": "LA",
           "expanded": "Lao People's Democratic Republic",
-          "uuid": "96ca5ff6-824e-5d3f-8492-57f7fa82e1a6"
+          "uuid": "41286f47-57db-5109-aa27-ae6615444fbc"
         },
         {
           "value": "LB",
           "expanded": "Lebanon",
-          "uuid": "10c3e3db-6a8d-5f59-a5ee-3129e40b224c"
+          "uuid": "2485a54c-88f8-5dfb-970f-836dc99b1ba8"
         },
         {
           "value": "LC",
           "expanded": "Saint Lucia",
-          "uuid": "3c9ff25c-6211-5821-9750-0e3f2121b9da"
+          "uuid": "33e75600-d2eb-5b7f-bd96-995067412977"
         },
         {
           "value": "LI",
           "expanded": "Liechtenstein",
-          "uuid": "fc01e908-0980-52f9-98de-e9bd9fcaa3f1"
+          "uuid": "d06bfc7c-d148-5299-8594-70c4447eeba8"
         },
         {
           "value": "LK",
           "expanded": "Sri Lanka",
-          "uuid": "850f614a-281f-54a9-b97f-748c95beed20"
+          "uuid": "ee543db0-7bbf-5cbe-ae45-cb9470aa0215"
         },
         {
           "value": "LR",
           "expanded": "Liberia",
-          "uuid": "1f668a97-172e-539c-bd52-245d415e0c6c"
+          "uuid": "f161fe6c-8905-5534-8446-e7b5eb60941e"
         },
         {
           "value": "LS",
           "expanded": "Lesotho",
-          "uuid": "0e1feeb2-7238-530b-a8c9-806f57e88d18"
+          "uuid": "3964d210-2b58-5e20-a93d-2cbe6da80c88"
         },
         {
           "value": "LT",
           "expanded": "Lithuania",
-          "uuid": "bff4b815-3d01-5453-a0b9-49c791a98d33"
+          "uuid": "8b2f809d-9ad4-54b4-b7d9-96b4421201d8"
         },
         {
           "value": "LU",
           "expanded": "Luxembourg",
-          "uuid": "043b4a5a-5cfb-5727-916f-5d05d1d99887"
+          "uuid": "60c41b89-d0e4-5864-a2b2-6bf1391eac76"
         },
         {
           "value": "LV",
           "expanded": "Latvia",
-          "uuid": "0a080d25-69ab-5cee-bc07-ceb05fcaeaa5"
+          "uuid": "63252538-d1b2-53a4-84a0-2706c702bd8a"
         },
         {
           "value": "LY",
           "expanded": "Libya",
-          "uuid": "dbb0a95d-865c-5d21-8b83-b47074e9dd75"
+          "uuid": "eed753a1-72d4-5aeb-881b-f79dcefa7d33"
         },
         {
           "value": "MA",
           "expanded": "Morocco",
-          "uuid": "908c9b01-cce8-58ae-bd52-bc18af8394d2"
+          "uuid": "e1f63edc-af75-5a6d-a9ea-8ab22faa4def"
         },
         {
           "value": "MC",
           "expanded": "Monaco",
-          "uuid": "6240fc57-c06a-5117-a727-9f7f75ec0487"
+          "uuid": "6154e8ef-03c8-59c8-be11-6fea99384379"
         },
         {
           "value": "MD",
           "expanded": "Moldova, Republic of",
-          "uuid": "ee22d0b8-2a7d-558a-8a45-c2af40474355"
+          "uuid": "404820dd-9680-586d-ae99-dc448b5fac29"
         },
         {
           "value": "ME",
           "expanded": "Montenegro",
-          "uuid": "afdf4419-764e-5d11-b88f-b4eedc78aa19"
+          "uuid": "ebf9642c-096a-5ea9-b9af-9fd6de6d837c"
         },
         {
           "value": "MF",
           "expanded": "Saint Martin (French part)",
-          "uuid": "b4f6ff4a-65b1-5338-b110-d1fe2216f109"
+          "uuid": "0b94f60f-8b7b-51ef-bbb6-bec568a2ec80"
         },
         {
           "value": "MG",
           "expanded": "Madagascar",
-          "uuid": "e10b6de3-cf4e-5b3d-acb4-92535d580483"
+          "uuid": "927bae04-8b78-5d7d-874b-4912391c6c7a"
         },
         {
           "value": "MH",
           "expanded": "Marshall Islands",
-          "uuid": "8312665d-cb99-526d-84d5-f6721399aa25"
+          "uuid": "c635f7a7-4df8-5f4b-8a67-e6665974d75d"
         },
         {
           "value": "MK",
           "expanded": "Macedonia, The former Yugoslav Republic of",
-          "uuid": "c6e899e2-829b-573b-9676-b6b3e1c3c487"
+          "uuid": "910be3e0-788e-5f58-8c34-33a16c6c543d"
         },
         {
           "value": "ML",
           "expanded": "Mali",
-          "uuid": "57a1e853-e772-5c86-8b23-0e4901d45f86"
+          "uuid": "f973d269-cd17-59f4-8fb8-926ff174d369"
         },
         {
           "value": "MM",
           "expanded": "Myanmar",
-          "uuid": "a2bfdee3-5896-588a-9699-cc6caa0fd5ca"
+          "uuid": "0c9c3673-0a13-58f2-9831-2ab039ad6a54"
         },
         {
           "value": "MN",
           "expanded": "Mongolia",
-          "uuid": "53778a64-11c9-5f90-9040-a9c110b7fe2c"
+          "uuid": "b7ad3e3f-7c45-5bb9-b5b1-a9804b009ec4"
         },
         {
           "value": "MO",
           "expanded": "Macao",
-          "uuid": "df151a6c-e458-5ad3-8e95-a3ec7d984877"
+          "uuid": "a44892d2-8a36-5c55-a15f-636013a1fd03"
         },
         {
           "value": "MP",
           "expanded": "Northern Mariana Islands",
-          "uuid": "3f2f6e5b-3cb6-58df-9615-69df1a64941a"
+          "uuid": "60a5dbcd-b0af-5f5a-8dba-9a427c92bd29"
         },
         {
           "value": "MQ",
           "expanded": "Martinique",
-          "uuid": "672e7e17-975d-5ac8-a5e7-2a1c1722c047"
+          "uuid": "bf4b4a9e-9afe-5467-a230-6b197f669ad7"
         },
         {
           "value": "MR",
           "expanded": "Mauritania",
-          "uuid": "bc675d53-a244-57ef-9513-ef0bdd78fcea"
+          "uuid": "5c1927d8-4e1d-5ff1-af40-d7448a368a8f"
         },
         {
           "value": "MS",
           "expanded": "Montserrat",
-          "uuid": "183751f3-5e8a-5836-a549-1b6fd4dab0e2"
+          "uuid": "6980f2bd-4ac5-5041-912c-89bfd3b641d8"
         },
         {
           "value": "MT",
           "expanded": "Malta",
-          "uuid": "652392e7-b82a-54f7-ae0b-15f3378a09e3"
+          "uuid": "306bf7b5-a96d-584d-a4a3-8c837d12ad88"
         },
         {
           "value": "MU",
           "expanded": "Mauritius",
-          "uuid": "759221fa-9dde-5775-9553-2facbe385291"
+          "uuid": "397a35c0-36ae-5fc0-832e-5e108dde5138"
         },
         {
           "value": "MV",
           "expanded": "Maldives",
-          "uuid": "d8515472-53de-5e52-9560-c1336a2724c2"
+          "uuid": "842a44c8-0d75-5003-b4ae-5b402deb95ba"
         },
         {
           "value": "MW",
           "expanded": "Malawi",
-          "uuid": "0ca1b42a-fc31-54d1-a5da-9a45ead620e4"
+          "uuid": "58f047f4-a8ca-50a8-995e-55ff37e69dc0"
         },
         {
           "value": "MX",
           "expanded": "Mexico",
-          "uuid": "3387a4aa-7886-54b0-b676-7c9b6d485712"
+          "uuid": "f32fd9f5-e209-5c6c-97cd-c7569e0df7ad"
         },
         {
           "value": "MY",
           "expanded": "Malaysia",
-          "uuid": "d32a5539-7c60-553e-977b-bc47769d108b"
+          "uuid": "b42429cf-e7a6-574e-a154-2bb020b85e3b"
         },
         {
           "value": "MZ",
           "expanded": "Mozambique",
-          "uuid": "c6b12f2d-5c15-5af6-ad28-a1a7bb24685b"
+          "uuid": "06b957fa-9462-5302-942d-41640cd05a14"
         },
         {
           "value": "NA",
           "expanded": "Namibia",
-          "uuid": "5a49c00e-ed21-5111-807b-7994a14e77be"
+          "uuid": "6e90aa0c-80e9-5bb4-92f4-33f5e17b3bb0"
         },
         {
           "value": "NC",
           "expanded": "New Caledonia",
-          "uuid": "407d35da-c719-536e-93ef-fa0258b7b9bb"
+          "uuid": "ec2021ee-7db2-5e69-95e6-f83a3a25ab9f"
         },
         {
           "value": "NE",
           "expanded": "Niger",
-          "uuid": "3b8a44b5-c066-553a-841e-358b832da8ab"
+          "uuid": "a9ac9e51-5c84-538f-ba5e-f6547b45e69a"
         },
         {
           "value": "NF",
           "expanded": "Norfolk Island",
-          "uuid": "d16b7fe3-ef9f-5d22-97b7-511cf6da2dc3"
+          "uuid": "7a728a28-ab92-5a1e-8185-3c8550e1b96f"
         },
         {
           "value": "NG",
           "expanded": "Nigeria",
-          "uuid": "4773f653-43ee-59ae-8001-b71fff235172"
+          "uuid": "5fb91d4b-b93a-5a48-ac5f-ea04bd9c1d97"
         },
         {
           "value": "NI",
           "expanded": "Nicaragua",
-          "uuid": "f553392e-ebbd-5fb7-a76c-8db0333e2498"
+          "uuid": "6b2095f1-93a3-50fc-91e7-d4b947aa46c6"
         },
         {
           "value": "NL",
           "expanded": "Netherlands",
-          "uuid": "c5769500-e89a-55c7-9740-9de16347eca6"
+          "uuid": "60775811-1bc0-56fc-a9c2-a5fbc4971168"
         },
         {
           "value": "NO",
           "expanded": "Norway",
-          "uuid": "74b354e7-9f58-5a7d-abe2-5eb4b9f57a31"
+          "uuid": "dd00487a-e1b4-5f93-b93d-0d86df79920b"
         },
         {
           "value": "NP",
           "expanded": "Nepal",
-          "uuid": "f82319cd-07fc-5b09-932f-38d4138e8284"
+          "uuid": "4f3a849e-7ebb-5fb2-9444-a5f5e0afa099"
         },
         {
           "value": "NR",
           "expanded": "Nauru",
-          "uuid": "e56f82b9-d257-558f-b5d3-e88630c57aed"
+          "uuid": "10b4b616-b15d-5012-a15a-220be245d21f"
         },
         {
           "value": "NU",
           "expanded": "Niue",
-          "uuid": "12ea6534-27d9-5c66-aed4-32c578769f4b"
+          "uuid": "0f64d18d-80b4-5543-9ae9-daa0e2871bdd"
         },
         {
           "value": "NZ",
           "expanded": "New Zealand",
-          "uuid": "b7064848-1fbd-59b3-a63c-fd0aa71c2674"
+          "uuid": "cfe97c78-f7cf-5881-8ca4-cfaaf6907f46"
         },
         {
           "value": "OM",
           "expanded": "Oman",
-          "uuid": "955b1082-a71b-5445-9198-b0ff5e2dd0c6"
+          "uuid": "8b56ef13-d247-54ec-a4b9-742bac2e3411"
         },
         {
           "value": "Other",
           "expanded": "Other",
-          "uuid": "756296f8-133b-55bf-baf8-9f5a0286a2e8"
+          "uuid": "ca748750-f3e1-5b1e-971a-33fbe0d8963f"
         },
         {
           "value": "PA",
           "expanded": "Panama",
-          "uuid": "3397cd7d-0b45-5aa6-98cf-4397ae43d951"
+          "uuid": "b22146c2-234e-510e-8a56-68ff8125c969"
         },
         {
           "value": "PE",
           "expanded": "Peru",
-          "uuid": "7238d81d-a5af-5691-83b0-9f07ba2aceb7"
+          "uuid": "5a4a7eab-c63e-528c-ac1b-c1a06e567b28"
         },
         {
           "value": "PF",
           "expanded": "French Polynesia",
-          "uuid": "c307a24a-d029-55a4-8b31-772d450c0dcb"
+          "uuid": "4247d556-33dd-54ad-9d50-3974ec903c17"
         },
         {
           "value": "PG",
           "expanded": "Papua New Guinea",
-          "uuid": "e1dd7f84-8757-5983-b372-b4850bfff601"
+          "uuid": "1b30c643-f790-5991-8ba4-7c18b2b2add9"
         },
         {
           "value": "PH",
           "expanded": "Philippines",
-          "uuid": "0e364160-183a-5d3b-b4b5-6e7279bf4582"
+          "uuid": "3ee1f252-9b72-52ea-b773-5e3813a0c2d8"
         },
         {
           "value": "PK",
           "expanded": "Pakistan",
-          "uuid": "d35698dd-4e6d-5e50-b7de-c58f0b71daec"
+          "uuid": "1ba01000-aef1-5f20-92ed-3bbc0867bc50"
         },
         {
           "value": "PL",
           "expanded": "Poland",
-          "uuid": "d767c1f4-9ab0-5831-b3a8-cdb2ecb3c3f4"
+          "uuid": "776cb2a1-f5b0-5a78-a56c-9bf712effb91"
         },
         {
           "value": "PM",
           "expanded": "Saint Pierre and Miquelon",
-          "uuid": "919b39b5-c37e-51a3-829a-ba8ebbca9830"
+          "uuid": "38d8d86f-3089-552b-996b-afcc365d8f89"
         },
         {
           "value": "PN",
           "expanded": "Pitcairn",
-          "uuid": "d64e705d-f1b4-591b-b787-52499c94620c"
+          "uuid": "564a076c-b20e-5f76-9b4a-2c4d2e217bc6"
         },
         {
           "value": "PR",
           "expanded": "Puerto Rico",
-          "uuid": "f8b0165f-b81e-51b3-8013-73e7a2dd551a"
+          "uuid": "d41a6e69-d429-5ff4-8562-f3aa77a0ebdd"
         },
         {
           "value": "PS",
           "expanded": "Palestinian Territory, Occupied",
-          "uuid": "b0f5c178-5c67-5cf1-a7c3-7faba29d5d21"
+          "uuid": "7d3352a0-0f90-514b-958a-16210183d1cc"
         },
         {
           "value": "PT",
           "expanded": "Portugal",
-          "uuid": "ed64b20f-056f-58b2-8eaf-bfb2a1f3d046"
+          "uuid": "4a5c9fe2-02c8-5cdf-8086-1a6c4e60cc5c"
         },
         {
           "value": "PW",
           "expanded": "Palau",
-          "uuid": "5f18fcfc-eca4-502b-afeb-2c659e9cc02a"
+          "uuid": "ead575fc-1a73-521d-9abd-04de84cd8c52"
         },
         {
           "value": "PY",
           "expanded": "Paraguay",
-          "uuid": "298821ae-da82-55cc-8809-af5f2d41ae50"
+          "uuid": "bfec5fe0-839c-5f06-ba01-91a1bd9e5cf6"
         },
         {
           "value": "QA",
           "expanded": "Qatar",
-          "uuid": "fab75396-4246-57b5-829c-8b2c897e0e71"
+          "uuid": "593b81a4-8df2-5080-97a2-147acbd350a6"
         },
         {
           "value": "RE",
           "expanded": "Reunion",
-          "uuid": "47d663a6-a43d-592d-a738-b66bd2a859ef"
+          "uuid": "0d61cb4b-45c7-54d9-aa88-3511570aff32"
         },
         {
           "value": "RO",
           "expanded": "Romania",
-          "uuid": "ab422546-0f56-5a24-8485-b7ad0b0aa35e"
+          "uuid": "746efa84-400e-5af7-9592-298e75c3f223"
         },
         {
           "value": "RS",
           "expanded": "Serbia",
-          "uuid": "e2be71e0-879b-5567-add8-bbbe8a1c2cc9"
+          "uuid": "5b771d03-934f-54ad-9f5e-6a03f3ce77d4"
         },
         {
           "value": "RU",
           "expanded": "Russian Federation",
-          "uuid": "d9175218-b52b-534e-a5ab-87f5ef50a688"
+          "uuid": "1ea240aa-cf0a-51da-80b3-f26e41a9833c"
         },
         {
           "value": "RW",
           "expanded": "Rwanda",
-          "uuid": "c90fb6f2-4e30-5c0e-9621-ea83125db750"
+          "uuid": "42f42e1e-ca41-5d5d-95d7-55de29f0d90b"
         },
         {
           "value": "SA",
           "expanded": "Saudi Arabia",
-          "uuid": "8325ba20-8a44-5b6b-a4fa-286cf5f5a54d"
+          "uuid": "9bda1234-8a9e-564d-9df1-74128f2371c5"
         },
         {
           "value": "SB",
           "expanded": "Solomon Islands",
-          "uuid": "9533ad14-95e5-527f-8d76-6c3ed7f1d52b"
+          "uuid": "ba511b9c-ed20-53e9-a5de-c1b280818cfc"
         },
         {
           "value": "SC",
           "expanded": "Seychelles",
-          "uuid": "ba7c36e5-313d-5b95-8284-a5b9953aa35f"
+          "uuid": "5fe28d41-e4ef-535c-b171-26c6f6170e89"
         },
         {
           "value": "SD",
           "expanded": "Sudan",
-          "uuid": "a84489ac-0c49-52f4-add4-1971af682d9a"
+          "uuid": "d9154234-38cf-5f7b-a43b-0a1429e84cd4"
         },
         {
           "value": "SE",
           "expanded": "Sweden",
-          "uuid": "b898fcde-9eb7-5003-b055-52c0d24e8e4e"
+          "uuid": "e303649e-55e5-5f21-aba6-aafbcd686bac"
         },
         {
           "value": "SG",
           "expanded": "Singapore",
-          "uuid": "537dcf1d-63ff-5311-bee7-de2a2892797d"
+          "uuid": "f2616902-1051-5be6-aca6-d1186e8195d7"
         },
         {
           "value": "SH",
           "expanded": "Saint Helena",
-          "uuid": "c284d220-5659-5983-8832-ba7f2e03c7a4"
+          "uuid": "f82a52ba-7c42-5f3e-9b5a-8e9e26a56f3d"
         },
         {
           "value": "SI",
           "expanded": "Slovenia",
-          "uuid": "5794f08e-677b-59c7-a76a-2a1af49d52e5"
+          "uuid": "1b12b4ff-40ae-596a-8160-1dce81b84718"
         },
         {
           "value": "SJ",
           "expanded": "Svalbard and Jan Mayen Islands",
-          "uuid": "5fb96369-b71f-59f4-a9f5-072d86bc5632"
+          "uuid": "a7f0655e-29c6-535e-bb23-e29c006d1d68"
         },
         {
           "value": "SK",
           "expanded": "Slovakia",
-          "uuid": "1e48dacf-4aef-560c-8cfd-207ff384ce7a"
+          "uuid": "8253ca69-e794-5e57-9fe6-f43143385c29"
         },
         {
           "value": "SL",
           "expanded": "Sierra Leone",
-          "uuid": "dfb218d6-8c44-5618-a679-f9c9a833a47a"
+          "uuid": "c895d35c-91cf-5c62-918b-a61f3a25ef99"
         },
         {
           "value": "SM",
           "expanded": "San Marino",
-          "uuid": "9175c76e-d4e1-5fa5-bca8-561dc4e1eb30"
+          "uuid": "2b1c83a6-bc12-544b-a072-c913863b0255"
         },
         {
           "value": "SN",
           "expanded": "Senegal",
-          "uuid": "aec2fcde-706c-54fd-9020-906dc20591a4"
+          "uuid": "74d953c6-2446-5751-93f3-37da3d4de3ba"
         },
         {
           "value": "SO",
           "expanded": "Somalia",
-          "uuid": "de750141-3d57-5d20-8876-3e524f817c37"
+          "uuid": "7e36ea57-ca50-5f71-8fc0-4f6d7eab4813"
         },
         {
           "value": "SR",
           "expanded": "Suriname",
-          "uuid": "e1503515-6ba3-5878-8fbe-714f62042f8b"
+          "uuid": "5b1b30b7-bb23-5077-9494-e58290942ebc"
         },
         {
           "value": "SS",
           "expanded": "South Sudan",
-          "uuid": "7f4c1e21-59d1-5113-8766-2582e2957369"
+          "uuid": "96e66590-b277-50ac-8c35-5c01f97bc848"
         },
         {
           "value": "ST",
           "expanded": "Sao Tome and Principe",
-          "uuid": "070dffab-0760-5bcc-b215-eda89e10aa28"
+          "uuid": "feca27ad-6a21-5e53-b73b-ac9fd955ae0f"
         },
         {
           "value": "SV",
           "expanded": "El Salvador",
-          "uuid": "e135ca54-c614-5c22-a25c-464b1ee0f8a1"
+          "uuid": "a0fc0230-27cf-5c2f-afff-5737a0e9e45c"
         },
         {
           "value": "SX",
           "expanded": "Sint Maarten (Dutch part)",
-          "uuid": "0600efb3-f000-5532-892a-f97dd589fc0e"
+          "uuid": "90d0b08d-c424-517f-bf11-be8ea496d510"
         },
         {
           "value": "SY",
           "expanded": "Syrian Arab Republic",
-          "uuid": "72de4e39-88ab-53f5-b7a9-272f9d5e9f80"
+          "uuid": "23d21872-76cc-5e5d-aade-80aab44cc3bd"
         },
         {
           "value": "SZ",
           "expanded": "Swaziland",
-          "uuid": "49ac61aa-8f4d-583a-843e-ead19069f230"
+          "uuid": "992fdd8d-13b2-5f7b-b2fe-59ebc306f207"
         },
         {
           "value": "TC",
           "expanded": "Turks and Caicos Islands",
-          "uuid": "19f3ec3e-b9a7-5460-b90c-83b42a5ce0b0"
+          "uuid": "97b41a16-7868-5d27-9ac1-07684e0591dc"
         },
         {
           "value": "TD",
           "expanded": "Chad",
-          "uuid": "09210120-8f3a-5adb-8768-2e7e80cf1d1f"
+          "uuid": "d654bf54-451d-5c09-8463-614a07930386"
         },
         {
           "value": "TF",
           "expanded": "French Southern Territories",
-          "uuid": "bcbf377f-bb73-5b9a-9d2d-68be94acb251"
+          "uuid": "5643983f-9179-5a68-b85f-953a6c6c390d"
         },
         {
           "value": "TG",
           "expanded": "Togo",
-          "uuid": "cf7641d8-487c-583f-9508-974c51196cb7"
+          "uuid": "020189db-ffc1-5d2f-830b-09be2c3ee444"
         },
         {
           "value": "TH",
           "expanded": "Thailand",
-          "uuid": "7641a95d-f041-5932-ae4f-3ff08951d4f7"
+          "uuid": "a673fd3d-0d2c-5353-8506-f7cff21061b2"
         },
         {
           "value": "TJ",
           "expanded": "Tajikistan",
-          "uuid": "62364897-4730-53c8-bf2e-3cff86f679f7"
+          "uuid": "0281bf60-dbd9-53cf-808f-e23b5641536d"
         },
         {
           "value": "TK",
           "expanded": "Tokelau",
-          "uuid": "63ea103a-19c6-56f0-9c7d-4ee2832811b5"
+          "uuid": "4e814c6a-271c-5ee4-ab91-561319b5cce8"
         },
         {
           "value": "TL",
           "expanded": "Timor-Leste",
-          "uuid": "6404d123-a810-55cd-ad48-5ac7f12331aa"
+          "uuid": "e4c155db-7f22-5491-ae43-6f67af1b4504"
         },
         {
           "value": "TM",
           "expanded": "Turkmenistan",
-          "uuid": "d29f7c9c-f419-51a0-8426-167f2c8b3abc"
+          "uuid": "9e88296f-639b-59c5-965a-b6967730baa6"
         },
         {
           "value": "TN",
           "expanded": "Tunisia",
-          "uuid": "c57e64a3-dfee-5501-8867-6da29c4ab533"
+          "uuid": "4c856d53-eead-54fb-90fa-3bbd4742dc4a"
         },
         {
           "value": "TO",
           "expanded": "Tonga",
-          "uuid": "00045bb6-7113-5992-861a-6a575ef82039"
+          "uuid": "61c4a1ae-2f81-53b6-955f-ffab5330e031"
         },
         {
           "value": "TR",
           "expanded": "Turkey",
-          "uuid": "52afbbb3-9e54-5e52-8d31-d24a2dfb9865"
+          "uuid": "a90441af-c63f-5e9a-b593-dbd196ed2092"
         },
         {
           "value": "TT",
           "expanded": "Trinidad and Tobago",
-          "uuid": "90cba99b-cbed-5dc3-8b9f-05d8b8f4c799"
+          "uuid": "29077400-80fe-5c6e-acae-6853ec6ffc7f"
         },
         {
           "value": "TV",
           "expanded": "Tuvalu",
-          "uuid": "b582a273-81a9-556c-abfa-6c142524e28a"
+          "uuid": "68cdd41d-ff4c-5496-97d0-6afc83e7401e"
         },
         {
           "value": "TW",
           "expanded": "Taiwan, Province of China",
-          "uuid": "2feeb05f-efd6-5a46-b54c-5bbfba716d0f"
+          "uuid": "1dd32ccc-6d51-5867-8501-54297f01f63c"
         },
         {
           "value": "TZ",
           "expanded": "Tanzania, United Republic of",
-          "uuid": "4e0100f9-8b11-54a5-991b-f077236047f3"
+          "uuid": "d09c14d2-d3ae-5f09-9178-5a189026aea1"
         },
         {
           "value": "UA",
           "expanded": "Ukraine",
-          "uuid": "aaf6ded9-4309-5595-bb34-fe1ec814942d"
+          "uuid": "6194f332-bb01-529a-a5fd-7acca32637c6"
         },
         {
           "value": "UG",
           "expanded": "Uganda",
-          "uuid": "17d46720-3bf3-5988-9235-bfa15b611536"
+          "uuid": "9021f543-00bf-5e9d-bd20-3958e614f0ef"
         },
         {
           "value": "UM",
           "expanded": "United States Minor Outlying Islands",
-          "uuid": "ecc71d97-a68a-554a-aef8-59ec05e68e7e"
+          "uuid": "f74ecd79-200e-5d53-a664-444744ee2a0a"
         },
         {
           "value": "US",
           "expanded": "United States of America",
-          "uuid": "c2fa7456-3c74-5ab7-81eb-29d96a01799a"
+          "uuid": "bcb5134f-cba6-5554-87d5-81f660631ea3"
         },
         {
           "value": "UY",
           "expanded": "Uruguay",
-          "uuid": "e1a66df1-eb71-5bf6-83ec-e1c5eee0125d"
+          "uuid": "b556a6ec-6863-56af-869b-eff65e20ef4b"
         },
         {
           "value": "UZ",
           "expanded": "Uzbekistan",
-          "uuid": "762e7c15-4bee-5e94-95bb-b752eaeb444b"
+          "uuid": "51a3e68e-708e-5628-b022-1062d668267e"
         },
         {
           "value": "Unknown",
           "expanded": "Unknown",
-          "uuid": "e376d488-4100-5896-9489-cb78de1b8f6a"
+          "uuid": "6441002c-ed92-5106-a3d5-584efeafe8b7"
         },
         {
           "value": "VA",
           "expanded": "Holy See",
-          "uuid": "2bf222a1-103e-5b7a-b286-808fb609f7e5"
+          "uuid": "87027664-640e-57a7-8f29-5470c2c6b424"
         },
         {
           "value": "VC",
           "expanded": "Saint Vincent and the Grenadines",
-          "uuid": "5354f27f-ebf8-5cdd-8fd1-15c827a74ea0"
+          "uuid": "32df53bc-7fc2-5134-bda8-a42b55a7212a"
         },
         {
           "value": "VE",
           "expanded": "Venezuela (Bolivarian Republic of)",
-          "uuid": "9cc7777f-94f5-5bc8-be71-cd9b40d4b952"
+          "uuid": "e1df8499-508e-5bdc-b980-a10b9c25ffeb"
         },
         {
           "value": "VG",
           "expanded": "British Virgin Islands",
-          "uuid": "f801848e-2068-58af-aef2-ebff463b3828"
+          "uuid": "9b63024b-c9ff-576f-82af-d28f9d66e5dd"
         },
         {
           "value": "VI",
           "expanded": "United States Virgin Islands",
-          "uuid": "c24eb186-62f8-5017-8d7c-d0a961eb9b82"
+          "uuid": "41730d2e-3d86-5dbe-8291-6ac00c49795a"
         },
         {
           "value": "VN",
           "expanded": "Viet Nam",
-          "uuid": "ac1da586-fbd5-5853-9ba5-0ff56d503e53"
+          "uuid": "3dff8088-0cd2-5bf5-90e1-8d218aa6de49"
         },
         {
           "value": "VU",
           "expanded": "Vanuatu",
-          "uuid": "5ba188ff-1f6b-5324-9a8a-4668ccc91d5b"
+          "uuid": "ac6ddbc0-cc7f-5b9f-ba42-d8a2015c762c"
         },
         {
           "value": "WF",
           "expanded": "Wallis and Futuna Islands",
-          "uuid": "20ef7a0c-9fed-5ffa-81ca-0582b86fcb67"
+          "uuid": "cae89bf0-08cd-51f5-b68e-a1a5a5dc9ce9"
         },
         {
           "value": "WS",
           "expanded": "Samoa",
-          "uuid": "2bd72c51-b9cb-5282-8e1a-c225f0f12ed7"
+          "uuid": "01d3f8a2-354c-522d-83ab-7d177097fb9f"
         },
         {
           "value": "YE",
           "expanded": "Yemen",
-          "uuid": "f6709645-df52-557b-bc1f-eb0b9b7926ac"
+          "uuid": "15c11b27-b184-5ab1-8f9d-608198fa0362"
         },
         {
           "value": "YT",
           "expanded": "Mayotte",
-          "uuid": "a0a0f71f-0587-5793-a1e9-8b483ac79786"
+          "uuid": "f1568deb-972d-5950-9755-dee7409b4f17"
         },
         {
           "value": "ZA",
           "expanded": "South Africa",
-          "uuid": "dde27591-a987-5a26-888c-481aa8f86506"
+          "uuid": "172f857f-6cea-5ee5-866c-78c918a97f60"
         },
         {
           "value": "ZM",
           "expanded": "Zambia",
-          "uuid": "e7ca11e2-23ce-5e77-b17c-bfcf98cb38a2"
+          "uuid": "4aeb87df-7b8a-54de-83d2-5dd1d2ea9b39"
         },
         {
           "value": "ZW",
           "expanded": "Zimbabwe",
-          "uuid": "10945341-61db-5f4d-8fba-76343ab1a7c0"
+          "uuid": "55009a8c-e1e9-522d-9ba8-0f5ffa4d53a6"
         }
       ]
     },
@@ -1272,1257 +1272,1257 @@
         {
           "value": "AD",
           "expanded": "Andorra",
-          "uuid": "9337e605-3c83-5486-a3a5-0e34f5593f35"
+          "uuid": "2ac03621-5d90-53ef-bfaf-07f7a7fcc7a4"
         },
         {
           "value": "AE",
           "expanded": "United Arab Emirates",
-          "uuid": "8e24e2ea-26ae-580f-9a90-9a5c89b39e27"
+          "uuid": "13bd4a8f-38a1-5669-a49f-1177f3b6a01a"
         },
         {
           "value": "AF",
           "expanded": "Afghanistan",
-          "uuid": "3cfcd859-d002-5669-a894-d4baf3f1aedc"
+          "uuid": "9a1887eb-1a0b-5e02-b241-bc8b98565bea"
         },
         {
           "value": "AG",
           "expanded": "Antigua and Barbuda",
-          "uuid": "7810da22-52a6-5c9a-8f19-9041c4805a3b"
+          "uuid": "9c328995-0553-5051-a5e1-72f62ce49336"
         },
         {
           "value": "AI",
           "expanded": "Anguilla",
-          "uuid": "44ee56e5-c5f2-5770-80b5-2af74cb0dc29"
+          "uuid": "728abaab-6028-59ea-964d-cdd1f67ae932"
         },
         {
           "value": "AL",
           "expanded": "Albania",
-          "uuid": "8cf80254-f185-5cb4-9ce0-47ff8ed30670"
+          "uuid": "f9b9e782-ca62-5f2d-b1ef-c67b030f3004"
         },
         {
           "value": "AM",
           "expanded": "Armenia",
-          "uuid": "1cb22abb-4a68-55ad-8e7a-fc5ea5c619b3"
+          "uuid": "2b0c5df5-88af-53f9-941f-fc8d6f401039"
         },
         {
           "value": "AO",
           "expanded": "Angola",
-          "uuid": "a5426d8e-bf41-5667-a743-14963080f2db"
+          "uuid": "46e69721-08fe-58f5-abc7-b9b8931b351e"
         },
         {
           "value": "AQ",
           "expanded": "Antarctica",
-          "uuid": "855f6dad-191b-574c-92c5-e19375b228aa"
+          "uuid": "60e7a284-8bfc-5410-8fff-fddd50452129"
         },
         {
           "value": "AR",
           "expanded": "Argentina",
-          "uuid": "551c909b-1cc6-510f-9f9f-0ff5a6e111b5"
+          "uuid": "c049431e-4df6-56c6-84b7-687f291d0da2"
         },
         {
           "value": "AS",
           "expanded": "American Samoa",
-          "uuid": "7c2a071e-908f-5e2c-bb3b-997f13e93182"
+          "uuid": "a5695073-b90a-5cc9-81c3-8217ff6be023"
         },
         {
           "value": "AT",
           "expanded": "Austria",
-          "uuid": "579a8ba5-4592-513b-8189-7fe2acbf94e9"
+          "uuid": "cad096a9-467a-574f-9baa-6e2ef18ffaf8"
         },
         {
           "value": "AU",
           "expanded": "Australia",
-          "uuid": "08d8e69f-3621-5feb-ba42-b69d29847aec"
+          "uuid": "ae0032e7-64d0-571c-9bf6-226e29d87974"
         },
         {
           "value": "AW",
           "expanded": "Aruba",
-          "uuid": "062871b2-2f11-51e0-8aef-36896143ad61"
+          "uuid": "d00a1f5d-8775-5cd3-93c0-1d5cff9a7dbd"
         },
         {
           "value": "AX",
           "expanded": "Aland Islands",
-          "uuid": "f3c9d1d4-f0cf-5ccc-9bef-a12788f859a1"
+          "uuid": "b5cb7108-ef82-5301-8fde-4154186a86c7"
         },
         {
           "value": "AZ",
           "expanded": "Azerbaijan",
-          "uuid": "c1ebf708-4d2f-5b7b-b586-0474e03e90dc"
+          "uuid": "52516650-0adb-509a-9537-ebdf02db96df"
         },
         {
           "value": "BA",
           "expanded": "Bosnia and Herzegovina",
-          "uuid": "f5efe794-9f9b-5617-be0e-09663782aa1b"
+          "uuid": "e41762af-480f-59a0-9cf9-014fa0025284"
         },
         {
           "value": "BB",
           "expanded": "Barbados",
-          "uuid": "632132f6-892c-5ec0-801f-a5d72412ea81"
+          "uuid": "53ca849a-9867-5aea-9d06-da716bcb7710"
         },
         {
           "value": "BD",
           "expanded": "Bangladesh",
-          "uuid": "5411b74d-57fd-5378-af38-11f08ce2e046"
+          "uuid": "1089814d-ab12-5206-b36e-2d231892b08a"
         },
         {
           "value": "BE",
           "expanded": "Belgium",
-          "uuid": "fae3c40e-12c6-5760-8319-853152bb6976"
+          "uuid": "1b8a3927-e664-585a-ac42-c1fa74d56a99"
         },
         {
           "value": "BF",
           "expanded": "Burkina Faso",
-          "uuid": "ee3a9d86-2d17-5f71-ac21-5c65236d1df3"
+          "uuid": "e269ce34-86e9-5100-a672-ae1e1eba4906"
         },
         {
           "value": "BG",
           "expanded": "Bulgaria",
-          "uuid": "d2f67e61-9fae-5e5f-b93e-59500aad827d"
+          "uuid": "335a7846-a6f8-5946-bade-865370a1a5ad"
         },
         {
           "value": "BH",
           "expanded": "Bahrain",
-          "uuid": "c2c1f352-cb65-5182-b908-3f3c4f13718a"
+          "uuid": "0e82a28b-8163-5799-a977-da7ec1916fa7"
         },
         {
           "value": "BI",
           "expanded": "Burundi",
-          "uuid": "7b5e4e8d-edc8-5116-bb95-068e0ecb457c"
+          "uuid": "d2db21c3-5f39-5fa3-9b76-186e622f5fa3"
         },
         {
           "value": "BJ",
           "expanded": "Benin",
-          "uuid": "8caeefea-db1d-547b-8dfc-4dbf8ac98363"
+          "uuid": "5489715a-94f1-5595-b54a-0604e50dadd6"
         },
         {
           "value": "BL",
           "expanded": "Saint-Barthelemy",
-          "uuid": "c060cdff-7d72-5920-b7c0-05c4ee5d3573"
+          "uuid": "df2af283-86d3-5f57-b74e-02682a80de65"
         },
         {
           "value": "BM",
           "expanded": "Bermuda",
-          "uuid": "739ca4d4-f828-5bfd-8cdc-16f824313376"
+          "uuid": "d81e9ea6-4b05-5cc0-a387-64f40a7b75ce"
         },
         {
           "value": "BN",
           "expanded": "Brunei Darussalam",
-          "uuid": "152c6703-c652-5d7b-a5e8-c201c185d7a8"
+          "uuid": "f909d9e3-db2d-51ff-809a-6f8b1fca8591"
         },
         {
           "value": "BO",
           "expanded": "Bolivia",
-          "uuid": "2582f179-ffc2-5a77-8e37-bc48b3433cad"
+          "uuid": "987de8c2-ec5c-5ecf-b3c0-c378927fcdbe"
         },
         {
           "value": "BQ",
           "expanded": "Bonaire,  Saint Eustatius and Saba",
-          "uuid": "378770bc-87ba-52b0-b555-a5a0fefe8163"
+          "uuid": "03f30aac-bf18-5c6b-a235-5bde58cdad23"
         },
         {
           "value": "BR",
           "expanded": "Brazil",
-          "uuid": "3e310414-d706-5fa6-8da4-0e176a491301"
+          "uuid": "e9d9bf1e-a4db-5fa6-90b1-5c5f3f616a89"
         },
         {
           "value": "BS",
           "expanded": "Bahamas",
-          "uuid": "81cb9a2b-122b-534b-8b36-ddcdc35f33f9"
+          "uuid": "51750d37-2370-50c4-872c-13a0accedeeb"
         },
         {
           "value": "BT",
           "expanded": "Bhutan",
-          "uuid": "8d0be3ee-528b-5478-9331-3626bdb41fcf"
+          "uuid": "a7755e16-0cbf-547a-b797-0132c292461f"
         },
         {
           "value": "BV",
           "expanded": "Bouvet Island",
-          "uuid": "40182083-03a8-5f20-a4ac-7b8052852a42"
+          "uuid": "a24e2431-5749-55da-996c-f9baa8ac4699"
         },
         {
           "value": "BW",
           "expanded": "Botswana",
-          "uuid": "1bb2a58e-2d6a-5c7a-bb79-9380bab101d7"
+          "uuid": "870e3e45-631a-5898-b271-b1a5627d14e5"
         },
         {
           "value": "BY",
           "expanded": "Belarus",
-          "uuid": "694caefd-f4bb-5f6b-9845-90c05e195afc"
+          "uuid": "9c41f903-54d6-5a50-89d8-3cccb8c3517d"
         },
         {
           "value": "BZ",
           "expanded": "Belize",
-          "uuid": "f40cfeb9-cc60-5e97-8079-4029c23c1eda"
+          "uuid": "d8da4b4c-6f6e-5926-b26c-ff1b0115473d"
         },
         {
           "value": "CA",
           "expanded": "Canada",
-          "uuid": "4081748b-23cb-554c-8523-c367aca4bc24"
+          "uuid": "ed12288a-9549-5ad9-8137-6444e03402e4"
         },
         {
           "value": "CC",
           "expanded": "Cocos (Keeling) Islands",
-          "uuid": "3347c6ea-3f89-5066-8923-f519905d0010"
+          "uuid": "63fa30be-12a9-571d-b31d-f0e82c85c5a1"
         },
         {
           "value": "CD",
           "expanded": "Congo, Democratic Republic of the",
-          "uuid": "7cb14798-0c44-5a77-992f-7a2337d2f2fa"
+          "uuid": "079bbc70-24b7-5a58-a044-a3e9553fbb0f"
         },
         {
           "value": "CF",
           "expanded": "Central African Republic",
-          "uuid": "b5561826-4e6b-5ceb-8805-76697fa8a324"
+          "uuid": "9d1f83bb-934a-5791-a918-e87d25b2dfe9"
         },
         {
           "value": "CG",
           "expanded": "Congo",
-          "uuid": "434d3c39-54c4-53f7-ac28-8bf904531afe"
+          "uuid": "0fe192ac-ac9c-53cf-b9da-5e4fed963980"
         },
         {
           "value": "CH",
           "expanded": "Switzerland",
-          "uuid": "b6e51194-2421-5935-bbec-986d850d0bca"
+          "uuid": "f454769c-fce0-55f0-aae7-1d825934f3f5"
         },
         {
           "value": "CI",
           "expanded": "Cote d'Ivoire",
-          "uuid": "3edc0826-3099-50ee-92e3-d66a17e1b2df"
+          "uuid": "d43e5522-149e-5d78-a00e-17fe6a08f1ba"
         },
         {
           "value": "CK",
           "expanded": "Cook Islands",
-          "uuid": "6b4d4cd4-3b9b-5a86-ac8a-aee65b514d65"
+          "uuid": "5dc0322b-74d3-51a2-9b83-bc19079bb1ee"
         },
         {
           "value": "CL",
           "expanded": "Chile",
-          "uuid": "dfc67027-5106-5ec4-b099-489edb11a2ce"
+          "uuid": "2405c727-a95e-53bd-b554-74f430201d6e"
         },
         {
           "value": "CM",
           "expanded": "Cameroon",
-          "uuid": "e5d1ff43-2846-5882-90a2-b87f187790a9"
+          "uuid": "d1085e0c-41e8-51b4-8b97-2767ec3e9c0e"
         },
         {
           "value": "CN",
           "expanded": "China",
-          "uuid": "13351341-c276-540c-8d8b-7e009c29b852"
+          "uuid": "b3058ee1-5e70-523e-bd26-27065ab929db"
         },
         {
           "value": "CO",
           "expanded": "Colombia",
-          "uuid": "93f17228-a979-551b-9cf6-d28467555141"
+          "uuid": "87b55560-9fe6-545c-bcf4-41d633713fee"
         },
         {
           "value": "CR",
           "expanded": "Costa Rica",
-          "uuid": "5747e4ec-fe73-5f35-8d11-b1e4c9ea985c"
+          "uuid": "82fc53d3-f71e-5714-aa23-db520e9aeddd"
         },
         {
           "value": "CU",
           "expanded": "Cuba",
-          "uuid": "b305f09e-e95e-5aa0-b82a-995e5c212a68"
+          "uuid": "00459991-26c7-5d9f-9bf7-15c8af228af0"
         },
         {
           "value": "CV",
           "expanded": "Cape Verde",
-          "uuid": "e165209e-9ec3-578b-865d-bddc75c4147e"
+          "uuid": "a05a8d68-b870-552a-a11f-e66bd609ce75"
         },
         {
           "value": "CW",
           "expanded": "Curacao",
-          "uuid": "c763d1a0-e49f-54c1-8d10-ebfcf392bed9"
+          "uuid": "67601ea3-590a-5494-b7af-275a16bba189"
         },
         {
           "value": "CX",
           "expanded": "Christmas Island",
-          "uuid": "58db853b-416d-5290-aca2-fad4e69b529b"
+          "uuid": "eb141475-d001-5df6-a9f7-da836f837713"
         },
         {
           "value": "CY",
           "expanded": "Cyprus",
-          "uuid": "f3204f9d-ba76-5de9-8775-b505d95b18da"
+          "uuid": "dfbae148-f914-567a-a9f1-10537ca69296"
         },
         {
           "value": "CZ",
           "expanded": "Czech Republic",
-          "uuid": "78e7e001-1ab1-5c64-8e52-0937b5be737e"
+          "uuid": "09d00d41-4b07-5f6b-9493-b0d371365d08"
         },
         {
           "value": "DE",
           "expanded": "Germany",
-          "uuid": "2386ad36-53fa-5953-b66b-689712b8c398"
+          "uuid": "956ad337-9bd2-5fd9-ac6e-61cd5a27ef1d"
         },
         {
           "value": "DJ",
           "expanded": "Djibouti",
-          "uuid": "b4517702-5c2e-5b68-ae21-777a3204a92f"
+          "uuid": "2b00cabf-aa4e-591e-b92c-929f5a00d803"
         },
         {
           "value": "DK",
           "expanded": "Denmark",
-          "uuid": "a5562a47-ffd5-5fe4-976a-022a15cd0324"
+          "uuid": "229d9b86-08f7-5b23-aa31-03ae118b442a"
         },
         {
           "value": "DM",
           "expanded": "Dominica",
-          "uuid": "737ec277-b42a-5e48-b4ba-776755c16307"
+          "uuid": "c49a914b-4fcf-587d-b118-88d86f747a38"
         },
         {
           "value": "DO",
           "expanded": "Dominican Republic",
-          "uuid": "86f793e4-ff80-5344-a70c-b79c71bd3dc0"
+          "uuid": "f94b0a75-0c63-591a-b153-085ee1a339d5"
         },
         {
           "value": "DZ",
           "expanded": "Algeria",
-          "uuid": "8eb2997a-c7e9-502a-909b-360ad1573d5c"
+          "uuid": "a75aa428-957b-5e32-9f4d-43f3a58ff600"
         },
         {
           "value": "EC",
           "expanded": "Ecuador",
-          "uuid": "f7de0fe6-353e-5057-8c23-1edf2c8e0bfe"
+          "uuid": "69e41ef9-f5b2-5913-87cb-152170e83c8f"
         },
         {
           "value": "EE",
           "expanded": "Estonia",
-          "uuid": "34d95a0b-fb4e-5b13-881d-92977d53adc9"
+          "uuid": "737cadee-f6ea-5bb5-b790-b2c64d251faf"
         },
         {
           "value": "EG",
           "expanded": "Egypt",
-          "uuid": "c89da2af-c2a7-5220-83be-0e0c908cc221"
+          "uuid": "7d7a6172-d71a-5245-a29e-f0b622293bbc"
         },
         {
           "value": "EH",
           "expanded": "Western Sahara",
-          "uuid": "666b01cc-31df-54c2-ba20-f6acae00095a"
+          "uuid": "a2ab78bc-eb95-57e1-8dad-553a8294f524"
         },
         {
           "value": "ER",
           "expanded": "Eritrea",
-          "uuid": "0dc2b149-ab5b-5c2d-82b1-5a05971bd69d"
+          "uuid": "6689b82e-46b0-51ae-b3d4-9988f984334a"
         },
         {
           "value": "ES",
           "expanded": "Spain",
-          "uuid": "703b4e5a-dcb2-567b-891d-7b323d24ecaa"
+          "uuid": "85a4030f-f1a1-55dc-998d-5f44cffff365"
         },
         {
           "value": "ET",
           "expanded": "Ethiopia",
-          "uuid": "f9ef48c2-bb13-583b-a211-d18e94fa7c13"
+          "uuid": "0566910d-dba6-50ed-bcd2-eeb742fe2d64"
         },
         {
           "value": "FI",
           "expanded": "Finland",
-          "uuid": "490a09ac-340a-569a-a86a-b52b5cab91d8"
+          "uuid": "2ee8722d-cfbf-54e6-9450-145d0fb709ac"
         },
         {
           "value": "FJ",
           "expanded": "Fiji",
-          "uuid": "fa809dec-1188-559f-b5a0-81f011f78561"
+          "uuid": "523470e2-0cff-503f-98c5-ad0478610118"
         },
         {
           "value": "FK",
           "expanded": "Faeroe Islands",
-          "uuid": "96e2ff15-3500-593c-a47b-b67e5363858f"
+          "uuid": "87a6c738-8322-5c3e-8fd1-a1088b11b934"
         },
         {
           "value": "FM",
           "expanded": "Micronesia (Federated States of)",
-          "uuid": "a5ba934c-42e7-55f1-bef2-f1dc8c578cde"
+          "uuid": "e81d96f7-b526-500b-bc38-b55296827053"
         },
         {
           "value": "FO",
           "expanded": "Falkland Islands (Malvinas)",
-          "uuid": "8425b2b8-54ef-58df-b21b-64494a6844a4"
+          "uuid": "6b0edb4c-9510-56f5-9434-2419e63adf3a"
         },
         {
           "value": "FR",
           "expanded": "France",
-          "uuid": "283b63e2-8ab5-5569-81a1-804877d48857"
+          "uuid": "9feeb624-cc18-533c-b14b-18323d86f5e5"
         },
         {
           "value": "GA",
           "expanded": "Gabon",
-          "uuid": "d95eb638-1ca9-5081-8948-7c991670131a"
+          "uuid": "1db690f4-88c4-5983-a731-46a33dbda975"
         },
         {
           "value": "GB",
           "expanded": "United Kingdom",
-          "uuid": "3834ae81-7c21-591e-9797-4d7497b39ab3"
+          "uuid": "73d328d2-5fb1-52f1-99e4-deb62d7a31b9"
         },
         {
           "value": "GD",
           "expanded": "Grenada",
-          "uuid": "e0d03c20-8d38-54ec-bf9d-0de94dc211cd"
+          "uuid": "b00f5bf6-d342-5f44-8f0f-250534821608"
         },
         {
           "value": "GE",
           "expanded": "Georgia",
-          "uuid": "ae9e00e8-9312-55ba-a536-db6be495d088"
+          "uuid": "8a4e2ef5-fc53-5973-8eb3-1e1d8310f0ef"
         },
         {
           "value": "GF",
           "expanded": "French Guiana",
-          "uuid": "aaebed42-fb5c-59c5-b8cb-371efc0bb2c6"
+          "uuid": "4b7894ac-bc13-5192-a545-f39d55dbf17b"
         },
         {
           "value": "GG",
           "expanded": "Guernsey",
-          "uuid": "28db1190-0683-5749-ab28-72835ea265ac"
+          "uuid": "f362fbca-75e5-539f-80bd-f1b03f22b169"
         },
         {
           "value": "GH",
           "expanded": "Ghana",
-          "uuid": "9877e23d-1120-5c1a-a0e8-f45f396fde15"
+          "uuid": "cc863d10-3ed8-5a2a-8145-642458160f76"
         },
         {
           "value": "GI",
           "expanded": "Gibraltar",
-          "uuid": "9f998d66-87db-54b3-991c-81a1ecc705a6"
+          "uuid": "0d7d6484-e18d-5fc5-8b2b-b773aeefa9e9"
         },
         {
           "value": "GL",
           "expanded": "Greenland",
-          "uuid": "010c7f47-7bf7-5045-a897-51ef3cf6c758"
+          "uuid": "e0ffc0a4-8fdf-55db-bb6d-648e238bab97"
         },
         {
           "value": "GM",
           "expanded": "Gambia",
-          "uuid": "82474360-6985-5d06-a079-57a7d9912975"
+          "uuid": "b81d90a2-7ea0-59ed-a974-d1993d1f7228"
         },
         {
           "value": "GN",
           "expanded": "Guinea",
-          "uuid": "a2dcbb1b-2fd9-5b60-9fb4-fefbdda788e0"
+          "uuid": "52e07130-3f06-5655-8363-a5beed43fc12"
         },
         {
           "value": "GP",
           "expanded": "Guadeloupe",
-          "uuid": "bef9a543-a935-5c93-a44c-ac2c6f6d681e"
+          "uuid": "2469f3b3-5fab-5d02-a978-737b8db55d53"
         },
         {
           "value": "GQ",
           "expanded": "Equatorial Guinea",
-          "uuid": "0dfaa6b8-c26d-57d3-9d4a-d41ce50ec1af"
+          "uuid": "ca8c5e18-3bf2-51b5-8e23-57a62b43d3bd"
         },
         {
           "value": "GR",
           "expanded": "Greece",
-          "uuid": "0ecc35e7-ca06-5385-836e-9ed7bf4caa8e"
+          "uuid": "0c006cfc-d4b8-57b8-8d72-05fd139f9954"
         },
         {
           "value": "GS",
           "expanded": "South Georgia and the South Sandwich Islands",
-          "uuid": "b3bd6d6e-6ac0-5964-9c82-21dd9fcebfd8"
+          "uuid": "214d42a0-a854-5845-9c4c-cfd6b204ea37"
         },
         {
           "value": "GT",
           "expanded": "Guatemala",
-          "uuid": "f83a541e-d293-5edd-a578-5aa726f70295"
+          "uuid": "f39605e6-9cbb-5c70-92b1-d3eca17149e7"
         },
         {
           "value": "GU",
           "expanded": "Guam",
-          "uuid": "46fe66bb-5c7c-54f6-bce0-842984df1c81"
+          "uuid": "aec26838-96d8-54c7-a2cc-85a075344a36"
         },
         {
           "value": "GW",
           "expanded": "Guinea-Bissau",
-          "uuid": "ceca8a7a-2a69-5968-80d5-754a3eabdf0e"
+          "uuid": "3df0fc57-f032-5139-aa15-e2a2bded1bd4"
         },
         {
           "value": "GY",
           "expanded": "Guyana",
-          "uuid": "82c453e0-4b04-5c8b-b006-be09909d16ea"
+          "uuid": "72725568-6adf-5c81-b131-3d238050c56d"
         },
         {
           "value": "HK",
           "expanded": "Hong Kong",
-          "uuid": "d556ec44-8b6c-5d51-9447-a673702b5bb8"
+          "uuid": "53600a73-b882-5078-a5db-9b0b026d7ad2"
         },
         {
           "value": "HM",
           "expanded": "Heard Island and McDonal Islands",
-          "uuid": "b08505ba-abed-529c-a971-154390cf92ca"
+          "uuid": "e89d2cab-4388-5866-a39f-903b95a507e8"
         },
         {
           "value": "HN",
           "expanded": "Honduras",
-          "uuid": "65913091-00ef-5169-8c7e-434c535daf79"
+          "uuid": "21cf29c9-a849-5bfe-998c-3798a6b084da"
         },
         {
           "value": "HR",
           "expanded": "Croatia",
-          "uuid": "b3e54c4d-e1e3-592a-a950-919e84fa5c71"
+          "uuid": "a954548b-82ec-5e29-b78b-71bb0ebcdfdf"
         },
         {
           "value": "HT",
           "expanded": "Haiti",
-          "uuid": "1cf71415-f6d5-53f3-b751-7e79f5a79844"
+          "uuid": "bc8232f6-ae9a-5272-acf8-d72fb55784f3"
         },
         {
           "value": "HU",
           "expanded": "Hungary",
-          "uuid": "73831a5c-cba3-5ee9-9c57-831a039cd86b"
+          "uuid": "967a3159-3518-5df7-95be-f312b243961c"
         },
         {
           "value": "ID",
           "expanded": "Indonesia",
-          "uuid": "19b5f095-46bd-5b54-93ca-d2a3c912d9f7"
+          "uuid": "10d32356-c01d-5a08-b4b8-c92e2b780c91"
         },
         {
           "value": "IE",
           "expanded": "Ireland",
-          "uuid": "a61c4439-dc43-5f71-895e-390500c7edd2"
+          "uuid": "b394f659-cf53-508b-a683-a759c2207b3c"
         },
         {
           "value": "IL",
           "expanded": "Israel",
-          "uuid": "95268d03-bdfd-51cd-9283-ad5a63efe984"
+          "uuid": "5eb60f86-abc7-598e-9faa-0b399d5abb82"
         },
         {
           "value": "IM",
           "expanded": "Isle of Man",
-          "uuid": "cd026ada-1cc7-56fe-bdff-4ed28d5bbfea"
+          "uuid": "08d3535c-db2c-5465-9fd2-2ed738dc8cb4"
         },
         {
           "value": "IN",
           "expanded": "India",
-          "uuid": "8520e05b-5f19-54d4-8c2a-233463752fb7"
+          "uuid": "b6bf18cc-2235-5826-81fb-01f0e8460f5a"
         },
         {
           "value": "IO",
           "expanded": "British Virgin Islands",
-          "uuid": "02cc9485-fb11-53ea-8d05-6306f02a2380"
+          "uuid": "36937650-a3bd-5ad2-830f-d031f556125d"
         },
         {
           "value": "IQ",
           "expanded": "Iraq",
-          "uuid": "17da8839-22fb-5a1c-bb20-9b000b5898b4"
+          "uuid": "04a66a9d-77f1-5bc5-8b08-39aae87539ec"
         },
         {
           "value": "IR",
           "expanded": "Iran (Islamic Republic of)",
-          "uuid": "8b5c45f6-995d-5528-b17a-c95fce14fead"
+          "uuid": "5f5bff3c-043a-55c9-bcb5-ef4564077078"
         },
         {
           "value": "IS",
           "expanded": "Iceland",
-          "uuid": "d34dc4ff-d30b-534b-96c0-0e1736f933db"
+          "uuid": "f646c007-99f3-5121-b56d-3210a30a009f"
         },
         {
           "value": "IT",
           "expanded": "Italy",
-          "uuid": "7efbd79c-7302-55f2-ab77-d59b26d20da4"
+          "uuid": "5ddb8f22-7957-580c-8278-206ab28c5ad8"
         },
         {
           "value": "JE",
           "expanded": "Jersey",
-          "uuid": "0fe87b3c-3ae9-54f4-844c-2d95b83094cc"
+          "uuid": "0bb97dad-01ce-5cec-b7e5-679a074efbfa"
         },
         {
           "value": "JM",
           "expanded": "Jamaica",
-          "uuid": "d50fd5a2-d03b-5661-bff6-a06d6648cd44"
+          "uuid": "b72911d1-0cd1-5d4d-819f-40d64a26a878"
         },
         {
           "value": "JO",
           "expanded": "Jordan",
-          "uuid": "1abcbf00-bb09-5b88-89f6-27e8c9ae5b8c"
+          "uuid": "fba222d9-374b-5ab3-919e-382d7bb43edd"
         },
         {
           "value": "JP",
           "expanded": "Japan",
-          "uuid": "31233fe5-d5db-51ef-a771-8bb9d99dbf78"
+          "uuid": "f427c595-5eb5-5e62-b2e6-1c884cffb68a"
         },
         {
           "value": "KE",
           "expanded": "Kenya",
-          "uuid": "c890e9c3-aaa5-5592-8e61-2a5eb6f2f1d6"
+          "uuid": "7e1d5d64-3355-56bb-823a-8db0755310df"
         },
         {
           "value": "KG",
           "expanded": "Kyrgyzstan",
-          "uuid": "80fbc2ad-0d2c-5eac-8a50-a43f4c672021"
+          "uuid": "b46ea99c-6dd4-5e79-ac01-ad31b69e70b5"
         },
         {
           "value": "KH",
           "expanded": "Cambodia",
-          "uuid": "0e64571a-f8fb-53bd-b681-d8fa61ae3294"
+          "uuid": "c008d351-e3dc-516b-9357-93a51ff3adc7"
         },
         {
           "value": "KI",
           "expanded": "Kiribati",
-          "uuid": "2e811e78-c426-52c3-a8de-62a58e858d32"
+          "uuid": "20e317b0-0131-5750-99c4-dcae55974daf"
         },
         {
           "value": "KM",
           "expanded": "Comoros",
-          "uuid": "c4ad24bf-1483-57f1-a9cf-40f3fbcdd835"
+          "uuid": "a5dadbc3-d10e-5673-bbe6-54d8547c7495"
         },
         {
           "value": "KN",
           "expanded": "Saint Kitts and Nevis",
-          "uuid": "99850196-b611-506e-a5cc-e22cc8e50576"
+          "uuid": "ab069279-f971-5c50-b571-46964d9cc455"
         },
         {
           "value": "KP",
           "expanded": "Korea, Democratic People's Republic of",
-          "uuid": "662df923-efce-592a-a053-e6365a9c55db"
+          "uuid": "0b978fd4-b248-58cd-bc81-91f284d27d03"
         },
         {
           "value": "KR",
           "expanded": "Korea, Republic of",
-          "uuid": "742bcd2e-7c8c-5b61-9aba-f55971d86ed5"
+          "uuid": "d083f7f7-a730-5032-9bd8-b5e338fcec32"
         },
         {
           "value": "KW",
           "expanded": "Kuwait",
-          "uuid": "3ffcb6f3-6e13-5af1-a455-663a4d65e6f0"
+          "uuid": "c0a4e11a-98f3-5d32-b805-54549b6d05d1"
         },
         {
           "value": "KY",
           "expanded": "Cayman Islands",
-          "uuid": "8e549dd3-77c9-5075-a61d-766fc1950826"
+          "uuid": "07c3aca8-28f1-5f0d-90fb-41e5e4ea6461"
         },
         {
           "value": "KZ",
           "expanded": "Kazakhstan",
-          "uuid": "c02cb185-8540-5f16-9042-a1710052890c"
+          "uuid": "907eed11-2aa5-5f63-bd9d-8e70d12d0988"
         },
         {
           "value": "LA",
           "expanded": "Lao People's Democratic Republic",
-          "uuid": "45cf4b6b-609f-5189-86ef-ebd28cbd1aae"
+          "uuid": "8af8dd00-5842-5d6c-b4ff-a281f45dabaa"
         },
         {
           "value": "LB",
           "expanded": "Lebanon",
-          "uuid": "cd02b4c1-8d2e-5e44-b3b2-91e8ed4f338d"
+          "uuid": "b92495ca-7c72-55a8-adca-d4bce38a7a35"
         },
         {
           "value": "LC",
           "expanded": "Saint Lucia",
-          "uuid": "3b73de61-555f-5240-b448-60d50bbcb0cd"
+          "uuid": "bf20b221-121f-5ff7-8633-9679532f9fdb"
         },
         {
           "value": "LI",
           "expanded": "Liechtenstein",
-          "uuid": "f8ce76c8-3827-5535-9325-f3874b1a62b2"
+          "uuid": "79e25fd7-65b2-530c-8717-8da1db8e1086"
         },
         {
           "value": "LK",
           "expanded": "Sri Lanka",
-          "uuid": "9923f988-01f9-5e84-888d-538de3a52f72"
+          "uuid": "9c44315a-f329-5278-afbf-5f7070fd0fee"
         },
         {
           "value": "LR",
           "expanded": "Liberia",
-          "uuid": "b164eeaf-915a-5a7c-8662-2a3dedfde9de"
+          "uuid": "ebbfbc99-0392-5f3d-b398-1eac092fa0fb"
         },
         {
           "value": "LS",
           "expanded": "Lesotho",
-          "uuid": "5456d942-496a-533b-a2ac-1481204e34c9"
+          "uuid": "cc338dd4-3b7b-5bc8-8c00-95e0a5181b20"
         },
         {
           "value": "LT",
           "expanded": "Lithuania",
-          "uuid": "c7b0b2ef-6808-542b-8892-fc254ab1f3ae"
+          "uuid": "60d1a129-605f-58e0-9e2c-496be1530340"
         },
         {
           "value": "LU",
           "expanded": "Luxembourg",
-          "uuid": "9cc8ac00-7aee-55c2-992b-c9a609975403"
+          "uuid": "0a32247d-6358-5119-8998-0bf069525822"
         },
         {
           "value": "LV",
           "expanded": "Latvia",
-          "uuid": "b59f96af-d91b-570d-87b0-9d92f08d92fe"
+          "uuid": "b5d2559b-f301-5e69-b6a5-4b7f8c65a73b"
         },
         {
           "value": "LY",
           "expanded": "Libya",
-          "uuid": "ccb66618-39c4-571c-8384-ab882860aab3"
+          "uuid": "6ea7c20d-cf95-55fe-b6f2-061f7688ac5e"
         },
         {
           "value": "MA",
           "expanded": "Morocco",
-          "uuid": "1ac85ce8-f604-5d91-b5e1-4494fb253773"
+          "uuid": "bd2849b8-393a-5e77-be65-33cf5c2d1d0f"
         },
         {
           "value": "MC",
           "expanded": "Monaco",
-          "uuid": "2bc2305c-79db-5903-8918-17a94d98a7dd"
+          "uuid": "b0f6392a-df6e-5883-88f0-5f24e554d8ee"
         },
         {
           "value": "MD",
           "expanded": "Moldova, Republic of",
-          "uuid": "38d92415-ca51-581d-8bda-e91e53bddb11"
+          "uuid": "1e54b4e1-1228-548c-b902-65ab64de4f8b"
         },
         {
           "value": "ME",
           "expanded": "Montenegro",
-          "uuid": "190225fd-2401-58f6-940a-430d60209494"
+          "uuid": "97057567-5b9c-51cb-ba54-80ba3093391a"
         },
         {
           "value": "MF",
           "expanded": "Saint Martin (French part)",
-          "uuid": "b5633103-e5c3-549f-954a-f7cfcc2a2664"
+          "uuid": "8108ee5e-49d0-5e5d-ad9f-6140331e293e"
         },
         {
           "value": "MG",
           "expanded": "Madagascar",
-          "uuid": "130e7706-c5b7-5f69-b76c-703405f3ff3d"
+          "uuid": "89aef061-16a8-5491-8ab8-2b16d9b80686"
         },
         {
           "value": "MH",
           "expanded": "Marshall Islands",
-          "uuid": "7fed5b3b-23aa-5c44-ba55-ce291ee69caf"
+          "uuid": "a4d6de41-c8bc-5ecd-8df3-8e24fce7e00e"
         },
         {
           "value": "MK",
           "expanded": "Macedonia, The former Yugoslav Republic of",
-          "uuid": "fd2b95c4-6f71-50c5-9227-63f18667c56c"
+          "uuid": "288cf654-2cec-5ebf-8c0f-b513a91cbda3"
         },
         {
           "value": "ML",
           "expanded": "Mali",
-          "uuid": "381573bf-a31b-5fc8-b117-311a0e2e46d5"
+          "uuid": "8194f718-74bc-5673-8cd9-860a8b3691b6"
         },
         {
           "value": "MM",
           "expanded": "Myanmar",
-          "uuid": "5b643138-10de-51ac-b571-5c012cacd649"
+          "uuid": "2c804c76-995e-50d7-99bf-8b4ee8399c97"
         },
         {
           "value": "MN",
           "expanded": "Mongolia",
-          "uuid": "00d13502-dc32-56da-b836-dfff3d8784bc"
+          "uuid": "45b38721-c6cd-5a7e-8f41-b9991027ac3b"
         },
         {
           "value": "MO",
           "expanded": "Macao",
-          "uuid": "e988cc18-dd5b-57d4-9b07-eafdf7749b91"
+          "uuid": "ab3db7fd-cf08-5615-8228-2398da22659d"
         },
         {
           "value": "MP",
           "expanded": "Northern Mariana Islands",
-          "uuid": "40cdea63-da5c-52c2-897c-48311ed3d616"
+          "uuid": "fc1e51ff-1217-56bd-8fc9-417e69d3b5e8"
         },
         {
           "value": "MQ",
           "expanded": "Martinique",
-          "uuid": "854e8b08-4910-5554-850f-e55944512570"
+          "uuid": "57a6be6c-ed2c-50b5-b5fa-d3c95c0f30e3"
         },
         {
           "value": "MR",
           "expanded": "Mauritania",
-          "uuid": "f753d78a-be4f-5845-b047-8250b0b76d14"
+          "uuid": "ce5fd034-0a25-5b1a-9984-97c446758659"
         },
         {
           "value": "MS",
           "expanded": "Montserrat",
-          "uuid": "ebfbfda0-6a4c-5fde-955e-0fa0318a6d45"
+          "uuid": "e7bf165d-a5f7-5236-949a-595759c87bbd"
         },
         {
           "value": "MT",
           "expanded": "Malta",
-          "uuid": "17ecedc1-f9ee-534c-865f-b833e1c124b8"
+          "uuid": "e0069441-230f-5679-8d48-90cc5d2e313e"
         },
         {
           "value": "MU",
           "expanded": "Mauritius",
-          "uuid": "586d43bf-95ad-5764-b440-f22f02d771d5"
+          "uuid": "f274c5f4-4b6d-5264-9596-ea407548dbb9"
         },
         {
           "value": "MV",
           "expanded": "Maldives",
-          "uuid": "411f0f61-fbc9-5281-8c65-84d88a3f1f0d"
+          "uuid": "ae7c31cc-cdf2-54bd-a9b4-13fcb1c7646e"
         },
         {
           "value": "MW",
           "expanded": "Malawi",
-          "uuid": "8f745faf-6871-552a-b920-5181f34dff71"
+          "uuid": "85f95a00-3ff9-5963-aecc-5e2e9517a566"
         },
         {
           "value": "MX",
           "expanded": "Mexico",
-          "uuid": "2bb8e4e9-14c9-57a0-b81c-96de05288c37"
+          "uuid": "f58ba428-dddf-52cd-81df-2fb828e0194d"
         },
         {
           "value": "MY",
           "expanded": "Malaysia",
-          "uuid": "e82a286f-d10a-5883-918c-b56c3a2c6e65"
+          "uuid": "5b5cd5a8-0757-5abb-863b-288a4e26e35e"
         },
         {
           "value": "MZ",
           "expanded": "Mozambique",
-          "uuid": "e83d5a50-63c1-54c5-8b82-1ad409a1cee8"
+          "uuid": "397bb56c-6b11-54c1-bd7a-1ad16c61052f"
         },
         {
           "value": "NA",
           "expanded": "Namibia",
-          "uuid": "2c5650ef-2b0d-5365-a798-52a90f2c30fd"
+          "uuid": "d9a63497-6343-5d50-9a2d-78b7cb2e261e"
         },
         {
           "value": "NC",
           "expanded": "New Caledonia",
-          "uuid": "4292ea49-f007-5e05-be54-0baa33c9fe76"
+          "uuid": "abbf7722-f482-5ec9-a420-3af95e492816"
         },
         {
           "value": "NE",
           "expanded": "Niger",
-          "uuid": "ce623557-21ae-5227-9f2e-f2fa53cfddee"
+          "uuid": "930c56ee-b855-5f89-800a-1c754adec818"
         },
         {
           "value": "NF",
           "expanded": "Norfolk Island",
-          "uuid": "48d36185-6d9f-5621-b74a-f789e33d72da"
+          "uuid": "9a75e2e1-c375-5476-89d0-eaae00114209"
         },
         {
           "value": "NG",
           "expanded": "Nigeria",
-          "uuid": "66d2c1d4-f63d-531a-bb70-32d435ff3b13"
+          "uuid": "5a68a4c9-34e6-5524-b10f-c879efba31eb"
         },
         {
           "value": "NI",
           "expanded": "Nicaragua",
-          "uuid": "768b04cd-3e82-5d89-9afd-a6cd98b5dcde"
+          "uuid": "5cc6e6a8-1a98-5bfd-8e56-ad677be7442c"
         },
         {
           "value": "NL",
           "expanded": "Netherlands",
-          "uuid": "9bc583b5-f6ad-5d37-9aa6-6ddcb44d2c66"
+          "uuid": "80ab99a2-eef0-5740-b358-5db7b5ccafc0"
         },
         {
           "value": "NO",
           "expanded": "Norway",
-          "uuid": "551759a1-fceb-5dfe-95a0-b42374eafc2d"
+          "uuid": "49d1b4ed-cb70-57c4-acef-1f10f2b9b2d4"
         },
         {
           "value": "NP",
           "expanded": "Nepal",
-          "uuid": "bd27bf43-10b3-50fb-9cfa-8d59bb775df4"
+          "uuid": "94cbcc6c-5177-5989-ac54-898e8887b6e5"
         },
         {
           "value": "NR",
           "expanded": "Nauru",
-          "uuid": "29a8b376-88e5-5a9c-9a64-5cc32b24b0fb"
+          "uuid": "143bb525-1364-524c-954d-28c305d44f5c"
         },
         {
           "value": "NU",
           "expanded": "Niue",
-          "uuid": "397dea04-a69c-54a4-8633-7c8c7c7e8027"
+          "uuid": "51416238-9281-5374-be5a-b85e3dbfc0d7"
         },
         {
           "value": "NZ",
           "expanded": "New Zealand",
-          "uuid": "6127afd2-6e83-55d2-a1a2-2fa3ef68d76a"
+          "uuid": "fb5c2b7d-ecf8-5c36-9b81-c52333ebb97e"
         },
         {
           "value": "OM",
           "expanded": "Oman",
-          "uuid": "d57c3f54-a6ea-59cd-926c-defb77ba9eda"
+          "uuid": "79623541-4a9b-5593-829a-e9faedb3e0cc"
         },
         {
           "value": "Other",
           "expanded": "Other",
-          "uuid": "4171d8ab-e444-579a-a68d-43094a6d26cc"
+          "uuid": "5894f317-2ac5-59a7-8229-a1437fde3b53"
         },
         {
           "value": "PA",
           "expanded": "Panama",
-          "uuid": "f53fe005-46a4-5cc5-ba14-330ca6a61141"
+          "uuid": "8caa28d7-f09b-5afc-82b3-3b8c0494bb0e"
         },
         {
           "value": "PE",
           "expanded": "Peru",
-          "uuid": "1e1ed64d-25c9-5d2f-a2d9-1d0c8dc582cc"
+          "uuid": "988f9709-568c-5af7-b6a7-5bca94e4ef20"
         },
         {
           "value": "PF",
           "expanded": "French Polynesia",
-          "uuid": "ddb7df6e-b3be-5b1e-821c-3de83fbd4480"
+          "uuid": "dbe77a02-8c2f-5a07-ab8f-e3bb25731b1b"
         },
         {
           "value": "PG",
           "expanded": "Papua New Guinea",
-          "uuid": "bfd4f774-1d48-5118-97c3-33cd1d750657"
+          "uuid": "8fd218e5-d309-5ce9-8b62-17e1373a40ed"
         },
         {
           "value": "PH",
           "expanded": "Philippines",
-          "uuid": "26a1ff04-0e74-51b4-b201-d1b6ae72d317"
+          "uuid": "30ee31e8-7f28-5bf9-a9f7-6dc2998e9e5b"
         },
         {
           "value": "PK",
           "expanded": "Pakistan",
-          "uuid": "9fe738d6-66b3-5b90-b04f-174166ce1797"
+          "uuid": "7031c133-fac4-512e-93a9-0e9148dac5fa"
         },
         {
           "value": "PL",
           "expanded": "Poland",
-          "uuid": "c5cda85c-20a2-5833-b9dc-8b750d6ec509"
+          "uuid": "e081dc19-6654-5d9a-9a15-12045e7c425b"
         },
         {
           "value": "PM",
           "expanded": "Saint Pierre and Miquelon",
-          "uuid": "96fbfaad-ae3a-5957-afd1-9f4dd827ba5f"
+          "uuid": "1540b32e-1857-5518-a0ea-ebffe7ddef4e"
         },
         {
           "value": "PN",
           "expanded": "Pitcairn",
-          "uuid": "aea11ed4-a201-5f94-9a85-d3fe43b00984"
+          "uuid": "fd8fea06-8e36-54ef-b128-675a18f25eaf"
         },
         {
           "value": "PR",
           "expanded": "Puerto Rico",
-          "uuid": "2aa8107c-7237-54f6-9a7f-ff46e0f01494"
+          "uuid": "fda83b41-0b74-5188-ab97-084d2aef782b"
         },
         {
           "value": "PS",
           "expanded": "Palestinian Territory, Occupied",
-          "uuid": "35d84a1a-a31d-5e85-bdc5-9ea2aacf0c9f"
+          "uuid": "76d21dbb-7eb2-533e-86ab-927cf2f97669"
         },
         {
           "value": "PT",
           "expanded": "Portugal",
-          "uuid": "b07a9695-7a00-51f6-bfc7-959a60137c97"
+          "uuid": "15cd5ffa-ba73-5a85-996b-f6ed24b7e4e9"
         },
         {
           "value": "PW",
           "expanded": "Palau",
-          "uuid": "e383e075-b1d7-581b-ba4f-9c43d04c4d89"
+          "uuid": "02134ba9-bdd3-59ce-bd06-fee607dd193e"
         },
         {
           "value": "PY",
           "expanded": "Paraguay",
-          "uuid": "e8aa29b6-63e3-55e4-989f-fb0b75df8e0b"
+          "uuid": "1bc873be-82b1-5c4f-94dd-dfe64ea9e5d4"
         },
         {
           "value": "QA",
           "expanded": "Qatar",
-          "uuid": "62c37ace-c72d-5738-8b73-202cc30ab0d0"
+          "uuid": "202bbd3b-a878-5b20-b7da-a0c8a140b6d3"
         },
         {
           "value": "RE",
           "expanded": "Reunion",
-          "uuid": "bf00ffca-4a99-5345-86a0-40ef6a3fbef3"
+          "uuid": "ec3ad980-6c7f-5acd-b760-467503393000"
         },
         {
           "value": "RO",
           "expanded": "Romania",
-          "uuid": "999657a5-f6ba-556a-b693-0d4570a7ba57"
+          "uuid": "72f9f393-c5f2-5baf-96d7-018b804e5e3a"
         },
         {
           "value": "RS",
           "expanded": "Serbia",
-          "uuid": "7a5d54b3-3f33-50d7-8015-e0ada6ce1b5a"
+          "uuid": "1f7e88ac-0a05-5dba-b3bc-25fca328ecae"
         },
         {
           "value": "RU",
           "expanded": "Russian Federation",
-          "uuid": "121adfd5-2ed3-52f7-a540-b2dee788362c"
+          "uuid": "3681f0e8-b1bf-59ce-b620-8d6ee597a565"
         },
         {
           "value": "RW",
           "expanded": "Rwanda",
-          "uuid": "354839e1-d240-532e-bad2-54d9f8ff1bdc"
+          "uuid": "8905e773-9509-558c-adcb-7fb5ea4e28c3"
         },
         {
           "value": "SA",
           "expanded": "Saudi Arabia",
-          "uuid": "d20036c3-89d8-5876-a4ad-9655005a43b7"
+          "uuid": "46ba899e-9cfc-503d-bbff-5e838f63c0f1"
         },
         {
           "value": "SB",
           "expanded": "Solomon Islands",
-          "uuid": "90a2afc7-0654-5541-bafa-13edfbd45e05"
+          "uuid": "f16e6d74-a0d0-5c55-8d73-2bca7f4ac543"
         },
         {
           "value": "SC",
           "expanded": "Seychelles",
-          "uuid": "93b63d50-7993-59cc-9803-9c1445a0d2da"
+          "uuid": "f8872e6c-6b19-5dc7-8ae6-56ffcc6d2b66"
         },
         {
           "value": "SD",
           "expanded": "Sudan",
-          "uuid": "89ce1a4c-eadc-5c59-9af9-2ace07b27517"
+          "uuid": "867c265d-27bb-5258-baa2-f40aaed6251f"
         },
         {
           "value": "SE",
           "expanded": "Sweden",
-          "uuid": "619e767a-b530-52f2-aa55-efbfb10b5d0b"
+          "uuid": "8a091bc5-73fc-523a-a0b6-2aa7bf064de2"
         },
         {
           "value": "SG",
           "expanded": "Singapore",
-          "uuid": "862e2d80-042d-5cfe-8981-12838b120565"
+          "uuid": "8eaa9103-e416-59b5-bc64-345d514b6f4b"
         },
         {
           "value": "SH",
           "expanded": "Saint Helena",
-          "uuid": "e8e122a1-db37-5819-a499-eeb5133311bb"
+          "uuid": "ce86ee67-3822-5aa3-8fe6-de0be6013505"
         },
         {
           "value": "SI",
           "expanded": "Slovenia",
-          "uuid": "155ef32b-a9f8-58b3-81d1-df26f90dc2c0"
+          "uuid": "9043f407-97f6-5e12-a18a-6960a52870f7"
         },
         {
           "value": "SJ",
           "expanded": "Svalbard and Jan Mayen Islands",
-          "uuid": "0f54844d-df41-5c94-982a-68506bb6449a"
+          "uuid": "982922d7-ac78-5a07-b32a-1b015e9fa151"
         },
         {
           "value": "SK",
           "expanded": "Slovakia",
-          "uuid": "7913d4dc-6f70-53ae-892b-00102e8a731e"
+          "uuid": "a97bfc75-568e-552d-9821-aa8eb3df3f76"
         },
         {
           "value": "SL",
           "expanded": "Sierra Leone",
-          "uuid": "609cec6a-e90c-50da-ad19-5febe3bdf146"
+          "uuid": "09b6b91a-489d-5da5-8090-46a510f1ca27"
         },
         {
           "value": "SM",
           "expanded": "San Marino",
-          "uuid": "98f7ba05-7007-5e98-8225-f16789079cb6"
+          "uuid": "86742457-47e6-5398-b574-393d95b74118"
         },
         {
           "value": "SN",
           "expanded": "Senegal",
-          "uuid": "99eff4c9-f89a-57f2-a5cd-137853586039"
+          "uuid": "146b9e3a-c63b-50b4-bf6d-e0d99dd3b01a"
         },
         {
           "value": "SO",
           "expanded": "Somalia",
-          "uuid": "ab36c489-4596-553f-a45e-ecd6fb90875c"
+          "uuid": "53f97064-93a9-566d-b55b-3958a12cbd82"
         },
         {
           "value": "SR",
           "expanded": "Suriname",
-          "uuid": "b6420daf-53c7-54e8-99c5-367266fa13c6"
+          "uuid": "be4f96a8-f881-5478-98a6-91f0f560fc25"
         },
         {
           "value": "SS",
           "expanded": "South Sudan",
-          "uuid": "56f4fd6e-94dc-51a3-b430-33b7e45c09fc"
+          "uuid": "3328b608-7672-51c8-9ac0-724952124797"
         },
         {
           "value": "ST",
           "expanded": "Sao Tome and Principe",
-          "uuid": "d252b603-233a-555e-82c1-b00cc43e8eb5"
+          "uuid": "aca8d149-1817-55b4-bef1-72fa978f5ef9"
         },
         {
           "value": "SV",
           "expanded": "El Salvador",
-          "uuid": "1984ab1b-de05-5d6b-ac06-226b6044f8f8"
+          "uuid": "e2a27b8a-94b2-5452-8082-8ec0ffead897"
         },
         {
           "value": "SX",
           "expanded": "Sint Maarten (Dutch part)",
-          "uuid": "f6cecc19-9706-5d56-9da1-9cab91d33da5"
+          "uuid": "551284cc-a3cf-5196-a869-13bbcb7d902a"
         },
         {
           "value": "SY",
           "expanded": "Syrian Arab Republic",
-          "uuid": "83ff6baf-2033-5caa-a5db-cc326753bc1d"
+          "uuid": "78aad58b-8245-5a27-a6dc-4b6923b8f9f1"
         },
         {
           "value": "SZ",
           "expanded": "Swaziland",
-          "uuid": "a7af4c9d-25ca-5595-9238-8dd11deaf6ed"
+          "uuid": "b0140e33-3eba-589a-ad63-0d41e500ef40"
         },
         {
           "value": "TC",
           "expanded": "Turks and Caicos Islands",
-          "uuid": "0e5509e7-1756-5f24-bc5d-4723320fca9b"
+          "uuid": "1d7695f6-556d-5bae-a8b3-3a1fba89356c"
         },
         {
           "value": "TD",
           "expanded": "Chad",
-          "uuid": "483cfefd-9192-5249-b7f6-db4793bfe063"
+          "uuid": "63754036-c901-5448-9feb-ef1fd753d9c8"
         },
         {
           "value": "TF",
           "expanded": "French Southern Territories",
-          "uuid": "2af0a0e9-80ca-5fc7-a000-6238dda0000c"
+          "uuid": "bb14c4d3-f2f9-5753-8181-11585ba7b8d2"
         },
         {
           "value": "TG",
           "expanded": "Togo",
-          "uuid": "8b394179-899a-5b4f-b64e-692a09c1531d"
+          "uuid": "4f6158fd-f856-56e7-8472-e321fd4d9dce"
         },
         {
           "value": "TH",
           "expanded": "Thailand",
-          "uuid": "44b12c3b-dc24-50e4-b489-70379bdf4217"
+          "uuid": "cb2ee3e0-99d4-5ddb-b785-1dd2422c8e47"
         },
         {
           "value": "TJ",
           "expanded": "Tajikistan",
-          "uuid": "ec18b358-4258-5706-b446-bcb9639a15d4"
+          "uuid": "a11a5b3c-b3ca-5ab1-9ca5-84abf0fb56cc"
         },
         {
           "value": "TK",
           "expanded": "Tokelau",
-          "uuid": "d40444f3-ef59-5552-ab4e-f21f63fcf369"
+          "uuid": "46ba8603-aebe-5265-b7ff-d556576f520a"
         },
         {
           "value": "TL",
           "expanded": "Timor-Leste",
-          "uuid": "f3652e87-81f9-5eea-a7dd-b6b7b43e3550"
+          "uuid": "10fe675b-2371-54d3-b279-d4a668b05410"
         },
         {
           "value": "TM",
           "expanded": "Turkmenistan",
-          "uuid": "6a476315-f980-58a2-bcb8-96d1b6a01074"
+          "uuid": "54c880cf-7dcd-51a3-9c5e-b95580a39a17"
         },
         {
           "value": "TN",
           "expanded": "Tunisia",
-          "uuid": "208d957a-c87d-5e73-828d-c85a069b66a0"
+          "uuid": "9ad2298c-4dc3-548b-b348-d4f5c87bf1ad"
         },
         {
           "value": "TO",
           "expanded": "Tonga",
-          "uuid": "c7d9b605-3431-56d7-ba42-e58dd07d9d28"
+          "uuid": "220b742a-efc8-59c2-b62f-1a11e8c77bd9"
         },
         {
           "value": "TR",
           "expanded": "Turkey",
-          "uuid": "5aa87505-d4de-5e6c-89aa-819b6bd28dca"
+          "uuid": "a72d9508-4393-54b2-a8c3-fc27b5c65708"
         },
         {
           "value": "TT",
           "expanded": "Trinidad and Tobago",
-          "uuid": "8a59d1dc-bfee-5c95-acc3-1fdd19b4583c"
+          "uuid": "460c3bc4-42fd-55c5-b7ba-40b75aec1f48"
         },
         {
           "value": "TV",
           "expanded": "Tuvalu",
-          "uuid": "99fc70ff-f176-56e3-8640-71b321b93eff"
+          "uuid": "6938c065-40d7-515e-8ec3-52645793b9dc"
         },
         {
           "value": "TW",
           "expanded": "Taiwan, Province of China",
-          "uuid": "6395b658-574f-567d-9c1d-4b981f80813a"
+          "uuid": "834cddf6-20a3-5cc5-a184-d7c873d08fac"
         },
         {
           "value": "TZ",
           "expanded": "Tanzania, United Republic of",
-          "uuid": "cc94973d-895f-5897-a404-c5c95611d67b"
+          "uuid": "85517e13-42d8-570b-a164-aca14211a94a"
         },
         {
           "value": "UA",
           "expanded": "Ukraine",
-          "uuid": "8cbadf61-5ff0-585e-a469-ffac779b2918"
+          "uuid": "efad84d5-3179-572c-b761-ff517c8c06b2"
         },
         {
           "value": "UG",
           "expanded": "Uganda",
-          "uuid": "9bd72bab-1cbb-5fbe-a99c-1b1c34dfaaa0"
+          "uuid": "eec80a2d-3082-555a-a028-e83bc1b20380"
         },
         {
           "value": "UM",
           "expanded": "United States Minor Outlying Islands",
-          "uuid": "4445e159-b70b-5cf9-97a8-c8f9e50e7c7f"
+          "uuid": "e57bab96-3d44-52cb-a41f-5bae7280f2c5"
         },
         {
           "value": "US",
           "expanded": "United States of America",
-          "uuid": "953ea876-49c6-504f-8af6-36bf438db59b"
+          "uuid": "e551a99a-40ef-59d5-a01a-68587a1c52bc"
         },
         {
           "value": "UY",
           "expanded": "Uruguay",
-          "uuid": "d60d5a71-14ff-5bda-95f3-3bfcc25e44b1"
+          "uuid": "5b75f6b4-fa95-555b-aa47-d3367ec9d97b"
         },
         {
           "value": "UZ",
           "expanded": "Uzbekistan",
-          "uuid": "1b3a5dcf-06cd-52d8-8290-af12cced3121"
+          "uuid": "16e1df97-f87b-5d1a-8335-274950ad5a0b"
         },
         {
           "value": "Unknown",
           "expanded": "Unknown",
-          "uuid": "d703ec0e-d3da-5ebf-a786-e913de269512"
+          "uuid": "eaf4b8c1-29fb-59e4-9e70-c97333b66732"
         },
         {
           "value": "VA",
           "expanded": "Holy See",
-          "uuid": "a05a5116-e73c-5fc1-b9e2-a05baa09afa0"
+          "uuid": "779e0c67-8a73-5544-89dd-bc9a8699cebc"
         },
         {
           "value": "VC",
           "expanded": "Saint Vincent and the Grenadines",
-          "uuid": "a706e6ef-4eaa-5a29-8f8b-d95eaf581fcc"
+          "uuid": "bc4c3f4d-ff1f-56cb-8be5-3e197d3e9bcd"
         },
         {
           "value": "VE",
           "expanded": "Venezuela (Bolivarian Republic of)",
-          "uuid": "cccda81d-456e-52c0-923a-609a09dda6a7"
+          "uuid": "12f7d2b5-8615-5f39-be4a-12b5363e982d"
         },
         {
           "value": "VG",
           "expanded": "British Virgin Islands",
-          "uuid": "280f7f41-4dd5-57b6-a5cc-b5ab6ab9757d"
+          "uuid": "5e48f40f-870b-5220-96f8-564744244530"
         },
         {
           "value": "VI",
           "expanded": "United States Virgin Islands",
-          "uuid": "46d6979b-0716-59a7-91eb-c0ef5e4eb807"
+          "uuid": "575cdfd5-2eff-5437-92ef-53278fe10ea4"
         },
         {
           "value": "VN",
           "expanded": "Viet Nam",
-          "uuid": "8789d9b4-c993-538d-8da0-88234e40198c"
+          "uuid": "ae621528-12a9-54ee-8188-4b076d1f1760"
         },
         {
           "value": "VU",
           "expanded": "Vanuatu",
-          "uuid": "80fa1e2d-7678-5e4b-b774-27b177a5b115"
+          "uuid": "2c059d2a-3a3e-53ea-922f-b77a4c197cd7"
         },
         {
           "value": "WF",
           "expanded": "Wallis and Futuna Islands",
-          "uuid": "06b768aa-2a44-502e-a315-4c6613d24603"
+          "uuid": "3c9b15c3-3002-5941-9d5a-eb6568d0b20c"
         },
         {
           "value": "WS",
           "expanded": "Samoa",
-          "uuid": "af66f0ce-9c77-5a4c-a5ce-50ad69c5588a"
+          "uuid": "a6608bd4-a7aa-5abd-8d2a-9e03bbbd458a"
         },
         {
           "value": "YE",
           "expanded": "Yemen",
-          "uuid": "bc33ee25-45a5-561c-bbf8-71dd6466a40a"
+          "uuid": "5e487cca-ebb8-5844-8aa2-beb9c55bd136"
         },
         {
           "value": "YT",
           "expanded": "Mayotte",
-          "uuid": "c194c9cc-0dbd-542c-ae4a-d195786d4d4d"
+          "uuid": "6a92fa97-23d9-5458-ae36-dc9f2f1d2337"
         },
         {
           "value": "ZA",
           "expanded": "South Africa",
-          "uuid": "ac63a710-54c6-509a-b7e8-eff57132dd42"
+          "uuid": "39761d2a-f259-5817-9fff-da2bec3a05bc"
         },
         {
           "value": "ZM",
           "expanded": "Zambia",
-          "uuid": "8f7077e4-9888-5182-aaa0-246431b3d6ad"
+          "uuid": "5c601899-950c-510a-a5c3-8d2ebf8f2caa"
         },
         {
           "value": "ZW",
           "expanded": "Zimbabwe",
-          "uuid": "0ff67f96-f3ee-5a05-82c0-13d301de99da"
+          "uuid": "f350ccd0-f5e6-5db3-93de-44f981d2b34b"
         }
       ]
     },
@@ -2533,67 +2533,67 @@
           "value": "government-civilian",
           "expanded": "Government: Civilian",
           "description": "The governing body and functions of a state, including national leaders, institutions, and non-military departments and agencies. Includes incumbent politicians running for re-election.",
-          "uuid": "12e6ca65-2f39-5620-9196-27485a2003ef"
+          "uuid": "bbe90c09-5d27-5f99-9fe8-a7d83c3dd56b"
         },
         {
           "value": "government-military",
           "expanded": "Government: Military",
           "description": "Military departments and agencies which enjoy the sanctioned use of force",
-          "uuid": "569bc11f-a1e8-5d24-9d03-8166f0b66298"
+          "uuid": "fb6be142-8a5b-5d3d-925b-6419082a9333"
         },
         {
           "value": "political-party",
           "expanded": "Political Party",
           "description": "Organized competitors for political power who can obtain or wield power directly. Includes politicians currently in office, as well as non-incumbent politicians running for office who are associated with a political party. Can also be an individual working for a party.",
-          "uuid": "bc3b7f21-e0af-5a87-a8d1-46a2c1a179a5"
+          "uuid": "db142053-b5e6-56db-8761-6740769a38b2"
         },
         {
           "value": "non-state-political-actor",
           "expanded": "Non-State Political Actor",
           "description": "Organized competitors for political power who can obtain or wield power, even if indirectly; not necessarily enfranchised. Non-state political actors are formally organized, coordinated, and cohesive. e.g. Greenpeace, the NRA, or the KKK.",
-          "uuid": "21507a99-6ce7-52b4-b4e3-8dd797e49fc1"
+          "uuid": "96b4277f-15ce-5e87-bfcd-a76fd40de596"
         },
         {
           "value": "business",
           "expanded": "Business",
           "description": "Includes groups that contract out to the government, individuals looking for financial gain, and mercenaries.",
-          "uuid": "a1eac1ca-2355-5e98-8bb8-c0e693df472e"
+          "uuid": "6f3c1b1b-0c45-5a63-8c1e-1c77073692b4"
         },
         {
           "value": "influential-individuals",
           "expanded": "Influential Individuals",
           "description": "Individuals who are influential but who do not belong to a ruling government coalition. Includes groups of individuals who are not formally organized but work together. e.g. journalists, former politicians, or organized 4channers. For individuals who operate their own charitable foundations (and thus could be placed in Non-State Political Actor), coding depends on whether or not the disinformation is foremost targeting the individual, their foundation, or both.",
-          "uuid": "863cc480-6b64-55ba-889b-b5f7e128999d"
+          "uuid": "bb74f747-447d-50f9-8621-0938d22c5c37"
         },
         {
           "value": "electorate",
           "expanded": "Electorate",
           "description": "The enfranchised population in a specific country or within a demarcated boundary.",
-          "uuid": "44ba2f83-5a3a-57d6-9dd3-e41f33181cd0"
+          "uuid": "53adc9a8-3020-5906-877f-832b4284e8b1"
         },
         {
           "value": "racial",
           "expanded": "Racial",
           "description": "A specific minority/majority group.",
-          "uuid": "8154f5f4-7b92-5dfa-85c1-7225547ff58a"
+          "uuid": "322d1931-27a7-5449-aed3-8a50a4a93a46"
         },
         {
           "value": "ethnic",
           "expanded": "Ethnic",
           "description": "A specific minority/majority group.",
-          "uuid": "eaa45b44-59a2-5b42-83a2-1565f355a7e1"
+          "uuid": "e5533319-8d9e-51fd-9184-63aced27b018"
         },
         {
           "value": "sexual-identity-group",
           "expanded": "Sexual Identity Group",
           "description": "A specific minority/majority group.",
-          "uuid": "1a4e0821-de32-5da2-9f3d-4f8f5f3fd11d"
+          "uuid": "fd5406ed-9029-5eb3-9062-0cb218e6f0d2"
         },
         {
           "value": "religious",
           "expanded": "Religious",
           "description": "A specific minority/majority group.",
-          "uuid": "63849d6c-541d-533c-a4fb-d7861aecb962"
+          "uuid": "d06cc14d-6ab5-572c-a7e8-b931d7494d2e"
         }
       ]
     },
@@ -2604,37 +2604,37 @@
           "value": "inter-state-war",
           "expanded": "Inter-State War",
           "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research.",
-          "uuid": "c5860e9d-7d50-5534-b3f2-25cb78471d20"
+          "uuid": "eeda22cd-00f5-5282-99ad-cf87ca3acf25"
         },
         {
           "value": "extra-state-war",
           "expanded": "Extra-State War",
           "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before.",
-          "uuid": "a0a4e0dd-9135-5d38-b208-53a25b8f0180"
+          "uuid": "11ad8155-56b5-5c1d-84e5-386a95f284ad"
         },
         {
           "value": "intra-state-war",
           "expanded": "Intra-State War",
           "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research.",
-          "uuid": "da346485-55df-5ceb-a117-65fdf815b3c3"
+          "uuid": "98eee007-ad32-5c4c-bd70-07c2ea7bd324"
         },
         {
           "value": "non-state-war",
           "expanded": "Non-State War",
           "description": "War in non-state territory or across state borders. Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research.",
-          "uuid": "9d06306b-e83a-5e1e-a564-5b6a379f13a0"
+          "uuid": "145c42c5-7a4d-59e3-ac07-f7096919e672"
         },
         {
           "value": "federal-election",
           "expanded": "Federal Election",
           "description": "Includes elections at province, municipality, administrative region, department, prefecture, and local levels.",
-          "uuid": "ea7748fa-a5fb-50e7-9903-2395ff1e6c7d"
+          "uuid": "8c706bf3-55e5-5d21-ac4e-7c601a714abd"
         },
         {
           "value": "state-election",
           "expanded": "State Election",
           "description": "Includes elections at province, municipality, administrative region, department, prefecture, and local levels.",
-          "uuid": "a72e703f-dc31-52b9-8fcf-5ad38e250d10"
+          "uuid": "932f1ed9-3435-50db-a5dc-089a10ef851c"
         }
       ]
     },
@@ -2645,19 +2645,19 @@
           "value": "state-media",
           "expanded": "State Media",
           "description": "Includes “state-adjacent” media, operated by government proxies or otherwise beholden to the state.",
-          "uuid": "df34a68e-4ee8-57bc-8e65-0b60c02af73b"
+          "uuid": "76ac003d-4472-5808-9909-a2304135c900"
         },
         {
           "value": "independent-media",
           "expanded": "Independent Media",
           "description": "Media institutions that are not beholden to the government and can be reasonably assessed to score > 60 by the NewsGuard rating process.",
-          "uuid": "2efff17e-8840-5796-960a-efe54d3b8896"
+          "uuid": "8e68bf6b-fc6c-533f-a811-12347acb7488"
         },
         {
           "value": "junk-news-websites",
           "expanded": "Junk News Websites",
           "description": "A website that trafficks in deceptive headlines, fails to correct errors, avoids disclosure of funding sources, and avoids labeling advertisements. One that can be reasonably assessed to score < 60 by the NewsGuard rating process.",
-          "uuid": "cea735ee-6b8c-5513-af80-3db353d67cd4"
+          "uuid": "f35b6dad-31c2-5d9c-8155-96a4284ce33a"
         }
       ]
     },
@@ -2668,55 +2668,55 @@
           "value": "facebook",
           "expanded": "Facebook",
           "description": "Social media accounts created by the disinformants for deceptive purposes.",
-          "uuid": "7f5dcf9c-8ecc-51eb-b89e-0e0e3892337c"
+          "uuid": "db737e7a-9e19-55f9-91b1-3edb7e5be1be"
         },
         {
           "value": "instagram",
           "expanded": "Instagram",
           "description": "Social media accounts created by the disinformants for deceptive purposes.",
-          "uuid": "3925c85f-6e37-5679-b651-b6d690d5830d"
+          "uuid": "c4aa5239-4c1b-5eee-977b-2efcf9381ace"
         },
         {
           "value": "twitter",
           "expanded": "Twitter",
           "description": "Social media accounts created by the disinformants for deceptive purposes.",
-          "uuid": "904bdb01-41d2-578e-bf40-25f6ffdadcdf"
+          "uuid": "db55c881-0da9-5346-964d-cb13ad073201"
         },
         {
           "value": "youtube",
           "expanded": "YouTube",
           "description": "Social media accounts created by the disinformants for deceptive purposes.",
-          "uuid": "0611d69c-8b2c-5879-88f4-19611e081c6a"
+          "uuid": "3484562d-fb8e-5097-bc84-9a0abc15dee6"
         },
         {
           "value": "linkedin",
           "expanded": "LinkedIn",
           "description": "Social media accounts created by the disinformants for deceptive purposes.",
-          "uuid": "80c59e1b-79ff-53a8-aa5a-18a5d20e2bf7"
+          "uuid": "8f32471a-7b48-5acf-9cfc-1d4b90cdadd4"
         },
         {
           "value": "reddit",
           "expanded": "Reddit",
           "description": "Social media accounts created by the disinformants for deceptive purposes.",
-          "uuid": "039db156-3432-55f9-9087-23b9c436bd2b"
+          "uuid": "fdceb54b-b03c-5621-97d8-c1f760b46351"
         },
         {
           "value": "vk",
           "expanded": "VK",
           "description": "Social media accounts created by the disinformants for deceptive purposes.",
-          "uuid": "d71af146-64db-52de-b4e0-63751f12b0fc"
+          "uuid": "67703ca2-bef5-51ea-a3f1-441c50ce7c48"
         },
         {
           "value": "forum",
           "expanded": "Forum",
           "description": "Social media accounts created by the disinformants for deceptive purposes.",
-          "uuid": "5e8f91e2-3563-5093-bb59-eb7dc2c7a7ea"
+          "uuid": "427591b9-99d3-54a0-9f80-9d2610878087"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Social media accounts created by the disinformants for deceptive purposes.",
-          "uuid": "45ad53f4-150e-5405-ac1b-7229e2717be3"
+          "uuid": "2984a7ad-ab7c-5fda-bd0a-7aa964c2913d"
         }
       ]
     },
@@ -2727,43 +2727,43 @@
           "value": "whatsapp",
           "expanded": "WhatsApp",
           "description": "Messaging platforms used by the disinformants for deceptive purposes.",
-          "uuid": "411a1bbb-7f21-5e80-9729-4017adae5035"
+          "uuid": "da67b186-3a11-57fa-9bbc-a8fc7a7d7940"
         },
         {
           "value": "telegram",
           "expanded": "Telegram",
           "description": "Messaging platforms used by the disinformants for deceptive purposes.",
-          "uuid": "24be5bf0-f542-55ea-9601-d0cdbe929402"
+          "uuid": "aa79ee37-e893-54d8-8398-54619d4d56e2"
         },
         {
           "value": "signal",
           "expanded": "Signal",
           "description": "Messaging platforms used by the disinformants for deceptive purposes.",
-          "uuid": "fb2c3735-ad29-5de4-9502-716d56882ee4"
+          "uuid": "d20c84cd-dc39-5f2d-8ccb-5a912789bd77"
         },
         {
           "value": "line",
           "expanded": "Line",
           "description": "Messaging platforms used by the disinformants for deceptive purposes.",
-          "uuid": "b106d949-b17e-518e-8546-98c692d70caa"
+          "uuid": "d73f38aa-382e-5c56-8228-2378099ff6b3"
         },
         {
           "value": "wechat",
           "expanded": "WeChat",
           "description": "Messaging platforms used by the disinformants for deceptive purposes.",
-          "uuid": "bf761e70-10d3-55b7-9239-811113cbc7e5"
+          "uuid": "4f01bc96-249b-5db5-abea-bf0d9b1aa0fb"
         },
         {
           "value": "sms",
           "expanded": "SMS",
           "description": "Messaging platforms used by the disinformants for deceptive purposes.",
-          "uuid": "effb33e5-39b2-5d76-9533-e692151c0928"
+          "uuid": "eb85c2f2-56c3-53a7-95e3-24464d9bd07e"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Messaging platforms used by the disinformants for deceptive purposes.",
-          "uuid": "272025b9-8c61-5f1a-99a9-e991a03876af"
+          "uuid": "c854dd8f-bf84-5867-ba42-56007f5fef58"
         }
       ]
     },
@@ -2774,19 +2774,19 @@
           "value": "advertisement",
           "expanded": "Advertisement",
           "description": "Advertisements purchased by disinformants to disseminate a message of disinformation. Includes ads on social media and the open web.",
-          "uuid": "911268ac-97d1-5b5c-8fda-f751058eab3f"
+          "uuid": "d51a6838-a36b-5dc9-bca1-4f86876ea698"
         },
         {
           "value": "email",
           "expanded": "Email",
           "description": "Email used by the disinformants for deceptive purposes.",
-          "uuid": "686f7449-496d-515a-aeb8-51a9b93b995f"
+          "uuid": "b138d6e8-457f-5a4e-b39e-7a1ad48fcfb6"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Other platforms used by the disinformants for deceptive purposes.",
-          "uuid": "42b91dbc-fbfc-5001-9566-25e7de38cf0b"
+          "uuid": "65b19601-f9ae-535b-bafa-8e132c43f69d"
         }
       ]
     },
@@ -2797,91 +2797,91 @@
           "value": "english",
           "expanded": "English",
           "description": "The language of the disinformation.",
-          "uuid": "7b9793d2-797b-55ab-9752-43efc67ff696"
+          "uuid": "74170f50-ef34-575b-936e-ff26a99da1da"
         },
         {
           "value": "russian",
           "expanded": "Russian",
           "description": "The language of the disinformation.",
-          "uuid": "d44b2220-188b-5018-8206-d780d7e63d57"
+          "uuid": "eb97ffe3-05f7-59d0-8193-ce7db0d7dae8"
         },
         {
           "value": "french",
           "expanded": "French",
           "description": "The language of the disinformation.",
-          "uuid": "5b1033a6-ed7b-52cd-bda3-9bd6862b479f"
+          "uuid": "6a55015f-af5a-5096-a49e-50f3192e1a5e"
         },
         {
           "value": "chinese",
           "expanded": "Chinese",
           "description": "The language of the disinformation.",
-          "uuid": "cf68027d-62db-545d-9df7-52596dd9bd2f"
+          "uuid": "3dc4a95e-adac-5977-8d51-971075f19fb8"
         },
         {
           "value": "german",
           "expanded": "German",
           "description": "The language of the disinformation.",
-          "uuid": "77bc2b41-4915-5217-b644-6f695557eaa7"
+          "uuid": "ec2319fe-e398-50af-9142-5cd57ca010b5"
         },
         {
           "value": "spanish",
           "expanded": "Spanish",
           "description": "The language of the disinformation.",
-          "uuid": "6de52185-4125-522b-a427-18d1067f8680"
+          "uuid": "fa190530-38ed-5292-a341-3902bddd3e1e"
         },
         {
           "value": "hindi",
           "expanded": "Hindi",
           "description": "The language of the disinformation.",
-          "uuid": "b4bc6df2-50a5-5660-a46e-80828c7570a5"
+          "uuid": "2b8cae44-81ed-5071-94a0-ffcf7577e779"
         },
         {
           "value": "portuguese",
           "expanded": "Portuguese",
           "description": "The language of the disinformation.",
-          "uuid": "31346195-3ea7-5fa4-9500-a6f6095f9b6a"
+          "uuid": "04cbb0e7-e890-5577-8cd5-1eace1b960c8"
         },
         {
           "value": "bengali",
           "expanded": "Bengali",
           "description": "The language of the disinformation.",
-          "uuid": "c07dae37-341f-53a7-9e01-fa1bb4396355"
+          "uuid": "39f8f30e-e318-5afc-9be2-16e5d012ad78"
         },
         {
           "value": "japanese",
           "expanded": "Japanese",
           "description": "The language of the disinformation.",
-          "uuid": "1be137e4-9fab-5226-925a-ef06b827ca57"
+          "uuid": "d3b9fc87-3c01-5c09-a500-7412d072c7e3"
         },
         {
           "value": "turkish",
           "expanded": "Turkish",
           "description": "The language of the disinformation.",
-          "uuid": "438e18f0-4b1b-5819-bc59-3012adb10fca"
+          "uuid": "d97c8e46-df17-524a-aa73-08014e2bcbbf"
         },
         {
           "value": "polish",
           "expanded": "Polish",
           "description": "The language of the disinformation.",
-          "uuid": "dc6f210b-e6ee-562a-bde5-5b62b7e5448b"
+          "uuid": "8ec85133-8d6a-50ee-9ff8-5cc3067dd79e"
         },
         {
           "value": "ukrainian",
           "expanded": "Ukrainian",
           "description": "The language of the disinformation.",
-          "uuid": "5bdf2c87-b4ef-53bb-960f-d7e7e83d372d"
+          "uuid": "3b2c77fe-c766-573d-98ba-67dcce929b86"
         },
         {
           "value": "arabic",
           "expanded": "Arabic",
           "description": "The language of the disinformation.",
-          "uuid": "7fb66c6b-abd4-53ca-86f8-caf331f420cb"
+          "uuid": "415d8c0d-3d10-54f0-92de-3cb967f61361"
         },
         {
           "value": "iranian-persian",
           "expanded": "iranian-persian",
           "description": "The language of the disinformation.",
-          "uuid": "455c5a4d-f963-52db-86c9-73bc097ca020"
+          "uuid": "86e7bf24-2f7d-53ed-9c0e-fd0a5c8623e4"
         }
       ]
     },
@@ -2892,91 +2892,91 @@
           "value": "government",
           "expanded": "Government",
           "description": "Subject evident in the campaign.",
-          "uuid": "cd146a15-50ca-5bbe-b135-16a48df6b319"
+          "uuid": "6896ba3e-6118-512d-a7ca-053d91304ddd"
         },
         {
           "value": "military",
           "expanded": "Mility",
           "description": "Subject evident in the campaign.",
-          "uuid": "21018310-e26b-5235-ba9a-a07bc7d66685"
+          "uuid": "64d684e4-aa8a-529b-ba62-1cde1fbdac89"
         },
         {
           "value": "political-party",
           "expanded": "Political Party",
           "description": "Subject evident in the campaign.",
-          "uuid": "e4ef8576-fd5e-5347-b529-86978b953b97"
+          "uuid": "f89392b0-0d9b-5a55-b538-947390564d62"
         },
         {
           "value": "elections",
           "expanded": "Elections",
           "description": "Subject evident in the campaign.",
-          "uuid": "a9a923fd-465f-5a2d-b598-c1805b1d4d31"
+          "uuid": "e052cab9-3f60-5986-b583-151837bae042"
         },
         {
           "value": "non-state-political-actor",
           "expanded": "Non-State Political Actor",
           "description": "Subject evident in the campaign.",
-          "uuid": "6330c577-fc22-5c4f-8db9-1bc8f43a526b"
+          "uuid": "e0fa7a59-b125-5bc1-861d-1ae1d6d9acea"
         },
         {
           "value": "business",
           "expanded": "Business",
           "description": "Subject evident in the campaign.",
-          "uuid": "f12e9b61-41e1-56d2-aefd-6d4b28c4ba4a"
+          "uuid": "265e749c-e025-5da7-98d6-3015aba27f9b"
         },
         {
           "value": "influential-individuals",
           "expanded": "Influential Individuals",
           "description": "Subject evident in the campaign.",
-          "uuid": "69c8182e-6157-5e30-b3a0-5797d49926b3"
+          "uuid": "8f5b0e15-9c4b-54be-b05d-62e65f2f62b1"
         },
         {
           "value": "racial",
           "expanded": "Racial",
           "description": "Subject evident in the campaign.",
-          "uuid": "885715de-ad6e-5c06-be37-fc597c6c580c"
+          "uuid": "ac47d1d5-a5a7-57dd-ab4d-dc531727fbde"
         },
         {
           "value": "ethnic",
           "expanded": "Ethnic",
           "description": "Subject evident in the campaign.",
-          "uuid": "4b996ccb-8504-5ce7-a986-349d2bbef80e"
+          "uuid": "ea7e9f1c-8025-52bb-92cf-3fb9d7cd24d9"
         },
         {
           "value": "religious",
           "expanded": "Religious",
           "description": "Subject evident in the campaign.",
-          "uuid": "7ca92827-26d3-5033-8f96-92294d0294da"
+          "uuid": "7f24f096-172c-564b-8bd5-d23ec5f4d3df"
         },
         {
           "value": "sexual-identity-group",
           "expanded": "Sexual Identity Group",
           "description": "Subject evident in the campaign.",
-          "uuid": "44e6d59d-4482-5b45-8d9d-fe6dd10763a0"
+          "uuid": "09b01d63-4d3f-564c-abd0-9c4606067f40"
         },
         {
           "value": "terrorism",
           "expanded": "Terrorism",
           "description": "Subject evident in the campaign.",
-          "uuid": "f0fad331-66cd-534b-bf9b-e3d0cf7ceef0"
+          "uuid": "325a59ac-288c-5aae-b940-da5412b38454"
         },
         {
           "value": "immigration",
           "expanded": "Immigration",
           "description": "Subject evident in the campaign.",
-          "uuid": "b324d887-2ff8-5fa0-b239-073074fb9a0e"
+          "uuid": "91c18d06-bafa-516e-96c1-0758a943c963"
         },
         {
           "value": "economic-issue",
           "expanded": "Economic Issue",
           "description": "Subject evident in the campaign.",
-          "uuid": "867dd50b-2d3c-5acd-86cd-a206294738b6"
+          "uuid": "16f5d569-7307-585e-99d4-982dfab9f7fe"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Subject evident in the campaign.",
-          "uuid": "03f83357-fb94-52a5-8ec6-7413251c41eb"
+          "uuid": "0f879ac4-551b-5000-bfc9-a1a965316c35"
         }
       ]
     },
@@ -2987,49 +2987,49 @@
           "value": "brigading",
           "expanded": "Brigading",
           "description": "Patriotic trolls or organic coordination in which disinformants seemingly operate under their real identities. A concentrated effort by one online group to manipulate another, e.g. through mass-commenting a certain message.",
-          "uuid": "79e2bb1a-6677-5054-852f-83bd90871917"
+          "uuid": "1e3312bd-0527-5116-8405-b84a43304814"
         },
         {
           "value": "sockpuppets",
           "expanded": "Sockpuppets",
           "description": "Inauthentic social media accounts used for the purpose of deception which evidence a high likelihood of human operation. This includes catfishing and other highly tailored operations conducted under inauthentic personas.",
-          "uuid": "6b10451d-871f-5a3e-a920-b7783202b22c"
+          "uuid": "0c8f094b-cc5c-54ab-a205-46ad6edc2a5f"
         },
         {
           "value": "botnets",
           "expanded": "Botnets",
           "description": "Inauthentic social media accounts used for the purpose of deception which evidence a high likelihood of automation. These accounts evidence no sustained human intervention beyond the effort necessary to program them initially. They often form large networks for the purpose of inauthentic amplification. This includes both fresh and repurposed accounts.",
-          "uuid": "b6b78efc-3113-51d6-87fa-197e97a1bf11"
+          "uuid": "e3b6e3a8-910a-5d69-9cb6-b5c0efaf74b7"
         },
         {
           "value": "search-engine-manipulation",
           "expanded": "Search Engine Manipulation",
           "description": "Undermining search engine optimization techniques with the intention of creating an inorganic correlation of search queries and results. Often realized by way of cooperative efforts by online communities. e.g. “Google Bombing.” May also include typosquatting with the intention to mislead or redirect to another URL.",
-          "uuid": "bf543517-a8cb-53b9-97bb-2a217e8cebe5"
+          "uuid": "03fae374-2a9f-56d8-8d5b-e55c89da9f85"
         },
         {
           "value": "ddos",
           "expanded": "Hacking: DDos",
           "description": "Distributed denial-of-service. Malicious attempt to disrupt server traffic. In the context of political disinformation campaigns, this is intended to make it more difficult for the target to launch an effective counter-messaging effort.",
-          "uuid": "2929c29e-1899-544f-85b9-badf70d756f6"
+          "uuid": "4681e7db-d253-58ae-a1be-9850c4627a87"
         },
         {
           "value": "data-exfiltration",
           "expanded": "Hacking: Data Exfiltration",
           "description": "The unauthorized movement of data. In the context of political disinformation campaigns, this is the acquisition of sensitive information through spearphishing or similar techniques that can be subsequently released by the disinformant to boost their messaging effort.",
-          "uuid": "d46a7760-3757-5d4b-b4b4-6da189069314"
+          "uuid": "224dce4f-35e1-5f06-9273-1ec57ddb8da0"
         },
         {
           "value": "deep-learning-processes",
           "expanded": "Deceptive Content Manipulation: Deep Learning Processes",
           "description": "Any content that has been deceptively edited by use of Photoshop or similar software. This includes the deceptive co-option and re-use of extant media branding and style guides. This does not include the use of deep learning processes.",
-          "uuid": "5a98f60a-766b-5c0b-b227-752f1d5b2c0b"
+          "uuid": "e5180374-7e71-5986-a642-913e4ea6c48c"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Inauthentic social media accounts used for the purpose of deception which evidence a high likelihood of human operation. This includes catfishing and other highly tailored operations conducted under inauthentic personas.",
-          "uuid": "2718d52a-7fa9-5830-9842-66d9c5c96e61"
+          "uuid": "6db96a12-265c-56d2-b124-317dce431522"
         }
       ]
     },
@@ -3040,37 +3040,37 @@
           "value": "constructive-activate",
           "expanded": "Constructive: Activate",
           "description": "Bandwagon, pander, ignite. e.g., “If you love Mr. Trump, RT this.”",
-          "uuid": "95707e14-0bf8-5a74-ac53-5b18b6328752"
+          "uuid": "f3233e25-4282-53f4-be5f-044066c7f857"
         },
         {
           "value": "constructive-astroturf",
           "expanded": "Constructive: Astroturf",
           "description": "Artificial consensus-building, inflation, or amplification. Also called a “Potemkin Village.” e.g., “The #1 trending hashtag can’t be wrong.”",
-          "uuid": "bb992836-4fb3-5b89-9fd6-cd7ad588a857"
+          "uuid": "0cf2fcc2-041b-5be5-a9b1-e06ced02c5c4"
         },
         {
           "value": "destructive-suppress",
           "expanded": "Destructive: Suppress",
           "description": "Harass, intimidate, exhaust. Often targets influential individuals.",
-          "uuid": "9d7cb7cd-998a-50cb-b8a4-caa9a67c5f49"
+          "uuid": "d202097c-90e8-5df2-bd15-b8a7b799ca87"
         },
         {
           "value": "destructive-discredit",
           "expanded": "Destructive: Discredit",
           "description": "Libel, leak, tarnish. Often targets government, political parties, elections, or other institutions.",
-          "uuid": "cb14451e-9d84-563e-8721-3907814a284e"
+          "uuid": "a3abdddf-4d48-56f9-8163-2b9061be4f08"
         },
         {
           "value": "oblique-troll",
           "expanded": "Oblique: Troll",
           "description": "Confusion by way of discourse infiltration and targeted distraction. Conscious efforts by disinformants to derail political movements through tailored engagement.",
-          "uuid": "2aa67c99-da13-5e83-b587-ff0e4eba1bd0"
+          "uuid": "4bb5c323-6578-53d2-bc96-5af69c6bf29b"
         },
         {
           "value": "oblique-flood",
           "expanded": "Oblique: Flood",
           "description": "Confusion by way of hashtag invasion and mass noise generation. The hijacking of an online political movement through appropriation of an existing hashtag and addition of large quantity of unrelated material.",
-          "uuid": "57bf5e8b-c98f-5e03-ac34-b363c694e812"
+          "uuid": "c9524945-7b9c-558e-8a8b-6c4b955699f4"
         }
       ]
     },
@@ -3081,67 +3081,67 @@
           "value": "government-direct-attribution",
           "expanded": "Government: Direct Attribution",
           "description": "Public, definitive attribution to a national government by a social media platform or trusted government entity. These entities have access to signals intelligence and other publicly unavailable information.",
-          "uuid": "6ce58896-1c8a-506e-96a3-93a036b16ca9"
+          "uuid": "109ab930-581e-58f8-b2f8-d099e5205a36"
         },
         {
           "value": "government-inferred-attribution",
           "expanded": "Government: Proxy/Inferred Attribution",
           "description": "Informed attribution to a government or government-adjacent proxy in which definitive proof is absent. Such attribution is based on open-source data and inference. This includes attribution to political parties, non-state political actors, businesses, and influential individuals who are suspected to be working at the government’s direction.",
-          "uuid": "7c1e76d2-2dd5-5d39-91f5-ae89c32a698d"
+          "uuid": "5306d990-ff22-54f2-b6f7-9294ddf9add0"
         },
         {
           "value": "political-party",
           "expanded": "Political Party",
           "description": "Organized competitors for political power who can obtain or wield power directly. Includes politicians currently in office, as well as non-incumbent politicians running for office who are associated with a political party. Can also be an individual working for a party.",
-          "uuid": "7cb3ac01-69f9-5799-8250-5096b13411ff"
+          "uuid": "6a991876-a10e-55fd-9acb-759af663a706"
         },
         {
           "value": "non-state-political-actor",
           "expanded": "Non-State Political Actor",
           "description": "Organized competitors for political power who can obtain or wield power, even if indirectly; not necessarily enfranchised. Non-state political actors are formally organized, coordinated, and cohesive. e.g. Greenpeace, the NRA, or the KKK.",
-          "uuid": "8a546450-3a31-53ae-b26a-85a6e8445c37"
+          "uuid": "c9f18d54-a44c-54bb-aa05-070a7494ed70"
         },
         {
           "value": "business",
           "expanded": "Business",
           "description": "Includes groups that contract out to the government, individuals looking for financial gain, and mercenaries.",
-          "uuid": "67ab4422-4e18-5b81-bf58-2242f54c680d"
+          "uuid": "a2980dff-5337-59a3-bc5a-05493dceebd7"
         },
         {
           "value": "influential-individuals",
           "expanded": "Influential Individuals",
           "description": "Individuals who are influential but who do not belong to a ruling government coalition. Includes groups of individuals who are not formally organized but work together. e.g. journalists, former politicians, or organized 4channers. For individuals who operate their own charitable foundations (and thus could be placed in Non-State Political Actor), coding depends on whether or not the disinformation is foremost targeting the individual, their foundation, or both.",
-          "uuid": "f32b6bf5-97be-5fad-ba54-33932a75d853"
+          "uuid": "4b3a3f76-8d1d-5ffa-b6af-309bbc4fff04"
         },
         {
           "value": "electorate",
           "expanded": "Electorate",
           "description": "The enfranchised population in a specific country or within a demarcated boundary.",
-          "uuid": "5a6ece15-34dc-5ff2-b717-ded3cfa56c61"
+          "uuid": "7eaae157-e070-5c8c-93b1-cd343e55ecff"
         },
         {
           "value": "racial",
           "expanded": "Racial",
           "description": "A specific minority/majority group.",
-          "uuid": "b7357b33-4bb6-5017-b932-af41b61c240f"
+          "uuid": "dcbe41f9-9253-5384-832a-fbe3978eb9b4"
         },
         {
           "value": "ethnic",
           "expanded": "Ethnic",
           "description": "A specific minority/majority group.",
-          "uuid": "a68d890f-c290-5b2e-a14a-433c5880db8a"
+          "uuid": "e88d7d84-c679-5110-b45b-2a0fdfaa08f3"
         },
         {
           "value": "sexual-identity-group",
           "expanded": "Sexual Identity Group",
           "description": "A specific minority/majority group.",
-          "uuid": "f50a87a9-8fba-54b9-9104-217b525b960b"
+          "uuid": "547cd34c-7a08-59a7-91c9-7d856f9bfbdf"
         },
         {
           "value": "religious",
           "expanded": "Religious",
           "description": "A specific minority/majority group.",
-          "uuid": "2ee0e7e6-d7b0-5a82-bc20-2dd424d20166"
+          "uuid": "f059e388-6adf-592e-8d25-d58f8b2d2cad"
         }
       ]
     },
@@ -3152,37 +3152,37 @@
           "value": "inter-state-war",
           "expanded": "Inter-State War",
           "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research.",
-          "uuid": "47feb8c0-4405-525e-9985-62bf78f2f6cc"
+          "uuid": "bfd52f1d-44b3-5b9b-a747-e9c21f20828b"
         },
         {
           "value": "extra-state-war",
           "expanded": "Extra-State War",
           "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before.",
-          "uuid": "3d6d2863-10f3-56e7-9acb-43060ce4612e"
+          "uuid": "8a8bab1c-b470-5a7d-9687-94b8b865442d"
         },
         {
           "value": "intra-state-war",
           "expanded": "Intra-State War",
           "description": "Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research.",
-          "uuid": "ecc450f8-7048-5233-b211-74a31e83c6db"
+          "uuid": "a0d4d877-a7c4-5715-b079-1e3a84550e87"
         },
         {
           "value": "non-state-war",
           "expanded": "Non-State War",
           "description": "War in non-state territory or across state borders. Threshold is 1,000 conflict deaths. Use COW data for 2007 and before. 2008 and after, supplement with research.",
-          "uuid": "7276c5c7-888c-5b46-bb09-d2acfb3c0bbd"
+          "uuid": "17049773-53db-5cdd-8228-eb1c2051c9e0"
         },
         {
           "value": "federal-election",
           "expanded": "Federal Election",
           "description": "Includes elections at province, municipality, administrative region, department, prefecture, and local levels.",
-          "uuid": "16c1f367-afbb-5fbe-8d69-db579d720236"
+          "uuid": "5ed0c26c-bbac-5bd2-965e-77adeae3e4a0"
         },
         {
           "value": "state-election",
           "expanded": "State Election",
           "description": "Includes elections at province, municipality, administrative region, department, prefecture, and local levels.",
-          "uuid": "1f648bc5-6edd-574a-8e3c-ed719208e090"
+          "uuid": "97ef5648-9846-557b-927a-0e6889b7d5c4"
         }
       ]
     },
@@ -3193,25 +3193,25 @@
           "value": "civil",
           "expanded": "Civil",
           "description": "To include electoral interference, policy change.",
-          "uuid": "26fd7202-3845-580c-bfe9-ac025e506634"
+          "uuid": "2951550e-40c8-5382-814a-eb021c1fb83c"
         },
         {
           "value": "social",
           "expanded": "Social",
           "description": "To include marginalization of majority/minority groups and general social fissure.",
-          "uuid": "10676412-e7ee-5d8a-8b14-12da66ce9ba6"
+          "uuid": "da3e8d0d-7e6c-51a7-ab59-2c399e146348"
         },
         {
           "value": "economic",
           "expanded": "Economic",
           "description": "To include suppression of economic activity, destruction of capital.",
-          "uuid": "007cd31f-70eb-5b95-b32c-1b9d6f33a3e8"
+          "uuid": "3d5d569b-61ba-5c79-8fed-59e7bdc19740"
         },
         {
           "value": "military",
           "expanded": "Military",
           "description": "To include complement to offensive military campaign, or information paralysis of an adversary’s military institutions.",
-          "uuid": "87226b40-61d4-5201-8596-809d5f258df2"
+          "uuid": "0e0d60ff-3048-5828-960a-498df50ffefd"
         }
       ]
     }
@@ -3221,104 +3221,104 @@
       "value": "primary-target",
       "expanded": "Target: Nation of Origin",
       "description": "This should be filled out even when the target is not a nation. When a campaign targets a non-state political actor, the nation of origin of that non-state political actor is filled in this field, if that information is available. Distinguishable territories are nations.",
-      "uuid": "111b62d1-9144-5db9-97c0-51e503d5148f"
+      "uuid": "da781040-36a4-5143-900b-78e91200596f"
     },
     {
       "value": "platforms-advertisement",
       "expanded": "Platforms: Advertisements",
       "description": "Advertisement through which a campaign targets an actor.",
-      "uuid": "fc581379-3dcb-56ec-956b-b04195cfad6a"
+      "uuid": "d65d7cb0-1564-5945-bb2f-006c34d871e2"
     },
     {
       "value": "platforms-email",
       "expanded": "Platforms: Email",
       "description": "Email through which a campaign targets an actor.",
-      "uuid": "ac568d4c-a20c-5f07-a94d-c5f6cc33cbaf"
+      "uuid": "79780d08-a32a-5ea5-901c-ddc4605173b6"
     },
     {
       "value": "primary-disinformant",
       "expanded": "Disinformant: Nation of Origin",
       "description": "This should be filled out even when the attacker is not a national government. When a campaign is run by a non-state political actor, the nation of origin of that non-state political actor is filled in this field, if that information is available. Likewise, this should be filled out if the preponderance of attacker activity originates from within a single nation. Distinguishable territories are nations.",
-      "uuid": "15b269ec-d435-5d78-a9c4-ef35182d0699"
+      "uuid": "6e643bf1-9002-5a41-b3e0-3bd5b4fdc883"
     },
     {
       "value": "target-category",
       "expanded": "Target: Category",
       "description": "When a campaign targets an actor, the category of that actor is filled in this field, if that information is available. Categories are not mutually exclusive. All relevant categories can be added.",
-      "uuid": "fa5e82e7-c309-5270-91dc-449a1615f12a"
+      "uuid": "2bad86f0-b9f6-5932-aacc-5c640e9b1ef3"
     },
     {
       "value": "target-concurrent-events",
       "expanded": "Target: Concurrent Events",
       "description": "When a campaign targets an actor, events which take place during the campaign are said to be concurrent events.",
-      "uuid": "7adbf259-66a1-59c0-a2a6-372d2e19f6b3"
+      "uuid": "1f3861c3-6dd2-5f93-8832-2c111169406a"
     },
     {
       "value": "platforms-open-web",
       "expanded": "Platforms: Open Web",
       "description": "Open web media platform through which a campaign targets an actor.",
-      "uuid": "f5ecc1cc-5d1c-58b9-a06b-b170a39628a7"
+      "uuid": "2dec8685-b5f5-530f-81ce-2d3c0b7ab10e"
     },
     {
       "value": "platforms-social-media",
       "expanded": "Platforms: Social Media",
       "description": "Social media platform through which a campaign targets an actor.",
-      "uuid": "420e9478-6716-5022-9a56-22f9dc1f38ee"
+      "uuid": "367488b9-0ef1-5e16-a8f7-600d2e71f8d2"
     },
     {
       "value": "platforms-messaging",
       "expanded": "Platforms: Messaging",
       "description": "Messaging platform through which a campaign targets an actor.",
-      "uuid": "17216310-7851-59aa-b248-4dc2bda6152d"
+      "uuid": "75b7a48c-65d4-501f-834a-170e52eb78e8"
     },
     {
       "value": "platforms",
       "expanded": "Platforms",
       "description": "Platforms through which a campaign targets an actor.",
-      "uuid": "45b21536-bb4f-51ee-8ca2-96c43ddb39ca"
+      "uuid": "175f5627-23ba-57b1-9f8d-7303a03ee0ef"
     },
     {
       "value": "content-language",
       "expanded": "Content: Language",
       "description": "The language of the disinformation.",
-      "uuid": "da76423f-1510-5057-9d1a-9c70ae323f62"
+      "uuid": "3701d883-9ff7-5674-9578-a920681d8e7f"
     },
     {
       "value": "content-topic",
       "expanded": "Content: Topic",
       "description": "The subject evident in the campaign.",
-      "uuid": "57519612-4b58-5b43-b067-49c628e89b4a"
+      "uuid": "a6516b24-f6ac-58ac-84a7-25c6ed7e421f"
     },
     {
       "value": "methods-tactics",
       "expanded": "Methods: Tactics",
       "description": "The tactics evident in the campaign.",
-      "uuid": "74e524a9-30f5-5ba5-ac83-12b3c1caea2f"
+      "uuid": "07cbb8c9-1927-536e-81fa-7fb856424e77"
     },
     {
       "value": "methods-narrative-techniques",
       "expanded": "Methods: Narrative Techniques",
       "description": "The narrative techniques evident in the campaign.",
-      "uuid": "97c5ff5c-82d1-5e25-bfd4-1245a104d539"
+      "uuid": "26cdac85-5f4d-578b-a0bc-dcc347aacd88"
     },
     {
       "value": "disinformant-category",
       "expanded": "Disinformant: Category",
       "description": "When a disinformant targets an actor, the category of that disinformant is filled in this field, if that information is available. Categories are not mutually exclusive. All relevant categories can be added.",
-      "uuid": "6bb6ce14-7b21-51f3-9a08-f2a2597d5be6"
+      "uuid": "dee5446d-f556-5cb9-944c-d8f1db6a1e37"
     },
     {
       "value": "disinformant-concurrent-events",
       "expanded": "Disinformant: Concurrent Events",
       "description": "When a disinformant targets an actor, the category of that disinformant is filled in this field, if that information is available. Categories are not mutually exclusive. All relevant categories can be added.",
-      "uuid": "f6c1e7d7-299a-5789-89b2-790885fc4fc7"
+      "uuid": "49d33b4d-e184-599c-b309-dd5fa76738ad"
     },
     {
       "value": "disinformant-intent",
       "expanded": "Disinformant: Intent",
       "description": "This is the intent of the primary disinformant and any other disinformants coded.",
-      "uuid": "5a6a504b-e49f-506e-aa79-b8a3802098cf"
+      "uuid": "d2ded50e-7693-5c54-8c28-f7404965a3c3"
     }
   ],
-  "uuid": "0c059d30-e69b-57af-a105-fafeda803430"
+  "uuid": "bd0e1c10-df2f-5cad-a596-26360e534b7b"
 }

@@ -11,57 +11,69 @@
     {
       "value": "expired",
       "expanded": "Set when the retention period has expired",
-      "numerical_value": 0
+      "numerical_value": 0,
+      "uuid": "8fbef961-45dc-565a-a124-6962508f86af"
     },
     {
       "value": "1d",
       "expanded": "1 day",
-      "numerical_value": 1
+      "numerical_value": 1,
+      "uuid": "5e5419df-00f9-5b2e-950c-315828d7aff3"
     },
     {
       "value": "2d",
       "expanded": "2 days",
-      "numerical_value": 2
+      "numerical_value": 2,
+      "uuid": "e67d22b9-5052-581d-bc88-c9fa655756a1"
     },
     {
       "value": "7d",
       "expanded": "7 days",
-      "numerical_value": 7
+      "numerical_value": 7,
+      "uuid": "8341cc71-5623-5f4f-a3bc-ff5eb34b9391"
     },
     {
       "value": "2w",
       "expanded": "2 weeks",
-      "numerical_value": 14
+      "numerical_value": 14,
+      "uuid": "7ec69370-bfc4-5f8d-87e1-562b0c70e84e"
     },
     {
       "value": "1m",
       "expanded": "1 month",
-      "numerical_value": 30
+      "numerical_value": 30,
+      "uuid": "90f0f7d6-a6d9-5b14-bc47-a75dc9836502"
     },
     {
       "value": "2m",
       "expanded": "2 months",
-      "numerical_value": 60
+      "numerical_value": 60,
+      "uuid": "584eaa6e-ffd9-5cf5-b42a-eb5c754da7b9"
     },
     {
       "value": "3m",
       "expanded": "3 months",
-      "numerical_value": 90
+      "numerical_value": 90,
+      "uuid": "e2eb1319-5770-5efa-b1ee-5cb6460d6ac5"
     },
     {
       "value": "6m",
       "expanded": "6 months",
-      "numerical_value": 180
+      "numerical_value": 180,
+      "uuid": "0c8ced9d-95fd-5a8d-b228-274aae57d788"
     },
     {
       "value": "1y",
       "expanded": "1 year",
-      "numerical_value": 365
+      "numerical_value": 365,
+      "uuid": "40ecf9ad-4e71-5bb5-8603-0f73303dfec6"
     },
     {
       "value": "10y",
       "expanded": "10 year",
-      "numerical_value": 3650
+      "numerical_value": 3650,
+      "uuid": "96269b6a-fd7a-54d9-9bd5-6de37157e962"
     }
-  ]
+  ],
+  "uuid": "900c3de3-ceca-5565-8471-bb395f2800f7"
 }

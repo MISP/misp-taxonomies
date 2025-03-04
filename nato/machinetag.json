@@ -5,47 +5,47 @@
         {
           "expanded": "COSMIC TOP SECRET",
           "value": "CTS",
-          "uuid": "d0897079-576c-5bcd-be53-0aa66ce662f7"
+          "uuid": "55df24f8-2d66-5e62-a2da-b313e859fa3f"
         },
         {
           "expanded": "COSMIC TOP SECRET BOHEMIA",
           "value": "CTS-B",
-          "uuid": "18902a8e-87f1-56f8-9ba3-62ec4cdf321c"
+          "uuid": "3d336447-bfe7-5490-a399-c19a0214c70a"
         },
         {
           "expanded": "NATO SECRET",
           "value": "NS",
-          "uuid": "170fbd40-eb8e-5941-9ce1-64c4565162b0"
+          "uuid": "c1a5bf7c-56fe-51f8-83de-da8640de9742"
         },
         {
           "expanded": "NATO CONFIDENTIAL",
           "value": "NC",
-          "uuid": "f96a8e93-735d-5674-b19a-580d55e802ff"
+          "uuid": "90f1dccd-f301-5f2c-98c9-35d5cf789f8c"
         },
         {
           "expanded": "NATO RESTRICTED",
           "value": "NR",
-          "uuid": "46b92244-3df1-57e6-b5ba-df75c84d6451"
+          "uuid": "fd79d7b6-07d5-505d-b11a-14102a501821"
         },
         {
           "expanded": "NATO UNCLASSIFIED",
           "value": "NU",
-          "uuid": "0684032e-6d85-54c4-9451-2f9139c2691d"
+          "uuid": "5df3bf18-6d57-55e4-9dfc-eecff393ad56"
         },
         {
           "expanded": "COSMIC TOP SECRET ATOMAL",
           "value": "CTS-A",
-          "uuid": "d0e1b2b4-926d-5587-a529-f35502ef43df"
+          "uuid": "d15d9f33-2f35-5d33-a607-2d14130914b6"
         },
         {
           "expanded": "SECRET ATOMAL",
           "value": "NS-A",
-          "uuid": "ee95c667-19db-5cc0-be6b-0cc22a4b2611"
+          "uuid": "0a139c10-a336-5300-a614-041ac30ae403"
         },
         {
           "expanded": "CONFIDENTIAL ATOMAL",
           "value": "NC-A",
-          "uuid": "5b269898-0bfa-564a-81f6-0dec76ab3c42"
+          "uuid": "d5fa42c2-e3de-5620-960b-390139aff208"
         }
       ],
       "predicate": "classification"
@@ -55,12 +55,12 @@
     {
       "expanded": "Classification",
       "value": "classification",
-      "uuid": "0d983ce2-4d0b-5931-aa3e-b07b730d6eb5"
+      "uuid": "4ab8b3f8-a1c9-5c41-9baf-1db213e5a888"
     }
   ],
   "version": 2,
   "description": "NATO classification markings.",
   "namespace": "nato",
   "exclusive": true,
-  "uuid": "a1260b31-4751-514e-a86e-6cc8e66ac0db"
+  "uuid": "d92870ce-b304-521b-9d84-efaaac9ef415"
 }

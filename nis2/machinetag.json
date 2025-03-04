@@ -7,59 +7,59 @@
       "value": "impact-sectors-impacted",
       "expanded": "Sectors impacted",
       "description": "The impact on services, in the real world, indicating the sectors of the society and economy, where there is an impact on the services.",
-      "uuid": "cd746cc4-7a85-5b8b-bed2-6e94a511b38d"
+      "uuid": "ba46ee72-734f-5dee-97b9-7d006576687e"
     },
     {
       "value": "impact-subsectors-impacted",
       "expanded": "Impact subsectors impacted",
       "description": "Impact subsectors impacted",
-      "uuid": "2b095d2b-8bf2-5274-bd9f-722cc2f67503"
+      "uuid": "37869bb3-e603-5af2-862b-bacdd47b060f"
     },
     {
       "value": "important-entities",
       "expanded": "Important entities",
       "description": "Important entities",
-      "uuid": "7708621f-bb01-5511-bed5-642517c603e2"
+      "uuid": "43d39dfb-4296-5fe8-adbf-536680324f1a"
     },
     {
       "value": "impact-subsectors-important-entities",
       "expanded": "Impact subsectors important entities",
       "description": "Impact subsectors important entities",
-      "uuid": "7023d6fe-442a-50a0-aca1-9d495f154561"
+      "uuid": "1dd0f38c-d385-5f90-adef-4473b7543605"
     },
     {
       "value": "impact-severity",
       "expanded": "Severity of the impact",
       "description": "The severity of the impact, nationally, in the real world, for society and/or the economy, i.e. the level of disruption for the country or a large region of the country, the level of risks for health and/or safety, the level of physical damages and/or financial costs.",
       "exclusive": true,
-      "uuid": "d291125a-d46f-5c01-a141-618609378074"
+      "uuid": "9cdcbdfc-7307-5a3f-8505-79114f9d9fda"
     },
     {
       "value": "impact-outlook",
       "expanded": "Outlook",
       "description": "The outlook for the incident, the prognosis, for the coming hours, considering the impact in the real world, the impact on services, for the society and/or the economy",
       "exclusive": true,
-      "uuid": "dfb6bc6b-be3e-5b1f-bf48-ad6d65a8eeae"
+      "uuid": "b9bdd4a1-e37b-5773-9263-43a737644d33"
     },
     {
       "value": "nature-root-cause",
       "expanded": "Root cause category",
       "description": "The Root cause category is used to indicate what type event or threat triggered the incident.",
       "exclusive": true,
-      "uuid": "95af04bf-455a-54a5-b53e-641888954459"
+      "uuid": "b3d9d1fb-14f0-51a4-a907-e5666c6bef53"
     },
     {
       "value": "nature-severity",
       "expanded": "Severity of the threat",
       "description": "The severity of the threat is used to indicate, from a technical perspective, the potential impact, the risk associated with the threat. For example, the severity is high if an upcoming storm is exceptionally strong, if an observed DDoS attack is exceptionally powerful, or if a software vulnerability is easily exploited and present in many different systems. For example, in certain situations a critical software vulnerability would require concerted and urgent work by different organizations.",
       "exclusive": true,
-      "uuid": "ca5f0812-888b-5c2a-a6be-d8754b7580ac"
+      "uuid": "b4bca32b-6f42-5277-8464-3d52758ac3f7"
     },
     {
       "value": "test",
       "expanded": "Test",
       "description": "A test predicate meant to test interoperability between tools. Tags contained within this predicate are to be ignored.",
-      "uuid": "6f079cee-264e-5f27-b230-f65ae2fe0994"
+      "uuid": "a5227464-57ad-58ca-b15f-2eafe6627023"
     }
   ],
   "values": [
@@ -70,61 +70,61 @@
           "value": "energy",
           "expanded": "Energy",
           "description": "The impact is in the Energy sector and its subsectors such as electricity, oil, or gas, for example, impacting electricity suppliers, power plants, distribution system operators, transmission system operators, oil transmission, natural gas distribution, etc.",
-          "uuid": "131dd58c-56fb-58d0-9e02-99885a02aae0"
+          "uuid": "76b3e57b-e532-5211-9f2f-11715ff890e3"
         },
         {
           "value": "transport",
           "expanded": "Transport",
           "description": "The impact is in the transport sector and subsectors such as air, rail, water, road, for example, impacting air traffic control systems, railway companies, maritime port authorities, road traffic management systems, etc.",
-          "uuid": "f4f87ad5-f353-5ccc-b612-52c01dae0149"
+          "uuid": "b8814df8-2ad9-509b-a485-747b8087f04e"
         },
         {
           "value": "banking",
           "expanded": "Banking",
           "description": "The impact is in the Banking sector, for example impacting banks, online banking, credit services, payment services, etc.",
-          "uuid": "8677c7c3-3c24-5cd5-838e-d0f1cf1eb4e2"
+          "uuid": "630fb5b8-a931-571b-bb7f-54294e0760b1"
         },
         {
           "value": "financial",
           "expanded": "Financial market infrastructures",
           "description": "The impact is in the Financial market infrastructure sector, for example, impacting traders, trading platforms, clearing services, etc.",
-          "uuid": "5a696048-4c4c-509c-8249-9deada469d8f"
+          "uuid": "85cbb209-17ec-5a3b-9bd0-a5367314faf0"
         },
         {
           "value": "health",
           "expanded": "Health",
           "description": "The impact is in the Health sector, for example, impacting hospitals, medical devices, medicine supply, pharmacies, etc.",
-          "uuid": "1b502371-f8a8-5aeb-b5a8-e69cd9975009"
+          "uuid": "ac4110be-931a-54e9-a3c3-64024a5dced2"
         },
         {
           "value": "drinking-water",
           "expanded": "Drinking water",
           "description": "The impact is in the Drinking water supply and distribution sector, for example impacting drinking water supply, drinking water distribution systems, etc.",
-          "uuid": "0beffc14-ff97-5240-b907-7780480d0db4"
+          "uuid": "3422ec45-485a-5502-9f8d-2f245014341f"
         },
         {
           "value": "waste-water",
           "expanded": "Waste water",
           "description": "The impact is in the Waste water supply and distribution sector, excluding distributors for whom distribution of water for human consumption",
-          "uuid": "957730ee-a813-5a7b-94d5-b9061900d877"
+          "uuid": "b19dbc87-25b7-54d6-bcdc-41eb02504984"
         },
         {
           "value": "digital-infrastructure",
           "expanded": "Digital infrastructure",
           "description": "The impact is in the Digital infrastructure sector, for example impacting internet exchange points, domain name systems, top level domain registries, etc.",
-          "uuid": "e9f0e158-61ff-5316-9ed3-feb5724fff96"
+          "uuid": "0e19d762-5da6-5156-8df4-81bb1b441b9a"
         },
         {
           "value": "public-administration",
           "expanded": "Public administartion",
           "description": "The impact is in the government sector, for example, impacting the functioning of public administrations, elections, or emergency services",
-          "uuid": "5683763f-6f86-54e1-b2d6-ba8aa1fe063c"
+          "uuid": "792bd880-7668-5831-8ec5-69097a9c3794"
         },
         {
           "value": "space",
           "expanded": "Space",
           "description": "The impact is in the space-based services",
-          "uuid": "8625ca9b-d839-5d4e-8f47-ddbaf09dd7cc"
+          "uuid": "50edb030-98b8-5b31-842a-a29f9806d948"
         }
       ]
     },
@@ -135,103 +135,103 @@
           "value": "electricity",
           "expanded": "Electricity undertaking",
           "description": "Electricity undertaking means a natural or legal person who carries out at least one of the following functions: generation, transmission, distribution, aggregation, demand response, energy storage, supply or purchase of electricity",
-          "uuid": "7c9fb613-f020-51bf-9bb6-1fd7ed2a2fc5"
+          "uuid": "640f032d-5b11-5f8c-8589-a0a5b652126c"
         },
         {
           "value": "district-heating-and-cooling",
           "expanded": "The use of energy from renewable sources",
           "description": "District heating’ or ‘district cooling’ means the distribution of thermal energy in the form of steam, hot water or chilled liquids, from central or decentralised sources",
-          "uuid": "9c22b3eb-75f6-56a9-baeb-2b26779d9084"
+          "uuid": "eed7c03b-1512-5459-beea-5cc427dc5a72"
         },
         {
           "value": "oil",
           "expanded": "Operators of oil energy",
           "description": "Operators transmission pipelines oil production, refining and treatment facilities, storage and transmission, central oil stockholding entities",
-          "uuid": "056e629e-e42c-5e8b-a55f-d502da9dbe59"
+          "uuid": "8e15dce6-d0cf-5436-a952-1deb099ae46e"
         },
         {
           "value": "gas",
           "expanded": "Operators of gas energy",
           "description": "operators of distribution, transmission, storage of gas and LNG system operators",
-          "uuid": "eba6ba2b-75f7-5337-ab03-5c3990fb7478"
+          "uuid": "0ec62a5e-44c1-5ef6-8a40-48f1ccdf9446"
         },
         {
           "value": "hydrogen",
           "expanded": "Operators of hydrogen energy",
           "description": "Operators of hydrogen production, storage and transmission",
-          "uuid": "eb4ffbb8-e387-5483-8bfd-0f1a0027ed4c"
+          "uuid": "8d67cac3-3421-518e-86dc-f8f4cc8bd180"
         },
         {
           "value": "air",
           "expanded": "Air trasportation",
           "description": "Air carriers, airport managing bodies, airports,  core airports and entities operating ancillary installations contained within airports, traffic management control operators providing air traffic control (ATC) services",
-          "uuid": "5ffc243e-56e7-5def-93e8-4e18c1744db9"
+          "uuid": "2682f881-09e1-5c9b-a909-5e786ac27236"
         },
         {
           "value": "rail",
           "expanded": "Rail transportation",
           "description": "Infrastructure managers, railway undertakings including operators of service facilities",
-          "uuid": "8eb15cb3-c1a7-589d-af78-addf584d4a5e"
+          "uuid": "a8b476f0-cfa6-5790-b62e-a4e7165f4247"
         },
         {
           "value": "water",
           "expanded": "Water transportation",
           "description": "Inland, sea and coastal passenger and freight water transport companies, managing bodies of ports including their port facilities, and entities operating works and equipment contained within ports, operators of vessel traffic services (VTS)",
-          "uuid": "5b58b554-eb64-58ab-8560-60f9d0b30e04"
+          "uuid": "5fb75a4b-17ff-5c55-87be-aaf5da14bd79"
         },
         {
           "value": "road",
           "expanded": "Road transportation",
           "description": "Road authorities responsible for traffic management control, operators of Intelligent Transport Systems (ITS)",
-          "uuid": "3539d3c6-0d49-52a4-b73d-48906b468560"
+          "uuid": "c2140cb8-1cef-5343-a53a-b2516dc755af"
         },
         {
           "value": "banking-subsector",
           "expanded": "Credits",
           "description": "Credit institutions, i.e. an undertaking the business of which is to take deposits or other repayable funds from the public and to grant credits for its own account",
-          "uuid": "4bec2c38-cb98-53a0-a8d0-9afd8bfda6a8"
+          "uuid": "406f5a7f-cd8b-5d14-bffb-614d0bbf1676"
         },
         {
           "value": "financial-subsector",
           "expanded": "Finanacial market infrastructures",
           "description": "Operators of trading venues, central counterparties (CCPs), i.e. a legal person that interposes itself between the counterparties to the contracts traded on one or more financial markets, becoming the buyer to every seller and the seller to every buyer",
-          "uuid": "d72ef2c6-af63-5332-a3a0-6dca12c84d28"
+          "uuid": "6267a53f-f307-595b-a1ad-3581cb7a5dea"
         },
         {
           "value": "health-subsector",
           "expanded": "Health entities",
           "description": "Healthcare providers, EU reference laboratories, entities carrying out research and development activities of medicinal products, entities manufacturing  basic pharmaceutical products and pharmaceutical preparations, entities manufacturing medical devices considered as critical during a public health emergency",
-          "uuid": "bca3e483-c60f-58a1-b4fb-73fad649bc87"
+          "uuid": "a99b0a8c-0269-5b39-9933-b37313005beb"
         },
         {
           "value": "drinking-water-subsector",
           "expanded": "Drinking water entities",
           "description": "Suppliers and distributors of water intended for human consumption",
-          "uuid": "355c3d3f-8a6c-51f1-a661-171a68f83f90"
+          "uuid": "cb209bff-5f9d-5be2-a5d3-3e0881753999"
         },
         {
           "value": "waste-water-subsector",
           "expanded": "Waste water entities",
           "description": "Undertakings collecting, disposing or treating urban, domestic and industrial waste water",
-          "uuid": "f511c1ee-704d-517e-acfc-185ecde19020"
+          "uuid": "40536130-8463-54ee-9c6b-73da4ea5029b"
         },
         {
           "value": "digital-infrastructure-subsector",
           "expanded": "Digital infrastructure entities",
           "description": "Internet Exchange Point providers (IXP), DNS service providers, Top-Level Domain (TLD) name registries, cloud computing service providers, Data centre service providers, content delivery network providers, providers of public electronic communications networks or providers of electronic communications services where their services are publicly available",
-          "uuid": "109529b2-988e-534f-bc0a-1b438c207f01"
+          "uuid": "9abb1f0f-f08e-5cc5-854a-553479dd6d98"
         },
         {
           "value": "public-administration-subsector",
           "expanded": "Public administration entities",
           "description": "Public administration entities of central governments, Public administration entities of NUTS level 1 regions (population min. 3 million – max. 7 million) and NUTS level 2  regions (population min. 800.000 – max 3 million)",
-          "uuid": "10b40725-1405-5ff2-b930-a75715ecaa3c"
+          "uuid": "9ae82e3e-e92a-593d-90de-0969a44d8dec"
         },
         {
           "value": "space-subsector",
           "expanded": "Space entities",
           "description": "Operators of ground-based infrastructure, owned, managed and operated by Member States or by private parties, that support the provision of space-based services, excluding providers of public electronic communications networks. ‘Public electronic communications network’ means an electronic communications network used wholly or mainly for the provision of publicly available electronic communications services which support the transfer of information between network termination points",
-          "uuid": "aa472cbd-341b-55b5-9870-b2d2b8a91b28"
+          "uuid": "e43c2725-b6fb-538e-8af4-24ab3429cdb9"
         }
       ]
     },
@@ -242,31 +242,31 @@
           "value": "postal",
           "expanded": "Postal service providers",
           "description": "i.e. services involving the clearance, sorting, transport, and delivery of postal items",
-          "uuid": "8430bca0-873d-5694-b513-1571c17bcfad"
+          "uuid": "d7a647e6-5f27-5dbe-b723-5eb6e1cf21cb"
         },
         {
           "value": "waste",
           "expanded": "Waste management",
           "description": "Undertakings carrying out waste management excluding undertakings for whom waste management is not their principal economic activity. ‘Waste management’ means the collection, transport, recovery, and disposal of waste, including the supervision of such operations and the aftercare of disposal sites, and including actions taken as a dealer or broker",
-          "uuid": "fcbac1aa-d0fd-597b-a106-ef67a3b748b1"
+          "uuid": "f4b6ed36-6433-5a29-bd2a-f55ad3ed4991"
         },
         {
           "value": "chemicals",
           "expanded": "Manufacture, production and distribution of chemicals",
           "description": "Undertakings carrying out the manufacture, production and distribution of chemicals. ‘Producer’ means any natural or legal person who makes or assembles an article. ‘Manufacturer’ means any natural or legal person who manufactures a substance. ‘Distributor’ means any natural or legal person, including a retailer, who only stores and places on the market a substance, on its own or in a mixture, for third parties",
-          "uuid": "a8239944-5aa2-54ee-8a33-ea6f34d3435c"
+          "uuid": "5532a929-4a75-56db-905c-c192e4763910"
         },
         {
           "value": "manufacturing",
           "expanded": "Manufacture",
           "description": "Entities manufacturing medical devices, computers, electrical equipment, machinery, motor vehicles, transport equipment ",
-          "uuid": "0deb1a74-676b-5035-ba49-c76336d166c0"
+          "uuid": "7b392e91-b4b1-5475-a39c-4b4760a61df4"
         },
         {
           "value": "digital",
           "expanded": "Digital providers",
           "description": "Providers of online marketplaces, providers of online search engines, providers of social networks",
-          "uuid": "6f0ecbb7-38ed-5eb2-b8c1-1496c61adea6"
+          "uuid": "5fced679-69fe-540f-a8a7-3e5ad62d71db"
         }
       ]
     },
@@ -277,37 +277,37 @@
           "value": "medical-devices-manufacturing",
           "expanded": "Manufacture of medical devices and in vitro diagnostic medical devices",
           "description": "Entities manufacturing medical devices and entities manufacturing in vitro diagnostic medical devices",
-          "uuid": "2aba95a1-799f-5049-b541-084f26eb7dfc"
+          "uuid": "cd583772-cda0-5738-9e9f-73c502078941"
         },
         {
           "value": "computer-manufacturing",
           "expanded": "Manufacture of computer, electronic and optical products",
           "description": "Undertakings carrying out the manufacture of computers, electronical and optical products. This includes the manufacture of computers, computer peripherals, communications equipment, and similar electronic products, as well as the manufacture of components for such products. Also included is the manufacture of consumer electronics, measuring, testing, and navigating equipment, irradiation, electromedical and electrotherapeutic equipment, optical instruments and equipment, and the manufacture of magnetic and optical media",
-          "uuid": "8f046fa7-e73e-5507-8020-45d34442fcf6"
+          "uuid": "fe64ef94-9b21-54a9-a9e4-bf2cd180232c"
         },
         {
           "value": "electrical-equipment-manufacturing",
           "expanded": "Manufacture of computer, electronic and optical products",
           "description": "Undertakings carrying out the manufacture of electrical equipment. This includes the manufacture of products that generate, distribute, and use electrical power. Also included is the manufacture of electrical lighting, signalling equipment and electric household appliances",
-          "uuid": "70abd9f9-6ef8-5b85-ac69-33c2c4d151b7"
+          "uuid": "190fd1b0-9d29-52c0-b7ca-a55ac56da07b"
         },
         {
           "value": "machinery-equipment-manufacturing",
           "expanded": "Manufacture of machinery and equipment N.E.C",
           "description": "Undertakings carrying out the manufacture of machinery and equipment n.e.c. This includes the manufacture of machinery and equipment that act independently on materials either mechanically or thermally or perform operations on materials (such as handling, spraying, weighing, or packing), including their mechanical components that produce and apply force, and any specially manufactured primary parts. ",
-          "uuid": "79237a18-5c0f-5de5-8df2-a8b1d54223be"
+          "uuid": "aa9e87c5-393e-5c6d-b9ef-74e3c656ea10"
         },
         {
           "value": "vehicles-trailers-manufacturing",
           "expanded": "Manufacture of motor vehicles, trailers and semi-trailers",
           "description": "Undertakings carrying out the manufacture of motor vehicles for transporting passengers or freight. The manufacture of various parts and accessories, as well as the manufacture of trailers and semi-trailers, is also included",
-          "uuid": "f9867045-1c0e-5a6b-a4c8-69e6ee9ba273"
+          "uuid": "89e7cca9-cf42-54d7-b34b-5250734ca571"
         },
         {
           "value": "other-transport-manufacturing",
           "expanded": "Manufacture of other transport equipment",
           "description": "Undertakings carrying out the manufacture of motor vehicles for transporting passengers or freight. The manufacture of various parts and accessories, as well as the manufacture of trailers and semi-trailers, is also included",
-          "uuid": "7a5da15a-449d-5358-96a3-782b4aea6997"
+          "uuid": "c4895e97-b37f-5d2c-baa8-e0eaa0886b58"
         }
       ]
     },
@@ -319,28 +319,28 @@
           "expanded": "Red",
           "description": "Very large impact",
           "colour": "#CC0033",
-          "uuid": "74569079-3d3c-50e9-953a-3655f5e6dd0d"
+          "uuid": "baa5d81e-0dfe-5b1b-a45f-b9957dd2e15e"
         },
         {
           "value": "yellow",
           "expanded": "Yellow",
           "description": "Large impact.",
           "colour": "#FFC000",
-          "uuid": "59367726-fb50-57ba-995e-66caf9b3906f"
+          "uuid": "e57f9763-5115-5da3-a368-ec0bfce88464"
         },
         {
           "value": "green",
           "expanded": "Green",
           "description": "Minor impact.",
           "colour": "#339900",
-          "uuid": "4fd6cac5-42ab-5cb6-9e48-2dde4874d575"
+          "uuid": "5b0779cc-d574-5037-9937-6484cd4c7844"
         },
         {
           "value": "white",
           "expanded": "White",
           "description": "No impact.",
           "colour": "#ffffff",
-          "uuid": "12b9f76a-0874-5814-afe0-7902b0ca213a"
+          "uuid": "8755fb68-24bc-59bd-a646-96b2ef5f8261"
         }
       ]
     },
@@ -352,21 +352,21 @@
           "expanded": "Improving",
           "description": "Severity of impact is expected to decrease in the next 6 hours.",
           "colour": "#339900",
-          "uuid": "dae47257-b744-5ef3-b391-38cceff7a46d"
+          "uuid": "a7b6f753-1376-52a5-b6dd-2aec4a741920"
         },
         {
           "value": "stable",
           "expanded": "Stable",
           "description": "Severity of impact is expected to remain the same in the 6 hours.",
           "colour": "#FFC000",
-          "uuid": "b847d700-41e3-50f8-8d3b-52202df3e35b"
+          "uuid": "3fb35635-3925-5e20-aac4-8dc3839c017c"
         },
         {
           "value": "worsening",
           "expanded": "Worsening",
           "description": "Severity of impact is expected to increase in the next 6 hours.",
           "colour": "#CC0033",
-          "uuid": "13845a4a-c069-589a-aa4a-7b4ddd8345ea"
+          "uuid": "72651d0e-17b4-5c00-853e-0b30c2ed2519"
         }
       ]
     },
@@ -377,31 +377,31 @@
           "value": "system-failures",
           "expanded": "System failures",
           "description": "The incident is due to a failure of a system, i.e. without external causes. For example a hardware failure, software bug, a flaw in a procedure, etc. triggered the incident.",
-          "uuid": "d8428dd3-0c83-5f17-9cd6-c7b150b16e89"
+          "uuid": "9f5e7717-4653-5df8-a51f-67449bace30e"
         },
         {
           "value": "natural-phenomena",
           "expanded": "Natural phenomena",
           "description": "The incident is due to a natural phenomenon. For example a storm, lightning, solar flare, flood, earthquake, wildfire, etc. triggered the incident.",
-          "uuid": "c8afe657-1c6d-543a-882c-6650ef67a34a"
+          "uuid": "c0c9c140-5d4c-5045-b7c9-6c4da3f9a26d"
         },
         {
           "value": "human-errors",
           "expanded": "Human errors",
           "description": "The incident is due to a human error, i.e. system worked correctly, but was used wrong. For example, a mistake, or carelessness triggered the incident.",
-          "uuid": "c34aecff-0d15-5378-aaa6-b1d93b47e1fd"
+          "uuid": "ce772626-97c1-5619-85eb-4ed51fbeb7e2"
         },
         {
           "value": "malicious-actions",
           "expanded": "Malicious actions",
           "description": "The incident is due to a malicious action. For example, a cyber-attack or physical attack, vandalism, sabotage, insider attack, theft, etc., triggered the incident.",
-          "uuid": "62a3ff5d-7c8f-5eeb-828a-ceb45f9e9b58"
+          "uuid": "c442fd53-3baf-528a-a58e-b699e6ef6737"
         },
         {
           "value": "third-party-failures",
           "expanded": "Third party failures",
           "description": "The incident is due to a disruption of a third party service, like a utility. For example a power cut, or an internet outage, etc. triggered the incident.",
-          "uuid": "84fcb12c-b5ec-5610-b06f-099549e55241"
+          "uuid": "17ba5b35-ee44-532d-bb0a-7c2d43ac0739"
         }
       ]
     },
@@ -413,21 +413,21 @@
           "expanded": "High",
           "description": "High severity, potential impact is high.",
           "colour": "#CC0033",
-          "uuid": "dcb57ba8-33df-5e56-82c0-fc1fc2138a9c"
+          "uuid": "40ebd921-49a2-567b-893b-cd1e04b78ed2"
         },
         {
           "value": "medium",
           "expanded": "Medium",
           "description": "Medium severity, potential impact is medium.",
           "colour": "#FFC000",
-          "uuid": "7fb970e7-2f45-56d9-8738-3719abecf793"
+          "uuid": "b8b8f8d7-e3d1-5918-a6b9-d2694ff40331"
         },
         {
           "value": "low",
           "expanded": "Low",
           "description": "Low severity, potential impact is low.",
           "colour": "#339900",
-          "uuid": "a8aac5d5-1ff7-532d-abb2-7f3a451176c6"
+          "uuid": "462df3b3-ddcc-5d39-8f56-ed67c3e9dd6f"
         }
       ]
     },
@@ -439,10 +439,10 @@
           "expanded": "Test",
           "description": "Test value meant for testing interoperability. Tags with this value are to be ignored.",
           "colour": "#F81894",
-          "uuid": "943db621-894b-5d2d-ac94-1a2df10c6659"
+          "uuid": "f0107f8e-fad5-5795-bfe4-1036da5c0db2"
         }
       ]
     }
   ],
-  "uuid": "233e44bb-f3a1-5acb-a441-2a46664a542e"
+  "uuid": "0399728c-b066-5727-9a59-5f1e1b1d9164"
 }

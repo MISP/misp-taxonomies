@@ -5,54 +5,67 @@
   "predicates": [
     {
       "value": "SIM Swapping",
-      "expanded": "An identity theft technique that takes over a victim's mobile device to steal credentials and break into wallets or exchange accounts to steal cryptocurrency."
+      "expanded": "An identity theft technique that takes over a victim's mobile device to steal credentials and break into wallets or exchange accounts to steal cryptocurrency.",
+      "uuid": "02eabde8-8a82-5a9a-bab3-8ece34beadc0"
     },
     {
       "value": "Crypto Dusting",
-      "expanded": "A new form of blockchain spam that erodes the recipient's reputation by sending cryptocurrency from known money mixers."
+      "expanded": "A new form of blockchain spam that erodes the recipient's reputation by sending cryptocurrency from known money mixers.",
+      "uuid": "52f1bd66-a293-5bbc-ae54-8989077c64d3"
     },
     {
       "value": "Sanction Evasion",
-      "expanded": "Nation states using cryptocurrencies has been promoted by the Iranian and Venezuelan governments."
+      "expanded": "Nation states using cryptocurrencies has been promoted by the Iranian and Venezuelan governments.",
+      "uuid": "c133c7ef-f028-5bba-aa03-9cbd4ce651e0"
     },
     {
       "value": "Next-Generation Crypto Mixers",
-      "expanded": "Money laundering services that promise to exchange tainted tokens for freshly mined crypto, but in reality, cleanse cryptocurrency through exchanges."
+      "expanded": "Money laundering services that promise to exchange tainted tokens for freshly mined crypto, but in reality, cleanse cryptocurrency through exchanges.",
+      "uuid": "3db5ddb5-85ae-5e57-9585-09315c0151d1"
     },
     {
       "value": "Shadow Money Service Businesses",
-      "expanded": "Unlicensed Money Service Businesses (MSBs) banking cryptocurrency without the knowledge of host financial institutions, and thus exposing banks to unknown risk."
+      "expanded": "Unlicensed Money Service Businesses (MSBs) banking cryptocurrency without the knowledge of host financial institutions, and thus exposing banks to unknown risk.",
+      "uuid": "ecc2f118-fbc7-5fac-990d-aaec6e23e086"
     },
     {
       "value": "Datacenter-Scale Crypto Jacking: ",
-      "expanded": "Takeover attacks that mine for cryptocurrency at a massive scale have been discovered in datacenters, including AWS."
+      "expanded": "Takeover attacks that mine for cryptocurrency at a massive scale have been discovered in datacenters, including AWS.",
+      "uuid": "046fe733-1ff9-55fe-b877-1196249ad4d0"
     },
     {
       "value": "Lightning Network Transactions",
-      "expanded": "Enable anonymous bitcoin transactions by going \"off-chain,\" and cannow scale to $2,150,000."
+      "expanded": "Enable anonymous bitcoin transactions by going \"off-chain,\" and cannow scale to $2,150,000.",
+      "uuid": "1c53cf31-5d56-5147-96b0-697e7929462d"
     },
     {
       "value": "Decentralized Stable Coins",
-      "expanded": "Stabilized tokens that can be designed for use as private coins."
+      "expanded": "Stabilized tokens that can be designed for use as private coins.",
+      "uuid": "260d4f1b-ce91-5d97-9d6a-046167eefb6a"
     },
     {
       "value": "Email Extortion and Bomb Threats",
-      "expanded": "Cyber-extortionists stepped up mass-customized phishing emails campaigns using old passwords and spouse names in 2018. Bomb threat extortion scams demanding bitcoin spiked in December."
+      "expanded": "Cyber-extortionists stepped up mass-customized phishing emails campaigns using old passwords and spouse names in 2018. Bomb threat extortion scams demanding bitcoin spiked in December.",
+      "uuid": "427db093-c02f-54b4-a2bb-a3ee8eeb5942"
     },
     {
       "value": "Crypto Robbing Ransomware",
-      "expanded": "Cyber-extortionists began distributing new malware that empties cryptocurrency wallets and steals private keys while holding user data hostage."
+      "expanded": "Cyber-extortionists began distributing new malware that empties cryptocurrency wallets and steals private keys while holding user data hostage.",
+      "uuid": "59607621-7cc8-5a96-8add-dd982ca4a546"
     },
     {
       "value": "Rag Pull",
-      "expanded": "Crypto scam that occurs when a team pumps their project’s token before disappearing with the funds, leaving their investors with a valueless asset."
+      "expanded": "Crypto scam that occurs when a team pumps their project’s token before disappearing with the funds, leaving their investors with a valueless asset.",
+      "uuid": "39e1109b-b2c1-5d87-9c1e-25c0bd52f6c6"
     },
     {
       "value": "Pig Butchering Scam",
-      "expanded": "Cryptocurrency investment fraud that lures individuals into investing their money in seemingly legitimate and profitable ventures."
+      "expanded": "Cryptocurrency investment fraud that lures individuals into investing their money in seemingly legitimate and profitable ventures.",
+      "uuid": "1b17d205-1535-529d-b575-3779fd1c2c40"
     }
   ],
   "refs": [
     "https://ciphertrace.com/wp-content/uploads/2019/01/crypto_aml_report_2018q4.pdf"
-  ]
+  ],
+  "uuid": "3c14e684-0ca7-5791-8e3e-2e369555aeaf"
 }

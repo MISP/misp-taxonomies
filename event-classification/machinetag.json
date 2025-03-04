@@ -6,7 +6,7 @@
     {
       "value": "event-class",
       "expanded": "Event Classification",
-      "uuid": "08b6b0fb-55b6-5bd4-987a-c59562c4c7ca"
+      "uuid": "3017def1-c44d-5113-b35f-5b2fab3f2a16"
     }
   ],
   "values": [
@@ -16,35 +16,35 @@
         {
           "value": "incident_report",
           "expanded": "Incident Report",
-          "uuid": "aae1f424-3028-50c9-b61b-78f395a96337"
+          "uuid": "b353cf6a-bf90-55fb-8571-5072fa61958c"
         },
         {
           "value": "incident",
           "expanded": "Incident",
-          "uuid": "f43f2eec-40ad-50dd-b72f-196ebab56fe8"
+          "uuid": "aecdcdcc-0b57-5426-96a5-23cc9eda5621"
         },
         {
           "value": "investigation",
           "expanded": "Investigation",
-          "uuid": "7cfea0d0-2e3b-5e02-9b1f-64ae20bb4904"
+          "uuid": "900ea05f-a49c-56ea-99f4-4525059b1d3a"
         },
         {
           "value": "countermeasure",
           "expanded": "Countermeasure",
-          "uuid": "f789e361-deac-5db3-a339-cbb0d99d9098"
+          "uuid": "e09cf973-9d23-5b61-b983-c8517056698c"
         },
         {
           "value": "general",
           "expanded": "General",
-          "uuid": "f42ca48d-91da-590e-a84d-8a8818b98914"
+          "uuid": "c667fdce-c877-5e2a-810e-d990b2d3fabf"
         },
         {
           "value": "exercise",
           "expanded": "Exercise",
-          "uuid": "697484aa-e8ee-5b01-8eb0-bba03f16d416"
+          "uuid": "d508bf7a-6f4e-5ea6-8856-6ee6793cf0de"
         }
       ]
     }
   ],
-  "uuid": "8a17b454-e870-5b01-9494-869c206df7b8"
+  "uuid": "40517c50-9736-5833-9a44-2c966f534ea7"
 }

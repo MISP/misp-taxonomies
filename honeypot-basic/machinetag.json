@@ -7,37 +7,37 @@
       "value": "interaction-level",
       "expanded": "Interaction Level",
       "description": "Describes whether the exposed functionality of a honeypot is limited in some way, which is usually the case for honeypots that simulate services.",
-      "uuid": "c195ffcf-5740-51e0-bdb7-196aa8c2515b"
+      "uuid": "9727875c-f69a-5146-af86-eecbc774cfff"
     },
     {
       "value": "data-capture",
       "expanded": "Data Capture",
       "description": "Describes the type of data a honeypot is able to capture",
-      "uuid": "0f0d0050-78a9-566e-9d5b-402735120e81"
+      "uuid": "bd95036a-6150-55ef-bfdc-14cefc0663d1"
     },
     {
       "value": "containment",
       "expanded": "Containment",
       "description": "Classifies the measures a honeypot takes to defend against malicious activity spreading from itself.",
-      "uuid": "2a8a909a-9c9f-54bc-9d44-738a61add337"
+      "uuid": "c5485dab-1bcf-57ef-ab50-d49b54fce077"
     },
     {
       "value": "distribution-appearance",
       "expanded": "Distribution Appearance",
       "description": "Describes whether the honeypot system appears to be confined to one system or multiple systems.",
-      "uuid": "09732e12-bc24-5261-96b7-bbd053c1f30a"
+      "uuid": "97110826-2a81-51d9-81da-e81b548ffcc4"
     },
     {
       "value": "communication-interface",
       "expanded": "Communication Interface",
       "description": "Describes the interfaces one can use to interact directly with the honeypot.",
-      "uuid": "75ee84b3-e52a-5724-afa4-778eb5cfac84"
+      "uuid": "c44fdedb-606a-571f-beac-9205d163fff3"
     },
     {
       "value": "role",
       "expanded": "Role in Multi-tier Architecture",
       "description": "Describes in what role the honeypot acts within a multi-tier architecture.",
-      "uuid": "0556a7bd-1386-556c-9009-6576f528d50f"
+      "uuid": "d67e54a2-bb8b-5ca4-8ffa-b9c7237bc170"
     }
   ],
   "values": [
@@ -48,31 +48,31 @@
           "value": "high",
           "expanded": "High Interaction Level",
           "description": "Exposed functionality of the honeypot is not limited.",
-          "uuid": "0d8dc994-a91e-57d6-8c1d-e6ce29cf46d1"
+          "uuid": "4fa7ab0f-623b-5e04-997c-f3c1c0b38b5f"
         },
         {
           "value": "medium",
           "expanded": "Medium Interaction Level",
           "description": "Exposed functionality of the honeypot is limited to the service without exposing the full operating system.",
-          "uuid": "b745b308-a4df-541d-b63a-a5aaf989f13a"
+          "uuid": "dba39930-1483-5d6b-9ecf-d445c04e7bc2"
         },
         {
           "value": "low",
           "expanded": "low Interaction Level",
           "description": "Exposed functionality being limited. For example, a simulated SSH server of a honeypot is not able to authenticate against a valid login/password combination.",
-          "uuid": "f88163cd-fd22-5dc6-847e-aaa12a1c299e"
+          "uuid": "87a6a293-44c4-5bca-94f8-1123993f69f8"
         },
         {
           "value": "none",
           "expanded": "No interaction capabilities",
           "description": "No exposed functionality in the honeypot.",
-          "uuid": "9660a000-a85f-5f54-ba79-ae22ec5c40cc"
+          "uuid": "efd83a6e-9216-5df6-96d3-f767701155a7"
         },
         {
           "value": "adaptive",
           "expanded": "Learns from attack interaction",
           "description": "Learns from attack interaction",
-          "uuid": "53a45231-8865-5d7d-866d-eb4757ca3eff"
+          "uuid": "9256c163-784f-5bb8-b6fc-8bef0aab13da"
         }
       ]
     },
@@ -83,31 +83,31 @@
           "value": "network-capture",
           "expanded": "Network capture",
           "description": "The honeypot collects raw network capture.",
-          "uuid": "e7e0d0a5-6129-5230-8ea8-11cee216ad10"
+          "uuid": "612e65bc-9a40-5075-9fe2-3dc32e39b0e2"
         },
         {
           "value": "events",
           "expanded": "Events",
           "description": "The honeypot collects data about something that has happened or took place, a change in state.",
-          "uuid": "76580811-27af-5783-ba0d-80290e4e2b31"
+          "uuid": "3a695896-25cc-5041-a50c-cd5bf0a6066b"
         },
         {
           "value": "attacks",
           "expanded": "Attacks",
           "description": "The honeypot collects malicious activity.",
-          "uuid": "a0b4ec78-c6f0-5489-9a9e-e62b0fc34773"
+          "uuid": "25474bdb-0b6e-545b-b4a5-14159a0b4975"
         },
         {
           "value": "intrusions",
           "expanded": "Intrusions",
           "description": "The honeypot collects malicious activity that leads to a security failure.",
-          "uuid": "4d57a064-5c53-5b7e-90b8-a572dc932c6c"
+          "uuid": "1985feea-62cc-5ff9-b48e-6a0a9c461154"
         },
         {
           "value": "none",
           "expanded": "None",
           "description": "The honeypot does not collect events, attacks, or intrusions.",
-          "uuid": "48b767e2-5b54-5dbd-b76a-476b6df5ef21"
+          "uuid": "10616ee0-7faa-508e-8c83-38420fd37cf5"
         }
       ]
     },
@@ -118,25 +118,25 @@
           "value": "block",
           "expanded": "Block",
           "description": "Attacker’s actions are identified and blocked. The attack never reaches the target.",
-          "uuid": "456db98d-312b-51b6-99c0-10d5525ce984"
+          "uuid": "a62ec464-7fd5-5751-a5b1-016402e58309"
         },
         {
           "value": "defuse",
           "expanded": "Defuse",
           "description": "The attack reaches the target, but is manipulated in a way that it fails against the target.",
-          "uuid": "33bf53d5-05ef-5c3f-96e0-757ff4241322"
+          "uuid": "55b0964d-be8f-5684-93e6-751ad87b54c6"
         },
         {
           "value": "slow-down",
           "expanded": "Slow Down",
           "description": "Attacker is slowed down in his actions of spreading malicious activity.",
-          "uuid": "3d7a48fd-9182-58bf-bf3d-971007562343"
+          "uuid": "aa0a9b7a-6f09-5030-905d-ee84ac030336"
         },
         {
           "value": "none",
           "expanded": "None",
           "description": "No action is taken to limit the intruder’s spread of malicious activity against other systems.",
-          "uuid": "f9db3494-c119-5884-84d3-107aab0d2aae"
+          "uuid": "b4ce56b1-c556-51f8-a27d-73687eedfb66"
         }
       ]
     },
@@ -147,13 +147,13 @@
           "value": "distributed",
           "expanded": "Distributed",
           "description": "The honeypot is or appears to be composed of multiple systems.",
-          "uuid": "85ddf3e8-0744-5bf2-9beb-e7bdab345919"
+          "uuid": "814b1a5a-eeb4-54d4-80fa-23a8954e9a18"
         },
         {
           "value": "stand-alone",
           "expanded": "Stand-Alone",
           "description": "The honeypot is or appears to be one system.",
-          "uuid": "fdedf0a4-8e1f-5d7d-a9a3-ddf0b3aa0000"
+          "uuid": "9b2603a3-d6d5-5c2b-aa59-bd8bd6cd452a"
         }
       ]
     },
@@ -164,19 +164,19 @@
           "value": "network-interface",
           "expanded": "Network Interface",
           "description": "The honeypot can be directly communicated with via a network interface.",
-          "uuid": "523d197e-64eb-5ed8-a310-b52f5b759110"
+          "uuid": "b5dcb73f-3d57-5f18-a2ef-2981ca5d1a27"
         },
         {
           "value": "hardware-interface",
           "expanded": "Non-Network Hardware Interface",
           "description": "Examples: Printer port, CDROM drives, USB connections.",
-          "uuid": "16b2205a-1c4e-5d65-880b-c0d636d851cc"
+          "uuid": "fac7cbab-1bc0-5871-9b23-37a8095b33c8"
         },
         {
           "value": "software-api",
           "expanded": "Software API",
           "description": "The honeypot can be interacted with via a software API.",
-          "uuid": "e93205a3-5093-5f2e-9362-5580d04e62cd"
+          "uuid": "401dcca3-ea01-560f-8c1c-0c78108666b7"
         }
       ]
     },
@@ -187,16 +187,16 @@
           "value": "server",
           "expanded": "Server",
           "description": "The honeypot is passively awaiting requests from clients.",
-          "uuid": "09dddca2-ae48-52b3-a6eb-f1df2bebab61"
+          "uuid": "5dee79ad-c250-5a9b-a7ec-3866bfe10796"
         },
         {
           "value": "client",
           "expanded": "Client",
           "description": "The honeypot is actively initiating requests to servers.",
-          "uuid": "49e4dedf-9601-5f04-8d4f-ed8b9af0607e"
+          "uuid": "84d68d65-4685-5f53-9637-9af5a1f74166"
         }
       ]
     }
   ],
-  "uuid": "67ed684f-8807-5bb7-8b28-90bceaad25da"
+  "uuid": "ae03db9f-1c0e-50c2-826a-bc69a4f08783"
 }

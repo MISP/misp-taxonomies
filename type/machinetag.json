@@ -3,60 +3,72 @@
     {
       "expanded": "Open Source Intelligence",
       "description": "gathered from open sources",
-      "value": "OSINT"
+      "value": "OSINT",
+      "uuid": "f64c409d-c029-5f50-9ee8-9924b19f77ca"
     },
     {
       "expanded": "Signal Intelligence",
       "description": "gathered from interception of signals",
-      "value": "SIGINT"
+      "value": "SIGINT",
+      "uuid": "fc838537-7294-582d-acff-4ce9b633ca24"
     },
     {
       "expanded": "Technical Intelligence",
       "description": "gathered from analysis of weapons and equipment used by the armed forces of foreign nations, or environmental conditions",
-      "value": "TECHINT"
+      "value": "TECHINT",
+      "uuid": "a0a973fd-4d54-57b2-ba70-defad359341b"
     },
     {
       "expanded": "Cyberspace Intelligence",
       "description": "gathered from active or passive exploitation (CNE) in the cyberspace",
-      "value": "CYBINT"
+      "value": "CYBINT",
+      "uuid": "0b6688e6-c330-5b82-83ad-ec3913c00d8c"
     },
     {
       "expanded": "Digital Network Intelligence",
       "description": "gathered from active or passive expoilation (CNE) in the digital network.",
-      "value": "DNINT"
+      "value": "DNINT",
+      "uuid": "9caf2003-785d-59cf-8f33-4498e9ce680d"
     },
     {
       "expanded": "Human Intelligence",
       "description": "gathered from a person in the location in question",
-      "value": "HUMINT"
+      "value": "HUMINT",
+      "uuid": "d1840127-87b1-57db-9798-cb2db57d9d56"
     },
     {
       "expanded": "Medical Intelligence",
       "description": "gathered from analysis of medical records and/or actual physiological examinations to determine health and/or particular ailments/allergetic conditions for consideration",
-      "value": "MEDINT"
+      "value": "MEDINT",
+      "uuid": "9d874cd9-0159-5f35-a386-378e2e0b0809"
     },
     {
       "expanded": "Geospatial Intelligence",
       "description": "gathered from satellite, aerial photography, mapping/terrain data",
-      "value": "GEOINT"
+      "value": "GEOINT",
+      "uuid": "0dab6213-0243-598b-afd7-76409615bfb1"
     },
     {
       "expanded": "Imagery Intelligence",
       "description": "gathered from satellite and aerial photography",
-      "value": "IMINT"
+      "value": "IMINT",
+      "uuid": "ca22b327-faed-5db8-b282-ade11e7a5517"
     },
     {
       "expanded": "Measurement and signature intelligence",
       "description": "gathered from electro-optical, nuclear survey, geophysical measurements, radar, materials analysis",
-      "value": "MASINT"
+      "value": "MASINT",
+      "uuid": "c143154d-5475-5d42-8fba-63e9359c4ec4"
     },
     {
       "expanded": "Financial Intelligence",
       "description": "gathered from analysis of monetary or financial transactions",
-      "value": "FININT"
+      "value": "FININT",
+      "uuid": "955f8cf3-db64-5cd9-9097-80e3ec412cf0"
     }
   ],
   "version": 1,
   "description": "Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence.",
-  "namespace": "type"
+  "namespace": "type",
+  "uuid": "242f2e2b-dfec-5021-b014-933464d4acd3"
 }

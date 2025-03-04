@@ -3,115 +3,138 @@
     {
       "description": "The organization campaigns, or takes other actions against corruption and transparency.",
       "expanded": "Anti-Corruption and transparency",
-      "value": "anti-corruption-transparency"
+      "value": "anti-corruption-transparency",
+      "uuid": "a1652fcb-1b3d-5d2e-85f3-2372797dcc68"
     },
     {
       "description": "The organization campaigns, or takes other actions against war",
       "expanded": "Anti-War / Anti-Violence",
-      "value": "anti-war-violence"
+      "value": "anti-war-violence",
+      "uuid": "b66c16f6-3b96-5016-96ed-849c0ee796e1"
     },
     {
       "description": "The organization campaigns or acts to promote cultural events",
       "expanded": "Culture",
-      "value": "culture"
+      "value": "culture",
+      "uuid": "3f590a6c-3bec-5e14-87d0-3b7f98f327b9"
     },
     {
       "description": "Issues of economic policy, wealth distribution, etc.",
       "expanded": "Economic Change",
-      "value": "economic-change"
+      "value": "economic-change",
+      "uuid": "2bada6a7-65f1-5036-b8c6-463c594fd628"
     },
     {
       "description": "The organization is concerned with some form of education",
       "expanded": "Education",
-      "value": "education"
+      "value": "education",
+      "uuid": "faf219d0-4e26-5f8c-8275-b0a60cda8647"
     },
     {
       "description": "The organization is an election monitor, or involved in election monitoring",
       "expanded": "Election Monitoring",
-      "value": "election-monitoring"
+      "value": "election-monitoring",
+      "uuid": "96b7f247-fac3-581f-8f74-50721fa4b550"
     },
     {
       "description": "The organization campaigns or acts to protect the environment",
       "expanded": "Environment",
-      "value": "environment"
+      "value": "environment",
+      "uuid": "9b612a6d-7de0-5347-b81e-596d844246fd"
     },
     {
       "description": "The organization is concerned with freedom of speech issues",
       "expanded": "Freedom of Expression",
-      "value": "freedom-expression"
+      "value": "freedom-expression",
+      "uuid": "158d3bc5-298d-5980-9101-8cbbf4b4688c"
     },
     {
       "description": "The organization develops tools for use in defending or extending digital rights",
       "expanded": "Freedom Tool Development",
-      "value": "freedom-tool-development"
+      "value": "freedom-tool-development",
+      "uuid": "9d3e4c14-aa14-53a6-a95d-03b34fb2e3bf"
     },
     {
       "description": " The organization is a funder of organizations or projects working with at risk users",
       "expanded": "Funding",
-      "value": "funding"
+      "value": "funding",
+      "uuid": "2eca0b1d-b21e-5dae-80e9-0d71d61bb7fc"
     },
     {
       "description": "The organization prevents epidemic illness or acts on curing them",
       "expanded": "Health Issues",
-      "value": "health"
+      "value": "health",
+      "uuid": "a5fa02ff-7f45-57ea-bacb-b007f261407c"
     },
     {
       "description": "relating to the detection, recording, exposure, or challenging of abuses of human rights",
       "expanded": "Human Rights Issues",
-      "value": "human-rights"
+      "value": "human-rights",
+      "uuid": "8e54793d-dbf4-5e43-ad2a-6d53cc19f341"
     },
     {
       "description": "Issues of digital rights in electronic communications",
       "expanded": "Internet and Telecoms",
-      "value": "internet-telecom"
+      "value": "internet-telecom",
+      "uuid": "f0f46924-1927-5850-8d92-2fcd88a9481a"
     },
     {
       "description": "Issues relating to the Lesbian, Gay, Bi, Transgender community",
       "expanded": "LGBT / Gender / Sexuality",
-      "value": "lgbt-gender-sexuality"
+      "value": "lgbt-gender-sexuality",
+      "uuid": "86e36cb5-de37-5ea7-a39b-8cbf53afc5b5"
     },
     {
       "description": "The organization is a policy think-tank, or policy advocate",
       "expanded": "Policy",
-      "value": "policy"
+      "value": "policy",
+      "uuid": "a6eb6a9d-e5a1-56be-864d-4d60fa429f3d"
     },
     {
       "description": "The organization takes a strong political view or is a political entity",
       "expanded": "Politics",
-      "value": "politics"
+      "value": "politics",
+      "uuid": "afe59ebe-1984-5dad-a4b1-48bfa4f4502d"
     },
     {
       "description": "Issues relating to the individual's reasonable right to privacy",
       "expanded": "Privacy",
-      "value": "privacy"
+      "value": "privacy",
+      "uuid": "206965b9-df3f-55d7-937f-d6b3d5fcc6ca"
     },
     {
       "description": "The organization provides rapid response type capability for civil society",
       "expanded": "Rapid Response",
-      "value": "rapid-response"
+      "value": "rapid-response",
+      "uuid": "43cb8fc1-028b-5fdb-855b-4c60f5183353"
     },
     {
       "description": "Issues relating to displaced people",
       "expanded": "Refugees",
-      "value": "refugees"
+      "value": "refugees",
+      "uuid": "774ba4f0-d46c-5ffb-8287-fc92219231c3"
     },
     {
       "description": "Issues relating to physical or information security",
       "expanded": "Security",
-      "value": "security"
+      "value": "security",
+      "uuid": "f9eb4c57-f241-57d9-87ea-2e5331efebf1"
     },
     {
       "description": "Issues pertaining to inequality between men and women, or issues of particular relevance to women",
       "expanded": "Women's Rights",
-      "value": "womens-right"
+      "value": "womens-right",
+      "uuid": "fe657bd0-009c-567f-8f19-1fcb4910f8e2"
     },
     {
       "description": "Issues of particular relevance to youth",
       "expanded": "Youth Rights",
-      "value": "youth-rights"
+      "value": "youth-rights",
+      "uuid": "d0cfbf8d-51a7-597a-8402-bfa14e0ea379"
     }
   ],
   "version": 3,
   "description": "Access Now classification to classify an issue (such as security, human rights, youth rights).",
-  "namespace": "accessnow"
+  "namespace": "accessnow",
+  "uuid": "f0eb656a-dd77-5fdb-90aa-37fbe7e93533"
 }

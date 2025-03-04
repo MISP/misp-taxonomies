@@ -7,22 +7,27 @@
     {
       "value": "TS-UE/EU-TS",
       "expanded": "TRES SECRET UE/EU TOP SECRET",
-      "description": "Information and material the unauthorised disclosure of which could cause exceptionally grave prejudice to the essential interests of the European Union or of one or more of the Member States."
+      "description": "Information and material the unauthorised disclosure of which could cause exceptionally grave prejudice to the essential interests of the European Union or of one or more of the Member States.",
+      "uuid": "303dfed6-0a95-5a92-bcb3-8db830c79666"
     },
     {
       "value": "S-UE/EU-S",
       "expanded": "SECRET UE/EU SECRET",
-      "description": "Information and material the unauthorised disclosure of which could seriously harm the essential interests of the European Union or of one or more of the Member States."
+      "description": "Information and material the unauthorised disclosure of which could seriously harm the essential interests of the European Union or of one or more of the Member States.",
+      "uuid": "95d68e9b-c929-51fa-a729-db4591c76528"
     },
     {
       "value": "C-UE/EU-C",
       "expanded": "CONFIDENTIEL UE/EU CONFIDENTIAL",
-      "description": "Information and material the unauthorised disclosure of which could harm the essential interests of the European Union or of one or more of the Member States."
+      "description": "Information and material the unauthorised disclosure of which could harm the essential interests of the European Union or of one or more of the Member States.",
+      "uuid": "cfb38901-4b6c-564e-b9e6-1cb36d535ab0"
     },
     {
       "value": "R-UE/EU-R",
       "expanded": "RESTREINT UE/EU RESTRICTED",
-      "description": "Information and material the unauthorised disclosure of which could be disadvantageous to the interests of the European Union or of one or more of the Member States."
+      "description": "Information and material the unauthorised disclosure of which could be disadvantageous to the interests of the European Union or of one or more of the Member States.",
+      "uuid": "bf2d96b5-e305-5522-84eb-fcf238343085"
     }
-  ]
+  ],
+  "uuid": "b142e028-10de-5587-82be-f81b8aac6a68"
 }

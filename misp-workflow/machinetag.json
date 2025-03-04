@@ -8,25 +8,25 @@
       "value": "action-taken",
       "expanded": "Action taken",
       "description": "Action taken during the workflow execution",
-      "uuid": "c37974c2-de0d-5364-95de-c4c47268b1fd"
+      "uuid": "e8f55152-5a74-5ba9-b478-79221ff35ad0"
     },
     {
       "value": "analysis",
       "expanded": "Analysis",
       "description": "Result of the analysis executed during the workflow execution",
-      "uuid": "f102809e-c96b-5259-8397-3761d57758d9"
+      "uuid": "2f9ae3d0-5922-5217-945c-820d3125dc68"
     },
     {
       "value": "mutability",
       "expanded": "Mutability",
       "description": "Describe if the workflow is allowed to modify data",
-      "uuid": "a5dbaddc-df65-5e51-9a05-6262b71c64f2"
+      "uuid": "283c8e79-420f-5b5e-86af-168ba33130eb"
     },
     {
       "value": "run",
       "expanded": "Run",
       "description": "Describe if the workflow is allowed to run on the data being passed",
-      "uuid": "4559f064-dac9-5019-8db4-f8238be480fc"
+      "uuid": "2fbb965d-8b96-5e18-8d3b-c46e6fcf7f37"
     }
   ],
   "values": [
@@ -36,32 +36,32 @@
         {
           "value": "ids-flag-removed",
           "expanded": "IDS flag removed",
-          "uuid": "fd06809e-4b9d-5eaa-9e19-f7730f6030db"
+          "uuid": "e5abcb29-5669-5f70-9b7b-44c155426eba"
         },
         {
           "value": "ids-flag-added",
           "expanded": "IDS flag added",
-          "uuid": "d3a8e2ea-ba8b-527c-b951-a007e7fab5f3"
+          "uuid": "0fe0344b-578e-502f-bed8-0b383dd88b5f"
         },
         {
           "value": "pushed-to-zmq",
           "expanded": "Pushed to ZMQ",
-          "uuid": "70574c65-0eab-5e41-9ff4-8adf9ffa1e45"
+          "uuid": "637a3abd-dee4-5900-afa6-d6c4c9b6deca"
         },
         {
           "value": "email-sent",
           "expanded": "Email sent",
-          "uuid": "1438fdc8-ceb0-5b8c-bbd8-641415a7d41e"
+          "uuid": "9885ffe2-25e0-5fbb-b565-a98ac47d9ad6"
         },
         {
           "value": "webhook-triggered",
           "expanded": "Webhook triggered",
-          "uuid": "ea993526-2e28-5e91-a57f-285077ce9462"
+          "uuid": "607172b1-d597-5420-a5ec-5e35a5124c85"
         },
         {
           "value": "execution-stopped",
           "expanded": "Execution stopped",
-          "uuid": "35ee3e4d-e375-5c06-b90c-869b5e1290e6"
+          "uuid": "a6bd049b-cfb2-5714-860a-8864282881ec"
         }
       ]
     },
@@ -71,17 +71,17 @@
         {
           "value": "false-positive",
           "expanded": "False positive",
-          "uuid": "4dab6754-5ace-589f-94f9-d5990fff742b"
+          "uuid": "c1f2f6e2-d74f-5ee0-8ce9-3e65c5480ecd"
         },
         {
           "value": "highly-likely-positive",
           "expanded": "Highly Likely Positive",
-          "uuid": "aa39d4d3-f566-56b7-9196-28ae681cf8f4"
+          "uuid": "f31d4e22-8725-55ea-879a-c213afc64d48"
         },
         {
           "value": "known-file-hash",
           "expanded": "Known file hash",
-          "uuid": "6fda0fb0-4dd8-5ed2-ae80-43791a8591f0"
+          "uuid": "a6eb00cb-9c56-585e-a65c-7823950ec3f5"
         }
       ]
     },
@@ -91,7 +91,7 @@
         {
           "value": "allowed",
           "expanded": "Allowed",
-          "uuid": "f5e04870-d5b8-5f37-a93d-f5d6d778a1df"
+          "uuid": "1fa241b3-9bb5-55b7-b2a5-4f89cfefc4cd"
         }
       ]
     },
@@ -101,10 +101,10 @@
         {
           "value": "allowed",
           "expanded": "Allowed",
-          "uuid": "c1aa73c9-c143-505f-a82c-969b4b0da183"
+          "uuid": "3deac7c2-7a34-58c5-936e-56ea73b15a3b"
         }
       ]
     }
   ],
-  "uuid": "8b91c64b-77bd-5e2b-b84c-98e03d8a77a9"
+  "uuid": "3ba568ad-ac97-5e13-9952-93c95e7ab2fc"
 }

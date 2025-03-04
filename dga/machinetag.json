@@ -7,12 +7,12 @@
     {
       "value": "generation-scheme",
       "expanded": "Generation scheme used for the DGA",
-      "uuid": "54a9b951-baad-5efb-90c5-7067bc1f49bb"
+      "uuid": "afdbf771-7daa-5553-bb72-26fe0fa9396c"
     },
     {
       "value": "seeding",
       "expanded": "Seeding scheme used for the DGA",
-      "uuid": "84213fba-f0a1-551d-ac1c-208666b948d9"
+      "uuid": "5c143246-9c21-5d45-8d2f-88199be76771"
     }
   ],
   "values": [
@@ -23,25 +23,25 @@
           "value": "arithmetic",
           "expanded": "Arithmetic",
           "description": "Calculate a sequence of values that either have a direct ASCII representation usable for a domain name or designate an offset in one or more hard- coded arrays, constituting the alphabet of the DGA. ",
-          "uuid": "524e2a11-0079-54aa-8b5b-68670d287745"
+          "uuid": "4c64aef8-7105-50a6-b522-6900d5afc9a9"
         },
         {
           "value": "hash",
           "expanded": "Hash",
           "description": "Use the hexdigest representation of a hash to produce the domain.",
-          "uuid": "f27ac351-4ffb-57fe-abe8-fa7db76ae375"
+          "uuid": "1c9489a9-81e7-5d92-bb7b-938ae3ef985d"
         },
         {
           "value": "wordlist",
           "expanded": "Wordlist",
           "description": "Concatenate a sequence of words from one or more wordlists, resulting in less randomly appealing and thus more camouflaging domains",
-          "uuid": "01729528-5057-5c9f-8c51-d2db4a445f11"
+          "uuid": "58a135a5-a039-5933-9887-50d24566e0e8"
         },
         {
           "value": "permutation",
           "expanded": "Permutation",
           "description": "derive all possible AGDs (Algorithmically-Generated Domain) through permutation of an initial domain name.",
-          "uuid": "090aa060-8119-550c-a611-8cdae98f5df5"
+          "uuid": "447f04d7-d8e0-581b-9a67-8ecadcdb4374"
         }
       ]
     },
@@ -51,25 +51,25 @@
         {
           "value": "time-dependent",
           "expanded": "The DGA uses temporal information in the seeding for its domain generation, resulting in sets of domains with certain validity time spans.",
-          "uuid": "29fc77ea-42ae-5d18-82b5-683ae31c6bd8"
+          "uuid": "cdede597-37ed-5dac-8f12-03a337f2603a"
         },
         {
           "value": "time-independent",
           "expanded": "The DGA does not rely on temporal information in the seeding for its domain generation, resulting in a single set of domains.",
-          "uuid": "40f38f88-c367-5e3b-afe3-1b55bf5793d7"
+          "uuid": "64783d82-9fc3-56e0-ab2a-6415d8a32362"
         },
         {
           "value": "deterministic",
           "expanded": "Given the implementation of the DGA and a seed, its full set of possible domains can be calculated at any point in time.",
-          "uuid": "1169fb2c-7a1e-56ef-a717-c4fe8428707d"
+          "uuid": "6a2f4b30-6c9c-5171-a9b7-ef91aed77f87"
         },
         {
           "value": "non-deterministic",
           "expanded": "Domains depend on unpredictable seed input, e.g. on external dynamic information that can be published at a later time (e.g. via posting on social media), on data specific to the system it is executed on, or on arbitrary non-predictable PRNG output.",
-          "uuid": "266c0751-a4e5-5435-93e7-783b6d5b4ff8"
+          "uuid": "8ced3be7-1d88-509a-92dc-f9883c293fb7"
         }
       ]
     }
   ],
-  "uuid": "9f516f1a-6b39-5a99-906d-24e4d4c6467e"
+  "uuid": "667e9c12-96f1-5f5b-9bc5-c480e43b8dfd"
 }

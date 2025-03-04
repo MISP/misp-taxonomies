@@ -11,53 +11,53 @@
     {
       "value": "checkdmarc",
       "expanded": "CheckDMARC",
-      "uuid": "cb3487c4-9183-5571-a7c4-e516eef2f73a"
+      "uuid": "e2791b98-e06b-58a5-bc37-366e4eb45b56"
     },
     {
       "value": "disposable-email",
       "expanded": "Disposable Email Domain",
       "description": "The email domain is from a disposable email service.",
-      "uuid": "e6162bd6-09d6-520c-9e01-16e2737c2cbe"
+      "uuid": "ddbb813c-1353-569e-9d33-741089b425b1"
     },
     {
       "value": "emailrepio",
       "expanded": "EmailRepIO",
-      "uuid": "297bd4a6-0d09-5e0e-8bc8-c7419c5b0c6c"
+      "uuid": "5a119f7d-ed5e-5241-bb72-4eb887067fe9"
     },
     {
       "value": "iris-investigate",
       "expanded": "Iris Investigate",
-      "uuid": "5638eab3-8be9-538e-9079-5f17b8f39b55"
+      "uuid": "9a02066f-fbe0-56d9-adb0-fadb1803e51e"
     },
     {
       "value": "virustotal",
       "expanded": "VirusTotal",
-      "uuid": "9289b44f-04ce-5eed-b116-5ed84f10d6f2"
+      "uuid": "2a9b7f05-7305-52d1-a427-c66306e0916d"
     },
     {
       "value": "circl-hashlookup",
       "expanded": "CIRCL Hash Lookup",
-      "uuid": "dc8c5a66-f3c8-573e-b982-679223925939"
+      "uuid": "129003fc-d0e2-5f04-b2eb-02ef0056934f"
     },
     {
       "value": "reputation-block-list",
       "expanded": "Reputation Block List",
-      "uuid": "b5532b50-08ab-535e-b68f-6d2c0c53d6db"
+      "uuid": "5164d52e-21a5-5471-915a-72686da4836b"
     },
     {
       "value": "abuseipdb",
       "expanded": "AbuseIPDB",
-      "uuid": "6ba20d4e-57c0-5fb8-83c4-1521f2fc8802"
+      "uuid": "dad5f909-69b4-5557-862a-698baba8b736"
     },
     {
       "value": "greynoise-riot",
       "expanded": "GreyNoise RIOT",
-      "uuid": "c8b478dd-337f-5900-8c92-27f73c09a280"
+      "uuid": "e78033dd-dca7-5895-b5d0-30bd3d974868"
     },
     {
       "value": "googlesafebrowsing",
       "expanded": "Google Safe Browsing",
-      "uuid": "ab55205c-117a-512d-a7ff-81a2d7b3a373"
+      "uuid": "4ee1f117-266e-5717-ba30-d0e5b35390ba"
     }
   ],
   "values": [
@@ -68,7 +68,7 @@
           "value": "spoofable",
           "expanded": "Spoofable",
           "description": "The email address can be spoofed (e.g. no strict SPF policy/DMARC is not enforced).",
-          "uuid": "91a00ec6-60f1-5ffb-807c-0a259c872804"
+          "uuid": "e0554662-c510-5afb-8d38-09bf064b44d2"
         }
       ]
     },
@@ -79,73 +79,73 @@
           "value": "spoofable",
           "expanded": "Spoofable",
           "description": "The email address can be spoofed (e.g. no strict SPF policy/DMARC is not enforced).",
-          "uuid": "7c55d939-f3a9-56d7-b526-367efbd2c1b1"
+          "uuid": "eea378e9-c9bd-5a24-8e95-14f8a6c80cb4"
         },
         {
           "value": "suspicious",
           "expanded": "Suspicious",
           "description": "The email address should be treated as suspicious or risky.",
-          "uuid": "4e9b374a-de10-5075-977b-5f201b10f2ea"
+          "uuid": "1a329b71-e264-5e92-bd3b-dcd0161a5d6f"
         },
         {
           "value": "blacklisted",
           "expanded": "Blacklisted",
           "description": "The email address is believed to be malicious or spammy.",
-          "uuid": "d5fc57ef-3877-5eb0-b465-ca7a6e94ab59"
+          "uuid": "47a87613-9dcd-54a2-80eb-501308afa2a0"
         },
         {
           "value": "malicious-activity",
           "expanded": "Malicious Activity",
           "description": "The email address has exhibited malicious behavior (e.g. phishing/fraud).",
-          "uuid": "634b2dd2-5c09-5f2f-99f8-57b7793b8a3f"
+          "uuid": "3828f44f-0f81-5185-9a30-b9bf53129889"
         },
         {
           "value": "malicious-activity-recent",
           "expanded": "Malicious Activity Recent",
           "description": "The email address has exhibited malicious behavior in the last 90 days (e.g. in the case of temporal account takeovers).",
-          "uuid": "01f72d17-d3c4-58f1-ad71-384bf58dbc64"
+          "uuid": "6cc66880-d927-510c-98e7-3b1a1b0b37c8"
         },
         {
           "value": "credentials-leaked",
           "expanded": "Credentials Leaked",
           "description": "The email address has had credentials leaked at some point in time (e.g. a data breach, pastebin, dark web, etc).",
-          "uuid": "38a07ff0-4c0d-5148-82be-67f78138a5ea"
+          "uuid": "069275dd-a4e8-509a-9092-d46fc0063027"
         },
         {
           "value": "credentials-leaked-recent",
           "expanded": "Credentials Leaked Recent",
           "description": "The email address has had credentials leaked in the last 90 days.",
-          "uuid": "2c5f8c87-e675-5cdd-9bd4-c9181731b8b0"
+          "uuid": "a86b9f9b-2486-5d0d-b789-aaff9f21fa8d"
         },
         {
           "value": "reputation-high",
           "expanded": "Reputation High",
           "description": "The email address has a high reputation.",
-          "uuid": "1130d4e3-cafa-5600-9609-3f41824ea51c"
+          "uuid": "a7735055-c53e-552c-bf14-0c8ab306b43d"
         },
         {
           "value": "reputation-medium",
           "expanded": "Reputation Medium",
           "description": "The email address has a medium reputation.",
-          "uuid": "c1093152-a00e-5d43-8959-085956156bd2"
+          "uuid": "ea73d9bc-0aad-5e86-822d-6f1c3bb7c85f"
         },
         {
           "value": "reputation-low",
           "expanded": "Reputation Low",
           "description": "The email address has a low reputation.",
-          "uuid": "3cd31f0c-b495-5587-917e-b189d8966868"
+          "uuid": "4bb184c7-29ea-51f8-8f1c-56c32880b1e8"
         },
         {
           "value": "suspicious-tld",
           "expanded": "Suspicious TLD",
           "description": "The email address top-level domain is suspicious.",
-          "uuid": "55e8fbee-9a90-56a9-b7c7-566aab18947c"
+          "uuid": "ca1f08d2-e0be-551c-b856-275370bcd018"
         },
         {
           "value": "spam",
           "expanded": "Spam",
           "description": "The email address has exhibited spammy behavior (e.g. spam traps, login form abuse, etc).",
-          "uuid": "5146ce59-c6a7-5018-8f11-d78c398707da"
+          "uuid": "cbb31314-36cd-50c9-91e1-a815f5cdbd76"
         }
       ]
     },
@@ -156,25 +156,25 @@
           "value": "high",
           "expanded": "High",
           "description": "The domain risk score is high (76-100).",
-          "uuid": "ccf4b23d-a349-533a-bfc8-3cb8cfff50b5"
+          "uuid": "be491a16-4e32-5aa6-8117-c6d3abbd677a"
         },
         {
           "value": "medium-high",
           "expanded": "Medium High",
           "description": "The domain risk score is medium-high (51-75).",
-          "uuid": "960d958e-76c2-51f5-8be9-38106172e174"
+          "uuid": "fd881ec8-a88d-5d57-b2c6-9892fb38c4ab"
         },
         {
           "value": "medium",
           "expanded": "Medium",
           "description": "The domain risk score is medium (26-50).",
-          "uuid": "5dd6b05d-69a6-5536-873d-ee5fc87f6b8a"
+          "uuid": "ebbb7bed-fecb-5cfd-882c-65e7857e14ab"
         },
         {
           "value": "low",
           "expanded": "Low",
           "description": "The domain risk score is low (0-25).",
-          "uuid": "d3c9cd88-0188-5361-96f9-427a19fd68cc"
+          "uuid": "7ce82dc3-701d-55f4-b43a-1cfa7fb1ef95"
         }
       ]
     },
@@ -185,19 +185,19 @@
           "value": "known-distributor",
           "expanded": "Known Distributor",
           "description": "The known-distributor entry indicates a file is from a known distributor.",
-          "uuid": "cc0bacf5-8326-58db-9022-603db3158db5"
+          "uuid": "4cdda000-df96-5c67-b6d0-150d143deef1"
         },
         {
           "value": "valid-signature",
           "expanded": "Valid Signature",
           "description": "The valid-signature entry indicates a file is signed with a valid signature.",
-          "uuid": "277a60b3-b299-5fc0-a873-6b14e44b7201"
+          "uuid": "b7b72617-a0c2-567e-8782-7fc9521ade24"
         },
         {
           "value": "invalid-signature",
           "expanded": "Invalid Signature",
           "description": "The invalid-signature entry indicates a file is signed with an invalid signature.",
-          "uuid": "19900f05-9eb3-54cb-a631-0f057598eb4c"
+          "uuid": "3a9ede0e-3e4b-5f6c-a5df-9bbbc30823cb"
         }
       ]
     },
@@ -208,25 +208,25 @@
           "value": "high-trust",
           "expanded": "High Trust",
           "description": "The trust level is high (76-100).",
-          "uuid": "c8bd6c4e-097e-5eca-9102-9d1ddbe395e9"
+          "uuid": "50171771-0332-5f84-bd67-569da8b207c4"
         },
         {
           "value": "medium-high-trust",
           "expanded": "Medium High Trust",
           "description": "The trust level is medium-high (51-75).",
-          "uuid": "9012fd34-df87-5e85-8828-09affb164b96"
+          "uuid": "0d0ccb72-33ab-549a-8071-af4aba6f5290"
         },
         {
           "value": "medium-trust",
           "expanded": "Medium Trust",
           "description": "The trust level is medium (26-50).",
-          "uuid": "2275f3bf-d170-5b32-bc2a-5c9c8444bce2"
+          "uuid": "fae73d9e-cd16-50ee-8db7-94bf59679157"
         },
         {
           "value": "low-trust",
           "expanded": "Low Trust",
           "description": "The trust level is low (0-25).",
-          "uuid": "9181a9d5-e2f0-5c5a-9529-542bce48104c"
+          "uuid": "69e50913-5888-5860-af6c-a45fa2fd9f16"
         }
       ]
     },
@@ -237,145 +237,145 @@
           "value": "barracudacentral-brbl",
           "expanded": "Barracuda Reputation Block List",
           "description": "Barracuda Reputation Block List (BRBL) is a free DNSBL of IP addresses known to send spam. Barracuda Networks fights spam and created the BRBL to help stop the spread of spam.",
-          "uuid": "79f0062a-540c-50cb-922e-999d8fed8aec"
+          "uuid": "6b3926d4-3f57-561d-93ba-bd887dcabe69"
         },
         {
           "value": "spamcop-scbl",
           "expanded": "SpamCop Blocking List",
           "description": "The SpamCop Blocking List (SCBL) lists IP addresses which have transmitted reported email to SpamCop users. SpamCop, service providers and individual users then use the SCBL to block and filter unwanted email.",
-          "uuid": "fe7b5342-ad5b-576c-8531-7c4fa2b972a0"
+          "uuid": "bf73c82c-2045-545d-a4a1-abbf98269dba"
         },
         {
           "value": "spamhaus-sbl",
           "expanded": "Spamhaus Block List",
           "description": "The Spamhaus Block List (SBL) Advisory is a database of IP addresses from which Spamhaus does not recommend the acceptance of electronic mail.",
-          "uuid": "fc1d5472-6919-5223-b32a-afae8231e548"
+          "uuid": "5034a575-b462-54af-b2b0-8a2131045f12"
         },
         {
           "value": "spamhaus-xbl",
           "expanded": "Spamhaus Exploits Block List",
           "description": "The Spamhaus Exploits Block List (XBL) is a realtime database of IP addresses of hijacked PCs infected by illegal 3rd party exploits, including open proxies (HTTP, socks, AnalogX, wingate, etc), worms/viruses with built-in spam engines, and other types of trojan-horse exploits.",
-          "uuid": "0d6a4fc5-bbcc-5206-b8e1-2169eccf34f3"
+          "uuid": "c3a37e5c-a5cd-5c5a-babc-728804371555"
         },
         {
           "value": "spamhaus-pbl",
           "expanded": "Spamhaus Policy Block List",
           "description": "The Spamhaus PBL is a DNSBL database of end-user IP address ranges which should not be delivering unauthenticated SMTP email to any Internet mail server except those provided for specifically by an ISP for that customer's use.",
-          "uuid": "46adb12b-8eb6-576c-a94c-349971e4f3cc"
+          "uuid": "8d7a816f-845a-5546-a249-1d82c63677d1"
         },
         {
           "value": "spamhaus-css",
           "expanded": "Spamhaus CSS",
           "description": "The Spamhaus CSS list is an automatically produced dataset of IP addresses that are involved in sending low-reputation email. CSS mostly targets static spam emitters that are not covered in the PBL or XBL, such as snowshoe spam operations, but may also include other senders that display a risk to our users, such as compromised hosts.",
-          "uuid": "cc2392c1-d752-5559-a54a-89d3ad3a2820"
+          "uuid": "6d013ac4-10a6-541b-8050-03f3011d73a5"
         },
         {
           "value": "spamhaus-drop",
           "expanded": "Spamhaus Don't Route Or Peer",
           "description": "Spamhaus Don't Route Or Peer (DROP) is an advisory 'drop all traffic' list. DROP is a tiny subset of the SBL which is designed for use by firewalls or routing equipment.",
-          "uuid": "d6cebc95-ae4b-5aee-becd-1fdcaa39d85b"
+          "uuid": "ceab1f44-09f6-5754-8fab-851118e4edc0"
         },
         {
           "value": "spamhaus-spam",
           "expanded": "Spamhaus Domain Block List Spam Domain",
           "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used for spam.",
-          "uuid": "2e1d112e-4fab-53c7-ae60-9bdbdb5bf616"
+          "uuid": "2538e8a6-026f-5bea-8616-3081892a5a27"
         },
         {
           "value": "spamhaus-phish",
           "expanded": "Spamhaus Domain Block List Phish Domain",
           "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used for phishing.",
-          "uuid": "e1dc0f06-0a4c-5bcf-8b44-3df30c30f448"
+          "uuid": "a2a27da7-94f3-5c64-bd4e-c5d2a2555856"
         },
         {
           "value": "spamhaus-malware",
           "expanded": "Spamhaus Domain Block List Malware Domain",
           "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used to serve malware.",
-          "uuid": "250cd94c-086a-5f4a-bb6c-0f4e0267f675"
+          "uuid": "76a22631-fb2a-5ad3-9bfb-234489f9156f"
         },
         {
           "value": "spamhaus-botnet-c2",
           "expanded": "Spamhaus Domain Block List Botnet C2 Domain",
           "description": "Spamhaus Domain Block List (DBL) is a list of domain names with poor reputations used for botnet command and control.",
-          "uuid": "c9a32f9a-45c6-5523-a08f-c0db5ec9ddc9"
+          "uuid": "00abff80-68fa-54be-8c80-bde23e2d6ac5"
         },
         {
           "value": "spamhaus-abused-legit-spam",
           "expanded": "Spamhaus Domain Block List Abused Legit Spam Domain",
           "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used for spam.",
-          "uuid": "aba650df-4eaa-568a-9dca-fefa47094ea7"
+          "uuid": "f6f58b39-5b21-5c6a-85c6-de63448ef87e"
         },
         {
           "value": "spamhaus-abused-spammed-redirector",
           "expanded": "Spamhaus Domain Block List Abused Spammed Redirector Domain",
           "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate spammed domain names with poor reputations used as redirector domains.",
-          "uuid": "7512fb68-564f-50d7-b1f2-7f0a42f4cb51"
+          "uuid": "17de35b6-4b28-5da6-a34e-9faa813758c9"
         },
         {
           "value": "spamhaus-abused-legit-phish",
           "expanded": "Spamhaus Domain Block List Abused Legit Phish Domain",
           "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used for phishing.",
-          "uuid": "d990fa65-c342-5428-b06f-c553e6589916"
+          "uuid": "7f96d996-c968-511a-9d33-faca8d4437cb"
         },
         {
           "value": "spamhaus-abused-legit-malware",
           "expanded": "Spamhaus Domain Block List Abused Legit Malware Domain",
           "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used to serve malware.",
-          "uuid": "2ec813ee-6bd7-5f14-97ff-4cb46120f867"
+          "uuid": "9474b4e7-639b-58a4-88cc-3d577040e106"
         },
         {
           "value": "spamhaus-abused-legit-botnet-c2",
           "expanded": "Spamhaus Domain Block List Abused Legit Botnet C2 Domain",
           "description": "Spamhaus Domain Block List (DBL) is a list of abused legitimate domain names with poor reputations used for botnet command and control.",
-          "uuid": "efd87259-2b6c-593b-9c02-128e023d482d"
+          "uuid": "c91505d6-01e0-5ef0-9d44-d13d56d9b5c6"
         },
         {
           "value": "surbl-phish",
           "expanded": "SURBL Phishing Sites",
           "description": "Phishing data from multiple sources is included in this list. Data includes PhishTank, OITC, PhishLabs, Malware Domains and several other sources, including proprietary research by SURBL.",
-          "uuid": "940d8914-2766-553c-b78c-f9a30077573d"
+          "uuid": "bdc477f6-34db-5d7e-8a4e-30158b0e3338"
         },
         {
           "value": "surbl-malware",
           "expanded": "SURBL Malware Sites",
           "description": "This list contains data from multiple sources that cover sites hosting malware. This includes OITC, abuse.ch, The DNS blackhole malicious site data from malwaredomains.com and others. Malware data also includes significant proprietary research by SURBL.",
-          "uuid": "b643a8b0-04d4-5d30-8b9a-9c43ff30ef39"
+          "uuid": "59f6d608-0e17-5b8e-b62e-fb4eb79372f3"
         },
         {
           "value": "surbl-spam",
           "expanded": "SURBL Spam Sites",
           "description": "This list contains mainly general spam sites. It combines data from the formerly separate JP, WS, SC and AB lists. It also includes data from Internet security, anti-abuse, ISP, ESP and other communities, such as Telenor. Most of the data in this list comes from internal, proprietary research by SURBL.",
-          "uuid": "80432d62-29ba-5c70-8fba-be6ecc8e9413"
+          "uuid": "dd179ebe-476a-59e4-bf56-460ddf1d4816"
         },
         {
           "value": "surbl-abused-legit",
           "expanded": "SURBL Abused Legit Sites",
           "description": "This list contains data from multiple sources that cover cracked sites, including SURBL internal ones. Criminals steal credentials or abuse vulnerabilities to break into websites and add malicious content. Often cracked pages will redirect to spam sites or to other cracked sites. Cracked sites usually still contain the original legitimate content and may still be mentioned in legitimate emails, besides the malicious pages referenced in spam.",
-          "uuid": "c65bbbd4-18ac-59d8-9583-275f254e71e2"
+          "uuid": "43b87fba-7208-56e3-b107-3f0de5775249"
         },
         {
           "value": "uribl-black",
           "expanded": "URIBL Black",
           "description": "URIBL Black list contains domain names belonging to and used by spammers, including but not restricted to those that appear in URIs found in Unsolicited Bulk and/or Commercial Email (UBE/UCE). This list has a goal of zero False Positives.",
-          "uuid": "5f6c5fd3-3051-519d-be77-18e120577308"
+          "uuid": "9b654785-7829-5310-83d5-e414d5e58414"
         },
         {
           "value": "uribl-grey",
           "expanded": "URIBL Grey",
           "description": "URIBL Grey list contains domains found in UBE/UCE, and possibly honour opt-out requests. It may include ESPs which allow customers to import their recipient lists and may have no control over the subscription methods. This list can and probably will cause False Positives depending on your definition of UBE/UCE.",
-          "uuid": "cbb3117c-1912-5408-859d-915b45226442"
+          "uuid": "6246950d-ff59-5a5f-aaee-dba7bd834f58"
         },
         {
           "value": "uribl-red",
           "expanded": "URIBL Red",
           "description": "URIBL Red list contains domains that actively show up in mail flow, are not listed on URIBL black, and are either: being monitored, very young (domain age via whois), or use whois privacy features to protect their identity. This list is automated in nature, so please use at your own risk.",
-          "uuid": "fc65fd4e-1110-502a-81bf-b0ba04605ac1"
+          "uuid": "de448eac-72e9-56b9-8acc-c7b239b335f3"
         },
         {
           "value": "uribl-multi",
           "expanded": "URIBL Multi",
           "description": "URIBL Multi list contains all of the public URIBL lists.",
-          "uuid": "f2d63944-1fb5-56fb-996f-891a241e22e1"
+          "uuid": "0e2fb4d7-9891-5f8c-b27e-4ce87b5fba1a"
         }
       ]
     },
@@ -386,25 +386,25 @@
           "value": "high",
           "expanded": "High",
           "description": "The IP abuse confidence score is high (76-100).",
-          "uuid": "36c3f00a-9495-51c3-93b6-3c8192c2e70d"
+          "uuid": "3bc7b9a1-021b-5a03-85f6-9acba121d406"
         },
         {
           "value": "medium-high",
           "expanded": "Medium High",
           "description": "The IP abuse confidence score is medium-high (51-75).",
-          "uuid": "8a2a2e97-36df-5890-95be-fb030a3ad74e"
+          "uuid": "2d1cd6cb-0791-52d9-9cc9-bef15f997ab1"
         },
         {
           "value": "medium",
           "expanded": "Medium",
           "description": "The IP abuse confidence score is medium (26-50).",
-          "uuid": "3d9b9d76-a3a8-52b7-8961-407255474d2d"
+          "uuid": "aca545dd-1696-5adb-b14b-786566c9e6b8"
         },
         {
           "value": "low",
           "expanded": "Low",
           "description": "The IP abuse confidence score is low (0-25).",
-          "uuid": "fe3ef277-b75c-5a2a-acc6-7438ebc9b133"
+          "uuid": "a623450c-aed5-5e3d-89dc-baac44968ded"
         }
       ]
     },
@@ -415,13 +415,13 @@
           "value": "trust-level-1",
           "expanded": "Trust Level 1",
           "description": "These IPs are trustworthy because the companies or services assigned are generally responsible for the interactions with this IP. Adding these ranges to an allow-list may make sense.",
-          "uuid": "877a0b20-91d6-5953-acd6-ad66bc480690"
+          "uuid": "6b713056-dfaf-5705-ad5a-9bc10a38c1a5"
         },
         {
           "value": "trust-level-2",
           "expanded": "Trust Level 2",
           "description": "These IPs are somewhat trustworthy because they are necessary for regular and common business internet use. Companies that own these IPs typically do not claim responsibility or have accountability for interactions with these IPs. Malicious actions may be associated with these IPs but adding this entire range to a block-list does not make sense.",
-          "uuid": "c2a138a8-946b-5bee-bce1-98cf9cc473d9"
+          "uuid": "4f4eda0b-0cc6-5717-80e0-e2e34164b53c"
         }
       ]
     },
@@ -432,34 +432,34 @@
           "value": "malware",
           "expanded": "MALWARE",
           "description": "Malware threat type.",
-          "uuid": "1b13c3f4-cc3f-5987-9c01-1edabe95597b"
+          "uuid": "be55e67b-d78d-5e12-b7aa-193199274506"
         },
         {
           "value": "social-engineering",
           "expanded": "SOCIAL_ENGINEERING",
           "description": "Social engineering threat type.",
-          "uuid": "4365a600-ae5a-5efe-acc3-baeb73ebddb2"
+          "uuid": "e1a52489-9553-59a3-b8f7-9c1fe3528361"
         },
         {
           "value": "unwanted-software",
           "expanded": "UNWANTED_SOFTWARE",
           "description": "Unwanted software threat type.",
-          "uuid": "8be1a7f4-7949-5965-a3fb-42c5233a87a7"
+          "uuid": "1b278ff6-90e6-5a22-9720-aca25a34b796"
         },
         {
           "value": "potentially-harmful-application",
           "expanded": "POTENTIALLY_HARMFUL_APPLICATION",
           "description": "Potentially harmful application threat type.",
-          "uuid": "22d10b14-462e-5b0e-812c-47a9e00b8a15"
+          "uuid": "36f878a4-4ccc-5063-bcaf-01c4647a1757"
         },
         {
           "value": "unspecified",
           "expanded": "THREAT_TYPE_UNSPECIFIED",
           "description": "Unknown threat type.",
-          "uuid": "a399cbb8-9781-5929-9586-456d2dc5ba65"
+          "uuid": "91dfe321-a8b4-5919-b9cb-60e0387c98a8"
         }
       ]
     }
   ],
-  "uuid": "3abe1f64-f14e-5650-9cb3-8870830892a2"
+  "uuid": "a1a51ceb-177d-5920-bd8a-7c656ecb82af"
 }

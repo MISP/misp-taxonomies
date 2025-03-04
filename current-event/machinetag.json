@@ -6,12 +6,12 @@
     {
       "value": "pandemic",
       "expanded": "Pandemic",
-      "uuid": "6265e139-e6ea-5bff-95c7-49507dca4f61"
+      "uuid": "d7d5c487-320e-5a75-9d43-c9bd05c4b150"
     },
     {
       "value": "election",
       "expanded": "Election",
-      "uuid": "7450020e-68b0-50a3-9e20-4e62ef2f9895"
+      "uuid": "774d530f-dde9-542a-92a8-3ed1997a35f9"
     }
   ],
   "values": [
@@ -21,12 +21,12 @@
         {
           "value": "sars-cov",
           "expanded": "SARS-CoV 2003",
-          "uuid": "dddce881-5d4e-5456-8af8-6c250e57bcf9"
+          "uuid": "9efc008e-f4d7-5f5f-816c-3a5b1dd77f6d"
         },
         {
           "value": "covid-19",
           "expanded": "COVID-19",
-          "uuid": "8a4c99a1-626e-5aa3-83cc-c7b637572c87"
+          "uuid": "e6be579e-d635-5bcd-8db1-f376490cd4aa"
         }
       ]
     },
@@ -36,15 +36,15 @@
         {
           "value": "eu-par-2019",
           "expanded": "European Parliament election, 2019",
-          "uuid": "5c23733f-8d28-5e05-b297-2a0c56170631"
+          "uuid": "2f09f9e5-6361-5a4b-9e5b-258e508b6c86"
         },
         {
           "value": "us-pres-2020",
           "expanded": "United States Presidential election, 2020",
-          "uuid": "d08aab6c-704c-5ad5-9bec-6dbab9469c67"
+          "uuid": "bd9da9de-f182-53a1-9947-81e922f3957a"
         }
       ]
     }
   ],
-  "uuid": "0ae14085-7e87-566d-893a-1ee5eb557061"
+  "uuid": "64c18fc1-2054-5f8d-88e2-6feecd7e41a7"
 }

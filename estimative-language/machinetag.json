@@ -9,14 +9,14 @@
       "expanded": "Likelihood or probability",
       "description": "Properly expresses and explains uncertainties associated with major analytic judgments: Analytic products should indicate and explain the basis for the uncertainties associated with major analytic judgments, specifically the likelihood of occurrence of an event or development, and the analyst's confidence in the basis for this judgment. Degrees of likelihood encompass a full spectrum from remote to nearly certain. Analysts' confidence in an assessment or judgment may be based on the logic and evidentiary base that underpin it, including the quantity and quality of source material, and their understanding of the topic. Analytic products should note causes of uncertainty (e.g., type, currency, and amount of information, knowledge gaps, and the nature of the issue) and explain how uncertainties affect analysis (e.g., to what degree and how a judgment depends on assumptions). As appropriate, products should identify indicators that would alter the levels of uncertainty for major analytic judgments. Consistency in the terms used and the supporting information and logic advanced is critical to success in expressing uncertainty, regardless of whether likelihood or confidence expressions are used.",
       "exclusive": true,
-      "uuid": "3973aec1-d5f6-5459-97b5-bc54d32c820c"
+      "uuid": "c248e857-7c8c-551b-9a8c-920e6d7f0a01"
     },
     {
       "value": "confidence-in-analytic-judgment",
       "expanded": "Confidence in analytic judgment",
       "description": "Confidence in a judgment is based on three factors:   number of key assumptions required, the credibility and diversity of sourcing in the knowledge base, and the strength of argumentation. Each factor should be assessed independently and then in concert with the other factors to determine the confidence level. Multiple judgments in a product may contain varying levels of confidence. Confidence levels are stated as Low, Moderate, and High.",
       "exclusive": true,
-      "uuid": "7cc4e76b-452f-5d60-ad1c-1e3164b45705"
+      "uuid": "2813ef56-0774-5478-ad5d-366f3ccefbad"
     }
   ],
   "values": [
@@ -27,43 +27,43 @@
           "value": "almost-no-chance",
           "expanded": "Almost no chance - remote - 01-05%",
           "numerical_value": 0,
-          "uuid": "29cf4e2d-f67f-5161-b61c-2fa0cadedd86"
+          "uuid": "e098f060-e592-5c22-88b8-c22f1e0b5df0"
         },
         {
           "value": "very-unlikely",
           "expanded": "Very unlikely - highly improbable - 05-20%",
           "numerical_value": 5,
-          "uuid": "d4bdfb08-5294-5dc5-8b26-0b20dd38c0cc"
+          "uuid": "d95b4e32-865c-5d91-9fcb-9c7e87519a6f"
         },
         {
           "value": "unlikely",
           "expanded": "Unlikely - improbable (improbably) - 20-45%",
           "numerical_value": 20,
-          "uuid": "36de93b9-56db-58b9-abd6-a8bfb6d91b56"
+          "uuid": "5b9cb6fa-9949-5a77-bda2-a1dd3c92bd2d"
         },
         {
           "value": "roughly-even-chance",
           "expanded": "Roughly even change - roughly even odds - 45-55%",
           "numerical_value": 45,
-          "uuid": "43d82e0d-9cda-5091-b610-301a04f27645"
+          "uuid": "814bd084-ad34-5905-9c31-e551f5dcd643"
         },
         {
           "value": "likely",
           "expanded": "Likely - probable (probably) - 55-80%",
           "numerical_value": 55,
-          "uuid": "8ea42de3-82ca-504a-8033-8af18368d099"
+          "uuid": "1bf0746f-7d94-5f04-a467-7b4efcba2cd7"
         },
         {
           "value": "very-likely",
           "expanded": "Very likely - highly probable - 80-95%",
           "numerical_value": 80,
-          "uuid": "09e448d7-fe3d-530b-8116-1da2796abbb4"
+          "uuid": "41ee1fdd-bce2-50ab-af51-5d9ce522f16d"
         },
         {
           "value": "almost-certain",
           "expanded": "Almost certain(ly) - nearly certain - 95-99%",
           "numerical_value": 95,
-          "uuid": "82345f8a-a434-5250-b9f5-f5af03ca6e6c"
+          "uuid": "44f5b52b-79b3-57c3-9672-67155e778d4a"
         }
       ]
     },
@@ -75,24 +75,24 @@
           "expanded": "Low",
           "description": "Uncorroborated information from good or marginal sources. Many assumptions. Mostly weak logical inferences, minimal methods application. Glaring intelligence gaps exist. Terms or expressions used: 'Possible', 'Could, may, might', 'Cannot judge, unclear.'",
           "numerical_value": 0,
-          "uuid": "8e9755f5-f271-50da-851b-d510f072558d"
+          "uuid": "029d7ec3-4729-5fa8-aef0-d8d449edd319"
         },
         {
           "value": "moderate",
           "expanded": "Moderate",
           "description": "Partially corroborated information from good sources. Several assumptions. Mix of strong and weak inferences and methods. Minimum intelligence gaps exist. Terms or expressions used: 'Likely, unlikely', 'Probable, improbable' 'Anticipate, appear'.",
           "numerical_value": 55,
-          "uuid": "94b7496a-b816-5725-b089-94e9017c9e1d"
+          "uuid": "24c80194-b976-5ab3-bd32-ecdfe8e3896a"
         },
         {
           "value": "high",
           "expanded": "High",
           "description": "Well-corroborated information from proven sources. Minimal assumptions. Strong logical inferences and methods. No or minor intelligence gaps exist. Terms or expressions used: 'Will, will not', 'Almost certainly, remote', 'Highly likely, highly unlikely', 'Expect, assert, affirm'.",
           "numerical_value": 95,
-          "uuid": "02f0e141-be18-5cac-b413-3dd35a671680"
+          "uuid": "80efe56a-ee4e-5eb2-8d6c-b7998820566c"
         }
       ]
     }
   ],
-  "uuid": "5e7f3975-3ae2-5a57-a77a-08d2ccfde316"
+  "uuid": "33d478d1-ea19-55f2-9132-1e9b78b7d03b"
 }

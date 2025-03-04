@@ -10,127 +10,127 @@
       "value": "parties-party",
       "expanded": "Parties Party",
       "description": "Information dealing with people or organisations.",
-      "uuid": "42a3f863-5f32-5a34-b053-f7d57cade3b5"
+      "uuid": "2b239a01-4b48-54f6-a36f-5cf094e40a06"
     },
     {
       "value": "parties-qualification",
       "expanded": "Parties Qualification",
       "description": "Information which relates to persons or organisations of a qualifying nature.",
-      "uuid": "ae8912a5-e9f0-5245-8cfb-55eed99bcb5d"
+      "uuid": "dd21388f-a56f-5131-8347-48dd8f9049f3"
     },
     {
       "value": "parties-role",
       "expanded": "Parties Role",
       "description": "Role information which relates to persons or organisations.",
-      "uuid": "a8e49c9a-dfbf-5799-aa00-f726a3c0bfad"
+      "uuid": "33ad9c0f-84ab-5945-bffd-bec85a4a0550"
     },
     {
       "value": "parties-party-relationship",
       "expanded": "Parties Party Relationship",
       "description": "Information about the relationship between two or more parties.",
-      "uuid": "f0ceaaae-16cc-5cbe-8aee-3954498869e6"
+      "uuid": "73f75634-9fe3-517c-90fc-964a2526e025"
     },
     {
       "value": "places-address",
       "expanded": "Places Address",
       "description": "Detailed information related to an address.",
-      "uuid": "6419322a-83b1-590a-94e5-212414ebc4cc"
+      "uuid": "b4be87e1-2525-5f4b-bd47-66ea5c6bed04"
     },
     {
       "value": "places-location-type",
       "expanded": "Places Location Type",
       "description": "Information of a geospatial or geopolitical nature held by an organisation.",
-      "uuid": "5725a42c-b64e-5240-ac4f-c3b4c1362a4c"
+      "uuid": "f4366d65-0065-5b19-be41-10d341172d84"
     },
     {
       "value": "places-address-type",
       "expanded": "Places Address Type",
       "description": "Identifies the types of address.",
-      "uuid": "434fa454-079d-5428-b1aa-2297b0367e0a"
+      "uuid": "0b09f693-dbb9-55fe-bb0f-c8fbf95ff74c"
     },
     {
       "value": "places-purpose-of-location",
       "expanded": "Places Purpose of Location",
       "description": "Information about the purpose of a given address or location.",
-      "uuid": "3bbb00f1-5c64-5921-94a0-91db7f41e198"
+      "uuid": "24fcc56d-4506-5972-9d2d-4e2ec3de4a48"
     },
     {
       "value": "items-application-&-ict-services",
       "expanded": "Items Application & ICT Services",
       "description": "Information about application and ICT service assets.",
-      "uuid": "1208c82d-1425-5d06-86c2-994636166bf8"
+      "uuid": "9da8507c-5de1-5045-a256-5a6e7e186ed0"
     },
     {
       "value": "items-ict-infrastructure",
       "expanded": "Items ICT Infrastructure",
       "description": "Information about man made surroundings that provide setting for organisational activity, such as platforms, networks, facilities, and end user equipment.",
-      "uuid": "1e534dd0-14d9-50f6-9287-a0e1819ec099"
+      "uuid": "f55347e2-f5fe-57ce-80ad-98ae1f947a4b"
     },
     {
       "value": "items-natural",
       "expanded": "Items natural",
       "description": "Information held by organisation which relate to natural resources.",
-      "uuid": "4e1dc853-f113-511a-9cb7-72bd098bd067"
+      "uuid": "f4790992-a797-5d6d-b0bd-70c5ed35b932"
     },
     {
       "value": "items-financial",
       "expanded": "Items Financial",
       "description": "Information related to financial assistance products.",
-      "uuid": "90345643-a0b3-5db8-ab3b-437808c5186a"
+      "uuid": "e421dd0c-97a2-5314-88e0-7d8f1b72643d"
     },
     {
       "value": "items-goods",
       "expanded": "Items Goods",
       "description": "Information related to goods.",
-      "uuid": "c436d7f2-0970-58d3-af1a-51cc1648662b"
+      "uuid": "94aa7e93-0856-5e35-884d-61d9258464ba"
     },
     {
       "value": "items-regulatory",
       "expanded": "Items Regulatory",
       "description": "Information on regulatory products managed by an organisation.",
-      "uuid": "6f6d07ca-d64b-5537-8007-5906eda942a2"
+      "uuid": "0567a748-6be4-57a6-b43e-414a294e472a"
     },
     {
       "value": "items-urban-infrastructure",
       "expanded": "Items Urban Infrastructure",
       "description": "Information related to urban infrastructure.",
-      "uuid": "c1fbe46c-f07e-5082-868c-3b8d70d9eec4"
+      "uuid": "06ded381-2bb6-5749-b831-8edc1ce88f97"
     },
     {
       "value": "items-accommodation",
       "expanded": "Items Accommodation",
       "description": "Information related to short–term accommodation provided on a commercial basis, excluding long–term accommodation and accommodation that is provided on a non–commercial basis.",
-      "uuid": "5ab1d59d-60aa-5ab7-b077-2ade4904ce2f"
+      "uuid": "eaed0e4a-8e0f-592b-aa87-cb20c1dbc655"
     },
     {
       "value": "items-dwelling-type",
       "expanded": "Items Dwelling Type",
       "description": "Information related to occupied dwelling type is used to monitor trends and developments in housing and institutional dwellings, to plan for the future housing and service needs of the community.",
-      "uuid": "ab227306-4871-5fb7-8ea2-e65bc38ced7e"
+      "uuid": "9635dcb2-a5a7-55e0-9d42-e81b99be561c"
     },
     {
       "value": "items-artefact",
       "expanded": "Items Artefact",
       "description": "An artefact is an item of value and manifests in a concrete form such as reports, documents, tables, books, instruction manuals, evidence, etc.",
-      "uuid": "d6ea1af0-a42f-5db6-844f-9d604d1b7419"
+      "uuid": "7b0b7376-3fdf-5475-ae76-839149511259"
     },
     {
       "value": "items-waste",
       "expanded": "Items Waste",
       "description": "Information related to the waste used, managed or produced by the organisation.",
-      "uuid": "387bcae6-f9ba-5b17-9a87-b685d34034f4"
+      "uuid": "7ae39e40-2044-5039-83e8-32a6e1c3aa0c"
     },
     {
       "value": "items-item-usage",
       "expanded": "Items Item Usage",
       "description": "Identifies the ways in which an organisation may use an item.",
-      "uuid": "e4563ea1-0cc5-5892-9d5d-60e63ab9f23f"
+      "uuid": "866e906f-49de-5b3b-b152-06e38ac3b0e5"
     },
     {
       "value": "items-other-item",
       "expanded": "Items Other Item",
       "description": "Detailed information of other items not categorised within Items.",
-      "uuid": "982d84c4-71b1-5493-8c9b-d761e4292abd"
+      "uuid": "0a9cff5d-a7d5-573d-a88f-682b3537ab69"
     }
   ],
   "values": [
@@ -141,13 +141,13 @@
           "value": "organisation",
           "expanded": "Organisation",
           "description": "Information dealing with organisations, particularly where an information asset has no requirement to address either of these party sub-types directly.",
-          "uuid": "4a642f99-56a6-5be4-95bc-d6ccfcb9dec8"
+          "uuid": "5c5123cf-f6e7-50b8-8b66-9b2af88f1722"
         },
         {
           "value": "individual",
           "expanded": "Individual",
           "description": "Information dealing with an individual.",
-          "uuid": "5f2f0997-d7da-5a88-bdfe-890393ac3b24"
+          "uuid": "4671dd75-3dc0-5adc-b5a2-d74a3e53597c"
         }
       ]
     },
@@ -158,25 +158,25 @@
           "value": "competence",
           "expanded": "Competence",
           "description": "Detailed information relating to party's competencies, experience based or professional.",
-          "uuid": "e20d5919-e4cd-51c9-b374-6e807091046c"
+          "uuid": "83498ee8-3d59-529a-a2af-1ccf3d37db5b"
         },
         {
           "value": "education",
           "expanded": "Education",
           "description": "Detailed information relating to party's education history, such as higher education, schools, vocations.",
-          "uuid": "7d812309-c4fb-5641-9b41-817a890ea1e2"
+          "uuid": "8613c519-f1a8-5962-8e2e-95da3b6b037e"
         },
         {
           "value": "industry",
           "expanded": "Industry",
           "description": "Detailed information relating to party's (mostly of an organisation) specific industry.",
-          "uuid": "d26ea9f8-5b3a-5ff3-9188-397fdc0f6273"
+          "uuid": "89c18b81-ec13-59fa-841f-e9e6abc3428b"
         },
         {
           "value": "occupation",
           "expanded": "Occupation",
           "description": "Detailed information relating to a party's occupation.",
-          "uuid": "5424bdbc-c44e-5f6d-b890-0d7648e9b880"
+          "uuid": "db90606c-52fc-5b1b-9b9b-bda19078a70a"
         }
       ]
     },
@@ -187,25 +187,25 @@
           "value": "commerce",
           "expanded": "Commerce",
           "description": "Detailed information relating to commercial roles.",
-          "uuid": "cc5f0b49-d2fb-5f95-8936-0007b056033e"
+          "uuid": "5b4ee95e-6580-5ea4-9e09-abc3a38a11b3"
         },
         {
           "value": "legal",
           "expanded": "Legal",
           "description": "Detailed information relating to legal roles, such as commissioner, counsel, defendant, investigator, offender, source, suspect, witness.",
-          "uuid": "b78b1bee-c73c-5a51-ad1a-0e97b6c99f88"
+          "uuid": "c576a972-5702-54e7-a556-b523600891aa"
         },
         {
           "value": "of-interest",
           "expanded": "Of Interest",
           "description": "Detailed information relating to roles a party plays in any subject of interest.",
-          "uuid": "93fbef9e-8441-5556-b265-c734e982b3e0"
+          "uuid": "22f277cd-bebe-59b3-a6e8-32a82b10e9a8"
         },
         {
           "value": "social",
           "expanded": "Social",
           "description": "Detailed information relating to social roles.",
-          "uuid": "54af9200-5d97-562d-bd6b-f53e32246398"
+          "uuid": "023686ae-23f1-5fbd-9043-0c2b37b9e79a"
         }
       ]
     },
@@ -216,25 +216,25 @@
           "value": "membership",
           "expanded": "Membership",
           "description": "Detailed information relating to membership to groups, forums, etc.",
-          "uuid": "c4d8a8bb-1b77-5b66-847b-fe15cac1a196"
+          "uuid": "6b9a716f-1859-5bd3-b33c-7b5b222e7921"
         },
         {
           "value": "employer",
           "expanded": "Employer",
           "description": "Detailed information relating to relationship of an employer towards other parties, such as employee, government, industry.",
-          "uuid": "a0b550fe-933f-5db2-8c82-dba7cf2cdd26"
+          "uuid": "b849d1fb-684d-545a-b69e-7137bbb435f5"
         },
         {
           "value": "provider",
           "expanded": "Provider",
           "description": "Detailed information relating to relationship as a provider of services towards other parties.",
-          "uuid": "f04b9d77-0dfb-5c2b-9ff0-3689084a6067"
+          "uuid": "80840cf7-4975-5877-9a11-55c79e062069"
         },
         {
           "value": "delegation",
           "expanded": "Delegation",
           "description": "Detailed information related to the relationship of delegation, both delegator / delegated.",
-          "uuid": "5242238f-5904-5eef-8987-b9961cb5256a"
+          "uuid": "453a0e3e-f8f8-5320-a823-17e2b90cbb93"
         }
       ]
     },
@@ -245,13 +245,13 @@
           "value": "electronic-address",
           "expanded": "Electronic Address",
           "description": "Detailed information around an electronic address.",
-          "uuid": "66eba7ff-559a-5db3-b1aa-96ddffb8c676"
+          "uuid": "2c393319-9fbf-5138-aa38-a251117e88e6"
         },
         {
           "value": "physical-address",
           "expanded": "Physical Address",
           "description": "Detailed information related to geographic addresses.",
-          "uuid": "652bf61b-8c97-5338-a18a-45c7a2c26565"
+          "uuid": "6e7b0b8e-bff6-5a4e-bd14-af8ea8f21f29"
         }
       ]
     },
@@ -262,13 +262,13 @@
           "value": "geopolitical",
           "expanded": "Geopolitical",
           "description": "Detailed information related to geopolitical places, such as council, country, electorate, locality, nation, region, and province.",
-          "uuid": "df5d4fc7-9505-5061-baf9-6db15f55516c"
+          "uuid": "3ac49781-8760-56f0-9cf1-00908f79716d"
         },
         {
           "value": "geospatial",
           "expanded": "Geospatial",
           "description": "Detailed information related to geospatial places, such as area, lot, parish, statistical area, suburb, town, village, and zone.",
-          "uuid": "30bb3496-b1a8-58a3-8305-31f372e32f59"
+          "uuid": "b2d4bb10-e635-5d93-82f0-f7e9a368469c"
         }
       ]
     },
@@ -279,31 +279,31 @@
           "value": "nz-standard-addresss",
           "expanded": "NZ Standard Address",
           "description": "Detailed information relating to standard New Zealand addresses.",
-          "uuid": "ebb2b829-b02a-57f8-8fa4-b990d23648c7"
+          "uuid": "25d8a66c-67e5-50e6-98ce-769319d67725"
         },
         {
           "value": "po-box",
           "expanded": "PO Box",
           "description": "Detailed information relating to PO Box, a numbered box in a post office assigned to a person or organization, where letters for them are kept until called for.",
-          "uuid": "9746a75e-ff98-519b-a3e2-0dcdf5be3570"
+          "uuid": "197905e5-5b67-552f-9bde-4d8d356a618c"
         },
         {
           "value": "rural-delivery-address",
           "expanded": "Rural Delivery Address",
           "description": "Detailed information relating to rural delivery addresses which have no standard NZ format.",
-          "uuid": "796b37ad-f1e5-56c8-9eae-c42cf44834d6"
+          "uuid": "9c66460d-40ca-5dd0-bb66-8eec47724d78"
         },
         {
           "value": "ovearseas-address",
           "expanded": "Overseas Address",
           "description": "Detailed information relating to addresses in other countries.",
-          "uuid": "a29680ed-4901-52e1-a7f8-8bb8a545d576"
+          "uuid": "6a68f0d3-4724-5d96-8c2a-de63d1856ee4"
         },
         {
           "value": "location-addresss",
           "expanded": "Location Address",
           "description": "Detailed information relating to physical location addresses including coordinates.",
-          "uuid": "17313682-6109-508b-9d87-56f0c45a715d"
+          "uuid": "d6425517-a2f1-5a29-8b9b-a0ab382a8172"
         }
       ]
     },
@@ -314,73 +314,73 @@
           "value": "residency",
           "expanded": "Residency",
           "description": "Detailed information relating to home addresses, both current and previous.",
-          "uuid": "ac53f93e-2351-5ca1-aa17-3fa15c1ccb96"
+          "uuid": "6fbfbe5f-38cf-5acf-9ee9-dec27e3e785e"
         },
         {
           "value": "delivery",
           "expanded": "Delivery",
           "description": "Detailed information related to delivery addresses.",
-          "uuid": "21b78764-11a3-5206-b451-5cb1caf009a6"
+          "uuid": "7d05159c-cc72-5b1d-b14c-221a57124d2c"
         },
         {
           "value": "billing",
           "expanded": "Billing",
           "description": "Detailed information related to billing addresses.",
-          "uuid": "9525e385-6d2a-5a59-8f03-ef0ca64b6661"
+          "uuid": "d2e4d311-d30e-5623-9158-d0ee7e3c70e4"
         },
         {
           "value": "place-of-birth",
           "expanded": "Place of Birth",
           "description": "Detailed information related to the place of birth.",
-          "uuid": "c0e13c82-d5a8-536f-a85d-8d1f688b386d"
+          "uuid": "b98ca23c-b85a-5330-98ca-de79e02efa93"
         },
         {
           "value": "consultation",
           "expanded": "Consultation",
           "description": "Detailed information related to the location of a consultation.",
-          "uuid": "cc1e8f5a-97eb-5522-9cfd-d3894bb44a23"
+          "uuid": "a7c99eaa-b34b-5778-980c-609e418f2d7d"
         },
         {
           "value": "referral",
           "expanded": "Referral",
           "description": "Detailed information related to location of a referral.",
-          "uuid": "5cd31a12-787c-54e5-b551-2b22d72b3ee4"
+          "uuid": "49d2dfe3-5566-546e-90fb-24d32552371c"
         },
         {
           "value": "admission",
           "expanded": "Admission",
           "description": "Detailed information related to the location of an admission.",
-          "uuid": "4ff0f974-33a6-54ae-b306-78153157def7"
+          "uuid": "c42f367d-4a85-5194-95ca-4c2a705e54fd"
         },
         {
           "value": "treatment",
           "expanded": "Treatment",
           "description": "Detailed information related to the location of a treatment.",
-          "uuid": "24149848-c55e-5571-a932-0284e1e9097b"
+          "uuid": "809d6213-f7c3-5102-8797-ea24b5c99c9e"
         },
         {
           "value": "work-place",
           "expanded": "Work Place",
           "description": "Detailed information related to the workplace location or address.",
-          "uuid": "ffb11a70-ff1d-5379-bd79-b940b4666cb8"
+          "uuid": "60de4bde-ea85-57e0-8f18-a8dbfd057c47"
         },
         {
           "value": "facility-location",
           "expanded": "Facility Location",
           "description": "Detailed information related to the location of a facility.",
-          "uuid": "26c95eb8-9f0f-5858-8d4d-65e726a1e2aa"
+          "uuid": "be8a970c-0ae7-5a22-89e4-c3e2c227b079"
         },
         {
           "value": "storage",
           "expanded": "Storage",
           "description": "Detailed information related to the location of storage of goods or other items.",
-          "uuid": "eaf109e0-a6a7-5244-8b24-bca2e5e3cd0e"
+          "uuid": "f6139ba7-ac2c-52ea-b4bc-353efd7e85f8"
         },
         {
           "value": "place-of-event",
           "expanded": "Place of Event",
           "description": "Detailed information related to the location of an event.",
-          "uuid": "6e93114a-27d3-5f8e-bfed-721e5e9d4475"
+          "uuid": "7c5714fa-54e8-5660-8887-94d2a5454ede"
         }
       ]
     },
@@ -391,49 +391,49 @@
           "value": "corporate-application",
           "expanded": "Corporate Application",
           "description": "Detailed information related to corporate applications, such as applications for enterprise resource planning, financial and asset management, HR management, business continuity, etc..",
-          "uuid": "90f918f2-d4bd-501b-b31b-eb180899a13f"
+          "uuid": "a3319ed9-decf-5007-8c0e-ded719b97f40"
         },
         {
           "value": "common-line-of-business-application",
           "expanded": "Common Line of Business Application",
           "description": "Detailed information related to common LoB application, such as applications to manage product and services, marketing, customer and partner relationships, customer accounting, etc.",
-          "uuid": "144dc3da-f755-5d33-9643-4f208514aa63"
+          "uuid": "928477ae-37e9-51d2-b731-20a63919818b"
         },
         {
           "value": "end-user-computing",
           "expanded": "End User Computing",
           "description": "Detailed information related to end user computing, such as applications to manage end user devices, end user tools, mobile applications, productivity suits, etc.",
-          "uuid": "831bc6ce-6338-51c8-8130-923c8cc1a362"
+          "uuid": "8b471af2-94eb-50e3-ac06-90ca65d805c4"
         },
         {
           "value": "data-and-information-management",
           "expanded": "Data and Information Management",
           "description": "Detailed information related to data and information management ICT services, such as services for interoperability, data governance, quality management, data protection etc.",
-          "uuid": "74bd9ec5-2ab0-53f2-bdf0-1f8627e29881"
+          "uuid": "785f9cf2-9cf6-52f1-a6dd-058169af3c97"
         },
         {
           "value": "identity-and-accesd-management",
           "expanded": "Identity and Access Management",
           "description": "Detailed information related to identity and access management ICT services, such as services for identity governance, identity administration, authentication, authorisation, directory, etc.",
-          "uuid": "b65efc36-2b2d-5aff-8c59-0eb7daab49e9"
+          "uuid": "838b85dd-30c8-5062-8e58-adbd3961a923"
         },
         {
           "value": "security-service",
           "expanded": "Security Service",
           "description": "Detailed information related to security ICT services, such as encryption, network security; public key infrastructure, security controls, etc.",
-          "uuid": "3435b483-1c4e-597e-8d63-7e8d200f3289"
+          "uuid": "032c1b86-d347-507f-b5fc-222d50e4d675"
         },
         {
           "value": "ict-components-services-and-tools",
           "expanded": "ICT Components, Services and Tools",
           "description": "Detailed information related to software and ICT services for operational management and maintenance of applications, ICT components and services.",
-          "uuid": "322cae74-847c-5496-94af-c718d8a29bc3"
+          "uuid": "f09c0592-91f2-5e31-91a9-410d14009fa0"
         },
         {
           "value": "interface-and-integration",
           "expanded": "Interface and Integration",
           "description": "Detailed information related to software and ICT services that support how agencies will interface and integrate both internally and externally.",
-          "uuid": "4f2cdb68-7f3d-5a5a-ba49-8f59e5f1e0d0"
+          "uuid": "59b75ab2-eb97-5a46-b69c-bd1ec8b9f2ad"
         }
       ]
     },
@@ -444,25 +444,25 @@
           "value": "platform",
           "expanded": "Platform",
           "description": "Detailed information related to platforms, such as hardware, platform operating systems, and virtualisation.",
-          "uuid": "f2bb553e-2241-5c34-99d3-14beb2d0204c"
+          "uuid": "24d1f338-6cdb-551e-a1ed-3a02bca2380b"
         },
         {
           "value": "network",
           "expanded": "Network",
           "description": "Detailed information related to networks, such as network types, traffic types, network infrastructure, transmission types, and network protocol layering.",
-          "uuid": "b0635844-adf6-5434-9e1e-4c1434ec984c"
+          "uuid": "be1615ca-3885-5e54-908d-8c492c875de7"
         },
         {
           "value": "facility",
           "expanded": "Facility",
           "description": "Detailed information related to facilities, such as facility types, operational controls, facility physical security, and facility infrastructure.",
-          "uuid": "fd68d22f-7bc8-5c63-ad5b-ede0ceeb4133"
+          "uuid": "a9ac2dcd-d571-503e-9ba6-5bfeb8db6ff4"
         },
         {
           "value": "end-user-equipment",
           "expanded": "End User Equipment",
           "description": "Detailed information related to end user equipment, such as desktop equipment, mobility equipment, user peripherals, embedded technology devices, and equipment operating systems.",
-          "uuid": "97dce6b7-b78f-5795-8620-484b61caca9a"
+          "uuid": "e9f0a2c9-5991-5b8e-b9eb-08daf706a79a"
         }
       ]
     },
@@ -473,43 +473,43 @@
           "value": "air",
           "expanded": "Air",
           "description": "Detailed information related to air, such as condition, pollution, health.",
-          "uuid": "b50ddcbe-4455-5010-a082-b5e26fd25674"
+          "uuid": "01636d35-ef0e-5339-9d5c-e9527f6dd893"
         },
         {
           "value": "fauna",
           "expanded": "Fauna",
           "description": "Detailed information related to fauna.",
-          "uuid": "b1733a0c-15aa-575d-9481-7e36ef6899f3"
+          "uuid": "09f9cb40-c195-5b2a-b7c2-1a3e9dedd409"
         },
         {
           "value": "flora",
           "expanded": "Flora",
           "description": "Detailed information related to flora.",
-          "uuid": "b75275f2-0543-51c3-a809-19f5e7d477a9"
+          "uuid": "2db57393-2afc-5a88-9403-a2160ef78fc1"
         },
         {
           "value": "land",
           "expanded": "Land",
           "description": "Detailed information related to land or earth, such as percentage of rocks, soil, mud, pollution, usage, etc.",
-          "uuid": "41ff5281-1411-5b02-8f82-3c12271a0cbe"
+          "uuid": "522215e7-d5aa-5456-bed4-c7147d170509"
         },
         {
           "value": "minerals",
           "expanded": "Minerals",
           "description": "Detailed information related to minerals.",
-          "uuid": "ff511e21-5345-5fcd-b5e4-87986bd2ee40"
+          "uuid": "7245e62a-4a2c-58d1-a97e-3d474c6f2ab4"
         },
         {
           "value": "water",
           "expanded": "Water",
           "description": "Detailed information related to water, such as ground water, river water, sea water.",
-          "uuid": "54aa7238-20d8-5e3f-9d42-ed6740dfc1dd"
+          "uuid": "c25e652b-873c-5fac-8347-801d01380972"
         },
         {
           "value": "energy",
           "expanded": "Energy",
           "description": "Detailed information related to energy.",
-          "uuid": "8ead5b47-0890-5a05-ac23-12a87d8cdd2b"
+          "uuid": "8fb6b37f-c9b5-5726-9153-aa6b7547641f"
         }
       ]
     },
@@ -520,97 +520,97 @@
           "value": "allowance",
           "expanded": "Allowance",
           "description": "Detailed information related to allowances.",
-          "uuid": "188a71df-9198-5a8d-8c8c-ae2451bf8962"
+          "uuid": "14771a18-26ea-5c11-9141-87f1e5a37108"
         },
         {
           "value": "award",
           "expanded": "Award",
           "description": "Detailed information related to awards.",
-          "uuid": "633cbf1d-3187-51cd-877e-c1e4efff08b1"
+          "uuid": "d0ebb710-815e-5cba-9c18-77526a24383b"
         },
         {
           "value": "benefit",
           "expanded": "Benefit",
           "description": "Detailed information related to benefits.",
-          "uuid": "2f0d699d-2d90-5b9a-b16f-c7e97714520a"
+          "uuid": "e6588bb3-fce5-5ffa-ac7e-56ba9185ae56"
         },
         {
           "value": "bonus",
           "expanded": "Bonus",
           "description": "Detailed information related to bonuses.",
-          "uuid": "f0f7b1ba-cdf8-5d2f-9eae-2d644bbaa9c7"
+          "uuid": "67e68cc9-de14-5ea8-8579-308a4a65ea75"
         },
         {
           "value": "compensation",
           "expanded": "Compensation",
           "description": "Detail information related to compensations.",
-          "uuid": "12802e75-db5a-56bd-8248-1d248dccf930"
+          "uuid": "22dcccbc-4750-5b97-abed-9a904b8e6c8f"
         },
         {
           "value": "concession",
           "expanded": "Concession",
           "description": "Detailed information related to concessions.",
-          "uuid": "d7afb0c7-29ec-596c-bbe7-a602105878f4"
+          "uuid": "62e453c4-e190-52c7-b349-29ebbb436e01"
         },
         {
           "value": "grant",
           "expanded": "Grant",
           "description": "Detailed information related to grants.",
-          "uuid": "9f9658e7-805a-5760-aced-79f07ed00abc"
+          "uuid": "4e26453a-dc39-577d-973e-79e64899ae47"
         },
         {
           "value": "pension",
           "expanded": "Pension",
           "description": "Detailed information related to pensions.",
-          "uuid": "e57ce281-fdbc-598b-b99b-769049f3fa84"
+          "uuid": "3d163a54-cd9e-5528-875a-2baa93efef99"
         },
         {
           "value": "subsidy",
           "expanded": "Subsidy",
           "description": "Detailed information related to subsidies.",
-          "uuid": "35df139c-a1a2-53e6-9f78-600fc3f00ce3"
+          "uuid": "8f9f20fa-9615-5db4-be28-da1a1826ea95"
         },
         {
           "value": "wage",
           "expanded": "Wage",
           "description": "Detailed information related to wages.",
-          "uuid": "1be3b846-e56b-55f8-b22e-cc413027cad4"
+          "uuid": "2b2b1dd6-723f-5dce-8b0c-acdd657bad65"
         },
         {
           "value": "bond",
           "expanded": "Bond",
           "description": "Detailed information related to bonds.",
-          "uuid": "a95d03d8-dd53-50f9-bd44-7c4570126840"
+          "uuid": "5019e973-026b-588a-8591-9699875cf80e"
         },
         {
           "value": "duty",
           "expanded": "Duty",
           "description": "Detailed information related to income from duties.",
-          "uuid": "2c17c993-048f-53b4-9b9e-c763dda24a8d"
+          "uuid": "49eb9f2c-9a33-51cf-9af3-c82e996287c2"
         },
         {
           "value": "excise",
           "expanded": "Excise",
           "description": "Detailed information related to income from internal tax or duty on certain commodities, as liquor or tobacco, levied on their manufacture, sale, or consumption within the country.",
-          "uuid": "0b2ce102-0e49-5aca-8b46-33f4425eb8ae"
+          "uuid": "b9679510-e8cc-5722-b498-10860bd1fd6d"
         },
         {
           "value": "insurance",
           "expanded": "Insurance",
           "description": "Detailed information related to insurance.",
-          "uuid": "d57278b3-b277-58ea-9c3f-e9431d44f569"
+          "uuid": "6a2ff7ff-445d-5bd4-a968-5f02a483de2b"
         },
         {
           "value": "loan",
           "expanded": "Loan",
           "description": "Detailed information related to revenue from loans.",
-          "uuid": "da5c70f1-6dd1-55cb-b2e4-5419773dfbc3"
+          "uuid": "28c54209-e68b-57d4-a22c-f5e4120c6ecc"
         },
         {
           "value": "tax",
           "expanded": "Tax",
           "description": "Detailed information related to revenue from taxes.",
-          "uuid": "db7b8475-0783-52fe-87d4-d8907fb0adf0"
+          "uuid": "847c0d67-d142-5f47-87ff-03f16b0c5ca6"
         }
       ]
     },
@@ -621,205 +621,205 @@
           "value": "chemical",
           "expanded": "Chemical",
           "description": "Detailed information relating to chemicals used in industry, science and photography, as well as in agriculture, horticulture and forestry, unprocessed artificial resins, unprocessed plastics, manures, fire extinguishing compositions, tempering and soldering preparations, chemical substances for preserving foodstuffs, tanning substances, adhesives used in industry.",
-          "uuid": "d768b904-37b6-5c7e-aa6b-cdfcc97dfeb3"
+          "uuid": "1d587912-c8d4-5bac-be70-f6d3d00a1e57"
         },
         {
           "value": "paint",
           "expanded": "Paint",
           "description": "Detailed information relating to paints, varnishes, lacquers, preservatives against rust and against deterioration of wood, colorants, mordant, raw natural resins, metals in foil and powder form for painters, decorators, printers and artists.",
-          "uuid": "05698d4a-35e4-53a7-a342-51da83a245d8"
+          "uuid": "9dba8d7b-2c33-5149-9467-1ad45c300fe8"
         },
         {
           "value": "bleach",
           "expanded": "Bleach",
           "description": "Detailed information relating to bleaching preparations and other substances for laundry use, cleaning, polishing, scouring and abrasive preparations, soaps, perfumery, essential oils, cosmetics, hair lotions, dentifrices.",
-          "uuid": "565edd4e-aa9a-5db7-bce6-b843040c1667"
+          "uuid": "99331702-161a-5dea-a105-24c8a12685c8"
         },
         {
           "value": "industrial-oil",
           "expanded": "Industrial Oil",
           "description": "Detailed information relating to industrial oils and greases, lubricants, dust absorbing, wetting and binding compositions, fuels (including motor spirit) and illuminants, candles and wicks for lighting.",
-          "uuid": "7c2b34a9-de8a-5817-ad51-3acfbd73d9dc"
+          "uuid": "800041d4-e685-5e71-b0d1-97c83cd2ca78"
         },
         {
           "value": "pharmaceutical-preparation",
           "expanded": "Pharmaceutical Preparation",
           "description": "Detailed information relating to pharmaceutical and veterinary preparations, sanitary preparations for medical purposes, dietetic substances adapted for medical use, food for babies, plasters, materials for dressings, material for stopping teeth, dental wax, disinfectants, preparations for destroying vermin, fungicides, herbicides.",
-          "uuid": "7c22392d-1fa4-5f77-8c37-c9d11411d5f2"
+          "uuid": "050025d3-52b3-5c6b-8593-c433b09a70fc"
         },
         {
           "value": "common-metal",
           "expanded": "Common Metal",
           "description": "Detailed information relating to common metals and their alloys, metal building materials, transportable buildings of metal, materials of metal for railway tracks, non-electric cables and wires of common metal, ironmongery, small items of metal hardware, pipes and tubes of metal, safes, goods of common metal not included in other classes, ores.",
-          "uuid": "40f1e1e5-0d50-551b-aa5a-ef7ef0b7de54"
+          "uuid": "0348b2db-a60f-5062-90de-5663f13e1ca4"
         },
         {
           "value": "machine",
           "expanded": "Machine",
           "description": "Detailed information relating to machines and machine tools, motors and engines (except for land vehicles), machine coupling and transmission components (except for land vehicles), agricultural implements other than hand-operated, incubators for eggs.",
-          "uuid": "82efb587-c343-5712-a0fc-27f432a59bab"
+          "uuid": "9b792f18-9636-53fc-84ea-0f47c9acdaf6"
         },
         {
           "value": "hand-tool",
           "expanded": "Hand Tool",
           "description": "Detailed information relating to hand tools and implements (hand-operated), cutlery, side arms, razors.",
-          "uuid": "6639ee5c-0f89-5574-9a96-2b3872e25bd5"
+          "uuid": "b6c7e730-4ed7-5751-9b0a-7ca501bb548a"
         },
         {
           "value": "scientific-apparatus-and-instrument",
           "expanded": "Scientific Apparatus and Instrument",
           "description": "Detailed information relating to scientific, nautical, surveying, photographic, cinematographic, optical, weighing, measuring, signalling, checking (supervision), life-saving and teaching apparatus and instruments, apparatus and instruments for conducting, switching, transforming, accumulating, regulating or controlling electricity, apparatus for recording, transmission or reproduction of sound or images, magnetic data carriers, recording discs, automatic vending machines and mechanisms for coin-operated apparatus, cash registers, calculating machines, data processing equipment and computers, fire-extinguishing apparatus.",
-          "uuid": "a75fa456-5aee-5dee-becb-dad5574cd9ac"
+          "uuid": "59afd688-e440-514d-8e1f-def7df84688c"
         },
         {
           "value": "medical-apparatus-and-instrument",
           "expanded": "Medical Apparatus and Instrument",
           "description": "Detailed information relating to surgical, medical, dental and veterinary apparatus and instruments, artificial limbs, eyes and teeth, orthopaedic articles, suture materials.",
-          "uuid": "ffe3fe1c-976a-550a-a728-71ff4721540b"
+          "uuid": "eedca91a-84f0-5dea-97cf-1e71bb3397c8"
         },
         {
           "value": "electrical-apparatus",
           "expanded": "Electrical Apparatus",
           "description": "Detailed information relating to apparatus for lighting, heating, steam generating, cooking, refrigerating, drying, ventilating, water supply and sanitary purposes.",
-          "uuid": "01f30601-f2e9-59a3-b868-05f6a219696e"
+          "uuid": "9535c468-5442-576f-9ab1-0b6a9887c6bf"
         },
         {
           "value": "vehicle",
           "expanded": "Vehicle",
           "description": "Detailed information relating to vehicles, apparatus for locomotion by land, air or water.",
-          "uuid": "15de4e79-0f90-531f-a81f-4fa206274ac3"
+          "uuid": "d20ed72d-4088-55ce-835b-f420458bbddb"
         },
         {
           "value": "firearm",
           "expanded": "Firearm",
           "description": "Detailed information relating to firearms, ammunition and projectiles, explosives, fireworks",
-          "uuid": "230ce33f-14db-5cbe-8ab7-3cad6edf99d3"
+          "uuid": "d8087e1d-91e8-5d3a-a48a-e00cc13cbb06"
         },
         {
           "value": "precious-metal",
           "expanded": "Precious Metal",
           "description": "Detailed information relating to precious metals and their alloys and goods in precious metals or coated therewith, not included in other classes, jewellery, precious stones, horologic and chronometrical instruments.",
-          "uuid": "99102201-4309-5ceb-9adc-1945361424a4"
+          "uuid": "79a9b4f3-dc8c-56a1-90f6-47866cc97986"
         },
         {
           "value": "musical-instrument",
           "expanded": "Musical Instrument",
           "description": "Detailed information relating to musical instruments.",
-          "uuid": "7702eb79-085b-56f3-949b-cf8f7eaea5c0"
+          "uuid": "7fdc9b54-5294-5edd-8d3a-727d0e2a5434"
         },
         {
           "value": "paper",
           "expanded": "Paper",
           "description": "Detailed information relating to paper, cardboard and goods made from these materials, not included in other classes, printed matter, bookbinding material, photographs, stationery, adhesives for stationery or household purposes, artists' materials, paint brushes, typewriters and office requisites (except furniture), instructional and teaching material (except apparatus), plastic materials for packaging (not included in other classes), printers' type, printing blocks.",
-          "uuid": "e9216522-25a8-55a9-8a1e-93271ec1ed43"
+          "uuid": "caa175fe-608a-5ef9-9eed-2e27fafb0fa6"
         },
         {
           "value": "rubber-good",
           "expanded": "Rubber Good",
           "description": "Detailed information relating to rubber, gutta-percha, gum, asbestos, mica and goods made from these materials and not included in other classes, plastics in extruded form for use in manufacture, packing, stopping and insulating materials, flexible pipes, not of metal.",
-          "uuid": "68f24cd4-8663-5a79-8639-bda7ff783297"
+          "uuid": "d014a1f9-1a27-5d52-899f-4bb85a3435dc"
         },
         {
           "value": "leather",
           "expanded": "Leather",
           "description": "Detailed information relating to leather and imitations of leather, and goods made of these materials and not included in other classes, animal skins, hides, trunks and traveling bags, umbrellas, parasols and walking sticks, whips, harness and saddlery.",
-          "uuid": "be3a12fc-c05d-5375-8ad4-cb26be39d960"
+          "uuid": "2a79947e-0912-5aaa-934b-9cbe8dfcc1df"
         },
         {
           "value": "building-material",
           "expanded": "Building Material",
           "description": "Detailed information relating to Building materials (non-metallic), non-metallic rigid pipes for building, asphalt, pitch and bitumen, non-metallic transportable buildings, monuments, not of metal.",
-          "uuid": "f3151871-c5a0-5f46-a9d4-537b481ee771"
+          "uuid": "eca3db2f-edaa-58fb-b0a6-ab9efe0e793f"
         },
         {
           "value": "furniture",
           "expanded": "Furniture",
           "description": "Detailed information relating to furniture, mirrors, picture frames, goods (not included in other categories) of wood, cork, reed, cane, wicker, horn, bone, ivory, whalebone, shell, amber, mother-of-pearl, meerschaum and substitutes for all these materials, or of plastics.",
-          "uuid": "df5fcf25-490c-5e45-9d34-6fa8dc492dfa"
+          "uuid": "357950fa-f43f-5c18-8d65-6e14cb682951"
         },
         {
           "value": "household-utensil",
           "expanded": "Household Utensil",
           "description": "Detailed information relating to Household or kitchen utensils and containers (not of precious metal or coated therewith), combs and sponges, brushes (except paint brushes), brush-making materials, articles for cleaning purposes, steel wool, unworked or semi-worked glass (except glass used in building), glassware, porcelain and earthenware not included in other classes.",
-          "uuid": "f50a78fa-c8a7-5ab9-bdd2-3bb420204b43"
+          "uuid": "6f282334-0323-58fb-bd91-b9e525b967dc"
         },
         {
           "value": "rope",
           "expanded": "Rope",
           "description": "Detailed information relating to ropes, string, nets, tents, awnings, tarpaulins, sails, sacks and bags (not included in other classes), padding and stuffing materials (except of rubber or plastics), raw fibrous textile materials.",
-          "uuid": "17f4ca8f-f248-55a5-b721-31971749f3e3"
+          "uuid": "23d2e645-a86b-58d0-a4fa-b5f575002125"
         },
         {
           "value": "yarn",
           "expanded": "Yarn",
           "description": "Detailed information relating to yarns and threads, for textile use.",
-          "uuid": "6850c26a-abb0-50ea-a5ef-56f4584bd667"
+          "uuid": "504f3c86-fd00-5dcc-8709-e59906729aba"
         },
         {
           "value": "textile",
           "expanded": "Textile",
           "description": "Detailed information relating to textiles and textile goods not included in other categories, like bed and table covers.",
-          "uuid": "0331a3f0-6136-5af3-bb3e-e3aedc70b2cb"
+          "uuid": "ca89fd4e-29c2-54d4-b827-92ff30914841"
         },
         {
           "value": "clothing",
           "expanded": "Clothing",
           "description": "Detailed information relating to clothing, footwear, headgear.",
-          "uuid": "8fc0e9b2-e65d-53b3-903a-e0d12c8ea457"
+          "uuid": "5f3e1ea6-df91-5a0a-b347-482672f80576"
         },
         {
           "value": "lace",
           "expanded": "Lace",
           "description": "Detailed information relating to lace and embroidery, ribbons and braid, buttons, hooks and eyes, pins and needles, artificial flowers.",
-          "uuid": "94d9a2c2-7705-5ca0-93b5-8ac6af5c1d7a"
+          "uuid": "49c16403-5fef-5384-9ce8-d9a648a6fc98"
         },
         {
           "value": "carpet",
           "expanded": "Carpet",
           "description": "Detailed information relating to carpets, rugs, mats and matting, linoleum and other materials for covering existing floors wall hangings (non-textile).",
-          "uuid": "6ec63140-8209-56d1-aada-b40831227626"
+          "uuid": "4100a55e-7644-56c9-99ec-3acfefeb6ab9"
         },
         {
           "value": "toy",
           "expanded": "Toy",
           "description": "Detailed information relating to games and toys, gymnastic and sporting articles not included in other classes, decorations.",
-          "uuid": "1c5401c0-2fe5-5ec7-bee6-060d49dfd524"
+          "uuid": "7ec24a29-a7a2-548a-981c-973fd32c39ff"
         },
         {
           "value": "food",
           "expanded": "Food",
           "description": "Detailed information relating to food, such as meat, fish, poultry and game, meat extracts, preserved, dried and cooked fruits and vegetables, jellies, jams, compotes, eggs, milk and milk products, edible oils and fats.",
-          "uuid": "e665e252-f8cf-59ec-868e-cd6a9433cea4"
+          "uuid": "8e79c0ea-9a2f-5729-a5d1-3f276df16a89"
         },
         {
           "value": "liquid-food",
           "expanded": "Liquid Food",
           "description": "Detailed information relating to coffee, tea, cocoa, sugar, rice, tapioca, sago, artificial coffee, flour and preparations made from cereals, bread, pastry and confectionery, ices, honey, treacle, yeast, baking-powder, salt, mustard, vinegar, sauces (condiments), spices, ice.",
-          "uuid": "af1799a3-4df6-51d7-9ac9-dc0074c74e24"
+          "uuid": "834b98aa-6ee7-5c44-b451-f41cfc53c8fe"
         },
         {
           "value": "agricultural-product",
           "expanded": "Agricultural Product",
           "description": "Detailed information relating to agricultural, horticultural and forestry products and grains not included in other classes, live animals, fresh fruits and vegetables, seeds, natural plants and flowers, foodstuffs for animals, malt.",
-          "uuid": "5d7bf474-b4b0-5171-b314-9a3ad2cab1bf"
+          "uuid": "ec1bfefa-d9d6-581f-99db-1b5a2e7b4d26"
         },
         {
           "value": "beverages",
           "expanded": "Beverages",
           "description": "Detailed information relating to beers, mineral and aerated waters and other non-alcoholic drinks, fruit drinks and fruit juices, syrups and other preparations for making beverages.",
-          "uuid": "83796f96-485b-5e95-af89-644a95339adf"
+          "uuid": "8d23826d-7347-5bf0-838d-68d3cb679ccf"
         },
         {
           "value": "alcoholic-beverage",
           "expanded": "Alcoholic Beverage",
           "description": "Detailed information relating to Alcoholic beverages (except beers).",
-          "uuid": "fad4e038-fb63-55f9-b24c-11ad0281aa9c"
+          "uuid": "5eed799d-5a22-5c72-8df0-0e1333ea818b"
         },
         {
           "value": "tobacco",
           "expanded": "Tobacco",
           "description": "Detailed information relating to tobacco, smokers' articles, matches.",
-          "uuid": "00480682-da06-596f-8d26-43790f0cf668"
+          "uuid": "7adcb9a8-4e6a-58c0-9cce-21899360e6c2"
         }
       ]
     },
@@ -830,31 +830,31 @@
           "value": "certificate",
           "expanded": "Certificate",
           "description": "Detailed information related to certificates.",
-          "uuid": "fc94bc6f-7649-5f85-9791-55199c4f6827"
+          "uuid": "3cf2914e-af1b-5949-8919-6a0b99bb28e0"
         },
         {
           "value": "license",
           "expanded": "License",
           "description": "Detailed information related to licenses.",
-          "uuid": "6348fc17-5329-54d2-91b7-95afe65ccd52"
+          "uuid": "619e2e77-46b3-50eb-8819-bb726c2b9e67"
         },
         {
           "value": "permit",
           "expanded": "Permit",
           "description": "Detailed information related to permits.",
-          "uuid": "7e006094-7bf4-53c7-8750-58223dfd1196"
+          "uuid": "835d4aa1-980a-59f1-97a8-33b26a049df0"
         },
         {
           "value": "registration",
           "expanded": "Registration",
           "description": "Detailed information related to registrations.",
-          "uuid": "a1c9f8e6-8bd8-5370-947f-6a6d9dc61e69"
+          "uuid": "9fc96f7f-1993-5d71-a840-0fa4619f9587"
         },
         {
           "value": "declaration",
           "expanded": "Declaration",
           "description": "Detailed information related to declarations.",
-          "uuid": "ed6db21b-b2e8-5005-bdee-c08d59d98e3b"
+          "uuid": "2a104ad2-7e7f-5d93-a9c4-04b2e7db1d68"
         }
       ]
     },
@@ -865,31 +865,31 @@
           "value": "water-supply-system",
           "expanded": "Water Supply System",
           "description": "Detailed information related to a water supply system. A water supply system or water supply network is a system of engineered hydrologic and hydraulic components which provide water supply.",
-          "uuid": "45c01bc1-c22b-5d95-8801-221081688688"
+          "uuid": "000bde20-ad34-54ee-8bee-ad02c914ff6b"
         },
         {
           "value": "electric-power-system",
           "expanded": "Electric Power System",
           "description": "Detailed information related to an electric power supply system. An electric power system is a network of electrical components used to supply, transmit and use electric power.",
-          "uuid": "a4178495-efb3-50f8-9301-751c3234a436"
+          "uuid": "12e773bd-3289-556c-aff8-4ac68d485334"
         },
         {
           "value": "transport-network",
           "expanded": "Transport Network",
           "description": "Detailed information related to transport networks.",
-          "uuid": "feaa6073-b04c-5b91-8bdc-cbd5a0aa75f5"
+          "uuid": "aaada609-23e5-55d7-9e4b-6e9b9425ce4c"
         },
         {
           "value": "sanitation-system",
           "expanded": "Sanitation System",
           "description": "Detailed information related to sanitation systems to provide a hygienic means of promoting health through prevention of human contact with the hazards of wastes as well as the treatment and proper disposal of sewage or wastewater.",
-          "uuid": "16dc7f11-e3af-54d6-9a5b-979a97729d85"
+          "uuid": "7895090c-5e04-55c6-99b9-f416df1dc51c"
         },
         {
           "value": "communication-system",
           "expanded": "Communication System",
           "description": "Detailed information related to a communication system.",
-          "uuid": "353f3dbe-cceb-5465-9891-f467ecdae4f4"
+          "uuid": "48572a1a-b7dd-5ce5-ba6d-61258ff76fe2"
         }
       ]
     },
@@ -900,16 +900,16 @@
           "value": "product",
           "expanded": "Product",
           "description": "Information about tangible outputs of processes which an organisation can offer to other parties.",
-          "uuid": "3efc04a0-4802-5880-8b5d-baa5c6e37aa1"
+          "uuid": "02aa6825-63b6-52e9-b619-569057828761"
         },
         {
           "value": "resource",
           "expanded": "Resource",
           "description": "Resources are not kept or assigned to parties except to accomplish an activity within the organisation, typically during an interaction or the supply of products or delivery of services.",
-          "uuid": "44e0d635-6e95-5812-a3fc-9c969c0a3601"
+          "uuid": "c69de26f-fd7e-581a-a981-df70ed177ece"
         }
       ]
     }
   ],
-  "uuid": "53a9baf5-d935-5fd6-a825-5a77317fee3b"
+  "uuid": "bd01f69e-8692-52ea-a64b-0d66feb3d024"
 }

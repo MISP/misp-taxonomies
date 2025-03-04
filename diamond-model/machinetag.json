@@ -9,19 +9,24 @@
   "predicates": [
     {
       "value": "Adversary",
-      "expanded": "An adversary is the actor/organization responsible for utilizing a capability against the victim to achieve their intent."
+      "expanded": "An adversary is the actor/organization responsible for utilizing a capability against the victim to achieve their intent.",
+      "uuid": "0a5ca029-1b0d-5a90-af21-faa677ae3530"
     },
     {
       "value": "Capability",
-      "expanded": "The capability describes the tools and/or techniques of the adversary used in the event. It includes all means to affect the victim from the most manual “unsophisticated” methods (e.g., manual password guessing) to the most sophisticated automated techniques."
+      "expanded": "The capability describes the tools and/or techniques of the adversary used in the event. It includes all means to affect the victim from the most manual “unsophisticated” methods (e.g., manual password guessing) to the most sophisticated automated techniques.",
+      "uuid": "93d852f5-6619-5672-886e-4e4d3b36bbae"
     },
     {
       "value": "Infrastructure",
-      "expanded": "The infrastructure feature describes the physical and/or logical communication structures the adversary uses to deliver a capability, maintain control of capabilities (e.g., commandand-control/C2), and effect results from the victim (e.g., exfiltrate data). As with the other features, the infrastructure can be as specific or broad as necessary. Examples include: Internet Protocol (IP) addresses, domain names, e-mail addresses, Morse code flashes from a phone’s voice-mail light watched from across a street, USB devices found in a parking lot and inserted into a workstation, or the compromising emanations from hardware (e.g., Van Eck Phreaking) being collected by a nearby listening post."
+      "expanded": "The infrastructure feature describes the physical and/or logical communication structures the adversary uses to deliver a capability, maintain control of capabilities (e.g., commandand-control/C2), and effect results from the victim (e.g., exfiltrate data). As with the other features, the infrastructure can be as specific or broad as necessary. Examples include: Internet Protocol (IP) addresses, domain names, e-mail addresses, Morse code flashes from a phone’s voice-mail light watched from across a street, USB devices found in a parking lot and inserted into a workstation, or the compromising emanations from hardware (e.g., Van Eck Phreaking) being collected by a nearby listening post.",
+      "uuid": "7a220529-2b13-58a2-850d-2ae7e113ede1"
     },
     {
       "value": "Victim",
-      "expanded": "A victim is the target of the adversary and against whom vulnerabilities and exposures are exploited and capabilities used. A victim can be described in whichever way necessary and appropriate: organization, person, target email address, IP address, domain, etc. However, it is useful to define the victim persona and their assets separately as they serve different analytic functions. Victim personae are useful in non-technical analysis such as cyber-victimology and social-political centered approaches whereas victim assets are associated with common technical approaches such as vulnerability analysis.."
+      "expanded": "A victim is the target of the adversary and against whom vulnerabilities and exposures are exploited and capabilities used. A victim can be described in whichever way necessary and appropriate: organization, person, target email address, IP address, domain, etc. However, it is useful to define the victim persona and their assets separately as they serve different analytic functions. Victim personae are useful in non-technical analysis such as cyber-victimology and social-political centered approaches whereas victim assets are associated with common technical approaches such as vulnerability analysis..",
+      "uuid": "6a2d7fd3-fc90-5b17-ae82-e908c3f3121a"
     }
-  ]
+  ],
+  "uuid": "8b0bd21c-bda6-5b16-97d9-e27ac0f31040"
 }

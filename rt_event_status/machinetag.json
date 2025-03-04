@@ -7,7 +7,7 @@
     {
       "value": "event-status",
       "expanded": "Event Status",
-      "uuid": "b89ec1ee-642e-50ae-b7eb-4bed844e9186"
+      "uuid": "e930f36c-6d78-5654-92fd-c1bc42b3fb92"
     }
   ],
   "values": [
@@ -17,35 +17,35 @@
         {
           "value": "new",
           "expanded": "New",
-          "uuid": "d05a5d0e-1752-5a58-b2ff-e12efbea9eac"
+          "uuid": "1162650f-eb8c-53a5-bf03-f170cf43501c"
         },
         {
           "value": "open",
           "expanded": "Open",
-          "uuid": "8a907d9f-711e-5c58-88ae-58317517fb5d"
+          "uuid": "019edff3-4b08-5bf7-9865-3d0879f720a6"
         },
         {
           "value": "stalled",
           "expanded": "Stalled",
-          "uuid": "84b7edd4-2592-5315-ac3c-d0f6d9d4bda4"
+          "uuid": "8193a2b1-8c25-51fd-87f3-c81f63e81be0"
         },
         {
           "value": "rejected",
           "expanded": "rejected",
-          "uuid": "53caee90-50cd-51de-9869-24b018cd86e7"
+          "uuid": "ab132645-8415-5270-89a6-a3ddc0410bf8"
         },
         {
           "value": "resolved",
           "expanded": "Resolved",
-          "uuid": "0c66efdc-32a9-5110-884b-3ea65f8d1104"
+          "uuid": "18912079-657e-5809-be13-7022e44ecdd4"
         },
         {
           "value": "deleted",
           "expanded": "Deleted",
-          "uuid": "bb325eef-588a-500e-87bb-9e93e0889cf1"
+          "uuid": "206e4a10-0e30-5515-9193-72befac85367"
         }
       ]
     }
   ],
-  "uuid": "16e535ad-6704-5a5a-bc61-752982e0ea67"
+  "uuid": "2e619f0f-6b5c-57d8-a848-97ad437249dc"
 }

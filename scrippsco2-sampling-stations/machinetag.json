@@ -2,58 +2,72 @@
   "predicates": [
     {
       "expanded": "Alert, NWT, Canada",
-      "value": "ALT"
+      "value": "ALT",
+      "uuid": "bb2052e9-c4e7-5324-a0bd-6f8b632fb025"
     },
     {
       "expanded": "Point Barrow, Alaska",
-      "value": "PTB"
+      "value": "PTB",
+      "uuid": "b15532f4-476f-5288-9ce0-1467a15ec7fa"
     },
     {
       "expanded": "Station P",
-      "value": "STP"
+      "value": "STP",
+      "uuid": "19224389-1da6-5ff9-b953-bc76e9e86dc7"
     },
     {
       "expanded": "La Jolla Pier, California",
-      "value": "LJO"
+      "value": "LJO",
+      "uuid": "1a4fddba-6355-5a53-b1d3-f23d649e459f"
     },
     {
       "expanded": "Baja California Sur, Mexico",
-      "value": "BCS"
+      "value": "BCS",
+      "uuid": "b2cab77d-1774-5dd1-a591-ac2f9252b094"
     },
     {
       "expanded": "Mauna Loa Observatory, Hawaii",
-      "value": "MLO"
+      "value": "MLO",
+      "uuid": "02a3caa4-3df9-504d-b9b0-adc7f3bce177"
     },
     {
       "expanded": "Cape Kumukahi, Hawaii ",
-      "value": "KUM"
+      "value": "KUM",
+      "uuid": "4ba63cf9-3deb-5af4-a6e0-7e89508a6293"
     },
     {
       "expanded": "Christmas Island, Fanning Island",
-      "value": "CHR"
+      "value": "CHR",
+      "uuid": "c0517582-6e97-5eeb-8278-4848806b410b"
     },
     {
       "expanded": "American Samoa",
-      "value": "SAM"
+      "value": "SAM",
+      "uuid": "3302f6dd-e25b-5524-9688-2222ed64e93a"
     },
     {
       "expanded": "Kermadec Islands, Raoul Island",
-      "value": "KER"
+      "value": "KER",
+      "uuid": "35810f88-27f0-5142-9d0d-c64a1182cbd8"
     },
     {
       "expanded": "Baring Head, New Zealand",
-      "value": "NZD"
+      "value": "NZD",
+      "uuid": "70be7bcd-1bb5-5a3d-906f-8ba55cde64a5"
     },
     {
       "expanded": "Palmer Station, Antarctica",
-      "value": "PSA"
+      "value": "PSA",
+      "uuid": "04029fee-54f3-502c-8480-611dabbe0b2c"
     },
     {
       "expanded": "South Pole",
-      "value": "SPO"
+      "value": "SPO",
+      "uuid": "c40ca026-7fa9-50bf-931e-0397ebc3f0a0"
     }
   ],
   "version": 1,
   "description": "Sampling stations of the Scripps CO2 Program",
-  "namespace": "scrippsco2-sampling-stations"
+  "namespace": "scrippsco2-sampling-stations",
+  "uuid": "ab32aa14-4f37-5884-9c47-ee0c196a2ef8"
 }

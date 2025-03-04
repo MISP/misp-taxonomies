@@ -7,25 +7,25 @@
       "value": "TLPMarking",
       "expanded": "TLP Marking",
       "exclusive": true,
-      "uuid": "184e0601-7c65-5b7e-9262-70365dfa3c16"
+      "uuid": "acc6c9a1-d2a3-5474-a42d-d3d2045c3b93"
     },
     {
       "value": "AISConsent",
       "expanded": "AIS Consent",
       "exclusive": true,
-      "uuid": "24de466b-dc98-55ca-9a64-4cebcb40aeb2"
+      "uuid": "bee45e66-c115-5a99-8737-d8973ad7125e"
     },
     {
       "value": "CISA_Proprietary",
       "expanded": "CISA Proprietary",
       "exclusive": true,
-      "uuid": "50aca36e-729a-59ba-a82b-24cd9a14ae85"
+      "uuid": "ff6676ab-9bd5-54d3-b9e2-840fd89f51c4"
     },
     {
       "value": "AISMarking",
       "expanded": "AIS Marking",
       "exclusive": true,
-      "uuid": "50503fad-3622-5c92-a3da-2d1984f53de9"
+      "uuid": "fab66063-184b-5c92-94f6-85e81221a29e"
     }
   ],
   "values": [
@@ -36,19 +36,19 @@
           "value": "WHITE",
           "expanded": "WHITE",
           "colour": "#FFFFFF",
-          "uuid": "f1263b57-3c76-567a-9465-57847a0d89d6"
+          "uuid": "a543591a-e2d2-5422-867d-e5f97a8f6365"
         },
         {
           "value": "GREEN",
           "expanded": "GREEN",
           "colour": "#339900",
-          "uuid": "44bf6529-bc00-5f01-a83d-545edf1793f5"
+          "uuid": "74ebfe90-d351-5380-8679-bcd6ba728bc0"
         },
         {
           "value": "AMBER",
           "expanded": "AMBER",
           "colour": "#FFC000",
-          "uuid": "12a084d4-3ef8-59db-aece-f13c2c9d8f1e"
+          "uuid": "84f2bef3-379a-5bb9-af0e-a79d81c3d214"
         }
       ]
     },
@@ -58,17 +58,17 @@
         {
           "value": "EVERYONE",
           "expanded": "EVERYONE",
-          "uuid": "8aa4ce8d-5dac-5e1f-a309-9ae9d7cff944"
+          "uuid": "e36265a8-1b8e-505a-891a-e820feebbea0"
         },
         {
           "value": "USG",
           "expanded": "USG",
-          "uuid": "6bf24950-6ffc-56cb-9381-c6fdd4f3ba08"
+          "uuid": "a7d34a55-a1ed-5e5d-aea6-3b5f6874ce6f"
         },
         {
           "value": "NONE",
           "expanded": "NONE",
-          "uuid": "9a5bc1f3-92cb-5a67-8a1f-a1017ed0af9b"
+          "uuid": "6b1e1be7-25c1-5cba-8560-f237866e88b0"
         }
       ]
     },
@@ -78,12 +78,12 @@
         {
           "value": "true",
           "expanded": "true",
-          "uuid": "3990276b-d634-5923-ba96-e1899ef5bbb0"
+          "uuid": "fd5cc6ca-732b-5ea0-8a01-3324508774cc"
         },
         {
           "value": "false",
           "expanded": "false",
-          "uuid": "20367ed6-3207-5a9c-9475-ea63722e493a"
+          "uuid": "6898ff2b-438f-5cd4-a82b-534e8f8b4a15"
         }
       ]
     },
@@ -93,15 +93,15 @@
         {
           "value": "Is_Proprietary",
           "expanded": "Is_Proprietary",
-          "uuid": "57748019-4319-55ad-83de-e738cc9f9889"
+          "uuid": "a7c11dd6-9c62-503b-bdbc-60e0c134ab74"
         },
         {
           "value": "Not_Proprietary",
           "expanded": "Not_Proprietary",
-          "uuid": "7aea9cb2-b3c3-5f9a-866c-f08b1117363a"
+          "uuid": "80a9b8ae-a307-5430-9c21-cf1cae578454"
         }
       ]
     }
   ],
-  "uuid": "9b6c3df6-b5dc-5d82-832b-a8ff4040ff03"
+  "uuid": "ef01864a-bfee-58a7-91ab-0cff1ed1a433"
 }

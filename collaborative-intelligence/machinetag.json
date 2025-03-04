@@ -8,7 +8,7 @@
       "value": "request",
       "expanded": "Request",
       "description": "Request predicate covers all the requests which can be done by analysts or organisations willing to get additional information to support their analysis.",
-      "uuid": "cf2bb0c7-9877-55d1-83ac-a031b7c57313"
+      "uuid": "ba77a965-b6c7-5e28-86d3-cc58ac08a810"
     }
   ],
   "values": [
@@ -18,76 +18,76 @@
         {
           "value": "sample",
           "expanded": "Request a binary sample",
-          "uuid": "062ed01a-1724-5d87-ab41-a47a1de0efae"
+          "uuid": "8d3b124f-60ea-588d-a3a4-2ec6cd5f8c24"
         },
         {
           "value": "extracted-malware-config",
           "expanded": "Extracted malware config",
           "description": "Request of the malware configuration extracted from the malware sample tagged.",
-          "uuid": "6ec98923-ecc7-565e-ace6-f2c888563a8b"
+          "uuid": "668b0f5c-28d1-5f36-9724-d35e91259dce"
         },
         {
           "value": "deobfuscated-sample",
           "expanded": "Request a deobfuscated sample of the shared sample",
-          "uuid": "001a404c-56e9-59c2-a2c0-a9d757fb802f"
+          "uuid": "c0456e21-f509-5bda-9d96-13ede95e2b55"
         },
         {
           "value": "more-samples",
           "expanded": "Request additional samples compared to the original analysis to build a competitive analysis on the reversing aspect",
-          "uuid": "3f5f97e5-51ab-51a6-af41-edfeb8f8bebf"
+          "uuid": "94e8e733-f875-55e3-8a2e-8f7ae8e2f8d5"
         },
         {
           "value": "related-samples",
           "expanded": "Request related samples required for further analysis",
-          "uuid": "746d4b2d-f480-5588-98c0-48489fecce72"
+          "uuid": "3628ff40-a012-5a2f-92e1-baa7ac6451a5"
         },
         {
           "value": "static-analysis",
           "expanded": "Request additional static analysis or reversing on the information shared",
-          "uuid": "b8131551-b2d0-51c6-a059-ed5f767251d7"
+          "uuid": "98c315bb-a80d-57cd-9264-76decc1b475f"
         },
         {
           "value": "detection-signature",
           "expanded": "Request detection signature from",
-          "uuid": "3d5e416c-aa85-5445-b03e-af13dba6124e"
+          "uuid": "ad774cbf-845a-503b-aa53-6b60e6601b16"
         },
         {
           "value": "context",
           "expanded": "Request more contextual information",
-          "uuid": "0d49ac71-170b-5fa1-8588-c834e0b564ce"
+          "uuid": "4bb05bdd-3d21-5117-806e-19af3ab87345"
         },
         {
           "value": "abuse-contact",
           "expanded": "Request an abuse contact to report to",
-          "uuid": "800dda40-9ab5-5814-8c45-da93915468d5"
+          "uuid": "9f2d5da2-ef89-5a5d-aa04-a9d144e9b8e8"
         },
         {
           "value": "historical-information",
           "expanded": "Request more historical information from",
-          "uuid": "ec235bfe-c8ae-58d3-b448-0af9089dca10"
+          "uuid": "f6d8c5f8-3bca-5e78-aad9-958d8101b8ad"
         },
         {
           "value": "complementary-validation",
           "expanded": "Request complementary validation",
-          "uuid": "afa11d85-be7e-53d5-858c-5c7bbabff2d3"
+          "uuid": "d4cdfba8-8ea1-5921-8fe1-68ed8bd0e36a"
         },
         {
           "value": "target-information",
           "expanded": "Request about the target(s) including field of activities or companies",
-          "uuid": "fcf3f5c0-e810-5955-bcd9-05ddb483c4d9"
+          "uuid": "4d001d8c-b3e5-5da8-9da4-2545f64e49ba"
         },
         {
           "value": "request-analysis",
           "expanded": "Request further technical or tactical analysis",
-          "uuid": "4865f9d6-2a84-50c0-9cd2-acb57d9f8838"
+          "uuid": "c2dd77b4-477e-56db-880c-55880c6bfb37"
         },
         {
           "value": "more-information",
           "expanded": "Request for generic additional information",
-          "uuid": "6f4cbc04-1936-5b50-9722-5210c74234e7"
+          "uuid": "55952427-d9e9-551c-9f36-721698e3935f"
         }
       ]
     }
   ],
-  "uuid": "d161bb1d-fa50-5fdd-a6be-407b234b1fe2"
+  "uuid": "cdfee78b-ccf0-522c-9561-95ecbf2cf828"
 }

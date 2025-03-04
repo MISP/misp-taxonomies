@@ -10,47 +10,59 @@
   "predicates": [
     {
       "value": "Botnet",
-      "expanded": "Indicator is detailing a botnet node/member."
+      "expanded": "Indicator is detailing a botnet node/member.",
+      "uuid": "cb248355-8886-5846-b635-554afd267644"
     },
     {
       "value": "C2",
-      "expanded": "Indicator is detailing a Command & Control node of a botnet."
+      "expanded": "Indicator is detailing a Command & Control node of a botnet.",
+      "uuid": "00114444-fe54-5426-8e1f-88e0471b5d8e"
     },
     {
       "value": "CryptoMining",
-      "expanded": "Traffic involving this network address / URL is an indication of CyrptoMining / Resource abuse."
+      "expanded": "Traffic involving this network address / URL is an indication of CyrptoMining / Resource abuse.",
+      "uuid": "9ecbe76b-d941-51f2-bd43-3015c1b0f781"
     },
     {
       "value": "Darknet",
-      "expanded": "Indicator is that of a Darknet node/network."
+      "expanded": "Indicator is that of a Darknet node/network.",
+      "uuid": "95a784e6-c9e2-5ca1-9b49-fa85fea4a78a"
     },
     {
       "value": "DDoS",
-      "expanded": "Indicators relating to an active or upcoming DDoS campaign."
+      "expanded": "Indicators relating to an active or upcoming DDoS campaign.",
+      "uuid": "5a328d01-f3de-5868-9d3a-ac1002e3a98e"
     },
     {
       "value": "MaliciousUrl",
-      "expanded": "URL that is serving malware."
+      "expanded": "URL that is serving malware.",
+      "uuid": "c47372ae-f25b-5d13-993c-8a392115286b"
     },
     {
       "value": "Malware",
-      "expanded": "Indicator describing a malicious file or files."
+      "expanded": "Indicator describing a malicious file or files.",
+      "uuid": "421ce537-f169-5914-b653-53629b390a3f"
     },
     {
       "value": "Phishing",
-      "expanded": "Indicators relating to a phishing campaign."
+      "expanded": "Indicators relating to a phishing campaign.",
+      "uuid": "f1f49a1a-e4ef-5afe-8201-f38effd5d244"
     },
     {
       "value": "Proxy",
-      "expanded": "Indicator is that of a proxy service."
+      "expanded": "Indicator is that of a proxy service.",
+      "uuid": "d88a6836-0939-5dc7-a72a-3afe076c0b2e"
     },
     {
       "value": "PUA",
-      "expanded": "Potentially Unwanted Application."
+      "expanded": "Potentially Unwanted Application.",
+      "uuid": "eb7c807b-c41e-511e-ac59-4b47c3e769a5"
     },
     {
       "value": "WatchList",
-      "expanded": "This is the generic bucket into which indicators are placed when it cannot be determined exactly what the threat is or will require manual interpretation. This should typically not be used by partners submitting data into the system."
+      "expanded": "This is the generic bucket into which indicators are placed when it cannot be determined exactly what the threat is or will require manual interpretation. This should typically not be used by partners submitting data into the system.",
+      "uuid": "e81a4c24-c1db-5a23-b90d-e5c2411a46b3"
     }
-  ]
+  ],
+  "uuid": "7bd7105b-847b-5494-9df5-c107d17acaa2"
 }

@@ -3,65 +3,78 @@
     {
       "description": "Potentially Suspect Data Accepted",
       "expanded": "accepted-suspect",
-      "value": "-3"
+      "value": "-3",
+      "uuid": "5a3300fe-61d6-590c-ae09-c6f7506296fd"
     },
     {
       "description": "Accepted value from continuous analyzer replacing flask data",
       "expanded": "accepted-continuous-analyzer",
-      "value": "-2"
+      "value": "-2",
+      "uuid": "4f650358-3dc2-5d41-8da4-98690c39adaf"
     },
     {
       "description": "Acepted Value retained although individual measurements deviated by more than selected tolerance",
       "expanded": "accepted-deviated-tolerance",
-      "value": "-1"
+      "value": "-1",
+      "uuid": "d7acd3b8-5f55-5446-84aa-6beae14faba6"
     },
     {
       "description": "Accepted Value",
       "expanded": "accepted",
-      "value": "0"
+      "value": "0",
+      "uuid": "8c4b7630-79f7-59d3-826b-4702dcea7403"
     },
     {
       "description": "Rejected during analysis",
       "expanded": "rejected-during-analysis",
-      "value": "1"
+      "value": "1",
+      "uuid": "b911cecc-f44c-5e06-af6d-7853e9c0aed9"
     },
     {
       "description": "Rejected unacceptably large flask-analyzer differences associated with night sampling (used only at MLO between Dec 1962 and Sep 1968)",
       "expanded": "rejected-legacy-difference-night-mlo",
-      "value": "2"
+      "value": "2",
+      "uuid": "b3bcb7eb-133d-59c8-b5cf-4204fa1ccff5"
     },
     {
       "description": "Rejected flask measurement; used continuous data instead",
       "expanded": "rejected-continuous-data",
-      "value": "3"
+      "value": "3",
+      "uuid": "35bf3b5b-559f-536b-ad20-35da7dbdff09"
     },
     {
       "description": "Rejected Replicates do not agree to selected tolerance or single flask",
       "expanded": "rejected-tolerance-single-flask",
-      "value": "4"
+      "value": "4",
+      "uuid": "4ad2b78f-ce04-514c-8e90-7867f2b4e034"
     },
     {
       "description": "Rejected Daily average deviates from fit by more than 3 standard deviations",
       "expanded": "rejected-derivation",
-      "value": "5"
+      "value": "5",
+      "uuid": "905fd588-6351-53f8-a2d9-84ec07b1f4c3"
     },
     {
       "description": "Rejected to improve local distribution of data such as too many data of generally poor quality (used only at two stations: KUM Aug 1979 - Jun 1980 and LJO Apr 1979 - Sep 1985)",
       "expanded": "rejected-legacy-poor-quality-kum-ljo",
-      "value": "6"
+      "value": "6",
+      "uuid": "9b47fe1b-0dc1-5b5b-8ab7-f1a2e7438e68"
     },
     {
       "description": "Rejected Unsteady air at site (La Jolla only)",
       "expanded": "rejected-unsteady-ljo",
-      "value": "7"
+      "value": "7",
+      "uuid": "c61f4d19-06de-5c0f-92de-8c02df2e21e9"
     },
     {
       "description": "Rejected manually (see input/flag_flasks.csv)",
       "expanded": "rejected-manual",
-      "value": "8"
+      "value": "8",
+      "uuid": "c84ef69b-8658-5822-8c07-b711a1f081d8"
     }
   ],
   "version": 1,
   "description": "Flags describing the sample",
-  "namespace": "scrippsco2-fgc"
+  "namespace": "scrippsco2-fgc",
+  "uuid": "7edd4cc4-b168-55a3-b0e2-ab1bcab618b5"
 }

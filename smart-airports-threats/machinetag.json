@@ -6,27 +6,27 @@
     {
       "expanded": "Human errors",
       "value": "human-errors",
-      "uuid": "979a1dec-917f-5f6f-b4f5-a30ffe487d17"
+      "uuid": "688ffffd-a518-5f18-828a-1d49f1fdcb2a"
     },
     {
       "expanded": "System failures",
       "value": "system-failures",
-      "uuid": "021e281c-4184-5c3b-90a0-2d386bf60521"
+      "uuid": "7c685436-f9d0-567e-8187-a607cf8460e7"
     },
     {
       "expanded": "Natural and social phenomena",
       "value": "natural-and-social-phenomena",
-      "uuid": "8d9da772-91bf-535c-baa5-b20adf3d89e3"
+      "uuid": "7ce7f3f1-561b-5081-aa25-6cf9036ce19c"
     },
     {
       "expanded": "Third party failures",
       "value": "third-party-failures",
-      "uuid": "39e5c93e-276a-5f81-89e2-326228dda5ba"
+      "uuid": "30462e0d-23b9-5e62-be95-8a65931e165f"
     },
     {
       "expanded": "Malicious actions",
       "value": "malicious-actions",
-      "uuid": "94956829-2363-521e-8e6e-0833d19a9e99"
+      "uuid": "65c64ec9-1793-5707-907c-787e01285b70"
     }
   ],
   "values": [
@@ -36,22 +36,22 @@
         {
           "value": "configuration-errors",
           "expanded": "Configuration errors",
-          "uuid": "626054a8-d7b7-520e-904a-d3836040ee1c"
+          "uuid": "b07e20d8-8508-5001-9a44-b0fb457fb998"
         },
         {
           "value": "operator-or-user-error",
           "expanded": "Operator/user error",
-          "uuid": "8b8b083d-df12-5e74-a8fa-c8f44d550fdc"
+          "uuid": "1eae35eb-4bc9-5464-95df-9d3a64d16d86"
         },
         {
           "value": "loss-of-hardware",
           "expanded": "Loss of hardware",
-          "uuid": "8a5eea00-5ea2-5975-aec3-42c91e971469"
+          "uuid": "a7101fb3-57fa-5f86-839c-ca37bde58272"
         },
         {
           "value": "non-compliance-with-policies-or-procedure",
           "expanded": "Non compliance with policies or procedure",
-          "uuid": "4532b0da-ae98-57d0-a2e0-b0211b113e99"
+          "uuid": "d7d287fc-063c-5742-84ca-9e88ffc38170"
         }
       ]
     },
@@ -61,47 +61,47 @@
         {
           "value": "failures-of-devices-or-systems",
           "expanded": "Failures of devices or systems",
-          "uuid": "356e92a4-1c20-51a9-a09d-4d9b8efe9038"
+          "uuid": "ee20e8c3-4413-5843-986f-756e6f0137b1"
         },
         {
           "value": "failures-or-disruptions-of-communication-links",
           "expanded": "Failures or disruptions of communication links (communication networks",
-          "uuid": "5d8ae24d-d2ff-5ed7-b8e3-afb1fcf17986"
+          "uuid": "d621af5a-078e-5b79-8cbf-cac85c494d5e"
         },
         {
           "value": "failures-of-parts-of-devices",
           "expanded": "Failures of parts of devices",
-          "uuid": "04e356e0-8ed1-5089-92df-f3eac8c42546"
+          "uuid": "f0e9c27f-c06a-5d0b-911d-0721fd2b4f5e"
         },
         {
           "value": "failures-or-disruptions-of-main-supply",
           "expanded": "Failures or disruptions of main supply",
-          "uuid": "43942aae-f7ec-596e-8399-7a5f5536b27f"
+          "uuid": "b68e2952-b0c0-566d-970f-de0b5885ff2d"
         },
         {
           "value": "failures-or-disruptions-of-the-power-supply",
           "expanded": "Failures or disruptions of the power supply",
-          "uuid": "f63f8e12-15b9-5137-a888-d257e6af125f"
+          "uuid": "a99066b1-55ea-573c-90b4-fd8ff8330612"
         },
         {
           "value": "malfunctions-of-parts-of-devices",
           "expanded": "Malfunctions of parts of devices",
-          "uuid": "0a4164ee-a910-5e5c-ad1a-6fe525118bb5"
+          "uuid": "d6230692-7e89-55c5-a2b2-4e7b85f7d316"
         },
         {
           "value": "malfunctions-of-devices-or-systems",
           "expanded": "Malfunctions of devices or systems",
-          "uuid": "94d9a253-2ec9-5167-ac89-86e983206c84"
+          "uuid": "deca1db0-2d6e-518a-a79a-4b52ca5fca66"
         },
         {
           "value": "failures-of-hardware",
           "expanded": "Failures of hardware",
-          "uuid": "1e18a27d-a078-595a-bfea-479c9cfff91c"
+          "uuid": "de7f5b91-89ef-52bd-b174-7129cb222e18"
         },
         {
           "value": "software-bugs",
           "expanded": "Software bugs",
-          "uuid": "75e75f6b-22e5-5d9a-9d41-376f96964700"
+          "uuid": "853ee41e-fbb3-54ff-b2ec-508f455bc4c5"
         }
       ]
     },
@@ -111,57 +111,57 @@
         {
           "value": "earthquakes",
           "expanded": "Earthquakes",
-          "uuid": "ba225f93-34cf-5f2c-bdfe-d9a23c72d843"
+          "uuid": "5870737b-6241-5ce1-a630-157f45f0e3c3"
         },
         {
           "value": "fires",
           "expanded": "Fires",
-          "uuid": "8d44e1ec-2a2f-56fd-be15-c551b200af93"
+          "uuid": "9806d091-1868-54b8-92ab-0857d58fed9a"
         },
         {
           "value": "extreme-weather",
           "expanded": "Extreme weather (e.g. flood, heavy snow, blizzard, high temperatures, fog, sandtorm)",
-          "uuid": "04ff5f6a-4913-57f4-925c-4f452751667d"
+          "uuid": "e7299eed-04fe-571f-86c3-0ce69abb7f7c"
         },
         {
           "value": "solar-flare",
           "expanded": "Solar flare",
-          "uuid": "46c9b607-fdac-5eb3-bcc3-176fb1723d71"
+          "uuid": "c29c5e0a-06f2-5925-b5f3-1ab1051f58fd"
         },
         {
           "value": "volcano-explosion",
           "expanded": "Volcano explosion",
-          "uuid": "3b261b65-10f7-53d0-84b9-ee8edd28888a"
+          "uuid": "7e195717-a438-58a7-aa4d-dfe19c296a40"
         },
         {
           "value": "nuclear-incident",
           "expanded": "Nuclear incident",
-          "uuid": "88ae26b2-10fc-5351-98c7-d4200a2869d0"
+          "uuid": "f071ef29-f98d-5edb-b4c9-1bc4195c6a02"
         },
         {
           "value": "dangerous-chemical-incidents",
           "expanded": "Dangerous chemical incidents",
-          "uuid": "721d088a-d3ac-5af6-9972-6427262385d7"
+          "uuid": "f035d902-a6d7-5220-b8f7-1b41916f069c"
         },
         {
           "value": "pandemic",
           "expanded": "Pandemic (e.g. Ebola)",
-          "uuid": "043fb3e9-3943-5cf0-8a5d-56224701763d"
+          "uuid": "f2617d0e-04fd-5c52-83be-84ac47756fb3"
         },
         {
           "value": "social-disruptions",
           "expanded": "Social disruptions (e.g. industrial actions, civil unrest, strikes, military actions, terrorist attacks, political instability)",
-          "uuid": "6e946c38-35ba-5628-b5c6-fe7c9d53c231"
+          "uuid": "1c876e8a-3cad-5071-bed4-97c423d8d154"
         },
         {
           "value": "shortage-of-fuel",
           "expanded": "Shortage of fuel",
-          "uuid": "8689ac65-f8e7-59f5-b47f-b9470ff7707b"
+          "uuid": "94c2d54b-6bc8-5575-8c8a-5ff264084cbb"
         },
         {
           "value": "space-debris-and-meteorites",
           "expanded": "Space debirs and meteorites",
-          "uuid": "af520c26-5679-54e9-b6ef-a881794606a9"
+          "uuid": "5680311c-b926-595c-a998-539100f8b30d"
         }
       ]
     },
@@ -171,27 +171,27 @@
         {
           "value": "internet-service-provider",
           "expanded": "Internet service provider",
-          "uuid": "1c2551b0-62ce-5450-b912-4a08935e8fa4"
+          "uuid": "85aad16c-d1dd-54dd-8d89-97707118a3fb"
         },
         {
           "value": "cloud-service-provider",
           "expanded": "Cloud service provider (SaaS / PaaS / IaaS / SecaaS)",
-          "uuid": "7a8a267a-9db2-538e-957b-a3c7a163c3b0"
+          "uuid": "ec29534d-b353-5af5-a009-b59a41b60e61"
         },
         {
           "value": "utilities-power-or-gas-or-water",
           "expanded": "Utilities (power / gas /water)",
-          "uuid": "0a2853f2-d4ac-5f89-8b57-5f102e109f59"
+          "uuid": "a4dc0698-feca-5ca3-b0d2-f3e1d1b231b1"
         },
         {
           "value": "remote-maintenance-provider",
           "expanded": "Remote maintenance provider",
-          "uuid": "3a6b095f-00e3-594b-9a71-e9a4bac24535"
+          "uuid": "128c091c-1b7f-536b-aba8-d8d13cb1846b"
         },
         {
           "value": "security-testing-companies",
           "expanded": "Security testing companies (i.e. penetration testing/vulnerability assessment)",
-          "uuid": "499c8354-a205-543b-a3e2-ade01dfc0bd8"
+          "uuid": "8000d92e-4634-5bcf-a850-de4746ed8aa3"
         }
       ]
     },
@@ -201,200 +201,200 @@
         {
           "value": "denial-of-service-attacks-via-amplification-reflection",
           "expanded": "Denial of Service attacks via amplifcation/reflection",
-          "uuid": "373dbe0f-b6fa-597a-ab4e-a8b4adc608c2"
+          "uuid": "0afd2721-9844-50c2-9772-656ad9ce0036"
         },
         {
           "value": "denial-of-service-attacks-via-flooding",
           "expanded": "Denial of Service via flooding",
-          "uuid": "bc1caa59-02f5-5fc0-aa44-13d1fc47f339"
+          "uuid": "5a768e6f-7fb8-50ea-8a29-1c38d102c8fe"
         },
         {
           "value": "denial-of-service-attacks-via-jamming",
           "expanded": "Denial of Service via jamming",
-          "uuid": "ee9dd423-207c-5dbb-8efd-cb71488aa8eb"
+          "uuid": "67908582-e2ae-5142-a181-3b792424efee"
         },
         {
           "value": "malicious-software-on-it-assets-malware",
           "expanded": "Malicious software on IT assets (including passenger and staff devices) which can be Worm, Trojan, Virus, Rootkit, Exploitkit... ",
-          "uuid": "7b4a8d35-d165-592b-8acd-a35241d60e89"
+          "uuid": "0d493b84-55ac-5fa4-bb88-88d67244442f"
         },
         {
           "value": "malicious-software-on-it-assets-remote-arbitrary-code-execution",
           "expanded": "Malicious software on IT assets such as remote arbitrary code execution (device under attacker control)",
-          "uuid": "1113635d-f18e-5848-adf8-8a97525436db"
+          "uuid": "7e61ee3d-26a1-59ab-ba38-49d87a48c371"
         },
         {
           "value": "exploitation-of-software-vulnerabilities-implementation-flaws",
           "expanded": "exploitation of known or unknown software vulnerabilities such as implementation flaws (flaw in code)",
-          "uuid": "23efcc86-d571-58c6-b1ca-615932e07d0a"
+          "uuid": "671dfe76-4c30-5097-96e5-8e8cfb0d438e"
         },
         {
           "value": "exploitation-of-software-vulnerabilities-design-flaws",
           "expanded": "exploitation of known or unknown software vulnerabilities such as design flaws in IT assets (flaw in logic)",
-          "uuid": "e16e6dbf-0f87-57c1-84d0-d89405532e4f"
+          "uuid": "8a394c26-106e-5039-942b-ac601d4fa5de"
         },
         {
           "value": "exploitation-of-software-vulnerabilities-apt",
           "expanded": "exploitation of known or unknown software vulnerabilities such as Advanced Persistent Threats (APT)",
-          "uuid": "652ff254-7380-567d-9848-dd9b8fe8d36f"
+          "uuid": "aa1fcf05-60ee-574d-a0c3-1c09eaec77b6"
         },
         {
           "value": "misuse-of-authority-or-authorisation-unauthorized-use-of-software",
           "expanded": "misuse of authority or authorisation - unauthorized use of software",
-          "uuid": "edceb851-3774-594b-9adf-4722b31698d2"
+          "uuid": "b9a3c028-efc6-5163-8aa5-5263bb785a9b"
         },
         {
           "value": "misuse-of-authority-or-authorisation-unauthorized-installation-of-software",
           "expanded": "misuse of authority or authorisation - unauthorized installation of software",
-          "uuid": "d4669606-4ff4-5e61-8505-89599701e784"
+          "uuid": "72eb6466-3ee6-54d3-9e08-19dc33cf6870"
         },
         {
           "value": "misuse-of-authority-or-authorisation-repudiation-of-actions",
           "expanded": "misuse of authority or authorisation - repudiation of actions",
-          "uuid": "0f46e396-9289-5309-843e-2eead80da7ce"
+          "uuid": "adb33406-d6d5-5bcc-b9af-420f97cd03b5"
         },
         {
           "value": "misuse-of-authority-or-authorisation-abuse-of-personal-data",
           "expanded": "misuse of authority or authorisation - abuse of personal data or identity fraud",
-          "uuid": "ffa9ffc6-1ad0-5a2e-91a1-42e6899268b2"
+          "uuid": "b5999535-22fc-529c-b9a5-33bfd4c383f2"
         },
         {
           "value": "misuse-of-authority-or-authorisation-using-information-from-an-unreliable-source",
           "expanded": "misuse of authority or authorisation - using information from an unreliable source",
-          "uuid": "2fd1d0d3-62e3-53a7-a086-dd33fde869f5"
+          "uuid": "831beec9-2571-566d-84a6-5af90c454b8f"
         },
         {
           "value": "misuse-of-authority-or-authorisation-unintentional-change-of-data-in-an-information-system",
           "expanded": "misuse of authority or authorisation - unintional change of data in an information system",
-          "uuid": "f9eec5e7-6342-5171-a090-ffc13afa127b"
+          "uuid": "3044b9b2-a912-5a29-a73e-8fd8a9019b20"
         },
         {
           "value": "misuse-of-authority-or-authorisation-inadequate-design-and-planning-or-lack-of-adoption",
           "expanded": "misuse of authority or authorisation inadequate design and planning or lack of adoption",
-          "uuid": "85a43032-5a3b-5de9-b661-399b58978f2e"
+          "uuid": "f1d50e82-86fc-5b44-ac6f-ff03f9d26b40"
         },
         {
           "value": "misuse-of-authority-or-authorisation-data-leakage-or-sharing",
           "expanded": "misuse of authority data leakage or sharing (exfiltration, discarded, stolen media",
-          "uuid": "2904f3a2-b545-5ae8-9c8f-e29c049c825d"
+          "uuid": "978c263d-be16-5ab2-a6ad-a65f9f1a7232"
         },
         {
           "value": "network-or-interception-attacks-manipulation-of-routing-information",
           "expanded": "network or interception attacks - manipulation of routing information (including redirection to malicious sites)",
-          "uuid": "6dc8075f-e03e-58b7-9720-e86417729314"
+          "uuid": "44986a36-7282-5464-8caa-4d77ee8e68cc"
         },
         {
           "value": "network-or-interception-attacks-spoofing",
           "expanded": "network or interception attacks - spoofing",
-          "uuid": "08745c5c-f14e-5600-84ba-0d4e5b125e0a"
+          "uuid": "06cfd79b-3fab-5fee-9511-b5974bfb1616"
         },
         {
           "value": "network-or-interception-attacks-unauthorized-access",
           "expanded": "network or interception attacks - unauthorized access to network/services",
-          "uuid": "bad10233-b8f3-58a2-9977-97540a80b4fb"
+          "uuid": "f0159fee-df11-55ed-96db-d7322d3f5ba8"
         },
         {
           "value": "network-or-interception-attacks-authentication-attacks",
           "expanded": "network or interception attacks - authentication attacks (against insecure protocols or PKI)",
-          "uuid": "b9ed2229-2056-57a4-960c-8f8330b28532"
+          "uuid": "8ef4d886-abd3-5eb1-913e-ed8b1032e244"
         },
         {
           "value": "network-or-interception-attacks-replay-attacks",
           "expanded": "network or interception attacks - replay attacks",
-          "uuid": "862d0045-02bc-5eb0-996b-ea1ced32f6d2"
+          "uuid": "98f88824-244f-5e1c-8ae1-8ef05c745af5"
         },
         {
           "value": "network-or-interception-attacks-repudiation-of-actions",
           "expanded": "network or interception attacks - repudiation of actions",
-          "uuid": "f467879c-2637-5038-92c0-7cbcc08181db"
+          "uuid": "ccb28c34-1d1a-5a59-b191-51c63cdb5b09"
         },
         {
           "value": "network-or-interception-attacks-wiretaps",
           "expanded": "network or interception attacks - wiretaps (wired)",
-          "uuid": "01da4fe2-6878-5c7e-a757-17c57c3f9e3e"
+          "uuid": "6cc5c6b8-9734-55b9-8857-d7e62591cb67"
         },
         {
           "value": "network-or-interception-attacks-wireless-comms",
           "expanded": "network or interception attacks - wireless comms (eavesdropping, interception, jamming, electromagnetic interference)",
-          "uuid": "745cfb93-f9e6-5b61-ae66-ab4a49aa95c2"
+          "uuid": "f746ab72-8e2e-5fce-8cac-30b718736b9b"
         },
         {
           "value": "network-or-interception-attacks-network-reconnaissance-information-gathering",
           "expanded": "network or interception attacks - network reconnaissance/information gathering",
-          "uuid": "8a3f09fb-6eba-50f9-b9a5-883178939740"
+          "uuid": "cdbdf81d-cae5-546d-9a02-5e52ee8e3ab5"
         },
         {
           "value": "social-attacks-phishing-spearphishing",
           "expanded": "social attacks phishing or spearphishing",
-          "uuid": "4be3f16b-a132-50a4-9527-30212dec9fa2"
+          "uuid": "1cebbbd5-a528-5916-831d-b58d974e5196"
         },
         {
           "value": "social-attacks-pretexting",
           "expanded": "social attacks pretexting",
-          "uuid": "beaf337a-ab45-5eaf-a821-04e807244f90"
+          "uuid": "4486928b-d8d6-52a8-8650-6d2efefa2ae2"
         },
         {
           "value": "social-attacks-untrusted-links",
           "expanded": "social attacks untrusted links (fake websites/CSRF/XSS)",
-          "uuid": "7b787fb9-6f74-5f65-8cc4-ed85ea170c92"
+          "uuid": "c835e5c3-9955-59b7-b2eb-fc64ebef44d4"
         },
         {
           "value": "social-attacks-baiting",
           "expanded": "social attacks baiting",
-          "uuid": "751550f1-2507-53a1-8abd-fc336943b403"
+          "uuid": "05a99c22-1f89-5072-b714-99e13a6588ca"
         },
         {
           "value": "social-attacks-reverse-social-engineering",
           "expanded": "social attacks reverse social engineering",
-          "uuid": "fe254971-71dd-5990-bf14-b490dcfe2156"
+          "uuid": "05b44429-a669-5f60-9c45-1cd9606417fe"
         },
         {
           "value": "social-attacks-impersonation",
           "expanded": "social attacks impersonation",
-          "uuid": "3cbfaeab-231a-5c75-ac88-b1e6fee1528c"
+          "uuid": "00c2bae8-b05e-5720-bb0f-c9b47df6031c"
         },
         {
           "value": "tampering-with-devices-unauthorised-modification-of-data",
           "expanded": "tampering with devices unauthorised modification of data (including compromising smart sensor data or threat image projection",
-          "uuid": "593085d4-3e08-5a4a-a279-d066e7fabdf9"
+          "uuid": "21833b7c-5a1f-5c79-ae31-33f2cf001469"
         },
         {
           "value": "tampering-with-devices-unauthorised-modification-of-hardware-or-software",
           "expanded": "tampering with devices unauthorised modification of hardware or software (including tampering with kiosk devices, inserting keyloggers, or malware)",
-          "uuid": "ad956c56-4390-522f-9757-351f3681fcb8"
+          "uuid": "ad9f85dc-f8f4-5bbc-81ae-be4d72f0f219"
         },
         {
           "value": "breach-of-physical-access-controls-bypass-authentication",
           "expanded": "breach of physical access controls / administrative controls - bypass authentication",
-          "uuid": "379d3dfd-8dac-53d4-81fb-fb1858b1446c"
+          "uuid": "dee71886-d60d-5ee8-a49e-b0bf3428f11f"
         },
         {
           "value": "breach-of-physical-access-controls-privilege-escalation",
           "expanded": "breach of physical access controls / administrative controls - privilege escalation",
-          "uuid": "5ab25214-2e42-5ee3-8d4c-7fd470181ed0"
+          "uuid": "1699f6aa-53fe-59e3-96bf-6980c043acd9"
         },
         {
           "value": "physical-attacks-on-airport-assets-vandalism",
           "expanded": "Physical attacks on airport assets - vandalism",
-          "uuid": "b1cd6076-9f8a-5966-8f4a-bdf863074c05"
+          "uuid": "e40c3957-e5f8-538b-85a4-d4333e5c40e2"
         },
         {
           "value": "physical-attacks-on-airport-assets-sabotage",
           "expanded": "Physical attacks on airport assets - sabotage",
-          "uuid": "b156aa4d-84d9-5a1a-88a0-f7170f78e70b"
+          "uuid": "a8a5ba1a-64a7-5aee-b839-52c3771e957a"
         },
         {
           "value": "physical-attacks-on-airport-assets-explosive-or-bomb-threats",
           "expanded": "Physical attacks on airport assets - explosive or bomb threats",
-          "uuid": "d01eaf54-6846-5ac2-9d36-90ed75b953ff"
+          "uuid": "bc1fff7b-5076-5179-bd61-d32da8fb0e6d"
         },
         {
           "value": "physical-attacks-on-airport-assets-malicious-tampering",
           "expanded": "Physical attacks on airport assets - malicious tampering or control of assets resulting in damage",
-          "uuid": "1bead8e4-8d77-55da-8de8-91b8dfd11250"
+          "uuid": "ea2b1f7f-aede-5dad-a0b9-459aa688f757"
         }
       ]
     }
   ],
-  "uuid": "d0bfd097-2784-53d8-98e6-bbaf06a24f6e"
+  "uuid": "f87eddfd-2bf6-56b6-9ca0-6ed79ce05917"
 }

@@ -8,91 +8,91 @@
       "value": "event",
       "expanded": "Event type",
       "description": "Type of event associated to the internal reference",
-      "uuid": "1640e105-19be-5d63-b9a3-c5a754a617eb"
+      "uuid": "5b39c6f1-dfe9-5c4c-9728-97d359663b6c"
     },
     {
       "value": "disclosure-type",
       "expanded": "Disclosure type",
       "description": "Type of information being disclosed.",
-      "uuid": "78879870-f621-514a-85f5-79858c870ce7"
+      "uuid": "0c3098b4-1fad-5c5c-9b44-dc6d8bd02b92"
     },
     {
       "value": "domain-category",
       "expanded": "Domain category",
       "description": "The Domain Category.",
-      "uuid": "eba7db0e-91dc-5eaa-83c4-e5450ceb0424"
+      "uuid": "9a9d7c42-69a0-5736-9857-1908345a6b32"
     },
     {
       "value": "email-type",
       "expanded": "Email type",
       "description": "Type of email event.",
-      "uuid": "2be07bdc-b611-5ec4-b3b7-e0bd13f076bf"
+      "uuid": "3b70276c-3821-5111-9f4a-3d3b3761d1b2"
     },
     {
       "value": "exploitation-technique",
       "expanded": "Exploitation technique",
       "description": "The technique used to remotely exploit a GoC system.",
-      "uuid": "d5049efe-46ac-5bb8-8e84-da0bc6e7e0fc"
+      "uuid": "0895f7ab-993f-52bc-9143-346986f86de4"
     },
     {
       "value": "ip-category",
       "expanded": "Ip category",
       "description": "The IP Category.",
-      "uuid": "57b2a7f8-9f71-5dd0-a451-131d6e0a34b5"
+      "uuid": "120b5a01-7001-5294-8355-ba6d326dbc8a"
     },
     {
       "value": "maliciousness",
       "expanded": "Maliciousness",
       "description": "Level of maliciousness.",
-      "uuid": "b5e9bda0-00aa-55ea-80d7-cea4a30f0935"
+      "uuid": "c322b755-dff9-544e-b9a5-c25c51a48564"
     },
     {
       "value": "malware-category",
       "expanded": "Malware category",
       "description": "The Malware Category.",
-      "uuid": "169e20d8-ea3a-558a-8882-06fb86f61d62"
+      "uuid": "9af6268b-0895-51ad-8dc8-b718cb5785af"
     },
     {
       "value": "misusage-type",
       "expanded": "Misusage type",
       "description": "The type of misusage.",
-      "uuid": "fab5ebb0-6ab4-516b-b6b3-aa248ece0a51"
+      "uuid": "72780953-4f49-5277-9246-843f8552ea44"
     },
     {
       "value": "mitigation-type",
       "expanded": "Mitigation type",
       "description": "The type of mitigation.",
-      "uuid": "07c6c27c-3268-53c3-9367-b35953914635"
+      "uuid": "8b36e3e9-8f2e-51eb-90ba-c9c77f70a373"
     },
     {
       "value": "origin",
       "expanded": "Origin",
       "description": "Where the request originated from.",
-      "uuid": "aefd0ab5-93ee-59b8-817e-961712c0dcdb"
+      "uuid": "9021986e-f8a7-52e8-8b94-aa0d08f6486f"
     },
     {
       "value": "originating-organization",
       "expanded": "Originating organization",
       "description": "Origin of a signature.",
-      "uuid": "906476b3-0908-551c-ae8d-466ca51050c4"
+      "uuid": "e175fabc-a6d7-5ec0-9f98-fb2a28c6a3ea"
     },
     {
       "value": "scan-type",
       "expanded": "Scan type",
       "description": "The type of scan event.",
-      "uuid": "fd8985e0-0a8c-59da-90ba-07c6ac71fdf2"
+      "uuid": "fffcd0ea-ee9d-5d2e-bea9-f9b757e04038"
     },
     {
       "value": "severity",
       "expanded": "Severity",
       "description": "Severity of the event.",
-      "uuid": "6c0e8dd3-6737-5d21-92b9-d616e49ac03d"
+      "uuid": "9a6bb4b9-7379-573c-9864-32675af3c4a2"
     },
     {
       "value": "threat-vector",
       "expanded": "Threat vector",
       "description": "Specifies how the threat actor gained or attempted to gain initial access to the target GoC host.",
-      "uuid": "8a90a898-7acf-5c31-8978-f1cb19edf435"
+      "uuid": "f6e413af-6c20-5ef1-949e-59711c19b1c7"
     }
   ],
   "values": [
@@ -103,91 +103,91 @@
           "value": "beacon",
           "expanded": "Beacon",
           "description": "A host infected with malware is connecting to threat actor owned infrastructure.",
-          "uuid": "687f5a64-9ccd-550a-8dbc-43c5073ca952"
+          "uuid": "2fde82ac-29f8-56d6-b107-8c44ef21f735"
         },
         {
           "value": "browser-based-exploitation",
           "expanded": "Browser based exploitation",
           "description": "A browser component is being exploited in order to infect a host.",
-          "uuid": "6ff84b46-e426-595e-9a3a-8e3e6fd3cbeb"
+          "uuid": "143d49d8-c04b-522d-9f90-0b98827ce1fc"
         },
         {
           "value": "dos",
           "expanded": "Dos",
           "description": "An attack in which the goal is to disrupt access to a host or resource.",
-          "uuid": "35c9f7ab-b161-59e1-a879-bd8b07c70931"
+          "uuid": "25de7c36-5d44-5a9c-a72e-ddeb0fb8cc97"
         },
         {
           "value": "email",
           "expanded": "Email",
           "description": "Malicious emails sent to a department (baiting, content delivery, phishing).",
-          "uuid": "9d3f08e3-6707-5f43-bbe6-45e02b31f484"
+          "uuid": "9c6735f8-89ad-5d46-b53e-d7008c46cf7c"
         },
         {
           "value": "exfiltration",
           "expanded": "Exfiltration",
           "description": "Unauthorized transfer of data from a target's network to a location a threat actor controls.",
-          "uuid": "2c179478-c077-54fc-88a5-367c0bcb8d4d"
+          "uuid": "de1b8665-28ad-5891-9e8e-03da9870067b"
         },
         {
           "value": "generic-event",
           "expanded": "Generic event",
           "description": "Represents a collection of virtually identical events within a range of time.",
-          "uuid": "c4cef06e-d250-53b0-80dc-fc2ddbf6ee03"
+          "uuid": "0e9f156d-230c-5b5e-9437-3734aaf1b6e8"
         },
         {
           "value": "improper-usage",
           "expanded": "Improper usage",
           "description": "Technology used in a way that compromises security or violates policy.",
-          "uuid": "89a51b79-e549-5c41-b3c9-4e8af2535a49"
+          "uuid": "6cd8cfc5-179e-52d4-85b3-525cfb1c0524"
         },
         {
           "value": "malware-artifacts",
           "expanded": "Malware artifacts",
           "description": "Signs of the presence of malware observed on a host.",
-          "uuid": "b866af91-1ccb-5880-99f5-049d0ccaff84"
+          "uuid": "36e6d511-2ae9-5fdd-85c4-50ed830fac3b"
         },
         {
           "value": "malware-download",
           "expanded": "Malware download",
           "description": "Malware was transferred (downloaded/uploaded) to a host.",
-          "uuid": "7228d2fb-ea14-56e6-9f70-4149fd60c1ab"
+          "uuid": "a73246d7-5c93-5497-a25c-22ebb2475556"
         },
         {
           "value": "phishing",
           "expanded": "Phishing",
           "description": "Information or credentials disclosed to a threat actor.",
-          "uuid": "7a13f885-8b02-5e25-9139-99075292f689"
+          "uuid": "1809c37d-783e-5586-a4cb-c05bcd4e9ef4"
         },
         {
           "value": "remote-access",
           "expanded": "Remote access",
           "description": "A threat actor is attempting to or succeeding in remotely logging in to a host.",
-          "uuid": "b6efdcd0-3abb-5090-a64f-18e99e30b447"
+          "uuid": "9fd44c9b-282f-5e72-b2e1-f3f1eac47041"
         },
         {
           "value": "remote-exploitation",
           "expanded": "Remote exploitation",
           "description": "A threat actor is attempting to exploit vulnerabilities remotely.",
-          "uuid": "3cde805b-7c8b-51ae-a764-3d056e26686e"
+          "uuid": "be24158e-6a73-5707-b2b2-f739b57a172e"
         },
         {
           "value": "scan",
           "expanded": "Scan",
           "description": "A threat actor is scanning the network.",
-          "uuid": "2dd21f3f-fcaf-5561-856b-7d32a78dcf24"
+          "uuid": "654f73d9-e48b-56a8-bb52-582faf3b307e"
         },
         {
           "value": "scraping",
           "expanded": "Scraping",
           "description": "Represents a collection of virtually identical scraping events within a range of time.",
-          "uuid": "385bb405-4791-54e0-ba42-c826785748da"
+          "uuid": "63fccf4c-5b22-56bc-a912-b7243400a189"
         },
         {
           "value": "traffic-interception",
           "expanded": "Traffic interception",
           "description": "Represents a collection of virtually identical traffic interception events within a range of time.",
-          "uuid": "d3eb680a-94bc-5e4f-8bfa-df283536b730"
+          "uuid": "3951354d-ebd2-5d43-ae0a-f55735ee9db9"
         }
       ]
     },
@@ -198,31 +198,31 @@
           "value": "goc-credential-disclosure",
           "expanded": "Goc credential disclosure",
           "description": "Credentials for a GoC system or user were disclosed.",
-          "uuid": "b3bb06f7-180c-5da1-ae8d-cf652bd7feed"
+          "uuid": "2ce71415-215a-5432-bb6e-57116fcfea84"
         },
         {
           "value": "personal-credential-disclosure",
           "expanded": "Personal credential disclosure",
           "description": "Credentials not related to a GoC system or user were disclosed.",
-          "uuid": "9697d936-c20c-50db-bc4c-46491d864304"
+          "uuid": "08b825f7-2791-5377-973a-5d5b02517e84"
         },
         {
           "value": "personal-information-disclosure",
           "expanded": "Personal information disclosure",
           "description": "Information about a person or persons was disclosed.",
-          "uuid": "c60faac3-4096-5072-93bf-8b51bbb6c304"
+          "uuid": "04be538c-e724-5579-a97a-ef3adaa6ab3a"
         },
         {
           "value": "none",
           "expanded": "None",
           "description": "No information was disclosed.",
-          "uuid": "d388df10-8d7c-5b6e-a06d-a3b2718d8d82"
+          "uuid": "90bfc62d-0f39-5ed2-a5ac-3eeb1ff367b2"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Information other than credentials and personal information was disclosed.",
-          "uuid": "e10f0cc4-dd5b-5d8d-a719-b5467840a16c"
+          "uuid": "3bafeafc-015e-56c1-b03e-7a63f2049dd0"
         }
       ]
     },
@@ -233,43 +233,43 @@
           "value": "c2",
           "expanded": "C2",
           "description": "Domain is being used as command-and-control infrastructure.",
-          "uuid": "1ec79ea3-e9ee-59d8-9fe1-c9715006a735"
+          "uuid": "e8021d8b-d59c-5598-b50a-1384a6299230"
         },
         {
           "value": "proxy",
           "expanded": "Proxy",
           "description": "Domain is being used as a proxy.",
-          "uuid": "bd7cec0d-9bee-5303-b069-1244dba9a3ff"
+          "uuid": "0f47dbe0-55aa-5737-8685-7d3627f68f9a"
         },
         {
           "value": "seeded",
           "expanded": "Seeded",
           "description": "Domain has been seeded with malware or other malicious code.",
-          "uuid": "d58322dd-86f6-57a4-976a-7e7bf0d95327"
+          "uuid": "d1864624-683e-5cb6-b0b0-ac8ed406b7c6"
         },
         {
           "value": "wateringhole",
           "expanded": "Wateringhole",
           "description": "Domain is being used a wateringhole.",
-          "uuid": "4c241c9a-bb21-56ec-afbb-fd24eac4ce51"
+          "uuid": "3d2b3809-14d1-5f15-9867-e7ffcef09728"
         },
         {
           "value": "cloud-infrastructure",
           "expanded": "Cloud infrastructure",
           "description": "Domain is hosted on cloud infrastructure.",
-          "uuid": "f36162ea-bc86-530b-8860-b23c7f1c1a8e"
+          "uuid": "d62c2f68-3e3a-5fea-bdf4-ed80e166356b"
         },
         {
           "value": "name-server",
           "expanded": "Name server",
           "description": "Domain is a name server.",
-          "uuid": "75a7b961-6fd8-5ac4-8821-2cdc14b29d67"
+          "uuid": "ef5f5f81-ea59-55ee-9ea8-bff209240ff2"
         },
         {
           "value": "sinkholed",
           "expanded": "Sinkholed",
           "description": "Domain is being re-directed to a sinkhole.",
-          "uuid": "9956d2f1-56f1-5360-95d5-38ac3d7f4bda"
+          "uuid": "fc382249-93af-5dbf-98d7-d9009275a0ed"
         }
       ]
     },
@@ -280,31 +280,31 @@
           "value": "spam",
           "expanded": "Spam",
           "description": "Unsolicited or junk email named after a Monty Python sketch.",
-          "uuid": "5ca27a3d-3c30-5fde-b020-6f3dda6350a0"
+          "uuid": "308ea1cf-ad79-5f44-a7ea-65cef2a55aa7"
         },
         {
           "value": "content\\-delivery\\-attack",
           "expanded": "Content\\-delivery\\-attack",
           "description": "Email contained malicious content or attachments.",
-          "uuid": "4ee96a29-79d8-55b5-9b11-f8424545bd2a"
+          "uuid": "fa8eaf68-c611-59ea-a4de-8dd4e0c2f161"
         },
         {
           "value": "phishing",
           "expanded": "Phishing",
           "description": "Email designed to trick the recipient into providing sensitive information.",
-          "uuid": "40835f6a-84f3-5161-9c07-204413c902ab"
+          "uuid": "9cc6a00c-8962-539e-ba38-7f77e2f4597b"
         },
         {
           "value": "baiting",
           "expanded": "Baiting",
           "description": "Email designed to trick the recipient into providing sensitive information.",
-          "uuid": "54cc10a3-4ed1-5609-89ce-d9b124b15a64"
+          "uuid": "cd064057-1e99-5858-8f14-eeda150867db"
         },
         {
           "value": "unknown",
           "expanded": "Unknown",
           "description": "Type of email was unknown.",
-          "uuid": "71bf8d50-8a11-5856-91ef-6a3e250d54b3"
+          "uuid": "7d160626-a75e-5eb7-bc28-e6d23424c359"
         }
       ]
     },
@@ -315,31 +315,31 @@
           "value": "sql-injection",
           "expanded": "Sql injection",
           "description": "Exploitation occurred due to malicious SQL queries being executed against a database.",
-          "uuid": "331d6e4c-d512-59ba-bcda-65c71d847add"
+          "uuid": "99838046-754c-5cc8-a2e6-60355e02dc98"
         },
         {
           "value": "directory-traversal",
           "expanded": "Directory traversal",
           "description": "Exploitation occurred through a directory traversal attack allowing access to a restricted directory.",
-          "uuid": "2583b5f1-0ab9-5624-bc49-495de8d8d381"
+          "uuid": "1af3ee7f-14a0-57bb-8088-98b9983a5603"
         },
         {
           "value": "remote-file-inclusion",
           "expanded": "Remote file inclusion",
           "description": "Exploitation occurred due to vulnerabilities allowing malicious files to be sent.",
-          "uuid": "a893e318-cbbb-5ca5-ae14-eef4d046c3b7"
+          "uuid": "b21d9992-1e90-5f9b-982a-c63c682e58be"
         },
         {
           "value": "code-injection",
           "expanded": "Code injection",
           "description": "Exploitation occurred due to malicious code being injected.",
-          "uuid": "4929a92d-19eb-5b05-9732-a5c8bb7c6d69"
+          "uuid": "f2f42ef0-83a8-5434-92a0-82b9dd0b2821"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Other.",
-          "uuid": "bf01110d-be8b-5794-8a90-bcd3315768d5"
+          "uuid": "bd941f5b-cd1c-5ef5-84eb-2903506a968f"
         }
       ]
     },
@@ -350,97 +350,97 @@
           "value": "c2",
           "expanded": "C2",
           "description": "IP address is a command-and-control server.",
-          "uuid": "ac0f9c64-72e2-5693-a348-716dc83d1410"
+          "uuid": "89ec3923-c899-52d0-b6c1-987de0b5c94c"
         },
         {
           "value": "proxy",
           "expanded": "Proxy",
           "description": "IP address is a proxy server.",
-          "uuid": "b0357396-023a-5dee-94b5-67a93e348f04"
+          "uuid": "94acd397-4336-5432-bc29-808b57008057"
         },
         {
           "value": "seeded",
           "expanded": "Seeded",
           "description": "IP address has been seeded with malware or other malicious code.",
-          "uuid": "a3ffde08-a21c-53e9-be19-66a1451d3189"
+          "uuid": "dcceb304-2901-531a-a8bb-4d52af1ea9a2"
         },
         {
           "value": "wateringhole",
           "expanded": "Wateringhole",
           "description": "IP address is a wateringhole.",
-          "uuid": "8cc4c48a-9c4a-573b-9766-4a78e5b2254c"
+          "uuid": "c097c7ce-45e4-55a5-b388-43007c38330c"
         },
         {
           "value": "cloud-infrastructure",
           "expanded": "Cloud infrastructure",
           "description": "IP address is part of cloud infrastructure.",
-          "uuid": "d28256e0-d81a-5ee1-9c36-b3f9cc0e5341"
+          "uuid": "1959924a-3e1d-5fe4-bd49-690759d958a3"
         },
         {
           "value": "network-gateway",
           "expanded": "Network gateway",
           "description": "IP address is a network gateway.",
-          "uuid": "7d0a74a4-f169-51bb-8270-bba7efe98a9b"
+          "uuid": "3620a0a1-5599-5282-bfa9-1d199e143f31"
         },
         {
           "value": "server",
           "expanded": "Server",
           "description": "IP address is a server of some type.",
-          "uuid": "4fea3133-6d06-5979-8d40-5da71444c284"
+          "uuid": "8aeb17ec-b29d-51b5-8bc5-196fb1521020"
         },
         {
           "value": "dns-server",
           "expanded": "Dns server",
           "description": "IP address is a DNS server.",
-          "uuid": "05d69462-5e79-5b3a-bb6b-5b55e265bf2e"
+          "uuid": "bcd8adb2-e815-5e40-ac9a-db4006912672"
         },
         {
           "value": "smtp-server",
           "expanded": "Smtp server",
           "description": "IP address is a mail server.",
-          "uuid": "8a58532d-d5a6-5c87-8123-db4022dec2a0"
+          "uuid": "a990d026-7a05-5936-b5f6-40272985ffae"
         },
         {
           "value": "web-server",
           "expanded": "Web server",
           "description": "IP address is a web server.",
-          "uuid": "f42c6ce3-05bb-5014-9c2d-d15b95b0f01b"
+          "uuid": "064aa097-1521-5b66-af47-e7a0116c2e20"
         },
         {
           "value": "file-server",
           "expanded": "File server",
           "description": "IP address is a file server.",
-          "uuid": "267198c3-c6e5-5f8d-8858-fa7b17f81dec"
+          "uuid": "1bafdf09-2a51-5d22-9277-428d36099968"
         },
         {
           "value": "database-server",
           "expanded": "Database server",
           "description": "IP address is a database server.",
-          "uuid": "2eac6764-eea1-5a6f-81d9-6742539e31ef"
+          "uuid": "d6db2125-1b56-5f1e-9023-ee6a18128256"
         },
         {
           "value": "security-appliance",
           "expanded": "Security appliance",
           "description": "IP address is a security appliance of some type.",
-          "uuid": "b029fc22-9d9f-566a-b2bd-b358f3abdda5"
+          "uuid": "b98d19b8-152a-549b-950f-dd307dd3bfbc"
         },
         {
           "value": "tor-node",
           "expanded": "Tor node",
           "description": "IP address is a node of the TOR anonymization system.",
-          "uuid": "9d16c594-0d89-5bea-80d4-e40e89dc983a"
+          "uuid": "6621a8e3-ef99-5167-8ad9-124db0fd97b8"
         },
         {
           "value": "sinkhole",
           "expanded": "Sinkhole",
           "description": "IP address is a sinkhole.",
-          "uuid": "44496a41-f3df-54b0-8c29-0ad14a08b4bc"
+          "uuid": "50f3da48-a814-5abe-a99f-7bebe798b674"
         },
         {
           "value": "router",
           "expanded": "Router",
           "description": "IP address is a router device.",
-          "uuid": "54a320c7-c231-5f58-bf88-831036dbf766"
+          "uuid": "7b298a56-faa2-5d4b-9805-8ed697d66737"
         }
       ]
     },
@@ -451,19 +451,19 @@
           "value": "non-malicious",
           "expanded": "Non-malicious",
           "description": "Non-malicious is not malicious or suspicious.",
-          "uuid": "eaf3c70f-e246-5893-a0b0-796edaed376c"
+          "uuid": "24134ff6-98a6-52ce-9164-cd627b51e366"
         },
         {
           "value": "suspicious",
           "expanded": "Suspicious",
           "description": "Suspicious is not non-malicious and not malicious.",
-          "uuid": "9e1eb0bb-de8f-557d-a03c-df165e8bc98c"
+          "uuid": "0292d415-5aae-52e3-8757-a8a9f74d14f6"
         },
         {
           "value": "malicious",
           "expanded": "Malicious",
           "description": "Malicious is not non-malicious or suspicious.",
-          "uuid": "e3a225c2-efb9-5804-bb75-6a09b1aa0bb9"
+          "uuid": "2fde0161-c82d-5c5b-906c-7847aeb884ba"
         }
       ]
     },
@@ -474,103 +474,103 @@
           "value": "exploit-kit",
           "expanded": "Exploit kit",
           "description": "Toolkit used to attack vulnerabilities in systems.",
-          "uuid": "a4dbe448-13e9-5dd2-bb23-463ad80b5af3"
+          "uuid": "473c0f75-001e-50e2-b4fd-dcdd7be5279f"
         },
         {
           "value": "first-stage",
           "expanded": "First stage",
           "description": "Malware used in the initial phase of an attack and commonly used to retrieve a second stage.",
-          "uuid": "dc91d3f3-75ef-582e-b8b4-92e521fece47"
+          "uuid": "2301b7df-edcb-5aa4-88f7-dc882ceba0af"
         },
         {
           "value": "second-stage",
           "expanded": "Second stage",
           "description": "Typical more complex malware retrieved by first stage malware.",
-          "uuid": "9280a546-650b-5d3d-aaa5-41e5c930f98c"
+          "uuid": "4303e325-742f-548d-b415-542cf11ee93c"
         },
         {
           "value": "scanner",
           "expanded": "Scanner",
           "description": "Malware used to look for common vulnerabilities or running software.",
-          "uuid": "d26e6ed6-baeb-5780-9ed2-293738a4197d"
+          "uuid": "2354e3a4-781e-5b15-97fd-316cad61503f"
         },
         {
           "value": "downloader",
           "expanded": "Downloader",
           "description": "Malware used to retrieve additional malware or tools.",
-          "uuid": "fdc1f266-e592-59cb-b29e-8da2840ca48a"
+          "uuid": "23435de7-19d4-5d03-832e-b01e30a6278d"
         },
         {
           "value": "proxy",
           "expanded": "Proxy",
           "description": "Malware used to proxy traffic on an infected host.",
-          "uuid": "004f5f19-5e51-57e1-b8b7-ef7156ba7f6e"
+          "uuid": "37453089-bfa1-50c4-bc25-f0be9ff219c8"
         },
         {
           "value": "reverse-proxy",
           "expanded": "Reverse proxy",
           "description": "If you choose this option please provide a description of what it is to the ALFRED PO.",
-          "uuid": "15e8694f-8a48-5ebd-9ef5-02871149b8db"
+          "uuid": "06f907a8-d244-5d19-bb2a-a3e9e0548721"
         },
         {
           "value": "webshell",
           "expanded": "Webshell",
           "description": "Malware uploaded to a web server allowing remote access to an attacker.",
-          "uuid": "002530f1-a0bf-5d8b-89e7-ab77c7569021"
+          "uuid": "72445e23-b1af-5c6a-aefb-80bd11355981"
         },
         {
           "value": "ransomware",
           "expanded": "Ransomware",
           "description": "Malware used to hold infected host's data hostage, typically through encryption until a payment is made to the attackers.",
-          "uuid": "d204ea17-4f6f-52d9-b596-ee65adc34b01"
+          "uuid": "fec92b06-2c3f-55a3-9061-c624fcc41b73"
         },
         {
           "value": "adware",
           "expanded": "Adware",
           "description": "Malware used to display ads to the infected host.",
-          "uuid": "72012131-956e-5be0-be4e-d232b283e9b5"
+          "uuid": "3c1265e8-cabd-5a5d-aab2-80bc9ffdec82"
         },
         {
           "value": "spyware",
           "expanded": "Spyware",
           "description": "Malware used to collect information from the infected host, such as credentials.",
-          "uuid": "97114574-16f4-5ffd-ac6f-30cf1b6c7ecd"
+          "uuid": "95491450-fad2-569e-98ed-99e4fa3ca89b"
         },
         {
           "value": "virus",
           "expanded": "Virus",
           "description": "Malware that propogates by inserting a copy of itself into another program.",
-          "uuid": "57c22a8d-90f7-5232-8127-47cc4b0fea2c"
+          "uuid": "06773aef-027c-56b2-a543-22f2eb454673"
         },
         {
           "value": "worm",
           "expanded": "Worm",
           "description": "Standalone malware that propogates by copying itself..",
-          "uuid": "595d2f07-5a1e-5b02-9681-05488636889b"
+          "uuid": "a8eb1a5f-0f91-527e-834b-8a995f3bc0f8"
         },
         {
           "value": "trojan",
           "expanded": "Trojan",
           "description": "Malware that looks like legitimate software but hides malicious code.",
-          "uuid": "e115ec6d-b463-5534-826c-a165bb87049e"
+          "uuid": "7b63d293-5a56-55d3-b2ca-730a677a2da0"
         },
         {
           "value": "rootkit",
           "expanded": "Rootkit",
           "description": "Malware that can hide the existance of other malware by modifying operating system functions.",
-          "uuid": "bd34b852-9845-5eac-b38b-aaaa53591149"
+          "uuid": "5642941b-351c-554b-bcfe-8b6b2b6ff61b"
         },
         {
           "value": "keylogger",
           "expanded": "Keylogger",
           "description": "Malware that runs in the background, capturing keystrokes from a user unknowingly for exfiltration.",
-          "uuid": "6dd214ef-a671-5346-808c-ef7f2dd1700a"
+          "uuid": "f89e78af-1f1a-5958-900f-14107a358027"
         },
         {
           "value": "browser-hijacker",
           "expanded": "Browser hijacker",
           "description": "Malware that re-directs or otherwise intercepts Internet browsing by the user.",
-          "uuid": "416137ad-24c2-5655-bf75-2d23c8d5b065"
+          "uuid": "467dbf26-76ef-5cf8-98b4-03555ca0f735"
         }
       ]
     },
@@ -581,37 +581,37 @@
           "value": "unauthorized-usage",
           "expanded": "Unauthorized usage",
           "description": "Usage of the system or resource was without appropriate permission or authorization.",
-          "uuid": "1832088d-c388-5d97-8a23-4c4b2f9db960"
+          "uuid": "59de30b7-b607-559b-8803-32ad2a6e8067"
         },
         {
           "value": "misconfiguration",
           "expanded": "Misconfiguration",
           "description": "System or resource is misconfigured.",
-          "uuid": "14c5cd4a-30ba-5a7a-9e8f-a3d2314ea1bf"
+          "uuid": "a1510476-5c03-5fd9-bfbb-6befbd32bc82"
         },
         {
           "value": "lack-of-encryption",
           "expanded": "Lack of encryption",
           "description": "System or resources has insufficient encryption or no encryption.",
-          "uuid": "b3ef7c43-83b5-5a3a-8ebe-4d3af9063818"
+          "uuid": "a27bc177-1bc0-57f9-8651-2361693c760c"
         },
         {
           "value": "vulnerable-software",
           "expanded": "Vulnerable software",
           "description": "System or resource has software with known vulnerabilities.",
-          "uuid": "b8cec5b7-365e-5b54-9ff0-75cd2bb5ce74"
+          "uuid": "d7c70712-11e5-5c48-962f-8e23781e606a"
         },
         {
           "value": "privilege-escalation",
           "expanded": "Privilege escalation",
           "description": "System or resource was exploited to gain higher privilege level.",
-          "uuid": "cc531c35-a28b-506b-bb8a-4cfcd5496cc7"
+          "uuid": "1efed33b-cd8b-5951-8f40-4af325941f7e"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Other.",
-          "uuid": "96733e1b-ecf3-5b42-bbf6-93a89cfa169c"
+          "uuid": "d8031d6d-2497-55b5-9995-bd25dc7b0b90"
         }
       ]
     },
@@ -622,73 +622,73 @@
           "value": "anti-virus",
           "expanded": "Anti-virus",
           "description": "Anti-Virus",
-          "uuid": "e946782c-01ae-5dff-b211-4f82e3d73026"
+          "uuid": "81a5eff7-08d0-590d-a72e-a51a08f958d9"
         },
         {
           "value": "content-filtering-system",
           "expanded": "Content filtering system",
           "description": "Content Filtering System",
-          "uuid": "cc320ec2-6e32-54d4-9b42-e3c9c7288e5e"
+          "uuid": "1d2cdf56-b24f-5d6a-910f-7e77c26fa6fb"
         },
         {
           "value": "dynamic-defense",
           "expanded": "Dynamic defense",
           "description": "Dynamic Defense",
-          "uuid": "84ed72a0-6456-5bae-84a7-2feb6ed9e898"
+          "uuid": "9c7ad62a-0697-51be-891e-18dc460df2e8"
         },
         {
           "value": "insufficient-privileges",
           "expanded": "Insufficient privileges",
           "description": "Insufficient Privileges",
-          "uuid": "765ae43f-c031-55d9-9257-d0b4d88681cb"
+          "uuid": "bf660876-78f3-50de-9826-8cee64307a87"
         },
         {
           "value": "ids",
           "expanded": "Ids",
           "description": "Intrusion Detection System",
-          "uuid": "6bc037d4-3861-515e-9a4a-038bf0f868db"
+          "uuid": "93dbba4b-61c8-5ad1-8473-9bad16f539d8"
         },
         {
           "value": "sink-hole-/-take-down-by-third-party",
           "expanded": "Sink hole / take down by third party",
           "description": "Sink Hole / Take Down by Third Party",
-          "uuid": "770c3e53-0bf6-5ddc-a4ff-9eb88c8c3ea0"
+          "uuid": "46d86a22-d0b4-5184-9d7b-24afeea7a187"
         },
         {
           "value": "isp",
           "expanded": "Isp",
           "description": "Internet Service Provider",
-          "uuid": "30a95766-230b-561e-8864-0084bc05dd73"
+          "uuid": "248b68c5-1282-5484-9784-1007f8d3ae3a"
         },
         {
           "value": "invalid-credentials",
           "expanded": "Invalid credentials",
           "description": "Invalid Credentials",
-          "uuid": "d6cf1ca9-20ef-5ebd-bbbd-b4807c26868d"
+          "uuid": "ac8186b4-fdb1-5144-b376-66cb250d3744"
         },
         {
           "value": "not-vulnerable",
           "expanded": "Not vulnerable",
           "description": "No mitigation was required because the system was not vulnerable to the attack.",
-          "uuid": "bf9965e6-07dd-55b1-9cda-67e62f89677b"
+          "uuid": "7cd8553b-7e85-525c-b8b5-7f4eddefdbd9"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Other",
-          "uuid": "b9b8fa40-4461-5b8e-9774-63837dbeeda0"
+          "uuid": "d29df13a-bbf2-5c69-8185-531e69e21b15"
         },
         {
           "value": "unknown",
           "expanded": "Unknown",
           "description": "Unknown",
-          "uuid": "2d70c1c1-16ed-5673-82ed-7b679eb22268"
+          "uuid": "1b138859-f632-51da-8adc-0521eebd3484"
         },
         {
           "value": "user",
           "expanded": "User",
           "description": "User",
-          "uuid": "cf18fa8f-84ee-508b-9f0e-78362a35a121"
+          "uuid": "4a99dccf-be3f-5344-89e5-bc02a29d4c77"
         }
       ]
     },
@@ -699,13 +699,13 @@
           "value": "subscriber",
           "expanded": "Subscriber",
           "description": "Subscriber.",
-          "uuid": "33d98d86-47c2-5024-a6c8-df6394e70e34"
+          "uuid": "aae490f5-1ac5-58d0-a1ea-fa46f0b32b80"
         },
         {
           "value": "internet",
           "expanded": "Internet",
           "description": "Internet.",
-          "uuid": "6da724cf-db49-5b35-a916-4d6e16906ced"
+          "uuid": "18fe5320-3370-57bb-bd3f-1a9cdf886d33"
         }
       ]
     },
@@ -716,49 +716,49 @@
           "value": "cse",
           "expanded": "Cse",
           "description": "Communications Security Establishment.",
-          "uuid": "c993b790-ec92-5f5e-869a-50466972bfdc"
+          "uuid": "6c30893f-5547-5df2-9595-d7fbafac2346"
         },
         {
           "value": "nsa",
           "expanded": "Nsa",
           "description": "National Security Agency.",
-          "uuid": "c5f9e2be-a1e5-5aba-86d8-75ab7aff43f7"
+          "uuid": "554e0326-94b4-5e48-b2ba-778fa75de32d"
         },
         {
           "value": "gchq",
           "expanded": "Gchq",
           "description": "Government Communications Headquarters.",
-          "uuid": "e8537a5e-f180-57e3-8987-96125c6681e7"
+          "uuid": "e369db6b-3197-588e-a8f8-5290f2f3019e"
         },
         {
           "value": "asd",
           "expanded": "Asd",
           "description": "Australian Signals Directorate.",
-          "uuid": "162527f0-f1d9-5f9a-8e55-e3cf7d8b34d4"
+          "uuid": "0ab02960-1fc3-56a2-b783-c989208bc994"
         },
         {
           "value": "gcsb",
           "expanded": "Gcsb",
           "description": "Government Communications Security Bureau.",
-          "uuid": "8ee6e7c6-c840-58cc-8797-e9c2fbd8b83c"
+          "uuid": "968f1728-5b52-5066-b671-c077d8aa4326"
         },
         {
           "value": "open-source",
           "expanded": "Open source",
           "description": "Originated from publically available information.",
-          "uuid": "d55cdf71-60ac-59a5-aada-67c99ae66f44"
+          "uuid": "df3f3996-9a8c-54a5-991c-d62807e35b1d"
         },
         {
           "value": "3rd-party",
           "expanded": "3rd party",
           "description": "Originated from a 3rd party organization.",
-          "uuid": "d0800cac-7d5e-51f3-bce4-f41bd7f37254"
+          "uuid": "73ca64d6-6ca1-501b-8a48-407d4d108db9"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Other.",
-          "uuid": "316b5193-b012-5e7c-b56a-d9ec34efdb99"
+          "uuid": "c0f5adc0-a7e3-54c3-b296-888a724a4b4a"
         }
       ]
     },
@@ -769,31 +769,31 @@
           "value": "open-port",
           "expanded": "Open port",
           "description": "Scan was looking for open ports corresponding to common applications or protocols.",
-          "uuid": "7d29ad80-fa1d-5376-9b9f-481fa17d41b6"
+          "uuid": "ff206c24-3270-5dba-bff0-54b21daead1c"
         },
         {
           "value": "icmp",
           "expanded": "Icmp",
           "description": "Scan was attempting to enumerate devices through the ICMP protocol.",
-          "uuid": "2c0920e7-17e8-5022-8d87-b921abc5f528"
+          "uuid": "1d32eca0-fcb7-5546-90ef-1a31b4c9fadd"
         },
         {
           "value": "os-fingerprinting",
           "expanded": "Os fingerprinting",
           "description": "Scan was looking for operating system information through unique characteristics in responses.",
-          "uuid": "38401c24-02cc-50c0-829d-fa6818d104f0"
+          "uuid": "7aad3f6b-11cc-5a63-afc4-91d7bb3fd11f"
         },
         {
           "value": "web",
           "expanded": "Web",
           "description": "Scan was enumerating or otherwise traversing web hosts.",
-          "uuid": "7b36636a-7e3f-5462-8e89-6a7171a396e4"
+          "uuid": "68b86ca0-1525-5843-9d2f-822878d33f02"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Other.",
-          "uuid": "9d741017-b597-5e0a-baf2-f8fd8be54258"
+          "uuid": "0ad6de77-31fb-5ef9-8c49-2b7c16a92d51"
         }
       ]
     },
@@ -804,19 +804,19 @@
           "value": "reconnaissance",
           "expanded": "Reconnaissance",
           "description": "An actor attempted or succeeded in gaining information that may be used to identify and/or compromise systems or data.",
-          "uuid": "9758a25e-74de-53bf-ba98-710fa1333eba"
+          "uuid": "fe371c7a-f276-5f63-94d6-b93a074b0d20"
         },
         {
           "value": "attempted-compromise",
           "expanded": "Attempted compromise",
           "description": "An actor attempted affecting the confidentiality, integrity or availability of a system.",
-          "uuid": "8a6d537c-e056-5c57-b01b-b4926e8d547c"
+          "uuid": "30475023-7af7-581a-a266-26cacf757d15"
         },
         {
           "value": "exploited",
           "expanded": "Exploited",
           "description": "A vulnerability was successfully exploited.",
-          "uuid": "dd7a2d62-4f0d-5239-93bc-2f1bac47b559"
+          "uuid": "fff3d8de-bcee-5530-add2-c5e6ad81bd38"
         }
       ]
     },
@@ -827,124 +827,124 @@
           "value": "application:cms",
           "expanded": "Application:cms",
           "description": "Content Management System.",
-          "uuid": "2d18be69-b511-51c3-85fa-3dbef6ddabdc"
+          "uuid": "d640e778-6bb6-514b-ae11-61f440da1041"
         },
         {
           "value": "application:bash",
           "expanded": "Application:bash",
           "description": "BASH script.",
-          "uuid": "7de7bf20-c3f1-50fa-ad32-509bd41aa983"
+          "uuid": "3d41c131-c31e-5d92-ae36-b6141f69cdf9"
         },
         {
           "value": "application:acrobat-reader",
           "expanded": "Application:acrobat reader",
           "description": "Adobe Acrobat Reader.",
-          "uuid": "5e93632a-166b-5f45-98d9-449c09b72a8c"
+          "uuid": "4acf7f8e-37f6-5c64-85f3-9b2f60a79693"
         },
         {
           "value": "application:ms-excel",
           "expanded": "Application:ms excel",
           "description": "Microsoft Excel.",
-          "uuid": "4f8959a3-2880-52b4-b2f8-d7bd6a651e30"
+          "uuid": "da8b3b12-b1ba-597b-808d-7adc738c15f6"
         },
         {
           "value": "application:other",
           "expanded": "Application:other",
           "description": "Other Application.",
-          "uuid": "10c09433-68f5-50a5-ba41-cc8b792329db"
+          "uuid": "ba497537-d16d-5a33-9f67-9180655b46c9"
         },
         {
           "value": "language:sql",
           "expanded": "Language:sql",
           "description": "Structured Query Language.",
-          "uuid": "2241981a-a89f-5b35-9454-e69c3dc0a58c"
+          "uuid": "5127ed08-d741-5125-aa9c-aafca7baea8e"
         },
         {
           "value": "language:php",
           "expanded": "Language:php",
           "description": "PHP: Hypertext Preprocessor.",
-          "uuid": "9df46b03-82b4-5b17-8570-140cd94a8466"
+          "uuid": "04004c8e-16a4-51b9-b1c4-c84ce47fc6a8"
         },
         {
           "value": "language:javascript",
           "expanded": "Language:javascript",
           "description": "JavaScript.",
-          "uuid": "4a766f90-5239-5d6d-97c4-82bb774fd19e"
+          "uuid": "61d55557-3d95-588c-9aba-8e053298e8e8"
         },
         {
           "value": "language:other",
           "expanded": "Language:other",
           "description": "Other Language.",
-          "uuid": "d9ac5f35-8714-577d-b027-fb86d7366567"
+          "uuid": "e65dbb3e-ffdc-541a-b43b-aeebd3c1e22b"
         },
         {
           "value": "protocol:dns",
           "expanded": "Protocol:dns",
           "description": "Domain Name System.",
-          "uuid": "9b888fdb-cfff-5f5d-a30a-b66fb9096308"
+          "uuid": "b3674ab5-60a4-59a1-9f51-b79863c9ed6d"
         },
         {
           "value": "protocol:ftp",
           "expanded": "Protocol:ftp",
           "description": "File Transfer Protocol.",
-          "uuid": "37aa159f-cc95-5618-914d-8b872e29c95e"
+          "uuid": "2816031e-0277-5861-91d5-a489c727968e"
         },
         {
           "value": "protocol:http",
           "expanded": "Protocol:http",
           "description": "Hyper Text Transfer Protocol.",
-          "uuid": "dada4714-e3e8-5981-b0c5-6d5d5c3d76b2"
+          "uuid": "dd6cdc72-07cb-5baa-8c8b-9615998130c4"
         },
         {
           "value": "protocol:icmp",
           "expanded": "Protocol:icmp",
           "description": "Internet Control Message Protocol.",
-          "uuid": "83893d11-64e9-5379-88a0-bfdade9fcb08"
+          "uuid": "6971d1c8-7007-5e7b-a2cb-eb48b67a2b4c"
         },
         {
           "value": "protocol:ntp",
           "expanded": "Protocol:ntp",
           "description": "Network Time Protocol.",
-          "uuid": "5332b81b-93ef-5c40-b22a-118fdee2a756"
+          "uuid": "9266b6c5-fa8e-588e-becd-0a6f4623faaf"
         },
         {
           "value": "protocol:rdp",
           "expanded": "Protocol:rdp",
           "description": "Remote Desktop Protocol.",
-          "uuid": "81738274-c0a5-583f-8792-7f083dd13f2b"
+          "uuid": "3395bff3-c78a-5af2-a2c4-0e5cee90ca61"
         },
         {
           "value": "protocol:smb",
           "expanded": "Protocol:smb",
           "description": "Server Message Block.",
-          "uuid": "fef6761a-a9ec-5836-a739-ff2b0f5f5501"
+          "uuid": "522f4fd4-16d7-51c3-90d6-9563dde6eec9"
         },
         {
           "value": "protocol:snmp",
           "expanded": "Protocol:snmp",
           "description": "Simple Network Management Protocol.",
-          "uuid": "052dc541-982e-552d-b767-cef4e58ec2c1"
+          "uuid": "4353af9f-3594-52f9-a981-2004c201647d"
         },
         {
           "value": "protocol:ssl",
           "expanded": "Protocol:ssl",
           "description": "Secure Sockets Layer.",
-          "uuid": "cecdf859-5bed-58b6-ad62-9f6512d817b0"
+          "uuid": "c1956f2a-7d51-5935-9fc9-16cb95a6d87d"
         },
         {
           "value": "protocol:telnet",
           "expanded": "Protocol:telnet",
           "description": "Network Virtual Terminal Protocol.",
-          "uuid": "421e30ed-d3d0-5fa3-96b9-2e09d00004d3"
+          "uuid": "0151a9e9-d257-5786-a88c-1ddf9ea7da95"
         },
         {
           "value": "protocol:sip",
           "expanded": "Protocol:sip",
           "description": "Session Initiation Protocol.",
-          "uuid": "73eddae3-cca3-5cc9-b2cb-aa1b2fb15337"
+          "uuid": "ef6f8fd7-c0f4-519d-93a6-c7514c1b5c42"
         }
       ]
     }
   ],
-  "uuid": "d5826b33-e566-5a96-8078-69f348bd5926"
+  "uuid": "a904b119-ea6a-5ea2-a4c3-7f57563a5ef2"
 }

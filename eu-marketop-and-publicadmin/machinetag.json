@@ -6,17 +6,17 @@
     {
       "value": "critical-infra-operators",
       "expanded": "Critical Infrastructure Operators",
-      "uuid": "4b7b41f9-d64e-5664-88ea-29aad9e5299e"
+      "uuid": "1b15b53f-43ae-549f-9238-e0438838fa78"
     },
     {
       "value": "info-services",
       "expanded": "Information Society services enablers",
-      "uuid": "a94f1dc6-0aa7-5458-a8e3-fa83e98c94d7"
+      "uuid": "20b301e0-763e-5eb9-a3bd-ef36c8bea4cd"
     },
     {
       "value": "public-admin",
       "expanded": "Public administration",
-      "uuid": "5933c90b-e4e8-5d98-b4db-183b690ea133"
+      "uuid": "9e35eb6a-d590-5670-a859-f92979e3286c"
     }
   ],
   "values": [
@@ -26,27 +26,27 @@
         {
           "value": "transport",
           "expanded": "Transport",
-          "uuid": "9293f018-7b30-5d28-8f78-a98a1e14ee91"
+          "uuid": "237677fa-05e1-5253-806d-3dda35cb0048"
         },
         {
           "value": "energy",
           "expanded": "Energy",
-          "uuid": "06ab379a-d094-50ed-9bad-2a2ee7a925d7"
+          "uuid": "caa9480e-a498-5c5e-80b5-1f287429bc9d"
         },
         {
           "value": "health",
           "expanded": "Health",
-          "uuid": "ff36dd88-0243-55cb-9556-35e8d8ef9434"
+          "uuid": "62b2c66c-49d1-5cba-871b-46d5e5b8e484"
         },
         {
           "value": "financial",
           "expanded": "Financial market operators",
-          "uuid": "4bb6083b-7e6d-5775-a0fd-8218c5e626cf"
+          "uuid": "e532535b-16a6-5944-8909-e83a5af01312"
         },
         {
           "value": "banking",
           "expanded": "Banking",
-          "uuid": "0b2da7d5-74f4-561d-9826-588b1179811b"
+          "uuid": "15148396-4d46-5fa4-9787-00011c72ce31"
         }
       ]
     },
@@ -56,32 +56,32 @@
         {
           "value": "e-commerce",
           "expanded": "e-commerce platforms",
-          "uuid": "ce20ed62-4e13-54a7-a0bb-46f6dca93869"
+          "uuid": "cf539b89-369f-59c4-9189-ea7b887cab25"
         },
         {
           "value": "internet-payment",
           "expanded": "Internet payment",
-          "uuid": "d079a876-581e-55b0-bf2b-72c76d418acb"
+          "uuid": "31e0aa7f-9656-5c1d-b251-d4e64ab25744"
         },
         {
           "value": "cloud",
           "expanded": "cloud computing",
-          "uuid": "c877be47-a0c4-59eb-9ac1-da7c58531569"
+          "uuid": "dcbf5ea9-d9ec-5972-96f3-f1d71077376b"
         },
         {
           "value": "search-engines",
           "expanded": "search engines",
-          "uuid": "590305d8-a47d-5886-b9fd-a41b746411c3"
+          "uuid": "292a667b-0044-5dae-bdc3-075c314fce1f"
         },
         {
           "value": "socnet",
           "expanded": "social networks",
-          "uuid": "122836a0-6461-54e7-8ef8-09574135ab8b"
+          "uuid": "3a8930c1-861c-57d1-ae10-c705bc7dea3b"
         },
         {
           "value": "app-stores",
           "expanded": "application stores",
-          "uuid": "89407289-876a-5886-a029-281f3ba37887"
+          "uuid": "cd2ef56f-d26d-520d-b12f-12764ff328ad"
         }
       ]
     },
@@ -91,10 +91,10 @@
         {
           "value": "public-admin",
           "expanded": "Public Administrations",
-          "uuid": "d86d6aea-551e-57ca-8e78-c4d2021dcf9d"
+          "uuid": "0fb60577-b422-50cd-85fc-90faaac6a7a6"
         }
       ]
     }
   ],
-  "uuid": "73f77290-891f-5239-98e1-c406cf47e54d"
+  "uuid": "8b2e0ecb-c289-56a1-9f99-7b624c0e019e"
 }

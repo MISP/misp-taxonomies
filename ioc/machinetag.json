@@ -6,7 +6,7 @@
     {
       "value": "artifact-state",
       "expanded": "Artifact State",
-      "uuid": "ced3a33f-0aae-5d0f-8a78-3f8e026be53a"
+      "uuid": "b4f3e861-c791-5de3-9680-8a0f4b1d48dd"
     }
   ],
   "values": [
@@ -16,15 +16,15 @@
         {
           "value": "malicious",
           "expanded": "Malicious",
-          "uuid": "644256a3-6430-5cf4-8f39-227240ae7a5a"
+          "uuid": "b587b026-ec78-546f-a014-a20082e86823"
         },
         {
           "value": "not-malicious",
           "expanded": "Not Malicious",
-          "uuid": "f9497590-85ce-5222-8e6a-0feceb6dbb06"
+          "uuid": "d72e56e2-21b1-5ebd-9af8-e8602fa1b3c5"
         }
       ]
     }
   ],
-  "uuid": "620737dc-1d46-5741-99af-09327a2c5811"
+  "uuid": "b7b1ce2a-e303-5a67-9e98-c483bc6c688e"
 }

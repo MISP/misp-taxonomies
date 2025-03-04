@@ -6,47 +6,47 @@
     {
       "value": "eu-nis-oes",
       "expanded": "Operators of Essential Services",
-      "uuid": "621c0871-fdf8-507d-a683-51e87bc5dae5"
+      "uuid": "376881bf-13ab-5997-a891-7cbc5c46f4c7"
     },
     {
       "value": "eu-nis-oes-energy",
       "expanded": "Operators of Essential Services - Energy Sector",
-      "uuid": "5ef7dfb8-d822-5d1b-b73d-a6714d51f94a"
+      "uuid": "56cb0897-a278-5144-b23a-9799870b5fad"
     },
     {
       "value": "eu-nis-oes-transport",
       "expanded": "Operators of Essential Services - Transport Sector",
-      "uuid": "6f9abe47-61d9-544d-ada7-22296801e0c2"
+      "uuid": "51025424-fdea-50d1-b8c2-b80996d0139a"
     },
     {
       "value": "eu-nis-oes-banking",
       "expanded": "Operators of Essential Services - Banking Sector",
-      "uuid": "57f9ca21-e810-5b64-82d6-e93bed4ef1af"
+      "uuid": "cebf0db0-6ac0-54eb-b3f8-59b3a15f2293"
     },
     {
       "value": "eu-nis-oes-financial",
       "expanded": "Operators of Essential Services - Financial Market Infrastructure Sector",
-      "uuid": "81cdfdf6-82de-536a-ba40-0b5d9e31b465"
+      "uuid": "a8ac5af9-c2ff-52cb-9c55-34eb1c9835b6"
     },
     {
       "value": "eu-nis-oes-health",
       "expanded": "Operators of Essential Services - Health Sector",
-      "uuid": "1caa657a-bec2-59af-ac9d-b83895076148"
+      "uuid": "081809ab-8fe7-5fdc-9995-20791e9d602f"
     },
     {
       "value": "eu-nis-oes-water",
       "expanded": "Operators of Essential Services - Drinking Water Supply and Distribution Sector",
-      "uuid": "a84c57b7-ca97-5bf6-a542-5b0791020ca7"
+      "uuid": "96986319-25ac-5133-9478-235a81773dc6"
     },
     {
       "value": "eu-nis-oes-diginfra",
       "expanded": "Operators of Essential Services - Digital Intrastructure Sector",
-      "uuid": "d505a587-c4a1-531c-b40b-e7e581f4cd9f"
+      "uuid": "9b4f8c76-c66d-5e86-ab9d-e1c14fea8db4"
     },
     {
       "value": "eu-nis-dsp",
       "expanded": "Digital Service Providers",
-      "uuid": "8d181d5b-3c3c-5709-a0dc-7062dca6499a"
+      "uuid": "092c1e80-edeb-54f3-9843-0a9ce392e798"
     }
   ],
   "values": [
@@ -56,37 +56,37 @@
         {
           "value": "energy",
           "expanded": "Energy",
-          "uuid": "2fe923f4-635d-5fc6-b880-393bfcedf712"
+          "uuid": "60b20ece-876d-501f-8125-e9f8fa3a544a"
         },
         {
           "value": "transport",
           "expanded": "Transport",
-          "uuid": "cf5939bc-2c06-5758-bfeb-cb8b233050ec"
+          "uuid": "3fa4ddb9-ae22-5ff1-9ee7-76399e7841ac"
         },
         {
           "value": "banking",
           "expanded": "Banking",
-          "uuid": "2dcfd27b-ea39-5a78-b9ea-bc251519f408"
+          "uuid": "14e3f992-a335-54e1-863b-df6beff95a97"
         },
         {
           "value": "financial",
           "expanded": "Financial Market Infrastructures",
-          "uuid": "d215dcbd-0855-58c8-afee-9813c8314860"
+          "uuid": "b1ac8fa4-f8ff-5116-b1e3-34b9123c17c7"
         },
         {
           "value": "health",
           "expanded": "Health",
-          "uuid": "c439faf2-ba47-5227-bcc2-de9e294cb26d"
+          "uuid": "fc0043f8-47ca-59b7-a117-1dd8fac99d9a"
         },
         {
           "value": "water",
           "expanded": "Drinking Water Supply and Distribution",
-          "uuid": "ccfe33cc-8007-58be-afe1-597a53c2a266"
+          "uuid": "3fbfec88-1b40-5c61-b24a-483c4e896d4f"
         },
         {
           "value": "digitalinfrastructure",
           "expanded": "Digital Infrastructure",
-          "uuid": "e0b339fd-a8d4-5e25-b6a7-f93612ec85fe"
+          "uuid": "8b96dcbb-3723-5e88-8255-61a8d2385eac"
         }
       ]
     },
@@ -96,17 +96,17 @@
         {
           "value": "electricity-energy",
           "expanded": "Electricity Subsector",
-          "uuid": "befc3698-281d-580c-a38d-484dfa86e745"
+          "uuid": "2fbbdf51-175b-5aba-8f7a-50897a94fa63"
         },
         {
           "value": "oil-energy",
           "expanded": "Oil Subsector",
-          "uuid": "14184b1a-1b61-51a3-898b-546162918f0d"
+          "uuid": "9cc482df-6e40-55b1-8296-d91aa06cb699"
         },
         {
           "value": "gas-energy",
           "expanded": "Gas Subsector",
-          "uuid": "a43305ff-bcec-560b-99c5-5954cf055277"
+          "uuid": "7cd1cf41-680a-5f66-b06e-0369d581fe02"
         }
       ]
     },
@@ -116,22 +116,22 @@
         {
           "value": "air-transport",
           "expanded": "Air Transport Subsector",
-          "uuid": "4cbdc89a-1be6-56e1-b5ed-53dcb9e20f5d"
+          "uuid": "e50bf8dd-dae8-5cff-b9d4-914b5d2dd57e"
         },
         {
           "value": "rail-transport",
           "expanded": "Rail Transport Subsector",
-          "uuid": "49ddbd09-5d02-5ab3-a850-d52fec1b8031"
+          "uuid": "c8e4adcb-0d14-56ed-9b0a-9b7458348fcf"
         },
         {
           "value": "water-transport",
           "expanded": "Water Transport Subsector",
-          "uuid": "f1983cf2-85bf-536e-bc02-da15f1ab2218"
+          "uuid": "381a4c82-e1fe-5f7a-9297-918db54d5c1e"
         },
         {
           "value": "road-transport",
           "expanded": "Road Transport Subsector",
-          "uuid": "a3167a6c-0d28-5729-bee6-2605d7a2e15c"
+          "uuid": "ad2c72cd-6787-574e-a5c2-cd3325eff9f4"
         }
       ]
     },
@@ -141,20 +141,20 @@
         {
           "value": "market-dsp",
           "expanded": "Online Marketplace Digital Service",
-          "uuid": "fe7aab9e-197a-53f2-8270-d730c00f567e"
+          "uuid": "1ddc3c35-7149-5893-ad8e-d52bfde05711"
         },
         {
           "value": "search-dsp",
           "expanded": "Online Search Engine Digital Service",
-          "uuid": "07ce4e29-ceaf-58be-8e54-52bdf2056ac0"
+          "uuid": "6e96d2c0-d14c-550c-9fc7-352cf932e905"
         },
         {
           "value": "cloud-dsp",
           "expanded": "Cloud Computing Digital Service",
-          "uuid": "97fe4efa-c4a1-5751-8dcc-4e8df7b78be8"
+          "uuid": "f3a05b9b-49a8-5782-b099-720088112f07"
         }
       ]
     }
   ],
-  "uuid": "b7f2f7ff-da27-51e9-b0e5-900445a4e9f0"
+  "uuid": "87b5cc02-0b0c-5a87-8e27-5c2d901839e4"
 }

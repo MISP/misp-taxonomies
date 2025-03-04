@@ -3,40 +3,40 @@
     {
       "expanded": "Type of information leak detected from automatic analysis",
       "value": "automatic-detection",
-      "uuid": "846d175e-8d2a-5973-9354-6480adedb404"
+      "uuid": "46068ba3-c557-5225-98eb-a214179bf1d6"
     },
     {
       "expanded": "Type of information leak detected from a human analysis",
       "value": "analyst-detection",
-      "uuid": "0b460335-d981-5cf3-9783-c4d1d72903ef"
+      "uuid": "39af0ed1-eda9-5987-ae43-5c79bcb374b7"
     },
     {
       "value": "confirmed",
       "expanded": "Confirmed information leak or not",
       "exclusive": true,
-      "uuid": "5ea484fe-c7c0-5317-8c97-cb4c0a22e6c6"
+      "uuid": "4dbd975b-065f-5646-8cb2-107a8bcf4a01"
     },
     {
       "expanded": "Source of the information leak",
       "value": "source",
-      "uuid": "f0beb3ac-c5a5-56e1-9dde-84b3fa525917"
+      "uuid": "705ef1be-83c9-502e-85da-075f04a1b26b"
     },
     {
       "expanded": "type of submission",
       "value": "submission",
-      "uuid": "301e88f5-03c5-5d0f-8065-38b587e1d99d"
+      "uuid": "72b3e9a4-c42b-5dc8-aa2e-90fef3656dee"
     },
     {
       "expanded": "Output format",
       "value": "output-format",
       "exclusive": true,
-      "uuid": "6889e064-31d0-5dce-a476-87a9e633377a"
+      "uuid": "bb38f261-80ba-54c3-aa1f-595d01915681"
     },
     {
       "value": "certainty",
       "expanded": "Certainty of the information to be a leak",
       "exclusive": true,
-      "uuid": "f9705636-2659-5638-b580-20e581f3832f"
+      "uuid": "82dea39e-b805-5530-a0f1-23d7ed2aa19a"
     }
   ],
   "version": 10,
@@ -49,167 +49,167 @@
         {
           "value": "credential",
           "expanded": "Credential",
-          "uuid": "74ba415d-1ea8-54aa-90a6-afdd7386532f"
+          "uuid": "2dae823c-4ec0-56d7-806d-20a1326ea6eb"
         },
         {
           "value": "credit-card",
           "expanded": "Credit card",
-          "uuid": "6288d307-67b6-568f-af76-63ed65ec9afb"
+          "uuid": "f4078f5f-654f-57ca-b48b-9e8c01fa1fb2"
         },
         {
           "value": "iban",
           "expanded": "IBAN",
-          "uuid": "e8afd0b6-099f-534b-ab7d-5d60b2bf0af8"
+          "uuid": "3acd5ab2-866a-51ae-a0cc-ede3a012ffdd"
         },
         {
           "value": "ip",
           "expanded": "IP address",
-          "uuid": "18344001-edf2-5522-bfa1-327b9eb66ba3"
+          "uuid": "3a398433-f8ac-5e28-9a23-ac31edb00ecd"
         },
         {
           "value": "mail",
           "expanded": "Mail",
-          "uuid": "1e4c0f6d-ece7-59f8-9900-38a8ee783935"
+          "uuid": "ff689a15-cf1b-5149-92ca-762dfc869713"
         },
         {
           "value": "phone-number",
           "expanded": "Phone number",
-          "uuid": "12f5b588-b87c-5c17-8025-13b9ef82ed92"
+          "uuid": "e98dda49-49ff-5aec-b6b0-869165f427fc"
         },
         {
           "value": "api-key",
           "expanded": "API key",
-          "uuid": "41e41418-4e5d-5992-8bdc-47c536f3930b"
+          "uuid": "b0b0c6e4-1b65-59a9-a64e-a89494e9f87e"
         },
         {
           "value": "google-api-key",
           "expanded": "Google API key",
-          "uuid": "d7424184-20ad-5ae3-902c-6f5d48c01fa9"
+          "uuid": "3e5343b0-c1d3-5312-a52e-06ab863f8f33"
         },
         {
           "value": "aws-key",
           "expanded": "AWS key",
-          "uuid": "60d2b5b3-c852-5c5b-88a8-48d0523c76fd"
+          "uuid": "83196ff3-76b7-5669-80d9-40d3e9f11335"
         },
         {
           "value": "private-key",
           "expanded": "Private key at large",
-          "uuid": "7d77e1ee-91c3-5593-aeab-ada380b3b7bd"
+          "uuid": "82719cf9-43e5-5a30-9e35-9dff0b9a55b3"
         },
         {
           "value": "encrypted-private-key",
           "expanded": "Encrypted private key at large",
-          "uuid": "582c69d9-d748-580e-97dd-c66c183a3cda"
+          "uuid": "d3f78ed6-3718-5fd7-806f-d61e291111cc"
         },
         {
           "value": "private-ssh-key",
           "expanded": "Private SSH key",
-          "uuid": "a7b4f24a-441f-5851-b313-de48904665a5"
+          "uuid": "772eed64-c33a-51ad-bf7c-85da3619516d"
         },
         {
           "value": "private-static-key",
           "expanded": "Private state key",
-          "uuid": "e92617cd-9ead-575b-9879-2a2d92c26e4e"
+          "uuid": "c57e3364-294f-5efa-9444-f9d76e0ad310"
         },
         {
           "value": "vpn-static-key",
           "expanded": "VPN static key",
-          "uuid": "0d72f87c-0a40-5fca-8a12-5ee766c5c400"
+          "uuid": "4d0e3080-ad2c-5381-a5f5-856352e9c31d"
         },
         {
           "value": "pgp-message",
           "expanded": "PGP message",
-          "uuid": "16959dcf-694a-5f22-88a5-361f5a046db1"
+          "uuid": "6556c5a7-d200-5d52-a905-7faa037c34af"
         },
         {
           "value": "pgp-public-key-block",
           "expanded": "PGP public key block",
-          "uuid": "28526029-f717-50b7-9fb5-3899845338f9"
+          "uuid": "41e97bf1-dff5-5b41-ac91-8947a0f5d76c"
         },
         {
           "value": "pgp-signature",
           "expanded": "PGP signature",
-          "uuid": "002dcc09-5f95-51c5-adfb-5a80de2dd8cd"
+          "uuid": "7e687acd-009c-5b4c-b073-2b078884de9f"
         },
         {
           "value": "pgp-private-key",
           "expanded": "PGP private key",
-          "uuid": "cbd1c321-a68e-5352-a884-be84eb98c1bf"
+          "uuid": "f67f300e-4bf5-5b95-93ca-933c00ebfb93"
         },
         {
           "value": "certificate",
           "expanded": "Certificate",
-          "uuid": "9e9fa277-4ff8-5bee-8b16-51e090826a4a"
+          "uuid": "1d239584-20b3-5dae-a3b2-fec7f6e1084e"
         },
         {
           "value": "rsa-private-key",
           "expanded": "RSA private key",
-          "uuid": "7d74a1c2-446f-5c0e-a81f-a5cac0987190"
+          "uuid": "d89be0db-f4e9-5305-a7c8-681272489a5c"
         },
         {
           "value": "dsa-private-key",
           "expanded": "DSA private key",
-          "uuid": "e5ba166e-fb81-592d-8607-ecf36b4d6057"
+          "uuid": "45f02e79-feda-50af-a955-3b7dd906963c"
         },
         {
           "value": "ec-private-key",
           "expanded": "EC private key",
-          "uuid": "4dfd1000-9710-5e9b-a1a0-063adbd66cc8"
+          "uuid": "877c28d3-caf6-5dde-b105-7bffdb9448d9"
         },
         {
           "value": "public-key",
           "expanded": "Public key",
-          "uuid": "fadd31a7-339a-5c8f-980a-d8df802691b0"
+          "uuid": "90bc2113-6e18-5e6e-b64f-a7dd86d51d79"
         },
         {
           "value": "base64",
           "expanded": "Base64",
-          "uuid": "83459c65-8302-5ac1-a5ea-3580b1e61573"
+          "uuid": "00cfd200-5a5b-5387-a614-43b6efd1a4a5"
         },
         {
           "value": "binary",
           "expanded": "Binary",
-          "uuid": "fa626786-adba-5008-bbaa-7902faccc780"
+          "uuid": "3fae6391-139c-560d-b559-3fd6fa3110eb"
         },
         {
           "value": "hexadecimal",
           "expanded": "Hexadecimal",
-          "uuid": "5d845c07-a43e-5b08-a81e-b6160bdb477d"
+          "uuid": "f2ffe2f6-0953-517a-96df-93a2ed694d9a"
         },
         {
           "value": "bitcoin-address",
           "expanded": "Bitcoin address",
-          "uuid": "01a75138-4afd-5409-b8f2-fb10de327e3d"
+          "uuid": "1014f191-6b04-598a-bd34-dd17e0505d6b"
         },
         {
           "value": "bitcoin-private-key",
           "expanded": "Bitcoin private key",
-          "uuid": "e50ee7e9-4bca-5e2f-9ad4-40eb78844f5f"
+          "uuid": "65ad6919-72c5-508f-9d5d-bcbb65723119"
         },
         {
           "value": "cve",
           "expanded": "CVE",
-          "uuid": "c6da7319-cdfa-5bcc-9ef0-1f97e191209a"
+          "uuid": "61dc960f-cf72-5bd8-8fbc-0b6e75cf5a99"
         },
         {
           "value": "onion",
           "expanded": "Onion link",
-          "uuid": "a22d19dd-0e68-5b61-80d4-e8ef08af273a"
+          "uuid": "93cccb36-5707-54e1-9006-c0e30de08d01"
         },
         {
           "value": "barcode",
           "expanded": "Barcode",
-          "uuid": "f8a0a058-fe2a-5532-9acb-b0eb30b339ae"
+          "uuid": "ed4ab7ce-7774-5a80-81ac-279a7cffd2d3"
         },
         {
           "value": "qrcode",
           "expanded": "QR Code",
-          "uuid": "e4b956bb-4d09-5061-9e3f-77cedc8214e8"
+          "uuid": "63497663-de0c-5ec8-81ac-eb1446bacc79"
         },
         {
           "value": "sql-injection",
           "expanded": "SQL injection",
-          "uuid": "3946069e-212d-5b44-a2a7-7ef8abd9ec26"
+          "uuid": "d00233b1-86dc-54de-9db9-50b2e27a0fa5"
         }
       ]
     },
@@ -219,167 +219,167 @@
         {
           "value": "credential",
           "expanded": "Credential",
-          "uuid": "5032cf3b-d536-515f-b08d-c799e801948f"
+          "uuid": "cb09d006-b7ac-5d9d-b051-274387526898"
         },
         {
           "value": "credit-card",
           "expanded": "Credit card",
-          "uuid": "e2c74989-a612-5c8a-b735-116b3aa7647f"
+          "uuid": "7f7bbbd3-c560-5aa9-8d86-fa49560ab0f4"
         },
         {
           "value": "iban",
           "expanded": "IBAN",
-          "uuid": "a71b5a5c-bf18-574d-becf-8651d1cd2d8f"
+          "uuid": "80d9c260-5b39-5d54-b949-023f2e733397"
         },
         {
           "value": "ip",
           "expanded": "IP address",
-          "uuid": "7e86307d-4601-5b88-a178-c59ea9f30f87"
+          "uuid": "6a29837d-4743-587d-9a42-47e720ef02b4"
         },
         {
           "value": "mail",
           "expanded": "Mail",
-          "uuid": "b94ab7d0-8f74-5a83-896f-e24c2e37886d"
+          "uuid": "77931d43-910a-5ce4-9d3e-655072afe6df"
         },
         {
           "value": "phone-number",
           "expanded": "Phone number",
-          "uuid": "2fc84bd6-b75b-5932-9de4-51671fb6b0a2"
+          "uuid": "224956d3-8fda-53f0-b271-bd09d26c0d3c"
         },
         {
           "value": "api-key",
           "expanded": "API key",
-          "uuid": "ea819d01-dcb3-57d5-b55b-8a750bc46cf8"
+          "uuid": "4f333254-ada7-5444-8900-19c78db281c7"
         },
         {
           "value": "google-api-key",
           "expanded": "Google API key",
-          "uuid": "29c58bb0-4f04-5fb7-840a-d4746132c31d"
+          "uuid": "c4d4903c-f29e-569e-a9d7-16f6001cce0d"
         },
         {
           "value": "aws-key",
           "expanded": "AWS key",
-          "uuid": "9c48802c-b081-549f-b1ca-eafa18a4cf8e"
+          "uuid": "eddd1c36-ecfd-5640-a2ce-615c94a35593"
         },
         {
           "value": "private-key",
           "expanded": "Private key at large",
-          "uuid": "8850ab77-c593-5e1d-b335-d373161d0119"
+          "uuid": "df9b54bc-6e99-5aee-8c07-fdff0bbfef90"
         },
         {
           "value": "encrypted-private-key",
           "expanded": "Encrypted private key at large",
-          "uuid": "a99f009d-44c3-5b85-b677-03de5235f508"
+          "uuid": "47252bd2-0ca8-5a46-bc6d-6d0bd8709952"
         },
         {
           "value": "private-ssh-key",
           "expanded": "Private SSH key",
-          "uuid": "84fe5b72-f2c1-5bdb-8a5b-f2323b240908"
+          "uuid": "2bbbdb7c-bc64-5714-a669-d1a79949aa98"
         },
         {
           "value": "private-static-key",
           "expanded": "Private state key",
-          "uuid": "d5098919-f37d-5ef9-b6d1-5cbf5d672709"
+          "uuid": "5fd2148a-7d58-5a7a-9260-cd984479ee55"
         },
         {
           "value": "vpn-static-key",
           "expanded": "VPN static key",
-          "uuid": "0c2f1d21-1d0b-5632-8918-81b7519552d7"
+          "uuid": "31dbf58e-7d11-5ce3-a3d8-cd2547018a46"
         },
         {
           "value": "pgp-message",
           "expanded": "PGP message",
-          "uuid": "be234d31-a9c6-5873-a974-66e4c12499e4"
+          "uuid": "a24d5968-21be-5cb4-a2e5-7a8f3d082834"
         },
         {
           "value": "pgp-public-key-block",
           "expanded": "PGP public key block",
-          "uuid": "24b377c3-8d7f-5134-92f6-5229e21922e5"
+          "uuid": "e34f92fe-ad9b-500a-8003-162ef534a18c"
         },
         {
           "value": "pgp-signature",
           "expanded": "PGP signature",
-          "uuid": "5b96a178-64bf-5b28-9fea-a3f44123c868"
+          "uuid": "00576e39-a86d-58ae-9649-1f4ce0137bc6"
         },
         {
           "value": "pgp-private-key",
           "expanded": "PGP private key",
-          "uuid": "210d75de-72ba-512a-bfcd-61d15733926f"
+          "uuid": "ecda0a08-4627-53d4-85b1-c6442f4a1850"
         },
         {
           "value": "certificate",
           "expanded": "Certificate",
-          "uuid": "bdde7b27-4990-5f5a-a6f9-3112cc8d8429"
+          "uuid": "7ed9a50d-0238-559c-9c13-08d5889aff52"
         },
         {
           "value": "rsa-private-key",
           "expanded": "RSA private key",
-          "uuid": "e28e80b7-01bb-5c7d-8fa0-9675a78a6268"
+          "uuid": "be0a608e-39c5-53a9-94e2-5de53c0b9d17"
         },
         {
           "value": "dsa-private-key",
           "expanded": "DSA private key",
-          "uuid": "079a1dfa-f0d7-57c6-b373-e93fb9dcb372"
+          "uuid": "c7ce4218-a75d-53f5-910d-961b6f2733cf"
         },
         {
           "value": "ec-private-key",
           "expanded": "EC private key",
-          "uuid": "d8219a32-aa0e-5fa8-9247-3bf0382ab6c1"
+          "uuid": "cd8e5190-a7f6-5438-9968-c8bbcc8969e5"
         },
         {
           "value": "public-key",
           "expanded": "Public key",
-          "uuid": "46e679c6-dc4e-5df2-badc-77d5bebbd2ff"
+          "uuid": "0740e8b2-71c0-53f8-bc9c-f381e98b0d28"
         },
         {
           "value": "base64",
           "expanded": "Base64",
-          "uuid": "67390053-1685-5001-af57-1adaece614ec"
+          "uuid": "462b3bf1-1780-5a7d-89e4-12558605abba"
         },
         {
           "value": "binary",
           "expanded": "Binary",
-          "uuid": "06ebcfda-0769-59ed-9bb1-cd516f1c7c10"
+          "uuid": "1e9bfe5c-fb36-5538-acb6-a79664a5e876"
         },
         {
           "value": "hexadecimal",
           "expanded": "Hexadecimal",
-          "uuid": "2c00c463-a93f-54fc-94ec-1c4f67a28cc9"
+          "uuid": "ffa40e46-e082-5d58-bd5c-827ef062f4c6"
         },
         {
           "value": "bitcoin-address",
           "expanded": "Bitcoin address",
-          "uuid": "bf36e703-6955-5050-867a-882a83cbb631"
+          "uuid": "a95cf1aa-947f-5716-a2fe-11e683d8cfaf"
         },
         {
           "value": "bitcoin-private-key",
           "expanded": "Bitcoin private key",
-          "uuid": "1e60e8aa-1505-535c-b3cf-aedea6f19a02"
+          "uuid": "f92fd4b6-e429-50e4-b7f6-f3e44deb05c7"
         },
         {
           "value": "cve",
           "expanded": "CVE",
-          "uuid": "41cc4638-0fe7-5a64-827e-1b26871404cb"
+          "uuid": "18c7ffa7-bc7f-5461-8cbc-09950a9fc296"
         },
         {
           "value": "onion",
           "expanded": "Onion link",
-          "uuid": "8e6475c3-1730-5bca-899f-ef3092b60a0e"
+          "uuid": "f8a899dc-87e1-57f7-a8a4-c0b082f4ee07"
         },
         {
           "value": "barcode",
           "expanded": "Barcode",
-          "uuid": "406999e8-f8ec-5911-8c3a-a9cedd8dc8e9"
+          "uuid": "ca9ae8cd-47ae-50ef-b673-497415ae6187"
         },
         {
           "value": "qrcode",
           "expanded": "QR Code",
-          "uuid": "50c070d7-c441-5df9-ac20-2d127a39c99d"
+          "uuid": "6929508e-d408-5d09-a8b5-68bf50965f83"
         },
         {
           "value": "sql-injection",
           "expanded": "SQL injection",
-          "uuid": "a9ac0638-9c1f-5d7e-a610-9b8e43f934d8"
+          "uuid": "bd362143-fcd0-5922-a6ac-70cdb2f759d4"
         }
       ]
     },
@@ -389,22 +389,22 @@
         {
           "value": "false-positive",
           "expanded": "False positive",
-          "uuid": "4ff51d84-9a39-545c-82eb-f2d8eb9235b5"
+          "uuid": "e9b8bf70-edc1-518f-a49f-79267207b55f"
         },
         {
           "value": "false-negative",
           "expanded": "False negative",
-          "uuid": "af830419-4386-55e1-9730-bf4163098aa2"
+          "uuid": "dfe62b89-fc03-5b2a-a379-5b6c745bf38f"
         },
         {
           "value": "true-positive",
           "expanded": "True positive",
-          "uuid": "98ca1909-36f7-5ad7-b2d5-4c2e56a59b41"
+          "uuid": "e86acc94-441c-58e4-b5fb-2ef855642bc1"
         },
         {
           "value": "true-negative",
           "expanded": "True negative",
-          "uuid": "19c5fb94-01cc-555c-9379-53b21c0cafd1"
+          "uuid": "f07df6e7-2ed7-5590-a14c-32a25456fc14"
         }
       ]
     },
@@ -414,47 +414,47 @@
         {
           "value": "public-website",
           "expanded": "Public website",
-          "uuid": "9c33a227-ce9c-558e-b9f1-c5db0c6cfb32"
+          "uuid": "48396851-e8c9-5e2e-b81a-c03600c7a5de"
         },
         {
           "value": "pastie-website",
           "expanded": "Pastie-like website",
-          "uuid": "f1fb8a21-7da6-594c-bec5-ee9306fe45ac"
+          "uuid": "7a708730-35f2-5865-8eed-6677f4df7197"
         },
         {
           "value": "electronic-forum",
           "expanded": "Electronic forum",
-          "uuid": "9b5f9a22-21c3-5536-a3d6-668d7ecba33f"
+          "uuid": "dbd4c2d4-1551-5d33-9fe7-5550442a22db"
         },
         {
           "value": "mailing-list",
           "expanded": "Mailing-list",
-          "uuid": "920b0999-2aed-53cf-a328-45b6d35031dc"
+          "uuid": "c2006dc0-388e-5e76-a275-88ae19788b06"
         },
         {
           "value": "source-code-repository",
           "expanded": "Source code repository",
-          "uuid": "73c63bf2-7b1b-5e90-8d8d-1aedbab1323b"
+          "uuid": "f857ee4f-b13f-5563-b89c-966fdef7846c"
         },
         {
           "value": "automatic-collection",
           "expanded": "Automatic collection including honeypots, spamtramps or equivalent technologies",
-          "uuid": "23037bd0-d364-53b0-a80c-b3f9d3586f43"
+          "uuid": "405359fe-5d71-5dd4-83bf-749c8062f256"
         },
         {
           "value": "manual-analysis",
           "expanded": "Manual analysis or investigation where detection took place",
-          "uuid": "7004559f-3530-57bb-b0ac-5a34080687db"
+          "uuid": "5b23f7e7-161c-55ab-9ba4-bb1460f744d6"
         },
         {
           "value": "unknown",
           "expanded": "Unknown",
-          "uuid": "140b1605-5435-5d21-854f-61adb30cbb29"
+          "uuid": "beab5713-49f8-581d-9406-51dd9a858631"
         },
         {
           "value": "other",
           "expanded": "Other source not specified in this list",
-          "uuid": "91cc87e3-66bf-51f4-ac2f-9787736d12c5"
+          "uuid": "39d5a26a-8cfb-5166-b28b-2224be27edba"
         }
       ]
     },
@@ -464,17 +464,17 @@
         {
           "value": "manual",
           "expanded": "Manual",
-          "uuid": "47a8530b-dffc-55c4-8fbe-6263ea21a60c"
+          "uuid": "5aabbf02-39d4-5832-ae67-9d13e0e094c6"
         },
         {
           "value": "automatic",
           "expanded": "Automatic",
-          "uuid": "1cd87a29-94ce-54fa-8850-f472e44253ec"
+          "uuid": "81614b93-6452-57fa-82e5-ac5e461b4eb3"
         },
         {
           "value": "crawler",
           "expanded": "Crawler",
-          "uuid": "b9f4211d-c8f4-564b-b704-34d5dcdf8f34"
+          "uuid": "b376d8c0-7247-585f-921f-490ad03cb709"
         }
       ]
     },
@@ -484,17 +484,17 @@
         {
           "value": "ail-daily",
           "expanded": "Daily event",
-          "uuid": "c3b98374-6209-5cac-ac82-ac7349c72526"
+          "uuid": "5de97dc8-669c-58b8-a0e9-3cf02f9fb20f"
         },
         {
           "value": "ail-weekly",
           "expanded": "Weekly event",
-          "uuid": "5fac9338-7f47-576f-aa66-f3a77744a8a7"
+          "uuid": "541cd184-684c-5e54-a7d7-17d8e6d0ab06"
         },
         {
           "value": "ail-monthly",
           "expanded": "Monthly event",
-          "uuid": "f1e54a49-4180-562e-b1c7-518829509fd3"
+          "uuid": "e635d309-717f-52e5-8c0d-1979db273e12"
         }
       ]
     },
@@ -505,53 +505,53 @@
           "expanded": "Certainty (probability equals 1 - 100%)",
           "value": "100",
           "numerical_value": 100,
-          "uuid": "69fa44c2-8253-5e8c-96d5-e9cc8c36135c"
+          "uuid": "05a54586-bf78-5edc-829b-518aa385aa43"
         },
         {
           "description": "Almost certain",
           "expanded": "Almost certain (probability equals 0.93 - 93%)",
           "value": "93",
           "numerical_value": 93,
-          "uuid": "b9b962e4-8328-5467-bed3-0167691ee2f5"
+          "uuid": "26852330-db2a-5c37-acb9-99e07fe36f9f"
         },
         {
           "description": "Probable",
           "expanded": "Probable (probability equals 0.75 - 75%)",
           "value": "75",
           "numerical_value": 75,
-          "uuid": "31132131-c4d7-51a5-92ac-58ad0309637e"
+          "uuid": "9c909107-0774-54c6-9e51-d2a43508858a"
         },
         {
           "description": "Chances about even",
           "expanded": "Chances about even (probability equals 0.50 - 50%)",
           "value": "50",
           "numerical_value": 50,
-          "uuid": "dc0ed095-02c2-514b-83f6-bad76a5cfea3"
+          "uuid": "ef3edfcc-e2b0-54d8-980d-4283e516e34f"
         },
         {
           "description": "Probably not",
           "expanded": "Probably not (probability equals 0.30 - 30%)",
           "value": "30",
           "numerical_value": 30,
-          "uuid": "fb3530c3-1d42-5f35-9eb3-c13697b51840"
+          "uuid": "92b4d4e0-cbdd-56fb-b8fa-cb0a8b61fbf7"
         },
         {
           "description": "Almost certainly not",
           "expanded": "Almost certainly not (probability equals 0.07 - 7%)",
           "value": "7",
           "numerical_value": 7,
-          "uuid": "be2ae7d6-c621-57b5-b191-d53ca9af6e10"
+          "uuid": "1f48fec9-201f-5255-82d4-e8da23ede187"
         },
         {
           "description": "Impossibility",
           "expanded": "Impossibility (probability equals 0 - 0%)",
           "value": "0",
           "numerical_value": 0,
-          "uuid": "30a028af-142f-57e3-b8fe-24bd2e317b6e"
+          "uuid": "2132133a-4fdb-52ee-a0e4-f60e8f297f79"
         }
       ],
       "predicate": "certainty"
     }
   ],
-  "uuid": "3d546836-37a9-5c4f-bc4f-5ed3d982c2c1"
+  "uuid": "f29e5089-bc07-586b-8462-5a346a5e6886"
 }

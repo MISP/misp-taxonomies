@@ -5,35 +5,44 @@
   "predicates": [
     {
       "value": "denial-of-service",
-      "expanded": "(Distributed) Denial of Service"
+      "expanded": "(Distributed) Denial of Service",
+      "uuid": "e5430935-ae5b-59b2-8d6a-326b25bb2c97"
     },
     {
       "value": "exploit-attack",
-      "expanded": "Exploit attack"
+      "expanded": "Exploit attack",
+      "uuid": "40b3de4f-6ac4-5373-bdb7-83544238acec"
     },
     {
       "value": "information-gathering",
-      "expanded": "Information gathering"
+      "expanded": "Information gathering",
+      "uuid": "7d28cd0d-bebc-5a7a-9275-0ca4d734dbea"
     },
     {
       "value": "insider-attack",
-      "expanded": "Insider attack"
+      "expanded": "Insider attack",
+      "uuid": "b66a9552-8306-5e2e-8efb-2421c36dfd6c"
     },
     {
       "value": "interception-attack",
-      "expanded": "Interception attack"
+      "expanded": "Interception attack",
+      "uuid": "944523e6-fdf0-51ff-a315-b1eaaf2c9a03"
     },
     {
       "value": "manipulation-attack",
-      "expanded": "Manipulation attack"
+      "expanded": "Manipulation attack",
+      "uuid": "e924e02a-1752-5752-9f19-28b62915790b"
     },
     {
       "value": "physical-attack",
-      "expanded": "Physical attack"
+      "expanded": "Physical attack",
+      "uuid": "e259c85a-b30e-5c05-8818-c93813aec107"
     },
     {
       "value": "spoofing",
-      "expanded": "Spoofing"
+      "expanded": "Spoofing",
+      "uuid": "99ee5c4b-71f2-5972-b823-41aba85d6a69"
     }
-  ]
+  ],
+  "uuid": "da814de2-95db-5a31-a01b-d1861ff653e7"
 }

@@ -8,31 +8,31 @@
       "value": "topic",
       "description": "Topic associated with the materials tagged",
       "expanded": "Topic",
-      "uuid": "6a0e17f4-c56e-5d5a-972b-e789dd53e7d7"
+      "uuid": "99c3043d-75c9-5033-bd26-c28da3790599"
     },
     {
       "value": "motivation",
       "description": "Motivation with the materials tagged",
       "expanded": "Motivation",
-      "uuid": "4a7b1729-6d09-5355-b8ed-64b0b90f8151"
+      "uuid": "0cf412bf-5d22-5777-a3f3-e8997b26adf4"
     },
     {
       "value": "structure",
       "description": "Structure of the materials tagged",
       "expanded": "Structure",
-      "uuid": "c4bbbaa1-a3f9-5ad7-b243-0afe3a4ddc24"
+      "uuid": "b35ff672-d3af-532b-bd4f-c540297a0a92"
     },
     {
       "value": "service",
       "description": "Information related to an Dark-Web service",
       "expanded": "Service",
-      "uuid": "a8f4dac1-3a54-56be-b3ba-01be2b18d061"
+      "uuid": "177a84c2-adbf-5d9c-9ddb-5b3da021b80a"
     },
     {
       "value": "content",
       "description": "Identifiable entities and information contained in a Dark-Web service",
       "expanded": "Content",
-      "uuid": "5b78f3c8-919c-511f-8b5c-9854046d9b83"
+      "uuid": "0dda2a15-f88c-5cb4-9eea-4ab98ae78586"
     }
   ],
   "values": [
@@ -43,229 +43,229 @@
           "value": "drugs-narcotics",
           "expanded": "drugsNarcotics",
           "description": "Illegal drugs/chemical compounds for consumption/ingestion - either via blanket unlawfulness (e.g. proscribed drugs) or via unlawful access (e.g. prescription-only/restricted medications sold without lawful accessibility).",
-          "uuid": "ab58ccd0-3f2c-548e-8d98-b1ffebf3531a"
+          "uuid": "c0bef0db-be23-54f0-8e0f-2d53bd5ace87"
         },
         {
           "value": "electronics",
           "expanded": "electronics",
           "description": "Electronics and high tech materials, described or to sell for example.",
-          "uuid": "edc2a72e-cc04-57be-b98d-e8c7d60615d1"
+          "uuid": "0e992b11-d9ff-5207-b3be-255b8854d198"
         },
         {
           "value": "finance",
           "expanded": "finance",
           "description": "Any monetary/currency/exchangeable materials. Includes carding, Paypal etc.",
-          "uuid": "2c078bdf-0961-5dba-979c-586c68ffa7b2"
+          "uuid": "b1f66aec-a0fe-5a5f-8be3-e30965e82d82"
         },
         {
           "value": "finance-crypto",
           "expanded": "cryptoFinance",
           "description": "Any monetary/currency/exchangeable materials based on cryptocurrencies. Includes Bitcoin, Litecoin etc.",
-          "uuid": "71a666cc-90cd-53bb-bf1d-cb85bb55f666"
+          "uuid": "e41b1c45-22a3-5556-ba83-76e733bb70a1"
         },
         {
           "value": "credit-card",
           "expanded": "creditCard",
           "description": "Credit cards and payments materials",
-          "uuid": "c882e41d-ed40-5f1f-bd68-8b6d35a994ff"
+          "uuid": "7974c6ce-6657-5a3c-b6d4-5b39d52daff9"
         },
         {
           "value": "cash-in",
           "expanded": "cashIn",
           "description": "Buying parts of assets, conversion from liquid assets, currency, etc.",
-          "uuid": "1b922a82-0cfe-5d97-88d2-caa0f95a4555"
+          "uuid": "5eb42283-05a0-55f4-930b-97020f04eddc"
         },
         {
           "value": "cash-out",
           "expanded": "cashOut",
           "description": "Selling parts of assets, conversion to liquid assets, currency, etc.",
-          "uuid": "b772d37f-3368-5dfd-ba7f-da93839b555a"
+          "uuid": "686950f3-af41-5725-8639-5447915b4cef"
         },
         {
           "value": "escrow",
           "expanded": "escrow",
           "description": "Third party keeping assets in behalf of two other parties making a transactions.",
-          "uuid": "7343910b-b6c4-5856-ad3e-0fe8ba810de9"
+          "uuid": "931f7351-3dd6-5fc8-b852-4c36e8c48747"
         },
         {
           "value": "hacking",
           "expanded": "hacking",
           "description": "Materials relating to the illegal access to or alteration of data and/or electronic services.",
-          "uuid": "886b3eaa-f18f-5f65-ba69-1f6db421d6eb"
+          "uuid": "0f2b0736-5539-57f2-a851-79946edadc96"
         },
         {
           "value": "identification-credentials",
           "expanded": "identificationCredentials",
           "description": "Materials used for providing/establishing identification with third parties. Examples include passports, driver licenses and login credentials.",
-          "uuid": "2a38978e-3d27-5a46-a291-58c8948ffe17"
+          "uuid": "699a8290-82bd-520a-8c8c-55c2933fc5d0"
         },
         {
           "value": "intellectual-property-copyright-materials",
           "expanded": "intellectualPropertyCopyrightMaterials",
           "description": "Otherwise lawful materials stored, transferred or made available without consent of their legal rights holders.",
-          "uuid": "a86dff22-3864-5976-bc13-842e28eb4291"
+          "uuid": "a2231160-c16c-5b96-a6fb-f80678b08e31"
         },
         {
           "value": "pornography-adult",
           "expanded": "pornographyAdult",
           "description": "Lawful, ethical pornography (i.e. involving only consenting adults).",
-          "uuid": "41904ce8-018d-5313-93a6-dd6842684663"
+          "uuid": "01a8e7dc-ab88-55c1-8fba-6cc748aec64d"
         },
         {
           "value": "pornography-child-exploitation",
           "expanded": "pornographyChild(ChildExploitation)",
           "description": "Child abuse materials (aka child pornography), including 'fantasy' fiction materials, CGI. Also includes the provision/offering of child abuse materials and/or activities",
-          "uuid": "cf47a9cd-4aff-52e4-8f6a-0ac1348e0ac6"
+          "uuid": "68eabcbd-86eb-59d2-8ad5-a0c9449495fe"
         },
         {
           "value": "pornography-illicit-or-illegal",
           "expanded": "pornographyIllicitOrIllegal",
           "description": "Illegal pornography NOT including children/child abuse. Includes bestiality, stolen/revenge porn, hidden cameras etc.",
-          "uuid": "668e99f0-c6a0-5ac8-82bb-0250ac5c3f9b"
+          "uuid": "54cd953b-e51b-5748-9dff-07340492114a"
         },
         {
           "value": "search-engine-index",
           "expanded": "searchEngineIndex",
           "description": "Site providing links/references to other sites/services. Referred to as a ‘nexus’ by (Moore and Rid, 2016)",
-          "uuid": "2c6e2d36-f722-5960-9322-3d376f52c333"
+          "uuid": "a6204e13-14a6-5738-ac34-f6fdf4d1e842"
         },
         {
           "value": "unclear",
           "expanded": "unclear",
           "description": "Unable to completely establish topic of material.",
-          "uuid": "87a7f597-e801-5311-9fc4-85b1810c9c5f"
+          "uuid": "43ab130f-e57b-518d-bf1f-7a771c614da8"
         },
         {
           "value": "extremism",
           "expanded": "extremism",
           "description": "Illegal or ‘of concern’ levels of extremist ideology. Note this does not provide blanket coverage of fundamentalist ideologies and dogma - only those associated with illegal acts. Socialist/anarchist/religious materials (for example) will not be included unless inclusive or indicative of associated illegal conduct, such as hate crimes.",
-          "uuid": "57c92d5d-af16-59c1-a70a-d4b477b9f4c2"
+          "uuid": "564a07fc-b2a6-5102-a94d-f97b20dc1d99"
         },
         {
           "value": "violence",
           "expanded": "violence",
           "description": "Materials relating to violence against persons or property.",
-          "uuid": "e2cd9567-6a8a-5909-af2a-8fe67b885185"
+          "uuid": "4e6c319d-3e08-5bb5-9731-3562751b2673"
         },
         {
           "value": "weapons",
           "expanded": "weapons",
           "description": "Materials specifically associated with materials and/or items for use in violent acts against persons or property. Examples include firearms and bomb-making ingredients.",
-          "uuid": "88db4f13-9956-5ff5-a45f-8b885d547074"
+          "uuid": "37a1b75a-3d95-5048-97bd-9332aa11e36e"
         },
         {
           "value": "softwares",
           "expanded": "softwares",
           "description": "Illegal or armful software distribution",
-          "uuid": "2b03f753-610f-5de9-a037-35566f4ed9a5"
+          "uuid": "43c70d70-8370-522b-ad07-cd244e8e01c6"
         },
         {
           "value": "counterfeit-materials",
           "expanded": "counterFeitMaterials",
           "description": "Fake identification papers.",
-          "uuid": "4a53dc79-a851-52f3-a6c4-63d0e009e576"
+          "uuid": "2456cae3-087b-514a-b7aa-0da55b6ee64d"
         },
         {
           "value": "gambling",
           "expanded": "gambling",
           "description": "Games involving money",
-          "uuid": "629bdee5-2d73-5b96-9691-3a81267e5a89"
+          "uuid": "64719351-5b69-5539-8359-0196b82741ee"
         },
         {
           "value": "library",
           "expanded": "library",
           "description": "Library or list of books",
-          "uuid": "52fe151e-9038-5f01-8eb9-c23132c4645f"
+          "uuid": "00d6a94a-7f65-52cc-a19e-5258f5c34cce"
         },
         {
           "value": "other-not-illegal",
           "expanded": "otherNotIllegal",
           "description": "Material not of interest to law enforcement - e.g. personal sites, Facebook mirrors.",
-          "uuid": "755bbaff-7d17-5059-9a7b-ec20e82be438"
+          "uuid": "cfc5c1e0-be6b-564f-967e-4d743cc778e7"
         },
         {
           "value": "legitimate",
           "expanded": "legitimate",
           "description": "Legitimate websites",
-          "uuid": "c31ca46f-b6f4-50ea-9ed3-026b7440a011"
+          "uuid": "387c9069-d6c4-5f43-9eb7-32162941f399"
         },
         {
           "value": "chat",
           "expanded": "chatsPlatforms",
           "description": "Chats space or equivalent, which are not forums",
-          "uuid": "565fe16b-a174-5986-9a20-545fc642dcef"
+          "uuid": "fb4c9c08-533c-5249-8c6b-5168ca323603"
         },
         {
           "value": "mixer",
           "expanded": "mixer",
           "description": "Anonymization tools for crypto-currencies transactions",
-          "uuid": "b52f5635-8802-55eb-b2be-e910e852d80a"
+          "uuid": "fb9642a9-19f6-5d91-957c-ea5e8bc0cffe"
         },
         {
           "value": "mystery-box",
           "expanded": "mysteryBox",
           "description": "Mystery Box seller",
-          "uuid": "84146487-314a-5db4-8eab-69629596d719"
+          "uuid": "ef7e8781-88de-57b0-828a-984f3cee421c"
         },
         {
           "value": "anonymizer",
           "expanded": "anonymizer",
           "description": "Anonymization tools",
-          "uuid": "9b786302-b06a-595b-9007-7cf7ddf42e28"
+          "uuid": "b0c90be6-7222-5136-aaf1-d31611609075"
         },
         {
           "value": "vpn-provider",
           "expanded": "vpnProvider",
           "description": "Provides VPN services and related",
-          "uuid": "6181c793-478b-590c-bf2e-52bf9a7d3f04"
+          "uuid": "1d80b14f-b58f-56fd-8876-ce3d0beaea35"
         },
         {
           "value": "email-provider",
           "expanded": "emailProvider",
           "description": "Provides e-mail services and related",
-          "uuid": "0c21c589-c4f0-5c30-a3b0-a218e05566d2"
+          "uuid": "6f16c756-1c15-5547-9ec5-b474f39729d5"
         },
         {
           "value": "ponies",
           "expanded": "ponies",
           "description": "self-explanatory. It's ponies",
-          "uuid": "fcfac5f2-16d5-5271-81b2-944308206329"
+          "uuid": "f4b7373b-752a-5eb1-93b3-41d358352931"
         },
         {
           "value": "games",
           "expanded": "games",
           "description": "Flash or online games",
-          "uuid": "865b4f9f-af48-50bf-bbd0-1ed8cfae061d"
+          "uuid": "6bbb9ad9-e062-5c11-a7c0-70a3cc8fb40f"
         },
         {
           "value": "parody",
           "expanded": "parodyOrJoke",
           "description": "Meme, Parody, Jokes, Trolling, ...",
-          "uuid": "4ae1846a-d48d-5a1b-8c30-af94ae30c3a0"
+          "uuid": "9b174b05-f0ec-5a64-b6ad-b23061e7d60b"
         },
         {
           "value": "whistleblower",
           "expanded": "whistleblower",
           "description": "Exposition and sharing of confidential information with protection of the witness in mind",
-          "uuid": "5afd2900-9ac6-5a39-86ae-7ef05a8cf5fd"
+          "uuid": "da304f47-3a05-51b0-84e2-2e99b7ec665f"
         },
         {
           "value": "ransomware-group",
           "expanded": "ransomwareGroup",
           "description": "Ransomware group PR or leak website",
-          "uuid": "b2b4d9e0-1f7c-5597-adc1-f8a59ce539a3"
+          "uuid": "d17ecc1e-def0-5b50-9fb9-e15575f120c1"
         },
         {
           "value": "hitman",
           "expanded": "Hit Man Services",
           "description": "Hit man or similar services",
-          "uuid": "8c4e3e60-74dd-5043-b1f9-dc087af86cd4"
+          "uuid": "dd97317a-ed28-53f4-be71-2ba06fabe2aa"
         },
         {
           "value": "directory-provider",
           "expanded": "DirectoryProvider",
           "description": "Provides list of addresses or references to other services",
-          "uuid": "a6f955a8-63c8-569d-a75a-d80d340a1e36"
+          "uuid": "39d73b81-6fb1-5497-af33-b1f45c2b8444"
         }
       ]
     },
@@ -276,109 +276,109 @@
           "value": "education-training",
           "expanded": "educationTraining",
           "description": "Materials providing instruction - e.g. ‘how to’ guides",
-          "uuid": "60201197-f561-5152-bad9-c35839c5e586"
+          "uuid": "d8147c03-b4bf-5067-afc5-a64718ba2ed2"
         },
         {
           "value": "wiki",
           "expanded": "wiki",
           "description": "Wiki pages, documentation and information display",
-          "uuid": "8800abb0-2b24-5912-9693-c9a4b1063cf3"
+          "uuid": "e0bd35b8-64ef-59c4-be25-76a6935d5056"
         },
         {
           "value": "forum",
           "expanded": "forum",
           "description": "Sites specifically designed for multiple users to communicate as peers",
-          "uuid": "9402e4c3-769b-5904-aed7-775f4f7f2989"
+          "uuid": "b973983f-135c-522d-bfa8-49e1db6087b2"
         },
         {
           "value": "file-sharing",
           "expanded": "fileSharing",
           "description": "General file sharing, typically (but not limited to) movie/image sharing",
-          "uuid": "537d9d25-5b49-50ab-8aac-e6cf73ee7d91"
+          "uuid": "702a2777-de00-5db2-8fd5-fc6526be76a6"
         },
         {
           "value": "hosting",
           "expanded": "hosting",
           "description": "Hosting providers, e-mails, websites, file-storage etc.",
-          "uuid": "c7d66208-e486-5a13-b646-7787256eb377"
+          "uuid": "f1e6d068-532a-5562-b5a2-34b8e445c4da"
         },
         {
           "value": "ddos-services",
           "expanded": "ddosServices",
           "description": "Stresser, Booter, DDoSer, DDoS as a Service provider, DDoS tools, etc.",
-          "uuid": "b56fd3da-b215-527f-a76f-1c0ea468c540"
+          "uuid": "1c67e426-988e-58a1-9be5-799c0e00ce6f"
         },
         {
           "value": "general",
           "expanded": "general",
           "description": "Materials not covered by the other motivations. Typically, materials of a nature not of interest to law enforcement.  For example, personal biography sites.",
-          "uuid": "8d0f27a8-c22c-5190-82d7-5ac65a7780f8"
+          "uuid": "a05cfb9e-cf25-59f3-bde4-a86dfc5c74b3"
         },
         {
           "value": "information-sharing-reportage",
           "expanded": "InformationSharingReportage",
           "description": "Journalism/reporting on topics. Can include biased coverage, but obvious propaganda materials are covered by Recruitment/Advocacy.",
-          "uuid": "eeb3efb1-410d-5d53-81ba-85ba77d2bdef"
+          "uuid": "67160e7a-b00c-5e35-8bc4-62919bacc8c0"
         },
         {
           "value": "scam",
           "expanded": "scam",
           "description": "Intentional confidence trick to fraud people or group of people",
-          "uuid": "6df9a2a2-5a18-5192-bffa-59b84b8d9fad"
+          "uuid": "61e67c0c-38e9-528c-a29a-f7a23451a7d1"
         },
         {
           "value": "political-speech",
           "expanded": "politicalSpeech",
           "description": "Political, activism, without extremism.",
-          "uuid": "886eb884-1db1-5c36-90b8-b6fe048bb394"
+          "uuid": "cc41bd8f-8e32-56db-9453-077dec7a2882"
         },
         {
           "value": "conspirationist",
           "expanded": "conspirationist",
           "description": "Conspirationist content, fake news, etc.",
-          "uuid": "6a6e4636-7058-5323-876d-904e01a3dee9"
+          "uuid": "7d482ac9-17d3-5357-9a9e-d6af5acbdc4b"
         },
         {
           "value": "hate-speech",
           "expanded": "hateSpeech",
           "description": "Racism, violent, hate... speech.",
-          "uuid": "3db8f568-beaa-561e-a462-40d5597642de"
+          "uuid": "397c30d0-cc5a-5945-ae16-8ce75d35fcfc"
         },
         {
           "value": "religious",
           "expanded": "religious",
           "description": "Religious, faith, doctrinal related content.",
-          "uuid": "fab4f349-1d13-5f35-9499-ae42d10a6a60"
+          "uuid": "6db14a02-536d-5138-bc38-5ecad840b468"
         },
         {
           "value": "marketplace-for-sale",
           "expanded": "marketplaceForSale",
           "description": "Services/goods for sale, regardless of means of payment.",
-          "uuid": "d81ee5be-7345-5002-86fc-c11785735136"
+          "uuid": "9368f7f6-e932-5339-9b23-2f843339a128"
         },
         {
           "value": "smuggling",
           "expanded": "smuggling",
           "description": "Information or trading of wild animals, prohibited goods, ... ",
-          "uuid": "a5650778-18a4-505d-9750-83095aa30c8c"
+          "uuid": "81b9160b-89d8-501b-9799-a65c56742564"
         },
         {
           "value": "recruitment-advocacy",
           "expanded": "recruitmentAdvocacy",
           "description": "Propaganda",
-          "uuid": "cdb3419c-45be-5ec5-83b9-f9c5a944592a"
+          "uuid": "630ba296-6f1f-53b1-9a29-f7b3ba93a83f"
         },
         {
           "value": "system-placeholder",
           "expanded": "systemPlaceholder",
           "description": "Automatically generated content, not designed for any identifiable purpose other than diagnostics - e.g. “It Works” message provided by default by Apache2",
-          "uuid": "13dbb84b-6722-5a79-9917-d755bd6268d2"
+          "uuid": "dc940230-d400-5476-9abe-65cd2f616f70"
         },
         {
           "value": "unclear",
           "expanded": "unclear",
           "description": "Unable to completely establish motivation of material.",
-          "uuid": "3ddab7fd-de76-58f3-b7e3-e2433ed163fe"
+          "uuid": "f82f4748-1756-52c0-bb83-f7e2f72736a3"
         }
       ]
     },
@@ -389,67 +389,67 @@
           "value": "incomplete",
           "expanded": "incomplete",
           "description": "Websites and pages that are unable to load completely properly",
-          "uuid": "5fd3645d-48ae-5584-9116-5f57b780fba0"
+          "uuid": "163fc4a7-6dc9-5e76-8858-15ee8dc3bec9"
         },
         {
           "value": "captcha",
           "expanded": "captcha",
           "description": "Captchas and solvers elements",
-          "uuid": "1bbcc635-9c12-5d20-8e75-9af2cde8ccb5"
+          "uuid": "1a335beb-c479-5042-87e6-403e045f8c00"
         },
         {
           "value": "login-forms",
           "expanded": "loginForms",
           "description": "Authentication pages, login page, login forms that block access to an internal part of a website.",
-          "uuid": "641921ee-a959-5ebd-a159-4fe388c732c1"
+          "uuid": "b6913de4-0184-5261-9c64-9f0d52503c7b"
         },
         {
           "value": "contact-forms",
           "expanded": "contactForms",
           "description": "Forms to perform a contact request, send an e-mail, fill information, enter a password, ...",
-          "uuid": "4642587a-5714-5803-8b20-5265e52d7594"
+          "uuid": "8e3e6ec4-711b-504a-8772-3c01782f480f"
         },
         {
           "value": "encryption-keys",
           "expanded": "encryptionKeys",
           "description": "e.g. PGP Keys, passwords, ...",
-          "uuid": "14e26dc0-9830-5835-a3e9-804a66e75abb"
+          "uuid": "04ef6db9-f206-5e65-8b55-f9597cc5ee82"
         },
         {
           "value": "police-notice",
           "expanded": "policeNotice",
           "description": "Closed websites, with police-equivalent banners",
-          "uuid": "ba17f138-930e-579e-bb7c-6f24fc329ec7"
+          "uuid": "765d98a5-c65f-5bf1-aca0-11ae735913ec"
         },
         {
           "value": "legal-statement",
           "expanded": "legalStatement",
           "description": "RGPD statement, Privacy-policy, guidelines of a websites or forum...",
-          "uuid": "9cd78d46-8e41-5a4c-8864-0ef48ee7e6d6"
+          "uuid": "03ba3686-4c49-5e0f-b56a-8b730955e344"
         },
         {
           "value": "test",
           "expanded": "test",
           "description": "Test websites without any real consequences or effects",
-          "uuid": "eb8e2559-1767-50f4-bd96-42913e826bbf"
+          "uuid": "11044e87-a985-5c2a-a865-6531f46a5d6d"
         },
         {
           "value": "videos",
           "expanded": "videos",
           "description": "Videos and streaming",
-          "uuid": "af5cda6b-fdb3-580b-90ee-9efc8dc2918b"
+          "uuid": "c8e7e0c9-ce42-56c9-bf86-0e7997e4212a"
         },
         {
           "value": "ransomware-post",
           "expanded": "ransomwarePost",
           "description": "Ransomware post published by a ransomware group",
-          "uuid": "4da6e443-cbc6-5f4a-b472-bf61801e7102"
+          "uuid": "8adc9bef-350a-573e-bf09-b002981de97a"
         },
         {
           "value": "unclear",
           "expanded": "unclear",
           "description": "Unable to completely establish structure of material.",
-          "uuid": "856b0f15-a767-51a2-884e-4d0e7d35e067"
+          "uuid": "9f67fb3a-1599-5fd6-b0d1-cc2a272246ce"
         }
       ]
     },
@@ -460,49 +460,49 @@
           "value": "url",
           "expanded": "url",
           "description": "Uniform Resource Locator (URL) of a dark-web. The url should indicate a protocol (http), a hostname (www.example.com), and a file name (index.html). Example: http://www.example.com/index.html",
-          "uuid": "0b45bd06-7b30-57b2-8687-59b45dd2d0a1"
+          "uuid": "04522a6c-a2f2-51ed-a002-94802fe7e223"
         },
         {
           "value": "content-type",
           "expanded": "contentType",
           "description": "Content-Type representaton headerused to indicate the original media type of the resource (prior to any content encoding applied for sending). https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type",
-          "uuid": "a864b4c0-1181-512c-bf80-74c4034001d4"
+          "uuid": "5a2563bf-2bfd-5ac8-b93e-4c32e9935e7d"
         },
         {
           "value": "path",
           "expanded": "path",
           "description": "The URL path is the string of information that comes after the top level domain name ",
-          "uuid": "2ae81cf8-fd54-5179-86f5-a49d1b29d986"
+          "uuid": "a36a2eb9-4ba6-5fea-a8ac-4ee8fb26b5a8"
         },
         {
           "value": "detection-date",
           "expanded": "detectionDate",
           "description": "Date in which the dark-web was detected. The date should be in ISO 8601 format. Example: 2019-01-01T00:00:00Z",
-          "uuid": "edd85093-1188-5eeb-8ada-08628b53e25e"
+          "uuid": "7b2c8372-0075-5066-b71d-0bd789d5730b"
         },
         {
           "value": "network-protocol",
           "expanded": "networkProtocol",
           "description": "Network protocol used to access the dark-web site (e.g., HTTP, HTTPS)",
-          "uuid": "76835143-f98f-59f0-83e6-e7f09035842c"
+          "uuid": "a4d64528-b02b-5d08-bbb9-62aed10e1edd"
         },
         {
           "value": "port",
           "expanded": "port",
           "description": "Port number where the dark-web service is being offered",
-          "uuid": "ff906628-2e33-5fe8-b363-2017950d762e"
+          "uuid": "a59ef0e4-cac6-5083-8be9-1942a0e60bdc"
         },
         {
           "value": "network",
           "expanded": "network",
           "description": "Overlay network  (darknet) that host the service or content",
-          "uuid": "c0f6ca09-0f02-5f86-b9ae-d722b08ad225"
+          "uuid": "9669a3bb-ed5f-5900-91de-bf08f19d910f"
         },
         {
           "value": "found-at",
           "expanded": "foundAt",
           "description": "Domain or service where the dark-web where found at",
-          "uuid": "82918a3e-31f3-5bbf-90ba-c5ced41dd24a"
+          "uuid": "df687db2-3985-50a6-902d-fbc779c9d472"
         }
       ]
     },
@@ -513,106 +513,106 @@
           "value": "sha1sum",
           "expanded": "sha1sum",
           "description": "SHA-1 (Secure Hash Algorithm 1) hash of the HTML or objectName content",
-          "uuid": "1792b3cf-782e-51cf-838f-3198591a71f9"
+          "uuid": "116f6006-be87-5299-881e-03687011e0d2"
         },
         {
           "value": "sha256sum",
           "expanded": "sha256sum",
           "description": "SHA-256 hash of the HTML or objectName content",
-          "uuid": "742e63a1-9e6c-545c-8820-bd2d68b7ef33"
+          "uuid": "44ebd31e-7bea-5c57-870b-54b489645ce6"
         },
         {
           "value": "ssdeep",
           "expanded": "ssdeep",
           "description": "ssdeep fuzzy hash of the HTML or objectName content",
-          "uuid": "06da1043-3d6e-53f0-bc38-69ad88da5cb3"
+          "uuid": "55757904-9927-5aad-8fa8-d08f50e62207"
         },
         {
           "value": "language",
           "expanded": "language",
           "description": "Detected language of the service in ISO 639‑1 Code. Example: en",
-          "uuid": "b1d8c9fd-e35a-55dc-ba77-bb1848e86151"
+          "uuid": "88603a3f-cf87-555b-a5d0-e0413355b4af"
         },
         {
           "value": "html",
           "expanded": "html",
           "description": "HyperText Markup Language (HTML) used in a website",
-          "uuid": "36990e49-6b8e-50cb-bc09-3577d612cad8"
+          "uuid": "75124a11-afcd-5861-8722-6ddd97b159e3"
         },
         {
           "value": "css",
           "expanded": "css",
           "description": "CSS (Cascading Style Sheets) used in a dark-web site",
-          "uuid": "f5654580-05a4-5f4c-bcd3-da99aa569f2f"
+          "uuid": "dd5b3566-0a23-516f-8bef-f0394f97f5ed"
         },
         {
           "value": "text",
           "expanded": "text",
           "description": "Content of the dark-web service without HTML tags",
-          "uuid": "4b278324-6744-5e2b-ae6f-92b55eefb53c"
+          "uuid": "433c8804-df3c-5d3b-8349-95a157d5bd0a"
         },
         {
           "value": "page-title",
           "expanded": "pageTitle",
           "description": "HTML <title> tag content of a dark-web site",
-          "uuid": "5e896bf3-20f0-5696-bb7d-3a93890f9185"
+          "uuid": "651f2b0d-911b-5446-9caf-ee648e40248d"
         },
         {
           "value": "phone-number",
           "expanded": "phoneNumber",
           "description": "Phone number identified in the dark-web site",
-          "uuid": "c7d057a1-5542-52be-a199-08effedbabec"
+          "uuid": "35743756-4657-5fb5-872b-b0a6b0631304"
         },
         {
           "value": "creditCard",
           "expanded": "creditCard",
           "description": "Credit card identified in the dark-web site",
-          "uuid": "2f964903-d812-5b1c-97e5-255609517028"
+          "uuid": "8ab5572e-fa71-5c88-9f5f-c44f981a848f"
         },
         {
           "value": "email",
           "expanded": "email",
           "description": "Email address identified in the dark-web site",
-          "uuid": "17e90900-294b-5d22-9d3b-9f3aa5648983"
+          "uuid": "28ca8c8a-675f-5b14-a5ac-b4973690734a"
         },
         {
           "value": "pgp-public-key-block",
           "expanded": "pgpPublicKeyBlock",
           "description": "PGP public key block identified in the dark-web site",
-          "uuid": "58a3dfd4-84f2-5f01-8bd5-cdce8057285d"
+          "uuid": "fd3c1c44-523b-553b-bcfd-24152f7abea7"
         },
         {
           "value": "country",
           "expanded": "country",
           "description": "Associated country detected on the code of the dark-web site, following ISO 3166-1 alpha-2",
-          "uuid": "fd484574-9034-56d6-bdb5-03df079c49c0"
+          "uuid": "10699158-da58-59a2-984e-f5a76fcc328f"
         },
         {
           "value": "company-name",
           "expanded": "companyName",
           "description": "Company name identified in a dark-web site",
-          "uuid": "066cd313-9dd3-5a21-82f7-1619833fd530"
+          "uuid": "3ab41a65-6779-5535-92c8-1303fbbaa17d"
         },
         {
           "value": "company-link",
           "expanded": "companyLink",
           "description": "Company link identified in a dark-web site",
-          "uuid": "2e326dbc-616e-57d7-a871-a9f6fc0ce712"
+          "uuid": "b4a32a6b-9dab-5a7b-8d34-eaff81d27c33"
         },
         {
           "value": "victim-address",
           "expanded": "victimAddress",
           "description": "Business address identified in a dark-web site",
-          "uuid": "681afedf-31e5-5d5f-8429-c7c96e9a4e0e"
+          "uuid": "9139db18-9f0a-5756-b5dd-d7fcdee8b756"
         },
         {
           "value": "victim-TLD",
           "expanded": "victimTLD",
           "description": "Business Top Level Domain (TLD) of a company identified in a dark-web site",
-          "uuid": "e5344242-e15f-56d1-a8d1-378fbeb8c564"
+          "uuid": "e66bfbd4-32c1-558e-804c-5edf2328eb64"
         }
       ]
     }
   ],
-  "uuid": "d563a3ac-74fb-5ff9-86b0-b09b74b64ff8"
+  "uuid": "73e689e1-a993-5962-bed6-6839f5e9d702"
 }

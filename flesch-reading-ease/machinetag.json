@@ -7,7 +7,7 @@
     {
       "value": "score",
       "expanded": "Score",
-      "uuid": "a8ec5cca-aebc-5deb-939e-474fe9f4405d"
+      "uuid": "30ee9407-9e1b-5410-93b8-442a0f5ebf28"
     }
   ],
   "values": [
@@ -19,52 +19,52 @@
           "expanded": "Very Easy",
           "description": "Very easy to read. Easily understood by an average 11-year-old student.",
           "numerical_value": 100,
-          "uuid": "1f38760c-1c7b-5bc1-9506-403540a0f15a"
+          "uuid": "6c3dba0d-1afe-54eb-a1da-ec2ffc64adef"
         },
         {
           "value": "80-89",
           "expanded": "Easy",
           "description": "Easy to read. Conversational English for consumers.",
           "numerical_value": 89,
-          "uuid": "7a5eaf55-2171-510b-90cb-193d0c2b7ff1"
+          "uuid": "eec6efc0-1f09-51fa-9cd9-d2305b5846d8"
         },
         {
           "value": "70-79",
           "expanded": "Fairly Easy",
           "description": "Fairly easy to read.",
           "numerical_value": 79,
-          "uuid": "9b46e65f-6d8b-569a-939f-2ecb8a39a679"
+          "uuid": "5ac3c527-e6e3-514a-a6f4-6a62d57056f1"
         },
         {
           "value": "60-69",
           "expanded": "Standard",
           "description": "Plain English. Easily understood by 13- to 15-year-old students.",
           "numerical_value": 69,
-          "uuid": "74b60e8f-ac91-5fb3-a3d6-72def88ded82"
+          "uuid": "6147ffbf-ac0d-5ceb-8d08-111cd53291e6"
         },
         {
           "value": "50-59",
           "expanded": "Fairly Difficult",
           "description": "Fairly difficult to read.",
           "numerical_value": 59,
-          "uuid": "a26961e6-a5f0-5032-bbcd-cc121ca294ea"
+          "uuid": "501ea76b-7631-5657-a247-3ec8746f4f82"
         },
         {
           "value": "30-49",
           "expanded": "Difficult",
           "description": "Difficult to read.",
           "numerical_value": 49,
-          "uuid": "bfb989be-a4c6-529e-9aba-81b0507c46ef"
+          "uuid": "a8ff5121-75f0-59dc-848d-7fa90ecf9148"
         },
         {
           "value": "0-29",
           "expanded": "Very Confusing",
           "description": "Very difficult to read. Best understood by university graduates.",
           "numerical_value": 29,
-          "uuid": "0efe7880-0b01-5aac-8f8e-1e2ec608c860"
+          "uuid": "db0d393e-084d-58dc-9d74-6b24d83db533"
         }
       ]
     }
   ],
-  "uuid": "6ab5310a-267b-51b8-864e-118fba34849f"
+  "uuid": "c048ee3f-9e60-547b-88c1-6ca49b9b36b3"
 }

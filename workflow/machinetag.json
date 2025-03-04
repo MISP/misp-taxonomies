@@ -8,14 +8,14 @@
       "value": "todo",
       "expanded": "Todo",
       "description": "Todo are the actions to be performed by one or more analyst(s) to apply cognitive methods, evaluation(s), weightening information, to validate hypothesis or complete additional tasks to improve the overall information or data being tagged with a todo. ",
-      "uuid": "6d023a40-949c-5392-9f08-43262f359907"
+      "uuid": "c9bf24b6-03f5-57ea-b1d9-72d6f4b3d4a2"
     },
     {
       "value": "state",
       "expanded": "State",
       "description": "State are the different states of the information or data being tagged.",
       "exclusive": true,
-      "uuid": "ac402271-d872-5573-bb6c-9ed5969c5f8d"
+      "uuid": "5fa3d134-bc5c-50f8-a78f-b0d67900ef8a"
     }
   ],
   "values": [
@@ -25,132 +25,132 @@
         {
           "value": "expansion",
           "expanded": "Expansion need to be applied to expand the information tagged",
-          "uuid": "d31e052a-0425-542f-b5f8-e3e0798b266e"
+          "uuid": "a7bb70de-938e-5b55-bd18-9037a8ce97f2"
         },
         {
           "value": "review",
           "expanded": "Additional review is required to reach a certain level of validation of the information tagged",
-          "uuid": "ffef4630-21b3-53b1-ac5c-c3878c93d8dd"
+          "uuid": "b04017f1-fc59-5823-b032-e2b98196cd0c"
         },
         {
           "value": "review-for-privacy",
           "expanded": "Additional review is required to ensure privacy of the information tagged",
-          "uuid": "5d73f2b6-871b-522d-a0dd-bc8784bc16c0"
+          "uuid": "17b5b755-c89f-54f4-9ea9-35b5c278d959"
         },
         {
           "value": "review-before-publication",
           "expanded": "Review is required before publishing the information tagged",
-          "uuid": "ba3ca05f-8fbe-5bf6-afe0-9194a89be0ac"
+          "uuid": "90e0bced-b169-59d0-9f54-b4c97d8edeb5"
         },
         {
           "value": "release-requested",
           "expanded": "Release of the information tagged is requested (often after the review process",
-          "uuid": "6e585439-9101-5070-8478-ab97f489ada1"
+          "uuid": "08f5deff-f61d-5694-8de7-9c20e9cecfb2"
         },
         {
           "value": "review-for-false-positive",
           "expanded": "Review the the information tagged to limit the number of false-positives and potentially remove any IDS/automation flag to avoid automation of the false-positives",
-          "uuid": "c7727edc-74f7-5a54-b986-2f6cc95edb27"
+          "uuid": "e897fc0d-1bdf-5057-9210-a9c415e3ed21"
         },
         {
           "value": "review-the-source-credibility",
           "expanded": "Review the source credibility and add the corresponding marking like admiralty-scale on the origin",
-          "uuid": "a024bc04-88e4-5980-aff1-26a5229842d7"
+          "uuid": "69d11870-976f-55d3-8265-d10a60aaca98"
         },
         {
           "value": "add-missing-misp-galaxy-cluster-values",
           "expanded": "Add potential MISP galaxy cluster values missing about the information tagged",
-          "uuid": "b3603c42-ed6b-5ca7-abfe-306d0c318de9"
+          "uuid": "e62c4e7a-fe76-5ede-a906-0db14bb01412"
         },
         {
           "value": "create-missing-misp-galaxy-cluster",
           "expanded": "Create missing MISP galaxy cluster about the information tagged",
-          "uuid": "3bcc5fbd-5e0b-510a-87b3-54258e19db68"
+          "uuid": "fc252802-55f8-5b78-97f9-b058d3aaeec7"
         },
         {
           "value": "create-missing-misp-galaxy-cluster-relationship",
           "expanded": "create missing MISP galaxy cluster relationships (e.g. relationships between MISP clusters)",
-          "uuid": "49d4470a-1b29-5b3f-bb92-d9bab2b1f467"
+          "uuid": "5895e99f-5883-5a22-aa8e-113388e71ec6"
         },
         {
           "value": "create-missing-misp-galaxy",
           "expanded": "Create missing MISP galaxy at large about the information tagged (e.g. a new category of malware or activity)",
-          "uuid": "f1524de9-db63-55ba-af09-9f8e86bd7d06"
+          "uuid": "c67334eb-f705-5a84-b373-815e9ceea496"
         },
         {
           "value": "create-missing-relationship",
           "expanded": "Create missing relationship about the information tagged (e.g. create new relationship between MISP objects)",
-          "uuid": "1b8e89e1-48e7-5d61-9357-2c8bc8e4add9"
+          "uuid": "0acd094e-d296-5446-9857-c0e4dacc671b"
         },
         {
           "value": "add-context",
           "expanded": "Add contextual information about the information tagged",
-          "uuid": "14bee168-fea3-5e24-8e3c-bab829aa0851"
+          "uuid": "964d620c-a749-532f-97c2-965ec1263308"
         },
         {
           "value": "add-tagging",
           "expanded": "Add adequate tagging and classification about the information tagged",
-          "uuid": "8d9d0bc4-a823-5cbc-86e0-16857360ff0a"
+          "uuid": "2c9c32e2-393f-5e59-b364-ce30398c858a"
         },
         {
           "value": "check-passive-dns-for-shared-hosting",
           "expanded": "Check Passive DNS (or similar techniques) to review if the information tagged is used within shared hosting",
-          "uuid": "3e485b2c-9ac0-504a-b0d7-cd8bfc317be2"
+          "uuid": "a3ca03e3-b014-5190-926d-965b2bc45a41"
         },
         {
           "value": "review-classification",
           "expanded": "Review the classification of the information tagged to ensure adequate marking of the information before publication",
-          "uuid": "6bfc40ca-6c55-5db5-835d-9641164d218e"
+          "uuid": "cfc5efa5-dbc0-5d16-8c29-084986856345"
         },
         {
           "value": "review-the-grammar",
           "expanded": "Review the grammar of the information tagged to improve the overall quality",
-          "uuid": "1bc19d1d-35d4-5624-bf11-b5e7fbe17f51"
+          "uuid": "4362dfd3-e554-5084-a4a2-8b7e26ac9988"
         },
         {
           "value": "do-not-delete",
           "expanded": "Element that should not be deleted (without asking)",
-          "uuid": "923334e2-bbca-5100-b1a5-677eea02f082"
+          "uuid": "995d916e-fb38-519e-9b1c-8ec6803dd010"
         },
         {
           "value": "add-mitre-attack-cluster",
           "expanded": "Describe cyber adversary behavior using MITRE ATT&CK",
-          "uuid": "982b52d3-6612-50da-836c-4ee68275b781"
+          "uuid": "350df3bb-97f5-55ca-9889-c79869bfdd1f"
         },
         {
           "value": "additional-task",
           "expanded": "Used to point an additional task that can not be describe by the rest of the taxonomy and need to be done",
-          "uuid": "d83bc0f4-69f6-5df4-a6aa-1f045179d3d3"
+          "uuid": "873a074a-c46b-5f41-809f-f40e16f6d306"
         },
         {
           "value": "create-event",
           "expanded": "A new MISP event need to be created from the tag reference",
-          "uuid": "845f301a-5d1c-5b77-a136-5883710b4f41"
+          "uuid": "bb5dcdb8-9825-5949-b6ad-876e867052e9"
         },
         {
           "value": "preserve-evidence",
           "expanded": "Preserve evidence mentioned in the information tagged",
-          "uuid": "fa5e2572-bce4-5575-8c27-528ddbb79287"
+          "uuid": "d1fcbec2-6b22-5f9a-a78d-d80926e19182"
         },
         {
           "value": "review-relevance",
           "expanded": "Review if the event is relevant",
-          "uuid": "2a442c1a-792d-582a-b3e3-27e18177d4b4"
+          "uuid": "b3607eab-fa73-5512-9460-fa2d4a98b2a3"
         },
         {
           "value": "review-completeness",
           "expanded": "Review if the event is complete",
-          "uuid": "74ef9039-82f8-5d3f-af6f-ebd5ea9985d5"
+          "uuid": "c995cd64-a10f-50ee-a7cd-f27401fa96a8"
         },
         {
           "value": "review-accuracy",
           "expanded": "Review the accuracy of an event or attribute",
-          "uuid": "446337ff-10f8-537d-a527-21973210f5ec"
+          "uuid": "526b4c30-4410-5338-8dab-5ed68ca60ac4"
         },
         {
           "value": "review-quality",
           "expanded": "Review the quality of an event or attribute",
-          "uuid": "f9ba1235-d172-5089-b700-68162fb9c33b"
+          "uuid": "57973488-7b16-59ba-8f7c-c28090ba1c1f"
         }
       ]
     },
@@ -160,35 +160,35 @@
         {
           "value": "incomplete",
           "expanded": "Incomplete means that the information tagged is incomplete and has potential to be completed by other analysts, technical processes or the current analysts performing the analysis.",
-          "uuid": "0288bb5b-df65-5131-aecb-051db6359266"
+          "uuid": "679a6e58-1115-5640-9089-f68acff8ee40"
         },
         {
           "value": "complete",
           "expanded": "Complete means that the information tagged reach a state of completeness with the current capabilities of the analyst.",
-          "uuid": "43ebad12-1aa3-5fd0-9546-df7ed364d748"
+          "uuid": "e9e83717-3dfd-57de-ba1b-9ff4769c6826"
         },
         {
           "value": "draft",
           "expanded": "Draft means the information tagged can be released as a preliminary version or outline.",
-          "uuid": "ecfbc3a1-73ef-53ba-83a8-6d373f41c1de"
+          "uuid": "2d722bd7-553b-5720-aa43-b400f9f951d7"
         },
         {
           "value": "ongoing",
           "expanded": "Analyst is currently working on this analysis. To remove when there is no more work to be done by the analyst.",
-          "uuid": "ef00fb75-077a-5c51-96c4-45c1c8350cae"
+          "uuid": "ce8c50b6-de4f-5c8c-a7ea-933062e772d4"
         },
         {
           "value": "rejected",
           "expanded": "Analyst rejected the process. The object will not reach state of completeness.",
-          "uuid": "8d4f6416-83c7-5b05-9aa4-fc554436a30a"
+          "uuid": "1df78fa0-d4de-5b76-ad2e-4e25dcc52e5f"
         },
         {
           "value": "release",
           "expanded": "Analyst approved the information to be released. Like a MISP event to be released and published.",
-          "uuid": "17f65589-b9de-5823-8968-2924d16e7ea4"
+          "uuid": "1279a758-21f4-5f76-8d37-ad50ed446c8f"
         }
       ]
     }
   ],
-  "uuid": "668823d1-d0c5-53f5-ac0e-97d1e0bc5f36"
+  "uuid": "d8559955-134a-52a9-afc2-17cb38ec5ac7"
 }

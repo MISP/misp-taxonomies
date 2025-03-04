@@ -3,17 +3,17 @@
     {
       "expanded": "Source Type",
       "value": "source-type",
-      "uuid": "b9ea1b49-b2d5-5a70-9e69-408de4eb40e0"
+      "uuid": "53268e72-c3c7-58c0-afa8-ab00a85b46e3"
     },
     {
       "expanded": "Lifetime of the information as Open Source Intelligence",
       "value": "lifetime",
-      "uuid": "505034df-42bb-5649-90b8-167b40fdc1e9"
+      "uuid": "d14cfc15-c9bc-598b-829d-b757f4cb99cd"
     },
     {
       "expanded": "Certainty of the elements mentioned in this Open Source Intelligence",
       "value": "certainty",
-      "uuid": "57a0cb11-4e40-50b5-82fb-ed0dbced65cd"
+      "uuid": "50358d08-be83-50ea-86c1-c305722c9f13"
     }
   ],
   "version": 11,
@@ -26,92 +26,92 @@
         {
           "value": "blog-post",
           "expanded": "Blog post",
-          "uuid": "7868e94b-0133-592f-93e8-0e886a838c21"
+          "uuid": "6110e86a-1752-5b8a-a51b-9899367370d6"
         },
         {
           "value": "microblog-post",
           "expanded": "Microblog post like Twitter",
-          "uuid": "5e29e74c-5eba-5960-b745-dcfdd0aacf3f"
+          "uuid": "a9bb1865-9680-586b-8e97-2ab133668df6"
         },
         {
           "value": "technical-report",
           "expanded": "Technical or analysis report",
-          "uuid": "da94de57-019b-5c3b-9399-455993ba8512"
+          "uuid": "ec22778f-e7d6-5a2a-9a0d-5c402bf22921"
         },
         {
           "value": "presentation",
           "expanded": "Presentation or slidedeck",
-          "uuid": "33298f32-46a1-5cb6-a198-6f173f29ce5d"
+          "uuid": "27c02224-598c-5817-8a63-813f659c7aa3"
         },
         {
           "value": "news-report",
           "expanded": "News report",
-          "uuid": "f652d9ac-11ce-5a8a-b05d-34cf507a70ac"
+          "uuid": "61a0a580-f713-5eee-b6a1-bf130d52a92d"
         },
         {
           "value": "pastie-website",
           "expanded": "Pastie-like website",
-          "uuid": "c531a93b-10a8-54c7-a17d-2e3516aaa6e3"
+          "uuid": "b2e6b620-eb8a-502d-91e3-d29f169c3cf9"
         },
         {
           "value": "electronic-forum",
           "expanded": "Electronic forum",
-          "uuid": "c5ab0ce0-56d3-50a2-93c3-a35472afd1b8"
+          "uuid": "201c07ce-d9a8-572f-8510-6fc1bb8a379d"
         },
         {
           "value": "mailing-list",
           "expanded": "Mailing-list",
-          "uuid": "c405f3a8-7b5b-5b62-9e47-67ab33ca0baf"
+          "uuid": "e4211c17-51a6-5c0b-9bad-8e325e1e8ed3"
         },
         {
           "value": "block-or-filter-list",
           "expanded": "Block or Filter List",
-          "uuid": "4960e4cf-1d75-509b-bf2f-2028de86b5c3"
+          "uuid": "e5586337-617e-5b78-a9c0-788eeee284d8"
         },
         {
           "value": "source-code-repository",
           "expanded": "Source code repository",
-          "uuid": "c6b5b111-0b38-5c31-b243-0d81baf63ec4"
+          "uuid": "f447bdf8-b074-5f52-a8e8-21ad064efeaa"
         },
         {
           "value": "accessible-evidence",
           "expanded": "Infrastructure allowing the gathering of the evidences such as open directories, public web services or left over on public services",
-          "uuid": "f02e1c5c-5d87-54dc-85cb-3dc701b3309a"
+          "uuid": "cd56c2e3-d1fb-5cae-bc63-2fd65f4c59ec"
         },
         {
           "value": "expansion",
           "expanded": "Expansion",
-          "uuid": "4329194a-be0f-5095-9f6a-a09a4c82f8fc"
+          "uuid": "66cd8968-ffb7-53bb-96ed-02f9e7b79225"
         },
         {
           "value": "automatic-analysis",
           "expanded": "Automatic analysis including dynamic analysis or sandboxes output",
-          "uuid": "4949b162-6a4a-595b-b057-d6768433a1d3"
+          "uuid": "74b1ec26-7ef6-56a4-95fd-2a3eef1ec863"
         },
         {
           "value": "automatic-collection",
           "expanded": "Automatic collection including honeypots, spamtraps or equivalent technologies",
-          "uuid": "9290c4f5-347d-5445-95bd-3cc35d1410e8"
+          "uuid": "371a3857-c667-5a3a-8cdc-b0d661e6b116"
         },
         {
           "value": "manual-analysis",
           "expanded": "Manual analysis or investigation",
-          "uuid": "23de4de0-2298-5d9b-8741-f3e43389c740"
+          "uuid": "c05f0a98-ae08-5eaf-8155-c95e67fce2d9"
         },
         {
           "value": "manual-collection",
           "expanded": "Manual collection from crawlers, honeypots, spamtraps, gathering tools or equivalent technologies",
-          "uuid": "00bdadf8-a3ce-57c0-9df4-e2b565e3c660"
+          "uuid": "e02da304-217e-5745-88cd-6c7a8024af38"
         },
         {
           "value": "unknown",
           "expanded": "Unknown",
-          "uuid": "71aeea35-eaf6-54fb-ba7c-f6e9ee7f479b"
+          "uuid": "c0ee6b06-cc26-5dfe-ad74-fe5acae742b7"
         },
         {
           "value": "other",
           "expanded": "Other source not specified in this list",
-          "uuid": "ee1d13b9-20d2-5756-b7b5-580c20c899a5"
+          "uuid": "8054767e-2eb7-53e4-9be6-8950236a192e"
         }
       ]
     },
@@ -121,13 +121,13 @@
           "description": "Information available publicly on long-term",
           "expanded": "Perpetual",
           "value": "perpetual",
-          "uuid": "6eb1967a-7c71-537b-bb49-3fbc9f919a2e"
+          "uuid": "cafad670-0b27-5818-b86a-757529e56eee"
         },
         {
           "description": "Information available publicly on short-term",
           "expanded": "Ephemeral",
           "value": "ephemeral",
-          "uuid": "d46dc1ed-ac28-5694-9379-866f81dafefe"
+          "uuid": "97adb94b-133d-5f5f-af8f-bf2387bd62ca"
         }
       ],
       "predicate": "lifetime"
@@ -139,53 +139,53 @@
           "expanded": "Certainty (probability equals 1 - 100%)",
           "value": "100",
           "numerical_value": 100,
-          "uuid": "536cbc3c-e52e-5dfb-bc5c-2ff2fef09f05"
+          "uuid": "d97bd9d3-5718-5cb3-890a-6f44c313877c"
         },
         {
           "description": "Almost certain",
           "expanded": "Almost certain (probability equals 0.93 - 93%)",
           "value": "93",
           "numerical_value": 93,
-          "uuid": "3df0383a-17a3-5a5d-9690-e5df1a362804"
+          "uuid": "dfc3f3c5-fb77-58e9-a6c8-5b2ea9414db8"
         },
         {
           "description": "Probable",
           "expanded": "Probable (probability equals 0.75 - 75%)",
           "value": "75",
           "numerical_value": 75,
-          "uuid": "c6709b16-a76c-58f6-b187-02ceee8dcc50"
+          "uuid": "a386a237-ed7d-5e8d-9cb3-27cc71dabd0e"
         },
         {
           "description": "Chances about even",
           "expanded": "Chances about even (probability equals 0.50 - 50%)",
           "value": "50",
           "numerical_value": 50,
-          "uuid": "bf22d298-1ac8-5fa7-b081-d00beda09547"
+          "uuid": "f530059e-558f-5919-aa7e-c0dabc163fe4"
         },
         {
           "description": "Probably not",
           "expanded": "Probably not (probability equals 0.30 - 30%)",
           "value": "30",
           "numerical_value": 30,
-          "uuid": "ea8e84e2-e8d7-5432-b3f3-7aa80eed5e9a"
+          "uuid": "66f8af84-735a-5ef2-8dac-b07f3b0df498"
         },
         {
           "description": "Almost certainly not",
           "expanded": "Almost certainly not (probability equals 0.07 - 7%)",
           "value": "7",
           "numerical_value": 7,
-          "uuid": "4dae137b-97e0-514d-bebe-45e66a355cc5"
+          "uuid": "6e2f8efc-bac3-55ae-b7ee-b9a80a7dce73"
         },
         {
           "description": "Impossibility",
           "expanded": "Impossibility (probability equals 0 - 0%)",
           "value": "0",
           "numerical_value": 0,
-          "uuid": "6e8d083e-afdd-531a-ae4e-a34981187b74"
+          "uuid": "1479effb-9249-5503-8c63-a812d3bcb8b1"
         }
       ],
       "predicate": "certainty"
     }
   ],
-  "uuid": "ce1ac7e7-a9c3-5b36-87d3-53e76aa0e6a3"
+  "uuid": "a86e35e6-b0cb-5b30-99df-013b40040cbc"
 }

@@ -6,32 +6,39 @@
     {
       "value": "informed ISP/Hosting Service Provider",
       "expanded": "Informed ISP/Hosting Service Provider",
-      "colour": "#257ad1"
+      "colour": "#257ad1",
+      "uuid": "07f6ed59-78a0-58d0-abdb-4dea9a6136a6"
     },
     {
       "value": "informed Registrar",
       "expanded": "Informed Registrar",
-      "colour": "#257ad1"
+      "colour": "#257ad1",
+      "uuid": "d685a0ec-86d5-5985-b9c0-e0bedc6b3300"
     },
     {
       "value": "informed Registrant",
       "expanded": "Informed Registrant",
-      "colour": "#257ad1"
+      "colour": "#257ad1",
+      "uuid": "432e64fc-45e0-574a-98d4-f1a0f6f836e1"
     },
     {
       "value": "informed abuse-contact (domain)",
       "expanded": "Informed abuse-contact (domain)",
-      "colour": "#257ad1"
+      "colour": "#257ad1",
+      "uuid": "79b7f1a9-b0dc-5ea6-8ae2-d00c29d95ba3"
     },
     {
       "value": "informed abuse-contact (IP)",
       "expanded": "Informed abuse-contact (IP)",
-      "colour": "#257ad1"
+      "colour": "#257ad1",
+      "uuid": "f604c21c-cdff-5b14-bd2d-83445673104f"
     },
     {
       "value": "informed legal department",
       "expanded": "Informed legal department",
-      "colour": "#257ad1"
+      "colour": "#257ad1",
+      "uuid": "0634dfca-e59b-5f30-b676-bd1929a05f3e"
     }
-  ]
+  ],
+  "uuid": "f815ecf0-9879-5439-a2be-a4c56362eebb"
 }

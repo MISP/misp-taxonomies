@@ -6,17 +6,17 @@
     {
       "value": "incident-category",
       "expanded": "Incident Category",
-      "uuid": "a5900b00-09ca-5b96-8882-b61696e52ca7"
+      "uuid": "92de91b7-92b0-558d-b3a3-67ccd45ed219"
     },
     {
       "value": "criticality-classification",
       "expanded": "Criticality Classification",
-      "uuid": "8b3d3e1a-e2c5-549b-8a5a-2fd39654dbab"
+      "uuid": "15bec6aa-7663-5365-aa5d-0dce31544625"
     },
     {
       "value": "sensitivity-classification",
       "expanded": "Sensitivity Classification",
-      "uuid": "60d3f330-6e0c-5e32-ab2b-863056ac8509"
+      "uuid": "a0aa42ac-8c85-5532-ae06-d626d9d58cd9"
     }
   ],
   "values": [
@@ -26,57 +26,57 @@
         {
           "value": "DOS",
           "expanded": "Denial of service / Distributed Denial of service",
-          "uuid": "602d215d-f76a-5110-808e-392f47505c08"
+          "uuid": "905d51b7-e042-56c2-a848-c293b44fa54e"
         },
         {
           "value": "forensics",
           "expanded": "Forensics work",
-          "uuid": "814be675-eee1-5abb-a4b4-5176cd75340f"
+          "uuid": "fa0987dd-b33c-5c6f-ad4e-a9161fad454e"
         },
         {
           "value": "compromised-information",
           "expanded": "Attempted or successful destruction, corruption, or disclosure of sensitive corporate information or Intellectual Property",
-          "uuid": "408f1fc4-f371-5f0b-8fa7-f2114f30f84b"
+          "uuid": "b2026f4e-88f8-5cf0-a14c-8e41d4793b8d"
         },
         {
           "value": "compromised-asset",
           "expanded": "Compromised host (root account, Trojan, rootkit), network device, application, user account.",
-          "uuid": "2249e2a1-b008-503c-ba35-927b051a7e6a"
+          "uuid": "2c1cbe0c-585c-535d-804f-08cb4c97290a"
         },
         {
           "value": "unlawful-activity",
           "expanded": "Theft / Fraud / Human Safety / Child Porn",
-          "uuid": "85cffdac-b6a0-5beb-a3b8-27888881cf2e"
+          "uuid": "eb1cace9-69be-5ddb-9739-ecc0690ba288"
         },
         {
           "value": "internal-hacking",
           "expanded": "Reconnaissance or Suspicious activity originating from inside the Company corporate network, excluding malware",
-          "uuid": "2e7e3efc-4d7f-50ac-a07e-c3e98b6294cc"
+          "uuid": "d783f062-6160-5a86-ab69-b96b51e48eec"
         },
         {
           "value": "external-hacking",
           "expanded": "Reconnaissance or Suspicious Activity originating from outside the Company corporate network (partner network, Internet), excluding malware.",
-          "uuid": "16dc8321-cdbc-5586-afef-25ad4a0cb4f8"
+          "uuid": "55ef1386-cded-59e6-87f2-ac105d25defb"
         },
         {
           "value": "malware",
           "expanded": "A virus or worm typically affecting multiple corporate devices.  This does not include compromised hosts that are being actively controlled by an attacker via a backdoor or Trojan.",
-          "uuid": "75884b2e-e3c0-5d3b-8505-5418430f9e51"
+          "uuid": "66127981-77fa-5859-a2c8-e7a0fe6c5966"
         },
         {
           "value": "email",
           "expanded": "Spoofed email, SPAM, and other email security-related events.",
-          "uuid": "9b81d629-0627-5da5-a8e0-d3c1eaa88ce4"
+          "uuid": "ae904e67-25ac-5643-af6e-2da339f4bae3"
         },
         {
           "value": "consulting",
           "expanded": "Security consulting unrelated to any confirmed incident",
-          "uuid": "be751d1a-7ade-5f5c-b9a3-ba9bff123048"
+          "uuid": "ce75f39a-1ab3-5fa0-93a7-9dfda770fe8f"
         },
         {
           "value": "policy-violation",
           "expanded": "Violation of various policies",
-          "uuid": "a596961a-5118-50a6-8228-829b11017a02"
+          "uuid": "d41d9418-bf81-5847-aae3-bee31ba3e2cf"
         }
       ]
     },
@@ -86,17 +86,17 @@
         {
           "value": "1",
           "expanded": "Incident affecting critical systems or information with potential to be revenue or customer impacting.",
-          "uuid": "84c8f052-10c4-59c3-bf3f-6c074dc1c159"
+          "uuid": "9e1c8704-1164-56d4-afe8-ecc8a72d7e06"
         },
         {
           "value": "2",
           "expanded": "Incident affecting non-critical systems or information, not revenue or customer impacting. Employee investigations that are time sensitive should typically be classified at this level.",
-          "uuid": "6d6ea79b-381d-5e49-b1b2-7a9dcca57406"
+          "uuid": "cf1b85a1-38e6-584d-80ee-eb5ad579c732"
         },
         {
           "value": "3",
           "expanded": "Possible incident, non-critical systems.  Incident or employee investigations that are not time sensitive.  Long-term investigations involving extensive research and/or detailed forensic work.",
-          "uuid": "d8ff5623-a3b7-5b84-9bc5-7b9beeba0adf"
+          "uuid": "38f8d08c-4074-5f55-ad4f-58d278e6c26f"
         }
       ]
     },
@@ -106,20 +106,20 @@
         {
           "value": "1",
           "expanded": "Extremely Sensitive",
-          "uuid": "5bfb57b2-a7f3-5da0-86ac-7045f9c2649e"
+          "uuid": "2bc2355e-c864-5872-9ed1-0eb289d74268"
         },
         {
           "value": "2",
           "expanded": "Sensitive",
-          "uuid": "9a31a001-1777-510e-a2e4-e9165741cd02"
+          "uuid": "ffe4d210-86e2-522a-be88-1bed6803202c"
         },
         {
           "value": "3",
           "expanded": "Not Sensitive",
-          "uuid": "4f7f89ef-077c-549b-8dce-5e5ca643986c"
+          "uuid": "eee5267f-6f83-5e85-99cc-7750d3f690a4"
         }
       ]
     }
   ],
-  "uuid": "3139371c-851d-5113-bdf2-b5c11923ce72"
+  "uuid": "7425d4fe-0be2-5786-b9c2-a6b8f1496117"
 }

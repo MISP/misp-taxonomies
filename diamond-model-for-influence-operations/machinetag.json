@@ -9,23 +9,29 @@
   "predicates": [
     {
       "value": "Influencer",
-      "expanded": "The influencer is an individual or organization that is conducting malign influence activity."
+      "expanded": "The influencer is an individual or organization that is conducting malign influence activity.",
+      "uuid": "cc30fcaa-0764-59d8-bcd5-8084762bc993"
     },
     {
       "value": "Capabilities",
-      "expanded": "Capabilities are the influencer’s TTPs. Studying the way influencers plan, test, and execute their operations can enable analysts to be more proactive in defending against malign influence and to discern how to neutralize harmful narratives when they are identified. "
+      "expanded": "Capabilities are the influencer’s TTPs. Studying the way influencers plan, test, and execute their operations can enable analysts to be more proactive in defending against malign influence and to discern how to neutralize harmful narratives when they are identified. ",
+      "uuid": "bc9cecec-8d00-5b9a-bfed-e5e3fc3e53da"
     },
     {
       "value": "Infrastructure",
-      "expanded": "The infrastructure used by influencers can include print media, television, digital platforms like websites, mobile phones, mobile applications, and more. "
+      "expanded": "The infrastructure used by influencers can include print media, television, digital platforms like websites, mobile phones, mobile applications, and more. ",
+      "uuid": "84f4dc73-1e5f-540c-a003-b93389dac31d"
     },
     {
       "value": "Audience",
-      "expanded": "The audience is the intended target of the influence operation. The audience can range in size from a single individual to a large international audience. "
+      "expanded": "The audience is the intended target of the influence operation. The audience can range in size from a single individual to a large international audience. ",
+      "uuid": "8e7e7322-1691-5e4b-bcd8-55602b65696a"
     },
     {
       "value": "Narrative",
-      "expanded": "The narrative is often key to identifying who would be affected by the story and who would be motivated to propagate that particular message. "
+      "expanded": "The narrative is often key to identifying who would be affected by the story and who would be motivated to propagate that particular message. ",
+      "uuid": "9b92508e-0122-5004-bdbe-562abde37553"
     }
-  ]
+  ],
+  "uuid": "012d5680-7177-59d1-a087-9bac2935c43b"
 }

@@ -7,37 +7,45 @@
     {
       "value": "man-in-the-middle",
       "expanded": "Man-in-the-middle",
-      "description": "Interception where an attacker secretly relayed and possibly altered the communication between two parties."
+      "description": "Interception where an attacker secretly relayed and possibly altered the communication between two parties.",
+      "uuid": "3634ff55-9d96-5092-b99c-2d958734ca78"
     },
     {
       "value": "man-on-the-side",
       "expanded": "Man-on-the-side",
-      "description": "Interception where an attacker could read and send messages between two parties but not alter messages."
+      "description": "Interception where an attacker could read and send messages between two parties but not alter messages.",
+      "uuid": "2d8f9e31-011f-58f3-b2a2-5d09562030fa"
     },
     {
       "value": "passive",
       "expanded": "Passive",
-      "description": "Interception where an attacker could read messages between two parties."
+      "description": "Interception where an attacker could read messages between two parties.",
+      "uuid": "45825f8b-725a-5017-85ee-d8e1b97a3ac6"
     },
     {
       "value": "search-result-poisoning",
       "expanded": "Search result poisoning",
-      "description": "Interception where an attacker creates malicious websites intended to show up in search engine queries."
+      "description": "Interception where an attacker creates malicious websites intended to show up in search engine queries.",
+      "uuid": "714b9836-7584-5656-928a-a6b703c5e54c"
     },
     {
       "value": "dns",
       "expanded": "Dns",
-      "description": "Interception where domain name resolution is altered to re-direct traffic to a malicious IP address."
+      "description": "Interception where domain name resolution is altered to re-direct traffic to a malicious IP address.",
+      "uuid": "70b0357d-3438-5de2-99c9-c79535f09a34"
     },
     {
       "value": "host-file",
       "expanded": "Host file",
-      "description": "Interception where the HOSTS file is modified to re-direct traffic to a malicious IP address."
+      "description": "Interception where the HOSTS file is modified to re-direct traffic to a malicious IP address.",
+      "uuid": "aec15542-cfb2-5216-a442-4986086930af"
     },
     {
       "value": "other",
       "expanded": "Other",
-      "description": "Other."
+      "description": "Other.",
+      "uuid": "392ddc13-f03c-56d7-b284-b06638ea47e0"
     }
-  ]
+  ],
+  "uuid": "81a4a435-76d8-5509-be7a-076db4eae8d3"
 }
