@@ -5,11 +5,13 @@
   "predicates": [
     {
       "value": "incident-type",
-      "expanded": "Incident Type"
+      "expanded": "Incident Type",
+      "uuid": "64cfe24c-8227-5af5-b64e-640cf3b68e93"
     },
     {
       "value": "incident-criticality-level",
-      "expanded": "Incident Criticality Level"
+      "expanded": "Incident Criticality Level",
+      "uuid": "3304a6c2-1730-5751-b4fc-5519032b85a3"
     }
   ],
   "values": [
@@ -19,148 +21,184 @@
         {
           "value": "virus",
           "expanded": "virus",
-          "description": "Virus is a piece of malicious code that aims to spread from computer to computer by attacking executable files and documents and can cause deliberate deletion of files from the hard drive and similar damage"
+          "description": "Virus is a piece of malicious code that aims to spread from computer to computer by attacking executable files and documents and can cause deliberate deletion of files from the hard drive and similar damage",
+          "uuid": "6b3c9804-b4d0-5b6d-8a0c-09fcf09b7aa8"
         },
         {
           "value": "worm",
           "expanded": "worm",
-          "description": "Worm is a program that contains malicious code that spreads over a network, in such a way that it can reproduce and transfer , which reproduces and transfers independently, i.e. it does not depend on the files of the infected person device. Worms spread to email addresses from the victim's contact list or exploit the vulnerabilities of network applications and, due to the high speed of propagation, serve for transmission of other types of malicious software "
+          "description": "Worm is a program that contains malicious code that spreads over a network, in such a way that it can reproduce and transfer , which reproduces and transfers independently, i.e. it does not depend on the files of the infected person device. Worms spread to email addresses from the victim's contact list or exploit the vulnerabilities of network applications and, due to the high speed of propagation, serve for transmission of other types of malicious software ",
+          "uuid": "93773490-0152-563a-bc2f-c687e3c2d792"
         },
         {
           "value": "ransomware",
-          "expanded": "Ransomware"
+          "expanded": "Ransomware",
+          "uuid": "9c2a4fd5-30e5-5207-82df-b5f5aa982bd2"
         },
         {
           "value": "trojan",
-          "expanded": "Trojan"
+          "expanded": "Trojan",
+          "uuid": "bd9e4261-334a-575e-b4a7-d1b5faa81e21"
         },
         {
           "value": "spyware",
-          "expanded": "Spyware"
+          "expanded": "Spyware",
+          "uuid": "43265a2c-831a-511c-a2c6-c0a7e3706bea"
         },
         {
           "value": "rootkit",
-          "expanded": "Rootkit"
+          "expanded": "Rootkit",
+          "uuid": "bdcabe2d-0c6b-570b-80e9-5bb1fb34115b"
         },
         {
           "value": "malware",
-          "expanded": "Malware is a word derived from two words - Malicious Software, and represents any software that is written for malicious purposes, i.e. that aims to cause harm computer systems or networks"
+          "expanded": "Malware is a word derived from two words - Malicious Software, and represents any software that is written for malicious purposes, i.e. that aims to cause harm computer systems or networks",
+          "uuid": "b7025a7e-34fc-5347-aae1-85283cb382f0"
         },
         {
           "value": "port-scanning",
-          "expanded": "Port scanning"
+          "expanded": "Port scanning",
+          "uuid": "2978ac3f-5c65-5b21-b85c-a6011eadb089"
         },
         {
           "value": "sniffing",
-          "expanded": "Sniffing"
+          "expanded": "Sniffing",
+          "uuid": "32013a0c-d33a-5ad9-b22c-de40a7b98ad7"
         },
         {
           "value": "social-engineering",
-          "expanded": "Social engineering"
+          "expanded": "Social engineering",
+          "uuid": "6aab9dac-9262-5e43-9261-8a7bdad138df"
         },
         {
           "value": "data-breaches",
-          "expanded": "Data breaches"
+          "expanded": "Data breaches",
+          "uuid": "cfd73ef3-0be4-57ff-bd2e-4cfd0dd2e81c"
         },
         {
           "value": "other-type-of-information-gathering",
-          "expanded": "Other type of information gathering"
+          "expanded": "Other type of information gathering",
+          "uuid": "eee81273-c668-5d0d-82d1-ca5a9eddecc1"
         },
         {
           "value": "phishing",
-          "expanded": "Phishing"
+          "expanded": "Phishing",
+          "uuid": "8a22cc1a-c918-50b6-b5b3-b9b1c1bb0d2c"
         },
         {
           "value": "unauthorized-use-of-resources",
-          "expanded": "Unauthorized use of resources"
+          "expanded": "Unauthorized use of resources",
+          "uuid": "3a4a1bbe-0dd0-55a1-98a2-86a7a7ba13ba"
         },
         {
           "value": "fraud",
-          "expanded": "Fraud"
+          "expanded": "Fraud",
+          "uuid": "d8fed4a5-73d0-5632-bb51-c20a2f440251"
         },
         {
           "value": "exploiting-known-vulnerabilities",
-          "expanded": "Exploiting known vulnerabilities"
+          "expanded": "Exploiting known vulnerabilities",
+          "uuid": "80288654-e63a-54b9-8500-d5dbcf0cb052"
         },
         {
           "value": "brute-force",
-          "expanded": "Brute force"
+          "expanded": "Brute force",
+          "uuid": "39b9a7ad-d3cc-5efd-bb9b-775f06efdf1d"
         },
         {
           "value": "other-type-of-intrusion-attempts",
-          "expanded": "Other type of Intrusion Attempts"
+          "expanded": "Other type of Intrusion Attempts",
+          "uuid": "745901b7-0611-54f7-9458-ff677545fdc8"
         },
         {
           "value": "privilege-account-compromise",
-          "expanded": "Privilege account compromise"
+          "expanded": "Privilege account compromise",
+          "uuid": "ace9862a-31d0-51a3-b86b-aa996c0b42e2"
         },
         {
           "value": "unprivileged-account-compromise",
-          "expanded": "Unprivileged account compromise"
+          "expanded": "Unprivileged account compromise",
+          "uuid": "c64168d0-ef25-5907-b64d-b1465bdaef90"
         },
         {
           "value": "application-compromise",
-          "expanded": "Application compromise"
+          "expanded": "Application compromise",
+          "uuid": "5e856234-6f21-557d-9f7e-96453b7e3131"
         },
         {
           "value": "botnet",
-          "expanded": "Botnet"
+          "expanded": "Botnet",
+          "uuid": "5cea767c-c412-5544-8500-78223db3e042"
         },
         {
           "value": "other-type-of-intrusions",
-          "expanded": "Other type of intrusions"
+          "expanded": "Other type of intrusions",
+          "uuid": "12a40f2a-e4db-5b90-bd7c-9f3f1aaba108"
         },
         {
           "value": "dos",
-          "expanded": "DoS"
+          "expanded": "DoS",
+          "uuid": "197333a2-c7b8-5e83-90ef-addbdd5c5eb6"
         },
         {
           "value": "ddos",
-          "expanded": "DDoS"
+          "expanded": "DDoS",
+          "uuid": "69c87b1b-48c1-57e4-ac01-8d6c4b8c4651"
         },
         {
           "value": "sabotage",
-          "expanded": "Sabotage"
+          "expanded": "Sabotage",
+          "uuid": "a6a46fca-b991-50c9-8b6b-2066dcb41495"
         },
         {
           "value": "outage",
-          "expanded": "Outage"
+          "expanded": "Outage",
+          "uuid": "12133cdb-936f-55b9-9dce-c1da9f7d9c6d"
         },
         {
           "value": "other-type-of-availability-incident",
-          "expanded": "Other type of Availability incident"
+          "expanded": "Other type of Availability incident",
+          "uuid": "a24d577c-48e6-5e69-a1e3-1a8d918b9146"
         },
         {
           "value": "unauthorized-access-to-information",
-          "expanded": "Unauthorized access to information"
+          "expanded": "Unauthorized access to information",
+          "uuid": "11d79984-dad7-5124-a55f-b3d25876f40f"
         },
         {
           "value": "unauthorized-modification-of-information",
-          "expanded": "Unauthorized modification of information"
+          "expanded": "Unauthorized modification of information",
+          "uuid": "4c4af651-8e7e-5360-9c10-710e62d702fc"
         },
         {
           "value": "cryptographic-attack",
-          "expanded": "Cryptographic attack"
+          "expanded": "Cryptographic attack",
+          "uuid": "ab59f1ee-2224-5d7f-b6fd-280a80dc161c"
         },
         {
           "value": "other-type-of-information-content-security-incident",
-          "expanded": "Other type of Information Content Security incident"
+          "expanded": "Other type of Information Content Security incident",
+          "uuid": "f81bec22-7e4f-55c4-b00e-48a70041c4a2"
         },
         {
           "value": "hardware-errors",
-          "expanded": "Hardware errors"
+          "expanded": "Hardware errors",
+          "uuid": "95632a6f-7c3f-54fb-af1b-7c473ef32ace"
         },
         {
           "value": "software-errors",
-          "expanded": "Software errors"
+          "expanded": "Software errors",
+          "uuid": "ff43eab3-3f30-5058-8170-746d006cb231"
         },
         {
           "value": "hardware-components-theft",
-          "expanded": "hardware-components-theft"
+          "expanded": "hardware-components-theft",
+          "uuid": "5c4994f7-f0bf-5e8c-b01d-dd78a11e81c4"
         },
         {
           "value": "other",
-          "expanded": "Other"
+          "expanded": "Other",
+          "uuid": "f8f941a4-0a63-5ba1-9766-033af9b27259"
         }
       ]
     },
@@ -170,24 +208,29 @@
         {
           "value": "low",
           "expanded": "Low",
-          "numerical_value": 25
+          "numerical_value": 25,
+          "uuid": "a01902e8-b23d-5a1a-b9bb-1869b464bcef"
         },
         {
           "value": "medium",
           "expanded": "Medium",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "a527dfcf-4971-556d-b295-1142d154be2e"
         },
         {
           "value": "high",
           "expanded": "High",
-          "numerical_value": 75
+          "numerical_value": 75,
+          "uuid": "995a9cc5-468b-53bd-aef9-196801126a6a"
         },
         {
           "value": "very-high",
           "expanded": "Very High",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "5c05669e-4086-5ca6-bdae-86d8c6b211e2"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "16f85774-4a55-520b-8a96-1988e67264e1"
 }

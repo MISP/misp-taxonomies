@@ -4,15 +4,18 @@
   "predicates": [
     {
       "expanded": "VMRay Verdict",
-      "value": "verdict"
+      "value": "verdict",
+      "uuid": "b731ee5a-8165-5eaa-bf4d-a40239a5a9b4"
     },
     {
       "expanded": "VMRay Threat Identifier Analysis Score",
-      "value": "vti_analysis_score"
+      "value": "vti_analysis_score",
+      "uuid": "3587cbc9-b4f2-52b6-b253-c79b2a83e0e8"
     },
     {
       "expanded": "VMRay Artifact",
-      "value": "artifact"
+      "value": "artifact",
+      "uuid": "d545fb15-746d-5f41-aaa8-f1c692fe3c0d"
     }
   ],
   "values": [
@@ -21,22 +24,26 @@
         {
           "colour": "#B22F45",
           "expanded": "Malicious",
-          "value": "malicious"
+          "value": "malicious",
+          "uuid": "8b6d657d-aae2-5d5e-be42-3e97f0fe412e"
         },
         {
           "colour": "#EDBB7E",
           "expanded": "Suspicious",
-          "value": "suspicious"
+          "value": "suspicious",
+          "uuid": "650f4935-5e84-5011-91b3-3aeb4f61eb80"
         },
         {
           "colour": "#3A9A81",
           "expanded": "Clean",
-          "value": "clean"
+          "value": "clean",
+          "uuid": "8af0c6c0-f2ad-5ef7-b3e5-4ae1b284f8f5"
         },
         {
           "colour": "#969696",
           "expanded": "N/A",
-          "value": "n/a"
+          "value": "n/a",
+          "uuid": "66715d4c-7854-5244-8539-0ccdaadb84d3"
         }
       ],
       "predicate": "verdict"
@@ -46,32 +53,38 @@
         {
           "colour": "#3A9A81",
           "expanded": "-1/5",
-          "value": "-1/5"
+          "value": "-1/5",
+          "uuid": "caf17621-7938-57f8-a1dc-42658aba941b"
         },
         {
           "colour": "#969696",
           "expanded": "1/5",
-          "value": "1/5"
+          "value": "1/5",
+          "uuid": "53d13cf7-d973-587d-8947-9be90a912677"
         },
         {
           "colour": "#F9DA51",
           "expanded": "2/5",
-          "value": "2/5"
+          "value": "2/5",
+          "uuid": "99393bd1-5c3f-5b23-927d-e4e383428e2e"
         },
         {
           "colour": "#EDBB7E",
           "expanded": "3/5",
-          "value": "3/5"
+          "value": "3/5",
+          "uuid": "a457e047-fb0d-56dd-a2c5-8e2fe2cfb1b8"
         },
         {
           "colour": "#E25959",
           "expanded": "4/5",
-          "value": "4/5"
+          "value": "4/5",
+          "uuid": "b5e24d51-c978-5c09-a50c-d154e3414d0d"
         },
         {
           "colour": "#B22F45",
           "expanded": "5/5",
-          "value": "5/5"
+          "value": "5/5",
+          "uuid": "2c632e83-6efa-5a18-b11a-e119e71c4f61"
         }
       ],
       "predicate": "vti_analysis_score"
@@ -81,11 +94,13 @@
         {
           "colour": "#1E516E",
           "expanded": "is IOC",
-          "value": "ioc"
+          "value": "ioc",
+          "uuid": "205c7b72-1320-5024-9562-26170a47f47b"
         }
       ],
       "predicate": "artifact"
     }
   ],
-  "version": 1
+  "version": 1,
+  "uuid": "874f52f4-fb5c-5693-839e-fead61689be9"
 }

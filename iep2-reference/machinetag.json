@@ -6,17 +6,20 @@
     {
       "value": "id_ref",
       "expanded": "POLICY ID REFERENCE",
-      "description": "Refers to a unique IEP Policy ID to identify a specific IEP policy at a remote location."
+      "description": "Refers to a unique IEP Policy ID to identify a specific IEP policy at a remote location.",
+      "uuid": "822c8d9d-983e-5cf6-a92b-ee0ca2b63c3f"
     },
     {
       "value": "url",
       "expanded": "URL",
-      "description": "This is the remote URL specifying the IEP Policy File that contains the IEP Policy you wish to use."
+      "description": "This is the remote URL specifying the IEP Policy File that contains the IEP Policy you wish to use.",
+      "uuid": "f4859980-70f3-50c0-884f-5207f789c0b9"
     },
     {
       "value": "iep_version",
       "expanded": "IEP POLICY VERSION",
-      "description": "States the version of the IEP framework that has been used. Must be set to 2.0."
+      "description": "States the version of the IEP framework that has been used. Must be set to 2.0.",
+      "uuid": "e9c74291-723c-5c85-bc04-178e6a7ed8fa"
     }
   ],
   "values": [
@@ -25,7 +28,8 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "An id_ref value is required"
+          "expanded": "An id_ref value is required",
+          "uuid": "3ebcded5-e00f-5018-9192-2661c0e65255"
         }
       ]
     },
@@ -34,7 +38,8 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "A URL value is required"
+          "expanded": "A URL value is required",
+          "uuid": "c1903ae6-25cf-558e-ab9c-991d9682d875"
         }
       ]
     },
@@ -43,9 +48,11 @@
       "entry": [
         {
           "value": "2.0",
-          "expanded": "The IEP version value must be 2.0"
+          "expanded": "The IEP version value must be 2.0",
+          "uuid": "315a443c-f60a-57c0-a87e-e05da0e77d00"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "6d300a1e-dd47-5291-b54d-4a012939eac8"
 }

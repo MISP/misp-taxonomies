@@ -7,7 +7,8 @@
     {
       "value": "request",
       "expanded": "Request",
-      "description": "Request predicate covers all the requests which can be done by analysts or organisations willing to get additional information to support their analysis."
+      "description": "Request predicate covers all the requests which can be done by analysts or organisations willing to get additional information to support their analysis.",
+      "uuid": "cf2bb0c7-9877-55d1-83ac-a031b7c57313"
     }
   ],
   "values": [
@@ -16,62 +17,77 @@
       "entry": [
         {
           "value": "sample",
-          "expanded": "Request a binary sample"
+          "expanded": "Request a binary sample",
+          "uuid": "062ed01a-1724-5d87-ab41-a47a1de0efae"
         },
         {
           "value": "extracted-malware-config",
           "expanded": "Extracted malware config",
-          "description": "Request of the malware configuration extracted from the malware sample tagged."
+          "description": "Request of the malware configuration extracted from the malware sample tagged.",
+          "uuid": "6ec98923-ecc7-565e-ace6-f2c888563a8b"
         },
         {
           "value": "deobfuscated-sample",
-          "expanded": "Request a deobfuscated sample of the shared sample"
+          "expanded": "Request a deobfuscated sample of the shared sample",
+          "uuid": "001a404c-56e9-59c2-a2c0-a9d757fb802f"
         },
         {
           "value": "more-samples",
-          "expanded": "Request additional samples compared to the original analysis to build a competitive analysis on the reversing aspect"
+          "expanded": "Request additional samples compared to the original analysis to build a competitive analysis on the reversing aspect",
+          "uuid": "3f5f97e5-51ab-51a6-af41-edfeb8f8bebf"
         },
         {
           "value": "related-samples",
-          "expanded": "Request related samples required for further analysis"
+          "expanded": "Request related samples required for further analysis",
+          "uuid": "746d4b2d-f480-5588-98c0-48489fecce72"
         },
         {
           "value": "static-analysis",
-          "expanded": "Request additional static analysis or reversing on the information shared"
+          "expanded": "Request additional static analysis or reversing on the information shared",
+          "uuid": "b8131551-b2d0-51c6-a059-ed5f767251d7"
         },
         {
           "value": "detection-signature",
-          "expanded": "Request detection signature from"
+          "expanded": "Request detection signature from",
+          "uuid": "3d5e416c-aa85-5445-b03e-af13dba6124e"
         },
         {
           "value": "context",
-          "expanded": "Request more contextual information"
+          "expanded": "Request more contextual information",
+          "uuid": "0d49ac71-170b-5fa1-8588-c834e0b564ce"
         },
         {
           "value": "abuse-contact",
-          "expanded": "Request an abuse contact to report to"
+          "expanded": "Request an abuse contact to report to",
+          "uuid": "800dda40-9ab5-5814-8c45-da93915468d5"
         },
         {
           "value": "historical-information",
-          "expanded": "Request more historical information from"
+          "expanded": "Request more historical information from",
+          "uuid": "ec235bfe-c8ae-58d3-b448-0af9089dca10"
         },
         {
           "value": "complementary-validation",
-          "expanded": "Request complementary validation"
+          "expanded": "Request complementary validation",
+          "uuid": "afa11d85-be7e-53d5-858c-5c7bbabff2d3"
         },
         {
           "value": "target-information",
-          "expanded": "Request about the target(s) including field of activities or companies"
+          "expanded": "Request about the target(s) including field of activities or companies",
+          "uuid": "fcf3f5c0-e810-5955-bcd9-05ddb483c4d9"
         },
         {
           "value": "request-analysis",
-          "expanded": "Request further technical or tactical analysis"
+          "expanded": "Request further technical or tactical analysis",
+          "uuid": "4865f9d6-2a84-50c0-9cd2-acb57d9f8838"
         },
         {
           "value": "more-information",
-          "expanded": "Request for generic additional information"
+          "expanded": "Request for generic additional information",
+          "uuid": "6f4cbc04-1936-5b50-9722-5210c74234e7"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "d161bb1d-fa50-5fdd-a6be-407b234b1fe2"
 }

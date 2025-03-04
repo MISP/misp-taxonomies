@@ -5,16 +5,19 @@
   "predicates": [
     {
       "value": "incident-classification",
-      "expanded": "Incident Classification"
+      "expanded": "Incident Classification",
+      "uuid": "327bb0c2-01e8-5d81-a506-a3459f9877a6"
     },
     {
       "value": "topic",
-      "expanded": "Topic"
+      "expanded": "Topic",
+      "uuid": "6c0bb36d-a39a-56c3-a260-9f85ea9f0c3a"
     },
     {
       "value": "significant",
       "expanded": "Significant",
-      "description": "Significant topic which has been evaluated to have a certain level of significancy which can have or had a severe impact."
+      "description": "Significant topic which has been evaluated to have a certain level of significancy which can have or had a severe impact.",
+      "uuid": "3ee15d48-1b9d-594b-977f-1c4f39a6e811"
     }
   ],
   "values": [
@@ -23,111 +26,138 @@
       "entry": [
         {
           "value": "spam",
-          "expanded": "Spam"
+          "expanded": "Spam",
+          "uuid": "23d68318-7fe4-5c5a-b6ef-52bd1502191d"
         },
         {
           "value": "system-compromise",
-          "expanded": "System compromise"
+          "expanded": "System compromise",
+          "uuid": "165a483d-1fb2-5a74-932c-e36c08b1e11e"
         },
         {
           "value": "sabotage",
-          "expanded": "Sabotage"
+          "expanded": "Sabotage",
+          "uuid": "988938cd-35a6-57d5-8d97-d83257392b0d"
         },
         {
           "value": "privacy-violation",
-          "expanded": "Privacy violation"
+          "expanded": "Privacy violation",
+          "uuid": "54860c3f-b28a-5174-9314-ebab55a7bd63"
         },
         {
           "value": "scan",
-          "expanded": "Scan"
+          "expanded": "Scan",
+          "uuid": "8ff44f73-e7b8-50c7-9e04-6d674bce704d"
         },
         {
           "value": "denial-of-service",
-          "expanded": "Denial of Service"
+          "expanded": "Denial of Service",
+          "uuid": "98308322-e780-5a11-9ff3-9c05967cde1e"
         },
         {
           "value": "copyright-issue",
-          "expanded": "Copyright issue"
+          "expanded": "Copyright issue",
+          "uuid": "b1d2e031-281d-53a9-ad89-ad99a4420a73"
         },
         {
           "value": "phishing",
-          "expanded": "Phishing"
+          "expanded": "Phishing",
+          "uuid": "a2f0568d-6e87-5283-bc40-0ae49f2545cd"
         },
         {
           "value": "whaling",
-          "expanded": "Whaling"
+          "expanded": "Whaling",
+          "uuid": "d637b669-d16e-5d62-8292-7cc7f92f754e"
         },
         {
           "value": "smishing",
-          "expanded": "SMS Phishing"
+          "expanded": "SMS Phishing",
+          "uuid": "f0d94b19-99cd-51c1-b571-e5d4ebfee0c9"
         },
         {
           "value": "malware",
-          "expanded": "Malware"
+          "expanded": "Malware",
+          "uuid": "bc916adb-f305-5421-a0dc-616429abadf3"
         },
         {
           "value": "XSS",
-          "expanded": "XSS"
+          "expanded": "XSS",
+          "uuid": "02ec2789-5635-5433-b416-0309c581b56c"
         },
         {
           "value": "vulnerability",
-          "expanded": "Vulnerability"
+          "expanded": "Vulnerability",
+          "uuid": "3c57f68c-a7e3-546e-849d-6a3946efb903"
         },
         {
           "value": "fastflux",
-          "expanded": "Fastflux"
+          "expanded": "Fastflux",
+          "uuid": "4db4a938-e53e-56d7-8e82-a8312469e371"
         },
         {
           "value": "domain-fronting",
-          "expanded": "Domain Fronting"
+          "expanded": "Domain Fronting",
+          "uuid": "52f211eb-2938-5918-8ac7-59ce92d3c20a"
         },
         {
           "value": "sql-injection",
-          "expanded": "SQL Injection"
+          "expanded": "SQL Injection",
+          "uuid": "cfc02d5e-ca39-5642-a46b-004d56a05013"
         },
         {
           "value": "information-leak",
-          "expanded": "Information leak"
+          "expanded": "Information leak",
+          "uuid": "46226705-b4ce-5029-ada0-75bd88f6cf12"
         },
         {
           "value": "scam",
-          "expanded": "Scam"
+          "expanded": "Scam",
+          "uuid": "99cb0410-4789-5199-8402-d082a0937f04"
         },
         {
           "value": "cryptojacking",
-          "expanded": "Cryptojacking"
+          "expanded": "Cryptojacking",
+          "uuid": "51858fcd-9fea-582c-9005-29a33e72c131"
         },
         {
           "value": "locker",
-          "expanded": "Locker"
+          "expanded": "Locker",
+          "uuid": "e497f709-2768-5d1e-90a2-f22c9658d516"
         },
         {
           "value": "screenlocker",
-          "expanded": "Screenlocker"
+          "expanded": "Screenlocker",
+          "uuid": "70a473dd-7703-5ad3-9b97-272dd763ee5f"
         },
         {
           "value": "wiper",
-          "expanded": "Wiper"
+          "expanded": "Wiper",
+          "uuid": "de2b1284-f191-5ab2-82ce-7dd3f266789b"
         },
         {
           "value": "ransomware",
-          "expanded": "ransomware"
+          "expanded": "ransomware",
+          "uuid": "f492f6fa-5be2-54da-b7a4-e9cbfd655eb3"
         },
         {
           "value": "sextortion",
-          "expanded": "sextortion"
+          "expanded": "sextortion",
+          "uuid": "40247acf-fe0b-52f4-bcab-37de80386152"
         },
         {
           "value": "social-engineering",
-          "expanded": "Social Engineering"
+          "expanded": "Social Engineering",
+          "uuid": "2dbfffa6-a1a4-52d1-8b36-f21cc097a170"
         },
         {
           "value": "gdpr-violation",
-          "expanded": "GDPR Violation"
+          "expanded": "GDPR Violation",
+          "uuid": "20e0d2a4-388f-57c5-99e6-d5294ae79459"
         },
         {
           "value": "covid-19",
-          "expanded": "covid-19"
+          "expanded": "covid-19",
+          "uuid": "005865f3-e25f-587d-838f-756bc2db836d"
         }
       ]
     },
@@ -136,33 +166,41 @@
       "entry": [
         {
           "value": "finance",
-          "expanded": "Finance"
+          "expanded": "Finance",
+          "uuid": "41bcb86f-0c9a-56a7-99b2-de375d488ca3"
         },
         {
           "value": "ict",
-          "expanded": "ICT"
+          "expanded": "ICT",
+          "uuid": "c987ce9b-182f-56df-a5d0-ee65839be241"
         },
         {
           "value": "individual",
-          "expanded": "Individual"
+          "expanded": "Individual",
+          "uuid": "37f3e2fe-bab9-5a29-a1c7-ba2c6fdc3888"
         },
         {
           "value": "industry",
-          "expanded": "Industry"
+          "expanded": "Industry",
+          "uuid": "bc05187e-a8ed-56b5-8010-9bac2f810fec"
         },
         {
           "value": "medical",
-          "expanded": "Medical"
+          "expanded": "Medical",
+          "uuid": "f78954d3-62dc-5280-a967-a0f987db70d4"
         },
         {
           "value": "services",
-          "expanded": "Services"
+          "expanded": "Services",
+          "uuid": "51da818b-fa9f-56ab-8d28-dd6a6e435318"
         },
         {
           "value": "undefined",
-          "expanded": "Undefined"
+          "expanded": "Undefined",
+          "uuid": "a8e92a42-886c-5b12-a1c5-a1d23741ad97"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "819ab954-f51c-51fe-80de-c4491f6e88cb"
 }

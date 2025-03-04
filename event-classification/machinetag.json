@@ -5,7 +5,8 @@
   "predicates": [
     {
       "value": "event-class",
-      "expanded": "Event Classification"
+      "expanded": "Event Classification",
+      "uuid": "08b6b0fb-55b6-5bd4-987a-c59562c4c7ca"
     }
   ],
   "values": [
@@ -14,29 +15,36 @@
       "entry": [
         {
           "value": "incident_report",
-          "expanded": "Incident Report"
+          "expanded": "Incident Report",
+          "uuid": "aae1f424-3028-50c9-b61b-78f395a96337"
         },
         {
           "value": "incident",
-          "expanded": "Incident"
+          "expanded": "Incident",
+          "uuid": "f43f2eec-40ad-50dd-b72f-196ebab56fe8"
         },
         {
           "value": "investigation",
-          "expanded": "Investigation"
+          "expanded": "Investigation",
+          "uuid": "7cfea0d0-2e3b-5e02-9b1f-64ae20bb4904"
         },
         {
           "value": "countermeasure",
-          "expanded": "Countermeasure"
+          "expanded": "Countermeasure",
+          "uuid": "f789e361-deac-5db3-a339-cbb0d99d9098"
         },
         {
           "value": "general",
-          "expanded": "General"
+          "expanded": "General",
+          "uuid": "f42ca48d-91da-590e-a84d-8a8818b98914"
         },
         {
           "value": "exercise",
-          "expanded": "Exercise"
+          "expanded": "Exercise",
+          "uuid": "697484aa-e8ee-5b01-8eb0-bba03f16d416"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "8a17b454-e870-5b01-9494-869c206df7b8"
 }

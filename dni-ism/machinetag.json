@@ -5,39 +5,48 @@
   "predicates": [
     {
       "value": "classification:all",
-      "expanded": "ClassificationAll"
+      "expanded": "ClassificationAll",
+      "uuid": "ab10f9cd-acd8-5f79-b72b-3f77d924d237"
     },
     {
       "value": "classification:us",
-      "expanded": "ClassificationUS"
+      "expanded": "ClassificationUS",
+      "uuid": "95839692-ac17-5e7f-a125-b00df956eb79"
     },
     {
       "value": "scicontrols",
-      "expanded": "SCIControls"
+      "expanded": "SCIControls",
+      "uuid": "89064199-8ca1-5a1b-a8b4-f2f94425189d"
     },
     {
       "value": "complies:with",
-      "expanded": "CompliesWith"
+      "expanded": "CompliesWith",
+      "uuid": "18284897-e2b0-5da7-8160-b0415a7c9753"
     },
     {
       "value": "atomicenergymarkings",
-      "expanded": "atomicEnergyMarkings"
+      "expanded": "atomicEnergyMarkings",
+      "uuid": "bc074ef2-bada-54c8-bb52-5605b4c54139"
     },
     {
       "value": "notice",
-      "expanded": "Notice"
+      "expanded": "Notice",
+      "uuid": "05f529be-70c8-506a-9baa-f7e946c00cc3"
     },
     {
       "value": "nonic",
-      "expanded": "NonIC"
+      "expanded": "NonIC",
+      "uuid": "66592a32-3a8f-5515-a05a-1986ede514a4"
     },
     {
       "value": "nonuscontrols",
-      "expanded": "NonUSControls"
+      "expanded": "NonUSControls",
+      "uuid": "c46cb0db-d9e6-5a1a-ba6b-89e0f8146eef"
     },
     {
       "value": "dissem",
-      "expanded": "Dissem"
+      "expanded": "Dissem",
+      "uuid": "d738051d-1572-50db-a681-650a2cfd212c"
     }
   ],
   "values": [
@@ -46,23 +55,28 @@
       "entry": [
         {
           "value": "R",
-          "expanded": "RESTRICTED"
+          "expanded": "RESTRICTED",
+          "uuid": "221608de-a095-5464-be61-bcf1707a35ad"
         },
         {
           "value": "C",
-          "expanded": "CONFIDENTIAL"
+          "expanded": "CONFIDENTIAL",
+          "uuid": "a06a6979-e131-56d8-a1b4-f0ec8bb0a9a1"
         },
         {
           "value": "S",
-          "expanded": "SECRET"
+          "expanded": "SECRET",
+          "uuid": "85fca80e-96a6-579d-92bf-18d59680711e"
         },
         {
           "value": "TS",
-          "expanded": "TOP SECRET"
+          "expanded": "TOP SECRET",
+          "uuid": "a661b8d9-51d2-52b7-83ad-a4188e81dd5c"
         },
         {
           "value": "U",
-          "expanded": "UNCLASSIFIED"
+          "expanded": "UNCLASSIFIED",
+          "uuid": "b6f9eba3-c96a-5dbc-841a-4aa895ec49db"
         }
       ]
     },
@@ -71,19 +85,23 @@
       "entry": [
         {
           "value": "C",
-          "expanded": "CONFIDENTIAL"
+          "expanded": "CONFIDENTIAL",
+          "uuid": "ff3b319f-ae1f-56a6-a2db-a86d5e098996"
         },
         {
           "value": "S",
-          "expanded": "SECRET"
+          "expanded": "SECRET",
+          "uuid": "dccf5ff6-1f66-55cd-ba08-f7809b0f3f2b"
         },
         {
           "value": "TS",
-          "expanded": "TOP SECRET"
+          "expanded": "TOP SECRET",
+          "uuid": "f0cdba07-4ca1-5390-a95d-3573070ce6e7"
         },
         {
           "value": "U",
-          "expanded": "UNCLASSIFIED"
+          "expanded": "UNCLASSIFIED",
+          "uuid": "0411b2b6-781c-5215-bb77-0357d5aeaa28"
         }
       ]
     },
@@ -92,59 +110,73 @@
       "entry": [
         {
           "value": "EL",
-          "expanded": "ENDSEAL"
+          "expanded": "ENDSEAL",
+          "uuid": "9eec6701-f5b2-5101-89a9-8538bd8ba3db"
         },
         {
           "value": "EL-EU",
-          "expanded": "ECRU"
+          "expanded": "ECRU",
+          "uuid": "e8ce537f-9461-5dbc-b760-b7075003e219"
         },
         {
           "value": "EL-NK",
-          "expanded": "NONBOOK"
+          "expanded": "NONBOOK",
+          "uuid": "8326d7e7-caeb-546b-9802-bcd5e01c4a5f"
         },
         {
           "value": "HCS",
-          "expanded": "HCS"
+          "expanded": "HCS",
+          "uuid": "bed13bcf-3703-554f-bade-d0b79a6ee5c4"
         },
         {
           "value": "HCS-O",
-          "expanded": "HCS-O"
+          "expanded": "HCS-O",
+          "uuid": "148c9f9b-8cb5-55ed-a749-41e20f06f20f"
         },
         {
           "value": "HCS-P",
-          "expanded": "HCS-P"
+          "expanded": "HCS-P",
+          "uuid": "be64498c-2a64-543a-bed6-73bc0279ec53"
         },
         {
           "value": "KDK",
-          "expanded": "KLONDIKE"
+          "expanded": "KLONDIKE",
+          "uuid": "be70e1bf-4892-5e32-ba65-20cf876662d7"
         },
         {
           "value": "KDK-BLFH",
-          "expanded": "KDK BLUEFISH"
+          "expanded": "KDK BLUEFISH",
+          "uuid": "8d94476a-c239-5c09-8874-957edc16720a"
         },
         {
           "value": "KDK-IDIT",
-          "expanded": "KDK IDITAROD"
+          "expanded": "KDK IDITAROD",
+          "uuid": "e8718548-c829-5be3-92d1-7d8d949c7afe"
         },
         {
           "value": "KDK-KAND",
-          "expanded": "KDK KANDIK"
+          "expanded": "KDK KANDIK",
+          "uuid": "78ddf394-7928-58b5-89d0-f363f10392c1"
         },
         {
           "value": "RSV",
-          "expanded": "RESERVE"
+          "expanded": "RESERVE",
+          "uuid": "fc541e78-5db8-5dc1-a1a1-fbd99646fb55"
         },
         {
           "value": "SI",
-          "expanded": "SPECIAL INTELLIGENCE"
+          "expanded": "SPECIAL INTELLIGENCE",
+          "uuid": "872ad63f-6761-53cd-b40e-34172e625f54"
         },
         {
           "value": "SI-G",
-          "expanded": "SI-GAMMA"
+          "expanded": "SI-GAMMA",
+          "uuid": "993917bc-08c1-5a89-a672-327b36114eee"
         },
         {
           "value": "TK",
-          "expanded": "TALENT KEYHOLE"
+          "expanded": "TALENT KEYHOLE",
+          "uuid": "0157902f-183d-5ac5-b3fb-e747c39197ee"
         }
       ]
     },
@@ -153,19 +185,23 @@
       "entry": [
         {
           "value": "USGov",
-          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Federal Government. This is the minimum set of rules for US documents to adhere to, and all US documents should claim compliance with USGov."
+          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Federal Government. This is the minimum set of rules for US documents to adhere to, and all US documents should claim compliance with USGov.",
+          "uuid": "560c3441-7650-56f1-b2eb-ecb1f25f4294"
         },
         {
           "value": "USIC",
-          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Intelligence Community. Documents that claim compliance with USIC MUST also claim compliance with USGov."
+          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Intelligence Community. Documents that claim compliance with USIC MUST also claim compliance with USGov.",
+          "uuid": "320b84d6-aac6-5ba3-b88f-1dc1df8b6ec9"
         },
         {
           "value": "USDOD",
-          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Department of Defense. Documents that claim compliance with USDOD MUST also claim compliance with USGov."
+          "expanded": "Document claims compliance with all rules encoded in ISM for documents produced by the US Department of Defense. Documents that claim compliance with USDOD MUST also claim compliance with USGov.",
+          "uuid": "37ea7b1d-1660-5e3f-86d2-835ecf339fb1"
         },
         {
           "value": "OtherAuthority",
-          "expanded": "Document claims compliance with an authority other than the USGov, USIC, or USDOD."
+          "expanded": "Document claims compliance with an authority other than the USGov, USIC, or USDOD.",
+          "uuid": "ee2d658e-25b6-560c-8eb9-5d1167b001b8"
         }
       ]
     },
@@ -174,27 +210,33 @@
       "entry": [
         {
           "expanded": "RESTRICTED DATA",
-          "value": "RD"
+          "value": "RD",
+          "uuid": "0dd4259b-eff4-57cf-b1da-a8c27aa55efe"
         },
         {
           "expanded": "RD-CRITICAL NUCLEAR WEAPON DESIGN INFORMATION",
-          "value": "RD-CNWDI"
+          "value": "RD-CNWDI",
+          "uuid": "db82b00c-8291-5966-8dbe-41ae592fd19e"
         },
         {
           "expanded": "FORMERLY RESTRICTED DATA",
-          "value": "FRD"
+          "value": "FRD",
+          "uuid": "36eebb35-0a7f-5a82-b29c-37dbbabc6cd6"
         },
         {
           "expanded": "DoD CONTROLLED NUCLEAR INFORMATION",
-          "value": "DCNI"
+          "value": "DCNI",
+          "uuid": "dae8e565-25f9-556e-b549-7cf5b628762e"
         },
         {
           "expanded": "DoE CONTROLLED NUCLEAR INFORMATION",
-          "value": "UCNI"
+          "value": "UCNI",
+          "uuid": "071160df-63fb-5f12-9018-bf94de6c6d04"
         },
         {
           "expanded": "TRANSCLASSIFIED FOREIGN NUCLEAR INFORMATION",
-          "value": "TFNI"
+          "value": "TFNI",
+          "uuid": "a076a48e-41fb-5a1f-b6f6-acf3f451d479"
         }
       ]
     },
@@ -203,83 +245,103 @@
       "entry": [
         {
           "expanded": "FISA Warning statement",
-          "value": "FISA"
+          "value": "FISA",
+          "uuid": "e22c3fc8-a2ce-54c1-ab0a-ba5bea0bb284"
         },
         {
           "expanded": "IMCON Warning statement",
-          "value": "IMC"
+          "value": "IMC",
+          "uuid": "76a12f46-59f0-5714-ab6e-76fcd037847e"
         },
         {
           "expanded": "Controled Nuclear Weapon Design Information Warning statement",
-          "value": "CNWDI"
+          "value": "CNWDI",
+          "uuid": "07f20971-69eb-5ac5-92aa-b00a081f4de9"
         },
         {
           "expanded": "RD Warning statement",
-          "value": "RD"
+          "value": "RD",
+          "uuid": "6b2ee2f1-e6f6-5b1e-9843-e1ed3d1c968d"
         },
         {
           "expanded": "FRD Warning statement",
-          "value": "FRD"
+          "value": "FRD",
+          "uuid": "3099aa89-b332-555e-9cdc-1481e5aee4f0"
         },
         {
           "expanded": "LIMDIS caveat",
-          "value": "DS"
+          "value": "DS",
+          "uuid": "08a0da16-3ebc-58ec-a384-d4c5e3b71401"
         },
         {
           "expanded": "LES Notice",
-          "value": "LES"
+          "value": "LES",
+          "uuid": "ebf68692-9b54-52e0-905d-c0aabbf79adb"
         },
         {
           "expanded": "LES-NF Notice",
-          "value": "LES-NF"
+          "value": "LES-NF",
+          "uuid": "aa82b2cd-8967-5956-8d62-df4810a7fa62"
         },
         {
           "expanded": "DSEN Notice",
-          "value": "DSEN"
+          "value": "DSEN",
+          "uuid": "3d9ddc2d-cfc5-5b28-b3e9-c69727d4aaeb"
         },
         {
           "expanded": "DoD Distribution statement A from DoD Directive 5230.24",
-          "value": "DoD-Dist-A"
+          "value": "DoD-Dist-A",
+          "uuid": "6fc39943-edd1-5108-a391-709d46f9b0e4"
         },
         {
           "expanded": "DoD Distribution statement B from DoD Directive 5230.24",
-          "value": "DoD-Dist-B"
+          "value": "DoD-Dist-B",
+          "uuid": "739050d6-be35-519a-b234-af4539986c2d"
         },
         {
           "expanded": "DoD Distribution statement C from DoD Directive 5230.24",
-          "value": "DoD-Dist-C"
+          "value": "DoD-Dist-C",
+          "uuid": "dd60bc12-c825-573e-83b3-c3296a55d050"
         },
         {
           "expanded": "DoD Distribution statement D from DoD Directive 5230.24",
-          "value": "DoD-Dist-D"
+          "value": "DoD-Dist-D",
+          "uuid": "80e0aae4-b977-5caf-b3a4-3c4cf7df0846"
         },
         {
           "expanded": "DoD Distribution statement E from DoD Directive 5230.24",
-          "value": "DoD-Dist-E"
+          "value": "DoD-Dist-E",
+          "uuid": "8457b715-d20c-5711-8f1d-a3f2b62ab8ae"
         },
         {
           "expanded": "DoD Distribution statement F from DoD Directive 5230.24",
-          "value": "DoD-Dist-F"
+          "value": "DoD-Dist-F",
+          "uuid": "9f848967-d25c-5cb5-a62f-28af1cf74766"
         },
         {
           "expanded": "DoD Distribution statement X from DoD Directive 5230.24",
-          "value": "DoD-Dist-X"
+          "value": "DoD-Dist-X",
+          "uuid": "9a406398-3c87-5ba3-acdd-6bfa55d80696"
         },
         {
           "expanded": "US Person info Notice",
-          "value": "US-Person"
+          "value": "US-Person",
+          "uuid": "9e047018-df44-5925-b102-754366e914da"
         },
         {
           "expanded": "Indicates that an instance document must abide by rules pertaining to ORIGINATOR CONTROLLED data issued prior to Executive Order 13526.",
-          "value": "pre13526ORCON"
+          "value": "pre13526ORCON",
+          "uuid": "a7483dee-6888-5986-be5a-d5a0657665c4"
         },
         {
           "expanded": "Indicates that the contents of this notice specify the contact information for a required point-of-contact.",
-          "value": "POC"
+          "value": "POC",
+          "uuid": "81e8a3c7-1608-56d6-82be-61a5e3f52223"
         },
         {
           "expanded": "COMSEC Notice",
-          "value": "COMSEC"
+          "value": "COMSEC",
+          "uuid": "41840bc8-0d94-5510-8d3b-8b173e4c83e5"
         }
       ]
     },
@@ -288,39 +350,48 @@
       "entry": [
         {
           "expanded": "NAVAL NUCLEAR PROPULSION INFORMATION",
-          "value": "NNPI"
+          "value": "NNPI",
+          "uuid": "03105ca2-c9eb-52fd-b2a2-0122ac0f3311"
         },
         {
           "expanded": "LIMITED DISTRIBUTION",
-          "value": "DS"
+          "value": "DS",
+          "uuid": "1f7896d6-570a-5cdb-852c-3e00166058a2"
         },
         {
           "expanded": "EXCLUSIVE DISTRIBUTION",
-          "value": "XD"
+          "value": "XD",
+          "uuid": "9c06236e-ddb0-588b-8391-45ff1c63aa41"
         },
         {
           "expanded": "NO DISTRIBUTION",
-          "value": "ND"
+          "value": "ND",
+          "uuid": "a20845aa-fe73-5dca-b512-2fb968ff82ef"
         },
         {
           "expanded": "SENSITIVE BUT UNCLASSIFIED",
-          "value": "SBU"
+          "value": "SBU",
+          "uuid": "ccd0c735-54c4-58df-bf94-9bcc0161a299"
         },
         {
           "expanded": "SENSITIVE BUT UNCLASSIFIED NOFORN",
-          "value": "SBU-NF"
+          "value": "SBU-NF",
+          "uuid": "1dc7aeb9-660e-5b91-8874-e1380c8267d6"
         },
         {
           "expanded": "LAW ENFORCEMENT SENSITIVE",
-          "value": "LES"
+          "value": "LES",
+          "uuid": "513e0cd0-ad8e-5455-82de-a3c7f54e15a6"
         },
         {
           "expanded": "LAW ENFORCEMENT SENSITIVE NOFORN",
-          "value": "LES-NF"
+          "value": "LES-NF",
+          "uuid": "cae2993e-e631-5a37-8f88-41ddb2a575e1"
         },
         {
           "expanded": "SENSITIVE SECURITY INFORMATION",
-          "value": "SSI"
+          "value": "SSI",
+          "uuid": "dc025197-4ba1-5a3a-8a92-03027b3a5c85"
         }
       ]
     },
@@ -329,15 +400,18 @@
       "entry": [
         {
           "value": "ATOMAL",
-          "expanded": "NATO Atomal mark"
+          "expanded": "NATO Atomal mark",
+          "uuid": "bc2328d8-3460-523f-9bd2-d1825b36196c"
         },
         {
           "value": "BOHEMIA",
-          "expanded": "NATO Bohemia mark"
+          "expanded": "NATO Bohemia mark",
+          "uuid": "c697c0f8-6736-560d-803a-597a771ccfd8"
         },
         {
           "value": "BALK",
-          "expanded": "NATO Balk mark"
+          "expanded": "NATO Balk mark",
+          "uuid": "4abebea9-4793-591f-9518-2115003fe17c"
         }
       ]
     },
@@ -346,53 +420,66 @@
       "entry": [
         {
           "value": "RS",
-          "expanded": "RISK SENSITIVE"
+          "expanded": "RISK SENSITIVE",
+          "uuid": "091833e4-fcfa-5cbf-b0f8-eb347812dd41"
         },
         {
           "value": "FOUO",
-          "expanded": "FOR OFFICIAL USE ONLY"
+          "expanded": "FOR OFFICIAL USE ONLY",
+          "uuid": "d564b928-b77d-5052-aec4-9bb37947a7d0"
         },
         {
           "value": "OC",
-          "expanded": "ORIGINATOR CONTROLLED"
+          "expanded": "ORIGINATOR CONTROLLED",
+          "uuid": "e6ddc413-8e75-5b5e-91a4-4d23943974c7"
         },
         {
           "value": "OC-USGOV",
-          "expanded": "ORIGINATOR CONTROLLED US GOVERNMENT"
+          "expanded": "ORIGINATOR CONTROLLED US GOVERNMENT",
+          "uuid": "d236b106-a3ad-5f6c-aba3-41b2e83f559d"
         },
         {
           "value": "IMC",
-          "expanded": "CONTROLLED IMAGERY"
+          "expanded": "CONTROLLED IMAGERY",
+          "uuid": "78dc4136-d94b-5e8b-a6ae-3558cdbd8f29"
         },
         {
           "value": "NF",
-          "expanded": "NOT RELEASABLE TO FOREIGN NATIONALS"
+          "expanded": "NOT RELEASABLE TO FOREIGN NATIONALS",
+          "uuid": "06110392-a72f-54ff-83ec-41c2a9c2f005"
         },
         {
           "value": "PR",
-          "expanded": "CAUTION-PROPRIETARY INFORMATION INVOLVED"
+          "expanded": "CAUTION-PROPRIETARY INFORMATION INVOLVED",
+          "uuid": "e228f107-c21e-5620-92ee-7118aa76b045"
         },
         {
           "value": "REL",
-          "expanded": "AUTHORIZED FOR RELEASE TO"
+          "expanded": "AUTHORIZED FOR RELEASE TO",
+          "uuid": "741c3f7e-306f-5d9a-aec5-9e7ab7852d1e"
         },
         {
           "value": "RELIDO",
-          "expanded": "RELEASABLE BY INFORMATION DISCLOSURE OFFICIAL"
+          "expanded": "RELEASABLE BY INFORMATION DISCLOSURE OFFICIAL",
+          "uuid": "03f82139-7624-57d7-9948-9e43f4ccad99"
         },
         {
           "value": "DSEN",
-          "expanded": "DEA SENSITIVE"
+          "expanded": "DEA SENSITIVE",
+          "uuid": "11b8d015-8207-5d16-952b-80349d6d1159"
         },
         {
           "value": "FISA",
-          "expanded": "FOREIGN INTELLIGENCE SURVEILLANCE ACT"
+          "expanded": "FOREIGN INTELLIGENCE SURVEILLANCE ACT",
+          "uuid": "c992c648-d5ad-51f0-9cec-11d035bf59e8"
         },
         {
           "value": "DISPLAYONLY",
-          "expanded": "AUTHORIZED FOR DISPLAY BUT NOT RELEASE TO"
+          "expanded": "AUTHORIZED FOR DISPLAY BUT NOT RELEASE TO",
+          "uuid": "ce20c171-a0a4-5158-b2de-70ac192cb152"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "b6572899-b640-53b7-9ae8-e093ee94a82f"
 }

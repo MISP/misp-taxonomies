@@ -7,7 +7,8 @@
     {
       "value": "pattern-matching",
       "expanded": "Pattern matching",
-      "description": "Describe the cardinality of patterns matching."
+      "description": "Describe the cardinality of patterns matching.",
+      "uuid": "5fa3e134-e6ff-5e5a-ad41-f13d8ac20faf"
     }
   ],
   "values": [
@@ -18,21 +19,25 @@
           "value": "high",
           "expanded": "high",
           "description": "A high number of patterns detected in the tagged item.",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "45ba167b-3408-56e7-aa55-f5d2f71e9929"
         },
         {
           "value": "medium",
           "expanded": "medium",
           "description": "A medium number of patterns detected in the tagged item.",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "d9d18ed3-7e33-57cf-af84-63af067ba09b"
         },
         {
           "value": "low",
           "expanded": "low",
           "description": "A low number of patterns detected in the tagged item.",
-          "numerical_value": 25
+          "numerical_value": 25,
+          "uuid": "bb2e365a-c512-5e0d-885d-329037af88ab"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "63267f0c-89e9-5189-931f-3a20c379bcb6"
 }

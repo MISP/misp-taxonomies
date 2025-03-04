@@ -5,23 +5,28 @@
   "predicates": [
     {
       "value": "dex",
-      "expanded": "Dalvik Executable (DEX)"
+      "expanded": "Dalvik Executable (DEX)",
+      "uuid": "84821254-fa7a-5ec3-be21-3af1b9837472"
     },
     {
       "value": "elf",
-      "expanded": "Executable Linkable Format (ELF)"
+      "expanded": "Executable Linkable Format (ELF)",
+      "uuid": "1f1ca4eb-6fb2-5cfd-9bd4-9f7ba7cba213"
     },
     {
       "value": "macho",
-      "expanded": "Mach-object (Mach-O)"
+      "expanded": "Mach-object (Mach-O)",
+      "uuid": "dc216b2b-5ef1-5eba-bb6a-87dbb15f3e15"
     },
     {
       "value": "pe",
-      "expanded": "Portable Executable (PE)"
+      "expanded": "Portable Executable (PE)",
+      "uuid": "421fc14e-ecf0-5ee5-b94f-b4affb1afede"
     },
     {
       "value": "cli-assembly",
-      "expanded": "CLI assembly"
+      "expanded": "CLI assembly",
+      "uuid": "ab9d67ed-fddc-591a-a8bd-a91b32386111"
     }
   ],
   "values": [
@@ -30,43 +35,53 @@
       "entry": [
         {
           "value": "apk-protect",
-          "expanded": "APK Protect"
+          "expanded": "APK Protect",
+          "uuid": "56b963dc-749f-5fe1-8914-5a041351ee4f"
         },
         {
           "value": "appcode-packer",
-          "expanded": "APPCode Packer"
+          "expanded": "APPCode Packer",
+          "uuid": "1a412629-c50f-5874-839e-b7821c41c9e3"
         },
         {
           "value": "appsealing",
-          "expanded": "AppSealing"
+          "expanded": "AppSealing",
+          "uuid": "592f40d4-4c9b-524d-90bc-5af46d8d9f96"
         },
         {
           "value": "arxan",
-          "expanded": "Arxan"
+          "expanded": "Arxan",
+          "uuid": "e902b313-63f1-5b94-800b-17ca1be3be59"
         },
         {
           "value": "bangcle",
-          "expanded": "Bangcle"
+          "expanded": "Bangcle",
+          "uuid": "0c95f213-5466-552f-8280-841bfe7192d4"
         },
         {
           "value": "dexguard",
-          "expanded": "DexGuard"
+          "expanded": "DexGuard",
+          "uuid": "e35ecc4e-c03b-557c-b557-fd3cffc612d4"
         },
         {
           "value": "dexprotector",
-          "expanded": "DexProtector"
+          "expanded": "DexProtector",
+          "uuid": "f7c1bcc0-e31c-5e52-9894-72b2d811f247"
         },
         {
           "value": "jiagu",
-          "expanded": "Jiagu"
+          "expanded": "Jiagu",
+          "uuid": "097c6f2a-8557-5898-8bf4-5bdb3f02099c"
         },
         {
           "value": "legu",
-          "expanded": "Legu"
+          "expanded": "Legu",
+          "uuid": "f4e5d6ac-8bea-5e21-bd2f-43c5775c8dad"
         },
         {
           "value": "proguard",
-          "expanded": "ProGuard"
+          "expanded": "ProGuard",
+          "uuid": "3ff83b83-883f-5a7a-820e-6af5b7f0f08f"
         }
       ]
     },
@@ -75,55 +90,68 @@
       "entry": [
         {
           "value": "burneye",
-          "expanded": "BurnEye"
+          "expanded": "BurnEye",
+          "uuid": "84aa4990-d561-5b58-8ef4-c383db122fdd"
         },
         {
           "value": "bzexe",
-          "expanded": "BzExe"
+          "expanded": "BzExe",
+          "uuid": "8ef2469e-f606-54f0-b9f8-98600168c9a3"
         },
         {
           "value": "elfuck",
-          "expanded": "ELFuck"
+          "expanded": "ELFuck",
+          "uuid": "c8410b83-3579-53f0-88c3-725aa1f9aa5a"
         },
         {
           "value": "ezuri",
-          "expanded": "Ezuri"
+          "expanded": "Ezuri",
+          "uuid": "4fb5bb5b-d660-5712-910d-6dd8fa805a5f"
         },
         {
           "value": "gzexe",
-          "expanded": "GzExe"
+          "expanded": "GzExe",
+          "uuid": "0c98154b-fc36-5b70-9735-43eeb85333f6"
         },
         {
           "value": "m0dern_p4cker",
-          "expanded": "M0dern_P4cker"
+          "expanded": "M0dern_P4cker",
+          "uuid": "5aa4ab02-91d4-5de8-9295-41124f98b949"
         },
         {
           "value": "midgetpack",
-          "expanded": "MidgetPack"
+          "expanded": "MidgetPack",
+          "uuid": "ec1c7425-0986-5e57-afab-0285ef604ea0"
         },
         {
           "value": "pakkero",
-          "expanded": "Pakkero"
+          "expanded": "Pakkero",
+          "uuid": "3dfbd69b-7269-5f49-af0b-16e05323a06c"
         },
         {
           "value": "papaw",
-          "expanded": "Papaw"
+          "expanded": "Papaw",
+          "uuid": "2f101f4c-0a4e-51a6-9da4-94949bc354db"
         },
         {
           "value": "shiva",
-          "expanded": "Shiva"
+          "expanded": "Shiva",
+          "uuid": "428643c2-b14f-591e-8a13-7fb49686499a"
         },
         {
           "value": "silent_packer",
-          "expanded": "Silent_Packer"
+          "expanded": "Silent_Packer",
+          "uuid": "0afbd17f-fd2b-5868-b5be-ea06fb769c32"
         },
         {
           "value": "upx",
-          "expanded": "UPX"
+          "expanded": "UPX",
+          "uuid": "6f1b7034-dadd-5e86-b930-e48aa3ffbd75"
         },
         {
           "value": "ward",
-          "expanded": "Ward"
+          "expanded": "Ward",
+          "uuid": "ce62db0e-c064-5901-a3cd-c62f6f4fcd56"
         }
       ]
     },
@@ -132,27 +160,33 @@
       "entry": [
         {
           "value": "eleckey",
-          "expanded": "ElecKey"
+          "expanded": "ElecKey",
+          "uuid": "a3e50981-cc73-5d40-be85-fa5bb5adaf5a"
         },
         {
           "value": "laturi",
-          "expanded": "Laturi"
+          "expanded": "Laturi",
+          "uuid": "02d5ab19-7714-5356-adda-701985ca84fd"
         },
         {
           "value": "mpress",
-          "expanded": "MPRESS"
+          "expanded": "MPRESS",
+          "uuid": "2e44b9d1-bffa-5f4f-8760-ce0007963972"
         },
         {
           "value": "muncho",
-          "expanded": "Muncho"
+          "expanded": "Muncho",
+          "uuid": "33317be7-0c40-5725-ade4-f243d2d6bc72"
         },
         {
           "value": "pakr",
-          "expanded": "Pakr"
+          "expanded": "Pakr",
+          "uuid": "41a4adc4-c7e9-5a79-a0cd-6aa140a60eb8"
         },
         {
           "value": "upx",
-          "expanded": "UPX"
+          "expanded": "UPX",
+          "uuid": "f3d747be-6b97-57cd-9d19-2806eacde8de"
         }
       ]
     },
@@ -161,321 +195,401 @@
       "entry": [
         {
           "value": ".netshrink",
-          "expanded": ".netshrink"
+          "expanded": ".netshrink",
+          "uuid": "3c4852d0-b56e-535d-abc3-672a761bb0cc"
         },
         {
           "value": "acprotect",
-          "expanded": "ACProtect"
+          "expanded": "ACProtect",
+          "uuid": "5803a0e6-a152-53e0-a2e7-45fefe3c6aa4"
         },
         {
           "value": "aegis",
-          "expanded": "Aegis Crypter"
+          "expanded": "Aegis Crypter",
+          "uuid": "720d1fad-980b-50fa-ad97-b2b77a17d826"
         },
         {
           "value": "ainexe",
-          "expanded": "AinEXE"
+          "expanded": "AinEXE",
+          "uuid": "3f32048e-0323-57d1-ae55-9b70a5482829"
         },
         {
           "value": "alienyze",
-          "expanded": "Alienyze"
+          "expanded": "Alienyze",
+          "uuid": "bd37bf9a-3142-578d-8195-94ad6f29a473"
         },
         {
           "value": "amber",
-          "expanded": "Amber"
+          "expanded": "Amber",
+          "uuid": "b69369ab-7da2-5da6-8f32-da8a4e2eba30"
         },
         {
           "value": "andromeda",
-          "expanded": "Andromeda"
+          "expanded": "Andromeda",
+          "uuid": "6f1bef95-b2c6-5c14-9cc2-896d7b6b7292"
         },
         {
           "value": "apack",
-          "expanded": "aPack"
+          "expanded": "aPack",
+          "uuid": "a3f8db18-7751-5a1b-8881-e8b3bc1d9b47"
         },
         {
           "value": "armadillo",
-          "expanded": "Armadillo"
+          "expanded": "Armadillo",
+          "uuid": "70cf17cb-94b7-5d56-8ddf-cb0aece4fdba"
         },
         {
           "value": "aspack",
-          "expanded": "ASPack"
+          "expanded": "ASPack",
+          "uuid": "a922f23b-43af-5498-8e0a-a2f5d0c1b2d4"
         },
         {
           "value": "asprotect",
-          "expanded": "ASProtect"
+          "expanded": "ASProtect",
+          "uuid": "d6a634bc-28b3-5a64-8495-0474e25e637d"
         },
         {
           "value": "atompepacker",
-          "expanded": "AtomPePacker"
+          "expanded": "AtomPePacker",
+          "uuid": "37758d78-e4e0-5386-b920-11ff3265fc1e"
         },
         {
           "value": "autoit",
-          "expanded": "AutoIT"
+          "expanded": "AutoIT",
+          "uuid": "e72721a1-442a-5ef8-8824-7304cc9133c7"
         },
         {
           "value": "axprotector",
-          "expanded": "AxProtector"
+          "expanded": "AxProtector",
+          "uuid": "b0fbdba3-42ec-55c4-8058-d554c47875ff"
         },
         {
           "value": "bero",
-          "expanded": "BeRo EXE Packer"
+          "expanded": "BeRo EXE Packer",
+          "uuid": "9117e28e-e8c5-5218-b817-af90787e9971"
         },
         {
           "value": "boxedapp-packer",
-          "expanded": "BoxedApp Packer"
+          "expanded": "BoxedApp Packer",
+          "uuid": "e951b855-5133-5616-9131-79fa623653bc"
         },
         {
           "value": "cexe",
-          "expanded": "CExe"
+          "expanded": "CExe",
+          "uuid": "468c0933-8875-59ca-8c93-e565e4000e2b"
         },
         {
           "value": "code-virtualizer",
-          "expanded": "Code Virtualizer"
+          "expanded": "Code Virtualizer",
+          "uuid": "fd9afe50-e5d5-50d5-9ae0-8322ecf8f786"
         },
         {
           "value": "confuserex",
-          "expanded": "ConfuserEx"
+          "expanded": "ConfuserEx",
+          "uuid": "d1bf3288-5106-534b-b48f-83f167883ba0"
         },
         {
           "value": "crinkler",
-          "expanded": "Crinkler"
+          "expanded": "Crinkler",
+          "uuid": "1eb089ed-aed0-58c3-8608-3790db2567ae"
         },
         {
           "value": "crunch",
-          "expanded": "Crunch"
+          "expanded": "Crunch",
+          "uuid": "dee4d9ca-aa29-541f-b60c-91d2fd24705d"
         },
         {
           "value": "dotbundle",
-          "expanded": "dotBundle"
+          "expanded": "dotBundle",
+          "uuid": "4a4c297d-12fa-586a-956d-0267731ad397"
         },
         {
           "value": "dragon-armor",
-          "expanded": "Dragon Armor"
+          "expanded": "Dragon Armor",
+          "uuid": "753cab27-3faf-5f8b-bbd0-5650b5fbae0d"
         },
         {
           "value": "eleckey",
-          "expanded": "ElecKey"
+          "expanded": "ElecKey",
+          "uuid": "8554df87-f081-575d-a72c-ea9a3cb36f6f"
         },
         {
           "value": "enigma-protector",
-          "expanded": "Enigma Protector"
+          "expanded": "Enigma Protector",
+          "uuid": "43198129-9e89-5fde-8564-a8773e43f2b1"
         },
         {
           "value": "enigma-virtual-box",
-          "expanded": "Enigma Virtual Box"
+          "expanded": "Enigma Virtual Box",
+          "uuid": "27af85ac-6242-5f13-9e26-9d93acbdc05a"
         },
         {
           "value": "eronana-packer",
-          "expanded": "Eronana Packer"
+          "expanded": "Eronana Packer",
+          "uuid": "c4366ac9-7b1f-5aeb-b938-0498b0e68389"
         },
         {
           "value": "exe-bundle",
-          "expanded": "EXE Bundle"
+          "expanded": "EXE Bundle",
+          "uuid": "290bd91e-802a-5031-b3fa-9c1a98ca41db"
         },
         {
           "value": "exe-stealth",
-          "expanded": "EXE Stealth"
+          "expanded": "EXE Stealth",
+          "uuid": "5262b446-0aab-534e-b862-b6ba3f8c3365"
         },
         {
           "value": "exe32pack",
-          "expanded": "EXE32Pack"
+          "expanded": "EXE32Pack",
+          "uuid": "380c9a82-6268-5d92-9eed-a99331876b34"
         },
         {
           "value": "expressor",
-          "expanded": "eXPressor"
+          "expanded": "eXPressor",
+          "uuid": "3a962482-579f-5320-bddd-84bbbace9de8"
         },
         {
           "value": "fsg",
-          "expanded": "Fast Small Good (FSG)"
+          "expanded": "Fast Small Good (FSG)",
+          "uuid": "f04860bd-67b4-5a3b-8ba8-15aa2d272950"
         },
         {
           "value": "gopacker",
-          "expanded": "GoPacker"
+          "expanded": "GoPacker",
+          "uuid": "e0c57dc7-9529-5757-b0b5-e127fd8f021a"
         },
         {
           "value": "huan",
-          "expanded": "Huan"
+          "expanded": "Huan",
+          "uuid": "64fcd792-46b9-5779-aa78-ff05bad53980"
         },
         {
           "value": "hxor-packer",
-          "expanded": "hXOR Packer"
+          "expanded": "hXOR Packer",
+          "uuid": "1cfe639f-a7ce-5410-a04a-16042750e54a"
         },
         {
           "value": "jdpack",
-          "expanded": "JDPack"
+          "expanded": "JDPack",
+          "uuid": "d7981cf6-dabd-5138-9a60-d702381d4cc2"
         },
         {
           "value": "kkrunchy",
-          "expanded": "Kkrunchy"
+          "expanded": "Kkrunchy",
+          "uuid": "877e0ce0-37a0-5375-bf94-6dce28fd4e37"
         },
         {
           "value": "liapp",
-          "expanded": "LIAPP"
+          "expanded": "LIAPP",
+          "uuid": "3965ba6e-1b7c-5a74-9604-0163c564a348"
         },
         {
           "value": "maskpe",
-          "expanded": "MaskPE"
+          "expanded": "MaskPE",
+          "uuid": "3e0cd4f5-0652-5878-b53f-94b24b13bc21"
         },
         {
           "value": "mew",
-          "expanded": "MEW"
+          "expanded": "MEW",
+          "uuid": "ba4a449c-c694-5c68-8f7e-d9743a09a0ef"
         },
         {
           "value": "molebox",
-          "expanded": "MoleBox"
+          "expanded": "MoleBox",
+          "uuid": "c989a224-53c3-5a31-a771-0768b50fe5c1"
         },
         {
           "value": "morphine",
-          "expanded": "Morphine"
+          "expanded": "Morphine",
+          "uuid": "090a9a1c-8ba8-56d7-b6a6-4803487f48cd"
         },
         {
           "value": "mpress",
-          "expanded": "MPRESS"
+          "expanded": "MPRESS",
+          "uuid": "24608c9c-9b06-5b85-afd5-fdd6770e87f2"
         },
         {
           "value": "neolite",
-          "expanded": "Neolite"
+          "expanded": "Neolite",
+          "uuid": "cd6837eb-7a1f-53b6-ba64-b1c559937b0a"
         },
         {
           "value": "netcrypt",
-          "expanded": "NetCrypt"
+          "expanded": "NetCrypt",
+          "uuid": "f6e7a5de-1cce-5425-828d-f84e49416260"
         },
         {
           "value": "nspack",
-          "expanded": "NSPack"
+          "expanded": "NSPack",
+          "uuid": "e14d2dde-22ce-579c-bd22-0260d10689c0"
         },
         {
           "value": "obsidium",
-          "expanded": "Obsidium"
+          "expanded": "Obsidium",
+          "uuid": "79634797-7d08-5ba4-b19c-7e1d6f19d1d1"
         },
         {
           "value": "origami",
-          "expanded": "Origami"
+          "expanded": "Origami",
+          "uuid": "e2c826c0-f426-5605-8c4e-b043848a218c"
         },
         {
           "value": "packman",
-          "expanded": "Packman"
+          "expanded": "Packman",
+          "uuid": "64a20e0b-e314-5b91-982b-a19ce5502447"
         },
         {
           "value": "pecompact",
-          "expanded": "PECompact"
+          "expanded": "PECompact",
+          "uuid": "77c62015-24c6-568d-9d40-ab68c8ccd478"
         },
         {
           "value": "pelock",
-          "expanded": "PELock"
+          "expanded": "PELock",
+          "uuid": "a60573e8-623f-504c-97d7-6532daf2ca11"
         },
         {
           "value": "pepacker",
-          "expanded": "PE Packer"
+          "expanded": "PE Packer",
+          "uuid": "db30804e-2daa-56c5-89c5-21ae78cc027d"
         },
         {
           "value": "perplex",
-          "expanded": "PErplex"
+          "expanded": "PErplex",
+          "uuid": "2b3d36bd-229b-5cec-8066-04bf7c60daf4"
         },
         {
           "value": "peshield",
-          "expanded": "PEShield"
+          "expanded": "PEShield",
+          "uuid": "d8b33dda-f610-5262-9215-4daa0c7d8fa4"
         },
         {
           "value": "pespin",
-          "expanded": "PESpin"
+          "expanded": "PESpin",
+          "uuid": "d46fc6a4-946c-5100-a36e-e332b7bf2793"
         },
         {
           "value": "petite",
-          "expanded": "PEtite"
+          "expanded": "PEtite",
+          "uuid": "f12df63b-915d-5e04-93e3-d4dbbc32519e"
         },
         {
           "value": "petoy",
-          "expanded": "PE Toy"
+          "expanded": "PE Toy",
+          "uuid": "f30d6d6e-fd4d-5c41-9335-0caccd1d2b06"
         },
         {
           "value": "pezor",
-          "expanded": "PEzor"
+          "expanded": "PEzor",
+          "uuid": "1e9375f4-418b-507e-85b4-4f6de28f4ebf"
         },
         {
           "value": "procrypt",
-          "expanded": "ProCrypt"
+          "expanded": "ProCrypt",
+          "uuid": "dd77b326-6f7a-5e6f-8768-c3fad1ccceda"
         },
         {
           "value": "rlpack-basic",
-          "expanded": "RLPack Basic"
+          "expanded": "RLPack Basic",
+          "uuid": "019012fa-4d0d-58cf-b60d-d7e1b6850618"
         },
         {
           "value": "rpcrypt",
-          "expanded": "RPCrypt"
+          "expanded": "RPCrypt",
+          "uuid": "26574c35-4125-5ed7-b21f-81f5f8ef7bdd"
         },
         {
           "value": "sepacker",
-          "expanded": "SEPacker"
+          "expanded": "SEPacker",
+          "uuid": "bd058790-a124-5c20-86a9-f1eb0cf9d2d1"
         },
         {
           "value": "simpledpack",
-          "expanded": "SimpleDpack"
+          "expanded": "SimpleDpack",
+          "uuid": "87bdddda-4dcd-5763-bd92-f03d3340cc69"
         },
         {
           "value": "smart-packer-pro",
-          "expanded": "Smart Packer Pro"
+          "expanded": "Smart Packer Pro",
+          "uuid": "23a25679-bc92-5fbd-b5df-fc0390c3614e"
         },
         {
           "value": "squishy",
-          "expanded": "Squishy"
+          "expanded": "Squishy",
+          "uuid": "44543829-0ca1-5e36-a5b1-4da3cf739a8c"
         },
         {
           "value": "telock",
-          "expanded": "Telock"
+          "expanded": "Telock",
+          "uuid": "3ca8924d-e24c-5b2b-bbff-54b6e4704b18"
         },
         {
           "value": "theark",
-          "expanded": "TheArk"
+          "expanded": "TheArk",
+          "uuid": "59eda85e-dc30-5ea0-9c39-6d5cb74dd432"
         },
         {
           "value": "themida",
-          "expanded": "Themida"
+          "expanded": "Themida",
+          "uuid": "ea798546-f2e6-5f1d-8c92-43140a123205"
         },
         {
           "value": "thinstall",
-          "expanded": "Thinstall"
+          "expanded": "Thinstall",
+          "uuid": "78c8ff04-076f-52a6-81c6-7620f043215a"
         },
         {
           "value": "upack",
-          "expanded": "UPack"
+          "expanded": "UPack",
+          "uuid": "84c4d1a7-cce5-54dc-9e5a-1c10fd7c8eb3"
         },
         {
           "value": "upx",
-          "expanded": "UPX"
+          "expanded": "UPX",
+          "uuid": "64e5f0ea-2345-585e-9ffe-81f47eac6fe6"
         },
         {
           "value": "vmprotect",
-          "expanded": "VMProtect"
+          "expanded": "VMProtect",
+          "uuid": "b325a904-bd1e-5f3b-8075-ab2e4049b97a"
         },
         {
           "value": "vprotect",
-          "expanded": "VProtect"
+          "expanded": "VProtect",
+          "uuid": "0ff7f4f5-e445-5073-bd02-1e4c8d1d85cc"
         },
         {
           "value": "winupack",
-          "expanded": "WinUPack"
+          "expanded": "WinUPack",
+          "uuid": "01654e6b-c42a-5a4c-9eae-de4d7fb9f538"
         },
         {
           "value": "wwpack",
-          "expanded": "WWPack"
+          "expanded": "WWPack",
+          "uuid": "7ef3b76d-e79c-5183-b465-501b1caadab4"
         },
         {
           "value": "xcomp-xpack",
-          "expanded": "XComp/XPack"
+          "expanded": "XComp/XPack",
+          "uuid": "4d80d118-f67d-5a60-b0f8-54795cd381f0"
         },
         {
           "value": "yoda-crypter",
-          "expanded": "Yoda's Crypter"
+          "expanded": "Yoda's Crypter",
+          "uuid": "8402cf76-aee4-547a-ab41-2ffca832dc1f"
         },
         {
           "value": "yoda-protector",
-          "expanded": "Yoda's Protector"
+          "expanded": "Yoda's Protector",
+          "uuid": "a6fd6799-8f05-5833-ac2a-4e40e79d7c9a"
         },
         {
           "value": "zprotect",
-          "expanded": "ZProtect"
+          "expanded": "ZProtect",
+          "uuid": "82106b51-06aa-5022-b475-29c8616180ff"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "450e5b2f-7123-54cd-af00-cdc15a5a3ccb"
 }

@@ -5,15 +5,18 @@
   "predicates": [
     {
       "value": "critical-infra-operators",
-      "expanded": "Critical Infrastructure Operators"
+      "expanded": "Critical Infrastructure Operators",
+      "uuid": "4b7b41f9-d64e-5664-88ea-29aad9e5299e"
     },
     {
       "value": "info-services",
-      "expanded": "Information Society services enablers"
+      "expanded": "Information Society services enablers",
+      "uuid": "a94f1dc6-0aa7-5458-a8e3-fa83e98c94d7"
     },
     {
       "value": "public-admin",
-      "expanded": "Public administration"
+      "expanded": "Public administration",
+      "uuid": "5933c90b-e4e8-5d98-b4db-183b690ea133"
     }
   ],
   "values": [
@@ -22,23 +25,28 @@
       "entry": [
         {
           "value": "transport",
-          "expanded": "Transport"
+          "expanded": "Transport",
+          "uuid": "9293f018-7b30-5d28-8f78-a98a1e14ee91"
         },
         {
           "value": "energy",
-          "expanded": "Energy"
+          "expanded": "Energy",
+          "uuid": "06ab379a-d094-50ed-9bad-2a2ee7a925d7"
         },
         {
           "value": "health",
-          "expanded": "Health"
+          "expanded": "Health",
+          "uuid": "ff36dd88-0243-55cb-9556-35e8d8ef9434"
         },
         {
           "value": "financial",
-          "expanded": "Financial market operators"
+          "expanded": "Financial market operators",
+          "uuid": "4bb6083b-7e6d-5775-a0fd-8218c5e626cf"
         },
         {
           "value": "banking",
-          "expanded": "Banking"
+          "expanded": "Banking",
+          "uuid": "0b2da7d5-74f4-561d-9826-588b1179811b"
         }
       ]
     },
@@ -47,27 +55,33 @@
       "entry": [
         {
           "value": "e-commerce",
-          "expanded": "e-commerce platforms"
+          "expanded": "e-commerce platforms",
+          "uuid": "ce20ed62-4e13-54a7-a0bb-46f6dca93869"
         },
         {
           "value": "internet-payment",
-          "expanded": "Internet payment"
+          "expanded": "Internet payment",
+          "uuid": "d079a876-581e-55b0-bf2b-72c76d418acb"
         },
         {
           "value": "cloud",
-          "expanded": "cloud computing"
+          "expanded": "cloud computing",
+          "uuid": "c877be47-a0c4-59eb-9ac1-da7c58531569"
         },
         {
           "value": "search-engines",
-          "expanded": "search engines"
+          "expanded": "search engines",
+          "uuid": "590305d8-a47d-5886-b9fd-a41b746411c3"
         },
         {
           "value": "socnet",
-          "expanded": "social networks"
+          "expanded": "social networks",
+          "uuid": "122836a0-6461-54e7-8ef8-09574135ab8b"
         },
         {
           "value": "app-stores",
-          "expanded": "application stores"
+          "expanded": "application stores",
+          "uuid": "89407289-876a-5886-a029-281f3ba37887"
         }
       ]
     },
@@ -76,9 +90,11 @@
       "entry": [
         {
           "value": "public-admin",
-          "expanded": "Public Administrations"
+          "expanded": "Public Administrations",
+          "uuid": "d86d6aea-551e-57ca-8e78-c4d2021dcf9d"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "73f77290-891f-5239-98e1-c406cf47e54d"
 }

@@ -6,12 +6,14 @@
     {
       "value": "source-reliability",
       "expanded": "Source Reliability",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "87fee213-1a44-5f96-92f2-6d4c21e2552e"
     },
     {
       "value": "information-credibility",
       "expanded": "Information Credibility",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "65c5d95b-6f4b-5f32-98aa-adfdc005c833"
     }
   ],
   "values": [
@@ -22,42 +24,49 @@
           "value": "a",
           "expanded": "Completely reliable",
           "description": "No doubt of authenticity, trustworthiness, or competency; has a history of complete reliability",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "3597e47d-2859-52d7-9e8f-13f87f0aaaf8"
         },
         {
           "value": "b",
           "expanded": "Usually reliable",
           "description": "Minor doubt about authenticity, trustworthiness, or competency; has a history of valid information most of the time",
-          "numerical_value": 75
+          "numerical_value": 75,
+          "uuid": "732bf20c-3d17-55d9-b9e4-cbcf3dc9dbfa"
         },
         {
           "value": "c",
           "expanded": "Fairly reliable",
           "description": "Doubt of authenticity, trustworthiness, or competency but has provided valid information in the past",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "0c90e426-0e6d-5c4d-87fa-f237ae8e608b"
         },
         {
           "value": "d",
           "expanded": "Not usually reliable",
           "description": "Significant doubt about authenticity, trustworthiness, or co mpetency but has provided valid information in the past",
-          "numerical_value": 25
+          "numerical_value": 25,
+          "uuid": "884a25aa-7f67-5dc4-b8ea-c884f2f521f2"
         },
         {
           "value": "e",
           "expanded": "Unreliable",
           "description": "Lacking in authenticity, trustworthiness, and competency; history of invalid information",
-          "numerical_value": 0
+          "numerical_value": 0,
+          "uuid": "d773ebde-a8d4-53f0-8ec7-81028a01c7d8"
         },
         {
           "value": "f",
           "expanded": "Reliability cannot be judged",
           "description": "No basis exists for evaluating the reliability of the source",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "463a73ba-ea3e-557e-92fd-108326f029d1"
         },
         {
           "value": "g",
           "expanded": "Deliberatly deceptive",
-          "numerical_value": 0
+          "numerical_value": 0,
+          "uuid": "97390cda-9587-5151-89d7-96b457cb03f1"
         }
       ]
     },
@@ -68,39 +77,46 @@
           "value": "1",
           "expanded": "Confirmed by other sources",
           "description": "Confirmed by other independent sources; logical in itself; Consistent with other information on the subject",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "64d38250-16c8-57f0-9b7b-cdb61da5e1a9"
         },
         {
           "value": "2",
           "expanded": "Probably true",
           "description": "Not confirmed; logical in itself; consistent with other information on the subject",
-          "numerical_value": 75
+          "numerical_value": 75,
+          "uuid": "8f09824c-87e0-52f9-86b1-4f18ca939c9c"
         },
         {
           "value": "3",
           "expanded": "Possibly true",
           "description": "Not confirmed; reasonably logical in itself; agrees with some other information on the subject",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "c5e060dc-905f-5b0e-b134-ffc82cb83585"
         },
         {
           "value": "4",
           "expanded": "Doubtful",
           "description": "Not confirmed; possible but not logical ; no other information on the subject",
-          "numerical_value": 25
+          "numerical_value": 25,
+          "uuid": "3efbb2a1-6998-5a01-b615-cd908789ad5b"
         },
         {
           "value": "5",
           "expanded": "Improbable",
           "description": "Not confirmed; not logical in itself; contradicted by other information on the subject",
-          "numerical_value": 0
+          "numerical_value": 0,
+          "uuid": "4fed5c9d-dcb8-5f20-ae6a-75289b8db2b8"
         },
         {
           "value": "6",
           "expanded": "Truth cannot be judged",
           "description": "No basis exists for evaluating the validity of the information",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "9b7af782-5cec-5380-897b-008452fa4953"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "ede29e20-5758-5f3b-8d4f-7e408bbe574b"
 }

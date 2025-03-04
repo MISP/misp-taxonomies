@@ -6,22 +6,26 @@
     {
       "value": "degrees-of-identifiability",
       "expanded": "Degrees of identifiability",
-      "description": "Information containing direct and indirect identifiers."
+      "description": "Information containing direct and indirect identifiers.",
+      "uuid": "c3cd5013-d478-5a79-b79a-5a8462cd02a4"
     },
     {
       "value": "pseudonymous-data",
       "expanded": "Pseudonymous Data",
-      "description": "Information from which direct identifiers have been eliminated or transformed, but indirect entifiers remain intact."
+      "description": "Information from which direct identifiers have been eliminated or transformed, but indirect entifiers remain intact.",
+      "uuid": "de576e48-7ad3-5728-b6de-14738370a65c"
     },
     {
       "value": "de-identified-data",
       "expanded": "De-identified data",
-      "description": "Direct and known indirect identifiers have been removed or manipulated to break the linkage to real world identities."
+      "description": "Direct and known indirect identifiers have been removed or manipulated to break the linkage to real world identities.",
+      "uuid": "efdbc74b-7bba-5742-9576-fa16472e89bb"
     },
     {
       "value": "anonymous-data",
       "expanded": "Anonymous data",
-      "description": "Direct and indirect identifiers have en removed or manipulated together with mathematical and technical guarantees to prevent re-identification."
+      "description": "Direct and indirect identifiers have en removed or manipulated together with mathematical and technical guarantees to prevent re-identification.",
+      "uuid": "815ec992-efa8-5b3d-afd6-8020b564a353"
     }
   ],
   "values": [
@@ -31,17 +35,20 @@
         {
           "value": "explicitly-personal",
           "expanded": "Explicitly personal",
-          "description": "Name, address, phone number, SSN, government-issued ID (e.g., Jane Smith, 123 Main Street, 555-555-5555)"
+          "description": "Name, address, phone number, SSN, government-issued ID (e.g., Jane Smith, 123 Main Street, 555-555-5555)",
+          "uuid": "a2ea9678-5579-59ea-8fa8-559d414f1f2e"
         },
         {
           "value": "potentially-identifiable",
           "expanded": "Potentially identifiable",
-          "description": "Unique device ID, license plate, medical record number, cookie, IP address (e.g., MAC address 68:A8:6D:35:65:03)"
+          "description": "Unique device ID, license plate, medical record number, cookie, IP address (e.g., MAC address 68:A8:6D:35:65:03)",
+          "uuid": "1a37c173-eb7c-5c07-80e6-26347b612436"
         },
         {
           "value": "not-readily-identifiable",
           "expanded": "Not readily identifiable",
-          "description": "Same as Potentially Identifiable except data are also protected by safeguards and controls (e.g., hashed MAC addresses & legal representations)"
+          "description": "Same as Potentially Identifiable except data are also protected by safeguards and controls (e.g., hashed MAC addresses & legal representations)",
+          "uuid": "c29f491e-69a2-53cd-a239-12f5320c513e"
         }
       ]
     },
@@ -51,17 +58,20 @@
         {
           "value": "key-coded",
           "expanded": "Key coded",
-          "description": "Clinical or research datasets where only curator retains key (e.g., Jane Smith, diabetes, HgB 15.1 g/dl = Csrk123)"
+          "description": "Clinical or research datasets where only curator retains key (e.g., Jane Smith, diabetes, HgB 15.1 g/dl = Csrk123)",
+          "uuid": "b9c27a53-5722-58fa-9e35-a104131634c6"
         },
         {
           "value": "pseudonymous",
           "expanded": "Pseudonymous",
-          "description": "Unique, artificial pseudonyms replace direct identifiers (e.g., HIPAA Limited Datasets, John Doe = 5L7T LX619Z) (unique sequence not used anywhere else)"
+          "description": "Unique, artificial pseudonyms replace direct identifiers (e.g., HIPAA Limited Datasets, John Doe = 5L7T LX619Z) (unique sequence not used anywhere else)",
+          "uuid": "66610464-1642-505e-8ba1-dc18b91b9946"
         },
         {
           "value": "protected-pseudonymous",
           "expanded": "Protected pseudonymous",
-          "description": "Same as Pseudonymous, except data are also protected by safeguards and controls"
+          "description": "Same as Pseudonymous, except data are also protected by safeguards and controls",
+          "uuid": "bf38d2c6-2b07-5fa2-82a7-a3899396483d"
         }
       ]
     },
@@ -71,12 +81,14 @@
         {
           "value": "de-identified",
           "expanded": "De-identified",
-          "description": "Data are suppressed, generalized, perturbed, swapped, etc. (e.g., GPA: 3.2 = 3.0-3.5, gender: female = gender: male)"
+          "description": "Data are suppressed, generalized, perturbed, swapped, etc. (e.g., GPA: 3.2 = 3.0-3.5, gender: female = gender: male)",
+          "uuid": "2165cb49-600c-54eb-9849-4c23d69d9954"
         },
         {
           "value": "protected-de-identified",
           "expanded": "Protected de-identified",
-          "description": "Same as De-Identified, except data are also protected by safeguards and controls"
+          "description": "Same as De-Identified, except data are also protected by safeguards and controls",
+          "uuid": "c70f7f28-a7ad-53bf-8ed3-21d303d14112"
         }
       ]
     },
@@ -86,14 +98,17 @@
         {
           "value": "anonymous",
           "expanded": "Anonymous",
-          "description": "For example, noise is calibrated to a data set to hide whether an individual is present or not (differential privacy)"
+          "description": "For example, noise is calibrated to a data set to hide whether an individual is present or not (differential privacy)",
+          "uuid": "96bf82bc-f9e8-5494-a325-4b4fcd9a8c95"
         },
         {
           "value": "aggregated-anonymous",
           "expanded": "Aggregated anonymous",
-          "description": "Very highly aggregated data (e.g., statistical data, census data, or population data that 52.6% of Washington, DC residents are women)"
+          "description": "Very highly aggregated data (e.g., statistical data, census data, or population data that 52.6% of Washington, DC residents are women)",
+          "uuid": "1241f515-3e36-53ce-b6d6-13ba09429674"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "6152c9cb-afc4-5f82-9fa5-f5f1186e465d"
 }

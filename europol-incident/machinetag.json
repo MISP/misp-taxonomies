@@ -6,39 +6,48 @@
   "predicates": [
     {
       "value": "malware",
-      "expanded": "Malware"
+      "expanded": "Malware",
+      "uuid": "a34033d3-7c85-5a08-87e7-741b56b52778"
     },
     {
       "value": "availability",
-      "expanded": "Availability"
+      "expanded": "Availability",
+      "uuid": "46cb34c9-d422-5d8f-85a1-437e1037b7d0"
     },
     {
       "value": "information-gathering",
-      "expanded": "Gathering of information"
+      "expanded": "Gathering of information",
+      "uuid": "acde6975-e83f-5d00-9501-0c2cfc27180a"
     },
     {
       "value": "intrusion-attempt",
-      "expanded": "Intrusion attempt"
+      "expanded": "Intrusion attempt",
+      "uuid": "8d42a17e-eeaa-5283-9fff-ef714b97cf5f"
     },
     {
       "value": "intrusion",
-      "expanded": "Intrusion"
+      "expanded": "Intrusion",
+      "uuid": "9ea6c170-750d-5a1d-bfac-c6d824c6f854"
     },
     {
       "value": "information-security",
-      "expanded": "Information security"
+      "expanded": "Information security",
+      "uuid": "542d9572-2275-5cf7-94a8-ec31c435db29"
     },
     {
       "value": "fraud",
-      "expanded": "Fraud"
+      "expanded": "Fraud",
+      "uuid": "307e7556-a168-5a98-a901-f6229bff4fe0"
     },
     {
       "value": "abusive-content",
-      "expanded": "Abusive content"
+      "expanded": "Abusive content",
+      "uuid": "b73a9953-ba90-5220-b5fe-babb36976a75"
     },
     {
       "value": "other",
-      "expanded": "Other"
+      "expanded": "Other",
+      "uuid": "22a221b6-0371-56a2-b5bf-63a9d6bd0230"
     }
   ],
   "values": [
@@ -48,21 +57,25 @@
         {
           "value": "infection",
           "expanded": "Infection",
-          "description": "Infecting one or various systems with a specific type of malware."
+          "description": "Infecting one or various systems with a specific type of malware.",
+          "uuid": "7190b93b-715d-58ec-a3e9-4aea8c26dc4b"
         },
         {
           "value": "distribution",
           "expanded": "Distribution",
-          "description": "Infecting one or various systems with a specific type of malware."
+          "description": "Infecting one or various systems with a specific type of malware.",
+          "uuid": "fe995557-230d-59e4-a17c-a51cb2507102"
         },
         {
           "value": "c&c",
           "expanded": "C&C",
-          "description": "Infecting one or various systems with a specific type of malware."
+          "description": "Infecting one or various systems with a specific type of malware.",
+          "uuid": "c6c2147f-4f6a-5d3f-9bbb-20e8edd2e4e9"
         },
         {
           "value": "undetermined",
-          "expanded": "Undetermined"
+          "expanded": "Undetermined",
+          "uuid": "a1fb0737-8407-5ec3-a4ff-5dea61f3ed6c"
         }
       ]
     },
@@ -72,12 +85,14 @@
         {
           "value": "dos-ddos",
           "expanded": "DoS/DDoS",
-          "description": "Disruption of the processing and response capacity of systems and networks in order to render them inoperative."
+          "description": "Disruption of the processing and response capacity of systems and networks in order to render them inoperative.",
+          "uuid": "170fb2ff-ca58-5683-ade2-f91c4bf59999"
         },
         {
           "value": "sabotage",
           "expanded": "Sabotage",
-          "description": "Premeditated action to damage a system, interrupt a process, change or delete information, etc."
+          "description": "Premeditated action to damage a system, interrupt a process, change or delete information, etc.",
+          "uuid": "acc13f49-782a-5edb-aab3-69a86c3c192c"
         }
       ]
     },
@@ -87,17 +102,20 @@
         {
           "value": "scanning",
           "expanded": "Scanning",
-          "description": "Active and passive gathering of information on systems or networks."
+          "description": "Active and passive gathering of information on systems or networks.",
+          "uuid": "f675e052-99db-57cb-a034-d95b802fd726"
         },
         {
           "value": "sniffing",
           "expanded": "Sniffing",
-          "description": "Unauthorised monitoring and reading of network traffic."
+          "description": "Unauthorised monitoring and reading of network traffic.",
+          "uuid": "d2190394-866e-577c-9949-67457de0fcec"
         },
         {
           "value": "phishing",
           "expanded": "Phishing",
-          "description": "Attempt to gather information on a user or a system through phishing methods."
+          "description": "Attempt to gather information on a user or a system through phishing methods.",
+          "uuid": "c62ca9bc-88ef-5db2-beb1-66c347db80d6"
         }
       ]
     },
@@ -107,12 +125,14 @@
         {
           "value": "exploitation-vulnerability",
           "expanded": "Exploitation of vulnerability",
-          "description": "Attempt to intrude by exploiting a vulnerability in a system, component or network."
+          "description": "Attempt to intrude by exploiting a vulnerability in a system, component or network.",
+          "uuid": "6ba31180-cd1e-5226-8b68-0c241f43b992"
         },
         {
           "value": "login-attempt",
           "expanded": "Login attempt",
-          "description": "Attempt to log in to services or authentication / access control mechanisms."
+          "description": "Attempt to log in to services or authentication / access control mechanisms.",
+          "uuid": "b32b7cb4-ec0d-5e39-8e5f-6049ef326672"
         }
       ]
     },
@@ -122,12 +142,14 @@
         {
           "value": "exploitation-vulnerability",
           "expanded": "Exploitation of vulnerability",
-          "description": "Actual intrusion by exploiting a vulnerability in the system, component or network."
+          "description": "Actual intrusion by exploiting a vulnerability in the system, component or network.",
+          "uuid": "288901f6-8c7f-5b27-9945-13c2de7eff1d"
         },
         {
           "value": "compromising-account",
           "expanded": "Compromising an account",
-          "description": "Actual intrusion in a system, component or network by compromising a user or administrator account."
+          "description": "Actual intrusion in a system, component or network by compromising a user or administrator account.",
+          "uuid": "d48240e5-d65e-5531-a3a1-12ea6796ab1e"
         }
       ]
     },
@@ -137,12 +159,14 @@
         {
           "value": "unauthorized-access",
           "expanded": "Unauthorised access",
-          "description": "Unauthorised access to a particular set of information"
+          "description": "Unauthorised access to a particular set of information",
+          "uuid": "87f438d3-3e77-5c94-9489-a0a0562f4a48"
         },
         {
           "value": "unauthorized-modification",
           "expanded": "Unauthorised modification/deletion",
-          "description": "Unauthorised change or elimination of a particular set of information"
+          "description": "Unauthorised change or elimination of a particular set of information",
+          "uuid": "abe8b601-b3bb-5dc2-b5d9-9a229ead2b9e"
         }
       ]
     },
@@ -152,12 +176,14 @@
         {
           "value": "illegitimate-use-resources",
           "expanded": "Misuse or unauthorised use of resources",
-          "description": "Use of institutional resources for purposes other than those intended."
+          "description": "Use of institutional resources for purposes other than those intended.",
+          "uuid": "86264bdc-aec4-5d17-be25-d9dd215a1a73"
         },
         {
           "value": "illegitimate-use-name",
           "expanded": "Illegitimate use of the name of a third party",
-          "description": "Use of the name of an institution without permission to do so."
+          "description": "Use of the name of an institution without permission to do so.",
+          "uuid": "4d38a6aa-f1d8-50c3-a14a-4aeed009e448"
         }
       ]
     },
@@ -167,17 +193,20 @@
         {
           "value": "spam",
           "expanded": "SPAM",
-          "description": " Sending SPAM messages."
+          "description": " Sending SPAM messages.",
+          "uuid": "82076f79-5132-501f-b6ce-e4f9eb89825d"
         },
         {
           "value": "copyright",
           "expanded": "Copyright",
-          "description": "Distribution and sharing of copyright protected content."
+          "description": "Distribution and sharing of copyright protected content.",
+          "uuid": "131ac6e3-8bc1-5cb8-a0f2-fa0589250f97"
         },
         {
           "value": "content-forbidden-by-law",
           "expanded": "Dissemination of content forbidden by law.",
-          "description": "Child pornography, racism and apology of violence."
+          "description": "Child pornography, racism and apology of violence.",
+          "uuid": "13c4c099-665e-5d77-9b85-3e6e56d307a9"
         }
       ]
     },
@@ -187,9 +216,11 @@
         {
           "value": "other",
           "expanded": "Other",
-          "description": " Other type of unspecified incident"
+          "description": " Other type of unspecified incident",
+          "uuid": "d5b1e552-23cf-51da-b30f-f9b94f359389"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "f3a5de79-fc59-5dac-ba75-944654018d39"
 }

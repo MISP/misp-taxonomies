@@ -6,7 +6,8 @@
     {
       "value": "special-categories",
       "expanded": "Special Categories",
-      "description": "Special categories of personal data, refer to Art. 9 of the GDPR"
+      "description": "Special categories of personal data, refer to Art. 9 of the GDPR",
+      "uuid": "8cb0b53f-603f-563a-93aa-1c64c8a54886"
     }
   ],
   "values": [
@@ -15,41 +16,50 @@
       "entry": [
         {
           "value": "racial-or-ethnic-origin",
-          "expanded": "Racial or ethnic origin"
+          "expanded": "Racial or ethnic origin",
+          "uuid": "35891eac-4254-5564-b773-79079c56d04d"
         },
         {
           "value": "political-opinions",
-          "expanded": "Political opinions"
+          "expanded": "Political opinions",
+          "uuid": "aee7d87e-cf9a-5950-9120-f45dc381f1e9"
         },
         {
           "value": "religious-or-philosophical-beliefs",
-          "expanded": "Religious or philosophical beliefs"
+          "expanded": "Religious or philosophical beliefs",
+          "uuid": "cd52bcee-e97b-5560-95e5-917566aeb6db"
         },
         {
           "value": "trade-union-membership",
-          "expanded": "Trade union membership"
+          "expanded": "Trade union membership",
+          "uuid": "a1f4e6ad-33ee-57d2-b40f-ebcd55efc330"
         },
         {
           "value": "genetic-data",
           "expanded": "Genetic data",
-          "description": "Genetic data means personal data relating to the inherited or acquired genetic characteristics of a natural person which give unique information about the physiology or the health of that natural person and which result, in particular, from an analysis of a biological sample from the natural person in question."
+          "description": "Genetic data means personal data relating to the inherited or acquired genetic characteristics of a natural person which give unique information about the physiology or the health of that natural person and which result, in particular, from an analysis of a biological sample from the natural person in question.",
+          "uuid": "83438172-ded1-5c5a-8255-16fcbd7c894a"
         },
         {
           "value": "biometric-data",
           "expanded": "Biometric data",
-          "description": "Biometric data for the purpose of uniquely identifying a natural person. Biometric data means personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, which allow or confirm the unique identification of that natural person, such as facial images or dactyloscopic data."
+          "description": "Biometric data for the purpose of uniquely identifying a natural person. Biometric data means personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, which allow or confirm the unique identification of that natural person, such as facial images or dactyloscopic data.",
+          "uuid": "7efedee7-f8f3-51e7-a01f-f2b92266d724"
         },
         {
           "value": "health",
           "expanded": "Health",
-          "description": "Data concerning health. Data concerning health means personal data related to the physical or mental health of a natural person, including the provision of health care services, which reveal information about his or her health status."
+          "description": "Data concerning health. Data concerning health means personal data related to the physical or mental health of a natural person, including the provision of health care services, which reveal information about his or her health status.",
+          "uuid": "aab81e2c-1198-5a10-87a1-724651da7a70"
         },
         {
           "value": "sex-life-or-sexual-orientation",
           "expanded": "Sex life or sexual orientation",
-          "description": "Data concerning a natural person's sex life or sexual orientation"
+          "description": "Data concerning a natural person's sex life or sexual orientation",
+          "uuid": "9a68e2c5-b4d9-5794-b3a3-ad6f4f4b5412"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "015998f8-2aa9-5356-be84-349091b04bd8"
 }

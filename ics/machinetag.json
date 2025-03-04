@@ -2,43 +2,53 @@
   "predicates": [
     {
       "value": "ot-security-issues",
-      "expanded": "OT IR Security Issues"
+      "expanded": "OT IR Security Issues",
+      "uuid": "f06dc74d-b372-54ca-baf6-8710856c768d"
     },
     {
       "expanded": "OT Network/Data Transmission Protocols in Automobile / Vehicle / Aviation",
-      "value": "ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation"
+      "value": "ot-network-data-transmission-protocols-automatic-automobile-vehicle-aviation",
+      "uuid": "57cfef78-99a3-5f56-a8ba-ad83174ef28f"
     },
     {
       "expanded": "OT Network/Data Transmission Protocols in Automatic Meter Reading",
-      "value": "ot-network-data-transmission-protocols-automatic-meter-reading"
+      "value": "ot-network-data-transmission-protocols-automatic-meter-reading",
+      "uuid": "c395b2bc-aa6e-57f2-9407-1e3e61a34640"
     },
     {
       "expanded": "OT Network/Data Transmission Protocols in Industrial Control System",
-      "value": "ot-network-data-transmission-protocols-industrial-control-system"
+      "value": "ot-network-data-transmission-protocols-industrial-control-system",
+      "uuid": "114a05da-6e95-5fe8-86f7-52dd68b80d40"
     },
     {
       "expanded": "OT Network/Data Transmission Protocols in Building Automation",
-      "value": "ot-network-data-transmission-protocols-building-automation"
+      "value": "ot-network-data-transmission-protocols-building-automation",
+      "uuid": "aacb0865-49e5-5b0c-bb71-7bcb03053479"
     },
     {
       "expanded": "OT Network/Data Transmission Protocols in Power System Automation",
-      "value": "ot-network-data-transmission-protocols-power-system-automation"
+      "value": "ot-network-data-transmission-protocols-power-system-automation",
+      "uuid": "9239d494-2f44-541e-b6a0-92a378ef45e3"
     },
     {
       "expanded": "OT Network/Data Transmission Protocols in Process Automation",
-      "value": "ot-network-data-transmission-protocols-process-automation"
+      "value": "ot-network-data-transmission-protocols-process-automation",
+      "uuid": "029a3644-18bd-57d5-b145-02546bcf45bc"
     },
     {
       "expanded": "OT IR Communication Interface",
-      "value": "ot-communication-interface"
+      "value": "ot-communication-interface",
+      "uuid": "e4bc4b6d-30e7-5761-b81c-270b2d015fe6"
     },
     {
       "expanded": "OT Operating Systems",
-      "value": "ot-operating-systems"
+      "value": "ot-operating-systems",
+      "uuid": "1268f584-666d-5f0d-9ac7-38c2ba1d877b"
     },
     {
       "expanded": "OT Components Category",
-      "value": "ot-components-category"
+      "value": "ot-components-category",
+      "uuid": "8e5ea49b-78dc-51fa-81f2-405c5352c512"
     }
   ],
   "values": [
@@ -48,42 +58,50 @@
         {
           "value": "Message Authentication",
           "expanded": "Message Authentication",
-          "description": "Auth in used protocols is attacked and falsification command can be sent"
+          "description": "Auth in used protocols is attacked and falsification command can be sent",
+          "uuid": "624f7859-863a-5527-83d7-947d2b96bb62"
         },
         {
           "value": "Message Integrity Checking",
           "expanded": "Message Integrity Checking",
-          "description": "Message poart of the sent protocol is maliciously tampered"
+          "description": "Message poart of the sent protocol is maliciously tampered",
+          "uuid": "2fc1961d-cff7-5ccd-8fe4-c35568975870"
         },
         {
           "value": "Message Encryption",
           "expanded": "Message Encryption",
-          "description": "Self explanatory, i.e. Weak encryption is attacked"
+          "description": "Self explanatory, i.e. Weak encryption is attacked",
+          "uuid": "c17b8a2e-9885-566b-a3da-21bfadfa51a2"
         },
         {
           "value": "Command Injection",
           "expanded": "Command Injection",
-          "description": "Either Remote Command Injection or Local. On local can be timer triggered under tampered firmware"
+          "description": "Either Remote Command Injection or Local. On local can be timer triggered under tampered firmware",
+          "uuid": "807947db-9419-53c9-979f-a94aa60b0462"
         },
         {
           "value": "Replay Attack",
           "expanded": "Replay Attack",
-          "description": "Self explanatory"
+          "description": "Self explanatory",
+          "uuid": "ac747545-bbec-5916-af9d-cd92ff3c0272"
         },
         {
           "value": "Man in the middle (MITM) Attack",
           "expanded": "Man in the middle (MITM) Attack",
-          "description": "Self explanatory"
+          "description": "Self explanatory",
+          "uuid": "ef5f0a07-8c5e-5e70-a4be-2424c7e1f856"
         },
         {
           "value": "Undocumented instructions",
           "expanded": "Undocumented instructions",
-          "description": "Vendor's left several instruction used for development or trouble shooting that is finally leaked and used to performed malicious activities on the devices."
+          "description": "Vendor's left several instruction used for development or trouble shooting that is finally leaked and used to performed malicious activities on the devices.",
+          "uuid": "3002c0b5-1fde-5a02-8a10-1d67314b4846"
         },
         {
           "value": "Vendor proprietary protocols",
           "expanded": "Vendor proprietary protocols",
-          "description": "Internal vendor protocols used for development or trouble shooting, that is being maliciously for an attack."
+          "description": "Internal vendor protocols used for development or trouble shooting, that is being maliciously for an attack.",
+          "uuid": "f286a909-e358-5132-bbd3-6b347f7253b0"
         }
       ]
     },
@@ -92,51 +110,63 @@
       "entry": [
         {
           "value": "ARINC 429",
-          "expanded": "ARINC 429"
+          "expanded": "ARINC 429",
+          "uuid": "d3f971f2-514b-5d08-b20a-c50b0e590f59"
         },
         {
           "value": "CAN bus (ARINC 825 SAE J1939 NMEA 2000 FMS)",
-          "expanded": "CAN bus (ARINC 825 SAE J1939 NMEA 2000 FMS)"
+          "expanded": "CAN bus (ARINC 825 SAE J1939 NMEA 2000 FMS)",
+          "uuid": "705ac801-b4d5-517a-a337-0b0e5f8fc2ff"
         },
         {
           "value": "Factory Instrumentation Protocol",
-          "expanded": "Factory Instrumentation Protocol"
+          "expanded": "Factory Instrumentation Protocol",
+          "uuid": "ad0e38a3-c367-5b1a-8285-373f2a6e7c94"
         },
         {
           "value": "FlexRay",
-          "expanded": "FlexRay"
+          "expanded": "FlexRay",
+          "uuid": "f349ef8e-015e-5741-b2a2-0e03f6263b2e"
         },
         {
           "value": "IEBus",
-          "expanded": "IEBus"
+          "expanded": "IEBus",
+          "uuid": "d4ea6431-30f3-521e-884e-a6f3314e81c2"
         },
         {
           "value": "J1587",
-          "expanded": "J1587"
+          "expanded": "J1587",
+          "uuid": "97149bf4-53c2-5a13-8279-71dc4aaf9506"
         },
         {
           "value": "J1708",
-          "expanded": "J1708"
+          "expanded": "J1708",
+          "uuid": "0f11c1f2-a654-5694-93f6-f91c5fc118a0"
         },
         {
           "value": "Keyword Protocol 2000",
-          "expanded": "Keyword Protocol 2000"
+          "expanded": "Keyword Protocol 2000",
+          "uuid": "b7674497-1ba0-5734-a298-26efa77b63d0"
         },
         {
           "value": "Unified Diagnostic Services",
-          "expanded": "Unified Diagnostic Services"
+          "expanded": "Unified Diagnostic Services",
+          "uuid": "9f104e28-1dfb-5072-bc07-4f359c5c443e"
         },
         {
           "value": "LIN",
-          "expanded": "LIN"
+          "expanded": "LIN",
+          "uuid": "517f924a-f4cd-5935-9fda-ae022198807f"
         },
         {
           "value": "MOST",
-          "expanded": "MOST"
+          "expanded": "MOST",
+          "uuid": "b3c34789-25ae-5033-a84c-f88fb01b984d"
         },
         {
           "value": "VAN",
-          "expanded": "VAN"
+          "expanded": "VAN",
+          "uuid": "5fd8e020-0e91-56f9-997f-2e4e439d3c24"
         }
       ]
     },
@@ -145,27 +175,33 @@
       "entry": [
         {
           "value": "ANSI C12.18",
-          "expanded": "ANSI C12.18"
+          "expanded": "ANSI C12.18",
+          "uuid": "ae29c0c6-eb9b-52b0-9bcf-7361a876fdb3"
         },
         {
           "value": "IEC 61107",
-          "expanded": "IEC 61107"
+          "expanded": "IEC 61107",
+          "uuid": "13e0cba9-b6bf-5543-bbb4-96f30fd4c9af"
         },
         {
           "value": "DLMS/IEC 62056",
-          "expanded": "DLMS/IEC 62056"
+          "expanded": "DLMS/IEC 62056",
+          "uuid": "3f8324e9-80cb-507f-ab5c-854e466d5666"
         },
         {
           "value": "M-Bus",
-          "expanded": "M-Bus"
+          "expanded": "M-Bus",
+          "uuid": "f67f4c66-3bbe-5388-ad95-1e55698bc5f1"
         },
         {
           "value": "Modbus",
-          "expanded": "Modbus"
+          "expanded": "Modbus",
+          "uuid": "4d228ea0-6808-522d-93ce-7f0b3b02d363"
         },
         {
           "value": "ZigBee",
-          "expanded": "ZigBee"
+          "expanded": "ZigBee",
+          "uuid": "52f628da-89b9-5735-b369-6e8e4e1f1fa0"
         }
       ]
     },
@@ -174,23 +210,28 @@
       "entry": [
         {
           "value": "MTConnect",
-          "expanded": "MTConnect"
+          "expanded": "MTConnect",
+          "uuid": "3070bb36-afe2-51cb-8c5a-b9f56ed62a89"
         },
         {
           "value": "OPC",
-          "expanded": "OPC"
+          "expanded": "OPC",
+          "uuid": "6da46e62-dfce-52c6-8581-86a503193068"
         },
         {
           "value": "DA",
-          "expanded": "DA"
+          "expanded": "DA",
+          "uuid": "9ea788e8-73ac-52cd-8886-6efbba9dd013"
         },
         {
           "value": "HDA",
-          "expanded": "HDA"
+          "expanded": "HDA",
+          "uuid": "6773c1f6-fab1-555e-8b66-31d4c0705127"
         },
         {
           "value": "UA",
-          "expanded": "UA"
+          "expanded": "UA",
+          "uuid": "257242b0-9160-55c9-bb3a-278aec055a8c"
         }
       ]
     },
@@ -199,71 +240,88 @@
       "entry": [
         {
           "value": "1-Wire",
-          "expanded": "1-Wire"
+          "expanded": "1-Wire",
+          "uuid": "e716e028-f1fe-57de-91fa-adb6debc32f5"
         },
         {
           "value": "BACnet",
-          "expanded": "BACnet"
+          "expanded": "BACnet",
+          "uuid": "6b9d001b-7411-50b3-ba98-158d1f6be556"
         },
         {
           "value": "C-Bus",
-          "expanded": "C-Bus"
+          "expanded": "C-Bus",
+          "uuid": "bc5f52d7-1530-5d9a-b0cf-bf904862ecbe"
         },
         {
           "value": "CEBus",
-          "expanded": "CEBus"
+          "expanded": "CEBus",
+          "uuid": "f4650710-1725-5f6a-820c-baf7c8cbbcfa"
         },
         {
           "value": "DALI",
-          "expanded": "DALI"
+          "expanded": "DALI",
+          "uuid": "2216d701-c480-5de0-917a-4a4b68234e90"
         },
         {
           "value": "DSI",
-          "expanded": "DSI"
+          "expanded": "DSI",
+          "uuid": "9a179fb0-5aec-5826-9fc7-38b1e3d954fd"
         },
         {
           "value": "DyNet",
-          "expanded": "DyNet"
+          "expanded": "DyNet",
+          "uuid": "9af42404-cdb2-5bf9-999f-d47f1b001484"
         },
         {
           "value": "Factory Instrumentation Protocol",
-          "expanded": "Factory Instrumentation Protocol"
+          "expanded": "Factory Instrumentation Protocol",
+          "uuid": "1350de58-0169-5a6e-a31d-90e2e26d2cca"
         },
         {
           "value": "KNX",
-          "expanded": "KNX"
+          "expanded": "KNX",
+          "uuid": "d423613d-8a13-5172-b5e7-6a1a37166b56"
         },
         {
           "value": "LonTalk",
-          "expanded": "LonTalk"
+          "expanded": "LonTalk",
+          "uuid": "ab7ba167-51a9-5675-98b0-976870e0eb0b"
         },
         {
           "value": "Modbus",
-          "expanded": "Modbus"
+          "expanded": "Modbus",
+          "uuid": "31ed02d2-99d9-5115-bae6-078f34cade9c"
         },
         {
           "value": "oBIX",
-          "expanded": "oBIX"
+          "expanded": "oBIX",
+          "uuid": "9a36cd27-f275-5839-9694-1da3a6260546"
         },
         {
           "value": "VSCP",
-          "expanded": "VSCP"
+          "expanded": "VSCP",
+          "uuid": "aa77c506-7da6-5eb8-b40c-e9f529942d68"
         },
         {
           "value": "X10",
-          "expanded": "X10"
+          "expanded": "X10",
+          "uuid": "40784b68-15e9-5112-a671-f4f2ba2e6a0f"
         },
         {
           "value": "xAP",
-          "expanded": "xAP"
+          "expanded": "xAP",
+          "uuid": "fe4c3dda-af6a-548e-b2af-2cafc394aee8"
         },
         {
           "value": "xPL",
-          "expanded": "xPL"
+          "expanded": "xPL",
+          "uuid": "5ad119f2-317e-5409-94ce-0e68c0f2b9f9"
         },
         {
           "value": "ZigBee",
-          "expanded": "ZigBee"
+          "expanded": "ZigBee",
+          "uuid": "de9cba78-4b1f-5146-a42b-7531f432b740"
         }
       ]
     },
@@ -272,31 +330,38 @@
       "entry": [
         {
           "value": "IEC 60870",
-          "expanded": "IEC 60870"
+          "expanded": "IEC 60870",
+          "uuid": "65080646-e620-5a4f-b525-fe75c9edd2a2"
         },
         {
           "value": "DNP3",
-          "expanded": "DNP3"
+          "expanded": "DNP3",
+          "uuid": "8403bdfa-042f-5522-ae3b-29318e71cec7"
         },
         {
           "value": "Factory Instrumentation Protocol",
-          "expanded": "Factory Instrumentation Protocol"
+          "expanded": "Factory Instrumentation Protocol",
+          "uuid": "a3a9bd19-c22c-502c-bb8f-c9b48f04c303"
         },
         {
           "value": "IEC 61850",
-          "expanded": "IEC 61850"
+          "expanded": "IEC 61850",
+          "uuid": "265cc860-665b-5277-978c-b6af582843d6"
         },
         {
           "value": "IEC 62351",
-          "expanded": "IEC 62351"
+          "expanded": "IEC 62351",
+          "uuid": "bc59a464-9470-5254-ab9e-b07e1af4a6b4"
         },
         {
           "value": "Modbus",
-          "expanded": "Modbus"
+          "expanded": "Modbus",
+          "uuid": "8f432c03-8095-5bd6-a652-4a7451d95ba4"
         },
         {
           "value": "Profibus",
-          "expanded": "Profibus"
+          "expanded": "Profibus",
+          "uuid": "e896c13f-6e17-5d3e-83a9-2b317581ee42"
         }
       ]
     },
@@ -305,147 +370,183 @@
       "entry": [
         {
           "value": "AS-i",
-          "expanded": "AS-i"
+          "expanded": "AS-i",
+          "uuid": "22bfe8f1-b2e5-567c-b812-b019ef256cdd"
         },
         {
           "value": "BSAP",
-          "expanded": "BSAP"
+          "expanded": "BSAP",
+          "uuid": "31f67527-b86c-55de-8d6e-0d7165eb9d31"
         },
         {
           "value": "CC-Link Industrial Networks",
-          "expanded": "CC-Link Industrial Networks"
+          "expanded": "CC-Link Industrial Networks",
+          "uuid": "41d75362-e698-5d2e-8600-6d20f426eb01"
         },
         {
           "value": "CIP",
-          "expanded": "CIP"
+          "expanded": "CIP",
+          "uuid": "6b3c33b0-d484-5fe7-8067-6c82a3167938"
         },
         {
           "value": "CAN bus",
-          "expanded": "CAN bus"
+          "expanded": "CAN bus",
+          "uuid": "c015b7e1-0f75-516d-b6d5-fa87f6688690"
         },
         {
           "value": "ControlNet",
-          "expanded": "ControlNet"
+          "expanded": "ControlNet",
+          "uuid": "138393dc-9c17-5667-a31d-b98dcbd38f05"
         },
         {
           "value": "DF-1",
-          "expanded": "DF-1"
+          "expanded": "DF-1",
+          "uuid": "ef83480a-208b-5e37-a012-2990a534a284"
         },
         {
           "value": "DirectNET",
-          "expanded": "DirectNET"
+          "expanded": "DirectNET",
+          "uuid": "9f2caf7f-744f-5fb2-8718-53b32cfbb106"
         },
         {
           "value": "EtherCAT",
-          "expanded": "EtherCAT"
+          "expanded": "EtherCAT",
+          "uuid": "acc8dbba-8fab-50fb-9c0b-d16822f5a4b4"
         },
         {
           "value": "Ethernet Global Data (EGD)",
-          "expanded": "Ethernet Global Data (EGD)"
+          "expanded": "Ethernet Global Data (EGD)",
+          "uuid": "857d1088-351d-5084-bed9-a7f15dca03dc"
         },
         {
           "value": "Ethernet Powerlink",
-          "expanded": "Ethernet Powerlink"
+          "expanded": "Ethernet Powerlink",
+          "uuid": "e4cbcc5f-90f7-5824-b497-efc6f1e3a116"
         },
         {
           "value": "EtherNet/IP",
-          "expanded": "EtherNet/IP"
+          "expanded": "EtherNet/IP",
+          "uuid": "8722198b-abfd-5df9-ae37-f5baf378ada7"
         },
         {
           "value": "Experimental Physics and Industrial Control System (EPICS) StreamDevice protocol (i.e RF:FREQ 499.655 MHZ)",
-          "expanded": "Experimental Physics and Industrial Control System (EPICS) StreamDevice protocol (i.e RF:FREQ 499.655 MHZ)"
+          "expanded": "Experimental Physics and Industrial Control System (EPICS) StreamDevice protocol (i.e RF:FREQ 499.655 MHZ)",
+          "uuid": "99e81d4b-bb2e-5c41-8049-8f6e470d01b5"
         },
         {
           "value": "Factory Instrumentation Protocol",
-          "expanded": "Factory Instrumentation Protocol"
+          "expanded": "Factory Instrumentation Protocol",
+          "uuid": "09d1f43a-d66d-5530-a3ad-9cae19cc2ef8"
         },
         {
           "value": "FINS",
-          "expanded": "FINS"
+          "expanded": "FINS",
+          "uuid": "3bc1a739-ca8c-5068-a635-7a841f367815"
         },
         {
           "value": "FOUNDATION fieldbus (H1 HSE)",
-          "expanded": "FOUNDATION fieldbus (H1 HSE)"
+          "expanded": "FOUNDATION fieldbus (H1 HSE)",
+          "uuid": "d2690c4d-1ce1-51b4-804b-e6f44eb0d9d1"
         },
         {
           "value": "GE SRTP",
-          "expanded": "GE SRTP"
+          "expanded": "GE SRTP",
+          "uuid": "9b7c1680-4abc-5c1a-b2a8-3fe7058b148d"
         },
         {
           "value": "HART Protocol",
-          "expanded": "HART Protocol"
+          "expanded": "HART Protocol",
+          "uuid": "44afecf8-612c-5f3f-94f2-879420fcd3e9"
         },
         {
           "value": "Honeywell SDS",
-          "expanded": "Honeywell SDS"
+          "expanded": "Honeywell SDS",
+          "uuid": "f2f892fb-64e6-5a6d-931f-761c8d77906b"
         },
         {
           "value": "HostLink",
-          "expanded": "HostLink"
+          "expanded": "HostLink",
+          "uuid": "3f03e4f1-e4e8-5eeb-9a6b-94cf0e91ad7d"
         },
         {
           "value": "INTERBUS",
-          "expanded": "INTERBUS"
+          "expanded": "INTERBUS",
+          "uuid": "2d7ec969-db65-5d47-a663-013f826f00e3"
         },
         {
           "value": "IO-Link",
-          "expanded": "IO-Link"
+          "expanded": "IO-Link",
+          "uuid": "fba85257-6a39-53e6-8311-ac1c2b6936f9"
         },
         {
           "value": "MECHATROLINK",
-          "expanded": "MECHATROLINK"
+          "expanded": "MECHATROLINK",
+          "uuid": "9a1aee67-72f7-53f6-a6d5-bc6b2858beea"
         },
         {
           "value": "MelsecNet",
-          "expanded": "MelsecNet"
+          "expanded": "MelsecNet",
+          "uuid": "b6d80fc2-00b4-5619-9aee-256175f97384"
         },
         {
           "value": "Modbus",
-          "expanded": "Modbus"
+          "expanded": "Modbus",
+          "uuid": "9c7013fb-405e-547f-8e01-ce7fdf5b4b1c"
         },
         {
           "value": "Optomu",
-          "expanded": "Optomu"
+          "expanded": "Optomu",
+          "uuid": "8348ed76-870a-518c-8a46-8a56d77d7866"
         },
         {
           "value": "PieP",
-          "expanded": "PieP"
+          "expanded": "PieP",
+          "uuid": "61cd848f-d57a-5383-8393-dc67bf883a92"
         },
         {
           "value": "Profibus",
-          "expanded": "Profibus"
+          "expanded": "Profibus",
+          "uuid": "6666fa3b-431d-5cbe-be71-4ccaa7caca04"
         },
         {
           "value": "PROFINET IO",
-          "expanded": "PROFINET IO"
+          "expanded": "PROFINET IO",
+          "uuid": "33129700-d075-584d-b9ab-8ffde4c5dd21"
         },
         {
           "value": "RAPIEnet",
-          "expanded": "RAPIEnet"
+          "expanded": "RAPIEnet",
+          "uuid": "fc65877e-fd0d-59f9-b769-26b0d4c26297"
         },
         {
           "value": "SERCOS interface",
-          "expanded": "SERCOS interface"
+          "expanded": "SERCOS interface",
+          "uuid": "10bf1442-59a4-5d66-8eaa-ea563212dba4"
         },
         {
           "value": "SERCOS III",
-          "expanded": "SERCOS III"
+          "expanded": "SERCOS III",
+          "uuid": "21e057d6-67f5-5195-9693-7095ef4d1e37"
         },
         {
           "value": "Sinec H1",
-          "expanded": "Sinec H1"
+          "expanded": "Sinec H1",
+          "uuid": "711c0df0-baa6-598c-a119-8cd24730db92"
         },
         {
           "value": "SynqNet",
-          "expanded": "SynqNet"
+          "expanded": "SynqNet",
+          "uuid": "203b21b0-5a2c-5fee-b787-1f0e95cc9f65"
         },
         {
           "value": "TTEthernet",
-          "expanded": "TTEthernet"
+          "expanded": "TTEthernet",
+          "uuid": "47c9d8df-7504-5885-aa5b-38919515ae95"
         },
         {
           "value": "TCP/IP",
-          "expanded": "TCP/IP"
+          "expanded": "TCP/IP",
+          "uuid": "54848e18-f30f-5228-9144-a5dce5d2b218"
         }
       ]
     },
@@ -455,37 +556,44 @@
         {
           "value": "rs-232",
           "expanded": "RS-232 (comm port)",
-          "description": "Serial communication with an implementation comprises 2 data lines, 6 control lines and one ground."
+          "description": "Serial communication with an implementation comprises 2 data lines, 6 control lines and one ground.",
+          "uuid": "a63e80e7-d53c-53ea-9fa1-3d1504ca1205"
         },
         {
           "value": "rs-422, rs-423 or rs-485",
           "expanded": "RS-422, RS-423 or RS-485",
-          "description": "RS-422 is compatible to RS-232, used in situations where long distances are required, it can drive up to 1200m at 100kbit/s, and up to 1Mbit/s over short distances.  RS-422 uses a differential driver, uses a four-conductor cable, and up to ten receivers can be on a multi-dropped network or bus.  RS-485 is like RS-422 but RS-422 allows just one driver with multiple receivers whereas RS-485 supports multiple drivers and receivers RS-485 also allows up to thirty two (32) multi-dropped receivers or transmitters on a multi-dropped network or bus. At 90 kbit/s, the maximum cable length is 1250 m, and at 10 Mbit/s it is 15 m. The devices are half-duplex (i.e. send or receive, but not both at the same time). For more nodes or long distances, you can use repeaters that regenerate the signals and begin a new RS-485 line. "
+          "description": "RS-422 is compatible to RS-232, used in situations where long distances are required, it can drive up to 1200m at 100kbit/s, and up to 1Mbit/s over short distances.  RS-422 uses a differential driver, uses a four-conductor cable, and up to ten receivers can be on a multi-dropped network or bus.  RS-485 is like RS-422 but RS-422 allows just one driver with multiple receivers whereas RS-485 supports multiple drivers and receivers RS-485 also allows up to thirty two (32) multi-dropped receivers or transmitters on a multi-dropped network or bus. At 90 kbit/s, the maximum cable length is 1250 m, and at 10 Mbit/s it is 15 m. The devices are half-duplex (i.e. send or receive, but not both at the same time). For more nodes or long distances, you can use repeaters that regenerate the signals and begin a new RS-485 line. ",
+          "uuid": "650779e7-f961-5add-b3db-19e34190a52d"
         },
         {
           "value": "ieee-488-gpib",
           "expanded": "IEEE-488 (GPIB)",
-          "description": "Known as Hewlett-Packard HP-IB but was renamed as GPIB (General Purpose Interface Bus) by the IEEE-488 (1975). IEEE-488 interface comprises 8 data lines, 8 control lines and 8 ground lines. Up to 15 devices can be interconnected on one bus. Each device is assigned a unique primary address, ranging from 4-30, by setting the address switches on the device. Devices are linked in either a daisy-chain or star (or some combination) configuration with up to 20 m of shielded 24-conductor cable. A maximum separation of 4 m is specified between any two devices, and an average of 2m over the entire bus.  The data transfer rate can be up to 1 Mbyte/s.  Three types of devices can be connected to an IEEE-488 bus (Listeners, Talkers, and Controllers)"
+          "description": "Known as Hewlett-Packard HP-IB but was renamed as GPIB (General Purpose Interface Bus) by the IEEE-488 (1975). IEEE-488 interface comprises 8 data lines, 8 control lines and 8 ground lines. Up to 15 devices can be interconnected on one bus. Each device is assigned a unique primary address, ranging from 4-30, by setting the address switches on the device. Devices are linked in either a daisy-chain or star (or some combination) configuration with up to 20 m of shielded 24-conductor cable. A maximum separation of 4 m is specified between any two devices, and an average of 2m over the entire bus.  The data transfer rate can be up to 1 Mbyte/s.  Three types of devices can be connected to an IEEE-488 bus (Listeners, Talkers, and Controllers)",
+          "uuid": "0177733d-34aa-5e5d-866f-aff7c093f312"
         },
         {
           "value": "ieee-1394-firewire",
           "expanded": "IEEE-1394 (FireWire)",
-          "description": "The IEEE-1394 defines a serial serial interface that can use the bus cable to power devices.  Firewire transmits data in packets and incurs some overhead as a result. Firewire frames are 125 msec long which means that despite a 'headline' transfer speed of 400 Mbit/s Firewire can be substantially slower in responding to instruments' service requests.  Firewire uses a peer-peer protocol, similar to IEEE-488. Using standard cable, the maximum length bus comprises 16 hops of 4.5m each. Each hop connects two devices, but each physical device can contain four logical nodes. A Firewire cable contains two twisted-pairs (signals and clock) and two untwisted conductors (power and ground)."
+          "description": "The IEEE-1394 defines a serial serial interface that can use the bus cable to power devices.  Firewire transmits data in packets and incurs some overhead as a result. Firewire frames are 125 msec long which means that despite a 'headline' transfer speed of 400 Mbit/s Firewire can be substantially slower in responding to instruments' service requests.  Firewire uses a peer-peer protocol, similar to IEEE-488. Using standard cable, the maximum length bus comprises 16 hops of 4.5m each. Each hop connects two devices, but each physical device can contain four logical nodes. A Firewire cable contains two twisted-pairs (signals and clock) and two untwisted conductors (power and ground).",
+          "uuid": "ae41d08f-53e1-5fc5-a354-19106ea8d34e"
         },
         {
           "value": "usb-universal-serial-bus",
           "expanded": "USB (Universal Serial Bus)",
-          "description": "USB is the bus topology, and host-target protocol, mean that giving existing PC-based instruments a USB port not as trivial as it could be, but instruments with USB ports are coming onto the ICS market increasing numbers.  USB 1.1 has many features as serial data transmission, device powering, data sent in 1 ms packets. USB offers 1.5- and 12-Mbit/s speeds. Individual devices can use the bus for a maximum of 50% of the time. In practice, the maximum rate is not more than 0.6 Mbyte/s.  USB 2.0 specification was released in 2000. In addition to increasing the signaling rate from 12 MHz to 480 MHz, the specification describes a more advanced feature set and uses bandwidth more efficiently than 'Classic' USB. Version 2 of USB seems likely to prevent IEEE 1394 becoming widely adopted in instrument systems."
+          "description": "USB is the bus topology, and host-target protocol, mean that giving existing PC-based instruments a USB port not as trivial as it could be, but instruments with USB ports are coming onto the ICS market increasing numbers.  USB 1.1 has many features as serial data transmission, device powering, data sent in 1 ms packets. USB offers 1.5- and 12-Mbit/s speeds. Individual devices can use the bus for a maximum of 50% of the time. In practice, the maximum rate is not more than 0.6 Mbyte/s.  USB 2.0 specification was released in 2000. In addition to increasing the signaling rate from 12 MHz to 480 MHz, the specification describes a more advanced feature set and uses bandwidth more efficiently than 'Classic' USB. Version 2 of USB seems likely to prevent IEEE 1394 becoming widely adopted in instrument systems.",
+          "uuid": "99a27068-826d-5f6d-a933-2dc106b4d4a3"
         },
         {
           "value": "ethernet",
           "expanded": "Ethernet",
-          "description": "Instruments with ethernet interfaces have the great advantage that they can be accessed and controlled from a desktop anywhere in the world. A web-enabled ICS device behaves can be operated with standard browser. Systems with comm based on these interface can make use of existing Ethernet networks and connecting an instrument directly into the internet makes sharing of data easy. Fast data transfer is possible. However, when connected to the public internet it is difficult to secure or maintain its security and a full evaluation of the risks involved for this interface usage is very essential."
+          "description": "Instruments with ethernet interfaces have the great advantage that they can be accessed and controlled from a desktop anywhere in the world. A web-enabled ICS device behaves can be operated with standard browser. Systems with comm based on these interface can make use of existing Ethernet networks and connecting an instrument directly into the internet makes sharing of data easy. Fast data transfer is possible. However, when connected to the public internet it is difficult to secure or maintain its security and a full evaluation of the risks involved for this interface usage is very essential.",
+          "uuid": "d9db4edd-93ed-51d3-86fa-f36a6b58ae78"
         },
         {
           "value": "others",
           "expanded": "Others",
-          "description": "Other communication interface not listed."
+          "description": "Other communication interface not listed.",
+          "uuid": "846aac0d-1fb3-5a90-a186-697b9f9d1cd5"
         }
       ]
     },
@@ -495,22 +603,26 @@
         {
           "value": "rtos",
           "expanded": "RTOS",
-          "description": "Please see the URL reference, there are a lot of it to be listed in here.  These OS are also referred as Firmware. https://en.wikipedia.org/wiki/Comparison_of_real-time_operating_systems"
+          "description": "Please see the URL reference, there are a lot of it to be listed in here.  These OS are also referred as Firmware. https://en.wikipedia.org/wiki/Comparison_of_real-time_operating_systems",
+          "uuid": "66e337bb-bb0c-5f57-929a-41eb60f12c71"
         },
         {
           "value": "linux-embedded-base-os",
           "expanded": "Linux Embedded Base OS",
-          "description": "Yocto\\nBuildroot\\nOpenWRT\\nB & R Linux\\n Scientific Linux\\nRaspbian\\nAndroid"
+          "description": "Yocto\\nBuildroot\\nOpenWRT\\nB & R Linux\\n Scientific Linux\\nRaspbian\\nAndroid",
+          "uuid": "4b1fc3d5-b48a-5906-8b6d-e9f70a40ad98"
         },
         {
           "value": "bsd",
           "expanded": "BSD",
-          "description": "NetBSD (NetBSD Embedded Systems)\\nFreeBSD (Modified. i.e.: Orbis OS)"
+          "description": "NetBSD (NetBSD Embedded Systems)\\nFreeBSD (Modified. i.e.: Orbis OS)",
+          "uuid": "583902b7-1bd7-52bd-802b-1246b855e7c8"
         },
         {
           "value": "microsoft",
           "expanded": "Microsoft",
-          "description": "Windows 10 IoT Enterprise\\n Windows Embedded 8.1 Industry Professional\\n Windows 7 Professional/Ultimate\\n Windows Embedded Standard 7\\n Windows Embedded Standard 2009\\n Windows CE 6.0\\n"
+          "description": "Windows 10 IoT Enterprise\\n Windows Embedded 8.1 Industry Professional\\n Windows 7 Professional/Ultimate\\n Windows Embedded Standard 7\\n Windows Embedded Standard 2009\\n Windows CE 6.0\\n",
+          "uuid": "16d0ea9e-4926-5f5d-9aab-50eedf010184"
         }
       ]
     },
@@ -520,37 +632,44 @@
         {
           "value": "programmable-logic-controller",
           "expanded": "Programmable Logic Controller (PLC)",
-          "description": "1. Computing device with user-programmable memory to storing instructions to operate a physical process.\\n\\n 2.Various PLC types for different processses"
+          "description": "1. Computing device with user-programmable memory to storing instructions to operate a physical process.\\n\\n 2.Various PLC types for different processses",
+          "uuid": "d298afbd-a8fc-5e11-a6c0-c53c3a924647"
         },
         {
           "value": "remote-terminal-unit",
           "expanded": "Remote Terminal Unit (RTU)",
-          "description": "1. Data aquisitionand control unit designedto support field sites and remote stations.\\n\\n2. Wired and wireless communication capabilities.\\n\\n3. No stored program logic."
+          "description": "1. Data aquisitionand control unit designedto support field sites and remote stations.\\n\\n2. Wired and wireless communication capabilities.\\n\\n3. No stored program logic.",
+          "uuid": "6d7e3a50-b5f9-5379-929a-c05609dc2435"
         },
         {
           "value": "human-machine-interface",
           "expanded": "Human-Machine Interface (HMI)",
-          "description": "1. Hardware/software that operators used to interact with control system.\\n\\n2. From physical control panels to a complete computer systems"
+          "description": "1. Hardware/software that operators used to interact with control system.\\n\\n2. From physical control panels to a complete computer systems",
+          "uuid": "aaada5e1-6f3a-5a34-8d99-5c1d85d455c7"
         },
         {
           "value": "sensors",
           "expanded": "Sensors",
-          "description": "Pressure, Temperature, Flow, Voltage, Optical, Proximity"
+          "description": "Pressure, Temperature, Flow, Voltage, Optical, Proximity",
+          "uuid": "62f18e38-485f-5eb2-a5a7-15709b29a37f"
         },
         {
           "value": "actuators",
           "expanded": "Actuators",
-          "description": "Variable Frequency Drive, Servo Drive, Valve, Circuit Breaker"
+          "description": "Variable Frequency Drive, Servo Drive, Valve, Circuit Breaker",
+          "uuid": "c3449ed6-2663-5ac1-af70-15af1938d6e5"
         },
         {
           "value": "communications",
           "expanded": "Communications",
-          "description": "Modems, Routers, Serial - Ethernet Converters, Swtiches"
+          "description": "Modems, Routers, Serial - Ethernet Converters, Swtiches",
+          "uuid": "e4c49ffb-3027-5479-bfc9-11f299e60604"
         },
         {
           "value": "supervisory-level-devices",
           "expanded": "Supervisory Level Devices",
-          "description": "1. Control Server (Supervisory systems that hosts control software to manage lower level control devices like PLC).\\n\\n2. Data Historian (Centralized database for information about process, control activity and status record).\\n\\n3. Engineering workstations (Creating and revising control systems anbd programs, incl. project files)."
+          "description": "1. Control Server (Supervisory systems that hosts control software to manage lower level control devices like PLC).\\n\\n2. Data Historian (Centralized database for information about process, control activity and status record).\\n\\n3. Engineering workstations (Creating and revising control systems anbd programs, incl. project files).",
+          "uuid": "f69a7370-cd68-521c-acd6-4a11c9c8c6c8"
         }
       ]
     }
@@ -563,5 +682,6 @@
   "version": 1,
   "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
   "expanded": "Industrial Control System (ICS)",
-  "namespace": "ics"
+  "namespace": "ics",
+  "uuid": "8a7bdc9b-9f14-5b1a-85a3-e78fe00b6264"
 }

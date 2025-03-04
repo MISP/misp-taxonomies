@@ -5,31 +5,37 @@
   "predicates": [
     {
       "value": "competitive-analysis",
-      "expanded": "Competitive analysis"
+      "expanded": "Competitive analysis",
+      "uuid": "1334ef6f-3c85-57d7-82e3-dedc036b898b"
     },
     {
       "value": "extended-analysis",
-      "expanded": "Extended analysis"
+      "expanded": "Extended analysis",
+      "uuid": "8b571635-909b-5773-b00a-87b2d979d2a2"
     },
     {
       "value": "human-readable",
       "expanded": "Human readable",
-      "description": "This extended event makes a human readable output of a  machine or technical report."
+      "description": "This extended event makes a human readable output of a  machine or technical report.",
+      "uuid": "73d0fbed-7913-57cb-ad4f-e9436a2a7a2e"
     },
     {
       "value": "chunked-event",
       "expanded": "Chunked Event",
-      "description": "This extended event is a part of a large event."
+      "description": "This extended event is a part of a large event.",
+      "uuid": "39d35fb4-93ad-5f4c-8474-52835319c6c7"
     },
     {
       "value": "update",
       "expanded": "Update",
-      "description": "Original event is deprecated"
+      "description": "Original event is deprecated",
+      "uuid": "1bfed918-2e0e-517e-b402-207dd6011d78"
     },
     {
       "value": "counter-analysis",
       "expanded": "Counter analysis",
-      "description": "This extended event is a counter analysis of the original one. The author disagrees with the original statement."
+      "description": "This extended event is a counter analysis of the original one. The author disagrees with the original statement.",
+      "uuid": "4d6672dd-5f8b-5405-a110-0de6f45e492f"
     }
   ],
   "values": [
@@ -39,22 +45,26 @@
         {
           "value": "devil-advocate",
           "expanded": "Devil's advocate",
-          "description": "Is a competitive analysis of devil's advocate type. A devil’s advocate is someone who defends a minority point of view."
+          "description": "Is a competitive analysis of devil's advocate type. A devil’s advocate is someone who defends a minority point of view.",
+          "uuid": "9ee0cd28-3ba7-5630-b9e9-17e849730831"
         },
         {
           "value": "absurd-reasoning",
           "expanded": "Absurd reasoning",
-          "description": "Is a competitive analysis of absurd reasoning type."
+          "description": "Is a competitive analysis of absurd reasoning type.",
+          "uuid": "d551c73d-0ea6-593a-911e-a43198e811ff"
         },
         {
           "value": "role-playing",
           "expanded": "Role playing",
-          "description": "Is a competitive analysis of role playing type. Role playing is commonly used to overcome con- straints and inhibitions that limit the range of one’s thinking. Playing a role changes “where you sit.” It also gives one license to think and act differently."
+          "description": "Is a competitive analysis of role playing type. Role playing is commonly used to overcome con- straints and inhibitions that limit the range of one’s thinking. Playing a role changes “where you sit.” It also gives one license to think and act differently.",
+          "uuid": "410c4f0c-9a09-5380-ad38-2ab94bfd171b"
         },
         {
           "value": "crystal-ball",
           "expanded": "Crystal ball",
-          "description": "Is a competitive analysis of crystal ball type. The crystal ball approach works in much the same way as thinking backwards. Imagine that a “perfect” intelligence source (such as a crystal ball) has told you a certain assumption is wrong. You must then develop a scenario to explain how this could be true. If you can develop a plausible scenario, this suggests your assumption is open to some question."
+          "description": "Is a competitive analysis of crystal ball type. The crystal ball approach works in much the same way as thinking backwards. Imagine that a “perfect” intelligence source (such as a crystal ball) has told you a certain assumption is wrong. You must then develop a scenario to explain how this could be true. If you can develop a plausible scenario, this suggests your assumption is open to some question.",
+          "uuid": "367d529c-825c-5d68-8bd4-2ae9799feeaf"
         }
       ]
     },
@@ -64,17 +74,20 @@
         {
           "value": "automatic-expansion",
           "expanded": "Automatic expansion",
-          "description": "This extended event is composed of elements derived from automatic expansions services"
+          "description": "This extended event is composed of elements derived from automatic expansions services",
+          "uuid": "cb62db11-856b-5eb4-9aee-b50961fb5a83"
         },
         {
           "value": "aggressive-pivoting",
           "expanded": "Aggressive pivoting",
-          "description": "This extended event is composed of elements resulting of a careless pivoting"
+          "description": "This extended event is composed of elements resulting of a careless pivoting",
+          "uuid": "511d085a-2819-5169-9d2d-8418e22df142"
         },
         {
           "value": "complementary-analysis",
           "expanded": "Complementary analysis",
-          "description": "This extended event is composed of elements gathered by a different analyst than the original one"
+          "description": "This extended event is composed of elements gathered by a different analyst than the original one",
+          "uuid": "e701d30f-22ec-5149-b46a-734af7fb2cb0"
         }
       ]
     },
@@ -84,14 +97,17 @@
         {
           "value": "time-based",
           "expanded": "Time based",
-          "description": "is an element of a serie of extended events, split by matter of time"
+          "description": "is an element of a serie of extended events, split by matter of time",
+          "uuid": "a0c98f7f-9308-50eb-a99f-5be7ee5657cd"
         },
         {
           "value": "counter-based",
           "expanded": "Counter based",
-          "description": "is an element of a serie of extended events, split by number of elements"
+          "description": "is an element of a serie of extended events, split by number of elements",
+          "uuid": "617ea920-1ac0-5faf-9c61-a0134156858c"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "13c791c6-d21e-5be5-9151-ac34dc75126a"
 }

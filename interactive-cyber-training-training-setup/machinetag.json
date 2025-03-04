@@ -10,22 +10,26 @@
     {
       "value": "scoring",
       "expanded": "Scoring",
-      "description": "Scoring is not only used in competition-oriented training like CTF but also to motivate participants, give feedback, track the progress. The scoring can be based, but is not limited to monitoring systems, defined objectives, or over-the-shoulder evaluation mechanisms."
+      "description": "Scoring is not only used in competition-oriented training like CTF but also to motivate participants, give feedback, track the progress. The scoring can be based, but is not limited to monitoring systems, defined objectives, or over-the-shoulder evaluation mechanisms.",
+      "uuid": "b70c5f46-0ab4-56f8-bc99-0e7bc937cacf"
     },
     {
       "value": "roles",
       "expanded": "Roles",
-      "description": "Participants in a training are split in different teams, according to their skills, role and tasks."
+      "description": "Participants in a training are split in different teams, according to their skills, role and tasks.",
+      "uuid": "6755d3d6-9f05-5bbc-992e-0a3d2aefc7d0"
     },
     {
       "value": "training-mode",
       "expanded": "Training Mode",
-      "description": "Defines whether the training opposes singles persons, teams or groups."
+      "description": "Defines whether the training opposes singles persons, teams or groups.",
+      "uuid": "7c719647-69e3-55e5-afab-7b2f355dc31f"
     },
     {
       "value": "customization-level",
       "expanded": "Customization Level",
-      "description": "Defines the level of customization of the training."
+      "description": "Defines the level of customization of the training.",
+      "uuid": "57fa1196-8e09-5e04-8611-a692c6bf3a6a"
     }
   ],
   "values": [
@@ -35,32 +39,38 @@
         {
           "value": "no-scoring",
           "expanded": "No Scoring",
-          "description": "The training have no type of scoring."
+          "description": "The training have no type of scoring.",
+          "uuid": "afe6ef22-0a88-58c7-a205-332a9224a6ab"
         },
         {
           "value": "assessment-static",
           "expanded": "Assessment: Static",
-          "description": "The scoring in this variant relies on the static setting of different scores for tasks and objectives, possibly incluing a degree of difficulty as well."
+          "description": "The scoring in this variant relies on the static setting of different scores for tasks and objectives, possibly incluing a degree of difficulty as well.",
+          "uuid": "47a4db05-dad1-58c9-93e0-1c925f3cf3d6"
         },
         {
           "value": "assessment-dynamic",
           "expanded": "Assessment: Dynamic",
-          "description": "The scoring in this variant is set dynamically using mathematical functions or dynamic methods such as teh Elo Rating System."
+          "description": "The scoring in this variant is set dynamically using mathematical functions or dynamic methods such as teh Elo Rating System.",
+          "uuid": "823c656e-d3f6-5ea8-8802-313cdb2b2f28"
         },
         {
           "value": "awarding-manual",
           "expanded": "Awarding: Manual",
-          "description": "Awards are given manually."
+          "description": "Awards are given manually.",
+          "uuid": "9d01cfa7-2243-5b93-bf7c-dc25883c0da1"
         },
         {
           "value": "awarding-automatic",
           "expanded": "Awarding: Automatic",
-          "description": "Awards are given automatically."
+          "description": "Awards are given automatically.",
+          "uuid": "672905a5-3a84-53f4-8e92-30ef5bf06f6e"
         },
         {
           "value": "awarding-mixed",
           "expanded": "Awarding: Mixed",
-          "description": "Awards are given manually and/or automatically."
+          "description": "Awards are given manually and/or automatically.",
+          "uuid": "0afa1ec4-45a5-57a6-a34f-5be333dc0edd"
         }
       ]
     },
@@ -70,47 +80,56 @@
         {
           "value": "no-specific-role",
           "expanded": "No specific Role",
-          "description": "Individuals who do not fit into the defined teams can be assigned to this role."
+          "description": "Individuals who do not fit into the defined teams can be assigned to this role.",
+          "uuid": "a4e1be4b-6307-5183-b404-1afaf3b009f2"
         },
         {
           "value": "transparent-team-observer-watcher",
           "expanded": "Transparent Team - Observer/Watcher",
-          "description": "Members of this team observe the training. Usually, these people have a defined purpose, but have no influence on the training itself. Possible purposes are learning about the training topic and roles, studying strategies of participants, or supervising employees."
+          "description": "Members of this team observe the training. Usually, these people have a defined purpose, but have no influence on the training itself. Possible purposes are learning about the training topic and roles, studying strategies of participants, or supervising employees.",
+          "uuid": "6653f843-1e5a-5151-8c37-8afaf91d2227"
         },
         {
           "value": "white-team-trainer-instructor",
           "expanded": "White Team - Trainer/Instructor",
-          "description": "This team consists of instructors, referees, organizers, and training managers. They design the training scenario including objectives, rules, background story, and tasks. During the training, this team controls the progress and assigns tasks to the teams. These so-called injects also include simulated media, operation coordination, or law enforcement agencies. Giving hints for the training teams could also be part of this team."
+          "description": "This team consists of instructors, referees, organizers, and training managers. They design the training scenario including objectives, rules, background story, and tasks. During the training, this team controls the progress and assigns tasks to the teams. These so-called injects also include simulated media, operation coordination, or law enforcement agencies. Giving hints for the training teams could also be part of this team.",
+          "uuid": "8f905f0f-65f9-5b5b-9e84-1a41af5b18dc"
         },
         {
           "value": "green-team-organizer-admin",
           "expanded": "Green Team - Organizer/Admin",
-          "description": "The operators that are responsible for the exercise infrastructure build this team. Before a training, this team sets up and configures the environment and takes it down afterwards. During a training, it also monitors the environments health and handles problems that may arise."
+          "description": "The operators that are responsible for the exercise infrastructure build this team. Before a training, this team sets up and configures the environment and takes it down afterwards. During a training, it also monitors the environments health and handles problems that may arise.",
+          "uuid": "22140b51-af64-52dd-a224-5cd2d39fff51"
         },
         {
           "value": "red-team-attacker",
           "expanded": "Red Team - Attacker",
-          "description": "This team consists of people authorized and organized to model security adversaries. They are responsible to identify and exploit potential vulnerabilities present in the training environment. Depending on the training environment, the tasks can follow a predefined attack path."
+          "description": "This team consists of people authorized and organized to model security adversaries. They are responsible to identify and exploit potential vulnerabilities present in the training environment. Depending on the training environment, the tasks can follow a predefined attack path.",
+          "uuid": "42200f94-560b-5f2b-9434-a6304a3bdec4"
         },
         {
           "value": "blue-team-defender",
           "expanded": "Blue Team - Defender",
-          "description": "The group of individuals that is responsible for defending the training environment. They deal with the red team’s attacks and secure the compromised networks. Guidelines for that team are the training rules and local cyber law."
+          "description": "The group of individuals that is responsible for defending the training environment. They deal with the red team’s attacks and secure the compromised networks. Guidelines for that team are the training rules and local cyber law.",
+          "uuid": "00175375-e069-57c9-8126-91c5f917747e"
         },
         {
           "value": "gray-team-bystander",
           "expanded": "Gray Team - Bystander",
-          "description": "Bystanders of a training form this team. They do not necessarily have a specific intention or purpose, but an interest in the training event itself. It is also possible that this team interacts with participants and thereby unintentionally influences the training."
+          "description": "Bystanders of a training form this team. They do not necessarily have a specific intention or purpose, but an interest in the training event itself. It is also possible that this team interacts with participants and thereby unintentionally influences the training.",
+          "uuid": "fe0d14c2-9047-50d4-b024-aded25751083"
         },
         {
           "value": "yellow-team-insider",
           "expanded": "Yellow Team - Insider",
-          "description": "Members of this team perform not only tasks like generating legitimate network traffic and user behavior but also perform erroneous actions that lead to vulnerabilities and attacks. This team can also include the regular system builders, like programmers, developers, and software engineers and architects."
+          "description": "Members of this team perform not only tasks like generating legitimate network traffic and user behavior but also perform erroneous actions that lead to vulnerabilities and attacks. This team can also include the regular system builders, like programmers, developers, and software engineers and architects.",
+          "uuid": "6d3b1b28-a6c1-569f-9b7d-d7765b3fb2f4"
         },
         {
           "value": "purple-team-bridge",
           "expanded": "Purple Team - Bridge",
-          "description": "In a training, this team is a bridge between red and blue teams that helps to improve the performance of both. Through joint red-blue activities it improves the scope of the training participants. Goals are to maximize the Blue Teams capability and the effectiveness of Red Teams activities."
+          "description": "In a training, this team is a bridge between red and blue teams that helps to improve the performance of both. Through joint red-blue activities it improves the scope of the training participants. Goals are to maximize the Blue Teams capability and the effectiveness of Red Teams activities.",
+          "uuid": "fdcd9919-385a-51b7-bd2d-2a6c386159e5"
         }
       ]
     },
@@ -120,17 +139,20 @@
         {
           "value": "single",
           "expanded": "Single",
-          "description": "A single player plays against others. Others can be real persons, butalso scripted opponents."
+          "description": "A single player plays against others. Others can be real persons, butalso scripted opponents.",
+          "uuid": "80ddc9bc-8b40-5be3-af10-6f5cea34845f"
         },
         {
           "value": "team",
           "expanded": "Team",
-          "description": "A team plays against others. In this alignments, each player can bring its expertise into the training, focussing on different aspects. Examples are Blue and Red Teams."
+          "description": "A team plays against others. In this alignments, each player can bring its expertise into the training, focussing on different aspects. Examples are Blue and Red Teams.",
+          "uuid": "ea67af7b-636b-53ce-a77e-104f6a97da37"
         },
         {
           "value": "cross-group",
           "expanded": "Cross-Group",
-          "description": "A group plays against others. In this setting, the group members might not know each other. Example are CTF competitions and training for the entire organization in a breach scenario."
+          "description": "A group plays against others. In this setting, the group members might not know each other. Example are CTF competitions and training for the entire organization in a breach scenario.",
+          "uuid": "f475deb9-d68f-50fc-b4b4-96b9e0834cc7"
         }
       ]
     },
@@ -140,19 +162,23 @@
         {
           "value": "general",
           "expanded": "General",
-          "description": "A general purpose training setup is not, or only little customized. This variant is suited for an entry level training or to learn about general processes without regard to the underlying setup."
+          "description": "A general purpose training setup is not, or only little customized. This variant is suited for an entry level training or to learn about general processes without regard to the underlying setup.",
+          "uuid": "4d085735-3aa9-584c-89af-bb78697305f3"
         },
         {
           "value": "specific",
           "expanded": "Specific",
-          "description": "The training setup can be customized for a specific training goal or target audience. Examples for this variant are specific trainings within the High School education or for the health sector."
+          "description": "The training setup can be customized for a specific training goal or target audience. Examples for this variant are specific trainings within the High School education or for the health sector.",
+          "uuid": "d0333256-2d12-5e00-aa26-ed47a203a3ce"
         },
         {
           "value": "individual",
           "expanded": "Individual",
-          "description": "The most tailored variant is an individual customization. Hereby, the training setup corresponds to a real environment in the best possible way. Exemplary uses of this variant are the training of teams in their environment or the training of new expert-level employees."
+          "description": "The most tailored variant is an individual customization. Hereby, the training setup corresponds to a real environment in the best possible way. Exemplary uses of this variant are the training of teams in their environment or the training of new expert-level employees.",
+          "uuid": "d819185d-25bd-529d-8caf-824007cd1398"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "667fc21f-ed50-5820-8064-d5fe258380c8"
 }

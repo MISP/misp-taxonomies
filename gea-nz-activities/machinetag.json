@@ -9,112 +9,134 @@
     {
       "value": "cases-compliance",
       "expanded": "Cases Compliance",
-      "description": "Information about an occurrence by a person or organisation that is under official investigation."
+      "description": "Information about an occurrence by a person or organisation that is under official investigation.",
+      "uuid": "a1d4199e-8fab-5895-b4cb-86c213ccba6e"
     },
     {
       "value": "cases-proceeding",
       "expanded": "Cases Proceeding",
-      "description": "Information about a case held by an organisation related to interpretation of the law."
+      "description": "Information about a case held by an organisation related to interpretation of the law.",
+      "uuid": "db220ae0-f877-54ff-b56f-d8046b988950"
     },
     {
       "value": "cases-episode",
       "expanded": "Cases Episode",
-      "description": "Information focused on individual’s interactions with an agency, organisation or enterprise, which is tacked as a sequence over a period of time."
+      "description": "Information focused on individual’s interactions with an agency, organisation or enterprise, which is tacked as a sequence over a period of time.",
+      "uuid": "735af0b9-f062-5c21-b3a1-0b93380f9fe0"
     },
     {
       "value": "cases-commission-of-inquiry",
       "expanded": "Cases Commission of Inquiry",
-      "description": "Information relating to inquiries into various issues. Commissions report findings, give advice and make recommendations."
+      "description": "Information relating to inquiries into various issues. Commissions report findings, give advice and make recommendations.",
+      "uuid": "b4282975-fc07-564c-88c7-866be1309e39"
     },
     {
       "value": "cases-claim",
       "expanded": "Cases Claim",
-      "description": "Information about claims."
+      "description": "Information about claims.",
+      "uuid": "dd97978a-a956-5694-895e-5c24d84d0d02"
     },
     {
       "value": "cases-request",
       "expanded": "Cases Request",
-      "description": "Information about requests that need to be tracked."
+      "description": "Information about requests that need to be tracked.",
+      "uuid": "bfdb3ab1-bde0-54a2-a5a6-b3a2d3d0d444"
     },
     {
       "value": "cases-order",
       "expanded": "Cases Order",
-      "description": "Information relating to orders and tracking of the orders."
+      "description": "Information relating to orders and tracking of the orders.",
+      "uuid": "03cf6a97-5903-5a0c-8344-45abc3e0bc20"
     },
     {
       "value": "events-personal",
       "expanded": "Events Personal",
-      "description": "Information around personal events like birth, starting school, getting married, etc."
+      "description": "Information around personal events like birth, starting school, getting married, etc.",
+      "uuid": "fee8123d-6a13-5d43-b6f6-b52a48665eda"
     },
     {
       "value": "events-crisis",
       "expanded": "Events Crisis",
-      "description": "Information about events that describe a personal crisis."
+      "description": "Information about events that describe a personal crisis.",
+      "uuid": "18e20685-cc8f-5437-bee1-d4399b4e0ae3"
     },
     {
       "value": "events-social",
       "expanded": "Events Social",
-      "description": "Information relating to planned or spontaneous occurrences of a social nature that may require a response by an organisation."
+      "description": "Information relating to planned or spontaneous occurrences of a social nature that may require a response by an organisation.",
+      "uuid": "0c19f6fb-c268-5648-987e-08652df27f9b"
     },
     {
       "value": "events-business",
       "expanded": "Events Business",
-      "description": "Information related to a type of event relating to the business of the organisation."
+      "description": "Information related to a type of event relating to the business of the organisation.",
+      "uuid": "a4fbab3c-0d8d-56e1-82c3-309db368d138"
     },
     {
       "value": "events-trade",
       "expanded": "Events Trade",
-      "description": "Information about events that hold substantial meaning for an individual but which are tracked by an organisation such as birth, deaths, health condition etc."
+      "description": "Information about events that hold substantial meaning for an individual but which are tracked by an organisation such as birth, deaths, health condition etc.",
+      "uuid": "e3d8e16d-eabd-583c-bc10-54cdbaa78e09"
     },
     {
       "value": "events-travel",
       "expanded": "Events Travel",
-      "description": "Information related to traveling overseas or coming into France."
+      "description": "Information related to traveling overseas or coming into France.",
+      "uuid": "b57a109e-6df0-5c64-83ba-10345ae1888a"
     },
     {
       "value": "events-environmental",
       "expanded": "Events Environmental",
-      "description": "Information held by an organisation about environmental activities such as atmospheric pressures, geological formations, rainfall etc."
+      "description": "Information held by an organisation about environmental activities such as atmospheric pressures, geological formations, rainfall etc.",
+      "uuid": "2aaccf91-01ba-5122-9df8-9c9928d7ed4e"
     },
     {
       "value": "events-uncontrolled",
       "expanded": "Events Uncontrolled",
-      "description": "Information about events that occur spontaneously, but to which the organisation is required to respond."
+      "description": "Information about events that occur spontaneously, but to which the organisation is required to respond.",
+      "uuid": "989bafef-c05b-53fb-ad09-ee0db8224d1f"
     },
     {
       "value": "events-interaction",
       "expanded": "Events Interaction",
-      "description": "Information about activity that describes a relevant process or action undertaken by the enterprise."
+      "description": "Information about activity that describes a relevant process or action undertaken by the enterprise.",
+      "uuid": "67bf21e8-ea13-5a87-8298-3186f133ab25"
     },
     {
       "value": "services-france-society",
       "expanded": "Services France Society",
-      "description": "Information related to services delivered across France individuals, communities, and businesses."
+      "description": "Information related to services delivered across France individuals, communities, and businesses.",
+      "uuid": "8822b0f5-367f-576f-9cd7-279afc502f50"
     },
     {
       "value": "services-inviduals-&-communities",
       "expanded": "Services Inviduals & Communities",
-      "description": "Information related to services delivered specifically to France individuals and communities."
+      "description": "Information related to services delivered specifically to France individuals and communities.",
+      "uuid": "4cf53223-db81-58d4-b6c6-bd2025219728"
     },
     {
       "value": "services-services-to-business",
       "expanded": "Services Services to Business",
-      "description": "Information related to services delivered specifically to France businesses."
+      "description": "Information related to services delivered specifically to France businesses.",
+      "uuid": "e721fa77-013a-52db-89d7-5bb8868828e1"
     },
     {
       "value": "services-civic-infrastructure",
       "expanded": "Services Civic Infrastructure",
-      "description": "Information related to services delivering France infrastructure."
+      "description": "Information related to services delivering France infrastructure.",
+      "uuid": "b7e9e817-fd85-585e-a16e-77fad7a2c511"
     },
     {
       "value": "services-government-administration",
       "expanded": "Services Government Infrastructure",
-      "description": "Information related to delivering France government wide operations and support services."
+      "description": "Information related to delivering France government wide operations and support services.",
+      "uuid": "bad54ba4-b6dd-5d3c-b4f0-e06ece4ef6fe"
     },
     {
       "value": "services-services-from-business",
       "expanded": "Services Services from Business",
-      "description": "Information related to services delivered by businesses."
+      "description": "Information related to services delivered by businesses.",
+      "uuid": "5127f3e9-e269-5149-87d5-f12e261ab1e1"
     }
   ],
   "values": [
@@ -124,27 +146,32 @@
         {
           "value": "assessment",
           "expanded": "Assessment",
-          "description": "Detailed information related to performing an assessment, the act of assessing; appraisal; evaluation."
+          "description": "Detailed information related to performing an assessment, the act of assessing; appraisal; evaluation.",
+          "uuid": "c2436d5f-9623-5889-a42a-fae35c9f12d8"
         },
         {
           "value": "audit",
           "expanded": "Audit",
-          "description": "Detailed information related to performing an audit, to make an audit of; examine (accounts, records, etc.) for purposes of verification."
+          "description": "Detailed information related to performing an audit, to make an audit of; examine (accounts, records, etc.) for purposes of verification.",
+          "uuid": "8dead7f4-2725-5f1f-9ad2-ed4040baca86"
         },
         {
           "value": "inspection",
           "expanded": "Inspection",
-          "description": "Detailed information related to performing an inspection or viewing."
+          "description": "Detailed information related to performing an inspection or viewing.",
+          "uuid": "54c4785f-6e3a-5d4c-9777-56df20a51729"
         },
         {
           "value": "investigation",
           "expanded": "Investigation",
-          "description": "Detailed information related to performing an investigation, to search out and examine the particulars of in an attempt to learn the facts about something hidden, unique, or complex, especially in an attempt to find a motive, cause, or culprit."
+          "description": "Detailed information related to performing an investigation, to search out and examine the particulars of in an attempt to learn the facts about something hidden, unique, or complex, especially in an attempt to find a motive, cause, or culprit.",
+          "uuid": "77fc8510-eb5b-54d7-a4c4-e61b57c991d2"
         },
         {
           "value": "review",
           "expanded": "Review",
-          "description": "Detailed information related to performing a review, to survey mentally; take a survey of."
+          "description": "Detailed information related to performing a review, to survey mentally; take a survey of.",
+          "uuid": "cce0f8c8-7494-5f77-97d9-748e7b247c8f"
         }
       ]
     },
@@ -154,22 +181,26 @@
         {
           "value": "breach",
           "expanded": "Breach",
-          "description": "Detailed information related to breaches, such as breach of contract, defamation, the recovering of debts, and family disputes over care arrangements for children, and others."
+          "description": "Detailed information related to breaches, such as breach of contract, defamation, the recovering of debts, and family disputes over care arrangements for children, and others.",
+          "uuid": "db4414e9-3af1-51eb-8c5f-cd28dfd3e738"
         },
         {
           "value": "fine",
           "expanded": "Fine",
-          "description": "Detailed information related to fines, such as parking fine, speeding fine, and others."
+          "description": "Detailed information related to fines, such as parking fine, speeding fine, and others.",
+          "uuid": "a92c343d-1401-5798-b281-e410582934c1"
         },
         {
           "value": "fraud",
           "expanded": "Fraud",
-          "description": "Detailed information related to fraud."
+          "description": "Detailed information related to fraud.",
+          "uuid": "85f20a23-2890-5f28-a211-f770260eec25"
         },
         {
           "value": "offence",
           "expanded": "Offence",
-          "description": "Detailed information related to an offence."
+          "description": "Detailed information related to an offence.",
+          "uuid": "c7b644e5-80ae-5054-8b4f-612cc8ef00e9"
         }
       ]
     },
@@ -179,52 +210,62 @@
         {
           "value": "defect",
           "expanded": "Defect",
-          "description": "Detailed information related to cases concerning defects, such as time of occurrence, a repeated defect, solution, etc."
+          "description": "Detailed information related to cases concerning defects, such as time of occurrence, a repeated defect, solution, etc.",
+          "uuid": "1eeda7ed-8e86-56b6-a140-0c711241d3df"
         },
         {
           "value": "emergency",
           "expanded": "Emergency",
-          "description": "Detailed information related to emergency cases."
+          "description": "Detailed information related to emergency cases.",
+          "uuid": "e09f9b61-6b15-5a7a-aef2-7157fa41f6f7"
         },
         {
           "value": "error",
           "expanded": "Error",
-          "description": "Detailed information related to errors, a deviation from accuracy or correctness."
+          "description": "Detailed information related to errors, a deviation from accuracy or correctness.",
+          "uuid": "d9abb501-a199-5813-8f8c-57478b34ff1e"
         },
         {
           "value": "fault",
           "expanded": "Fault",
-          "description": "Detailed information related to cases concerning faults, a defect or imperfection; flaw; failing."
+          "description": "Detailed information related to cases concerning faults, a defect or imperfection; flaw; failing.",
+          "uuid": "c5d8309a-b8cb-56a4-899d-2b4f320b0eb2"
         },
         {
           "value": "history",
           "expanded": "History",
-          "description": "Detailed information related to history, meaning a sequence of events, such as family history."
+          "description": "Detailed information related to history, meaning a sequence of events, such as family history.",
+          "uuid": "f441f795-977f-56ab-8630-3a4df573d019"
         },
         {
           "value": "incident",
           "expanded": "Incident",
-          "description": "Detailed information related to cases concerning incidents, an individual occurrence or event."
+          "description": "Detailed information related to cases concerning incidents, an individual occurrence or event.",
+          "uuid": "0a37ab03-a15a-5c36-ab8f-7d2d172d5d7b"
         },
         {
           "value": "issue",
           "expanded": "Issue",
-          "description": "Detailed information related to cases concerning issues, a point in question or a matter that is in dispute which needs a decision."
+          "description": "Detailed information related to cases concerning issues, a point in question or a matter that is in dispute which needs a decision.",
+          "uuid": "9c494b70-a88d-5d90-8cbb-119d213d9ff5"
         },
         {
           "value": "problem",
           "expanded": "Problem",
-          "description": "Detailed information related to problems, any question or matter involving doubt, uncertainty, or difficulty."
+          "description": "Detailed information related to problems, any question or matter involving doubt, uncertainty, or difficulty.",
+          "uuid": "b6a3069e-0f92-56e9-8e62-eb6f479cd6a4"
         },
         {
           "value": "crime",
           "expanded": "Crime",
-          "description": "Detailed information related to cases concerning crimes, actions or instances of negligence that is deemed injurious to the public welfare or morals or to the interests of the state and that is legally prohibited."
+          "description": "Detailed information related to cases concerning crimes, actions or instances of negligence that is deemed injurious to the public welfare or morals or to the interests of the state and that is legally prohibited.",
+          "uuid": "3b469a97-5f72-572a-913a-d660c17c7480"
         },
         {
           "value": "infrigement",
           "expanded": "Infrigement",
-          "description": "Detailed information related to cases concerning infringements, a breach or infraction, as of a law, right, or obligation; violation; transgression."
+          "description": "Detailed information related to cases concerning infringements, a breach or infraction, as of a law, right, or obligation; violation; transgression.",
+          "uuid": "cc25374b-3f11-5b04-8cd2-44474e8dcfe9"
         }
       ]
     },
@@ -234,27 +275,32 @@
         {
           "value": "claim-of-definition",
           "expanded": "Claim of Definition",
-          "description": "Detailed information related to claims of definition."
+          "description": "Detailed information related to claims of definition.",
+          "uuid": "100862e0-4d54-51e8-9090-b626d69a2f4d"
         },
         {
           "value": "claim-of-cause",
           "expanded": "Claim of Cause",
-          "description": "Detailed information related to claims of cause."
+          "description": "Detailed information related to claims of cause.",
+          "uuid": "40250383-48a2-59a0-a7a2-fca3cf72fbe5"
         },
         {
           "value": "claim-of-value",
           "expanded": "Claim of Value",
-          "description": "Detailed information related to claims of value."
+          "description": "Detailed information related to claims of value.",
+          "uuid": "8a9852d9-e05d-5df7-a7fa-6248da7f8d7b"
         },
         {
           "value": "claim-of-policy",
           "expanded": "Claim of Policy",
-          "description": "Detailed information related to claims of policy."
+          "description": "Detailed information related to claims of policy.",
+          "uuid": "d884a9a5-7f8e-5220-9812-0e65e96c9dd8"
         },
         {
           "value": "claim-of-fact",
           "expanded": "Claim of Fact",
-          "description": "Detailed information related to claims of fact."
+          "description": "Detailed information related to claims of fact.",
+          "uuid": "a01f8ce1-dc34-566d-a51a-b57faee79db9"
         }
       ]
     },
@@ -264,37 +310,44 @@
         {
           "value": "request-for-information",
           "expanded": "Request for Information",
-          "description": "Detailed information related to requests for information."
+          "description": "Detailed information related to requests for information.",
+          "uuid": "0a703b15-3d15-5538-a7b1-4791334a3d51"
         },
         {
           "value": "request-for-proposal",
           "expanded": "Request for proposal",
-          "description": "Detailed information related to requests for proposals."
+          "description": "Detailed information related to requests for proposals.",
+          "uuid": "05ba63bc-9176-5b94-9bfa-6442194e59c6"
         },
         {
           "value": "request-for-quotation",
           "expanded": "Request for quotation",
-          "description": "Detailed information related to requests for quotation."
+          "description": "Detailed information related to requests for quotation.",
+          "uuid": "52f058ae-910f-557c-9b9b-2f16c2b4a37e"
         },
         {
           "value": "request-for-tender",
           "expanded": "Request for Tender",
-          "description": "Detailed information related to requests for tender."
+          "description": "Detailed information related to requests for tender.",
+          "uuid": "3e0c5842-7156-5098-8128-e013c1cefd89"
         },
         {
           "value": "request-for-approval",
           "expanded": "Request for Approval",
-          "description": "Detailed information related to requests for approval."
+          "description": "Detailed information related to requests for approval.",
+          "uuid": "811e6acd-b4e9-5daf-b949-b2f787429369"
         },
         {
           "value": "request-for-comments",
           "expanded": "Request for Comments",
-          "description": "Detailed information related to requests for comments."
+          "description": "Detailed information related to requests for comments.",
+          "uuid": "3ace20f6-8163-52f7-ab38-10ea07ba7621"
         },
         {
           "value": "order",
           "expanded": "Order",
-          "description": "Information relating to orders and tracking of the orders."
+          "description": "Information relating to orders and tracking of the orders.",
+          "uuid": "efebf305-5851-5ac3-88e3-55d42b68d5d9"
         }
       ]
     },
@@ -304,57 +357,68 @@
         {
           "value": "birth",
           "expanded": "Birth",
-          "description": "Detailed information related to giving birth."
+          "description": "Detailed information related to giving birth.",
+          "uuid": "3d1c4318-bf72-5023-b0d8-cff6e7a3acba"
         },
         {
           "value": "starting-school",
           "expanded": "Starting School",
-          "description": "Detailed information related to starting school."
+          "description": "Detailed information related to starting school.",
+          "uuid": "a4e8a9cc-9cd5-50dd-94ab-72ac4a1a130a"
         },
         {
           "value": "adoption",
           "expanded": "Adoption",
-          "description": "Detailed information related to adopting a child."
+          "description": "Detailed information related to adopting a child.",
+          "uuid": "2efca6c4-a825-52e4-9472-451eb63fd815"
         },
         {
           "value": "marriage",
           "expanded": "Marriage",
-          "description": "Detailed information related to get married."
+          "description": "Detailed information related to get married.",
+          "uuid": "9d622aa0-e76e-55f3-9fce-7fc439f06533"
         },
         {
           "value": "senior-citizenship",
           "expanded": "Senior Citizenship",
-          "description": "Detailed information related to becoming a senior citizen."
+          "description": "Detailed information related to becoming a senior citizen.",
+          "uuid": "3ec4a12a-5007-5f99-b5df-614ddb7c8c51"
         },
         {
           "value": "care",
           "expanded": "Care",
-          "description": "Detailed information related to going into care."
+          "description": "Detailed information related to going into care.",
+          "uuid": "62a2a679-4db6-5fdd-a5c8-ee50e177dff4"
         },
         {
           "value": "death",
           "expanded": "Death",
-          "description": "Detailed information related to a death."
+          "description": "Detailed information related to a death.",
+          "uuid": "efdf60d9-7ba1-563d-8c8f-26b5f39e29e0"
         },
         {
           "value": "fostering",
           "expanded": "Fostering",
-          "description": "Detailed information related to fostering a child."
+          "description": "Detailed information related to fostering a child.",
+          "uuid": "60d55c36-45c6-56b3-981a-a5cec336f042"
         },
         {
           "value": "enrol-to-vote",
           "expanded": "Enrol to Vote",
-          "description": "Detailed information related to the event of enrolling to vote and voting."
+          "description": "Detailed information related to the event of enrolling to vote and voting.",
+          "uuid": "132c9546-f0c6-577f-a109-17cc13201c04"
         },
         {
           "value": "volunteering",
           "expanded": "Volunteering",
-          "description": "Detailed information related to the event of volunteering for public services."
+          "description": "Detailed information related to the event of volunteering for public services.",
+          "uuid": "c08b0fe3-b448-526a-bc37-0cf7ea53bb1e"
         },
         {
           "value": "driver's-licence",
           "expanded": "Driver's Licence",
-          "description": "Detailed information related to getting a driver's licence."
+          "description": "Detailed information related to getting a driver's licence.",
+          "uuid": "34fa0c3e-b7be-5502-a369-740f990f9de3"
         }
       ]
     },
@@ -364,32 +428,38 @@
         {
           "value": "victim-of-a-crime",
           "expanded": "Victim of a Crime",
-          "description": "Detailed information related to the event of being a victim of a crime."
+          "description": "Detailed information related to the event of being a victim of a crime.",
+          "uuid": "bb30a3be-c548-53f0-a801-90b5d70df993"
         },
         {
           "value": "witness-of-a-crime",
           "expanded": "Witness of a Crime",
-          "description": "Detailed information related to the event of being a witness of a crime."
+          "description": "Detailed information related to the event of being a witness of a crime.",
+          "uuid": "b6997c47-5510-5876-aee6-41159bfd276e"
         },
         {
           "value": "health",
           "expanded": "Health",
-          "description": "Detailed information related to a health event, such as illness and operations."
+          "description": "Detailed information related to a health event, such as illness and operations.",
+          "uuid": "bbeafbaf-3915-5d9c-a741-79fe226e7ab0"
         },
         {
           "value": "emergency",
           "expanded": "Emergency",
-          "description": "Detailed information related to an emergency."
+          "description": "Detailed information related to an emergency.",
+          "uuid": "65e1a13d-3752-5ceb-a050-08112f0a4699"
         },
         {
           "value": "accused",
           "expanded": "Accused",
-          "description": "Detailed information related to being accused of a crime."
+          "description": "Detailed information related to being accused of a crime.",
+          "uuid": "4b71e33f-5434-541b-9659-62870daca2bc"
         },
         {
           "value": "convicted",
           "expanded": "Convicted",
-          "description": "Detailed information related to being convicted of a crime."
+          "description": "Detailed information related to being convicted of a crime.",
+          "uuid": "8d49e51f-915f-5ef2-8ab7-459a0b4840fc"
         }
       ]
     },
@@ -399,32 +469,38 @@
         {
           "value": "ceremony",
           "expanded": "Ceremony",
-          "description": "Detailed information related to ceremonies."
+          "description": "Detailed information related to ceremonies.",
+          "uuid": "258f0ec8-7462-5b78-94aa-fcfa99db4520"
         },
         {
           "value": "conference",
           "expanded": "Conference",
-          "description": "Detailed information related to conferences."
+          "description": "Detailed information related to conferences.",
+          "uuid": "a461b57a-800f-5c45-ba2d-f30239eb3d9a"
         },
         {
           "value": "concert",
           "expanded": "Concert",
-          "description": "Detailed information related to concerts."
+          "description": "Detailed information related to concerts.",
+          "uuid": "0a8b49e4-37c6-5719-a1a6-d1e4697aae65"
         },
         {
           "value": "sporting-event",
           "expanded": "Spporting Event",
-          "description": "Detailed information related to sporting events, an activity involving physical exertion and skill that is governed by a set of rules or customs and often undertaken competitively, often sports."
+          "description": "Detailed information related to sporting events, an activity involving physical exertion and skill that is governed by a set of rules or customs and often undertaken competitively, often sports.",
+          "uuid": "dc959d56-6cad-5d4a-8739-34eab1eb6993"
         },
         {
           "value": "protest",
           "expanded": "Protest",
-          "description": "Detailed information related to protests, an event at which people gather together to show strong disapproval about something."
+          "description": "Detailed information related to protests, an event at which people gather together to show strong disapproval about something.",
+          "uuid": "f35ed2ec-82ab-58fe-a276-ebb4eb719b9d"
         },
         {
           "value": "festival",
           "expanded": "Festival",
-          "description": "Detailed information related to festivals."
+          "description": "Detailed information related to festivals.",
+          "uuid": "9f525ff9-6487-5031-a236-be7369ea5ca3"
         }
       ]
     },
@@ -434,57 +510,68 @@
         {
           "value": "seed-capital",
           "expanded": "Seed Capital",
-          "description": "Detailed information related to seeding a business."
+          "description": "Detailed information related to seeding a business.",
+          "uuid": "07e64104-fe92-5a56-9b56-b324c29816dc"
         },
         {
           "value": "start-up",
           "expanded": "Start-up",
-          "description": "Detailed information related to starting up a business."
+          "description": "Detailed information related to starting up a business.",
+          "uuid": "2c9d167e-e8aa-52d9-b5e3-2e679ea5f448"
         },
         {
           "value": "hiring",
           "expanded": "Hiring",
-          "description": "Detailed information related to hiring staff."
+          "description": "Detailed information related to hiring staff.",
+          "uuid": "f29dfb0c-c4c5-5ebb-9cac-246022c86bb2"
         },
         {
           "value": "termination-of-employment",
           "expanded": "Termination of Employment",
-          "description": "Detailed information related to terminating a employment contract."
+          "description": "Detailed information related to terminating a employment contract.",
+          "uuid": "7be2236c-091a-5612-8f09-e704cc5b559c"
         },
         {
           "value": "merge",
           "expanded": "Merge",
-          "description": "Detailed information related to merging of two or more companies, generally by offering the stockholders of one company securities in the acquiring company in exchange for the surrender of their stock."
+          "description": "Detailed information related to merging of two or more companies, generally by offering the stockholders of one company securities in the acquiring company in exchange for the surrender of their stock.",
+          "uuid": "60b2ca89-8629-509d-bebf-4b60e10c2e30"
         },
         {
           "value": "demerge",
           "expanded": "Demerge",
-          "description": "Detailed information related to a demerger, the separation of a large company into two or more smaller organizations, particularly as the dissolution of an earlier merger."
+          "description": "Detailed information related to a demerger, the separation of a large company into two or more smaller organizations, particularly as the dissolution of an earlier merger.",
+          "uuid": "15fa2a7c-f009-5c0d-b621-59b9d93d97a7"
         },
         {
           "value": "stock-exchange-listing",
           "expanded": "Stock Exchange Listing",
-          "description": "Detailed information related to listing a company on the stock exchange."
+          "description": "Detailed information related to listing a company on the stock exchange.",
+          "uuid": "931d9ced-3f49-5a07-a8b7-15a3f0c8a8dc"
         },
         {
           "value": "stock-exchange-delisting",
           "expanded": "Stock Exchange Delisting",
-          "description": "Detailed information related to de-listing or removing a company from the stock exchange."
+          "description": "Detailed information related to de-listing or removing a company from the stock exchange.",
+          "uuid": "8a06e555-8c6e-59a2-8056-9c5f84ef2988"
         },
         {
           "value": "change-name",
           "expanded": "Change Name",
-          "description": "Detailed information related to changing the name of a company."
+          "description": "Detailed information related to changing the name of a company.",
+          "uuid": "919b93c0-de3f-5bad-b23b-7ca4d1c70ee1"
         },
         {
           "value": "bankruptcy",
           "expanded": "Bankruptcy",
-          "description": "Detailed information related to a company going bankrupt."
+          "description": "Detailed information related to a company going bankrupt.",
+          "uuid": "229d5cf8-91ce-5d50-ac31-69f712378e3f"
         },
         {
           "value": "cease",
           "expanded": "Cease",
-          "description": "Detailed information related to closing a company."
+          "description": "Detailed information related to closing a company.",
+          "uuid": "5435d606-9fb0-5077-974d-7c00e95b63bc"
         }
       ]
     },
@@ -494,27 +581,32 @@
         {
           "value": "buying",
           "expanded": "Buying",
-          "description": "Detailed information related to buying goods or real estates."
+          "description": "Detailed information related to buying goods or real estates.",
+          "uuid": "67aa0663-912a-5767-95c5-304081ef0d7b"
         },
         {
           "value": "selling",
           "expanded": "Selling",
-          "description": "Detailed information related to selling goods or real estates."
+          "description": "Detailed information related to selling goods or real estates.",
+          "uuid": "a5489d0f-8682-532f-95d7-0d0b4b1729a9"
         },
         {
           "value": "importing",
           "expanded": "Importing",
-          "description": "Detailed information related to importing goods."
+          "description": "Detailed information related to importing goods.",
+          "uuid": "6e567bde-4d7e-5ab8-bf65-e43c77f360ad"
         },
         {
           "value": "exporting",
           "expanded": "Exporting",
-          "description": "Detailed information related to exporting goods."
+          "description": "Detailed information related to exporting goods.",
+          "uuid": "57963a70-e2cb-5219-81e6-38082df4cc47"
         },
         {
           "value": "renting",
           "expanded": "Renting",
-          "description": "Detailed information related to renting goods or real estate."
+          "description": "Detailed information related to renting goods or real estate.",
+          "uuid": "4a05c4bc-f499-5715-8694-0222ecab8919"
         }
       ]
     },
@@ -524,12 +616,14 @@
         {
           "value": "travelling-overseas",
           "expanded": "Travelling Overseas",
-          "description": "Detailed information related to traveling overseas."
+          "description": "Detailed information related to traveling overseas.",
+          "uuid": "a6165bac-b193-5ee8-8fa4-19e32177b285"
         },
         {
           "value": "extended-stay-in-france",
           "expanded": "Extended Stay in France",
-          "description": "Detailed information related to an extended stay in France."
+          "description": "Detailed information related to an extended stay in France.",
+          "uuid": "c8fec708-302d-505e-a8ce-8609184bee1d"
         }
       ]
     },
@@ -539,22 +633,26 @@
         {
           "value": "atmospheric",
           "expanded": "Atmospheric",
-          "description": "Detailed information related to atmospheric event, such as cyclone, hail, hurricane, lightning, rain, snow, typhoon, wind, pressure."
+          "description": "Detailed information related to atmospheric event, such as cyclone, hail, hurricane, lightning, rain, snow, typhoon, wind, pressure.",
+          "uuid": "bbc8d1b3-c654-53d8-aef3-657047c5b530"
         },
         {
           "value": "elemental",
           "expanded": "Elemental",
-          "description": "Detailed information related to elemental event, such as avalanche, fire, flood, landslide, tsunami, etc."
+          "description": "Detailed information related to elemental event, such as avalanche, fire, flood, landslide, tsunami, etc.",
+          "uuid": "21e46b19-6ff4-5f74-8eb1-5616ddfa9837"
         },
         {
           "value": "geological",
           "expanded": "Geological",
-          "description": "Detailed information related to geological event, such as earthquake, eruption, formation."
+          "description": "Detailed information related to geological event, such as earthquake, eruption, formation.",
+          "uuid": "26ff749f-0f40-54ea-a3bc-9f21b4aa6cbc"
         },
         {
           "value": "seasonal",
           "expanded": "Seasonal",
-          "description": "Detailed information related to seasonal events."
+          "description": "Detailed information related to seasonal events.",
+          "uuid": "db04b838-b51b-5153-aab4-406064c8066a"
         }
       ]
     },
@@ -564,22 +662,26 @@
         {
           "value": "accident",
           "expanded": "Accident",
-          "description": "Detailed information related to an accident, such as crash, explosion, implosion, spill, etc."
+          "description": "Detailed information related to an accident, such as crash, explosion, implosion, spill, etc.",
+          "uuid": "80e77cef-9afa-565f-a03a-8ecb0b4aa605"
         },
         {
           "value": "attack",
           "expanded": "Attack",
-          "description": "Detailed information related to attacks, such as arson, bombing, coup, kidnapping, biological attack, terrorism, uprising, and threats which lead to an offence."
+          "description": "Detailed information related to attacks, such as arson, bombing, coup, kidnapping, biological attack, terrorism, uprising, and threats which lead to an offence.",
+          "uuid": "61360536-83ed-5f2b-b517-0e02af7570e4"
         },
         {
           "value": "failure",
           "expanded": "Failure",
-          "description": "Detailed information related to a failure, such as blackout, nuclear meltdown, etc."
+          "description": "Detailed information related to a failure, such as blackout, nuclear meltdown, etc.",
+          "uuid": "4a5881d6-2236-5710-8d5d-6bf798101644"
         },
         {
           "value": "other",
           "expanded": "Other",
-          "description": "Detailed information related to other uncontrolled events."
+          "description": "Detailed information related to other uncontrolled events.",
+          "uuid": "ef2d708b-0b3c-53a3-9ce6-63fb5bed2111"
         }
       ]
     },
@@ -589,17 +691,20 @@
         {
           "value": "channel",
           "expanded": "Channel",
-          "description": "A channel or mode by which an interaction takes place. For example face-to-face, in-person or by mail etc."
+          "description": "A channel or mode by which an interaction takes place. For example face-to-face, in-person or by mail etc.",
+          "uuid": "fd83f952-8a78-5a63-bd41-1a81add4092d"
         },
         {
           "value": "medium",
           "expanded": "Medium",
-          "description": "The format in which information content is supplied to others, provided internally to the organisation or purchased from an external provider."
+          "description": "The format in which information content is supplied to others, provided internally to the organisation or purchased from an external provider.",
+          "uuid": "ca1d5944-45e6-500a-9002-81978b8006a8"
         },
         {
           "value": "interaction-type",
           "expanded": "Interaction Type",
-          "description": "Actions represent the information about key interactions that occur. Concepts such as Operators Assisted and Self Service are just relationships from parties in their appropriate roles to an action."
+          "description": "Actions represent the information about key interactions that occur. Concepts such as Operators Assisted and Self Service are just relationships from parties in their appropriate roles to an action.",
+          "uuid": "2584e075-c49e-550d-92f7-353594a03cc4"
         }
       ]
     },
@@ -609,77 +714,92 @@
         {
           "value": "border-control",
           "expanded": "Border Control",
-          "description": "Detailed information related to border control services."
+          "description": "Detailed information related to border control services.",
+          "uuid": "bc8d3e7b-9a5a-503a-b125-3dadf08666b3"
         },
         {
           "value": "culture-and-heritage",
           "expanded": "Culture and Heritage",
-          "description": "Detailed information related to services to support culture and heritage."
+          "description": "Detailed information related to services to support culture and heritage.",
+          "uuid": "cd229c4e-23a4-50d9-8875-ad406746ae3d"
         },
         {
           "value": "defence",
           "expanded": "Defence",
-          "description": "Detailed information related to services to support the defence and protection of the nation."
+          "description": "Detailed information related to services to support the defence and protection of the nation.",
+          "uuid": "15396d91-7d49-5225-b2d2-1e064607ea58"
         },
         {
           "value": "economic-service",
           "expanded": "Economic Service",
-          "description": "Detailed information related to services to support the economic management of public funds and other resources."
+          "description": "Detailed information related to services to support the economic management of public funds and other resources.",
+          "uuid": "44222715-6904-5484-930e-28c6a0245879"
         },
         {
           "value": "environment",
           "expanded": "Environment",
-          "description": "Detailed information related to services to support the management of surrounding natural and built environment."
+          "description": "Detailed information related to services to support the management of surrounding natural and built environment.",
+          "uuid": "13ffb079-8905-5d52-a43d-d1db1486eaeb"
         },
         {
           "value": "financial-transaction-with-government",
           "expanded": "Financial Transaction with Government",
-          "description": "Detailed information related to provisioning earned and unearned financial or monetary-like benefits to individuals, groups, or corporations."
+          "description": "Detailed information related to provisioning earned and unearned financial or monetary-like benefits to individuals, groups, or corporations.",
+          "uuid": "d18a52b1-4217-5d6f-a362-61cd65c54214"
         },
         {
           "value": "international-relationship",
           "expanded": "International Relationship",
-          "description": "Detailed information related to services around international relationships."
+          "description": "Detailed information related to services around international relationships.",
+          "uuid": "f3487486-4096-560a-98c5-85165aed52f3"
         },
         {
           "value": "justice",
           "expanded": "Justice",
-          "description": "Detailed information related to services to provide justice, apply legislation, etc."
+          "description": "Detailed information related to services to provide justice, apply legislation, etc.",
+          "uuid": "63ee64c0-5f98-5265-be0f-d172b8118e63"
         },
         {
           "value": "france-society",
           "expanded": "France Society",
-          "description": "Detailed information related to services to assist individuals and organisations."
+          "description": "Detailed information related to services to assist individuals and organisations.",
+          "uuid": "5fed73ac-9c4f-53d5-b895-2bef8f6712b0"
         },
         {
           "value": "natural-resources",
           "expanded": "Natural Resources",
-          "description": "Detailed information related to services to support the sustainability use and management of energy, minerals, land, and water."
+          "description": "Detailed information related to services to support the sustainability use and management of energy, minerals, land, and water.",
+          "uuid": "c8cb029b-dbe4-54a0-a727-7f47bb54b0ed"
         },
         {
           "value": "open-government",
           "expanded": "Open Government",
-          "description": "Detailed information related to services around transparency that gives citizens oversight of the government."
+          "description": "Detailed information related to services around transparency that gives citizens oversight of the government.",
+          "uuid": "904d2de0-1e66-5b63-98fa-f6bf405f99d6"
         },
         {
           "value": "regulatory-compliance-and-enforcement",
           "expanded": "Regulatory Compliance and Enforcement",
-          "description": "Detailed information related to services to monitor and oversight of specific individuals, groups, industries, or communities participating in regulated activities."
+          "description": "Detailed information related to services to monitor and oversight of specific individuals, groups, industries, or communities participating in regulated activities.",
+          "uuid": "1e6f90d6-0a01-54a2-82d6-7ddaa8c7838c"
         },
         {
           "value": "science-and-research",
           "expanded": "Science and Research",
-          "description": "Detailed information related to services to support and promote research and systematic studies."
+          "description": "Detailed information related to services to support and promote research and systematic studies.",
+          "uuid": "fb37caee-1427-5b02-9128-8679a543ae78"
         },
         {
           "value": "security",
           "expanded": "Security",
-          "description": "Detailed information related to services to maintain the safety of New Zealand at all levels of society."
+          "description": "Detailed information related to services to maintain the safety of New Zealand at all levels of society.",
+          "uuid": "a2eb7ccb-fc8b-5478-b162-94a269c86a63"
         },
         {
           "value": "statistical-services",
           "expanded": "Statistical Services",
-          "description": "Detailed information related to services to provide high quality, objective and responsive statistics"
+          "description": "Detailed information related to services to provide high quality, objective and responsive statistics",
+          "uuid": "107a0c8a-dbed-53ae-b886-60a9d3eca9c9"
         }
       ]
     },
@@ -689,57 +809,68 @@
         {
           "value": "adopting-and-fostering",
           "expanded": "Adopting and Fostering",
-          "description": "Detailed information related to services to support a person who wants to adopt or foster another person, usually a child."
+          "description": "Detailed information related to services to support a person who wants to adopt or foster another person, usually a child.",
+          "uuid": "22130fc4-b313-5920-96ca-c3c481a71b52"
         },
         {
           "value": "births-deaths-and-marriages",
           "expanded": "Births, Deaths and Marriages",
-          "description": "Detailed information related to these life events of France citizens, and residents."
+          "description": "Detailed information related to these life events of France citizens, and residents.",
+          "uuid": "4c9128a5-6bfc-5159-9758-83c163794c04"
         },
         {
           "value": "citizenship-and-immigration",
           "expanded": "Citizenship and Immigration",
-          "description": "Detailed information related to services to assist people wishing to enter France on a permanent or temporary basis"
+          "description": "Detailed information related to services to assist people wishing to enter France on a permanent or temporary basis",
+          "uuid": "86947104-0dfd-5318-ac92-6234e07980cc"
         },
         {
           "value": "community-support",
           "expanded": "Community Support",
-          "description": "Detailed information related to services to assist citizens in a particular district or those with common interests and needs."
+          "description": "Detailed information related to services to assist citizens in a particular district or those with common interests and needs.",
+          "uuid": "b31d48ea-4b05-5763-9845-fc0f296554a4"
         },
         {
           "value": "education-and-training",
           "expanded": "Education and Training",
-          "description": "Detailed information related to services to support the provisioning of skills and knowledge to citizens and the strategies to make education available to the broadest possible cross-section of the community."
+          "description": "Detailed information related to services to support the provisioning of skills and knowledge to citizens and the strategies to make education available to the broadest possible cross-section of the community.",
+          "uuid": "ddaac53c-0f3f-5b2f-930d-a931cdddf6d3"
         },
         {
           "value": "emergency-and-disaster-preparedness",
           "expanded": "Emergency and Disaster Preparedness",
-          "description": "Detailed information related to services to deal with and avoid both natural and manmade disasters."
+          "description": "Detailed information related to services to deal with and avoid both natural and manmade disasters.",
+          "uuid": "5028a06f-59b3-5e25-a978-34182f37e039"
         },
         {
           "value": "information-from-citizens",
           "expanded": "Information from Citizens",
-          "description": "Detailed information related to services to support avenues through which the government exchange information and explicit knowledge with individuals."
+          "description": "Detailed information related to services to support avenues through which the government exchange information and explicit knowledge with individuals.",
+          "uuid": "ed8d1686-410d-512a-b3cf-7650d650debb"
         },
         {
           "value": "health-care",
           "expanded": "Health Care",
-          "description": "Detailed information related to services to prevent, diagnose and treat diseases or injuries, to provision health care services and medical research."
+          "description": "Detailed information related to services to prevent, diagnose and treat diseases or injuries, to provision health care services and medical research.",
+          "uuid": "a10932d3-4ccd-5366-9d31-d48a3b9e7bb5"
         },
         {
           "value": "passport-travel-and-tourism",
           "expanded": "Passport, Travel and Tourism",
-          "description": "Detailed information related to services to support France citizens traveling or living overseas, and local and overseas tourists traveling within France."
+          "description": "Detailed information related to services to support France citizens traveling or living overseas, and local and overseas tourists traveling within France.",
+          "uuid": "e58f96aa-f97d-5448-9495-68b48fb93127"
         },
         {
           "value": "sport-and-recreation",
           "expanded": "Sport and Recreation",
-          "description": "Detailed information related to services to support, promote and encourage operating and marinating amenities or facilities for cultural, recreational and sporting activities."
+          "description": "Detailed information related to services to support, promote and encourage operating and marinating amenities or facilities for cultural, recreational and sporting activities.",
+          "uuid": "b1e044b7-d246-597d-9371-4132d67d078a"
         },
         {
           "value": "work-and-jobs",
           "expanded": "Work and Jobs",
-          "description": "Detailed information related to services to support employment, develop careers, and gain professional accreditation for individuals."
+          "description": "Detailed information related to services to support employment, develop careers, and gain professional accreditation for individuals.",
+          "uuid": "c7e43e71-e598-5e5c-aa03-de4cadcc48fa"
         }
       ]
     },
@@ -749,37 +880,44 @@
         {
           "value": "business-development",
           "expanded": "Business Development",
-          "description": "Detailed information related to services to assist business growth and management, and support advocacy programs and advising on regulations surrounding business activities."
+          "description": "Detailed information related to services to assist business growth and management, and support advocacy programs and advising on regulations surrounding business activities.",
+          "uuid": "74affa3b-f167-58fe-a8f5-fa44c8ece568"
         },
         {
           "value": "business-support",
           "expanded": "Business Support",
-          "description": "Detailed information related to services to support the private sector, including small business and non-profit organisations assisting businesses to comply with reporting requirements of the government."
+          "description": "Detailed information related to services to support the private sector, including small business and non-profit organisations assisting businesses to comply with reporting requirements of the government.",
+          "uuid": "08fe5425-3560-5143-b857-66813f5156cb"
         },
         {
           "value": "commercial-sport",
           "expanded": "Commercial Sport",
-          "description": "Detailed information related to services to cover the commercial aspects of sport when run as a business."
+          "description": "Detailed information related to services to cover the commercial aspects of sport when run as a business.",
+          "uuid": "f9d9f04e-f2db-51fd-acce-d229ede17e0a"
         },
         {
           "value": "employment",
           "expanded": "Employment",
-          "description": "Detailed information related to services to support the employment growth and working environment."
+          "description": "Detailed information related to services to support the employment growth and working environment.",
+          "uuid": "3082bf78-a691-559a-b88d-dee4a040caca"
         },
         {
           "value": "primal-industries",
           "expanded": "Primal Industries",
-          "description": "Detailed information related to services to support rural and marine industries."
+          "description": "Detailed information related to services to support rural and marine industries.",
+          "uuid": "687e1310-b484-5bb3-95f5-9ecd6d1e8c8e"
         },
         {
           "value": "tourism",
           "expanded": "Tourism",
-          "description": "Detailed information related to services to encourage recreational visitors to a region, and support the tourism industry."
+          "description": "Detailed information related to services to encourage recreational visitors to a region, and support the tourism industry.",
+          "uuid": "dfcb4ac0-94b0-5344-9899-004cf41de824"
         },
         {
           "value": "trade",
           "expanded": "Trade",
-          "description": "Detailed information related to services to support purchase, sale or exchange of commodities and advising on trade regulations."
+          "description": "Detailed information related to services to support purchase, sale or exchange of commodities and advising on trade regulations.",
+          "uuid": "163b2e78-0104-59a2-897b-c3c79fb6c08e"
         }
       ]
     },
@@ -789,37 +927,44 @@
         {
           "value": "civic-management",
           "expanded": "Civic Management",
-          "description": "Detailed information related to services to provision integrated support for town planning and building projects, coordinate of building projects, provide advice on building regulations and guidelines."
+          "description": "Detailed information related to services to provision integrated support for town planning and building projects, coordinate of building projects, provide advice on building regulations and guidelines.",
+          "uuid": "0c211aa3-9e3b-5a30-96ca-89902e25d98b"
         },
         {
           "value": "communications",
           "expanded": "Communications",
-          "description": "Detailed information related to services to support the growth of industries that enable and facilitate communication and transmission of information."
+          "description": "Detailed information related to services to support the growth of industries that enable and facilitate communication and transmission of information.",
+          "uuid": "b8a8b1c4-b846-508a-bafa-3c52e6eff10c"
         },
         {
           "value": "essential-services",
           "expanded": "Essential Services",
-          "description": "Detailed information related to services to provision essential community services, evaluate land use, town planning, etc."
+          "description": "Detailed information related to services to provision essential community services, evaluate land use, town planning, etc.",
+          "uuid": "129ca9d8-fa99-5b5f-bae4-8dde265519c3"
         },
         {
           "value": "maritime-services",
           "expanded": "Maritime Services",
-          "description": "Detailed information related to services to negotiate passage for sea transport and maritime jurisdiction, provide advice on regulations and manage maritime infrastructure."
+          "description": "Detailed information related to services to negotiate passage for sea transport and maritime jurisdiction, provide advice on regulations and manage maritime infrastructure.",
+          "uuid": "489d84e7-3404-5815-8457-19e141088394"
         },
         {
           "value": "public-housing",
           "expanded": "Public Housing",
-          "description": "Detailed information related to services to supply low cost accommodations, provide advice on guidelines, evaluate the need for public housing, setting construction targets, support on-going maintenance of public houses."
+          "description": "Detailed information related to services to supply low cost accommodations, provide advice on guidelines, evaluate the need for public housing, setting construction targets, support on-going maintenance of public houses.",
+          "uuid": "ec171896-3e4f-5d5a-996f-3f13a04f0de5"
         },
         {
           "value": "regional-development",
           "expanded": "Regional Development",
-          "description": "Detailed information related to services to support infrastructure projects, extend facilities beyond urban boundaries and support the installation of equipment to enable communications."
+          "description": "Detailed information related to services to support infrastructure projects, extend facilities beyond urban boundaries and support the installation of equipment to enable communications.",
+          "uuid": "9150e0ab-d72d-5d7c-b3c1-3f219fd39d5c"
         },
         {
           "value": "transport",
           "expanded": "Transport",
-          "description": "Detailed information related to services to support road, rail and air transportation systems."
+          "description": "Detailed information related to services to support road, rail and air transportation systems.",
+          "uuid": "a7e3f6a9-7998-5019-925b-c17b2cb46c6e"
         }
       ]
     },
@@ -829,47 +974,56 @@
         {
           "value": "government-administration-management",
           "expanded": "Government Administration Management",
-          "description": "Detailed information related to services that involve day-to day management and maintenance of the internal administrative operations."
+          "description": "Detailed information related to services that involve day-to day management and maintenance of the internal administrative operations.",
+          "uuid": "7644e633-4627-556f-8e70-43c4ac861b69"
         },
         {
           "value": "government-business-management",
           "expanded": "Government Business Management",
-          "description": "Detailed information related to services that involve activities associated with the management of how the government conduct its business."
+          "description": "Detailed information related to services that involve activities associated with the management of how the government conduct its business.",
+          "uuid": "09125187-2fc0-53b6-bb67-c1f32d98a616"
         },
         {
           "value": "government-credit-and-insurance",
           "expanded": "Government Credit and Insurance",
-          "description": "Detailed information related to services that involve the use of government funds to cover the subsidy cost of a direct loan or loan guarantee or to protect/indemnify members of the public from financial losses."
+          "description": "Detailed information related to services that involve the use of government funds to cover the subsidy cost of a direct loan or loan guarantee or to protect/indemnify members of the public from financial losses.",
+          "uuid": "e02d492a-f6ea-5df6-8ff7-80fb6b52022b"
         },
         {
           "value": "government-financial-management",
           "expanded": "Government Financial Management",
-          "description": "Detailed information related to services that involve agency's use of financial information to measure, operate and predict the effectiveness of efficiency of an entity's activities in relation to its objectives."
+          "description": "Detailed information related to services that involve agency's use of financial information to measure, operate and predict the effectiveness of efficiency of an entity's activities in relation to its objectives.",
+          "uuid": "088caa08-e91b-514b-9558-406faf8c959b"
         },
         {
           "value": "government-human-ressource-management",
           "expanded": "Government Human Ressource Management",
-          "description": "Detailed information related to services that involve all activities associated with the recruitment and management of personnel."
+          "description": "Detailed information related to services that involve all activities associated with the recruitment and management of personnel.",
+          "uuid": "ee0eacb3-a8c4-57d1-93d7-790d144480f5"
         },
         {
           "value": "government-ict-management",
           "expanded": "Government ICT Management",
-          "description": "Detailed information related to services that involve the coordination of information and technology resources and solutions required to support or provide a service."
+          "description": "Detailed information related to services that involve the coordination of information and technology resources and solutions required to support or provide a service.",
+          "uuid": "a6f16e0d-44ee-57f2-958c-f416c469fcb6"
         },
         {
           "value": "government-information-and-knowledge-management",
           "expanded": "Government Information and Knowledge Management",
-          "description": "Detailed information related to services that involve the ownership or custody of information and intellectual assets held by the government."
+          "description": "Detailed information related to services that involve the ownership or custody of information and intellectual assets held by the government.",
+          "uuid": "9bda370b-43fb-54e2-acef-6436f79d97d4"
         },
         {
           "value": "government-strategy-planning-and-budgeting",
           "expanded": "Government Strategy, Planning and Budgeting",
-          "description": "Detailed information related to services that involve the government activities of determining strategic direction, identifying and establishing programs, services and processes."
+          "description": "Detailed information related to services that involve the government activities of determining strategic direction, identifying and establishing programs, services and processes.",
+          "uuid": "f8af650e-fd26-554d-9848-3d05449a427e"
         },
         {
           "value": "machinery-of-government",
           "expanded": "Machinery of Government",
-          "description": "Detailed information related to services that involve executing legislative processes in Houses of Parliament, assemblies or councils."
+          "description": "Detailed information related to services that involve executing legislative processes in Houses of Parliament, assemblies or councils.",
+          "uuid": "1a8ff31a-8f44-5ecb-a4a5-240878f3d9ce"
         }
       ]
     },
@@ -879,89 +1033,107 @@
         {
           "value": "advertising",
           "expanded": "Advertising",
-          "description": "Detailed information related to advertising services rendered by advertising establishments primarily undertaking communications to the public, declarations or announcements by all means of diffusion and concerning all kinds of goods or services."
+          "description": "Detailed information related to advertising services rendered by advertising establishments primarily undertaking communications to the public, declarations or announcements by all means of diffusion and concerning all kinds of goods or services.",
+          "uuid": "e3489596-edb8-5a4a-8720-52238d376008"
         },
         {
           "value": "business-management",
           "expanded": "Business Management",
-          "description": "Detailed information related to services to support business management, mainly services rendered by persons or organizations principally with the object of help in the working or management of a commercial undertaking, or help in the management of the business affairs or commercial functions of an industrial or commercial enterprise."
+          "description": "Detailed information related to services to support business management, mainly services rendered by persons or organizations principally with the object of help in the working or management of a commercial undertaking, or help in the management of the business affairs or commercial functions of an industrial or commercial enterprise.",
+          "uuid": "8d02c8af-b9e9-5e5d-a0e8-dbfe8c234a46"
         },
         {
           "value": "insurance",
           "expanded": "Insurance",
-          "description": "Detailed information related to services rendered in relation to insurance contracts of all kinds, such as services dealing with insurance such as services rendered by agents or brokers engaged in insurance, services rendered to insured, and insurance underwriting services."
+          "description": "Detailed information related to services rendered in relation to insurance contracts of all kinds, such as services dealing with insurance such as services rendered by agents or brokers engaged in insurance, services rendered to insured, and insurance underwriting services.",
+          "uuid": "003c06e3-ac67-5ff2-b987-fe8021873e07"
         },
         {
           "value": "financial-service",
           "expanded": "Finalcial Service",
-          "description": "Detailed information related to services rendered in financial and monetary affairs."
+          "description": "Detailed information related to services rendered in financial and monetary affairs.",
+          "uuid": "d524b49e-2b64-576b-bdfe-13367d7747a2"
         },
         {
           "value": "real-estate-affairs",
           "expanded": "Real Estate Affairs",
-          "description": "Detailed information related to services of realty administrators of buildings, i.e., services of letting or valuation, or financing."
+          "description": "Detailed information related to services of realty administrators of buildings, i.e., services of letting or valuation, or financing.",
+          "uuid": "585e47a8-c97f-5232-be59-0bd33c8fa3de"
         },
         {
           "value": "building-construction",
           "expanded": "Building-Construction",
-          "description": "Detailed information related to services rendered by contractors or subcontractors in the construction or making of permanent buildings, as well as services rendered by persons or organizations engaged in the restoration of objects to their original condition or in their preservation without altering their physical or chemical properties."
+          "description": "Detailed information related to services rendered by contractors or subcontractors in the construction or making of permanent buildings, as well as services rendered by persons or organizations engaged in the restoration of objects to their original condition or in their preservation without altering their physical or chemical properties.",
+          "uuid": "83b96c23-0b50-55c1-9c17-7960ea9c5dc4"
         },
         {
           "value": "telecommunication",
           "expanded": "Telecommunication",
-          "description": "Detailed information related to services allowing at least one person to communicate with another by a sensory means."
+          "description": "Detailed information related to services allowing at least one person to communicate with another by a sensory means.",
+          "uuid": "133a48e3-6fa1-53a0-995e-f9446600175a"
         },
         {
           "value": "transportation",
           "expanded": "Transportation",
-          "description": "Detailed information related to services rendered in transporting people or goods from one place to another (by rail, road, water, air or pipeline) and services necessarily connected with such transport."
+          "description": "Detailed information related to services rendered in transporting people or goods from one place to another (by rail, road, water, air or pipeline) and services necessarily connected with such transport.",
+          "uuid": "8c609027-6064-5df2-9e1e-a843392a7477"
         },
         {
           "value": "packaging-and-storage-of-goods",
           "expanded": "Packaging and Storage of Goods",
-          "description": "Detailed information related to services relating to the storing of goods in a warehouse or other building for their preservation or guarding."
+          "description": "Detailed information related to services relating to the storing of goods in a warehouse or other building for their preservation or guarding.",
+          "uuid": "108a6436-e9ef-52ab-ae30-d26c06e50087"
         },
         {
           "value": "travel-arrangement",
           "expanded": "Travel Arrangement",
-          "description": "Detailed information related to services consisting of information about journeys by tourist agencies, information relating to tariffs, timetables and methods of travel."
+          "description": "Detailed information related to services consisting of information about journeys by tourist agencies, information relating to tariffs, timetables and methods of travel.",
+          "uuid": "129b2bb9-06c9-54d8-bad5-6369779f8ec8"
         },
         {
           "value": "treatment-of-material",
           "expanded": "Treatment of Material",
-          "description": "Detailed information related to services not included in other categories, rendered by the mechanical or chemical processing or transformation of objects or inorganic or organic substances and any process involving a change in its essential properties (for example, dyeing a garment), and services of material treatment which may be present during the production of any substance or object other than a building, for example, services which involve cutting, shaping, polishing by abrasion or metal coating."
+          "description": "Detailed information related to services not included in other categories, rendered by the mechanical or chemical processing or transformation of objects or inorganic or organic substances and any process involving a change in its essential properties (for example, dyeing a garment), and services of material treatment which may be present during the production of any substance or object other than a building, for example, services which involve cutting, shaping, polishing by abrasion or metal coating.",
+          "uuid": "aeba65ab-3857-5ce2-a746-87b50796186b"
         },
         {
           "value": "providing-training",
           "expanded": "Providing Training",
-          "description": "Detailed information related to services rendered by persons or institutions in the development of the mental faculties of persons or animals."
+          "description": "Detailed information related to services rendered by persons or institutions in the development of the mental faculties of persons or animals.",
+          "uuid": "84632b1f-e29f-53fe-937e-52dc54668d37"
         },
         {
           "value": "entertainment",
           "expanded": "Entertainment",
-          "description": "Detailed information related to services having the basic aim of the entertainment, amusement or recreation of people."
+          "description": "Detailed information related to services having the basic aim of the entertainment, amusement or recreation of people.",
+          "uuid": "5e24b23d-086f-52ff-9a23-8d29450ff270"
         },
         {
           "value": "scientific-service",
           "expanded": "Scientific Service",
-          "description": "Detailed information related to services provided by persons, individually or collectively, in relation to the theoretical and practical aspects of complex fields of activities, such services are provided by members of professions such as chemists, physicists, engineers, computer programmers, etc."
+          "description": "Detailed information related to services provided by persons, individually or collectively, in relation to the theoretical and practical aspects of complex fields of activities, such services are provided by members of professions such as chemists, physicists, engineers, computer programmers, etc.",
+          "uuid": "2ab7b226-2ba5-596f-a605-dd48ef024360"
         },
         {
           "value": "providing-food-drink-and-accomodation",
           "expanded": "Providing Food, Drinking and Accomodation",
-          "description": "Detailed information related to services provided by persons or establishments whose aim is to prepare food and drink for consumption and services provided to obtain bed and board in hotels, boarding houses or other establishments providing temporary accommodation."
+          "description": "Detailed information related to services provided by persons or establishments whose aim is to prepare food and drink for consumption and services provided to obtain bed and board in hotels, boarding houses or other establishments providing temporary accommodation.",
+          "uuid": "5dd265ee-d730-55f9-8ef1-5b853b5579b7"
         },
         {
           "value": "medical-service",
           "expanded": "Medical Service",
-          "description": "Detailed information related to medical care, hygienic and beauty care given by persons or establishments to human beings and animals, it also includes services relating to the fields of agriculture, horticulture and forestry."
+          "description": "Detailed information related to medical care, hygienic and beauty care given by persons or establishments to human beings and animals, it also includes services relating to the fields of agriculture, horticulture and forestry.",
+          "uuid": "ed7c5744-13d5-56ea-81fa-0763097e5cc3"
         },
         {
           "value": "legal-service",
           "expanded": "Legal Service",
-          "description": "Detailed information related to legal services, security services for the protection of property and individuals, personal and social services rendered by others to meet the needs of individuals."
+          "description": "Detailed information related to legal services, security services for the protection of property and individuals, personal and social services rendered by others to meet the needs of individuals.",
+          "uuid": "f61e4809-7998-5308-8f0a-f9ae722f0a74"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "abf3f677-157c-534a-b338-196f84e0d804"
 }

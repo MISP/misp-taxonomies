@@ -5,23 +5,28 @@
   "predicates": [
     {
       "value": "technical",
-      "expanded": "Technical"
+      "expanded": "Technical",
+      "uuid": "f18ab3e2-63ce-53ce-81d5-562f86d02900"
     },
     {
       "value": "subscription",
-      "expanded": "Subscription"
+      "expanded": "Subscription",
+      "uuid": "6eeb67c1-cfae-50f3-b9b7-9887fb1ee298"
     },
     {
       "value": "distribution",
-      "expanded": "Distribution"
+      "expanded": "Distribution",
+      "uuid": "1dda5745-0674-56c6-a7a4-74b61bcaa77b"
     },
     {
       "value": "business",
-      "expanded": "Business"
+      "expanded": "Business",
+      "uuid": "1755b21d-013f-5446-87d2-ac8877f1e614"
     },
     {
       "value": "prepaid",
-      "expanded": "Prepaid"
+      "expanded": "Prepaid",
+      "uuid": "c8611ab2-a778-50db-85c4-b0a3c94e6246"
     }
   ],
   "values": [
@@ -30,59 +35,73 @@
       "entry": [
         {
           "value": "mailbox-hacking",
-          "expanded": "Mailbox Hacking (CLI Spoofing)"
+          "expanded": "Mailbox Hacking (CLI Spoofing)",
+          "uuid": "7baf867a-95e4-5819-b8d7-bc9fe18aa418"
         },
         {
           "value": "imei-reprogramming",
-          "expanded": "IMEI Reprogramming"
+          "expanded": "IMEI Reprogramming",
+          "uuid": "04fdfc0b-3f11-5f9a-b861-8bb78768f34c"
         },
         {
           "value": "call-forwarding-fraud",
-          "expanded": "Call Forwarding Fraud"
+          "expanded": "Call Forwarding Fraud",
+          "uuid": "58b16a05-56d6-5248-82e4-5073e4bccb35"
         },
         {
           "value": "call-conference",
-          "expanded": "Call Conference / Multi-Party Calls"
+          "expanded": "Call Conference / Multi-Party Calls",
+          "uuid": "3fa70156-1204-56ee-a807-cff57463de2f"
         },
         {
           "value": "hlr-tampering",
-          "expanded": "HLR Tampering / Switch Manipulation"
+          "expanded": "HLR Tampering / Switch Manipulation",
+          "uuid": "9ab4514f-8522-5c71-9ade-2c2de99d5d9e"
         },
         {
           "value": "sim-card-cloning",
-          "expanded": "SIM Card Cloning"
+          "expanded": "SIM Card Cloning",
+          "uuid": "60c46283-47f2-5d28-af9f-7d3679e0e854"
         },
         {
           "value": "false-base-station-attack",
-          "expanded": "False Base Station Attack"
+          "expanded": "False Base Station Attack",
+          "uuid": "18df8bbe-6ea2-5074-aa1c-f09f392775db"
         },
         {
           "value": "spamming",
-          "expanded": "Spamming (SMS & IP services)"
+          "expanded": "Spamming (SMS & IP services)",
+          "uuid": "fb8c4c83-6850-5cff-9e23-95913d752ce4"
         },
         {
           "value": "phishing-pharming",
-          "expanded": "Phishing and Pharming"
+          "expanded": "Phishing and Pharming",
+          "uuid": "663cf3dd-fca5-5abe-8cce-83fcb45da746"
         },
         {
           "value": "mobile-malware",
-          "expanded": "Mobile Malware"
+          "expanded": "Mobile Malware",
+          "uuid": "0a51c5d3-33b3-5e3d-97fc-f799613d9e95"
         },
         {
           "value": "fraud-risks-associated-with-voice-over-ip-services",
-          "expanded": "Fraud Risks associated with Voice over IP Services"
+          "expanded": "Fraud Risks associated with Voice over IP Services",
+          "uuid": "82c5bbba-9c7c-5839-923a-9d63a469b225"
         },
         {
           "value": "pbx-hacking",
-          "expanded": "PBX Hacking"
+          "expanded": "PBX Hacking",
+          "uuid": "dbc2da6e-166e-5e3e-8663-e6eff79726e3"
         },
         {
           "value": "fraud-risks-associated-with-m2m-services",
-          "expanded": "Fraud Risks Associated with M2M Services"
+          "expanded": "Fraud Risks Associated with M2M Services",
+          "uuid": "c796bcb6-c1e1-5bd0-bbeb-93b07338911b"
         },
         {
           "value": "data-charing-bypass",
-          "expanded": "Data Charing Bypass"
+          "expanded": "Data Charing Bypass",
+          "uuid": "4887b124-4225-58b2-85b9-8f3e68d502e0"
         }
       ]
     },
@@ -91,35 +110,43 @@
       "entry": [
         {
           "value": "subscription-fraud",
-          "expanded": "Subscription Fraud"
+          "expanded": "Subscription Fraud",
+          "uuid": "6295a116-7a10-579e-a227-d56ae7ea1dc0"
         },
         {
           "value": "proxy-fraud",
-          "expanded": "Proxy Fraud"
+          "expanded": "Proxy Fraud",
+          "uuid": "a2c4ccc4-9672-5560-9da0-8fa83d1a7336"
         },
         {
           "value": "account-takeover",
-          "expanded": "Account Takeover"
+          "expanded": "Account Takeover",
+          "uuid": "4cf29896-9d67-5250-a952-a56583a02b96"
         },
         {
           "value": "call-selling",
-          "expanded": "Call Selling"
+          "expanded": "Call Selling",
+          "uuid": "29840f30-3d65-5d31-a75f-5d78540f14e7"
         },
         {
           "value": "direct-debit-fraud",
-          "expanded": "Direct Debug Fraud"
+          "expanded": "Direct Debug Fraud",
+          "uuid": "e87c5c52-42f7-5b06-a01c-ec196c6c22fd"
         },
         {
           "value": "credit-card-fraud",
-          "expanded": "Credit Card Fraud (Card Present)"
+          "expanded": "Credit Card Fraud (Card Present)",
+          "uuid": "d83f1a33-b2fd-5e83-b3d7-6a4f731b3e66"
         },
         {
           "value": "credit-card-not-present-transactions",
-          "expanded": "Credit Card Not Present Transactions"
+          "expanded": "Credit Card Not Present Transactions",
+          "uuid": "0f2aa44f-138e-5b7c-8469-dab544227947"
         },
         {
           "value": "cheque-fraud",
-          "expanded": "Cheque Fraud"
+          "expanded": "Cheque Fraud",
+          "uuid": "82049e28-9e1b-5301-8c07-eebce8c06e68"
         }
       ]
     },
@@ -128,23 +155,28 @@
       "entry": [
         {
           "value": "dealer-fraud",
-          "expanded": "Dealer Fraud"
+          "expanded": "Dealer Fraud",
+          "uuid": "52cb556d-368d-5f75-844c-93b778188a4c"
         },
         {
           "value": "false-agent",
-          "expanded": "False Agent / Remote Activation Fraud"
+          "expanded": "False Agent / Remote Activation Fraud",
+          "uuid": "c5593804-cd11-5d49-b368-a613fe25ea8d"
         },
         {
           "value": "theft-and-handling-stolen-goods",
-          "expanded": "Theft and Handling Stolen Goods"
+          "expanded": "Theft and Handling Stolen Goods",
+          "uuid": "a5b5fc8e-4f17-56b8-a1b2-5997e21d533a"
         },
         {
           "value": "handset-subsidy-loss",
-          "expanded": "Handset Subsidy Loss"
+          "expanded": "Handset Subsidy Loss",
+          "uuid": "7033334d-3059-50bd-9725-a6693d117319"
         },
         {
           "value": "remote-order-fraud",
-          "expanded": "Remote Order Fraud"
+          "expanded": "Remote Order Fraud",
+          "uuid": "74258ddb-0c96-5b46-abfd-b6d891cf58a3"
         }
       ]
     },
@@ -153,71 +185,88 @@
       "entry": [
         {
           "value": "premium-rate",
-          "expanded": "Premium Rate / Audiotext Services Fraud (PRS)"
+          "expanded": "Premium Rate / Audiotext Services Fraud (PRS)",
+          "uuid": "bdde9032-9f70-5e8a-9acf-352773d99d06"
         },
         {
           "value": "roaming-fraud",
-          "expanded": "Roaming Fraud"
+          "expanded": "Roaming Fraud",
+          "uuid": "24f2eac0-64d2-5950-a9a0-72863edd3e66"
         },
         {
           "value": "international-revenue-share-fraud",
-          "expanded": "International Revenue Share Fraud"
+          "expanded": "International Revenue Share Fraud",
+          "uuid": "f1a024bf-9639-52d1-9928-5fd80ba6bd8d"
         },
         {
           "value": "inbound-roaming-fraud-risk-to-vpmn",
-          "expanded": "Inbound Roaming Fraud Risk to VPMN"
+          "expanded": "Inbound Roaming Fraud Risk to VPMN",
+          "uuid": "7f2c6c70-d67d-5775-9423-82fea90b4fd8"
         },
         {
           "value": "interconnect-abuse",
-          "expanded": "Interconnect Abuse (GSM Gateways)"
+          "expanded": "Interconnect Abuse (GSM Gateways)",
+          "uuid": "412bd83a-3184-5734-8f1d-9a2e22ea6663"
         },
         {
           "value": "refiling",
-          "expanded": "Refiling"
+          "expanded": "Refiling",
+          "uuid": "abcbc945-2896-58fb-ba4a-c51f6eec9300"
         },
         {
           "value": "mobile-to-fixed-network-gateway-abuse",
-          "expanded": "Mobile to Fixed Network Gateways Abuse"
+          "expanded": "Mobile to Fixed Network Gateways Abuse",
+          "uuid": "b767e82d-0889-5b06-b973-084e40a07460"
         },
         {
           "value": "false-answer-false-ring",
-          "expanded": "False Answer / False Ring"
+          "expanded": "False Answer / False Ring",
+          "uuid": "4c477e71-9288-52bf-84db-9fb078b57b3b"
         },
         {
           "value": "social-engineering",
-          "expanded": "Social Engineering"
+          "expanded": "Social Engineering",
+          "uuid": "578e01ac-5217-5a9f-9932-e0050582cb05"
         },
         {
           "value": "internal-fraud",
-          "expanded": "Internal Fraud"
+          "expanded": "Internal Fraud",
+          "uuid": "80e20e7f-09ba-5179-b7f7-84ad18005367"
         },
         {
           "value": "normal-business-fraud-crime",
-          "expanded": "Normal Business Fraud and Crime"
+          "expanded": "Normal Business Fraud and Crime",
+          "uuid": "8e21356d-1a91-5c38-81d9-4855706505e6"
         },
         {
           "value": "brand-name-logo-abuse",
-          "expanded": "Brand Name / Logo Abuse"
+          "expanded": "Brand Name / Logo Abuse",
+          "uuid": "01255610-6810-535a-b857-7c010ea8ac70"
         },
         {
           "value": "m-commerce-provider-content-fraud",
-          "expanded": "M-Commerce Provider Content Fraud"
+          "expanded": "M-Commerce Provider Content Fraud",
+          "uuid": "931d5719-aa30-547e-b74a-0c9292810689"
         },
         {
           "value": "m-commerce-provider-prs-fraud",
-          "expanded": "M-Commerce Provider PRS Fraud"
+          "expanded": "M-Commerce Provider PRS Fraud",
+          "uuid": "2ec57f61-b896-5af5-9490-e8c4ec30c7e8"
         },
         {
           "value": "content-theft",
-          "expanded": "Content Theft"
+          "expanded": "Content Theft",
+          "uuid": "1bc36b3d-5822-5ed6-b2d7-ad8a0df1ee4f"
         },
         {
           "value": "wangiri",
-          "expanded": "Wangiri"
+          "expanded": "Wangiri",
+          "uuid": "c42fa9e1-b420-5776-9525-7b7d7b88acfc"
         },
         {
           "value": "airtime-reseller-fraud",
-          "expanded": "Airtime Reseller Fraud"
+          "expanded": "Airtime Reseller Fraud",
+          "uuid": "0edf20aa-6f4f-5171-8006-d4e11233cc08"
         }
       ]
     },
@@ -226,25 +275,31 @@
       "entry": [
         {
           "value": "services-fraud",
-          "expanded": "Prepaid Services Fraud - General"
+          "expanded": "Prepaid Services Fraud - General",
+          "uuid": "ad73474b-88e3-5515-8fa2-f952509aa17e"
         },
         {
           "value": "hlr-profile-manipulation",
-          "expanded": "HLR Profile Manipulation"
+          "expanded": "HLR Profile Manipulation",
+          "uuid": "c7ab10ce-c96b-573b-8247-118f5a14061f"
         },
         {
           "value": "manual-recharging",
-          "expanded": "Manual Recharging"
+          "expanded": "Manual Recharging",
+          "uuid": "25e425e9-8741-57d8-b300-d6d11a2376ac"
         },
         {
           "value": "generation-of-abusive-credits",
-          "expanded": "Generation of Abusive Calls"
+          "expanded": "Generation of Abusive Calls",
+          "uuid": "d5887dbb-5bf6-5e16-92a3-b681ac92095a"
         },
         {
           "value": "scartch-card-abuse",
-          "expanded": "Scratch Card Abuse"
+          "expanded": "Scratch Card Abuse",
+          "uuid": "62c9e1f4-6648-52f4-a01d-348528cc6492"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "baa37e86-16b2-5437-b78c-1f1e42759758"
 }

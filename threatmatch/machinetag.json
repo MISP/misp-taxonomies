@@ -10,19 +10,23 @@
   "predicates": [
     {
       "value": "sector",
-      "expanded": "Extensive list of sector definition tags"
+      "expanded": "Extensive list of sector definition tags",
+      "uuid": "d8021012-7926-5cfb-b339-459b71e531f4"
     },
     {
       "value": "incident-type",
-      "expanded": "Incident tags are used by the ThreatMatch platform to categorise a relevant incident event."
+      "expanded": "Incident tags are used by the ThreatMatch platform to categorise a relevant incident event.",
+      "uuid": "1bac3eb7-02c7-5a70-a183-864e2f24d8f7"
     },
     {
       "value": "malware-type",
-      "expanded": "Malware tags are used by the ThreatMatch platform to categorise malware types."
+      "expanded": "Malware tags are used by the ThreatMatch platform to categorise malware types.",
+      "uuid": "d3349237-5c2e-586e-825f-9adfb78c0e32"
     },
     {
       "value": "alert-type",
-      "expanded": "Alert tags are used by the ThreatMatch platform to categorise a relevant threat."
+      "expanded": "Alert tags are used by the ThreatMatch platform to categorise a relevant threat.",
+      "uuid": "437b8093-7a19-5b16-8e4e-553bd8533a15"
     }
   ],
   "values": [
@@ -31,147 +35,183 @@
       "entry": [
         {
           "value": "Banking & Capital Markets",
-          "expanded": "Banking & capital markets"
+          "expanded": "Banking & capital markets",
+          "uuid": "d423058b-3cad-5792-b455-a38b23acfa7c"
         },
         {
           "value": "Financial Services",
-          "expanded": "Financial Services"
+          "expanded": "Financial Services",
+          "uuid": "13e5a64a-2bf9-5024-87e9-af8894aa2eee"
         },
         {
           "value": "Insurance",
-          "expanded": "Insurance"
+          "expanded": "Insurance",
+          "uuid": "e844538e-dc4e-5e6f-bc77-11fabafcfec3"
         },
         {
           "value": "Pension",
-          "expanded": "Pension"
+          "expanded": "Pension",
+          "uuid": "d0c8f7e1-0989-5597-a5bc-d53a8a2d232a"
         },
         {
           "value": "Government & Public Service",
-          "expanded": "Government & Public Service"
+          "expanded": "Government & Public Service",
+          "uuid": "f3f453e8-6907-5628-82d6-219263b8e65a"
         },
         {
           "value": "Diplomatic Services",
-          "expanded": "Diplomatic Services"
+          "expanded": "Diplomatic Services",
+          "uuid": "3b3024f7-af0f-5db5-81da-88bb4a080826"
         },
         {
           "value": "Energy, Utilities & Mining",
-          "expanded": "Energy, Utilities & Mining"
+          "expanded": "Energy, Utilities & Mining",
+          "uuid": "578c4ade-2b58-55e4-b9b4-d4f9c5a260ec"
         },
         {
           "value": "Telecommunications",
-          "expanded": "Telecommunications"
+          "expanded": "Telecommunications",
+          "uuid": "13339034-2543-5aaa-b7c2-196b169d5306"
         },
         {
           "value": "Technology",
-          "expanded": "Technology"
+          "expanded": "Technology",
+          "uuid": "c1482a9f-2594-5ef0-a230-785362123366"
         },
         {
           "value": "Academic/Research Institutes",
-          "expanded": "Academic/Research Institutes"
+          "expanded": "Academic/Research Institutes",
+          "uuid": "2e3d61a1-c913-5bbf-a2b8-48988ce3951f"
         },
         {
           "value": "Aerospace, Defence & Security",
-          "expanded": "Aerospace, Defence & Security"
+          "expanded": "Aerospace, Defence & Security",
+          "uuid": "267941af-8d37-5c38-bd36-1b04da36a6c9"
         },
         {
           "value": "Agriculture",
-          "expanded": "Agriculture"
+          "expanded": "Agriculture",
+          "uuid": "e6ee2668-dc01-52b0-be7c-cb9221b3f6d4"
         },
         {
           "value": "Asset & Wealth Management",
-          "expanded": "Asset & Wealth Management"
+          "expanded": "Asset & Wealth Management",
+          "uuid": "0e747884-3cf7-5eb0-b27d-aa290da5caa8"
         },
         {
           "value": "Automotive",
-          "expanded": "Automotive"
+          "expanded": "Automotive",
+          "uuid": "63a704cd-11f3-560f-8da0-694f6d8728ed"
         },
         {
           "value": "Business and Professional Services",
-          "expanded": "Business and Professional Services"
+          "expanded": "Business and Professional Services",
+          "uuid": "7797de76-a03b-517e-9a47-620314fa661a"
         },
         {
           "value": "Capital Projects & Infrastructure",
-          "expanded": "Capital Projects & Infrastructure"
+          "expanded": "Capital Projects & Infrastructure",
+          "uuid": "8db1d879-8cb9-5deb-af7f-3ad202f6847e"
         },
         {
           "value": "Charity/Not-for-Profit",
-          "expanded": "Charity/Not-for-Profit"
+          "expanded": "Charity/Not-for-Profit",
+          "uuid": "c7523d66-6771-5d91-961c-ec20b02f6a44"
         },
         {
           "value": "Chemicals",
-          "expanded": "Chemicals"
+          "expanded": "Chemicals",
+          "uuid": "ec8663a1-2511-5a90-b91f-a37e88680782"
         },
         {
           "value": "Commercial Aviation",
-          "expanded": "Commercial Aviation"
+          "expanded": "Commercial Aviation",
+          "uuid": "157fe36d-b4b9-5153-94b2-ca78d9dcc260"
         },
         {
           "value": "Commodities",
-          "expanded": "Commodities"
+          "expanded": "Commodities",
+          "uuid": "f2111adb-5d12-52c1-aae1-aa26e8da19e3"
         },
         {
           "value": "Education",
-          "expanded": "Education"
+          "expanded": "Education",
+          "uuid": "65fafad0-ada3-5312-87f9-8e169fa3a6f5"
         },
         {
           "value": "Engineering & Construction",
-          "expanded": "Engineering & Construction"
+          "expanded": "Engineering & Construction",
+          "uuid": "476e7df8-f427-5c5b-8c1a-3dd7cf7e7bef"
         },
         {
           "value": "Entertainment & Media",
-          "expanded": "Entertainment & Media"
+          "expanded": "Entertainment & Media",
+          "uuid": "f8f482ce-23cb-526b-83ec-8e013ebfbc42"
         },
         {
           "value": "Forest, Paper & Packaging",
-          "expanded": "Forest, Paper & Packaging"
+          "expanded": "Forest, Paper & Packaging",
+          "uuid": "85881405-38a0-5ad3-9a8a-3cc775832ff5"
         },
         {
           "value": "Healthcare",
-          "expanded": "Healthcare"
+          "expanded": "Healthcare",
+          "uuid": "73e606e9-e6e5-51bd-b35e-937432f11dc4"
         },
         {
           "value": "Hospitality & Leisure",
-          "expanded": "Hospitality & Leisure"
+          "expanded": "Hospitality & Leisure",
+          "uuid": "26107811-5080-5d52-a702-fc5d9445a560"
         },
         {
           "value": "Industrial Manufacturing",
-          "expanded": "Industrial Manufacturing"
+          "expanded": "Industrial Manufacturing",
+          "uuid": "d6c694a3-ffde-593c-b0b6-0a49d2f03b68"
         },
         {
           "value": "IT Industry",
-          "expanded": "IT Industry"
+          "expanded": "IT Industry",
+          "uuid": "eb07df0e-4454-5350-bb8d-94ba5e624ec2"
         },
         {
           "value": "Legal",
-          "expanded": "Legal"
+          "expanded": "Legal",
+          "uuid": "36730d80-f877-59da-906e-0d7f4b9c251a"
         },
         {
           "value": "Metals",
-          "expanded": "Metals"
+          "expanded": "Metals",
+          "uuid": "b598b3e3-7c7c-5d92-a97d-07e508cc4a94"
         },
         {
           "value": "Pharmaceuticals & Life Sciences",
-          "expanded": "Pharmaceuticals & Life Sciences"
+          "expanded": "Pharmaceuticals & Life Sciences",
+          "uuid": "9cc7ec40-1987-5ef1-b086-102e58d48381"
         },
         {
           "value": "Private Equity",
-          "expanded": "Private Equity"
+          "expanded": "Private Equity",
+          "uuid": "a1e481cb-229c-5363-8b8e-cd402e0a62d3"
         },
         {
           "value": "Retail & Consumer",
-          "expanded": "Retail & Consumer"
+          "expanded": "Retail & Consumer",
+          "uuid": "896ef35b-400d-5c88-a844-ad0246fdc62c"
         },
         {
           "value": "Semiconductors",
-          "expanded": "Semiconductors"
+          "expanded": "Semiconductors",
+          "uuid": "a7e5c56e-b083-5c84-bcf9-a8c49310ca31"
         },
         {
           "value": "Sovereign Investment Funds",
-          "expanded": "Sovereign Investment Funds"
+          "expanded": "Sovereign Investment Funds",
+          "uuid": "0642c3c7-df06-5760-80cf-1bae16aeed54"
         },
         {
           "value": "Transport & Logistics",
-          "expanded": "Transport & Logistics"
+          "expanded": "Transport & Logistics",
+          "uuid": "03be9347-c774-5268-b169-e192f4da5e39"
         }
       ]
     },
@@ -180,155 +220,193 @@
       "entry": [
         {
           "value": "ATM Attacks",
-          "expanded": "ATM Attacks"
+          "expanded": "ATM Attacks",
+          "uuid": "e2e6d8fe-e660-5f1f-a410-b6b504288896"
         },
         {
           "value": "ATM Breach",
-          "expanded": "ATM Breach"
+          "expanded": "ATM Breach",
+          "uuid": "87b948ac-6bfb-529c-92e6-b3ae5605f20a"
         },
         {
           "value": "Attempted Exploitation",
-          "expanded": "Attempted Exploitation"
+          "expanded": "Attempted Exploitation",
+          "uuid": "8b6cbfe2-36a7-5b3e-bfb1-c17610a64a22"
         },
         {
           "value": "Botnet Activity",
-          "expanded": "Botnet Activity"
+          "expanded": "Botnet Activity",
+          "uuid": "2faeaae0-5157-57c6-8c1f-485ba76bcf96"
         },
         {
           "value": "Business Email Compromise",
-          "expanded": "Business Email Compromise"
+          "expanded": "Business Email Compromise",
+          "uuid": "a71231fb-6dbb-5fba-bb7d-5930c7d999f9"
         },
         {
           "value": "Crypto Mining",
-          "expanded": "Crypto Mining"
+          "expanded": "Crypto Mining",
+          "uuid": "e6206e97-ebc9-558f-a0b1-b75f06d372ec"
         },
         {
           "value": "Data Breach/Compromise",
-          "expanded": "Data Breach/Compromise"
+          "expanded": "Data Breach/Compromise",
+          "uuid": "d5897045-f345-53ac-9ca4-bd9b71b0d156"
         },
         {
           "value": "Data Dump",
-          "expanded": "Data Dump"
+          "expanded": "Data Dump",
+          "uuid": "08b781c1-6bb1-5cd8-b34d-434c7fc159ed"
         },
         {
           "value": "Data Leakage",
-          "expanded": "Data Leakage"
+          "expanded": "Data Leakage",
+          "uuid": "989601dd-d9bd-54dc-af01-ffb96999f0b5"
         },
         {
           "value": "DDoS",
-          "expanded": "DDoS"
+          "expanded": "DDoS",
+          "uuid": "f0e1e269-7727-528f-8093-350fad0eed4a"
         },
         {
           "value": "Defacement Activity",
-          "expanded": "Defacement Activity"
+          "expanded": "Defacement Activity",
+          "uuid": "772f4f5e-f63d-5680-9e25-b2bdb04b86c9"
         },
         {
           "value": "Denial of Service (DoS)",
-          "expanded": "Denial of Service (DoS)"
+          "expanded": "Denial of Service (DoS)",
+          "uuid": "53812e32-9561-5509-b3b2-a2b6dcbbc871"
         },
         {
           "value": "Disruption Activity",
-          "expanded": "Disruption Activity"
+          "expanded": "Disruption Activity",
+          "uuid": "c83bd2a4-dfe9-59f9-bf08-6a56ec55a197"
         },
         {
           "value": "Espionage",
-          "expanded": "Espionage"
+          "expanded": "Espionage",
+          "uuid": "10f1eb0b-bce8-51ae-a89f-be84b2aea4b9"
         },
         {
           "value": "Espionage Activity",
-          "expanded": "Espionage Activity"
+          "expanded": "Espionage Activity",
+          "uuid": "d25da1e5-f728-5462-ba30-3afbac3d0c5c"
         },
         {
           "value": "Exec Targeting ",
-          "expanded": "Exec Targeting "
+          "expanded": "Exec Targeting ",
+          "uuid": "66a1d4cc-352f-550b-b7f7-0271deb56ddd"
         },
         {
           "value": "Exposure of Data",
-          "expanded": "Exposure of Data"
+          "expanded": "Exposure of Data",
+          "uuid": "73da3c9c-98a4-5e92-ae20-5d48c1945a7d"
         },
         {
           "value": "Extortion Activity",
-          "expanded": "Extortion Activity"
+          "expanded": "Extortion Activity",
+          "uuid": "643c84b8-0f60-5712-85d2-14c59fc86c7a"
         },
         {
           "value": "Fraud Activity",
-          "expanded": "Fraud Activity"
+          "expanded": "Fraud Activity",
+          "uuid": "b2b52a3e-d3e1-569d-b081-98adee1e3301"
         },
         {
           "value": "General Notification",
-          "expanded": "General Notification"
+          "expanded": "General Notification",
+          "uuid": "6646edbc-4af7-5ea6-ae50-2eabd8b29271"
         },
         {
           "value": "Hacktivism Activity",
-          "expanded": "Hacktivism Activity"
+          "expanded": "Hacktivism Activity",
+          "uuid": "5bf48bad-9d3f-5b07-9e94-7466c9d62e9b"
         },
         {
           "value": "Malicious Insider",
-          "expanded": "Malicious Insider"
+          "expanded": "Malicious Insider",
+          "uuid": "01eaee83-9be6-56bc-ac21-8d3713967029"
         },
         {
           "value": "Malware Infection",
-          "expanded": "Malware Infection"
+          "expanded": "Malware Infection",
+          "uuid": "d1bee7ff-0d3f-5c56-8461-ace1356749a4"
         },
         {
           "value": "Man in the Middle Attacks",
-          "expanded": "Man in the Middle Attacks"
+          "expanded": "Man in the Middle Attacks",
+          "uuid": "b3f85c9d-46b6-56a1-aa6d-214c2ebca25f"
         },
         {
           "value": "MFA Attack",
-          "expanded": "MFA Attack"
+          "expanded": "MFA Attack",
+          "uuid": "e3b996cf-7238-535f-b282-2672a8fb738d"
         },
         {
           "value": "Mobile Malware",
-          "expanded": "Mobile Malware"
+          "expanded": "Mobile Malware",
+          "uuid": "728f8585-6704-5f48-bf63-6e70e2d059e5"
         },
         {
           "value": "Phishing Activity",
-          "expanded": "Phishing Activity"
+          "expanded": "Phishing Activity",
+          "uuid": "ca1e5189-c44e-5640-8b22-2b33b6cd0771"
         },
         {
           "value": "Ransomware Activity",
-          "expanded": "Ransomware Activity"
+          "expanded": "Ransomware Activity",
+          "uuid": "6095bda9-37ee-5296-847d-3562221148ce"
         },
         {
           "value": "Social Engineering Activity",
-          "expanded": "Social Engineering Activity"
+          "expanded": "Social Engineering Activity",
+          "uuid": "1251c1b1-8b2e-5fc7-8fd6-7e200157db97"
         },
         {
           "value": "Social Media Compromise",
-          "expanded": "Social Media Compromise"
+          "expanded": "Social Media Compromise",
+          "uuid": "2ba917f9-d127-5f96-8cb3-a024ee0d9e1a"
         },
         {
           "value": "Spear-phishing Activity",
-          "expanded": "Spear-phishing Activity"
+          "expanded": "Spear-phishing Activity",
+          "uuid": "cceb1e57-e9c6-52b7-88b8-f1e416124f4c"
         },
         {
           "value": "Spyware",
-          "expanded": "Spyware"
+          "expanded": "Spyware",
+          "uuid": "dd71eb62-39b8-5f14-a2f9-905c27dd7f11"
         },
         {
           "value": "SQL Injection Activity",
-          "expanded": "SQL Injection Activity"
+          "expanded": "SQL Injection Activity",
+          "uuid": "f99ee67c-1ce1-58b5-8019-4941bd329d90"
         },
         {
           "value": "Supply Chain Compromise",
-          "expanded": "Supply Chain Compromise"
+          "expanded": "Supply Chain Compromise",
+          "uuid": "97e63346-600c-5e5c-9306-865d103bf4f8"
         },
         {
           "value": "Trojanised Software",
-          "expanded": "Trojanised Software"
+          "expanded": "Trojanised Software",
+          "uuid": "d5ee9e4a-aafa-5bde-85e4-cda358df07a4"
         },
         {
           "value": "Vishing",
-          "expanded": "Vishing"
+          "expanded": "Vishing",
+          "uuid": "c29c0539-b4eb-5697-a034-65f62df2b007"
         },
         {
           "value": "Website Attack (Other)",
-          "expanded": "Website Attack (Other)"
+          "expanded": "Website Attack (Other)",
+          "uuid": "a6ec774d-f8d1-583e-be13-992590c2a57a"
         },
         {
           "value": "Unknown",
-          "expanded": "Unknown"
+          "expanded": "Unknown",
+          "uuid": "892de76f-8c5b-5317-ab12-35a7b752aed5"
         }
       ]
     },
@@ -337,95 +415,118 @@
       "entry": [
         {
           "value": "Adware",
-          "expanded": "Adware"
+          "expanded": "Adware",
+          "uuid": "ac63ce14-009a-5ef9-a840-5fdd1111c496"
         },
         {
           "value": "Backdoor",
-          "expanded": "Backdoor"
+          "expanded": "Backdoor",
+          "uuid": "135435e6-766a-5d48-a287-faf638249c2c"
         },
         {
           "value": "Banking Trojan",
-          "expanded": "Banking Trojan"
+          "expanded": "Banking Trojan",
+          "uuid": "8bfaf54e-0b8c-567c-b4d3-e8bb294f8367"
         },
         {
           "value": "Botnet",
-          "expanded": "Botnet"
+          "expanded": "Botnet",
+          "uuid": "95bf7dbe-c10a-5962-a604-12f6a2fd1d5e"
         },
         {
           "value": "Destructive",
-          "expanded": "Destructive"
+          "expanded": "Destructive",
+          "uuid": "8594eeb2-5c0b-5d0f-9214-f6737736ca56"
         },
         {
           "value": "Downloader",
-          "expanded": "Downloader"
+          "expanded": "Downloader",
+          "uuid": "63ac7817-1fce-5c24-883c-3997232069af"
         },
         {
           "value": "Exploit Kit",
-          "expanded": "Exploit Kit"
+          "expanded": "Exploit Kit",
+          "uuid": "679222db-a214-5c91-9dc3-8b9f82b2f0e4"
         },
         {
           "value": "Fileless Malware",
-          "expanded": "Fileless Malware"
+          "expanded": "Fileless Malware",
+          "uuid": "aea297d2-1fb1-5310-9d83-ea115d10e66b"
         },
         {
           "value": "Keylogger",
-          "expanded": "Keylogger"
+          "expanded": "Keylogger",
+          "uuid": "a51a9769-ecef-5fd6-9bb9-59e4441ba97d"
         },
         {
           "value": "Legitimate Tool",
-          "expanded": "Legitimate Tool"
+          "expanded": "Legitimate Tool",
+          "uuid": "9d8d743f-fb92-5a0d-b695-7e7ec8ab9030"
         },
         {
           "value": "Mobile Application",
-          "expanded": "Mobile Application"
+          "expanded": "Mobile Application",
+          "uuid": "6f6bf6c0-bc7c-5a0c-93d9-5bbecd069024"
         },
         {
           "value": "Mobile Malware",
-          "expanded": "Mobile Malware"
+          "expanded": "Mobile Malware",
+          "uuid": "8b2ca932-e7ec-5f23-b7d8-0c2765a49e45"
         },
         {
           "value": "Point-of-Sale (PoS)",
-          "expanded": "Point-of-Sale (PoS)"
+          "expanded": "Point-of-Sale (PoS)",
+          "uuid": "8a875a65-9575-584c-ada8-2c26ad3b7eab"
         },
         {
           "value": "Remote Access Trojan",
-          "expanded": "Remote Access Trojan"
+          "expanded": "Remote Access Trojan",
+          "uuid": "79cf4cd8-dc0b-574d-8732-8af6c996aae0"
         },
         {
           "value": "Rootkit",
-          "expanded": "Rootkit"
+          "expanded": "Rootkit",
+          "uuid": "39635872-007b-5100-abe3-4e38c03b4fab"
         },
         {
           "value": "Skimmer",
-          "expanded": "Skimmer"
+          "expanded": "Skimmer",
+          "uuid": "73562beb-0a3e-5dfe-a15b-bf7dbf68ddcd"
         },
         {
           "value": "Spyware",
-          "expanded": "Spyware"
+          "expanded": "Spyware",
+          "uuid": "e9c1c1cc-b803-5eba-ac7e-7c14584fb9f9"
         },
         {
           "value": "Surveillance Tool",
-          "expanded": "Surveillance Tool"
+          "expanded": "Surveillance Tool",
+          "uuid": "c153358f-fab6-56c3-bd22-e15b4512580a"
         },
         {
           "value": "Trojan",
-          "expanded": "Trojan"
+          "expanded": "Trojan",
+          "uuid": "d255a323-0d5c-5f40-9486-d83a43e418f1"
         },
         {
           "value": "Virus",
-          "expanded": "Virus "
+          "expanded": "Virus ",
+          "uuid": "483c63bd-a961-5948-9aef-61d4cc33f526"
         },
         {
           "value": "Worm",
-          "expanded": "Worm"
+          "expanded": "Worm",
+          "uuid": "aa4de574-a482-564e-bdcf-c06707d5f352"
         },
         {
           "value": "Zero-day",
-          "expanded": "Zero-day"
+          "expanded": "Zero-day",
+          "uuid": "722fbd91-271b-562a-8892-507c84d55e29"
         },
         {
           "value": "Unknown",
-          "expanded": "Unknown"
+          "expanded": "Unknown",
+          "uuid": "853fd502-f3f3-59ce-ba20-5ac1564cf3b6"
         }
       ]
     },
@@ -434,85 +535,106 @@
       "entry": [
         {
           "value": "Actor Campaigns",
-          "expanded": "Actor Campaigns"
+          "expanded": "Actor Campaigns",
+          "uuid": "6940c990-12f5-5d95-b8eb-483061e9455c"
         },
         {
           "value": "Credential Breach",
-          "expanded": "Credential Breach"
+          "expanded": "Credential Breach",
+          "uuid": "f64fdcb3-e1f5-5a0f-ac19-b23345057607"
         },
         {
           "value": "DDoS",
-          "expanded": "DDoS"
+          "expanded": "DDoS",
+          "uuid": "01edb698-a717-52a5-a4e8-6dbc8a6eac68"
         },
         {
           "value": "Exploit Alert",
-          "expanded": "Exploit Alert"
+          "expanded": "Exploit Alert",
+          "uuid": "3ec819c1-37ad-5460-8b55-56af556b9e16"
         },
         {
           "value": "General Notification",
-          "expanded": "General Notification"
+          "expanded": "General Notification",
+          "uuid": "395f28ea-5dff-5288-a662-d56cb8d7f442"
         },
         {
           "value": "Vulnerability",
-          "expanded": "Vulnerability"
+          "expanded": "Vulnerability",
+          "uuid": "988dc1f2-edae-55f9-b0d5-9d754a80316d"
         },
         {
           "value": "Information Leakages",
-          "expanded": "Information Leakages"
+          "expanded": "Information Leakages",
+          "uuid": "3e06e200-2ba3-5cf3-8b4b-64aa14b24e46"
         },
         {
           "value": "Malware",
-          "expanded": "Malware"
+          "expanded": "Malware",
+          "uuid": "02e1f46b-8cdc-50ac-b9b8-fe2686175aa3"
         },
         {
           "value": "Suspicious Domain",
-          "expanded": "Suspicious Domain"
+          "expanded": "Suspicious Domain",
+          "uuid": "6ed40c13-f8f8-5c0a-af4b-18145a89205a"
         },
         {
           "value": "Forum Mention",
-          "expanded": "Forum Mention"
+          "expanded": "Forum Mention",
+          "uuid": "ac62c5c5-7556-5fbf-a2a0-0fe30a123ea8"
         },
         {
           "value": "Phishing Attempts",
-          "expanded": "Phishing Attempts"
+          "expanded": "Phishing Attempts",
+          "uuid": "fa30b820-f018-5722-8a91-5c55bebaf4b3"
         },
         {
           "value": "Social Media Alerts",
-          "expanded": "Social Media Alerts"
+          "expanded": "Social Media Alerts",
+          "uuid": "b63e8195-b588-5ef6-aca2-feb36cde9a6d"
         },
         {
           "value": "Supply Chain Event",
-          "expanded": "Supply Chain Event"
+          "expanded": "Supply Chain Event",
+          "uuid": "46056917-8483-58a4-af64-3eeb81c945e4"
         },
         {
           "value": "Technical Exposure",
-          "expanded": "Technical Exposure"
+          "expanded": "Technical Exposure",
+          "uuid": "353889de-afe8-52da-b3b9-c0d4e137b5a5"
         },
         {
           "value": "Threat Actor Update",
-          "expanded": "Threat Actor Update"
+          "expanded": "Threat Actor Update",
+          "uuid": "876975e6-db88-5681-b376-61e963b51f19"
         },
         {
           "value": "Direct Targeting ",
-          "expanded": "Direct Targeting "
+          "expanded": "Direct Targeting ",
+          "uuid": "bcfbde5f-a8a2-5a88-9392-f6ea0c875e20"
         },
         {
           "value": "Protest Activity",
-          "expanded": "Protest Activity"
+          "expanded": "Protest Activity",
+          "uuid": "bb8723f4-c92e-5a05-9ebe-eedb97b82b8a"
         },
         {
           "value": "Violent Event",
-          "expanded": "Violent Event"
+          "expanded": "Violent Event",
+          "uuid": "43f63864-88c4-5d7a-818d-70726ff2ee04"
         },
         {
           "value": "Strategic Event",
-          "expanded": "Strategic Event"
+          "expanded": "Strategic Event",
+          "uuid": "8e7866c4-8914-5d2a-b557-384aab61ecbd"
         },
         {
           "value": "Insider Threat",
-          "expanded": "Insider Threat"
+          "expanded": "Insider Threat",
+          "uuid": "e2567136-ba12-516d-b8d1-3fa9320bf895"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "8ebb2e7b-6845-5c6c-957b-c28dee98f3d8"
 }

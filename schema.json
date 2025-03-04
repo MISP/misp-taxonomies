@@ -30,6 +30,9 @@
           "value": {
             "$ref": "#/defs/non-empty-string"
           },
+          "uuid": {
+            "$ref": "#/defs/non-empty-string"
+          },
           "required": [
             "value"
           ]
@@ -48,6 +51,9 @@
             "$ref": "#/defs/entry"
           },
           "predicate": {
+            "$ref": "#/defs/non-empty-string"
+          },
+          "uuid": {
             "$ref": "#/defs/non-empty-string"
           }
         },
@@ -82,6 +88,9 @@
           "exclusive": {
             "type": "boolean"
           },
+          "uuid": {
+            "$ref": "#/defs/non-empty-string"
+          },
           "required": [
             "value"
           ]
@@ -102,6 +111,9 @@
       "$ref": "#/defs/non-empty-string"
     },
     "namespace": {
+      "$ref": "#/defs/non-empty-string"
+    },
+    "uuid": {
       "$ref": "#/defs/non-empty-string"
     },
     "exclusive": {

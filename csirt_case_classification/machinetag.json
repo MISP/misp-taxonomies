@@ -5,15 +5,18 @@
   "predicates": [
     {
       "value": "incident-category",
-      "expanded": "Incident Category"
+      "expanded": "Incident Category",
+      "uuid": "a5900b00-09ca-5b96-8882-b61696e52ca7"
     },
     {
       "value": "criticality-classification",
-      "expanded": "Criticality Classification"
+      "expanded": "Criticality Classification",
+      "uuid": "8b3d3e1a-e2c5-549b-8a5a-2fd39654dbab"
     },
     {
       "value": "sensitivity-classification",
-      "expanded": "Sensitivity Classification"
+      "expanded": "Sensitivity Classification",
+      "uuid": "60d3f330-6e0c-5e32-ab2b-863056ac8509"
     }
   ],
   "values": [
@@ -22,47 +25,58 @@
       "entry": [
         {
           "value": "DOS",
-          "expanded": "Denial of service / Distributed Denial of service"
+          "expanded": "Denial of service / Distributed Denial of service",
+          "uuid": "602d215d-f76a-5110-808e-392f47505c08"
         },
         {
           "value": "forensics",
-          "expanded": "Forensics work"
+          "expanded": "Forensics work",
+          "uuid": "814be675-eee1-5abb-a4b4-5176cd75340f"
         },
         {
           "value": "compromised-information",
-          "expanded": "Attempted or successful destruction, corruption, or disclosure of sensitive corporate information or Intellectual Property"
+          "expanded": "Attempted or successful destruction, corruption, or disclosure of sensitive corporate information or Intellectual Property",
+          "uuid": "408f1fc4-f371-5f0b-8fa7-f2114f30f84b"
         },
         {
           "value": "compromised-asset",
-          "expanded": "Compromised host (root account, Trojan, rootkit), network device, application, user account."
+          "expanded": "Compromised host (root account, Trojan, rootkit), network device, application, user account.",
+          "uuid": "2249e2a1-b008-503c-ba35-927b051a7e6a"
         },
         {
           "value": "unlawful-activity",
-          "expanded": "Theft / Fraud / Human Safety / Child Porn"
+          "expanded": "Theft / Fraud / Human Safety / Child Porn",
+          "uuid": "85cffdac-b6a0-5beb-a3b8-27888881cf2e"
         },
         {
           "value": "internal-hacking",
-          "expanded": "Reconnaissance or Suspicious activity originating from inside the Company corporate network, excluding malware"
+          "expanded": "Reconnaissance or Suspicious activity originating from inside the Company corporate network, excluding malware",
+          "uuid": "2e7e3efc-4d7f-50ac-a07e-c3e98b6294cc"
         },
         {
           "value": "external-hacking",
-          "expanded": "Reconnaissance or Suspicious Activity originating from outside the Company corporate network (partner network, Internet), excluding malware."
+          "expanded": "Reconnaissance or Suspicious Activity originating from outside the Company corporate network (partner network, Internet), excluding malware.",
+          "uuid": "16dc8321-cdbc-5586-afef-25ad4a0cb4f8"
         },
         {
           "value": "malware",
-          "expanded": "A virus or worm typically affecting multiple corporate devices.  This does not include compromised hosts that are being actively controlled by an attacker via a backdoor or Trojan."
+          "expanded": "A virus or worm typically affecting multiple corporate devices.  This does not include compromised hosts that are being actively controlled by an attacker via a backdoor or Trojan.",
+          "uuid": "75884b2e-e3c0-5d3b-8505-5418430f9e51"
         },
         {
           "value": "email",
-          "expanded": "Spoofed email, SPAM, and other email security-related events."
+          "expanded": "Spoofed email, SPAM, and other email security-related events.",
+          "uuid": "9b81d629-0627-5da5-a8e0-d3c1eaa88ce4"
         },
         {
           "value": "consulting",
-          "expanded": "Security consulting unrelated to any confirmed incident"
+          "expanded": "Security consulting unrelated to any confirmed incident",
+          "uuid": "be751d1a-7ade-5f5c-b9a3-ba9bff123048"
         },
         {
           "value": "policy-violation",
-          "expanded": "Violation of various policies"
+          "expanded": "Violation of various policies",
+          "uuid": "a596961a-5118-50a6-8228-829b11017a02"
         }
       ]
     },
@@ -71,15 +85,18 @@
       "entry": [
         {
           "value": "1",
-          "expanded": "Incident affecting critical systems or information with potential to be revenue or customer impacting."
+          "expanded": "Incident affecting critical systems or information with potential to be revenue or customer impacting.",
+          "uuid": "84c8f052-10c4-59c3-bf3f-6c074dc1c159"
         },
         {
           "value": "2",
-          "expanded": "Incident affecting non-critical systems or information, not revenue or customer impacting. Employee investigations that are time sensitive should typically be classified at this level."
+          "expanded": "Incident affecting non-critical systems or information, not revenue or customer impacting. Employee investigations that are time sensitive should typically be classified at this level.",
+          "uuid": "6d6ea79b-381d-5e49-b1b2-7a9dcca57406"
         },
         {
           "value": "3",
-          "expanded": "Possible incident, non-critical systems.  Incident or employee investigations that are not time sensitive.  Long-term investigations involving extensive research and/or detailed forensic work."
+          "expanded": "Possible incident, non-critical systems.  Incident or employee investigations that are not time sensitive.  Long-term investigations involving extensive research and/or detailed forensic work.",
+          "uuid": "d8ff5623-a3b7-5b84-9bc5-7b9beeba0adf"
         }
       ]
     },
@@ -88,17 +105,21 @@
       "entry": [
         {
           "value": "1",
-          "expanded": "Extremely Sensitive"
+          "expanded": "Extremely Sensitive",
+          "uuid": "5bfb57b2-a7f3-5da0-86ac-7045f9c2649e"
         },
         {
           "value": "2",
-          "expanded": "Sensitive"
+          "expanded": "Sensitive",
+          "uuid": "9a31a001-1777-510e-a2e4-e9165741cd02"
         },
         {
           "value": "3",
-          "expanded": "Not Sensitive"
+          "expanded": "Not Sensitive",
+          "uuid": "4f7f89ef-077c-549b-8dce-5e5ca643986c"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "3139371c-851d-5113-bdf2-b5c11923ce72"
 }

@@ -9,27 +9,33 @@
   "predicates": [
     {
       "value": "compromise-of-functions",
-      "expanded": "Compromise of functions"
+      "expanded": "Compromise of functions",
+      "uuid": "94bec574-a7ba-5bd3-8609-7d8bad0965f9"
     },
     {
       "value": "unauthorised-actions",
-      "expanded": "Unauthorised actions"
+      "expanded": "Unauthorised actions",
+      "uuid": "c492ba4d-bc67-5540-97cf-8f5349d63d79"
     },
     {
       "value": "compromise-of-information",
-      "expanded": "Compromise of information"
+      "expanded": "Compromise of information",
+      "uuid": "a0a3d440-4f17-59ec-9334-5ecb22814de8"
     },
     {
       "value": "loss-of-essential-services",
-      "expanded": "Loss of essential services"
+      "expanded": "Loss of essential services",
+      "uuid": "226564e8-de53-5082-96ab-54ab52a0a4cb"
     },
     {
       "value": "technical-failures",
-      "expanded": "Technical failures"
+      "expanded": "Technical failures",
+      "uuid": "f51139f5-cdb8-580a-903b-ce92f75a37df"
     },
     {
       "value": "physical-damage",
-      "expanded": "Physical damage"
+      "expanded": "Physical damage",
+      "uuid": "347b164e-1210-576b-ad43-350c349e5705"
     }
   ],
   "values": [
@@ -39,32 +45,38 @@
         {
           "value": "error-in-use",
           "expanded": "Error in use",
-          "description": "A person commits an operating error, input error or utilisation error on hardware or software."
+          "description": "A person commits an operating error, input error or utilisation error on hardware or software.",
+          "uuid": "37d22310-ffa2-53d7-88d9-3e6e588f033f"
         },
         {
           "value": "forging-of-rights",
           "expanded": "Forging of rights",
-          "description": "A person assumes the identity of a different person in order to use his/her access rights to the information system, misinform the recipient, commit a fraud, etc."
+          "description": "A person assumes the identity of a different person in order to use his/her access rights to the information system, misinform the recipient, commit a fraud, etc.",
+          "uuid": "937bba4e-79e2-5a04-86d9-b21a2833c060"
         },
         {
           "value": "eavesdropping",
           "expanded": "Eavesdropping",
-          "description": "Someone connected to communication equipment or media or located inside the transmission coverage boundaries of a communication."
+          "description": "Someone connected to communication equipment or media or located inside the transmission coverage boundaries of a communication.",
+          "uuid": "08629c11-8a0a-53b9-8179-6449a2c888f8"
         },
         {
           "value": "denial-of-actions",
           "expanded": "Denial of actions",
-          "description": "A person or entity denies being involved in an exchange with a third party or carrying out an operation."
+          "description": "A person or entity denies being involved in an exchange with a third party or carrying out an operation.",
+          "uuid": "359fbc43-9506-5607-9780-724107899fc5"
         },
         {
           "value": "abuse-of-rights",
           "expanded": "Abuse of rights",
-          "description": "Someone with special rights (network administration, computer specialists, etc.) modifies the operating characteristics of the resources."
+          "description": "Someone with special rights (network administration, computer specialists, etc.) modifies the operating characteristics of the resources.",
+          "uuid": "d014f846-df8e-5e79-bb34-e18139d708ba"
         },
         {
           "value": "breach-of-personnel-availability",
           "expanded": "Breach of personnel availability",
-          "description": "Absence of qualified or authorised personnel to execute the usual operations."
+          "description": "Absence of qualified or authorised personnel to execute the usual operations.",
+          "uuid": "3a1873ac-45f1-5b7e-bd48-5f9faa51a75d"
         }
       ]
     },
@@ -74,17 +86,20 @@
         {
           "value": "fraudulent-copying-or-use-of-counterfeit-software",
           "expanded": "Fraudulent copying or use of counterfeit software",
-          "description": "Someone inside the organisation makes fraudulent copies (also called pirated copies) of package software or in-house software."
+          "description": "Someone inside the organisation makes fraudulent copies (also called pirated copies) of package software or in-house software.",
+          "uuid": "eb085342-7b14-5bbc-b0f4-5582e268d599"
         },
         {
           "value": "corruption-of-data",
           "expanded": "Corruption of data",
-          "description": "Someone gains access to the communication equipment of the information system and corrupts transmission of information (by intercepting, inserting, destroying, etc.) or repeatedly attempts access until successful."
+          "description": "Someone gains access to the communication equipment of the information system and corrupts transmission of information (by intercepting, inserting, destroying, etc.) or repeatedly attempts access until successful.",
+          "uuid": "b898e582-c338-5763-aaf3-fcfd9e0d7036"
         },
         {
           "value": "illegal-processing-of-data",
           "expanded": "Illegal processing of data",
-          "description": "A person carries out information processing that is forbidden by the law or a regulation."
+          "description": "A person carries out information processing that is forbidden by the law or a regulation.",
+          "uuid": "692a1ba5-03b7-5806-a617-59f3ffc9fed2"
         }
       ]
     },
@@ -94,42 +109,50 @@
         {
           "value": "remote-spying",
           "expanded": "Remote spying",
-          "description": "Personnel actions observable from a distance. Visual observation with or without optical equipment, for example observation of a user entering a code or password on a keyboard."
+          "description": "Personnel actions observable from a distance. Visual observation with or without optical equipment, for example observation of a user entering a code or password on a keyboard.",
+          "uuid": "8c4b1a3a-82eb-5fa5-bad1-635421b6520c"
         },
         {
           "value": "tampering-with-hardware",
           "expanded": "Tampering with hardware",
-          "description": "Someone with access to a communication medium or equipment installs an interception or destruction device in it."
+          "description": "Someone with access to a communication medium or equipment installs an interception or destruction device in it.",
+          "uuid": "629864c7-dde4-5bfe-93ee-5d003b0a3589"
         },
         {
           "value": "interception-of-compromising-interference-signals",
           "expanded": "Interception of compromising interference signals",
-          "description": "Interfering signals from an electromagnetic source emitted by the equipment (by conduction on the electrical power supply cables or earth wires or by radiation in free space). Capture of these signals depends on the distance to the targeted equipment or the possibility of connecting to cables or any other conductor passing close to the equipment (coupling phenomenon)."
+          "description": "Interfering signals from an electromagnetic source emitted by the equipment (by conduction on the electrical power supply cables or earth wires or by radiation in free space). Capture of these signals depends on the distance to the targeted equipment or the possibility of connecting to cables or any other conductor passing close to the equipment (coupling phenomenon).",
+          "uuid": "edcc1d45-0d73-564f-9690-0d054629af11"
         },
         {
           "value": "theft-or-destruction-of-media-documents-or-equipment",
           "expanded": "Theft or destruction of media, documents or equipment",
-          "description": "Media, documents or equipment can be accessed by foreigners either internally or externally. It can be damaged or stolen."
+          "description": "Media, documents or equipment can be accessed by foreigners either internally or externally. It can be damaged or stolen.",
+          "uuid": "61f3df17-f51f-5ea7-b870-aac305a1c9a0"
         },
         {
           "value": "retrieval-of-recycled-or-discarded media",
           "expanded": "Retrieval of recycled or discarded media",
-          "description": "Retrieval of electronic media (hard discs, floppy discs, back-up cartridges, USB keys, ZIP discs, removable hard discs, etc.) or paper copies (lists, incomplete print-outs, messages, etc.) intended for recycling and containing retrievable information."
+          "description": "Retrieval of electronic media (hard discs, floppy discs, back-up cartridges, USB keys, ZIP discs, removable hard discs, etc.) or paper copies (lists, incomplete print-outs, messages, etc.) intended for recycling and containing retrievable information.",
+          "uuid": "c5c9acb3-3096-5ade-a065-7ceffd0936f8"
         },
         {
           "value": "malware-infection",
           "expanded": "Malware infection",
-          "description": "Unwanted software that is doing operations seeking to harm the company."
+          "description": "Unwanted software that is doing operations seeking to harm the company.",
+          "uuid": "52f1e412-4e87-58ec-a358-a66c5e415e75"
         },
         {
           "value": "data-from-untrustworthy-sources",
           "expanded": "Data from untrustworthy sources",
-          "description": "Receiving false data or unsuitable equipment from outside sources and using them in the organisation."
+          "description": "Receiving false data or unsuitable equipment from outside sources and using them in the organisation.",
+          "uuid": "30a3c62e-fc84-5abf-8291-0e1c1145d64c"
         },
         {
           "value": "disclosure",
           "expanded": "Disclosure",
-          "description": "Person who voluntarily or negligently disclosure information."
+          "description": "Person who voluntarily or negligently disclosure information.",
+          "uuid": "06e95d12-842d-5219-8fb2-2d54cb111131"
         }
       ]
     },
@@ -139,17 +162,20 @@
         {
           "value": "failure-of-telecommunication-equipment",
           "expanded": "Failure of telecommunication equipment",
-          "description": "Disturbance, shutdown or incorrect sizing of telecommunications services (telephone, Internet access, Internet network)."
+          "description": "Disturbance, shutdown or incorrect sizing of telecommunications services (telephone, Internet access, Internet network).",
+          "uuid": "6e45f380-11ef-5e48-9d11-42c725d2bca9"
         },
         {
           "value": "loss-of-power-supply",
           "expanded": "Loss of power supply",
-          "description": "Failure, shutdown or incorrect sizing of the power supply to the assets arising either from the supplier's service or from the internal distribution system."
+          "description": "Failure, shutdown or incorrect sizing of the power supply to the assets arising either from the supplier's service or from the internal distribution system.",
+          "uuid": "03f2207f-c477-5cf1-b173-7dc616b97d77"
         },
         {
           "value": "failure-of-air-conditioning",
           "expanded": "Failure of air-conditioning",
-          "description": "Failure, shutdown or inadequacy of the air-conditioning service may cause assets requiring cooling or ventilation to shut down, malfunction or fail completely."
+          "description": "Failure, shutdown or inadequacy of the air-conditioning service may cause assets requiring cooling or ventilation to shut down, malfunction or fail completely.",
+          "uuid": "f6978f1a-9040-5cec-8a93-bd979110cf91"
         }
       ]
     },
@@ -159,22 +185,26 @@
         {
           "value": "software-malfunction",
           "expanded": "Software malfunction",
-          "description": "Design error, installation error or operating error committed during modification causing incorrect execution."
+          "description": "Design error, installation error or operating error committed during modification causing incorrect execution.",
+          "uuid": "855b19d7-8f05-5d9f-9f1e-2270456ded4c"
         },
         {
           "value": "equipment-malfunction-or-failure",
           "expanded": "Equipment malfunction or failure",
-          "description": "Logical or physical event causing hardware malfunctions or failures."
+          "description": "Logical or physical event causing hardware malfunctions or failures.",
+          "uuid": "36d2dc15-d753-5dd9-b4e0-19647d4633ae"
         },
         {
           "value": "saturation-of-the-information-system",
           "expanded": "Saturation of the information system",
-          "description": "A person or resource of a hardware, software or network type simulating an intense demand on resources by setting up continuous bombardment."
+          "description": "A person or resource of a hardware, software or network type simulating an intense demand on resources by setting up continuous bombardment.",
+          "uuid": "528f6aba-4292-5b20-a977-a769807a94b6"
         },
         {
           "value": "breach-of-information-system-maintainability",
           "expanded": "Breach of information system maintainability",
-          "description": "Lack of expertise in the system making retrofitting and upgrading impossible"
+          "description": "Lack of expertise in the system making retrofitting and upgrading impossible",
+          "uuid": "abcd552c-256d-55c9-96ff-637f40e3c980"
         }
       ]
     },
@@ -184,34 +214,41 @@
         {
           "value": "destruction-of-equipment-or-supports",
           "expanded": "Destruction of equipment or supports",
-          "description": "Event causing destruction of equipment or media."
+          "description": "Event causing destruction of equipment or media.",
+          "uuid": "70c22d46-5ca8-5100-b2bd-f8b4634d3d56"
         },
         {
           "value": "fire",
           "expanded": "Fire",
-          "description": "Any situation that could facilitate the conflagration of premises or equipment."
+          "description": "Any situation that could facilitate the conflagration of premises or equipment.",
+          "uuid": "29ba94a4-e39e-5d75-9786-18beec52a59b"
         },
         {
           "value": "water-damage",
           "expanded": "Water damage",
-          "description": "Situation facilitating the water hazard on equipment (floods, water leak, cellars, etc.)"
+          "description": "Situation facilitating the water hazard on equipment (floods, water leak, cellars, etc.)",
+          "uuid": "49279836-77ca-541d-89a0-739ab0268a15"
         },
         {
           "value": "major-accident",
           "expanded": "Major accident",
-          "description": "Any event that can physically destroy the premises"
+          "description": "Any event that can physically destroy the premises",
+          "uuid": "2b44f6ff-04c7-593d-85b9-628d73a41723"
         },
         {
           "value": "pollution",
           "expanded": "Pollution",
-          "description": "Presence of dust, vapours, corrosive or toxic gases in the ambient air."
+          "description": "Presence of dust, vapours, corrosive or toxic gases in the ambient air.",
+          "uuid": "b52fb914-a1e1-5346-a1ff-379a843debe9"
         },
         {
           "value": "environmental-disaster",
           "expanded": "Environmental disaster (fire, flood, dust, dirt, etc.)",
-          "description": "Any event that can physically ruin the premises"
+          "description": "Any event that can physically ruin the premises",
+          "uuid": "a2045bce-1494-5df6-b9ce-6e55c480804f"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "97eeae36-1744-5c9d-ab2d-2a8a43eff723"
 }

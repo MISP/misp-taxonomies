@@ -6,7 +6,8 @@
   "predicates": [
     {
       "value": "score",
-      "expanded": "Score"
+      "expanded": "Score",
+      "uuid": "a8ec5cca-aebc-5deb-939e-474fe9f4405d"
     }
   ],
   "values": [
@@ -17,45 +18,53 @@
           "value": "90-100",
           "expanded": "Very Easy",
           "description": "Very easy to read. Easily understood by an average 11-year-old student.",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "1f38760c-1c7b-5bc1-9506-403540a0f15a"
         },
         {
           "value": "80-89",
           "expanded": "Easy",
           "description": "Easy to read. Conversational English for consumers.",
-          "numerical_value": 89
+          "numerical_value": 89,
+          "uuid": "7a5eaf55-2171-510b-90cb-193d0c2b7ff1"
         },
         {
           "value": "70-79",
           "expanded": "Fairly Easy",
           "description": "Fairly easy to read.",
-          "numerical_value": 79
+          "numerical_value": 79,
+          "uuid": "9b46e65f-6d8b-569a-939f-2ecb8a39a679"
         },
         {
           "value": "60-69",
           "expanded": "Standard",
           "description": "Plain English. Easily understood by 13- to 15-year-old students.",
-          "numerical_value": 69
+          "numerical_value": 69,
+          "uuid": "74b60e8f-ac91-5fb3-a3d6-72def88ded82"
         },
         {
           "value": "50-59",
           "expanded": "Fairly Difficult",
           "description": "Fairly difficult to read.",
-          "numerical_value": 59
+          "numerical_value": 59,
+          "uuid": "a26961e6-a5f0-5032-bbcd-cc121ca294ea"
         },
         {
           "value": "30-49",
           "expanded": "Difficult",
           "description": "Difficult to read.",
-          "numerical_value": 49
+          "numerical_value": 49,
+          "uuid": "bfb989be-a4c6-529e-9aba-81b0507c46ef"
         },
         {
           "value": "0-29",
           "expanded": "Very Confusing",
           "description": "Very difficult to read. Best understood by university graduates.",
-          "numerical_value": 29
+          "numerical_value": 29,
+          "uuid": "0efe7880-0b01-5aac-8f8e-1e2ec608c860"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "6ab5310a-267b-51b8-864e-118fba34849f"
 }

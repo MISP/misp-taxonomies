@@ -5,12 +5,14 @@
         {
           "expanded": "TRES SECRET",
           "value": "TRES_SECRET",
-          "colour": "#f54a4a"
+          "colour": "#f54a4a",
+          "uuid": "cc576184-1b35-51a6-a6e4-4702298aaad5"
         },
         {
           "expanded": "SECRET",
           "value": "SECRET",
-          "colour": "#f54a4a"
+          "colour": "#f54a4a",
+          "uuid": "c6889ae4-ec6f-5c27-9979-7fd624aa409f"
         }
       ],
       "predicate": "classifiees"
@@ -20,12 +22,14 @@
         {
           "expanded": "DIFFUSION RESTREINTE",
           "value": "DIFFUSION_RESTREINTE",
-          "colour": "#f87272"
+          "colour": "#f87272",
+          "uuid": "d0e1b7a6-1a77-5c02-86c7-4125941defc6"
         },
         {
           "expanded": "NON PROTEGE",
           "value": "NON-PROTEGE",
-          "colour": "#f89595"
+          "colour": "#f89595",
+          "uuid": "ca47161d-b3b3-5ffd-b2a8-51a48706e5da"
         }
       ],
       "predicate": "non-classifiees"
@@ -35,7 +39,8 @@
         {
           "expanded": "SPECIAL FRANCE",
           "value": "SPECIAL_FRANCE",
-          "colour": "#0434cc"
+          "colour": "#0434cc",
+          "uuid": "a81bbf8f-7c82-5185-b756-c00c82172d00"
         }
       ],
       "predicate": "special-france"
@@ -45,20 +50,24 @@
     {
       "expanded": "Informations classifiées",
       "value": "classifiees",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "8df44644-db94-5d4f-8bc2-e37fa5eed479"
     },
     {
       "expanded": "Informations non classifiées",
       "value": "non-classifiees",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "cabb447b-5efc-5ce5-be29-f9f13e6898e3"
     },
     {
       "expanded": "Mention Spécial France",
       "value": "special-france",
-      "exclusive": false
+      "exclusive": false,
+      "uuid": "31c768b7-ec1f-5517-aef8-1004ae0a5463"
     }
   ],
   "version": 6,
   "description": "French gov information classification system",
-  "namespace": "fr-classif"
+  "namespace": "fr-classif",
+  "uuid": "c5633dc1-36a4-51ec-870b-08944c75951f"
 }

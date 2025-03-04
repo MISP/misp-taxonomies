@@ -11,7 +11,8 @@
     {
       "value": "alternative-points-of-view-process",
       "expanded": "Alternative points of view process",
-      "description": "A list of procedures or practices which describe alternative points of view to validate or rate an analysis. The list describes techniques or methods which could reinforce the estimative language in a human analysis and/or challenge the assumptions to reduce the potential bias of the analysis introduced by the analyst(s)."
+      "description": "A list of procedures or practices which describe alternative points of view to validate or rate an analysis. The list describes techniques or methods which could reinforce the estimative language in a human analysis and/or challenge the assumptions to reduce the potential bias of the analysis introduced by the analyst(s).",
+      "uuid": "ea7315d9-7b64-52a7-ae41-1c887b110390"
     }
   ],
   "values": [
@@ -20,29 +21,36 @@
       "entry": [
         {
           "value": "analytic-debates-within-the-organisation",
-          "expanded": "analytic debates within the organisation"
+          "expanded": "analytic debates within the organisation",
+          "uuid": "bf5107d5-03ac-56d8-a7aa-df8ad4731ae6"
         },
         {
           "value": "devils-advocates-methodology",
-          "expanded": "Devil's advocates methodology"
+          "expanded": "Devil's advocates methodology",
+          "uuid": "800d4393-b486-5ee6-8f94-56ee9630d123"
         },
         {
           "value": "competitive-analysis",
-          "expanded": "competitive analysis"
+          "expanded": "competitive analysis",
+          "uuid": "15edc071-519e-59ca-b1ee-33849e3b0854"
         },
         {
           "value": "interdisciplinary-brainstorming",
-          "expanded": "interdisciplinary brainstorming"
+          "expanded": "interdisciplinary brainstorming",
+          "uuid": "cd63342b-438c-5328-903c-711d1fe84879"
         },
         {
           "value": "intra-office-peer-review",
-          "expanded": "intra-office peer review"
+          "expanded": "intra-office peer review",
+          "uuid": "2e3ab3ff-5f7a-580b-a101-88375eb2828a"
         },
         {
           "value": "outside-expertise-review",
-          "expanded": "Outside expertise review"
+          "expanded": "Outside expertise review",
+          "uuid": "cbf830e4-6e7a-5d11-b44e-5d915768dc95"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "335dfe99-af7f-569e-97c7-d34b53af23a2"
 }
