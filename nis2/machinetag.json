@@ -1,7 +1,7 @@
 {
   "namespace": "nis2",
   "description": "The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 May 2022, also known as the provisional agreement. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.",
-  "version": 4,
+  "version": 5,
   "predicates": [
     {
       "value": "impact-sectors-impacted",
