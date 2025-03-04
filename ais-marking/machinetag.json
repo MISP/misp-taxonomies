@@ -6,22 +6,26 @@
     {
       "value": "TLPMarking",
       "expanded": "TLP Marking",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "184e0601-7c65-5b7e-9262-70365dfa3c16"
     },
     {
       "value": "AISConsent",
       "expanded": "AIS Consent",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "24de466b-dc98-55ca-9a64-4cebcb40aeb2"
     },
     {
       "value": "CISA_Proprietary",
       "expanded": "CISA Proprietary",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "50aca36e-729a-59ba-a82b-24cd9a14ae85"
     },
     {
       "value": "AISMarking",
       "expanded": "AIS Marking",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "50503fad-3622-5c92-a3da-2d1984f53de9"
     }
   ],
   "values": [
@@ -31,17 +35,20 @@
         {
           "value": "WHITE",
           "expanded": "WHITE",
-          "colour": "#FFFFFF"
+          "colour": "#FFFFFF",
+          "uuid": "f1263b57-3c76-567a-9465-57847a0d89d6"
         },
         {
           "value": "GREEN",
           "expanded": "GREEN",
-          "colour": "#339900"
+          "colour": "#339900",
+          "uuid": "44bf6529-bc00-5f01-a83d-545edf1793f5"
         },
         {
           "value": "AMBER",
           "expanded": "AMBER",
-          "colour": "#FFC000"
+          "colour": "#FFC000",
+          "uuid": "12a084d4-3ef8-59db-aece-f13c2c9d8f1e"
         }
       ]
     },
@@ -50,15 +57,18 @@
       "entry": [
         {
           "value": "EVERYONE",
-          "expanded": "EVERYONE"
+          "expanded": "EVERYONE",
+          "uuid": "8aa4ce8d-5dac-5e1f-a309-9ae9d7cff944"
         },
         {
           "value": "USG",
-          "expanded": "USG"
+          "expanded": "USG",
+          "uuid": "6bf24950-6ffc-56cb-9381-c6fdd4f3ba08"
         },
         {
           "value": "NONE",
-          "expanded": "NONE"
+          "expanded": "NONE",
+          "uuid": "9a5bc1f3-92cb-5a67-8a1f-a1017ed0af9b"
         }
       ]
     },
@@ -67,11 +77,13 @@
       "entry": [
         {
           "value": "true",
-          "expanded": "true"
+          "expanded": "true",
+          "uuid": "3990276b-d634-5923-ba96-e1899ef5bbb0"
         },
         {
           "value": "false",
-          "expanded": "false"
+          "expanded": "false",
+          "uuid": "20367ed6-3207-5a9c-9475-ea63722e493a"
         }
       ]
     },
@@ -80,13 +92,16 @@
       "entry": [
         {
           "value": "Is_Proprietary",
-          "expanded": "Is_Proprietary"
+          "expanded": "Is_Proprietary",
+          "uuid": "57748019-4319-55ad-83de-e738cc9f9889"
         },
         {
           "value": "Not_Proprietary",
-          "expanded": "Not_Proprietary"
+          "expanded": "Not_Proprietary",
+          "uuid": "7aea9cb2-b3c3-5f9a-866c-f08b1117363a"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "9b6c3df6-b5dc-5d82-832b-a8ff4040ff03"
 }

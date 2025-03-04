@@ -6,19 +6,23 @@
   "predicates": [
     {
       "value": "Preparation",
-      "expanded": "Activities undertaken by a threat actor, their leadership and/or sponsor to prepare for conducting malicious cyber activities, e.g., establish governance and articulating intent, objectives, and strategy; identify potential victims and attack vectors; securing resources and develop capabilities; assess intended victim's cyber environment; and define measures for evaluating the success or failure of threat activities."
+      "expanded": "Activities undertaken by a threat actor, their leadership and/or sponsor to prepare for conducting malicious cyber activities, e.g., establish governance and articulating intent, objectives, and strategy; identify potential victims and attack vectors; securing resources and develop capabilities; assess intended victim's cyber environment; and define measures for evaluating the success or failure of threat activities.",
+      "uuid": "7b683e46-793c-5eb8-a0ee-da145c987c31"
     },
     {
       "value": "Engagement",
-      "expanded": "Threat actor activities taken prior to gaining but with the intent to gain unauthorized access to the intended victim's physical or virtual computer or information system(s), network(s), and/or data stores."
+      "expanded": "Threat actor activities taken prior to gaining but with the intent to gain unauthorized access to the intended victim's physical or virtual computer or information system(s), network(s), and/or data stores.",
+      "uuid": "e3cbb1e1-5030-5cca-b42e-db8884edb879"
     },
     {
       "value": "Presence",
-      "expanded": "Actions taken by the threat actor once unauthorized access to victim(s)' physical or virtual computer or information system has been achieved that establishes and maintains conditions or allows the threat actor to perform intended actions or operate at will against the host physical or virtual computer or information system, network and/or data stores."
+      "expanded": "Actions taken by the threat actor once unauthorized access to victim(s)' physical or virtual computer or information system has been achieved that establishes and maintains conditions or allows the threat actor to perform intended actions or operate at will against the host physical or virtual computer or information system, network and/or data stores.",
+      "uuid": "37fab673-f313-54f3-a19b-48be43cc90c9"
     },
     {
       "value": "Effect/Consequence",
-      "expanded": "Outcomes of threat actor actions on a victim's physical or virtual computer or information system(s), network(s), and/or data stores."
+      "expanded": "Outcomes of threat actor actions on a victim's physical or virtual computer or information system(s), network(s), and/or data stores.",
+      "uuid": "5a0fc93e-aa71-5c20-8825-cfd8827daebd"
     }
   ],
   "values": [
@@ -28,27 +32,32 @@
         {
           "expanded": "Plan activity",
           "value": "plan-activity",
-          "numerical_value": 10
+          "numerical_value": 10,
+          "uuid": "6ae891a3-7ad0-5ce7-a469-82335e3fc8cc"
         },
         {
           "expanded": "Conduct research & analysis",
           "value": "conduct-research-and-analysis",
-          "numerical_value": 11
+          "numerical_value": 11,
+          "uuid": "9b4fabd5-9d54-558f-9da9-75a2f11af632"
         },
         {
           "expanded": "Develop resources & capabilities",
           "value": "develop-resource-and-capabilities",
-          "numerical_value": 12
+          "numerical_value": 12,
+          "uuid": "26da6988-1cd8-5a8b-8765-2ecc26e154e3"
         },
         {
           "expanded": "Acquire victim & specific knowledge",
           "value": "acquire-victim-and-specific-knowledge",
-          "numerical_value": 13
+          "numerical_value": 13,
+          "uuid": "5a27d52e-7dac-515e-a6ae-cac5fb026ff5"
         },
         {
           "expanded": "Complete preparations",
           "value": "complete-preparations",
-          "numerical_value": 14
+          "numerical_value": 14,
+          "uuid": "8ea5c111-c0a2-5e95-84d7-9caf24ec411d"
         }
       ]
     },
@@ -58,22 +67,26 @@
         {
           "expanded": "Deploy capability",
           "value": "deploy-capability",
-          "numerical_value": 20
+          "numerical_value": 20,
+          "uuid": "1032ff8b-59d2-557e-bae0-4dc241f27d65"
         },
         {
           "expanded": "Interact with intended victim",
           "value": "interact-with-intended-victim",
-          "numerical_value": 21
+          "numerical_value": 21,
+          "uuid": "34d08196-8ab2-54e0-a7d2-cac8e78cbc52"
         },
         {
           "expanded": "Exploit vulnerabilities",
           "value": "exploit-vulnerabilities",
-          "numerical_value": 22
+          "numerical_value": 22,
+          "uuid": "f3457e8b-b559-55ff-b18b-87cb8c58eace"
         },
         {
           "expanded": "Deliver malicious capabilities",
           "value": "deliver-malicious-capabilities",
-          "numerical_value": 23
+          "numerical_value": 23,
+          "uuid": "60235d3b-7268-5882-87a8-22b632b2ad4c"
         }
       ]
     },
@@ -83,27 +96,32 @@
         {
           "expanded": "Establish controlled access",
           "value": "establish-controlled-access",
-          "numerical_value": 30
+          "numerical_value": 30,
+          "uuid": "d97bce8d-9a88-569e-b233-4a92ac6c2eca"
         },
         {
           "expanded": "Hide",
           "value": "hide",
-          "numerical_value": 31
+          "numerical_value": 31,
+          "uuid": "7e6b2f04-5426-51d5-b8dd-a1c94a656785"
         },
         {
           "expanded": "Expand presence",
           "value": "expand-presence",
-          "numerical_value": 32
+          "numerical_value": 32,
+          "uuid": "6e10849a-a23a-5148-892f-5d477226d98d"
         },
         {
           "expanded": "Refine focus of activity",
           "value": "refine-focus-of-activity",
-          "numerical_value": 33
+          "numerical_value": 33,
+          "uuid": "7d975b86-c030-5b93-9219-f7dd350fe82c"
         },
         {
           "expanded": "Establish persistence",
           "value": "establish-persistence",
-          "numerical_value": 34
+          "numerical_value": 34,
+          "uuid": "efe5fd0f-6d8d-5ce6-8b52-ebf0b843bfb7"
         }
       ]
     },
@@ -113,29 +131,35 @@
         {
           "expanded": "Enable other operations",
           "value": "enable-other-operations",
-          "numerical_value": 40
+          "numerical_value": 40,
+          "uuid": "04c5c0da-8b5d-522a-82fa-2603782871db"
         },
         {
           "expanded": "Deny access",
           "value": "deny-access",
-          "numerical_value": 41
+          "numerical_value": 41,
+          "uuid": "d49682d5-66bb-54b7-a36a-c98eee3bc419"
         },
         {
           "expanded": "Extract data",
           "value": "extract-data",
-          "numerical_value": 42
+          "numerical_value": 42,
+          "uuid": "41ebf500-a9d8-5bfd-9409-72d9ca4daf05"
         },
         {
           "expanded": "Alter data and/or computer, network or system behavior",
           "value": "alter-data-and-or-computer-network-or-system-behavior",
-          "numerical_value": 43
+          "numerical_value": 43,
+          "uuid": "c8b83923-f012-580e-885d-4edc4fec0e77"
         },
         {
           "expanded": "Destroy HW/SW/data",
           "value": "destroy-hardware-software-or-data",
-          "numerical_value": 44
+          "numerical_value": 44,
+          "uuid": "4b603526-3660-5574-9d25-e32ec41eeda5"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "efa634dd-f41d-5411-868f-92651359ec5a"
 }

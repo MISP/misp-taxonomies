@@ -4,19 +4,23 @@
       "entry": [
         {
           "expanded": "Entry node to the Tor network",
-          "value": "entry-guard-relay"
+          "value": "entry-guard-relay",
+          "uuid": "3e1e3d3a-4d95-5feb-8452-d8db66950579"
         },
         {
           "expanded": "Tor node relaying traffic between an entry-guard-relay to an exit-relay",
-          "value": "middle-relay"
+          "value": "middle-relay",
+          "uuid": "5efcb478-3490-57d4-b2ba-9daf97e7039f"
         },
         {
           "expanded": "Tor node relaying traffic outside of the Tor network to the original destination",
-          "value": "exit-relay"
+          "value": "exit-relay",
+          "uuid": "93ac87ce-845d-5f72-8a99-973b51452000"
         },
         {
           "expanded": "Entry node to the Tor network - partially unpublished",
-          "value": "bridge-relay"
+          "value": "bridge-relay",
+          "uuid": "8a84aa43-d402-5bd3-bb6b-dbb0144684fb"
         }
       ],
       "predicate": "tor-relay-type"
@@ -25,10 +29,12 @@
   "predicates": [
     {
       "expanded": "Tor Relay Type",
-      "value": "tor-relay-type"
+      "value": "tor-relay-type",
+      "uuid": "e0f6f48b-4f92-525e-bb6b-8f3b696597c9"
     }
   ],
   "version": 1,
   "description": "Taxonomy to describe Tor network infrastructure",
-  "namespace": "tor"
+  "namespace": "tor",
+  "uuid": "3ee7b3df-a350-5fde-ba1e-ddd37260f2b8"
 }

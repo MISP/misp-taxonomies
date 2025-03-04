@@ -7,13 +7,15 @@
     {
       "value": "todo",
       "expanded": "Todo",
-      "description": "Todo are the actions to be performed by one or more analyst(s) to apply cognitive methods, evaluation(s), weightening information, to validate hypothesis or complete additional tasks to improve the overall information or data being tagged with a todo. "
+      "description": "Todo are the actions to be performed by one or more analyst(s) to apply cognitive methods, evaluation(s), weightening information, to validate hypothesis or complete additional tasks to improve the overall information or data being tagged with a todo. ",
+      "uuid": "6d023a40-949c-5392-9f08-43262f359907"
     },
     {
       "value": "state",
       "expanded": "State",
       "description": "State are the different states of the information or data being tagged.",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "ac402271-d872-5573-bb6c-9ed5969c5f8d"
     }
   ],
   "values": [
@@ -22,107 +24,133 @@
       "entry": [
         {
           "value": "expansion",
-          "expanded": "Expansion need to be applied to expand the information tagged"
+          "expanded": "Expansion need to be applied to expand the information tagged",
+          "uuid": "d31e052a-0425-542f-b5f8-e3e0798b266e"
         },
         {
           "value": "review",
-          "expanded": "Additional review is required to reach a certain level of validation of the information tagged"
+          "expanded": "Additional review is required to reach a certain level of validation of the information tagged",
+          "uuid": "ffef4630-21b3-53b1-ac5c-c3878c93d8dd"
         },
         {
           "value": "review-for-privacy",
-          "expanded": "Additional review is required to ensure privacy of the information tagged"
+          "expanded": "Additional review is required to ensure privacy of the information tagged",
+          "uuid": "5d73f2b6-871b-522d-a0dd-bc8784bc16c0"
         },
         {
           "value": "review-before-publication",
-          "expanded": "Review is required before publishing the information tagged"
+          "expanded": "Review is required before publishing the information tagged",
+          "uuid": "ba3ca05f-8fbe-5bf6-afe0-9194a89be0ac"
         },
         {
           "value": "release-requested",
-          "expanded": "Release of the information tagged is requested (often after the review process"
+          "expanded": "Release of the information tagged is requested (often after the review process",
+          "uuid": "6e585439-9101-5070-8478-ab97f489ada1"
         },
         {
           "value": "review-for-false-positive",
-          "expanded": "Review the the information tagged to limit the number of false-positives and potentially remove any IDS/automation flag to avoid automation of the false-positives"
+          "expanded": "Review the the information tagged to limit the number of false-positives and potentially remove any IDS/automation flag to avoid automation of the false-positives",
+          "uuid": "c7727edc-74f7-5a54-b986-2f6cc95edb27"
         },
         {
           "value": "review-the-source-credibility",
-          "expanded": "Review the source credibility and add the corresponding marking like admiralty-scale on the origin"
+          "expanded": "Review the source credibility and add the corresponding marking like admiralty-scale on the origin",
+          "uuid": "a024bc04-88e4-5980-aff1-26a5229842d7"
         },
         {
           "value": "add-missing-misp-galaxy-cluster-values",
-          "expanded": "Add potential MISP galaxy cluster values missing about the information tagged"
+          "expanded": "Add potential MISP galaxy cluster values missing about the information tagged",
+          "uuid": "b3603c42-ed6b-5ca7-abfe-306d0c318de9"
         },
         {
           "value": "create-missing-misp-galaxy-cluster",
-          "expanded": "Create missing MISP galaxy cluster about the information tagged"
+          "expanded": "Create missing MISP galaxy cluster about the information tagged",
+          "uuid": "3bcc5fbd-5e0b-510a-87b3-54258e19db68"
         },
         {
           "value": "create-missing-misp-galaxy-cluster-relationship",
-          "expanded": "create missing MISP galaxy cluster relationships (e.g. relationships between MISP clusters)"
+          "expanded": "create missing MISP galaxy cluster relationships (e.g. relationships between MISP clusters)",
+          "uuid": "49d4470a-1b29-5b3f-bb92-d9bab2b1f467"
         },
         {
           "value": "create-missing-misp-galaxy",
-          "expanded": "Create missing MISP galaxy at large about the information tagged (e.g. a new category of malware or activity)"
+          "expanded": "Create missing MISP galaxy at large about the information tagged (e.g. a new category of malware or activity)",
+          "uuid": "f1524de9-db63-55ba-af09-9f8e86bd7d06"
         },
         {
           "value": "create-missing-relationship",
-          "expanded": "Create missing relationship about the information tagged (e.g. create new relationship between MISP objects)"
+          "expanded": "Create missing relationship about the information tagged (e.g. create new relationship between MISP objects)",
+          "uuid": "1b8e89e1-48e7-5d61-9357-2c8bc8e4add9"
         },
         {
           "value": "add-context",
-          "expanded": "Add contextual information about the information tagged"
+          "expanded": "Add contextual information about the information tagged",
+          "uuid": "14bee168-fea3-5e24-8e3c-bab829aa0851"
         },
         {
           "value": "add-tagging",
-          "expanded": "Add adequate tagging and classification about the information tagged"
+          "expanded": "Add adequate tagging and classification about the information tagged",
+          "uuid": "8d9d0bc4-a823-5cbc-86e0-16857360ff0a"
         },
         {
           "value": "check-passive-dns-for-shared-hosting",
-          "expanded": "Check Passive DNS (or similar techniques) to review if the information tagged is used within shared hosting"
+          "expanded": "Check Passive DNS (or similar techniques) to review if the information tagged is used within shared hosting",
+          "uuid": "3e485b2c-9ac0-504a-b0d7-cd8bfc317be2"
         },
         {
           "value": "review-classification",
-          "expanded": "Review the classification of the information tagged to ensure adequate marking of the information before publication"
+          "expanded": "Review the classification of the information tagged to ensure adequate marking of the information before publication",
+          "uuid": "6bfc40ca-6c55-5db5-835d-9641164d218e"
         },
         {
           "value": "review-the-grammar",
-          "expanded": "Review the grammar of the information tagged to improve the overall quality"
+          "expanded": "Review the grammar of the information tagged to improve the overall quality",
+          "uuid": "1bc19d1d-35d4-5624-bf11-b5e7fbe17f51"
         },
         {
           "value": "do-not-delete",
-          "expanded": "Element that should not be deleted (without asking)"
+          "expanded": "Element that should not be deleted (without asking)",
+          "uuid": "923334e2-bbca-5100-b1a5-677eea02f082"
         },
         {
           "value": "add-mitre-attack-cluster",
-          "expanded": "Describe cyber adversary behavior using MITRE ATT&CK"
+          "expanded": "Describe cyber adversary behavior using MITRE ATT&CK",
+          "uuid": "982b52d3-6612-50da-836c-4ee68275b781"
         },
         {
           "value": "additional-task",
-          "expanded": "Used to point an additional task that can not be describe by the rest of the taxonomy and need to be done"
+          "expanded": "Used to point an additional task that can not be describe by the rest of the taxonomy and need to be done",
+          "uuid": "d83bc0f4-69f6-5df4-a6aa-1f045179d3d3"
         },
         {
           "value": "create-event",
-          "expanded": "A new MISP event need to be created from the tag reference"
+          "expanded": "A new MISP event need to be created from the tag reference",
+          "uuid": "845f301a-5d1c-5b77-a136-5883710b4f41"
         },
         {
           "value": "preserve-evidence",
-          "expanded": "Preserve evidence mentioned in the information tagged"
+          "expanded": "Preserve evidence mentioned in the information tagged",
+          "uuid": "fa5e2572-bce4-5575-8c27-528ddbb79287"
         },
         {
           "value": "review-relevance",
-          "expanded": "Review if the event is relevant"
+          "expanded": "Review if the event is relevant",
+          "uuid": "2a442c1a-792d-582a-b3e3-27e18177d4b4"
         },
         {
           "value": "review-completeness",
-          "expanded": "Review if the event is complete"
+          "expanded": "Review if the event is complete",
+          "uuid": "74ef9039-82f8-5d3f-af6f-ebd5ea9985d5"
         },
         {
           "value": "review-accuracy",
-          "expanded": "Review the accuracy of an event or attribute"
+          "expanded": "Review the accuracy of an event or attribute",
+          "uuid": "446337ff-10f8-537d-a527-21973210f5ec"
         },
         {
           "value": "review-quality",
-          "expanded": "Review the quality of an event or attribute"
+          "expanded": "Review the quality of an event or attribute",
+          "uuid": "f9ba1235-d172-5089-b700-68162fb9c33b"
         }
       ]
     },
@@ -131,29 +159,36 @@
       "entry": [
         {
           "value": "incomplete",
-          "expanded": "Incomplete means that the information tagged is incomplete and has potential to be completed by other analysts, technical processes or the current analysts performing the analysis."
+          "expanded": "Incomplete means that the information tagged is incomplete and has potential to be completed by other analysts, technical processes or the current analysts performing the analysis.",
+          "uuid": "0288bb5b-df65-5131-aecb-051db6359266"
         },
         {
           "value": "complete",
-          "expanded": "Complete means that the information tagged reach a state of completeness with the current capabilities of the analyst."
+          "expanded": "Complete means that the information tagged reach a state of completeness with the current capabilities of the analyst.",
+          "uuid": "43ebad12-1aa3-5fd0-9546-df7ed364d748"
         },
         {
           "value": "draft",
-          "expanded": "Draft means the information tagged can be released as a preliminary version or outline."
+          "expanded": "Draft means the information tagged can be released as a preliminary version or outline.",
+          "uuid": "ecfbc3a1-73ef-53ba-83a8-6d373f41c1de"
         },
         {
           "value": "ongoing",
-          "expanded": "Analyst is currently working on this analysis. To remove when there is no more work to be done by the analyst."
+          "expanded": "Analyst is currently working on this analysis. To remove when there is no more work to be done by the analyst.",
+          "uuid": "ef00fb75-077a-5c51-96c4-45c1c8350cae"
         },
         {
           "value": "rejected",
-          "expanded": "Analyst rejected the process. The object will not reach state of completeness."
+          "expanded": "Analyst rejected the process. The object will not reach state of completeness.",
+          "uuid": "8d4f6416-83c7-5b05-9aa4-fc554436a30a"
         },
         {
           "value": "release",
-          "expanded": "Analyst approved the information to be released. Like a MISP event to be released and published."
+          "expanded": "Analyst approved the information to be released. Like a MISP event to be released and published.",
+          "uuid": "17f65589-b9de-5823-8968-2924d16e7ea4"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "668823d1-d0c5-53f5-ac0e-97d1e0bc5f36"
 }

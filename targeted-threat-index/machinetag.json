@@ -5,32 +5,38 @@
         {
           "expanded": "Not targeted, e.g. spam or financially motivated malware.",
           "value": "not-targeted",
-          "numerical_value": 1
+          "numerical_value": 1,
+          "uuid": "d56a074c-66bd-5d7d-8699-8684c85e1b65"
         },
         {
           "expanded": "Targeted but not customized. Sent with a message that is obviously false with little to no validation required.",
           "value": "targeted-but-not-customized",
-          "numerical_value": 25
+          "numerical_value": 25,
+          "uuid": "9973b97d-aa3d-5796-baea-131968bd30ef"
         },
         {
           "expanded": "Targeted and poorly customized. Content is generally relevant to the target. May look questionable.",
           "value": "targeted-and-poorly-customized",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "6f8ccc94-debd-51e1-b915-0fa64d75218e"
         },
         {
           "expanded": "Targeted and customized. May use a real person/organization or content to convince the target the message is legitimate. Content is specifically relevant to the target and looks legitimate.",
           "value": "targeted-and-customized",
-          "numerical_value": 65
+          "numerical_value": 65,
+          "uuid": "aed19153-94a3-590e-921d-d93bbded8459"
         },
         {
           "expanded": "Targeted and well-customized. Uses a real person/organization and content to convince the target the message is legitimate. Probably directly addressing the recipient. Content is specifically relevant to the target, looks legitimate, and can be externally referenced (e.g. by a website). May be sent from a hacked account.",
           "value": "targeted-and-well-customized",
-          "numerical_value": 85
+          "numerical_value": 85,
+          "uuid": "8b7a1438-5316-5cb0-9a0b-f826b83d2b58"
         },
         {
           "expanded": "Targeted and highly customized using sensitive data.  Individually targeted and customized, likely using inside/sensitive information that is directly relevant to the target.",
           "value": "targeted-and-highly-customized-using-sensitive-data",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "80579276-4f37-512d-8824-0d44be74440f"
         }
       ],
       "predicate": "targeting-sophistication-base-value"
@@ -40,27 +46,32 @@
         {
           "expanded": "The sample contains no code protection such as packing, obfuscation (e.g. simple rotation of C2 names or other interesting strings), or anti-reversing tricks.",
           "value": "the-sample-contains-no code-protection",
-          "numerical_value": 1
+          "numerical_value": 1,
+          "uuid": "30833ed2-89ad-5f97-ba6d-dae741bb24f7"
         },
         {
           "expanded": "The sample contains a simple method of protection, such as one of the following: code protection using publicly available tools where the reverse method is available, such as UPX packing; simple anti-reversing techniques such as not using import tables, or a call to IsDebuggerPresent(); self-disabling in the presence of AV software.",
           "value": "the-sample-contains-a-simple-method-of-protection",
-          "numerical_value": 25
+          "numerical_value": 25,
+          "uuid": "bed89b60-ca4b-571b-8687-5c3c0e138caa"
         },
         {
           "expanded": "The sample contains multiple minor code protection techniques (anti-reversing tricks, packing, VM / reversing tools detection) that require some low-level knowledge. This level includes malware where code that contains the core functionality of the program is decrypted only in memory.",
           "value": "the-sample-contains-multiple-minor-code-protection-techniques",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "183547d9-3aa7-5578-bd69-4befe2a2400e"
         },
         {
           "expanded": "The sample contains minor code protection techniques along with at least one advanced protection method such as rootkit functionality or a custom virtualized packer.",
           "value": "the-sample-contains-minor-code-protection-techniques-plus-one-advanced",
-          "numerical_value": 75
+          "numerical_value": 75,
+          "uuid": "c319d006-d252-501b-8303-c9742ffb8e42"
         },
         {
           "expanded": "The sample contains multiple advanced protection techniques, e.g. rootkit capability, virtualized packer, multiple anti-reversing techniques, and is clearly designed by a professional software engineering team.",
           "value": "the-sample-contains-multiple-advanced-protection-techniques",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "660a250a-c0d8-56de-936e-3e71cce88012"
         }
       ],
       "predicate": "technical-sophistication-multiplier"
@@ -70,12 +81,14 @@
     {
       "description": "The base value of the score ranges from 0 to 5, based on the sophistication of the email’s social engineering techniques used to get the victim to open the attachment. This score considers the content and presentation of the message as well as the claimed sender identity. This determination also includes the content of any associated files; many times malware is injected into legitimate relevant documents.",
       "expanded": "Targeting Sophistication – Base Value",
-      "value": "targeting-sophistication-base-value"
+      "value": "targeting-sophistication-base-value",
+      "uuid": "7f05e04c-a4e9-5890-a7d4-ad64c9793ed5"
     },
     {
       "description": "The technical sophistication score is a multiplier ranging from 1 to 2 based on how advanced the associated malware is, including malicious file attachments as well as links to malware hosted on another system. We use a multiplier because advanced malware requires significantly more effort and time (or money, in the case of commercial solutions) to custom-tune for a particular target.",
       "expanded": "Technical Sophistication – Multiplier",
-      "value": "technical-sophistication-multiplier"
+      "value": "technical-sophistication-multiplier",
+      "uuid": "0fcb8210-8587-51b8-a8ca-f332ec72720f"
     }
   ],
   "version": 3,
@@ -84,5 +97,6 @@
     "https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-hardy.pdf"
   ],
   "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman.",
-  "namespace": "targeted-threat-index"
+  "namespace": "targeted-threat-index",
+  "uuid": "ba56bca2-c81a-58ad-a851-f9b13f5d1ccb"
 }

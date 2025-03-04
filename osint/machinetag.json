@@ -2,15 +2,18 @@
   "predicates": [
     {
       "expanded": "Source Type",
-      "value": "source-type"
+      "value": "source-type",
+      "uuid": "b9ea1b49-b2d5-5a70-9e69-408de4eb40e0"
     },
     {
       "expanded": "Lifetime of the information as Open Source Intelligence",
-      "value": "lifetime"
+      "value": "lifetime",
+      "uuid": "505034df-42bb-5649-90b8-167b40fdc1e9"
     },
     {
       "expanded": "Certainty of the elements mentioned in this Open Source Intelligence",
-      "value": "certainty"
+      "value": "certainty",
+      "uuid": "57a0cb11-4e40-50b5-82fb-ed0dbced65cd"
     }
   ],
   "version": 11,
@@ -22,75 +25,93 @@
       "entry": [
         {
           "value": "blog-post",
-          "expanded": "Blog post"
+          "expanded": "Blog post",
+          "uuid": "7868e94b-0133-592f-93e8-0e886a838c21"
         },
         {
           "value": "microblog-post",
-          "expanded": "Microblog post like Twitter"
+          "expanded": "Microblog post like Twitter",
+          "uuid": "5e29e74c-5eba-5960-b745-dcfdd0aacf3f"
         },
         {
           "value": "technical-report",
-          "expanded": "Technical or analysis report"
+          "expanded": "Technical or analysis report",
+          "uuid": "da94de57-019b-5c3b-9399-455993ba8512"
         },
         {
           "value": "presentation",
-          "expanded": "Presentation or slidedeck"
+          "expanded": "Presentation or slidedeck",
+          "uuid": "33298f32-46a1-5cb6-a198-6f173f29ce5d"
         },
         {
           "value": "news-report",
-          "expanded": "News report"
+          "expanded": "News report",
+          "uuid": "f652d9ac-11ce-5a8a-b05d-34cf507a70ac"
         },
         {
           "value": "pastie-website",
-          "expanded": "Pastie-like website"
+          "expanded": "Pastie-like website",
+          "uuid": "c531a93b-10a8-54c7-a17d-2e3516aaa6e3"
         },
         {
           "value": "electronic-forum",
-          "expanded": "Electronic forum"
+          "expanded": "Electronic forum",
+          "uuid": "c5ab0ce0-56d3-50a2-93c3-a35472afd1b8"
         },
         {
           "value": "mailing-list",
-          "expanded": "Mailing-list"
+          "expanded": "Mailing-list",
+          "uuid": "c405f3a8-7b5b-5b62-9e47-67ab33ca0baf"
         },
         {
           "value": "block-or-filter-list",
-          "expanded": "Block or Filter List"
+          "expanded": "Block or Filter List",
+          "uuid": "4960e4cf-1d75-509b-bf2f-2028de86b5c3"
         },
         {
           "value": "source-code-repository",
-          "expanded": "Source code repository"
+          "expanded": "Source code repository",
+          "uuid": "c6b5b111-0b38-5c31-b243-0d81baf63ec4"
         },
         {
           "value": "accessible-evidence",
-          "expanded": "Infrastructure allowing the gathering of the evidences such as open directories, public web services or left over on public services"
+          "expanded": "Infrastructure allowing the gathering of the evidences such as open directories, public web services or left over on public services",
+          "uuid": "f02e1c5c-5d87-54dc-85cb-3dc701b3309a"
         },
         {
           "value": "expansion",
-          "expanded": "Expansion"
+          "expanded": "Expansion",
+          "uuid": "4329194a-be0f-5095-9f6a-a09a4c82f8fc"
         },
         {
           "value": "automatic-analysis",
-          "expanded": "Automatic analysis including dynamic analysis or sandboxes output"
+          "expanded": "Automatic analysis including dynamic analysis or sandboxes output",
+          "uuid": "4949b162-6a4a-595b-b057-d6768433a1d3"
         },
         {
           "value": "automatic-collection",
-          "expanded": "Automatic collection including honeypots, spamtraps or equivalent technologies"
+          "expanded": "Automatic collection including honeypots, spamtraps or equivalent technologies",
+          "uuid": "9290c4f5-347d-5445-95bd-3cc35d1410e8"
         },
         {
           "value": "manual-analysis",
-          "expanded": "Manual analysis or investigation"
+          "expanded": "Manual analysis or investigation",
+          "uuid": "23de4de0-2298-5d9b-8741-f3e43389c740"
         },
         {
           "value": "manual-collection",
-          "expanded": "Manual collection from crawlers, honeypots, spamtraps, gathering tools or equivalent technologies"
+          "expanded": "Manual collection from crawlers, honeypots, spamtraps, gathering tools or equivalent technologies",
+          "uuid": "00bdadf8-a3ce-57c0-9df4-e2b565e3c660"
         },
         {
           "value": "unknown",
-          "expanded": "Unknown"
+          "expanded": "Unknown",
+          "uuid": "71aeea35-eaf6-54fb-ba7c-f6e9ee7f479b"
         },
         {
           "value": "other",
-          "expanded": "Other source not specified in this list"
+          "expanded": "Other source not specified in this list",
+          "uuid": "ee1d13b9-20d2-5756-b7b5-580c20c899a5"
         }
       ]
     },
@@ -99,12 +120,14 @@
         {
           "description": "Information available publicly on long-term",
           "expanded": "Perpetual",
-          "value": "perpetual"
+          "value": "perpetual",
+          "uuid": "6eb1967a-7c71-537b-bb49-3fbc9f919a2e"
         },
         {
           "description": "Information available publicly on short-term",
           "expanded": "Ephemeral",
-          "value": "ephemeral"
+          "value": "ephemeral",
+          "uuid": "d46dc1ed-ac28-5694-9379-866f81dafefe"
         }
       ],
       "predicate": "lifetime"
@@ -115,46 +138,54 @@
           "description": "Certainty",
           "expanded": "Certainty (probability equals 1 - 100%)",
           "value": "100",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "536cbc3c-e52e-5dfb-bc5c-2ff2fef09f05"
         },
         {
           "description": "Almost certain",
           "expanded": "Almost certain (probability equals 0.93 - 93%)",
           "value": "93",
-          "numerical_value": 93
+          "numerical_value": 93,
+          "uuid": "3df0383a-17a3-5a5d-9690-e5df1a362804"
         },
         {
           "description": "Probable",
           "expanded": "Probable (probability equals 0.75 - 75%)",
           "value": "75",
-          "numerical_value": 75
+          "numerical_value": 75,
+          "uuid": "c6709b16-a76c-58f6-b187-02ceee8dcc50"
         },
         {
           "description": "Chances about even",
           "expanded": "Chances about even (probability equals 0.50 - 50%)",
           "value": "50",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "bf22d298-1ac8-5fa7-b081-d00beda09547"
         },
         {
           "description": "Probably not",
           "expanded": "Probably not (probability equals 0.30 - 30%)",
           "value": "30",
-          "numerical_value": 30
+          "numerical_value": 30,
+          "uuid": "ea8e84e2-e8d7-5432-b3f3-7aa80eed5e9a"
         },
         {
           "description": "Almost certainly not",
           "expanded": "Almost certainly not (probability equals 0.07 - 7%)",
           "value": "7",
-          "numerical_value": 7
+          "numerical_value": 7,
+          "uuid": "4dae137b-97e0-514d-bebe-45e66a355cc5"
         },
         {
           "description": "Impossibility",
           "expanded": "Impossibility (probability equals 0 - 0%)",
           "value": "0",
-          "numerical_value": 0
+          "numerical_value": 0,
+          "uuid": "6e8d083e-afdd-531a-ae4e-a34981187b74"
         }
       ],
       "predicate": "certainty"
     }
-  ]
+  ],
+  "uuid": "ce1ac7e7-a9c3-5b36-87d3-53e76aa0e6a3"
 }

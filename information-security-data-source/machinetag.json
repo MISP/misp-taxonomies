@@ -9,47 +9,56 @@
     {
       "value": "type-of-information",
       "expanded": "Type of information",
-      "description": "Type of provided information"
+      "description": "Type of provided information",
+      "uuid": "cf88213e-c593-5873-aa84-b2ca97d81099"
     },
     {
       "value": "originality",
       "expanded": "Originality",
-      "description": "Originality and novelty of the provided information"
+      "description": "Originality and novelty of the provided information",
+      "uuid": "11f72071-7704-56c8-8776-daf3c0ed449f"
     },
     {
       "value": "timeliness-sharing-behavior",
       "expanded": "Timeliness sharing behavior",
-      "description": "Timeliness of the provided information"
+      "description": "Timeliness of the provided information",
+      "uuid": "08a3f808-2257-503e-a340-89d1eb423c66"
     },
     {
       "value": "integrability-format",
       "expanded": "Integrability format",
-      "description": "Level of integrability format for the provided information"
+      "description": "Level of integrability format for the provided information",
+      "uuid": "5b585568-9a44-5bc2-b10a-c937509e098f"
     },
     {
       "value": "integrability-interface",
       "expanded": "Integrability interface",
-      "description": "Level of integrability interface for the provided information"
+      "description": "Level of integrability interface for the provided information",
+      "uuid": "e7f1de87-59fe-50b0-b2e5-e20d27991a7e"
     },
     {
       "value": "trustworthiness-creditabilily",
       "expanded": "Trustworthiness creditability",
-      "description": "Source of the creditability"
+      "description": "Source of the creditability",
+      "uuid": "c92a5591-d89e-5f73-8359-31e7ab092466"
     },
     {
       "value": "trustworthiness-traceability",
       "expanded": "Trustworthiness traceability",
-      "description": "Traceability of the provided information"
+      "description": "Traceability of the provided information",
+      "uuid": "3b397fac-b065-53d9-9c35-9c57ace07d3f"
     },
     {
       "value": "trustworthiness-feedback-mechanism",
       "expanded": "Trustworthiness feedback mechanism",
-      "description": "Feedback such as user ratings or comments regarding the usefulness of the provided information"
+      "description": "Feedback such as user ratings or comments regarding the usefulness of the provided information",
+      "uuid": "7badb785-ea23-5548-a540-056e6db19c3b"
     },
     {
       "value": "type-of-source",
       "expanded": "Type of source",
-      "description": "Types of information security data source"
+      "description": "Types of information security data source",
+      "uuid": "fceda053-55c7-563a-add4-a2e779fc39cc"
     }
   ],
   "values": [
@@ -59,32 +68,38 @@
         {
           "value": "vulnerability",
           "expanded": "Vulnerability",
-          "description": "Information regarding a weakness of an asset which might be exploited by a threat"
+          "description": "Information regarding a weakness of an asset which might be exploited by a threat",
+          "uuid": "4cee7fce-fae9-5afa-81b1-e5d2f9da112f"
         },
         {
           "value": "threat",
           "expanded": "Threat",
-          "description": "Information regarding the potential cause on an unwanted incident"
+          "description": "Information regarding the potential cause on an unwanted incident",
+          "uuid": "db693ecb-4ce6-56a1-9497-f3ee6fbe8ca4"
         },
         {
           "value": "countermeasure",
           "expanded": "Countermeasure",
-          "description": "Information regarding any administrative, managerial, technical or legal control that is used to counteract an information security risk"
+          "description": "Information regarding any administrative, managerial, technical or legal control that is used to counteract an information security risk",
+          "uuid": "f73539ee-1732-5f43-ad62-e030e2186021"
         },
         {
           "value": "attack",
           "expanded": "Attack",
-          "description": "Information regarding any unauthorized attempt to access, alter or destroy an asset"
+          "description": "Information regarding any unauthorized attempt to access, alter or destroy an asset",
+          "uuid": "2412d347-b84e-5e43-bdc6-72247a65bd04"
         },
         {
           "value": "risk",
           "expanded": "Risk",
-          "description": "Information describing the consequences of a potential event, such as an attack"
+          "description": "Information describing the consequences of a potential event, such as an attack",
+          "uuid": "ac71fd4f-cc77-57fc-aea1-ea1496180a5b"
         },
         {
           "value": "asset",
           "expanded": "Asset",
-          "description": "Information regarding any object or characteristic that has value to an organization"
+          "description": "Information regarding any object or characteristic that has value to an organization",
+          "uuid": "1b2f1dd4-e792-5a8c-804c-74c61a8513ee"
         }
       ]
     },
@@ -94,12 +109,14 @@
         {
           "value": "original-source",
           "expanded": "Original source",
-          "description": "Information originates from the data sources which publish their own information"
+          "description": "Information originates from the data sources which publish their own information",
+          "uuid": "2c4a31cd-30f1-5e14-bc8d-6b18e016b24b"
         },
         {
           "value": "secondary-source",
           "expanded": "Secondary source",
-          "description": "Information is integrated or copied from another information security data source"
+          "description": "Information is integrated or copied from another information security data source",
+          "uuid": "c266eff0-7cd2-5100-ac4d-cda49c7e7288"
         }
       ]
     },
@@ -109,12 +126,14 @@
         {
           "value": "routine-sharing",
           "expanded": "Routine sharing",
-          "description": "Information is published at a specific point in time on a regular basis, such as daily, weakly or monthly reports"
+          "description": "Information is published at a specific point in time on a regular basis, such as daily, weakly or monthly reports",
+          "uuid": "3f944c2e-f284-5827-a80f-dca8bbb626d5"
         },
         {
           "value": "incident-specific",
           "expanded": "Incident specific",
-          "description": "Information is published whenever news are available or a new incident occurs"
+          "description": "Information is published whenever news are available or a new incident occurs",
+          "uuid": "312b5718-5b25-5c9b-a0ee-9e5e881c3c94"
         }
       ]
     },
@@ -124,12 +143,14 @@
         {
           "value": "structured",
           "expanded": "Structured",
-          "description": "The provided security information is available in an standardized and structured data format such as MISP core format"
+          "description": "The provided security information is available in an standardized and structured data format such as MISP core format",
+          "uuid": "f3bceeb3-818d-596c-b557-4e86ccd41fab"
         },
         {
           "value": "unstructured",
           "expanded": "Unstructured",
-          "description": "The provided security information is available in unstructured form without following a common data representation format"
+          "description": "The provided security information is available in unstructured form without following a common data representation format",
+          "uuid": "b56b2db7-cdeb-51fd-b4e1-025bf0365d23"
         }
       ]
     },
@@ -139,22 +160,26 @@
         {
           "value": "no-interface",
           "expanded": "No interface",
-          "description": "The information security data source doesn’t provide any interface to access the information"
+          "description": "The information security data source doesn’t provide any interface to access the information",
+          "uuid": "3df6c046-7a50-57c5-a2f7-cbe5bdada981"
         },
         {
           "value": "api",
           "expanded": "API",
-          "description": "The information security data source provides an application programming interface (APIs) to obtain the provided information"
+          "description": "The information security data source provides an application programming interface (APIs) to obtain the provided information",
+          "uuid": "7cf3db7d-2a9b-51de-9aff-158a87c51951"
         },
         {
           "value": "rss-feeds",
           "expanded": "RSS Feeds",
-          "description": "The information security data source provides an RSS Feed to keep track of the provided information"
+          "description": "The information security data source provides an RSS Feed to keep track of the provided information",
+          "uuid": "d5e8b356-64de-517c-b0b4-aaa1721cf5c5"
         },
         {
           "value": "export",
           "expanded": "Export",
-          "description": "The information security data source provides an interface to export contents as XML, JSON or plain text"
+          "description": "The information security data source provides an interface to export contents as XML, JSON or plain text",
+          "uuid": "6b797713-7402-5929-971e-439234f45788"
         }
       ]
     },
@@ -164,22 +189,26 @@
         {
           "value": "vendor",
           "expanded": "Vendor",
-          "description": "The publisher of the information is a vendor"
+          "description": "The publisher of the information is a vendor",
+          "uuid": "543154b5-d7e8-5986-8f3d-e38bb1d28a91"
         },
         {
           "value": "government",
           "expanded": "Government",
-          "description": "The publisher of the information is a government"
+          "description": "The publisher of the information is a government",
+          "uuid": "ea14301e-31b8-5f9a-b891-2c2c24c599a4"
         },
         {
           "value": "security-expert",
           "expanded": "Security expert",
-          "description": "The publisher of the information is a security expert"
+          "description": "The publisher of the information is a security expert",
+          "uuid": "17f67f7b-9565-5715-8b99-2c1ed7a44d0e"
         },
         {
           "value": "normal-user",
           "expanded": "Normal user",
-          "description": "The publisher of the information is a normal user"
+          "description": "The publisher of the information is a normal user",
+          "uuid": "d57cb7c5-47af-5702-a11b-4dc75cf4ba21"
         }
       ]
     },
@@ -189,12 +218,14 @@
         {
           "value": "yes",
           "expanded": "Yes",
-          "description": "The provided information is classified as traceable if it can be traced back, based on meta-data, to a specific publisher and a publishing date"
+          "description": "The provided information is classified as traceable if it can be traced back, based on meta-data, to a specific publisher and a publishing date",
+          "uuid": "b4e63e2c-53d0-5db0-914a-a79e53cb7afb"
         },
         {
           "value": "no",
           "expanded": "No",
-          "description": "The provided information cannot be traced back (meta-data are not provided)"
+          "description": "The provided information cannot be traced back (meta-data are not provided)",
+          "uuid": "6a3525d5-dc60-59a5-a184-dc262be7b91b"
         }
       ]
     },
@@ -204,12 +235,14 @@
         {
           "value": "yes",
           "expanded": "Yes",
-          "description": "The provided information is validated by including user rating, comments or additional analysis"
+          "description": "The provided information is validated by including user rating, comments or additional analysis",
+          "uuid": "10a8742d-d14f-56b2-8414-470c4a41113a"
         },
         {
           "value": "no",
           "expanded": "No",
-          "description": "The provided information is not validated (a user rating, comments is not available)"
+          "description": "The provided information is not validated (a user rating, comments is not available)",
+          "uuid": "0291fcae-4c7f-575c-aa6e-81b9153a4e61"
         }
       ]
     },
@@ -218,41 +251,51 @@
       "entry": [
         {
           "value": "news-website",
-          "expanded": "News website"
+          "expanded": "News website",
+          "uuid": "e9d24355-ac44-554d-8bc8-504bd6116668"
         },
         {
           "value": "expert-blog",
-          "expanded": "Expert blog"
+          "expanded": "Expert blog",
+          "uuid": "3921ad82-dfb3-52b5-8fdc-9e68a1042008"
         },
         {
           "value": "security-product-vendor-website",
-          "expanded": "(Security product) vendor website"
+          "expanded": "(Security product) vendor website",
+          "uuid": "27213111-8ec9-5170-bb04-11f550ec6ad6"
         },
         {
           "value": "vulnerability-database",
-          "expanded": "Vulnerability database"
+          "expanded": "Vulnerability database",
+          "uuid": "fedfd1f8-6c22-5c01-8f0f-419da65166df"
         },
         {
           "value": "mailing-list-archive",
-          "expanded": "Mailing list archive"
+          "expanded": "Mailing list archive",
+          "uuid": "01c3fa91-5774-536f-9d43-db9be4f07bd4"
         },
         {
           "value": "social-network",
-          "expanded": "Social network"
+          "expanded": "Social network",
+          "uuid": "f13767fd-b50c-56e6-8cc7-7ed6ff1c4d7a"
         },
         {
           "value": "streaming-portal",
-          "expanded": "Streaming portal"
+          "expanded": "Streaming portal",
+          "uuid": "f5c0878f-170e-5ae2-b899-0ca248317ded"
         },
         {
           "value": "forum",
-          "expanded": "Forum"
+          "expanded": "Forum",
+          "uuid": "ae16207d-f583-5df8-bf69-d07db8d38739"
         },
         {
           "value": "other",
-          "expanded": "Other"
+          "expanded": "Other",
+          "uuid": "2701dac8-7796-5dba-9481-07455cf1d5c0"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "8bac5b4c-299a-58fe-862e-d8dfa8a86393"
 }

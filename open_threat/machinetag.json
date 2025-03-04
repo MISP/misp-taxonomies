@@ -5,11 +5,13 @@
   "predicates": [
     {
       "value": "threat-category",
-      "expanded": "Threats to Information Systems"
+      "expanded": "Threats to Information Systems",
+      "uuid": "dcd60332-1590-5aaf-858f-e08a12ce663c"
     },
     {
       "value": "threat-name",
-      "expanded": "Threat Action Name and Rating"
+      "expanded": "Threat Action Name and Rating",
+      "uuid": "605d0295-9364-507b-bf32-10416c630b33"
     }
   ],
   "values": [
@@ -18,19 +20,23 @@
       "entry": [
         {
           "value": "Physical",
-          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are physical in nature. These threats generally describe actions that could lead to the theft, harm, or destruction of information systems."
+          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are physical in nature. These threats generally describe actions that could lead to the theft, harm, or destruction of information systems.",
+          "uuid": "931c8219-23d0-5594-af05-779a83997714"
         },
         {
           "value": "Resource",
-          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are the result of a lack of resources required by the information system. These threats often cause failures of information systems through a disruption of resources required for operations."
+          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are the result of a lack of resources required by the information system. These threats often cause failures of information systems through a disruption of resources required for operations.",
+          "uuid": "f2f9d1e1-7e4c-57d8-b706-b2eb134c1ccc"
         },
         {
           "value": "Personal",
-          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are the result of failures or actions performed by an organization’s personnel. These threats can be the result of deliberate or accidental actions that cause harm to information systems."
+          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are the result of failures or actions performed by an organization’s personnel. These threats can be the result of deliberate or accidental actions that cause harm to information systems.",
+          "uuid": "d3e14e89-4b6b-53ed-9512-9fff65f35223"
         },
         {
           "value": "Technical",
-          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are technical in nature. These threats are most often considered when identifying threats and constitute the technical actions performed by a threat actor that can cause harm to an information system."
+          "expanded": "Threats to the confidentiality, integrity, or availability of information systems that are technical in nature. These threats are most often considered when identifying threats and constitute the technical actions performed by a threat actor that can cause harm to an information system.",
+          "uuid": "9f2e40c9-6b06-5e92-b88e-364a15fdd3fd"
         }
       ]
     },
@@ -39,305 +45,381 @@
       "entry": [
         {
           "value": "PHY-001",
-          "expanded": "Loss of Property - Rating: 5.0"
+          "expanded": "Loss of Property - Rating: 5.0",
+          "uuid": "822f9e12-1a1d-54a7-b65f-d20c82fb107d"
         },
         {
           "value": "PHY-002",
-          "expanded": "Theft of Property - Rating: 5.0"
+          "expanded": "Theft of Property - Rating: 5.0",
+          "uuid": "6286aa16-05a1-5197-aaa2-a4764d3350c5"
         },
         {
           "value": "PHY-003",
-          "expanded": "Accidental Destruction of Property - Rating: 3.0"
+          "expanded": "Accidental Destruction of Property - Rating: 3.0",
+          "uuid": "c676c7cb-df2d-5317-aba6-f67b9792e442"
         },
         {
           "value": "PHY-004",
-          "expanded": "Natural Destruction of Property - Rating: 3.0"
+          "expanded": "Natural Destruction of Property - Rating: 3.0",
+          "uuid": "744476cc-e542-5fe2-99a3-ed95a23f373c"
         },
         {
           "value": "PHY-005",
-          "expanded": "Intentional Destruction of Property - Rating: 2.0"
+          "expanded": "Intentional Destruction of Property - Rating: 2.0",
+          "uuid": "23d966ac-3aa2-5181-bf61-a567817a11a1"
         },
         {
           "value": "PHY-006",
-          "expanded": "Intentional Sabotage of Property - Rating: 2.0"
+          "expanded": "Intentional Sabotage of Property - Rating: 2.0",
+          "uuid": "2a484cda-b90d-5f8e-a4e0-749ea71493c3"
         },
         {
           "value": "PHY-007",
-          "expanded": "Intentional Vandalism of Property - Rating: 2.0"
+          "expanded": "Intentional Vandalism of Property - Rating: 2.0",
+          "uuid": "cda2ea33-31c0-5506-89d7-a7d580725ffc"
         },
         {
           "value": "PHY-008",
-          "expanded": "Electrical System Failure - Rating: 4.0"
+          "expanded": "Electrical System Failure - Rating: 4.0",
+          "uuid": "58562322-6b71-5dd6-9fca-5ac5cb1b6e14"
         },
         {
           "value": "PHY-009",
-          "expanded": "Heating, Ventilation, Air Conditioning (HVAC) Failure - Rating: 3.0"
+          "expanded": "Heating, Ventilation, Air Conditioning (HVAC) Failure - Rating: 3.0",
+          "uuid": "cd700cb4-6ca0-597f-a255-afafc92bdbc9"
         },
         {
           "value": "PHY-010",
-          "expanded": "Structural Facility Failure - Rating: 2.0"
+          "expanded": "Structural Facility Failure - Rating: 2.0",
+          "uuid": "93584900-693c-509d-b9d2-1d4954057d64"
         },
         {
           "value": "PHY-011",
-          "expanded": "Water Distribution System Failure - Rating: 2.0"
+          "expanded": "Water Distribution System Failure - Rating: 2.0",
+          "uuid": "00c396c9-206b-519c-9ffb-8ad3ad0c9bcc"
         },
         {
           "value": "PHY-012",
-          "expanded": "Sanitation System Failure - Rating: 1.0"
+          "expanded": "Sanitation System Failure - Rating: 1.0",
+          "uuid": "698b1267-244e-5c60-960a-c11469eedb43"
         },
         {
           "value": "PHY-013",
-          "expanded": "Natural Gas Distribution Failure - Rating: 1.0"
+          "expanded": "Natural Gas Distribution Failure - Rating: 1.0",
+          "uuid": "ff88bf10-5160-5bb7-b1a2-d96633e29a80"
         },
         {
           "value": "PHY-014",
-          "expanded": "Electronic Media Failure - Rating: 3.0"
+          "expanded": "Electronic Media Failure - Rating: 3.0",
+          "uuid": "9962cbc0-f644-53d2-8aac-1b7eec1040c7"
         },
         {
           "value": "RES-001",
-          "expanded": "Disruption of Water Resources - Rating: 2.0"
+          "expanded": "Disruption of Water Resources - Rating: 2.0",
+          "uuid": "5f09916e-6309-5095-ba57-c29bec9f193f"
         },
         {
           "value": "RES-002",
-          "expanded": "Disruption of Fuel Resources - Rating: 2.0"
+          "expanded": "Disruption of Fuel Resources - Rating: 2.0",
+          "uuid": "7f8b09b7-51d7-5248-83ed-1a16f5b4ffd2"
         },
         {
           "value": "RES-003",
-          "expanded": "Disruption of Materials Resources - Rating: 2.0"
+          "expanded": "Disruption of Materials Resources - Rating: 2.0",
+          "uuid": "289f6c10-e607-5149-84fe-539ed7c135c1"
         },
         {
           "value": "RES-004",
-          "expanded": "Disruption of Electrical Resources - Rating: 4.0"
+          "expanded": "Disruption of Electrical Resources - Rating: 4.0",
+          "uuid": "65f02713-fe03-5b5b-acea-0bc998f6a1c9"
         },
         {
           "value": "RES-005",
-          "expanded": "Disruption of Transportation Services - Rating: 1.0"
+          "expanded": "Disruption of Transportation Services - Rating: 1.0",
+          "uuid": "4dff6da0-4438-5d3d-a544-0ea69be5ae3c"
         },
         {
           "value": "RES-006",
-          "expanded": "Disruption of Communications Services - Rating: 4.0"
+          "expanded": "Disruption of Communications Services - Rating: 4.0",
+          "uuid": "9d88c186-ab28-5c5e-b7a3-35397c8e60d2"
         },
         {
           "value": "RES-007",
-          "expanded": "Disruption of Emergency Services - Rating: 1.0"
+          "expanded": "Disruption of Emergency Services - Rating: 1.0",
+          "uuid": "d6903cc0-c58c-58bb-9804-56c32d0f2b3b"
         },
         {
           "value": "RES-008",
-          "expanded": "Disruption of Governmental Services - Rating: 1.0"
+          "expanded": "Disruption of Governmental Services - Rating: 1.0",
+          "uuid": "6347227b-6472-5b10-969c-55a9860a5e2a"
         },
         {
           "value": "RES-009",
-          "expanded": "Supplier Viability - Rating: 2.0"
+          "expanded": "Supplier Viability - Rating: 2.0",
+          "uuid": "1c07e6fc-6993-5f09-8f94-a93b19ccbf7c"
         },
         {
           "value": "RES-010",
-          "expanded": "Supplier Supply Chain Failure - Rating: 2.0"
+          "expanded": "Supplier Supply Chain Failure - Rating: 2.0",
+          "uuid": "a5201c9c-a8a4-583d-8ed8-36bf758db1d7"
         },
         {
           "value": "RES-011",
-          "expanded": "Logistics Provider Failures - Rating: 1.0"
+          "expanded": "Logistics Provider Failures - Rating: 1.0",
+          "uuid": "210c1657-84d9-58a3-bda2-fdeabf120a2b"
         },
         {
           "value": "RES-012",
-          "expanded": "Logistics Route Disruptions - Rating: 1.0"
+          "expanded": "Logistics Route Disruptions - Rating: 1.0",
+          "uuid": "e23e705a-d362-5dc3-bed9-8f48566ddfb8"
         },
         {
           "value": "RES-013",
-          "expanded": "Technology Services Manipulation - Rating: 3.0"
+          "expanded": "Technology Services Manipulation - Rating: 3.0",
+          "uuid": "ceea7f87-a12f-5bcb-a7c3-80a40754f9af"
         },
         {
           "value": "PER-001",
-          "expanded": "Personnel Labor / Skills Shortage - Rating: 5.0"
+          "expanded": "Personnel Labor / Skills Shortage - Rating: 5.0",
+          "uuid": "66b19418-1461-5074-8914-c2e8b362e0d3"
         },
         {
           "value": "PER-002",
-          "expanded": "Loss of Personnel Resources - Rating: 3.0"
+          "expanded": "Loss of Personnel Resources - Rating: 3.0",
+          "uuid": "963f4d40-e890-588f-a519-62a165de3f22"
         },
         {
           "value": "PER-003",
-          "expanded": "Disruption of Personnel Resources - Rating: 3.0"
+          "expanded": "Disruption of Personnel Resources - Rating: 3.0",
+          "uuid": "376c405a-4d06-51c3-9f84-dfca94d60a73"
         },
         {
           "value": "PER-004",
-          "expanded": "Social Engineering of Personnel Resources - Rating: 4.0"
+          "expanded": "Social Engineering of Personnel Resources - Rating: 4.0",
+          "uuid": "56dbda98-b7dc-55cc-8047-30eb8603d212"
         },
         {
           "value": "PER-005",
-          "expanded": "Negligent Personnel Resources - Rating: 4.0"
+          "expanded": "Negligent Personnel Resources - Rating: 4.0",
+          "uuid": "c1d430ce-4811-5f28-a619-2242b6b12842"
         },
         {
           "value": "PER-006",
-          "expanded": "Personnel Mistakes / Errors - Rating: 4.0"
+          "expanded": "Personnel Mistakes / Errors - Rating: 4.0",
+          "uuid": "f054a550-9d0f-5d2a-ad49-cbed2ac01180"
         },
         {
           "value": "PER-007",
-          "expanded": "Personnel Inaction - Rating: 3.0"
+          "expanded": "Personnel Inaction - Rating: 3.0",
+          "uuid": "52d21d51-465a-58e0-9f9e-cb1f5da680f2"
         },
         {
           "value": "TEC-001",
-          "expanded": "Organizational Fingerprinting via Open Sources - Rating: "
+          "expanded": "Organizational Fingerprinting via Open Sources - Rating: ",
+          "uuid": "b475184a-c189-51f3-8a17-70cef57f3e0a"
         },
         {
           "value": "TEC-002",
-          "expanded": "System Fingerprinting via Open Sources - Rating: 2.0"
+          "expanded": "System Fingerprinting via Open Sources - Rating: 2.0",
+          "uuid": "13240f72-d13d-55b7-a319-2e687b942abe"
         },
         {
           "value": "TEC-003",
-          "expanded": "System Fingerprinting via Scanning - Rating: 2.0"
+          "expanded": "System Fingerprinting via Scanning - Rating: 2.0",
+          "uuid": "4ea1a7fd-34f3-55fd-aba2-6c5600078070"
         },
         {
           "value": "TEC-004",
-          "expanded": "System Fingerprinting via Sniffing - Rating: 2.0"
+          "expanded": "System Fingerprinting via Sniffing - Rating: 2.0",
+          "uuid": "739d8612-9e96-58ba-a543-22d3ca7673b1"
         },
         {
           "value": "TEC-005",
-          "expanded": "Credential Discovery via Open Sources - Rating: 4.0"
+          "expanded": "Credential Discovery via Open Sources - Rating: 4.0",
+          "uuid": "20073c23-5024-5e24-bede-36a27355e9e4"
         },
         {
           "value": "TEC-006",
-          "expanded": "Credential Discovery via Scanning - Rating: 3.0"
+          "expanded": "Credential Discovery via Scanning - Rating: 3.0",
+          "uuid": "624909cc-0cac-5a27-9fa6-fb09eb364009"
         },
         {
           "value": "TEC-007",
-          "expanded": "Credential Discovery via Sniffing - Rating: 4.0"
+          "expanded": "Credential Discovery via Sniffing - Rating: 4.0",
+          "uuid": "f53ebcd4-88c6-59bb-8b7b-7cc04b536059"
         },
         {
           "value": "TEC-008",
-          "expanded": "Credential Discovery via Brute Force - Rating: 4.0"
+          "expanded": "Credential Discovery via Brute Force - Rating: 4.0",
+          "uuid": "4913e116-1ff7-52e0-bff1-58dcf9257c28"
         },
         {
           "value": "TEC-009",
-          "expanded": "Credential Discovery via Cracking - Rating: 4.0"
+          "expanded": "Credential Discovery via Cracking - Rating: 4.0",
+          "uuid": "dc6d7ccf-471a-576c-bcfd-40742920a920"
         },
         {
           "value": "TEC-010",
-          "expanded": "Credential Discovery via Guessing - Rating: 2.0"
+          "expanded": "Credential Discovery via Guessing - Rating: 2.0",
+          "uuid": "c91b4f35-853d-5b56-8b4b-8231ae885ca4"
         },
         {
           "value": "TEC-011",
-          "expanded": "Credential Discovery via Pre-Computational Attacks - Rating: 3.0"
+          "expanded": "Credential Discovery via Pre-Computational Attacks - Rating: 3.0",
+          "uuid": "d52405f2-f97f-5959-8e80-21ef82a8645d"
         },
         {
           "value": "TEC-012",
-          "expanded": "Misuse of System Credentials - Rating: 3.0"
+          "expanded": "Misuse of System Credentials - Rating: 3.0",
+          "uuid": "87d7ac25-23a6-5fad-974e-0e06c2a77fa1"
         },
         {
           "value": "TEC-013",
-          "expanded": "Escalation of Privilege - Rating: 5.0"
+          "expanded": "Escalation of Privilege - Rating: 5.0",
+          "uuid": "4e3880c9-4aae-5382-a100-1473a181c322"
         },
         {
           "value": "TEC-014",
-          "expanded": "Abuse of System Privileges - Rating: 4.0"
+          "expanded": "Abuse of System Privileges - Rating: 4.0",
+          "uuid": "63d5debe-8726-548d-b436-9cfab7221b57"
         },
         {
           "value": "TEC-015",
-          "expanded": "Memory Manipulation - Rating: 4.0"
+          "expanded": "Memory Manipulation - Rating: 4.0",
+          "uuid": "f8ed69c1-25e1-5f0a-a2ca-98de2c061e3b"
         },
         {
           "value": "TEC-016",
-          "expanded": "Cache Poisoning - Rating: 3.0"
+          "expanded": "Cache Poisoning - Rating: 3.0",
+          "uuid": "afc452d0-c9d3-5bee-b120-a25d275d5f3e"
         },
         {
           "value": "TEC-017",
-          "expanded": "Physical Manipulation of Technical Device - Rating: 2.0"
+          "expanded": "Physical Manipulation of Technical Device - Rating: 2.0",
+          "uuid": "f03eb024-e6bc-513c-80e5-03f0a9b0931d"
         },
         {
           "value": "TEC-018",
-          "expanded": "Manipulation of Trusted System - Rating: 4.0"
+          "expanded": "Manipulation of Trusted System - Rating: 4.0",
+          "uuid": "2b3397b4-35a0-5db3-92d4-4699e61039ae"
         },
         {
           "value": "TEC-019",
-          "expanded": "Cryptanalysis - Rating: 1.0"
+          "expanded": "Cryptanalysis - Rating: 1.0",
+          "uuid": "e8020a83-a6d4-50c3-8a13-43b863ceac64"
         },
         {
           "value": "TEC-020",
-          "expanded": "Data Leakage / Theft - Rating: 3.0"
+          "expanded": "Data Leakage / Theft - Rating: 3.0",
+          "uuid": "0f27eea1-25ad-53f8-bdf7-f5f1a21e1ae1"
         },
         {
           "value": "TEC-021",
-          "expanded": "Denial of Service - Rating: 2.0"
+          "expanded": "Denial of Service - Rating: 2.0",
+          "uuid": "9d594cf3-29b3-5c88-a8ea-86b658ace82c"
         },
         {
           "value": "TEC-022",
-          "expanded": "Maintaining System Persistence - Rating: 5.0"
+          "expanded": "Maintaining System Persistence - Rating: 5.0",
+          "uuid": "34aaa765-f8ca-5cd4-a59a-7d156a9a2d83"
         },
         {
           "value": "TEC-023",
-          "expanded": "Manipulation of Data in Transit / Use - Rating: 2.0"
+          "expanded": "Manipulation of Data in Transit / Use - Rating: 2.0",
+          "uuid": "a56d05fe-2442-5d91-baeb-8ab4aa8d82f3"
         },
         {
           "value": "TEC-024",
-          "expanded": "Capture of Data in Transit / Use via Sniffing - Rating: 3.0"
+          "expanded": "Capture of Data in Transit / Use via Sniffing - Rating: 3.0",
+          "uuid": "b91821d4-866b-5685-9b68-e5b35776348f"
         },
         {
           "value": "TEC-025",
-          "expanded": "Capture of Data in Transit / Use via Debugging - Rating: 2.0"
+          "expanded": "Capture of Data in Transit / Use via Debugging - Rating: 2.0",
+          "uuid": "f891784d-b821-5f73-b644-ca6bb0d594e0"
         },
         {
           "value": "TEC-026",
-          "expanded": "Capture of Data in Transit / Use via Keystroke Logging - Rating: 3.0"
+          "expanded": "Capture of Data in Transit / Use via Keystroke Logging - Rating: 3.0",
+          "uuid": "fea85fb8-4b67-50d5-b814-48fb8af11027"
         },
         {
           "value": "TEC-027",
-          "expanded": "Replay of Data in Transit / Use - Rating: 2.0"
+          "expanded": "Replay of Data in Transit / Use - Rating: 2.0",
+          "uuid": "016703b2-0e1a-5f3f-9f6a-4753373aa6b9"
         },
         {
           "value": "TEC-028",
-          "expanded": "Misdelivery of Data - Rating: 2.0"
+          "expanded": "Misdelivery of Data - Rating: 2.0",
+          "uuid": "d20b80fb-e497-5c11-930f-328ed135198b"
         },
         {
           "value": "TEC-029",
-          "expanded": "Capture of Stored Data - Rating: 3.0"
+          "expanded": "Capture of Stored Data - Rating: 3.0",
+          "uuid": "701088ff-4681-5584-b683-b8d7f4e5fed4"
         },
         {
           "value": "TEC-030",
-          "expanded": "Manipulation of Stored Data - Rating: 3.0"
+          "expanded": "Manipulation of Stored Data - Rating: 3.0",
+          "uuid": "1db24b13-ac47-5fe1-8383-86d11f312d1b"
         },
         {
           "value": "TEC-031",
-          "expanded": "Application Exploitation via Input Manipulation - Rating: 5.0"
+          "expanded": "Application Exploitation via Input Manipulation - Rating: 5.0",
+          "uuid": "4788d90e-cc2e-53b3-bd2e-db1cd574261c"
         },
         {
           "value": "TEC-032",
-          "expanded": "Application Exploitation via Parameter Injection - Rating: 4.0"
+          "expanded": "Application Exploitation via Parameter Injection - Rating: 4.0",
+          "uuid": "4eafdbe2-0bbb-5dce-8e81-ada884fa577b"
         },
         {
           "value": "TEC-033",
-          "expanded": "Application Exploitation via Code Injection - Rating: 4.0"
+          "expanded": "Application Exploitation via Code Injection - Rating: 4.0",
+          "uuid": "624d45ad-42a2-5039-848e-faf93e359a5b"
         },
         {
           "value": "TEC-034",
-          "expanded": "Application Exploitation via Command Injection - Rating: 4.0"
+          "expanded": "Application Exploitation via Command Injection - Rating: 4.0",
+          "uuid": "149d9d48-5722-5c24-bff2-1af016c6ee19"
         },
         {
           "value": "TEC-035",
-          "expanded": "Application Exploitation via Path Traversal - Rating: 3.0"
+          "expanded": "Application Exploitation via Path Traversal - Rating: 3.0",
+          "uuid": "d1331974-136a-5fe0-86f6-9a7a545be15e"
         },
         {
           "value": "TEC-036",
-          "expanded": "Application Exploitation via API Abuse - Rating: 3.0"
+          "expanded": "Application Exploitation via API Abuse - Rating: 3.0",
+          "uuid": "16293da1-2df8-5d22-841e-748b23637e00"
         },
         {
           "value": "TEC-037",
-          "expanded": "Application Exploitation via Fuzzing - Rating: 3.0"
+          "expanded": "Application Exploitation via Fuzzing - Rating: 3.0",
+          "uuid": "c26fd52a-2588-5f25-8aac-0a259da7ad89"
         },
         {
           "value": "TEC-038",
-          "expanded": "Application Exploitation via Reverse Engineering - Rating: 3.0"
+          "expanded": "Application Exploitation via Reverse Engineering - Rating: 3.0",
+          "uuid": "ac60e14e-51dc-5158-a040-8252096955b5"
         },
         {
           "value": "TEC-039",
-          "expanded": "Application Exploitation via Resource Location Guessing - Rating: 2.0"
+          "expanded": "Application Exploitation via Resource Location Guessing - Rating: 2.0",
+          "uuid": "152ea84b-4c9a-5088-a1b9-5b43a2acb855"
         },
         {
           "value": "TEC-040",
-          "expanded": "Application Exploitation via Source Code Manipulation - Rating: 3.0"
+          "expanded": "Application Exploitation via Source Code Manipulation - Rating: 3.0",
+          "uuid": "14ecd3f7-8530-550f-b4b8-374add91bcd5"
         },
         {
           "value": "TEC-041",
-          "expanded": "Application Exploitation via Authentication Bypass - Rating: 2.0"
+          "expanded": "Application Exploitation via Authentication Bypass - Rating: 2.0",
+          "uuid": "d159c13d-999d-5a1f-8e1b-b754ff6f88d7"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "ff387b5c-a318-510e-b205-7f9438301469"
 }

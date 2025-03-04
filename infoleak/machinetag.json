@@ -2,34 +2,41 @@
   "predicates": [
     {
       "expanded": "Type of information leak detected from automatic analysis",
-      "value": "automatic-detection"
+      "value": "automatic-detection",
+      "uuid": "846d175e-8d2a-5973-9354-6480adedb404"
     },
     {
       "expanded": "Type of information leak detected from a human analysis",
-      "value": "analyst-detection"
+      "value": "analyst-detection",
+      "uuid": "0b460335-d981-5cf3-9783-c4d1d72903ef"
     },
     {
       "value": "confirmed",
       "expanded": "Confirmed information leak or not",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "5ea484fe-c7c0-5317-8c97-cb4c0a22e6c6"
     },
     {
       "expanded": "Source of the information leak",
-      "value": "source"
+      "value": "source",
+      "uuid": "f0beb3ac-c5a5-56e1-9dde-84b3fa525917"
     },
     {
       "expanded": "type of submission",
-      "value": "submission"
+      "value": "submission",
+      "uuid": "301e88f5-03c5-5d0f-8065-38b587e1d99d"
     },
     {
       "expanded": "Output format",
       "value": "output-format",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "6889e064-31d0-5dce-a476-87a9e633377a"
     },
     {
       "value": "certainty",
       "expanded": "Certainty of the information to be a leak",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "f9705636-2659-5638-b580-20e581f3832f"
     }
   ],
   "version": 10,
@@ -41,135 +48,168 @@
       "entry": [
         {
           "value": "credential",
-          "expanded": "Credential"
+          "expanded": "Credential",
+          "uuid": "74ba415d-1ea8-54aa-90a6-afdd7386532f"
         },
         {
           "value": "credit-card",
-          "expanded": "Credit card"
+          "expanded": "Credit card",
+          "uuid": "6288d307-67b6-568f-af76-63ed65ec9afb"
         },
         {
           "value": "iban",
-          "expanded": "IBAN"
+          "expanded": "IBAN",
+          "uuid": "e8afd0b6-099f-534b-ab7d-5d60b2bf0af8"
         },
         {
           "value": "ip",
-          "expanded": "IP address"
+          "expanded": "IP address",
+          "uuid": "18344001-edf2-5522-bfa1-327b9eb66ba3"
         },
         {
           "value": "mail",
-          "expanded": "Mail"
+          "expanded": "Mail",
+          "uuid": "1e4c0f6d-ece7-59f8-9900-38a8ee783935"
         },
         {
           "value": "phone-number",
-          "expanded": "Phone number"
+          "expanded": "Phone number",
+          "uuid": "12f5b588-b87c-5c17-8025-13b9ef82ed92"
         },
         {
           "value": "api-key",
-          "expanded": "API key"
+          "expanded": "API key",
+          "uuid": "41e41418-4e5d-5992-8bdc-47c536f3930b"
         },
         {
           "value": "google-api-key",
-          "expanded": "Google API key"
+          "expanded": "Google API key",
+          "uuid": "d7424184-20ad-5ae3-902c-6f5d48c01fa9"
         },
         {
           "value": "aws-key",
-          "expanded": "AWS key"
+          "expanded": "AWS key",
+          "uuid": "60d2b5b3-c852-5c5b-88a8-48d0523c76fd"
         },
         {
           "value": "private-key",
-          "expanded": "Private key at large"
+          "expanded": "Private key at large",
+          "uuid": "7d77e1ee-91c3-5593-aeab-ada380b3b7bd"
         },
         {
           "value": "encrypted-private-key",
-          "expanded": "Encrypted private key at large"
+          "expanded": "Encrypted private key at large",
+          "uuid": "582c69d9-d748-580e-97dd-c66c183a3cda"
         },
         {
           "value": "private-ssh-key",
-          "expanded": "Private SSH key"
+          "expanded": "Private SSH key",
+          "uuid": "a7b4f24a-441f-5851-b313-de48904665a5"
         },
         {
           "value": "private-static-key",
-          "expanded": "Private state key"
+          "expanded": "Private state key",
+          "uuid": "e92617cd-9ead-575b-9879-2a2d92c26e4e"
         },
         {
           "value": "vpn-static-key",
-          "expanded": "VPN static key"
+          "expanded": "VPN static key",
+          "uuid": "0d72f87c-0a40-5fca-8a12-5ee766c5c400"
         },
         {
           "value": "pgp-message",
-          "expanded": "PGP message"
+          "expanded": "PGP message",
+          "uuid": "16959dcf-694a-5f22-88a5-361f5a046db1"
         },
         {
           "value": "pgp-public-key-block",
-          "expanded": "PGP public key block"
+          "expanded": "PGP public key block",
+          "uuid": "28526029-f717-50b7-9fb5-3899845338f9"
         },
         {
           "value": "pgp-signature",
-          "expanded": "PGP signature"
+          "expanded": "PGP signature",
+          "uuid": "002dcc09-5f95-51c5-adfb-5a80de2dd8cd"
         },
         {
           "value": "pgp-private-key",
-          "expanded": "PGP private key"
+          "expanded": "PGP private key",
+          "uuid": "cbd1c321-a68e-5352-a884-be84eb98c1bf"
         },
         {
           "value": "certificate",
-          "expanded": "Certificate"
+          "expanded": "Certificate",
+          "uuid": "9e9fa277-4ff8-5bee-8b16-51e090826a4a"
         },
         {
           "value": "rsa-private-key",
-          "expanded": "RSA private key"
+          "expanded": "RSA private key",
+          "uuid": "7d74a1c2-446f-5c0e-a81f-a5cac0987190"
         },
         {
           "value": "dsa-private-key",
-          "expanded": "DSA private key"
+          "expanded": "DSA private key",
+          "uuid": "e5ba166e-fb81-592d-8607-ecf36b4d6057"
         },
         {
           "value": "ec-private-key",
-          "expanded": "EC private key"
+          "expanded": "EC private key",
+          "uuid": "4dfd1000-9710-5e9b-a1a0-063adbd66cc8"
         },
         {
           "value": "public-key",
-          "expanded": "Public key"
+          "expanded": "Public key",
+          "uuid": "fadd31a7-339a-5c8f-980a-d8df802691b0"
         },
         {
           "value": "base64",
-          "expanded": "Base64"
+          "expanded": "Base64",
+          "uuid": "83459c65-8302-5ac1-a5ea-3580b1e61573"
         },
         {
           "value": "binary",
-          "expanded": "Binary"
+          "expanded": "Binary",
+          "uuid": "fa626786-adba-5008-bbaa-7902faccc780"
         },
         {
           "value": "hexadecimal",
-          "expanded": "Hexadecimal"
+          "expanded": "Hexadecimal",
+          "uuid": "5d845c07-a43e-5b08-a81e-b6160bdb477d"
         },
         {
           "value": "bitcoin-address",
-          "expanded": "Bitcoin address"
+          "expanded": "Bitcoin address",
+          "uuid": "01a75138-4afd-5409-b8f2-fb10de327e3d"
         },
         {
           "value": "bitcoin-private-key",
-          "expanded": "Bitcoin private key"
+          "expanded": "Bitcoin private key",
+          "uuid": "e50ee7e9-4bca-5e2f-9ad4-40eb78844f5f"
         },
         {
           "value": "cve",
-          "expanded": "CVE"
+          "expanded": "CVE",
+          "uuid": "c6da7319-cdfa-5bcc-9ef0-1f97e191209a"
         },
         {
           "value": "onion",
-          "expanded": "Onion link"
+          "expanded": "Onion link",
+          "uuid": "a22d19dd-0e68-5b61-80d4-e8ef08af273a"
         },
         {
           "value": "barcode",
-          "expanded": "Barcode"
+          "expanded": "Barcode",
+          "uuid": "f8a0a058-fe2a-5532-9acb-b0eb30b339ae"
         },
         {
           "value": "qrcode",
-          "expanded": "QR Code"
+          "expanded": "QR Code",
+          "uuid": "e4b956bb-4d09-5061-9e3f-77cedc8214e8"
         },
         {
           "value": "sql-injection",
-          "expanded": "SQL injection"
+          "expanded": "SQL injection",
+          "uuid": "3946069e-212d-5b44-a2a7-7ef8abd9ec26"
         }
       ]
     },
@@ -178,135 +218,168 @@
       "entry": [
         {
           "value": "credential",
-          "expanded": "Credential"
+          "expanded": "Credential",
+          "uuid": "5032cf3b-d536-515f-b08d-c799e801948f"
         },
         {
           "value": "credit-card",
-          "expanded": "Credit card"
+          "expanded": "Credit card",
+          "uuid": "e2c74989-a612-5c8a-b735-116b3aa7647f"
         },
         {
           "value": "iban",
-          "expanded": "IBAN"
+          "expanded": "IBAN",
+          "uuid": "a71b5a5c-bf18-574d-becf-8651d1cd2d8f"
         },
         {
           "value": "ip",
-          "expanded": "IP address"
+          "expanded": "IP address",
+          "uuid": "7e86307d-4601-5b88-a178-c59ea9f30f87"
         },
         {
           "value": "mail",
-          "expanded": "Mail"
+          "expanded": "Mail",
+          "uuid": "b94ab7d0-8f74-5a83-896f-e24c2e37886d"
         },
         {
           "value": "phone-number",
-          "expanded": "Phone number"
+          "expanded": "Phone number",
+          "uuid": "2fc84bd6-b75b-5932-9de4-51671fb6b0a2"
         },
         {
           "value": "api-key",
-          "expanded": "API key"
+          "expanded": "API key",
+          "uuid": "ea819d01-dcb3-57d5-b55b-8a750bc46cf8"
         },
         {
           "value": "google-api-key",
-          "expanded": "Google API key"
+          "expanded": "Google API key",
+          "uuid": "29c58bb0-4f04-5fb7-840a-d4746132c31d"
         },
         {
           "value": "aws-key",
-          "expanded": "AWS key"
+          "expanded": "AWS key",
+          "uuid": "9c48802c-b081-549f-b1ca-eafa18a4cf8e"
         },
         {
           "value": "private-key",
-          "expanded": "Private key at large"
+          "expanded": "Private key at large",
+          "uuid": "8850ab77-c593-5e1d-b335-d373161d0119"
         },
         {
           "value": "encrypted-private-key",
-          "expanded": "Encrypted private key at large"
+          "expanded": "Encrypted private key at large",
+          "uuid": "a99f009d-44c3-5b85-b677-03de5235f508"
         },
         {
           "value": "private-ssh-key",
-          "expanded": "Private SSH key"
+          "expanded": "Private SSH key",
+          "uuid": "84fe5b72-f2c1-5bdb-8a5b-f2323b240908"
         },
         {
           "value": "private-static-key",
-          "expanded": "Private state key"
+          "expanded": "Private state key",
+          "uuid": "d5098919-f37d-5ef9-b6d1-5cbf5d672709"
         },
         {
           "value": "vpn-static-key",
-          "expanded": "VPN static key"
+          "expanded": "VPN static key",
+          "uuid": "0c2f1d21-1d0b-5632-8918-81b7519552d7"
         },
         {
           "value": "pgp-message",
-          "expanded": "PGP message"
+          "expanded": "PGP message",
+          "uuid": "be234d31-a9c6-5873-a974-66e4c12499e4"
         },
         {
           "value": "pgp-public-key-block",
-          "expanded": "PGP public key block"
+          "expanded": "PGP public key block",
+          "uuid": "24b377c3-8d7f-5134-92f6-5229e21922e5"
         },
         {
           "value": "pgp-signature",
-          "expanded": "PGP signature"
+          "expanded": "PGP signature",
+          "uuid": "5b96a178-64bf-5b28-9fea-a3f44123c868"
         },
         {
           "value": "pgp-private-key",
-          "expanded": "PGP private key"
+          "expanded": "PGP private key",
+          "uuid": "210d75de-72ba-512a-bfcd-61d15733926f"
         },
         {
           "value": "certificate",
-          "expanded": "Certificate"
+          "expanded": "Certificate",
+          "uuid": "bdde7b27-4990-5f5a-a6f9-3112cc8d8429"
         },
         {
           "value": "rsa-private-key",
-          "expanded": "RSA private key"
+          "expanded": "RSA private key",
+          "uuid": "e28e80b7-01bb-5c7d-8fa0-9675a78a6268"
         },
         {
           "value": "dsa-private-key",
-          "expanded": "DSA private key"
+          "expanded": "DSA private key",
+          "uuid": "079a1dfa-f0d7-57c6-b373-e93fb9dcb372"
         },
         {
           "value": "ec-private-key",
-          "expanded": "EC private key"
+          "expanded": "EC private key",
+          "uuid": "d8219a32-aa0e-5fa8-9247-3bf0382ab6c1"
         },
         {
           "value": "public-key",
-          "expanded": "Public key"
+          "expanded": "Public key",
+          "uuid": "46e679c6-dc4e-5df2-badc-77d5bebbd2ff"
         },
         {
           "value": "base64",
-          "expanded": "Base64"
+          "expanded": "Base64",
+          "uuid": "67390053-1685-5001-af57-1adaece614ec"
         },
         {
           "value": "binary",
-          "expanded": "Binary"
+          "expanded": "Binary",
+          "uuid": "06ebcfda-0769-59ed-9bb1-cd516f1c7c10"
         },
         {
           "value": "hexadecimal",
-          "expanded": "Hexadecimal"
+          "expanded": "Hexadecimal",
+          "uuid": "2c00c463-a93f-54fc-94ec-1c4f67a28cc9"
         },
         {
           "value": "bitcoin-address",
-          "expanded": "Bitcoin address"
+          "expanded": "Bitcoin address",
+          "uuid": "bf36e703-6955-5050-867a-882a83cbb631"
         },
         {
           "value": "bitcoin-private-key",
-          "expanded": "Bitcoin private key"
+          "expanded": "Bitcoin private key",
+          "uuid": "1e60e8aa-1505-535c-b3cf-aedea6f19a02"
         },
         {
           "value": "cve",
-          "expanded": "CVE"
+          "expanded": "CVE",
+          "uuid": "41cc4638-0fe7-5a64-827e-1b26871404cb"
         },
         {
           "value": "onion",
-          "expanded": "Onion link"
+          "expanded": "Onion link",
+          "uuid": "8e6475c3-1730-5bca-899f-ef3092b60a0e"
         },
         {
           "value": "barcode",
-          "expanded": "Barcode"
+          "expanded": "Barcode",
+          "uuid": "406999e8-f8ec-5911-8c3a-a9cedd8dc8e9"
         },
         {
           "value": "qrcode",
-          "expanded": "QR Code"
+          "expanded": "QR Code",
+          "uuid": "50c070d7-c441-5df9-ac20-2d127a39c99d"
         },
         {
           "value": "sql-injection",
-          "expanded": "SQL injection"
+          "expanded": "SQL injection",
+          "uuid": "a9ac0638-9c1f-5d7e-a610-9b8e43f934d8"
         }
       ]
     },
@@ -315,19 +388,23 @@
       "entry": [
         {
           "value": "false-positive",
-          "expanded": "False positive"
+          "expanded": "False positive",
+          "uuid": "4ff51d84-9a39-545c-82eb-f2d8eb9235b5"
         },
         {
           "value": "false-negative",
-          "expanded": "False negative"
+          "expanded": "False negative",
+          "uuid": "af830419-4386-55e1-9730-bf4163098aa2"
         },
         {
           "value": "true-positive",
-          "expanded": "True positive"
+          "expanded": "True positive",
+          "uuid": "98ca1909-36f7-5ad7-b2d5-4c2e56a59b41"
         },
         {
           "value": "true-negative",
-          "expanded": "True negative"
+          "expanded": "True negative",
+          "uuid": "19c5fb94-01cc-555c-9379-53b21c0cafd1"
         }
       ]
     },
@@ -336,39 +413,48 @@
       "entry": [
         {
           "value": "public-website",
-          "expanded": "Public website"
+          "expanded": "Public website",
+          "uuid": "9c33a227-ce9c-558e-b9f1-c5db0c6cfb32"
         },
         {
           "value": "pastie-website",
-          "expanded": "Pastie-like website"
+          "expanded": "Pastie-like website",
+          "uuid": "f1fb8a21-7da6-594c-bec5-ee9306fe45ac"
         },
         {
           "value": "electronic-forum",
-          "expanded": "Electronic forum"
+          "expanded": "Electronic forum",
+          "uuid": "9b5f9a22-21c3-5536-a3d6-668d7ecba33f"
         },
         {
           "value": "mailing-list",
-          "expanded": "Mailing-list"
+          "expanded": "Mailing-list",
+          "uuid": "920b0999-2aed-53cf-a328-45b6d35031dc"
         },
         {
           "value": "source-code-repository",
-          "expanded": "Source code repository"
+          "expanded": "Source code repository",
+          "uuid": "73c63bf2-7b1b-5e90-8d8d-1aedbab1323b"
         },
         {
           "value": "automatic-collection",
-          "expanded": "Automatic collection including honeypots, spamtramps or equivalent technologies"
+          "expanded": "Automatic collection including honeypots, spamtramps or equivalent technologies",
+          "uuid": "23037bd0-d364-53b0-a80c-b3f9d3586f43"
         },
         {
           "value": "manual-analysis",
-          "expanded": "Manual analysis or investigation where detection took place"
+          "expanded": "Manual analysis or investigation where detection took place",
+          "uuid": "7004559f-3530-57bb-b0ac-5a34080687db"
         },
         {
           "value": "unknown",
-          "expanded": "Unknown"
+          "expanded": "Unknown",
+          "uuid": "140b1605-5435-5d21-854f-61adb30cbb29"
         },
         {
           "value": "other",
-          "expanded": "Other source not specified in this list"
+          "expanded": "Other source not specified in this list",
+          "uuid": "91cc87e3-66bf-51f4-ac2f-9787736d12c5"
         }
       ]
     },
@@ -377,15 +463,18 @@
       "entry": [
         {
           "value": "manual",
-          "expanded": "Manual"
+          "expanded": "Manual",
+          "uuid": "47a8530b-dffc-55c4-8fbe-6263ea21a60c"
         },
         {
           "value": "automatic",
-          "expanded": "Automatic"
+          "expanded": "Automatic",
+          "uuid": "1cd87a29-94ce-54fa-8850-f472e44253ec"
         },
         {
           "value": "crawler",
-          "expanded": "Crawler"
+          "expanded": "Crawler",
+          "uuid": "b9f4211d-c8f4-564b-b704-34d5dcdf8f34"
         }
       ]
     },
@@ -394,15 +483,18 @@
       "entry": [
         {
           "value": "ail-daily",
-          "expanded": "Daily event"
+          "expanded": "Daily event",
+          "uuid": "c3b98374-6209-5cac-ac82-ac7349c72526"
         },
         {
           "value": "ail-weekly",
-          "expanded": "Weekly event"
+          "expanded": "Weekly event",
+          "uuid": "5fac9338-7f47-576f-aa66-f3a77744a8a7"
         },
         {
           "value": "ail-monthly",
-          "expanded": "Monthly event"
+          "expanded": "Monthly event",
+          "uuid": "f1e54a49-4180-562e-b1c7-518829509fd3"
         }
       ]
     },
@@ -412,46 +504,54 @@
           "description": "Certainty",
           "expanded": "Certainty (probability equals 1 - 100%)",
           "value": "100",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "69fa44c2-8253-5e8c-96d5-e9cc8c36135c"
         },
         {
           "description": "Almost certain",
           "expanded": "Almost certain (probability equals 0.93 - 93%)",
           "value": "93",
-          "numerical_value": 93
+          "numerical_value": 93,
+          "uuid": "b9b962e4-8328-5467-bed3-0167691ee2f5"
         },
         {
           "description": "Probable",
           "expanded": "Probable (probability equals 0.75 - 75%)",
           "value": "75",
-          "numerical_value": 75
+          "numerical_value": 75,
+          "uuid": "31132131-c4d7-51a5-92ac-58ad0309637e"
         },
         {
           "description": "Chances about even",
           "expanded": "Chances about even (probability equals 0.50 - 50%)",
           "value": "50",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "dc0ed095-02c2-514b-83f6-bad76a5cfea3"
         },
         {
           "description": "Probably not",
           "expanded": "Probably not (probability equals 0.30 - 30%)",
           "value": "30",
-          "numerical_value": 30
+          "numerical_value": 30,
+          "uuid": "fb3530c3-1d42-5f35-9eb3-c13697b51840"
         },
         {
           "description": "Almost certainly not",
           "expanded": "Almost certainly not (probability equals 0.07 - 7%)",
           "value": "7",
-          "numerical_value": 7
+          "numerical_value": 7,
+          "uuid": "be2ae7d6-c621-57b5-b191-d53ca9af6e10"
         },
         {
           "description": "Impossibility",
           "expanded": "Impossibility (probability equals 0 - 0%)",
           "value": "0",
-          "numerical_value": 0
+          "numerical_value": 0,
+          "uuid": "30a028af-142f-57e3-b8fe-24bd2e317b6e"
         }
       ],
       "predicate": "certainty"
     }
-  ]
+  ],
+  "uuid": "3d546836-37a9-5c4f-bc4f-5ed3d982c2c1"
 }

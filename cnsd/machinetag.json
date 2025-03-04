@@ -5,17 +5,20 @@
         {
           "description": "Correo electrónico masivo no solicitado, el destinatario no ha otorgado un permiso verificable",
           "expanded": "Spam",
-          "value": "spam"
+          "value": "spam",
+          "uuid": "e1179323-e977-52a8-b037-768773889381"
         },
         {
           "description": "Ofrecer o instalar copias de software, u otros materiales sin licencia o derechos adquiridos de autor",
           "expanded": "Copyright",
-          "value": "copyright"
+          "value": "copyright",
+          "uuid": "32165493-3a87-592c-b600-be1cca39351d"
         },
         {
           "description": "Comprende los incidentes relacionados con la explotación sexual infantil, glorificación de la violencia o incitación al terrorismo.",
           "expanded": "Explotación sexual infantil, racismo e incitación a la violencia.",
-          "value": "explotacion sexual infantil"
+          "value": "explotacion sexual infantil",
+          "uuid": "020a93a3-284a-50a8-8514-962e39a0984f"
         }
       ],
       "predicate": "Contenido abusivo"
@@ -25,12 +28,14 @@
         {
           "description": "Inundaciones ICMP y SYN, los ataques Teardrop y los bombardeos por correo, y los ataques DDoS que se originan por bots.",
           "expanded": "DoS/DDoS",
-          "value": "DoS/DDoS"
+          "value": "DoS/DDoS",
+          "uuid": "fbadd95b-f260-5dbf-88bb-dd1bb27c155a"
         },
         {
           "description": "La disponibilidad tambien puede verse afectada por acciones locales o por fuerza mayor.",
           "expanded": "sabotaje",
-          "value": "sabotaje"
+          "value": "sabotaje",
+          "uuid": "99ae47f2-6b16-5472-992a-18ee9b047618"
         }
       ],
       "predicate": "Disponibilidad"
@@ -40,12 +45,14 @@
         {
           "description": "Mal uso o uso no autorizado de recursos, incluidas empresas con fines de lucro, cadenas de ganancias o esquemas piramidales.",
           "expanded": "Mal-Uso",
-          "value": "mal-uso"
+          "value": "mal-uso",
+          "uuid": "87803a8d-3796-575e-b7c4-14d132f3dc3b"
         },
         {
           "description": "Una entidad u organización asume o se atribuye ilegitimamente la identidad de otra para beneficiarse de ella.",
           "expanded": "Repres-Falsa",
-          "value": "repres-falsa"
+          "value": "repres-falsa",
+          "uuid": "0e73c168-44a2-5444-8d66-a3e7b7386a9d"
         }
       ],
       "predicate": "Fraude"
@@ -55,12 +62,14 @@
         {
           "description": "Son ataques que interceptan y acceden a la información durante la transmisión.",
           "expanded": "Acc-No-autorizado",
-          "value": "acc-no-autorizado"
+          "value": "acc-no-autorizado",
+          "uuid": "ad540370-a846-5cda-92a1-b4892f669565"
         },
         {
           "description": "El error humano de configuración de software puede ser una causa.",
           "expanded": "Modi-Elim-No-Autorizada",
-          "value": "modi-elim-no-autorizada"
+          "value": "modi-elim-no-autorizada",
+          "uuid": "8c29ff3d-9139-5cff-bbf9-93261d6e8d6e"
         }
       ],
       "predicate": "Fuga de información"
@@ -70,12 +79,14 @@
         {
           "description": "Un intento de comprometer un sistema o interrumpir cualquier servicio mediante la explotación de vulnerabilidades.",
           "expanded": "Explot-Vulnerab",
-          "value": "explot-vulnerab"
+          "value": "explot-vulnerab",
+          "uuid": "c73bf347-b134-52b5-a3a9-0bf3416bbe7c"
         },
         {
           "description": "Múltiples intentos de inicio de sesión (adivinar, descifrar contraseñas, fuerza bruta).",
           "expanded": "Intento-Inicio-Sesión",
-          "value": "intento-inicio-sesión"
+          "value": "intento-inicio-sesión",
+          "uuid": "9c9fbaa5-73c8-511e-b68a-9f109dc6fbb2"
         }
       ],
       "predicate": "Intentos de intrusión"
@@ -85,12 +96,14 @@
         {
           "description": "Un intento de comprometer un sistema o interrumpir cualquier servicio mediante la explotación de vulnerabilidades.",
           "expanded": "Explot-Extra-Vulnerab",
-          "value": "explot-extra-vulnerab"
+          "value": "explot-extra-vulnerab",
+          "uuid": "4331e4ee-b9e1-5931-b07d-9f105965d6cb"
         },
         {
           "description": "Compromiso de un sistema en el que el atacante ha adquirido privilegios, accesa y sustrae de datos del centro de datos.",
           "expanded": "Comprometer-Cuenta",
-          "value": "comprometer-cuenta"
+          "value": "comprometer-cuenta",
+          "uuid": "7d2cdbd2-26ec-5b52-ac29-b26991b3e755"
         }
       ],
       "predicate": "Intrusión"
@@ -100,27 +113,32 @@
         {
           "description": "Se através de dispositivos extraibles, descargas de internet, adjuntos en correos, por scripts y vulneabilidades XSS.",
           "expanded": "Infección",
-          "value": "infección"
+          "value": "infección",
+          "uuid": "9ea5dce9-a87c-5d21-a0c2-534fb18cfb65"
         },
         {
           "description": "Se presenta cuando un recurso de la organización es utilizado para la distribución de malware.",
           "expanded": "Distribución",
-          "value": "distribución"
+          "value": "distribución",
+          "uuid": "4500f6ab-e818-518c-98da-5d70c279433d"
         },
         {
           "description": "Conexión con servidor de mando y Control, mediante malware o sistemas infectados.",
           "expanded": "C&C",
-          "value": "c&c"
+          "value": "c&c",
+          "uuid": "8a5c0736-909c-537f-a7bf-2d4143baeb7e"
         },
         {
           "description": "Intercambio de información a nivel de red local o pública, cuyo origen o destino no este plenamente identificado.",
           "expanded": "Conexión-Maliciosa",
-          "value": "conexión-maliciosa"
+          "value": "conexión-maliciosa",
+          "uuid": "656c0b41-42bd-534f-9a6a-2ec8d0ff2405"
         },
         {
           "description": "No se puede determinar.",
           "expanded": "Indeterminado",
-          "value": "indeterminado"
+          "value": "indeterminado",
+          "uuid": "e6299b51-6ab1-5f96-b2a4-5f8c2b3012b9"
         }
       ],
       "predicate": "Malware"
@@ -130,17 +148,20 @@
         {
           "description": "Se através de dispositivos extraibles, descargas de internet, adjuntos en correos, por scripts y vulneabilidades XSS.",
           "expanded": "Scanning",
-          "value": "scanning"
+          "value": "scanning",
+          "uuid": "1b0ee219-77a0-5e18-b34d-8a994568a63a"
         },
         {
           "description": "Se presenta cuando un recurso de la organización es utilizado para la distribución de malware.",
           "expanded": "Sniffing",
-          "value": "sniffing"
+          "value": "sniffing",
+          "uuid": "bbfd5aa8-74a3-5cf5-a583-70e8d8241b57"
         },
         {
           "description": "Conexión con servidor de mando y Control, mediante malware o sistemas infectados.",
           "expanded": "Phishing",
-          "value": "phishing"
+          "value": "phishing",
+          "uuid": "ff9030b6-344a-5536-b972-53a041eb907c"
         }
       ],
       "predicate": "Recopilación de información"
@@ -150,27 +171,32 @@
         {
           "description": "Incidente no encontrado en la lista.",
           "expanded": "Inc-No-Listado",
-          "value": "inc-no-listado"
+          "value": "inc-no-listado",
+          "uuid": "c59c3d6c-aab5-5207-84bf-2ec824439a31"
         },
         {
           "description": "Incidente que no se puede determinar o clasificar.",
           "expanded": "Inc-Indeter",
-          "value": "inc-indeter"
+          "value": "inc-indeter",
+          "uuid": "4f1495fd-1a52-5e8c-8aad-809bff5775bb"
         },
         {
           "description": "Amenaza Avanzada Persistente (APT), ataques dirigidos contra entidades u organizaciones concretas, con mecanismos sofisticados.",
           "expanded": "APT",
-          "value": "APT"
+          "value": "APT",
+          "uuid": "ea16c49c-953e-5554-8069-93993304f089"
         },
         {
           "description": "Uso de redes o sistemas de información con fines de caracter terrorista.",
           "expanded": "Ciberterrorismo",
-          "value": "ciberterrorismo"
+          "value": "ciberterrorismo",
+          "uuid": "8ed066e0-789b-533f-a2c1-f906a93b613a"
         },
         {
           "description": "Daños en activos críticos nacionales, comprende el borrado, dañado, alteración, supresión o inaccesibilidad a un activo crítico.",
           "expanded": "Danos-en-Activos",
-          "value": "danos-en-activos"
+          "value": "danos-en-activos",
+          "uuid": "08861239-9c00-5575-b6f6-c3bbaac34996"
         }
       ],
       "predicate": "Otros"
@@ -180,51 +206,61 @@
     {
       "description": "Comprende aquellos incidentes de contenido comercial no autorizados, comentarios ofensivos, violencia y/o delitos sexuales.",
       "expanded": "Contenido abusivo",
-      "value": "Contenido abusivo"
+      "value": "Contenido abusivo",
+      "uuid": "52348eaf-4367-5882-80e8-9b66f430501b"
     },
     {
       "description": "Las operaciones se retrasan o el sistema se bloquea debido al gran número de peticiones concurrentes u orquestadas.",
       "expanded": "Disponibilidad",
-      "value": "Disponibilidad"
+      "value": "Disponibilidad",
+      "uuid": "3d7c0f3e-fb93-50d0-9650-beb3845a8cac"
     },
     {
       "description": "Uso no autorizado de un bien o servicio, violación de derechos de autor o propiedad, suplantación de identidad.",
       "expanded": "Fraude",
-      "value": "Fraude"
+      "value": "Fraude",
+      "uuid": "f1edcbf2-496d-537d-b7f8-c1f8d32fc0fd"
     },
     {
       "description": "Pérdida de los datos e información, debido al acceso o conocimiento del contenido por parte de personas no autorizadas.",
       "expanded": "Fuga de información",
-      "value": "Fuga de información"
+      "value": "Fuga de información",
+      "uuid": "8e907240-843d-5511-96c3-b38d7bbb029a"
     },
     {
       "description": "Intento de comprometer la confidencialidad, integridad y disponibilidad de un activo de información.",
       "expanded": "Intentos de intrusión",
-      "value": "Intentos de intrusión"
+      "value": "Intentos de intrusión",
+      "uuid": "183741d2-b154-5307-8abc-4bd07f0566ad"
     },
     {
       "description": "Se manifiesta el claro acceso a cuentas de usuarios con el propósito de comprometer la información crítica del negocio.",
       "expanded": "Intrusión",
-      "value": "Intrusión"
+      "value": "Intrusión",
+      "uuid": "82d05be0-9e93-57a5-bd3f-b36febab8d35"
     },
     {
       "description": "Incidente relacionado con el uso de software que se incluye o inserta intencionalmente en el sistema para causar daño.",
       "expanded": "Malware",
-      "value": "Malware"
+      "value": "Malware",
+      "uuid": "fd53ff21-3059-5c45-b4f1-407a608eda3c"
     },
     {
       "description": "Comprende aquellos incidentes relacionados con el uso de analizadores de paquetes, ingenieria social o ataques de fuerza bruta.",
       "expanded": "Recopilación de información",
-      "value": "Recopilación de información"
+      "value": "Recopilación de información",
+      "uuid": "1e7d072c-7b42-5a18-a1e3-e65b8cccdd96"
     },
     {
       "value": "Otros",
       "expanded": "Otros",
-      "description": "Otros"
+      "description": "Otros",
+      "uuid": "f203a59e-7796-5947-8269-cc349be97a74"
     }
   ],
   "version": 20220513,
   "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
   "expanded": "CNSD Taxonomia de Incidentes de Seguridad Digital",
-  "namespace": "cnsd"
+  "namespace": "cnsd",
+  "uuid": "9d724af4-9405-5dde-af24-226a6874e9cc"
 }

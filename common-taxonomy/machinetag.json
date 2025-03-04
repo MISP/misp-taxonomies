@@ -5,22 +5,26 @@
         {
           "description": "Malware detected in a system.",
           "expanded": "Infection",
-          "value": "infection"
+          "value": "infection",
+          "uuid": "44083445-cfa3-574e-a888-171ff3284491"
         },
         {
           "description": "Malware attached to a message or email message containing link to malicious URL or IP.",
           "expanded": "Distribution",
-          "value": "distribution"
+          "value": "distribution",
+          "uuid": "8a1c6d06-2d5d-5db5-8104-64fe75dbe483"
         },
         {
           "description": "System used as a command-and-control point by a botnet. Also included in this field are systems serving as a point for gathering information stolen by botnets.",
           "expanded": "Command & Control (C&C)",
-          "value": "command-and-control"
+          "value": "command-and-control",
+          "uuid": "7c9c0483-c1a3-5f17-9abd-d31476c474f4"
         },
         {
           "description": "System attempting to gain access to a port normally linked to a specific type of malware / System attempting to gain access to an IP address or URL normally linked to a specific type of malware, e.g. C&C or a distribution page for components linked to a specific botnet.",
           "expanded": "Malicious connection",
-          "value": "malicious-connection"
+          "value": "malicious-connection",
+          "uuid": "faabbca9-0025-59f9-8e86-e36fc09686d0"
         }
       ],
       "predicate": "malware"
@@ -30,12 +34,14 @@
         {
           "description": "Single source using specially designed software to affect the normal functioning of a specific service, by exploiting vulnerability / Mass mailing of requests (network packets, emails, etc.) from one single source to a specific service, aimed at affecting its normal functioning.",
           "expanded": "Denial of Service (DoS) / Distributed Denial of Service (DDoS)",
-          "value": "dos-ddos"
+          "value": "dos-ddos",
+          "uuid": "6e1244e3-1589-52a1-b8d5-2c90073d6a1b"
         },
         {
           "description": "Logical and physical activities which – although they are not aimed at causing damage to information or at preventing its transmission among systems – have this effect.",
           "expanded": "Sabotage",
-          "value": "sabotage"
+          "value": "sabotage",
+          "uuid": "fbcbe784-3b77-5303-a7f9-cb5d64edaf19"
         }
       ],
       "predicate": "availability"
@@ -45,17 +51,20 @@
         {
           "description": "Single system scan searching for open ports or services using these ports for responding / Scanning a network aimed at identifying systems which are active in the same network / Transfer of a specific DNS zone.",
           "expanded": "Scanning",
-          "value": "scanning"
+          "value": "scanning",
+          "uuid": "d3c727c5-8634-56cf-a6ee-e993c86aabf7"
         },
         {
           "description": "Logical or physical interception of communications.",
           "expanded": "Sniffing",
-          "value": "sniffing"
+          "value": "sniffing",
+          "uuid": "05937d42-78dd-5881-a2dc-06f479daefd0"
         },
         {
           "description": "Mass emailing aimed at collecting data for phishing purposes with regard to the victims / Hosting web sites for phishing purposes.",
           "expanded": "Phishing",
-          "value": "phishing"
+          "value": "phishing",
+          "uuid": "904e2ee8-8e3f-5d99-b021-47d8c6e2cd8c"
         }
       ],
       "predicate": "information-gathering"
@@ -65,12 +74,14 @@
         {
           "description": "Unsuccessful use of a tool exploiting a specific vulnerability of the system / Unsuccessful attempt to manipulate or read the information of a database by using the SQL injection technique / Unsuccessful attempts to perform attacks by using cross-site scripting techniques / Unsuccessful attempt to include files in the system under attack by using file inclusion techniques / Unauthorised access to a system or component by bypassing an access control system in place.",
           "expanded": "Exploitation of vulnerability attempt",
-          "value": "vulnerability-exploitation-attempt"
+          "value": "vulnerability-exploitation-attempt",
+          "uuid": "645ceb71-f1fd-5507-971e-a67deb21d7b0"
         },
         {
           "description": "Unsuccessful login by using sequential credentials for gaining access to the system / Unsuccessful acquisition of access credentials by breaking the protective cryptographic keys / Unsuccessful login by using system access credentials previously loaded into a dictionary.",
           "expanded": "Login attempt",
-          "value": "login-attempt"
+          "value": "login-attempt",
+          "uuid": "dcf04685-f066-5dde-b102-56a580680b09"
         }
       ],
       "predicate": "intrusion-attempt"
@@ -80,12 +91,14 @@
         {
           "description": "Unauthorised use of a tool exploiting a specific vulnerability of the system / Unauthorised manipulation or reading of information contained in a database by using the SQL injection technique / Attack performed with the use of cross-site scripting techniques / Unauthorised inclusion of files into a system under attack with the use of file inclusion techniques / Unauthorised access to a system or component by bypassing an access control system in place.",
           "expanded": "(Successful) Exploitation of vulnerability",
-          "value": "vulnerability-exploitation"
+          "value": "vulnerability-exploitation",
+          "uuid": "87836881-d807-5af4-9a64-bebc49fe30ad"
         },
         {
           "description": "Unauthorised access to a system or component by using stolen access credentials.",
           "expanded": "Compromising an account",
-          "value": "account-compromise"
+          "value": "account-compromise",
+          "uuid": "032bfe58-9c7d-5dfc-b1ba-c3c586e76fad"
         }
       ],
       "predicate": "intrusion"
@@ -95,12 +108,14 @@
         {
           "description": "Unauthorised access to a system or component / Unauthorised access to a set of information / Unauthorised access to and sharing of a specific set of information.",
           "expanded": "Unauthorised access",
-          "value": "unauthorised-access"
+          "value": "unauthorised-access",
+          "uuid": "0b6ed5d9-ec79-5dea-8cc4-d4abd391ff3f"
         },
         {
           "description": "Unauthorised changes to a specific set of information / Unauthorised deleting of a specific set of information.",
           "expanded": "Unauthorised modification / deletion",
-          "value": "unauthorised-modification-or-deletion"
+          "value": "unauthorised-modification-or-deletion",
+          "uuid": "c012dcdf-6134-587c-bc4e-2ba07cd8104a"
         }
       ],
       "predicate": "information-security"
@@ -110,12 +125,14 @@
         {
           "description": "Use of institutional resources for purposes other than those intended.",
           "expanded": "Misuse or unauthorised use of resources",
-          "value": "resources-misuse"
+          "value": "resources-misuse",
+          "uuid": "6d834727-f00a-50b2-9022-2337fc041457"
         },
         {
           "description": "Unauthorised use of the name of an institution.",
           "expanded": "False representation",
-          "value": "false-representation"
+          "value": "false-representation",
+          "uuid": "e72811c9-fe17-53d0-b50d-c8dc687f0c9f"
         }
       ],
       "predicate": "fraud"
@@ -125,17 +142,20 @@
         {
           "description": "Sending an unusually large quantity of email messages / Unsolicited or unwanted email message sent to the recipient.",
           "expanded": "SPAM",
-          "value": "spam"
+          "value": "spam",
+          "uuid": "8688a111-fa61-5263-b8f7-71cb5b42f18f"
         },
         {
           "description": "Unauthorised distribution or sharing of content protected by Copyright and related rights.",
           "expanded": "Copyright",
-          "value": "copyright"
+          "value": "copyright",
+          "uuid": "0b53e665-ceb2-5054-9159-e8a1dd5a8d8a"
         },
         {
           "description": "Distribution or sharing of illegal content such as child sexual exploitation material, racism, xenophobia, etc.",
           "expanded": "Child Sexual Exploitation, racism or incitement to violence",
-          "value": "cse-racism-violence-incitement"
+          "value": "cse-racism-violence-incitement",
+          "uuid": "8a42b5cc-f336-56b1-b7bf-c1f5d73ac7b9"
         }
       ],
       "predicate": "abusive-content"
@@ -145,12 +165,14 @@
         {
           "description": "Incidents which do not fit the existing classification, acting as an indicator for the classification’s update.",
           "expanded": "Unclassified incident",
-          "value": "unclassified-incident"
+          "value": "unclassified-incident",
+          "uuid": "f56ec9a6-685d-5c79-bab4-6184e5471c66"
         },
         {
           "description": "Unprocessed incidents which have remained undetermined from the beginning.",
           "expanded": "Undetermined incident",
-          "value": "undetermined-incident"
+          "value": "undetermined-incident",
+          "uuid": "56def666-51d0-5e61-95d6-5822f65cdb5f"
         }
       ],
       "predicate": "other"
@@ -160,47 +182,56 @@
     {
       "description": "Infection of one or various systems with a specific type of malware / Connection performed by/from/to (a) suspicious system(s)",
       "expanded": "Malicious software/code",
-      "value": "malware"
+      "value": "malware",
+      "uuid": "28e70ff3-9405-5c91-8b57-00915ab1b883"
     },
     {
       "description": "Disruption of the processing and response capacity of systems and networks in order to render them inoperative / Premeditated action to damage a system, interrupt a process, change or delete information, etc.",
       "expanded": "Availability",
-      "value": "availability"
+      "value": "availability",
+      "uuid": "a2369e71-e24c-5090-9953-60d2b9967ee2"
     },
     {
       "description": "Active and passive gathering of information on systems or networks / Unauthorised monitoring and reading of network traffic / Attempt to gather information on a user or a system through phishing methods.",
       "expanded": "Information Gathering",
-      "value": "information-gathering"
+      "value": "information-gathering",
+      "uuid": "2d691257-3c3b-5ae5-8865-ab028c6c620c"
     },
     {
       "description": "Attempt to intrude by exploiting vulnerability in a system, component or network / Attempt to log in to services or authentication/access control mechanisms.",
       "expanded": "Intrusion Attempt",
-      "value": "intrusion-attempt"
+      "value": "intrusion-attempt",
+      "uuid": "b3575c59-a9f7-5a59-b9d5-e976297f19fe"
     },
     {
       "description": "Actual intrusion by exploiting vulnerability in the system, component or network / Actual intrusion in a system, component or network by compromising a user or administrator account.",
       "expanded": "Intrusion",
-      "value": "intrusion"
+      "value": "intrusion",
+      "uuid": "cc6e383f-204b-5ad9-9f2b-a2edee96ab94"
     },
     {
       "description": "Unauthorised access to a particular set of information / Unauthorised change or elimination of a particular set of information.",
       "expanded": "Information Security",
-      "value": "information-security"
+      "value": "information-security",
+      "uuid": "975ea3ed-f8cf-51fc-8cc9-173fe16681ce"
     },
     {
       "description": "Loss of property caused with fraudulent or dishonest intent of procuring, without right, an economic benefit for oneself or for another person.",
       "expanded": "Fraud",
-      "value": "fraud"
+      "value": "fraud",
+      "uuid": "5d46de0f-5c33-571f-a632-247d490ad192"
     },
     {
       "description": "Sending SPAM messages / Distribution and sharing of copyright protected content / Dissemination of content forbidden by law.",
       "expanded": "Abusive Content",
-      "value": "abusive-content"
+      "value": "abusive-content",
+      "uuid": "87b7e0a6-ebf5-5571-b5cf-804aad16e7aa"
     },
     {
       "description": "Incidents not classified in the existing classification.",
       "expanded": "Other",
-      "value": "other"
+      "value": "other",
+      "uuid": "0f746089-2af4-5756-8b56-c7dfe5b9a80f"
     }
   ],
   "version": 3,
@@ -209,5 +240,6 @@
     "https://www.europol.europa.eu/publications-documents/common-taxonomy-for-law-enforcement-and-csirts",
     "https://www.enisa.europa.eu/publications/tools-and-methodologies-to-support-cooperation-between-csirts-and-law-enforcement"
   ],
-  "namespace": "common-taxonomy"
+  "namespace": "common-taxonomy",
+  "uuid": "6ef2af68-f575-5220-b63e-0365ff02c47b"
 }

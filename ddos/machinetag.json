@@ -12,23 +12,28 @@
       "entry": [
         {
           "value": "amplification-attack",
-          "expanded": "Amplification attack"
+          "expanded": "Amplification attack",
+          "uuid": "baac9d6e-d65f-5330-ac86-681d0397ce43"
         },
         {
           "value": "reflected-spoofed-attack",
-          "expanded": "Reflected and Spoofed attack"
+          "expanded": "Reflected and Spoofed attack",
+          "uuid": "96f57651-8f93-5851-807a-26a97f03eadd"
         },
         {
           "value": "slow-read-attack",
-          "expanded": "Slow Read attack"
+          "expanded": "Slow Read attack",
+          "uuid": "a2f1ac57-9a9b-5bba-9059-8609631d1639"
         },
         {
           "value": "flooding-attack",
-          "expanded": "Flooding attack"
+          "expanded": "Flooding attack",
+          "uuid": "e6d9f985-22ca-5883-a710-9cf38bf510db"
         },
         {
           "value": "post-attack",
-          "expanded": "Large POST HTTP attack"
+          "expanded": "Large POST HTTP attack",
+          "uuid": "70ff4816-98a1-54dc-9951-5afdd32327c6"
         }
       ]
     }
@@ -37,7 +42,9 @@
     {
       "value": "type",
       "expanded": "Type",
-      "description": "Types and techniques described the way that the attack is performed to launch the Denial of Service attacks. A combination of type values can be used to explain combined techniques and methods."
+      "description": "Types and techniques described the way that the attack is performed to launch the Denial of Service attacks. A combination of type values can be used to explain combined techniques and methods.",
+      "uuid": "e5bf9dd2-3190-5d1f-9b3d-6ea3278b2e4c"
     }
-  ]
+  ],
+  "uuid": "229aee52-78b2-56c7-b599-d8f779a30241"
 }

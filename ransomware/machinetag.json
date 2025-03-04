@@ -13,42 +13,50 @@
     {
       "value": "type",
       "expanded": "Type",
-      "description": "Type is used to describe the type of a ransomware and how it works."
+      "description": "Type is used to describe the type of a ransomware and how it works.",
+      "uuid": "3e97e3c3-7f58-5ef7-b614-ff0f5d8fc7db"
     },
     {
       "value": "element",
       "expanded": "Element",
-      "description": "Elements that composed or are linked to a ransomware and its execution."
+      "description": "Elements that composed or are linked to a ransomware and its execution.",
+      "uuid": "2d306dc0-f3fb-5032-ab0f-1fb3e240df24"
     },
     {
       "value": "complexity-level",
       "expanded": "Complexity level",
-      "description": "Level of complexity of the ransomware."
+      "description": "Level of complexity of the ransomware.",
+      "uuid": "a554e2a6-aaa4-52ba-a181-7bff71160f4b"
     },
     {
       "value": "purpose",
       "expanded": "Purpose",
-      "description": "Purpose of the ransomware."
+      "description": "Purpose of the ransomware.",
+      "uuid": "72ec060e-40ba-5ba8-8ad8-b5d81fd61585"
     },
     {
       "value": "target",
       "expanded": "Target",
-      "description": "Target of the ransomware."
+      "description": "Target of the ransomware.",
+      "uuid": "de9aab08-5bff-5439-8a94-a6133dc5b48d"
     },
     {
       "value": "infection",
       "expanded": "Infection",
-      "description": "Infection vector used by the ransomware."
+      "description": "Infection vector used by the ransomware.",
+      "uuid": "dc474b36-a714-5820-8e51-58359c832ffe"
     },
     {
       "value": "communication",
       "expanded": "Communication",
-      "description": "Communication method used by the ransomware;"
+      "description": "Communication method used by the ransomware;",
+      "uuid": "169cc061-057c-5af8-92a7-96441acfff47"
     },
     {
       "value": "malicious-action",
       "expanded": "Malicious Action",
-      "description": "Malicious action performed by the ransomware."
+      "description": "Malicious action performed by the ransomware.",
+      "uuid": "7a333663-4dae-5d35-841b-8a77a370df36"
     }
   ],
   "values": [
@@ -57,15 +65,18 @@
       "entry": [
         {
           "value": "scareware",
-          "expanded": "Scareware is a form of malware which uses social engineering to cause shock, anxiety, or the perception of a threat in order to manipulate users into buying unwanted software."
+          "expanded": "Scareware is a form of malware which uses social engineering to cause shock, anxiety, or the perception of a threat in order to manipulate users into buying unwanted software.",
+          "uuid": "4e427c63-7b37-5e73-b3ba-a2e564cbc84d"
         },
         {
           "value": "locker-ransomware",
-          "expanded": "Locker ransomware, also called screen locker, denies access to the browser, computer or device."
+          "expanded": "Locker ransomware, also called screen locker, denies access to the browser, computer or device.",
+          "uuid": "2283433b-6282-51fa-8cec-c01a5c4d8c61"
         },
         {
           "value": "crypto-ransomware",
-          "expanded": "Crypto ransomware, also called data locker or cryptoware, prevents access to files or data. Crypto ransomware doesn’t necessarily have to use encryption to stop users from accessing their data, but the vast majority of it does."
+          "expanded": "Crypto ransomware, also called data locker or cryptoware, prevents access to files or data. Crypto ransomware doesn’t necessarily have to use encryption to stop users from accessing their data, but the vast majority of it does.",
+          "uuid": "bb16a73c-822a-5f79-9c65-fac76d9e1a60"
         }
       ]
     },
@@ -74,27 +85,33 @@
       "entry": [
         {
           "value": "ransomnote",
-          "expanded": "A ransomnote is the message left by the attacker to threaten their victim and ask for a ransom. It is usually seen as a text or HTML file, or a picture set as background."
+          "expanded": "A ransomnote is the message left by the attacker to threaten their victim and ask for a ransom. It is usually seen as a text or HTML file, or a picture set as background.",
+          "uuid": "0a2f4e12-dd0c-599d-ba96-2cc534e0a767"
         },
         {
           "value": "ransomware-appended-extension",
-          "expanded": "This is the extension added by the ransomware to the files."
+          "expanded": "This is the extension added by the ransomware to the files.",
+          "uuid": "9b1d6499-a788-5771-9bd0-129330cccb96"
         },
         {
           "value": "ransomware-encrypted-extensions",
-          "expanded": "This is the list of extensions that will be encrypted by the ransomware. Beware to keep the order."
+          "expanded": "This is the list of extensions that will be encrypted by the ransomware. Beware to keep the order.",
+          "uuid": "7526b3d2-c3b7-560d-9356-b893ba7e7287"
         },
         {
           "value": "ransomware-excluded-extensions",
-          "expanded": "This is the list of extensions that will not be encrypted by the ransomware. Beware to keep the order."
+          "expanded": "This is the list of extensions that will not be encrypted by the ransomware. Beware to keep the order.",
+          "uuid": "47f7dcbb-abc8-5e29-a870-1edd5dc6fd7e"
         },
         {
           "value": "dropper",
-          "expanded": "A dropper is a means of getting malware into a machine while bypassing the security checks, often by containing the malware inside of itself."
+          "expanded": "A dropper is a means of getting malware into a machine while bypassing the security checks, often by containing the malware inside of itself.",
+          "uuid": "33e750a9-fb49-58cf-89b9-d9c1be10ac0a"
         },
         {
           "value": "downloader",
-          "expanded": "A downloader is a means of getting malware into a machine while bypassing the security checks, by downloading it instead of containing it."
+          "expanded": "A downloader is a means of getting malware into a machine while bypassing the security checks, by downloading it instead of containing it.",
+          "uuid": "c912313c-cf85-5b6f-a7c0-ff8946d91e63"
         }
       ]
     },
@@ -103,71 +120,88 @@
       "entry": [
         {
           "value": "no-actual-encryption-scareware",
-          "expanded": "No actual encryption (scareware). Infection merely poses as a ransomware by displaying a ransom note or message while not actually encrypting user files."
+          "expanded": "No actual encryption (scareware). Infection merely poses as a ransomware by displaying a ransom note or message while not actually encrypting user files.",
+          "uuid": "7c90dfda-2b25-5676-98cb-53403a8dce46"
         },
         {
           "value": "display-ransomnote-before-encrypting",
-          "expanded": "Displaying the ransom note before the encryption process commences. As seen in the case of Nemucod, some ransomware will display a ransom note before file encryption. This is a serious operational flaw in the ransomware. The victim or their antivirus solution could effectively take prompt evasive action to prevent ransomware from commencing encryption."
+          "expanded": "Displaying the ransom note before the encryption process commences. As seen in the case of Nemucod, some ransomware will display a ransom note before file encryption. This is a serious operational flaw in the ransomware. The victim or their antivirus solution could effectively take prompt evasive action to prevent ransomware from commencing encryption.",
+          "uuid": "37f99505-d544-5a14-817b-1909663547b1"
         },
         {
           "value": "decryption-essentials-extracted-from-binary",
-          "expanded": "Decryption essentials can be reverse engineered from ransomware code or the user's system. For example, if the ransomware uses a hard-coded key, then it becomes straight-forward for malware analysts to extract the key by reverse engineering the ransomware binary. "
+          "expanded": "Decryption essentials can be reverse engineered from ransomware code or the user's system. For example, if the ransomware uses a hard-coded key, then it becomes straight-forward for malware analysts to extract the key by reverse engineering the ransomware binary. ",
+          "uuid": "7789c3c4-530c-5c1d-97e6-b4561097de39"
         },
         {
           "value": "derived-encryption-key-predicted  ",
-          "expanded": "Another possibility of reverse engineering the key is demonstrated in the case of Linux.Encoder, a type of ransomware where a timestamp on the system was used to create keys for encryption resulting in easy decryption provided that the timestamp is still accessible."
+          "expanded": "Another possibility of reverse engineering the key is demonstrated in the case of Linux.Encoder, a type of ransomware where a timestamp on the system was used to create keys for encryption resulting in easy decryption provided that the timestamp is still accessible.",
+          "uuid": "dad05b9c-9956-5ed9-9841-9851b1dd046b"
         },
         {
           "value": "same-key used-for-each-infection",
-          "expanded": "Ransomware uses the same key for every victim. If the same key is used to encrypt all victims during a campaign, then one victim can share the secret key with others."
+          "expanded": "Ransomware uses the same key for every victim. If the same key is used to encrypt all victims during a campaign, then one victim can share the secret key with others.",
+          "uuid": "48a2fc74-2b03-5a99-827d-beea62be66a8"
         },
         {
           "value": "encryption-circumvented",
-          "expanded": "Decryption possible without key - files can be decrypted without the need for a key due to poor choice or implementation of the encryption algorithm. Consider the case of desuCrypt that used an RC4 stream cipher for encryption. Using a stream cipher with key reuse is vulnerable to known plaintext attacks and known ciphertext attacks due to key reuse and hence this is a poor implementation of an encryption algorithm."
+          "expanded": "Decryption possible without key - files can be decrypted without the need for a key due to poor choice or implementation of the encryption algorithm. Consider the case of desuCrypt that used an RC4 stream cipher for encryption. Using a stream cipher with key reuse is vulnerable to known plaintext attacks and known ciphertext attacks due to key reuse and hence this is a poor implementation of an encryption algorithm.",
+          "uuid": "a0b606cb-05a3-51ca-bb81-a6627a69dd5a"
         },
         {
           "value": "file-restoration-possible-using-shadow-volume-copies",
-          "expanded": "Files can be restored using Shadow Volume Copies (“Previous Versions”) on the New Technology File System (NTFS), that were neglected to be deleted by the ransomware."
+          "expanded": "Files can be restored using Shadow Volume Copies (“Previous Versions”) on the New Technology File System (NTFS), that were neglected to be deleted by the ransomware.",
+          "uuid": "10153be5-10ba-5e4d-907e-b0d6465648cd"
         },
         {
           "value": "file-restoration-possible-using-backups",
-          "expanded": "Files can be restored using a System State backup, System Image backup or other means of backup mechanisms (such as third-party backup software) that will render the ransomware's extortion attempt unsuccessful."
+          "expanded": "Files can be restored using a System State backup, System Image backup or other means of backup mechanisms (such as third-party backup software) that will render the ransomware's extortion attempt unsuccessful.",
+          "uuid": "7a76604a-d755-516d-9ee2-e98feb158e61"
         },
         {
           "value": "key-recovered-from-file-system-or-memory",
-          "expanded": "Decryption key can be retrieved from the host machine’s file structure or memory by an average user without the need for an expert. In the case of CryptoDefense, the ransomware did not securely delete keys from the host machine. The user can examine the right file or folder to discover the decryption key."
+          "expanded": "Decryption key can be retrieved from the host machine’s file structure or memory by an average user without the need for an expert. In the case of CryptoDefense, the ransomware did not securely delete keys from the host machine. The user can examine the right file or folder to discover the decryption key.",
+          "uuid": "4b804e30-c3a6-5cc1-b779-c6d109cc51c0"
         },
         {
           "value": "due-diligence-prevented-ransomware-from-acquiring-key",
-          "expanded": "User can prevent ransomware from acquiring the encryption key. Ransomware belongs in this category if its encryption procedure can be interrupted or blocked by due diligence on part of the user. For example, CryptoLocker discussed above cannot commence operation until it receives a key from the C&C server. A host or border firewall can block a list of known C&C servers hence rendering ransomware ineffective."
+          "expanded": "User can prevent ransomware from acquiring the encryption key. Ransomware belongs in this category if its encryption procedure can be interrupted or blocked by due diligence on part of the user. For example, CryptoLocker discussed above cannot commence operation until it receives a key from the C&C server. A host or border firewall can block a list of known C&C servers hence rendering ransomware ineffective.",
+          "uuid": "a47c5fb7-60fa-5660-9218-b2cf8c1a82f5"
         },
         {
           "value": "click-and-run-decryptor-exists",
-          "expanded": "Easy “Click-and-run” solutions such as a decryptor has been created by the security community such that a user can simply run the program to decrypt all files."
+          "expanded": "Easy “Click-and-run” solutions such as a decryptor has been created by the security community such that a user can simply run the program to decrypt all files.",
+          "uuid": "49019894-8d5b-542c-b05d-19163427ee9f"
         },
         {
           "value": "kill-switch-exists-outside-of-attacker-s-control",
-          "expanded": "There exists a kill switch outside of an attacker’s control that renders the cryptoviral infection ineffective. For example, in the case of WannaCry, a global kill switch existed in the form of a domain name. The ransomware reached out to this domain before commencing encryption and if the domain existed, the ransomware aborted execution. This kill switch was outside the attacker’s control as anyone could register it and neutralize the ransomware outbreak."
+          "expanded": "There exists a kill switch outside of an attacker’s control that renders the cryptoviral infection ineffective. For example, in the case of WannaCry, a global kill switch existed in the form of a domain name. The ransomware reached out to this domain before commencing encryption and if the domain existed, the ransomware aborted execution. This kill switch was outside the attacker’s control as anyone could register it and neutralize the ransomware outbreak.",
+          "uuid": "99d0851b-211e-5dda-8f7a-743aa0dac41d"
         },
         {
           "value": "decryption-key-recovered-from-a-C&C-server-or-network-communications",
-          "expanded": "Key can be retrieved from a central location such as a C&C server on a compromised host or gleaned with some difficulty from communication between ransomware on the host and the C&C server. For instance, in the case of CryptoLocker, authorities were able to seize a network of compromised hosts used to spread CryptoLocker and gain access to decryption essentials of around 500,000 victims."
+          "expanded": "Key can be retrieved from a central location such as a C&C server on a compromised host or gleaned with some difficulty from communication between ransomware on the host and the C&C server. For instance, in the case of CryptoLocker, authorities were able to seize a network of compromised hosts used to spread CryptoLocker and gain access to decryption essentials of around 500,000 victims.",
+          "uuid": "a97102ef-7460-5559-a83d-544dbe8b7e18"
         },
         {
           "value": "custom-encryption-algorithm-used",
-          "expanded": "Ransomware uses custom encryption techniques and violates the fundamental rule of cryptography: “do not roll your own crypto.” It is tempting to design a custom cipher that one cannot break themselves, however it will likely not withstand the scrutiny of professional cryptanalysts. Amateur custom cryptography in the ransomware implies there will likely soon be a solution to decrypt files without paying the ransom. An example of this is an early variant of the GPCode ransomware that emerged in 2005 with weak custom encryption."
+          "expanded": "Ransomware uses custom encryption techniques and violates the fundamental rule of cryptography: “do not roll your own crypto.” It is tempting to design a custom cipher that one cannot break themselves, however it will likely not withstand the scrutiny of professional cryptanalysts. Amateur custom cryptography in the ransomware implies there will likely soon be a solution to decrypt files without paying the ransom. An example of this is an early variant of the GPCode ransomware that emerged in 2005 with weak custom encryption.",
+          "uuid": "eac000dc-7634-55e7-b8d6-bbb325def3d9"
         },
         {
           "value": "decryption-key-recovered-under-specialized-lab-setting",
-          "expanded": "Key can only be retrieved under rare, specialized laboratory settings. For example, in the case of WannaCry, a vulnerability in a cryptographic API on an unpatched Windows XP system allowed users to acquire from RAM the prime numbers used to compute private keys and hence retrieve the decryption key. However, the victim had to have been running a specific version of Windows XP and be fortunate enough that the related address space in memory has not been reallocated to another process. In another example, it is theoretically possible to reverse WannaCry encryption by exploiting a flaw in the pseudo-random-number-generator (PRNG) in an unpatched Windows XP system that reveals keys generated in the past. Naturally, these specialized conditions are not true for most victims."
+          "expanded": "Key can only be retrieved under rare, specialized laboratory settings. For example, in the case of WannaCry, a vulnerability in a cryptographic API on an unpatched Windows XP system allowed users to acquire from RAM the prime numbers used to compute private keys and hence retrieve the decryption key. However, the victim had to have been running a specific version of Windows XP and be fortunate enough that the related address space in memory has not been reallocated to another process. In another example, it is theoretically possible to reverse WannaCry encryption by exploiting a flaw in the pseudo-random-number-generator (PRNG) in an unpatched Windows XP system that reveals keys generated in the past. Naturally, these specialized conditions are not true for most victims.",
+          "uuid": "57bebd72-2bb4-5426-a85e-0c3a4d2d4f3e"
         },
         {
           "value": "small-subset-of-files-left-unencrypted",
-          "expanded": "A small subset of files left unencrypted by the ransomware for any number of reasons. Certain ransomware are known to only encrypt a file if its size exceeds a predetermined value. In addition, ransomware might decrypt a few files for free to prove decryption is possible. In such cases, a small number of victims may be lucky enough to only need these unencrypted files and can tolerate loss of the rest."
+          "expanded": "A small subset of files left unencrypted by the ransomware for any number of reasons. Certain ransomware are known to only encrypt a file if its size exceeds a predetermined value. In addition, ransomware might decrypt a few files for free to prove decryption is possible. In such cases, a small number of victims may be lucky enough to only need these unencrypted files and can tolerate loss of the rest.",
+          "uuid": "bd6a8c39-1c0f-57bc-a324-256d556331e4"
         },
         {
           "value": "encryption-model-is-seemingly-flawless",
-          "expanded": "Encryption model is resistant to cryptographic attacks and has been implemented seemingly flawlessly such that there are no known vulnerabilities in its execution. Simply put, there is no proven way yet to decrypt the files without paying the ransom."
+          "expanded": "Encryption model is resistant to cryptographic attacks and has been implemented seemingly flawlessly such that there are no known vulnerabilities in its execution. Simply put, there is no proven way yet to decrypt the files without paying the ransom.",
+          "uuid": "5fc55da2-5591-5e37-b4c7-266c8242ddf7"
         }
       ]
     },
@@ -176,35 +210,43 @@
       "entry": [
         {
           "value": "deployed-as-ransomware-extortion",
-          "expanded": "This has been the traditional approach - ransomware is installed on the victim's machine, and its only purpose is to create income for the cybercriminal(s).  In fact, ransomware is simple extortion, but via digital means."
+          "expanded": "This has been the traditional approach - ransomware is installed on the victim's machine, and its only purpose is to create income for the cybercriminal(s).  In fact, ransomware is simple extortion, but via digital means.",
+          "uuid": "3d915e4c-3fa0-5ea7-90b5-f39d764f7431"
         },
         {
           "value": "deployed-to-showcase-skills-for-fun-or-for-testing-purposes",
-          "expanded": "Some cybercriminals like to show off, and as such create the side-business of ransomware, or, more particularly to showcase their coding skills.\nAnother example may be to send ransomware 'as a joke' or for fun to your friends, and giving them a bad time.\nSome cybercriminals may be testing the waters by deploying ransomware in an organisation, to stress-test the defenses, or to test their own programming skills, or the lack thereof."
+          "expanded": "Some cybercriminals like to show off, and as such create the side-business of ransomware, or, more particularly to showcase their coding skills.\nAnother example may be to send ransomware 'as a joke' or for fun to your friends, and giving them a bad time.\nSome cybercriminals may be testing the waters by deploying ransomware in an organisation, to stress-test the defenses, or to test their own programming skills, or the lack thereof.",
+          "uuid": "aa64b74f-75b3-5900-ae89-89ddd6788d2a"
         },
         {
           "value": "deployed-as-smokescreen",
-          "expanded": "A very interesting occurrence indeed: ransomware is installed to hide the real purpose of whatever the cybercriminal or attacker is doing. This may be data exfiltration, lateral movement, or anything else, in theory, everything is a possible scenario... except for the ransomware itself."
+          "expanded": "A very interesting occurrence indeed: ransomware is installed to hide the real purpose of whatever the cybercriminal or attacker is doing. This may be data exfiltration, lateral movement, or anything else, in theory, everything is a possible scenario... except for the ransomware itself.",
+          "uuid": "b2948bc5-948f-59a6-b573-32f0e80484ed"
         },
         {
           "value": "deployed-to-cause-frustration",
-          "expanded": "Another possible angle that goes hand in hand with the classic extortion scheme - deploying ransomware with intent of frustrating the victim. Basically, cyber bullying. While there may be a request for a monetary amount, it is not the purpose."
+          "expanded": "Another possible angle that goes hand in hand with the classic extortion scheme - deploying ransomware with intent of frustrating the victim. Basically, cyber bullying. While there may be a request for a monetary amount, it is not the purpose.",
+          "uuid": "53d5d132-981a-5795-a821-0daa7699e530"
         },
         {
           "value": "deployed-out-of-frustration",
-          "expanded": "Sometimes, an attacker may gain initial access to a server or other machine, but consequent attempts to, for example, exfiltrate data or attack other machine, is unsuccessful. This may be due to a number of things, but often due to the access being discovered, and quickly patched. On the other hand, it may have not been discovered yet, but the attacker is sitting with the same problem: the purpose is not fulfilled. Then, out of frustration, or to gain at least something out of the victim, the machine gets trashed with ransomware. Another possibility is a disgruntled employee, leaving ransomware as a 'present' before leaving the company."
+          "expanded": "Sometimes, an attacker may gain initial access to a server or other machine, but consequent attempts to, for example, exfiltrate data or attack other machine, is unsuccessful. This may be due to a number of things, but often due to the access being discovered, and quickly patched. On the other hand, it may have not been discovered yet, but the attacker is sitting with the same problem: the purpose is not fulfilled. Then, out of frustration, or to gain at least something out of the victim, the machine gets trashed with ransomware. Another possibility is a disgruntled employee, leaving ransomware as a 'present' before leaving the company.",
+          "uuid": "e2a0f9c7-a77c-5fa8-8bc0-4e9021a8e131"
         },
         {
           "value": "deployed-as-a-cover-up",
-          "expanded": "This may sound ambiguous at first, but imagine a scenario where a company may face sanctions, is already compromised, or has a running investigation. The company or organisation deploying ransomware itself, is a viable way of destroying data forever, and any evidence may be lost.\nAnother possibility is, in order to cover up a much larger compromise, ransomware is installed, and everything is formatted to hide what actually happened.\nAgain, there is also the possibility of a disgruntled employee, or even an intruder: which brings us back to 'deployed as a smokescreen'."
+          "expanded": "This may sound ambiguous at first, but imagine a scenario where a company may face sanctions, is already compromised, or has a running investigation. The company or organisation deploying ransomware itself, is a viable way of destroying data forever, and any evidence may be lost.\nAnother possibility is, in order to cover up a much larger compromise, ransomware is installed, and everything is formatted to hide what actually happened.\nAgain, there is also the possibility of a disgruntled employee, or even an intruder: which brings us back to 'deployed as a smokescreen'.",
+          "uuid": "46444f20-e485-57dd-876a-4d053e411c3a"
         },
         {
           "value": "deployed-as-a-penetration-test-or-user-awareness-training",
-          "expanded": "Ransomware is very effective in the sense that most people know what its purpose is, and the dangers it may cause. As such, it is an excellent tool that can be used for demonstration purposes, such as a user awareness training. Another possibility is an external pentest, with same purpose."
+          "expanded": "Ransomware is very effective in the sense that most people know what its purpose is, and the dangers it may cause. As such, it is an excellent tool that can be used for demonstration purposes, such as a user awareness training. Another possibility is an external pentest, with same purpose.",
+          "uuid": "eb0168c5-de10-5bcf-9828-79260a7ccc73"
         },
         {
           "value": "deployed-as-a-means-of-disruption-destruction",
-          "expanded": "Last but not least -  while ransomware can have several purposes, it can also serve a particularly nasty goal: destroy a company or organisation, or at least take them offline for several days, or even weeks.\nAgain, there are some possibilities, but this may be a rivalry company in a similar business, again a disgruntled employee, or to disrupt large organisations on a worldwide scale."
+          "expanded": "Last but not least -  while ransomware can have several purposes, it can also serve a particularly nasty goal: destroy a company or organisation, or at least take them offline for several days, or even weeks.\nAgain, there are some possibilities, but this may be a rivalry company in a similar business, again a disgruntled employee, or to disrupt large organisations on a worldwide scale.",
+          "uuid": "3df9eed9-74f7-5422-9a1d-2a1dc41a38c2"
         }
       ]
     },
@@ -213,31 +255,38 @@
       "entry": [
         {
           "value": "pc-workstation",
-          "expanded": "Ransomware that targets PCs or workstations."
+          "expanded": "Ransomware that targets PCs or workstations.",
+          "uuid": "b5bfab5b-c628-52a8-8407-6285f992bc0c"
         },
         {
           "value": "nas",
-          "expanded": "Ransomware that targets network attached storage."
+          "expanded": "Ransomware that targets network attached storage.",
+          "uuid": "e121607f-1574-5c1e-944d-f11137ca6b97"
         },
         {
           "value": "vm",
-          "expanded": "Ransomware that targets virtualized environment such as Vmware or Hyper-V."
+          "expanded": "Ransomware that targets virtualized environment such as Vmware or Hyper-V.",
+          "uuid": "aa13b0c2-977a-55a1-b0d6-126e39b675d5"
         },
         {
           "value": "mobile-device",
-          "expanded": "Ransomware that targets mobile devices."
+          "expanded": "Ransomware that targets mobile devices.",
+          "uuid": "982ec123-135b-50a0-8402-48454a1a2b03"
         },
         {
           "value": "iot-cps-device",
-          "expanded": "Ransomware that targets IoT or CPS devoces."
+          "expanded": "Ransomware that targets IoT or CPS devoces.",
+          "uuid": "75c17f1e-ac56-5260-8359-4be354a463f2"
         },
         {
           "value": "end-user",
-          "expanded": "Ransomware that targets end users."
+          "expanded": "Ransomware that targets end users.",
+          "uuid": "5e37dc01-f171-5281-a0f7-c12847c3cbb8"
         },
         {
           "value": "organisation",
-          "expanded": "Ransomware that targets organisation."
+          "expanded": "Ransomware that targets organisation.",
+          "uuid": "67a0d75a-30b0-521d-a726-aca3712a9de1"
         }
       ]
     },
@@ -246,23 +295,28 @@
       "entry": [
         {
           "value": "phishing-e=mails",
-          "expanded": "Malicious e-mails are the most commonly used infection vectors for ransomware. Attackers send spam e-mails to victims that have attachments containing ransomware. Such spam campaigns can be distributed using botnets. Ransomware may come with an attached malicious file, or the e-mail may contain a malicious link that will trigger the installation of ransomware once visited (drive-by download)."
+          "expanded": "Malicious e-mails are the most commonly used infection vectors for ransomware. Attackers send spam e-mails to victims that have attachments containing ransomware. Such spam campaigns can be distributed using botnets. Ransomware may come with an attached malicious file, or the e-mail may contain a malicious link that will trigger the installation of ransomware once visited (drive-by download).",
+          "uuid": "dd649ff1-898a-5408-9698-d979f75e7f71"
         },
         {
           "value": "sms-instant-message",
-          "expanded": "SMS Messages or IMs are used frequently for mobile ransomware. In such kind of infections, attackers send SMS messages or IMs to the victims that will cause them to browse a malicious website to download ransomware to their platforms."
+          "expanded": "SMS Messages or IMs are used frequently for mobile ransomware. In such kind of infections, attackers send SMS messages or IMs to the victims that will cause them to browse a malicious website to download ransomware to their platforms.",
+          "uuid": "befb6c39-eb8c-5700-a0cf-7b5cf76cbf48"
         },
         {
           "value": "malicious-apps",
-          "expanded": "Malicious Applications are used by ransomware attackers who develop and deploy mobile applications that contain ransomware camouflaged as a benign application."
+          "expanded": "Malicious Applications are used by ransomware attackers who develop and deploy mobile applications that contain ransomware camouflaged as a benign application.",
+          "uuid": "cc41ba32-d8b2-5834-b039-f7e40b0cfcf3"
         },
         {
           "value": "drive-by-download",
-          "expanded": "Drive-by download happens when a user unknowingly visits an infected website or clicks a malicious advertisement (i.e., malvertisement) and then the malware is downloaded and installed without the user’s knowledge."
+          "expanded": "Drive-by download happens when a user unknowingly visits an infected website or clicks a malicious advertisement (i.e., malvertisement) and then the malware is downloaded and installed without the user’s knowledge.",
+          "uuid": "79710c2a-66f8-5ce4-bfe7-e3ef76805a52"
         },
         {
           "value": "vulnerabilities",
-          "expanded": "Vulnerabilities in the victim platform such as vulnerabilities in operating systems, browsers, or software can be used by ransomware authors as infection vectors. Attackers can use helper applications, exploit kits, to exploit the known or zero-day vulnerabilities in target systems. Attackers can redirect victims to those kits via malvertisement and malicious links."
+          "expanded": "Vulnerabilities in the victim platform such as vulnerabilities in operating systems, browsers, or software can be used by ransomware authors as infection vectors. Attackers can use helper applications, exploit kits, to exploit the known or zero-day vulnerabilities in target systems. Attackers can redirect victims to those kits via malvertisement and malicious links.",
+          "uuid": "23af3019-9513-56f0-b22e-83bbd807df92"
         }
       ]
     },
@@ -271,11 +325,13 @@
       "entry": [
         {
           "value": "hard-coded-ip",
-          "expanded": "Ransomware connecting to C&C via hard-coded IP addresses or domains"
+          "expanded": "Ransomware connecting to C&C via hard-coded IP addresses or domains",
+          "uuid": "2d9a761d-1f0a-59ec-b349-cefff63ef440"
         },
         {
           "value": "dga-based",
-          "expanded": "Ransomware connecting to C&C via dynamically fast-fluxed/generated/shifted domain names using Domain Generation Algorithms (DGA)"
+          "expanded": "Ransomware connecting to C&C via dynamically fast-fluxed/generated/shifted domain names using Domain Generation Algorithms (DGA)",
+          "uuid": "43c08916-c055-58c3-bc0c-83d339bdbbd6"
         }
       ]
     },
@@ -284,33 +340,41 @@
       "entry": [
         {
           "value": "symmetric-key-encryption",
-          "expanded": "Ransomware that encrypts data using symmetric-key encryption."
+          "expanded": "Ransomware that encrypts data using symmetric-key encryption.",
+          "uuid": "d54dba6f-72b8-52b4-a121-bd8506b28298"
         },
         {
           "value": "asymmetric-key-encryption",
-          "expanded": "Ransomware that encrypts data using asymmetric-key encryption."
+          "expanded": "Ransomware that encrypts data using asymmetric-key encryption.",
+          "uuid": "c2d00631-39fe-5350-a965-c8419f28a92b"
         },
         {
           "value": "hybrid-key-encryption",
-          "expanded": "Ransomware that encrypts data using hybrid-key encryption."
+          "expanded": "Ransomware that encrypts data using hybrid-key encryption.",
+          "uuid": "5857ca5a-3101-5cb8-90ff-14e186089bbd"
         },
         {
           "value": "screen-locking",
-          "expanded": "Ransomware that locks the system’s graphical user interface and prevent access."
+          "expanded": "Ransomware that locks the system’s graphical user interface and prevent access.",
+          "uuid": "b94dc9df-1642-57f2-93f9-213b64fbffe0"
         },
         {
           "value": "browser-locking",
-          "expanded": "Ransomware that locks slock web browser of the victim."
+          "expanded": "Ransomware that locks slock web browser of the victim.",
+          "uuid": "42e828e3-01d4-5039-bf84-f4087877a962"
         },
         {
           "value": "mbr-locking",
-          "expanded": "Ransomware that locks Master Boot Records."
+          "expanded": "Ransomware that locks Master Boot Records.",
+          "uuid": "e7dad786-5730-5fa0-b32e-515c2acdc089"
         },
         {
           "value": "data-exfiltration",
-          "expanded": "Ransomware that exfiltrates data."
+          "expanded": "Ransomware that exfiltrates data.",
+          "uuid": "a38be3ad-ef8d-581f-924b-9c40a837b0ba"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "9d78807c-e22d-5441-bebe-4a9b3b860126"
 }

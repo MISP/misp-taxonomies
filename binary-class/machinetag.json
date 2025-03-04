@@ -6,7 +6,8 @@
   "predicates": [
     {
       "value": "type",
-      "expanded": "Binary Type"
+      "expanded": "Binary Type",
+      "uuid": "8d48111d-52b8-5175-83fd-88a9a4849c08"
     }
   ],
   "values": [
@@ -15,17 +16,21 @@
       "entry": [
         {
           "value": "good",
-          "expanded": "Known Good/Safe"
+          "expanded": "Known Good/Safe",
+          "uuid": "9a963d8b-0351-52ea-b5c2-b6541d2d7d0c"
         },
         {
           "value": "malicious",
-          "expanded": "Known Bad/Malicious"
+          "expanded": "Known Bad/Malicious",
+          "uuid": "195515c7-2fa2-5034-a2bb-472f750eba87"
         },
         {
           "value": "unknown",
-          "expanded": "Not yet known"
+          "expanded": "Not yet known",
+          "uuid": "feb75d50-dd47-509f-943b-c41ed79a4974"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "bc59c383-dcbb-582d-ad96-f3071ea99dc4"
 }

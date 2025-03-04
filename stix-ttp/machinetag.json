@@ -9,7 +9,8 @@
   "predicates": [
     {
       "value": "victim-targeting",
-      "expanded": "Victim Targeting"
+      "expanded": "Victim Targeting",
+      "uuid": "2dd3bf4d-ed8a-5935-b459-974ff35c67a5"
     }
   ],
   "values": [
@@ -18,97 +19,121 @@
       "entry": [
         {
           "value": "business-professional-sector",
-          "expanded": "Business & Professional Services Sector"
+          "expanded": "Business & Professional Services Sector",
+          "uuid": "fc401cfe-7b7a-5c8c-be56-09308d649d17"
         },
         {
           "value": "retail-sector",
-          "expanded": "Retail Sector"
+          "expanded": "Retail Sector",
+          "uuid": "a6f62ed3-d510-5f91-9973-729539bab4b3"
         },
         {
           "value": "financial-sector",
-          "expanded": "Financial Services Sector"
+          "expanded": "Financial Services Sector",
+          "uuid": "9405aa16-02c6-5799-a83e-61c8f26ad434"
         },
         {
           "value": "media-entertainment-sector",
-          "expanded": "Media & Entertainment Sector"
+          "expanded": "Media & Entertainment Sector",
+          "uuid": "79f5ad48-c0e4-560e-a848-9d9559b00f8b"
         },
         {
           "value": "construction-engineering-sector",
-          "expanded": "Construction & Engineering Sector"
+          "expanded": "Construction & Engineering Sector",
+          "uuid": "71f6a588-d7bd-5536-a3df-c60fdbb35aac"
         },
         {
           "value": "government-international-organizations-sector",
-          "expanded": "Goverment & International Organizations"
+          "expanded": "Goverment & International Organizations",
+          "uuid": "a9de4797-a8a8-5d40-8717-ea04be058d2a"
         },
         {
           "value": "legal-sector",
-          "expanded": "Legal Services"
+          "expanded": "Legal Services",
+          "uuid": "45ead694-2599-5fb4-b7eb-957d635fb4d8"
         },
         {
           "value": "hightech-it-sector",
-          "expanded": "High-Tech & IT Sector"
+          "expanded": "High-Tech & IT Sector",
+          "uuid": "ff3fd2b1-24dd-5b44-8b33-efecdbf7e500"
         },
         {
           "value": "healthcare-sector",
-          "expanded": "Healthcare Sector"
+          "expanded": "Healthcare Sector",
+          "uuid": "68518ad9-db6b-5a4a-bed0-fe9e88119983"
         },
         {
           "value": "transportation-sector",
-          "expanded": "Transportation Sector"
+          "expanded": "Transportation Sector",
+          "uuid": "5295fb64-061c-5e8d-b383-2152381e3bbd"
         },
         {
           "value": "aerospace-defence-sector",
-          "expanded": "Aerospace & Defense Sector"
+          "expanded": "Aerospace & Defense Sector",
+          "uuid": "d88f80f7-08e1-5e68-bd8c-68e992f94351"
         },
         {
           "value": "energy-sector",
-          "expanded": "Energy Sector"
+          "expanded": "Energy Sector",
+          "uuid": "73979672-c78d-5ae3-bfc0-c3528352acca"
         },
         {
           "value": "food-sector",
-          "expanded": "Food Sector"
+          "expanded": "Food Sector",
+          "uuid": "0a5924d8-e3a7-56ab-adb6-09b68378d96d"
         },
         {
           "value": "natural-resources-sector",
-          "expanded": "Natural Resources Sector"
+          "expanded": "Natural Resources Sector",
+          "uuid": "6e270b68-acea-5af6-81c9-4438e1ebf0f0"
         },
         {
           "value": "other-sector",
-          "expanded": "Other Sector"
+          "expanded": "Other Sector",
+          "uuid": "3c74ca3b-62da-5c05-9f11-fc185761991c"
         },
         {
           "value": "corporate-employee-information",
-          "expanded": "Corporate Employee Information"
+          "expanded": "Corporate Employee Information",
+          "uuid": "031c0f3e-c5f8-5525-9d97-70e047d3cfec"
         },
         {
           "value": "customer-pii",
-          "expanded": "Customer PII"
+          "expanded": "Customer PII",
+          "uuid": "86870f98-e66a-5a7c-a5e5-f83600b9a221"
         },
         {
           "value": "email-lists-archives",
-          "expanded": "Email Lists/Archives"
+          "expanded": "Email Lists/Archives",
+          "uuid": "f0298aa1-4f58-5058-a0c6-979b78a636ac"
         },
         {
           "value": "financial-data",
-          "expanded": "Financial Data"
+          "expanded": "Financial Data",
+          "uuid": "0fc5b5de-74b4-53e3-9349-4aed47faeeba"
         },
         {
           "value": "intellectual-property",
-          "expanded": "Intellectual Property"
+          "expanded": "Intellectual Property",
+          "uuid": "739ad5a7-caec-5102-9449-b4c695fd50f1"
         },
         {
           "value": "mobile-phone-contacts",
-          "expanded": "Mobile Phone Contacts"
+          "expanded": "Mobile Phone Contacts",
+          "uuid": "a81fdc58-16e9-5d6b-bede-f751907998f9"
         },
         {
           "value": "user-credentials",
-          "expanded": "User Credentials"
+          "expanded": "User Credentials",
+          "uuid": "313bd0ca-af21-588c-8746-3806bc7ea67b"
         },
         {
           "value": "authentification-cookies",
-          "expanded": "Authentication Cookies"
+          "expanded": "Authentication Cookies",
+          "uuid": "f266bcb2-4399-5156-9ce7-8b75074bd027"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "26ab28d5-9e37-53f7-9d4d-f3b1aad80976"
 }

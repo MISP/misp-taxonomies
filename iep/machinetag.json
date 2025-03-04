@@ -6,82 +6,98 @@
     {
       "value": "commercial-use",
       "expanded": "COMMERCIAL USE",
-      "description": "States whether Recipients are permitted to use information received in commercial products or services."
+      "description": "States whether Recipients are permitted to use information received in commercial products or services.",
+      "uuid": "3809000c-39ef-5622-9129-46da9fbfd82a"
     },
     {
       "value": "external-reference",
       "expanded": "EXTERNAL REFERENCE",
-      "description": "This statement can be used to convey a description or reference to any applicable licenses, agreements, or conditions between the producer and receiver."
+      "description": "This statement can be used to convey a description or reference to any applicable licenses, agreements, or conditions between the producer and receiver.",
+      "uuid": "86f5bb7b-92cf-55b8-be04-14e4306cb4d9"
     },
     {
       "value": "encrypt-in-transit",
       "expanded": "ENCRYPT IN TRANSIT",
-      "description": "States whether the received information has to be encrypted when it is retransmitted by the recipient."
+      "description": "States whether the received information has to be encrypted when it is retransmitted by the recipient.",
+      "uuid": "af98cfde-8643-5ad1-9c41-1cffa9f85b30"
     },
     {
       "value": "encrypt-at-rest",
       "expanded": "ENCRYPT AT REST",
-      "description": "States whether the received information has to be encrypted by the Recipient when it is stored at rest."
+      "description": "States whether the received information has to be encrypted by the Recipient when it is stored at rest.",
+      "uuid": "5578f52a-721c-50cd-911f-e7248181997d"
     },
     {
       "value": "permitted-actions",
       "expanded": "PERMITTED ACTIONS",
-      "description": "States the permitted actions that Recipients can take upon information received."
+      "description": "States the permitted actions that Recipients can take upon information received.",
+      "uuid": "84801a69-0dfd-5850-9cdc-a3bca8983473"
     },
     {
       "value": "affected-party-notifications",
       "expanded": "AFFECTED PARTY NOTIFICATIONS",
-      "description": "Recipients are permitted notify affected third parties of a potential compromise or threat."
+      "description": "Recipients are permitted notify affected third parties of a potential compromise or threat.",
+      "uuid": "2a007364-6b62-5fec-b439-962a563b6581"
     },
     {
       "value": "traffic-light-protocol",
       "expanded": "TRAFFIC LIGHT PROTOCOL",
-      "description": "Recipients are permitted to redistribute the information received within the redistribution scope as defined by the enumerations."
+      "description": "Recipients are permitted to redistribute the information received within the redistribution scope as defined by the enumerations.",
+      "uuid": "cc002a92-d834-53d9-b850-fef9f54ae98e"
     },
     {
       "value": "provider-attribution",
       "expanded": "PROVIDER ATTRIBUTION",
-      "description": "Recipients could be required to attribute or anonymize the Provider when redistributing the information received."
+      "description": "Recipients could be required to attribute or anonymize the Provider when redistributing the information received.",
+      "uuid": "fce8930b-e96a-56ff-ad6d-35305e6f6ef2"
     },
     {
       "value": "obfuscate-affected-parties",
       "expanded": "OBFUSCATE AFFECTED PARTIES",
-      "description": "Recipients could be required to obfuscate or anonymize information that could be used to identify the victims before redistributing the information received."
+      "description": "Recipients could be required to obfuscate or anonymize information that could be used to identify the victims before redistributing the information received.",
+      "uuid": "b94ac339-a684-5aec-966d-8f4f7bbc1409"
     },
     {
       "value": "unmodified-resale",
       "expanded": "UNMODIFIED RESALE",
-      "description": "States whether the recipient MAY or MUST NOT resell the information received unmodified or in a semantically equivalent format."
+      "description": "States whether the recipient MAY or MUST NOT resell the information received unmodified or in a semantically equivalent format.",
+      "uuid": "41df1e3c-cb60-531e-871a-3c279d415115"
     },
     {
       "value": "start-date",
       "expanded": "POLICY START DATE",
-      "description": "States the UTC date that the IEP is effective from."
+      "description": "States the UTC date that the IEP is effective from.",
+      "uuid": "d5272056-240c-5988-b824-1d45772188ff"
     },
     {
       "value": "end-date",
       "expanded": "POLICY END DATE",
-      "description": "States the UTC date that the IEP is effective until."
+      "description": "States the UTC date that the IEP is effective until.",
+      "uuid": "8d70e869-dbfb-5940-a2d6-546499cf7a23"
     },
     {
       "value": "reference",
       "expanded": "POLICY REFERENCE",
-      "description": "This statement can be used to provide a URL reference to the specific IEP implementation."
+      "description": "This statement can be used to provide a URL reference to the specific IEP implementation.",
+      "uuid": "3d16e8ea-bf1a-5268-a353-2b123ae1a7e4"
     },
     {
       "value": "name",
       "expanded": "POLICY NAME",
-      "description": "This statement can be used to provide a name for an IEP implementation."
+      "description": "This statement can be used to provide a name for an IEP implementation.",
+      "uuid": "eb257a6e-6544-537b-b9f6-5128accfa17a"
     },
     {
       "value": "version",
       "expanded": "POLICY VERSION",
-      "description": "States the version of the IEP framework that has been used."
+      "description": "States the version of the IEP framework that has been used.",
+      "uuid": "8df4edd1-acf4-5ae5-a9c6-2ab43647779a"
     },
     {
       "value": "id",
       "expanded": "POLICY ID",
-      "description": "Provides a unique ID to identify a specific IEP implementation."
+      "description": "Provides a unique ID to identify a specific IEP implementation.",
+      "uuid": "3173b41e-a4ef-5fca-aa95-743bdee454a9"
     }
   ],
   "values": [
@@ -90,11 +106,13 @@
       "entry": [
         {
           "value": "MAY",
-          "expanded": "Recipients MAY use this information in commercial products or services."
+          "expanded": "Recipients MAY use this information in commercial products or services.",
+          "uuid": "afa11b96-6339-5f98-97ee-be693b7a8056"
         },
         {
           "value": "MUST NOT",
-          "expanded": "Recipients MUST NOT use this information in commercial products or services."
+          "expanded": "Recipients MUST NOT use this information in commercial products or services.",
+          "uuid": "352bcb84-a433-5ad0-bbc1-32ec825ce02b"
         }
       ]
     },
@@ -103,7 +121,8 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "An external-reference value is required"
+          "expanded": "An external-reference value is required",
+          "uuid": "b520735c-9e13-5d47-a4ab-f34f863dd4f3"
         }
       ]
     },
@@ -112,11 +131,13 @@
       "entry": [
         {
           "value": "MUST",
-          "expanded": "Recipients MUST encrypt the information received when it is retransmitted or redistributed."
+          "expanded": "Recipients MUST encrypt the information received when it is retransmitted or redistributed.",
+          "uuid": "5dbfc135-4650-5556-96f1-a069491964e2"
         },
         {
           "value": "MAY",
-          "expanded": "Recipients MAY encrypt the information received when it is retransmitted or redistributed."
+          "expanded": "Recipients MAY encrypt the information received when it is retransmitted or redistributed.",
+          "uuid": "410880eb-a8d5-592f-96f6-4819fab13dd2"
         }
       ]
     },
@@ -125,11 +146,13 @@
       "entry": [
         {
           "value": "MUST",
-          "expanded": "Recipients MUST encrypt the information received when it is stored at rest."
+          "expanded": "Recipients MUST encrypt the information received when it is stored at rest.",
+          "uuid": "cd41bf3c-c320-5288-bf50-bcc748018181"
         },
         {
           "value": "MAY",
-          "expanded": "Recipients MAY encrypt the information received when it is stored at rest."
+          "expanded": "Recipients MAY encrypt the information received when it is stored at rest.",
+          "uuid": "1712f645-29ca-5585-be1f-1c6152bedda3"
         }
       ]
     },
@@ -138,23 +161,28 @@
       "entry": [
         {
           "value": "NONE",
-          "expanded": "Recipients MUST contact the Providers before acting upon the information received."
+          "expanded": "Recipients MUST contact the Providers before acting upon the information received.",
+          "uuid": "b236e814-7681-50b0-b00f-a225393dd6c5"
         },
         {
           "value": "CONTACT FOR INSTRUCTION",
-          "expanded": "Recipients MUST contact the Providers before acting upon the information received."
+          "expanded": "Recipients MUST contact the Providers before acting upon the information received.",
+          "uuid": "9f593511-39a7-5ed3-a23d-be513eafd2ac"
         },
         {
           "value": "INTERNALLY VISIBLE ACTIONS",
-          "expanded": "Recipients MAY conduct actions on the information received that are only visible on the Recipients internal networks and systems, and MUST NOT conduct actions that are visible outside of the Recipients networks and systems, or visible to third parties."
+          "expanded": "Recipients MAY conduct actions on the information received that are only visible on the Recipients internal networks and systems, and MUST NOT conduct actions that are visible outside of the Recipients networks and systems, or visible to third parties.",
+          "uuid": "7b48e5eb-e91b-54a9-8164-579e4b04748a"
         },
         {
           "value": "EXTERNALLY VISIBLE INDIRECT ACTIONS",
-          "expanded": "Recipients MAY conduct indirect, or passive, actions on the information received that are externally visible and MUST NOT conduct direct, or active, actions."
+          "expanded": "Recipients MAY conduct indirect, or passive, actions on the information received that are externally visible and MUST NOT conduct direct, or active, actions.",
+          "uuid": "03581fc6-5289-58b0-bb01-d2a4a5d16cc8"
         },
         {
           "value": "EXTERNALLY VISIBLE DIRECT ACTIONS",
-          "expanded": "Recipients MAY conduct direct, or active, actions on the information received that are externally visible."
+          "expanded": "Recipients MAY conduct direct, or active, actions on the information received that are externally visible.",
+          "uuid": "09abce90-6820-53ad-ade4-1cb55586e5c0"
         }
       ]
     },
@@ -163,11 +191,13 @@
       "entry": [
         {
           "value": "MAY",
-          "expanded": "Recipients MAY notify affected parties of a potential compromise or threat."
+          "expanded": "Recipients MAY notify affected parties of a potential compromise or threat.",
+          "uuid": "f64ed80d-31c0-5eec-8023-36de283332ac"
         },
         {
           "value": "MUST NOT",
-          "expanded": "Recipients MUST NOT notify affected parties of potential compromise or threat."
+          "expanded": "Recipients MUST NOT notify affected parties of potential compromise or threat.",
+          "uuid": "33fab2f3-9f77-5883-957a-1eeb77992e7e"
         }
       ]
     },
@@ -176,19 +206,23 @@
       "entry": [
         {
           "value": "RED",
-          "expanded": "Personal for identified recipients only."
+          "expanded": "Personal for identified recipients only.",
+          "uuid": "a98f55a2-d2fb-55e5-925d-3af81a368e34"
         },
         {
           "value": "AMBER",
-          "expanded": "Limited sharing on the basis of need-to-know."
+          "expanded": "Limited sharing on the basis of need-to-know.",
+          "uuid": "2c562451-ee1d-56d6-850e-e72e7c5ff535"
         },
         {
           "value": "GREEN",
-          "expanded": "Community wide sharing."
+          "expanded": "Community wide sharing.",
+          "uuid": "da453218-13c8-5ec7-8b90-b5a119071767"
         },
         {
           "value": "WHITE",
-          "expanded": "Unlimited sharing."
+          "expanded": "Unlimited sharing.",
+          "uuid": "d63fd803-3599-5320-a546-16b5cd422d49"
         }
       ]
     },
@@ -197,15 +231,18 @@
       "entry": [
         {
           "value": "MAY",
-          "expanded": "Recipients MAY attribute the Provider when redistributing the information received."
+          "expanded": "Recipients MAY attribute the Provider when redistributing the information received.",
+          "uuid": "395dbc5f-b5fc-59d9-b18a-c5973f8934d7"
         },
         {
           "value": "MUST",
-          "expanded": "Recipients MUST attribute the Provider when redistributing the information received."
+          "expanded": "Recipients MUST attribute the Provider when redistributing the information received.",
+          "uuid": "feefb779-3bf2-5d76-ac4f-8a7275166ebc"
         },
         {
           "value": "MUST NOT",
-          "expanded": "Recipients MUST NOT attribute the Provider when redistributing the information received."
+          "expanded": "Recipients MUST NOT attribute the Provider when redistributing the information received.",
+          "uuid": "ba5621c3-ee85-50e9-87c0-41f9e8093090"
         }
       ]
     },
@@ -214,15 +251,18 @@
       "entry": [
         {
           "value": "MAY",
-          "expanded": "Recipients MAY obfuscate information about the specific affected parties."
+          "expanded": "Recipients MAY obfuscate information about the specific affected parties.",
+          "uuid": "43284eb8-b8cb-52ed-a178-4f2ef1958367"
         },
         {
           "value": "MUST",
-          "expanded": "Recipients MUST obfuscate information about the specific affected parties."
+          "expanded": "Recipients MUST obfuscate information about the specific affected parties.",
+          "uuid": "9a629bc4-0083-5823-bc6a-42ff90617e97"
         },
         {
           "value": "MUST NOT",
-          "expanded": "Recipients MUST NOT obfuscate information about the specific affected parties."
+          "expanded": "Recipients MUST NOT obfuscate information about the specific affected parties.",
+          "uuid": "ef436876-108c-5166-8733-79061c79862c"
         }
       ]
     },
@@ -231,11 +271,13 @@
       "entry": [
         {
           "value": "MAY",
-          "expanded": "Recipients MAY resell the information received."
+          "expanded": "Recipients MAY resell the information received.",
+          "uuid": "cd23f719-3508-511f-8400-9d2c74c3624f"
         },
         {
           "value": "MUST NOT",
-          "expanded": "Recipients MUST NOT resell the information received unmodified or in a semantically equivalent format."
+          "expanded": "Recipients MUST NOT resell the information received unmodified or in a semantically equivalent format.",
+          "uuid": "8df18e3a-1e24-597b-a929-8618731b404f"
         }
       ]
     },
@@ -244,7 +286,8 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "A start-date value is required"
+          "expanded": "A start-date value is required",
+          "uuid": "8bf81526-b65b-54c8-a226-4867d47e87fc"
         }
       ]
     },
@@ -253,7 +296,8 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "An end-date value is required"
+          "expanded": "An end-date value is required",
+          "uuid": "024d8103-afd5-5639-b4bb-bd15a68b97d1"
         }
       ]
     },
@@ -262,7 +306,8 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "A reference value is required"
+          "expanded": "A reference value is required",
+          "uuid": "8765ae0a-e518-5868-84bf-653a183bfe0a"
         }
       ]
     },
@@ -271,7 +316,8 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "A name value is required"
+          "expanded": "A name value is required",
+          "uuid": "b8e82c67-a267-5d8e-a2cf-e2556a72bec4"
         }
       ]
     },
@@ -280,7 +326,8 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "A version value is required"
+          "expanded": "A version value is required",
+          "uuid": "2fd62e4c-e6be-5c8f-805b-fcda40bf3060"
         }
       ]
     },
@@ -289,9 +336,11 @@
       "entry": [
         {
           "value": "$text",
-          "expanded": "An id value is required"
+          "expanded": "An id value is required",
+          "uuid": "3cc1878c-5f2d-5ac8-a23e-57df83838e27"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "95bbda2f-8a5b-57d1-8e8e-21c481cafb1a"
 }

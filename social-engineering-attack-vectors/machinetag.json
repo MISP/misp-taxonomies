@@ -7,11 +7,13 @@
   "predicates": [
     {
       "value": "technical",
-      "expanded": "Technical"
+      "expanded": "Technical",
+      "uuid": "aada8b98-58f4-518a-9c4c-34c501f57d51"
     },
     {
       "value": "non-technical",
-      "expanded": "Non-technical"
+      "expanded": "Non-technical",
+      "uuid": "fbba8cb4-4cf2-5699-880e-4ee4703de26a"
     }
   ],
   "values": [
@@ -20,39 +22,48 @@
       "entry": [
         {
           "value": "vishing",
-          "expanded": "Vishing"
+          "expanded": "Vishing",
+          "uuid": "8dd289b1-b9be-55c3-9414-32dea9b69ec1"
         },
         {
           "value": "spear-phishing",
-          "expanded": "Spear phishing"
+          "expanded": "Spear phishing",
+          "uuid": "22bb8be0-b582-5bda-8334-ef7b18eecbb1"
         },
         {
           "value": "interesting-software",
-          "expanded": "Interesting software"
+          "expanded": "Interesting software",
+          "uuid": "f34b96c1-34c6-5777-831f-11b78d1b0789"
         },
         {
           "value": "baiting",
-          "expanded": "Baiting"
+          "expanded": "Baiting",
+          "uuid": "53ebc2b3-8eac-5a9d-b3b4-f2b4cc230599"
         },
         {
           "value": "waterholing",
-          "expanded": "Waterholing"
+          "expanded": "Waterholing",
+          "uuid": "7c4d9bfe-fe40-5322-bf4d-84d797813aa8"
         },
         {
           "value": "phishing-and-trojan-email",
-          "expanded": "Phishing and Trojan email"
+          "expanded": "Phishing and Trojan email",
+          "uuid": "f52e5023-3d78-5645-9c2e-dd3f538b7659"
         },
         {
           "value": "spam-email",
-          "expanded": "Spam Email"
+          "expanded": "Spam Email",
+          "uuid": "5187fc3d-0e65-5e31-ad37-3b998b5674df"
         },
         {
           "value": "popup-window",
-          "expanded": "Popup Window"
+          "expanded": "Popup Window",
+          "uuid": "654ee095-fc03-5fa9-b747-0d3883724dae"
         },
         {
           "value": "tailgating",
-          "expanded": "Tailgating"
+          "expanded": "Tailgating",
+          "uuid": "9b162446-1440-5c61-a370-f7f2094dab3d"
         }
       ]
     },
@@ -61,44 +72,54 @@
       "entry": [
         {
           "value": "pretexting-impersonation",
-          "expanded": "Pretexting/Impersonation"
+          "expanded": "Pretexting/Impersonation",
+          "uuid": "1f21560b-111e-519d-a849-c04e2ce4c4e4"
         },
         {
           "value": "hoaxing",
-          "expanded": "Hoaxing"
+          "expanded": "Hoaxing",
+          "uuid": "1e96d4f9-c275-57a2-b5d7-6bd044ececfb"
         },
         {
           "value": "authoritative-voice",
-          "expanded": "Authoritative voice"
+          "expanded": "Authoritative voice",
+          "uuid": "fe9ab45d-5598-5fd9-bfb4-c066be408200"
         },
         {
           "value": "technical-expert",
-          "expanded": "Technical expert"
+          "expanded": "Technical expert",
+          "uuid": "9880cdc9-f25d-5ea1-b9a6-c8cba096e692"
         },
         {
           "value": "smudge-attack",
-          "expanded": "Smudge Attack"
+          "expanded": "Smudge Attack",
+          "uuid": "ea73fc25-4526-5cb0-87d2-372614b9b68f"
         },
         {
           "value": "dumpser-diving",
-          "expanded": "Dumpster Diving"
+          "expanded": "Dumpster Diving",
+          "uuid": "ea6a8b92-8679-575e-9af7-cb9c02e1be3e"
         },
         {
           "value": "shoulder-surfing",
-          "expanded": "Shoulder surfing"
+          "expanded": "Shoulder surfing",
+          "uuid": "2e8e1853-583b-58e9-b57e-b98562ff6dbf"
         },
         {
           "value": "spying",
-          "expanded": "Spying"
+          "expanded": "Spying",
+          "uuid": "0d507d46-6f4d-54b6-ace1-70bf7bf08e62"
         },
         {
           "value": "support-staff",
-          "expanded": "Support staff"
+          "expanded": "Support staff",
+          "uuid": "a820c5ec-bda3-54f4-b409-a7412c323d11"
         }
       ]
     }
   ],
   "refs": [
     "https://www.researchgate.net/publication/339224082_A_Taxonomy_of_Social_Engineering_Defense_Mechanisms"
-  ]
+  ],
+  "uuid": "e20edbc1-8a5c-58fc-8039-1b3e07bf83ff"
 }

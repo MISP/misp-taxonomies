@@ -5,31 +5,38 @@
   "predicates": [
     {
       "value": "discover",
-      "expanded": "Search historical data for an indicator."
+      "expanded": "Search historical data for an indicator.",
+      "uuid": "b7fb47e0-788c-5272-97ff-6823b540e6b7"
     },
     {
       "value": "detect",
-      "expanded": "Set up a detection rule for an indicator for future alerting."
+      "expanded": "Set up a detection rule for an indicator for future alerting.",
+      "uuid": "e2f9a91a-7145-5c84-b141-f9b18d4aceb9"
     },
     {
       "value": "deny",
-      "expanded": "Prevent an event from taking place."
+      "expanded": "Prevent an event from taking place.",
+      "uuid": "8e6a8928-3847-503a-9aee-a2d8a1612c97"
     },
     {
       "value": "disrupt",
-      "expanded": "Make an event fail when it is taking place."
+      "expanded": "Make an event fail when it is taking place.",
+      "uuid": "fcf61d5e-455e-51e7-bc38-f0a9db952711"
     },
     {
       "value": "degrade",
-      "expanded": "Slow down attacker activity; reduce attacker efficiency."
+      "expanded": "Slow down attacker activity; reduce attacker efficiency.",
+      "uuid": "86a22193-4da6-5427-ae1c-80674f936a2e"
     },
     {
       "value": "deceive",
-      "expanded": "Pretend only that an action was successful or provide misinformation to the attacker."
+      "expanded": "Pretend only that an action was successful or provide misinformation to the attacker.",
+      "uuid": "8b7170fc-bd73-574b-a2f5-c6c0da02472d"
     },
     {
       "value": "destroy",
-      "expanded": "Offensive action against the attacker."
+      "expanded": "Offensive action against the attacker.",
+      "uuid": "2d79e5a4-4242-5789-be21-1a85e58ee3e2"
     }
   ],
   "values": [
@@ -39,77 +46,92 @@
         {
           "value": "proxy",
           "expanded": "Searched historical proxy logs.",
-          "colour": "#005065"
+          "colour": "#005065",
+          "uuid": "066bdb0c-8b6e-54d2-b086-e809d51814cd"
         },
         {
           "value": "ids",
           "expanded": "Searched historical IDS logs.",
-          "colour": "#00586f"
+          "colour": "#00586f",
+          "uuid": "95311e73-6a5c-51f9-a4cc-fb9e766a83a1"
         },
         {
           "value": "firewall",
           "expanded": "Searched historical firewall logs.",
-          "colour": "#005f78"
+          "colour": "#005f78",
+          "uuid": "ef87261d-a037-5b2a-aeac-dd914e21d421"
         },
         {
           "value": "pcap",
           "expanded": "Discovered in packet-capture logs",
-          "colour": "#006681"
+          "colour": "#006681",
+          "uuid": "e3e084af-d1e8-5b98-8572-f29081dc0c81"
         },
         {
           "value": "remote-access",
           "expanded": "Searched historical remote access logs.",
-          "colour": "#006e8b"
+          "colour": "#006e8b",
+          "uuid": "1f09cc38-278d-5513-9101-1fd627ef5cb6"
         },
         {
           "value": "authentication",
           "expanded": "Searched historical authentication logs.",
-          "colour": "#007594"
+          "colour": "#007594",
+          "uuid": "fa80caa3-eb9c-54af-b92b-e1db2b1dcbcc"
         },
         {
           "value": "honeypot",
           "expanded": "Searched historical honeypot data.",
-          "colour": "#007c9d"
+          "colour": "#007c9d",
+          "uuid": "fe61263a-dbe3-5dc1-be80-0a69811f5faa"
         },
         {
           "value": "syslog",
           "expanded": "Searched historical system logs.",
-          "colour": "#0084a6"
+          "colour": "#0084a6",
+          "uuid": "36c768bc-7c41-5534-9698-fa83df84bbdb"
         },
         {
           "value": "web",
           "expanded": "Searched historical WAF and web application logs.",
-          "colour": "#008bb0"
+          "colour": "#008bb0",
+          "uuid": "56be9991-b583-5369-93bc-05c73ce2d3d6"
         },
         {
           "value": "database",
           "expanded": "Searched historcial database logs.",
-          "colour": "#0092b9"
+          "colour": "#0092b9",
+          "uuid": "30e1d6a3-10e3-5e10-bd14-3d780358e874"
         },
         {
           "value": "mail",
           "expanded": "Searched historical mail logs.",
-          "colour": "#009ac2"
+          "colour": "#009ac2",
+          "uuid": "8692658a-bfb2-5c97-92bb-25047c2f7dc3"
         },
         {
           "value": "antivirus",
           "expanded": "Searched historical antivirus alerts.",
-          "colour": "#00a1cb"
+          "colour": "#00a1cb",
+          "uuid": "667dd339-98ef-5f79-b2ff-4a96c1a3a0af"
         },
         {
           "value": "malware-collection",
           "expanded": "Retro hunted in a malware collection.",
-          "colour": "#00a8d5"
+          "colour": "#00a8d5",
+          "uuid": "c47d57f8-7256-5b72-8cdb-db4ec5fa483f"
         },
         {
           "value": "other",
           "expanded": "Searched other historical data.",
-          "colour": "#00b0de"
+          "colour": "#00b0de",
+          "uuid": "05fa471c-a175-508c-a4bc-ec02e7da9ebf"
         },
         {
           "value": "unspecified",
           "expanded": "Unspecified information.",
-          "colour": "#00b7e7"
+          "colour": "#00b7e7",
+          "uuid": "32af0b96-df60-52ae-8640-4d3b0ef994fe"
         }
       ]
     },
@@ -119,67 +141,80 @@
         {
           "value": "proxy",
           "expanded": "Detect by Proxy infrastructure",
-          "colour": "#0abdeb"
+          "colour": "#0abdeb",
+          "uuid": "0fd072a6-fcc5-5b04-8edb-63493b566eac"
         },
         {
           "value": "nids",
           "expanded": "Detect by Network Intrusion detection system.",
-          "colour": "#13c5f4"
+          "colour": "#13c5f4",
+          "uuid": "1eb477f5-2c14-5032-bac7-eb9d64317f4c"
         },
         {
           "value": "hids",
           "expanded": "Detect by Host Intrusion detection system.",
-          "colour": "#24c9f5"
+          "colour": "#24c9f5",
+          "uuid": "87921be8-436e-5857-8223-f927e3d2b7cf"
         },
         {
           "value": "other",
           "expanded": "Detect by other tools.",
-          "colour": "#35cef5"
+          "colour": "#35cef5",
+          "uuid": "2db9b620-bff8-5166-a900-2857f614f123"
         },
         {
           "value": "syslog",
           "expanded": "Detect in system logs.",
-          "colour": "#45d2f6"
+          "colour": "#45d2f6",
+          "uuid": "99637084-2635-5ee6-b0ab-8980798e2bc5"
         },
         {
           "value": "firewall",
           "expanded": "Detect by firewall.",
-          "colour": "#56d6f7"
+          "colour": "#56d6f7",
+          "uuid": "4d185ee3-384d-59b1-978b-11efeb62adb3"
         },
         {
           "value": "email",
           "expanded": "Detect by MTA.",
-          "colour": "#67daf8"
+          "colour": "#67daf8",
+          "uuid": "a3e2a7e4-de61-57eb-ada3-5edff5b95e7f"
         },
         {
           "value": "web",
           "expanded": "Detect by web infrastructure including WAF.",
-          "colour": "#78def8"
+          "colour": "#78def8",
+          "uuid": "846db29e-a7c7-5aa2-8ed4-bb0f86a23511"
         },
         {
           "value": "database",
           "expanded": "Detect in database.",
-          "colour": "#89e2f9"
+          "colour": "#89e2f9",
+          "uuid": "91919faf-0731-592d-98e6-1a2fd72871b5"
         },
         {
           "value": "remote-access",
           "expanded": "Detect in remote-access logs.",
-          "colour": "#9ae6fa"
+          "colour": "#9ae6fa",
+          "uuid": "267c3755-7fcc-5f8f-9fc0-f3cf1e0226c5"
         },
         {
           "value": "malware-collection",
           "expanded": "Detect in malware-collection.",
-          "colour": "#aaeafb"
+          "colour": "#aaeafb",
+          "uuid": "41182d6f-dabf-5f3c-b9d4-4886484b6e27"
         },
         {
           "value": "antivirus",
           "expanded": "Detect with antivirus.",
-          "colour": "#bbeefb"
+          "colour": "#bbeefb",
+          "uuid": "00671035-4db5-50aa-a7f3-cde461d90f72"
         },
         {
           "value": "unspecified",
           "expanded": "Unspecified information.",
-          "colour": "#ccf2fc"
+          "colour": "#ccf2fc",
+          "uuid": "7345e82a-bdfa-5cef-9861-0b189e28eb2f"
         }
       ]
     },
@@ -189,42 +224,50 @@
         {
           "value": "proxy",
           "expanded": "Implemented a proxy filter.",
-          "colour": "#f09105"
+          "colour": "#f09105",
+          "uuid": "14ef870a-8495-544a-9e6b-d86c75b509b7"
         },
         {
           "value": "firewall",
           "expanded": "Implemented a block rule on a firewall.",
-          "colour": "#f99a0e"
+          "colour": "#f99a0e",
+          "uuid": "de0b0a48-d75c-5fe0-b406-378c19132de7"
         },
         {
           "value": "waf",
           "expanded": "Implemented a block rule on a web application firewall.",
-          "colour": "#f9a11f"
+          "colour": "#f9a11f",
+          "uuid": "25636aff-1686-540c-9cd1-ff0297241a83"
         },
         {
           "value": "email",
           "expanded": "Implemented a filter on a mail transfer agent.",
-          "colour": "#faa830"
+          "colour": "#faa830",
+          "uuid": "a21bb2ab-e8f6-5e43-a908-ab25c0e1af41"
         },
         {
           "value": "chroot",
           "expanded": "Implemented a chroot jail.",
-          "colour": "#faaf41"
+          "colour": "#faaf41",
+          "uuid": "5fb8982e-93a8-5d97-9643-d96132bed7bc"
         },
         {
           "value": "remote-access",
           "expanded": "Blocked an account for remote access.",
-          "colour": "#fbb653"
+          "colour": "#fbb653",
+          "uuid": "5a7d1922-9333-54b1-8594-4a3a2ae042e5"
         },
         {
           "value": "other",
           "expanded": "Denied an action by other means.",
-          "colour": "#fbbe64"
+          "colour": "#fbbe64",
+          "uuid": "953da7db-45e7-5187-982a-483a1502117e"
         },
         {
           "value": "unspecified",
           "expanded": "Unspecified information.",
-          "colour": "#fbc575"
+          "colour": "#fbc575",
+          "uuid": "d344b38b-56a6-5a1c-a73c-27d7eb9553eb"
         }
       ]
     },
@@ -234,42 +277,50 @@
         {
           "value": "nips",
           "expanded": "Implemented a rule on a network IPS.",
-          "colour": "#660389"
+          "colour": "#660389",
+          "uuid": "44786b7d-bcfc-5292-b4ae-dcb809e2168e"
         },
         {
           "value": "hips",
           "expanded": "Implemented a rule on a host-based IPS.",
-          "colour": "#73039a"
+          "colour": "#73039a",
+          "uuid": "ef886e08-04d9-5b3d-b6c9-0dee03e45ab0"
         },
         {
           "value": "other",
           "expanded": "Disrupted an action by other means.",
-          "colour": "#8003ab"
+          "colour": "#8003ab",
+          "uuid": "fc0a6ef9-2bef-5b0c-955f-078991263d37"
         },
         {
           "value": "email",
           "expanded": "Quarantined an email.",
-          "colour": "#8d04bd"
+          "colour": "#8d04bd",
+          "uuid": "d0d30ee6-0453-5498-ba26-335d426edb2c"
         },
         {
           "value": "memory-protection",
           "expanded": "Implemented memory protection like DEP and/or ASLR.",
-          "colour": "#9a04ce"
+          "colour": "#9a04ce",
+          "uuid": "fdc7c545-f3d3-57c2-8119-733d447e2743"
         },
         {
           "value": "sandboxing",
           "expanded": "Exploded in a sandbox.",
-          "colour": "#a605df"
+          "colour": "#a605df",
+          "uuid": "86f72523-23e7-53b7-8d9a-56e5684d6180"
         },
         {
           "value": "antivirus",
           "expanded": "Activated an antivirus signature.",
-          "colour": "#b305f0"
+          "colour": "#b305f0",
+          "uuid": "dbbc180b-a523-5778-ad94-9c3e9fb4c224"
         },
         {
           "value": "unspecified",
           "expanded": "Unspecified information.",
-          "colour": "#bc0ef9"
+          "colour": "#bc0ef9",
+          "uuid": "91d75736-0a3d-52da-8b14-828fcfe15a96"
         }
       ]
     },
@@ -279,27 +330,32 @@
         {
           "value": "bandwidth",
           "expanded": "Throttled the bandwidth.",
-          "colour": "#0421ce"
+          "colour": "#0421ce",
+          "uuid": "8bd5d435-487e-57ec-8a9c-a3cee4859b26"
         },
         {
           "value": "tarpit",
           "expanded": "Implement a network tarpit.",
-          "colour": "#0523df"
+          "colour": "#0523df",
+          "uuid": "d7cda095-475d-5c18-a44a-7c5ad59fd2c4"
         },
         {
           "value": "other",
           "expanded": "Degraded an action by other means.",
-          "colour": "#0526f0"
+          "colour": "#0526f0",
+          "uuid": "e76a740f-b485-5080-81e8-448e060da51d"
         },
         {
           "value": "email",
           "expanded": "Queued an email.",
-          "colour": "#0e2ff9"
+          "colour": "#0e2ff9",
+          "uuid": "7ea001c5-be4e-57ab-b364-d15208d1aeb1"
         },
         {
           "value": "unspecified",
           "expanded": "Unspecified information.",
-          "colour": "#1f3ef9"
+          "colour": "#1f3ef9",
+          "uuid": "fed65edb-3832-5c92-b7cc-f835f71bd325"
         }
       ]
     },
@@ -309,27 +365,32 @@
         {
           "value": "honeypot",
           "expanded": "Implemented an interactive honeypot.",
-          "colour": "#0eb274"
+          "colour": "#0eb274",
+          "uuid": "853e6493-b046-54c7-a752-854a58668ff8"
         },
         {
           "value": "DNS",
           "expanded": "Implemented DNS redirects, e.g. a response policy zone.",
-          "colour": "#10c37f"
+          "colour": "#10c37f",
+          "uuid": "15d599fa-49d0-5d0e-9755-6121b6dab3c2"
         },
         {
           "value": "other",
           "expanded": "Deceived the attacker with other technology.",
-          "colour": "#11d389"
+          "colour": "#11d389",
+          "uuid": "33601ae6-b969-5921-abbc-6dc9d1dc4def"
         },
         {
           "value": "email",
           "expanded": "Implemented email redirection.",
-          "colour": "#12e394"
+          "colour": "#12e394",
+          "uuid": "04b04f12-37ae-5534-991e-500822759267"
         },
         {
           "value": "unspecified",
           "expanded": "Unspecified information.",
-          "colour": "#1bec9d"
+          "colour": "#1bec9d",
+          "uuid": "b42898ed-7174-59c1-937b-de97b73e0f08"
         }
       ]
     },
@@ -339,39 +400,47 @@
         {
           "value": "arrest",
           "expanded": "Arrested the threat actor.",
-          "colour": "#c33210"
+          "colour": "#c33210",
+          "uuid": "1eabd2b5-0447-5c56-a00c-437af550b770"
         },
         {
           "value": "seize",
           "expanded": "Seized attacker infrastructure.",
-          "colour": "#d33611"
+          "colour": "#d33611",
+          "uuid": "e8969cb1-6763-5f18-b8cb-e7cdf9376b51"
         },
         {
           "value": "physical",
           "expanded": "Physically destroyed attacker hardware.",
-          "colour": "#e33b12"
+          "colour": "#e33b12",
+          "uuid": "e278d188-bcb9-5be7-a80b-e15d6e2aba9e"
         },
         {
           "value": "dos",
           "expanded": "Performed a denial-of-service attack against attacker infrastructure.",
-          "colour": "#ec441b"
+          "colour": "#ec441b",
+          "uuid": "2e912558-11b4-59ff-bf26-b1002e660355"
         },
         {
           "value": "hack-back",
           "expanded": "Hack back against the threat actor.",
-          "colour": "#ed512b"
+          "colour": "#ed512b",
+          "uuid": "4178a54b-e892-5b00-860a-41e0ccbc5388"
         },
         {
           "value": "other",
           "expanded": "Carried out other offensive actions against the attacker.",
-          "colour": "#ee5e3b"
+          "colour": "#ee5e3b",
+          "uuid": "b7ededdc-4853-5270-b2bd-8c704d5620c6"
         },
         {
           "value": "unspecified",
           "expanded": "Unspecified information.",
-          "colour": "#f06c4c"
+          "colour": "#f06c4c",
+          "uuid": "1bf16ae0-cefc-59d0-96b8-6646476f5b4a"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "cc0515d6-3205-5495-8923-9daf675c030d"
 }

@@ -4,10 +4,12 @@
   "version": 1,
   "predicates": [
     {
-      "value": "Poisonous plant"
+      "value": "Poisonous plant",
+      "uuid": "9a00a7dd-4746-5c48-ae63-80a588a2ca27"
     },
     {
-      "value": "Poisonous fungus"
+      "value": "Poisonous fungus",
+      "uuid": "8db59eba-3545-50d2-8a1d-f3c7cfbcf869"
     }
   ],
   "values": [
@@ -15,462 +17,615 @@
       "predicate": "Poisonous fungus",
       "entry": [
         {
-          "value": "Agaricus californicus/California "
+          "value": "Agaricus californicus/California ",
+          "uuid": "14a3c4f4-dc7b-5c55-9617-5629452372a4"
         },
         {
-          "value": "Agaricus hondensis/Felt-ringed "
+          "value": "Agaricus hondensis/Felt-ringed ",
+          "uuid": "c913e2d5-4ee5-52fb-9dd2-72ea0f04c75f"
         },
         {
-          "value": "Agaricus menieri"
+          "value": "Agaricus menieri",
+          "uuid": "2bc54b2c-212c-5c93-9e8a-8a8d52aff2b9"
         },
         {
-          "value": "Agaricus moelleri"
+          "value": "Agaricus moelleri",
+          "uuid": "9f389fde-919a-5d97-8dde-020c5654bd42"
         },
         {
-          "value": "Agaricus phaeolepidotus"
+          "value": "Agaricus phaeolepidotus",
+          "uuid": "29ffe53c-31ea-574d-a398-8520705e260a"
         },
         {
-          "value": "Agaricus placomyces"
+          "value": "Agaricus placomyces",
+          "uuid": "bef11d3b-938f-5cdc-9754-f8f258247253"
         },
         {
-          "value": "Agaricus xanthodermus/Yellow-staining mushroom"
+          "value": "Agaricus xanthodermus/Yellow-staining mushroom",
+          "uuid": "1a0ebc96-2cb0-5cb6-bc4f-81dd1a002cb4"
         },
         {
-          "value": "Amanita abrupta/American abrupt-bulbed Lepidella"
+          "value": "Amanita abrupta/American abrupt-bulbed Lepidella",
+          "uuid": "7dcb84b2-dd02-5643-8077-5a1eadff5a55"
         },
         {
-          "value": "Amanita aprica/Sunshine amanita"
+          "value": "Amanita aprica/Sunshine amanita",
+          "uuid": "e6ccb0a1-ad48-545c-b5ef-ea977ed2d349"
         },
         {
-          "value": "Amanita boudieri/Boudier's lepidella"
+          "value": "Amanita boudieri/Boudier's lepidella",
+          "uuid": "4afc6066-28d6-52b8-bb2b-c9c7773a5563"
         },
         {
-          "value": "Amanita citrina"
+          "value": "Amanita citrina",
+          "uuid": "10b5c47b-0783-55e6-8e9d-41b4dee4da99"
         },
         {
-          "value": "Amanita cokeri/Coker's amanita"
+          "value": "Amanita cokeri/Coker's amanita",
+          "uuid": "a6841c88-d326-57ec-b47f-7e50ad9af361"
         },
         {
-          "value": "Amanita cothurnata/Booted amanita"
+          "value": "Amanita cothurnata/Booted amanita",
+          "uuid": "fecd751d-1e99-5f95-905e-3d9b4be02753"
         },
         {
-          "value": "Amanita echinocephala/European solitary amanita"
+          "value": "Amanita echinocephala/European solitary amanita",
+          "uuid": "9237ab65-f511-52d9-90d0-0fa11f0e7c5e"
         },
         {
-          "value": "Amanita farinosa/Powdery Amanita"
+          "value": "Amanita farinosa/Powdery Amanita",
+          "uuid": "cf4667df-5767-50c1-b26f-8ce25d3221b1"
         },
         {
-          "value": "Amanita flavorubescens"
+          "value": "Amanita flavorubescens",
+          "uuid": "081ca62d-d52b-5626-8b0d-e0a44d6be68e"
         },
         {
-          "value": "Amanita gemmata/Gemmed Amanita"
+          "value": "Amanita gemmata/Gemmed Amanita",
+          "uuid": "c7e9c62d-4147-56b2-a6d6-df8e0838a552"
         },
         {
-          "value": "Amanita gioiosa"
+          "value": "Amanita gioiosa",
+          "uuid": "f109631f-2f98-5ee0-85cf-c6fa1ab53077"
         },
         {
-          "value": "Amanita gracilior"
+          "value": "Amanita gracilior",
+          "uuid": "2f061240-4d09-5f03-ad23-8f4a65c704b8"
         },
         {
-          "value": "Amanita heterochroma/Eucalyptus fly agaric"
+          "value": "Amanita heterochroma/Eucalyptus fly agaric",
+          "uuid": "2b3e9fa0-da29-54f2-beb5-a50056d24ad4"
         },
         {
-          "value": "Amanita hongoi/Hongo's Amanita"
+          "value": "Amanita hongoi/Hongo's Amanita",
+          "uuid": "53b9827b-0113-52c6-b637-2c6a42f8dff5"
         },
         {
-          "value": "Amanita ibotengutake/Japanese ringed-bulbed Amanita"
+          "value": "Amanita ibotengutake/Japanese ringed-bulbed Amanita",
+          "uuid": "25bdca39-2543-5627-87b4-2c6f50870fdc"
         },
         {
-          "value": "Amanita muscaria/Fly agaric"
+          "value": "Amanita muscaria/Fly agaric",
+          "uuid": "7f6a1cf5-2446-5cde-8491-8d7aab332862"
         },
         {
-          "value": "Amanita neoovoidea/East Asian egg amidella"
+          "value": "Amanita neoovoidea/East Asian egg amidella",
+          "uuid": "7bc3576b-87c4-59a0-85f0-e91fe308ebee"
         },
         {
-          "value": "Amanita pantherina/Panther cap"
+          "value": "Amanita pantherina/Panther cap",
+          "uuid": "31be44de-2d49-5125-a3e0-2bf7a2bdf3bc"
         },
         {
-          "value": "Amanita porphyria/Grey veiled Amanita"
+          "value": "Amanita porphyria/Grey veiled Amanita",
+          "uuid": "cbaedfeb-e93b-5ead-afea-df80def38e0f"
         },
         {
-          "value": "Amanita pseudoporphyria/Hongo's false death cap"
+          "value": "Amanita pseudoporphyria/Hongo's false death cap",
+          "uuid": "24d07c4a-b2dd-5dd1-b938-500148ea7f2b"
         },
         {
-          "value": "Amanita pseudoregalis/False royal fly agaric"
+          "value": "Amanita pseudoregalis/False royal fly agaric",
+          "uuid": "30f777d4-19a8-5055-be5d-5d8837068322"
         },
         {
-          "value": "Amanita pseudorubescens/False blusher"
+          "value": "Amanita pseudorubescens/False blusher",
+          "uuid": "d46cc4fc-28eb-56de-826c-bc5562f67392"
         },
         {
-          "value": "Amanita regalis/Royal fly agaric"
+          "value": "Amanita regalis/Royal fly agaric",
+          "uuid": "ababcf12-f44e-5a90-a64c-127b6e93e356"
         },
         {
-          "value": "Amanita smithiana/Smith's Amanita"
+          "value": "Amanita smithiana/Smith's Amanita",
+          "uuid": "9213fc9c-9013-5742-8bfb-c8d8063e3c84"
         },
         {
-          "value": "Ampulloclitocybe clavipes/Club-footed clitocybe"
+          "value": "Ampulloclitocybe clavipes/Club-footed clitocybe",
+          "uuid": "39da5fe5-9998-5777-85bd-052ff5cecf8b"
         },
         {
-          "value": "Chlorophyllum molybdites/Green-spored parasol"
+          "value": "Chlorophyllum molybdites/Green-spored parasol",
+          "uuid": "c012a7b7-9781-5019-a8f8-ce0ebfd489f9"
         },
         {
-          "value": "Clitocybe cerussata"
+          "value": "Clitocybe cerussata",
+          "uuid": "a13a7021-8a48-5545-9406-e122108602c0"
         },
         {
-          "value": "Clitocybe dealbata"
+          "value": "Clitocybe dealbata",
+          "uuid": "7f952acb-02ef-51fc-9048-810d7155a049"
         },
         {
-          "value": "Coprinopsis alopecia"
+          "value": "Coprinopsis alopecia",
+          "uuid": "4e1b6763-26cd-574d-840e-268d6014d3ac"
         },
         {
-          "value": "Coprinopsis atramentaria/Common ink cap"
+          "value": "Coprinopsis atramentaria/Common ink cap",
+          "uuid": "f0d66a0e-dcb0-5c67-a634-1a75f54a6f21"
         },
         {
-          "value": "Coprinopsis romagnesiana/Scaly ink cap"
+          "value": "Coprinopsis romagnesiana/Scaly ink cap",
+          "uuid": "6dacd1d6-1a82-540b-8031-1d94a6a75185"
         },
         {
-          "value": "Cortinarius bolaris"
+          "value": "Cortinarius bolaris",
+          "uuid": "cfe6e0fe-b642-5fb0-be16-6f47aff63c7f"
         },
         {
-          "value": "Cortinarius callisteus"
+          "value": "Cortinarius callisteus",
+          "uuid": "e723fe14-0bba-5413-bf7c-ed19fc14d015"
         },
         {
-          "value": "Cortinarius cinnabarinus"
+          "value": "Cortinarius cinnabarinus",
+          "uuid": "d47bd893-0b67-5718-a93d-ae9be794350e"
         },
         {
-          "value": "Cortinarius cinnamomeofulvus"
+          "value": "Cortinarius cinnamomeofulvus",
+          "uuid": "08699ea6-2c6c-5f45-bd3b-c81a7ee93efe"
         },
         {
-          "value": "Cortinarius cinnamomeoluteus"
+          "value": "Cortinarius cinnamomeoluteus",
+          "uuid": "f0adc55b-9378-55e4-838d-a0560415a3ab"
         },
         {
-          "value": "Cortinarius cinnamomeus"
+          "value": "Cortinarius cinnamomeus",
+          "uuid": "f9946f6a-6c59-5623-bdd7-42fde7e4acaa"
         },
         {
-          "value": "Cortinarius cruentus"
+          "value": "Cortinarius cruentus",
+          "uuid": "9432cdf8-eb2d-5c98-91a1-77b4ed27d806"
         },
         {
-          "value": "Cortinarius gentilis"
+          "value": "Cortinarius gentilis",
+          "uuid": "482c6f55-d00e-5a5c-a554-9298e1f26cf6"
         },
         {
-          "value": "Cortinarius limonius"
+          "value": "Cortinarius limonius",
+          "uuid": "d1d1e594-92f8-5905-a2e2-9b4af14c0a63"
         },
         {
-          "value": "Cortinarius malicorius"
+          "value": "Cortinarius malicorius",
+          "uuid": "247fea75-9d7a-5432-a334-da332e712c1a"
         },
         {
-          "value": "Cortinarius mirandus"
+          "value": "Cortinarius mirandus",
+          "uuid": "231adce2-5c04-5212-873d-dcc7db613503"
         },
         {
-          "value": "Cortinarius palustris"
+          "value": "Cortinarius palustris",
+          "uuid": "c075be24-f76a-5e40-a946-c90990808a0e"
         },
         {
-          "value": "Cortinarius phoeniceus"
+          "value": "Cortinarius phoeniceus",
+          "uuid": "84dc9224-ccc7-5a13-bfe3-c590101a0dd6"
         },
         {
-          "value": "Cortinarius rubicundulus"
+          "value": "Cortinarius rubicundulus",
+          "uuid": "02c530e5-cbdd-55cb-998b-36fbb70ceb90"
         },
         {
-          "value": "Cortinarius smithii/Smith's Cortinarius"
+          "value": "Cortinarius smithii/Smith's Cortinarius",
+          "uuid": "f0ebd0e9-fffa-5f88-b9e0-6bc441d6a6e0"
         },
         {
-          "value": "Cudonia circinans"
+          "value": "Cudonia circinans",
+          "uuid": "890eb28e-b269-5085-a8d6-cd6c2c612dbd"
         },
         {
-          "value": "Gyromitra perlata/Pig's ears"
+          "value": "Gyromitra perlata/Pig's ears",
+          "uuid": "3aa3ab7b-335b-5be8-8cfe-9af17f28c620"
         },
         {
-          "value": "Echinoderma asperum/Freckled dapperling"
+          "value": "Echinoderma asperum/Freckled dapperling",
+          "uuid": "de11727e-2048-5dd2-a021-b53f4970fdeb"
         },
         {
-          "value": "Echinoderma calcicola"
+          "value": "Echinoderma calcicola",
+          "uuid": "72cef79f-4ce4-5cd7-8a44-e18e2a05617e"
         },
         {
-          "value": "Entoloma albidum"
+          "value": "Entoloma albidum",
+          "uuid": "f6ea75af-b43c-578b-99fe-3f48d114fc45"
         },
         {
-          "value": "Entoloma rhodopolium/Wood pinkgill"
+          "value": "Entoloma rhodopolium/Wood pinkgill",
+          "uuid": "be5c04a4-6c75-5c2a-aaf9-566c3452c747"
         },
         {
-          "value": "Entoloma sinuatum/Livid Entoloma"
+          "value": "Entoloma sinuatum/Livid Entoloma",
+          "uuid": "89b4a63d-282d-594d-9aec-4ebe8d0eeaa7"
         },
         {
-          "value": "Hebeloma crustuliniforme/Poison pie"
+          "value": "Hebeloma crustuliniforme/Poison pie",
+          "uuid": "d8680c33-acef-50a7-a88a-1820b514b7f4"
         },
         {
-          "value": "Hebeloma sinapizans/Rough-stalked hebeloma"
+          "value": "Hebeloma sinapizans/Rough-stalked hebeloma",
+          "uuid": "a7642713-2e48-5c61-972d-1db6574c2e10"
         },
         {
-          "value": "Helvella crispa/Elfin saddle"
+          "value": "Helvella crispa/Elfin saddle",
+          "uuid": "ebbb0023-d280-55f7-93c6-ace47520a990"
         },
         {
-          "value": "Helvella dryophila/Oak-loving elfin saddle"
+          "value": "Helvella dryophila/Oak-loving elfin saddle",
+          "uuid": "fb0d7a21-17e6-569f-9c2b-a08f91675bd2"
         },
         {
-          "value": "Helvella lactea"
+          "value": "Helvella lactea",
+          "uuid": "daa29dc8-089e-5dc1-9c4c-ef8ab6859012"
         },
         {
-          "value": "Helvella lacunosa/Slate grey saddle"
+          "value": "Helvella lacunosa/Slate grey saddle",
+          "uuid": "053434e5-9e8e-5159-a79f-bfbd26988add"
         },
         {
-          "value": "Helvella vespertina/Western black elfin saddle"
+          "value": "Helvella vespertina/Western black elfin saddle",
+          "uuid": "f1017eb5-8584-5be8-af87-e4675a8746ae"
         },
         {
-          "value": "Hapalopilus nidulans/Tender nesting polypore"
+          "value": "Hapalopilus nidulans/Tender nesting polypore",
+          "uuid": "17f18cb5-5505-55d3-9895-f82d2c92010b"
         },
         {
-          "value": "Hypholoma fasciculare/Sulphur tuft"
+          "value": "Hypholoma fasciculare/Sulphur tuft",
+          "uuid": "ae49877d-f8bf-52e4-81cf-0ff7de49370f"
         },
         {
-          "value": "Hypholoma lateritium/Brick cap"
+          "value": "Hypholoma lateritium/Brick cap",
+          "uuid": "39f8156c-afb5-5bda-86ff-691275352e50"
         },
         {
-          "value": "Hypholoma marginatum"
+          "value": "Hypholoma marginatum",
+          "uuid": "75f23935-5298-5d4e-9bff-7dfcf7737cde"
         },
         {
-          "value": "Hypholoma radicosum"
+          "value": "Hypholoma radicosum",
+          "uuid": "39ea28bb-d712-55c3-a5e4-b3f182b4ca8f"
         },
         {
-          "value": "Imperator rhodopurpureus"
+          "value": "Imperator rhodopurpureus",
+          "uuid": "6de14be7-5bc5-54fc-96df-1b4e71f35519"
         },
         {
-          "value": "Imperator torosus"
+          "value": "Imperator torosus",
+          "uuid": "7f2f9bc3-4d18-544c-9458-40a6e88b7dc2"
         },
         {
-          "value": "Inocybe fibrosa"
+          "value": "Inocybe fibrosa",
+          "uuid": "8232a1df-16d0-5908-bad4-f042a1fd20f7"
         },
         {
-          "value": "Inocybe geophylla/Earthy inocybe"
+          "value": "Inocybe geophylla/Earthy inocybe",
+          "uuid": "7dc8a758-eb6f-5921-bd14-7e18798c855f"
         },
         {
-          "value": "Inocybe hystrix"
+          "value": "Inocybe hystrix",
+          "uuid": "63ff261f-7ac9-5ac6-a402-c0f4410c7868"
         },
         {
-          "value": "Inocybe lacera/Torn fibercap"
+          "value": "Inocybe lacera/Torn fibercap",
+          "uuid": "056eb6f3-61f6-521d-8f9b-ff3be8dba214"
         },
         {
-          "value": "Inocybe lilacina"
+          "value": "Inocybe lilacina",
+          "uuid": "fdface3b-3b5b-5b5f-bd35-837056fb37e6"
         },
         {
-          "value": "Inocybe sublilacina"
+          "value": "Inocybe sublilacina",
+          "uuid": "d3e5f7e1-328d-57aa-8953-74daf4e8ab69"
         },
         {
-          "value": "Inocybe rimosa"
+          "value": "Inocybe rimosa",
+          "uuid": "1c4488bd-56aa-510c-a597-93efc435d807"
         },
         {
-          "value": "Inocybe sambucina"
+          "value": "Inocybe sambucina",
+          "uuid": "556f9b8e-65e4-513f-8f98-1d2877964fe4"
         },
         {
-          "value": "Lactarius torminosus/Woolly milkcap"
+          "value": "Lactarius torminosus/Woolly milkcap",
+          "uuid": "d09c294f-0ce5-5718-901c-c17e40c8ade2"
         },
         {
-          "value": "Mycena diosma"
+          "value": "Mycena diosma",
+          "uuid": "2ca343af-633f-54a0-a45d-c2de5f9ac22f"
         },
         {
-          "value": "Mycena pura/Lilac bonnet"
+          "value": "Mycena pura/Lilac bonnet",
+          "uuid": "84ad9c52-c272-53db-8d16-b87a12da1019"
         },
         {
-          "value": "Mycena rosea/Rosy bonnet"
+          "value": "Mycena rosea/Rosy bonnet",
+          "uuid": "d61455db-524c-5734-840c-0a987c380299"
         },
         {
-          "value": "Neonothopanus nambi"
+          "value": "Neonothopanus nambi",
+          "uuid": "236080aa-d3ba-5e5d-a08f-5e46464bbbce"
         },
         {
-          "value": "Panaeolus cinctulus/banded mottlegill"
+          "value": "Panaeolus cinctulus/banded mottlegill",
+          "uuid": "ce72459e-7dc2-5eb3-a125-7f6e17f9eef4"
         },
         {
-          "value": "Psilocybe semilanceata/Liberty cap"
+          "value": "Psilocybe semilanceata/Liberty cap",
+          "uuid": "d1a0a147-74df-5bcf-a685-1f2151c034c1"
         },
         {
-          "value": "Omphalotus illudens/Jack-O'lantern mushroom"
+          "value": "Omphalotus illudens/Jack-O'lantern mushroom",
+          "uuid": "906bb751-c322-53fa-a514-2cec1c3a9c94"
         },
         {
-          "value": "Omphalotus japonicus/Tsukiyotake"
+          "value": "Omphalotus japonicus/Tsukiyotake",
+          "uuid": "5905270d-929a-5d6c-bb95-9d0022e3d2bc"
         },
         {
-          "value": "Omphalotus nidiformis/Ghost fungus"
+          "value": "Omphalotus nidiformis/Ghost fungus",
+          "uuid": "76998753-97e6-5e46-88f0-b6f6ab652675"
         },
         {
-          "value": "Omphalotus olearius/Jack-O'lantern mushroom"
+          "value": "Omphalotus olearius/Jack-O'lantern mushroom",
+          "uuid": "03a03b36-71e4-5e45-88fd-5b774fa18e04"
         },
         {
-          "value": "Omphalotus olivascens/Western jack-o'-lantern mushroom"
+          "value": "Omphalotus olivascens/Western jack-o'-lantern mushroom",
+          "uuid": "94e4cd0d-cc15-57af-bcbd-37fe3222f3a9"
         },
         {
-          "value": "Paralepistopsis acromelalga"
+          "value": "Paralepistopsis acromelalga",
+          "uuid": "eb2b024a-9484-5f6c-8ba0-d264c7ef639d"
         },
         {
-          "value": "Paralepistopsis amoenolens/Paralysis funnel"
+          "value": "Paralepistopsis amoenolens/Paralysis funnel",
+          "uuid": "ca9dcdb1-e3f2-5ca7-b019-176409e56f4c"
         },
         {
-          "value": "Pholiotina rugosa"
+          "value": "Pholiotina rugosa",
+          "uuid": "bfeb2b9b-8fc9-5176-9def-cf8f9b65fa2f"
         },
         {
-          "value": "Ramaria formosa/Beautiful clavaria"
+          "value": "Ramaria formosa/Beautiful clavaria",
+          "uuid": "463398b6-a9e1-5628-9b95-e5bbb544d87a"
         },
         {
-          "value": "Ramaria neoformosa"
+          "value": "Ramaria neoformosa",
+          "uuid": "43ac858f-ce8f-59bb-88bd-f409cfe669a3"
         },
         {
-          "value": "Ramaria pallida"
+          "value": "Ramaria pallida",
+          "uuid": "536556ed-2890-57a6-8fbf-9b6715c69bbb"
         },
         {
-          "value": "Rubroboletus legaliae/Le Gal's bolete"
+          "value": "Rubroboletus legaliae/Le Gal's bolete",
+          "uuid": "3b97238d-ad75-55a2-ae84-eea259091607"
         },
         {
-          "value": "Rubroboletus lupinus/Wolves bolete"
+          "value": "Rubroboletus lupinus/Wolves bolete",
+          "uuid": "8ed09bd6-6493-51d4-a678-7fad1c3e741b"
         },
         {
-          "value": "Rubroboletus pulcherrimus"
+          "value": "Rubroboletus pulcherrimus",
+          "uuid": "a76ee702-7e62-561a-b4e4-e911d92ab526"
         },
         {
-          "value": "Rubroboletus satanas/Satan's bolete"
+          "value": "Rubroboletus satanas/Satan's bolete",
+          "uuid": "33044631-4ff6-5550-a7eb-f46cb33cddef"
         },
         {
-          "value": "Russula emetica/The sickener"
+          "value": "Russula emetica/The sickener",
+          "uuid": "ad26b963-7504-5c6a-8101-52f5f88d0614"
         },
         {
-          "value": "Russula subnigricans"
+          "value": "Russula subnigricans",
+          "uuid": "8bf06a55-0030-5d70-9549-deafd05c7ba6"
         },
         {
-          "value": "Sarcosphaera coronaria/Pink crown"
+          "value": "Sarcosphaera coronaria/Pink crown",
+          "uuid": "5929577d-a899-5067-ac9d-0f6f38b8d7b0"
         },
         {
-          "value": "Tricholoma equestre/Yellow knight"
+          "value": "Tricholoma equestre/Yellow knight",
+          "uuid": "700cbdd1-ded9-5144-9333-19285698ec71"
         },
         {
-          "value": "Tricholoma filamentosum"
+          "value": "Tricholoma filamentosum",
+          "uuid": "900f920b-fd94-5bd6-8639-d3eb05696975"
         },
         {
-          "value": "Tricholoma pardinum/Tiger tricholoma"
+          "value": "Tricholoma pardinum/Tiger tricholoma",
+          "uuid": "27b4a5b9-3ec1-599c-81fb-8e9f0fad9460"
         },
         {
-          "value": "Tricholoma muscarium"
+          "value": "Tricholoma muscarium",
+          "uuid": "8c97ac50-7eca-5677-ae72-ff0039629d29"
         },
         {
-          "value": "Trogia venenata/Little white mushroom"
+          "value": "Trogia venenata/Little white mushroom",
+          "uuid": "77292f90-4c3e-5b36-aeb9-a7c1c5d3fd20"
         },
         {
-          "value": "Turbinellus floccosus/Woolly false chanterelle"
+          "value": "Turbinellus floccosus/Woolly false chanterelle",
+          "uuid": "e99dd632-4408-509e-83bf-81290161cb2a"
         },
         {
-          "value": "Turbinellus kauffmanii"
+          "value": "Turbinellus kauffmanii",
+          "uuid": "0fb84314-19f4-575d-8db6-6f7879202151"
         },
         {
-          "value": "Agrocybe arenicola"
+          "value": "Agrocybe arenicola",
+          "uuid": "fd40d38d-ebf3-5380-b0fd-e80efe2bdadb"
         },
         {
-          "value": "Amanita albocreata/Ringless panther"
+          "value": "Amanita albocreata/Ringless panther",
+          "uuid": "459c2507-7fc7-5bd5-94dd-3e1aca76784d"
         },
         {
-          "value": "Amanita altipes/Yellow long-stem Amanita"
+          "value": "Amanita altipes/Yellow long-stem Amanita",
+          "uuid": "9639e056-0a90-56c0-83ca-04c072e31da2"
         },
         {
-          "value": "Amanita breckonii"
+          "value": "Amanita breckonii",
+          "uuid": "ee7767e4-903e-56bb-8cc5-9120a7907371"
         },
         {
-          "value": "Amanita ceciliae/Snakeskin grisette"
+          "value": "Amanita ceciliae/Snakeskin grisette",
+          "uuid": "f2de014f-f7b2-5e62-a172-4372b53828bd"
         },
         {
-          "value": "Amanita eliae/Fries's Amanita"
+          "value": "Amanita eliae/Fries's Amanita",
+          "uuid": "0af47e21-2352-52b4-8036-90295ced33cb"
         },
         {
-          "value": "Amanita flavoconia/Yellow-dust Amanita"
+          "value": "Amanita flavoconia/Yellow-dust Amanita",
+          "uuid": "8c95e8df-9a1b-5999-a0bf-0a270eb645cc"
         },
         {
-          "value": "Amanita frostiana/Frost's Amanita"
+          "value": "Amanita frostiana/Frost's Amanita",
+          "uuid": "b1efc145-addc-575c-b87a-edaa38b41b4f"
         },
         {
-          "value": "Amanita nehuta/Mahori dust Amanita"
+          "value": "Amanita nehuta/Mahori dust Amanita",
+          "uuid": "89bf66d7-0393-5ac5-a56d-57974a374ebe"
         },
         {
-          "value": "Amanita parcivolvata"
+          "value": "Amanita parcivolvata",
+          "uuid": "5855f053-38c4-5829-802f-b31b0cfb547a"
         },
         {
-          "value": "Amanita parvipantherina"
+          "value": "Amanita parvipantherina",
+          "uuid": "5fc17f0c-5b5a-5c13-b1a1-06f8e21e6ccf"
         },
         {
-          "value": "Amanita petalinivolva"
+          "value": "Amanita petalinivolva",
+          "uuid": "a3eb0ab3-7ad7-539e-91c4-8fc9ccc35c16"
         },
         {
-          "value": "Amanita roseotincta"
+          "value": "Amanita roseotincta",
+          "uuid": "05d2b8c0-99ed-5824-8230-9d5d860c6be8"
         },
         {
-          "value": "Amanita rubrovolvata/Red volva Amanita"
+          "value": "Amanita rubrovolvata/Red volva Amanita",
+          "uuid": "975061ce-31fc-5c3d-946f-358cec47bb22"
         },
         {
-          "value": "Amanita subfrostiana/False Frost's Amanita"
+          "value": "Amanita subfrostiana/False Frost's Amanita",
+          "uuid": "cdc38161-e1eb-54c0-ada5-7fea5f8fbfba"
         },
         {
-          "value": "Amanita velatipes"
+          "value": "Amanita velatipes",
+          "uuid": "17908b9d-5f17-526b-8421-d37504bf0974"
         },
         {
-          "value": "Amanita viscidolutea"
+          "value": "Amanita viscidolutea",
+          "uuid": "cce255c4-8215-571e-bd6c-25b610586ae8"
         },
         {
-          "value": "Amanita wellsii/Wells's Amanita"
+          "value": "Amanita wellsii/Wells's Amanita",
+          "uuid": "3241b409-69c8-5fc0-8d4d-bdd4825a3396"
         },
         {
-          "value": "Amanita xanthocephala/Vermilion grisette"
+          "value": "Amanita xanthocephala/Vermilion grisette",
+          "uuid": "88a34ab7-13ef-5ef3-95ac-3a5d4395db50"
         },
         {
-          "value": "Armillaria mellea/Honey fungus"
+          "value": "Armillaria mellea/Honey fungus",
+          "uuid": "d1475905-dfc3-5fbe-8b68-8627adac3a5c"
         },
         {
-          "value": "Calocera viscosa/Yellow stagshorn"
+          "value": "Calocera viscosa/Yellow stagshorn",
+          "uuid": "325978c3-27b9-514c-9fb2-d2189b3c4346"
         },
         {
-          "value": "Chlorophyllum brunneum/Shaggy parasol"
+          "value": "Chlorophyllum brunneum/Shaggy parasol",
+          "uuid": "32001991-8349-5aaf-90db-a0879998af9a"
         },
         {
-          "value": "Choiromyces venosus"
+          "value": "Choiromyces venosus",
+          "uuid": "6d97bd47-15ff-5ae5-95e9-1aeeca3c17ba"
         },
         {
-          "value": "Clitocybe fragrans"
+          "value": "Clitocybe fragrans",
+          "uuid": "3a6476fe-b593-52ab-b3f5-19ea6a23faf5"
         },
         {
-          "value": "Clitocybe nebularis/Clouded agaric"
+          "value": "Clitocybe nebularis/Clouded agaric",
+          "uuid": "5d59d147-86e1-50fe-b3a2-f5db7c9bdbe7"
         },
         {
-          "value": "Conocybe subovalis"
+          "value": "Conocybe subovalis",
+          "uuid": "4d41a84f-561c-5668-b961-464a7bae0fbd"
         },
         {
-          "value": "Coprinellus micaceus/Mica cap"
+          "value": "Coprinellus micaceus/Mica cap",
+          "uuid": "3b0c5721-9d78-50c0-95c4-a9877595e637"
         },
         {
-          "value": "Lactarius chrysorrheus/Yellowdrop milkcap"
+          "value": "Lactarius chrysorrheus/Yellowdrop milkcap",
+          "uuid": "5e30110c-4c16-5ef6-9b67-d0c706cebad8"
         },
         {
-          "value": "Lactarius helvus/Fenugreek milkcap"
+          "value": "Lactarius helvus/Fenugreek milkcap",
+          "uuid": "3a362fcf-50a1-5b42-927e-b6af6b34a983"
         },
         {
-          "value": "Lepiota cristata/Stinking dapperling"
+          "value": "Lepiota cristata/Stinking dapperling",
+          "uuid": "a0b444f4-c719-547d-af49-4b0a56768f25"
         },
         {
-          "value": "Marasmius collinus"
+          "value": "Marasmius collinus",
+          "uuid": "d0a69004-67dc-5f93-9292-64d00a213ec8"
         },
         {
-          "value": "Russula olivacea"
+          "value": "Russula olivacea",
+          "uuid": "df3bdd54-df7d-5d9d-9263-c610d380445e"
         },
         {
-          "value": "Russula viscida"
+          "value": "Russula viscida",
+          "uuid": "8739e9a8-4468-5554-9b34-6c90f216972a"
         },
         {
-          "value": "Schizophyllum commune"
+          "value": "Schizophyllum commune",
+          "uuid": "38a74d5a-30a2-56cd-8fd3-d599dc57eb7c"
         },
         {
-          "value": "Scleroderma citrinum/common earthball"
+          "value": "Scleroderma citrinum/common earthball",
+          "uuid": "2640ea5c-5001-5f90-bca7-5656a590d780"
         },
         {
-          "value": "Stropharia aeruginosa/Verdigris agaric"
+          "value": "Stropharia aeruginosa/Verdigris agaric",
+          "uuid": "95240a0b-5fe3-5e27-b7a7-d353cef8532d"
         },
         {
-          "value": "Suillus granulatus/Weeping bolete"
+          "value": "Suillus granulatus/Weeping bolete",
+          "uuid": "4a62bc3f-1abe-5510-b1f4-7862be218969"
         },
         {
-          "value": "Tricholoma sulphureum/Gas agaric"
+          "value": "Tricholoma sulphureum/Gas agaric",
+          "uuid": "fd2659ae-9191-54cf-ade7-7bd31adb8fe4"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "965dec0e-c51a-5809-aa32-92abbfac4a40"
 }

@@ -6,36 +6,42 @@
     {
       "value": "impact-sectors-impacted",
       "expanded": "Sectors impacted",
-      "description": "The impact on services, in the real world, indicating the sectors of the society and economy, where there is an impact on the services."
+      "description": "The impact on services, in the real world, indicating the sectors of the society and economy, where there is an impact on the services.",
+      "uuid": "8a0dbcc0-352c-5d64-b3f3-f87c930162cd"
     },
     {
       "value": "impact-severity",
       "expanded": "Severity of the impact",
       "description": "The severity of the impact, nationally, in the real world, for society and/or the economy, i.e. the level of disruption for the country or a large region of the country, the level of risks for health and/or safety, the level of physical damages and/or financial costs.",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "c3d23e24-ee8e-5084-9108-f38725c737f6"
     },
     {
       "value": "impact-outlook",
       "expanded": "Outlook",
       "description": "The outlook for the incident, the prognosis, for the coming hours, considering the impact in the real world, the impact on services, for the society and/or the economy",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "5ba6bdc7-fdde-5043-a239-ef920ae5dd1b"
     },
     {
       "value": "nature-root-cause",
       "expanded": "Root cause category",
       "description": "The Root cause category is used to indicate what type event or threat triggered the incident.",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "dcdc797e-7643-5513-bb3a-c503583645a9"
     },
     {
       "value": "nature-severity",
       "expanded": "Severity of the threat",
       "description": "The severity of the threat is used to indicate, from a technical perspective, the potential impact, the risk associated with the threat. For example, the severity is high if an upcoming storm is exceptionally strong, if an observed DDoS attack is exceptionally powerful, or if a software vulnerability is easily exploited and present in many different systems. For example, in certain situations a critical software vulnerability would require concerted and urgent work by different organizations.",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "3c30e738-21f3-5e92-bc04-b40a57309691"
     },
     {
       "value": "test",
       "expanded": "Test",
-      "description": "A test predicate meant to test interoperability between tools. Tags contained within this predicate are to be ignored."
+      "description": "A test predicate meant to test interoperability between tools. Tags contained within this predicate are to be ignored.",
+      "uuid": "50a7c923-8e9a-5e89-a30f-8029dc3d4164"
     }
   ],
   "values": [
@@ -45,57 +51,68 @@
         {
           "value": "energy",
           "expanded": "Energy",
-          "description": "The impact is in the Energy sector and its subsectors such as electricity, oil, or gas, for example, impacting electricity suppliers, power plants, distribution system operators, transmission system operators, oil transmission, natural gas distribution, etc."
+          "description": "The impact is in the Energy sector and its subsectors such as electricity, oil, or gas, for example, impacting electricity suppliers, power plants, distribution system operators, transmission system operators, oil transmission, natural gas distribution, etc.",
+          "uuid": "9760aa58-621e-5303-ba2a-7a7071e79986"
         },
         {
           "value": "transport",
           "expanded": "Transport",
-          "description": "The impact is in the transport sector and subsectors such as air, rail, water, road, for example, impacting air traffic control systems, railway companies, maritime port authorities, road traffic management systems, etc."
+          "description": "The impact is in the transport sector and subsectors such as air, rail, water, road, for example, impacting air traffic control systems, railway companies, maritime port authorities, road traffic management systems, etc.",
+          "uuid": "aaea0d59-cba4-5e50-8bef-740daf0f7dc2"
         },
         {
           "value": "banking",
           "expanded": "Banking",
-          "description": "The impact is in the Banking sector, for example impacting banks, online banking, credit services, payment services, etc."
+          "description": "The impact is in the Banking sector, for example impacting banks, online banking, credit services, payment services, etc.",
+          "uuid": "ea65152c-09bb-5eff-8300-de8b47b33ee3"
         },
         {
           "value": "financial",
           "expanded": "Financial",
-          "description": "The impact is in the Financial market infrastructure sector, for example, impacting traders, trading platforms, clearing services, etc."
+          "description": "The impact is in the Financial market infrastructure sector, for example, impacting traders, trading platforms, clearing services, etc.",
+          "uuid": "41320987-09b7-5ab4-a938-1f3e47cdb8fb"
         },
         {
           "value": "health",
           "expanded": "Health",
-          "description": "The impact is in the Health sector, for example, impacting hospitals, medical devices, medicine supply, pharmacies, etc."
+          "description": "The impact is in the Health sector, for example, impacting hospitals, medical devices, medicine supply, pharmacies, etc.",
+          "uuid": "70823a10-c0e2-5d33-9f3f-6ade7c602c82"
         },
         {
           "value": "drinking-water",
           "expanded": "Drinking water",
-          "description": "The impact is in the Drinking water supply and distribution sector, for example impacting drinking water supply, drinking water distribution systems, etc."
+          "description": "The impact is in the Drinking water supply and distribution sector, for example impacting drinking water supply, drinking water distribution systems, etc.",
+          "uuid": "30998228-106a-5a0d-9996-ab2c087939ec"
         },
         {
           "value": "digital-infrastructure",
           "expanded": "Digital infrastructure",
-          "description": "The impact is in the Digital infrastructure sector, for example impacting internet exchange points, domain name systems, top level domain registries, etc."
+          "description": "The impact is in the Digital infrastructure sector, for example impacting internet exchange points, domain name systems, top level domain registries, etc.",
+          "uuid": "1c293fc0-5abf-556d-8e30-d2eed16a9fd8"
         },
         {
           "value": "communications",
           "expanded": "Communications",
-          "description": "The impact is in the Electronic communications sector, for example,impacting mobile network services, fixed telephone lines, satellite communications, etc."
+          "description": "The impact is in the Electronic communications sector, for example,impacting mobile network services, fixed telephone lines, satellite communications, etc.",
+          "uuid": "7b0ce264-b76e-590b-9451-0dcd73bd294f"
         },
         {
           "value": "digital-services",
           "expanded": "Digital services",
-          "description": "The impact is in the digital services sector, for example, impacting cloud services, online market places, online search engines, etc."
+          "description": "The impact is in the digital services sector, for example, impacting cloud services, online market places, online search engines, etc.",
+          "uuid": "28422d37-cae2-574d-a8bb-4f27a1b37b8e"
         },
         {
           "value": "trust-and-identification-services",
           "expanded": "Trust and identification services",
-          "description": "The impact is in the electronic trust and identification services, for example, impacting certificate authorities, electronic identity systems, smartcards, etc."
+          "description": "The impact is in the electronic trust and identification services, for example, impacting certificate authorities, electronic identity systems, smartcards, etc.",
+          "uuid": "71233958-d732-5006-8672-1b302fb570f3"
         },
         {
           "value": "government",
           "expanded": "Government",
-          "description": "The impact is in the government sector, for example, impacting the functioning of public administrations, elections, or emergency services"
+          "description": "The impact is in the government sector, for example, impacting the functioning of public administrations, elections, or emergency services",
+          "uuid": "86180808-4e68-5d82-8c21-67b3fca5053f"
         }
       ]
     },
@@ -106,25 +123,29 @@
           "value": "red",
           "expanded": "Red",
           "description": "Very large impact",
-          "colour": "#CC0033"
+          "colour": "#CC0033",
+          "uuid": "536ad0a4-25cf-53b5-b5dd-4051e0b1e306"
         },
         {
           "value": "yellow",
           "expanded": "Yellow",
           "description": "Large impact.",
-          "colour": "#FFC000"
+          "colour": "#FFC000",
+          "uuid": "282f825c-495f-5350-ac3e-bf56b00760c5"
         },
         {
           "value": "green",
           "expanded": "Green",
           "description": "Minor impact.",
-          "colour": "#339900"
+          "colour": "#339900",
+          "uuid": "66c826b4-223a-5fe9-969a-bb3fcca84bcb"
         },
         {
           "value": "white",
           "expanded": "White",
           "description": "No impact.",
-          "colour": "#ffffff"
+          "colour": "#ffffff",
+          "uuid": "1851e9f5-6104-53ad-9812-c50c8462ef8a"
         }
       ]
     },
@@ -135,19 +156,22 @@
           "value": "improving",
           "expanded": "Improving",
           "description": "Severity of impact is expected to decrease in the next 6 hours.",
-          "colour": "#339900"
+          "colour": "#339900",
+          "uuid": "db46c0fc-206d-5c3b-874c-f17f234399f8"
         },
         {
           "value": "stable",
           "expanded": "Stable",
           "description": "Severity of impact is expected to remain the same in the 6 hours.",
-          "colour": "#FFC000"
+          "colour": "#FFC000",
+          "uuid": "00e0b7a5-d23b-5d1c-b1eb-2af6d8469542"
         },
         {
           "value": "worsening",
           "expanded": "Worsening",
           "description": "Severity of impact is expected to increase in the next 6 hours.",
-          "colour": "#CC0033"
+          "colour": "#CC0033",
+          "uuid": "b3caaa34-294c-5d1b-8b9b-5a85d7b4d726"
         }
       ]
     },
@@ -157,27 +181,32 @@
         {
           "value": "system-failures",
           "expanded": "System failures",
-          "description": "The incident is due to a failure of a system, i.e. without external causes. For example a hardware failure, software bug, a flaw in a procedure, etc. triggered the incident."
+          "description": "The incident is due to a failure of a system, i.e. without external causes. For example a hardware failure, software bug, a flaw in a procedure, etc. triggered the incident.",
+          "uuid": "e1212db2-94d2-5c28-a3a9-7015048adb12"
         },
         {
           "value": "natural-phenomena",
           "expanded": "Natural phenomena",
-          "description": "The incident is due to a natural phenomenon. For example a storm, lightning, solar flare, flood, earthquake, wildfire, etc. triggered the incident."
+          "description": "The incident is due to a natural phenomenon. For example a storm, lightning, solar flare, flood, earthquake, wildfire, etc. triggered the incident.",
+          "uuid": "5b37608d-3ca5-5b6e-9ee7-8923ebe8bc2e"
         },
         {
           "value": "human-errors",
           "expanded": "Human errors",
-          "description": "The incident is due to a human error, i.e. system worked correctly, but was used wrong. For example, a mistake, or carelessness triggered the incident."
+          "description": "The incident is due to a human error, i.e. system worked correctly, but was used wrong. For example, a mistake, or carelessness triggered the incident.",
+          "uuid": "a783c3fa-abfe-54eb-80d8-41a12c775771"
         },
         {
           "value": "malicious-actions",
           "expanded": "Malicious actions",
-          "description": "The incident is due to a malicious action. For example, a cyber-attack or physical attack, vandalism, sabotage, insider attack, theft, etc., triggered the incident."
+          "description": "The incident is due to a malicious action. For example, a cyber-attack or physical attack, vandalism, sabotage, insider attack, theft, etc., triggered the incident.",
+          "uuid": "4169c670-f640-564a-a108-657eb9f51f1a"
         },
         {
           "value": "third-party-failures",
           "expanded": "Third party failures",
-          "description": "The incident is due to a disruption of a third party service, like a utility. For example a power cut, or an internet outage, etc. triggered the incident."
+          "description": "The incident is due to a disruption of a third party service, like a utility. For example a power cut, or an internet outage, etc. triggered the incident.",
+          "uuid": "78b3fff6-2ffa-53d1-a0be-702bc5bfe0ba"
         }
       ]
     },
@@ -188,19 +217,22 @@
           "value": "high",
           "expanded": "High",
           "description": "High severity, potential impact is high.",
-          "colour": "#CC0033"
+          "colour": "#CC0033",
+          "uuid": "228387da-4752-5a00-bebc-183bc1c299cf"
         },
         {
           "value": "medium",
           "expanded": "Medium",
           "description": "Medium severity, potential impact is medium.",
-          "colour": "#FFC000"
+          "colour": "#FFC000",
+          "uuid": "f952e5e6-fd9e-51c9-ab60-d5286c88470d"
         },
         {
           "value": "low",
           "expanded": "Low",
           "description": "Low severity, potential impact is low.",
-          "colour": "#339900"
+          "colour": "#339900",
+          "uuid": "ec8226ae-e7cf-55de-b43f-8810eb72371a"
         }
       ]
     },
@@ -211,9 +243,11 @@
           "value": "test",
           "expanded": "Test",
           "description": "Test value meant for testing interoperability. Tags with this value are to be ignored.",
-          "colour": "#F81894"
+          "colour": "#F81894",
+          "uuid": "7cb2bd89-2f9d-5611-a177-3ca3f5edba4f"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "82d370ea-a735-5dda-bb8e-d2e62dadf1af"
 }

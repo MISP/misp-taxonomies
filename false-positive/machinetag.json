@@ -8,13 +8,15 @@
       "value": "risk",
       "expanded": "Risk",
       "description": "Risk of having false positives in the tagged value.",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "b23de628-766d-5b54-89b4-8b165cbe933c"
     },
     {
       "value": "confirmed",
       "expanded": "Confirmed",
       "description": "Confirmed false positives in the tagged value.",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "eca89942-c98b-5b44-91e7-c273e91500d9"
     }
   ],
   "values": [
@@ -26,28 +28,32 @@
           "expanded": "Low",
           "description": "The risk of having false positives in the tagged value is low.",
           "numerical_value": 75,
-          "colour": "#33FF00"
+          "colour": "#33FF00",
+          "uuid": "af1c724a-e6d0-5657-9e2c-4ba4b32130ae"
         },
         {
           "value": "medium",
           "expanded": "Medium",
           "description": "The risk of having false positives in the tagged value is medium.",
           "numerical_value": 50,
-          "colour": "#FFFF00"
+          "colour": "#FFFF00",
+          "uuid": "b4f454f9-a09b-58d0-ae78-6324bee92488"
         },
         {
           "value": "high",
           "expanded": "High",
           "description": "The risk of having false positives in the tagged value is high.",
           "numerical_value": 25,
-          "colour": "#FF2B2B"
+          "colour": "#FF2B2B",
+          "uuid": "c6909e8e-16ae-5cc5-9134-4f9c1d02e786"
         },
         {
           "value": "cannot-be-judged",
           "expanded": "Risk cannot be judged",
           "description": "The risk of having false positives in the tagged value cannot be judged.",
           "numerical_value": 25,
-          "colour": "#FFC000"
+          "colour": "#FFC000",
+          "uuid": "e67c12b1-5853-5f72-9a48-0db9ed0e13be"
         }
       ]
     },
@@ -58,15 +64,18 @@
           "value": "true",
           "expanded": "True",
           "description": "The false positive is confirmed.",
-          "numerical_value": 0
+          "numerical_value": 0,
+          "uuid": "454fe832-4af5-5272-9450-3bffb6230c2f"
         },
         {
           "value": "false",
           "expanded": "False",
           "description": "The false positive is not confirmed.",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "8d1fe6f4-04d0-591c-8e69-446f689f9a64"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "d781b876-f046-5079-9c93-3bf7433cf18b"
 }

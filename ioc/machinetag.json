@@ -5,7 +5,8 @@
   "predicates": [
     {
       "value": "artifact-state",
-      "expanded": "Artifact State"
+      "expanded": "Artifact State",
+      "uuid": "ced3a33f-0aae-5d0f-8a78-3f8e026be53a"
     }
   ],
   "values": [
@@ -14,13 +15,16 @@
       "entry": [
         {
           "value": "malicious",
-          "expanded": "Malicious"
+          "expanded": "Malicious",
+          "uuid": "644256a3-6430-5cf4-8f39-227240ae7a5a"
         },
         {
           "value": "not-malicious",
-          "expanded": "Not Malicious"
+          "expanded": "Not Malicious",
+          "uuid": "f9497590-85ce-5222-8e6a-0feceb6dbb06"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "620737dc-1d46-5741-99af-09327a2c5811"
 }

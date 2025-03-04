@@ -5,11 +5,13 @@
   "predicates": [
     {
       "value": "DHS-critical-sectors",
-      "expanded": "DHS critical sectors"
+      "expanded": "DHS critical sectors",
+      "uuid": "66ff7324-346f-5980-929b-e7d5f6249def"
     },
     {
       "value": "sector",
-      "expanded": "Sector"
+      "expanded": "Sector",
+      "uuid": "88522b7a-3a2f-50a3-a157-e41b23d07b1d"
     }
   ],
   "values": [
@@ -18,69 +20,86 @@
       "entry": [
         {
           "value": "chemical",
-          "expanded": "Chemical"
+          "expanded": "Chemical",
+          "uuid": "6389e62c-833e-53e0-91fd-626d9fb4b857"
         },
         {
           "value": "commercial-facilities",
-          "expanded": "Commercial Facilities"
+          "expanded": "Commercial Facilities",
+          "uuid": "2db334dc-c2de-576a-9bec-e395451fc7ae"
         },
         {
           "value": "communications",
-          "expanded": "Communications"
+          "expanded": "Communications",
+          "uuid": "2b34a53b-3520-5278-84f6-d97f220c9bd9"
         },
         {
           "value": "critical-manufacturing",
-          "expanded": "Critical Manufacturing"
+          "expanded": "Critical Manufacturing",
+          "uuid": "4901dfce-545f-59d4-b977-304a619583e3"
         },
         {
           "value": "dams",
-          "expanded": "Dams"
+          "expanded": "Dams",
+          "uuid": "af1aebcc-d813-5409-a315-f54a18e5825f"
         },
         {
           "value": "dib",
-          "expanded": "Defense Industrial Base"
+          "expanded": "Defense Industrial Base",
+          "uuid": "7d1fa2ca-55a2-5614-88d2-f1b5313d2d27"
         },
         {
           "value": "emergency-services",
-          "expanded": "Emergency services"
+          "expanded": "Emergency services",
+          "uuid": "de073614-dcc5-5560-a2fd-c74f5ebb9410"
         },
         {
           "value": "energy",
-          "expanded": "energy"
+          "expanded": "energy",
+          "uuid": "1b715e25-8bf8-5d34-82bb-a21954d557c5"
         },
         {
           "value": "financial-services",
-          "expanded": "Financial Services"
+          "expanded": "Financial Services",
+          "uuid": "7aeef16b-425e-58a0-acaa-71e38a083f92"
         },
         {
           "value": "food-agriculture",
-          "expanded": "Food and Agriculture"
+          "expanded": "Food and Agriculture",
+          "uuid": "570ca0e5-c1aa-5ddb-b21d-b7d1c7daa4ad"
         },
         {
           "value": "government-facilities",
-          "expanded": "Government Facilities"
+          "expanded": "Government Facilities",
+          "uuid": "4000b997-acc7-57fe-9f2a-90a5348d9d3e"
         },
         {
           "value": "healthcare-public",
-          "expanded": "Healthcare and Public Health"
+          "expanded": "Healthcare and Public Health",
+          "uuid": "748b0b53-a712-5c06-a862-ac01b0768083"
         },
         {
           "value": "it",
-          "expanded": "Information Technology"
+          "expanded": "Information Technology",
+          "uuid": "9cd4b903-7f29-5701-a4eb-a50006d31255"
         },
         {
           "value": "nuclear",
-          "expanded": "Nuclear"
+          "expanded": "Nuclear",
+          "uuid": "ca1633d3-88a9-5d4c-9509-226548c9fdb5"
         },
         {
           "value": "transport",
-          "expanded": "Transportation Systems"
+          "expanded": "Transportation Systems",
+          "uuid": "1328b150-e53e-5f9f-9491-325fdeb686f5"
         },
         {
           "value": "water",
-          "expanded": "Water and water systems"
+          "expanded": "Water and water systems",
+          "uuid": "c4a60ab3-939d-5478-8c6d-82b0859bf869"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "cd328fbd-1e67-59e0-aeb7-dc7ea28b64e5"
 }

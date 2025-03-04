@@ -6,17 +6,20 @@
     {
       "value": "behavior",
       "expanded": "Behavior",
-      "description": "Attack categories and behaviors associated with an IP address."
+      "description": "Attack categories and behaviors associated with an IP address.",
+      "uuid": "3a2e6d97-315a-5782-9bb3-85a3f2d28728"
     },
     {
       "value": "false-positive",
       "expanded": "False positive",
-      "description": "Defines whether an IP address is a known false positive."
+      "description": "Defines whether an IP address is a known false positive.",
+      "uuid": "296f4652-d105-5534-9af7-0c0a7bb6d33b"
     },
     {
       "value": "classification",
       "expanded": "Classification",
-      "description": "Category associated to an IP address."
+      "description": "Category associated to an IP address.",
+      "uuid": "a1c1c908-7fc4-5ba0-a5cf-65732398b906"
     }
   ],
   "values": [
@@ -26,97 +29,116 @@
         {
           "value": "database-bruteforce",
           "expanded": "Database Bruteforce",
-          "description": "IP has been reported for performing brute force on databases."
+          "description": "IP has been reported for performing brute force on databases.",
+          "uuid": "1f948464-4142-5b0e-99d0-fcac0a88c032"
         },
         {
           "value": "ftp-bruteforce",
           "expanded": "FTP Bruteforce",
-          "description": "IP has been reported for performing brute force on FTP services."
+          "description": "IP has been reported for performing brute force on FTP services.",
+          "uuid": "e29bb5e2-85b5-5943-a64b-6307b15c5b59"
         },
         {
           "value": "generic-exploit",
           "expanded": "Exploitation attempt",
-          "description": "IP has been reported trying to exploit known vulnerability/CVE on unspecified protocol."
+          "description": "IP has been reported trying to exploit known vulnerability/CVE on unspecified protocol.",
+          "uuid": "40f960c9-12ad-5f6b-9a03-ed111e814fe1"
         },
         {
           "value": "http-bruteforce",
           "expanded": "HTTP Bruteforce",
-          "description": "IP has been reported for performing a HTTP brute force attack (either generic http probing or applicative related brute force)."
+          "description": "IP has been reported for performing a HTTP brute force attack (either generic http probing or applicative related brute force).",
+          "uuid": "af2711e6-76dd-55a4-93db-9651e21ff2fd"
         },
         {
           "value": "http-crawl",
           "expanded": "HTTP Crawl",
-          "description": "IP has been reported for performing aggressive crawling of web applications."
+          "description": "IP has been reported for performing aggressive crawling of web applications.",
+          "uuid": "87702a3c-5dee-52b6-b549-fc57d76355fe"
         },
         {
           "value": "http-exploit",
           "expanded": "HTTP Exploit",
-          "description": "IP has been reported for attempting to exploit a vulnerability in a web application."
+          "description": "IP has been reported for attempting to exploit a vulnerability in a web application.",
+          "uuid": "6df62482-63b9-5b5f-9378-12da89f21702"
         },
         {
           "value": "http-scan",
           "expanded": "HTTP Scan",
-          "description": "IP has been reported for performing actions related to HTTP vulnerability scanning and discovery."
+          "description": "IP has been reported for performing actions related to HTTP vulnerability scanning and discovery.",
+          "uuid": "99335844-4eb2-5c83-b0d7-2a62a53226a2"
         },
         {
           "value": "http-spam",
           "expanded": "Web form spam",
-          "description": "IP has been reported trying to perform spam via web forms/forums."
+          "description": "IP has been reported trying to perform spam via web forms/forums.",
+          "uuid": "70d3897d-caac-56f6-926e-5cefe5868427"
         },
         {
           "value": "iot-bruteforce",
           "expanded": "IOT Bruteforce",
-          "description": "IP has been reported for performing brute force on IOT management interfaces."
+          "description": "IP has been reported for performing brute force on IOT management interfaces.",
+          "uuid": "435bbcc9-59a3-55e5-b820-9187eb1271ef"
         },
         {
           "value": "ldap-bruteforce",
           "expanded": "LDAP Bruteforce",
-          "description": "IP has been reported for performing brute force on ldap services."
+          "description": "IP has been reported for performing brute force on ldap services.",
+          "uuid": "74b8c98a-ef49-5919-bdc0-b5bdbddc5565"
         },
         {
           "value": "pop3/imap-bruteforce",
           "expanded": "POP3/IMAP Bruteforce",
-          "description": "IP has been reported for performing a POP3/IMAP brute force attack."
+          "description": "IP has been reported for performing a POP3/IMAP brute force attack.",
+          "uuid": "6d6b80ba-383e-5e87-83aa-95580d26f834"
         },
         {
           "value": "sip-bruteforce",
           "expanded": "SIP Bruteforce",
-          "description": "IP has been reported for performing a SIP (VOIP) brute force attack."
+          "description": "IP has been reported for performing a SIP (VOIP) brute force attack.",
+          "uuid": "a491b8e6-5251-593d-8136-dafd2f1f2566"
         },
         {
           "value": "smb-bruteforce",
           "expanded": "SMB Bruteforce",
-          "description": "IP has been reported for performing brute force on samba services."
+          "description": "IP has been reported for performing brute force on samba services.",
+          "uuid": "514faf2d-e2ad-57ed-bb35-b73dd40ee154"
         },
         {
           "value": "smtp-spam",
           "expanded": "SMTP spam",
-          "description": "IP has been reported trying to perform spam SMTP service."
+          "description": "IP has been reported trying to perform spam SMTP service.",
+          "uuid": "e1cf5e74-0002-5756-9b81-7b1bafb05d8a"
         },
         {
           "value": "ssh-bruteforce",
           "expanded": "SSH Bruteforce",
-          "description": "IP has been reported for performing brute force on ssh services."
+          "description": "IP has been reported for performing brute force on ssh services.",
+          "uuid": "ca1aa35b-fd25-5b7f-8339-656f978c5d81"
         },
         {
           "value": "tcp-scan",
           "expanded": "TCP Scan",
-          "description": "IP has been reported for performing TCP port scanning."
+          "description": "IP has been reported for performing TCP port scanning.",
+          "uuid": "d83bcccc-2a18-5d9a-b191-7c5784f7f5ba"
         },
         {
           "value": "telnet-bruteforce",
           "expanded": "TELNET Bruteforce",
-          "description": "IP has been reported for performing brute force on telnet services."
+          "description": "IP has been reported for performing brute force on telnet services.",
+          "uuid": "b287a37a-c96c-5412-9257-838df5d77e07"
         },
         {
           "value": "vm-management-bruteforce",
           "expanded": "VM Management Bruteforce",
-          "description": "IP has been reported for performing brute force on virtual environement management applications."
+          "description": "IP has been reported for performing brute force on virtual environement management applications.",
+          "uuid": "364c3bb2-963f-5625-bcb2-f46295d5eeba"
         },
         {
           "value": "windows-bruteforce",
           "expanded": "SMB/RDP bruteforce",
-          "description": "IP has been reported for performing brute force on Windows (samba, remote desktop) services."
+          "description": "IP has been reported for performing brute force on Windows (samba, remote desktop) services.",
+          "uuid": "d891f562-84ad-5fed-89f0-237a35efc8ab"
         }
       ]
     },
@@ -126,37 +148,44 @@
         {
           "value": "cdn-cloudflare_exit_node",
           "expanded": "Cloudflare CDN",
-          "description": "IP is a Cloudflare CDN exit IP and should not be flagged as a threat."
+          "description": "IP is a Cloudflare CDN exit IP and should not be flagged as a threat.",
+          "uuid": "4ac86061-0aa6-5211-9757-1017ace2ce8a"
         },
         {
           "value": "cdn-exit_node",
           "expanded": "CDN exit node",
-          "description": "IP is a CDN exit IP and should not be flagged as a threat."
+          "description": "IP is a CDN exit IP and should not be flagged as a threat.",
+          "uuid": "a1512428-b8a2-5b95-bb85-6d45c2188bfb"
         },
         {
           "value": "ip-private_range",
           "expanded": "Private IP address range",
-          "description": "This IP address is in a private IP range"
+          "description": "This IP address is in a private IP range",
+          "uuid": "34abcf71-924a-5a5f-a159-029950ddc3cf"
         },
         {
           "value": "msp-scanner",
           "expanded": "Legitimate Scanner",
-          "description": "IP belongs to a known 'legitimate' scanner (MSP) and should not be flagged as a threat."
+          "description": "IP belongs to a known 'legitimate' scanner (MSP) and should not be flagged as a threat.",
+          "uuid": "b6445aca-51c0-54b3-8656-e82423c22a0e"
         },
         {
           "value": "seo-crawler",
           "expanded": "SEO crawler",
-          "description": "IP belongs to a known SEO crawler and should not be flagged as a threat."
+          "description": "IP belongs to a known SEO crawler and should not be flagged as a threat.",
+          "uuid": "47819a91-1c36-5394-bc92-aa86080020a4"
         },
         {
           "value": "seo-duckduckbot",
           "expanded": "Duckduckbot SEO crawler",
-          "description": "IP belongs to Duckduckbot SEO crawler and should not be flagged as a threat."
+          "description": "IP belongs to Duckduckbot SEO crawler and should not be flagged as a threat.",
+          "uuid": "dccf9de8-ad43-5726-a588-75604a008928"
         },
         {
           "value": "seo-pinterest",
           "expanded": "Pinterest crawler",
-          "description": "IP belongs to Pinterest crawler and should not be flagged as a threat."
+          "description": "IP belongs to Pinterest crawler and should not be flagged as a threat.",
+          "uuid": "1f70a40d-c45e-58f1-b9af-b6cb1510081c"
         }
       ]
     },
@@ -166,144 +195,173 @@
         {
           "value": "community-blocklist",
           "expanded": "CrowdSec Community Blocklist",
-          "description": "IP belong to the CrowdSec Community Blocklist"
+          "description": "IP belong to the CrowdSec Community Blocklist",
+          "uuid": "48fd7ad0-45c2-586e-94ba-d82bd6853872"
         },
         {
           "value": "profile-insecure_services",
           "expanded": "Dangerous Services Exposed",
-          "description": "IP exposes dangerous services (vnc, telnet, rdp), possibly due to a misconfiguration or because it's a honeypot."
+          "description": "IP exposes dangerous services (vnc, telnet, rdp), possibly due to a misconfiguration or because it's a honeypot.",
+          "uuid": "341974e2-6876-52e1-869a-de752f93d47d"
         },
         {
           "value": "profile-many_services",
           "expanded": "Many Services Exposed",
-          "description": "IP exposes many open port, possibly due to a misconfiguration or because it's a honeypot."
+          "description": "IP exposes many open port, possibly due to a misconfiguration or because it's a honeypot.",
+          "uuid": "d0d368ca-3a41-5ba8-9dc1-c6a4941bd11b"
         },
         {
           "value": "proxy-tor",
           "expanded": "TOR exit node",
-          "description": "IP is being flagged as a TOR exit node."
+          "description": "IP is being flagged as a TOR exit node.",
+          "uuid": "9ab1a692-b9ad-5dea-9a4d-715241ba47c5"
         },
         {
           "value": "proxy-vpn",
           "expanded": "VPN",
-          "description": "IP exposes a VPN service or is being flagged as one."
+          "description": "IP exposes a VPN service or is being flagged as one.",
+          "uuid": "1816a6eb-2271-572f-88b3-2f864bdc435b"
         },
         {
           "value": "range-data_center",
           "expanded": "Data Center",
-          "description": "IP is known to be hosted in a data center."
+          "description": "IP is known to be hosted in a data center.",
+          "uuid": "50c61413-675c-5f0d-b458-8dfff06ec147"
         },
         {
           "value": "scanner-alphastrike",
           "expanded": "Known Security Company",
-          "description": "IP belongs to a company that scans internet : AlphaSrike."
+          "description": "IP belongs to a company that scans internet : AlphaSrike.",
+          "uuid": "09907912-b036-5d7c-b00f-e469870b099c"
         },
         {
           "value": "scanner-binaryedge",
           "expanded": "Known Security Company",
-          "description": "IP belongs to a company that scans internet : binaryedge."
+          "description": "IP belongs to a company that scans internet : binaryedge.",
+          "uuid": "79748b98-5e21-5f37-bd75-5638c65a1a66"
         },
         {
           "value": "scanner-censys",
           "expanded": "Known Security Company",
-          "description": "IP belongs to a company that scans internet : Censys."
+          "description": "IP belongs to a company that scans internet : Censys.",
+          "uuid": "d66c47be-c231-5f46-9a1a-2651d4cdabfe"
         },
         {
           "value": "scanner-cert.ssi.gouv.fr",
           "expanded": "Known CERT",
-          "description": "IP belongs to an entity that scans internet : cert.ssi.gouv.fr."
+          "description": "IP belongs to an entity that scans internet : cert.ssi.gouv.fr.",
+          "uuid": "af682598-43b3-53c3-af29-4ff153c698b1"
         },
         {
           "value": "scanner-cisa.dhs.gov",
           "expanded": "Known CERT",
-          "description": "IP belongs to an entity that scans internet : cisa.dhs.gov."
+          "description": "IP belongs to an entity that scans internet : cisa.dhs.gov.",
+          "uuid": "4432c09e-4b91-5c9c-aeab-4baadd2b92a8"
         },
         {
           "value": "scanner-internet-census",
           "expanded": "Known Security Company",
-          "description": "IP belongs to a company that scans internet : internet-census."
+          "description": "IP belongs to a company that scans internet : internet-census.",
+          "uuid": "4fe9d8d7-3bf3-58c0-b494-5bd148678e9c"
         },
         {
           "value": "scanner-leakix",
           "expanded": "Known Security Company",
-          "description": "IP belongs to a company that scans internet : leakix."
+          "description": "IP belongs to a company that scans internet : leakix.",
+          "uuid": "d5500fd3-8d20-57a7-a79a-88312a5a1ae7"
         },
         {
           "value": "scanner-legit",
           "expanded": "Legit scanner",
-          "description": "IP belongs to a company that scans internet"
+          "description": "IP belongs to a company that scans internet",
+          "uuid": "91c9b549-d8a7-5ce1-ba21-9117cb20742f"
         },
         {
           "value": "scanner-shadowserver.org",
           "expanded": "Known Security Company",
-          "description": "IP belongs to an entity that scans internet : www.shadowserver.org."
+          "description": "IP belongs to an entity that scans internet : www.shadowserver.org.",
+          "uuid": "990d0d4b-1d08-5cbc-9fea-b88be3f522d8"
         },
         {
           "value": "scanner-shodan",
           "expanded": "Known Security Company",
-          "description": "IP belongs to a company that scans internet : Shodan."
+          "description": "IP belongs to a company that scans internet : Shodan.",
+          "uuid": "32339cb9-adaa-5bd1-885e-7801ec468500"
         },
         {
           "value": "scanner-stretchoid",
           "expanded": "Known Security Company",
-          "description": "IP belongs to an entity that scans internet : stretchoid."
+          "description": "IP belongs to an entity that scans internet : stretchoid.",
+          "uuid": "d1678dab-4c3b-596c-8eb2-edc7369c4ad2"
         },
         {
           "value": "profile-fake_rdns",
           "expanded": "Fake RDNS",
-          "description": "IP is using a fake RDNS"
+          "description": "IP is using a fake RDNS",
+          "uuid": "21aee873-0af7-529d-9a8b-bd497a8ead53"
         },
         {
           "value": "profile-nxdomain",
           "expanded": "NXDOMAIN",
-          "description": "RDNS doesn't exist"
+          "description": "RDNS doesn't exist",
+          "uuid": "6093aed9-ca5f-520c-a108-adb73f8ef3d5"
         },
         {
           "value": "profile-router",
           "expanded": "Router",
-          "description": "IP belongs to a router exping services on the internet"
+          "description": "IP belongs to a router exping services on the internet",
+          "uuid": "4044424c-eddf-5abf-8888-0353a13e948d"
         },
         {
           "value": "profile-proxy",
           "expanded": "Proxy",
-          "description": "IP exposes services that are commonly used by proxies"
+          "description": "IP exposes services that are commonly used by proxies",
+          "uuid": "810b9c9c-5b43-5b57-9e1e-93aaa50410e3"
         },
         {
           "value": "profile-jupiter-vpn",
           "expanded": "JupiterVPN",
-          "description": "IP belongs to a jupiter vpn"
+          "description": "IP belongs to a jupiter vpn",
+          "uuid": "1d8087db-e3ff-50c9-acb1-db6fc52b9bcc"
         },
         {
           "value": "device-cyberoam",
           "expanded": "Cyberoam",
-          "description": "IP belongs to a Cyberoam router"
+          "description": "IP belongs to a Cyberoam router",
+          "uuid": "1d12b96e-1ac2-52e6-9c4f-0d68abd8abd6"
         },
         {
           "value": "device-microtik",
           "expanded": "Mikrotik",
-          "description": "IP belongs to a Mikrotik router"
+          "description": "IP belongs to a Mikrotik router",
+          "uuid": "8eac3822-f640-5416-905b-67eb4fa81ba9"
         },
         {
           "value": "device-asuswrt",
           "expanded": "AsusWRT",
-          "description": "IP belongs to a AsusWRT router"
+          "description": "IP belongs to a AsusWRT router",
+          "uuid": "5c762490-b5ee-5123-8afd-702e173465f4"
         },
         {
           "value": "device-hikvision",
           "expanded": "Hikvision",
-          "description": "IP belongs to a Hikvision camera"
+          "description": "IP belongs to a Hikvision camera",
+          "uuid": "28c10348-c4d6-5e5e-833e-fce55be29613"
         },
         {
           "value": "device-ipcam",
           "expanded": "IpCamera",
-          "description": "IP belongs to a IP camera"
+          "description": "IP belongs to a IP camera",
+          "uuid": "e1c38464-81e7-547a-ae41-ec6459c98ddd"
         },
         {
           "value": "profile-likely_botnet",
           "expanded": "Likely Botnet",
-          "description": "IP is likely to belong to a botnet (based on behaviour and/or characteristics)"
+          "description": "IP is likely to belong to a botnet (based on behaviour and/or characteristics)",
+          "uuid": "d17fe356-5a90-539e-ab9c-3c0b725a1030"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "4a226ca0-9278-576d-9e2b-53e75f2a7fe2"
 }

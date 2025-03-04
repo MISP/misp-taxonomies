@@ -5,39 +5,48 @@
   "predicates": [
     {
       "value": "user",
-      "expanded": "User"
+      "expanded": "User",
+      "uuid": "3de91024-7c58-59eb-ac04-6b00fa09a770"
     },
     {
       "value": "applications",
-      "expanded": "Applications"
+      "expanded": "Applications",
+      "uuid": "9a744f75-64c3-570a-8939-836fd2213f30"
     },
     {
       "value": "end-devices-and-components",
-      "expanded": "End devices and components"
+      "expanded": "End devices and components",
+      "uuid": "a9816e5f-424b-5b4a-a64a-ef25ca50fb67"
     },
     {
       "value": "services",
-      "expanded": "Services"
+      "expanded": "Services",
+      "uuid": "2dea5725-7f82-5bfc-8359-610eb6d4020e"
     },
     {
       "value": "radio-access-network",
-      "expanded": "Radio Access Network (RAN)"
+      "expanded": "Radio Access Network (RAN)",
+      "uuid": "3187be2c-af0f-5203-8175-2790b6c91b2b"
     },
     {
       "value": "support-and-provisioning-systems",
-      "expanded": "Support and provisioning systems"
+      "expanded": "Support and provisioning systems",
+      "uuid": "ee5f8ace-fe80-5faf-ae78-6c9f88a365dc"
     },
     {
       "value": "interconnects",
-      "expanded": "Interconnects"
+      "expanded": "Interconnects",
+      "uuid": "e06e03c4-c711-5f01-b2c6-4dfc846a4e75"
     },
     {
       "value": "core",
-      "expanded": "Core"
+      "expanded": "Core",
+      "uuid": "8de6bf08-3caf-57ee-b0a8-0f2507edf28e"
     },
     {
       "value": "sim-secure-element-modules",
-      "expanded": "SIM, Secure Element and Modules"
+      "expanded": "SIM, Secure Element and Modules",
+      "uuid": "ae29f133-7ff3-5a0c-b30a-7443c0d7c02d"
     }
   ],
   "values": [
@@ -46,13 +55,16 @@
       "entry": [
         {
           "value": "ms",
-          "expanded": "Mobile Station"
+          "expanded": "Mobile Station",
+          "uuid": "60d27266-2653-50f7-b278-7ae87a2481ca"
         },
         {
           "value": "mobile-equipment-radio",
-          "expanded": "Mobile Equipment Radio"
+          "expanded": "Mobile Equipment Radio",
+          "uuid": "46a8dd89-fbb4-5bd4-b2a5-b22aa2ce188e"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "3f90f164-076d-5226-a346-f5f7bb081da8"
 }

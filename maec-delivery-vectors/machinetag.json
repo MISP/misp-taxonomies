@@ -5,7 +5,8 @@
   "predicates": [
     {
       "value": "maec-delivery-vector",
-      "expanded": "MAEC Delivery Vector"
+      "expanded": "MAEC Delivery Vector",
+      "uuid": "37212948-da99-5a11-ab34-4f292950e725"
     }
   ],
   "values": [
@@ -14,73 +15,91 @@
       "entry": [
         {
           "value": "active-attacker",
-          "expanded": "active Attacker"
+          "expanded": "active Attacker",
+          "uuid": "d1da60c1-aea1-5589-b358-8c8250eca260"
         },
         {
           "value": "auto-executing-media",
-          "expanded": "auto-executing-media"
+          "expanded": "auto-executing-media",
+          "uuid": "c7d3df50-e2f9-503b-be96-7e73b7c619f5"
         },
         {
           "value": "downloader",
-          "expanded": "downloader"
+          "expanded": "downloader",
+          "uuid": "a8d84dd4-adb9-5272-a1bd-a3a9ae8f2d24"
         },
         {
           "value": "dropper",
-          "expanded": "dropper"
+          "expanded": "dropper",
+          "uuid": "36b73fb5-c7dc-5b44-b758-b7bf52c0cf33"
         },
         {
           "value": "email-attachment",
-          "expanded": "email-attachment"
+          "expanded": "email-attachment",
+          "uuid": "3e2b4fb5-9f23-5388-acea-169760a12453"
         },
         {
           "value": "exploit-kit-landing-page",
-          "expanded": "exploit-kit-landing-page"
+          "expanded": "exploit-kit-landing-page",
+          "uuid": "897d6c7d-3938-5380-b4b0-84f3cd52909f"
         },
         {
           "value": "fake-website",
-          "expanded": "fake-website"
+          "expanded": "fake-website",
+          "uuid": "0af9c70c-4186-54e7-b761-f631bf79249f"
         },
         {
           "value": "janitor-attack",
-          "expanded": "janitor-attack"
+          "expanded": "janitor-attack",
+          "uuid": "da9defb5-a529-58c8-9c58-f117c44f73d7"
         },
         {
           "value": "malicious-iframes",
-          "expanded": "malicious-iframes"
+          "expanded": "malicious-iframes",
+          "uuid": "23f93b23-7dfb-574f-a560-32101f2e1b75"
         },
         {
           "value": "malvertising",
-          "expanded": "malvertising"
+          "expanded": "malvertising",
+          "uuid": "3070abea-e723-5d49-b45a-19e741b1fce1"
         },
         {
           "value": "media-baiting",
-          "expanded": "media-baiting"
+          "expanded": "media-baiting",
+          "uuid": "7a83ed26-2dc1-5eff-aba1-e003d765a044"
         },
         {
           "value": "pharming",
-          "expanded": "pharming"
+          "expanded": "pharming",
+          "uuid": "51f0f376-df90-5fcc-b752-352be56411d7"
         },
         {
           "value": "phishing",
-          "expanded": "phishing"
+          "expanded": "phishing",
+          "uuid": "203a065f-fb35-5f4e-9893-e1a2da1b50ae"
         },
         {
           "value": "trojanized-link",
-          "expanded": "trojanized-link"
+          "expanded": "trojanized-link",
+          "uuid": "5cef44d7-ef9d-516b-a663-d75eecefc548"
         },
         {
           "value": "trojanized-software",
-          "expanded": "trojanized-software"
+          "expanded": "trojanized-software",
+          "uuid": "cd65d789-5964-572d-b6cb-ef1de0761231"
         },
         {
           "value": "usb-cable-syncing",
-          "expanded": "usb-cable-syncing"
+          "expanded": "usb-cable-syncing",
+          "uuid": "063c9bf5-7c4d-55b4-ad9e-df41b9d78cfa"
         },
         {
           "value": "watering-hole",
-          "expanded": "watering-hole"
+          "expanded": "watering-hole",
+          "uuid": "05aece2d-f0d5-5c6f-af03-71497c30d3b5"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "f889472b-22b5-5ceb-9e9c-beaeba936851"
 }

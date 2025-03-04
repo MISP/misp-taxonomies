@@ -6,15 +6,18 @@
   "predicates": [
     {
       "value": "Initial Foothold",
-      "expanded": "Initial Foothold"
+      "expanded": "Initial Foothold",
+      "uuid": "16bf0241-1e87-5b72-87d0-327ffc675064"
     },
     {
       "value": "Network Propagation",
-      "expanded": "Network Propagation"
+      "expanded": "Network Propagation",
+      "uuid": "1bbce33a-4210-515e-9ffe-b74a9fa2e9ec"
     },
     {
       "value": "Action on Objectives",
-      "expanded": "Action on Objectives"
+      "expanded": "Action on Objectives",
+      "uuid": "adf2f150-130f-5271-aad4-1c40b419a132"
     }
   ],
   "values": [
@@ -23,35 +26,43 @@
       "entry": [
         {
           "expanded": "Reconnaissance",
-          "value": "reconnaissance"
+          "value": "reconnaissance",
+          "uuid": "98572740-e583-5e3e-ba95-34ddf7a17628"
         },
         {
           "expanded": "Weaponization",
-          "value": "weaponization"
+          "value": "weaponization",
+          "uuid": "42696001-d90e-594f-a977-4a8ec4f7bee4"
         },
         {
           "expanded": "Delivery",
-          "value": "delivery"
+          "value": "delivery",
+          "uuid": "c8ab52c9-0264-5f91-99dd-1703e274850e"
         },
         {
           "expanded": "Social Engineering",
-          "value": "social-engineering"
+          "value": "social-engineering",
+          "uuid": "9ae29990-b4bb-57e4-9514-7704660392b1"
         },
         {
           "expanded": "Exploitation",
-          "value": "exploitation"
+          "value": "exploitation",
+          "uuid": "c16b6644-0cc8-5a5f-bd30-bd3a954dec05"
         },
         {
           "expanded": "Persistence",
-          "value": "persistence"
+          "value": "persistence",
+          "uuid": "5ccf0a4e-426d-5179-8199-54d3847f4a82"
         },
         {
           "expanded": "Defense Evasion",
-          "value": "defense-evasion"
+          "value": "defense-evasion",
+          "uuid": "34211f0f-9c13-5e4d-9a6f-683ca7f782b5"
         },
         {
           "expanded": "Command & Control",
-          "value": "command-control"
+          "value": "command-control",
+          "uuid": "fe7f5aad-0bbf-55ea-981f-c4b7b2e40a3c"
         }
       ]
     },
@@ -60,27 +71,33 @@
       "entry": [
         {
           "expanded": "Pivoting",
-          "value": "pivoting"
+          "value": "pivoting",
+          "uuid": "139330eb-6f8a-58ba-ac11-b850fa5a6d80"
         },
         {
           "expanded": "Discovery",
-          "value": "discovery"
+          "value": "discovery",
+          "uuid": "16752eca-5111-5899-894d-8ef1703b1206"
         },
         {
           "expanded": "Privilege Escalation",
-          "value": "privilege-escalation"
+          "value": "privilege-escalation",
+          "uuid": "4efdedfa-eefb-551b-939e-ed8222df24ca"
         },
         {
           "expanded": "Execution",
-          "value": "execution"
+          "value": "execution",
+          "uuid": "eaa55276-2939-59e9-b8f6-4e273f5c4b0a"
         },
         {
           "expanded": "Credential Access",
-          "value": "credential-access"
+          "value": "credential-access",
+          "uuid": "9e1ac5cd-1be8-5407-86f7-80dc00230b30"
         },
         {
           "expanded": "Lateral Movement",
-          "value": "lateral-movement"
+          "value": "lateral-movement",
+          "uuid": "8996232c-9284-5381-b741-230801124700"
         }
       ]
     },
@@ -89,25 +106,31 @@
       "entry": [
         {
           "expanded": "Access",
-          "value": "access"
+          "value": "access",
+          "uuid": "8b141b0c-6e5a-5a31-82bc-822f461f7a5e"
         },
         {
           "expanded": "Collection",
-          "value": "collection"
+          "value": "collection",
+          "uuid": "9515a91e-94ad-52d6-81bd-962c85ef0717"
         },
         {
           "expanded": "Exfiltration",
-          "value": "exfiltration"
+          "value": "exfiltration",
+          "uuid": "7c8ef264-711c-5d42-9182-148b9e2ea72c"
         },
         {
           "expanded": "Impact",
-          "value": "impact"
+          "value": "impact",
+          "uuid": "6f7a4463-5498-5abb-b5ec-818787ed78e2"
         },
         {
           "expanded": "Objectives",
-          "value": "objectives"
+          "value": "objectives",
+          "uuid": "0de63ede-b02b-5ffa-8121-bf374980c2f0"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "14a61283-31eb-5117-9d16-7174a10496a5"
 }

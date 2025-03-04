@@ -13,52 +13,62 @@
         {
           "value": "tool",
           "expanded": "Tool",
-          "description": "Open source or proprietary tool used in cybersecurity."
+          "description": "Open source or proprietary tool used in cybersecurity.",
+          "uuid": "40d7eed8-93eb-5d03-9369-27ea95bc7efc"
         },
         {
           "value": "playbook",
           "expanded": "Playbook",
-          "description": "Playbook, such as a defined set of rules with one or more actions triggered by different events to respond to, orchestrate or automate cybersecurity related actions."
+          "description": "Playbook, such as a defined set of rules with one or more actions triggered by different events to respond to, orchestrate or automate cybersecurity related actions.",
+          "uuid": "5b47e710-16dd-5033-b759-570e9aae91c1"
         },
         {
           "value": "taxonomy",
           "expanded": "Taxonomy",
-          "description": "Cybersecurity taxonomy is a set of labels used to classify (in both terms - arrange in classes or/and design to national classification) cybersecurity related information."
+          "description": "Cybersecurity taxonomy is a set of labels used to classify (in both terms - arrange in classes or/and design to national classification) cybersecurity related information.",
+          "uuid": "06554b6f-3f62-5ea6-9298-e4039c1ed6f8"
         },
         {
           "value": "rule",
           "expanded": "Rule",
-          "description": "Detection rule or set of detection rules used in the cybersecurity field. Rulesets can be in different formats for (N/L)IDS/SIEM (such as Snort, Suricata, Zeek, SIGMA or YARA) or any other tool capable of parsing them."
+          "description": "Detection rule or set of detection rules used in the cybersecurity field. Rulesets can be in different formats for (N/L)IDS/SIEM (such as Snort, Suricata, Zeek, SIGMA or YARA) or any other tool capable of parsing them.",
+          "uuid": "1113709e-0ee0-5706-aeb3-6d94a0f56834"
         },
         {
           "value": "notebook",
           "expanded": "Notebook",
-          "description": "Interactive document to code, experiment, train or visualize cybersecurity-related information. A notebook can be transcribed in a format such as Jupyter Notebooks, Apache Zeppelin, Pluton or Google Colab."
+          "description": "Interactive document to code, experiment, train or visualize cybersecurity-related information. A notebook can be transcribed in a format such as Jupyter Notebooks, Apache Zeppelin, Pluton or Google Colab.",
+          "uuid": "db5f9cb1-5189-5f47-8ff3-cbf9d758b6d8"
         },
         {
           "value": "vulnerability",
           "expanded": "Vulnerability",
-          "description": "Public or non-public information about a security vulnerability in a specific software, hardware or service."
+          "description": "Public or non-public information about a security vulnerability in a specific software, hardware or service.",
+          "uuid": "a13dc90b-c280-5716-90c3-aaddfc29ad1a"
         },
         {
           "value": "proof-of-concept",
           "expanded": "Proof-of-concept",
-          "description": "Code to validate a known vulnerability."
+          "description": "Code to validate a known vulnerability.",
+          "uuid": "493800dd-9ec1-5439-b7e4-c9e95f938dc4"
         },
         {
           "value": "fingerprint",
           "expanded": "Fingerprint",
-          "description": "Code to uniquely identify specific cybersecurity-relevant patterns. Fingerprints can be expressed in different formats such as ja3, ja3s, hassh, jarm or favicon-mmh3."
+          "description": "Code to uniquely identify specific cybersecurity-relevant patterns. Fingerprints can be expressed in different formats such as ja3, ja3s, hassh, jarm or favicon-mmh3.",
+          "uuid": "67efc2b3-56eb-5258-af0e-559668365f23"
         },
         {
           "value": "mitigation",
           "expanded": "Mitigation",
-          "description": "Mitigating control to prevent unwanted activity from happening, like a specific configuration of the operating system/tools or an implementation policy."
+          "description": "Mitigating control to prevent unwanted activity from happening, like a specific configuration of the operating system/tools or an implementation policy.",
+          "uuid": "d9b9cead-6b63-5f2f-a589-55a1c821b520"
         },
         {
           "value": "dataset",
           "expanded": "Dataset",
-          "description": "Dataset for validation of detections and tool stacks,"
+          "description": "Dataset for validation of detections and tool stacks,",
+          "uuid": "58ef6455-057a-5446-b7d8-ec0c1729106a"
         }
       ]
     },
@@ -67,39 +77,48 @@
       "entry": [
         {
           "value": "identify",
-          "expanded": "Identify"
+          "expanded": "Identify",
+          "uuid": "c3a032b2-356f-5329-96b4-fe873f0d6205"
         },
         {
           "value": "protect",
-          "expanded": "Protect"
+          "expanded": "Protect",
+          "uuid": "835c5f94-b31d-5fae-a254-c755c0cce0bd"
         },
         {
           "value": "detect",
-          "expanded": "Detect"
+          "expanded": "Detect",
+          "uuid": "c426c1fd-c0fa-5db8-9cfd-1a2cf55e0229"
         },
         {
           "value": "respond",
-          "expanded": "Respond"
+          "expanded": "Respond",
+          "uuid": "1c236306-183a-50c2-9cec-d784cff0a176"
         },
         {
           "value": "recover",
-          "expanded": "Recover"
+          "expanded": "Recover",
+          "uuid": "1b861902-11f3-5a20-a5ee-a80be6008c6a"
         },
         {
           "value": "exploit",
-          "expanded": "Exploit"
+          "expanded": "Exploit",
+          "uuid": "8f37db75-f73b-52a7-9506-811c45a12a97"
         },
         {
           "value": "investigate",
-          "expanded": "Investigate"
+          "expanded": "Investigate",
+          "uuid": "97b09ba0-1155-55c3-9fb3-fa209133e931"
         },
         {
           "value": "train",
-          "expanded": "Train"
+          "expanded": "Train",
+          "uuid": "4cc135cc-85ce-5d74-9de1-2454bce62111"
         },
         {
           "value": "test",
-          "expanded": "Test"
+          "expanded": "Test",
+          "uuid": "a2fa95d0-b415-5fd2-a3a3-8f8b23914b88"
         }
       ]
     }
@@ -108,12 +127,15 @@
     {
       "value": "type",
       "expanded": "Type",
-      "description": "Type of entry in the catalogue."
+      "description": "Type of entry in the catalogue.",
+      "uuid": "564db871-6a85-5bf5-b432-f2770599b3a2"
     },
     {
       "value": "scope",
       "expanded": "Scope",
-      "description": "Scope of usage for the entry in the catalogue."
+      "description": "Scope of usage for the entry in the catalogue.",
+      "uuid": "160f45c5-bd1a-5654-ba8e-0f47dc8f5d9f"
     }
-  ]
+  ],
+  "uuid": "82066f66-4cf7-5586-97dd-9a7109661973"
 }

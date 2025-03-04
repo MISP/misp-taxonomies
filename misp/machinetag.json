@@ -4,7 +4,8 @@
       "entry": [
         {
           "expanded": "tag to hide from the user-interface.",
-          "value": "hide"
+          "value": "hide",
+          "uuid": "e61f8471-f33a-5604-a16b-42d01ed1155c"
         }
       ],
       "predicate": "ui"
@@ -13,7 +14,8 @@
       "entry": [
         {
           "expanded": "tag to hide from the API.",
-          "value": "hide"
+          "value": "hide",
+          "uuid": "017e48ec-fa2c-56eb-85f9-bca891b9986d"
         }
       ],
       "predicate": "api"
@@ -22,7 +24,8 @@
       "entry": [
         {
           "expanded": "block",
-          "value": "block"
+          "value": "block",
+          "uuid": "2641b529-dab8-561e-b88f-9205fe5d9ac2"
         }
       ],
       "predicate": "expansion"
@@ -32,7 +35,8 @@
       "entry": [
         {
           "expanded": "OpenPGP Fingerprint",
-          "value": "pgpfingerprint"
+          "value": "pgpfingerprint",
+          "uuid": "f5e70bb4-33f7-5626-b2f7-7dbf3436fd40"
         }
       ]
     },
@@ -42,32 +46,38 @@
         {
           "expanded": "Completely confident",
           "value": "completely-confident",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "242729ef-20c0-51e5-9c7a-f721d4dd170b"
         },
         {
           "expanded": "Usually confident",
           "value": "usually-confident",
-          "numerical_value": 75
+          "numerical_value": 75,
+          "uuid": "46c30279-d8fd-5105-bdae-4415e5737715"
         },
         {
           "expanded": "Fairly confident",
           "value": "fairly-confident",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "2eaf51d6-d841-5ba7-b252-f5b66c8b4d35"
         },
         {
           "expanded": "Rarely confident",
           "value": "rarely-confident",
-          "numerical_value": 25
+          "numerical_value": 25,
+          "uuid": "56cbf0b9-863b-5ecf-a9fa-a39cc11d929c"
         },
         {
           "expanded": "Unconfident",
           "value": "unconfident",
-          "numerical_value": 0
+          "numerical_value": 0,
+          "uuid": "ee2bbdc2-8c89-5b5f-aa40-b1139d86f40c"
         },
         {
           "expanded": "Confidence cannot be evaluated",
           "value": "confidence-cannot-be-evaluated",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "21893c41-20dd-5d45-a6f4-7fa56c694646"
         }
       ]
     },
@@ -78,25 +88,29 @@
           "expanded": "No risk",
           "value": "no-risk",
           "numerical_value": 0,
-          "description": "Harmless information. (CEUS threat level)"
+          "description": "Harmless information. (CEUS threat level)",
+          "uuid": "d19a23a9-59e0-5ecd-86a6-d1fee5f54dbe"
         },
         {
           "expanded": "Low risk",
           "value": "low-risk",
           "numerical_value": 25,
-          "description": "Low risk which can include mass-malware. (CEUS threat level)"
+          "description": "Low risk which can include mass-malware. (CEUS threat level)",
+          "uuid": "2a180a92-b50c-59ab-9fcf-cc1d8a902573"
         },
         {
           "expanded": "Medium risk",
           "value": "medium-risk",
           "numerical_value": 50,
-          "description": "Medium risk which can include targeted attacks (e.g. APT). (CEUS threat level)"
+          "description": "Medium risk which can include targeted attacks (e.g. APT). (CEUS threat level)",
+          "uuid": "5e966c8e-a10b-5dd2-b55b-206e161f5240"
         },
         {
           "expanded": "High risk",
           "value": "high-risk",
           "numerical_value": 100,
-          "description": "High risk which can include highly sophisticated attacks or 0-day attack. (CEUS threat level)"
+          "description": "High risk which can include highly sophisticated attacks or 0-day attack. (CEUS threat level)",
+          "uuid": "e6d667db-5b91-5fac-aba7-bd280abe3d43"
         }
       ]
     },
@@ -106,17 +120,20 @@
         {
           "expanded": "Generated automatically without human verification",
           "value": "unsupervised",
-          "numerical_value": 0
+          "numerical_value": 0,
+          "uuid": "a3de78ef-d96d-53d9-94ca-b38f240caa6e"
         },
         {
           "expanded": "Generated automatically but verified by a human",
           "value": "reviewed",
-          "numerical_value": 50
+          "numerical_value": 50,
+          "uuid": "3b572a36-ec84-56ac-8a34-a657e0daf1d0"
         },
         {
           "expanded": "Output of human analysis",
           "value": "manual",
-          "numerical_value": 100
+          "numerical_value": 100,
+          "uuid": "6f880af4-2879-5806-8322-77e46fffba7e"
         }
       ]
     },
@@ -125,11 +142,13 @@
       "entry": [
         {
           "expanded": "misp2stix",
-          "value": "misp2stix"
+          "value": "misp2stix",
+          "uuid": "33ff8b4b-e5ce-51c9-82bb-4d25177d9ae0"
         },
         {
           "expanded": "misp2yara",
-          "value": "misp2yara"
+          "value": "misp2yara",
+          "uuid": "90c784a6-7b42-5600-9730-8c7273d2036b"
         }
       ]
     },
@@ -138,19 +157,23 @@
       "entry": [
         {
           "expanded": "generated",
-          "value": "generated"
+          "value": "generated",
+          "uuid": "23a97411-c4c1-5778-9a7d-31b0ead7ac51"
         },
         {
           "expanded": "as-is",
-          "value": "as-is"
+          "value": "as-is",
+          "uuid": "5afaf200-d7e7-5d90-a3bb-80dbd565971f"
         },
         {
           "expanded": "valid",
-          "value": "valid"
+          "value": "valid",
+          "uuid": "1d5a0d26-f767-5888-a61e-9373490196e8"
         },
         {
           "expanded": "invalid",
-          "value": "invalid"
+          "value": "invalid",
+          "uuid": "cc6cd1b1-7e6a-5bdf-866f-fd99b453a599"
         }
       ]
     },
@@ -160,31 +183,37 @@
         {
           "description": "This event describes traits and indicators closely related to a single entity, like an email campaign or sighting of a reference sample on VirusTotal. Events of this type are typically created by SOC staff and may be verified by analysts. Observed and verified indicators would be consumed by automated filtering systems in order to support near-time threat prevention. In retrospect, observations could be correlated with reports and analysis events in order to help understand the motivation for an attack and to reassess the associated risk.",
           "expanded": "observation related to single entity, like an email",
-          "value": "observation"
+          "value": "observation",
+          "uuid": "d2442d80-170b-5ec9-8877-68f497bba914"
         },
         {
           "description": "This event describes traits and indicators related to a security incident. As such, the event may refer to multiple entities like organizations, bank account numbers, files, and URLs. Events of this type contain first-hand information, that is, the reporting organization took part in the analysis of the incident. Use event type \"Report\" for second-hand information. Events of this type are typically created and consumed by analysts.",
           "expanded": "incident, based on first-hand information",
-          "value": "incident"
+          "value": "incident",
+          "uuid": "bbb93b54-6c9d-5a6c-889f-1f0c563afe03"
         },
         {
           "description": "Traceability of indicators can be essential to document compliance of processes with legal obligations or company regulations. This event preserves a report to document the origin and context of indicators. Events of this type need to be checked by a human to ensure correct reproduction of indicators and context. Intended consumers are automated processes. Events may also serve as a basis for analysis reports or to justify preventive measures. If your organization is or was directly involved in an incident and you want to provide a first-hand account, then please use event type \"Incident\" instead.",
           "expanded": "report, based on second-hand information",
-          "value": "report"
+          "value": "report",
+          "uuid": "203ff7bb-7734-57f2-b082-ba591ed6dc49"
         },
         {
           "description": "This event collects unrelated IoCs. For example, an event could combine all network IoCs that were learned of during a day or a week from events of other types.",
           "expanded": "collection of unrelated IoCs",
-          "value": "collection"
+          "value": "collection",
+          "uuid": "dc84925a-e0e3-56a5-ae34-89b9d8b866c4"
         },
         {
           "description": "This event builds on \"observation\", \"incident\", and \"report\" events; adds enrichments; and provides context. Events of this type will be created by analysts with support by automated tools. Analysts are also the main consumers.",
           "expanded": "analysis, contains context and enrichments",
-          "value": "analysis"
+          "value": "analysis",
+          "uuid": "b2acca3a-e15a-5674-b109-df7f5fa9c9f7"
         },
         {
           "expanded": "the result of automated analysis.",
-          "value": "automatic-analysis"
+          "value": "automatic-analysis",
+          "uuid": "f5fad3ae-5fc4-5932-981c-c17e86b98da6"
         }
       ]
     },
@@ -194,17 +223,20 @@
         {
           "expanded": "force",
           "value": "force",
-          "description": "Force the IDS flag to be the one from the tag."
+          "description": "Force the IDS flag to be the one from the tag.",
+          "uuid": "da21f6e4-0896-515d-9be2-73458ece6116"
         },
         {
           "expanded": "true",
           "value": "true",
-          "description": "Overwrite the current IDS flag of the information tag by IDS true."
+          "description": "Overwrite the current IDS flag of the information tag by IDS true.",
+          "uuid": "8f5605c6-b448-5eb2-b28b-aa290373e30d"
         },
         {
           "expanded": "false",
           "value": "false",
-          "description": "Overwrite the current IDS flag of the information tag by IDS false."
+          "description": "Overwrite the current IDS flag of the information tag by IDS false.",
+          "uuid": "1eb72b0a-f067-55a1-ab19-55474d19b826"
         }
       ]
     }
@@ -212,62 +244,75 @@
   "predicates": [
     {
       "expanded": "User-interface tag influencing the MISP behavior and visual interaction.",
-      "value": "ui"
+      "value": "ui",
+      "uuid": "c66824c6-9adf-5375-8711-09432c20010a"
     },
     {
       "expanded": "API related tag influencing the MISP behavior of the API.",
-      "value": "api"
+      "value": "api",
+      "uuid": "e48a26cd-bcb6-5849-89f3-7f7be02038a0"
     },
     {
       "description": "Expansion tag incluencing the MISP behavior using expansion modules",
       "expanded": "Expansion",
-      "value": "expansion"
+      "value": "expansion",
+      "uuid": "8d23f3e9-c5b6-5a8f-b702-69aaac42554b"
     },
     {
       "expanded": "Information related to the contributor.",
-      "value": "contributor"
+      "value": "contributor",
+      "uuid": "5d520ab7-fc72-543a-9083-77caa002defd"
     },
     {
       "expanded": "Confidence level",
       "value": "confidence-level",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "bfbcb1e5-6bd2-5ff6-999d-c30c0e3b64d7"
     },
     {
       "expanded": "Cyberthreat Effect Universal Scale - MISP's internal threat level taxonomy",
       "value": "threat-level",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "f2636fe4-9f5f-54d1-b63b-495a695b837c"
     },
     {
       "expanded": "Automation level",
       "value": "automation-level",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "64ccd953-61f2-542d-b9d5-646b6227f6f0"
     },
     {
       "description": "Event with this tag should not be synced to other MISP instances",
       "expanded": "Should not sync",
-      "value": "should-not-sync"
+      "value": "should-not-sync",
+      "uuid": "40e3db02-1982-512a-8b09-aa262f7d4127"
     },
     {
       "description": "Tool associated with the information taggged",
       "expanded": "Tool",
-      "value": "tool"
+      "value": "tool",
+      "uuid": "3eb5fe40-0ec2-5685-92f0-3ad5bb6eb054"
     },
     {
       "expanded": "misp2yara export tool",
       "value": "misp2yara",
-      "exclusive": true
+      "exclusive": true,
+      "uuid": "583dd1d9-a832-5824-93c3-8743bc96e649"
     },
     {
       "expanded": "Type of the event.",
-      "value": "event-type"
+      "value": "event-type",
+      "uuid": "40743a1d-0739-5aa4-9feb-41164858d1aa"
     },
     {
       "expanded": "IDS related tag unfluencing the MISP behavior of the IDS flag.",
-      "value": "ids"
+      "value": "ids",
+      "uuid": "01b9e267-c54d-5f6a-8594-4e9855177667"
     }
   ],
   "version": 14,
   "description": "MISP taxonomy to infer with MISP behavior or operation.",
   "expanded": "MISP",
-  "namespace": "misp"
+  "namespace": "misp",
+  "uuid": "cfaa4c97-9389-532b-89e3-06bce6dc392a"
 }
