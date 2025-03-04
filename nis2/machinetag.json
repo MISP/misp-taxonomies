@@ -117,7 +117,8 @@
         {
           "value": "ict-services",
           "expanded": "ICT service management (business-to-business)",
-          "description": "The impact is in the ICT services, systems or products , for example, impacting on processing and storing personal data management, or disruptions in digital services consumed by other critical infrastructures."
+          "description": "The impact is in the ICT services, systems or products , for example, impacting on processing and storing personal data management, or disruptions in digital services consumed by other critical infrastructures.",
+          "uuid": "7e214c48-5be4-5b48-b8e8-2f5cd8d1346d"
         },
         {
           "value": "public-administration",
@@ -134,37 +135,44 @@
         {
           "value": "courier",
           "expanded": "Postal and courier services",
-          "description": "The impact is in the message or package transport sector, for example, unable to deliver sensitive information to be signed, or medical items to a hospital"
+          "description": "The impact is in the message or package transport sector, for example, unable to deliver sensitive information to be signed, or medical items to a hospital",
+          "uuid": "8f9174ae-a0c0-5f5b-88ce-164b9747a510"
         },
         {
           "value": "waste-management",
           "expanded": "Waste management",
-          "description": "The impact is in the public or private waste management companies, for example, stopping from removing waste from cities may lead to public heath issues"
+          "description": "The impact is in the public or private waste management companies, for example, stopping from removing waste from cities may lead to public heath issues",
+          "uuid": "39f60e4f-9fcf-5bc3-993d-9c90608f2021"
         },
         {
           "value": "chemical",
           "expanded": "Manufacture, production and distribution of chemicals",
-          "description": "The impact is in the chemical sector, for example, by accidental leaks when transporting chemical products or incidents in the production facilities"
+          "description": "The impact is in the chemical sector, for example, by accidental leaks when transporting chemical products or incidents in the production facilities",
+          "uuid": "f1ac911c-58fd-5fcf-b0e6-42c3432776ba"
         },
         {
           "value": "food",
           "expanded": "Production, processing and distribution of food",
-          "description": "The impact is in the food management sector, for example, in global disruptions of staple aliments caused by droughts or food poisoning during the production/processing/distribution phases"
+          "description": "The impact is in the food management sector, for example, in global disruptions of staple aliments caused by droughts or food poisoning during the production/processing/distribution phases",
+          "uuid": "a3e927b1-25a5-5e8a-ad4f-bb059ac6eb04"
         },
         {
           "value": "manufacturing",
           "expanded": "Manufacturing",
-          "description": "The impact is in the manufacturing sector, for example, on production shortages caused by availability of critical items, generating disruption in the whole supply chain"
+          "description": "The impact is in the manufacturing sector, for example, on production shortages caused by availability of critical items, generating disruption in the whole supply chain",
+          "uuid": "93864ead-7ff9-5142-a8d8-93577ae34a20"
         },
         {
           "value": "digital-providers",
           "expanded": "Digital providers",
-          "description": "The impact is in the providers of online marketplaces for B2C or B2B, online search engines or social network platforms, for example, when buying dangerous items are not prevented, or when biased information is flooded to change general opinion on a topic"
+          "description": "The impact is in the providers of online marketplaces for B2C or B2B, online search engines or social network platforms, for example, when buying dangerous items are not prevented, or when biased information is flooded to change general opinion on a topic",
+          "uuid": "59a1a00a-8316-5853-ab5f-eadd4c0c8cfa"
         },
         {
           "value": "research",
           "expanded": "Research",
-          "description": "The impact is in the Research sector, for example, by stealing data on breakthrough scientific achievements, or misuse of technologies that can generate out-of-control situations"
+          "description": "The impact is in the Research sector, for example, by stealing data on breakthrough scientific achievements, or misuse of technologies that can generate out-of-control situations",
+          "uuid": "63ab8605-5ce5-5307-a3bf-f7aece2bdd2f"
         }
       ]
     },
@@ -264,7 +272,8 @@
         {
           "value": "ict-management-subsector",
           "expanded": "ICT service management (business-to-business)",
-          "description": "Managed service providers (SaaS, PaaS, etc), security services providers (IAMs, personal info vaults, etc."
+          "description": "Managed service providers (SaaS, PaaS, etc), security services providers (IAMs, personal info vaults, etc.",
+          "uuid": "d77897d2-cee6-5732-b787-12cd5f4101b5"
         },
         {
           "value": "public-administration-subsector",
@@ -281,62 +290,74 @@
         {
           "value": "courier-subsector",
           "expanded": "Postal and courier services",
-          "description": "Certificate documents, credentials or sensitive items delivery"
+          "description": "Certificate documents, credentials or sensitive items delivery",
+          "uuid": "3e4eab36-5cfe-56e7-b9b4-72fe5fdf6e94"
         },
         {
           "value": "waste-management-subsector",
           "expanded": "Waste management",
-          "description": "Urban waste transport and management, hazardous waste subproducts management from chemical companies, waste disposal facilities"
+          "description": "Urban waste transport and management, hazardous waste subproducts management from chemical companies, waste disposal facilities",
+          "uuid": "e0966965-e9f9-585d-90a8-68ed50aa15dd"
         },
         {
           "value": "chemical-subsector",
           "expanded": "Manufacture, production and distribution of chemicals",
-          "description": "Oil companies, industrial chemical companies, agricultural fertilizers producers"
+          "description": "Oil companies, industrial chemical companies, agricultural fertilizers producers",
+          "uuid": "ad1c4875-e47e-5e9d-990a-3713e7cf101d"
         },
         {
           "value": "food-subsector",
           "expanded": "Production, processing and distribution of food",
-          "description": "Plants, meat or fish gatherers, distribution and processing of food, supermarkets and other food vendors"
+          "description": "Plants, meat or fish gatherers, distribution and processing of food, supermarkets and other food vendors",
+          "uuid": "cc4aac59-502d-542e-aa96-b30362d94080"
         },
         {
           "value": "medical-devices-subsector",
           "expanded": "Manufacture of medical devices and in vitro diagnostic medical devices",
-          "description": "Manufacture of medical appliances and devices (excepting the ones for critical emergencies which should be set to the health-subsector), in vitro diagnostic devices"
+          "description": "Manufacture of medical appliances and devices (excepting the ones for critical emergencies which should be set to the health-subsector), in vitro diagnostic devices",
+          "uuid": "3485ccce-c806-50a6-9aef-be0446a629e4"
         },
         {
           "value": "electronic-optical-subsector",
           "expanded": "Manufacture of computer, electronic and optical products",
-          "description": "Chip design or manufacturing companies, Fiber optics, consumer electronics"
-        },        
+          "description": "Chip design or manufacturing companies, Fiber optics, consumer electronics",
+          "uuid": "7a7f3a0c-7b95-5656-bad4-e1f243dd4590"
+        },
         {
           "value": "electrical-equipment-subsector",
           "expanded": "Manufacture of electrical equipment",
-          "description": "Power electronics providers, transformers, electrical motors, turbines"
+          "description": "Power electronics providers, transformers, electrical motors, turbines",
+          "uuid": "de7a1eca-ac23-5007-8d54-3e5f1a1a3b33"
         },
         {
           "value": "machine-tool-subsector",
           "expanded": "Manufacture of machinery and equipment n.e.c",
-          "description": "CNCs, lathes, milling machines"
+          "description": "CNCs, lathes, milling machines",
+          "uuid": "1ec017ac-8d5e-57cf-ad91-305c2ab45157"
         },
         {
           "value": "vehicle-manufacturing-subsector",
           "expanded": "Manufacture of motor vehicles, trailers and semi-trailers",
-          "description": "Car, truck, bus production facilities, vehicle part suppliers, wheels"
+          "description": "Car, truck, bus production facilities, vehicle part suppliers, wheels",
+          "uuid": "552ba402-778e-5e3b-af76-9f83c34e7d13"
         },
         {
           "value": "other-transport-equipment-subsector",
           "expanded": "Manufacture of other transport equipment",
-          "description": "Ship, train, aircraft manufacturers"
-        },       
+          "description": "Ship, train, aircraft manufacturers",
+          "uuid": "71aa077a-0ba9-52ec-9760-405a6c2d4407"
+        },
         {
           "value": "digital-providers-subsector",
           "expanded": "Digital providers",
-          "description": "The impact is in the providers of online marketplaces for B2C or B2B, online search engines or social network platforms, for example, when buying dangerous items are not prevented, or when biased information is flooded to change general opinion on a topic"
+          "description": "The impact is in the providers of online marketplaces for B2C or B2B, online search engines or social network platforms, for example, when buying dangerous items are not prevented, or when biased information is flooded to change general opinion on a topic",
+          "uuid": "d017c4e6-fe30-5714-b963-c27ed211d4cb"
         },
         {
           "value": "research-subsector",
           "expanded": "Research",
-          "description": "The impact is in the Research sector, for example, by stealing data on breakthrough scientific achievements, or misuse of technologies that can generate out-of-control situations"
+          "description": "The impact is in the Research sector, for example, by stealing data on breakthrough scientific achievements, or misuse of technologies that can generate out-of-control situations",
+          "uuid": "1f6b4e1d-12d0-51f7-b8b8-bb8b2ecdc7ce"
         }
       ]
     },
