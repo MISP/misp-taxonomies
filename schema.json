@@ -113,6 +113,9 @@
     "namespace": {
       "$ref": "#/defs/non-empty-string"
     },
+    "uuid": {
+      "$ref": "#/defs/non-empty-string"
+    },
     "exclusive": {
       "type": "boolean"
     },
