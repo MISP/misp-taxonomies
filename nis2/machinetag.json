@@ -115,6 +115,11 @@
           "uuid": "0e19d762-5da6-5156-8df4-81bb1b441b9a"
         },
         {
+          "value": "ict-services",
+          "expanded": "ICT service management (business-to-business)",
+          "description": "The impact is in the ICT services, systems or products , for example, impacting on processing and storing personal data management, or disruptions in digital services consumed by other critical infrastructures."
+        },
+        {
           "value": "public-administration",
           "expanded": "Public administration",
           "description": "The impact is in the government sector, for example, impacting the functioning of public administrations, elections, or emergency services",
@@ -125,6 +130,41 @@
           "expanded": "Space",
           "description": "The impact is in the space-based services",
           "uuid": "50edb030-98b8-5b31-842a-a29f9806d948"
+        },
+        {
+          "value": "courier",
+          "expanded": "Postal and courier services",
+          "description": "The impact is in the message or package transport sector, for example, unable to deliver sensitive information to be signed, or medical items to a hospital"
+        },
+        {
+          "value": "waste-management",
+          "expanded": "Waste management",
+          "description": "The impact is in the public or private waste management companies, for example, stopping from removing waste from cities may lead to public heath issues"
+        },
+        {
+          "value": "chemical",
+          "expanded": "Manufacture, production and distribution of chemicals",
+          "description": "The impact is in the chemical sector, for example, by accidental leaks when transporting chemical products or incidents in the production facilities"
+        },
+        {
+          "value": "food",
+          "expanded": "Production, processing and distribution of food",
+          "description": "The impact is in the food management sector, for example, in global disruptions of staple aliments caused by droughts or food poisoning during the production/processing/distribution phases"
+        },
+        {
+          "value": "manufacturing",
+          "expanded": "Manufacturing",
+          "description": "The impact is in the manufacturing sector, for example, on production shortages caused by availability of critical items, generating disruption in the whole supply chain"
+        },
+        {
+          "value": "digital-providers",
+          "expanded": "Digital providers",
+          "description": "The impact is in the providers of online marketplaces for B2C or B2B, online search engines or social network platforms, for example, when buying dangerous items are not prevented, or when biased information is flooded to change general opinion on a topic"
+        },
+        {
+          "value": "research",
+          "expanded": "Research",
+          "description": "The impact is in the Research sector, for example, by stealing data on breakthrough scientific achievements, or misuse of technologies that can generate out-of-control situations"
         }
       ]
     },
@@ -222,6 +262,11 @@
           "uuid": "9abb1f0f-f08e-5cc5-854a-553479dd6d98"
         },
         {
+          "value": "ict-management-subsector",
+          "expanded": "ICT service management (business-to-business)",
+          "description": "Managed service providers (SaaS, PaaS, etc), security services providers (IAMs, personal info vaults, etc."
+        },
+        {
           "value": "public-administration-subsector",
           "expanded": "Public administration entities",
           "description": "Public administration entities of central governments, Public administration entities of NUTS level 1 regions (population min. 3 million – max. 7 million) and NUTS level 2  regions (population min. 800.000 – max 3 million)",
@@ -232,6 +277,66 @@
           "expanded": "Space entities",
           "description": "Operators of ground-based infrastructure, owned, managed and operated by Member States or by private parties, that support the provision of space-based services, excluding providers of public electronic communications networks. ‘Public electronic communications network’ means an electronic communications network used wholly or mainly for the provision of publicly available electronic communications services which support the transfer of information between network termination points",
           "uuid": "e43c2725-b6fb-538e-8af4-24ab3429cdb9"
+        },
+        {
+          "value": "courier-subsector",
+          "expanded": "Postal and courier services",
+          "description": "Certificate documents, credentials or sensitive items delivery"
+        },
+        {
+          "value": "waste-management-subsector",
+          "expanded": "Waste management",
+          "description": "Urban waste transport and management, hazardous waste subproducts management from chemical companies, waste disposal facilities"
+        },
+        {
+          "value": "chemical-subsector",
+          "expanded": "Manufacture, production and distribution of chemicals",
+          "description": "Oil companies, industrial chemical companies, agricultural fertilizers producers"
+        },
+        {
+          "value": "food-subsector",
+          "expanded": "Production, processing and distribution of food",
+          "description": "Plants, meat or fish gatherers, distribution and processing of food, supermarkets and other food vendors"
+        },
+        {
+          "value": "medical-devices-subsector",
+          "expanded": "Manufacture of medical devices and in vitro diagnostic medical devices",
+          "description": "Manufacture of medical appliances and devices (excepting the ones for critical emergencies which should be set to the health-subsector), in vitro diagnostic devices"
+        },
+        {
+          "value": "electronic-optical-subsector",
+          "expanded": "Manufacture of computer, electronic and optical products",
+          "description": "Chip design or manufacturing companies, Fiber optics, consumer electronics"
+        },        
+        {
+          "value": "electrical-equipment-subsector",
+          "expanded": "Manufacture of electrical equipment",
+          "description": "Power electronics providers, transformers, electrical motors, turbines"
+        },
+        {
+          "value": "machine-tool-subsector",
+          "expanded": "Manufacture of machinery and equipment n.e.c",
+          "description": "CNCs, lathes, milling machines"
+        },
+        {
+          "value": "vehicle-manufacturing-subsector",
+          "expanded": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "description": "Car, truck, bus production facilities, vehicle part suppliers, wheels"
+        },
+        {
+          "value": "other-transport-equipment-subsector",
+          "expanded": "Manufacture of other transport equipment",
+          "description": "Ship, train, aircraft manufacturers"
+        },       
+        {
+          "value": "digital-providers-subsector",
+          "expanded": "Digital providers",
+          "description": "The impact is in the providers of online marketplaces for B2C or B2B, online search engines or social network platforms, for example, when buying dangerous items are not prevented, or when biased information is flooded to change general opinion on a topic"
+        },
+        {
+          "value": "research-subsector",
+          "expanded": "Research",
+          "description": "The impact is in the Research sector, for example, by stealing data on breakthrough scientific achievements, or misuse of technologies that can generate out-of-control situations"
         }
       ]
     },
