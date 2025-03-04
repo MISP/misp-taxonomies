@@ -116,7 +116,7 @@
         },
         {
           "value": "public-administration",
-          "expanded": "Public administartion",
+          "expanded": "Public administration",
           "description": "The impact is in the government sector, for example, impacting the functioning of public administrations, elections, or emergency services",
           "uuid": "5683763f-6f86-54e1-b2d6-ba8aa1fe063c"
         },
@@ -163,7 +163,7 @@
         },
         {
           "value": "air",
-          "expanded": "Air trasportation",
+          "expanded": "Air transportation",
           "description": "Air carriers, airport managing bodies, airports,  core airports and entities operating ancillary installations contained within airports, traffic management control operators providing air traffic control (ATC) services",
           "uuid": "5ffc243e-56e7-5def-93e8-4e18c1744db9"
         },
@@ -193,7 +193,7 @@
         },
         {
           "value": "financial-subsector",
-          "expanded": "Finanacial market infrastructures",
+          "expanded": "Financial market infrastructures",
           "description": "Operators of trading venues, central counterparties (CCPs), i.e. a legal person that interposes itself between the counterparties to the contracts traded on one or more financial markets, becoming the buyer to every seller and the seller to every buyer",
           "uuid": "d72ef2c6-af63-5332-a3a0-6dca12c84d28"
         },
@@ -282,19 +282,19 @@
         {
           "value": "computer-manufacturing",
           "expanded": "Manufacture of computer, electronic and optical products",
-          "description": "Undertakings carrying out the manufacture of computers, electronical and optical products. This includes the manufacture of computers, computer peripherals, communications equipment, and similar electronic products, as well as the manufacture of components for such products. Also included is the manufacture of consumer electronics, measuring, testing, and navigating equipment, irradiation, electromedical and electrotherapeutic equipment, optical instruments and equipment, and the manufacture of magnetic and optical media",
+          "description": "Undertakings carrying out the manufacture of computers, electronic and optical products. This includes the manufacture of computers, computer peripherals, communications equipment, and similar electronic products, as well as the manufacture of components for such products. Also included is the manufacture of consumer electronics, measuring, testing, and navigating equipment, irradiation, electromedical and electrotherapeutic equipment, optical instruments and equipment, and the manufacture of magnetic and optical media"
           "uuid": "8f046fa7-e73e-5507-8020-45d34442fcf6"
         },
         {
           "value": "electrical-equipment-manufacturing",
           "expanded": "Manufacture of computer, electronic and optical products",
-          "description": "Undertakings carrying out the manufacture of electrical equipment. This includes the manufacture of products that generate, distribute, and use electrical power. Also included is the manufacture of electrical lighting, signalling equipment and electric household appliances",
+          "description": "Undertakings carrying out the manufacture of electrical equipment. This includes the manufacture of products that generate, distribute, and use electrical power. Also included is the manufacture of electrical lighting, signaling equipment and electric household appliances"
           "uuid": "70abd9f9-6ef8-5b85-ac69-33c2c4d151b7"
         },
         {
           "value": "machinery-equipment-manufacturing",
           "expanded": "Manufacture of machinery and equipment N.E.C",
-          "description": "Undertakings carrying out the manufacture of machinery and equipment n.e.c. This includes the manufacture of machinery and equipment that act independently on materials either mechanically or thermally or perform operations on materials (such as handling, spraying, weighing, or packing), including their mechanical components that produce and apply force, and any specially manufactured primary parts. ",
+          "description": "Undertakings carrying out the manufacture of machinery and equipment n.e.c. This includes the manufacture of machinery and equipment that act independently on materials either mechanically or thermally or perform operations on materials (such as handling, spraying, weighing, or packing), including their mechanical components that produce and apply force, and any specially manufactured primary parts"
           "uuid": "79237a18-5c0f-5de5-8df2-a8b1d54223be"
         },
         {
