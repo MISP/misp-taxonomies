@@ -116,7 +116,7 @@
         },
         {
           "value": "public-administration",
-          "expanded": "Public administartion",
+          "expanded": "Public administration",
           "description": "The impact is in the government sector, for example, impacting the functioning of public administrations, elections, or emergency services",
           "uuid": "792bd880-7668-5831-8ec5-69097a9c3794"
         },
@@ -163,7 +163,7 @@
         },
         {
           "value": "air",
-          "expanded": "Air trasportation",
+          "expanded": "Air transportation",
           "description": "Air carriers, airport managing bodies, airports,  core airports and entities operating ancillary installations contained within airports, traffic management control operators providing air traffic control (ATC) services",
           "uuid": "2682f881-09e1-5c9b-a909-5e786ac27236"
         },
@@ -193,7 +193,7 @@
         },
         {
           "value": "financial-subsector",
-          "expanded": "Finanacial market infrastructures",
+          "expanded": "Financial market infrastructures",
           "description": "Operators of trading venues, central counterparties (CCPs), i.e. a legal person that interposes itself between the counterparties to the contracts traded on one or more financial markets, becoming the buyer to every seller and the seller to every buyer",
           "uuid": "6267a53f-f307-595b-a1ad-3581cb7a5dea"
         },
