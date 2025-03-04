@@ -10,108 +10,108 @@
       "value": "plans-budget",
       "expanded": "Plans Budget",
       "description": "Information relating to budget direction or processes.",
-      "uuid": "60459568-ac58-5a95-aad5-829b19301f95"
+      "uuid": "b59a507f-2a1f-558a-8f57-e1854907504e"
     },
     {
       "value": "plans-strategy",
       "expanded": "Plans Strategy",
       "description": "Detailed information relating to strategic management.",
-      "uuid": "61aff6d6-1eb8-573d-9740-38952b2d57f4"
+      "uuid": "f6e2ded7-29ee-59ce-ae55-2238e833c2b5"
     },
     {
       "value": "plans-effort",
       "expanded": "Plans Effort",
       "description": "Information relating to the required effort to achieve or fulfil a work related activity.",
-      "uuid": "35386ee9-d422-51a4-97ba-3325b6c1901b"
+      "uuid": "a43be38f-3587-52f3-af32-88a6764ba0bf"
     },
     {
       "value": "plans-measure",
       "expanded": "Plans Measure",
       "description": "Information which tracks the effectiveness in relation to activities managed by the organisation (inputs/outputs) or employee performance.",
-      "uuid": "740977d0-f8b8-5aed-9f8f-fec086c2b0cc"
+      "uuid": "b7d40afc-8794-52b7-91de-c7a4e83be977"
     },
     {
       "value": "plans-risk",
       "expanded": "Plans Risk",
       "description": "Information about person(s) or thing(s) which relate to risk management within organisation.",
-      "uuid": "15e8373f-787d-531e-ac50-c4f8dfb9ffcf"
+      "uuid": "0de85458-3d75-5a6b-baf5-72f3766afb69"
     },
     {
       "value": "plans-specification",
       "expanded": "Plans Specification",
       "description": "Information dealing with properties and constraints.",
-      "uuid": "bd5b475f-f3ab-5195-8aa3-a59b430dc94d"
+      "uuid": "fe544739-f6bd-5593-88ea-dc4a5b6c294a"
     },
     {
       "value": "controls-operational",
       "expanded": "Controls Operational",
       "description": "Information about controls that provide the foundation for administration of an organisation.",
-      "uuid": "8fb26d0f-966d-5e27-bba5-9157b4a31564"
+      "uuid": "e21ed06d-9bc7-5ec4-83a2-5af022c9e362"
     },
     {
       "value": "controls-finance",
       "expanded": "Controls Finance",
       "description": "Information about the financial structures that provide management and control over the economic resources of the organisation.",
-      "uuid": "1cba9a42-d70b-57d7-aecd-3c4e8ab0c81c"
+      "uuid": "49241a23-d79e-54ba-8969-0fd609815dab"
     },
     {
       "value": "controls-industry",
       "expanded": "Controls Industry",
       "description": "Information about industry practice issued by an industry specific regulation or professional body.",
-      "uuid": "a265e5b9-c273-5e89-9809-155364adef35"
+      "uuid": "a965c674-4dca-52c2-a85e-ecd049a8206a"
     },
     {
       "value": "controls-technological",
       "expanded": "Controls Technological",
       "description": "Information about technical constraints.",
-      "uuid": "a377468a-989f-5e90-b8c8-366ccbac529a"
+      "uuid": "7563679d-e9da-5be4-8218-6cd8fc3f27e5"
     },
     {
       "value": "controls-law",
       "expanded": "Controls Law",
       "description": "Information about controls in the form of legislation (statues, regulations, etc.).",
-      "uuid": "51b724d8-de22-5339-90ed-d9d70fc2cfb5"
+      "uuid": "790fc574-5586-59c2-bb4a-ee733cf231b6"
     },
     {
       "value": "controls-personal",
       "expanded": "Controls Personal",
       "description": "Information about the constraints an individual places on interactions with the government, or agency.",
-      "uuid": "9569304a-9c72-544b-b43c-667ef1855e57"
+      "uuid": "f904ed05-5f0a-52e2-a0a9-983163166c3f"
     },
     {
       "value": "controls-security",
       "expanded": "Controls Security",
       "description": "Information about the constraints security places on interactions within and across the government, agencies and 3th parties.",
-      "uuid": "e09cbbc5-0657-55da-a885-98e12348bf7d"
+      "uuid": "a8f32cdc-4f0a-5053-a528-cfaee323450d"
     },
     {
       "value": "contracts-arrangement",
       "expanded": "Contracts Arrangement",
       "description": "Information relating to contracts, agreements or other arrangements with other agencies, governments, public or private organizations.",
-      "uuid": "f30132f9-14e0-5342-8f14-0cdeda70ac09"
+      "uuid": "77d6aac2-4d98-5fb3-9fc9-f55f4a0afc8e"
     },
     {
       "value": "contracts-rights",
       "expanded": "Contracts Rights",
       "description": "Information relating to moral or legal entitlement to have or do something.",
-      "uuid": "746c6fae-4ef7-5ce3-be1b-5544736dd5be"
+      "uuid": "6aca5802-09be-5318-87d6-ac0c8be70c9c"
     },
     {
       "value": "contracts-obligation",
       "expanded": "Contracts Obligation",
       "description": "Information which is held by an organisation which relates to its obligations.",
-      "uuid": "4085592c-f2c1-5277-8faa-ebd6b3ac8364"
+      "uuid": "321233e7-6c4d-5cfc-a85e-3161eb7139d9"
     },
     {
       "value": "contracts-jurisdiction",
       "expanded": "Contracts Jurisdicrion",
       "description": "nformation about political and geographical areas in which an organisation operates.",
-      "uuid": "d3b007eb-1f71-5182-a944-bcd95052ef0b"
+      "uuid": "94256fdf-6278-5c74-9a49-1abb27378dfa"
     },
     {
       "value": "controls-risk-governance",
       "expanded": "Controls Risk Governance",
-      "uuid": "39ed3342-4daa-54eb-9107-65290c7de635"
+      "uuid": "de00f174-423d-5fb8-96bf-f0762d8176c5"
     }
   ],
   "values": [
@@ -122,13 +122,13 @@
           "value": "capital",
           "expanded": "Capital",
           "description": "Detailed information relating to capital budget planning.",
-          "uuid": "6c1f2055-2bf1-555d-b17d-641cf167c1ff"
+          "uuid": "4a01e63b-73a8-57e9-a554-24a58c063f25"
         },
         {
           "value": "operating",
           "expanded": "Operating",
           "description": "Detailed information relating to operational budget planning.",
-          "uuid": "2d7523ba-d6c5-5559-bfe9-d460d30202c1"
+          "uuid": "73ea0f9e-8c0e-520c-8fd7-43ded1b77a53"
         }
       ]
     },
@@ -139,43 +139,43 @@
           "value": "strategic-directive",
           "expanded": "Strategic Directive",
           "description": "Detailed information relating to planning of strategic or organisational directives.",
-          "uuid": "a1451e3a-52b3-5367-abf7-90b46939d0a9"
+          "uuid": "4549c038-9de6-56e3-a9ce-eb6f5e330b98"
         },
         {
           "value": "strategic-goal",
           "expanded": "Strategic Goal",
           "description": "Detailed information relating to strategic and organisational goals, such as key learning, key results, targets, and others.",
-          "uuid": "cfa5664b-4c63-5c40-afd4-71782e7244ee"
+          "uuid": "43aedc0d-e0c2-5972-8b93-cb01f294de04"
         },
         {
           "value": "strategic-objective",
           "expanded": "Strategic Objective",
           "description": "Detailed information relating to strategic and organisational objectives, such as KPIs.",
-          "uuid": "12fb837f-3779-5a53-89da-4e1f7e150313"
+          "uuid": "0725bb48-2b5d-5e39-a677-a9b42ea96c94"
         },
         {
           "value": "strategic-outcome",
           "expanded": "Strategic Outcome",
           "description": "Detailed information relating to strategic business outcomes.",
-          "uuid": "5ddbddf1-8b76-5295-a531-de79ad36fd62"
+          "uuid": "730d0df5-b96f-5bc0-8680-b826dd716bf9"
         },
         {
           "value": "road-map",
           "expanded": "Road Map",
           "description": "Detailed information relating to strategic business road maps.",
-          "uuid": "96282a48-0eb4-5881-981d-b524ab5c32ed"
+          "uuid": "bb67cd82-8b8f-5a9c-ae71-7597a874d982"
         },
         {
           "value": "challenge",
           "expanded": "Challenge",
           "description": "Detailed information relating to strategic and organisational challenges.",
-          "uuid": "22e3a63a-c1ce-5303-a6b2-2522ff4a259f"
+          "uuid": "b0080e30-4cfc-59f2-bbc7-13c13e23069f"
         },
         {
           "value": "opportunity",
           "expanded": "Opportunity",
           "description": "Detailed information relating to strategic and organisational opportunities.",
-          "uuid": "38827835-94bc-5b4f-a54c-2271c9b94cbc"
+          "uuid": "b45db447-039a-50e7-9c88-46208a71b0bf"
         }
       ]
     },
@@ -186,49 +186,49 @@
           "value": "activity",
           "expanded": "Activity",
           "description": "Detailed information relating to planning of activities.",
-          "uuid": "aefc821a-09bb-58ab-a170-b5ce4cbc5e5d"
+          "uuid": "14fb3057-89fe-5b52-be0b-eb9b10a8f61c"
         },
         {
           "value": "campaign",
           "expanded": "Campaign",
           "description": "Detailed information relating to planned campaigns.",
-          "uuid": "03011d47-4ff5-592f-9e98-2cdf7bf9a75f"
+          "uuid": "1f18b17f-b1e3-571e-8804-b22c81176c56"
         },
         {
           "value": "care",
           "expanded": "Care",
           "description": "Detailed information relating to planning of activities for an individual to achieve an outcome (PDP).",
-          "uuid": "5fae5c7a-6084-561d-b56e-d5836044cb66"
+          "uuid": "6a1e59d7-4e57-5b8a-9ba7-b9960ebfa444"
         },
         {
           "value": "programme",
           "expanded": "Programme",
           "description": "Detailed information relating to programmes plans.",
-          "uuid": "9210a2ea-0311-52f2-961d-323c535bcc4b"
+          "uuid": "c7edbe69-72e7-5b99-8436-4c98b75f66fb"
         },
         {
           "value": "project",
           "expanded": "Project",
           "description": "Detailed information relating to project plans.",
-          "uuid": "8fdde589-b422-5a26-9ca4-89c45465bb20"
+          "uuid": "e39b2e03-0caa-5a05-9bc4-d37c97661fcb"
         },
         {
           "value": "roster",
           "expanded": "Roster",
           "description": "Detailed information relating to rosters.",
-          "uuid": "d65a4bc0-358e-5c6c-af8a-55ff763e5232"
+          "uuid": "dfa25d4f-5f9c-5e05-867f-c85609df25e1"
         },
         {
           "value": "schedule",
           "expanded": "Schedule",
           "description": "Detailed information relating to schedules.",
-          "uuid": "4ef2853e-5edd-578e-89d8-500237815587"
+          "uuid": "343a259a-4b0a-5dd6-bf49-24c6d0f4f6ea"
         },
         {
           "value": "task",
           "expanded": "Task",
           "description": "Detailed information relating to planning of tasks.",
-          "uuid": "634be714-6742-5e41-9081-a5e33c7228a3"
+          "uuid": "37576f3c-2863-5f14-9c85-3a9a899cf042"
         }
       ]
     },
@@ -239,25 +239,25 @@
           "value": "input",
           "expanded": "Input",
           "description": "Detailed information relating to input measurements.",
-          "uuid": "b1e9de66-9ce1-51df-b9ff-68b8124ad29b"
+          "uuid": "0eb42a83-eeb1-55d8-9027-95aa1ade8433"
         },
         {
           "value": "output",
           "expanded": "Output",
           "description": "Detailed information relating to output measurements.",
-          "uuid": "0577998a-aa9d-5bc0-9a8a-7f6fbc8090b4"
+          "uuid": "63f8018d-4dd1-569a-92cb-128aaea8d738"
         },
         {
           "value": "performance",
           "expanded": "Performance",
           "description": "Detailed information regarding the performance of an individual, group, organization, system or component.",
-          "uuid": "c30f1ac0-1530-5632-8931-49715d82510a"
+          "uuid": "0cfec938-2aa8-50c1-a1a4-8056ecdc5af3"
         },
         {
           "value": "benefit",
           "expanded": "Benefit",
           "description": "Detailed information regarding the benefits of individual, group, organization, system or component.",
-          "uuid": "6d9494a4-83b6-518f-9e6e-f1ded613aeda"
+          "uuid": "fffc718b-40d6-5e54-9eb9-0684fd2f2a4c"
         }
       ]
     },
@@ -268,37 +268,37 @@
           "value": "consequence",
           "expanded": "Consequence",
           "description": "Detailed information relating to consequences of a risk.",
-          "uuid": "e119aebc-7b24-58e0-85be-f3f22adeab5a"
+          "uuid": "11f94103-e377-55ae-ba94-6e6b016d989c"
         },
         {
           "value": "hazard",
           "expanded": "Hazard",
           "description": "Detailed information relating to risk hazards.",
-          "uuid": "80faccce-45b0-5076-ba18-68d48db4d42c"
+          "uuid": "cf29b70b-a210-5ddc-a10c-dcbdcc8fbcc7"
         },
         {
           "value": "likelihood",
           "expanded": "Likelihood",
           "description": "Detailed information relating to likelihood of a risk.",
-          "uuid": "d71c36e0-a892-5b71-9efe-1c10393949d8"
+          "uuid": "3aef6d40-9d69-5376-8e67-6029601cda7a"
         },
         {
           "value": "mitigation",
           "expanded": "Mitigation",
           "description": "Detailed information relating to risk mitigation.",
-          "uuid": "3b705f4f-0515-5d3a-9ba6-f250441814a7"
+          "uuid": "7b471b20-7af8-5b25-8139-d5c3affd7a4f"
         },
         {
           "value": "influence",
           "expanded": "Influence",
           "description": "Detailed information relating to influences that can impact the organisation's operations, strategic goals, outcomes, etc.",
-          "uuid": "ac4b0031-2346-574f-81c2-6000fa25aadc"
+          "uuid": "b7b564cf-ff34-5fe5-b095-de253e727098"
         },
         {
           "value": "disruption",
           "expanded": "Disruption",
           "description": "Detailed information relating to disruptions that can impact the organisation's operations, objectives, goals, outcomes, etc.",
-          "uuid": "c7b6f9e4-818e-500d-9489-14305d4f95dd"
+          "uuid": "8a0ac6ad-4508-58c6-8d2b-4c56837df9d6"
         }
       ]
     },
@@ -309,19 +309,19 @@
           "value": "functional-requirement",
           "expanded": "Functional Requirement",
           "description": "Detailed information relating to functional requirements.",
-          "uuid": "e45423c5-a1b8-568a-9b27-c2bc9e6934ab"
+          "uuid": "7d84334a-0b52-5056-9881-9b5ea266ec9e"
         },
         {
           "value": "non-functional-requirement",
           "expanded": "Non-Functional Requirement",
           "description": "Detailed information relating to non-functional requirements.",
-          "uuid": "f1ac15ff-e709-5040-a059-6abb9b180515"
+          "uuid": "9cf99907-8019-5d04-afcd-93d1ebcb4288"
         },
         {
           "value": "design",
           "expanded": "Design",
           "description": "Detailed information relating to solution designs.",
-          "uuid": "cb7ecd4b-73d5-5507-8058-471ba5ecb892"
+          "uuid": "55e64b45-1dcd-5b93-8f41-59ebbccf9e06"
         }
       ]
     },
@@ -332,67 +332,67 @@
           "value": "convention",
           "expanded": "Convention",
           "description": "Detailed information relating to conventions, which are general agreements about basic principles or procedures.",
-          "uuid": "a8e2e953-27e1-5860-a820-2ebf7124237e"
+          "uuid": "8ecdfa32-7280-5e67-bc76-85f55d5940b2"
         },
         {
           "value": "guideline",
           "expanded": "Guideline",
           "description": "Detailed information relating to guidelines, which are principles put forward to set standards or determine a course of action. For example guidelines on tax reform.",
-          "uuid": "886e2bdc-120a-53b6-9b00-74acafa74d43"
+          "uuid": "5176f46e-7bd6-5f08-a8b7-ef324539bb46"
         },
         {
           "value": "policy",
           "expanded": "Policy",
           "description": "Detailed information relating to policies. A policy is a plan or course of action intended to influence and determine decisions, actions, and other matters.",
-          "uuid": "6790d66c-f857-5dc7-bc4d-cc8ef299babb"
+          "uuid": "06b85ea7-0dea-576c-92d4-10cd579269e9"
         },
         {
           "value": "principle",
           "expanded": "Principle",
           "description": "Detailed information relating to principles, which are accepted rules or actions on conduct.",
-          "uuid": "3cb1f909-599d-5af5-940f-98e621d631cb"
+          "uuid": "a527eae0-ec4c-530f-b352-f005e1c6dc23"
         },
         {
           "value": "standard",
           "expanded": "Standard",
           "description": "Detailed information relating to standards, which are accepted or approved examples of something against which people, processes, items are measured.",
-          "uuid": "cdd0168d-65c5-57c9-a010-cc003babdab6"
+          "uuid": "fe92ff46-ad7f-543c-bff9-50ccfc1ae62f"
         },
         {
           "value": "procedure",
           "expanded": "Procedure",
           "description": "Detailed information relating to procedures. A procedure is a series of steps taken to accomplish an end.",
-          "uuid": "09566d6c-53b3-58da-9902-1f3aa924cccd"
+          "uuid": "f2b214ad-30e7-5e58-8982-7a0b788032af"
         },
         {
           "value": "process",
           "expanded": "Process",
           "description": "Detailed information relating to processes. A process is a series of operations performed in the making or treatment of a product.",
-          "uuid": "e8eb7267-d122-50ae-b4eb-46a928a49175"
+          "uuid": "735fe68b-ed5c-581f-8022-274f4cdefdc9"
         },
         {
           "value": "capability",
           "expanded": "Capability",
           "description": "Detailed information relating to capabilities; capacity to be used, treated, or developed for a specific purpose.",
-          "uuid": "aff554ff-7187-5c7a-a87b-6fa88dfd15f9"
+          "uuid": "d62c9633-a58d-54e5-8a3b-ee174740d94d"
         },
         {
           "value": "rule",
           "expanded": "Rule",
           "description": "Detailed information relating to rules.",
-          "uuid": "40cb7517-ac9f-51af-8643-aa2ebfb04872"
+          "uuid": "e4587282-d3d0-5261-967c-52dd7d4fdcd6"
         },
         {
           "value": "exception",
           "expanded": "Exception",
           "description": "Detailed information around anything excluded from or not in conformance with a general rules, principles, regulations, etc.",
-          "uuid": "adcd650f-656d-51cd-b77e-4e86685cf742"
+          "uuid": "3324ac28-e321-524a-b43d-939d9b0a07cf"
         },
         {
           "value": "scope-of-use",
           "expanded": "Scope of Use",
           "description": "Detailed information around the scope of use of assets.",
-          "uuid": "df10c9e3-f898-5afa-b86e-6b2070011b30"
+          "uuid": "4cb99238-dd5f-5f2b-b656-7dfc68ed11e7"
         }
       ]
     },
@@ -403,43 +403,43 @@
           "value": "financial-asset",
           "expanded": "Financial Asset",
           "description": "Detailed information relating to the financial control of assets.",
-          "uuid": "c1ff80c5-eae3-54aa-a35d-eaf99d146cc8"
+          "uuid": "853a14e3-dac5-56e4-84bc-74eec3291827"
         },
         {
           "value": "equity",
           "expanded": "Equity",
           "description": "Detailed information relating to the financial control of equities, monetary value of a property or business beyond any amounts owed on it in mortgages, claims, liens, etc.",
-          "uuid": "ac80a242-bbf8-5c8d-97f8-b88d9a9cdd67"
+          "uuid": "7c71e0e2-4f5b-50ad-8547-055fcd356d77"
         },
         {
           "value": "expense",
           "expanded": "Expense",
           "description": "Detailed information relating to the financial control of expenses. An expense is a cost of something, such as time or labour, necessary for the attainment of a goal.",
-          "uuid": "e47c88f6-b43f-5ea6-b300-c48393080b1c"
+          "uuid": "7dc970bc-c0fd-534f-b394-21cf4ee7a572"
         },
         {
           "value": "fee",
           "expanded": "Fee",
           "description": "Detailed information relating to the financial control of fees; a fixed sum charged, as by an institution or by law, for a privilege: a license fee; tuition fees. Also a charge for professional services: a surgeon's fee.",
-          "uuid": "45c4e3de-8d83-56c0-b7a5-284e130325a4"
+          "uuid": "a0127ace-e09d-5f07-83c1-9bdf28f4ef39"
         },
         {
           "value": "income",
           "expanded": "Income",
           "description": "Detailed information relating to the financial control of income.",
-          "uuid": "9693fcfc-1a29-5a24-9a84-994776312de4"
+          "uuid": "8b218991-36b8-5a08-8415-a3ab754eb5a4"
         },
         {
           "value": "financial-liability",
           "expanded": "Financial Liability",
           "description": "Detailed information relating to financial obligations entered in the balance sheet of the organisation.",
-          "uuid": "806b5c09-41b6-56bc-9e98-8faada698c8f"
+          "uuid": "e89babdb-3aed-5723-8fe9-993dddc970ca"
         },
         {
           "value": "acquisition-method",
           "expanded": "Acquisition Method",
           "description": "Detailed information relating to acquisition methods. An acquisition method defines the method by which assets are acquired.",
-          "uuid": "a8ef0ac7-910c-55bf-bf88-7b601f2fd69f"
+          "uuid": "6cc14f2d-b18d-5f75-ac3e-aed778e930c5"
         }
       ]
     },
@@ -450,19 +450,19 @@
           "value": "best-practice",
           "expanded": "Best Practice",
           "description": "Detailed information relating to endorsed or recommended industry practices.",
-          "uuid": "1ef3603b-6a5c-5d28-a5fa-05e7df266018"
+          "uuid": "639f7906-5ecf-50e8-ae1f-abe6b57ff736"
         },
         {
           "value": "regulation",
           "expanded": "Regulation",
           "description": "Detailed information relating to endorsed or recommended industry specific regulations, rules of behaviour and procedure.",
-          "uuid": "67085ef5-3303-572d-9384-0e5987632828"
+          "uuid": "2301ebc1-8975-58f8-80d8-99b3d05b28b7"
         },
         {
           "value": "terminology",
           "expanded": "Terminology",
           "description": "Detailed information of defined sets of concepts and related terms, including definitions and usage guidelines, and the industry-specific business context within which they are to be used.",
-          "uuid": "77e12e14-d201-5af4-9769-810a1ba439ba"
+          "uuid": "e6771747-d4cb-5ff5-a77d-fb42cca37651"
         }
       ]
     },
@@ -473,13 +473,13 @@
           "value": "enforced-rules",
           "expanded": "Enforced Rules",
           "description": "Detailed information relating to enforced rules around chosen or legacy systems, i.e. Windows policies.",
-          "uuid": "17dd1364-7638-56ad-b0dd-792003df505e"
+          "uuid": "a618db82-8586-5f4c-ba49-120e987fe344"
         },
         {
           "value": "constraints",
           "expanded": "Constraints",
           "description": "Detailed information relating to technical constraints imposed by a chosen or legacy technology.",
-          "uuid": "524a02e4-8ee0-5bb4-ac0b-a40cd7716ed7"
+          "uuid": "ccb61235-36d1-5f99-a714-a50a988555c4"
         }
       ]
     },
@@ -490,25 +490,25 @@
           "value": "common-law",
           "expanded": "Common Law",
           "description": "Detailed information relating to common laws A common law is established by court decisions rather than by statutes enacted by legislatures.",
-          "uuid": "41b4ff78-c4c9-54ef-93cc-989f207dd991"
+          "uuid": "ffcf63f0-4ca4-509f-84ff-adb9bacbceac"
         },
         {
           "value": "legislative-instrument",
           "expanded": "Legislative Instrument",
           "description": "Detailed information relating to legislation, which are laws enacted by a legislative body.",
-          "uuid": "5292f49f-e18d-5349-b0b9-85a61e228afd"
+          "uuid": "de41d7ca-3770-5f2a-b7fa-298c68eb1cc6"
         },
         {
           "value": "act",
           "expanded": "Act",
           "description": "Detailed information relating to Acts.",
-          "uuid": "6b7d7a71-7c38-5266-bbac-004e267789ee"
+          "uuid": "bce483f6-878a-53b3-beb3-2aa37befe4d3"
         },
         {
           "value": "cabinet-minute",
           "expanded": "Cabinet Minute",
           "description": "Detailed information relating to Cabinet minutes.",
-          "uuid": "e5c34f3d-c498-5459-bd45-924fabbddbc5"
+          "uuid": "b81daf50-3c5e-5448-9fbb-ed91ebd38ec5"
         }
       ]
     },
@@ -519,7 +519,7 @@
           "value": "personal-directive",
           "expanded": "Personal Directive",
           "description": "Detailed information relating to directives of an individual, such as release of personal information, advance care directive.",
-          "uuid": "3bf0b546-62ff-5e96-9e4a-50ed8ebec980"
+          "uuid": "f8e3c9a6-60a5-5509-9a4a-dd45532f3436"
         }
       ]
     },
@@ -530,55 +530,55 @@
           "value": "memorandum-of-understanding",
           "expanded": "Memorandum of Understanding",
           "description": "Detailed information relating to terms of agreement, not the legal instrument.",
-          "uuid": "902eb8bb-c469-590d-ad78-9bffbfef27f3"
+          "uuid": "42320b89-89be-561c-b67c-9b58efdc1b19"
         },
         {
           "value": "offer",
           "expanded": "Offer",
           "description": "Detailed information relating to offers, such as proposals, quotes, and others.",
-          "uuid": "6d83c72c-01db-5df5-982f-de5ee788604d"
+          "uuid": "706dc166-d241-56e7-ba6b-1c80d94c2ccd"
         },
         {
           "value": "order",
           "expanded": "Order",
           "description": "Detailed information relating to orders, official request to be made, supplied, or served.",
-          "uuid": "58161cc9-6110-540b-81b0-fd647b1c2a1d"
+          "uuid": "8610cc03-cbcb-54d7-9ece-c85479c239b9"
         },
         {
           "value": "agreement",
           "expanded": "Agreement",
           "description": "Detailed information relating to Service level Agreements (SLA), Master Service Agreements (MSA), Statement of Work (SoW), Purchase Agreement (PA), etc.",
-          "uuid": "eabc14b6-b42c-5d80-80b7-d7e7fa7aab3e"
+          "uuid": "747453fb-9831-5824-b5ea-85122be8ef57"
         },
         {
           "value": "request",
           "expanded": "Request",
           "description": "Detailed information relating to requests, such as request for information, request for assistance, etc.",
-          "uuid": "33c324db-9081-51be-a44a-f96e1012dfa7"
+          "uuid": "ede96c20-d8e1-5907-a490-92d777e0f6ba"
         },
         {
           "value": "confidentiality",
           "expanded": "Confidentiality",
           "description": "Detailed information relating to confidentiality, such as commercial-in-confidence (CIC), non-disclosure, privacy, and other",
-          "uuid": "83e122d6-0b57-567b-8c3a-73bf2dd4c436"
+          "uuid": "c6b80b99-9b39-5c4c-a070-bb58643c8fc9"
         },
         {
           "value": "employment",
           "expanded": "Employment",
           "description": "Detailed information relating to employment contracts.",
-          "uuid": "f81b99ac-0ff0-5a43-acc3-2737e42b864c"
+          "uuid": "b2f2fa62-06e7-58fb-b44b-770b6cb83474"
         },
         {
           "value": "service",
           "expanded": "Service",
           "description": "Detailed information relating to service contracts.",
-          "uuid": "af7f2116-c55d-53ca-bcf0-a1eaa13b8b2c"
+          "uuid": "89318bc5-ad9a-57f8-97cd-d9052a9bdd27"
         },
         {
           "value": "supply",
           "expanded": "Supply",
           "description": "Detailed information relating to supply contracts.",
-          "uuid": "fc2c6d01-edf9-52e4-9af4-71e75b9c024f"
+          "uuid": "26222aee-c23a-5dc8-a2ad-59f15a0c104d"
         }
       ]
     },
@@ -589,49 +589,49 @@
           "value": "eligibility",
           "expanded": "Eligibility",
           "description": "Detailed information related to eligibilities (fit or proper to be chosen; worthy of choice; desirable).",
-          "uuid": "c62feb5a-f3f5-50d4-8cb8-6b3a713409ef"
+          "uuid": "dbb9ca3a-cad1-5c83-a480-06ae05a373aa"
         },
         {
           "value": "credits",
           "expanded": "Credits",
           "description": "Detailed information relating to credit rights like account receivable, e. i. a legally enforceable claim for payment held by a business against its customer/clients for goods supplied and/or services rendered in execution of the customer's order.",
-          "uuid": "20ebc62c-038c-5106-abaf-96185f206791"
+          "uuid": "f2e65580-7143-5186-b6f6-bae51c06f79f"
         },
         {
           "value": "access-right",
           "expanded": "Access Right",
           "description": "Detailed information related to access rights to facilities, services, processes, information, etc.",
-          "uuid": "3653d7b1-46e7-5152-92f4-f490b25e5829"
+          "uuid": "ed938f7d-b891-5674-8cb7-8c5add4e508b"
         },
         {
           "value": "authorisation",
           "expanded": "Authorisation",
           "description": "Detailed information related to authorisation, e. i. right to give orders or make decisions.",
-          "uuid": "b44bbe5f-8742-5299-a4a2-ac00c5d53e01"
+          "uuid": "269320d9-22ce-5037-927e-61da19fbd510"
         },
         {
           "value": "human-right",
           "expanded": "Human Right",
           "description": "Detailed information related to human rights.",
-          "uuid": "027814de-16f0-5f74-bb3a-13070f3dde69"
+          "uuid": "80f643bb-3627-5cd0-b65a-ce27491fd423"
         },
         {
           "value": "employment-right",
           "expanded": "Employment Right",
           "description": "Detailed information related to employment rights. New Zealand has a comprehensive set of employment laws that help keep workplaces fair.",
-          "uuid": "333ed2f4-22e7-5776-a43a-44b0085889ca"
+          "uuid": "0da03339-5435-581f-ac3b-881ed6892ee8"
         },
         {
           "value": "property-right",
           "expanded": "Property Right",
           "description": "Detailed information related to property rights.",
-          "uuid": "a27a1611-2a1e-5741-a8fe-2d4f05c3abab"
+          "uuid": "dca87f3b-1fb2-5be8-b60f-d565d6ee0a7e"
         },
         {
           "value": "consumer-right",
           "expanded": "Consumer Right",
           "description": "Detailed information related to consumer rights.",
-          "uuid": "0c4d6570-a45c-5f2f-8f2c-18653ad93720"
+          "uuid": "e8e3a0c0-3abd-5fd4-b24b-92998c522d8e"
         }
       ]
     },
@@ -642,61 +642,61 @@
           "value": "duty-of-care",
           "expanded": "Duty of Care",
           "description": "Detailed information relating to the obligations of duty of care.",
-          "uuid": "a61c2655-0cb9-5657-8d2e-48b85d259eeb"
+          "uuid": "3f4d044e-b9b2-55af-bcc0-8ad714f80e5b"
         },
         {
           "value": "fitness-for-purpose",
           "expanded": "Fitness for Purpose",
           "description": "Detailed information relating to something that is good enough to do the job it was designed to do.",
-          "uuid": "8687edf0-fa94-56be-a346-3fdbf08bd20e"
+          "uuid": "7524560b-279c-5b74-924c-00aefef6297b"
         },
         {
           "value": "warranty",
           "expanded": "Warranty",
           "description": "Detailed information relating to warranties.",
-          "uuid": "9e980217-db2b-59d2-adb7-5011cf391409"
+          "uuid": "d79281de-b1c3-597e-9eb5-ab4986e9249b"
         },
         {
           "value": "privacy",
           "expanded": "Privacy",
           "description": "Detailed information relating to privacy obligations.",
-          "uuid": "7d64f16f-20c4-5c36-aeec-c6eedcd34924"
+          "uuid": "2a5d7961-68bd-58c1-b90e-23b4b5ceb3d1"
         },
         {
           "value": "truthfulness",
           "expanded": "Truthfulness",
           "description": "Detailed information relating to the obligation to be truthful.",
-          "uuid": "77f64603-8efc-5b12-b468-d0f70c8e910c"
+          "uuid": "ba208b82-8e8a-5ada-af60-f380029d4a02"
         },
         {
           "value": "enforce-the-law",
           "expanded": "Enforce the Law",
           "description": "Detailed information relating to the obligation to enforce laws and regulations.",
-          "uuid": "b281c59c-ec5a-54cc-a915-cd990156506c"
+          "uuid": "9a2a56e3-5d6a-52b6-8bd2-253a52ce19f9"
         },
         {
           "value": "obey-the-law",
           "expanded": "Obey the Law",
           "description": "Detailed information relating to the obligation to obey laws and regulations.",
-          "uuid": "18bca410-282c-5281-b985-ddad9ecdfe72"
+          "uuid": "50e67360-d926-534c-91f3-e2203ae26b71"
         },
         {
           "value": "account-payable",
           "expanded": "Account Payable",
           "description": "Detailed information related to account payables or billable, i.e. money which an agency owes to vendors for products and services purchased on credit.",
-          "uuid": "2c9f3a45-e50a-5c9d-b8a0-d87ae892aaf0"
+          "uuid": "359e92fb-547d-5d82-a049-7a2ef23b4f95"
         },
         {
           "value": "enforce-rules",
           "expanded": "Enforce Rules",
           "description": "Detailed information relating to the obligation to enforce rules, like organisational rules, educational rules, industrial rules, etc.",
-          "uuid": "f9764b72-33fa-5677-bc7c-7fd56ed25da9"
+          "uuid": "aef51202-9950-5c1b-9445-a3a919bd5936"
         },
         {
           "value": "obey-rules",
           "expanded": "Obey Rules",
           "description": "Detailed information relating to the obligation to obey rules, like organisational rules, educational rules, industrial rules, etc.",
-          "uuid": "9b9db8e1-84a6-5b5f-acb3-a94cce10201e"
+          "uuid": "9aab4bb0-404a-5a5c-a21d-b9efe4ec21af"
         }
       ]
     },
@@ -707,31 +707,31 @@
           "value": "national",
           "expanded": "National",
           "description": "Detailed information relating to national jurisdictions.",
-          "uuid": "c70e2e6a-8b2b-5bbe-8195-3e153c8366cf"
+          "uuid": "6dc6de2b-fa9c-50e1-bf11-84ad004384ed"
         },
         {
           "value": "international",
           "expanded": "International",
           "description": "Detailed information relating to international jurisdictions.",
-          "uuid": "8ac77bfd-5ebc-5cae-a554-baa131748af6"
+          "uuid": "1d89c7ce-4185-5f41-a1b0-3affe4b5f0f0"
         },
         {
           "value": "local",
           "expanded": "Local",
           "description": "Detailed information relating to local jurisdictions.",
-          "uuid": "ec70e78e-9857-5212-ac2d-210ea395f6f5"
+          "uuid": "f1e2d556-6fb6-5d4c-bd6b-4c8a691737dc"
         },
         {
           "value": "political",
           "expanded": "Political",
           "description": "Detailed information relating to political jurisdictions.",
-          "uuid": "80da0be7-6347-51bf-97e9-2e5dfaeaae8a"
+          "uuid": "c1ce745a-766e-5c0f-ab65-87b5449e2511"
         },
         {
           "value": "regional",
           "expanded": "Regional",
           "description": "Detailed information relating to regional jurisdictions.",
-          "uuid": "20e379d3-a39f-540b-9793-f102c8fd5e9c"
+          "uuid": "9f288820-b36d-536a-a2a6-cc3855edf3ba"
         }
       ]
     },
@@ -741,35 +741,35 @@
         {
           "value": "residual",
           "expanded": "Residual",
-          "uuid": "5f2aac53-ed54-5ab0-93a5-604f1fc4e417"
+          "uuid": "9ba53eed-4cb7-5329-b442-bcecaa8de47d"
         },
         {
           "value": "acceptance",
           "expanded": "Acceptance",
-          "uuid": "9f25acb3-f5b1-5209-aa3c-25b45743d608"
+          "uuid": "7f66629f-7729-5e08-ab01-f437fce6283b"
         },
         {
           "value": "analysis",
           "expanded": "Analysis",
-          "uuid": "6cf1e48b-bd11-53cd-ac12-687506241b0b"
+          "uuid": "4285127f-6690-5c4a-bb0c-4f64844eb7b4"
         },
         {
           "value": "assessement",
           "expanded": "Assessement",
-          "uuid": "cdf45edb-bcab-591e-b990-45086ecbcda5"
+          "uuid": "c7377b28-4067-5f70-9a3e-32da38fe4001"
         },
         {
           "value": "management",
           "expanded": "Management",
-          "uuid": "2572895f-a7c2-5ac2-ae93-65d848525e19"
+          "uuid": "8b4a9adb-599d-5398-a43d-f867e83e13b4"
         },
         {
           "value": "treatment",
           "expanded": "Treatment",
-          "uuid": "4861b131-f8b2-5ad3-8a3f-51d7209dcf45"
+          "uuid": "d3895243-6858-5bb7-a02f-5c6c07f98467"
         }
       ]
     }
   ],
-  "uuid": "90bd2242-71e5-5df1-bce2-997074c4d80a"
+  "uuid": "14d2b224-8189-5a31-84a5-5c6a548d968a"
 }

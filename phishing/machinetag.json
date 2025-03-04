@@ -7,51 +7,51 @@
       "value": "techniques",
       "expanded": "Techniques",
       "description": "Phishing techniques used.",
-      "uuid": "8bc954ad-a7d3-5d87-87cb-b8be663c2e93"
+      "uuid": "c413c421-251a-5f34-a969-75b756407856"
     },
     {
       "value": "distribution",
       "expanded": "Distribution",
       "description": "How the phishing is distributed.",
-      "uuid": "b16e473f-85a3-53bf-9d8b-fcf0513fbb97"
+      "uuid": "67a5f6d2-aafa-5959-9e3e-59c39b09e7e9"
     },
     {
       "value": "report-type",
       "expanded": "Report type",
       "description": "How the phishing information was reported.",
-      "uuid": "52c2ae01-e533-584f-9efa-ba4d56e5bba8"
+      "uuid": "f8b29f4f-7ea5-5529-a4b0-f353a89c928f"
     },
     {
       "value": "report-origin",
       "expanded": "Report origin",
       "description": "Origin or source of the phishing information such as tools or services.",
-      "uuid": "a5d78149-857a-5759-83ab-60058cee2d96"
+      "uuid": "6763cbe2-9a88-592b-a0eb-3954863931da"
     },
     {
       "value": "action",
       "expanded": "Action",
       "description": "Action(s) taken related to the phishing tagged with this taxonomy.",
-      "uuid": "7c71edf9-b769-53cf-948b-f104dfc7e131"
+      "uuid": "cc7d0c34-06c7-51ba-931f-ed633527ec56"
     },
     {
       "value": "state",
       "expanded": "State",
       "description": "State of the phishing.",
       "exclusive": true,
-      "uuid": "20f97cfa-a739-5e71-9c18-eaea8225f832"
+      "uuid": "c15a194e-f083-5666-ba44-60dd54a6438c"
     },
     {
       "value": "psychological-acceptability",
       "expanded": "Psychological acceptability",
       "description": "Quality of the phishing by its level of acceptance by the target.",
       "exclusive": true,
-      "uuid": "309542c4-2cdf-5768-8552-dc5609cd6fe3"
+      "uuid": "d9e38fec-e3a9-51b1-9c22-cb7f007f3762"
     },
     {
       "value": "principle-of-persuasion",
       "expanded": "Principle of Persuasion",
       "description": "The principle of persuasion used during the attack to higher psychological acceptability.",
-      "uuid": "1cfaca91-0d9f-596d-8987-55eca5749e4b"
+      "uuid": "69db03de-f22a-5360-bc98-e23eba8118df"
     }
   ],
   "values": [
@@ -62,43 +62,43 @@
           "value": "fake-website",
           "expanded": "Social engineering fake website",
           "description": "Adversary controls a fake website to phish for credentials or information.",
-          "uuid": "e64ec449-63d5-5354-8ec9-4edf4143a00f"
+          "uuid": "be9574c8-99c4-52d5-ab86-2bfbcae0e82b"
         },
         {
           "value": "email-spoofing",
           "expanded": "Social engineering email spoofing",
           "description": "Adversary sends email with domains related to target. Adversary controls the domains used.",
-          "uuid": "3fbab341-1533-51f6-8e60-704acd389529"
+          "uuid": "ea6417af-f9a6-52e3-a4cf-703141a6fb1d"
         },
         {
           "value": "clone-phishing",
           "expanded": "Clone phishing",
           "description": "Adversary clones an email to target potential victims with duplicated content.",
-          "uuid": "139f5d5d-f6e2-5054-b7da-3fec9bb1d9d7"
+          "uuid": "5f441f55-e7ac-54cb-8608-25e251dd037b"
         },
         {
           "value": "voice-phishing",
           "expanded": "Voice phishing",
           "description": "Adversary uses voice-based techniques to trick a potential victim to give credentials or sensitive information. This is also known as vishing.",
-          "uuid": "dde3d1a9-aea1-5d28-8fa9-13c5ac6c7f07"
+          "uuid": "3f2dd27f-e215-5272-b868-3349d45cdf6f"
         },
         {
           "value": "search-engines-abuse",
           "expanded": "Social engineering search engines abuse",
           "description": "Adversary controls the search engine result to get an advantage",
-          "uuid": "246098fa-6126-5cd6-abac-7a56f14f152b"
+          "uuid": "21774ebf-7df6-5a86-8535-3203436e8234"
         },
         {
           "value": "sms-phishing",
           "expanded": "SMS phishing",
           "description": "Adversary sends an SMS to a potential victims to gather sensitive information or use another phishing technique at a later stage.",
-          "uuid": "32e4a14f-e000-5376-b6cd-0f67ca866d8a"
+          "uuid": "d405071d-e74b-5b4c-8e6f-1952e5574dcd"
         },
         {
           "value": "business email compromise",
           "expanded": "Business Email Compromise",
           "description": "Adversary sends an email containing a malicious artefact from a legitimate business email address which has connections to you as an individual or your organisation.",
-          "uuid": "7c670447-2d0e-5f1f-bd42-6e6e4af08b30"
+          "uuid": "7978362c-88a0-519b-b7c4-2f596b07dbf4"
         }
       ]
     },
@@ -109,19 +109,19 @@
           "value": "spear-phishing",
           "expanded": "Spear phishing",
           "description": "Adversary attempts targeted phishing to a user or a specific group of users based on knowledge known by the adversary.",
-          "uuid": "3507241b-bcb5-5620-a5db-3420b9a77a6e"
+          "uuid": "84491acc-a987-5189-bd88-75b9c824a9ec"
         },
         {
           "value": "bulk-phishing",
           "expanded": "Bulk phishing",
           "description": "Adversary attempts to target a large group of potential targets without specific knowledge of the victims.",
-          "uuid": "073e2b80-b106-5706-b169-6acb679d1bf2"
+          "uuid": "88fe8f3d-7ccd-5abe-8165-a05c24869f7d"
         },
         {
           "value": "whaling",
           "expanded": "Whaling phishing",
           "description": "Adversary attempts to target executives and high-level employees (like public spokespersons).",
-          "uuid": "f5092cbe-e7dc-56d5-b95d-e4d5f1b873d5"
+          "uuid": "1e80b5ed-d10c-5a8d-a7bc-59a4347cf0ee"
         }
       ]
     },
@@ -132,13 +132,13 @@
           "value": "manual-reporting",
           "expanded": "Manual reporting",
           "description": "Phishing reported by a human (e.g. tickets, manual reporting).",
-          "uuid": "85d46b56-9d26-5e7a-a90b-5c00a0ceb6d9"
+          "uuid": "1ee742ce-5438-5c09-a95a-05bce5ea8286"
         },
         {
           "value": "automatic-reporting",
           "expanded": "Automatic reporting",
           "description": "Phishing collected by automatic reporting (e.g. phishing report tool, API).",
-          "uuid": "3eb84282-2b60-51e4-ad7b-b26f1b0744c8"
+          "uuid": "8a3562e1-253b-5902-9abb-1a75d67525aa"
         }
       ]
     },
@@ -149,25 +149,25 @@
           "value": "url-abuse",
           "expanded": "url-abuse",
           "description": "CIRCL url-abuse service.",
-          "uuid": "e31ff7b8-81e0-5d1f-b8ae-3850164fad7d"
+          "uuid": "dc897848-dfdc-5c38-8430-c9739a67efcf"
         },
         {
           "value": "lookyloo",
           "expanded": "lookyloo",
           "description": "CIRCL lookyloo service.",
-          "uuid": "3f02283f-6d8e-50ce-810f-114bb6b732be"
+          "uuid": "626655b1-e5b9-5bfd-96ec-423fb0f9f045"
         },
         {
           "value": "phishtank",
           "expanded": "Phishtank",
           "description": "Phishtank service.",
-          "uuid": "d092f0ec-6c50-5d18-ae5a-02f3836386ab"
+          "uuid": "1cd8813f-0e01-5b53-971a-856af4958443"
         },
         {
           "value": "spambee",
           "expanded": "Spambee",
           "description": "C-3 Spambee service.",
-          "uuid": "6b1383ed-2485-5c94-8a10-3c098f04e7a4"
+          "uuid": "bef5afdc-c810-5089-b011-10c915ad89c2"
         }
       ]
     },
@@ -178,19 +178,19 @@
           "value": "take-down",
           "expanded": "Take down",
           "description": "Take down notification sent to the operator where the phishing infrastructure is hosted.",
-          "uuid": "ed477269-6349-516e-8182-2d30e65eaba3"
+          "uuid": "9a7ca8c5-9a39-5596-ad07-3e6f21d1d7c5"
         },
         {
           "value": "pending-law-enforcement-request",
           "expanded": "Pending law enforcement request",
           "description": "Law enforcement requests are ongoing on the phishing infrastructure.",
-          "uuid": "7ed84b5e-4558-50f3-8ccf-90d151ed1312"
+          "uuid": "5a3b3be3-944b-58f4-bd9a-f65d7c4591bf"
         },
         {
           "value": "pending-dispute-resolution",
           "expanded": "Pending dispute resolution",
           "description": "Dispute resolution sent to competent authorities (e.g. domain authority, trademark dispute).",
-          "uuid": "f389d37a-31de-54b5-8855-d55bc99d58d4"
+          "uuid": "17b3ff23-dc55-50a7-a3eb-a4a2e78a5041"
         }
       ]
     },
@@ -201,19 +201,19 @@
           "value": "unknown",
           "expanded": "Phishing state is unknown or cannot be evaluated",
           "numerical_value": 50,
-          "uuid": "3d946f9e-104c-5a92-ab05-b9c955bce33f"
+          "uuid": "1294b9b3-ce15-5c3b-a0cd-da8ca279342c"
         },
         {
           "value": "active",
           "expanded": "Phishing state is active and actively used by the adversary",
           "numerical_value": 100,
-          "uuid": "da6277f7-32ee-5b63-a74b-8b077aa27be1"
+          "uuid": "b073e23e-8e1a-550d-a271-01c1d60b9562"
         },
         {
           "value": "down",
           "expanded": "Phishing state is known to be down",
           "numerical_value": 0,
-          "uuid": "ff965a3c-8125-5e02-a5f6-877f45b953c2"
+          "uuid": "8e84ee64-1be8-5660-851b-8930d53d87a0"
         }
       ]
     },
@@ -223,25 +223,25 @@
         {
           "value": "unknown",
           "expanded": "Phishing acceptance rate is unknown.",
-          "uuid": "b7b43f0b-66ac-5878-af2f-5c5ef565deef"
+          "uuid": "f29a21a0-b608-5479-9e9e-ec2b1449c3db"
         },
         {
           "value": "low",
           "expanded": "Phishing acceptance rate is low.",
           "numerical_value": 25,
-          "uuid": "e609b876-5930-591b-8902-7cebe10a5840"
+          "uuid": "520cc222-1724-5ce3-be66-279f89d6d18d"
         },
         {
           "value": "medium",
           "expanded": "Phishing acceptance rate is medium.",
           "numerical_value": 50,
-          "uuid": "b977edba-8c13-5425-ad5f-48b3ac3390d6"
+          "uuid": "717df4cf-5ad3-578f-acea-4fa1dc18e7c9"
         },
         {
           "value": "high",
           "expanded": "Phishing acceptance rate is high.",
           "numerical_value": 75,
-          "uuid": "cf360807-fe69-5ede-8f9e-5e5b1d84e089"
+          "uuid": "80fa58c3-7788-5b72-bcdf-f4ca583a8f57"
         }
       ]
     },
@@ -251,30 +251,30 @@
         {
           "value": "authority",
           "expanded": "Society trains people not to question authority so they are conditioned to respond to it. People usually follow an expert or pretense of authority and do a great deal for someone they think is an authority.",
-          "uuid": "4ad97fd0-96e1-51ac-91e9-62e09a47ef24"
+          "uuid": "3457df54-7b90-53ad-806f-430e39d9a827"
         },
         {
           "value": "social-proof",
           "expanded": "People tend to mimic what the majority of people do or seem to be doing. People let their guard and suspicion down when everyone else appears to share the same behaviours and risks. In this way, they will not be held solely responsible for their actions.",
-          "uuid": "96b79647-8c19-5bf2-a241-fc83467955d1"
+          "uuid": "a9282783-9f74-59a4-aa69-0d39914a1b4e"
         },
         {
           "value": "liking-similarity-deception",
           "expanded": "People prefer to abide to whom (they think) they know or like, or to whom they are similar to or familiar with, as well as attracted to.",
-          "uuid": "6c518ddf-c9ca-5315-933f-0f77d7c9f238"
+          "uuid": "11dbd4ae-0665-5abe-96c2-0cab10fc67f6"
         },
         {
           "value": "commitment-reciprocation-consistency",
           "expanded": "People feel more confident in their decision once they commit (publically) to a specific action and need to follow it through until the end. This is true whether in the workplace, or in a situation when their action is illegal. People have tendency to believe what others say and need, and they want to appear consistent in what they do, for instance, when they owe a favour. There is an automatic response of repaying a favour.",
-          "uuid": "f719cb87-9ba9-57e6-add8-c6e315a1ab64"
+          "uuid": "7c287b94-0718-54bd-bf50-37e04742be56"
         },
         {
           "value": "distraction",
           "expanded": "People focus on one thing and ignore other things that may happen without them noticing; they focus attention on what they can gain, what they need, what they can lose or miss out on, or if that thing will soon be unavailable, has been censored, restricted or will be more expensive later. These distractions can heighten people’s emotional state and make them forget other logical facts to consider when making decisions.",
-          "uuid": "eff35daf-0d9e-5604-a6a8-795960598285"
+          "uuid": "fd5a1782-5621-56a9-88bb-b737da2b0c01"
         }
       ]
     }
   ],
-  "uuid": "be573cff-69f1-5cd6-b390-41436ad659cf"
+  "uuid": "3dee20a7-fadb-52c7-80cf-c67280257ec2"
 }

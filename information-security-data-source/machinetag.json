@@ -10,55 +10,55 @@
       "value": "type-of-information",
       "expanded": "Type of information",
       "description": "Type of provided information",
-      "uuid": "cf88213e-c593-5873-aa84-b2ca97d81099"
+      "uuid": "8fb2d934-10de-56cd-9454-005bdaf7aa8a"
     },
     {
       "value": "originality",
       "expanded": "Originality",
       "description": "Originality and novelty of the provided information",
-      "uuid": "11f72071-7704-56c8-8776-daf3c0ed449f"
+      "uuid": "716e2229-f8cb-5f95-a34f-df3cb4f3af75"
     },
     {
       "value": "timeliness-sharing-behavior",
       "expanded": "Timeliness sharing behavior",
       "description": "Timeliness of the provided information",
-      "uuid": "08a3f808-2257-503e-a340-89d1eb423c66"
+      "uuid": "5a3a3cd2-6ddf-5bbf-a605-cee0224f2ecd"
     },
     {
       "value": "integrability-format",
       "expanded": "Integrability format",
       "description": "Level of integrability format for the provided information",
-      "uuid": "5b585568-9a44-5bc2-b10a-c937509e098f"
+      "uuid": "1f0bc92b-7373-5356-9f6a-e26767f51145"
     },
     {
       "value": "integrability-interface",
       "expanded": "Integrability interface",
       "description": "Level of integrability interface for the provided information",
-      "uuid": "e7f1de87-59fe-50b0-b2e5-e20d27991a7e"
+      "uuid": "032ff3ca-b981-54c6-a27b-e51c5a6d4040"
     },
     {
       "value": "trustworthiness-creditabilily",
       "expanded": "Trustworthiness creditability",
       "description": "Source of the creditability",
-      "uuid": "c92a5591-d89e-5f73-8359-31e7ab092466"
+      "uuid": "4952cdf6-1b85-50f9-922d-12c67e7843db"
     },
     {
       "value": "trustworthiness-traceability",
       "expanded": "Trustworthiness traceability",
       "description": "Traceability of the provided information",
-      "uuid": "3b397fac-b065-53d9-9c35-9c57ace07d3f"
+      "uuid": "b7159791-d291-5f52-9665-294030a75356"
     },
     {
       "value": "trustworthiness-feedback-mechanism",
       "expanded": "Trustworthiness feedback mechanism",
       "description": "Feedback such as user ratings or comments regarding the usefulness of the provided information",
-      "uuid": "7badb785-ea23-5548-a540-056e6db19c3b"
+      "uuid": "adadca7a-e670-5a31-af38-74f009a827f7"
     },
     {
       "value": "type-of-source",
       "expanded": "Type of source",
       "description": "Types of information security data source",
-      "uuid": "fceda053-55c7-563a-add4-a2e779fc39cc"
+      "uuid": "d3c7f808-2a12-5ce7-965d-b640cdbfd49c"
     }
   ],
   "values": [
@@ -69,37 +69,37 @@
           "value": "vulnerability",
           "expanded": "Vulnerability",
           "description": "Information regarding a weakness of an asset which might be exploited by a threat",
-          "uuid": "4cee7fce-fae9-5afa-81b1-e5d2f9da112f"
+          "uuid": "fb8ff0dc-bed6-53b3-b002-ce7b727f7809"
         },
         {
           "value": "threat",
           "expanded": "Threat",
           "description": "Information regarding the potential cause on an unwanted incident",
-          "uuid": "db693ecb-4ce6-56a1-9497-f3ee6fbe8ca4"
+          "uuid": "88d6d407-933f-5559-b713-8e043cd262de"
         },
         {
           "value": "countermeasure",
           "expanded": "Countermeasure",
           "description": "Information regarding any administrative, managerial, technical or legal control that is used to counteract an information security risk",
-          "uuid": "f73539ee-1732-5f43-ad62-e030e2186021"
+          "uuid": "78583703-a2f0-53d2-9751-09b2c724ced9"
         },
         {
           "value": "attack",
           "expanded": "Attack",
           "description": "Information regarding any unauthorized attempt to access, alter or destroy an asset",
-          "uuid": "2412d347-b84e-5e43-bdc6-72247a65bd04"
+          "uuid": "7e9ae357-3e6b-593d-8f3d-61d911f5a7e4"
         },
         {
           "value": "risk",
           "expanded": "Risk",
           "description": "Information describing the consequences of a potential event, such as an attack",
-          "uuid": "ac71fd4f-cc77-57fc-aea1-ea1496180a5b"
+          "uuid": "dc4a599c-cd57-54b9-a9b0-29a8343929fa"
         },
         {
           "value": "asset",
           "expanded": "Asset",
           "description": "Information regarding any object or characteristic that has value to an organization",
-          "uuid": "1b2f1dd4-e792-5a8c-804c-74c61a8513ee"
+          "uuid": "2078dc16-68ff-5ac0-b665-02cf999c278d"
         }
       ]
     },
@@ -110,13 +110,13 @@
           "value": "original-source",
           "expanded": "Original source",
           "description": "Information originates from the data sources which publish their own information",
-          "uuid": "2c4a31cd-30f1-5e14-bc8d-6b18e016b24b"
+          "uuid": "cd0ca68e-8012-5527-be8b-c85d01a0a6c1"
         },
         {
           "value": "secondary-source",
           "expanded": "Secondary source",
           "description": "Information is integrated or copied from another information security data source",
-          "uuid": "c266eff0-7cd2-5100-ac4d-cda49c7e7288"
+          "uuid": "9e501636-2c27-57ab-b21d-0b3dcdebc2d8"
         }
       ]
     },
@@ -127,13 +127,13 @@
           "value": "routine-sharing",
           "expanded": "Routine sharing",
           "description": "Information is published at a specific point in time on a regular basis, such as daily, weakly or monthly reports",
-          "uuid": "3f944c2e-f284-5827-a80f-dca8bbb626d5"
+          "uuid": "972aeb15-998e-5d62-a0c1-b817f0d636cf"
         },
         {
           "value": "incident-specific",
           "expanded": "Incident specific",
           "description": "Information is published whenever news are available or a new incident occurs",
-          "uuid": "312b5718-5b25-5c9b-a0ee-9e5e881c3c94"
+          "uuid": "f73f2c81-ee18-56e7-957c-9676ad9e293c"
         }
       ]
     },
@@ -144,13 +144,13 @@
           "value": "structured",
           "expanded": "Structured",
           "description": "The provided security information is available in an standardized and structured data format such as MISP core format",
-          "uuid": "f3bceeb3-818d-596c-b557-4e86ccd41fab"
+          "uuid": "b683929f-b33b-50f0-8eb2-6ace743a3e3f"
         },
         {
           "value": "unstructured",
           "expanded": "Unstructured",
           "description": "The provided security information is available in unstructured form without following a common data representation format",
-          "uuid": "b56b2db7-cdeb-51fd-b4e1-025bf0365d23"
+          "uuid": "dfd1c7ca-e17f-5790-9d20-7805098ef872"
         }
       ]
     },
@@ -161,25 +161,25 @@
           "value": "no-interface",
           "expanded": "No interface",
           "description": "The information security data source doesn’t provide any interface to access the information",
-          "uuid": "3df6c046-7a50-57c5-a2f7-cbe5bdada981"
+          "uuid": "32cc0c52-3994-5f88-b399-657c70d62d9b"
         },
         {
           "value": "api",
           "expanded": "API",
           "description": "The information security data source provides an application programming interface (APIs) to obtain the provided information",
-          "uuid": "7cf3db7d-2a9b-51de-9aff-158a87c51951"
+          "uuid": "12dea20d-70f7-5e7a-8386-29db6225eefc"
         },
         {
           "value": "rss-feeds",
           "expanded": "RSS Feeds",
           "description": "The information security data source provides an RSS Feed to keep track of the provided information",
-          "uuid": "d5e8b356-64de-517c-b0b4-aaa1721cf5c5"
+          "uuid": "888b78fd-347c-57df-b6c7-7a763dcda0f1"
         },
         {
           "value": "export",
           "expanded": "Export",
           "description": "The information security data source provides an interface to export contents as XML, JSON or plain text",
-          "uuid": "6b797713-7402-5929-971e-439234f45788"
+          "uuid": "e8734518-dfff-5bf4-831d-b6e2ca6d5be9"
         }
       ]
     },
@@ -190,25 +190,25 @@
           "value": "vendor",
           "expanded": "Vendor",
           "description": "The publisher of the information is a vendor",
-          "uuid": "543154b5-d7e8-5986-8f3d-e38bb1d28a91"
+          "uuid": "7b4540f5-8fef-59ac-948c-e470127fd20e"
         },
         {
           "value": "government",
           "expanded": "Government",
           "description": "The publisher of the information is a government",
-          "uuid": "ea14301e-31b8-5f9a-b891-2c2c24c599a4"
+          "uuid": "b314053c-359d-57ab-a54d-139412883f4a"
         },
         {
           "value": "security-expert",
           "expanded": "Security expert",
           "description": "The publisher of the information is a security expert",
-          "uuid": "17f67f7b-9565-5715-8b99-2c1ed7a44d0e"
+          "uuid": "56fe95ee-02f5-5479-8b80-7a6d7265dbf4"
         },
         {
           "value": "normal-user",
           "expanded": "Normal user",
           "description": "The publisher of the information is a normal user",
-          "uuid": "d57cb7c5-47af-5702-a11b-4dc75cf4ba21"
+          "uuid": "1b0439b8-fd6c-5a33-a860-af7fb4eb6780"
         }
       ]
     },
@@ -219,13 +219,13 @@
           "value": "yes",
           "expanded": "Yes",
           "description": "The provided information is classified as traceable if it can be traced back, based on meta-data, to a specific publisher and a publishing date",
-          "uuid": "b4e63e2c-53d0-5db0-914a-a79e53cb7afb"
+          "uuid": "34354c94-22f9-5f43-9011-1f7a577abbba"
         },
         {
           "value": "no",
           "expanded": "No",
           "description": "The provided information cannot be traced back (meta-data are not provided)",
-          "uuid": "6a3525d5-dc60-59a5-a184-dc262be7b91b"
+          "uuid": "91b19140-ecbd-5fe8-a519-87a9af519f94"
         }
       ]
     },
@@ -236,13 +236,13 @@
           "value": "yes",
           "expanded": "Yes",
           "description": "The provided information is validated by including user rating, comments or additional analysis",
-          "uuid": "10a8742d-d14f-56b2-8414-470c4a41113a"
+          "uuid": "c5c76284-36cd-51c1-972d-1a1fdc6e7afd"
         },
         {
           "value": "no",
           "expanded": "No",
           "description": "The provided information is not validated (a user rating, comments is not available)",
-          "uuid": "0291fcae-4c7f-575c-aa6e-81b9153a4e61"
+          "uuid": "8fbd1c6f-058b-5996-b4ca-e13dafb54b53"
         }
       ]
     },
@@ -252,50 +252,50 @@
         {
           "value": "news-website",
           "expanded": "News website",
-          "uuid": "e9d24355-ac44-554d-8bc8-504bd6116668"
+          "uuid": "0bbcc9fb-7026-5191-ae46-b1f37bb7e054"
         },
         {
           "value": "expert-blog",
           "expanded": "Expert blog",
-          "uuid": "3921ad82-dfb3-52b5-8fdc-9e68a1042008"
+          "uuid": "8d2e629c-6c19-58e1-8937-b4418a9251b4"
         },
         {
           "value": "security-product-vendor-website",
           "expanded": "(Security product) vendor website",
-          "uuid": "27213111-8ec9-5170-bb04-11f550ec6ad6"
+          "uuid": "9231aef5-e03d-5085-9a2e-11bafc65f5f3"
         },
         {
           "value": "vulnerability-database",
           "expanded": "Vulnerability database",
-          "uuid": "fedfd1f8-6c22-5c01-8f0f-419da65166df"
+          "uuid": "166c4d74-e161-5cc3-85b4-3a07c566a43d"
         },
         {
           "value": "mailing-list-archive",
           "expanded": "Mailing list archive",
-          "uuid": "01c3fa91-5774-536f-9d43-db9be4f07bd4"
+          "uuid": "bc9a7dc3-3281-574d-8b3b-e0464d520a0f"
         },
         {
           "value": "social-network",
           "expanded": "Social network",
-          "uuid": "f13767fd-b50c-56e6-8cc7-7ed6ff1c4d7a"
+          "uuid": "51f802d3-00b9-5e62-a5b1-864883fca318"
         },
         {
           "value": "streaming-portal",
           "expanded": "Streaming portal",
-          "uuid": "f5c0878f-170e-5ae2-b899-0ca248317ded"
+          "uuid": "6d79d62b-d32c-5da4-a174-f3f357e37b16"
         },
         {
           "value": "forum",
           "expanded": "Forum",
-          "uuid": "ae16207d-f583-5df8-bf69-d07db8d38739"
+          "uuid": "5ece6a1f-d5cb-5446-aed7-846edeb1caea"
         },
         {
           "value": "other",
           "expanded": "Other",
-          "uuid": "2701dac8-7796-5dba-9481-07455cf1d5c0"
+          "uuid": "060cc64e-79c4-5918-9dc2-3e8362944c45"
         }
       ]
     }
   ],
-  "uuid": "8bac5b4c-299a-58fe-862e-d8dfa8a86393"
+  "uuid": "3afa0c8a-0a0b-5139-9ae4-447487451251"
 }

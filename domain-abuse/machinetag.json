@@ -8,13 +8,13 @@
       "value": "domain-status",
       "description": "Domain status - describes the registration status of the domain name",
       "expanded": "Domain status",
-      "uuid": "7aa750ba-fe00-5400-9892-380c890c92a9"
+      "uuid": "3480d57a-4460-508e-b9ad-484648a0ef23"
     },
     {
       "value": "domain-access-method",
       "description": "Domain Access - describes how the adversary has gained access to the domain name",
       "expanded": "Domain access method",
-      "uuid": "c3b62c60-0e58-52a3-8727-b644975c67bf"
+      "uuid": "cf0d719b-3df3-582d-b034-c0207b0e87e8"
     }
   ],
   "values": [
@@ -25,37 +25,37 @@
           "value": "active",
           "expanded": "Registered & active",
           "description": "Domain name is registered and DNS is delegated",
-          "uuid": "064ef665-0a76-5004-95d8-a88eb86fc5ae"
+          "uuid": "45a7d6fc-d099-5db3-93d5-e905bd35a1c8"
         },
         {
           "value": "inactive",
           "expanded": "Registered & inactive",
           "description": "Domain name is registered and DNS is not delegated",
-          "uuid": "5e789d86-8133-56b3-ae10-96ede525ac39"
+          "uuid": "ece4b8f1-2865-51cd-9739-50338ea95db8"
         },
         {
           "value": "suspended",
           "expanded": "Registered & suspended",
           "description": "Domain name is registered & DNS delegation is temporarily removed by the registry",
-          "uuid": "8cd40b72-222e-5e2c-b364-42249ec58a17"
+          "uuid": "1ca3ea8e-dd88-524e-bdbd-6a6f32803839"
         },
         {
           "value": "not-registered",
           "expanded": "Not registered",
           "description": "Domain name is not registered and open for registration",
-          "uuid": "c8ba3ae5-de0d-5aab-84d5-635e5fcd8dd1"
+          "uuid": "735a2013-2f89-567e-92c2-c854e4096b46"
         },
         {
           "value": "not-registrable",
           "expanded": "Not registrable",
           "description": "Domain is not registered and cannot be registered",
-          "uuid": "c6bb7cec-1488-5c1c-89f9-5a76e449f0de"
+          "uuid": "9da9efe7-f4b7-5236-a5c5-d4449312c7a8"
         },
         {
           "value": "grace-period",
           "expanded": "Grace period",
           "description": "Domain is deleted and still reserved for previous owner",
-          "uuid": "53728711-8839-58bd-be22-3c1119c14661"
+          "uuid": "932c2839-9a74-59fb-ad3a-4370d58d95d9"
         }
       ]
     },
@@ -66,40 +66,40 @@
           "value": "criminal-registration",
           "expanded": "Criminal registration",
           "description": "Domain name is registered for criminal purposes",
-          "uuid": "ec91b437-6e8c-56f8-b355-cf0fca1ff720"
+          "uuid": "368e3209-f14e-5dad-9f03-be6afa1a54ea"
         },
         {
           "value": "compromised-webserver",
           "expanded": "Compromised webserver",
           "description": "Webserver is compromised for criminal purposes",
-          "uuid": "bb04b7bf-e882-51fe-8303-28dbcec8d4a1"
+          "uuid": "48ebff1d-05eb-5da4-932a-63a1a633ea56"
         },
         {
           "value": "compromised-dns",
           "expanded": "Compromised DNS",
           "description": "Compromised authoritative DNS or compromised delegation",
-          "uuid": "462c819c-b947-5d8a-a6d7-1a2f3928ea11"
+          "uuid": "0cb59938-543d-5ca2-94cc-307714c7983b"
         },
         {
           "value": "sinkhole",
           "expanded": "Sinkhole",
           "description": "Domain Name is sinkholed for research, detection, LE",
-          "uuid": "d70d650e-ed1d-5fc6-bbe9-97c12a01948b"
+          "uuid": "0be6f2b7-2bfd-5e3d-8460-4213b678b3f1"
         },
         {
           "value": "compromised-domain-name-registrar",
           "expanded": "Compromised domain name registrar",
           "description": "Domain name is compromised due to an incident at the registrar",
-          "uuid": "0a2acb1a-9c4f-5fcb-a6cd-877a7e8c556e"
+          "uuid": "edaaa608-fc90-5b95-91ad-09dcb2e4249b"
         },
         {
           "value": "compromised-domain-name-registry",
           "expanded": "Compromised domain name registry",
           "description": "Domain name is compromised due to an incident at the registry",
-          "uuid": "295af5bf-9cea-5d87-a365-9030461b7385"
+          "uuid": "f47ea58b-19d2-5a06-89c6-590afb8f84e8"
         }
       ]
     }
   ],
-  "uuid": "efa19746-96b0-592a-9e6f-5e48b1489003"
+  "uuid": "a2a0788a-3cd1-5b64-b3a8-d50625b67b28"
 }

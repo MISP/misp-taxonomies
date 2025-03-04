@@ -4,49 +4,49 @@
       "description": "ENISA manages the programme of pan-European exercises CE2018 logonamed Cyber Europe. This is a series of EU-level cyber incident and crisis management exercises for both the public and private sectors from the EU and EFTA Member States. The Cyber Europe exercises are simulations of large-scale cybersecurity incidents that escalate to become cyber crises. The exercises offer opportunities to analyse advanced technical cybersecurity incidents but also to deal with complex business continuity and crisis management situations.",
       "expanded": "Cyber Europe",
       "value": "cyber-europe",
-      "uuid": "76fdbcbb-0af9-5467-994c-4b88240aef4a"
+      "uuid": "ed93b2b9-58c0-5c58-b173-90a6425b61cb"
     },
     {
       "description": "Cyber Storm, the Department of Homeland Security’s (DHS) biennial exercise series, provides the framework for the most extensive government-sponsored cybersecurity exercise of its kind. Congress mandated the Cyber Storm exercise series to strengthen cyber preparedness in the public and private sectors. Securing cyber space is the DHS Office of Cybersecurity and Communications' top priority.",
       "expanded": "Cyber Storm",
       "value": "cyber-storm",
-      "uuid": "dc068499-419d-534d-9ba2-32441debadbc"
+      "uuid": "3eb1d7a1-c651-558f-89ca-6f635120e06f"
     },
     {
       "description": "Locked Shields is the world’s largest and most advanced international technical live-fire cyber defence exercise. This annual scenario-based, real-time network defence exercise, which has been organised by the NATO Cooperative Cyber Defence Centre of Excellence since 2010, focuses on training for security experts who protect national IT systems.",
       "expanded": "Locked Shields",
       "value": "locked-shields",
-      "uuid": "9c1ea72a-9750-5acf-b8ab-5612cdfaeb39"
+      "uuid": "1578996b-ebb9-5f8a-baa9-2f71af3831d2"
     },
     {
       "description": "LÜKEX ist ein Kurzwort für Länderübergreifende Krisenmanagementübung (EXercise) und die Bezeichnung für regelmäßig stattfindende Übungen in der Bundesrepublik Deutschland. Ziel von Lükex ist es, das gemeinsame Management des Bundes und der Länder in nationalen Krisen aufgrund von außergewöhnlichen Gefahren- und Schadenslagen auf strategischer Ebene zu verbessern.",
       "expanded": "LÜKEX",
       "value": "lukex",
-      "uuid": "5cac7294-50dc-5d18-aac6-1b70b1b73a81"
+      "uuid": "d4ca374d-01e4-5883-998f-2a78ccc720cd"
     },
     {
       "description": "Cyber Coalition tests and trains cyber defenders from across the Alliance in their ability to defend NATO and national networks. From defence against malware, through tackling hybrid challenges involving social media, to attacks on mobile devices, the exercise has a challenging, realistic scenario that helps prepare our cyber defenders for real-life cyber challenges. The training includes testing of operational and legal procedures, exchange of information and work with industry and partners.",
       "expanded": "Cyber Coalition",
       "value": "cyber-coalition",
-      "uuid": "9b421b3d-e695-51e8-968a-1ec1b5179b23"
+      "uuid": "9354d776-0176-548d-ae24-4dd1b0b2be41"
     },
     {
       "description": "NATO-EU Parallel and Coordinated Exercise. PACE focuses on four key areas, namely situational awareness, effectiveness of our instruments to counter cyber threats at EU level, speed of reaction and appropriate reactivity of our crisis response mechanisms, as well as our capacity to communicate fast and in a coordinated way.",
       "expanded": "PACE",
       "value": "pace",
-      "uuid": "9c01bc0b-dd34-58ed-8fe9-e484351d7246"
+      "uuid": "d49636e7-8192-5d89-b593-2cb939ae6f18"
     },
     {
       "description": "Cyber SOPEx (formerly known as EuroSOPEx) is the first step in a series of ENISA exercises focusing on training the participants on situational awareness, information sharing, understanding roles and responsibilities and utilising related tools, as agreed by the CSIRTs Network",
       "expanded": "Cyber SOPEx",
       "value": "cyber-sopex",
-      "uuid": "b6f16cdb-60b3-5ab0-8e94-c01360669019"
+      "uuid": "3f9f8452-09ff-50aa-830e-e6a16b67d4e3"
     },
     {
       "value": "generic",
       "expanded": "Generic",
       "description": "Generic exercise which are not named.",
-      "uuid": "cfe0de58-5fc8-517b-8972-0886a00bbb37"
+      "uuid": "8e9920d1-ddbf-534f-b4b8-d3df14d9cdfa"
     }
   ],
   "values": [
@@ -57,25 +57,25 @@
           "value": "2024",
           "expanded": "2024",
           "description": "7th pan European cyber crisis exercise: Cyber Europe 2024 (CE2024)",
-          "uuid": "d24122fc-861f-559f-b133-46ddc08fc678"
+          "uuid": "11f82f95-92c3-5d53-9f2f-363c388c2625"
         },
         {
           "value": "2022",
           "expanded": "2022",
           "description": "6th pan European cyber crisis exercise: Cyber Europe 2022 (CE2022)",
-          "uuid": "b8168bba-6685-5de7-801b-a1af391733ed"
+          "uuid": "bca7e039-104a-5855-82f8-76a287ed0a92"
         },
         {
           "value": "2018",
           "expanded": "2018",
           "description": "5th pan European cyber crisis exercise, Cyber Europe 2018 (CE2018)",
-          "uuid": "7cd382b5-92db-5f9a-a959-d76af15940bd"
+          "uuid": "ed090db3-982b-581d-89c5-ecf998cd5926"
         },
         {
           "value": "2016",
           "expanded": "2016",
           "description": "4th pan-European cyber exercise, Cyber Europe 2016",
-          "uuid": "dbc75967-013e-5108-b2a7-1fa8c6f5c460"
+          "uuid": "49d3bfca-32b6-5e58-9e3f-5f28e26b36ee"
         }
       ]
     },
@@ -86,7 +86,7 @@
           "value": "spring-2018",
           "expanded": "Spring 2018",
           "description": "The sixth iteration of the Cyber Storm exercise series, Cyber Storm VI, is scheduled for Spring 2018",
-          "uuid": "f8537b2a-154f-5005-b87e-5a1a2dcf55e5"
+          "uuid": "134c0819-392b-52c4-819d-bcfbfe7172f5"
         }
       ]
     },
@@ -97,49 +97,49 @@
           "value": "2017",
           "expanded": "2017",
           "description": "Locked Shields 2017",
-          "uuid": "836c6fa3-65bd-54f5-8721-38401b06d139"
+          "uuid": "35e1d6ce-c773-546b-babd-328e69216ce9"
         },
         {
           "value": "2018",
           "expanded": "2018",
           "description": "Locked Shields 2018",
-          "uuid": "d12623af-f964-5fe9-bb46-6c065a3c083c"
+          "uuid": "484afa41-8ba9-5496-99d0-4009514f54fb"
         },
         {
           "value": "2019",
           "expanded": "2019",
           "description": "Locked Shields 2019",
-          "uuid": "eb1b303e-80e4-5841-a6f6-7e3bc6b4159c"
+          "uuid": "dcb61543-0e96-5972-a827-ac1de26c204a"
         },
         {
           "value": "2020",
           "expanded": "2020",
           "description": "Locked Shields 2020",
-          "uuid": "d01f78fa-37cd-5fe2-b415-5737f0b93e23"
+          "uuid": "a66e045f-6076-528c-9c66-4afe9161bf38"
         },
         {
           "value": "2021",
           "expanded": "2021",
           "description": "Locked Shields 2021",
-          "uuid": "8d6ecbf8-1330-51e3-a70c-d613ea2ebe23"
+          "uuid": "f82e4e67-af36-54f6-bec6-8f1418e3881a"
         },
         {
           "value": "2022",
           "expanded": "2022",
           "description": "Locked Shields 2022",
-          "uuid": "05da0349-869e-5d95-8757-cae0dbf629d3"
+          "uuid": "c57de8f3-9b08-5848-b152-15c09402c406"
         },
         {
           "value": "2023",
           "expanded": "2023",
           "description": "Locked Shields 2023",
-          "uuid": "682b998d-7730-5555-9c79-6321b3649011"
+          "uuid": "7a10345f-88eb-5423-8a8e-ebaef50a43d1"
         },
         {
           "value": "2024",
           "expanded": "2024",
           "description": "Locked Shields 2024",
-          "uuid": "70c938de-d2e4-5992-ac9b-93f25b9a45a1"
+          "uuid": "4416d494-a0d0-5e34-b408-043ac8c54f32"
         }
       ]
     },
@@ -150,7 +150,7 @@
           "value": "2020",
           "expanded": "2020",
           "description": "Cyber-Angriff auf die deutsche Stromversorgung",
-          "uuid": "82b117fd-3811-522f-ae31-e4f11b1a59aa"
+          "uuid": "111ded92-5f1e-59dc-af44-662ec12c83ce"
         }
       ]
     },
@@ -161,31 +161,31 @@
           "value": "2017",
           "expanded": "2017",
           "description": "NATO Cyber Coalition 2017",
-          "uuid": "ae07b387-1c75-5b01-8b6e-8dd46247b79d"
+          "uuid": "3d4a3e9d-9ed5-50fb-a48a-7237771366f9"
         },
         {
           "value": "2018",
           "expanded": "2018",
           "description": "NATO Cyber Coalition 2018",
-          "uuid": "cddb01e9-94c8-566b-b41c-03bd6adc862c"
+          "uuid": "4fe44cdc-87f1-52b5-ad6d-339aa68f6bde"
         },
         {
           "value": "2019",
           "expanded": "2019",
           "description": "NATO Cyber Coalition 2019",
-          "uuid": "fc8dec8d-f52c-5090-8f62-4c2d10f3794d"
+          "uuid": "ee4b80c1-26c2-59af-b898-57ecccb20cfd"
         },
         {
           "value": "2020",
           "expanded": "2020",
           "description": "NATO Cyber Coalition 2020",
-          "uuid": "ddfe5fc6-562b-59a7-a4a2-59d28630fc62"
+          "uuid": "d36f7fb4-5318-5194-8b56-91dc854ccfad"
         },
         {
           "value": "2021",
           "expanded": "2021",
           "description": "NATO Cyber Coalition 2021",
-          "uuid": "0561d8d2-0c4f-5015-befc-a8f136cd9784"
+          "uuid": "4cfa64ff-dea0-5d94-a5c6-e2814678b00a"
         }
       ]
     },
@@ -196,12 +196,12 @@
           "value": "2017",
           "expanded": "2017",
           "description": "PACE17 will focus on four key areas, namely situational awareness, effectiveness of our instruments to counter cyber threats at EU level, speed of reaction and appropriate reactivity of our crisis response mechanisms, as well as our capacity to communicate fast and in a coordinated way. The exercise will be followed by an evaluation phase, to identify lessons learned and improve our toolbox.",
-          "uuid": "280fe188-ba10-521c-b351-2fb5fae894a2"
+          "uuid": "10c732a7-22b5-56ea-b139-3c47f19c1639"
         },
         {
           "value": "2018",
           "expanded": "2018",
-          "uuid": "0c0ae4e6-cfe0-5250-a2c1-9468c4608104"
+          "uuid": "756a714e-f921-5f18-9349-95512a0c4a53"
         }
       ]
     },
@@ -211,22 +211,22 @@
         {
           "value": "2019",
           "expanded": "2019",
-          "uuid": "1ce258d4-5340-5d20-a700-4c7fefd8cd5b"
+          "uuid": "3adbc93d-3c78-5853-8353-8e8ec06ea68d"
         },
         {
           "value": "2018",
           "expanded": "2018",
-          "uuid": "ce443f73-ed0a-5b06-bdf6-b2b171656e7f"
+          "uuid": "d9c095d3-baf0-5a33-9381-8401b8536c22"
         },
         {
           "value": "2020",
           "expanded": "2020",
-          "uuid": "5e0e4d8f-493f-563e-8d7a-9d647f4ea982"
+          "uuid": "79a43dda-4c99-5108-ab91-220dc4b5f4e9"
         },
         {
           "value": "2021",
           "expanded": "2021",
-          "uuid": "38f511c2-b104-5755-9c75-b42e3edcbc8c"
+          "uuid": "35b424a9-269e-55ac-82ce-15696f53e680"
         }
       ]
     },
@@ -237,13 +237,13 @@
           "value": "comcheck",
           "expanded": "Communication check",
           "description": "A communication check exercise which can include digital or non-digital communication.",
-          "uuid": "6f980611-7a26-5afa-adbb-36958326a4f6"
+          "uuid": "8bcc8d48-072f-5a18-addb-f83f0d3f0fbf"
         },
         {
           "value": "red-teaming",
           "expanded": "Red teaming",
           "description": "An exercise which can be classified as red teaming.",
-          "uuid": "32362876-6485-5eb2-ba31-44748d2b9e2f"
+          "uuid": "15fc6030-d462-58b2-8bae-d4b7a1bcdced"
         }
       ]
     }
@@ -252,5 +252,5 @@
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise",
-  "uuid": "724f0670-03c0-5e3b-8ae2-3056915e8009"
+  "uuid": "56e5fad4-f7ce-5083-b1de-344177bfc208"
 }

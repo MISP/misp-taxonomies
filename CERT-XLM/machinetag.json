@@ -10,19 +10,19 @@
           "value": "spam",
           "expanded": "spam",
           "description": "Spam or ‘unsolicited bulk e-mail’, meaning that the recipient has not granted verifiable permission for the message to be sent and that the message is sent as part of a larger collection of messages, all having identical content.",
-          "uuid": "18ec600c-8078-5c65-8c13-813c5f81971c"
+          "uuid": "a7634beb-9abe-582e-9376-a43e5cfc7d44"
         },
         {
           "value": "harmful-speech",
           "expanded": "Harmful Speech",
           "description": "Discretization or discrimination of somebody (e.g. cyber stalking, racism and threats against one or more individuals) May be found on a forum, email, tweet etc…",
-          "uuid": "3f1f321c-7d77-5d57-8575-94e80e02f76e"
+          "uuid": "db33bc38-af85-5bca-9a24-1b2ccd2c13f7"
         },
         {
           "value": "violence",
           "expanded": "Child/Sexual/Violence/...",
           "description": "Any Child pornography, glorification of violence, may be found on a website, forum, email, tweet etc…",
-          "uuid": "7f5ba2c6-efbf-5e0a-8c38-1174e49acf3f"
+          "uuid": "2719631b-0fca-58fc-bccd-4f6f0e6a5c62"
         }
       ]
     },
@@ -33,43 +33,43 @@
           "value": "virus",
           "expanded": "Virus",
           "description": "Malicious code that replicate itself and infects the computer and files;",
-          "uuid": "c68dc339-8535-524a-9c5f-2b3f22ee4c70"
+          "uuid": "54358529-ca6c-548b-a9ca-675be4cadf21"
         },
         {
           "value": "worm",
           "expanded": "Worm",
           "description": "Malware that self-replicates and spread itself to other computers in the network without any user interaction;",
-          "uuid": "3448d098-cd4d-569f-a082-67845c40631e"
+          "uuid": "bd5b180e-79a7-5eb1-8caa-38b53a658918"
         },
         {
           "value": "ransomware",
           "expanded": "Ransomware",
           "description": "Ransomware is a type of malicious software from cryptovirology that blocks access to the victim's data or threatens to publish it until a ransom is paid.",
-          "uuid": "7d375f88-22e6-56a6-b478-c690a03067b6"
+          "uuid": "c8509b6a-4875-5213-828d-b52b99a8c24c"
         },
         {
           "value": "trojan-malware",
           "expanded": "Trojan/Malware",
           "description": "This category regroups many common malware types (Banking, POS, Mining malware).",
-          "uuid": "8399215f-cd9e-5858-9ffd-781b829ec720"
+          "uuid": "4c94cdd8-97bd-5a95-a62a-914e349340b2"
         },
         {
           "value": "spyware-rat",
           "expanded": "Spyware/Rat",
           "description": "This category regroups malware types and tools that may have a bigger impact on the breached infrastructure and usually need further investigations (Common Spyware/Rat, State sponsored malwares, StealersHacking tool).",
-          "uuid": "02ae3db3-d094-504e-847d-e6730b8c0f54"
+          "uuid": "e2a8be3f-3382-53b7-980b-97917c48e5ec"
         },
         {
           "value": "dialer",
           "expanded": "Dialer",
           "description": "Computer program used to identify the phone numbers that can successfully make a connection with a computer modem. Use this category to classify overpriced SMS sent by malicious mobile application. ",
-          "uuid": "874ffe49-ca6f-53a7-b4b6-017036dc97e1"
+          "uuid": "98b01481-63f7-5983-8062-98987b5494fd"
         },
         {
           "value": "rootkit",
           "expanded": "Rootkit",
           "description": "Malware, which alter the standard functionality of an operating system in order to do its malicious actions in a stealthy way. In practice, Rootkits hijacks systems functions in order to alter the returning values to hide themselves from simple analysis tools.",
-          "uuid": "c479089c-2361-5eab-be03-5132410575c2"
+          "uuid": "a55fda24-d05f-555c-a7b1-b849722dd0b7"
         }
       ]
     },
@@ -80,19 +80,19 @@
           "value": "scanner",
           "expanded": "Scanning",
           "description": "Attacks that send requests to a system to discover weak points. This also includes some kinds of testing processes to gather information about hosts, services and accounts. Examples: fingerd, DNS querying, ICMP, SMTP (EXPN, RCPT,).",
-          "uuid": "ee9a1aed-5e39-5bb4-94a1-812e7f2807fb"
+          "uuid": "7fcd0b0c-d417-5bc0-b455-dc112b3ca488"
         },
         {
           "value": "sniffing",
           "expanded": "Sniffing",
           "description": "Observing and recording network traffic (wiretapping).",
-          "uuid": "c48d8c79-2edd-5569-ac2a-2cb440cbd830"
+          "uuid": "d1c66756-d43f-532c-a94b-eb155e5bb8fe"
         },
         {
           "value": "social-engineering",
           "expanded": "Social Engineering",
           "description": "Gathering information from a human being in a non-technical way (eg, lies, tricks, bribes, or threats).",
-          "uuid": "9ef494e1-1112-5201-946b-464d8a4a3682"
+          "uuid": "41179b2d-ec18-58d4-9190-edaa972e2dac"
         }
       ]
     },
@@ -103,19 +103,19 @@
           "value": "exploit-known-vuln",
           "expanded": "Exploiting known vulnerabilities",
           "description": "An attempt to compromise a system or to disrupt any service by exploiting vulnerabilities with a standardised identifier such as CVE name (eg, buffer overflow, backdoors, cross side scripting, etc).",
-          "uuid": "46b91dd4-5cb0-54bb-bd4d-5dad4f1a8a07"
+          "uuid": "9553750e-4e7e-5b07-8bb4-58df79b2b78b"
         },
         {
           "value": "login-attempts",
           "expanded": "Login attempts",
           "description": "Multiple login attempts (guessing / cracking of passwords, brute force).",
-          "uuid": "768fc5e7-be9f-504e-8b4b-7ef2ba0b82d9"
+          "uuid": "99556cea-60ee-5103-83f3-2baf70066886"
         },
         {
           "value": "new-attack-signature",
           "expanded": "New attack signature",
           "description": "An attempt using an unknown exploit.",
-          "uuid": "e1230fa9-2043-54a8-9e29-d12423e5b7cf"
+          "uuid": "a899d116-3095-5754-8a00-60d637f2a260"
         }
       ]
     },
@@ -126,31 +126,31 @@
           "value": "privileged-account-compromise",
           "expanded": "Privileged Account Compromise",
           "description": "A successful full compromise of a system or application (service). This can have been caused remotely by a known or new vulnerability, but also by an unauthorized local access.",
-          "uuid": "c7edd36a-cb00-5ec1-a856-215b67a000ff"
+          "uuid": "c47fcdda-4e12-5671-a75a-41d6ae1573b9"
         },
         {
           "value": "unprivileged-account-compromise",
           "expanded": "Unprivileged Account Compromise",
           "description": "A successful compromise of a system or application (service). This can have been caused remotely by a known or new vulnerability, but also by an unauthorized local access. The intruded did not achieve to escale his privileges locally. ",
-          "uuid": "85e297d4-a325-5a33-9547-89e7502a7771"
+          "uuid": "16168ae4-9e1f-59a3-9cdc-75e90b510281"
         },
         {
           "value": "botnet-member",
           "expanded": "Botnet member",
           "description": "The compromised asset is also being part of a botnet. This is reserved mainly for public web servers. See malicious code in priority for workstations or internal server’s compromise. For example, phpmailer, etc…",
-          "uuid": "c1080b71-3cd6-54a1-9207-fb1074be4724"
+          "uuid": "f58e0e10-d4b3-529a-b8d3-8fbdc3982131"
         },
         {
           "value": "domain-compromise",
           "expanded": "Domain Compromise",
           "description": "The whole domain is compromised; this is commonly used for active directory and detected by a “pass the ticket” attack or a discovery of “ad dumps” files.",
-          "uuid": "e88087de-ef62-5b28-8dd6-c7fee801ef0b"
+          "uuid": "9fff1096-df74-5f58-976b-e68939b4cf5d"
         },
         {
           "value": "application-compromise",
           "expanded": "Application Compromise",
           "description": "An application is compromised; the attacker possess an uncontrolled access to data, server, and assets used by this application (CMDB, DB, Backend services, etc.).",
-          "uuid": "afdf3602-36f3-541f-a759-a680af2daf49"
+          "uuid": "1d299afc-118f-5f22-88b8-068a832325ac"
         }
       ]
     },
@@ -161,25 +161,25 @@
           "value": "dos",
           "expanded": "DoS",
           "description": "An attacker attempts to prevent legitimate users from accessing information or services.",
-          "uuid": "03a448f9-be47-503e-9a78-1ed224904bb3"
+          "uuid": "5a17ba50-0f1a-5d89-b8f3-da721fb8ce73"
         },
         {
           "value": "ddos",
           "expanded": "DDoS",
           "description": "Form of electronic attack involving multiple computers, which send repeated requests (HTTP requests, pings, TCP or UDP Flood) to a server to load it down and render the service inaccessible for a period of time. ",
-          "uuid": "8947996c-7965-531d-a5b1-cbdd7a102dc9"
+          "uuid": "6462d951-13fa-5fde-8a07-69184ad545b6"
         },
         {
           "value": "sabotage",
           "expanded": "Sabotage",
           "description": "Deliberate and malicious acts that result in the disruption of the normal processes and functions or the destruction or damage of equipment or information.",
-          "uuid": "cac8b220-28f3-50df-8ddd-6bde79e1ba97"
+          "uuid": "e9a31b3e-38a8-554d-8623-fa0b785dad6d"
         },
         {
           "value": "outage",
           "expanded": "Outage (no malice)",
           "description": "Unavailability of the system but done with no malice.",
-          "uuid": "cdd85f77-aed8-517e-ba67-2e451ae2e25a"
+          "uuid": "b5a1ae69-01ef-59b1-917b-8944464757bc"
         }
       ]
     },
@@ -190,13 +190,13 @@
           "value": "Unauthorised-information-access",
           "expanded": "Unauthorised access to information",
           "description": "Any access to unauthorized data. It may be access of data on improperly restricted server share or database exfiltered by using a SQLi.",
-          "uuid": "7c4d7d6a-c2e6-5486-a6dd-3c3322ecf27c"
+          "uuid": "78bfc4fb-dad3-5307-99b2-d709aa57d5ab"
         },
         {
           "value": "Unauthorised-information-modification",
           "expanded": "Unauthorised modification of information",
           "description": "Unauthorized tampering of data on files, documents or database.",
-          "uuid": "f9f92133-5f78-50d9-960c-4a4b58d6ff15"
+          "uuid": "7aa6ceb9-3daf-51a1-8c11-1f7d5eb1b4f8"
         }
       ]
     },
@@ -207,19 +207,19 @@
           "value": "copyright",
           "expanded": "Copyright",
           "description": "Selling or installing copies of unlicensed commercial software or other copyright protected materials (Warez).",
-          "uuid": "bc39cef3-1d89-5029-bc33-1bf23afcaffb"
+          "uuid": "fb41e150-5841-5214-8229-f828975f3dd8"
         },
         {
           "value": "masquerade",
           "expanded": "Masquerade",
           "description": "Types of attacks in which one entity illegitimately assumes the identity of another in order to benefit from it. This attack may be used for president fraud requesting transactions.",
-          "uuid": "005de2e6-446e-5093-9351-27f2f6d3f903"
+          "uuid": "d3250489-532b-52bb-96f5-0f199c82e093"
         },
         {
           "value": "phishing",
           "expanded": "Phishing",
           "description": "Masquerading as another entity in order to persuade the user to reveal a private credential.",
-          "uuid": "d8a4271a-3592-5f88-a1a7-cc6c60ac2ec8"
+          "uuid": "3db70154-b528-5b41-abe6-58af60d09530"
         }
       ]
     },
@@ -230,7 +230,7 @@
           "value": "vulnerable-service",
           "expanded": "Open for abuse",
           "description": "Open resolvers, world readable printers, vulnerability apparent from Nessus etc scans, virus, signatures not up to date, etc. This includes for example default SNMP community or default password on any application.",
-          "uuid": "3ae308c4-ddfd-5974-8740-aacecc3235ce"
+          "uuid": "37f74e82-101c-5a50-a724-dab86084d530"
         }
       ]
     },
@@ -241,25 +241,25 @@
           "value": "regulator",
           "expanded": "Regulator",
           "description": "All lack about regulator rules (CSSF, GDPR, etc.).",
-          "uuid": "7acefecf-2afc-56a1-ad4d-c6afe286ed07"
+          "uuid": "b4576906-a410-59f3-af83-853132cce89a"
         },
         {
           "value": "standard",
           "expanded": "Standard",
           "description": "All lack about standards certification of the company (ISO27000, NIS, ISAE3402, etc.).",
-          "uuid": "dbfd2543-c25b-538d-89ce-6cc8d57f54d1"
+          "uuid": "33cd6419-b288-5e7a-8956-9d6399216c70"
         },
         {
           "value": "security-policy",
           "expanded": "Security policy",
           "description": "All lack about the internal security policy of the company.",
-          "uuid": "6d5fa5e7-d9c4-5d32-86a3-c1e531306e59"
+          "uuid": "e1d822e1-689f-5795-8a3a-375a7f477f98"
         },
         {
           "value": "other-conformity",
           "expanded": "Other",
           "description": "All lack that do not fit in one of previous categories should be put on this class.",
-          "uuid": "7d961337-0301-5aa6-bc69-f70071a10a32"
+          "uuid": "6bfa3863-b2c8-5fbd-95d7-72b2082834fc"
         }
       ]
     },
@@ -270,7 +270,7 @@
           "value": "other",
           "expanded": "other",
           "description": "All incidents that do not fit in one of the given categories should be put into this class. If the number of incidents in this category increases, it is an indicator that the classification scheme must be revised.",
-          "uuid": "11705deb-9f17-5b3d-a2a5-3de8466a1ffa"
+          "uuid": "a2df49b6-3870-5214-b8a6-057de7694942"
         }
       ]
     }
@@ -280,74 +280,74 @@
       "value": "abusive-content",
       "expanded": "Abusive Content",
       "description": "Abusive Content.",
-      "uuid": "14cd16e3-591f-54ef-a577-2f8b15324a27"
+      "uuid": "21cbdc6b-43ae-5f95-892b-e7664fdd4b6b"
     },
     {
       "value": "malicious-code",
       "expanded": "Malicious Code",
       "description": "Software that is intentionally included or inserted in a system for a harmful purpose. A user interaction is normally necessary to activate the code.",
-      "uuid": "d07acf20-5ebf-5d68-8e22-f995af4182c8"
+      "uuid": "04e34159-548f-5c68-a387-d7dd58cf4a5d"
     },
     {
       "value": "information-gathering",
       "expanded": "Information Gathering",
       "description": "This group is for the reconnaissance; generally, it is the step before attacking.",
-      "uuid": "245892e0-82fc-5d3e-a355-5966f6657b28"
+      "uuid": "92664327-9cb0-52b0-a549-781dd21f083d"
     },
     {
       "value": "intrusion-attempts",
       "expanded": "Intrusion Attempts",
       "description": "This group is for attack detected/tried but without success.",
-      "uuid": "7a7e0b50-426b-5888-914e-1a705639e7dd"
+      "uuid": "2bff1f5e-f646-52fa-822e-f8782298cbeb"
     },
     {
       "value": "intrusion",
       "expanded": "Intrusion",
       "description": "This group is for successful unauthorized access to a system.",
-      "uuid": "9b6bbaa4-4b59-5003-abd4-96f120c2a0ca"
+      "uuid": "da70866d-dba6-580a-962e-9bd2e6e53851"
     },
     {
       "value": "availability",
       "expanded": "Availability",
       "description": "By this kind of an attack a system is bombarded with so many packets that the operations are delayed or the system crashes.",
-      "uuid": "6f633a23-0eae-5d7e-b3d2-0aa3b58cebbf"
+      "uuid": "b770e2f1-1f41-5e17-b0aa-9fe011a0ae9d"
     },
     {
       "value": "information-content-security",
       "expanded": "Information Content Security",
       "description": "This group is dealing with non-legitimate access or modification to data.",
-      "uuid": "a19fa679-1151-5c77-80e7-da539ec16abd"
+      "uuid": "66c952c2-11bf-52d1-ac28-f5dddd4f0aa3"
     },
     {
       "value": "fraud",
       "expanded": "Fraud",
       "description": "This group is for unauthorized use of resources using resources for unauthorized purposes including profit-making ventures (eg, the use of e-mail to participate in illegal profit chain letters or pyramid schemes).",
-      "uuid": "0f73da0a-c4f3-584a-a215-c530ea65df15"
+      "uuid": "85d0691d-06ca-5797-998f-cb32555ca06c"
     },
     {
       "value": "vulnerable",
       "expanded": "Vulnerable",
       "description": "Vulnerable",
-      "uuid": "460104aa-c896-5d1d-b65c-c5ee0c73f085"
+      "uuid": "db11681f-b5de-56ca-b3d3-8af0bae92149"
     },
     {
       "value": "conformity",
       "expanded": "Conformity",
       "description": "This group is for catching breach about controls given by the company or externals entities.",
-      "uuid": "cbff8c08-c897-5c6e-a831-dee3367f42c8"
+      "uuid": "3e92fb6b-fa20-50ab-9739-f718405ead98"
     },
     {
       "value": "other",
       "expanded": "Other",
       "description": "Other",
-      "uuid": "5ace09a2-e2a4-5c8d-90eb-708cece9a481"
+      "uuid": "1b026799-a7bb-5999-aa1e-01f6f29f436d"
     },
     {
       "value": "test",
       "expanded": "Test",
       "description": "Meant for testing.",
-      "uuid": "f20f7d27-ce7f-586e-9825-5ace02635cd5"
+      "uuid": "0598a507-53bf-51ca-9e0a-bdf281de2753"
     }
   ],
-  "uuid": "28363d38-d866-56db-b133-b089498c3507"
+  "uuid": "2b751334-656b-5186-9dcd-e13362939c31"
 }

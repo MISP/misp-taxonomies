@@ -11,19 +11,19 @@
       "value": "environment-structure",
       "expanded": "Environment Structure",
       "description": "The environment structure refers to the basic characteristic of the event.",
-      "uuid": "96d9e331-61c1-5c94-97bb-92e55f002fdb"
+      "uuid": "251d8b36-fe99-5e4f-8348-9e3a3b03b0c6"
     },
     {
       "value": "deployment",
       "expanded": "Deployment",
       "description": "The environment of cyber training can either be deployed on premise or on cloud infrastructures",
-      "uuid": "79344639-a968-5e0c-a42e-7fcc254cd2e4"
+      "uuid": "355d1efb-7619-5abc-9aad-e4584bd9f8de"
     },
     {
       "value": "orchestration",
       "expanded": "Orchestration",
       "description": "The composition of parts and components of a pool of tasks. The goal is to setup a holistic scenario and integrate cyber training session. Furthermore, it includes a declarative description of the overall process in the form of a composite and harmonic collaboration.",
-      "uuid": "49996693-b444-5e4d-b54d-0a6d064d9870"
+      "uuid": "2dcbf15c-b2eb-56ed-9125-11b3309be217"
     }
   ],
   "values": [
@@ -34,43 +34,43 @@
           "value": "tabletop-style",
           "expanded": "Tabletop Style",
           "description": "A session that involves the movement of counters or other objects round a board or on a flat surface",
-          "uuid": "65e2e52f-1b30-5808-b945-5a17bb4d8728"
+          "uuid": "45e9877f-47b7-57b4-81bd-48750db6b728"
         },
         {
           "value": "online-collaboration-platform",
           "expanded": "Online Platform - Collaboration Platform",
           "description": "The environment allows organizations to incorporate real-time communication capabilities and providing remote access to other systems. This includes the exchange of files and messages in text, audio, and video formats between different computers or users.",
-          "uuid": "ca126ee4-6a35-5c74-aebc-c453164bd5b8"
+          "uuid": "f67f66c2-cc04-5861-8736-58e074d0587a"
         },
         {
           "value": "online-e-learning-platform",
           "expanded": "Online Platform - E-Learning Platform",
           "description": "A software application for the administration, documentation, tracking, reporting, and delivery of educational courses, training programs, or learning and development programs.",
-          "uuid": "c6ab8831-0466-5545-9695-f080942f9e5e"
+          "uuid": "774dda94-e195-5038-bcf5-dad841b989ce"
         },
         {
           "value": "hosting",
           "expanded": "Hosting",
           "description": "A cyber training based on single hosts uses primarily a personal computer to providing tasks and challenges for a user. It allows a direct interaction with the systems.",
-          "uuid": "852971fa-d944-5798-a93d-b8cccb21e19e"
+          "uuid": "f84a98a3-2749-5473-8d90-ecbd7810aa31"
         },
         {
           "value": "simulated-network-infrastructure",
           "expanded": "Network Infrastruture - Simulated",
           "description": "Dependent of the realization type, a network-based environment consists of servers and clients, which are connected to each other in a local area network (LAN) or wide area network (WAN). A simulation copies the network components from the real world into a virtual environment. It provides an idea about how something works. It simulates the basic behavior but does not necessarily abide to all the rules of the real systems.",
-          "uuid": "3ad99683-c22e-54e9-9486-42f6a0a9d618"
+          "uuid": "99f3f11c-ad9a-5859-8f47-21b7ae329603"
         },
         {
           "value": "emulated-network-infrastructure",
           "expanded": "Network Infrastruture - Emulated",
           "description": "Dependent of the realization type, a network-based environment consists of servers and clients, which are connected to each other in a local area network (LAN) or wide area network (WAN). An emulator duplicates things exactly as they exist in real life. The emulation is effectively a complete imitation of the real thing. It operates in a virtual environment instead of the real world.",
-          "uuid": "526603c6-c2de-5ca0-9d4f-ed117a53eb1c"
+          "uuid": "bc7d49bd-b047-5bad-aea0-7057170257e1"
         },
         {
           "value": "real-network-infrastructure",
           "expanded": "Network Infrastruture - Real",
           "description": "Dependent of the realization type, a network-based environment consists of servers and clients, which are connected to each other in a local area network (LAN) or wide area network (WAN). In a real network infrastructure, physical components are used to connect the systems and to setup a scenario.",
-          "uuid": "f3091dfc-3f0e-508e-a162-65d14649ac2a"
+          "uuid": "603a0731-4b3d-5e11-a0a2-a1ac3b176110"
         }
       ]
     },
@@ -81,19 +81,19 @@
           "value": "physical-on-premise",
           "expanded": "On Premise - Physical",
           "description": "The environment for the training run on physical machines. The data is stored locally and not on cloud; nor is a third party involved. The advantages of on premise solutions are the physical accessibility, which makes it possible to use the complete range of cyber challenges.",
-          "uuid": "51db3cc9-b9ec-5fa1-aa55-1e404ac1a283"
+          "uuid": "621fe413-baa8-5d4e-850b-120bfb94b7bb"
         },
         {
           "value": "virtual-on-premise",
           "expanded": "On Premise - Virtual",
           "description": "The environment for the training run virtual machines. The data is stored locally and not on cloud; nor is a third party involved. The benefit of virtual machines is the maximum of configurability. The advantages of on premise solutions are the physical accessibility, which makes it possible to use the complete range of cyber challenges.",
-          "uuid": "09df1125-f4d8-547d-961e-3738be986f7e"
+          "uuid": "1bbe0a56-a189-547a-b0e0-b50575556e35"
         },
         {
           "value": "cloud",
           "expanded": "Cloud",
           "description": "Training setup deployed in the cloud has on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. In contrast to on premise setups, cloud solutions are rapid elastic on request. So the training can be adapted flexible on a large amount of users and is easily usable world wide.",
-          "uuid": "3c1a7871-31dc-5baa-820f-7b65fcdd77b9"
+          "uuid": "a639179b-414b-58d5-9bc6-4ee404f3c5e2"
         }
       ]
     },
@@ -104,52 +104,52 @@
           "value": "none-automation",
           "expanded": "None Automation",
           "description": "Specifies the automation of processes and the amount of human interaction with the system to maintain and administrate, especially for repetitive exercise; Here none automation is present.",
-          "uuid": "2e2f237f-eeeb-5f29-a11c-e51534f46616"
+          "uuid": "0cb6444d-3e23-50ee-ba18-47e4dade71b5"
         },
         {
           "value": "partially-automation",
           "expanded": "Partially Automation",
           "description": "Specifies the automation of processes and the amount of human interaction with the system to maintain and administrate, especially for repetitive exercise; Here partially automated.",
-          "uuid": "cdf22c1e-eb56-5ea7-8bff-57e3b878e3d9"
+          "uuid": "70b1af54-a4e1-54f3-850f-06d6598092a0"
         },
         {
           "value": "complete-automation",
           "expanded": "Complete Automation",
           "description": "Specifies the automation of processes and the amount of human interaction with the system to maintain and administrate, especially for repetitive exercise; Here full-automated.",
-          "uuid": "39c75f9f-73e1-5ec2-b3bc-09ab571019eb"
+          "uuid": "08df5fcd-544c-5ffd-b577-8940a8c0315b"
         },
         {
           "value": "portability-miscellaneous",
           "expanded": "Portability - Miscellaneous",
           "description": "Miscellaneous approaches are used to ensure the possibility to exchange data, challenges, or entire scenarios to other environments or locations.",
-          "uuid": "c3000bcb-7cfe-5113-8a42-9e4ab9770690"
+          "uuid": "8dbe8349-4139-544a-86d0-1754e8dd3e5e"
         },
         {
           "value": "portability-exchangenable-format",
           "expanded": "Portability - Exchangenable Format",
           "description": "Common data format (YALM, XML, JSON, ...) is used to ensure the possibility to exchange data, challenges, or entire scenarios to other environments or locations.",
-          "uuid": "09fd1f94-3387-528a-94f0-30f94bc24e03"
+          "uuid": "01cf477c-6927-5b2f-b2df-d7d2d027553c"
         },
         {
           "value": "maintainability-modifiability",
           "expanded": "Maintability - Modifiability",
           "description": "Maintainability represents effectiveness and efficiency with which a session can be modified or adapted to changes.",
-          "uuid": "f489ae02-8457-58f2-830e-712b7081af5b"
+          "uuid": "607f59b5-c4e7-5dc8-a2bc-ae8cd23a59bb"
         },
         {
           "value": "maintainability-modularity",
           "expanded": "Maintability - Modularity",
           "description": "A modular concept has advantages in reusability and combinability.",
-          "uuid": "ffb2f391-ee29-5dfe-a1a2-4e0914c86102"
+          "uuid": "d301fea8-35c1-5665-9cdc-77459130c492"
         },
         {
           "value": "compatibility",
           "expanded": "Compatibility",
           "description": "The Compatibility deals with the technical interaction possibilities via interfaces to other applications, data, and protocols.",
-          "uuid": "eb336141-677c-568a-872a-640ed71bd704"
+          "uuid": "a8a9320b-515f-5b20-b43b-e10b6193e30b"
         }
       ]
     }
   ],
-  "uuid": "82c36a42-ebca-5ac5-aa22-f540982b3c70"
+  "uuid": "c7d74326-5f24-5bda-a45c-fb7bf63d8cdc"
 }

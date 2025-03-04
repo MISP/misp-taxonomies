@@ -6,13 +6,13 @@
           "expanded": "TRES SECRET",
           "value": "TRES_SECRET",
           "colour": "#f54a4a",
-          "uuid": "cc576184-1b35-51a6-a6e4-4702298aaad5"
+          "uuid": "c8fc633e-9f55-5846-be8a-a8760f4ba4e7"
         },
         {
           "expanded": "SECRET",
           "value": "SECRET",
           "colour": "#f54a4a",
-          "uuid": "c6889ae4-ec6f-5c27-9979-7fd624aa409f"
+          "uuid": "4f2c421f-81d5-53d5-8bce-a182c211db9a"
         }
       ],
       "predicate": "classifiees"
@@ -23,13 +23,13 @@
           "expanded": "DIFFUSION RESTREINTE",
           "value": "DIFFUSION_RESTREINTE",
           "colour": "#f87272",
-          "uuid": "d0e1b7a6-1a77-5c02-86c7-4125941defc6"
+          "uuid": "019ad322-12b8-5b90-b8e0-c93cc52b44d4"
         },
         {
           "expanded": "NON PROTEGE",
           "value": "NON-PROTEGE",
           "colour": "#f89595",
-          "uuid": "ca47161d-b3b3-5ffd-b2a8-51a48706e5da"
+          "uuid": "a810aeb3-c321-59d9-91d3-2a5c4c3759b2"
         }
       ],
       "predicate": "non-classifiees"
@@ -40,7 +40,7 @@
           "expanded": "SPECIAL FRANCE",
           "value": "SPECIAL_FRANCE",
           "colour": "#0434cc",
-          "uuid": "a81bbf8f-7c82-5185-b756-c00c82172d00"
+          "uuid": "87d72c00-47c2-5ac4-83e4-4c1d296a910a"
         }
       ],
       "predicate": "special-france"
@@ -51,23 +51,23 @@
       "expanded": "Informations classifiées",
       "value": "classifiees",
       "exclusive": true,
-      "uuid": "8df44644-db94-5d4f-8bc2-e37fa5eed479"
+      "uuid": "fd5d7bc9-03d6-5531-bad4-57ed3194c21e"
     },
     {
       "expanded": "Informations non classifiées",
       "value": "non-classifiees",
       "exclusive": true,
-      "uuid": "cabb447b-5efc-5ce5-be29-f9f13e6898e3"
+      "uuid": "9ebd8703-d00f-58bc-a439-442735e51036"
     },
     {
       "expanded": "Mention Spécial France",
       "value": "special-france",
       "exclusive": false,
-      "uuid": "31c768b7-ec1f-5517-aef8-1004ae0a5463"
+      "uuid": "ee35e453-a750-5fcd-b2da-4d42c72593b6"
     }
   ],
   "version": 6,
   "description": "French gov information classification system",
   "namespace": "fr-classif",
-  "uuid": "c5633dc1-36a4-51ec-870b-08944c75951f"
+  "uuid": "e92de0de-bba7-55be-83e1-848dba05d769"
 }

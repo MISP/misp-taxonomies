@@ -6,17 +6,17 @@
     {
       "value": "incident",
       "expanded": "Incident",
-      "uuid": "ad2c1b83-8013-5e2e-b044-924db6a400d9"
+      "uuid": "335eb2c9-2f89-541f-89ce-0564e916b11e"
     },
     {
       "value": "not-an-incident",
       "expanded": "Not an incident",
-      "uuid": "3edf20db-0b64-5c71-a9ef-346616c6da94"
+      "uuid": "19966306-ab52-5518-a232-10ad07dcad3b"
     },
     {
       "value": "duplicate",
       "expanded": "Duplicate",
-      "uuid": "8cee4986-2d32-5621-89ba-1e0ee8452854"
+      "uuid": "29f6577f-a227-5042-9705-70895ad7a858"
     }
   ],
   "values": [
@@ -27,37 +27,37 @@
           "value": "confirmed",
           "expanded": "Confirmed",
           "description": "The incident is confirmed and response is underway following incident response procedure of the organisation.",
-          "uuid": "abe9cc71-beed-5ec0-807b-084820e34fba"
+          "uuid": "a77f141f-a71a-557e-b68f-e6f80fbb7a1f"
         },
         {
           "value": "deferred",
           "expanded": "Deferred",
           "description": "The incident is deferred due to resource constraints, information type or external reasons.",
-          "uuid": "6c8b2665-0458-5f32-ab70-b2b93d1ba5c3"
+          "uuid": "08d8774c-5f7d-5df8-bef1-ea2354e89ba8"
         },
         {
           "value": "unidentified",
           "expanded": "Unidentified",
           "description": "The incident is unidentified because some assets, ressources or context is missing to go a state which can be handled following the incident response response procedure.",
-          "uuid": "b8b3fec0-2540-5c95-ac8d-c9319b54fa12"
+          "uuid": "579f11e1-7bca-57f3-8f82-64a7c0493d78"
         },
         {
           "value": "transferred",
           "expanded": "Transferred",
           "description": "The incident is transferred to another organisations for further processing or incident handling.",
-          "uuid": "197975a5-c153-5799-b8ac-104f2d3975b1"
+          "uuid": "e88934cc-a984-5dc4-bf4f-f99ba8e133d1"
         },
         {
           "value": "discarded",
           "expanded": "Discarded",
           "description": "The incident is discarded due to resource constraints, information type or external reasons.",
-          "uuid": "dd867551-c921-5925-b51a-1145d0dc13fb"
+          "uuid": "f43c468d-c6f0-57bc-8fb4-75facee2971b"
         },
         {
           "value": "silently-discarded",
           "expanded": "Silently discarded",
           "description": "The incident is silently discarded due to resource constraints, information type or external reasons.",
-          "uuid": "7748be39-3440-527e-a454-4fda09514b39"
+          "uuid": "9bb8a469-7ce2-54dd-b2ee-22114d932f4f"
         }
       ]
     },
@@ -68,37 +68,37 @@
           "value": "insufficient-data",
           "expanded": "Insufficient data",
           "description": "When insufficient data is available to explain an ambiguous (i.e., not definitively hostile or benign) indicator, the incident may be dispositioned as Insufficient Data.",
-          "uuid": "09cb998e-cc5d-5425-a344-d4774f3fbfdf"
+          "uuid": "774629ed-a419-5837-8c1f-3f923ad7a8f1"
         },
         {
           "value": "faulty-indicator",
           "expanded": "Faulty indicator",
           "description": "A false positive where an investigation reveals that the source indicator used as the basis for incident detection was a Faulty Indicator.",
-          "uuid": "846fafad-c661-5e71-85c5-6029233ae376"
+          "uuid": "6cf35e37-b8f4-54a2-89df-8a3a7bae5724"
         },
         {
           "value": "misconfiguration",
           "expanded": "Misconfiguration",
           "description": "A false positive where an event that appeared to be malicious activity was subsequently disproven and determined to be a Misconfiguration (malfunction) of a system.",
-          "uuid": "df0a0628-2aad-5d0b-8d6e-9596c683aeb8"
+          "uuid": "a229712f-c77d-5779-b171-c30f7a85f9df"
         },
         {
           "value": "scan-probe",
           "expanded": "Scan or Probe",
           "description": "Reconnaissance activity which Scanned or Probed for the presence of a vulnerability which may be later exploited to gain unauthorized access.",
-          "uuid": "ae871d83-685d-52fc-8a15-5ea178bba404"
+          "uuid": "5cae7264-8961-58dc-b861-77df6ff74f4c"
         },
         {
           "value": "failed",
           "expanded": "Failed",
           "description": "A Failed attempt to gain unauthorized access, conduct a denial of service, install malicious code, or misuse an IT resource, typically because a security control prevented it from succeeding.",
-          "uuid": "bd8dfe41-ebd9-5ef4-b9a8-a9bdae819f2f"
+          "uuid": "d67773b6-afb3-552e-92da-a946edfe3d86"
         },
         {
           "value": "refuted",
           "expanded": "Refuted",
           "description": "Any other circumstance where a suspected incident was determined to not be an incident and was Refuted.",
-          "uuid": "73a2fe2e-78a1-57e3-a873-02e7eca783f9"
+          "uuid": "e1070dc7-1761-5cd7-b528-ad4d0882ee02"
         }
       ]
     },
@@ -109,10 +109,10 @@
           "value": "duplicate",
           "expanded": "Duplicate",
           "description": "An incident may be a Duplicate of another record in the Incident Management System, and should be merged with the existing workflow.",
-          "uuid": "c60c28f4-f04e-5d42-b8fa-3918115b238a"
+          "uuid": "b8575e2a-dd29-5399-893c-90349b495b47"
         }
       ]
     }
   ],
-  "uuid": "c22b706e-5924-5d52-b582-34d265b76ea2"
+  "uuid": "f4157b45-1c27-57f8-b747-9a38a259e0c5"
 }

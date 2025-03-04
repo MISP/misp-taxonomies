@@ -7,232 +7,279 @@
     {
       "value": "infected-by-known-malware",
       "expanded": "System(s) infected by known malware",
-      "description": "The presence of any of the types of malware was detected in a system."
+      "description": "The presence of any of the types of malware was detected in a system.",
+      "uuid": "3c27716b-ffaa-54be-8794-baab3c4d3318"
     },
     {
       "value": "dissemination-malware-email",
       "expanded": "Dissemination of malware by email",
-      "description": "Malware attached to a message or email message containing link to malicious URL."
+      "description": "Malware attached to a message or email message containing link to malicious URL.",
+      "uuid": "e4c5e576-1d05-5f6f-916d-34eb83529e2b"
     },
     {
       "value": "hosting-malware-webpage",
       "expanded": "Hosting of malware on web page",
-      "description": " Web page disseminating one or various types of malware."
+      "description": " Web page disseminating one or various types of malware.",
+      "uuid": "27f843cc-5664-52c1-a6ab-6b8b8eaf69ea"
     },
     {
       "value": "c&c-server-hosting",
       "expanded": "Hosting of malware on web page",
-      "description": "Web page disseminating one or various types of malware."
+      "description": "Web page disseminating one or various types of malware.",
+      "uuid": "4b65f512-74ff-53e0-9f15-bd63c66b8a33"
     },
     {
       "value": "worm-spreading",
       "expanded": "Replication and spreading of a worm",
-      "description": "System infected by a worm trying to infect other systems."
+      "description": "System infected by a worm trying to infect other systems.",
+      "uuid": "b0afaa5d-9a50-57f6-a2d8-b6443454ad26"
     },
     {
       "value": "connection-malware-port",
       "expanded": "Connection to (a) suspicious port(s) linked to specific malware",
-      "description": "System attempting to gain access to a port normally linked to a specific type of malware."
+      "description": "System attempting to gain access to a port normally linked to a specific type of malware.",
+      "uuid": "bfc965cb-8b9c-56b2-b54e-0496ad99bbf8"
     },
     {
       "value": "connection-malware-system",
       "expanded": "Connection to (a) suspicious system(s) linked to specific malware",
-      "description": "System attempting to gain access to an IP address or URL normally linked to a specific type of malware, e.g. C&C or a distribution page for components linked to a specific botnet."
+      "description": "System attempting to gain access to an IP address or URL normally linked to a specific type of malware, e.g. C&C or a distribution page for components linked to a specific botnet.",
+      "uuid": "41f35a6a-6a9e-561a-925a-e567ce26be45"
     },
     {
       "value": "flood",
       "expanded": "Flood of requests",
-      "description": "Mass mailing of requests (network packets, emails, etc...) from one single source to a specific service, aimed at affecting its normal functioning."
+      "description": "Mass mailing of requests (network packets, emails, etc...) from one single source to a specific service, aimed at affecting its normal functioning.",
+      "uuid": "22da0423-6423-5643-a0df-b2a3cd7f8419"
     },
     {
       "value": "exploit-tool-exhausting-resources",
       "expanded": "Exploit or tool aimed at exhausting resources (network, processing capacity, sessions, etc...)",
-      "description": "One single source using specially designed software to affect the normal functioning of a specific service, by exploiting a vulnerability."
+      "description": "One single source using specially designed software to affect the normal functioning of a specific service, by exploiting a vulnerability.",
+      "uuid": "05a2b185-6d86-5ebf-989e-0469f148b53e"
     },
     {
       "value": "packet-flood",
       "expanded": "Packet flooding",
-      "description": "Mass mailing of requests (network packets, emails, etc...) from various sources to a specific service, aimed at affecting its normal functioning."
+      "description": "Mass mailing of requests (network packets, emails, etc...) from various sources to a specific service, aimed at affecting its normal functioning.",
+      "uuid": "defba0c3-6d3d-5b6a-a470-4e6467642333"
     },
     {
       "value": "exploit-framework-exhausting-resources",
       "expanded": "Exploit or tool distribution aimed at exhausting resources",
-      "description": "Various sources using specially designed software to affect the normal functioning of a specific service, by exploiting a vulnerability."
+      "description": "Various sources using specially designed software to affect the normal functioning of a specific service, by exploiting a vulnerability.",
+      "uuid": "a6cd1b7e-feca-52b2-9cd5-7135d480ecc9"
     },
     {
       "value": "vandalism",
       "expanded": "Vandalism",
-      "description": "Logical and physical activities which – although they are not aimed at causing damage to information or at preventing its transmission among systems – have this effect."
+      "description": "Logical and physical activities which – although they are not aimed at causing damage to information or at preventing its transmission among systems – have this effect.",
+      "uuid": "af2373d0-53f8-5f71-8ada-8f05d12a60ce"
     },
     {
       "value": "disruption-data-transmission",
       "expanded": "Intentional disruption of data transmission and processing mechanisms",
-      "description": "Logical and physical activities aimed at causing damage to information or at preventing its transmission among systems."
+      "description": "Logical and physical activities aimed at causing damage to information or at preventing its transmission among systems.",
+      "uuid": "1e8eca0a-310e-5438-8dbf-7ac611292d05"
     },
     {
       "value": "system-probe",
       "expanded": "System probe",
-      "description": "Single system scan searching for open ports or services using these ports for responding."
+      "description": "Single system scan searching for open ports or services using these ports for responding.",
+      "uuid": "d68f372d-a820-52fb-b7f5-a0d5f9361f35"
     },
     {
       "value": "network-scanning",
       "expanded": "Network scanning",
-      "description": "Scanning a network aimed at identifying systems which are active in the same network."
+      "description": "Scanning a network aimed at identifying systems which are active in the same network.",
+      "uuid": "c6c4c240-cabe-5f6d-9f63-e2166f176b90"
     },
     {
       "value": "dns-zone-transfer",
       "expanded": "DNS zone transfer",
-      "description": "Transfer of a specific DNS zone."
+      "description": "Transfer of a specific DNS zone.",
+      "uuid": "fc4b4630-1487-53bf-8164-932f81b17997"
     },
     {
       "value": "wiretapping",
       "expanded": "Wiretapping",
-      "description": "Logical or physical interception of communications."
+      "description": "Logical or physical interception of communications.",
+      "uuid": "16a2fd12-7e21-5ede-8e99-0d1ba74e455c"
     },
     {
       "value": "dissemination-phishing-emails",
       "expanded": "Dissemination of phishing emails",
-      "description": "Mass emailing aimed at collecting data for phishing purposes with regard to the victims."
+      "description": "Mass emailing aimed at collecting data for phishing purposes with regard to the victims.",
+      "uuid": "0a30ab72-4788-5043-a89a-4ece8e49496c"
     },
     {
       "value": "hosting-phishing-sites",
       "expanded": "Hosting phishing sites",
-      "description": "Hosting web sites for phishing purposes."
+      "description": "Hosting web sites for phishing purposes.",
+      "uuid": "b39cb65e-0d4f-59f6-a823-6b4fcf1ec8b8"
     },
     {
       "value": "aggregation-information-phishing-schemes",
       "expanded": "Aggregation of information gathered through phishing schemes",
-      "description": "Collecting data obtained through phishing attacks on web pages, email accounts, etc..."
+      "description": "Collecting data obtained through phishing attacks on web pages, email accounts, etc...",
+      "uuid": "75e4f323-45fa-589f-abad-803912efb630"
     },
     {
       "value": "exploit-attempt",
       "expanded": "Exploit attempt",
-      "description": "Unsuccessful use of a tool exploiting a specific vulnerability of the system."
+      "description": "Unsuccessful use of a tool exploiting a specific vulnerability of the system.",
+      "uuid": "ef0aa4fa-de2c-509b-841a-aaf11cb5dcd3"
     },
     {
       "value": "sql-injection-attempt",
       "expanded": "SQL injection attempt",
-      "description": "Unsuccessful attempt to manipulate or read the information of a database by using the SQL injection technique."
+      "description": "Unsuccessful attempt to manipulate or read the information of a database by using the SQL injection technique.",
+      "uuid": "fd1f1da6-a6f4-53aa-8d7a-dd81044947e6"
     },
     {
       "value": "xss-attempt",
       "expanded": "XSS attempt",
-      "description": "Unsuccessful attempts to perform attacks by using cross-site scripting techniques."
+      "description": "Unsuccessful attempts to perform attacks by using cross-site scripting techniques.",
+      "uuid": "d8f78c85-f599-543c-a660-f00ebeaafb85"
     },
     {
       "value": "file-inclusion-attempt",
       "expanded": "File inclusion attempt",
-      "description": "Unsuccessful attempt to include files in the system under attack by using file inclusion techniques."
+      "description": "Unsuccessful attempt to include files in the system under attack by using file inclusion techniques.",
+      "uuid": "6fe74343-1df6-57cd-b8e8-1745281e0956"
     },
     {
       "value": "brute-force-attempt",
       "expanded": "Brute force attempt",
-      "description": "Unsuccessful login attempt by using sequential credentials for gaining access to the system."
+      "description": "Unsuccessful login attempt by using sequential credentials for gaining access to the system.",
+      "uuid": "b20442b7-ac84-52b8-9336-dd09a290d654"
     },
     {
       "value": "password-cracking-attempt",
       "expanded": "Password cracking attempt",
-      "description": "Attempt to acquire access credentials by breaking the protective cryptographic keys."
+      "description": "Attempt to acquire access credentials by breaking the protective cryptographic keys.",
+      "uuid": "b3f3d819-7ad4-50ad-87dc-659993bda25d"
     },
     {
       "value": "dictionary-attack-attempt",
       "expanded": "Dictionary attack attempt",
-      "description": "Unsuccessful login attempt by using system access credentials previously loaded into a dictionary."
+      "description": "Unsuccessful login attempt by using system access credentials previously loaded into a dictionary.",
+      "uuid": "9e9c7031-2b9f-5b01-ba1d-65763aa5dc7d"
     },
     {
       "value": "exploit",
       "expanded": "Use of a local or remote exploit",
-      "description": "Successful use of a tool exploiting a specific vulnerability of the system."
+      "description": "Successful use of a tool exploiting a specific vulnerability of the system.",
+      "uuid": "0c8b3a63-ee4e-5df0-a584-0dfaf672ed74"
     },
     {
       "value": "sql-injection",
       "expanded": "SQL injection",
-      "description": "Manipulation or reading of information contained in a database by using the SQL injection technique."
+      "description": "Manipulation or reading of information contained in a database by using the SQL injection technique.",
+      "uuid": "e3761329-5bc3-5ef1-b908-c09c7c32bb04"
     },
     {
       "value": "xss",
       "expanded": "XSS",
-      "description": "Attacks performed with the use of cross-site scripting techniques."
+      "description": "Attacks performed with the use of cross-site scripting techniques.",
+      "uuid": "e2bd21f8-d557-58a0-8ae7-2428f9c16600"
     },
     {
       "value": "file-inclusion",
       "expanded": "File inclusion",
-      "description": "Inclusion of files into a system under attack with the use of file inclusion techniques."
+      "description": "Inclusion of files into a system under attack with the use of file inclusion techniques.",
+      "uuid": "47128a12-9eb5-5756-85a2-a18130154c12"
     },
     {
       "value": "control-system-bypass",
       "expanded": "Control system bypass",
-      "description": "Unauthorised access to a system or component by bypassing an access control system in place."
+      "description": "Unauthorised access to a system or component by bypassing an access control system in place.",
+      "uuid": "5c302921-78e9-5613-93bb-ee2892cf31c4"
     },
     {
       "value": "theft-access-credentials",
       "expanded": "Theft of access credentials",
-      "description": "Unauthorised access to a system or component by using stolen access credentials."
+      "description": "Unauthorised access to a system or component by using stolen access credentials.",
+      "uuid": "3c3049e2-dd34-569a-87f9-85e3181bf8d9"
     },
     {
       "value": "unauthorized-access-system",
       "expanded": "Unauthorised access to a system",
-      "description": "Unauthorised access to a system or component."
+      "description": "Unauthorised access to a system or component.",
+      "uuid": "3574a941-a96b-5114-a5c6-7cd00e1cc1a0"
     },
     {
       "value": "unauthorized-access-information",
       "expanded": "Unauthorised access to information",
-      "description": "Unauthorised access to a set of information."
+      "description": "Unauthorised access to a set of information.",
+      "uuid": "bbb2c1ee-cc3a-582f-9dc6-c0a76361f901"
     },
     {
       "value": "data-exfiltration",
       "expanded": "Data exfiltration",
-      "description": "Unauthorised access to and sharing of a specific set of information."
+      "description": "Unauthorised access to and sharing of a specific set of information.",
+      "uuid": "4fe9153f-b26c-54c5-b4b1-4552b3dc158c"
     },
     {
       "value": "modification-information",
       "expanded": "Modification of information",
-      "description": "Unauthorised changes to a specific set of information."
+      "description": "Unauthorised changes to a specific set of information.",
+      "uuid": "997421a6-a86e-51ce-900e-ab8e449a7c41"
     },
     {
       "value": "deletion-information",
       "expanded": "Deletion of information",
-      "description": "Unauthorised deleting of a specific set of information."
+      "description": "Unauthorised deleting of a specific set of information.",
+      "uuid": "3ddd51e6-35f9-57bf-b218-a772100ac044"
     },
     {
       "value": "illegitimate-use-resources",
       "expanded": "Misuse or unauthorised use of resources",
-      "description": "Use of institutional resources for purposes other than those intended."
+      "description": "Use of institutional resources for purposes other than those intended.",
+      "uuid": "73a7c7fc-2365-5622-9368-06cb059e324e"
     },
     {
       "value": "illegitimate-use-name",
       "expanded": "Illegitimate use of the name of an institution or third party",
-      "description": "Using the name of an institution without permission to do so."
+      "description": "Using the name of an institution without permission to do so.",
+      "uuid": "0743e186-03cd-5910-bcc4-923b62462c72"
     },
     {
       "value": "email-flooding",
       "expanded": "Email flooding",
-      "description": "Sending an unusually large quantity of email messages."
+      "description": "Sending an unusually large quantity of email messages.",
+      "uuid": "a52e2ab3-8e78-5b38-98f4-c82ea6429f8c"
     },
     {
       "value": "spam",
       "expanded": "Sending an unsolicited message",
-      "description": "Sending an email message that was unsolicited or unwanted by the recipient."
+      "description": "Sending an email message that was unsolicited or unwanted by the recipient.",
+      "uuid": "6470ce97-74eb-5255-9bbe-0793747dd216"
     },
     {
       "value": "copyrighted-content",
       "expanded": "Distribution or sharing of copyright protected content",
-      "description": "Distribution or sharing of content protected by copyright and related rights."
+      "description": "Distribution or sharing of content protected by copyright and related rights.",
+      "uuid": "5286aad4-92da-59ac-85eb-16c96b335c25"
     },
     {
       "value": "content-forbidden-by-law",
       "expanded": "Dissemination of content forbidden by law (publicly prosecuted offences)",
-      "description": "Distribution or sharing of illegal content such as child pornography, racism, xenophobia, etc..."
+      "description": "Distribution or sharing of illegal content such as child pornography, racism, xenophobia, etc...",
+      "uuid": "7c82eb5b-6928-583d-8655-5ec2955f97e5"
     },
     {
       "value": "unspecified",
       "expanded": "Other unspecified event",
-      "description": "Other unlisted events."
+      "description": "Other unlisted events.",
+      "uuid": "8661160d-5753-574b-8770-4706e1ec4784"
     },
     {
       "value": "undetermined",
       "expanded": "Undetermined",
-      "description": "Field aimed at the classification of unprocessed events, which have remained undetermined from the beginning."
+      "description": "Field aimed at the classification of unprocessed events, which have remained undetermined from the beginning.",
+      "uuid": "50e827af-6e05-5401-905e-51b7ad61fb64"
     }
-  ]
+  ],
+  "uuid": "34da0c5e-2d9e-5439-8e4e-f25e087fd3a3"
 }

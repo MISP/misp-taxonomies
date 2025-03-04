@@ -9,7 +9,7 @@
       "expanded": "API action",
       "description": "Desired action of background jobs with the API",
       "exclusive": true,
-      "uuid": "e2ef338f-4fee-51ab-a5db-973c7a87272e"
+      "uuid": "85ca2ec8-601d-52d8-8164-99af2df692c2"
     }
   ],
   "values": [
@@ -20,16 +20,16 @@
           "value": "upload",
           "expanded": "upload",
           "description": "Upload IOC to Cytomic Orion",
-          "uuid": "f6b10bde-a6d8-5d0c-ab5d-21c346640aa1"
+          "uuid": "ea4f677f-ffa6-5afa-a3d8-4e39e0c552fe"
         },
         {
           "value": "delete",
           "expanded": "delete",
           "description": "Delete IOC from Cytomic Orion",
-          "uuid": "8109e528-a1ed-56be-9cde-c3979e2b95f1"
+          "uuid": "89b31ca6-95a1-54e0-875e-814577c991a3"
         }
       ]
     }
   ],
-  "uuid": "d1ceae25-59eb-5aa5-9948-66e31e9beb4b"
+  "uuid": "2276c578-35c8-584d-8c7f-ce7447a21325"
 }

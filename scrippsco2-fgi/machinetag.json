@@ -3,40 +3,48 @@
     {
       "description": "Suspect but accepted isotopic measurement",
       "expanded": "accepted-suspect",
-      "value": "-3"
+      "value": "-3",
+      "uuid": "1acaa5fa-1bd9-591f-a887-a7056c844d2a"
     },
     {
       "description": "Accepted isotopic measurement",
       "expanded": "accepted",
-      "value": "0"
+      "value": "0",
+      "uuid": "3e535624-9509-5ca1-94c1-c7978393ae6c"
     },
     {
       "description": "Rejected",
       "expanded": "rejected",
-      "value": "3"
+      "value": "3",
+      "uuid": "4379e742-ccec-56d3-b8c9-2ca24aa2991b"
     },
     {
       "description": "Outlier from fit",
       "expanded": "outlier",
-      "value": "5"
+      "value": "5",
+      "uuid": "d2246d37-c2f0-5691-b57b-e7485dd85d78"
     },
     {
       "description": "Other rejected, older data",
       "expanded": "rejected-old-data",
-      "value": "6"
+      "value": "6",
+      "uuid": "35cfb7bb-c166-533b-b6cb-bd73716282fd"
     },
     {
       "description": "Flask extracted but not analyzed yet",
       "expanded": "extracted-not-analyzed",
-      "value": "8"
+      "value": "8",
+      "uuid": "478a6a73-4b83-59d3-8321-d4d0033c10ba"
     },
     {
       "description": "Flask not extracted",
       "expanded": "not-extracted",
-      "value": "9"
+      "value": "9",
+      "uuid": "59b7acba-2df6-50ad-8ed7-79e9701506e8"
     }
   ],
   "version": 1,
   "description": "Flags describing the sample for isotopic data (C14, O18)",
-  "namespace": "scrippsco2-fgi"
+  "namespace": "scrippsco2-fgi",
+  "uuid": "964eddd6-1099-5b13-8e4e-be34a8f13dc6"
 }

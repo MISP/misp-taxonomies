@@ -8,17 +8,17 @@
     {
       "value": "trust",
       "expanded": "How much trust the analyst has with this indicator.",
-      "uuid": "65377f38-70ce-5a75-a732-375a69ea89a9"
+      "uuid": "fd96625d-2ed1-5d5d-8a6c-e044a6eb74c6"
     },
     {
       "value": "frequency",
       "expanded": "Recency/count of occurence at which the indicator occurs in data.",
-      "uuid": "d1be84f2-22b8-54b4-84c0-8f83c4fd20c4"
+      "uuid": "d172643e-cc8d-5b83-b34c-8ba8b3de26d0"
     },
     {
       "value": "valid",
       "expanded": "Whether this indicator was pushed as trusted but cannot be trusted (ie. MD5 cannot be valid because it is cryptographically broken).",
-      "uuid": "fcf45fd9-5cc3-54a5-802b-52c3f79c5acd"
+      "uuid": "861ff4fe-8c81-5cea-9c9b-b43142ddcef5"
     }
   ],
   "values": [
@@ -28,27 +28,27 @@
         {
           "value": "unknown",
           "expanded": "Unknown Confidence State",
-          "uuid": "7246cd73-3265-53e7-8230-2ab89a74fb0f"
+          "uuid": "159977de-f8fb-5682-b017-f35e698006f7"
         },
         {
           "value": "none",
           "expanded": "Cannot Trust, no confidence",
-          "uuid": "0a7d378d-9c45-5b07-ac5f-42ab2c64f371"
+          "uuid": "c957a2aa-151a-586a-98dc-6b285d04b847"
         },
         {
           "value": "partial",
           "expanded": "Low confidence",
-          "uuid": "4d767a58-8e17-52f6-b36a-e59407a17cd1"
+          "uuid": "1782877e-d4da-5d6f-bef6-379e67262317"
         },
         {
           "value": "relationship",
           "expanded": "Inherited Full Trust by a third party that we trust",
-          "uuid": "0611352d-36f0-5dbb-8a7c-68a5d0ea5a87"
+          "uuid": "6cbd287c-0305-5190-a659-7c9d44780ac6"
         },
         {
           "value": "full",
           "expanded": "We fully trust it",
-          "uuid": "c574f94b-c552-5f26-afe4-0dece3789f5e"
+          "uuid": "a0d78e32-3dfb-59aa-b554-401db86c6885"
         }
       ]
     },
@@ -58,27 +58,27 @@
         {
           "value": "hourly",
           "expanded": "This attribute is likely to happen at an hourly interval",
-          "uuid": "a43a065a-4d22-5f57-9770-601d2a3a6984"
+          "uuid": "884f9dc2-5825-5c92-a7c7-17ba44d08f2a"
         },
         {
           "value": "daily",
           "expanded": "This attribute is likely to happen at a daily interval",
-          "uuid": "662c6006-8eb8-5d0e-8103-60f80264e985"
+          "uuid": "d74e986a-21eb-59d9-a575-c2a7ca5e7595"
         },
         {
           "value": "weekly",
           "expanded": "This attribute is likely to happen at a weekly interval",
-          "uuid": "1cf90600-fb8d-557a-a8c4-9a832cf981d8"
+          "uuid": "e3610001-666d-5cd8-8dcf-0ac26ebda7d5"
         },
         {
           "value": "monthly",
           "expanded": "This attribute is likely to happen at a monthly interval",
-          "uuid": "cf50122d-0d03-5902-8bcc-5f424b18c9f3"
+          "uuid": "9031df10-7d12-598b-9d16-5cbf5919d4a0"
         },
         {
           "value": "yearly",
           "expanded": "Thie attribute is likely to happen at a yearly interval",
-          "uuid": "b4dc5d14-a294-5edc-8372-34e9d7214dc0"
+          "uuid": "b9b42fa5-ef37-5dcc-be8c-4b6466292b8b"
         }
       ]
     },
@@ -88,12 +88,12 @@
         {
           "value": "true",
           "expanded": "This Trust is valid",
-          "uuid": "e7239437-6921-564f-b458-9c9677256616"
+          "uuid": "eb451c7c-b826-56fe-98ed-dbcee6548e77"
         },
         {
           "value": "false",
           "expanded": "This trust is invalid. Such as a MD5 Hash etc.",
-          "uuid": "7b73a8db-aebb-5963-97f8-24d8a603fe83"
+          "uuid": "e87a6c8d-1d19-5e08-92be-d5e3236a2b55"
         }
       ]
     }
@@ -101,5 +101,5 @@
   "refs": [
     "https://trust.fyi/"
   ],
-  "uuid": "ce86b816-88e2-57df-9aa2-0fd40ee4f86f"
+  "uuid": "a0a7da02-7f88-5a0c-b78e-61505fa37533"
 }

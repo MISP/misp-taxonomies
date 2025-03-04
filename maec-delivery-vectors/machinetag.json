@@ -6,7 +6,7 @@
     {
       "value": "maec-delivery-vector",
       "expanded": "MAEC Delivery Vector",
-      "uuid": "37212948-da99-5a11-ab34-4f292950e725"
+      "uuid": "0104730d-42a0-5f64-9e45-f3520e16b597"
     }
   ],
   "values": [
@@ -16,90 +16,90 @@
         {
           "value": "active-attacker",
           "expanded": "active Attacker",
-          "uuid": "d1da60c1-aea1-5589-b358-8c8250eca260"
+          "uuid": "4a87e037-2855-56d2-8835-7437f50d5ec6"
         },
         {
           "value": "auto-executing-media",
           "expanded": "auto-executing-media",
-          "uuid": "c7d3df50-e2f9-503b-be96-7e73b7c619f5"
+          "uuid": "aef5930e-5543-5294-91ec-54aeed149bd8"
         },
         {
           "value": "downloader",
           "expanded": "downloader",
-          "uuid": "a8d84dd4-adb9-5272-a1bd-a3a9ae8f2d24"
+          "uuid": "9837e496-911d-585d-ab5f-af673f392561"
         },
         {
           "value": "dropper",
           "expanded": "dropper",
-          "uuid": "36b73fb5-c7dc-5b44-b758-b7bf52c0cf33"
+          "uuid": "f62ed34a-56dc-537a-a95e-1e2e75788726"
         },
         {
           "value": "email-attachment",
           "expanded": "email-attachment",
-          "uuid": "3e2b4fb5-9f23-5388-acea-169760a12453"
+          "uuid": "616b6f4d-bb2d-5163-945f-4968bdf3700b"
         },
         {
           "value": "exploit-kit-landing-page",
           "expanded": "exploit-kit-landing-page",
-          "uuid": "897d6c7d-3938-5380-b4b0-84f3cd52909f"
+          "uuid": "fb9b5532-aac3-5aec-9ebb-21faa4223d95"
         },
         {
           "value": "fake-website",
           "expanded": "fake-website",
-          "uuid": "0af9c70c-4186-54e7-b761-f631bf79249f"
+          "uuid": "1c90371a-2775-58cb-9e4a-86fc063f1b51"
         },
         {
           "value": "janitor-attack",
           "expanded": "janitor-attack",
-          "uuid": "da9defb5-a529-58c8-9c58-f117c44f73d7"
+          "uuid": "5bcff3db-3c70-576b-83dc-83d44be0b1b8"
         },
         {
           "value": "malicious-iframes",
           "expanded": "malicious-iframes",
-          "uuid": "23f93b23-7dfb-574f-a560-32101f2e1b75"
+          "uuid": "fa8d1ba4-8b6e-5417-aabf-d9115dfd27f3"
         },
         {
           "value": "malvertising",
           "expanded": "malvertising",
-          "uuid": "3070abea-e723-5d49-b45a-19e741b1fce1"
+          "uuid": "6bb16438-f783-59cf-8584-47a029c3024b"
         },
         {
           "value": "media-baiting",
           "expanded": "media-baiting",
-          "uuid": "7a83ed26-2dc1-5eff-aba1-e003d765a044"
+          "uuid": "5d7903ee-5609-56d3-b1b4-07599caba075"
         },
         {
           "value": "pharming",
           "expanded": "pharming",
-          "uuid": "51f0f376-df90-5fcc-b752-352be56411d7"
+          "uuid": "5103b8e8-98ce-5bd6-82e7-d958aaf42f5f"
         },
         {
           "value": "phishing",
           "expanded": "phishing",
-          "uuid": "203a065f-fb35-5f4e-9893-e1a2da1b50ae"
+          "uuid": "c54c21be-e598-583c-a2b8-d2a807199224"
         },
         {
           "value": "trojanized-link",
           "expanded": "trojanized-link",
-          "uuid": "5cef44d7-ef9d-516b-a663-d75eecefc548"
+          "uuid": "ee414739-a1d8-5e77-b33d-ef3b986a6524"
         },
         {
           "value": "trojanized-software",
           "expanded": "trojanized-software",
-          "uuid": "cd65d789-5964-572d-b6cb-ef1de0761231"
+          "uuid": "c4266721-332c-5bdb-8303-ed1d786c43ea"
         },
         {
           "value": "usb-cable-syncing",
           "expanded": "usb-cable-syncing",
-          "uuid": "063c9bf5-7c4d-55b4-ad9e-df41b9d78cfa"
+          "uuid": "99c79135-f65a-5cb8-bde3-804d7dbc61f2"
         },
         {
           "value": "watering-hole",
           "expanded": "watering-hole",
-          "uuid": "05aece2d-f0d5-5c6f-af03-71497c30d3b5"
+          "uuid": "5b65768b-b02f-536c-8a5e-5f1ccd45bf5d"
         }
       ]
     }
   ],
-  "uuid": "f889472b-22b5-5ceb-9e9c-beaeba936851"
+  "uuid": "1bfc067e-7a55-54c5-98ea-c1d9c8e02ac4"
 }

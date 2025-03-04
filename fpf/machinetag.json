@@ -7,25 +7,25 @@
       "value": "degrees-of-identifiability",
       "expanded": "Degrees of identifiability",
       "description": "Information containing direct and indirect identifiers.",
-      "uuid": "c3cd5013-d478-5a79-b79a-5a8462cd02a4"
+      "uuid": "5f196f7a-3a31-5a2b-9c0b-33dbd60ee3e1"
     },
     {
       "value": "pseudonymous-data",
       "expanded": "Pseudonymous Data",
       "description": "Information from which direct identifiers have been eliminated or transformed, but indirect entifiers remain intact.",
-      "uuid": "de576e48-7ad3-5728-b6de-14738370a65c"
+      "uuid": "370d8dac-f194-577d-b916-2ab43498a08a"
     },
     {
       "value": "de-identified-data",
       "expanded": "De-identified data",
       "description": "Direct and known indirect identifiers have been removed or manipulated to break the linkage to real world identities.",
-      "uuid": "efdbc74b-7bba-5742-9576-fa16472e89bb"
+      "uuid": "d501e419-fbd1-54a1-9445-c4cbd4d29fe3"
     },
     {
       "value": "anonymous-data",
       "expanded": "Anonymous data",
       "description": "Direct and indirect identifiers have en removed or manipulated together with mathematical and technical guarantees to prevent re-identification.",
-      "uuid": "815ec992-efa8-5b3d-afd6-8020b564a353"
+      "uuid": "f42fb9f5-2680-5f0b-9993-3b49a73f4e1f"
     }
   ],
   "values": [
@@ -36,19 +36,19 @@
           "value": "explicitly-personal",
           "expanded": "Explicitly personal",
           "description": "Name, address, phone number, SSN, government-issued ID (e.g., Jane Smith, 123 Main Street, 555-555-5555)",
-          "uuid": "a2ea9678-5579-59ea-8fa8-559d414f1f2e"
+          "uuid": "312850d5-122a-512d-9f87-7f112b2510ac"
         },
         {
           "value": "potentially-identifiable",
           "expanded": "Potentially identifiable",
           "description": "Unique device ID, license plate, medical record number, cookie, IP address (e.g., MAC address 68:A8:6D:35:65:03)",
-          "uuid": "1a37c173-eb7c-5c07-80e6-26347b612436"
+          "uuid": "0540b3ce-1f99-52d8-b0a7-7fc19e8fdf68"
         },
         {
           "value": "not-readily-identifiable",
           "expanded": "Not readily identifiable",
           "description": "Same as Potentially Identifiable except data are also protected by safeguards and controls (e.g., hashed MAC addresses & legal representations)",
-          "uuid": "c29f491e-69a2-53cd-a239-12f5320c513e"
+          "uuid": "b867b17c-90a1-5c13-9d4f-3613a42e23bb"
         }
       ]
     },
@@ -59,19 +59,19 @@
           "value": "key-coded",
           "expanded": "Key coded",
           "description": "Clinical or research datasets where only curator retains key (e.g., Jane Smith, diabetes, HgB 15.1 g/dl = Csrk123)",
-          "uuid": "b9c27a53-5722-58fa-9e35-a104131634c6"
+          "uuid": "8e7baf28-86a8-5e1e-8c0e-51c9720279f8"
         },
         {
           "value": "pseudonymous",
           "expanded": "Pseudonymous",
           "description": "Unique, artificial pseudonyms replace direct identifiers (e.g., HIPAA Limited Datasets, John Doe = 5L7T LX619Z) (unique sequence not used anywhere else)",
-          "uuid": "66610464-1642-505e-8ba1-dc18b91b9946"
+          "uuid": "8457b8dc-9247-564e-ba94-0be6e2a48073"
         },
         {
           "value": "protected-pseudonymous",
           "expanded": "Protected pseudonymous",
           "description": "Same as Pseudonymous, except data are also protected by safeguards and controls",
-          "uuid": "bf38d2c6-2b07-5fa2-82a7-a3899396483d"
+          "uuid": "96d022ed-5db7-5395-9a03-bac38a942524"
         }
       ]
     },
@@ -82,13 +82,13 @@
           "value": "de-identified",
           "expanded": "De-identified",
           "description": "Data are suppressed, generalized, perturbed, swapped, etc. (e.g., GPA: 3.2 = 3.0-3.5, gender: female = gender: male)",
-          "uuid": "2165cb49-600c-54eb-9849-4c23d69d9954"
+          "uuid": "897ccf2a-fd11-52a5-b7e4-b514d4dce7f4"
         },
         {
           "value": "protected-de-identified",
           "expanded": "Protected de-identified",
           "description": "Same as De-Identified, except data are also protected by safeguards and controls",
-          "uuid": "c70f7f28-a7ad-53bf-8ed3-21d303d14112"
+          "uuid": "6920c2aa-36b9-59bd-ae94-1c8fa73c4fa6"
         }
       ]
     },
@@ -99,16 +99,16 @@
           "value": "anonymous",
           "expanded": "Anonymous",
           "description": "For example, noise is calibrated to a data set to hide whether an individual is present or not (differential privacy)",
-          "uuid": "96bf82bc-f9e8-5494-a325-4b4fcd9a8c95"
+          "uuid": "3bf611cc-63f3-517d-aa21-9959044100b0"
         },
         {
           "value": "aggregated-anonymous",
           "expanded": "Aggregated anonymous",
           "description": "Very highly aggregated data (e.g., statistical data, census data, or population data that 52.6% of Washington, DC residents are women)",
-          "uuid": "1241f515-3e36-53ce-b6d6-13ba09429674"
+          "uuid": "42f4793b-2c20-55fd-8a8c-600a9169fde0"
         }
       ]
     }
   ],
-  "uuid": "6152c9cb-afc4-5f82-9fa5-f5f1186e465d"
+  "uuid": "85ed8876-c018-5a69-bc03-1b1863a79a57"
 }

@@ -14,61 +14,61 @@
           "value": "tool",
           "expanded": "Tool",
           "description": "Open source or proprietary tool used in cybersecurity.",
-          "uuid": "40d7eed8-93eb-5d03-9369-27ea95bc7efc"
+          "uuid": "dcab6726-083d-5c5a-9f9e-aa547ab54f58"
         },
         {
           "value": "playbook",
           "expanded": "Playbook",
           "description": "Playbook, such as a defined set of rules with one or more actions triggered by different events to respond to, orchestrate or automate cybersecurity related actions.",
-          "uuid": "5b47e710-16dd-5033-b759-570e9aae91c1"
+          "uuid": "4f0e6308-fc6d-59ff-bbd9-77904eca9eee"
         },
         {
           "value": "taxonomy",
           "expanded": "Taxonomy",
           "description": "Cybersecurity taxonomy is a set of labels used to classify (in both terms - arrange in classes or/and design to national classification) cybersecurity related information.",
-          "uuid": "06554b6f-3f62-5ea6-9298-e4039c1ed6f8"
+          "uuid": "284be36b-b773-577f-b5d9-9c71fbe8f3a4"
         },
         {
           "value": "rule",
           "expanded": "Rule",
           "description": "Detection rule or set of detection rules used in the cybersecurity field. Rulesets can be in different formats for (N/L)IDS/SIEM (such as Snort, Suricata, Zeek, SIGMA or YARA) or any other tool capable of parsing them.",
-          "uuid": "1113709e-0ee0-5706-aeb3-6d94a0f56834"
+          "uuid": "1b84f22e-a0f5-5f32-b60d-6f3be814065b"
         },
         {
           "value": "notebook",
           "expanded": "Notebook",
           "description": "Interactive document to code, experiment, train or visualize cybersecurity-related information. A notebook can be transcribed in a format such as Jupyter Notebooks, Apache Zeppelin, Pluton or Google Colab.",
-          "uuid": "db5f9cb1-5189-5f47-8ff3-cbf9d758b6d8"
+          "uuid": "d6060b53-85b4-5bfe-9c48-1cb101334582"
         },
         {
           "value": "vulnerability",
           "expanded": "Vulnerability",
           "description": "Public or non-public information about a security vulnerability in a specific software, hardware or service.",
-          "uuid": "a13dc90b-c280-5716-90c3-aaddfc29ad1a"
+          "uuid": "84984736-440e-5bf4-a074-d222a4fd9a6e"
         },
         {
           "value": "proof-of-concept",
           "expanded": "Proof-of-concept",
           "description": "Code to validate a known vulnerability.",
-          "uuid": "493800dd-9ec1-5439-b7e4-c9e95f938dc4"
+          "uuid": "6f837823-9fb2-5d11-b56f-3ff66cb198c3"
         },
         {
           "value": "fingerprint",
           "expanded": "Fingerprint",
           "description": "Code to uniquely identify specific cybersecurity-relevant patterns. Fingerprints can be expressed in different formats such as ja3, ja3s, hassh, jarm or favicon-mmh3.",
-          "uuid": "67efc2b3-56eb-5258-af0e-559668365f23"
+          "uuid": "af45eb9f-b749-50c7-b10a-d53e331e239b"
         },
         {
           "value": "mitigation",
           "expanded": "Mitigation",
           "description": "Mitigating control to prevent unwanted activity from happening, like a specific configuration of the operating system/tools or an implementation policy.",
-          "uuid": "d9b9cead-6b63-5f2f-a589-55a1c821b520"
+          "uuid": "ea180f1d-c4c2-594a-8e4e-693048073a60"
         },
         {
           "value": "dataset",
           "expanded": "Dataset",
           "description": "Dataset for validation of detections and tool stacks,",
-          "uuid": "58ef6455-057a-5446-b7d8-ec0c1729106a"
+          "uuid": "107134a3-daee-5ba0-86ba-9e56d40f5ef4"
         }
       ]
     },
@@ -78,47 +78,47 @@
         {
           "value": "identify",
           "expanded": "Identify",
-          "uuid": "c3a032b2-356f-5329-96b4-fe873f0d6205"
+          "uuid": "b48e3036-d837-512b-ad7c-58a8d8bd4598"
         },
         {
           "value": "protect",
           "expanded": "Protect",
-          "uuid": "835c5f94-b31d-5fae-a254-c755c0cce0bd"
+          "uuid": "d8e70b67-3788-506b-874a-ea7d9c5fddde"
         },
         {
           "value": "detect",
           "expanded": "Detect",
-          "uuid": "c426c1fd-c0fa-5db8-9cfd-1a2cf55e0229"
+          "uuid": "c6ed4bef-2bb6-5b73-893a-8ce41334393b"
         },
         {
           "value": "respond",
           "expanded": "Respond",
-          "uuid": "1c236306-183a-50c2-9cec-d784cff0a176"
+          "uuid": "a302d8ac-1bba-539c-8818-9ef83dd4e411"
         },
         {
           "value": "recover",
           "expanded": "Recover",
-          "uuid": "1b861902-11f3-5a20-a5ee-a80be6008c6a"
+          "uuid": "bfd6bcea-ffca-537a-a136-ba943ce8011a"
         },
         {
           "value": "exploit",
           "expanded": "Exploit",
-          "uuid": "8f37db75-f73b-52a7-9506-811c45a12a97"
+          "uuid": "a943de57-eb70-5b6a-99fb-201b9a44718c"
         },
         {
           "value": "investigate",
           "expanded": "Investigate",
-          "uuid": "97b09ba0-1155-55c3-9fb3-fa209133e931"
+          "uuid": "fae742a8-e4c1-536b-91eb-6cf2bf652171"
         },
         {
           "value": "train",
           "expanded": "Train",
-          "uuid": "4cc135cc-85ce-5d74-9de1-2454bce62111"
+          "uuid": "54e3fcd3-b5be-5352-8057-50eacd6d0d3a"
         },
         {
           "value": "test",
           "expanded": "Test",
-          "uuid": "a2fa95d0-b415-5fd2-a3a3-8f8b23914b88"
+          "uuid": "64f31800-47aa-5732-b1d8-d58a970fead4"
         }
       ]
     }
@@ -128,14 +128,14 @@
       "value": "type",
       "expanded": "Type",
       "description": "Type of entry in the catalogue.",
-      "uuid": "564db871-6a85-5bf5-b432-f2770599b3a2"
+      "uuid": "e0358f1b-d177-5ff5-baa0-ff962ca3ef3d"
     },
     {
       "value": "scope",
       "expanded": "Scope",
       "description": "Scope of usage for the entry in the catalogue.",
-      "uuid": "160f45c5-bd1a-5654-ba8e-0f47dc8f5d9f"
+      "uuid": "2aaff7c4-1b93-582f-ac37-94168503f048"
     }
   ],
-  "uuid": "82066f66-4cf7-5586-97dd-9a7109661973"
+  "uuid": "0a4ed543-b2b9-5748-8418-7cf2a6796e38"
 }

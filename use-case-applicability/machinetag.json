@@ -7,42 +7,51 @@
     {
       "value": "announced-administrative/user-action",
       "expanded": "Announced administrative/user action",
-      "description": "The process to communicate administrative activities or special user actions was in place and working correctly. Internal sensors are working and detecting privileged or irregular administrative behaviour."
+      "description": "The process to communicate administrative activities or special user actions was in place and working correctly. Internal sensors are working and detecting privileged or irregular administrative behaviour.",
+      "uuid": "693d3d2f-f7f8-5509-84d6-c058aaffa872"
     },
     {
       "value": "unannounced-administrative/user-action",
       "expanded": "Unannounced administrative/user action",
-      "description": "Internal sensors have detected privileged or user activity, which was not previously communicated. This category also includes improper usage."
+      "description": "Internal sensors have detected privileged or user activity, which was not previously communicated. This category also includes improper usage.",
+      "uuid": "7ed762a0-ab35-510d-803c-c443e0ad8be2"
     },
     {
       "value": "log-management-rule-configuration-error",
       "expanded": "Log management rule configuration error",
-      "description": "This category reflects false alerts that were raised due to configuration errors in the central log management system, often a SIEM, rule."
+      "description": "This category reflects false alerts that were raised due to configuration errors in the central log management system, often a SIEM, rule.",
+      "uuid": "972ce037-a3ea-59b9-9ab0-9f1ee75a3c67"
     },
     {
       "value": "detection-device/rule-configuration-error",
       "expanded": "Detection device/rule configuration error",
-      "description": "This category reflects rules on detection devices, which are usually passive or active components of network security."
+      "description": "This category reflects rules on detection devices, which are usually passive or active components of network security.",
+      "uuid": "faeaed23-904b-5054-8f33-55db369fece3"
     },
     {
       "value": "bad-IOC/rule-pattern-value",
       "expanded": "Bad IOC/rule pattern value",
-      "description": "Products often require external indicator information or security feeds to be applied on active or passive infrastructure components to create alerts."
+      "description": "Products often require external indicator information or security feeds to be applied on active or passive infrastructure components to create alerts.",
+      "uuid": "dcd1ee60-f631-5ca0-8d38-c83ba7bba626"
     },
     {
       "value": "test-alert",
       "expanded": "Test alert",
-      "description": "This alert reflects alerts created for testing purposes. "
+      "description": "This alert reflects alerts created for testing purposes. ",
+      "uuid": "359f96b6-b9bf-5cc1-b8a8-2ac4b59fd15a"
     },
     {
       "value": "confirmed-attack-with-IR-actions",
       "expanded": "Confirmed Attack with IR actions",
-      "description": "This alert represents the classic true positives, where all security controls in place were circumvented, a security control was lacking or a misconfiguration of a security element occurred."
+      "description": "This alert represents the classic true positives, where all security controls in place were circumvented, a security control was lacking or a misconfiguration of a security element occurred.",
+      "uuid": "7f4283fd-b0be-5545-84e0-59a3dbb4beda"
     },
     {
       "value": "confirmed-attack-attempt-without-IR-actions",
       "expanded": "Confirmed Attack attempt without IR actions",
-      "description": "This category reflects an attempt by a threat actor, which in the end could be prevented by in place security measures but passed security controls associated with the delivery phase of the Cyber Kill Chain."
+      "description": "This category reflects an attempt by a threat actor, which in the end could be prevented by in place security measures but passed security controls associated with the delivery phase of the Cyber Kill Chain.",
+      "uuid": "f418f035-3060-5e5c-b7e3-af99fd49b278"
     }
-  ]
+  ],
+  "uuid": "348f77af-bbd1-52e8-b672-0f7375edc4e4"
 }

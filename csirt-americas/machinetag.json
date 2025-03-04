@@ -5,59 +5,74 @@
   "predicates": [
     {
       "value": "defacement",
-      "expanded": "Defacement"
+      "expanded": "Defacement",
+      "uuid": "4f788e62-d849-58bf-9994-15a11eb7cccb"
     },
     {
       "value": "malware",
-      "expanded": "Malware"
+      "expanded": "Malware",
+      "uuid": "76e75869-0c7a-5c0e-82b6-597e3edf83be"
     },
     {
       "value": "ddos",
-      "expanded": "DDoS"
+      "expanded": "DDoS",
+      "uuid": "0985c3e1-d1be-5f0e-a3f9-db71a4ea4cd9"
     },
     {
       "value": "phishing",
-      "expanded": "Phishing"
+      "expanded": "Phishing",
+      "uuid": "582aecf5-ceb9-5564-96e9-6354e2264e60"
     },
     {
       "value": "spam",
-      "expanded": "Spam"
+      "expanded": "Spam",
+      "uuid": "98599aa8-9f11-5828-bc58-54170ee03846"
     },
     {
       "value": "botnet",
-      "expanded": "Botnet"
+      "expanded": "Botnet",
+      "uuid": "cfcb26ff-808a-5f89-813a-b1ff57c8a91f"
     },
     {
       "value": "fastflux",
-      "expanded": "Fastflux"
+      "expanded": "Fastflux",
+      "uuid": "1f6a2c4f-3d18-5354-966a-0fa98dc9d1fb"
     },
     {
       "value": "cryptojacking",
-      "expanded": "Cryptojacking"
+      "expanded": "Cryptojacking",
+      "uuid": "8b091896-d34d-5835-85a0-46fd5150d207"
     },
     {
       "value": "xss",
-      "expanded": "XSS"
+      "expanded": "XSS",
+      "uuid": "c2cf25b5-7fb7-5935-9c47-fee8e3fc886f"
     },
     {
       "value": "sqli",
-      "expanded": "SQL Injection"
+      "expanded": "SQL Injection",
+      "uuid": "5ca1dcf0-3942-5161-887b-2fb3d0acf6ac"
     },
     {
       "value": "vulnerability",
-      "expanded": "Vulnerability"
+      "expanded": "Vulnerability",
+      "uuid": "4b00535a-af7c-5b54-a776-2bad845756f7"
     },
     {
       "value": "infoleak",
-      "expanded": "Information leak"
+      "expanded": "Information leak",
+      "uuid": "bc5fcb4b-fddf-518b-b7ec-580ad8295925"
     },
     {
       "value": "compromise",
-      "expanded": "System compromise"
+      "expanded": "System compromise",
+      "uuid": "b9beb498-fc43-5845-9878-198cd2259bac"
     },
     {
       "value": "other",
-      "expanded": "Other"
+      "expanded": "Other",
+      "uuid": "d258ad94-4ff0-5732-8fad-d3eae71d4ac2"
     }
-  ]
+  ],
+  "uuid": "3dce06ae-6d0c-5328-8962-ece187915c14"
 }

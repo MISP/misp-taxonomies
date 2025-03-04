@@ -8,12 +8,12 @@
     {
       "value": "technical",
       "expanded": "Technical",
-      "uuid": "aada8b98-58f4-518a-9c4c-34c501f57d51"
+      "uuid": "260ef745-4900-5d42-8a4f-7cc544fceab2"
     },
     {
       "value": "non-technical",
       "expanded": "Non-technical",
-      "uuid": "fbba8cb4-4cf2-5699-880e-4ee4703de26a"
+      "uuid": "c67b4e30-56bb-51f1-acd0-d037ed55fa3d"
     }
   ],
   "values": [
@@ -23,47 +23,47 @@
         {
           "value": "vishing",
           "expanded": "Vishing",
-          "uuid": "8dd289b1-b9be-55c3-9414-32dea9b69ec1"
+          "uuid": "2ca088a8-6f8d-523a-9c26-4593e5b506f0"
         },
         {
           "value": "spear-phishing",
           "expanded": "Spear phishing",
-          "uuid": "22bb8be0-b582-5bda-8334-ef7b18eecbb1"
+          "uuid": "c39e6bbc-aff6-5177-9a63-c9593ffc1193"
         },
         {
           "value": "interesting-software",
           "expanded": "Interesting software",
-          "uuid": "f34b96c1-34c6-5777-831f-11b78d1b0789"
+          "uuid": "728f9186-3749-59e6-8753-149c121665e0"
         },
         {
           "value": "baiting",
           "expanded": "Baiting",
-          "uuid": "53ebc2b3-8eac-5a9d-b3b4-f2b4cc230599"
+          "uuid": "39d834c2-a2c8-5418-ade5-7edfe73935ca"
         },
         {
           "value": "waterholing",
           "expanded": "Waterholing",
-          "uuid": "7c4d9bfe-fe40-5322-bf4d-84d797813aa8"
+          "uuid": "67e6f802-84ac-53ac-a769-29ead41dc00e"
         },
         {
           "value": "phishing-and-trojan-email",
           "expanded": "Phishing and Trojan email",
-          "uuid": "f52e5023-3d78-5645-9c2e-dd3f538b7659"
+          "uuid": "3679e1ee-c009-5e83-9038-2716adf3da5c"
         },
         {
           "value": "spam-email",
           "expanded": "Spam Email",
-          "uuid": "5187fc3d-0e65-5e31-ad37-3b998b5674df"
+          "uuid": "fd33c793-bdf0-5b8e-b744-6090a099bd2f"
         },
         {
           "value": "popup-window",
           "expanded": "Popup Window",
-          "uuid": "654ee095-fc03-5fa9-b747-0d3883724dae"
+          "uuid": "a39d3b95-f643-5b74-ba1a-acf2224b0103"
         },
         {
           "value": "tailgating",
           "expanded": "Tailgating",
-          "uuid": "9b162446-1440-5c61-a370-f7f2094dab3d"
+          "uuid": "ef5e4334-3582-53b7-ae88-a456124ddeb0"
         }
       ]
     },
@@ -73,47 +73,47 @@
         {
           "value": "pretexting-impersonation",
           "expanded": "Pretexting/Impersonation",
-          "uuid": "1f21560b-111e-519d-a849-c04e2ce4c4e4"
+          "uuid": "f0ab14d0-3328-57c4-8100-27638ad5a7c8"
         },
         {
           "value": "hoaxing",
           "expanded": "Hoaxing",
-          "uuid": "1e96d4f9-c275-57a2-b5d7-6bd044ececfb"
+          "uuid": "2d03ae56-fad7-5e21-8cd0-15851a3f8d01"
         },
         {
           "value": "authoritative-voice",
           "expanded": "Authoritative voice",
-          "uuid": "fe9ab45d-5598-5fd9-bfb4-c066be408200"
+          "uuid": "88974f7c-1da2-50a6-909b-b9f919c97256"
         },
         {
           "value": "technical-expert",
           "expanded": "Technical expert",
-          "uuid": "9880cdc9-f25d-5ea1-b9a6-c8cba096e692"
+          "uuid": "8c0b8857-1f55-567f-add6-0539cbb5a2be"
         },
         {
           "value": "smudge-attack",
           "expanded": "Smudge Attack",
-          "uuid": "ea73fc25-4526-5cb0-87d2-372614b9b68f"
+          "uuid": "02fa5028-0d5f-5fb4-9922-f06818650282"
         },
         {
           "value": "dumpser-diving",
           "expanded": "Dumpster Diving",
-          "uuid": "ea6a8b92-8679-575e-9af7-cb9c02e1be3e"
+          "uuid": "9c3011aa-75d8-5ad4-ad95-65c8fc3624ed"
         },
         {
           "value": "shoulder-surfing",
           "expanded": "Shoulder surfing",
-          "uuid": "2e8e1853-583b-58e9-b57e-b98562ff6dbf"
+          "uuid": "9395d126-51c0-5c57-a609-ac1531430259"
         },
         {
           "value": "spying",
           "expanded": "Spying",
-          "uuid": "0d507d46-6f4d-54b6-ace1-70bf7bf08e62"
+          "uuid": "c42d0b75-03b2-53be-9374-9220e19b4236"
         },
         {
           "value": "support-staff",
           "expanded": "Support staff",
-          "uuid": "a820c5ec-bda3-54f4-b409-a7412c323d11"
+          "uuid": "9b9fd96f-a764-505d-996a-3413ec8fe4de"
         }
       ]
     }
@@ -121,5 +121,5 @@
   "refs": [
     "https://www.researchgate.net/publication/339224082_A_Taxonomy_of_Social_Engineering_Defense_Mechanisms"
   ],
-  "uuid": "e20edbc1-8a5c-58fc-8039-1b3e07bf83ff"
+  "uuid": "6b5ba18c-d2ab-5949-b495-63f4149b099b"
 }

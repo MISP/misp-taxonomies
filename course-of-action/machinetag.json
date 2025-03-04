@@ -7,12 +7,12 @@
     {
       "value": "passive",
       "expanded": "Passive actions have no influence of the adversarys doing.",
-      "uuid": "3892b2b3-add2-5f49-aaed-3e8375f7e980"
+      "uuid": "f5a48e5f-760a-5cf7-891b-cb70ee9e4521"
     },
     {
       "value": "active",
       "expanded": "Active actions can impact the adversary doing.",
-      "uuid": "d36e6638-1169-52c2-911c-780160f83f9a"
+      "uuid": "4c33500c-ebd8-589e-b395-4154bbd07fd7"
     }
   ],
   "values": [
@@ -22,17 +22,17 @@
         {
           "value": "discover",
           "expanded": "The discover action is a 'historical look at the data'. This action heavily relies on your capability to store logs for a reasonable amount of time and have them accessible for searching. Typically, this type of action is applied against security information and event management (SIEM) or stored network data. The goal is to determine whether you have seen a specific indicator in the past.",
-          "uuid": "a24abcf8-6122-5aa0-93e6-67f5c88f82ad"
+          "uuid": "aa37346e-eae3-56f7-a34b-d75d355355a3"
         },
         {
           "value": "nodiscover",
           "expanded": "The no-discover action is a negation of discover in case you want to explicit prohibit 'historical look at the data'. The goal is to exclude a specific indicator from searches of historical data.",
-          "uuid": "0d999de6-9b7a-55c2-91a1-2bbed025ae28"
+          "uuid": "ca0ce406-7766-5383-8504-d056f1ec6aa3"
         },
         {
           "value": "detect",
           "expanded": "The passive action is setting up detection rules of an indicator for future traffic. These actions are most often executed via an intrusion detection system (IDS) or a specific logging rule on your firewall or application. It can also be configured as an alert in a SIEM when a specific condition is triggered.",
-          "uuid": "38c9dc0b-4c96-5f3b-b746-071c47668a9d"
+          "uuid": "fc86e4b8-d125-5f27-b697-aaf9003106b9"
         }
       ]
     },
@@ -42,30 +42,30 @@
         {
           "value": "deny",
           "expanded": "The deny action prevents the event from taking place. Common examples include a firewall block or a proxy filter.",
-          "uuid": "40943410-74da-5072-9f4c-727956bd2dfb"
+          "uuid": "293e507c-ce5d-5895-8983-7fff65e74fb3"
         },
         {
           "value": "disrupt",
           "expanded": "Disruption makes the event fail as it is occurring. Examples include quarantining or memory protection measures.",
-          "uuid": "1a7b29b9-bdf5-53ff-94a5-a95af1d8fbfe"
+          "uuid": "a24504e6-a986-5c5c-8877-ae287517e652"
         },
         {
           "value": "degrade",
           "expanded": "Degrading will not immediately fail an event, but it will slow down the further actions of the attacker. This tactic allows you to catch up during an incident response process, but you have to consider that the attackers may eventually succeed in achieving their objectives. Throttling bandwidth is one way to degrade an intrusion.",
-          "uuid": "192b0504-28ea-57a1-9c35-622ce1158734"
+          "uuid": "ee7a6006-45bf-50eb-b532-c06e33e77d3e"
         },
         {
           "value": "deceive",
           "expanded": "Deception allows you to learn more about the intentions of the attacker by making them think the action was successful. One way to do this is to put a honeypot in place and redirect the traffic, based on an indicator, towards the honeypot.",
-          "uuid": "0e05582a-4655-5957-9f8b-0da17ccac9be"
+          "uuid": "b73000d5-d021-5a8d-a065-7d990ecb36ea"
         },
         {
           "value": "destroy",
           "expanded": "The destroy action is rarely for 'usual' defenders, as this is an offensive action against the attacker. These actions, including physical destructive actions and arresting the attackers, are usually left to law enforcement agencies.",
-          "uuid": "5afe5410-d692-5820-8140-8fbeae6aa516"
+          "uuid": "4200cc9e-3db9-56a9-a51d-3632258f38cc"
         }
       ]
     }
   ],
-  "uuid": "151e12e8-8750-52fd-ab42-68b6b09c8ce6"
+  "uuid": "6745838c-cae4-5dce-a241-a0da5bb8a0be"
 }

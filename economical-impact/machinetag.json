@@ -14,55 +14,55 @@
           "value": "none",
           "expanded": "No loss",
           "numerical_value": 0,
-          "uuid": "94f673b7-465a-56af-93da-21f24ed4ea8c"
+          "uuid": "0964425c-91b1-5561-a779-71b68897bda3"
         },
         {
           "value": "less-than-25k-euro",
           "expanded": "Less than 25K EUR",
           "numerical_value": 10,
-          "uuid": "b0435097-ee20-5071-9791-ac3a325d933a"
+          "uuid": "4f898a52-f522-5f0f-a70b-6950f429432f"
         },
         {
           "value": "less-than-50k-euro",
           "expanded": "Less than 50K EUR",
           "numerical_value": 20,
-          "uuid": "30d5bc1d-b7dc-5ec5-92ff-05e5f7198d70"
+          "uuid": "4312e412-ad69-5c63-8308-2b50924cae33"
         },
         {
           "value": "less-than-100k-euro",
           "expanded": "Less than 100K EUR",
           "numerical_value": 30,
-          "uuid": "812f5216-7409-5081-a36e-240e70a15b7b"
+          "uuid": "4a6f87fa-2061-53ab-a95b-3cb98fcaf559"
         },
         {
           "value": "less-than-1M-euro",
           "expanded": "Less than 1 million EUR",
           "numerical_value": 40,
-          "uuid": "a5e702bd-2f4a-5229-8912-65246cb1eea2"
+          "uuid": "e8e0b085-dff3-5f13-8ccf-a4f9c0058869"
         },
         {
           "value": "less-than-10M-euro",
           "expanded": "Less than 10 million EUR",
           "numerical_value": 50,
-          "uuid": "8585f0ed-1be0-5816-b2b0-11a72c1c0e6b"
+          "uuid": "6befe6f6-136e-584c-a49b-fcbbf4d6df0d"
         },
         {
           "value": "less-than-100M-euro",
           "expanded": "Less than 100 million EUR",
           "numerical_value": 60,
-          "uuid": "093f3d30-706c-5096-91c6-b2613095a645"
+          "uuid": "5b5eba36-5e3d-5b0f-9854-e1e24cdd8a4b"
         },
         {
           "value": "less-than-1B-euro",
           "expanded": "Less than 1 billion EUR",
           "numerical_value": 70,
-          "uuid": "2ec81d7d-d777-52cd-a28c-1576d7b5f862"
+          "uuid": "b3f5dcc0-7a32-56f3-9ed0-c633a68ef54f"
         },
         {
           "value": "more-than-1B-euro",
           "expanded": "More than 1 billion EUR",
           "numerical_value": 80,
-          "uuid": "9fc6b3d5-f3c0-5774-9ff5-a91b4a417b72"
+          "uuid": "1dcf2e6c-bd01-5856-aa34-29dd04b0d501"
         }
       ]
     },
@@ -73,55 +73,55 @@
           "value": "none",
           "expanded": "No gain",
           "numerical_value": 0,
-          "uuid": "7db66b3d-2f1c-59fb-80c0-11f6e94abda8"
+          "uuid": "a126d06b-e62c-5b10-9a5d-1b04aadc1156"
         },
         {
           "value": "less-than-25k-eur",
           "expanded": "Less than 25K EUR",
           "numerical_value": 10,
-          "uuid": "978c0d62-ea8a-5257-b39a-e643250f1483"
+          "uuid": "439b4450-a522-5f8f-ac53-0a170bb31864"
         },
         {
           "value": "less-than-50k-euro",
           "expanded": "Less than 50K EUR",
           "numerical_value": 20,
-          "uuid": "48f87eb1-21ef-5e34-ad4d-44f38e9f51f7"
+          "uuid": "2868cc01-081e-5180-86c9-66f2501c61f7"
         },
         {
           "value": "less-than-100k-euro",
           "expanded": "Less than 100K EUR",
           "numerical_value": 30,
-          "uuid": "e5917563-d81f-5db7-8755-9490cca53f22"
+          "uuid": "87a4db43-590b-58a9-a4ff-bc0ba211e732"
         },
         {
           "value": "less-than-1M-euro",
           "expanded": "Less than 1 million EUR",
           "numerical_value": 40,
-          "uuid": "1479bcdc-3bf7-58cc-8c14-8e26951ba4a3"
+          "uuid": "49e50c53-4f64-5f6a-aa8e-622f21217d7d"
         },
         {
           "value": "less-than-10M-euro",
           "expanded": "Less than 10 million EUR",
           "numerical_value": 50,
-          "uuid": "0b18bc95-944c-5cfe-8b0e-03b90a31c27e"
+          "uuid": "f60bdf53-4f37-5288-aff3-9b49fd1af346"
         },
         {
           "value": "less-than-100M-euro",
           "expanded": "Less than 100 million EUR",
           "numerical_value": 60,
-          "uuid": "68f907d3-e257-576e-a99f-44bc4c82f628"
+          "uuid": "9ebf3c7a-2c41-5d56-b7e5-ba5b97c1b6ee"
         },
         {
           "value": "less-than-1B-euro",
           "expanded": "Less than 1 billion EUR",
           "numerical_value": 70,
-          "uuid": "9337753a-6a91-5081-8b29-afd0301fc745"
+          "uuid": "516f63d0-c3b7-54f9-a9d6-bc8071e9e01b"
         },
         {
           "value": "more-than-1B-euro",
           "expanded": "More than 1 billion EUR",
           "numerical_value": 80,
-          "uuid": "2f3373e3-60c3-5a34-a68b-a82db159cbba"
+          "uuid": "9e58c2f4-b5fb-59e1-9b42-a3ba2a5fedc4"
         }
       ]
     }
@@ -132,15 +132,15 @@
       "expanded": "Loss",
       "description": "A financial impact evaluated as a casuality.",
       "exclusive": true,
-      "uuid": "c8e969b1-4b29-5b5e-9441-35a0939bc4f7"
+      "uuid": "1e4c8553-72d4-5990-b66a-44a0fea41470"
     },
     {
       "value": "gain",
       "expanded": "Gain",
       "description": "A financial impact evaluated as a benefit.",
       "exclusive": true,
-      "uuid": "69978d39-674c-51ed-b598-702789f763b2"
+      "uuid": "0eca2b7c-c477-5cff-a392-8328268698b3"
     }
   ],
-  "uuid": "07865578-a2b9-535f-88dd-2d5adbe2064f"
+  "uuid": "c0b06e92-5ecc-5918-af00-c9c0bc838e0d"
 }

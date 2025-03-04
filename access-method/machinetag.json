@@ -7,42 +7,51 @@
     {
       "value": "brute-force",
       "expanded": "Brute force",
-      "description": "Access was gained through systematic trial of credentials in bulk."
+      "description": "Access was gained through systematic trial of credentials in bulk.",
+      "uuid": "53ac0d7d-30a2-58ae-89c2-24455c2fd5ec"
     },
     {
       "value": "password-guessing",
       "expanded": "Password guessing",
-      "description": "Access was gained through guessing passwords through trial and error."
+      "description": "Access was gained through guessing passwords through trial and error.",
+      "uuid": "32c2ccb1-9045-5240-8527-ab88f9d5da2d"
     },
     {
       "value": "remote-desktop-application",
       "expanded": "Remote desktop application",
-      "description": "Access was gained through an application designed for remote access."
+      "description": "Access was gained through an application designed for remote access.",
+      "uuid": "0c048b97-ad87-57c2-b527-6d81eb651927"
     },
     {
       "value": "stolen-credentials",
       "expanded": "Stolen credentials",
-      "description": "Access was gained with stolen credentials."
+      "description": "Access was gained with stolen credentials.",
+      "uuid": "ab702036-0c42-57ed-9fcf-c8d47becc188"
     },
     {
       "value": "pass-the-hash",
       "expanded": "Pass the hash",
-      "description": "Access was gained through use of an existing known hash."
+      "description": "Access was gained through use of an existing known hash.",
+      "uuid": "a5e6c4a5-226e-5b59-bb5e-77915f5efdf3"
     },
     {
       "value": "default-credentials",
       "expanded": "Default credentials",
-      "description": "Access was gained through use of the system's default credentials."
+      "description": "Access was gained through use of the system's default credentials.",
+      "uuid": "afb5adbe-3386-5d97-aba2-295cfe33faf1"
     },
     {
       "value": "shell",
       "expanded": "Shell",
-      "description": "Access was gained through the use of a shell."
+      "description": "Access was gained through the use of a shell.",
+      "uuid": "1b90a828-8003-5df0-a1d5-86f4f369fb91"
     },
     {
       "value": "other",
       "expanded": "Other",
-      "description": "Access was gained through another method."
+      "description": "Access was gained through another method.",
+      "uuid": "da1ff38e-8538-56cc-b89e-c139fb6a4ebd"
     }
-  ]
+  ],
+  "uuid": "f8953dae-9821-5003-8a6e-87f53370efc8"
 }

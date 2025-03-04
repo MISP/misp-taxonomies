@@ -6,7 +6,7 @@
     {
       "value": "covid-19",
       "expanded": "COVID-19",
-      "uuid": "1e337495-7217-59f2-94df-1ceb7e3bd4de"
+      "uuid": "4ca39f8d-e4b9-578a-b138-867697705f87"
     }
   ],
   "values": [
@@ -17,28 +17,28 @@
           "value": "health",
           "expanded": "Health",
           "description": "Information tagged about COVID-19 and related to health",
-          "uuid": "a33588df-74ae-573a-a167-1bfe1a17b915"
+          "uuid": "8e1ffd72-448d-5697-841f-cf5a601d1e35"
         },
         {
           "value": "cyber",
           "expanded": "Cyber",
           "description": "Information tagged about COVID-19 and related to cybersecurity",
-          "uuid": "84aff49c-e999-5989-ae03-ff012b3a0d6c"
+          "uuid": "419ac4c1-dfa2-5281-bee3-dea361199320"
         },
         {
           "value": "disinformation",
           "expanded": "Disinformation",
           "description": "Information tagged about COVID-19 and related to disinformation",
-          "uuid": "59e008dc-f11f-5faf-8cfa-eccbdc624190"
+          "uuid": "030b294f-120f-5478-9aa1-262b15e57a55"
         },
         {
           "value": "geostrategy",
           "expanded": "Geostrategy",
           "description": "Information tagged about COVID-19 and related to geostrategy or geopolitics",
-          "uuid": "7736eb1d-2ff3-561a-bf5a-e216ca8b0a27"
+          "uuid": "82c04f1d-e999-5ba6-9fbc-4f7fe1d8d957"
         }
       ]
     }
   ],
-  "uuid": "4ff6e636-74e8-511e-987b-ff90d2331b65"
+  "uuid": "ffb57e54-a340-50c6-a8f1-dee3b713924a"
 }

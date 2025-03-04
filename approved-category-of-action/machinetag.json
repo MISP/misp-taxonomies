@@ -7,32 +7,39 @@
     {
       "value": "cat1",
       "expanded": "Cat1",
-      "description": "Minimal Exposure - Passive Collection: CAT 1 actions provide the least exposure of an indicator, either through adversary observation or disclosure. Usage of the indicator is restricted to passive monitoring on Government or Cleared Partner networks, or through a classified passive capability or Operation. CAT 1 actions do not interact with or affect malicious network traffic."
+      "description": "Minimal Exposure - Passive Collection: CAT 1 actions provide the least exposure of an indicator, either through adversary observation or disclosure. Usage of the indicator is restricted to passive monitoring on Government or Cleared Partner networks, or through a classified passive capability or Operation. CAT 1 actions do not interact with or affect malicious network traffic.",
+      "uuid": "e193a2ac-090e-5b4c-a9de-55b2bb27a085"
     },
     {
       "value": "cat2",
       "expanded": "Cat2",
-      "description": "Moderate Exposure - Government or Cleared Partner Internal Active Collection: CAT 2 actions expose the usage of an indicator through non-disruptive collection techniques which require interactions with an adversary, within Government or Cleared Partner networks. While it is not the intent to disrupt the adversary it is possible that an adversary may discover they are subject to such techniques."
+      "description": "Moderate Exposure - Government or Cleared Partner Internal Active Collection: CAT 2 actions expose the usage of an indicator through non-disruptive collection techniques which require interactions with an adversary, within Government or Cleared Partner networks. While it is not the intent to disrupt the adversary it is possible that an adversary may discover they are subject to such techniques.",
+      "uuid": "213ee3b7-cc68-566c-98d1-935a5e99a4a0"
     },
     {
       "value": "cat3",
       "expanded": "Cat3",
-      "description": "Moderate Exposure - Government or Cleared Partner Internal Countermeasures: CAT 3 actions expose the usage of an indicator through inward-facing countermeasures. Malicious network traffic is affected in some manner, however the results are not directly observable to the adversary or external parties and is, therefore, more difficult to attribute as a deliberate action. Usage of the indicator is restricted to Government and Cleared Partner networks, or a classified capability or Operation. This implies a lower likelihood for non-approved disclosures."
+      "description": "Moderate Exposure - Government or Cleared Partner Internal Countermeasures: CAT 3 actions expose the usage of an indicator through inward-facing countermeasures. Malicious network traffic is affected in some manner, however the results are not directly observable to the adversary or external parties and is, therefore, more difficult to attribute as a deliberate action. Usage of the indicator is restricted to Government and Cleared Partner networks, or a classified capability or Operation. This implies a lower likelihood for non-approved disclosures.",
+      "uuid": "92397797-bc2b-53ca-8e47-4999dec5ed2c"
     },
     {
       "value": "cat4",
       "expanded": "Cat4",
-      "description": "Moderate Exposure - Government Actions on External Networks: CAT 4 actions expose the usage of an indicator through actions which occur on internet accessible networks, without the authorization of the network or information owner. Such actions are conducted as classified Operations under the auspices of national legislative and compliance provisions. Action consequences are observable to the adversary and other, public parties and it is possible they may be attributed as Government sanctioned actions."
+      "description": "Moderate Exposure - Government Actions on External Networks: CAT 4 actions expose the usage of an indicator through actions which occur on internet accessible networks, without the authorization of the network or information owner. Such actions are conducted as classified Operations under the auspices of national legislative and compliance provisions. Action consequences are observable to the adversary and other, public parties and it is possible they may be attributed as Government sanctioned actions.",
+      "uuid": "d1352a65-4237-5fd9-9d31-7cf52054cdb9"
     },
     {
       "value": "cat5",
       "expanded": "Cat5",
-      "description": "High Exposure - Public Actions Which Enable Internal Countermeasures: CAT 5 actions expose the usage of an indicator through the public release of information which enables internal actions on networks not owned and controlled by the Government (i.e. industry, commercial or foreign governments). These actions are official public releases and are attributable as Government sanctioned actions."
+      "description": "High Exposure - Public Actions Which Enable Internal Countermeasures: CAT 5 actions expose the usage of an indicator through the public release of information which enables internal actions on networks not owned and controlled by the Government (i.e. industry, commercial or foreign governments). These actions are official public releases and are attributable as Government sanctioned actions.",
+      "uuid": "c54e68be-fba4-5639-bbb6-f534b6809e0b"
     },
     {
       "value": "cat6",
       "expanded": "Cat6",
-      "description": "High Exposure - Actions on Adversary Infrastructure: CAT 6 actions expose the usage of an indicator through actions which occur on adversary owned networks, without the authorization of the network or information owner. Such actions are conducted as classified Operations under the auspices of national legislative and compliance provisions. Action consequences are observable to the adversary, and possibly other public parties, and it is possible they may deduce this as FVEY action."
+      "description": "High Exposure - Actions on Adversary Infrastructure: CAT 6 actions expose the usage of an indicator through actions which occur on adversary owned networks, without the authorization of the network or information owner. Such actions are conducted as classified Operations under the auspices of national legislative and compliance provisions. Action consequences are observable to the adversary, and possibly other public parties, and it is possible they may deduce this as FVEY action.",
+      "uuid": "bf9ce32b-95ab-5f29-8948-acab492e8acc"
     }
-  ]
+  ],
+  "uuid": "76c993c1-bf67-5cb6-94d1-ea7101c284e9"
 }

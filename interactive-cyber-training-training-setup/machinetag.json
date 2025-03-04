@@ -11,25 +11,25 @@
       "value": "scoring",
       "expanded": "Scoring",
       "description": "Scoring is not only used in competition-oriented training like CTF but also to motivate participants, give feedback, track the progress. The scoring can be based, but is not limited to monitoring systems, defined objectives, or over-the-shoulder evaluation mechanisms.",
-      "uuid": "b70c5f46-0ab4-56f8-bc99-0e7bc937cacf"
+      "uuid": "11dbb0d6-80c0-5ade-b37d-f1b97a73e708"
     },
     {
       "value": "roles",
       "expanded": "Roles",
       "description": "Participants in a training are split in different teams, according to their skills, role and tasks.",
-      "uuid": "6755d3d6-9f05-5bbc-992e-0a3d2aefc7d0"
+      "uuid": "ed3eb46f-650e-54ef-aa8f-83a46b25efb4"
     },
     {
       "value": "training-mode",
       "expanded": "Training Mode",
       "description": "Defines whether the training opposes singles persons, teams or groups.",
-      "uuid": "7c719647-69e3-55e5-afab-7b2f355dc31f"
+      "uuid": "796d0156-11e0-5dc4-9c8a-f9602d962abc"
     },
     {
       "value": "customization-level",
       "expanded": "Customization Level",
       "description": "Defines the level of customization of the training.",
-      "uuid": "57fa1196-8e09-5e04-8611-a692c6bf3a6a"
+      "uuid": "e31d674f-ba2a-5988-8140-58997f4708ce"
     }
   ],
   "values": [
@@ -40,37 +40,37 @@
           "value": "no-scoring",
           "expanded": "No Scoring",
           "description": "The training have no type of scoring.",
-          "uuid": "afe6ef22-0a88-58c7-a205-332a9224a6ab"
+          "uuid": "f1316644-665a-502a-9f81-a5b731fbfd75"
         },
         {
           "value": "assessment-static",
           "expanded": "Assessment: Static",
           "description": "The scoring in this variant relies on the static setting of different scores for tasks and objectives, possibly incluing a degree of difficulty as well.",
-          "uuid": "47a4db05-dad1-58c9-93e0-1c925f3cf3d6"
+          "uuid": "165856e3-2284-5c20-b9e9-3c9bd99a2655"
         },
         {
           "value": "assessment-dynamic",
           "expanded": "Assessment: Dynamic",
           "description": "The scoring in this variant is set dynamically using mathematical functions or dynamic methods such as teh Elo Rating System.",
-          "uuid": "823c656e-d3f6-5ea8-8802-313cdb2b2f28"
+          "uuid": "c883b998-0120-53f5-86f3-63b8b0f1ae46"
         },
         {
           "value": "awarding-manual",
           "expanded": "Awarding: Manual",
           "description": "Awards are given manually.",
-          "uuid": "9d01cfa7-2243-5b93-bf7c-dc25883c0da1"
+          "uuid": "e1b086f0-fb50-5d6b-8624-0ca0ace8b468"
         },
         {
           "value": "awarding-automatic",
           "expanded": "Awarding: Automatic",
           "description": "Awards are given automatically.",
-          "uuid": "672905a5-3a84-53f4-8e92-30ef5bf06f6e"
+          "uuid": "b6c7a99f-2516-503a-bbcb-233e40cbfd76"
         },
         {
           "value": "awarding-mixed",
           "expanded": "Awarding: Mixed",
           "description": "Awards are given manually and/or automatically.",
-          "uuid": "0afa1ec4-45a5-57a6-a34f-5be333dc0edd"
+          "uuid": "e63b521c-af96-58a0-94e5-24215c92f914"
         }
       ]
     },
@@ -81,55 +81,55 @@
           "value": "no-specific-role",
           "expanded": "No specific Role",
           "description": "Individuals who do not fit into the defined teams can be assigned to this role.",
-          "uuid": "a4e1be4b-6307-5183-b404-1afaf3b009f2"
+          "uuid": "e97dffc0-7463-5a3d-b1cf-86c746b31155"
         },
         {
           "value": "transparent-team-observer-watcher",
           "expanded": "Transparent Team - Observer/Watcher",
           "description": "Members of this team observe the training. Usually, these people have a defined purpose, but have no influence on the training itself. Possible purposes are learning about the training topic and roles, studying strategies of participants, or supervising employees.",
-          "uuid": "6653f843-1e5a-5151-8c37-8afaf91d2227"
+          "uuid": "dd2b9824-6e16-50cd-8ecd-60ff26b606cc"
         },
         {
           "value": "white-team-trainer-instructor",
           "expanded": "White Team - Trainer/Instructor",
           "description": "This team consists of instructors, referees, organizers, and training managers. They design the training scenario including objectives, rules, background story, and tasks. During the training, this team controls the progress and assigns tasks to the teams. These so-called injects also include simulated media, operation coordination, or law enforcement agencies. Giving hints for the training teams could also be part of this team.",
-          "uuid": "8f905f0f-65f9-5b5b-9e84-1a41af5b18dc"
+          "uuid": "38e10057-ddbd-5a7d-a7e3-7957ba11ad6a"
         },
         {
           "value": "green-team-organizer-admin",
           "expanded": "Green Team - Organizer/Admin",
           "description": "The operators that are responsible for the exercise infrastructure build this team. Before a training, this team sets up and configures the environment and takes it down afterwards. During a training, it also monitors the environments health and handles problems that may arise.",
-          "uuid": "22140b51-af64-52dd-a224-5cd2d39fff51"
+          "uuid": "4e0acccb-b596-5b44-8364-76dfaa8e87dc"
         },
         {
           "value": "red-team-attacker",
           "expanded": "Red Team - Attacker",
           "description": "This team consists of people authorized and organized to model security adversaries. They are responsible to identify and exploit potential vulnerabilities present in the training environment. Depending on the training environment, the tasks can follow a predefined attack path.",
-          "uuid": "42200f94-560b-5f2b-9434-a6304a3bdec4"
+          "uuid": "5d0a1c0d-68d2-546b-931f-8d33e5c679e9"
         },
         {
           "value": "blue-team-defender",
           "expanded": "Blue Team - Defender",
           "description": "The group of individuals that is responsible for defending the training environment. They deal with the red team’s attacks and secure the compromised networks. Guidelines for that team are the training rules and local cyber law.",
-          "uuid": "00175375-e069-57c9-8126-91c5f917747e"
+          "uuid": "67fbaa4b-c381-5f6c-bfb1-46b95bb65afb"
         },
         {
           "value": "gray-team-bystander",
           "expanded": "Gray Team - Bystander",
           "description": "Bystanders of a training form this team. They do not necessarily have a specific intention or purpose, but an interest in the training event itself. It is also possible that this team interacts with participants and thereby unintentionally influences the training.",
-          "uuid": "fe0d14c2-9047-50d4-b024-aded25751083"
+          "uuid": "a1b09ded-53bb-560f-ab89-b5e25c324bec"
         },
         {
           "value": "yellow-team-insider",
           "expanded": "Yellow Team - Insider",
           "description": "Members of this team perform not only tasks like generating legitimate network traffic and user behavior but also perform erroneous actions that lead to vulnerabilities and attacks. This team can also include the regular system builders, like programmers, developers, and software engineers and architects.",
-          "uuid": "6d3b1b28-a6c1-569f-9b7d-d7765b3fb2f4"
+          "uuid": "5746c608-b6f7-572e-94a7-08e97218b728"
         },
         {
           "value": "purple-team-bridge",
           "expanded": "Purple Team - Bridge",
           "description": "In a training, this team is a bridge between red and blue teams that helps to improve the performance of both. Through joint red-blue activities it improves the scope of the training participants. Goals are to maximize the Blue Teams capability and the effectiveness of Red Teams activities.",
-          "uuid": "fdcd9919-385a-51b7-bd2d-2a6c386159e5"
+          "uuid": "237f562f-3f7f-5618-82a1-ab6ed56209ed"
         }
       ]
     },
@@ -140,19 +140,19 @@
           "value": "single",
           "expanded": "Single",
           "description": "A single player plays against others. Others can be real persons, butalso scripted opponents.",
-          "uuid": "80ddc9bc-8b40-5be3-af10-6f5cea34845f"
+          "uuid": "8d0c212d-4e5b-5cdf-9b10-3ab694a35e94"
         },
         {
           "value": "team",
           "expanded": "Team",
           "description": "A team plays against others. In this alignments, each player can bring its expertise into the training, focussing on different aspects. Examples are Blue and Red Teams.",
-          "uuid": "ea67af7b-636b-53ce-a77e-104f6a97da37"
+          "uuid": "a1ae14c8-f7c0-5b0e-9dcb-8e347a8f4b26"
         },
         {
           "value": "cross-group",
           "expanded": "Cross-Group",
           "description": "A group plays against others. In this setting, the group members might not know each other. Example are CTF competitions and training for the entire organization in a breach scenario.",
-          "uuid": "f475deb9-d68f-50fc-b4b4-96b9e0834cc7"
+          "uuid": "5fb24777-90fd-5ac8-86a3-48c80963b949"
         }
       ]
     },
@@ -163,22 +163,22 @@
           "value": "general",
           "expanded": "General",
           "description": "A general purpose training setup is not, or only little customized. This variant is suited for an entry level training or to learn about general processes without regard to the underlying setup.",
-          "uuid": "4d085735-3aa9-584c-89af-bb78697305f3"
+          "uuid": "88d7222a-e254-53f6-bddd-9c5f8d728448"
         },
         {
           "value": "specific",
           "expanded": "Specific",
           "description": "The training setup can be customized for a specific training goal or target audience. Examples for this variant are specific trainings within the High School education or for the health sector.",
-          "uuid": "d0333256-2d12-5e00-aa26-ed47a203a3ce"
+          "uuid": "ec88e0f3-7bb9-5178-b68f-e543197905a6"
         },
         {
           "value": "individual",
           "expanded": "Individual",
           "description": "The most tailored variant is an individual customization. Hereby, the training setup corresponds to a real environment in the best possible way. Exemplary uses of this variant are the training of teams in their environment or the training of new expert-level employees.",
-          "uuid": "d819185d-25bd-529d-8caf-824007cd1398"
+          "uuid": "619d54fc-4f93-5b4e-881e-a5f97acd0560"
         }
       ]
     }
   ],
-  "uuid": "667fc21f-ed50-5820-8064-d5fe258380c8"
+  "uuid": "9c5c897b-bb1b-57df-9067-54f36cfdae28"
 }

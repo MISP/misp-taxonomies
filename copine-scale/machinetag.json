@@ -3,52 +3,62 @@
     {
       "expanded": "Sadistic/bestiality: (a) Pictures showing a child being tied, bound, beaten, whipped, or otherwise subjected to something that implies pain; (b) Pictures where an animal is involved in some form of sexual behavior with a child",
       "value": "level-10",
-      "numerical_value": 100
+      "numerical_value": 100,
+      "uuid": "8c355ece-c0af-531c-b4ef-66110406c3c1"
     },
     {
       "expanded": "Gross assault: Grossly obscene pictures of sexual assault, involving penetrative sex, masturbation, or oral sex involving an adult",
       "value": "level-9",
-      "numerical_value": 90
+      "numerical_value": 90,
+      "uuid": "f3d2f299-4555-512e-922b-5f140fcd96f0"
     },
     {
       "expanded": "Assault: Pictures of children being subjected to a sexual assault, involving digital touching, involving an adult",
       "value": "level-8",
-      "numerical_value": 80
+      "numerical_value": 80,
+      "uuid": "dfc51b91-7559-57ff-b3f9-6cd6c36fec58"
     },
     {
       "expanded": "Explicit sexual activity: Involves touching, mutual and self-masturbation, oral sex, and intercourse by child, not involving an adult",
       "value": "level-7",
-      "numerical_value": 70
+      "numerical_value": 70,
+      "uuid": "f9232a93-aff4-54ca-920a-2fa136e83f1c"
     },
     {
       "expanded": "Explicit erotic posing: Emphasizing genital areas where the child is posing either naked, partially clothed, or fully clothed",
       "value": "level-6",
-      "numerical_value": 60
+      "numerical_value": 60,
+      "uuid": "a82bbe8f-e20d-5c55-9420-635a1edd1e9c"
     },
     {
       "expanded": "Erotic posing: Deliberately posed pictures of fully or partially clothed or naked children in sexualized or provocative poses",
       "value": "level-5",
-      "numerical_value": 50
+      "numerical_value": 50,
+      "uuid": "d8d3f256-3738-5b73-a7a3-fc188f19642f"
     },
     {
       "expanded": "Posing: Deliberately posed pictures of children fully or partially clothed or naked (where the amount, context, and organization suggests sexual interest)",
       "value": "level-4",
-      "numerical_value": 40
+      "numerical_value": 40,
+      "uuid": "11b31e01-5a95-5a69-93cc-7c93c9879452"
     },
     {
       "expanded": "Erotica: Surreptitiously taken photographs of children in play areas or other safe environments showing either underwear or varying degrees of nakedness",
       "value": "level-3",
-      "numerical_value": 30
+      "numerical_value": 30,
+      "uuid": "5a0bee84-b7a9-5477-a080-93ffae4058c3"
     },
     {
       "expanded": "Nudist: Pictures of naked or seminaked children in appropriate nudist settings, and from legitimate sources",
       "value": "level-2",
-      "numerical_value": 20
+      "numerical_value": 20,
+      "uuid": "819407fe-0225-5954-8136-a13f908ce31a"
     },
     {
       "expanded": "Indicative: Nonerotic and nonsexualized pictures showing children in their underwear, swimming costumes, and so on, from either commercial sources or family albums; pictures of children playing in normal settings, in which the context or organization of pictures by the collector indicates inappropriateness",
       "value": "level-1",
-      "numerical_value": 10
+      "numerical_value": 10,
+      "uuid": "8f05e33d-a3f1-50da-a693-10cc0e8917dc"
     }
   ],
   "refs": [
@@ -59,5 +69,6 @@
   "description": "The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse. The scale was developed by staff at the COPINE (Combating Paedophile Information Networks in Europe) project. The COPINE Project was founded in 1997, and is based in the Department of Applied Psychology, University College Cork, Ireland.",
   "expanded": "COPINE Scale",
   "namespace": "copine-scale",
-  "exclusive": true
+  "exclusive": true,
+  "uuid": "fda27af7-7038-581a-a046-9a7b9deae57a"
 }

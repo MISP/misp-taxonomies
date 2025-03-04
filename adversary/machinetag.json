@@ -6,22 +6,22 @@
     {
       "value": "infrastructure-status",
       "expanded": "Infrastructure Status",
-      "uuid": "2239e2a6-37c2-5eaa-a7cf-5f2fa5e56455"
+      "uuid": "ffdb2006-7dc4-5cca-81d2-e016985f3206"
     },
     {
       "value": "infrastructure-action",
       "expanded": "Infrastructure Action",
-      "uuid": "acf2ed93-10f0-5cbc-b217-173e67e3e09a"
+      "uuid": "416c295b-39ee-5c2d-abe8-ddcf29a20761"
     },
     {
       "value": "infrastructure-state",
       "expanded": "Infrastructure State",
-      "uuid": "a7a3583d-bab6-56c4-b899-4c1b0dd9e76b"
+      "uuid": "93c22b97-e957-5968-a548-bfed6dd609ca"
     },
     {
       "value": "infrastructure-type",
       "expanded": "Infrastructure Type",
-      "uuid": "ba8fe49a-6181-535f-a607-b051c1bc7295"
+      "uuid": "44a1ee2b-5cf0-5d2b-9000-a1a8f8aa4e45"
     }
   ],
   "values": [
@@ -31,17 +31,17 @@
         {
           "value": "unknown",
           "expanded": "Infrastructure ownership and status is unknown",
-          "uuid": "a5a0f4ff-d791-53f3-a0a0-3a81a08601c2"
+          "uuid": "64a731f7-3dfa-5e62-b7bb-ae6b47173774"
         },
         {
           "value": "compromised",
           "expanded": "Infrastructure compromised by or in the benefit of the adversary",
-          "uuid": "217a40af-937b-5572-8f89-f63fd11a53b2"
+          "uuid": "31c2bf3c-0b13-5e74-9c41-eb06c463d975"
         },
         {
           "value": "own-and-operated",
           "expanded": "Infrastructure own and operated by the adversary",
-          "uuid": "37d34f66-bc4d-545d-a980-f974b1720d95"
+          "uuid": "643b7266-b1bf-53c8-a90b-d05945a702ca"
         }
       ]
     },
@@ -51,27 +51,27 @@
         {
           "value": "passive-only",
           "expanded": "Only passive requests shall be performed to avoid detection by the adversary",
-          "uuid": "20c1fa26-f487-5e29-a3af-dfa45d9c1912"
+          "uuid": "69cd4332-ae5b-557f-a03d-e94ea152dd7b"
         },
         {
           "value": "take-down",
           "expanded": "Take down requests can be performed in order to deactivate the adversary infrastructure",
-          "uuid": "901d65f5-ef48-50b2-9c59-a847e94e5871"
+          "uuid": "f62fc235-58f8-50c5-9113-20ccb275d851"
         },
         {
           "value": "monitoring-active",
           "expanded": "Monitoring requests are ongoing on the adversary infrastructure",
-          "uuid": "5422249c-6b02-5e9b-9857-73838033c43d"
+          "uuid": "41cbc46e-4417-5ff0-96a5-ade0d13e8e7a"
         },
         {
           "value": "pending-law-enforcement-request",
           "expanded": "Law enforcement requests are ongoing on the adversary infrastructure",
-          "uuid": "cb2ac0bc-3ebe-53da-905c-703216b2a431"
+          "uuid": "5a226e4a-87ca-5eb7-8414-fbf2f89c7d09"
         },
         {
           "value": "sinkholed",
           "expanded": "Infrastructure of the adversary is sinkholed and information is collected",
-          "uuid": "e9f34ccc-b5a3-5d6b-b50e-5cadb0fb8e43"
+          "uuid": "45562a70-ba1f-5c67-80ea-b8b1cf386f2e"
         }
       ]
     },
@@ -81,17 +81,17 @@
         {
           "value": "unknown",
           "expanded": "Infrastructure state is unknown or cannot be evaluated",
-          "uuid": "71394ca6-4a4a-5586-af39-12234d54877d"
+          "uuid": "00b299d8-44e6-581e-8523-48a1999909c8"
         },
         {
           "value": "active",
           "expanded": "Infrastructure state is active and actively used by the adversary",
-          "uuid": "5f73f082-4a1b-5cf8-b123-676719de9781"
+          "uuid": "13949ffe-f086-5f3d-90b2-23d18eae8744"
         },
         {
           "value": "down",
           "expanded": "Infrastructure state is known to be down",
-          "uuid": "dcd14c2d-d57d-58f0-97e1-c49be76f8381"
+          "uuid": "cf3203eb-7a7f-55a4-89b1-ae7f96473a3d"
         }
       ]
     },
@@ -101,45 +101,45 @@
         {
           "value": "unknown",
           "expanded": "Infrastructure usage by the adversary is unknown",
-          "uuid": "c4a1b4c3-9831-5392-939d-170c35ec4e71"
+          "uuid": "891518df-f05b-52be-a6b2-99e9a4bef44c"
         },
         {
           "value": "proxy",
           "expanded": "Infrastructure used as proxy between the target and the adversary",
-          "uuid": "0497bdd6-19b6-5e22-9e00-e80cf2e247df"
+          "uuid": "5fa20481-4ad2-50a0-88c1-13434392423b"
         },
         {
           "value": "drop-zone",
           "expanded": "Infrastructure used by the adversary to store information related to his campaigns",
-          "uuid": "7502249d-1ae1-5f08-8209-6424ab0c0680"
+          "uuid": "e36fb356-ee56-5c00-991c-d545b8c02684"
         },
         {
           "value": "exploit-distribution-point",
           "expanded": "Infrastructure used to distribute exploit towards target(s)",
-          "uuid": "c908d500-da2e-5be3-b594-60c928fd2812"
+          "uuid": "fde0c05b-91dc-570c-9917-22334824adde"
         },
         {
           "value": "vpn",
           "expanded": "Infrastructure used by the adversary as Virtual Private Network to hide activities and reduce the traffic analysis surface",
-          "uuid": "4ce387f8-c3d2-5935-a582-4ccedb16e8fd"
+          "uuid": "bf9982f5-f424-50df-99f5-72e2fcf8d5da"
         },
         {
           "value": "panel",
           "expanded": "Panel used by the adversary to control or maintain his infrastructure",
-          "uuid": "a09d1fdd-0d8b-51eb-9dbe-11423f34512f"
+          "uuid": "6c53d8f8-8deb-531c-b9b1-5fb3d16c0b3f"
         },
         {
           "value": "tds",
           "expanded": "Traffic Distribution Systems including exploit delivery or/and web monetization channels",
-          "uuid": "03b93c5f-040e-5143-b206-85230e360e2a"
+          "uuid": "be07b0f5-757e-5e30-a3f8-707df6e0433d"
         },
         {
           "value": "c2",
           "expanded": "C2 infrastructure without known specific type.",
-          "uuid": "4cdc73ad-c452-5aa8-ade7-0dc8dbdf3c39"
+          "uuid": "4d55a0a0-a5c5-57d0-82f2-32daad4221e1"
         }
       ]
     }
   ],
-  "uuid": "eef444c2-bc42-5a6c-856f-52667808c7b7"
+  "uuid": "a13370c9-8114-5936-b6df-a7841db82280"
 }

@@ -5,53 +5,61 @@
       "value": "emergency",
       "description": "An Emergency priority incident poses an imminent threat to the provision of wide-scale critical infrastructure services, national government stability, or the lives of U.S. persons.",
       "colour": "#000000",
-      "numerical_value": 100
+      "numerical_value": 100,
+      "uuid": "76bb004f-391e-5285-a500-366aceb4ca89"
     },
     {
       "expanded": "Severe",
       "value": "severe",
       "description": "A Severe priority incident is likely to result in a significant impact to public health or safety, national security, economic security, foreign relations, or civil liberties.",
       "colour": "#CC0033",
-      "numerical_value": 90
+      "numerical_value": 90,
+      "uuid": "cb1047b1-b1ee-5098-b3d8-1f02fe866b94"
     },
     {
       "expanded": "High",
       "value": "high",
       "description": "A High priority incident is likely to result in a demonstrable impact to public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence.",
       "colour": "#FFC000",
-      "numerical_value": 85
+      "numerical_value": 85,
+      "uuid": "a7a8aada-c0f6-5dd5-be22-79d2b2c889d4"
     },
     {
       "expanded": "Medium",
       "value": "medium",
       "description": "A Medium priority incident may affect public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence.",
       "colour": "#FCEE21",
-      "numerical_value": 75
+      "numerical_value": 75,
+      "uuid": "0fb4e403-1e0b-50fd-b7e9-b42a5b3f53fb"
     },
     {
       "expanded": "Low",
       "value": "low",
       "description": "A Low priority incident is unlikely to affect public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence.",
       "colour": "#339900",
-      "numerical_value": 50
+      "numerical_value": 50,
+      "uuid": "b4d79ca5-6b17-51e5-95fb-7afec9390e46"
     },
     {
       "expanded": "Baseline - Minor",
       "value": "baseline-minor",
       "description": "A Baseline–Minor priority incident is an incident that is highly unlikely to affect public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence. The potential for impact, however, exists and warrants additional scrutiny.",
       "colour": "#006699",
-      "numerical_value": 25
+      "numerical_value": 25,
+      "uuid": "a174bead-a140-5184-8eb7-1b11aef5d43c"
     },
     {
       "expanded": "Baseline - Negligible",
       "value": "baseline-negligible",
       "description": "A Baseline–Negligible priority incident is an incident that is highly unlikely to affect public health or safety, national security, economic security, foreign relations, civil liberties, or public confidence.",
       "colour": "#FFFFFF",
-      "numerical_value": 0
+      "numerical_value": 0,
+      "uuid": "fd1159d9-af3b-50af-b645-73526ba7d6da"
     }
   ],
   "version": 2,
   "description": "After an incident is scored, it is assigned a priority level. The six levels listed below are aligned with NCCIC, DHS, and the CISS to help provide a common lexicon when discussing incidents. This priority assignment drives NCCIC urgency, pre-approved incident response offerings, reporting requirements, and recommendations for leadership escalation. Generally, incident priority distribution should follow a similar pattern to the graph below. Based on https://www.cisa.gov/news-events/news/cisa-national-cyber-incident-scoring-system-nciss.",
   "namespace": "priority-level",
-  "exclusive": true
+  "exclusive": true,
+  "uuid": "4cf39590-12be-547c-bc1b-36cf0ee9603e"
 }

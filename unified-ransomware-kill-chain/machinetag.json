@@ -6,39 +6,49 @@
   "predicates": [
     {
       "value": "Gain Access",
-      "expanded": "Ransomware affiliates may gain the access to the target network or purchase such access from the initial access brokers."
+      "expanded": "Ransomware affiliates may gain the access to the target network or purchase such access from the initial access brokers.",
+      "uuid": "5a2166af-4d56-5101-ac12-a229cc7bdfcf"
     },
     {
       "value": "Establish Foothold",
-      "expanded": "Ransomware affiliates may need to collect information about the compromised perimeter, elevate its privileges and access credentials, as well as disabling or bypassing defenses to initiate the discovery and propagation."
+      "expanded": "Ransomware affiliates may need to collect information about the compromised perimeter, elevate its privileges and access credentials, as well as disabling or bypassing defenses to initiate the discovery and propagation.",
+      "uuid": "305705d7-68b8-557a-a385-eb85b74caf7c"
     },
     {
       "value": "Network Discovery",
-      "expanded": "Ransomware affiliates, before starting network propagation, need to collect information about remote systems."
+      "expanded": "Ransomware affiliates, before starting network propagation, need to collect information about remote systems.",
+      "uuid": "09c31696-ed31-55ce-8306-2b91c76e918b"
     },
     {
       "value": "Key Assets Discovery",
-      "expanded": "Ransomware affiliates start to acquire additional data, such as privileged credentials, sensitive information and backup related to critical assets."
+      "expanded": "Ransomware affiliates start to acquire additional data, such as privileged credentials, sensitive information and backup related to critical assets.",
+      "uuid": "e6b1155d-a46d-573c-9ff7-a61d2f9a6eee"
     },
     {
       "value": "Network Propagation",
-      "expanded": "Ransomware affiliates use legitimate tools and techniques to move laterally through the network."
+      "expanded": "Ransomware affiliates use legitimate tools and techniques to move laterally through the network.",
+      "uuid": "d5c5a7b2-6a3a-51b0-8f1d-a1bf9d2d3978"
     },
     {
       "value": "Data Exfiltration",
-      "expanded": "Ransomware affiliates may collect data from one or multiple sources, such as network attached storages, cloud storages and so on, and proceed with the exfiltration."
+      "expanded": "Ransomware affiliates may collect data from one or multiple sources, such as network attached storages, cloud storages and so on, and proceed with the exfiltration.",
+      "uuid": "5d399f38-6e0f-5a8c-8acf-1e63e3977fc3"
     },
     {
       "value": "Deployment Preparation",
-      "expanded": "Ransomware affiliates disable and remove security solutions or available backups prior to ransomware deployment."
+      "expanded": "Ransomware affiliates disable and remove security solutions or available backups prior to ransomware deployment.",
+      "uuid": "6d731a31-5b6d-5ae0-98ed-0f97ed767697"
     },
     {
       "value": "Ransomware Deployment",
-      "expanded": "Ransomware affiliates attempt to achieve their main goal: deploy the ransomware."
+      "expanded": "Ransomware affiliates attempt to achieve their main goal: deploy the ransomware.",
+      "uuid": "f5f32bc4-b7d6-5e72-bab2-685a928b863e"
     },
     {
       "value": "Extortion",
-      "expanded": "Ransomware affiliates, after encrypting the victim's assets, may start to upload sample of exfiltrated data on the DLS, call the victims' employees, and even perform DDOS attacks against the compromised infrastructure only to facilitate extortion."
+      "expanded": "Ransomware affiliates, after encrypting the victim's assets, may start to upload sample of exfiltrated data on the DLS, call the victims' employees, and even perform DDOS attacks against the compromised infrastructure only to facilitate extortion.",
+      "uuid": "cd86d63b-7766-54b0-90be-f141325e3db0"
     }
-  ]
+  ],
+  "uuid": "5dcfa500-e8f0-5dab-ac94-674326bcb64d"
 }

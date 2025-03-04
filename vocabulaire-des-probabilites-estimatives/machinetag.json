@@ -6,31 +6,31 @@
           "expanded": "Presque aucune chance - Quasi impossible Presque impossible Minces chances Très douteux Très peu probable Très improbable Improbable Peu de chances - 7 % (marge d’erreur d’environ 5 %)",
           "value": "presque-aucune-chance",
           "numerical_value": 7,
-          "uuid": "cbb828a1-8756-5289-8d4f-0ba281b97232"
+          "uuid": "7d376724-9f09-5f11-8d14-8a72133acdc0"
         },
         {
           "expanded": "Probablement pas - Invraisemblable Peu probable - 30 % (marge d’erreur d’environ 10 %)",
           "value": "probablement-pas",
           "numerical_value": 30,
-          "uuid": "d111ea4e-1ac5-5c74-bece-fb21ca73b211"
+          "uuid": "371927af-6ac1-5d63-888d-df3cbd64358f"
         },
         {
           "expanded": "Chances à peu près égales - une chance sur deux - 50% (marge d’erreur d’environ 10 %)",
           "value": "chances-à-peu-près-egales",
           "numerical_value": 50,
-          "uuid": "0453f325-f715-5c65-8614-0dfc97973148"
+          "uuid": "6cc2eee7-d218-5d4f-9e80-c758f6f73516"
         },
         {
           "expanded": "Probable - Vraisemblable Probable - 75 % (marge d’erreur d’environ 12 %)",
           "value": "probable",
           "numerical_value": 75,
-          "uuid": "20403083-c55a-5bd9-a09b-f44c792cc4d3"
+          "uuid": "3832426a-0ba3-537d-bc46-d84dd7ddca80"
         },
         {
           "expanded": "Quasi certaine - Certain Presque certain Très probable - 93% (marge d’erreur d’environ 6 %)",
           "value": "quasi-certaine",
           "numerical_value": 93,
-          "uuid": "29b12112-5b0f-5f63-bf71-70cec71e8393"
+          "uuid": "1e82e4f6-c776-5a98-ae3c-fc651655bc5a"
         }
       ],
       "predicate": "degré-de-probabilité"
@@ -41,7 +41,7 @@
       "description": "Le tableau suivant attribue des valeurs en pourcentage à certains énoncés de probabilité.  Les pourcentages sont tirés de l’ouvrage de Sherman Kent intitulé « Words of Estimative Probability » publié par le Centre for the Study of Intelligence de la CIA en 1964. 0% exprime une impossibilité et 100% exprime une certitude.",
       "expanded": "Degré de probabilité",
       "value": "degré-de-probabilité",
-      "uuid": "70b0c4fb-6b3f-5952-941a-52e344f0493c"
+      "uuid": "3d0ef3d4-abf2-5033-9aa6-d2f9058b19f5"
     }
   ],
   "version": 3,
@@ -52,5 +52,5 @@
   "refs": [
     "http://publications.gc.ca/collections/collection_2013/sp-ps/PS64-106-2007-fra.pdf"
   ],
-  "uuid": "eecad788-728c-517c-b970-c8a2fd160056"
+  "uuid": "81bf8e10-597e-585e-91d6-8886564b03c5"
 }

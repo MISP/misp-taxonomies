@@ -7,79 +7,79 @@
       "value": "fake-news",
       "expanded": "Fake news",
       "description": "Sources that fabricate information, disseminate deceptive content, or grossly distort actual news reports",
-      "uuid": "bc77df07-b6b9-5be0-894a-8d582e7d2500"
+      "uuid": "74683a1c-af5c-59f1-8bf0-c0d2dd40b7fa"
     },
     {
       "value": "satire",
       "expanded": "Satire",
       "description": "Sources that use humor, irony, exaggeration, ridicule, and false information to comment current events",
-      "uuid": "72e6a643-cf73-50b7-b0d2-2e05191ed811"
+      "uuid": "a58639c1-e7ad-56d0-9e59-2be926f62bd9"
     },
     {
       "value": "extreme-bias",
       "expanded": "'Extreme' Bias",
       "description": "Sources that come from a particular point of view and may rely on propaganda, decontextualized information, opinions distorded as facts",
-      "uuid": "7e257c39-fbdf-56f2-82c1-8382cc387e9a"
+      "uuid": "6c2eb032-2f4c-5a18-a5c0-492542734b82"
     },
     {
       "value": "conspiracy",
       "expanded": "Conspiracy",
       "description": "Sources that are well-known promoters of kooky conspiracy theories. Ex: 9/11 conspiracies, chem-trails, lizard people in the sewer systems, birther rumors, flat earth theory fluoride as mind control, vaccines as mind control etc",
-      "uuid": "b0253be6-3911-52f6-9d56-2f01f85d7b8b"
+      "uuid": "6a99eb42-40ff-5aaf-b5db-321148c81b4f"
     },
     {
       "value": "rumor",
       "expanded": "Rumor Mill",
       "description": "Sources that traffic in rumors, gossip, innuendo, unverified claims",
-      "uuid": "98043e1d-38fb-5457-be7e-c147de9007ad"
+      "uuid": "082c1b84-782c-507d-a470-33e997ff97ff"
     },
     {
       "value": "state-news",
       "expanded": "State News",
       "description": "Sources in repressive states operating under government sanction",
-      "uuid": "71081531-d8ca-5988-be35-54c938c2eae3"
+      "uuid": "9524fe9d-9e2c-5c5d-a8e2-e2db17bb446b"
     },
     {
       "value": "junk-sciences",
       "expanded": "Junk Sciences",
       "description": "Sources that promotes pseudo-sciences, metaphysics, naturalistic fallacies, and other scientificallt dubious claims",
-      "uuid": "7c579b3b-5bf9-5780-8426-f476abe4aecd"
+      "uuid": "c5de5353-a5de-5e94-9e99-7efe2e60d788"
     },
     {
       "value": "hate-news",
       "expanded": "Hate News",
       "description": "Sources that promote racism, misogyny, homophobia, and other forms of discrimination",
-      "uuid": "d7840901-17c2-52cc-ba61-4fa3c36cd7f0"
+      "uuid": "4a36d893-573e-59ed-98f1-3fcae128e12d"
     },
     {
       "value": "clickbait",
       "expanded": "Clickbait",
       "description": "Sources that provide generally credible content, but use exaggerated, misleading, OR questionable headlines, social media descriptions, and/or images.  These sources may also use sensational language to generate interest, clickthroughs, and shares, but their content is typically verifiable",
-      "uuid": "5d9701e4-b0e2-5972-9bc9-5479f52fa5ca"
+      "uuid": "3e5a3dd3-30d7-5a14-b472-2d548d0b5f66"
     },
     {
       "value": "proceed-with-caution",
       "expanded": "Proceed with caution-unreliable",
       "description": "Sources that may be reliable but whose contents require further verification or to be read in conjunction with other sources",
-      "uuid": "6b206c76-57cd-55ee-8438-89ddc3360d7e"
+      "uuid": "c730af6d-59f7-553a-9ccf-9569de366b9f"
     },
     {
       "value": "political",
       "expanded": "Political",
       "description": "Sources that provide generally verifiable information in support of certain points of view or political orientations",
-      "uuid": "c8d7a5ad-2482-58bf-86cc-489a482e3544"
+      "uuid": "68aa81b3-352a-5a60-8f2b-386749b6a116"
     },
     {
       "value": "credible",
       "expanded": "Credible-reliable",
       "description": "Sources that circulate news and information in a manner consistent with traditional and ethical practices in journalism",
-      "uuid": "68df1074-6592-5c66-8622-402d53406622"
+      "uuid": "544afd00-3a6b-5299-bd1b-099a9af1a9f6"
     },
     {
       "value": "unknown",
       "expanded": "Unknown-unidentified",
       "description": "Sources that have not yet been analyzed (many of these were suggested by readers/users or are found on other lists and resources).",
-      "uuid": "b8748ad5-300d-5888-a94a-257b0dd34a2b"
+      "uuid": "012533c7-23af-58fe-add4-3f95d4728665"
     }
   ],
   "values": [
@@ -89,22 +89,22 @@
         {
           "value": "humor",
           "expanded": "Humor",
-          "uuid": "176d8cdf-377e-5868-ba32-c869993d095e"
+          "uuid": "3336412b-cd22-51c7-9115-411636beb064"
         },
         {
           "value": "irony",
           "expanded": "Irony",
-          "uuid": "8ca45cc0-3f64-5e56-9007-1b9623dbfd4f"
+          "uuid": "55952916-b66a-5651-8526-6d2732de2697"
         },
         {
           "value": "exaggeration",
           "expanded": "Exaggeration",
-          "uuid": "f5ff49af-264e-56f1-807a-962f6a87b91e"
+          "uuid": "f8c5cb01-7475-56f0-9dda-3f562aca1307"
         },
         {
           "value": "false-information",
           "expanded": "False information",
-          "uuid": "386fd4d6-7462-5e4b-984c-0997ad682dc6"
+          "uuid": "711a8496-5b3d-5290-a00f-f8bd7d822c4b"
         }
       ]
     },
@@ -114,17 +114,17 @@
         {
           "value": "propaganda",
           "expanded": "Propaganda",
-          "uuid": "a4083a48-fcae-592c-8705-8c784c75474a"
+          "uuid": "69f4311d-0c0b-5c57-a5f4-aaee57d54cd7"
         },
         {
           "value": "decontextualized-information",
           "expanded": "Decontextualized Information",
-          "uuid": "72ad67ee-d8e7-5c81-bcce-11baee6df786"
+          "uuid": "a6207121-6b2a-5587-9ae1-88846d8c0127"
         },
         {
           "value": "opinions-distorded-as-facts",
           "expanded": "Opinions distorded as facts",
-          "uuid": "2256fe5c-98e3-5544-8b39-628791f6af0d"
+          "uuid": "55dcf87c-1630-5033-9e72-87fa3639db1c"
         }
       ]
     },
@@ -134,22 +134,22 @@
         {
           "value": "rumors",
           "expanded": "Rumors",
-          "uuid": "3c4a6041-ff7b-5435-924e-b5d596764165"
+          "uuid": "be455adb-b20e-5e17-ab66-e884d3284e63"
         },
         {
           "value": "gossip",
           "expanded": "Gossip",
-          "uuid": "34975f32-5931-5811-b74d-f3690e80696a"
+          "uuid": "2bf33816-4d9f-5f38-8610-d7682451c879"
         },
         {
           "value": "innuendo",
           "expanded": "Innuendo",
-          "uuid": "51a66057-9710-5ca5-a991-d16e3fd1a10e"
+          "uuid": "95af0281-a9bb-5324-81e9-aa54f599f195"
         },
         {
           "value": "unverified-claims",
           "expanded": "Unverified Claims",
-          "uuid": "0f5d0ea2-bcfb-5877-8be0-3a92da72eecf"
+          "uuid": "ce54c4b0-f299-549a-9cca-2484d1bc6b45"
         }
       ]
     },
@@ -159,25 +159,25 @@
         {
           "value": "racism",
           "expanded": "Racism",
-          "uuid": "b5f4d087-c7b6-5882-b6f2-fc4272de38f6"
+          "uuid": "323f9510-8f4d-5a4d-b34b-b6915a213798"
         },
         {
           "value": "misogyny",
           "expanded": "Misogyny",
-          "uuid": "6a757433-63ad-585e-b619-2fc6c8c85ea0"
+          "uuid": "4c775d7d-9dfe-55f0-8925-a87b0a893562"
         },
         {
           "value": "homophobia",
           "expanded": "Homophobia",
-          "uuid": "d5ba6c7f-5fb0-5cee-a37b-28a81a634da7"
+          "uuid": "181be789-40ec-5db6-b85a-1edd2402daca"
         },
         {
           "value": "discrimination-other",
           "expanded": "Discrimination other",
-          "uuid": "0c8b385a-bd1d-5419-b4fa-357c7ebbe873"
+          "uuid": "7c2bda35-fa86-5d37-94ed-9e1a70276e9a"
         }
       ]
     }
   ],
-  "uuid": "0ec72e5d-23b9-5b03-8bbe-030840afb440"
+  "uuid": "eeec3f2b-51bf-5058-a913-acb9d5d99666"
 }

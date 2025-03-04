@@ -3,7 +3,7 @@
     {
       "value": "distribution",
       "exclusive": true,
-      "uuid": "c4b7483a-782c-5716-ad50-03bf1ea99211"
+      "uuid": "ca27127c-ea76-5a7e-a299-0dda91934d36"
     },
     {
       "colour": "#750806",
@@ -11,7 +11,7 @@
       "expanded": "Use it when you want to block Event Attributes on the Thales DIS Proxy (More to come). Distribution: All communities",
       "value": "to_block",
       "numerical_value": 4,
-      "uuid": "a3ccc0f0-4782-5d0d-8cb4-f793fa1189cf"
+      "uuid": "6ca5100a-c74e-53cd-a7d9-6483202b4ec5"
     },
     {
       "colour": "#0A1EF7",
@@ -19,7 +19,7 @@
       "expanded": "Use it when you want to share to the Thales Group MinArm alliance ONLY. Distribution: All communities",
       "value": "minarm",
       "numerical_value": 5,
-      "uuid": "e3387fd4-04b8-5132-a770-9c251cc6355b"
+      "uuid": "ade7a680-504e-5928-bccc-cd3a97ebe8f0"
     },
     {
       "colour": "#A107E3",
@@ -27,7 +27,7 @@
       "expanded": "Use it when you want to share to the Thales Group ACN alliance ONLY. Distribution: All communities",
       "value": "acn",
       "numerical_value": 6,
-      "uuid": "c7cf8aa4-2156-5dee-bb74-9afc0598c1d7"
+      "uuid": "a72231eb-bdd0-59a2-8507-5d73ba22e8c0"
     },
     {
       "colour": "#FF6F00",
@@ -35,7 +35,7 @@
       "expanded": "Use it when you want to share to the Thales Group Sigpart alliance ONLY. Distribution: All communities",
       "value": "sigpart",
       "numerical_value": 7,
-      "uuid": "27ce2f3e-4697-5506-94b3-a92477011096"
+      "uuid": "9c0a64ba-7bf9-518a-ac0c-c8a4231fc525"
     },
     {
       "colour": "#043C86",
@@ -43,7 +43,7 @@
       "expanded": "Use it when you want to share to the Thales Group ISAC alliance ONLY. Distribution: All communities",
       "value": "a_isac",
       "numerical_value": 8,
-      "uuid": "13e031ce-33dc-5648-90e3-dd4f1cfc4f99"
+      "uuid": "0ac317db-5dc5-5186-8baa-e31b0a1e835c"
     },
     {
       "colour": "#12294D",
@@ -51,7 +51,7 @@
       "expanded": "Use it when you want to share to the Thales Group InterCERT France alliance ONLY. Distribution: All communities",
       "value": "intercert_france",
       "numerical_value": 9,
-      "uuid": "67190e22-fd53-5250-9145-2daac0c4fa54"
+      "uuid": "b1b267c0-0363-5568-a2e6-b4a1b7a778b5"
     },
     {
       "colour": "#75646A",
@@ -59,7 +59,7 @@
       "expanded": "Use it when you want to assign a trust category to an Attribute or Globally to an Event. Distribution: All communities",
       "value": "ioc_confidence",
       "exclusive": true,
-      "uuid": "6add7204-bc11-505f-a823-4602878e705c"
+      "uuid": "d1429ccd-9c29-5da7-a07a-fa4c4a696772"
     },
     {
       "colour": "#000000",
@@ -67,7 +67,7 @@
       "expanded": "(TLP:BLACK) Information cannot be effectively acted outside of strict and reduced circle of a trust. Distribution: Restricted Sharing Group",
       "value": "tlp:black",
       "numerical_value": 13,
-      "uuid": "2e08687f-8fba-5f5b-b10f-47c7f6275396"
+      "uuid": "5e882a35-8ddf-5a8f-bae5-f9e14f1bb736"
     },
     {
       "colour": "#375a7f",
@@ -75,7 +75,7 @@
       "expanded": "Use it when this came from Watcher Platform. Distribution: All communities",
       "value": "Watcher",
       "numerical_value": 14,
-      "uuid": "fd01bb8f-6f10-54e2-b676-0892b824b161"
+      "uuid": "64c68f56-e6b5-5f39-84d5-f5ada2db6801"
     }
   ],
   "values": [
@@ -88,7 +88,7 @@
           "expanded": "Use it when you want to keep the Event on your Organization ONLY. Distribution: Your organisation only",
           "value": "team_eyes_only",
           "numerical_value": 0,
-          "uuid": "cfa77892-4e03-58a4-a128-f22b5bf98736"
+          "uuid": "01764ca8-b46b-5ed5-8e03-3582d558422b"
         },
         {
           "colour": "#FFC000",
@@ -96,7 +96,7 @@
           "expanded": "Use it when you want to share to the Thales Group Community ONLY. Distribution: All communities",
           "value": "limited_distribution",
           "numerical_value": 1,
-          "uuid": "73df0997-3ba3-540c-9d08-2a1c5db7cc6e"
+          "uuid": "856719d5-467e-55d6-b581-42ad110ef65d"
         },
         {
           "colour": "#339900",
@@ -104,7 +104,7 @@
           "expanded": "Use it when you want to share to the Thales Group External Alliances (MinArm, ACN, InterCERT-FR). Distribution: All communities",
           "value": "external_alliances",
           "numerical_value": 2,
-          "uuid": "56ce65aa-3edb-54c7-99ac-1199cba98cbe"
+          "uuid": "0846912a-3498-5268-b1e1-285fc496f6ce"
         },
         {
           "colour": "#ffffff",
@@ -112,7 +112,7 @@
           "expanded": "Use it when you want to share to the Thales Group Customers. Distribution: All communities",
           "value": "customers",
           "numerical_value": 3,
-          "uuid": "fb23d085-9fc8-5559-86cb-6e3cd3120fa0"
+          "uuid": "44ebf539-2557-512d-8626-c81e80b57069"
         }
       ]
     },
@@ -123,19 +123,19 @@
           "value": "high",
           "expanded": "High",
           "numerical_value": 10,
-          "uuid": "9072cc48-9ee1-5fa0-86af-d2e5b318de57"
+          "uuid": "dfd16537-0eee-5c79-a6c1-a5eb07afb424"
         },
         {
           "value": "medium",
           "expanded": "Medium",
           "numerical_value": 11,
-          "uuid": "162f45d0-f4ea-550c-a671-ae3e0ecb677a"
+          "uuid": "23d0e162-87c2-5795-9a2f-6e5bf0c8717d"
         },
         {
           "value": "low",
           "expanded": "Low",
           "numerical_value": 12,
-          "uuid": "b0c87e98-3496-5d05-a90e-759a1e1ed853"
+          "uuid": "69a17e7c-d814-5251-ab32-854e196087ea"
         }
       ]
     }
@@ -147,5 +147,5 @@
   "description": "Thales Group Taxonomy - was designed with the aim of enabling desired sharing and preventing unwanted sharing between Thales Group security communities.",
   "expanded": "Thales Group Taxonomy",
   "namespace": "thales_group",
-  "uuid": "1f8d6285-40c6-5310-a124-a855ff260684"
+  "uuid": "c76581f5-9cc1-532e-98fd-9d1518871849"
 }

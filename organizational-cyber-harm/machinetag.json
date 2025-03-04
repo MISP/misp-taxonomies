@@ -11,31 +11,31 @@
       "value": "physical-digital",
       "expanded": "Physical digital",
       "description": "Physical/Digital harm to assets or individuals.",
-      "uuid": "24a05e2a-d19f-5b2f-9506-63e1f3a5ed4b"
+      "uuid": "5cb0442b-a091-5f2f-aa81-c689790193e4"
     },
     {
       "value": "economic",
       "expanded": "Economic",
       "description": "Economic harm caused by cyber incidents.",
-      "uuid": "90ad0177-ccec-59b7-9a22-ea377339df43"
+      "uuid": "64ae5a30-2f9a-5c4d-a181-4ca0cd17cfe7"
     },
     {
       "value": "psychological",
       "expanded": "Psychological",
       "description": "Psychological effects of cyber incidents.",
-      "uuid": "08cd84d8-dbda-5bc3-9503-b6da855bb193"
+      "uuid": "14bc1ed5-a795-51d9-be2e-9cda3d8d63fc"
     },
     {
       "value": "reputational",
       "expanded": "Reputational",
       "description": "Reputational damage caused by cyber incidents.",
-      "uuid": "05defa9b-81fe-5fb4-a52a-aea14efc6910"
+      "uuid": "34f484c3-35d4-5174-b532-a34ff0ee62e2"
     },
     {
       "value": "social-societal",
       "expanded": "Social or societal",
       "description": "Social and societal impacts of cyber incidents.",
-      "uuid": "10ad7f6b-0842-57ab-b015-3b273cff8ebd"
+      "uuid": "10b59b33-c18d-59c1-b995-7be54cf2456f"
     }
   ],
   "values": [
@@ -45,77 +45,77 @@
         {
           "value": "damaged-or-unavailable",
           "expanded": "damaged or unavailable",
-          "uuid": "6728c3ac-c969-5961-91d5-1abd9d84c989"
+          "uuid": "6fffe5f0-0769-5de0-90b9-2bcbf48e19f7"
         },
         {
           "value": "destroyed",
           "expanded": "destroyed",
-          "uuid": "9ee6be94-cb3b-5c2c-be1d-16a63460b259"
+          "uuid": "ebf58c41-716c-5ca0-a5ea-1f321c675027"
         },
         {
           "value": "theft",
           "expanded": "theft",
-          "uuid": "e073ced9-c584-514f-8e97-9a789a04ce27"
+          "uuid": "45bba360-e0ae-55fa-9b22-9f9ba3ec62d0"
         },
         {
           "value": "compromised",
           "expanded": "compromised",
-          "uuid": "90bb00ee-6672-5466-9fb5-238cbd2051c3"
+          "uuid": "6a1dc7da-17ae-5988-997a-f0f18703a8fa"
         },
         {
           "value": "infected",
           "expanded": "infected",
-          "uuid": "a869cde4-710a-5c27-a480-e3f649d0ef8a"
+          "uuid": "4ade9625-9df2-5969-b9e1-c1f8f793f4a8"
         },
         {
           "value": "exposed-leaked",
           "expanded": "exposed or leaked",
-          "uuid": "2fbeab9a-1b20-5560-8a4c-2863e3f27f13"
+          "uuid": "8cda299d-257d-5692-a3dd-60ffa67cb25d"
         },
         {
           "value": "corrupted",
           "expanded": "corrupted",
-          "uuid": "77478a5d-dcb9-5b31-bc50-52af42b24e49"
+          "uuid": "6527e688-0556-5077-84dd-36170f2d1beb"
         },
         {
           "value": "reduced-performance",
           "expanded": "reduced performance",
-          "uuid": "d779e376-8447-5e78-8755-f1bc9ce1966f"
+          "uuid": "44f9f702-94dc-5b8f-8b19-73b1db94f22f"
         },
         {
           "value": "bodily-injury",
           "expanded": "bodily injury",
-          "uuid": "6ab3082d-f577-5b4a-91e7-e92deb698229"
+          "uuid": "5017bd4b-75c8-5123-aebe-a2a001b66726"
         },
         {
           "value": "pain",
           "expanded": "pain",
-          "uuid": "4cd59bbe-8e2a-594c-8517-36e8e6b7a0d6"
+          "uuid": "358084d2-cb65-59a4-b266-c4a3a6ed837a"
         },
         {
           "value": "loss-of-life",
           "expanded": "loss of life",
-          "uuid": "ca23a6b9-0332-548c-840c-cf3e4cd80803"
+          "uuid": "85d89f42-a8ee-59b5-bde5-3e4b163ba415"
         },
         {
           "value": "prosecution",
           "expanded": "prosecution",
-          "uuid": "7042663d-772e-50db-9ca9-e81087031a99"
+          "uuid": "27022d3a-02c1-5fdb-99d5-e26441e3c31b"
         },
         {
           "value": "abuse",
           "expanded": "abuse",
-          "uuid": "75ea8a18-8bbf-57db-b7bf-5b200400b411"
+          "uuid": "82ea1e0c-dc30-5a19-892d-fe3c8501b421"
         },
         {
           "value": "mistreatment",
           "expanded": "mistreatment",
-          "uuid": "b2805f71-4645-552a-b24e-bace15c591b2"
+          "uuid": "a9f6497a-4499-5e78-a571-49d93f981f1a"
         },
         {
           "value": "identity-theft",
           "expanded": "identity theft",
-          "uuid": "f8484080-87ff-5fbf-bde9-d57a0853e104"
+          "uuid": "1c6f5b8d-ba7e-5633-8e77-e7bd5ab47c97"
         }
       ]
     },
@@ -125,82 +125,82 @@
         {
           "value": "disrupted-operations",
           "expanded": "disrupted operations",
-          "uuid": "7c665914-2a16-5324-811c-285c1ef4c723"
+          "uuid": "ad2f6813-139a-5ae1-bfb5-7c479faf37a2"
         },
         {
           "value": "disrupted-sales",
           "expanded": "disrupted sales",
-          "uuid": "8662b74d-fc7e-575e-bd79-a12791dce30a"
+          "uuid": "f8daf386-f16a-5e20-8a37-c94666009dd2"
         },
         {
           "value": "reduced-customers",
           "expanded": "reduced customers",
-          "uuid": "7c31a261-be41-5647-bda9-86a13f2ed85a"
+          "uuid": "ce788f0b-2d3c-5e9e-9abf-1c48888953b1"
         },
         {
           "value": "reduced-profits",
           "expanded": "reduced profits",
-          "uuid": "4f91db3c-0e75-56b5-9d8a-5f1a4d0dd84a"
+          "uuid": "fe173078-f141-5c0c-bc71-bb7e08e85477"
         },
         {
           "value": "reduced-growth",
           "expanded": "reduced growth",
-          "uuid": "08691c8b-37e6-59ad-9c3d-aafd2fd92ee7"
+          "uuid": "6b6809ec-ffee-5509-a72b-1d9e1be3b92a"
         },
         {
           "value": "reduced-investments",
           "expanded": "reduced investments",
-          "uuid": "2577f18d-e269-5da4-9a13-75ce7462aa50"
+          "uuid": "26f1b236-1dd0-5aa3-ae94-7033dc7a33aa"
         },
         {
           "value": "fall-in-stock-price",
           "expanded": "fall in stock price",
-          "uuid": "3e0d8f80-43b2-51a9-abce-7817f9a3d3ba"
+          "uuid": "e0695119-e0c8-5c34-8d96-eda4bfcb0828"
         },
         {
           "value": "theft-of-finances",
           "expanded": "threft of finances",
-          "uuid": "37879193-b804-5e06-baf0-cb12ed4c2978"
+          "uuid": "028fb0b3-eb66-5183-bd23-1d70cce380bd"
         },
         {
           "value": "loss-of-finances",
           "expanded": "loss of finances",
-          "uuid": "1c35cc13-36f0-5b6c-a3c8-3c7328823d04"
+          "uuid": "a3060564-07f6-588c-820b-05003147f880"
         },
         {
           "value": "regulatory-fines",
           "expanded": "regulatory fines",
-          "uuid": "a03493c5-1439-5948-8ab8-e1c7b5d1eeca"
+          "uuid": "7ff16dac-afbb-5d14-8acc-af7802bf6057"
         },
         {
           "value": "investigation-costs",
           "expanded": "investigations costs",
-          "uuid": "92a93a58-ebbc-5100-a5e0-2b90ba20f138"
+          "uuid": "d7bb2a3f-cdd0-5aa0-8e23-9480b4597549"
         },
         {
           "value": "pr-response-costs",
           "expanded": "pr response costs",
-          "uuid": "69db3ed0-6176-57f5-835e-c1ff0341925f"
+          "uuid": "cd7f504b-b0ce-51de-ab2e-10710c56172c"
         },
         {
           "value": "compensation-payments",
           "expanded": "compensation payments",
-          "uuid": "02134d0c-7538-5c6e-b300-e89336e73fd6"
+          "uuid": "23a36bfb-0e42-5430-ae07-60d755fad779"
         },
         {
           "value": "extortion-payments",
           "expanded": "extortion payments",
-          "uuid": "2677efc1-c999-5093-9934-5083cf61ad2a"
+          "uuid": "27fdb8f2-45b1-512d-ab46-1b86dd34f358"
         },
         {
           "value": "loss-of-jobs",
           "expanded": "loss of jobs",
-          "uuid": "8bd11ce8-e63d-5f09-a54c-caf24e80c2e6"
+          "uuid": "a96a20e4-38df-5c41-9db1-da1fe3ded3b8"
         },
         {
           "value": "scammed",
           "expanded": "scammed",
-          "uuid": "7e275a54-22a3-5564-a1bc-6f35b6982175"
+          "uuid": "9d1b550e-bb7f-5982-950d-d70f1dadd46b"
         }
       ]
     },
@@ -210,62 +210,62 @@
         {
           "value": "confusion",
           "expanded": "confusion",
-          "uuid": "43f03225-8869-55e6-af0a-10b1f0c1f303"
+          "uuid": "87a1328b-29a2-5c43-a59e-8c49a40c6197"
         },
         {
           "value": "discomfort",
           "expanded": "discomfort",
-          "uuid": "c1aa339a-f201-551d-9c55-a23705962246"
+          "uuid": "7cc8f087-af8a-573e-9176-e377c20dae92"
         },
         {
           "value": "frustration",
           "expanded": "frustration",
-          "uuid": "d4efb20c-5eb4-5b6a-b7d6-d9d75be39041"
+          "uuid": "515770f1-69cb-593c-9800-a4fd497a3e4e"
         },
         {
           "value": "worry-anxiety",
           "expanded": "worry or anxiety",
-          "uuid": "d3e4ee5f-cabe-5082-a5d4-14f5828a644f"
+          "uuid": "c3115093-780b-5628-bb94-844ccb0cef45"
         },
         {
           "value": "feeling-upset",
           "expanded": "feeling upset",
-          "uuid": "4eefc45a-c05c-5309-a669-9de1a86fdfe8"
+          "uuid": "252ac980-5b5d-54b9-82dd-12f529b64aa7"
         },
         {
           "value": "depressed",
           "expanded": "depressed",
-          "uuid": "5f4fbe33-8b2f-5b00-b0a9-9b8f76ba6362"
+          "uuid": "1d532d0d-3ba8-5df9-ba25-3588aabb9d08"
         },
         {
           "value": "embarrassed",
           "expanded": "embarrassed",
-          "uuid": "639b9a69-03fc-5098-960a-0ab3734cd841"
+          "uuid": "3dbbfcd7-7a94-530a-9264-2b9c4f46339b"
         },
         {
           "value": "shameful",
           "expanded": "shameful",
-          "uuid": "187dd4a6-0e71-5bad-816c-c1cdf218d277"
+          "uuid": "9d44b7c1-284a-5a8a-9947-f32597ac28f4"
         },
         {
           "value": "guilty",
           "expanded": "guilty",
-          "uuid": "32af2043-6ec0-567c-85d6-45cd2671180d"
+          "uuid": "423fb6df-c728-5126-bd5a-512dee20e341"
         },
         {
           "value": "loss-of-self-confidence",
           "expanded": "loss of self-confidence",
-          "uuid": "5fb9a1a9-2f3b-5839-9260-62a0f42b6c40"
+          "uuid": "cbc0b4f3-9848-59af-943e-72ff8a431763"
         },
         {
           "value": "low-satisfaction",
           "expanded": "low satisfaction",
-          "uuid": "c70596bc-e22a-5b18-985d-07f20f6ed184"
+          "uuid": "d06cc3f5-5b5b-521d-b971-03f5c057b6fc"
         },
         {
           "value": "negative-changes-in-perception",
           "expanded": "negative changes in perception",
-          "uuid": "614932f6-68fb-58f9-8746-6523c35f87d4"
+          "uuid": "4d2b3d06-3a1e-523f-bc78-1e0edfb3bec8"
         }
       ]
     },
@@ -275,52 +275,52 @@
         {
           "value": "damaged-public-perception",
           "expanded": "damaged public perception",
-          "uuid": "fe966a49-8f68-543c-b0f2-b81c16e09206"
+          "uuid": "9b693bb8-25e4-5cff-9354-16ab049d1062"
         },
         {
           "value": "reduced-corporate-goodwill",
           "expanded": "reduced corporate goodwill",
-          "uuid": "a62b891c-9617-553f-93fa-549c81e7cba8"
+          "uuid": "966136a2-4eee-59ba-bd12-3622d54dba74"
         },
         {
           "value": "damaged-customer-relationships",
           "expanded": "damaged customer relationship",
-          "uuid": "e2445c5e-d3a2-5083-b61a-ad163e74ebea"
+          "uuid": "f3ae8aae-776b-5c0b-bf4a-5bdbcd8b4b1c"
         },
         {
           "value": "damaged-supplier-relationships",
           "expanded": "damaged supplier relationship",
-          "uuid": "96bbea1c-2d36-5dca-a4a5-c67f2cb785cc"
+          "uuid": "690b590b-62be-51ad-ba2a-dc95add9d470"
         },
         {
           "value": "reduced-business-opportunities",
           "expanded": "reduced business opportunities",
-          "uuid": "5096bf8f-6a5b-5d98-a79e-f654c9309d60"
+          "uuid": "5b454a5c-3c03-5b3b-89d5-e0bfe3d512fc"
         },
         {
           "value": "inability-to-recruit",
           "expanded": "inability to recruit",
-          "uuid": "cc2d167d-5b88-5615-adbd-6cefef2c46bb"
+          "uuid": "e5b69736-f1cc-5f91-b441-f6543c4375d6"
         },
         {
           "value": "media-scrutiny",
           "expanded": "media scrutiny",
-          "uuid": "635d6ce2-e302-54b3-b8eb-33a413a25420"
+          "uuid": "8c65b49d-f23c-5858-853f-22a6d3b19a65"
         },
         {
           "value": "loss-of-key-staff",
           "expanded": "loss of key staff",
-          "uuid": "f4ccdb98-da89-5dc1-acb6-3d29c18261f0"
+          "uuid": "d9a31bc9-c2cc-562e-be14-c0a9372fff37"
         },
         {
           "value": "loss-of-accreditations",
           "expanded": "loss of accreditations",
-          "uuid": "55416224-a58b-55e1-8796-e14b323f8164"
+          "uuid": "ec5442a6-9edb-5a72-930c-23fe7c8bb3d5"
         },
         {
           "value": "reduced-credit-scores",
           "expanded": "reduced credit scores",
-          "uuid": "ab22c457-7c17-5fc3-a81e-255e77d6ac45"
+          "uuid": "5733f8cb-3f62-5a49-a843-818563540af8"
         }
       ]
     },
@@ -330,25 +330,25 @@
         {
           "value": "negative-changes-in-public-perception",
           "expanded": "negative changes in public perception",
-          "uuid": "1c9d9af5-4819-5138-971c-af0ff09c3a5e"
+          "uuid": "4792ac2b-15e9-57ba-aaad-5c39477db41e"
         },
         {
           "value": "disruption-in-daily-activities",
           "expanded": "disruption in daily activities",
-          "uuid": "b10166e1-9c4f-5167-8db8-84936d6dda70"
+          "uuid": "91c8a529-b616-5f25-9c9f-3313b6ae14fb"
         },
         {
           "value": "negative-impact-on-network",
           "expanded": "negative impact on network",
-          "uuid": "8168cfab-15fa-53fa-b42a-01914dcaf81c"
+          "uuid": "834a68f0-a8fc-5b32-a23c-f1fb86032c72"
         },
         {
           "value": "drop-in-internal-morale",
           "expanded": "drop-in internal morale",
-          "uuid": "e8749e82-ea4c-5286-a4c4-05f3c197f09a"
+          "uuid": "4e38a290-2786-5df0-82d2-ceb80b9a4176"
         }
       ]
     }
   ],
-  "uuid": "f4f529cc-dd30-51b3-80b5-6a00cbf3d41c"
+  "uuid": "42602a10-a966-53a3-af5f-377e51cbdab4"
 }

@@ -4,31 +4,31 @@
       "description": "Categories and types of services in the financial scope. An entity can be tag with one or more categories or types of services.",
       "expanded": "Categories and types of services",
       "value": "categories-and-types-of-services",
-      "uuid": "33d42180-32df-54c4-b85a-ac76e3c3b27e"
+      "uuid": "305f9158-1963-5fec-a01e-d4608501dc22"
     },
     {
       "description": "Geographical footprint of the financial entity.",
       "expanded": "Geographical footprint",
       "value": "geographical-footprint",
-      "uuid": "1d703f85-e44e-5bbc-b8e2-9fc6f3e564a7"
+      "uuid": "e959c419-0e40-5c2d-a11b-2a09452a794b"
     },
     {
       "description": "Online exposition of the financial entity.",
       "expanded": "Online exposition",
       "value": "online-exposition",
-      "uuid": "24cae7a9-e62b-5af9-b011-2d8f3e50be2a"
+      "uuid": "bd75b2ec-88f3-517d-ac26-e5bb16b54d7d"
     },
     {
       "description": "Physical presence of the financial entity.",
       "expanded": "Physical presence",
       "value": "physical-presence",
-      "uuid": "840e8b26-af26-589b-86d6-b7e2db6bcdd4"
+      "uuid": "964a11ac-989a-5ad0-bc8b-aaed356c5070"
     },
     {
       "description": "Services provided by the financial entity.",
       "expanded": "Services",
       "value": "services",
-      "uuid": "41a4f778-6669-55fd-9e75-e1a7b402e77a"
+      "uuid": "6b21c752-4433-529d-8821-957523f775a0"
     }
   ],
   "values": [
@@ -39,55 +39,55 @@
           "value": "banking",
           "expanded": "Banking",
           "description": "Financial entity described or/and regulated as banking.",
-          "uuid": "807559a3-8230-559d-941e-d455c4ca0d59"
+          "uuid": "28f794c3-a0aa-5a21-8613-36f567bd65d3"
         },
         {
           "value": "private",
           "expanded": "Private",
           "description": "Financial entity engaged in private banking.",
-          "uuid": "4dd4fcd3-fffd-5de6-8ab1-04c495acf4f4"
+          "uuid": "b2a07d25-f0d1-521b-aac0-79f532997858"
         },
         {
           "value": "retail",
           "expanded": "Retail",
           "description": "Financial entity engaged in retail banking.",
-          "uuid": "1aa037a5-3b66-5b02-8b9b-7f79fe2c5f83"
+          "uuid": "e1d0cebf-e387-5789-af4b-3c43f01cdf6e"
         },
         {
           "value": "custodian-banking",
           "expanded": "Custodian banking",
           "description": "Financial entity having physical possessions of clients financial assets or instruments.",
-          "uuid": "f287bc95-09dc-5da7-96ab-eb31392e6b28"
+          "uuid": "484f4c40-6520-5db8-8c8d-91d25b668637"
         },
         {
           "value": "financial-market-infrastructure",
           "expanded": "Financial market infrastructure",
           "description": "Financial market infrastructure such as stock exchange, CSD",
-          "uuid": "b7ed8e62-2c2b-5327-aab8-774e4e8ddb2f"
+          "uuid": "492630cb-06ad-5fba-aa0e-175643c5ad63"
         },
         {
           "value": "asset-management",
           "expanded": "Asset management",
           "description": "Financial entity managing financial assets on behalf of others.",
-          "uuid": "036fc7be-f816-5817-aa6b-e6e99b7ce17b"
+          "uuid": "f92f6c32-a285-5492-bbe1-dbbe491002df"
         },
         {
           "value": "it-provider",
           "expanded": "IT provider",
           "description": "IT provider supporting financial entities and regulated in the financial legal framework (such as support PFS in Luxembourg).",
-          "uuid": "07a13b36-f9ab-599b-abde-016e356d9c5f"
+          "uuid": "d7f18f68-9077-5d82-a31b-85c76f91665d"
         },
         {
           "value": "e-money-and-payment",
           "expanded": "e-money and payment",
           "description": "Financial entity managing electronic money as alternative to cash payment. (EU directive - Directive 2009/110/EC)",
-          "uuid": "7c438638-3603-5bc9-82ed-764d9966a217"
+          "uuid": "0205e726-a3e7-5f7d-b766-fa955e284fcc"
         },
         {
           "value": "other",
           "expanded": "Other",
           "description": "Other entity classified as financial entity with other activities not defined in this taxonomy.",
-          "uuid": "744ac459-e2fc-5cf2-8042-8229cd04ab8c"
+          "uuid": "8d9d6306-968a-531e-b249-ae2e1d6d7ef5"
         }
       ]
     },
@@ -98,37 +98,37 @@
           "value": "client-coverage-local",
           "expanded": "Client coverage is local",
           "description": "Client and customer coverage is local to the financial entity (such as a country).",
-          "uuid": "ce6c4a74-bcc4-5bef-aa7a-ec22a798888c"
+          "uuid": "6688999c-82ba-5f6d-b813-ab46ee4747ad"
         },
         {
           "value": "client-coverage-eu",
           "expanded": "Client coverage in EU",
           "description": "Client and customer coverage is limited to the European Union.",
-          "uuid": "369fdd26-364c-5341-82bb-c5e4a1dd7679"
+          "uuid": "7fe21849-7b2a-5596-b090-34ec13f34fb3"
         },
         {
           "value": "client-coverage-worldwide",
           "expanded": "Client coverage is worldwide",
           "description": "Client and customer coverage is worldwide.",
-          "uuid": "226de167-a846-56fb-998f-4c204f979774"
+          "uuid": "b1008289-8526-5f23-8bbc-019b38e388e3"
         },
         {
           "value": "corporate-structure-local",
           "expanded": "Corporate structure is local",
           "description": "Corporate structure is local to the financial entity (such as a country).",
-          "uuid": "57e96e1f-7686-5b9f-9e41-cdc9b8537cb6"
+          "uuid": "a9d46538-f163-53bc-b487-cffeac6c60b3"
         },
         {
           "value": "corporate-structure-eu",
           "expanded": "Corporate structure in EU",
           "description": "Corporate structure is located in the European Union.",
-          "uuid": "55fc7082-2975-57a3-916a-58da5e16b386"
+          "uuid": "700189a9-a83d-5d7d-a5d0-1cfd515a8b61"
         },
         {
           "value": "corporate-structure-worldwide",
           "expanded": "Corporate structure is worldwide",
           "description": "Corporate structure is located worldwide.",
-          "uuid": "90c58868-babf-5293-8bf9-b1750d5d833f"
+          "uuid": "2d6785ce-0414-5b8b-b4dd-49e0fff5da4a"
         }
       ]
     },
@@ -139,19 +139,19 @@
           "value": "limited",
           "expanded": "Limited",
           "description": "Online presence of the financial entity is limited such as just a public web server and/or email services.",
-          "uuid": "381b1614-2827-5d35-9d13-eb134ff3ad02"
+          "uuid": "76979f9a-7844-5011-8e99-377f4f2f81fe"
         },
         {
           "value": "extended",
           "expanded": "Extended",
           "description": "Online presence of the financial entity is extended with online services for the clients and customers but still with a physical presence.",
-          "uuid": "e2ffbe9b-ba28-534a-8450-281f03d8bba9"
+          "uuid": "6a1b39f5-1cdb-5ec8-8ff3-b9bfd7758ab0"
         },
         {
           "value": "crucial",
           "expanded": "Crucial",
           "description": "Online presence of the financial entity is crucial and business depends on online presence, extensive use of cloud computing, APIs, etc.",
-          "uuid": "49a6b3fe-d4c2-50ff-a9d8-9573ab7455a7"
+          "uuid": "76c12092-157e-5f9d-b940-a7b107943f4f"
         }
       ]
     },
@@ -162,13 +162,13 @@
           "value": "atm",
           "expanded": "Automated teller machines",
           "description": "The financial entity owns and/or operates automated teller machines (ATM).",
-          "uuid": "bb88598e-48f5-5726-89d3-f4bbbe39cde6"
+          "uuid": "4d39617b-7da2-5b9d-9f3a-0f2e717f56ed"
         },
         {
           "value": "pos",
           "expanded": "Point of sale terminals",
           "description": "The financial entity owns and/or operates point of sale terminals (POS).",
-          "uuid": "2491e522-cc5e-5cd8-9d1f-07576007669b"
+          "uuid": "91c688aa-4aad-5f72-bdfa-701f95e7c2b3"
         }
       ]
     },
@@ -179,49 +179,49 @@
           "value": "settlement",
           "expanded": "Settlement",
           "description": "A financial entity providing settlement services.",
-          "uuid": "e20463d3-908d-50d7-bea7-400aef82717c"
+          "uuid": "13a01b94-febd-51d7-a6c4-8ee453079172"
         },
         {
           "value": "collateral-management",
           "expanded": "Collatoral management",
           "description": "A financial entity providing collateral management services.",
-          "uuid": "88967c05-2af9-5a71-afc1-719fb0c00787"
+          "uuid": "4b9cdc03-1350-5b35-bf07-c24e20dbf947"
         },
         {
           "value": "listing-operation-of-trading-platform",
           "expanded": "Listing and operation of trading platform",
           "description": "A financial entity providing listing and operation of trading platform.",
-          "uuid": "f179ad2b-0b95-55bd-b915-1aec633fb8c2"
+          "uuid": "0e04db9d-6d24-55f4-81cf-93fe9f419dd9"
         },
         {
           "value": "credit-granting",
           "expanded": "Credit granting",
           "description": "A financial entity providing credit granting.",
-          "uuid": "2cb6cc84-2870-52df-99a9-b2f525010913"
+          "uuid": "992c1255-c45c-5d36-82cc-164f1488864c"
         },
         {
           "value": "deposit-management",
           "expanded": "Deposit management",
           "description": "A financial entity providing deposit management.",
-          "uuid": "f6ce17f4-4a2f-50f5-8b80-b69934736af0"
+          "uuid": "39150041-da90-5fa3-bac8-cc502b3a8350"
         },
         {
           "value": "custodian-banking",
           "expanded": "Custodian banking",
           "description": "A financial entity providing custodian banking.",
-          "uuid": "722421a8-19a6-5ffa-9c61-4fb93a4954c1"
+          "uuid": "d350c33e-fd62-5515-b07c-6bb36bb3f79e"
         },
         {
           "value": "payment-services",
           "expanded": "Payment services",
           "description": "A financial entity providing payment services.",
-          "uuid": "69e8eb7f-2ff1-54c4-94b9-46db0208c2b0"
+          "uuid": "65aa4b58-72be-5954-b6ea-a9fdab8fad47"
         },
         {
           "value": "investment-services",
           "expanded": "Investment services",
           "description": "A financial entity providing investment services.",
-          "uuid": "7bc64089-2c6c-5f74-b2e0-456a1ee37ec0"
+          "uuid": "93a867df-1445-5e40-a3dd-e40a7f80d1cd"
         }
       ]
     }
@@ -230,5 +230,5 @@
   "description": "Financial taxonomy to describe financial services, infrastructure and financial scope.",
   "expanded": "Financial",
   "namespace": "financial",
-  "uuid": "8b761314-6385-51bc-81e9-8030bb348d1a"
+  "uuid": "a5a27569-27a2-5c00-9729-7d7d8cefbaad"
 }

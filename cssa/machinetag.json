@@ -6,23 +6,23 @@
     {
       "value": "sharing-class",
       "expanded": "Sharing Class",
-      "uuid": "50876dd5-1769-5c3d-95c8-8e580d8cb47a"
+      "uuid": "9d2b361a-9d72-5563-8ddf-3df634a0a6e8"
     },
     {
       "value": "report",
       "expanded": "Report",
-      "uuid": "c2bf04d4-9e1e-5f46-b24d-68c655174b53"
+      "uuid": "0730ae32-ad2e-5ef1-b237-d8086be6dde5"
     },
     {
       "value": "origin",
       "expanded": "Origin",
-      "uuid": "9f64314d-435e-58ae-8a83-1faa5b01e3e6"
+      "uuid": "7fe9d006-b5eb-572f-872e-bc8f2bba1b03"
     },
     {
       "value": "analyse",
       "expanded": "Please analyse sample",
       "colour": "#fab74d",
-      "uuid": "5467baf9-173c-57e6-87b8-cb01c36ec081"
+      "uuid": "8aec27d1-1a96-5d78-abe8-9b21228556b3"
     }
   ],
   "values": [
@@ -34,21 +34,21 @@
           "expanded": "Generated within the company during incident/case related investigations or forensic analysis or via malware reversing, validated by humans and highly contextualized.",
           "colour": "#007695",
           "numerical_value": 95,
-          "uuid": "79deb3c4-dfeb-5b8b-bdc4-7416cfe6d8b0"
+          "uuid": "af39b08e-cca0-5c08-9c96-0360b321fce8"
         },
         {
           "value": "vetted",
           "expanded": "Generated within the company, validated by a human prior to sharing, data points have been contextualized (to a degree) e.g. IPs are related to C2 or drop site.",
           "colour": "#008aaf",
           "numerical_value": 50,
-          "uuid": "6b1da934-9540-5324-9f43-431faa5df4bf"
+          "uuid": "e3932188-d9d0-5cbd-a5bc-bd9bab455e6e"
         },
         {
           "value": "unvetted",
           "expanded": "Generated within the company by automated means without human interaction e.g., by malware sandbox, honeypots, IDS, etc.",
           "colour": "#00b3e2",
           "numerical_value": 10,
-          "uuid": "c006f97f-d14d-5579-9917-ac8224d18c9b"
+          "uuid": "49ecd21d-d16c-56e3-95a5-2739b5961a68"
         }
       ]
     },
@@ -59,19 +59,19 @@
           "value": "details",
           "expanded": "Description of the incidence.",
           "colour": "#fbc166",
-          "uuid": "d17df46c-ef36-50f5-95f3-b6142d1e50a3"
+          "uuid": "228dc592-f89b-55ad-b072-5155685efe3b"
         },
         {
           "value": "link",
           "expanded": "Link to the original report location.",
           "colour": "#fbcb7f",
-          "uuid": "cf6188e1-83eb-5236-b6f3-ecd3cadbfcdc"
+          "uuid": "f94ab4c5-be51-5857-872c-e6e218381300"
         },
         {
           "value": "attached",
           "expanded": "Attached report.",
           "colour": "#fcd597",
-          "uuid": "b4b2e30a-ee25-5b12-b081-2964ae9e6111"
+          "uuid": "efaa9a4f-7392-598b-957b-ab484c70603b"
         }
       ]
     },
@@ -82,52 +82,52 @@
           "value": "manual_investigation",
           "expanded": "Information gathered by an analyst/incident responder/forensic expert/etc.",
           "colour": "#29775d",
-          "uuid": "4b737f1c-b732-5d8f-ab93-6a3f3011c6c0"
+          "uuid": "c0f0c802-884d-5be9-b2a9-2bd430bcf093"
         },
         {
           "value": "honeypot",
           "expanded": "Information coming out of honeypots.",
           "colour": "#2f8a6c",
-          "uuid": "998710b4-4385-5f95-93d3-86e8aec6a1ad"
+          "uuid": "770abfc5-c68b-5e33-971b-35c4829f6c9f"
         },
         {
           "value": "sandbox",
           "expanded": "Information coming out of sandboxes.",
           "colour": "#369d7b",
-          "uuid": "4e94366d-86db-5598-8187-2ee0098a0363"
+          "uuid": "81cc4aaf-0ee2-5fcf-9c47-a10c4bbd9f36"
         },
         {
           "value": "email",
           "expanded": "Information coming out of email infrastructure.",
           "colour": "#3db08a",
-          "uuid": "0b08d626-a7fb-5de4-8335-f0dec2ec851c"
+          "uuid": "190671c4-5625-5c20-bd7c-47c68f4f2d8f"
         },
         {
           "value": "3rd-party",
           "expanded": "Information from outside the company.",
           "colour": "#46c098",
-          "uuid": "d4fd3c5a-6b36-5b60-9037-d0110ed0014e"
+          "uuid": "cd5ced8e-8670-5ebd-aaf3-7525374418d2"
         },
         {
           "value": "report",
           "expanded": "Information coming from a report.",
           "colour": "#22644e",
-          "uuid": "4dc27098-1f39-5f58-9f07-9778d566a7c4"
+          "uuid": "74449244-655d-56de-8bd3-7561668d1f7f"
         },
         {
           "value": "other",
           "expanded": "If none of the other origins applies.",
           "colour": "#59c6a2",
-          "uuid": "402cfa85-ca48-52db-bc9d-84eeaeceb8a7"
+          "uuid": "a16f25d0-f96a-57c2-aeb3-8f84a8624415"
         },
         {
           "value": "unknown",
           "expanded": "Origin of the data unknown.",
           "colour": "#6ccdad",
-          "uuid": "630dc016-3484-51a4-a646-85f9f38bba96"
+          "uuid": "3c612a76-fb96-5f18-8f11-20345f728055"
         }
       ]
     }
   ],
-  "uuid": "1d0270fd-4fbe-51a3-bfda-f357182d1db8"
+  "uuid": "7f2de2a2-fa82-5916-a5f7-7f062f37e6b5"
 }

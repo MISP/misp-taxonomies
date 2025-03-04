@@ -7,22 +7,22 @@
     {
       "value": "sinkholed",
       "expanded": "Sinkhole Status",
-      "uuid": "e2cf1a1a-74f7-5a00-87c4-206e9c392f31"
+      "uuid": "ffd4f0db-2eab-5d4a-bee8-11eb17728844"
     },
     {
       "value": "ever-compromised",
       "expanded": "Ever Compromised?",
-      "uuid": "08b459be-1d3b-5696-b193-bb292d28d035"
+      "uuid": "5d41b535-d95f-50de-9f58-d9d8a8bfc830"
     },
     {
       "value": "dynamic-dns",
       "expanded": "Dynamic DNS",
-      "uuid": "a94a6e40-4d4d-549e-ba9a-05be1ae6d934"
+      "uuid": "8aeed95c-9932-5491-86a1-3892783e5c99"
     },
     {
       "value": "class",
       "expanded": "Classification",
-      "uuid": "e3728c59-2ecb-52c4-b0ef-bb60a64b4dfd"
+      "uuid": "00c29377-aa68-5870-81c0-a07ce9d68894"
     }
   ],
   "values": [
@@ -32,12 +32,12 @@
         {
           "value": "yes",
           "expanded": "Yes",
-          "uuid": "fd267c94-fcaa-5af6-87f5-447d8bf24ec4"
+          "uuid": "edd57816-7f7c-5645-baae-5357f40b2b1a"
         },
         {
           "value": "no",
           "expanded": "No",
-          "uuid": "b5d84204-14ca-5951-a9f9-cac673e53081"
+          "uuid": "e3530996-fdc1-522c-aa65-5a0db8386aff"
         }
       ]
     },
@@ -47,12 +47,12 @@
         {
           "value": "yes",
           "expanded": "Yes",
-          "uuid": "54135caf-a085-5190-b271-078a4cc90821"
+          "uuid": "b0fed906-cc14-5ce3-9bed-18e206998e45"
         },
         {
           "value": "no",
           "expanded": "No",
-          "uuid": "5e95ed32-f906-5b66-8acc-8a903b1f0d20"
+          "uuid": "887fc92b-aaa0-59ed-b25e-376441e2bf45"
         }
       ]
     },
@@ -62,12 +62,12 @@
         {
           "value": "yes",
           "expanded": "Yes",
-          "uuid": "afb7d8e8-b139-556f-b95f-8cfa99336d69"
+          "uuid": "84de6852-d240-584c-996b-1fc3b2e53d01"
         },
         {
           "value": "no",
           "expanded": "No",
-          "uuid": "04faffc8-59e4-5249-b241-dd0cb7f6948b"
+          "uuid": "b357c449-529e-5332-b0b4-3cc15e0ccc89"
         }
       ]
     },
@@ -77,25 +77,25 @@
         {
           "value": "malicious",
           "expanded": "Malicious",
-          "uuid": "43494f20-2450-5f76-b2c8-5b8395ad5fa0"
+          "uuid": "0c5949e7-5438-5a91-9d1e-4b0b58942623"
         },
         {
           "value": "suspicious",
           "expanded": "Suspicious",
-          "uuid": "2249c05c-41a7-5041-8d52-e25e0930b73f"
+          "uuid": "5102be59-b299-5c23-81a1-9060ffc56374"
         },
         {
           "value": "non-malicious",
           "expanded": "Non Malicious",
-          "uuid": "2f54dc64-8312-5f38-8864-a6269c741936"
+          "uuid": "d7d9c528-0398-5e69-b347-79f92fca96fa"
         },
         {
           "value": "unknown",
           "expanded": "Unknown",
-          "uuid": "f9ae81d4-11bd-51a9-8869-c9b25eec5c6b"
+          "uuid": "5b318fc9-cf70-5ba0-834b-bbb185a6d55b"
         }
       ]
     }
   ],
-  "uuid": "780b3bc3-67fc-5a96-92ba-77caf76955e5"
+  "uuid": "57dae4d0-8e88-5a55-9bee-674348826af9"
 }

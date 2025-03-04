@@ -7,7 +7,7 @@
     {
       "value": "type",
       "expanded": "Binary Type",
-      "uuid": "8d48111d-52b8-5175-83fd-88a9a4849c08"
+      "uuid": "c92eb9b4-5882-5094-a25b-bad90845dcff"
     }
   ],
   "values": [
@@ -17,20 +17,20 @@
         {
           "value": "good",
           "expanded": "Known Good/Safe",
-          "uuid": "9a963d8b-0351-52ea-b5c2-b6541d2d7d0c"
+          "uuid": "fbba2b4b-5417-5311-b740-db5310205adc"
         },
         {
           "value": "malicious",
           "expanded": "Known Bad/Malicious",
-          "uuid": "195515c7-2fa2-5034-a2bb-472f750eba87"
+          "uuid": "ec9dbf56-5273-55c9-8739-875ff0f96e7c"
         },
         {
           "value": "unknown",
           "expanded": "Not yet known",
-          "uuid": "feb75d50-dd47-509f-943b-c41ed79a4974"
+          "uuid": "66dc5129-790c-52f4-b4c6-7d01122674ba"
         }
       ]
     }
   ],
-  "uuid": "bc59c383-dcbb-582d-ad96-f3071ea99dc4"
+  "uuid": "38ee9d7b-844a-5591-b56b-8780c0ae8be0"
 }

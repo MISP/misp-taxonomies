@@ -6,12 +6,12 @@
     {
       "value": "Einstufung",
       "expanded": "Einstufung",
-      "uuid": "4fda0150-29ad-511e-aff0-84c5d7804174"
+      "uuid": "fbf62c4b-6d44-5af0-95a0-a69c11106ff6"
     },
     {
       "value": "Schutzwort",
       "expanded": "Schutzwort",
-      "uuid": "9a905413-82d6-53ba-bcaa-75b29448503d"
+      "uuid": "9c2c13ec-786f-5194-9062-c96e3098900f"
     }
   ],
   "values": [
@@ -22,25 +22,25 @@
           "value": "STRENG GEHEIM",
           "expanded": "STRENG GEHEIM",
           "description": "Kenntnisnahme durch Unbefugte kann den Bestand oder lebenswichtige Interessen der Bundesrepublik Deutschland oder eines ihrer Länder gefährden.",
-          "uuid": "9b6c78c8-ec6b-5e38-bab1-2a5f8912959f"
+          "uuid": "7faaffaa-1c12-5315-ab17-35fe212ca3a3"
         },
         {
           "value": "GEHEIM",
           "expanded": "GEHEIM",
           "description": "Kenntnisnahme durch Unbefugte kann die Sicherheit der Bundesrepublik Deutschland oder eines ihrer Länder gefährden oder ihren Interessen schweren Schaden zufügen.",
-          "uuid": "46c7ce31-ddae-5368-a93e-7c05fc4d5b7e"
+          "uuid": "5d19a083-c391-5c08-b244-8616843b4a2d"
         },
         {
           "value": "VS-VERTRAULICH",
           "expanded": "VS-VERTRAULICH",
           "description": "Kenntnisnahme durch Unbefugte kann für die Interessen der Bundesrepublik Deutschland oder eines ihrer Länder schädlich sein.",
-          "uuid": "b36a1c7e-5061-55a2-9382-cc964a943ddc"
+          "uuid": "7766ef14-bc66-5670-aa11-b780618d5d13"
         },
         {
           "value": "VS-NfD",
           "expanded": "VS-NUR FÜR DEN DIENSTGEBRAUCH",
           "description": "Kenntnisnahme durch Unbefugte kann für die Interessen der Bundesrepublik Deutschland oder eines ihrer Länder nachteilig sein.",
-          "uuid": "88d5af0b-9fd0-5f43-89e4-7063fc3302b3"
+          "uuid": "dc51073d-68bf-59ee-8be5-db0b4ccae3fd"
         }
       ]
     },
@@ -51,10 +51,10 @@
           "value": "Dummy",
           "expanded": "Dummy",
           "description": "Platzhalter.",
-          "uuid": "7a647da0-3fbd-5d6f-b269-fffb12bd786c"
+          "uuid": "d74e82ae-32fd-5f8d-82c0-d47e09a0a20b"
         }
       ]
     }
   ],
-  "uuid": "7bf1286d-cc0a-54d9-80f2-8d1bed0e061c"
+  "uuid": "199a6c57-375b-5740-9016-69494dc8964f"
 }

@@ -6,85 +6,85 @@
           "description": "Fraud committed by humans.",
           "expanded": "Fraud",
           "value": "fraud",
-          "uuid": "e03447d5-5f77-5d61-9bea-b0ac5c0235ac"
+          "uuid": "1646019b-2bc3-5f0e-bcf1-ad5ef86184d7"
         },
         {
           "description": "Fraud committed by employees or others that are in relation with entities, who have access to entities' information and IT assets.",
           "expanded": "Fraud committed by employees",
           "value": "fraud-by-employees",
-          "uuid": "9c1de5f5-dd72-5b06-afe3-31d0b886cce1"
+          "uuid": "384793c0-0721-5a17-b6e4-d1c4eef158c0"
         },
         {
           "description": "Intentional actions (non-fulfilment or defective fulfilment of personal duties) aimed to cause disruption or damage to IT assets.",
           "expanded": "Sabotage",
           "value": "sabotage",
-          "uuid": "d564256b-7acd-5b60-b362-2528bb32f3d5"
+          "uuid": "ef4e3f93-13b6-5849-98e6-5e315a4aca3f"
         },
         {
           "description": "Act of physically damaging IT assets.",
           "expanded": "Vandalism",
           "value": "vandalism",
-          "uuid": "d9d7494a-ccfb-5c3a-8530-85e130f514ec"
+          "uuid": "afe09cc9-1504-5995-b485-696e0ec6b8c3"
         },
         {
           "description": "Stealing information or IT assets. Robbery.",
           "expanded": "Theft (of devices, storage media and documents)",
           "value": "theft",
-          "uuid": "7296e5bb-22ea-5eea-a27b-fadc34e934f3"
+          "uuid": "08cb26f9-259e-56ee-9c51-774136cc8836"
         },
         {
           "description": "Taking away another person's property in the form of mobile devices, for example smartphones, tablets.",
           "expanded": "Theft of mobile devices (smartphones/ tablets)",
           "value": "theft-of-mobile-devices",
-          "uuid": "23da4d88-a10b-5ed1-85a8-d4d5cba57628"
+          "uuid": "a11e1c84-fdb4-527f-aca2-5925ebde6112"
         },
         {
           "description": "Taking away another person's hardware property (except mobile devices), which often contains business-sensitive data.",
           "expanded": "Theft of fixed hardware",
           "value": "theft-of-fixed-hardware",
-          "uuid": "4c0b754a-e6b5-59a5-9540-6a39b04153ee"
+          "uuid": "8f171c18-f888-504a-a41d-2ae1ab34100e"
         },
         {
           "description": "Stealing documents from private/company archives, often for the purpose of re-sale or to achieve personal benefits.",
           "expanded": "Theft of documents",
           "value": "theft-of-documents",
-          "uuid": "7fb2ff38-6b03-576b-a24a-73c426d30a6d"
+          "uuid": "6b060bf3-94d2-55ee-8964-1c7b22ad9dc4"
         },
         {
           "description": "Stealing media devices, on which copies of essential information are kept.",
           "expanded": "Theft of backups",
           "value": "theft-of-backups",
-          "uuid": "1f1670ed-abf4-581e-9117-39b7e29db8db"
+          "uuid": "ae05ec6a-d82a-5d08-b7d3-3339d82f0700"
         },
         {
           "description": "Sharing information with unauthorised entities. Loss of information confidentiality due to intentional human actions (e.g., information leak may occur due to loss of paper copies of confidential information).",
           "expanded": "Information leak /sharing",
           "value": "information-leak-or-unauthorised-sharing",
-          "uuid": "753a867b-d348-51ae-aa99-f70d82667179"
+          "uuid": "b8782d7c-9b17-5511-81fc-c5126b8490ea"
         },
         {
           "description": "Unapproved access to facility.",
           "expanded": "Unauthorized physical access / Unauthorised entry to premises",
           "value": "unauthorised-physical-access-or-unauthorised-entry-to-premises",
-          "uuid": "1cda6c27-0369-5f7f-8023-2da149e0ea0d"
+          "uuid": "1d699cf5-75b1-5f62-b0ce-c261cbfeb42c"
         },
         {
           "description": "Actions following acts of coercion, extortion or corruption.",
           "expanded": "Coercion, extortion or corruption",
           "value": "coercion-or-extortion-or-corruption",
-          "uuid": "7f0b6421-1a90-59a6-b89c-0f6ce1ca7b75"
+          "uuid": "ab3dbb56-fb17-59a5-8ce1-bb791758fce6"
         },
         {
           "description": "Threats of direct impact of warfare activities.",
           "expanded": "Damage from the warfare",
           "value": "damage-from-the-wafare",
-          "uuid": "b6f1483e-9d94-56b7-beaf-ac114c0e4285"
+          "uuid": "2cc65929-ae85-5d6c-bf41-348a3e352a2b"
         },
         {
           "description": "Threats from terrorists.",
           "expanded": "Terrorist attack",
           "value": "terrorist-attack",
-          "uuid": "8d9fbd6b-79ac-5b16-af68-34ab6a3cdf2a"
+          "uuid": "f9d1106c-16d7-50db-9b44-abb0428b92de"
         }
       ],
       "predicate": "physical-attack"
@@ -95,157 +95,157 @@
           "description": "Information leak / sharing caused by humans, due to their mistakes.",
           "expanded": "Information leak /sharing due to human error",
           "value": "information-leak-or-sharing-due-to-human-error",
-          "uuid": "edc59c14-c2a1-5b5f-b241-c8e87408a95f"
+          "uuid": "ff698b85-2937-5723-b75f-8abb07fd48c5"
         },
         {
           "value": "accidental-leaks-or-sharing-of-data-by-employees",
           "expanded": "Accidental leaks/sharing of data by employees",
           "description": "Unintentional distribution of private or sensitive data to an unauthorized entity by a staff member.",
-          "uuid": "06766d46-b9e3-56ca-8a88-3a6389078039"
+          "uuid": "4edb0e26-60e6-5cad-8553-e7484456a7c1"
         },
         {
           "value": "leaks-of-data-via-mobile-applications",
           "expanded": "Leaks of data via mobile applications",
           "description": "Threat of leaking private data (a result of using applications for mobile devices).",
-          "uuid": "f91d2b9e-a789-5147-b196-36a29ffdfc88"
+          "uuid": "9f734dfd-59ea-5c13-8b30-777d9f144fae"
         },
         {
           "value": "leaks-of-data-via-web-applications",
           "expanded": "Leaks of data via Web applications",
           "description": "Threat of leaking important information using web applications.",
-          "uuid": "2a3eb17c-6b74-5a22-bef3-3be4ca2088f4"
+          "uuid": "26c5aef7-b762-5f60-809d-05eb1990c275"
         },
         {
           "value": "leaks-of-information-transferred-by-network",
           "expanded": "Leaks of information transferred by network",
           "description": "Threat of eavesdropping of unsecured network traffic.",
-          "uuid": "4328739f-cb67-5a3b-86bc-7597258112f3"
+          "uuid": "b4db6322-ea4e-5a88-a849-b95eaf190dca"
         },
         {
           "value": "erroneous-use-or-administration-of-devices-and-systems",
           "expanded": "Erroneous use or administration of devices and systems",
           "description": "Information leak / sharing / damage caused by misuse of IT assets (lack of awareness of application features) or wrong / improper IT assets configuration or management.",
-          "uuid": "15a3c305-412e-55c4-b489-046f6d9b2834"
+          "uuid": "45e8668c-ee73-5fd2-9ed9-2b27fa0c3cc8"
         },
         {
           "value": "loss-of-information-due-to-maintenance-errors-or-operators-errors",
           "expanded": "Loss of information due to maintenance errors / operators' errors",
           "description": "Threat of loss of information by incorrectly performed maintenance of devices or systems or other operator activities.",
-          "uuid": "6980c70c-1a9d-5bc9-9857-8e9d908ee247"
+          "uuid": "3b995e62-0275-5c94-93e6-769e66760407"
         },
         {
           "value": "loss-of-information-due-to-configuration-or-installation error",
           "expanded": "Loss of information due to configuration/ installation error",
           "description": "Threat of loss of information due to errors in installation or system configuration.",
-          "uuid": "526d1cee-b43f-5fd6-97af-cb41c255b2f0"
+          "uuid": "62da2d17-2324-57e9-96ef-f84534da2f1a"
         },
         {
           "value": "increasing-recovery-time",
           "expanded": "Increasing recovery time",
           "description": "Threat of unavailability of information due to errors in the use of backup media and increasing information recovery time.",
-          "uuid": "6f824254-16ab-5bdb-b6b0-b30c6235a826"
+          "uuid": "309e4e1b-7dae-5535-b703-f57c43fa3df5"
         },
         {
           "value": "lost-of-information-due-to-user-errors",
           "expanded": "Loss of information due to user errors",
           "description": "Threat of unavailability of information or damage to IT assets caused by user errors (using IT infrastructure) or IT software recovery time.",
-          "uuid": "238c642c-c6cc-5481-a322-a4c09fc6ef2c"
+          "uuid": "fc4b22a2-4030-5f29-ab9b-6e614c3dfcb9"
         },
         {
           "value": "using-information-from-an-unreliable-source",
           "expanded": "Using information from an unreliable source",
           "description": "Bad decisions based on unreliable sources of information or unchecked information.",
-          "uuid": "4f00b97a-6653-56ac-8e17-93a80de0102a"
+          "uuid": "013ce5e2-a1cf-5c3c-a197-8f81810ed67a"
         },
         {
           "value": "unintentional-change-of-data-in-an-information-system",
           "expanded": "Unintentional change of data in an information system",
           "description": "Loss of information integrity due to human error (information system user mistake).",
-          "uuid": "f6e393a5-2e7e-5a8a-a641-a609ef706b7b"
+          "uuid": "c79f1aee-40e9-59b4-8fb6-91e9d5e1aa48"
         },
         {
           "value": "inadequate-design-and-planning-or-improper-adaptation",
           "expanded": "Inadequate design and planning or improper adaptation",
           "description": "Threats caused by improper IT assets or business processes design (inadequate specifications of IT products, inadequate usability, insecure interfaces, policy/procedure flows, design errors).",
-          "uuid": "979c41c7-17c4-53fd-be59-c4fbbec8651b"
+          "uuid": "62defb73-876b-515f-8b54-85bb2d8fc093"
         },
         {
           "value": "damage-caused-by-a-third-party",
           "expanded": "Damage caused by a third party",
           "description": "Threats of damage to IT assets caused by third party.",
-          "uuid": "8d805e64-1c2f-5d60-b5b6-fe95f8397180"
+          "uuid": "97c90678-90d5-599d-bca3-3a0bdae69e92"
         },
         {
           "value": "security-failure-caused-by-third-party",
           "expanded": "Security failure caused by third party",
           "description": "Threats of damage to IT assets caused by breach of security regulations by third party.",
-          "uuid": "3a5660ba-d0b3-5c4a-aa2b-3aac551d2f7e"
+          "uuid": "e7668f53-268a-5f44-bc3a-f4c27ade8cbd"
         },
         {
           "value": "damages-resulting-from-penetration-testing",
           "expanded": "Damages resulting from penetration testing",
           "description": "Threats to information systems caused by conducting IT penetration tests inappropriately.",
-          "uuid": "bfc59262-d16b-5ada-933f-8bdb2d77c46d"
+          "uuid": "3d5622ad-e1ff-5501-baa6-92cbddc17f12"
         },
         {
           "value": "loss-of-information-in-the-cloud",
           "expanded": "Loss of information in the cloud",
           "description": "Threats of losing information or data stored in the cloud.",
-          "uuid": "801d3c8b-68ce-5c97-ad23-b13c89ed14fa"
+          "uuid": "5663647f-1251-591d-9089-7c099f92811d"
         },
         {
           "value": "loss-of-(integrity-of)-sensitive-information",
           "expanded": "Loss of (integrity of) sensitive information",
           "description": "Threats of losing information or data, or changing information classified as sensitive.",
-          "uuid": "0142a9d9-7b31-5f85-9265-d20a186a364d"
+          "uuid": "2f8de96e-5527-5699-a13b-815b24488002"
         },
         {
           "value": "loss-of-integrity-of-certificates",
           "expanded": "Loss of integrity of certificates",
           "description": "Threat of losing integrity of certificates used for authorisation services",
-          "uuid": "bba72555-0cf4-5a03-b171-bcb1af907ccc"
+          "uuid": "77e82899-ab1c-5cec-9c57-1d1207a1d171"
         },
         {
           "value": "loss-of-devices-and-storage-media-and-documents",
           "expanded": "Loss of devices, storage media and documents",
           "description": "Threats of unavailability (losing) of IT assets and documents.",
-          "uuid": "1653594a-e732-5b30-b0c0-eb6447f2fbce"
+          "uuid": "9dae07f7-4ed4-5b10-b6bc-6c638169c357"
         },
         {
           "value": "loss-of-devices-or-mobile-devices",
           "expanded": "Loss of devices/ mobile devices",
           "description": "Threat of losing mobile devices.",
-          "uuid": "6a1e13f3-8786-5018-a016-cf567057265a"
+          "uuid": "23b72de0-f2dc-521f-a233-7518dc997218"
         },
         {
           "value": "loss-of-storage-media",
           "expanded": "Loss of storage media",
           "description": "Threat of losing data-storage media.",
-          "uuid": "63c086d0-519c-5ed9-af3d-4d163dae902b"
+          "uuid": "772a2671-9c32-5cc2-be43-6e1ed2181068"
         },
         {
           "value": "loss-of-documentation-of-IT-Infrastructure",
           "expanded": "Loss of documentation of IT Infrastructure",
           "description": "Threat of losing important documentation.",
-          "uuid": "5156d9a4-680e-57ba-8d6d-e42df909ed43"
+          "uuid": "267248fe-0ac0-5524-997e-fa5ffc29cc3b"
         },
         {
           "value": "destruction-of-records",
           "expanded": "Destruction of records",
           "description": "Threats of unavailability (destruction) of data and records (information) stored in devices and storage media.",
-          "uuid": "b319f75c-ff90-5194-89f7-e5e83f07ec44"
+          "uuid": "90c5e967-9615-5290-801a-29a3645e0fd5"
         },
         {
           "value": "infection-of-removable-media",
           "expanded": "Infection of removable media",
           "description": "Threat of loss of important data due to using removable media, web or mail infection.",
-          "uuid": "faa5ff6f-916f-5847-9389-31144a54811f"
+          "uuid": "0015a6a5-a805-5782-a268-e33f64029ec6"
         },
         {
           "value": "abuse-of-storage",
           "expanded": "Abuse of storage",
           "description": "Threat of loss of records by improper /unauthorised use of storage devices.",
-          "uuid": "b61f4856-e2de-57d1-9a12-763881182a33"
+          "uuid": "aedc3801-3f20-5a46-9297-aa8aa9d36823"
         }
       ],
       "predicate": "unintentional-damage"
@@ -257,73 +257,73 @@
           "value": "disaster",
           "expanded": "Disaster (natural earthquakes, floods, landslides, tsunamis, heavy rains, heavy snowfalls, heavy winds)",
           "description": "Large scale natural disasters.",
-          "uuid": "6fd23dca-204b-503b-90f7-fff3592f78d8"
+          "uuid": "2c79c836-8a33-53fe-b77e-169f6cd31077"
         },
         {
           "value": "fire",
           "expanded": "Fire",
           "description": "Threat of fire.",
-          "uuid": "7d5ecb99-b5f4-515d-9642-f272e82c4258"
+          "uuid": "3283b261-d875-580b-8891-db4ad7f39b4e"
         },
         {
           "value": "pollution-dust-corrosion",
           "expanded": "Pollution, dust, corrosion",
           "description": "Threat of disruption of work of IT systems (hardware) due to pollution, dust or corrosion (arising from the air).",
-          "uuid": "3ced6d61-d905-5cf1-89b9-9349d0b9e9b5"
+          "uuid": "0c33ab4c-1aa5-5cba-8c17-4a19ad8d1190"
         },
         {
           "value": "thunderstrike",
           "expanded": "Thunderstrike",
           "description": "Threat of damage to IT hardware caused by thunder strike (overvoltage).",
-          "uuid": "ecd40f15-1a20-5d6d-9408-02a6fdd35d11"
+          "uuid": "7ebc1176-4a86-5d48-86e0-ec9dd6576f6e"
         },
         {
           "value": "water",
           "expanded": "Water",
           "description": "Threat of damage to IT hardware caused by water.",
-          "uuid": "4e50dac3-3923-55e0-9b48-b9f4d41274b7"
+          "uuid": "0ea9820d-ac74-54ef-a0d1-2d459f506059"
         },
         {
           "value": "explosion",
           "expanded": "Explosion",
           "description": "Threat of damage to IT hardware caused by explosion.",
-          "uuid": "cba69c5f-701a-5357-883a-7692cf580ba6"
+          "uuid": "48441c54-1974-5f89-a672-db95df1a3d5a"
         },
         {
           "value": "dangerous-radiation-leak",
           "expanded": "Dangerous radiation leak",
           "description": "Threat of damage to IT hardware caused by radiation leak.",
-          "uuid": "7907d436-8385-5311-a48f-f0afe1e72ac7"
+          "uuid": "4113b064-43a7-55f6-9df9-ef23c84b6826"
         },
         {
           "value": "unfavourable-climatic-conditions",
           "expanded": "Unfavourable climatic conditions",
           "description": "Threat of disruption of work of IT systems due to climatic conditions that have a negative effect on hardware.",
-          "uuid": "41cd3c68-c63b-54b4-b7ac-d02c95d5eabf"
+          "uuid": "e295bcf6-8472-54f2-9957-b313940747e5"
         },
         {
           "value": "loss-of-data-or-accessibility-of-IT-infrastructure-as-a-result-of-heightened-humidity",
           "expanded": "Loss of data or accessibility of IT infrastructure as a result of heightened humidity",
           "description": "Threat of disruption of work of IT systems due to high humidity.",
-          "uuid": "15174d2f-270d-57af-9172-90dc665c3674"
+          "uuid": "7a74c905-dec9-51e1-b087-5b3762cc1051"
         },
         {
           "value": "lost-of-data-or-accessibility-of-IT-infrastructure-as-a-result-of-very-high-temperature",
           "expanded": "Lost of data or accessibility of IT infrastructure as a result of very high temperature",
           "description": "Threat of disruption of work of IT systems due to high or low temperature.",
-          "uuid": "1bc15751-c765-5601-9651-5e3a4bb0df43"
+          "uuid": "b6d09d30-4ab9-50a6-825d-47cfa480c23c"
         },
         {
           "value": "threats-from-space-or-electromagnetic-storm",
           "expanded": "Threats from space / Electromagnetic storm",
           "description": "Threats of the negative impact of solar radiation to satellites and radio wave communication systems - electromagnetic storm.",
-          "uuid": "ba542353-066d-5df7-bc6a-0cc5adfb0e11"
+          "uuid": "ca26098d-1a09-5fee-b7b0-8e3dfaea6119"
         },
         {
           "value": "wildlife",
           "expanded": "Wildlife",
           "description": "Threat of destruction of IT assets caused by animals: mice, rats, birds.",
-          "uuid": "d9f41095-d927-5b2d-8e12-dd3c7d6ed7b0"
+          "uuid": "d538e81d-462e-5c68-9036-ad8ad2165ff8"
         }
       ]
     },
@@ -334,85 +334,85 @@
           "value": "failure-of-devices-or-systems",
           "expanded": "Failure of devices or systems",
           "description": "Threat of failure of IT hardware and/or software assets or its parts.",
-          "uuid": "41403b31-1da6-5422-b243-b2f3e890099a"
+          "uuid": "f17683ed-0b70-553c-96e3-f8437f81f997"
         },
         {
           "value": "failure-of-data-media",
           "expanded": "Failure of data media",
           "description": "Threat of failure of data media.",
-          "uuid": "54f2fcf4-fcad-5f6f-a804-eafc770cf429"
+          "uuid": "e9d7cbf5-3f32-5ae5-94b6-dd5825712a00"
         },
         {
           "value": "hardware-failure",
           "expanded": "Hardware failure",
           "description": "Threat of failure of IT hardware.",
-          "uuid": "e4def2a9-9839-5c51-b4f8-06c911434b74"
+          "uuid": "26674126-7769-5f6a-8f61-cca068165390"
         },
         {
           "value": "failure-of-applications-and-services",
           "expanded": "Failure of applications and services",
           "description": "Threat of failure of software/applications or services.",
-          "uuid": "d1c857fe-99fb-511d-b26b-8a5f5c8f8c82"
+          "uuid": "dd28e7bd-9389-5cb7-b93a-928b9f3a75bb"
         },
         {
           "value": "failure-of-parts-of-devices-connectors-plug-ins",
           "expanded": "Failure of parts of devices (connectors, plug-ins)",
           "description": "Threat of failure of IT equipment or its part.",
-          "uuid": "4bbc9fdf-9bd1-52eb-9a31-f1eb564aa1ef"
+          "uuid": "f87bb6b3-56a0-52cd-b952-620ede4672a1"
         },
         {
           "value": "failure-or-disruption-of-communication-links-communication networks",
           "expanded": "Failure or disruption of communication links (communication networks)",
           "description": "Threat of failure or malfunction of communications links.",
-          "uuid": "9ca63acd-8a4a-5ead-8f56-700b6955491e"
+          "uuid": "e69ae6b5-659f-5dae-89b8-7e76cfb85ac8"
         },
         {
           "value": "failure-of-cable-networks",
           "expanded": "Failure of cable networks",
           "description": "Threat of failure of communications links due to problems with cable network.",
-          "uuid": "e3d0f17e-98ea-5f34-8192-239dbe8793ea"
+          "uuid": "33fff229-3c17-55ce-8e94-c3986e15244b"
         },
         {
           "value": "failure-of-wireless-networks",
           "expanded": "Failure of wireless networks",
           "description": "Threat of failure of communications links due to problems with wireless networks.",
-          "uuid": "49bbebad-ce2b-5f83-b7df-199497d0888a"
+          "uuid": "69fd3e72-0d99-5f92-aec3-12788402fa17"
         },
         {
           "value": "failure-of-mobile-networks",
           "expanded": "Failure of mobile networks",
           "description": "Threat of failure of communications links due to problems with mobile networks.",
-          "uuid": "c9743251-20cc-5d95-9eda-0641ada077ca"
+          "uuid": "d75c08e4-0c56-5c83-acc9-4f0d1e499940"
         },
         {
           "value": "failure-or-disruption-of-main-supply",
           "expanded": "Failure or disruption of main supply",
           "description": "Threat of failure or disruption of supply required for information systems.",
-          "uuid": "d81ad0b9-faf8-5658-b8e1-8e9873c750b1"
+          "uuid": "f4bc5408-0225-5b6f-a076-ea357924d26e"
         },
         {
           "value": "failure-or-disruption-of-power-supply",
           "expanded": "Failure or disruption of power supply",
           "description": "Threat of failure or malfunction of power supply.",
-          "uuid": "3b8e302f-8b92-5e3b-898d-d320ff0e0f92"
+          "uuid": "9a9c75c2-d35e-54fc-b5b2-a54e66a51a5b"
         },
         {
           "value": "failure-of-cooling-infrastructure",
           "expanded": "Failure of cooling infrastructure",
           "description": "Threat of failure of IT assets due to improper work of cooling infrastructure.",
-          "uuid": "1b66b128-bdad-5ae8-80c7-0f08936bb234"
+          "uuid": "67471552-a9e5-55c3-8ecd-b443c65bd43c"
         },
         {
           "value": "failure-or-disruption-of-service-providers-supply-chain",
           "expanded": "Failure or disruption of service providers (supply chain)",
           "description": "Threat of failure or disruption of third party services required for proper operation of information systems.",
-          "uuid": "e6081cf1-5e7c-5622-acb4-663d709e8a39"
+          "uuid": "ae299ddc-429d-52e9-b00b-7ff256faacee"
         },
         {
           "value": "malfunction-of-equipment-devices-or-systems",
           "expanded": "Malfunction of equipment (devices or systems)",
           "description": "Threat of malfunction of IT hardware and/or software assets or its parts (i.e. improper working parameters, jamming, rebooting).",
-          "uuid": "18b9126d-4738-5abd-85f1-3e7e60267201"
+          "uuid": "af6ffb83-eff0-53d2-8e7d-1c65972ccfec"
         }
       ]
     },
@@ -423,49 +423,49 @@
           "value": "absence-of-personnel",
           "expanded": "Absence of personnel",
           "description": "Unavailability of key personnel and their competences.",
-          "uuid": "257c448f-ab1c-5f9a-b644-dbc9dba9337a"
+          "uuid": "50c2cf23-2610-5d3d-a659-0fd3c6f21cd3"
         },
         {
           "value": "strike",
           "expanded": "Strike",
           "description": "Unavailability of staff due to a strike (large scale absence of personnel).",
-          "uuid": "210786ab-50c7-5325-8628-d85e997bd1d1"
+          "uuid": "1654a94e-ea2f-5f78-b772-959ac920beff"
         },
         {
           "value": "loss-of-support-services",
           "expanded": "Loss of support services",
           "description": "Unavailability of support services required for proper operation of the information system.",
-          "uuid": "da46c3bb-e948-528d-8db1-d34b86625f2e"
+          "uuid": "1291af91-105f-5e41-9fa9-da2a7a3ee087"
         },
         {
           "value": "internet-outage",
           "expanded": "Internet outage",
           "description": "Unavailability of the Internet connection.",
-          "uuid": "f4472aa6-387c-5626-9ae2-83e37a23ff1f"
+          "uuid": "7e3c6575-7027-5149-b5d3-53778e033e69"
         },
         {
           "value": "network-outage",
           "expanded": "Network outage",
           "description": "Unavailability of communication links.",
-          "uuid": "c2a46eef-b111-5137-80aa-7eded522a0ba"
+          "uuid": "124add0a-3f2b-54bd-86bc-05f23f230432"
         },
         {
           "value": "outage-of-cable-networks",
           "expanded": "Outage of cable networks",
           "description": "Threat of lack of communications links due to problems with cable network.",
-          "uuid": "b59d92fd-dc1c-5ecd-8c2d-84d5edb3f6de"
+          "uuid": "61e39be3-11cc-5218-ad78-25fbf947c76d"
         },
         {
           "value": "Outage-of-short-range-wireless-networks",
           "expanded": "Outage of short-range wireless networks",
           "description": "Threat of lack of communications links due to problems with wireless networks (802.11 networks, Bluetooth, NFC etc.).",
-          "uuid": "95793376-af11-55c5-92bd-f76b1b28b56f"
+          "uuid": "0248ce03-6142-5e1b-b72e-d1d4302d49a2"
         },
         {
           "value": "outages-of-long-range-wireless-networks",
           "expanded": "Outages of long-range wireless networks",
           "description": "Threat of lack of communications links due to problems with mobile networks like cellular network (3G, LTE, GSM etc.) or satellite links.",
-          "uuid": "55f8077b-c5aa-5a05-b0b1-e674af9fae25"
+          "uuid": "ac8a169f-216b-5c8d-a129-51180c828078"
         }
       ]
     },
@@ -476,61 +476,61 @@
           "value": "war-driving",
           "expanded": "War driving",
           "description": "Threat of locating and possibly exploiting connection to the wireless network.",
-          "uuid": "f49df431-f1e0-500e-b455-a1eb10ec6e3a"
+          "uuid": "97ef2274-6754-5a87-9206-1ed4354228e6"
         },
         {
           "value": "intercepting-compromising-emissions",
           "expanded": "Intercepting compromising emissions",
           "description": "Threat of disclosure of transmitted information using interception and analysis of compromising emission.",
-          "uuid": "5a934c28-3f59-5ca1-9eb4-7515bdcbfec4"
+          "uuid": "361b8cbd-255c-5b13-bafc-4cab416cfe59"
         },
         {
           "value": "interception-of-information",
           "expanded": "Interception of information",
           "description": "Threat of interception of information which is improperly secured in transmission or by improper actions of staff.",
-          "uuid": "230f6561-a8e2-596a-bc74-8a1e2c2d5bc4"
+          "uuid": "5775ad58-9f79-51eb-ba73-9def4d82063c"
         },
         {
           "value": "corporate-espionage",
           "expanded": "Corporate espionage",
           "description": "Threat of obtaining information secrets by dishonest means.",
-          "uuid": "ade6d2bd-67d6-584c-bb48-f12b6bae174c"
+          "uuid": "23c3b769-40d1-5878-ba8f-13127fa6db45"
         },
         {
           "value": "nation-state-espionage",
           "expanded": "Nation state espionage",
           "description": "Threats of stealing information by nation state espionage (e.g.  China based governmental espionage, NSA from USA).",
-          "uuid": "33e0327f-b898-5953-976c-faac88309268"
+          "uuid": "cacebabe-26f5-575f-88e0-6c573ecb63b0"
         },
         {
           "value": "information-leakage-due-to-unsecured-wi-fi-like-rogue-access-points",
           "expanded": "Information leakage due to unsecured Wi-Fi, rogue access points",
           "description": "Threat of obtaining important information by insecure network rogue access points etc.",
-          "uuid": "d873a033-7d55-5610-889b-2fc1e505ee13"
+          "uuid": "be12adb4-c03e-5ba2-b27a-946164f73014"
         },
         {
           "value": "interfering-radiation",
           "expanded": "Interfering radiation",
           "description": "Threat of failure of IT hardware or transmission connection due to electromagnetic induction or electromagnetic radiation emitted by an outside source.",
-          "uuid": "f36c7f76-9dec-5e17-8cbd-28571b2ef347"
+          "uuid": "c5d39981-e1ba-5e8b-b119-e4dbf633c09f"
         },
         {
           "value": "replay-of-messages",
           "expanded": "Replay of messages",
           "description": "Threat in which valid data transmission is maliciously or fraudulently repeated or delayed.",
-          "uuid": "4161fb43-08b1-5c70-9853-a90aa86abe9c"
+          "uuid": "bd41dad3-5a33-516f-9652-3054bce06dd6"
         },
         {
           "value": "network-reconnaissance-network-traffic-manipulation-and-information-gathering",
           "expanded": "Network Reconnaissance, Network traffic manipulation and Information gathering",
           "description": "Threat of identifying information about a network to find security weaknesses.",
-          "uuid": "9ac02a4c-1739-57d0-9bd7-fef4e5f09508"
+          "uuid": "521cf99c-e60f-5b4c-88d0-264db74b3891"
         },
         {
           "value": "man-in-the-middle-session-hijacking",
           "expanded": "Man in the middle/ Session hijacking",
           "description": "Threats that relay or alter communication between two parties.",
-          "uuid": "efde27cc-0caf-59b6-bb46-1b27bf1abfb4"
+          "uuid": "30633754-2079-587d-beb3-93caa8990f10"
         }
       ]
     },
@@ -541,43 +541,43 @@
           "value": "violation-of-rules-and-regulations-breach-of-legislation",
           "expanded": "Violation of rules and regulations / Breach of legislation",
           "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to violation of law or regulations.",
-          "uuid": "d3c2f2e2-e31e-53b7-925a-066a332d40a3"
+          "uuid": "45bf0b23-01c6-5f9d-b69e-2393d5c96f57"
         },
         {
           "value": "failure-to-meet-contractual-requirements",
           "expanded": "Failure to meet contractual requirements",
           "description": "Threat of financial penalty or loss of trust of customers and collaborators due to failure to meet contractual requirements.",
-          "uuid": "67588e0c-07a4-5388-9590-c82722f97539"
+          "uuid": "29f47fb9-3ee5-5e70-8d89-34cd9e1534d0"
         },
         {
           "value": "failure-to-meet-contractual-requirements-by-third-party",
           "expanded": "Failure to meet contractual requirements by third party",
           "description": "Threat of financial penalty or loss of trust of customers and collaborators due to a third party's failure to meet contractual requirements",
-          "uuid": "e1350f0c-ba56-5f22-bd15-033768e9f3b0"
+          "uuid": "9a17e520-c91b-5459-886d-fd7f2b36894d"
         },
         {
           "value": "unauthorized-use-of-IPR-protected-resources",
           "expanded": "Unauthorized use of IPR protected resources",
           "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to improper/illegal use of IPR protected material (IPR- Intellectual Property Rights.",
-          "uuid": "3c860ba8-3762-502b-bb5b-9a58ffb01809"
+          "uuid": "e231efe9-a9d1-5d3d-85cb-12200fc46d88"
         },
         {
           "value": "illegal-usage-of-file-sharing-services",
           "expanded": "Illegal usage of File Sharing services",
           "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to improper/illegal use of file sharing services.",
-          "uuid": "6ee50e68-639f-57ea-9a81-7cb1a5a8ece8"
+          "uuid": "a673a2ba-6021-506e-a2ae-dd9a9f7bbdda"
         },
         {
           "value": "abuse-of-personal-data",
           "expanded": "Abuse of personal data",
           "description": "Threat of illegal use of personal data.",
-          "uuid": "0834ab7b-05c6-530c-b3ed-248eed8e8f29"
+          "uuid": "f6b7d58c-9539-54ed-a2d5-b673f02805c6"
         },
         {
           "value": "judiciary-decisions-or-court-order",
           "expanded": "Judiciary decisions/court order",
           "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to judiciary decisions/court order.",
-          "uuid": "6c513ac6-4d9c-548f-b6f5-036a50ce3247"
+          "uuid": "709a203b-d58d-5934-a239-cd94b23c2441"
         }
       ]
     },
@@ -588,468 +588,468 @@
           "value": "identity-theft-identity-fraud-account)",
           "expanded": "Identity theft (Identity Fraud/ Account)",
           "description": "Threat of identity theft action.",
-          "uuid": "e1290880-8453-50c8-a4bc-92c711b09652"
+          "uuid": "cde54151-94ad-5b5d-af12-64aab953bf00"
         },
         {
           "value": "credentials-stealing-trojans",
           "expanded": "Credentials-stealing trojans",
           "description": "Threat of identity theft action by malware computer programs.",
-          "uuid": "e6403816-ca7a-5042-95e8-3913fa2769f7"
+          "uuid": "aa672b8e-5507-5b27-8611-3e17a8175187"
         },
         {
           "value": "receiving-unsolicited-e-mail",
           "expanded": "Receiving unsolicited E-mail",
           "description": "Threat of receiving unsolicited email which affects information security and efficiency.",
-          "uuid": "407d1ed9-4ad4-59d3-9a64-4dde7d62bc58"
+          "uuid": "f03cabad-4fd8-5c40-bbce-633d104f1524"
         },
         {
           "value": "spam",
           "expanded": "SPAM",
           "description": "Threat of receiving unsolicited, undesired, or illegal email messages.",
-          "uuid": "ab9eebf2-52b5-5372-9fab-e30067e049b6"
+          "uuid": "bfd01e9b-efac-5eec-bd8e-b4328159e4a0"
         },
         {
           "value": "unsolicited-infected-e-mails",
           "expanded": "Unsolicited infected e-mails",
           "description": "Threat emanating from unwanted emails that may contain infected attachments or links to malicious / infected web sites.",
-          "uuid": "f08f0ffd-78e1-5e09-ab9c-6a8a0343eddc"
+          "uuid": "8e63096a-c20f-5e54-b50a-a0e67351253a"
         },
         {
           "value": "denial-of-service",
           "expanded": "Denial of service",
           "description": "Threat of service unavailability due to massive requests for services.",
-          "uuid": "44eb63fc-bd06-5765-8140-0836cd3de928"
+          "uuid": "07ef1f6e-a288-5f5d-a177-e18bc00bf1f7"
         },
         {
           "value": "distributed-denial-of-network-service-network-layer-attack",
           "expanded": "Distributed denial of network service (DDoS) (network layer attack i.e. Protocol exploitation / Malformed packets / Flooding / Spoofing)",
           "description": "Threat of service unavailability due to a massive number of requests for access to network services from malicious clients.",
-          "uuid": "09f5d34e-e99c-55f2-8ac0-4e8b69c2e954"
+          "uuid": "a7338cb2-4f9e-5e0f-bd64-addbfe289fd9"
         },
         {
           "value": "distributed-denial-of-network-service-application-layer-attack",
           "expanded": "Distributed denial of application service (DDoS) (application layer attack i.e. Ping of Death / XDoS / WinNuke / HTTP Floods)",
           "description": "Threat of service unavailability due to massive requests sent by multiple malicious clients.",
-          "uuid": "b1f4ce8d-8fbb-5904-a029-575a5469b697"
+          "uuid": "f1a0811e-661e-56a7-92f6-4df04cf6bfad"
         },
         {
           "value": "distributed-denial-of-network-service-amplification-reflection-attack",
           "expanded": "Distributed DoS (DDoS) to both network and application services (amplification/reflection methods i.e. NTP/ DNS /.../ BitTorrent)",
           "description": "Threat of creating a massive number of requests, using multiplication/amplification methods.",
-          "uuid": "00151dc7-8a3f-51ba-9372-585ebce1d0f7"
+          "uuid": "ee3907f1-645d-57d6-9938-6e69055aad97"
         },
         {
           "value": "malicious-code-software-activity",
           "expanded": "Malicious code/ software/ activity",
-          "uuid": "2ec2737f-768a-543d-bab1-4aa9b9effd7b"
+          "uuid": "8a55e314-61e8-5a97-9643-005a92934662"
         },
         {
           "value": "search-engine-poisoning",
           "expanded": "Search Engine Poisoning",
           "description": "Threat of deliberate manipulation of search engine indexes.",
-          "uuid": "f4977875-aa55-5bf2-a3d0-081e0ab703e2"
+          "uuid": "72bee457-9fb5-5c65-a420-b7e945f3b4ec"
         },
         {
           "value": "exploitation-of-fake-trust-of-social-media",
           "expanded": "Exploitation of fake trust of social media",
           "description": "Threat of malicious activities making use of trusted social media.",
-          "uuid": "aa2246e9-2e0b-5bbe-a713-ab06f45c9d9d"
+          "uuid": "174ff2c2-d6d8-53f8-98af-57f7bc1b5cf8"
         },
         {
           "value": "worms-trojans",
           "expanded": "Worms/ Trojans",
           "description": "Threat of malware computer programs (trojans/worms).",
-          "uuid": "afe93211-a154-5b4c-b726-3360d3de9890"
+          "uuid": "5f0e9cf3-c83c-5ac4-a56c-2556852887e5"
         },
         {
           "value": "rootkits",
           "expanded": "Rootkits",
           "description": "Threat of stealthy types of malware software.",
-          "uuid": "9ce79695-0801-59f6-959d-04395e819242"
+          "uuid": "2e1f62ca-bfa3-5fb1-8c4a-a95fd3bba6a3"
         },
         {
           "value": "mobile-malware",
           "expanded": "Mobile malware",
           "description": "Threat of mobile malware programs.",
-          "uuid": "72acf859-1514-5185-9c88-d3cea7cb51d7"
+          "uuid": "7fec639f-672c-5f7d-9e9f-d46d2ef3100f"
         },
         {
           "value": "infected-trusted-mobile-apps",
           "expanded": "Infected trusted mobile apps",
           "description": "Threat of using mobile malware software that is recognised as trusted one.",
-          "uuid": "a0cb1f41-2d0e-560d-bbdd-b2c56901ccca"
+          "uuid": "80f6ac72-1f95-50fa-bc51-3e3ba5a418a6"
         },
         {
           "value": "elevation-of-privileges",
           "expanded": "Elevation of privileges",
           "description": "Threat of exploiting bugs, design flaws or configuration oversights in an operating system or software application to gain elevated access to resources.",
-          "uuid": "965f1c45-043f-551d-a940-4d19efd51b4e"
+          "uuid": "9d42a018-ba77-5894-b6c2-c5070f9c8dad"
         },
         {
           "value": "web-application-attacks-injection-attacks-code-injection-SQL-XSS",
           "expanded": "Web application attacks / injection attacks (Code injection: SQL, XSS)",
           "description": "Threat of utilizing custom web applications embedded within social media sites, which can lead to installation of malicious code onto computers to be used to gain unauthorized access.",
-          "uuid": "43e89d01-f99d-5f8b-b78c-330b7805f08e"
+          "uuid": "4f2c309b-a43e-5b36-ae4d-70f4056ded60"
         },
         {
           "value": "spyware-or-deceptive-adware",
           "expanded": "Spyware or deceptive adware",
           "description": "Threat of using software that aims to gather information about a person or organization without their knowledge.",
-          "uuid": "f7394352-97d9-5b8e-b7e6-410c7bffa646"
+          "uuid": "7612d4b0-85eb-5a0e-94cd-77d1e738427c"
         },
         {
           "value": "viruses",
           "expanded": "Viruses",
           "description": "Threat of infection by viruses.",
-          "uuid": "1f3a8ad4-de3c-5374-a8e0-c949649fc6a2"
+          "uuid": "9e1ec80d-bf57-5cc2-bbe8-ee7138368f9a"
         },
         {
           "value": "rogue-security-software-rogueware-scareware",
           "expanded": "Rogue security software/ Rogueware / Scareware",
           "description": "Threat of internet fraud or malicious software that mislead users into believing there is a virus on their computer, and manipulates them to pay money for fake removal tool.",
-          "uuid": "95897672-7839-5cac-b9fd-81005b6e7d25"
+          "uuid": "4f43ca04-dae6-5006-8153-6d5f2b056c3e"
         },
         {
           "value": "ransomware",
           "expanded": "Ransomware",
           "description": "Threat of infection of computer system or device by malware that restricts access to it and demands that the user pay a ransom to remove the restriction.",
-          "uuid": "d000db72-9d98-5dec-a7e1-c580a88723b6"
+          "uuid": "a77cc27a-693d-5052-bdf7-4e633dcf1e26"
         },
         {
           "value": "exploits-exploit-kits",
           "expanded": "Exploits/Exploit Kits",
           "description": "Threat to IT assets due to the use of web available exploits or exploits software.",
-          "uuid": "40131dd6-2d46-51c4-8944-be0e56ef4de6"
+          "uuid": "1f8fdad7-aba3-5a1b-b850-dc6621b332ad"
         },
         {
           "value": "social-engineering",
           "expanded": "Social Engineering",
           "description": "Threat of social engineering type attacks (target: manipulation of personnel behaviour).",
-          "uuid": "6f05753a-1149-5acb-8739-5d27dba492d7"
+          "uuid": "72527367-2ddc-55de-9d2f-73449989536d"
         },
         {
           "value": "phishing-attacks",
           "expanded": "Phishing attacks",
           "description": "Threat of an email fraud method in which the perpetrator sends out legitimate-looking email in an attempt to gather personal and financial information from recipients. Typically, the messages appear to come from well-known and trustworthy websites.",
-          "uuid": "4e6e1426-89a7-545c-a152-f1978508a36d"
+          "uuid": "e237d897-489c-5df9-a406-60dbddda635f"
         },
         {
           "value": "spear-phishing-attacks",
           "expanded": "Spear phishing attacks",
           "description": "Spear-phishing is a targeted e-mail message that has been crafted to create fake trust and thus lure the victim to unveil some business or personal secrets that can be abused by the adversary.",
-          "uuid": "8ea4ec8d-2508-50e0-b0ec-c95c1a886c08"
+          "uuid": "c6ea0a5c-753f-5f81-998c-411deb7c4057"
         },
         {
           "value": "abuse-of-information-leakage",
           "expanded": "Abuse of Information Leakage",
           "description": "Threat of leaking important information.",
-          "uuid": "ef08e779-c587-533e-b6ae-8d131121a58d"
+          "uuid": "7e26cd4a-14b2-5809-977a-5802b9330ab5"
         },
         {
           "value": "leakage-affecting-mobile-privacy-and-mobile-applications",
           "expanded": "Leakage affecting mobile privacy and mobile applications",
           "description": "Threat of leaking important information due to using malware mobile applications.",
-          "uuid": "37a10d0e-97f2-55e6-a7dc-3e41c7a60bd8"
+          "uuid": "cf6d16b4-8302-5749-8516-cb456646b134"
         },
         {
           "value": "leakage-affecting-web-privacy-and-web-applications",
           "expanded": "Leakage affecting web privacy and web applications",
           "description": "Threat of leakage important information due to using malware web applications.",
-          "uuid": "d7f48ffb-6922-5f60-a909-aced5f9c08b8"
+          "uuid": "a3222880-0113-5fcd-8c4e-6071c1793ca5"
         },
         {
           "value": "leakage-affecting-network-traffic",
           "expanded": "Leakage affecting network traffic",
           "description": "Threat of leaking important information in network traffic.",
-          "uuid": "0f8b4e8a-8d3c-5132-98bc-63b99d89f482"
+          "uuid": "05ac2bb7-2a40-5211-b6c1-48a72afcf22f"
         },
         {
           "value": "leakage-affecting-cloud-computing",
           "expanded": "Leakage affecting cloud computing",
           "description": "Threat of leaking important information in cloud computing.",
-          "uuid": "bd3c72ed-3cbf-5a16-9cf1-1bcf5b89a22f"
+          "uuid": "66de9946-598c-5585-ae09-5a9e1b042fbc"
         },
         {
           "value": "generation-and-use-of-rogue-certificates",
           "expanded": "Generation and use of rogue certificates",
           "description": "Threat of use of rogue certificates.",
-          "uuid": "c216eb46-0e07-54d5-b853-4e7f821c5fd5"
+          "uuid": "0058f6ce-6463-538f-a462-b2765e011271"
         },
         {
           "value": "loss-of-integrity-of-sensitive-information",
           "expanded": "Loss of (integrity of) sensitive information",
           "description": "Threat of loss of sensitive information due to loss of integrity.",
-          "uuid": "0f452042-cc12-50ae-9898-6a04e4be6016"
+          "uuid": "ba3ba784-673e-5ff3-8061-9207380dea1d"
         },
         {
           "value": "man-in-the-middle-session-hijacking",
           "expanded": "Man in the middle / Session hijacking",
           "description": "Threat of attack consisting in the exploitation of the web session control mechanism, which is normally managed by a session token.",
-          "uuid": "45aa0d20-abdf-5f76-902b-9cdf2340b4b0"
+          "uuid": "cdf6e8e8-0a94-56f9-9392-e197bebc1b90"
         },
         {
           "value": "social-engineering-via-signed-malware",
           "expanded": "Social Engineering / signed malware",
           "description": "Threat of install fake trust signed software (malware) e.g. fake OS updates.",
-          "uuid": "878d93d0-4d1b-5c37-b082-8fc1d6e871f2"
+          "uuid": "ce2b5aa6-cce7-5cc0-a2f4-33cf71cf2f14"
         },
         {
           "value": "fake-SSL-certificates",
           "expanded": "Fake SSL certificates",
           "description": "Threat of attack due to malware application signed by a certificate that is typically inherently trusted by an endpoint.",
-          "uuid": "f1e4747e-5ab8-5d37-aaa4-192f6eefe328"
+          "uuid": "a346f0c1-7980-5d46-a4b3-3470e9b4a31a"
         },
         {
           "value": "manipulation-of-hardware-and-software",
           "expanded": "Manipulation of hardware and software",
           "description": "Threat of unauthorised manipulation of hardware and software.",
-          "uuid": "19c6a558-73f0-50f6-a94d-f1ef7bffd2dc"
+          "uuid": "93290dbb-0bdd-533a-89b6-a1f8781099cb"
         },
         {
           "value": "anonymous-proxies",
           "expanded": "Anonymous proxies",
           "description": "Threat of unauthorised manipulation by anonymous proxies.",
-          "uuid": "47cc573d-ec45-5f05-a7be-8459a6fc621d"
+          "uuid": "c773a8fd-aa1c-5444-9a55-36f3ce340a54"
         },
         {
           "value": "abuse-of-computing-power-of-cloud-to-launch-attacks-cybercrime-as-a-service)",
           "expanded": "Abuse of computing power of cloud to launch attacks (cybercrime as a service)",
           "description": "Threat of using large computing powers to generate attacks on demand.",
-          "uuid": "8ee02ffe-df5c-52ef-accd-f9609c5cffee"
+          "uuid": "a9925152-a97e-5997-9926-86fd5ca1d25a"
         },
         {
           "value": "abuse-of-vulnerabilities-0-day-vulnerabilities",
           "expanded": "Abuse of vulnerabilities, 0-day vulnerabilities",
           "description": "Threat of attacks using 0-day or known IT assets vulnerabilities.",
-          "uuid": "cb7af50a-ad0c-5565-bfa6-517183dc05ff"
+          "uuid": "18f9b162-16bf-532f-8629-6433e469e046"
         },
         {
           "value": "access-of-web-sites-through-chains-of-HTTP-Proxies-Obfuscation",
           "expanded": "Access of web sites through chains of HTTP Proxies (Obfuscation)",
           "description": "Threat of bypassing the security mechanism using HTTP proxies (bypassing the website blacklist).",
-          "uuid": "b7720575-66bf-5dec-886e-95adc8cf3240"
+          "uuid": "6c02e10c-f59b-5aa4-aa1f-7d79b46ce29a"
         },
         {
           "value": "access-to-device-software",
           "expanded": "Access to device software",
           "description": "Threat of unauthorised manipulation by access to device software.",
-          "uuid": "d4f29a89-0c7b-5554-95b1-3d9138bacc49"
+          "uuid": "a7c717ff-8909-53f8-a9c5-d6440c9ffbf3"
         },
         {
           "value": "alternation-of-software",
           "expanded": "Alternation of software",
           "description": "Threat of unauthorized modifications to code or data, attacking its integrity.",
-          "uuid": "d15fcb93-754c-5c6c-90ee-8d01d5542c32"
+          "uuid": "e2683c48-c8f3-5cf2-baa2-69efdff1b90d"
         },
         {
           "value": "rogue-hardware",
           "expanded": "Rogue hardware",
           "description": "Threat of manipulation due to unauthorized access to hardware.",
-          "uuid": "713987f0-0fd0-5d4a-a96e-8d7ff68a45a1"
+          "uuid": "368b8fbf-30c2-5246-bb73-dd8493463373"
         },
         {
           "value": "manipulation-of-information",
           "expanded": "Manipulation of information",
           "description": "Threat of intentional data manipulation to mislead information systems or somebody or to cover other nefarious activities (loss of integrity of information).",
-          "uuid": "5bdb540f-e7a8-547f-88ab-240240d4fd8c"
+          "uuid": "52416aab-a625-529e-b357-c393c24c041f"
         },
         {
           "value": "repudiation-of-actions",
           "expanded": "Repudiation of actions",
           "description": "Threat of intentional data manipulation to repudiate action.",
-          "uuid": "07468613-597b-564c-8d1f-633ecfb3baf8"
+          "uuid": "e0ee8bf5-0f76-5536-ae80-5c17b033f3cd"
         },
         {
           "value": "address-space-hijacking-IP-prefixes",
           "expanded": "Address space hijacking (IP prefixes)",
           "description": "Threat of the illegitimate takeover of groups of IP addresses.",
-          "uuid": "ae11a5b3-bac7-520f-947d-4305191da636"
+          "uuid": "c0a482b3-a9a9-5f08-9962-ba21df94659c"
         },
         {
           "value": "routing-table-manipulation",
           "expanded": "Routing table manipulation",
           "description": "Threat of route packets of network to IP addresses other than that was intended via sender by unauthorised manipulation of routing table.",
-          "uuid": "e57ed292-43cc-5fd3-8db1-dace0752c39a"
+          "uuid": "1dac0494-424c-554b-9eea-b6c4c7653804"
         },
         {
           "value": "DNS-poisoning-or-DNS-spoofing-or-DNS-Manipulations",
           "expanded": "DNS poisoning / DNS spoofing / DNS Manipulations",
           "description": "Threat of falsification of DNS information.",
-          "uuid": "ac63a055-f104-5004-aa90-aa8f6f935522"
+          "uuid": "6e8bf864-e079-5b2c-8ac5-c4b551fd9d60"
         },
         {
           "value": "falsification-of-record",
           "expanded": "Falsification of record",
           "description": "Threat of intentional data manipulation to falsify records.",
-          "uuid": "b1f5c6b1-528d-5107-b7a8-c82ec1038b3a"
+          "uuid": "2db7dac8-3ee6-5716-b3f6-7e10490ce173"
         },
         {
           "value": "autonomous-system-hijacking",
           "expanded": "Autonomous System hijacking",
           "description": "Threat of overtaking by the attacker the ownership of a whole autonomous system and its prefixes despite origin validation.",
-          "uuid": "d4f93965-1a26-5932-b8cc-a51ab5ceafc0"
+          "uuid": "3e6b10b7-658c-5b56-bf32-793d77a82a2c"
         },
         {
           "value": "autonomous-system-manipulation",
           "expanded": "Autonomous System manipulation",
           "description": "Threat of manipulation by the attacker of a whole autonomous system in order to perform malicious actions.",
-          "uuid": "0b338bb5-910b-5151-9eaa-01f5a53e2d72"
+          "uuid": "874749bb-9c8b-5956-bf47-d972fe39955d"
         },
         {
           "value": "falsification-of-configurations",
           "expanded": "Falsification of configurations",
           "description": "Threat of intentional manipulation due to falsification of configurations.",
-          "uuid": "9d53239a-f99f-540a-8193-d96984f85869"
+          "uuid": "b951df64-fed8-592a-884f-e50a7612f14c"
         },
         {
           "value": "misuse-of-audit-tools",
           "expanded": "Misuse of audit tools",
           "description": "Threat of nefarious actions performed using audit tools (discovery of security weaknesses in information systems)",
-          "uuid": "f21cd435-58a3-5cae-be7b-492866360959"
+          "uuid": "515f2f5b-04cd-5c1a-b1d3-3f0b7de6d36e"
         },
         {
           "value": "misuse-of-information-or-information systems-including-mobile-apps",
           "expanded": "Misuse of information/ information systems (including mobile apps)",
           "description": "Threat of nefarious action due to misuse of information / information systems.",
-          "uuid": "36576703-5c6d-5762-af46-ade70916e485"
+          "uuid": "a58f4f56-1dd6-52b8-8466-2fad37ce4e4e"
         },
         {
           "value": "unauthorized-activities",
           "expanded": "Unauthorized activities",
           "description": "Threat of nefarious action due to unauthorised activities.",
-          "uuid": "9f6b3ac9-af56-5266-ad67-b8401afdeb42"
+          "uuid": "e1768bd0-a3e8-5e95-86ae-1836418a7870"
         },
         {
           "value": "Unauthorised-use-or-administration-of-devices-and-systems",
           "expanded": "Unauthorised use or administration of devices and systems",
           "description": "Threat of nefarious action due to unauthorised use of devices and systems.",
-          "uuid": "48c71108-2ab9-50a1-89f4-e8278e3aef9f"
+          "uuid": "4b5542d5-eaef-590f-8165-5c2c2776643e"
         },
         {
           "value": "unauthorised-use-of-software",
           "expanded": "Unauthorised use of software",
           "description": "Threat of nefarious action due to unauthorised use of software.",
-          "uuid": "b98ccea7-feae-59d3-91b4-5e1180fcad6b"
+          "uuid": "8b028107-bacc-5848-a83c-f880222b53f6"
         },
         {
           "value": "unauthorized-access-to-the-information-systems-or-networks-like-IMPI-Protocol-DNS-Registrar-Hijacking)",
           "expanded": "Unauthorized access to the information systems-or-networks (IMPI Protocol / DNS Registrar Hijacking)",
           "description": "Threat of unauthorised access to the information systems / network.",
-          "uuid": "1803cacd-fb2b-525c-9e41-c8ab0808d622"
+          "uuid": "395aecdc-3af5-5607-a16b-62a993852ba5"
         },
         {
           "value": "network-intrusion",
           "expanded": "Network Intrusion",
           "description": "Threat of unauthorised access to network.",
-          "uuid": "8bee940c-399d-5b49-bbaf-41d333a51792"
+          "uuid": "21ee1c1a-5c62-5aac-a2bc-ee4c88c1d355"
         },
         {
           "value": "unauthorized-changes-of-records",
           "expanded": "Unauthorized changes of records",
           "description": "Threat of unauthorised changes of information.",
-          "uuid": "4c667c16-c6db-579a-9b75-b056d5a02dfc"
+          "uuid": "497085cf-20f8-54e4-99c9-1f7558f982de"
         },
         {
           "value": "unauthorized-installation-of-software",
           "expanded": "Unauthorized installation of software",
           "description": "Threat of unauthorised installation of software.",
-          "uuid": "7c4b57aa-53c7-53d3-be58-5c5546974ca3"
+          "uuid": "103d8fa7-2d83-5e02-aeba-de084cc5a963"
         },
         {
           "value": "Web-based-attacks-drive-by-download-or-malicious-URLs-or-browser-based-attacks",
           "expanded": "Web based attacks (Drive-by download / malicious URLs / Browser based attacks)",
           "description": "Threat of installation of unwanted malware software by misusing websites.",
-          "uuid": "e481c1bc-69ac-5b4d-b3cc-8a1b2e931def"
+          "uuid": "35370c4d-5fe8-588e-8ce6-32087818fad7"
         },
         {
           "value": "compromising-confidential-information-like-data-breaches",
           "expanded": "Compromising confidential information (data breaches)",
           "description": "Threat of data breach.",
-          "uuid": "41670dfd-44c3-5f5f-b0d6-f63c68504996"
+          "uuid": "78e4f802-5d6b-5ce5-903b-9bfe2c0b5678"
         },
         {
           "value": "hoax",
           "expanded": "Hoax",
           "description": "Threat of loss of IT assets security due to cheating.",
-          "uuid": "d70eaf76-5bfa-5107-b7bc-c80d453c198b"
+          "uuid": "67f73619-294e-5c90-9470-2545f8f04c9d"
         },
         {
           "value": "false-rumour-and-or-fake-warning",
           "expanded": "False rumour and/or fake warning",
           "description": "Threat of disruption of work due to rumours and/or a fake warning.",
-          "uuid": "a7db50da-a213-59c9-95e0-97e0544a80da"
+          "uuid": "73a1cd7c-2482-53ff-9053-4a4fd83f46ab"
         },
         {
           "value": "remote-activity-execution",
           "expanded": "Remote activity (execution)",
           "description": "Threat of nefarious action by attacker remote activity.",
-          "uuid": "8403abe6-80d8-5848-8acc-edab932ee77e"
+          "uuid": "07c95c72-6e39-520f-aaf6-c5b4f9a6b565"
         },
         {
           "value": "remote-command-execution",
           "expanded": "Remote Command Execution",
           "description": "Threat of nefarious action due to remote command execution.",
-          "uuid": "50c312bd-ec10-5a36-a317-51e1f7a3c320"
+          "uuid": "0c768b64-921b-51f0-9dda-cb53b1643fc6"
         },
         {
           "value": "remote-access-tool",
           "expanded": "Remote Access Tool (RAT)",
           "description": "Threat of infection of software that has a remote administration capabilities allowing an attacker to control the victim's computer.",
-          "uuid": "0e035644-d36c-5d79-ac2a-e12ab3ee8b25"
+          "uuid": "5c77f1aa-4d5b-5b06-91c2-68fe5f9bba5b"
         },
         {
           "value": "botnets-remote-activity",
           "expanded": "Botnets / Remote activity",
           "description": "Threat of penetration by software from malware distribution.",
-          "uuid": "98969443-c8bf-5b3f-9ecc-2b2b4cf727b1"
+          "uuid": "4fe6566c-8003-5dfe-9b80-29c5b63b3e4d"
         },
         {
           "value": "targeted-attacks",
           "expanded": "Targeted attacks (APTs etc.)",
           "description": "Threat of sophisticated, targeted attack which combine many attack techniques.",
-          "uuid": "78d8b59b-c09b-56af-916f-4e1dc1fb431c"
+          "uuid": "4ee0b093-5b25-5268-bd01-62b6988a6729"
         },
         {
           "value": "mobile-malware-exfiltration",
           "expanded": "Mobile malware (exfiltration)",
           "description": "Threat of mobile software that aims to gather information about a person or organization without their knowledge.",
-          "uuid": "e5ff568e-3cd0-5a98-bfee-93873e659858"
+          "uuid": "f2f70be3-416d-5136-8059-48a9e6511606"
         },
         {
           "value": "spear-phishing-attacks-targeted",
           "expanded": "Spear phishing attacks (targeted)",
           "description": "Threat of attack focused on a single user or department within an organization, coming from someone within the company in a position of trust and requesting information such as login, IDs and passwords.",
-          "uuid": "7a5cd571-de1b-503b-97a2-e92a5bb436b2"
+          "uuid": "82e45203-fe34-5cd8-9f0b-654f102ec1cf"
         },
         {
           "value": "installation-of-sophisticated-and-targeted-malware",
           "expanded": "Installation of sophisticated and targeted malware",
           "description": "Threat of malware delivered by sophisticated and targeted software.",
-          "uuid": "36584e9d-db78-516c-ae53-542713636696"
+          "uuid": "35175a1b-9747-55ce-97b5-952fe29dd05a"
         },
         {
           "value": "watering-hole-attacks",
           "expanded": "Watering Hole attacks",
           "description": "Threat of malware residing on the websites which a group often uses.",
-          "uuid": "dd36e6f0-e1be-5dd7-b683-455c333a069f"
+          "uuid": "2e879c33-3582-510a-b3c1-722d0a14c72c"
         },
         {
           "value": "failed-business-process",
           "expanded": "Failed business process",
           "description": "Threat of damage or loss of IT assets due to improperly executed business process.",
-          "uuid": "da994aac-55a4-589e-9284-604048e95a9a"
+          "uuid": "979c0ccb-17db-5bc4-a121-e4e52f8230d0"
         },
         {
           "value": "brute-force",
           "expanded": "Brute force",
           "description": "Threat of unauthorised access via systematically checking all possible keys or passwords until the correct one is found.",
-          "uuid": "0952b42d-21cf-57dc-be6c-a5a8edabbf9a"
+          "uuid": "1a93c9b1-42e2-54dc-87c7-becdb157ced8"
         },
         {
           "value": "abuse-of-authorizations",
           "expanded": "Abuse of authorizations",
           "description": "Threat of using authorised access to perform illegitimate actions.",
-          "uuid": "ffe32298-fa8f-57e8-bfe1-fd611ab52393"
+          "uuid": "35211726-9209-56f5-a93f-1b309326a347"
         }
       ]
     }
@@ -1059,54 +1059,54 @@
       "description": "Threats of intentional, hostile human actions.",
       "expanded": "Physical attack (deliberate/intentional).",
       "value": "physical-attack",
-      "uuid": "caee935d-db19-5e62-8f63-958d7b0e7b3d"
+      "uuid": "41bbf378-c2fb-5f22-b48e-714c9597d9fd"
     },
     {
       "description": "Threats of unintentional human actions or errors.",
       "expanded": "Unintentional damage / loss of information or IT assets.",
       "value": "unintentional-damage",
-      "uuid": "383d8544-0fdb-5a73-8aba-0effd1fd1f35"
+      "uuid": "62da7176-5def-59e0-b71b-7f664573e99d"
     },
     {
       "description": "Threats of damage to information assets caused by natural or environmental factors.",
       "expanded": "Disaster (natural, environmental).",
       "value": "disaster",
-      "uuid": "22902ee3-dbb3-5ab7-8c15-3e7cd86e2f05"
+      "uuid": "d017af36-70e2-5349-be66-bd38f584f7c6"
     },
     {
       "description": "Threat of failure/malfunction of IT supporting infrastructure (i.e.  degradation of quality, improper working parameters, jamming).  The cause of a failure is mostly an internal issue (e.g.. overload of the power grid in a building).",
       "expanded": "Failures/ Malfunction.",
       "value": "failures-malfunction",
-      "uuid": "e1054ace-37ea-5b02-b836-1c2ff7ac5713"
+      "uuid": "f83cc978-3fa4-5c9f-8846-156bed9a5dac"
     },
     {
       "description": "Threat of complete lack or loss of resources necessary for IT infrastructure. The cause of an outage is mostly an external issue (i.e electricity blackout in the whole city).",
       "expanded": "Outages.",
       "value": "outages",
-      "uuid": "ac127dd7-8d5c-5556-99a8-641d437faba0"
+      "uuid": "6268b625-919f-5fd3-a434-3e313cd44bfb"
     },
     {
       "description": "Threats that alter communication between two parties. These attacks do not have to install additional tools/software on a victim's site.",
       "expanded": "Eavesdropping/ Interception/ Hijacking",
       "value": "eavesdropping-interception-hijacking",
-      "uuid": "83aaaf51-de6f-57af-9b85-f98d6b4d1385"
+      "uuid": "795ad5ef-386b-5740-b348-7e30db5f5b7f"
     },
     {
       "description": "Threat of financial or legal penalty or loss of trust of customers and collaborators due to legislation.",
       "expanded": "Legal",
       "value": "legal",
-      "uuid": "701472ab-3781-5230-bb98-863d4c35e01f"
+      "uuid": "5c6176c4-13d1-5889-8aa4-b28fd29a6558"
     },
     {
       "description": "Threats of nefarious activities that require use of tools by the attacker. These attacks require installation of additional tools/software or performing additional steps on the victim's IT infrastructure/software.",
       "expanded": "Nefarious Activity/ Abuse",
       "value": "nefarious-activity-abuse",
-      "uuid": "e9b876f7-2298-5544-894c-be4525bf3a02"
+      "uuid": "c59c065e-b2d0-57b6-b367-380a8ac950f8"
     }
   ],
   "version": 20170725,
   "description": "The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015.",
   "expanded": "ENISA Threat Taxonomy",
   "namespace": "enisa",
-  "uuid": "383f4b2f-f205-5948-a05c-89f8d2f7a831"
+  "uuid": "9e93e79c-c0db-5520-a95c-39e0b98aa017"
 }
