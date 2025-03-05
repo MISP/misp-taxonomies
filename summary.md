@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2024-12-08
+- Generation date: 2025-03-05
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -308,8 +308,8 @@
     - false-positive
     - classification
 ### cryptocurrency-threat
-- description: Threats targetting cryptocurrency, based on CipherTrace report.
-- version: 1
+- description: Threats targeting cryptocurrency, based on CipherTrace report.
+- version: 2
 - Predicates
     - SIM Swapping
     - Crypto Dusting
@@ -671,8 +671,8 @@
     - organosulfur-compounds
     - phenylpropanoids-and-polyketides
 ### economical-impact
-- description: Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information (e.g. data exfiltration loss, a positive gain for an adversary).
-- version: 4
+- description: Economic impact refers to a taxonomy used to describe whether financial effects are positive or negative outcomes related to tagged information. For instance, data exfiltration loss represents a positive outcome for an adversary.
+- version: 5
 - Predicates
     - loss
     - gain
@@ -1294,7 +1294,7 @@
     - test
 ### nis2
 - description: The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 May 2022, also known as the provisional agreement. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.
-- version: 3
+- version: 5
 - Predicates
     - impact-sectors-impacted
     - impact-subsectors-impacted
@@ -1434,8 +1434,8 @@
     - 6 - Chaser
     - 7 - Accountant
 ### retention
-- description: Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.
-- version: 3
+- description: Add a retention time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations.
+- version: 4
 - Predicates
     - expired
     - 1d
@@ -1469,8 +1469,8 @@
 - Predicates
     - event-status
 ### runtime-packer
-- description: Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.
-- version: 2
+- description: Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer, virtualization or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries.
+- version: 3
 - Predicates
     - dex
     - elf
@@ -1766,9 +1766,9 @@
 - description: A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.
 - version: 3
 - Predicates
+    - sighting
     - exploitability
     - information
-    - sighting
 ### workflow
 - description: Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.
 - version: 14
