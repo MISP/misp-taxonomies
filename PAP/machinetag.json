@@ -13,7 +13,7 @@
     },
     {
       "value": "AMBER",
-      "expanded": "(PAP:AMBER) Passive cross check. Recipients may use PAP:AMBER information for conducting online checks, like using services provided by third parties (e.g. VirusTotal), or set up a monitoring honeypot.",
+      "expanded": "(PAP:AMBER) Passive cross check. Recipients may use PAP:AMBER information for conducting online checks, like using services provided by third parties (e.g. ripe whois), or set up a monitoring honeypot.",
       "colour": "#ffc000",
       "uuid": "09f19595-73dc-5cc2-8e56-48a8403e4053"
     },
