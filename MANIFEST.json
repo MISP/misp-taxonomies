@@ -39,6 +39,11 @@
       "version": 3
     },
     {
+      "description": "Cyber taxonomy for Italian National Cybersecurity Agency (ACN)",
+      "name": "acn",
+      "version": 1
+    },
+    {
       "description": "The Access Control Specification (ACS) marking type defines the object types required to implement automated access control systems based on the relevant policies governing sharing between participants.",
       "name": "acs-marking",
       "version": 1
@@ -776,7 +781,7 @@
     {
       "description": "A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.",
       "name": "vulnerability",
-      "version": 3
+      "version": 4
     },
     {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
@@ -785,5 +790,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20250305"
+  "version": "20250716"
 }
