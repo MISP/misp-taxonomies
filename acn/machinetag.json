@@ -1,0 +1,1753 @@
+{
+  "namespace": "acn",
+  "description": "Cyber taxonomy for Italian National Cybersecurity Agency (ACN)",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "impact",
+      "expanded": "Impact",
+      "uuid": "3232fe10-c03f-5d4d-b35f-6c8977f893ca"
+    },
+    {
+      "value": "root-cause",
+      "expanded": "Root Cause",
+      "uuid": "6a69bfcc-58f8-51a5-a45c-8180695803bc"
+    },
+    {
+      "value": "severity",
+      "expanded": "Severity",
+      "uuid": "948d5fb4-2b82-5b70-9f13-e85218ecb2be"
+    },
+    {
+      "value": "victim-geography",
+      "expanded": "Victim Geography",
+      "uuid": "9a364e2b-b10c-5b6b-9b3f-3be6ed23c33f"
+    },
+    {
+      "value": "active-scanning",
+      "expanded": "Active Scanning",
+      "uuid": "1cbc40fa-e6e8-5c53-b2b0-7ef10f3dd08f"
+    },
+    {
+      "value": "availability",
+      "expanded": "Availability",
+      "uuid": "58cfa312-b9bd-5c8a-962e-0a0cbf0b2918"
+    },
+    {
+      "value": "brand-abuse",
+      "expanded": "Brand Abuse",
+      "uuid": "a44c19c5-abf4-5ce6-82ae-88caf4e1412e"
+    },
+    {
+      "value": "fraud",
+      "expanded": "Fraud",
+      "uuid": "6b9fb872-c4ed-5adb-9441-3e551f70b7f3"
+    },
+    {
+      "value": "data-exposure",
+      "expanded": "Data Exposure",
+      "uuid": "5d752eb8-6d2a-537d-a071-9dd170e2bf71"
+    },
+    {
+      "value": "information-gathering",
+      "expanded": "Information Gathering",
+      "uuid": "28ecd59e-e79b-5082-ab4c-11bb82bbece0"
+    },
+    {
+      "value": "malicious-code",
+      "expanded": "Malicious Code",
+      "uuid": "3fde7ea4-8506-5919-885a-85580725810f"
+    },
+    {
+      "value": "social-engineering",
+      "expanded": "Social Engineering",
+      "uuid": "4a2839fb-e7b3-5b97-81af-166720e5d89d"
+    },
+    {
+      "value": "vulnerability",
+      "expanded": "Vulnerability",
+      "uuid": "b6f95653-205f-5e7d-8f65-4dec21334be9"
+    },
+    {
+      "value": "adversary-motivation",
+      "expanded": "Adversary Motivation",
+      "uuid": "c93f4eef-27f1-5e71-b19c-107cc8512a39"
+    },
+    {
+      "value": "adversary-type",
+      "expanded": "Adversary Type",
+      "uuid": "77b4eb0b-2a2f-5fca-b5f9-6ae23cf82293"
+    },
+    {
+      "value": "abusive-content",
+      "expanded": "Abusive Content",
+      "uuid": "1fead30b-84d6-54ca-81d1-4cb7cdf30fad"
+    },
+    {
+      "value": "asset-source-geography",
+      "expanded": "Asset Source Geography",
+      "uuid": "72763fce-fc85-5e07-aab8-ec740db48c98"
+    },
+    {
+      "value": "involved-asset",
+      "expanded": "Involved Asset",
+      "uuid": "2e1f9ddf-9c2e-5888-8a31-fc54966f54d3"
+    },
+    {
+      "value": "outlook",
+      "expanded": "Outlook",
+      "uuid": "78f9a891-d58d-5e4c-ad7b-5653f2e4c9c1"
+    },
+    {
+      "value": "physical-security",
+      "expanded": "Physical Security",
+      "uuid": "f622dc75-3968-5931-aae4-5a28d4ee280b"
+    },
+    {
+      "value": "vector",
+      "expanded": "Vector",
+      "uuid": "cd9326e7-d813-501b-bf68-eecb47d32d06"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "impact",
+      "entry": [
+        {
+          "value": "account-compromise",
+          "expanded": "Account Compromise",
+          "description": "Cyber events that have resulted in the compromise of a user account or a service account. It is possible to specify the type of compromised account using the predicate Involved asset.",
+          "colour": "#6E92A0",
+          "uuid": "0812b4ad-eee0-53a4-bea7-2a87ff3df4a1"
+        },
+        {
+          "value": "application-compromise",
+          "expanded": "Application Compromise",
+          "description": "Cyber events that have resulted in the compromise of an application or service, including web applications, mobile applications, databases, etc. It is possible to specify the type of application compromise using the predicate Involved asset.",
+          "colour": "#6E92A0",
+          "uuid": "62de5062-4dde-5770-baff-1c86630722d5"
+        },
+        {
+          "value": "availability",
+          "expanded": "Availability",
+          "description": "Cyber events in which malicious activities conducted by an attacker have affected the availability of the system or service provided. The predicate Availability must also be explicitly stated.",
+          "colour": "#6E92A0",
+          "uuid": "c2dd8e6b-c582-58a1-8d6c-c97be8f8e536"
+        },
+        {
+          "value": "data-exfiltration",
+          "expanded": "Data Exfiltration",
+          "description": "Cyber events in which the confidentiality of information present on an IT asset has been compromised. This loss or leak of data can occur due to malicious activities or accidentally.",
+          "colour": "#6E92A0",
+          "uuid": "0e475c76-7c86-5b44-94c5-f776df01e932"
+        },
+        {
+          "value": "data-exposure",
+          "expanded": "Data Exposure",
+          "description": "Unauthorized disclosure of sensitive or confidential data, caused by security vulnerabilities, configuration errors, or inadequate information management practices.",
+          "colour": "#6E92A0",
+          "uuid": "fb5d7ce4-1e73-54b7-be7c-53aec999f0d9"
+        },
+        {
+          "value": "data-manipulation",
+          "expanded": "Data Manipulation",
+          "description": "Cyber events in which the integrity of information present on an IT asset has been compromised. This value includes the modification or destruction of data by a malicious actor.",
+          "colour": "#6E92A0",
+          "uuid": "b202e03b-a3b1-5df6-8b9e-18ece3e2df8a"
+        },
+        {
+          "value": "no-impact",
+          "expanded": "No Impact",
+          "description": "A cyber event that could have compromised the availability, integrity or confidentiality of data or services, but was effectively prevented or did not occur.",
+          "colour": "#6E92A0",
+          "uuid": "c937ddeb-f275-5150-b873-69fbb775db63"
+        },
+        {
+          "value": "system-compromise",
+          "expanded": "System Compromise",
+          "description": "Cyber events that have resulted in the compromise of an IT asset, for example, by altering its integrity.",
+          "colour": "#6E92A0",
+          "uuid": "ab5fdcdf-6a3b-5894-b63b-2b21bb52648d"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Impact that are not identifiable with the other values defined in the subset.",
+          "colour": "#6E92A0",
+          "uuid": "bda24567-3836-5461-b3f5-cd40d9eebd8a"
+        }
+      ]
+    },
+    {
+      "predicate": "root-cause",
+      "entry": [
+        {
+          "value": "human-errors",
+          "expanded": "Human Errors",
+          "description": "Events caused by an unintentional human mistake. An example is an incorrect operation that affects the intended functionality of an IT asset.",
+          "colour": "#6E92A0",
+          "uuid": "bea26838-e3de-517a-a0ff-7bcced27d0f6"
+        },
+        {
+          "value": "malicious-actions",
+          "expanded": "Malicious Actions",
+          "description": "Any attempt to compromise the integrity, confidentiality, or availability of an IT asset.",
+          "colour": "#6E92A0",
+          "uuid": "5bf51ec3-acf1-5e2a-9202-ba730d489711"
+        },
+        {
+          "value": "natural-phenomena",
+          "expanded": "Natural Phenomena",
+          "description": "Events caused by a natural occurrence, such as earthquakes, avalanches, and floods.",
+          "colour": "#6E92A0",
+          "uuid": "8e8a106a-4f9c-5f7e-baa2-aed22ac3fa8d"
+        },
+        {
+          "value": "system-failure",
+          "expanded": "System Failure",
+          "description": "An unforeseen event in which a system ceases to function according to its intended design specifications, resulting in a loss of service or a significant reduction in the quality of the service provided.",
+          "colour": "#6E92A0",
+          "uuid": "cfc9a1f8-4c4e-5695-a139-975330774289"
+        },
+        {
+          "value": "third-party-failure",
+          "expanded": "Third Party Failure",
+          "description": "Interruption or degradation of the performance of a primary system attributable to malfunctions or failures of services provided by third parties.",
+          "colour": "#6E92A0",
+          "uuid": "907575ed-27e7-5577-a114-5d60d7a33ed8"
+        }
+      ]
+    },
+    {
+      "predicate": "severity",
+      "entry": [
+        {
+          "value": "high",
+          "expanded": "High",
+          "description": "The organization is no longer able to provide essential services to users; or personal or proprietary data/information has been modified, deleted, or exfiltrated; or recovery from the incident is not possible.",
+          "colour": "#6E92A0",
+          "uuid": "64193821-4f41-5415-8b71-d1b3671507a4"
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "description": "The organization is able to provide an essential service only to a portion of its users; or access to and exfiltration of personal or proprietary data/information has been detected; or recovery is possible, but the timeframe is unknown.",
+          "colour": "#6E92A0",
+          "uuid": "d5d43c71-adcc-55b4-880b-db4992c80fe1"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "description": "The organization can still provide essential services to all users, but they are not optimal in terms of efficiency; or access to sensitive or proprietary data/information has been detected; or recovery is possible within a known timeframe, even with additional resources.",
+          "colour": "#6E92A0",
+          "uuid": "b2591d1b-9f79-5259-8ae3-972160106fdd"
+        },
+        {
+          "value": "none",
+          "expanded": "None",
+          "description": "No effect on the organization's ability to provide services to users; or no information has been subject to unauthorized access, exfiltration, modification, or deletion; or the time required for recovery is predictable with existing resources.",
+          "colour": "#6E92A0",
+          "uuid": "abedd27c-125c-5678-878b-8d8aef3dfc8b"
+        }
+      ]
+    },
+    {
+      "predicate": "victim-geography",
+      "entry": [
+        {
+          "value": "italy",
+          "expanded": "Italy",
+          "description": "The cyber event has impacted IT assets located within Italy.",
+          "colour": "#6E92A0",
+          "uuid": "fbdc507c-83ac-566b-8dfa-9ef475aff571"
+        },
+        {
+          "value": "africa",
+          "expanded": "Africa",
+          "description": "The cyber event has impacted IT assets geographically located in the African continent",
+          "colour": "#6E92A0",
+          "uuid": "47f08ab3-a4af-5951-886d-8a4a4e3641d7"
+        },
+        {
+          "value": "america",
+          "expanded": "America",
+          "description": "The cyber event has impacted IT assets geographically located in the American continent.",
+          "colour": "#6E92A0",
+          "uuid": "d2d6f3dd-6a36-574e-a30e-e8276e5258f2"
+        },
+        {
+          "value": "antarctica",
+          "expanded": "Antarctica",
+          "description": "The cyber event has impacted IT assets geographically located in the Antarctic continent.",
+          "colour": "#6E92A0",
+          "uuid": "1aa289fd-fdfb-51eb-9f87-d21f3ecd41f6"
+        },
+        {
+          "value": "asia",
+          "expanded": "Asia",
+          "description": "The cyber event has impacted IT assets geographically located in the Asian continent.",
+          "colour": "#6E92A0",
+          "uuid": "8ef0c47c-4d8f-5925-b80e-f8f6f59f66f3"
+        },
+        {
+          "value": "europe",
+          "expanded": "Europe",
+          "description": "The cyber event has impacted IT assets geographically located in the European continent.",
+          "colour": "#6E92A0",
+          "uuid": "661597ea-0f3e-5cdd-8ad5-c0a025c42973"
+        },
+        {
+          "value": "oceania",
+          "expanded": "Oceania",
+          "description": "The cyber event has impacted IT assets located within the Oceanic continent.",
+          "colour": "#6E92A0",
+          "uuid": "b3295e1e-c053-5327-bdff-547d517e7a4f"
+        },
+        {
+          "value": "global",
+          "expanded": "Global",
+          "description": "The cyber event has impacted IT assets distributed across multiple countries or that it has a potentially global impact.",
+          "colour": "#6E92A0",
+          "uuid": "88b11fe7-9841-51c8-8915-0f713b309135"
+        }
+      ]
+    },
+    {
+      "predicate": "active-scanning",
+      "entry": [
+        {
+          "value": "credential-scanning",
+          "expanded": "Credential Scanning",
+          "description": "Cyber events in which a malicious actor performs an active scan to detect weak or improperly configured authentication credentials, or credentials exposed on an IT asset.",
+          "colour": "#F07930",
+          "uuid": "363951d6-cbd4-5ac7-af9a-391eeac2aeae"
+        },
+        {
+          "value": "network-scanning",
+          "expanded": "Network Scanning",
+          "description": "Cyber events in which a malicious actor uses techniques and procedures aimed at identifying the presence of services running on remote IT assets or on assets connected to the target infrastructure.",
+          "colour": "#F07930",
+          "uuid": "b1150200-6e6d-5ff9-b407-ee98e5c52023"
+        },
+        {
+          "value": "vulnerability-scanning",
+          "expanded": "Vulnerability Scanning",
+          "description": "Cyber events in which a malicious actor uses techniques and procedures specifically aimed at identifying vulnerabilities present in an IT asset in order to map the attack surface.",
+          "colour": "#F07930",
+          "uuid": "cb6332f0-ed2a-5f7f-93d5-3531d2d9f8cd"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Active scanning that are not identifiable with the other values defined in the subset.",
+          "colour": "#F07930",
+          "uuid": "d05ea74f-4998-5f31-999f-fb35d4cd28d8"
+        }
+      ]
+    },
+    {
+      "predicate": "availability",
+      "entry": [
+        {
+          "value": "data-encryption",
+          "expanded": "Data Encryption",
+          "description": "Cyber events in which a malicious actor applies encryption algorithms to data in a compromised computer system without the owner's consent, in order to render it inaccessible.",
+          "colour": "#F07930",
+          "uuid": "4805fd53-f450-5468-804b-5f2e3a8a84f4"
+        },
+        {
+          "value": "ddos",
+          "expanded": "DDoS",
+          "description": "Cyber events in which a malicious actor launches an attack from multiple, distributed sources, with the aim of compromising the availability of a computing asset or service by exhausting its network, processing, or memory resources.",
+          "colour": "#F07930",
+          "uuid": "1c8b0e7d-6bda-5529-adca-9aba8f1109d1"
+        },
+        {
+          "value": "dos",
+          "expanded": "DoS",
+          "description": "Cyber events in which a malicious actor launches an attack aimed at compromising the availability of a computing asset or service by exhausting its network, processing, or memory resources.",
+          "colour": "#F07930",
+          "uuid": "57de83fa-5fcf-5946-bfa4-d537ff40c9f9"
+        },
+        {
+          "value": "misconfiguration",
+          "expanded": "Misconfiguration",
+          "description": "Non-malicious cyber events in which an incorrect or suboptimal configuration of a computer asset or its component has compromised the availability of a service. ",
+          "colour": "#F07930",
+          "uuid": "4a3bb0e0-422a-5178-95e5-2b018e7e9273"
+        },
+        {
+          "value": "outage",
+          "expanded": "Outage",
+          "description": "Non-malicious cyber events in which a total or partial loss of availability of a computer asset has been observed due to natural or human-caused events. ",
+          "colour": "#F07930",
+          "uuid": "b41874af-fabc-5b2d-a75f-581f99168834"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events in which a loss of availability of a computer asset or application is encountered due to a cause that does not fall within those indicated in the other values associated with the Availability predicate.",
+          "colour": "#F07930",
+          "uuid": "85f69491-c787-5a01-b208-9eb40f4569c2"
+        }
+      ]
+    },
+    {
+      "predicate": "brand-abuse",
+      "entry": [
+        {
+          "value": "account-impersonation",
+          "expanded": "Account Impersonation",
+          "description": "The activity in which a malicious actor impersonates another person, system, or organization in order to deceive the victim and gain unauthorized access to sensitive information.",
+          "colour": "#F07930",
+          "uuid": "e9785e05-9afd-59e9-b438-5acc95f78f8f"
+        },
+        {
+          "value": "cybersquatting",
+          "expanded": "Cybersquatting",
+          "description": "Registering and abusively using an Internet domain name that is identical or similar to registered trademarks, service names, personal or corporate names, with the malicious intent of diverting traffic to other sites.",
+          "colour": "#F07930",
+          "uuid": "6a659efc-1ade-5860-a9e2-5b61420a043d"
+        },
+        {
+          "value": "name-logo-impersonation",
+          "expanded": "Name Logo Impersonation",
+          "description": "Deliberate act of fraudulently replicating or imitating the name/logo of a recognized entity, such as a reputable organization or well-known service, with the intent to deceive the victim.",
+          "colour": "#F07930",
+          "uuid": "14240ead-2fb6-5600-8560-647d898353eb"
+        },
+        {
+          "value": "typosquatting",
+          "expanded": "Typosquatting",
+          "description": "When a malicious actor deliberately registers domain names which mimic existing websites with slight spelling variations, exploiting typing errors.",
+          "colour": "#F07930",
+          "uuid": "f61bfb64-bd98-5f9f-a190-bdff976e7e5d"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events pertaining to Brand abuse that are not identifiable with the other values defined within the subset.",
+          "colour": "#F07930",
+          "uuid": "0bb6e084-47e4-5d4a-91fc-e508ef98c829"
+        }
+      ]
+    },
+    {
+      "predicate": "fraud",
+      "entry": [
+        {
+          "value": "brand-abuse",
+          "expanded": "Brand Abuse",
+          "description": "Fraudulent activity in which a malicious actor exploits the notoriety of an organization to create fake websites, false advertising campaigns, or false partnerships with the purpose of damaging its reputation or conducting cybercrime activities.",
+          "colour": "#F07930",
+          "uuid": "74636284-6c73-5e13-ae8c-44e0bf6a1919"
+        },
+        {
+          "value": "extortion",
+          "expanded": "Extortion",
+          "description": "A criminal activity in which an attacker exerts coercion on an individual or organization to obtain financial benefits or other forms of compensation. This conduct is carried out through the threat of causing damage or disclosing sensitive information.",
+          "colour": "#F07930",
+          "uuid": "731becab-219c-5dce-98a4-e929d2d6349d"
+        },
+        {
+          "value": "masquerade",
+          "expanded": "Masquerade",
+          "description": "A fraudulent activity in which a malicious actor assumes the identity of another user, device, or entity within a network or computer system in order to circumvent security mechanisms and gain unauthorized access to resources or computer assets.",
+          "colour": "#F07930",
+          "uuid": "87411808-1d85-5b5b-96eb-52e62c792dff"
+        },
+        {
+          "value": "resource-misuse",
+          "expanded": "Resource Misuse",
+          "description": "Cyber events in which a malicious actor has exploited the resources of a computer or network in an unauthorized manner for illicit purposes.",
+          "colour": "#F07930",
+          "uuid": "4deec293-2546-5517-9b2c-e911d421c0a3"
+        },
+        {
+          "value": "spam",
+          "expanded": "Spam",
+          "description": "Cyber events in which a malicious actor sends unsolicited or unwanted advertising messages, generally of a commercial nature.",
+          "colour": "#F07930",
+          "uuid": "ba90473c-6139-5fc6-86e7-44375db911bf"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events pertaining to the Fraud predicate that are not identifiable with the other values defined within the subset.",
+          "colour": "#F07930",
+          "uuid": "4b840098-6a39-5fe9-b366-6e910ef4892b"
+        }
+      ]
+    },
+    {
+      "predicate": "data-exposure",
+      "entry": [
+        {
+          "value": "authentication-data",
+          "expanded": "Authentication Data",
+          "description": "Cyber events in which a security breach of data pertaining to the authentication of users of the impacted information asset, such as usernames and passwords, has been identified.",
+          "colour": "#F07930",
+          "uuid": "6096e39f-b12a-5f57-9671-f80bf6801053"
+        },
+        {
+          "value": "business-data",
+          "expanded": "Business Data",
+          "description": "Cyber events in which a security breach of data pertaining to the company, such as data on its activities, its contracts, intellectual property, etc., has been identified.",
+          "colour": "#F07930",
+          "uuid": "141f15b7-3c4c-5728-8714-22d1de8f1609"
+        },
+        {
+          "value": "financial-data",
+          "expanded": "Financial Data",
+          "description": "Cyber events in which a security breach of data pertaining to the company's financial sphere, such as income, expenses, financial transaction data, etc., has been identified.",
+          "colour": "#F07930",
+          "uuid": "c8789c4c-d0fc-5147-b63a-4c9c307edf37"
+        },
+        {
+          "value": "personal-data",
+          "expanded": "Personal Data",
+          "description": "Cyber events in which a security breach of personal data has occurred, that is, information that directly or indirectly identifies or makes identifiable a physical person.",
+          "colour": "#F07930",
+          "uuid": "c453fd25-e752-5a0e-91f3-f5c60e5e7d55"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Information disclosure that are not identifiable by the other values defined in the subset.",
+          "colour": "#F07930",
+          "uuid": "5d6ad2aa-6a5b-5fd9-a568-13146128c0d7"
+        }
+      ]
+    },
+    {
+      "predicate": "information-gathering",
+      "entry": [
+        {
+          "value": "active-scanning",
+          "expanded": "Active Scanning",
+          "description": "Cyber events in which a malicious actor attempts to gather information through an active scan, that is, through direct contact with the target information asset.",
+          "colour": "#F07930",
+          "uuid": "4ca04aff-2c75-5b5d-ad79-9b38eea65125"
+        },
+        {
+          "value": "sniffing",
+          "expanded": "Sniffing",
+          "description": "Cyber events in which an unauthorized actor uses techniques or tools to capture network packets for the purpose of stealing data, monitoring network activity, and gathering information.",
+          "colour": "#F07930",
+          "uuid": "30cd655b-227b-56a2-becd-def69efbfee0"
+        },
+        {
+          "value": "social-engineering",
+          "expanded": "Social Engineering",
+          "description": "Cyber events in which a malicious actor uses a set of techniques and tactics to persuade an individual to perform certain actions for various purposes.",
+          "colour": "#F07930",
+          "uuid": "5188cc45-0207-5132-9101-bd6df4db2c3f"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Information gathering that are not identifiable by the other values defined in the subset.",
+          "colour": "#F07930",
+          "uuid": "97b5e5f8-66ae-5395-b02f-ce62ca4b1aa2"
+        }
+      ]
+    },
+    {
+      "predicate": "malicious-code",
+      "entry": [
+        {
+          "value": "backdoor",
+          "expanded": "Backdoor",
+          "description": "A type of malware that grants secondary access to a compromised information asset, allowing the attacker to access it remotely and perform arbitrary actions.",
+          "colour": "#F07930",
+          "uuid": "5cdb005a-50c7-52e0-9179-bbbd1a902696"
+        },
+        {
+          "value": "banker",
+          "expanded": "Banker",
+          "description": "A type of malware that attempts to illicitly steal the credentials of bank clients or gain access to their financial information.",
+          "colour": "#F07930",
+          "uuid": "d09e5d25-066a-5c05-8f4a-3a0ca7d8dc7e"
+        },
+        {
+          "value": "bot",
+          "expanded": "Bot",
+          "description": "A computer program designed to fulfill a specific purpose, whether legitimate or malicious. In the latter case, it is referred to as bot malware, which are used to create a network of zombie computers, known as a botnet.",
+          "colour": "#F07930",
+          "uuid": "1900d684-8a1a-5de9-9bd3-d1f0317ead0e"
+        },
+        {
+          "value": "coin-miner",
+          "expanded": "Coin Miner",
+          "description": "A type of malware that exploits the computing power of the target information asset to mine cryptocurrencies without the user's knowledge.",
+          "colour": "#F07930",
+          "uuid": "50366c23-12a4-5009-85ca-fc91e242a580"
+        },
+        {
+          "value": "exploit-kit",
+          "expanded": "Exploit Kit",
+          "description": "A collection of software tools designed to exploit vulnerabilities present in a network, a system, or an application. ",
+          "colour": "#F07930",
+          "uuid": "65c38d42-ad2a-57de-9653-67de478999a2"
+        },
+        {
+          "value": "hacking-tool",
+          "expanded": "Hacking Tool",
+          "description": "A program designed to breach the security measures of an information asset. It is used both for legitimate activities and in unauthorized contexts or for illicit purposes.",
+          "colour": "#F07930",
+          "uuid": "ea5cfa08-1a0c-5e65-ae1d-35e10e2f21bd"
+        },
+        {
+          "value": "information-stealer",
+          "expanded": "Information Stealer",
+          "description": "A type of malware that aims to collect information about an information asset illegitimately. Malware known as keyloggers or spyware falls into this classification.",
+          "colour": "#F07930",
+          "uuid": "e2b07f64-91c7-5418-8397-cbe3cd23f454"
+        },
+        {
+          "value": "loader",
+          "expanded": "Loader",
+          "description": "A type of malware that allows for the downloading and execution of additional malware on the compromised information asset. Malware known as droppers and downloaders fall into this classification.",
+          "colour": "#F07930",
+          "uuid": "458348cd-8eb4-503f-b20d-26d7cfd2d68a"
+        },
+        {
+          "value": "potentially-unwanted-program",
+          "expanded": "Potentially Unwanted Program",
+          "description": "Software that is unwanted according to the user's preferences. Although this classification does not indicate the presence of malware, they can pose a threat to the privacy and security of the system and the user.",
+          "colour": "#F07930",
+          "uuid": "a2fd4118-6f67-5773-8a11-3add331512ce"
+        },
+        {
+          "value": "ransomware",
+          "expanded": "Ransomware",
+          "description": "A type of threat that aims to encrypt the data of the target information asset in order to compromise its availability and integrity.",
+          "colour": "#F07930",
+          "uuid": "d5187ce4-7800-5af8-b13d-9b6337b6fedf"
+        },
+        {
+          "value": "remote-access-tool",
+          "expanded": "Remote Access Tool",
+          "description": "A type of malware that allows an attacker to control a target information asset remotely. It allows for the execution of various unauthorized actions, such as data acquisition, file transfer, and the execution of arbitrary commands.",
+          "colour": "#F07930",
+          "uuid": "65c81af9-6bd9-5ea2-9b2b-9bd529a0bd5c"
+        },
+        {
+          "value": "rootkit",
+          "expanded": "Rootkit",
+          "description": "A typically sophisticated type of malware designed to infiltrate an operating system or application, masking its presence and gaining elevated access privileges.",
+          "colour": "#F07930",
+          "uuid": "272b3c5a-d121-57f1-91c4-c524a8c86193"
+        },
+        {
+          "value": "trojan",
+          "expanded": "Trojan",
+          "description": "A type of software that presents itself to the user in the form of a legitimate or otherwise harmless program, but which, once executed, aims to download and launch further malicious software on the target information asset. ",
+          "colour": "#F07930",
+          "uuid": "4bed81db-92c1-5a6d-808b-a1b5b57668f1"
+        },
+        {
+          "value": "virus",
+          "expanded": "Virus",
+          "description": "A potentially harmful software that, when executed on an information asset, aims to self-replicate by modifying the running programs and altering their operations.",
+          "colour": "#F07930",
+          "uuid": "c5c99536-83be-5d0c-9cf0-40ba3abe97c7"
+        },
+        {
+          "value": "webshell",
+          "expanded": "Webshell",
+          "description": "A type of script or program that is installed on a compromised web server in order to gain unauthorized and persistent access to the information asset.",
+          "colour": "#F07930",
+          "uuid": "38ee2742-ef5f-5104-b825-c8d7678fe56b"
+        },
+        {
+          "value": "wiper",
+          "expanded": "Wiper",
+          "description": "A type of malware whose primary objective is to irreversibly delete data and files present on a compromised information asset.",
+          "colour": "#F07930",
+          "uuid": "00cb640a-5a87-5c52-8e53-d6e3e2c413ad"
+        },
+        {
+          "value": "worm",
+          "expanded": "Worm",
+          "description": "A potentially harmful software that an attacker can exploit to replicate malware within an information asset in order to compromise its functionality.",
+          "colour": "#F07930",
+          "uuid": "fcded509-e63a-53a9-be68-cb376c533da6"
+        },
+        {
+          "value": "unknown",
+          "expanded": "Unknown",
+          "description": "A type of malicious code for which there is insufficient information to indicate its nature. The execution of malicious code or malware has been detected, but its type cannot yet be determined.",
+          "colour": "#F07930",
+          "uuid": "232797da-24d6-5f26-925a-d6760f9f53d5"
+        }
+      ]
+    },
+    {
+      "predicate": "social-engineering",
+      "entry": [
+        {
+          "value": "baiting",
+          "expanded": "Baiting",
+          "description": "Fraudulent activities in which a malicious actor attracts the victim by means of a lure, such as the promise of receiving a benefit or obtaining an advantage. ",
+          "colour": "#F07930",
+          "uuid": "a2779d64-f24c-5c1f-acc2-9730e4012470"
+        },
+        {
+          "value": "phishing",
+          "expanded": "Phishing",
+          "description": "Cyber events in which a user is contacted, via email or other messaging tools, by a malicious actor with the aim of leading the victim to execute malicious code or visit fabricated resources.",
+          "colour": "#F07930",
+          "uuid": "d7b12cba-3eee-56de-b234-198e89d3c36a"
+        },
+        {
+          "value": "smishing",
+          "expanded": "Smishing",
+          "description": "Cyber events in which a user is contacted, via the sending of short text messages, SMS, by a malicious actor with the aim of leading the victim to execute malicious code or to visit fabricated resources.",
+          "colour": "#F07930",
+          "uuid": "9305ee4e-07bb-57f8-a10d-792bd3c9f05d"
+        },
+        {
+          "value": "spear-phishing",
+          "expanded": "Spear Phishing",
+          "description": "A type of phishing targeting subjects of specific interest, involving the sending of a highly personalized message from an email account that appears familiar to the victim, with the intent of stealing sensitive information or inducing them to open/download malicious attachments or links.",
+          "colour": "#F07930",
+          "uuid": "a5e5a942-6d94-5b30-a6b9-3a55e28f438c"
+        },
+        {
+          "value": "vishing",
+          "expanded": "Vishing",
+          "description": "Cyber events in which a user is contacted, via voice communication systems, by a criminal actor with the aim of leading the victim to execute malicious code or to steal data.",
+          "colour": "#F07930",
+          "uuid": "3edbb14f-316f-56cc-aa16-6714e4581ceb"
+        },
+        {
+          "value": "watering-hole",
+          "expanded": "Watering Hole",
+          "description": "Cyber events in which an attacker aims to compromise a specific group of users by infecting websites that are known to be regularly visited by that group.",
+          "colour": "#F07930",
+          "uuid": "0ff5e622-44e8-5892-b5d3-8159c455006a"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Social engineering that are not identifiable with the other values defined in the subset.",
+          "colour": "#F07930",
+          "uuid": "ab088525-f11b-53f4-a593-6b65c03505f1"
+        }
+      ]
+    },
+    {
+      "predicate": "vulnerability",
+      "entry": [
+        {
+          "value": "0-day-vulnerability",
+          "expanded": "0-Day Vulnerability",
+          "description": "A vulnerability that is not publicly known, and therefore could be exploited by an attacker to compromise an information system and undermine its integrity, confidentiality, and availability.",
+          "colour": "#F07930",
+          "uuid": "62833057-dfb8-5c38-8e45-7998936aac86"
+        },
+        {
+          "value": "n-day-vulnerability",
+          "expanded": "n-Day Vulnerability",
+          "description": "A 0-day vulnerability that has been made public for more than one day, regardless of the release of corrective software.",
+          "colour": "#F07930",
+          "uuid": "dcb5039e-8dbb-58a0-990e-32b2df2a464e"
+        },
+        {
+          "value": "security-misconfiguration",
+          "expanded": "Security Misconfiguration",
+          "description": "The incorrect configuration of an information asset which can lead to security risks and cause flaws that can be easily exploited by a cybercriminal to compromise a system.",
+          "colour": "#F07930",
+          "uuid": "b9a9404b-4d16-51c8-9710-b99db680816b"
+        },
+        {
+          "value": "unwanted-exposed-services",
+          "expanded": "Unwanted Exposed Services",
+          "description": "The information asset involved in the security event exposes network services that are generally not recommended because they can expand the attack surface and can impact the security posture.",
+          "colour": "#F07930",
+          "uuid": "ef5415f4-4f28-526e-8424-85586de5ff9f"
+        },
+        {
+          "value": "weak-cryptography",
+          "expanded": "Weak Cryptography",
+          "description": "Cyber events related to the improper or incorrect use of security mechanisms related to encryption.",
+          "colour": "#F07930",
+          "uuid": "28e7340b-4ff3-55b8-b092-53f76745b9ae"
+        },
+        {
+          "value": "proof-of-concept",
+          "expanded": "Proof Of Concept",
+          "description": "The availability of a technical demonstration created to validate the presence of a theoretical vulnerability, demonstrating how it can be exploited in a software or computer system.",
+          "colour": "#F07930",
+          "uuid": "6968cd14-2430-597f-8056-9b4b76ed545c"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Vulnerability that are not identifiable with the other values defined in the subset.",
+          "colour": "#F07930",
+          "uuid": "96e66f8a-cce4-5989-86bf-a61ef2b2ff92"
+        }
+      ]
+    },
+    {
+      "predicate": "adversary-motivation",
+      "entry": [
+        {
+          "value": "destruction",
+          "expanded": "Destruction",
+          "description": "Cyber events in which an attacker has conducted malicious or illicit activities aimed at damaging an information asset in order to compromise its operation, interrupt the total or partial provision of services, or prevent authorized personnel from accessing it.",
+          "colour": "#C10000",
+          "uuid": "feff7e29-19a9-5fe0-a2bc-aac03223c57c"
+        },
+        {
+          "value": "espionage",
+          "expanded": "Espionage",
+          "description": "Cyber events in which an attacker has conducted an unlawful activity aimed at acquiring sensitive, proprietary, or classified data/information in order to achieve economic gain, competitive advantage, or for political reasons. ",
+          "colour": "#C10000",
+          "uuid": "24f002c2-b109-5dc3-8865-ee7329461541"
+        },
+        {
+          "value": "ideology",
+          "expanded": "Ideology",
+          "description": "Cyber events in which an attacker has conducted malicious or illicit activities to spread a message of an ideological nature to the affected organization, the users of the impacted service, or any third party.",
+          "colour": "#C10000",
+          "uuid": "9a526783-531d-5613-bc39-ece8112ff8f9"
+        },
+        {
+          "value": "influence-and-disinformation",
+          "expanded": "Influence And Disinformation",
+          "description": "Cyber events in which there is an intentional dissemination of inaccurate or distorted news or information in order to influence the actions and choices of someone.",
+          "colour": "#C10000",
+          "uuid": "472a49fb-ed9e-57cb-9711-2c07093ecea3"
+        },
+        {
+          "value": "profit",
+          "expanded": "Profit",
+          "description": "Cyber events in which an attacker or group carries out malicious or illicit actions in order to obtain, directly or indirectly, a profit.",
+          "colour": "#C10000",
+          "uuid": "2e26b93f-7e0d-5972-88b8-6b35c27e8a39"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Adversary motivation that are not identifiable with the other values defined in the subset.",
+          "colour": "#C10000",
+          "uuid": "a01cea30-913c-5f2b-aaf5-279da567cc8e"
+        }
+      ]
+    },
+    {
+      "predicate": "adversary-type",
+      "entry": [
+        {
+          "value": "criminal",
+          "expanded": "Criminal",
+          "description": "Cyber events in which the attacker or group that caused the event can be categorized into the more generic type of \"criminal\" whose goals tend to generate profit from the actions carried out.",
+          "colour": "#C10000",
+          "uuid": "df896f80-7c0f-535d-92ef-1904cac50d14"
+        },
+        {
+          "value": "hacktivist",
+          "expanded": "Hacktivist",
+          "description": "Cyber events in which the subversive use of digital tools is employed to promote a political agenda or principles of social connotation.",
+          "colour": "#C10000",
+          "uuid": "d189a534-3eaa-50e2-b3d1-4965252e1199"
+        },
+        {
+          "value": "insider",
+          "expanded": "Insider",
+          "description": "Cyber events in which an attacker uses their permissions or the knowledge acquired during routine work activities to carry out a cyberattack from within the network they operate.",
+          "colour": "#C10000",
+          "uuid": "10656f67-ffd1-569a-bff9-86296ac9c47e"
+        },
+        {
+          "value": "nation-state",
+          "expanded": "Nation State",
+          "description": "Cyber events conducted by state entities or groups, or sponsored by the state, meaning groups that conduct advanced cyber operations on behalf of a government or a sovereign state.",
+          "colour": "#C10000",
+          "uuid": "301b53de-3274-58ed-bfad-b37909f0229a"
+        }
+      ]
+    },
+    {
+      "predicate": "abusive-content",
+      "entry": [
+        {
+          "value": "disturbing-content",
+          "expanded": "Disturbing Content",
+          "description": "Any type of material or information disseminated through computer systems that may be considered offensive, inappropriate, harmful, or that may cause psychological or emotional distress.",
+          "colour": "#0070C0",
+          "uuid": "a3884d72-6f7f-50aa-94f5-e3ef6cef1487"
+        },
+        {
+          "value": "harmful-speech",
+          "expanded": "Harmful Speech",
+          "description": "Events involving any form of communication expressed through digital platforms that may cause harm, distress, or discrimination to individuals or groups.",
+          "colour": "#0070C0",
+          "uuid": "51e7f5e0-17d9-5a36-9375-748669784b87"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Abusive content that are not identifiable with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "6bab487e-9843-5a53-a1a3-12e60c679d5a"
+        }
+      ]
+    },
+    {
+      "predicate": "asset-source-geography",
+      "entry": [
+        {
+          "value": "italy",
+          "expanded": "Italy",
+          "description": "The IT assets from which malicious or illicit activities were conducted are located within the Italian national territory.",
+          "colour": "#0070C0",
+          "uuid": "aa2870e2-8e26-5031-88d8-6fb38725632d"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "The IT assets from which malicious or illicit activities were conducted are located outside the Italian national territory.",
+          "colour": "#0070C0",
+          "uuid": "e1515666-1ed5-5000-9e4a-fc7ccd04ad9b"
+        }
+      ]
+    },
+    {
+      "predicate": "involved-asset",
+      "entry": [
+        {
+          "value": "hardware-network-device_router",
+          "expanded": "Hardware Network Device Router",
+          "description": "Device that directs traffic between two or more devices connected to the same network or subnets in a computer network.",
+          "colour": "#0070C0",
+          "uuid": "8fdcef15-9054-53b5-a784-088c5b102b31"
+        },
+        {
+          "value": "hardware-network-device_switch",
+          "expanded": "Hardware Network Device Switch",
+          "description": "Device within a computer network that manages the flow of data to and from connected computers.",
+          "colour": "#0070C0",
+          "uuid": "9b38af02-5275-51ed-b6d1-dacbf35d4f0a"
+        },
+        {
+          "value": "hardware-network-device_access-point",
+          "expanded": "Hardware Network Device Access Point",
+          "description": "Network hardware device that enables Wi-Fi devices to connect to a wired network.",
+          "colour": "#0070C0",
+          "uuid": "66ed65a2-ad93-54ba-981b-5fe587461e58"
+        },
+        {
+          "value": "hardware-network-device_other",
+          "expanded": "Hardware Network Device Other",
+          "description": "Encompasses all Hardware_Network Device assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "2836aff2-177c-51d9-8789-0c783d05d71a"
+        },
+        {
+          "value": "hardware-iot-iiot_digital-camera",
+          "expanded": "Hardware IOT IIOT Digital Camera",
+          "description": "A digital camera is an electronic device capable of capturing and transmitting images and video.",
+          "colour": "#0070C0",
+          "uuid": "0664a086-b26c-579e-a954-9eaed2623e7d"
+        },
+        {
+          "value": "hardware-iot-iiot_other",
+          "expanded": "Hardware IOT IIOT Other",
+          "description": "Encompasses all Hardware_IoT/IIoT assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "c3760732-1b7a-5fbe-941b-b24645b74756"
+        },
+        {
+          "value": "hardware-security-appliance_firewall",
+          "expanded": "Hardware Security Appliance Firewall",
+          "description": "Network device or system that enables the monitoring and segregation of incoming and outgoing traffic.",
+          "colour": "#0070C0",
+          "uuid": "f6c8932a-a3ab-5f50-8acd-997e6f65d309"
+        },
+        {
+          "value": "hardware-security-appliance_hardware-security-module",
+          "expanded": "Hardware Security Appliance Hardware Security Module",
+          "description": "Physical computing device that ensures the safeguarding and management of digital keys, as well as cryptographic processing.",
+          "colour": "#0070C0",
+          "uuid": "931bd6ad-ec1b-5767-b652-b8a1e9e22542"
+        },
+        {
+          "value": "hardware-security-appliance_other",
+          "expanded": "Hardware Security Appliance Other",
+          "description": "Encompasses all Hardware_Security appliance assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "ae34ec01-ffbe-5c27-aa05-214c0d2c5983"
+        },
+        {
+          "value": "hardware-computer-system_server",
+          "expanded": "Hardware Computer System Server",
+          "description": "Physical device or computer system used for processing and managing information traffic over a network.",
+          "colour": "#0070C0",
+          "uuid": "50085189-55e9-53e3-a977-9358837821d7"
+        },
+        {
+          "value": "hardware-computer-system_printer",
+          "expanded": "Hardware Computer System Printer",
+          "description": "Device that converts digital data into printed text on paper.",
+          "colour": "#0070C0",
+          "uuid": "74896d1b-41df-59b5-ac97-32f6b8fb9f29"
+        },
+        {
+          "value": "hardware-computer-system_workstation",
+          "expanded": "Hardware Computer System Workstation",
+          "description": "Computer device designed to meet the processing needs of a single user.",
+          "colour": "#0070C0",
+          "uuid": "3bc72bbb-36c2-5536-ac2b-2cdb86fd34d5"
+        },
+        {
+          "value": "hardware-computer-system_mobile-device",
+          "expanded": "Hardware Computer System Mobile Device",
+          "description": "Electronic devices that enable user mobility, providing data processing or access capabilities that are not limited by the user's physical location.",
+          "colour": "#0070C0",
+          "uuid": "f395f491-6e95-5b0d-9335-80b6694842e3"
+        },
+        {
+          "value": "hardware-computer-system_data-storage",
+          "expanded": "Hardware Computer System Data Storage",
+          "description": "Electronic, electrostatic, or electrical hardware, or other elements that enable data input and retrieval.",
+          "colour": "#0070C0",
+          "uuid": "e87fbe55-4d83-5836-897e-47c4fe26448e"
+        },
+        {
+          "value": "hardware-computer-system_other",
+          "expanded": "Hardware Computer System Other",
+          "description": "Encompasses all Hardware_Computer System assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "298dd8b3-da85-5790-9aa3-8824594bf4ed"
+        },
+        {
+          "value": "hardware-ot_remote-terminal-unit",
+          "expanded": "Hardware OT Remote Terminal Unit",
+          "description": "Remote units capable of receiving and decoding messages from the central control system.",
+          "colour": "#0070C0",
+          "uuid": "1c5eb6af-b42f-5eb8-97ab-8c343ef2ddfc"
+        },
+        {
+          "value": "hardware-ot_human-machine-interface",
+          "expanded": "Hardware OT Human Machine Interface",
+          "description": "Interface that allows interaction with a controller to monitor processes, configure settings, and display information on the status and history of processes.",
+          "colour": "#0070C0",
+          "uuid": "b42cb585-2a47-529d-b03b-8eaf9f656154"
+        },
+        {
+          "value": "hardware-ot_programmable-logic-controller",
+          "expanded": "Hardware OT Programmable Logic Controller",
+          "description": "Digital electronic system intended for industrial use.",
+          "colour": "#0070C0",
+          "uuid": "c89c5c41-d563-5e4b-affa-638d703d1ee7"
+        },
+        {
+          "value": "hardware-ot_field-device",
+          "expanded": "Hardware OT Field Device",
+          "description": "Equipment including actuators, sensors, network controllers, and signal converters designed for industrial use.",
+          "colour": "#0070C0",
+          "uuid": "addb60bd-84a8-5a08-b569-e4ff38ef0610"
+        },
+        {
+          "value": "hardware-ot_intelligent-elettronic-device",
+          "expanded": "Hardware OT Intelligent Elettronic Device",
+          "description": "Device that incorporates one or more processing units, capable of receiving and sending data/controls to or from other devices.",
+          "colour": "#0070C0",
+          "uuid": "5c57f1e7-1c23-535e-87a8-5ef3467e8813"
+        },
+        {
+          "value": "hardware-ot_other",
+          "expanded": "Hardware OT Other",
+          "description": "Encompasses all Hardware_OT assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "09e7588a-56f0-548a-9184-3c39001ff207"
+        },
+        {
+          "value": "hardware-other_satellite-system",
+          "expanded": "Hardware Other Satellite System",
+          "description": "Communication system capable of receiving signals from Earth and retransmitting them using a transponder, an integrated radio signal receiver and transmitter.",
+          "colour": "#0070C0",
+          "uuid": "7116ab5f-9f77-584c-b573-ba488b3e821e"
+        },
+        {
+          "value": "hardware-other_unmanned-aerial-vehicle",
+          "expanded": "Hardware Other Unmanned Aerial Vehicle",
+          "description": "Remotely controlled aircraft that operate without a human pilot on board.",
+          "colour": "#0070C0",
+          "uuid": "56d5027f-8980-5890-a069-1119fed33370"
+        },
+        {
+          "value": "hardware-other_rfid",
+          "expanded": "Hardware Other RFID",
+          "description": "Technology for automatic recognition, validation, and/or storage of information at a distance.",
+          "colour": "#0070C0",
+          "uuid": "27867e3f-456c-59cb-8497-ae4a8de21603"
+        },
+        {
+          "value": "hardware-other_nfc",
+          "expanded": "Hardware Other NFC",
+          "description": "Re-transmission technology offering short-range, bidirectional wireless connectivity.",
+          "colour": "#0070C0",
+          "uuid": "22240c49-214f-519c-a842-bd5b37fd2e7c"
+        },
+        {
+          "value": "hardware-other",
+          "expanded": "Hardware Other",
+          "description": "Encompasses all Hardware_Other assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "02e47406-adc5-54a4-a358-d1f26ddeed7e"
+        },
+        {
+          "value": "hardware-virtualization-infrastructure_other",
+          "expanded": "Hardware Virtualization Infrastructure Other",
+          "description": "Encompasses all Hardware – Virtualization Infrastructure assets.",
+          "colour": "#0070C0",
+          "uuid": "150e27d3-6e29-53b7-8076-0e807a8d6a01"
+        },
+        {
+          "value": "software-security-system_firewall-os",
+          "expanded": "Software Security System Firewall OS",
+          "description": "Network and/or application system that monitors incoming and outgoing traffic, blocking unauthorized data traffic between two connected networks.",
+          "colour": "#0070C0",
+          "uuid": "1246d273-3d8b-5d3a-bf29-09a4674a3506"
+        },
+        {
+          "value": "software-security-system_antivirus",
+          "expanded": "Software Security System Antivirus",
+          "description": "Program that monitors a computer or network to detect all major types of malware and prevent or mitigate malware incidents.",
+          "colour": "#0070C0",
+          "uuid": "79adb3c6-eeaa-551e-ac5a-18539ba6ed64"
+        },
+        {
+          "value": "software-security-system_intrusion-detection-system",
+          "expanded": "Software Security System Intrusion Detection System",
+          "description": "Security system that monitors and analyzes network or system events to identify unauthorized attempts to access system resources.",
+          "colour": "#0070C0",
+          "uuid": "61da6b29-0a94-53e2-a101-bb9e489a5700"
+        },
+        {
+          "value": "software-security-system_intrusion-prevention-system",
+          "expanded": "Software Security System Intrusion Prevention System",
+          "description": "System capable of detecting intrusive activity and that may also attempt to stop the activity.",
+          "colour": "#0070C0",
+          "uuid": "a16a7e87-fcc9-5814-8d0e-e4a16ed1efb4"
+        },
+        {
+          "value": "software-security-system_antispam",
+          "expanded": "Software Security System Antispam",
+          "description": "Programs or services that preventively block emails that may be classified as spam.",
+          "colour": "#0070C0",
+          "uuid": "a3d3d488-4214-5b56-9a8d-1f15136fdc40"
+        },
+        {
+          "value": "software-security-system_security-information-and-event-management",
+          "expanded": "Software Security System Security Information And Event Management",
+          "description": "Application that collects security data from the components of the information system and presents it as actionable information through a unified interface.",
+          "colour": "#0070C0",
+          "uuid": "7bb32ccd-3c2f-54a3-ae3e-8ed43db6f3ed"
+        },
+        {
+          "value": "software-security-system_proxy",
+          "expanded": "Software Security System Proxy",
+          "description": "Proxy refers to software that receives requests from one or more clients (such as browsers or applications) and forwards them to the intended destinations on the Internet. The proxy can filter, modify, or log both requests and responses, thereby enhancing network security, privacy, and performance.",
+          "colour": "#0070C0",
+          "uuid": "04a75bc2-81dc-50aa-abe5-9ac7e83ec6c0"
+        },
+        {
+          "value": "software-security-system_certification-authority",
+          "expanded": "Software Security System Certification Authority",
+          "description": "Trusted entity that issues and revokes public key certificates.",
+          "colour": "#0070C0",
+          "uuid": "80389159-e616-5892-9780-8263db89cd59"
+        },
+        {
+          "value": "software-security-system_virtual-private-network",
+          "expanded": "Software Security System Virtual Private Network",
+          "description": "Virtual network built on top of existing networks that can provide a secure communication mechanism for IP data and information transmitted between networks.",
+          "colour": "#0070C0",
+          "uuid": "d0daba19-d31c-5122-92f1-080021b83e40"
+        },
+        {
+          "value": "software-security-system_access-management",
+          "expanded": "Software Security System Access Management",
+          "description": "Suite of processes and applications that enable access management by authenticating, authorizing, and verifying access to IT applications and systems.",
+          "colour": "#0070C0",
+          "uuid": "4c555ec7-fe1e-51b6-afce-7a718a8be582"
+        },
+        {
+          "value": "software-security-system_web-application-firewall",
+          "expanded": "Software Security System Web Application Firewall",
+          "description": "Security device that monitors, filters, and blocks HTTP/HTTPS traffic to and from web applications.",
+          "colour": "#0070C0",
+          "uuid": "86e00aec-9829-561d-aac5-fbcf9cc7e7b8"
+        },
+        {
+          "value": "software-security-system_other",
+          "expanded": "Software Security System Other",
+          "description": "Encompasses all Software_Security Systems assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "e77f6cd1-3f6e-5dd7-8b65-9c48ad4904eb"
+        },
+        {
+          "value": "software-data-management_database",
+          "expanded": "Software Data Management Database",
+          "description": "Repository of information or data stored and accessible electronically.",
+          "colour": "#0070C0",
+          "uuid": "1685b44a-6a93-5778-bbd8-efd672644e11"
+        },
+        {
+          "value": "software-data-management_blockchain",
+          "expanded": "Software Data Management Blockchain",
+          "description": "Subfamily of technologies that enable the creation and management of an open and distributed ledger for tracking transactions between parties.",
+          "colour": "#0070C0",
+          "uuid": "b936a301-9b83-51dc-a754-fa647f43a928"
+        },
+        {
+          "value": "software-data-management_data-lake",
+          "expanded": "Software Data Management Data Lake",
+          "description": "Centralized repository that allows storing large amounts of data in their native format.",
+          "colour": "#0070C0",
+          "uuid": "a86202be-6c91-5a2a-9f50-6a0c959c974f"
+        },
+        {
+          "value": "software-data-management_backup",
+          "expanded": "Software Data Management Backup",
+          "description": "Process of securing the information of a computer system by creating copies of files and programs to facilitate their recovery.",
+          "colour": "#0070C0",
+          "uuid": "b444b29a-387e-5fea-a2e0-37073e951b7c"
+        },
+        {
+          "value": "software-data-management_data-vault",
+          "expanded": "Software Data Management Data Vault",
+          "description": "Data warehousing model designed to provide a robust and scalable structure for integrating data from various sources.",
+          "colour": "#0070C0",
+          "uuid": "887f9635-0b4a-5034-8f6f-d8c76745d8a9"
+        },
+        {
+          "value": "software-data-management_other",
+          "expanded": "Software Data Management Other",
+          "description": "Encompasses all Software_Data Management assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "fcdf85e8-4a82-5784-aa10-9e483c31e26c"
+        },
+        {
+          "value": "software-ot_supervisory-control-and-data-acquisition",
+          "expanded": "Software OT Supervisory Control And Data Acquisition",
+          "description": "Computerized system designed to remotely collect and process data, facilitating the control of complex processes and facilities.",
+          "colour": "#0070C0",
+          "uuid": "18a1917a-df37-5add-a57d-3497a70861d3"
+        },
+        {
+          "value": "software-ot_manufacturing-operations-management",
+          "expanded": "Software OT Manufacturing Operations Management",
+          "description": "Systems responsible for managing production operations.",
+          "colour": "#0070C0",
+          "uuid": "6f47c4c9-0dde-5b80-b366-4c3962c7e52e"
+        },
+        {
+          "value": "software-ot_distributed-control-system",
+          "expanded": "Software OT Distributed Control System",
+          "description": "Control system employed in an industrial setting and linked to production systems located within the same geographic area.",
+          "colour": "#0070C0",
+          "uuid": "e7440f4f-935a-5033-b3d2-610cfa5b8d1a"
+        },
+        {
+          "value": "software-ot_building-automation-system",
+          "expanded": "Software OT Building Automation System",
+          "description": "Building automation system designed to monitor and optimize the utilization and efficiency of related subsystems.",
+          "colour": "#0070C0",
+          "uuid": "1b9b2360-dd1f-53ab-8c56-cd2f7f965697"
+        },
+        {
+          "value": "software-ot_physical-access-control-system",
+          "expanded": "Software OT Physical Access Control System",
+          "description": "Electronic physical security system that controls access to protected areas through appropriate authentication and/or authorization.",
+          "colour": "#0070C0",
+          "uuid": "0d26cd01-0f63-5d2f-90be-6e4dcc850abb"
+        },
+        {
+          "value": "software-ot_communication-protocol",
+          "expanded": "Software OT Communication Protocol",
+          "description": "Set of rules that define the communication protocols between two or more entities.",
+          "colour": "#0070C0",
+          "uuid": "17ae5b1a-9f19-55fc-bc01-6b3a57d1c8b8"
+        },
+        {
+          "value": "software-ot_front-end-processor",
+          "expanded": "Software OT Front End Processor",
+          "description": "Gateway that enables the interfacing of HMIs with various subsystems.",
+          "colour": "#0070C0",
+          "uuid": "a18c7fb4-a907-531d-bbad-c8fdaa42e08e"
+        },
+        {
+          "value": "software-ot_historian",
+          "expanded": "Software OT Historian",
+          "description": "Centralized database designed to collect, store, and support data analysis.",
+          "colour": "#0070C0",
+          "uuid": "77d6869d-a35a-52ad-b1aa-33c9fc13a3aa"
+        },
+        {
+          "value": "software-ot_manufacturing-execution-system",
+          "expanded": "Software OT Manufacturing Execution System",
+          "description": "Systems used to collect real-time data for optimizing production.",
+          "colour": "#0070C0",
+          "uuid": "cc1849ca-8930-5cdd-9adf-42205d157422"
+        },
+        {
+          "value": "software-ot_other",
+          "expanded": "Software OT Other",
+          "description": "Encompasses all Software_OT assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "2e339a50-d8a1-5cd4-8783-801b781ea8f9"
+        },
+        {
+          "value": "software-operating-system_firmware",
+          "expanded": "Software Operating System Firmware",
+          "description": "The set of programs or microprograms stored in a read-only memory (ROM).",
+          "colour": "#0070C0",
+          "uuid": "3b790ab3-8fac-5cd3-81f6-901dde8f260a"
+        },
+        {
+          "value": "software-operating-system_windows",
+          "expanded": "Software Operating System Windows",
+          "description": "Proprietary operating system designed by Microsoft.",
+          "colour": "#0070C0",
+          "uuid": "a0de9f29-4caf-5203-b141-fe6c80dcf4ff"
+        },
+        {
+          "value": "software-operating-system_linux",
+          "expanded": "Software Operating System Linux",
+          "description": "Suite of free and open-source Unix-like operating systems based on the Linux Kernel.",
+          "colour": "#0070C0",
+          "uuid": "831a84b3-75de-597d-9233-5a8bdbfbed38"
+        },
+        {
+          "value": "software-operating-system_macos",
+          "expanded": "Software Operating System MacOS",
+          "description": "Proprietary operating system developed by Apple Inc. based on Unix.",
+          "colour": "#0070C0",
+          "uuid": "15563a71-4832-52b1-b269-870f5221c34a"
+        },
+        {
+          "value": "software-operating-system_ios",
+          "expanded": "Software Operating System iOS",
+          "description": "Proprietary mobile operating system developed by Apple exclusively for its own hardware.",
+          "colour": "#0070C0",
+          "uuid": "15decfd6-dddf-5cf9-a4e0-478643dd1b2c"
+        },
+        {
+          "value": "software-operating-system_android",
+          "expanded": "Software Operating System Android",
+          "description": "Proprietary mobile operating system developed by Google.",
+          "colour": "#0070C0",
+          "uuid": "2f444833-85c0-5128-92f0-d2637a6d1a6b"
+        },
+        {
+          "value": "software-operating-system_other",
+          "expanded": "Software Operating System Other",
+          "description": "Encompasses all Software_Operating System assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "21c1d234-9719-5ed4-b04b-51c74623cb47"
+        },
+        {
+          "value": "software-virtualization-software_hypervisor",
+          "expanded": "Software Virtualization Software Hypervisor",
+          "description": "Software, firmware, or hardware that creates and manages virtual machines (VMs).",
+          "colour": "#0070C0",
+          "uuid": "bb82b279-726c-5ad1-800d-30e323756be7"
+        },
+        {
+          "value": "software-virtualization-software_other",
+          "expanded": "Software Virtualization Software Other",
+          "description": "Encompasses all Software_Virtualization Software assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "477dd7e6-38e2-5475-b59d-3409086a91e7"
+        },
+        {
+          "value": "software-iot-iiot_other",
+          "expanded": "Software IOT IIOT Other",
+          "description": "Encompasses all Software_IoT/IIoT assets.",
+          "colour": "#0070C0",
+          "uuid": "0d76a5fc-5fb3-5360-bcac-cb58979b42db"
+        },
+        {
+          "value": "software-application_web-http-https-server",
+          "expanded": "Software Application Web HTTP HTTPS Server",
+          "description": "A device that provides World Wide Web (WWW) services over the Internet.",
+          "colour": "#0070C0",
+          "uuid": "06da84f0-db9a-5c65-9e2d-cead5572aa80"
+        },
+        {
+          "value": "software-application_mail-server-pop-smtp-imap",
+          "expanded": "Software Application Mail Server Pop SMTP IMAP",
+          "description": "A host that provides email functionalities. It stores incoming mail for distribution to users and forwards outgoing mail.",
+          "colour": "#0070C0",
+          "uuid": "fc6b0447-7b2f-5e12-a9ca-91d0f734fc0e"
+        },
+        {
+          "value": "software-application_naming-server-dns",
+          "expanded": "Software Application Naming Server DNS",
+          "description": "A device that maintains a list of domain names, as defined by the Domain Name System (DNS), and translates them into Internet Protocol addresses.",
+          "colour": "#0070C0",
+          "uuid": "976aff3a-b96a-51d0-9c10-19612d31b7c0"
+        },
+        {
+          "value": "software-application_s-ftp-server-application",
+          "expanded": "Software Application SFTP Server Application",
+          "description": "A standard used to access a network, list directories, and copy files. It provides user authentication and allows users to transfer files and list directories.",
+          "colour": "#0070C0",
+          "uuid": "7131f9a5-98f1-520d-8b6a-15279637dd85"
+        },
+        {
+          "value": "software-application_remote-s-shell-server-application ",
+          "expanded": "Software Application Remote S Shell Server Application ",
+          "description": "A program that provides the client with an interactive shell, allowing the remote user to execute commands and manage the system as if they were physically present.",
+          "colour": "#0070C0",
+          "uuid": "758d8e74-2382-50fb-9f68-1b0def2bba5f"
+        },
+        {
+          "value": "software-application_ntp-server-application",
+          "expanded": "Software Application NTP Server Application",
+          "description": "An application that provides time synchronization services over a network using the NTP protocol.",
+          "colour": "#0070C0",
+          "uuid": "bdc0b9d4-aec9-5be3-9193-7486a4da20bd"
+        },
+        {
+          "value": "software-application_chat-irc-server-application",
+          "expanded": "Software Application Chat IRC Server Application",
+          "description": "A program running on a server that facilitates text-based communication among IRC clients.",
+          "colour": "#0070C0",
+          "uuid": "98a58ca8-db87-5c1a-8528-7d9038cb77b1"
+        },
+        {
+          "value": "software-application_rpc-server-application",
+          "expanded": "Software Application RPC Server Application",
+          "description": "It enables the execution of a procedure on a remote server by transferring control flow and some arguments from the client to the server, executing the request, and returning the results.",
+          "colour": "#0070C0",
+          "uuid": "0a5834eb-4695-5005-8ecc-d3771881a501"
+        },
+        {
+          "value": "software-application_ldap-server-application",
+          "expanded": "Software Application LDAP Server Application",
+          "description": "A server-to-server interface for exchanging information between directories.",
+          "colour": "#0070C0",
+          "uuid": "566e9c43-d570-5abb-a659-fbbc59556271"
+        },
+        {
+          "value": "software-application_rtsp-server-application",
+          "expanded": "Software Application RTSP Server Application",
+          "description": "A program running on a server that allows clients to control the playback of streaming audio and video streams.",
+          "colour": "#0070C0",
+          "uuid": "5ecf8b50-364b-5878-942f-1d791b6e572e"
+        },
+        {
+          "value": "software-application_other",
+          "expanded": "Software Application Other",
+          "description": "Encompasses all Software_Application assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "7c5f3d03-4335-5bcf-b8c2-47f1e71fccae"
+        },
+        {
+          "value": "software-other_third-party-library-framework",
+          "expanded": "Software Other Third Party Library Framework",
+          "description": "Reference libraries or frameworks from external sources.",
+          "colour": "#0070C0",
+          "uuid": "90aa2571-40cd-5e88-93e0-c375baa61416"
+        },
+        {
+          "value": "software-other_ai-service",
+          "expanded": "Software Other AI Service",
+          "description": "A service capable of replicating or replacing human activity through decisions made autonomously by computers or machines.",
+          "colour": "#0070C0",
+          "uuid": "3e5fadd0-3a25-530f-acdb-572fece819f6"
+        },
+        {
+          "value": "software-other",
+          "expanded": "Software Other",
+          "description": "Encompasses all Software_Other assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "94681c78-6382-566c-b206-02da25dae23b"
+        },
+        {
+          "value": "information-type_confidential-data",
+          "expanded": "Information Type Confidential Data",
+          "description": "Data that requires authorization to access.",
+          "colour": "#0070C0",
+          "uuid": "b3049b84-8a4a-5eba-8f9a-4f0b2a9751e0"
+        },
+        {
+          "value": "information-type_classified-data",
+          "expanded": "Information Type Classified Data",
+          "description": "Information, act, activity, or document to which one of the secrecy classifications provided by law has been assigned.",
+          "colour": "#0070C0",
+          "uuid": "83688cac-7129-50dd-8125-4be2140c9e46"
+        },
+        {
+          "value": "information-type_internal-use-data",
+          "expanded": "Information Type Internal Use Data",
+          "description": "Data whose access is restricted to internal organization personnel only.",
+          "colour": "#0070C0",
+          "uuid": "25cae898-1cd5-5c62-b560-782d5ba34047"
+        },
+        {
+          "value": "information-type_public-data",
+          "expanded": "Information Type Public Data",
+          "description": "Data that is publicly available both locally and on the internet.",
+          "colour": "#0070C0",
+          "uuid": "973c9bd9-895e-53a9-9574-f57bc152b8a5"
+        },
+        {
+          "value": "information-type_judicial-data",
+          "expanded": "Information Type Judicial Data",
+          "description": "Data that includes information pertaining to judicial matters or current legal proceedings.",
+          "colour": "#0070C0",
+          "uuid": "6bc91a60-d1ac-5490-bd43-e4109da5c549"
+        },
+        {
+          "value": "information-type_other",
+          "expanded": "Information Type Other",
+          "description": "Encompasses all Information Types assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "530a1780-c83d-51b4-abfb-0aac9062d481"
+        },
+        {
+          "value": "people_employee",
+          "expanded": "People Employee",
+          "description": "Employees who work under a subordinate arrangement and receive remuneration for their work.",
+          "colour": "#0070C0",
+          "uuid": "72b5aaeb-c63d-5b62-8f21-b88acfd21273"
+        },
+        {
+          "value": "people_contractor",
+          "expanded": "People Contractor",
+          "description": "An organization that offers expertise or services to other organizations for a defined period under a contractual agreement.",
+          "colour": "#0070C0",
+          "uuid": "ea5e374e-3c87-5135-8954-6f4953c52ef8"
+        },
+        {
+          "value": "people_external-consultant",
+          "expanded": "People External Consultant",
+          "description": "Professionals who offer expertise or services for a defined period under a contractual agreement.",
+          "colour": "#0070C0",
+          "uuid": "f0884b86-bd12-5dab-8896-e98a9dfb8b6d"
+        },
+        {
+          "value": "people_other",
+          "expanded": "People Other",
+          "description": "Encompasses all People assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "fa1a08f7-eef5-5dcb-9337-6f06f0995855"
+        },
+        {
+          "value": "location_headquarter",
+          "expanded": "Location Headquarter",
+          "description": "A physical facility intended to house personnel and/or activities associated with the organization's operational activities.",
+          "colour": "#0070C0",
+          "uuid": "737e8d0f-d428-5461-be2b-8d76d4d984cc"
+        },
+        {
+          "value": "location_data-center",
+          "expanded": "Location Data Center",
+          "description": "Centralized facilities that host processing equipment, networking gear, and network infrastructure.",
+          "colour": "#0070C0",
+          "uuid": "71be5daf-5cad-56f5-ba38-e9af7a230cb9"
+        },
+        {
+          "value": "location_management-infrastructure",
+          "expanded": "Location Management Infrastructure",
+          "description": "A physical object involved in controlling, monitoring, or analyzing production processes or supporting general activities.",
+          "colour": "#0070C0",
+          "uuid": "f8cba857-ed10-58d7-b54e-123e5bb22426"
+        },
+        {
+          "value": "location_other",
+          "expanded": "Location Other",
+          "description": "Encompasses all Location assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "072d6a76-0ffa-5622-baf3-e991cef50533"
+        },
+        {
+          "value": "other_policy-and-procedure",
+          "expanded": "Other Policy And Procedure",
+          "description": "Documentation that includes the organization's general principles (Policies) or serves a limited purpose (Procedures).",
+          "colour": "#0070C0",
+          "uuid": "56a23d60-f2ff-5d1c-a90b-b9beae7b59e4"
+        },
+        {
+          "value": "other_documentation",
+          "expanded": "Other Documentation",
+          "description": "Documentation refers to all relevant documents that support the organization's business processes.",
+          "colour": "#0070C0",
+          "uuid": "58cc2b93-fa2b-5d9c-85c2-38e2f2f6a9bb"
+        },
+        {
+          "value": "other_privileged-account",
+          "expanded": "Other Privileged Account",
+          "description": "A privileged account is defined as a user account that holds a high-level role in terms of authorization in the management of a computer system.",
+          "colour": "#0070C0",
+          "uuid": "458706cf-604c-551f-8bb8-9783eb9781b8"
+        },
+        {
+          "value": "other_unprivileged-account",
+          "expanded": "Other Unprivileged Account",
+          "description": "A 'non-privileged account' refers to a user with restricted access and modification permissions for a system or network infrastructure.",
+          "colour": "#0070C0",
+          "uuid": "ab5186f2-3e79-5869-968a-24badbb46ae9"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Encompasses all additional assets that cannot be identified with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "609939a6-c63e-5e03-a7cb-98c2fba2751a"
+        }
+      ]
+    },
+    {
+      "predicate": "outlook",
+      "entry": [
+        {
+          "value": "improving",
+          "expanded": "Improving",
+          "description": "An ongoing cyber event for which a reduction in impact is anticipated within the next six hours from the time of detection.",
+          "colour": "#0070C0",
+          "uuid": "5548e2dc-b77a-5da1-9609-2cb0524b32b0"
+        },
+        {
+          "value": "stable",
+          "expanded": "Stable",
+          "description": "An ongoing cyber event for which the impact is expected to remain unchanged within the next six hours from the time of detection.",
+          "colour": "#0070C0",
+          "uuid": "32b64337-417b-50e9-8dd7-a8594fdc0ee4"
+        },
+        {
+          "value": "worsening",
+          "expanded": "Worsening",
+          "description": "An ongoing cyber event for which the impact is expected to worsen within the next six hours from the time of detection.",
+          "colour": "#0070C0",
+          "uuid": "bc8331c8-7b35-52fd-b62c-4ac75f733f78"
+        }
+      ]
+    },
+    {
+      "predicate": "physical-security",
+      "entry": [
+        {
+          "value": "sabotage",
+          "expanded": "Sabotage",
+          "description": "Any intentional action aimed at damaging, destroying, or altering the functioning of an IT resource or parts thereof. ",
+          "colour": "#0070C0",
+          "uuid": "64c60643-54ce-5fe2-be58-44c8949c1120"
+        },
+        {
+          "value": "theft-and-burglary",
+          "expanded": "Theft And Burglary",
+          "description": "Cyber events resulting from the theft of an IT asset or parts thereof.",
+          "colour": "#0070C0",
+          "uuid": "e791db5f-011d-5ec3-bf64-f036fbd72e3c"
+        },
+        {
+          "value": "unauthorized-access",
+          "expanded": "Unauthorized Access",
+          "description": "Cyber events that occur when anyone gains physical access to an IT asset without authorization.",
+          "colour": "#0070C0",
+          "uuid": "8bd982f0-d070-574d-8ca1-cddd32a7d7c2"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Physical security that are not identifiable by the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "fe829f58-76c1-5c64-8d23-b914f135bc90"
+        }
+      ]
+    },
+    {
+      "predicate": "vector",
+      "entry": [
+        {
+          "value": "abuse-of-functionality",
+          "expanded": "Abuse Of Functionality",
+          "description": "Cyber events in which a malicious actor intentionally and unconventionally exploits the functionalities provided by an application or website.",
+          "colour": "#0070C0",
+          "uuid": "91aca4a6-ad5d-52e9-8f9d-4c26f9235ef1"
+        },
+        {
+          "value": "compromised-domain",
+          "expanded": "Compromised Domain",
+          "description": "The event has affected a legitimate internet domain that is being used to carry out cyber attacks.",
+          "colour": "#0070C0",
+          "uuid": "25dc6fa5-6c47-56ed-9f4d-97618d6d03ad"
+        },
+        {
+          "value": "drive-by-compromise",
+          "expanded": "Drive By Compromise",
+          "description": "A cyber events in which a user, while browsing a website, is exposed to potential attacks, such as through the exploitation of application vulnerabilities of the device used or through the use of malicious code.",
+          "colour": "#0070C0",
+          "uuid": "7d99b08e-4ba9-5a86-8dc8-81fb17e9abb1"
+        },
+        {
+          "value": "e-mail",
+          "expanded": "E-Mail",
+          "description": "Cyber events that utilize an e-mail inbox (PEC, PEL, or PEO) as an attack vector.",
+          "colour": "#0070C0",
+          "uuid": "b2a8b90c-6cca-54e9-a026-79a4ecf9ff2e"
+        },
+        {
+          "value": "exploiting-vulnerabilities",
+          "expanded": "Exploiting Vulnerabilities",
+          "description": "Cyber events in which an attacker attempts or succeeds in exploiting vulnerabilities of an information asset, whether from the internet or an internal network, in order to gain illicit access and control.",
+          "colour": "#0070C0",
+          "uuid": "70614f11-91be-5e57-94d5-df9d5fa426fa"
+        },
+        {
+          "value": "external-remote-services",
+          "expanded": "External Remote Services",
+          "description": "Cyber events in which a malicious actor exploits exposed remote services to access and/or persist within an information asset.",
+          "colour": "#0070C0",
+          "uuid": "4021f71d-507e-5666-9692-b58db7774e8b"
+        },
+        {
+          "value": "hardware-additions",
+          "expanded": "Hardware Additions",
+          "description": "Cyber events in which a malicious actor utilizes hardware devices in an unauthorized manner to perform malicious or illicit actions, such as accessing an information asset or intercepting sensitive data. ",
+          "colour": "#0070C0",
+          "uuid": "e422495d-a70a-5044-85de-af39f0720a42"
+        },
+        {
+          "value": "social-media",
+          "expanded": "Social Media",
+          "description": "Cyber events that utilize a social media platform as an attack vector to perpetrate malicious activity.",
+          "colour": "#0070C0",
+          "uuid": "acd16c29-3822-5183-b5a8-8eea438eeeb2"
+        },
+        {
+          "value": "supply-chain",
+          "expanded": "Supply Chain",
+          "description": "Cyber events that utilize, as attack vector, products or services provided by third parties within the supply chain which exhibit vulnerabilities or have been compromised prior to distribution to the end user. ",
+          "colour": "#0070C0",
+          "uuid": "63790f2b-3ae1-5784-9d23-1e737c390e8d"
+        },
+        {
+          "value": "valid-accounts",
+          "expanded": "Valid Accounts",
+          "description": "Cyber events that utilize a valid account as an attack vector. The attacker can exploit illicitly the permissions of the affected user to perform malicious activities.",
+          "colour": "#0070C0",
+          "uuid": "4ee0c311-6b7e-5870-8387-d1e31ac5ba98"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "Cyber events related to Vectors that are not identifiable with the other values defined in the subset.",
+          "colour": "#0070C0",
+          "uuid": "585e545a-439c-5a8a-b80d-57bd235f7d65"
+        }
+      ]
+    }
+  ],
+  "uuid": "c9127473-ee24-5fc7-87cb-58bd7e93c42e"
+}
