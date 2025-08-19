@@ -2,7 +2,7 @@
   "namespace": "dark-web",
   "expanded": "Dark Web",
   "description": "Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.",
-  "version": 9,
+  "version": 10,
   "predicates": [
     {
       "value": "topic",
@@ -112,15 +112,15 @@
           "uuid": "01a8e7dc-ab88-55c1-8fba-6cc748aec64d"
         },
         {
-          "value": "pornography-child-exploitation",
-          "expanded": "pornographyChild(ChildExploitation)",
-          "description": "Child abuse materials (aka child pornography), including 'fantasy' fiction materials, CGI. Also includes the provision/offering of child abuse materials and/or activities",
+          "value": "child-sexual-abuse-material",
+          "expanded": "ChildSexualAbuseMaterial",
+          "description": "Child abuse materials, including 'fantasy' fiction materials, CGI. Also includes the provision/offering of child abuse materials and/or activities",
           "uuid": "68eabcbd-86eb-59d2-8ad5-a0c9449495fe"
         },
         {
           "value": "pornography-illicit-or-illegal",
           "expanded": "pornographyIllicitOrIllegal",
-          "description": "Illegal pornography NOT including children/child abuse. Includes bestiality, stolen/revenge porn, hidden cameras etc.",
+          "description": "Illegal pornography NOT including children/child abuse materials. Includes bestiality, stolen/revenge porn, hidden cameras etc.",
           "uuid": "54cd953b-e51b-5748-9dff-07340492114a"
         },
         {
