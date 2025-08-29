@@ -244,11 +244,17 @@
           "expanded": "Red teaming",
           "description": "An exercise which can be classified as red teaming.",
           "uuid": "15fc6030-d462-58b2-8bae-d4b7a1bcdced"
+        },
+        {
+          "value": "ngsoti",
+          "expanded": "NGSOTI",
+          "description": "An exercise done in the scope of the NGSOTI infrastructure",
+          "uuid": "e3127199-7ab3-400d-8d32-4ab91a467633"
         }
       ]
     }
   ],
-  "version": 12,
+  "version": 13,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise",
