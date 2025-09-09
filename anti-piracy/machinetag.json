@@ -1,7 +1,7 @@
 {
   "namespace": "anti-piracy",
   "description": "Taxonomy for anti-piracy",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "type",
