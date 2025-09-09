@@ -74,6 +74,11 @@
       "version": 4
     },
     {
+      "description": "Taxonomy for anti-piracy",
+      "name": "anti-piracy",
+      "version": 2
+    },
+    {
       "description": "A pre-approved category of action for indicators being shared with partners (MIMIC).",
       "name": "approved-category-of-action",
       "version": 1
@@ -790,5 +795,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20250829"
+  "version": "20250909"
 }
