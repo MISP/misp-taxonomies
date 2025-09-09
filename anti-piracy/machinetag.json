@@ -86,6 +86,46 @@
         ]
     },
     {
+        "predicate": "content-type",
+        "entry": [
+            {
+                "value": "film",
+                "expanded": "Film",
+                "uuid": "ed5ecb1d-50ed-4146-bb37-f7a60c36cfb7"
+            },
+            {
+                "value": "music",
+                "expanded": "Music",
+                "uuid": "10383187-77c6-4777-bf9c-5879c6aaa177"
+            },
+            {
+                "value": "game",
+                "expanded": "Game",
+                "uuid": "3c7c1c79-ac9e-4410-bd23-774fa5bab39c"
+            },
+            {
+                "value": "book",
+                "expanded": "Book",
+                "uuid": "5df379c9-111c-4277-97db-dbb1dc4d3bbc"
+            },
+            {
+                "value": "software",
+                "expanded": "Software",
+                "uuid": "bfa27f7a-a01e-4881-9d0b-1dc676964740"
+            },
+            {
+                "value": "gambling site",
+                "expanded": "Gambling Site",
+                "uuid": "ad330a1e-9cc5-4038-8c00-b85b05bf46d3"
+            },
+            {
+                "value": "other",
+                "expanded": "Other",
+                "uuid": "80650d02-7686-4deb-a97b-86466f58ecb6"
+            }
+        ]
+    },
+    {
         "predicate": "delivery-method",
         "entry": [
             {
