@@ -1,0 +1,73 @@
+{
+  "namespace": "meteorstorm",
+  "expanded": "METEORSTORM",
+  "description": "The METEORSTORM taxonomy models converged space platform environments, functional segments, services, assets, and analytic constructs to support threat-informed engineering, detection, and resilience.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "pce",
+      "expanded": "Primary Capability Environment (PCE)",
+      "description": "The Primary Capability Environment (PCE) layer defines the physical environments where the space platform segments are deployed.",
+      "values": [
+        { "value": "terrestrial", "expanded": "Terrestrial", "description": "Surface-based operational zones on planetary bodies." },
+        { "value": "aquatic", "expanded": "Aquatic", "description": "Water-based operational zones, including but not limited to Earth's maritime domains." },
+        { "value": "air", "expanded": "Air", "description": "Atmospheric operational zones spanning low, high, and near-space regions." },
+        { "value": "orbital", "expanded": "Orbital", "description": "Operational zones within planetary or satellite orbits." },
+        { "value": "deep-space", "expanded": "Deep Space", "description": "Operational zones beyond planetary orbital regimes." }
+      ]
+    },
+    {
+      "value": "segment",
+      "expanded": "Segment",
+      "description": "The Segment layer defines the functional grouping of services and assets that provide an operational requirement for a space platform.",
+      "values": [
+        { "value": "launch", "expanded": "Launch", "description": "Surface-based services and assets for primary launch operations." },
+        { "value": "link", "expanded": "Link", "description": "Services and assets enabling platform communications across signal paths." },
+        { "value": "ground", "expanded": "Ground", "description": "Surface-based services and assets for primary platform operations, serving as the primary locus of control plane activity." },
+        { "value": "user", "expanded": "User", "description": "Services and assets for primary end-user operations." },
+        { "value": "aquatic", "expanded": "Aquatic", "description": "Water-based services and assets for primary platform operations, not limited to Earth's maritime domains." },
+        { "value": "low-altitude", "expanded": "Low Altitude", "description": "Aerial services and assets in the lower atmosphere." },
+        { "value": "high-altitude", "expanded": "High Altitude", "description": "Aerial services and assets above the lower atmosphere but below near space." },
+        { "value": "near-space", "expanded": "Near Space", "description": "Aerial services and assets above high altitude and below orbital regions." },
+        { "value": "space", "expanded": "Space", "description": "Services and assets operating in planetary or satellite orbits." },
+        { "value": "deep-space", "expanded": "Deep Space", "description": "Services and assets operating beyond planetary orbital regimes." }
+      ]
+    },
+    {
+      "value": "service",
+      "expanded": "Service",
+      "description": "The Service Layer defines the services delivered by hardware, firmware, software, data, signal, or hybrid assets within a space platform. Each service may operate within a single segment or be distributed across multiple segments.",
+      "values": [
+        { "value": "control-plane", "expanded": "Control Plane", "description": "Services for managing and orchestrating platform control functions." },
+        { "value": "data-plane", "expanded": "Data Plane", "description": "Services for managing and orchestrating mission product functions." },
+        { "value": "hybrid", "expanded": "Hybrid", "description": "Services integrating both control and data plane functionalities." }
+      ]
+    },
+    {
+      "value": "asset",
+      "expanded": "Asset",
+      "description": "The Asset Layer defines the hardware, firmware, software, data, signal, or hybrid elements that enable and sustain space platform services.",
+      "values": [
+        { "value": "hardware", "expanded": "Hardware", "description": "Physical components supporting platform operations." },
+        { "value": "firmware", "expanded": "Firmware", "description": "Embedded control code governing hardware functions." },
+        { "value": "software", "expanded": "Software", "description": "Applications and logic executing operational tasks." },
+        { "value": "data", "expanded": "Data", "description": "Information generated, processed, or consumed by the platform." },
+        { "value": "signal", "expanded": "Signal", "description": "Communication channels and transmission frequencies." },
+        { "value": "hybrid", "expanded": "Hybrid", "description": "Composite elements combining multiple asset types." }
+      ]
+    },
+    {
+      "value": "analytic",
+      "expanded": "Analytic",
+      "description": "The Analytic layer provides a means to integrate security threats, resilience measures, detection signatures, indicators of attack, and indicators of compromise.",
+      "values": [
+        { "value": "attack-path", "expanded": "Attack Path", "description": "Known or modeled attack path for a converged space system." },
+        { "value": "ioc", "expanded": "Indicator of Compromise (IoC)", "description": "Verifiable indication that the platform has been compromised." },
+        { "value": "ioa", "expanded": "Indicator of Attack (IoA)", "description": "Verifiable indication that the platform has been targeted." },
+        { "value": "threat", "expanded": "Threat", "description": "Known or modeled threat to the platform." },
+        { "value": "detection-signature", "expanded": "Detection Signature", "description": "Pattern, signal, or logic that triggers on contextualized threat behavior." },
+        { "value": "resilience-measure", "expanded": "Resilience Measure", "description": "Protective capability ensuring resistance or recovery from threats." }
+      ]
+    }
+  ]
+}
