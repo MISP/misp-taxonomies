@@ -1,63 +1,40 @@
 {
   "namespace": "meteorstorm",
-  "expanded": "Meteorstorm Space Platform Taxonomy",
-  "description": "Machine tags for PCE, Segment, Service, Asset, and Analytic.",
+  "expanded": "METEORSTORM",
+  "description": "MeteorStorm taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment, Service, Asset, and Analytic.",
   "version": 1,
-  "type": "machinetag",
-  "predicates": [
-    {
-      "value": "pce",
-      "expanded": "The Primary Capability Environment (PCE) layer defines the physical environments where the space platform segments are deployed."
-    },
-    {
-      "value": "segment",
-      "expanded": "The Segment layer defines the functional grouping of services and assets that provide an operational requirement for a space platform."
-    },
-    {
-      "value": "service",
-      "expanded": "The Service Layer defines the services delivered by hardware, firmware, software, data, signal, or hybrid assets within a space platform. Each service may operate within a single segment or be distributed across multiple segments."
-    },
-    {
-      "value": "asset",
-      "expanded": "The Asset Layer defines the hardware, firmware, software, data, signal, or hybrid elements that enable and sustain space platform services."
-    },
-    {
-      "value": "analytic",
-      "expanded": "The Analytic layer provides a means to integrate security threats, resilience measures, detection signatures, indicators of attack, and indicators of compromise."
-    }
-  ],
   "values": [
-    { "predicate": "pce", "entry": "terrestrial",  "expanded": "Surface-based operational zones on planetary bodies." },
-    { "predicate": "pce", "entry": "aquatic",      "expanded": "Water-based operational zones, including but not limited to Earth's maritime domains." },
-    { "predicate": "pce", "entry": "air",          "expanded": "Atmospheric operational zones spanning low, high, and near-space regions." },
-    { "predicate": "pce", "entry": "orbital",      "expanded": "Operational zones within planetary or satellite orbits." },
-    { "predicate": "pce", "entry": "deep-space",   "expanded": "Operational zones beyond planetary orbital regimes." },
+    { "value": "PCE-TE", "expanded": "Terrestrial Environment", "description": "Surface-based operational zones on planetary bodies." },
+    { "value": "PCE-AQ", "expanded": "Aquatic Environment", "description": "Water-based operational zones, including but not limited to Earth's maritime domains." },
+    { "value": "PCE-AI", "expanded": "Air Environment", "description": "Atmospheric operational zones spanning low, high, and near-space regions." },
+    { "value": "PCE-OR", "expanded": "Orbital Environment", "description": "Operational zones within planetary or satellite orbits." },
+    { "value": "PCE-DS", "expanded": "Deep Space Environment", "description": "Operational zones beyond planetary orbital regimes." },
 
-    { "predicate": "segment", "entry": "launch",        "expanded": "Surface-based services and assets for primary launch operations." },
-    { "predicate": "segment", "entry": "link",          "expanded": "Services and assets enabling platform communications across signal paths." },
-    { "predicate": "segment", "entry": "ground",        "expanded": "Surface-based services and assets for primary platform operations, serving as the primary locus of control plane activity." },
-    { "predicate": "segment", "entry": "user",          "expanded": "Services and assets for primary end-user operations." },
-    { "predicate": "segment", "entry": "low-altitude",  "expanded": "Aerial services and assets in the lower atmosphere." },
-    { "predicate": "segment", "entry": "high-altitude", "expanded": "Aerial services and assets above the lower atmosphere but below near space." },
-    { "predicate": "segment", "entry": "near-space",    "expanded": "Aerial services and assets above high altitude and below orbital regions." },
-    { "predicate": "segment", "entry": "space",         "expanded": "Services and assets operating in planetary or satellite orbits." },
+    { "value": "SEG-LA", "expanded": "Launch Segment", "description": "Surface-based services and assets for primary launch operations." },
+    { "value": "SEG-GR", "expanded": "Ground Segment", "description": "Surface-based services and assets for primary platform operations, serving as the primary locus of control plane activity." },
+    { "value": "SEG-US", "expanded": "User Segment", "description": "Services and assets for primary end-user operations." },
+    { "value": "SEG-AQ", "expanded": "Aquatic Segment", "description": "Water-based services and assets for primary platform operations, not limited to Earth's maritime domains." },
+    { "value": "SEG-LO", "expanded": "Low Altitude Segment", "description": "Aerial services and assets in the lower atmosphere." },
+    { "value": "SEG-HI", "expanded": "High Altitude Segment", "description": "Aerial services and assets above the lower atmosphere but below near space." },
+    { "value": "SEG-NE", "expanded": "Near Space Segment", "description": "Aerial services and assets above high altitude and below orbital regions." },
+    { "value": "SEG-SP", "expanded": "Space Segment", "description": "Services and assets operating in planetary or satellite orbits." },
+    { "value": "SEG-DE", "expanded": "Deep Space Segment", "description": "Services and assets operating beyond planetary orbital regimes." },
 
-    { "predicate": "service", "entry": "control-plane", "expanded": "Services for managing and orchestrating platform control functions." },
-    { "predicate": "service", "entry": "data-plane",    "expanded": "Services for managing and orchestrating mission product functions." },
-    { "predicate": "service", "entry": "hybrid",        "expanded": "Services integrating both control and data plane functionalities." },
+    { "value": "SVC-CP", "expanded": "Control Plane", "description": "Services for managing and orchestrating platform control functions." },
+    { "value": "SVC-DP", "expanded": "Data Plane", "description": "Services for managing and orchestrating mission product functions." },
+    { "value": "SVC-HY", "expanded": "Hybrid Service", "description": "Services integrating both control and data plane functionalities." },
 
-    { "predicate": "asset", "entry": "hardware", "expanded": "Physical components supporting platform operations." },
-    { "predicate": "asset", "entry": "firmware", "expanded": "Embedded control code governing hardware functions." },
-    { "predicate": "asset", "entry": "software", "expanded": "Applications and logic executing operational tasks." },
-    { "predicate": "asset", "entry": "data",     "expanded": "Information generated, processed, or consumed by the platform." },
-    { "predicate": "asset", "entry": "signal",   "expanded": "Communication channels and transmission frequencies." },
-    { "predicate": "asset", "entry": "hybrid",   "expanded": "Composite elements combining multiple asset types." },
+    { "value": "AST-HW", "expanded": "Hardware Asset", "description": "Physical components supporting platform operations." },
+    { "value": "AST-FW", "expanded": "Firmware Asset", "description": "Embedded control code governing hardware functions." },
+    { "value": "AST-SW", "expanded": "Software Asset", "description": "Applications and logic executing operational tasks." },
+    { "value": "AST-DA", "expanded": "Data Asset", "description": "Information generated, processed, or consumed by the platform." },
+    { "value": "AST-SI", "expanded": "Signal Asset", "description": "Communication channels and transmission frequencies." },
+    { "value": "AST-HY", "expanded": "Hybrid Asset", "description": "Composite elements combining multiple asset types." },
 
-    { "predicate": "analytic", "entry": "attack-path",          "expanded": "Known or modeled attack path for a converged space system." },
-    { "predicate": "analytic", "entry": "ioc",                  "expanded": "Verifiable indication that the platform has been compromised." },
-    { "predicate": "analytic", "entry": "ioa",                  "expanded": "Verifiable indication that the platform has been targeted." },
-    { "predicate": "analytic", "entry": "threat",               "expanded": "Known or modeled threat to the platform." },
-    { "predicate": "analytic", "entry": "detection-signature",  "expanded": "Pattern, signal, or logic that triggers on contextualized threat behavior." },
-    { "predicate": "analytic", "entry": "resilience-measure",   "expanded": "Protective capability ensuring resistance or recovery from threats." }
+    { "value": "AN-IOC", "expanded": "Indicator of Compromise", "description": "Verifiable indication that the platform has been compromised." },
+    { "value": "AN-IOA", "expanded": "Indicator of Attack", "description": "Verifiable indication that the platform has been targeted." },
+    { "value": "AN-THR", "expanded": "Threat", "description": "Known or modeled threat to the platform." },
+    { "value": "AN-DET", "expanded": "Detection Signature", "description": "Pattern, signal, or logic that triggers on contextualized threat behavior." },
+    { "value": "AN-RES", "expanded": "Resilience Measure", "description": "Protective capability ensuring resistance or recovery from threats." }
   ]
 }
