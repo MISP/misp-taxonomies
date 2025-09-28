@@ -1,0 +1,53 @@
+{
+  "name": "METEORSTORM",
+  "namespace": "meteorstorm",
+  "expanded": "METEORSTORM",
+  "description": "The METEORSTORM taxonomy models converged space platform environments, functional segments, services, assets, and analytic constructs to support threat-informed engineering, detection, and resilience.",
+  "version": 1,
+  "refs": [
+    "https://start.ethicallyhacking.space/"
+  ],
+  "predicates": [
+    { "value": "pce", "expanded": "Primary Capability Environment (PCE)" },
+    { "value": "segment", "expanded": "Segment" },
+    { "value": "service", "expanded": "Service" },
+    { "value": "asset", "expanded": "Asset" },
+    { "value": "analytic", "expanded": "Analytic" }
+  ],
+  "values": [
+    { "predicate": "pce", "entry": "terrestrial", "expanded": "Terrestrial" },
+    { "predicate": "pce", "entry": "aquatic", "expanded": "Aquatic" },
+    { "predicate": "pce", "entry": "air", "expanded": "Air" },
+    { "predicate": "pce", "entry": "orbital", "expanded": "Orbital" },
+    { "predicate": "pce", "entry": "deep-space", "expanded": "Deep Space" },
+
+    { "predicate": "segment", "entry": "launch", "expanded": "Launch" },
+    { "predicate": "segment", "entry": "link", "expanded": "Link" },
+    { "predicate": "segment", "entry": "ground", "expanded": "Ground" },
+    { "predicate": "segment", "entry": "user", "expanded": "User" },
+    { "predicate": "segment", "entry": "aquatic", "expanded": "Aquatic" },
+    { "predicate": "segment", "entry": "low-altitude", "expanded": "Low Altitude" },
+    { "predicate": "segment", "entry": "high-altitude", "expanded": "High Altitude" },
+    { "predicate": "segment", "entry": "near-space", "expanded": "Near Space" },
+    { "predicate": "segment", "entry": "space", "expanded": "Space" },
+    { "predicate": "segment", "entry": "deep-space", "expanded": "Deep Space" },
+
+    { "predicate": "service", "entry": "control-plane", "expanded": "Control Plane" },
+    { "predicate": "service", "entry": "data-plane", "expanded": "Data Plane" },
+    { "predicate": "service", "entry": "hybrid", "expanded": "Hybrid" },
+
+    { "predicate": "asset", "entry": "hardware", "expanded": "Hardware" },
+    { "predicate": "asset", "entry": "firmware", "expanded": "Firmware" },
+    { "predicate": "asset", "entry": "software", "expanded": "Software" },
+    { "predicate": "asset", "entry": "data", "expanded": "Data" },
+    { "predicate": "asset", "entry": "signal", "expanded": "Signal" },
+    { "predicate": "asset", "entry": "hybrid", "expanded": "Hybrid" },
+
+    { "predicate": "analytic", "entry": "attack-path", "expanded": "Attack Path" },
+    { "predicate": "analytic", "entry": "ioc", "expanded": "Indicator of Compromise (IoC)" },
+    { "predicate": "analytic", "entry": "ioa", "expanded": "Indicator of Attack (IoA)" },
+    { "predicate": "analytic", "entry": "threat", "expanded": "Threat" },
+    { "predicate": "analytic", "entry": "detection-signature", "expanded": "Detection Signature" },
+    { "predicate": "analytic", "entry": "resilience-measure", "expanded": "Resilience Measure" }
+  ]
+}
