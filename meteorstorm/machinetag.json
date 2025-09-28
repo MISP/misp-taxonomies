@@ -3,38 +3,232 @@
   "expanded": "METEORSTORM",
   "description": "MeteorStorm taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment, Service, Asset, and Analytic.",
   "version": 1,
+  "predicates": [
+    {
+      "value": "PCE",
+      "expanded": "Primary Capability Environment",
+      "description": "Operational zone in which a capability primarily exists or is exercised.",
+      "uuid": "96dde759-25aa-5a0d-9c83-f326449d70cd"
+    },
+    {
+      "value": "SEG",
+      "expanded": "Segment Layer",
+      "description": "Service and asset enclaves that compose the system across environments.",
+      "uuid": "0fe0f918-425a-5a39-ab2c-c6b3c8739b42"
+    },
+    {
+      "value": "SVC",
+      "expanded": "Service Layer",
+      "description": "Functional planes that organize control and data responsibilities.",
+      "uuid": "c3710a5c-31f7-5336-8d63-37e2b53de6db"
+    },
+    {
+      "value": "AST",
+      "expanded": "Asset Layer",
+      "description": "Asset classes composing the system and its interfaces.",
+      "uuid": "7b9b8a06-3a11-53d3-8f13-646161f13b54"
+    },
+    {
+      "value": "AN",
+      "expanded": "Analytic Layer",
+      "description": "Analytic constructs for threat, detection, and resilience.",
+      "uuid": "5e1f444b-5e83-5232-8a98-45a2fa894af2"
+    }
+  ],
   "values": [
-    { "value": "PCE-TE", "expanded": "Terrestrial Environment", "description": "Surface-based operational zones on planetary bodies." },
-    { "value": "PCE-AQ", "expanded": "Aquatic Environment", "description": "Water-based operational zones, including but not limited to Earth's maritime domains." },
-    { "value": "PCE-AI", "expanded": "Air Environment", "description": "Atmospheric operational zones spanning low, high, and near-space regions." },
-    { "value": "PCE-OR", "expanded": "Orbital Environment", "description": "Operational zones within planetary or satellite orbits." },
-    { "value": "PCE-DS", "expanded": "Deep Space Environment", "description": "Operational zones beyond planetary orbital regimes." },
-
-    { "value": "SEG-LA", "expanded": "Launch Segment", "description": "Surface-based services and assets for primary launch operations." },
-    { "value": "SEG-GR", "expanded": "Ground Segment", "description": "Surface-based services and assets for primary platform operations, serving as the primary locus of control plane activity." },
-    { "value": "SEG-US", "expanded": "User Segment", "description": "Services and assets for primary end-user operations." },
-    { "value": "SEG-AQ", "expanded": "Aquatic Segment", "description": "Water-based services and assets for primary platform operations, not limited to Earth's maritime domains." },
-    { "value": "SEG-LO", "expanded": "Low Altitude Segment", "description": "Aerial services and assets in the lower atmosphere." },
-    { "value": "SEG-HI", "expanded": "High Altitude Segment", "description": "Aerial services and assets above the lower atmosphere but below near space." },
-    { "value": "SEG-NE", "expanded": "Near Space Segment", "description": "Aerial services and assets above high altitude and below orbital regions." },
-    { "value": "SEG-SP", "expanded": "Space Segment", "description": "Services and assets operating in planetary or satellite orbits." },
-    { "value": "SEG-DE", "expanded": "Deep Space Segment", "description": "Services and assets operating beyond planetary orbital regimes." },
-
-    { "value": "SVC-CP", "expanded": "Control Plane", "description": "Services for managing and orchestrating platform control functions." },
-    { "value": "SVC-DP", "expanded": "Data Plane", "description": "Services for managing and orchestrating mission product functions." },
-    { "value": "SVC-HY", "expanded": "Hybrid Service", "description": "Services integrating both control and data plane functionalities." },
-
-    { "value": "AST-HW", "expanded": "Hardware Asset", "description": "Physical components supporting platform operations." },
-    { "value": "AST-FW", "expanded": "Firmware Asset", "description": "Embedded control code governing hardware functions." },
-    { "value": "AST-SW", "expanded": "Software Asset", "description": "Applications and logic executing operational tasks." },
-    { "value": "AST-DA", "expanded": "Data Asset", "description": "Information generated, processed, or consumed by the platform." },
-    { "value": "AST-SI", "expanded": "Signal Asset", "description": "Communication channels and transmission frequencies." },
-    { "value": "AST-HY", "expanded": "Hybrid Asset", "description": "Composite elements combining multiple asset types." },
-
-    { "value": "AN-IOC", "expanded": "Indicator of Compromise", "description": "Verifiable indication that the platform has been compromised." },
-    { "value": "AN-IOA", "expanded": "Indicator of Attack", "description": "Verifiable indication that the platform has been targeted." },
-    { "value": "AN-THR", "expanded": "Threat", "description": "Known or modeled threat to the platform." },
-    { "value": "AN-DET", "expanded": "Detection Signature", "description": "Pattern, signal, or logic that triggers on contextualized threat behavior." },
-    { "value": "AN-RES", "expanded": "Resilience Measure", "description": "Protective capability ensuring resistance or recovery from threats." }
-  ]
+    {
+      "predicate": "PCE",
+      "entry": [
+        {
+          "value": "PCE-TE",
+          "expanded": "Terrestrial Environment",
+          "description": "Surface-based operational zones on planetary bodies.",
+          "uuid": "2e5b0ff0-9591-5a10-b6ae-f6aaf9f0f6f7"
+        },
+        {
+          "value": "PCE-AQ",
+          "expanded": "Aquatic Environment",
+          "description": "Water-based operational zones, including but not limited to Earth's maritime domains.",
+          "uuid": "d35b820f-6a13-57e1-9e25-9f9f3b2a9f7d"
+        },
+        {
+          "value": "PCE-AI",
+          "expanded": "Air Environment",
+          "description": "Atmospheric operational zones spanning low, high, and near-space regions.",
+          "uuid": "6f0a1a9a-2a8b-58e9-8b3b-6e6a0d6f1f77"
+        },
+        {
+          "value": "PCE-OR",
+          "expanded": "Orbital Environment",
+          "description": "Operational zones within planetary or satellite orbits.",
+          "uuid": "a2a3b3a2-5d12-5d4a-9a0e-6a3a8e84a9b2"
+        },
+        {
+          "value": "PCE-DS",
+          "expanded": "Deep Space Environment",
+          "description": "Operational zones beyond planetary orbital regimes.",
+          "uuid": "d0b8b7e8-6a50-5f57-8a5c-7d2b9b2f1f1a"
+        }
+      ]
+    },
+    {
+      "predicate": "SEG",
+      "entry": [
+        {
+          "value": "SEG-LA",
+          "expanded": "Launch Segment",
+          "description": "Surface-based services and assets for primary launch operations.",
+          "uuid": "9fd7e0b5-c6d6-5b0d-8a8e-9b7f4e0a7d2c"
+        },
+        {
+          "value": "SEG-GR",
+          "expanded": "Ground Segment",
+          "description": "Surface-based services and assets for primary platform operations, serving as the primary locus of control plane activity.",
+          "uuid": "b7b0d4c2-3e0a-529e-8dd0-3f0a6d5c3a1f"
+        },
+        {
+          "value": "SEG-US",
+          "expanded": "User Segment",
+          "description": "Services and assets for primary end-user operations.",
+          "uuid": "f8a9e7c1-9b1e-59cb-9d0a-02d9c4e3a1b2"
+        },
+        {
+          "value": "SEG-AQ",
+          "expanded": "Aquatic Segment",
+          "description": "Water-based services and assets for primary platform operations, not limited to Earth's maritime domains.",
+          "uuid": "2b6fdc2d-8a9e-5b1d-8f3b-8a0c2f4e1a5b"
+        },
+        {
+          "value": "SEG-LO",
+          "expanded": "Low Altitude Segment",
+          "description": "Aerial services and assets in the lower atmosphere.",
+          "uuid": "3a1f2e4c-7b9d-5a0e-8c1d-9e0f2a4c6b7d"
+        },
+        {
+          "value": "SEG-HI",
+          "expanded": "High Altitude Segment",
+          "description": "Aerial services and assets above the lower atmosphere but below near space.",
+          "uuid": "4b2e3f5d-8c0e-5b1f-9d2e-a1b2c3d4e5f6"
+        },
+        {
+          "value": "SEG-NE",
+          "expanded": "Near Space Segment",
+          "description": "Aerial services and assets above high altitude and below orbital regions.",
+          "uuid": "5c3f406e-9d1f-5c20-ac3f-b2c3d4e5f607"
+        },
+        {
+          "value": "SEG-SP",
+          "expanded": "Space Segment",
+          "description": "Services and assets operating in planetary or satellite orbits.",
+          "uuid": "6d40517f-ae20-5d31-bd40-c3d4e5f60718"
+        },
+        {
+          "value": "SEG-DE",
+          "expanded": "Deep Space Segment",
+          "description": "Services and assets operating beyond planetary orbital regimes.",
+          "uuid": "7e516290-bf31-5e42-ce51-d4e5f6071829"
+        }
+      ]
+    },
+    {
+      "predicate": "SVC",
+      "entry": [
+        {
+          "value": "SVC-CP",
+          "expanded": "Control Plane",
+          "description": "Services for managing and orchestrating platform control functions.",
+          "uuid": "a6d3f47c-2f2d-5a4a-8c71-74d6e4c8d6a5"
+        },
+        {
+          "value": "SVC-DP",
+          "expanded": "Data Plane",
+          "description": "Services for managing and orchestrating mission product functions.",
+          "uuid": "b7e4f58d-3f3e-5b5b-9d82-85e7f5d9e7b6"
+        },
+        {
+          "value": "SVC-HY",
+          "expanded": "Hybrid Service",
+          "description": "Services integrating both control and data plane functionalities.",
+          "uuid": "c8f5069e-404f-5c6c-ae93-96f806ea08c7"
+        }
+      ]
+    },
+    {
+      "predicate": "AST",
+      "entry": [
+        {
+          "value": "AST-HW",
+          "expanded": "Hardware Asset",
+          "description": "Physical components supporting platform operations.",
+          "uuid": "0d6a2e33-7a1b-55a7-a2f8-0f6e8a3d9c01"
+        },
+        {
+          "value": "AST-FW",
+          "expanded": "Firmware Asset",
+          "description": "Embedded control code governing hardware functions.",
+          "uuid": "1e7b3f44-8b2c-56b8-b309-107f9b4ead12"
+        },
+        {
+          "value": "AST-SW",
+          "expanded": "Software Asset",
+          "description": "Applications and logic executing operational tasks.",
+          "uuid": "2f8c4055-9c3d-57c9-c41a-2180ac5fbe23"
+        },
+        {
+          "value": "AST-DA",
+          "expanded": "Data Asset",
+          "description": "Information generated, processed, or consumed by the platform.",
+          "uuid": "309d5166-ad4e-58da-d52b-3291bd70cf34"
+        },
+        {
+          "value": "AST-SI",
+          "expanded": "Signal Asset",
+          "description": "Communication channels and transmission frequencies.",
+          "uuid": "41ae6277-be5f-59eb-e63c-43a2ce81df45"
+        },
+        {
+          "value": "AST-HY",
+          "expanded": "Hybrid Asset",
+          "description": "Composite elements combining multiple asset types.",
+          "uuid": "52bf7388-cf60-5afc-f74d-54b3df92ef56"
+        }
+      ]
+    },
+    {
+      "predicate": "AN",
+      "entry": [
+        {
+          "value": "AN-IOC",
+          "expanded": "Indicator of Compromise",
+          "description": "Verifiable indication that the platform has been compromised.",
+          "uuid": "b6a3a0a8-5b6a-5b1a-8f4d-1c8c0a0b7d3f"
+        },
+        {
+          "value": "AN-IOA",
+          "expanded": "Indicator of Attack",
+          "description": "Verifiable indication that the platform has been targeted.",
+          "uuid": "c7b4b1b9-6c7b-5c2b-905e-2d9d1b1c8e40"
+        },
+        {
+          "value": "AN-THR",
+          "expanded": "Threat",
+          "description": "Known or modeled threat to the platform.",
+          "uuid": "d8c5c2ca-7d8c-5d3c-a16f-3eae2c2d9f51"
+        },
+        {
+          "value": "AN-DET",
+          "expanded": "Detection Signature",
+          "description": "Pattern, signal, or logic that triggers on contextualized threat behavior.",
+          "uuid": "e10b04f1-5e83-5be1-98ea-111a40a4b360"
+        },
+        {
+          "value": "AN-RES",
+          "expanded": "Resilience Measure",
+          "description": "Protective capability ensuring resistance or recovery from threats.",
+          "uuid": "df8d24c7-6206-5689-b83e-dd287aa0ef12"
+        }
+      ]
+    }
+  ],
+  "uuid": "ce710476-c476-518d-a35c-69eef1f3fc1d"
 }
