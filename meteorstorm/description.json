@@ -1,53 +1,154 @@
 {
-  "name": "METEORSTORM",
-  "namespace": "meteorstorm",
-  "expanded": "METEORSTORM",
-  "description": "The METEORSTORM taxonomy models converged space platform environments, functional segments, services, assets, and analytic constructs to support threat-informed engineering, detection, and resilience.",
-  "version": 1,
-  "refs": [
-    "https://start.ethicallyhacking.space/"
-  ],
-  "predicates": [
-    { "value": "pce", "expanded": "Primary Capability Environment (PCE)" },
-    { "value": "segment", "expanded": "Segment" },
-    { "value": "service", "expanded": "Service" },
-    { "value": "asset", "expanded": "Asset" },
-    { "value": "analytic", "expanded": "Analytic" }
-  ],
-  "values": [
-    { "predicate": "pce", "entry": "terrestrial", "expanded": "Terrestrial" },
-    { "predicate": "pce", "entry": "aquatic", "expanded": "Aquatic" },
-    { "predicate": "pce", "entry": "air", "expanded": "Air" },
-    { "predicate": "pce", "entry": "orbital", "expanded": "Orbital" },
-    { "predicate": "pce", "entry": "deep-space", "expanded": "Deep Space" },
-
-    { "predicate": "segment", "entry": "launch", "expanded": "Launch" },
-    { "predicate": "segment", "entry": "link", "expanded": "Link" },
-    { "predicate": "segment", "entry": "ground", "expanded": "Ground" },
-    { "predicate": "segment", "entry": "user", "expanded": "User" },
-    { "predicate": "segment", "entry": "aquatic", "expanded": "Aquatic" },
-    { "predicate": "segment", "entry": "low-altitude", "expanded": "Low Altitude" },
-    { "predicate": "segment", "entry": "high-altitude", "expanded": "High Altitude" },
-    { "predicate": "segment", "entry": "near-space", "expanded": "Near Space" },
-    { "predicate": "segment", "entry": "space", "expanded": "Space" },
-    { "predicate": "segment", "entry": "deep-space", "expanded": "Deep Space" },
-
-    { "predicate": "service", "entry": "control-plane", "expanded": "Control Plane" },
-    { "predicate": "service", "entry": "data-plane", "expanded": "Data Plane" },
-    { "predicate": "service", "entry": "hybrid", "expanded": "Hybrid" },
-
-    { "predicate": "asset", "entry": "hardware", "expanded": "Hardware" },
-    { "predicate": "asset", "entry": "firmware", "expanded": "Firmware" },
-    { "predicate": "asset", "entry": "software", "expanded": "Software" },
-    { "predicate": "asset", "entry": "data", "expanded": "Data" },
-    { "predicate": "asset", "entry": "signal", "expanded": "Signal" },
-    { "predicate": "asset", "entry": "hybrid", "expanded": "Hybrid" },
-
-    { "predicate": "analytic", "entry": "attack-path", "expanded": "Attack Path" },
-    { "predicate": "analytic", "entry": "ioc", "expanded": "Indicator of Compromise (IoC)" },
-    { "predicate": "analytic", "entry": "ioa", "expanded": "Indicator of Attack (IoA)" },
-    { "predicate": "analytic", "entry": "threat", "expanded": "Threat" },
-    { "predicate": "analytic", "entry": "detection-signature", "expanded": "Detection Signature" },
-    { "predicate": "analytic", "entry": "resilience-measure", "expanded": "Resilience Measure" }
-  ]
+  "description": {
+    "PCE": {
+      "name": "Primary Capability Environment",
+      "expanded": "The Primary Capability Environment (PCE) layer defines the physical environments where the space platform segments are deployed.",
+      "elements": {
+        "1": {
+          "name": "Terrestrial",
+          "expanded": "Surface-based operational zones on planetary bodies."
+        },
+        "2": {
+          "name": "Aquatic",
+          "expanded": "Water-based operational zones, including but not limited to Earth's maritime domains."
+        },
+        "3": {
+          "name": "Air",
+          "expanded": "Atmospheric operational zones spanning low, high, and near-space regions."
+        },
+        "4": {
+          "name": "Orbital",
+          "expanded": "Operational zones within planetary or satellite orbits."
+        },
+        "5": {
+          "name": "Deep Space",
+          "expanded": "Operational zones beyond planetary orbital regimes."
+        }
+      }
+    },
+    "Segment": {
+      "name": "Segment",
+      "expanded": "The Segment layer defines the functional grouping of services and assets that provide an operational requirement for a space platform.",
+      "elements": {
+        "1": {
+          "name": "Launch",
+          "expanded": "Surface-based services and assets for primary launch operations."
+        },
+        "2": {
+          "name": "Link",
+          "expanded": "Services and assets enabling platform communications across signal paths."
+        },
+        "3": {
+          "name": "Ground",
+          "expanded": "Surface-based services and assets for primary platform operations, serving as the primary locus of control plane activity."
+        },
+        "4": {
+          "name": "User",
+          "expanded": "Services and assets for primary end-user operations."
+        },
+        "5": {
+          "name": "Aquatic",
+          "expanded": "Water-based services and assets for primary platform operations, not limited to Earth's maritime domains."
+        },
+        "6": {
+          "name": "Low Altitude",
+          "expanded": "Aerial services and assets in the lower atmosphere."
+        },
+        "7": {
+          "name": "High Altitude",
+          "expanded": "Aerial services and assets above the lower atmosphere but below near space."
+        },
+        "8": {
+          "name": "Near Space",
+          "expanded": "Aerial services and assets above high altitude and below orbital regions."
+        },
+        "9": {
+          "name": "Space",
+          "expanded": "Services and assets operating in planetary or satellite orbits."
+        },
+        "10": {
+          "name": "Deep Space",
+          "expanded": "Services and assets operating beyond planetary orbital regimes."
+        }
+      }
+    },
+    "Service": {
+      "name": "Service",
+      "expanded": "The Service Layer defines the services delivered by hardware, firmware, software, data, signal, or hybrid assets within a space platform. Each service may operate within a single segment or be distributed across multiple segments.",
+      "elements": {
+        "1": {
+          "name": "Control Plane",
+          "expanded": "Services for managing and orchestrating platform control functions."
+        },
+        "2": {
+          "name": "Data Plane",
+          "expanded": "Services for managing and orchestrating mission product functions."
+        },
+        "3": {
+          "name": "Hybrid",
+          "expanded": "Services integrating both control and data plane functionalities."
+        }
+      }
+    },
+    "Asset": {
+      "name": "Asset",
+      "expanded": "The Asset Layer defines the hardware, firmware, software, data, signal, or hybrid elements that enable and sustain space platform services.",
+      "elements": {
+        "1": {
+          "name": "Hardware",
+          "expanded": "Physical components supporting platform operations."
+        },
+        "2": {
+          "name": "Firmware",
+          "expanded": "Embedded control code governing hardware functions."
+        },
+        "3": {
+          "name": "Software",
+          "expanded": "Applications and logic executing operational tasks."
+        },
+        "4": {
+          "name": "Data",
+          "expanded": "Information generated, processed, or consumed by the platform."
+        },
+        "5": {
+          "name": "Signal",
+          "expanded": "Communication channels and transmission frequencies."
+        },
+        "6": {
+          "name": "Hybrid",
+          "expanded": "Composite elements combining multiple asset types."
+        }
+      }
+    },
+    "Analytic": {
+      "name": "Analytic",
+      "expanded": "The Analytic layer provides a means to integrate security threats, resilience measures, detection signatures, indicators of attack, and indicators of compromise.",
+      "elements": {
+        "1": {
+          "name": "Attack Path",
+          "expanded": "Known or modeled attack path for a converged space system."
+        },
+        "2": {
+          "name": "Indicator of Compromise (IoC)",
+          "expanded": "Verifiable indication that the platform has been compromised."
+        },
+        "3": {
+          "name": "Indicator of Attack (IoA)",
+          "expanded": "Verifiable indication that the platform has been targeted."
+        },
+        "4": {
+          "name": "Threat",
+          "expanded": "Known or modeled threat to the platform."
+        },
+        "5": {
+          "name": "Detection Signature",
+          "expanded": "Pattern, signal, or logic that triggers on contextualized threat behavior."
+        },
+        "6": {
+          "name": "Resilience Measure",
+          "expanded": "Protective capability ensuring resistance or recovery from threats."
+        }
+      }
+    }
+  }
 }
