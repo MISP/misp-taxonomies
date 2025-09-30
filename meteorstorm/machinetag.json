@@ -2,11 +2,11 @@
   "namespace": "meteorstorm",
   "expanded": "METEORSTORM",
   "description": "Multiple Environment Threat Evaluation of Resources Space Threats and Operational Risk to Missions (meteorstorm) taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment (SEG), Service (SVC), Asset (AST), and Analytic (AN).",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "PCE",
-      "expanded": "Primary Capability Environment",
+      "expanded": "Primary Capability Environment Layer",
       "description": "Operational zone in which a capability primarily exists or is exercised.",
       "uuid": "96dde759-25aa-5a0d-9c83-f326449d70cd"
     },
@@ -52,9 +52,9 @@
           "uuid": "d35b820f-6a13-57e1-9e25-9f9f3b2a9f7d"
         },
         {
-          "value": "PCE-AI",
-          "expanded": "Air Environment",
-          "description": "Atmospheric operational zones spanning low, high, and near-space regions.",
+          "value": "PCE-AE",
+          "expanded": "Aerial Environment",
+          "description": "Atmospheric operational zones spanning lower, upper, and near-space regions.",
           "uuid": "6f0a1a9a-2a8b-58e9-8b3b-6e6a0d6f1f77"
         },
         {
@@ -76,55 +76,61 @@
       "entry": [
         {
           "value": "SEG-LA",
-          "expanded": "Launch Segment",
+          "expanded": "Launch",
           "description": "Surface-based services and assets for primary launch operations.",
           "uuid": "9fd7e0b5-c6d6-5b0d-8a8e-9b7f4e0a7d2c"
         },
         {
+          "value": "SEG-LP",
+          "expanded": "Link",
+          "description": "Services and assets enabling platform communications across signal paths.",
+          "uuid": "abcdef00-1234-5678-9abc-def012345678"
+        },
+        {
           "value": "SEG-GR",
-          "expanded": "Ground Segment",
+          "expanded": "Ground",
           "description": "Surface-based services and assets for primary platform operations, serving as the primary locus of control plane activity.",
           "uuid": "b7b0d4c2-3e0a-529e-8dd0-3f0a6d5c3a1f"
         },
         {
           "value": "SEG-US",
-          "expanded": "User Segment",
+          "expanded": "User",
           "description": "Services and assets for primary end-user operations.",
           "uuid": "f8a9e7c1-9b1e-59cb-9d0a-02d9c4e3a1b2"
         },
         {
           "value": "SEG-AQ",
-          "expanded": "Aquatic Segment",
+          "expanded": "Aquatic",
           "description": "Water-based services and assets for primary platform operations, not limited to Earth's maritime domains.",
           "uuid": "2b6fdc2d-8a9e-5b1d-8f3b-8a0c2f4e1a5b"
         },
         {
           "value": "SEG-LO",
-          "expanded": "Low Altitude Segment",
+          "expanded": "Low Altitude",
           "description": "Aerial services and assets in the lower atmosphere.",
           "uuid": "3a1f2e4c-7b9d-5a0e-8c1d-9e0f2a4c6b7d"
         },
         {
           "value": "SEG-HI",
-          "expanded": "High Altitude Segment",
+          "expanded": "High Altitude",
           "description": "Aerial services and assets above the lower atmosphere but below near space.",
           "uuid": "4b2e3f5d-8c0e-5b1f-9d2e-a1b2c3d4e5f6"
         },
         {
           "value": "SEG-NE",
-          "expanded": "Near Space Segment",
+          "expanded": "Near Space",
           "description": "Aerial services and assets above high altitude and below orbital regions.",
           "uuid": "5c3f406e-9d1f-5c20-ac3f-b2c3d4e5f607"
         },
         {
           "value": "SEG-SP",
-          "expanded": "Space Segment",
+          "expanded": "Space",
           "description": "Services and assets operating in planetary or satellite orbits.",
           "uuid": "6d40517f-ae20-5d31-bd40-c3d4e5f60718"
         },
         {
           "value": "SEG-DE",
-          "expanded": "Deep Space Segment",
+          "expanded": "Deep Space",
           "description": "Services and assets operating beyond planetary orbital regimes.",
           "uuid": "7e516290-bf31-5e42-ce51-d4e5f6071829"
         }
@@ -198,14 +204,20 @@
       "predicate": "AN",
       "entry": [
         {
+          "value": "AN-ATT",
+          "expanded": "Attack Path",
+          "description": "Known or modeled attack path for a converged space system.",
+          "uuid": "fedcba98-7654-3210-fedc-ba9876543210"
+        },
+        {
           "value": "AN-IOC",
-          "expanded": "Indicator of Compromise",
+          "expanded": "Indicator of Compromise (IoC)",
           "description": "Verifiable indication that the platform has been compromised.",
           "uuid": "b6a3a0a8-5b6a-5b1a-8f4d-1c8c0a0b7d3f"
         },
         {
           "value": "AN-IOA",
-          "expanded": "Indicator of Attack",
+          "expanded": "Indicator of Attack (IoA)",
           "description": "Verifiable indication that the platform has been targeted.",
           "uuid": "c7b4b1b9-6c7b-5c2b-905e-2d9d1b1c8e40"
         },
