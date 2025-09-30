@@ -3,7 +3,7 @@
   "license": "CC-0",
   "path": "machinetag.json",
   "taxonomies": [
-      {
+    {
       "description": "Multiple Environment Threat Evaluation of Resources Space Threats and Operational Risk to Missions (meteorstorm) taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment (SEG), Service (SVC), Asset (AST), and Analytic (AN).",
       "name": "meteorstorm",
       "version": 1
