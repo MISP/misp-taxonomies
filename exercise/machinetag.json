@@ -227,6 +227,11 @@
           "value": "2021",
           "expanded": "2021",
           "uuid": "35b424a9-269e-55ac-82ce-15696f53e680"
+        },
+        {
+          "value": "2025",
+          "expanded": "2025",
+          "uuid": "cdee8251-6d7a-4e8f-a5b2-dcb0927d1eab"
         }
       ]
     },
@@ -254,7 +259,7 @@
       ]
     }
   ],
-  "version": 13,
+  "version": 14,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise",
