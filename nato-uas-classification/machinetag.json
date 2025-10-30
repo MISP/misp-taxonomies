@@ -9,7 +9,7 @@
         {
           "value": "small",
           "expanded": "Small",
-          "description": ">20Kg, Tactical unit (Employs Launch Systems, Up to 5000ft and 50Km radius (LOS)",
+          "description": ">20Kg, Tactical unit (Employs Launch Systems), Up to 5000ft and 50Km radius (LOS)",
           "uuid": "e0f441d9-e3c3-4b01-a6e9-d38bda9bd1dc"
         },
         {
@@ -32,7 +32,7 @@
         {
           "value": "tactical",
           "expanded": "Tactical",
-          "description": "150-600Kg Tactical Formation, Up to 10000ft AGL and 200Km LOS radius",
+          "description": "150-600Kg Tactical Formation, Up to 10000ft AGL and 200Km radius (LOS)",
           "uuid": "887c8c6d-433b-4914-9a17-8c0676684712"
         }
       ]
