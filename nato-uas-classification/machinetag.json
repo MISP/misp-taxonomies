@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "namespace": "NATO-UAS",
+  "namespace": "nato-uas-classification",
   "description": "NATO UAS Classification.",
   "predicates": [
     {
