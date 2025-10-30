@@ -105,7 +105,7 @@
     },
     {
       "description": "European Union (EASA) Drone Classification - C0 to C6.",
-      "name": "EU-UAS",
+      "name": "ce-uas-classification",
       "version": 2
     },
     {
@@ -575,7 +575,7 @@
     },
     {
       "description": "NATO UAS Classification.",
-      "name": "NATO-UAS",
+      "name": "nato-uas-classification",
       "version": 1
     },
     {
