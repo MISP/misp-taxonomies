@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "namespace": "EU-UAS",
+  "description": "European Union (EASA) Drone Classification - C0 to C6.",
+  "values": [
+    {
+      "predicate": "c0",
+      "value": "C0",
+      "expanded": "Class C0 Drone",
+      "description": "Weight < 250 g, maximum speed 19 m/s, maximum altitude 120 m AGL, no remote identification required, intended for A1 category operations near people.",
+      "uuid": "0a31c6b7-9f85-4db9-9b23-8737c8f970e3"
+    },
+    {
+      "predicate": "c1",
+      "value": "C1",
+      "expanded": "Class C1 Drone",
+      "description": "Weight < 900 g, must include remote identification and geo-awareness for commercial drones, limited to 120 m AGL, for A1 operations over people with restrictions.",
+      "uuid": "1d93ff5a-145a-462e-9c38-c7c8fd8b2f41"
+    },
+    {
+      "predicate": "c2",
+      "value": "C2",
+      "expanded": "Class C2 Drone",
+      "description": "Weight < 2 kg, includes low-speed mode (≤3 m/s) and remote ID, limited to 120 m AGL, usable in A2 (close to people) or A3 (far from people) categories.",
+      "uuid": "22bbd173-9fd2-4d7b-8b86-2c14b3a9ad36"
+    },
+    {
+      "predicate": "c3",
+      "value": "C3",
+      "expanded": "Class C3 Drone",
+      "description": "Weight < 25 kg, equipped with remote ID, geo-fencing, and flight control limits, limited to 120 m AGL, intended for A3 operations far from people and populated areas.",
+      "uuid": "31b7b4d9-f4d9-4a2b-948f-c98b212b91d2"
+    },
+    {
+      "predicate": "c4",
+      "value": "C4",
+      "expanded": "Class C4 Drone",
+      "description": "Weight < 25 kg, no automated flight limitation or geo-awareness required,  limited to 120 m AGL, mainly for professional use or legacy systems in A3 operations.",
+      "uuid": "4c93ff2f-2c19-4d63-99a5-0f50cb61b9de"
+    },
+    {
+      "predicate": "c5",
+      "value": "C5",
+      "expanded": "Class C5 Drone",
+      "description": "Weight < 25 kg, compliant with specific safety and fail-safe requirements, includes remote ID, geo-fencing, and link fail management,  limited to 120 m AGL, used for STS-01 operations (BVLOS or urban).",
+      "uuid": "5dd1e67b-9aa2-4a5b-bb67-8283eab67a8a"
+    },
+    {
+      "predicate": "c6",
+      "value": "C6",
+      "expanded": "Class C6 Drone",
+      "description": "Weight < 25 kg, designed for fixed-wing or VTOL with long-range command link, includes enhanced redundancy and flight termination system,  limited to 120 m AGL, used for STS-02 operations (BVLOS up to 2 km).",
+      "uuid": "6fe5d236-08cb-4e83-99ee-9cdb6c8b0f4f"
+    }
+  ],
+  "uuid": "a61f642b-d77e-46dc-bcc9-b3e9728a9e3b",
+  "refs": [
+    "https://www.easa.europa.eu/en/document-library/general-publications/drone-class-identification-labels-and-information-notices"
+  ]
+}
