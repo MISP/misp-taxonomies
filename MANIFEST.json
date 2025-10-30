@@ -106,7 +106,7 @@
     {
       "description": "European Union (EASA) Drone Classification - C0 to C6.",
       "name": "EU-UAS",
-      "version": 1
+      "version": 2
     },
     {
       "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection.",
