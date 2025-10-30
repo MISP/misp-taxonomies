@@ -2,7 +2,7 @@
   "version": 2,
   "namespace": "EU-UAS",
   "description": "European Union (EASA) Drone Classification - C0 to C6.",
-  "predicate": [
+  "predicates": [
     {
       "value": "C0",
       "expanded": "Class C0 Drone",
