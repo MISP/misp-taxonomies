@@ -801,7 +801,7 @@
     {
       "description": "A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.",
       "name": "vulnerability",
-      "version": 4
+      "version": 5
     },
     {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
@@ -810,5 +810,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20251030"
+  "version": "20251109"
 }
