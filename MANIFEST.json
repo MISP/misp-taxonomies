@@ -4,11 +4,6 @@
   "path": "machinetag.json",
   "taxonomies": [
     {
-      "description": "Multiple Environment Threat Evaluation of Resources Space Threats and Operational Risk to Missions (meteorstorm) taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment (SEG), Service (SVC), Asset (AST), and Analytic (AN).",
-      "name": "meteorstorm",
-      "version": 1
-    },
-    {
       "description": "CERT-XLM Security Incident Classification.",
       "name": "CERT-XLM",
       "version": 2
@@ -106,6 +101,11 @@
     {
       "description": "Internal taxonomy for CCCS.",
       "name": "cccs",
+      "version": 2
+    },
+    {
+      "description": "European Union (EASA) Drone Classification - C0 to C6.",
+      "name": "ce-uas-classification",
       "version": 2
     },
     {
@@ -331,7 +331,7 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 13
+      "version": 14
     },
     {
       "description": "Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf",
@@ -529,6 +529,11 @@
       "version": 3
     },
     {
+      "description": "Multiple Environment Threat Evaluation of Resources Space Threats and Operational Risk to Missions (meteorstorm) taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment (SEG), Service (SVC), Asset (AST), and Analytic (AN).",
+      "name": "meteorstorm",
+      "version": 2
+    },
+    {
       "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical News Sources by Melissa Zimdars 2019",
       "name": "misinformation-website-label",
       "version": 1
@@ -567,6 +572,11 @@
       "description": "NATO classification markings.",
       "name": "nato",
       "version": 2
+    },
+    {
+      "description": "NATO UAS Classification.",
+      "name": "nato-uas-classification",
+      "version": 1
     },
     {
       "description": "The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 September 2017, also known as the blueprint. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.",
@@ -800,5 +810,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20250909"
+  "version": "20251030"
 }
