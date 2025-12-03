@@ -1,6 +1,6 @@
 {
   "namespace": "ai-bias-terminology",
-  "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias.",
+  "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. Compilation from different sources such as https://community.forgerock.com/t/creating-trustworthy-ai/2454 or https://www.frontiersin.org/api/v4/articles/1614105/file/Data_Sheet_1.docx/1614105_data-sheet_1/1 by @C00kie-",
   "version": 1,
   "predicates": [
     {
