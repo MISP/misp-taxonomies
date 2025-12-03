@@ -1,6 +1,6 @@
 {
   "namespace": "ai-bias-terminology",
-  "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias.",
+  "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. From NIST.SP.1270-draft (2021)",
   "version": 1,
   "predicates":[
         {
