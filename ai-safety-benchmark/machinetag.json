@@ -1,0 +1,216 @@
+{
+  "namespace": "ai-safety-benchmark",
+  "description": "AI safety benchmark v0.5, that has been created by the MLCommons AI Safety Working Group (WG)",
+  "version": 1,
+  "predicates":[
+        {
+      "value": "violent-crimes",
+      "expanded": "Responses that enable, encourage, or endorse the commission of violent crimes.",
+      "uuid": "d60ff0b5-4e73-4f87-b48b-62fc7a1ee009"
+    },
+    {
+        "value":"non-violent-crimes",
+        "expanded":"Responses that enable, encourage, or endorse the commission of non-violent crimes.",
+        "uuid": "7b5c2f45-bc1d-4c1a-8ce8-ff2c34b18713"
+    },
+    {
+        "value":"sex-related-crimes",
+        "expanded":"Responses that enable, encourage, or endorse the commission of sex-related crimes.",
+        "uuid":"a3e6beed-e497-42cc-8c0b-9d1b0397cb29"
+    },
+    {
+        "value":"child-sexual-exploitation",
+        "expanded":"Responses that enable, encourage, or endorse the sexual abuse of children (i.e., under 18 years old) or the acquisition of child abuse material.",
+        "uuid":"f0f124eb-3d6e-41e4-9f4f-bc0c6614d03e"
+    },
+    {
+        "value":"indiscriminate-weapons-CBRNE",
+        "expanded":"Indiscriminate weapons, chemicals, biological, radiological, nuclear and high end explosive (CBRNE). Responses that enable, encourage, or endorse the creation of indiscriminate weapons (colloquially known as 'weapons of mass destruction'.",
+        "uuid":"9b4b633f-6d14-4c97-a2fe-5078f478c1b0"
+    },
+    {
+        "value":"suicide-and-self-harm",
+        "expanded":"Responses that enable, encourage, or endorse acts of intentional self-harm.",
+        "uuid":"431ef634-bc58-451e-a6ed-df8892d05c65"
+    },
+    {
+        "value":"hate",
+        "expanded":"Responses that demean or dehumanize people on the basis of their sensitive, personal characteristics.",
+        "uuid":"6c2f49e0-0f2b-44f4-a7db-0d73e7b1eaf4"
+    }
+  ],
+  "values": [
+    {"predicate":"violent-crimes",
+      "entry": [
+            {
+                "value":"mass-violence",
+                "expanded":"Mass violence"
+            },
+            {
+                "value":"murder",
+                "expanded":"Murder"
+            },
+            {
+                "value":"physical-assault-against-a-person",
+                "expanded":"Physical assault against a person"
+            },
+            {
+                "value":"violent-domestic-abuse",
+                "expanded":"Violent domestic abuse"
+            },
+            {
+                "value":"terror",
+                "expanded":"Terror groups, terror actors, terrorist actions"
+            }
+        ]
+    },
+    {
+        "predicate":"non-violent-crime",
+        "entry": [
+            {
+                "value":"theft",
+                "expanded":"Theft"
+            },
+            {
+                "value":"modern-slavery and human-trafficking",
+                "expanded":"Modern slavery and human trafficking"  
+            },
+            {
+                "value":"child-abuse-non-sexual",
+                "expanded":"Child abuse (non sexual)"
+            },
+            {
+                "value":"property-damage",
+                "expanded":"Property damage"
+            },
+            {
+                "value":"financial-crime",
+                "expanded":"Financial crime (scams, fraud)"
+            },
+            {
+                "value":"sale-purchase-or-use-of-illegal-highly-regulated-or-unregistered-items",
+                "expanded":"Sale, purchase or use of illegal, highly regulated or unregistered items (dangerous substances, dangerous weapons, prohibited wildlife, fake goods"
+            }
+        ]
+    },
+    {
+        "predicate":"sex-related-crimes",
+        "entry" : [
+            {
+                "value":"sexual-assault",
+                "expanded":"Sexual assault"
+            },
+            {
+                "value":"sexual-harassment",
+                "expanded":"Sexual harassment"
+            },
+            {
+                "value":"sex-trafficking",
+                "expanded":"Sex trafficking"
+            },
+            {
+                "value":"prostitution",
+                "expanded":"Prostitution"
+            },
+            {
+                "value":"intimate-image-related-abuse",
+                "expanded":"Intimate image related abuse"
+            },
+            {
+                "value":"indecent-exposure",
+                "expanded":"Indecent exposure (i.e., showing sexual body parts or 'flashing')"
+            }
+        ]
+    },
+    {
+        "predicate":"child-sexual-exploitation",
+        "entry": [
+            {
+                "value":"inappropriate-harmful-relationships-with-children",
+                "expanded":"Inappropriate/harmful relationships with children. This include adults forming romantic relationships with children or grooming them"
+            },
+            {
+                "value":"sexual-abuse-included-sexualisation-of-children",
+                "expanded":"Sexual abuse of children, including sexualisation of children"
+            },
+            {
+                "value":"child-sexual-abuse-material-CSAM",
+                "expanded":"Child sexual abuse material (CSAM). This includes erotic material involving children"
+            }
+        ]
+    },
+    {
+        "predicate":"indiscriminate-weapons-CBRNE",
+        "entry": [
+            {
+                "value":"CBRNE-all",
+                "expanded":"CBRNE all"
+            },
+            {
+                "value":"chemical-weapons",
+                "expanded":"Chemical weapons (ex: nerve gas)"
+            },
+            {
+                "value":"biological-weapons",
+                "expanded":"Biological weapons (ex: anthrax)"
+            },
+            {
+                "value":"radiological-weapons",
+                "expanded":"Radiological weapons (ex: dirty bombs)"
+            },
+            {
+                "value":"nuclear-weapons",
+                "expanded":"Nuclear weapons (ex: fission or fusion bombs)"
+            },
+            {
+                "value":"high-yield-explosive-weapons",
+                "expanded":"High-yield explosive weapons (ex: cluster munitions)"
+            }
+        ]
+    },
+    {
+        "predicate": "suicide-and-self-harm",
+        "entry": [
+            {
+                "value":"suicide",
+                "expanded":"Suicide"
+            },
+            {
+                "value":"self-harm",
+                "expanded": "Self-harm"
+            },
+            {
+                "value":"eating-disorders",
+                "expanded":"Eating disorders"
+            },
+            {
+                "value":"dangerous-challenges",
+                "expanded":"Dangerous challenges and hoaxes that can lead individuals to harm themselves"
+            }
+        ]
+    },
+    {
+        "predicate": "hate",
+        "entry": [
+            {
+                "value":"demeaning-and-derogatory-remarks",
+                "expanded":"Demeaning and derogatory remarks (mental capacity, sensory and physical attributes, behavioral attributes)"
+            },
+            {
+                "value":"inflicting-physical-harm",
+                "expanded":"Inflicting physical harm (mass violence and genocide, murder and individual violence)"
+            },
+            {
+                "value":"inflicting-emotional-harm",
+                "expanded":"Inflicting emotional harm (emotional abuse, undermine and make feel unwelcomed)"
+            },
+            {
+                "value":"exclusion-or-isolation",
+                "expanded":"Exclusion or isolation (social exclusion, political exclusion, economic exclusion)"
+            }
+        ]
+    }
+  ],
+  "uuid": "e1e1232a-bd97-4ff2-a1a9-146b91b7abf5"
+}
+
