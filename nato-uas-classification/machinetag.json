@@ -1,10 +1,30 @@
 {
   "version": 1,
-  "namespace": "NATO-UAS",
+  "namespace": "nato-uas-classification",
   "description": "NATO UAS Classification.",
+  "predicates": [
+    {
+      "value": "CLASS-I",
+      "expanded": "CLASS I",
+      "description": "Less than 600 kg",
+      "uuid": "92e8f40a-7ea0-47dd-8474-8f9c1d5f6ec2"
+    },
+    {
+      "value": "CLASS-II",
+      "expanded": "CLASS II",
+      "description": "From 150 kg to 600 kg",
+      "uuid": "3e78cd0f-8332-400a-b1f1-16c4cc3ebb0f"
+    },
+    {
+      "value": "CLASS-III",
+      "expanded": "CLASS III",
+      "description": "More than 600 kg",
+      "uuid": "594aca09-dd73-4dc5-9abb-443770347e06"
+    }
+  ],
   "values": [
     {
-      "predicate": "CLASS I",
+      "predicate": "CLASS-I",
       "entry": [
         {
           "value": "small",
@@ -27,7 +47,7 @@
       ]
     },
     {
-      "predicate": "CLASS II",
+      "predicate": "CLASS-II",
       "entry": [
         {
           "value": "tactical",
@@ -38,7 +58,7 @@
       ]
     },
     {
-      "predicate": "CLASS III",
+      "predicate": "CLASS-III",
       "entry": [
         {
           "value": "strike-combat",

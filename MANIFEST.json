@@ -64,6 +64,11 @@
       "version": 6
     },
     {
+      "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias.",
+      "name": "ai-bias-terminology",
+      "version": 1
+    },
+    {
       "description": "The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)",
       "name": "ais-marking",
       "version": 2
@@ -105,8 +110,8 @@
     },
     {
       "description": "European Union (EASA) Drone Classification - C0 to C6.",
-      "name": "EU-UAS",
-      "version": 1
+      "name": "ce-uas-classification",
+      "version": 2
     },
     {
       "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection.",
@@ -575,7 +580,7 @@
     },
     {
       "description": "NATO UAS Classification.",
-      "name": "NATO-UAS",
+      "name": "nato-uas-classification",
       "version": 1
     },
     {
@@ -801,7 +806,7 @@
     {
       "description": "A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.",
       "name": "vulnerability",
-      "version": 4
+      "version": 5
     },
     {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
@@ -810,5 +815,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20251030"
+  "version": "20251203"
 }

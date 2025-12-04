@@ -2,15 +2,16 @@
   "namespace": "ai-bias-terminology",
   "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. From NIST.SP.1270-draft (2021)",
   "version": 1,
-  "predicates":[
-        {
+  "predicates": [
+    {
       "value": "bias-definitions",
       "expanded": "Bias definitions",
       "uuid": "d60ff0b5-4e73-4f87-b48b-62fc7a1ee009"
     }
   ],
   "values": [
-    {"predicate":"bias-definitions",
+    {
+      "predicate": "bias-definitions",
       "entry": [
         {
           "value": "activity-bias",
@@ -239,4 +240,3 @@
   ],
   "uuid": "d60ff0b5-4e73-4f87-b48b-62fc7a1ee009"
 }
-
