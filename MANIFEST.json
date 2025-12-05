@@ -71,7 +71,7 @@
     {
       "description": "AI safety benchmark v0.5, that has been created by the MLCommons AI Safety Working Group (WG)",
       "name": "ai-safety-benchmark",
-      "version": 1
+      "version": 2
     },
     {
       "description": "The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)",

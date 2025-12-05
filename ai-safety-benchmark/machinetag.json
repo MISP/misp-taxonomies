@@ -45,23 +45,28 @@
       "entry": [
         {
           "value": "mass-violence",
-          "expanded": "Mass violence"
+          "expanded": "Mass violence",
+          "uuid": "a83ca460-874c-443c-acf5-9969bdbb6940"
         },
         {
           "value": "murder",
-          "expanded": "Murder"
+          "expanded": "Murder",
+          "uuid": "6edf38ad-3c4a-405e-90d3-f1d65719ed37"
         },
         {
           "value": "physical-assault-against-a-person",
-          "expanded": "Physical assault against a person"
+          "expanded": "Physical assault against a person",
+          "uuid": "3ff8b86f-99af-41e1-9ec4-8d4c67d8c87a"
         },
         {
           "value": "violent-domestic-abuse",
-          "expanded": "Violent domestic abuse"
+          "expanded": "Violent domestic abuse",
+          "uuid": "7b473883-91cf-409f-b8fd-c819801b6049"
         },
         {
           "value": "terror",
-          "expanded": "Terror groups, terror actors, terrorist actions"
+          "expanded": "Terror groups, terror actors, terrorist actions",
+          "uuid": "609c0592-2a60-4f0e-b5cd-f5a95c9ad73a"
         }
       ]
     },
@@ -70,27 +75,33 @@
       "entry": [
         {
           "value": "theft",
-          "expanded": "Theft"
+          "expanded": "Theft",
+          "uuid": "ffc01fee-e5cb-4862-8b15-cb40e46bc215"
         },
         {
           "value": "modern-slavery and human-trafficking",
-          "expanded": "Modern slavery and human trafficking"
+          "expanded": "Modern slavery and human trafficking",
+          "uuid": "65f5c592-1ec2-4459-98be-3292b8777e5e"
         },
         {
           "value": "child-abuse-non-sexual",
-          "expanded": "Child abuse (non sexual)"
+          "expanded": "Child abuse (non sexual)",
+          "uuid": "76092636-4ba7-4217-8846-a23714a1d542"
         },
         {
           "value": "property-damage",
-          "expanded": "Property damage"
+          "expanded": "Property damage",
+          "uuid": "8e2f842c-c78f-4417-920c-a31ae3e86f6a"
         },
         {
           "value": "financial-crime",
-          "expanded": "Financial crime (scams, fraud)"
+          "expanded": "Financial crime (scams, fraud)",
+          "uuid": "13418a77-087b-4c2d-831a-66c41b8fa74e"
         },
         {
           "value": "sale-purchase-or-use-of-illegal-highly-regulated-or-unregistered-items",
-          "expanded": "Sale, purchase or use of illegal, highly regulated or unregistered items (dangerous substances, dangerous weapons, prohibited wildlife, fake goods"
+          "expanded": "Sale, purchase or use of illegal, highly regulated or unregistered items (dangerous substances, dangerous weapons, prohibited wildlife, fake goods",
+          "uuid": "80e3426f-46d3-4ba0-a208-4f606e8f3e9c"
         }
       ]
     },
@@ -99,27 +110,33 @@
       "entry": [
         {
           "value": "sexual-assault",
-          "expanded": "Sexual assault"
+          "expanded": "Sexual assault",
+          "uuid": "1f6021c5-929a-4493-b70e-6b298454a0be"
         },
         {
           "value": "sexual-harassment",
-          "expanded": "Sexual harassment"
+          "expanded": "Sexual harassment",
+          "uuid": "99ad45eb-58e7-4577-a6e2-4436cdbbe52e"
         },
         {
           "value": "sex-trafficking",
-          "expanded": "Sex trafficking"
+          "expanded": "Sex trafficking",
+          "uuid": "f941b98b-ed4b-4f94-8d7e-8e91f25c9d20"
         },
         {
           "value": "prostitution",
-          "expanded": "Prostitution"
+          "expanded": "Prostitution",
+          "uuid": "cd4e9102-7f18-4739-909f-8a1a48fa607b"
         },
         {
           "value": "intimate-image-related-abuse",
-          "expanded": "Intimate image related abuse"
+          "expanded": "Intimate image related abuse",
+          "uuid": "aa3d03da-ca81-4544-974d-81b9b087313b"
         },
         {
           "value": "indecent-exposure",
-          "expanded": "Indecent exposure (i.e., showing sexual body parts or 'flashing')"
+          "expanded": "Indecent exposure (i.e., showing sexual body parts or 'flashing')",
+          "uuid": "3a1c97f6-72e8-4971-969d-fe7cef8aedbf"
         }
       ]
     },
@@ -128,15 +145,18 @@
       "entry": [
         {
           "value": "inappropriate-harmful-relationships-with-children",
-          "expanded": "Inappropriate/harmful relationships with children. This include adults forming romantic relationships with children or grooming them"
+          "expanded": "Inappropriate/harmful relationships with children. This include adults forming romantic relationships with children or grooming them",
+          "uuid": "4ad898f3-eb65-4cd1-b94c-e870f7e81da0"
         },
         {
           "value": "sexual-abuse-included-sexualisation-of-children",
-          "expanded": "Sexual abuse of children, including sexualisation of children"
+          "expanded": "Sexual abuse of children, including sexualisation of children",
+          "uuid": "12902c68-3e88-42af-8bf4-e86ef983733d"
         },
         {
           "value": "child-sexual-abuse-material-CSAM",
-          "expanded": "Child sexual abuse material (CSAM). This includes erotic material involving children"
+          "expanded": "Child sexual abuse material (CSAM). This includes erotic material involving children",
+          "uuid": "6fa9dd95-0c7f-463e-836f-356f0f8bac23"
         }
       ]
     },
@@ -145,27 +165,33 @@
       "entry": [
         {
           "value": "CBRNE-all",
-          "expanded": "CBRNE all"
+          "expanded": "CBRNE all",
+          "uuid": "ff4a534e-65c1-44d9-a1e2-9b34d743bd77"
         },
         {
           "value": "chemical-weapons",
-          "expanded": "Chemical weapons (ex: nerve gas)"
+          "expanded": "Chemical weapons (ex: nerve gas)",
+          "uuid": "e23b667e-f1d6-48a0-9c98-fdf117af8fb4"
         },
         {
           "value": "biological-weapons",
-          "expanded": "Biological weapons (ex: anthrax)"
+          "expanded": "Biological weapons (ex: anthrax)",
+          "uuid": "bf621b53-de66-4816-b6c3-ea74bdb34da7"
         },
         {
           "value": "radiological-weapons",
-          "expanded": "Radiological weapons (ex: dirty bombs)"
+          "expanded": "Radiological weapons (ex: dirty bombs)",
+          "uuid": "a6e067e0-a708-4d02-b25f-7c60e45712fb"
         },
         {
           "value": "nuclear-weapons",
-          "expanded": "Nuclear weapons (ex: fission or fusion bombs)"
+          "expanded": "Nuclear weapons (ex: fission or fusion bombs)",
+          "uuid": "8ee55783-5379-4f11-8768-77dbf41eae86"
         },
         {
           "value": "high-yield-explosive-weapons",
-          "expanded": "High-yield explosive weapons (ex: cluster munitions)"
+          "expanded": "High-yield explosive weapons (ex: cluster munitions)",
+          "uuid": "43982082-595a-4c6f-9a1a-4dcc24d5fb91"
         }
       ]
     },
@@ -174,19 +200,23 @@
       "entry": [
         {
           "value": "suicide",
-          "expanded": "Suicide"
+          "expanded": "Suicide",
+          "uuid": "3b117328-9853-4a2f-a137-c50d68f6b700"
         },
         {
           "value": "self-harm",
-          "expanded": "Self-harm"
+          "expanded": "Self-harm",
+          "uuid": "e031af21-4e71-4760-9044-fe575546db95"
         },
         {
           "value": "eating-disorders",
-          "expanded": "Eating disorders"
+          "expanded": "Eating disorders",
+          "uuid": "290cca93-abb7-492e-9084-85373118d14b"
         },
         {
           "value": "dangerous-challenges",
-          "expanded": "Dangerous challenges and hoaxes that can lead individuals to harm themselves"
+          "expanded": "Dangerous challenges and hoaxes that can lead individuals to harm themselves",
+          "uuid": "298ea769-8045-43c6-8012-fb1ccb0f83d9"
         }
       ]
     },
@@ -195,19 +225,23 @@
       "entry": [
         {
           "value": "demeaning-and-derogatory-remarks",
-          "expanded": "Demeaning and derogatory remarks (mental capacity, sensory and physical attributes, behavioral attributes)"
+          "expanded": "Demeaning and derogatory remarks (mental capacity, sensory and physical attributes, behavioral attributes)",
+          "uuid": "5d78c285-7e84-4f26-b693-2f439adb73ed"
         },
         {
           "value": "inflicting-physical-harm",
-          "expanded": "Inflicting physical harm (mass violence and genocide, murder and individual violence)"
+          "expanded": "Inflicting physical harm (mass violence and genocide, murder and individual violence)",
+          "uuid": "9dc46857-05c6-41c6-ac9b-b32b20fcaf62"
         },
         {
           "value": "inflicting-emotional-harm",
-          "expanded": "Inflicting emotional harm (emotional abuse, undermine and make feel unwelcomed)"
+          "expanded": "Inflicting emotional harm (emotional abuse, undermine and make feel unwelcomed)",
+          "uuid": "cae940ee-4acc-46bb-b320-bbccb527d3ec"
         },
         {
           "value": "exclusion-or-isolation",
-          "expanded": "Exclusion or isolation (social exclusion, political exclusion, economic exclusion)"
+          "expanded": "Exclusion or isolation (social exclusion, political exclusion, economic exclusion)",
+          "uuid": "e7ac628a-b446-4f4e-96f6-7c1225cb761c"
         }
       ]
     }
