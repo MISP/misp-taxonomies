@@ -64,9 +64,14 @@
       "version": 6
     },
     {
-      "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias.",
+      "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. From NIST.SP.1270-draft (2021)",
       "name": "ai-bias-terminology",
       "version": 1
+    },
+    {
+      "description": "AI safety benchmark v0.5, that has been created by the MLCommons AI Safety Working Group (WG)",
+      "name": "ai-safety-benchmark",
+      "version": 2
     },
     {
       "description": "The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)",
@@ -815,5 +820,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20251203"
+  "version": "20251205"
 }
