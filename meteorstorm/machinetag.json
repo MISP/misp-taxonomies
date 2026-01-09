@@ -132,7 +132,7 @@
           "value": "SEG-DE",
           "expanded": "Deep Space",
           "description": "Services and assets operating beyond planetary orbital regimes.",
-          "uuid": "7e516290-bf31-5e42-ce51-d4e5f6071829"
+          "uuid": "140a2c8d-4fd7-4ec3-b1c2-c78bb3de1c1d"
         }
       ]
     },
@@ -178,25 +178,25 @@
           "value": "AST-SW",
           "expanded": "Software Asset",
           "description": "Applications and logic executing operational tasks.",
-          "uuid": "2f8c4055-9c3d-57c9-c41a-2180ac5fbe23"
+          "uuid": "4c9a8c77-e4d6-4982-b391-c0dea5f798cc"
         },
         {
           "value": "AST-DA",
           "expanded": "Data Asset",
           "description": "Information generated, processed, or consumed by the platform.",
-          "uuid": "309d5166-ad4e-58da-d52b-3291bd70cf34"
+          "uuid": "e5fc47c9-ca22-461d-b9fe-9378331db7b8"
         },
         {
           "value": "AST-SI",
           "expanded": "Signal Asset",
           "description": "Communication channels and transmission frequencies.",
-          "uuid": "41ae6277-be5f-59eb-e63c-43a2ce81df45"
+          "uuid": "e0f70df1-75e0-4252-919e-5d16d9c9272b"
         },
         {
           "value": "AST-HY",
           "expanded": "Hybrid Asset",
           "description": "Composite elements combining multiple asset types.",
-          "uuid": "52bf7388-cf60-5afc-f74d-54b3df92ef56"
+          "uuid": "d10965d8-9229-4a0e-abb4-8f2b203b67d7"
         }
       ]
     },
@@ -207,7 +207,7 @@
           "value": "AN-ATT",
           "expanded": "Attack Path",
           "description": "Known or modeled attack path for a converged space system.",
-          "uuid": "fedcba98-7654-3210-fedc-ba9876543210"
+          "uuid": "652690fa-19a9-4327-a2b7-65ba987c505d"
         },
         {
           "value": "AN-IOC",
