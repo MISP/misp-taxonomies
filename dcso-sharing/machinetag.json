@@ -1,7 +1,7 @@
 {
   "namespace": "dcso-sharing",
   "description": "Taxonomy defined in the DCSO MISP Event Guide. It provides guidance for the creation and consumption of MISP events in a way that minimises the extra effort for the sending party, while enhancing the usefulness for receiving parties.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "event-type",
@@ -41,6 +41,24 @@
           "expanded": "This event collects unrelated IoCs. For example, an event could combine all network IoCs that were learned of during a day or a week from events of other types.",
           "colour": "#94a850",
           "uuid": "73fc28be-1543-5829-a05e-ac176419fa2a"
+        },
+        {
+          "value": "Public Reporting",
+          "expanded": "This event contains indicators that are the result of enriched OSINT data.",
+          "colour": "#5a8910",
+          "uuid": "e692aced-5b6a-467d-98fa-de1d24b2bddf"
+        },
+        {
+          "value": "Focus",
+          "expanded": "This event contains indicators that are the result of original research and in-depth analysis.",
+          "colour": "#227594",
+          "uuid": "ebec519a-9692-46e1-8247-63d7d6c1e99d"
+        },
+        {
+          "value": "Tracking",
+          "expanded": "This event contains indicators that are the result of continuous monitoring and tracking of various sources.",
+          "colour": "#5c121b",
+          "uuid": "576445bb-2ab3-4ef0-96f9-780a77b54e9a"
         }
       ]
     }
