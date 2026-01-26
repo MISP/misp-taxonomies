@@ -216,7 +216,7 @@
     {
       "description": "Taxonomy defined in the DCSO MISP Event Guide. It provides guidance for the creation and consumption of MISP events in a way that minimises the extra effort for the sending party, while enhancing the usefulness for receiving parties.",
       "name": "dcso-sharing",
-      "version": 1
+      "version": 2
     },
     {
       "description": "Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too.",
@@ -297,6 +297,11 @@
       "description": "The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015.",
       "name": "enisa",
       "version": 20170725
+    },
+    {
+      "description": "Official ENSOC (or EU CyberHUB) taxonomy covering all labels used during information exchange.",
+      "name": "ensoc",
+      "version": 1
     },
     {
       "description": "Estimative language to describe quality and credibility of underlying sources, data, and methodologies based Intelligence Community Directive 203 (ICD 203) and JP 2-0, Joint Intelligence",
@@ -811,7 +816,7 @@
     {
       "description": "A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.",
       "name": "vulnerability",
-      "version": 5
+      "version": 6
     },
     {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
@@ -820,5 +825,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20251205"
+  "version": "20260126"
 }
