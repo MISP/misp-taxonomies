@@ -255,11 +255,17 @@
           "expanded": "NGSOTI",
           "description": "An exercise done in the scope of the NGSOTI infrastructure",
           "uuid": "8d5e2f5b-c55a-5e73-9724-d400ac7f6307"
+        },
+        {
+          "value": "hoplite",
+          "expanded": "HOPLITE",
+          "description": "An exercise done in the scope of the HOPLITE EU Project",
+          "uuid": "de4a35f2-b34c-4a10-aff7-485cfc8dde3d"
         }
       ]
     }
   ],
-  "version": 14,
+  "version": 15,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise",
