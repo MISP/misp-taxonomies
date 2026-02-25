@@ -5,10 +5,10 @@ set -x
 
 ./jq_all_the_things.sh
 
-diffs=`git status --porcelain | wc -l`
-
+diffs=`git status --porcelain | grep ".json$" | wc -l`
+# Check if some JSON are not JQued.
 if ! [ $diffs -eq 0 ]; then
-	echo "Please make sure you run ./jq_all_the_things.sh before committing. You need to add some files"
+	echo "Since we run ./jq_all_the_things.sh before committing. You probably need to add some files again"
   git status
 	exit 1
 fi
@@ -22,9 +22,18 @@ if ! [ $((directories-2)) -eq $manifest_entries ]; then
 fi
 
 python3 validate_all.py
-
 jsonschema -i mapping/mapping.json schema_mapping.json
 
 echo "Generating Manifest"
 cd tools
 python3 gen_manifest.py
+
+# validate if some files are missing in the pull request.
+diffs=`git status --porcelain | grep ".json$" | wc -l`
+if ! [ $diffs -eq 0 ]; then
+	echo "Please check if you need to add some files to your push request"
+  git status
+	exit 1
+fi
+
+
