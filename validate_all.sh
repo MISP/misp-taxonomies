@@ -27,13 +27,14 @@ jsonschema -i mapping/mapping.json schema_mapping.json
 echo "Generating Manifest"
 cd tools
 python3 gen_manifest.py
-
+cd ..
 # validate if some files are missing in the pull request.
-diffs=`git status --porcelain | grep ".json$" | wc -l`
+diffs=`git status --porcelain | wc -l`
 if ! [ $diffs -eq 0 ]; then
 	echo "Please check if you need to add some files to your push request"
   git status
 	exit 1
 fi
+
 
 
