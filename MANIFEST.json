@@ -346,7 +346,7 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 14
+      "version": 15
     },
     {
       "description": "Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf",
@@ -784,6 +784,11 @@
       "version": 1
     },
     {
+      "description": "Additional UAV and UCAV-related tags for qualifying usage and model specifications.",
+      "name": "uas-additionnal-classification",
+      "version": 1
+    },
+    {
       "description": "The Unified Kill Chain is a refinement to the Kill Chain.",
       "name": "unified-kill-chain",
       "version": 1
@@ -816,7 +821,7 @@
     {
       "description": "A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.",
       "name": "vulnerability",
-      "version": 6
+      "version": 7
     },
     {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
@@ -825,5 +830,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260126"
+  "version": "20260225"
 }
