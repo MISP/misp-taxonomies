@@ -85,7 +85,8 @@
     {
       "value": "OWA",
       "expanded": "One way attack drone",
-      "description": "Unmanned aerial system that utilize GNSS and/or inertial navigation to fly to specific, pre-programmed geographical coordinates. They generally do not possess the ability to loiter, hunt for moving targets or return to base if a target is not found."
+      "description": "Unmanned aerial system that utilize GNSS and/or inertial navigation to fly to specific, pre-programmed geographical coordinates. They generally do not possess the ability to loiter, hunt for moving targets or return to base if a target is not found.",
+      "uuid": "de46a9d7-d3b0-4735-86a9-87e97394f514"
     }
   ]
 }
