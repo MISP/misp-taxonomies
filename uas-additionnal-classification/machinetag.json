@@ -1,5 +1,5 @@
 {
-  "namespace": "UAS-ADDITION",
+  "namespace": "uas_additionnal_classification",
   "uuid": "3f6c2b8e-7c41-4f92-9d63-8e2a1c5b7d44",
   "description": "Additional UAV and UCAV-related tags for qualifying usage and model specifications.",
   "version": 1,
