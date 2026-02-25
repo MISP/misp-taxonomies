@@ -34,14 +34,14 @@
     {
       "predicate": "quad",
       "value": "QUAD",
-      "expanded": "Quadcopter",
+      "expanded": "Quadcopter (Quad motors)",
       "description": "Multirotor unmanned aerial system featuring four rotors, offering high maneuverability, vertical lift capability, and suitability for short-range tactical missions.",
       "uuid": "e3f7a9b4-5c21-4d8e-b9a0-1d6f3c7e2b55"
     },
     {
       "predicate": "octo",
       "value": "OCTO",
-      "expanded": "Octocopter",
+      "expanded": "Octocopter (Eight motors)",
       "description": "Multirotor unmanned aerial system equipped with eight rotors, providing increased lift capacity, redundancy, and improved payload capability compared to smaller multirotor platforms.",
       "uuid": "f9b2d6c1-7e34-4a8f-9c5d-2e1a7b0c6d44"
     },
@@ -69,7 +69,7 @@
     {
       "predicate": "hexa",
       "value": "HEXA",
-      "expanded": "Hexacopter",
+      "expanded": "Hexacopter (Six Motors)",
       "description": "Multirotor unmanned aerial system with six rotors, balancing maneuverability, payload capacity, and redundancy for tactical and operational missions.",
       "uuid": "4d9f2a6b-7c51-4e8d-a9b4-6f3c1d0e8a55"
     },
