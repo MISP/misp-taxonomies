@@ -785,7 +785,7 @@
     },
     {
       "description": "Additional UAV and UCAV-related tags for qualifying usage and model specifications.",
-      "name": "UAS-ADDITION",
+      "name": "uas_additionnal_classification",
       "version": 1
     },
     {
