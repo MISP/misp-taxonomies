@@ -1,0 +1,105 @@
+{
+  "namespace": "UAS-ADDITION",
+  "uuid": "3f6c2b8e-7c41-4f92-9d63-8e2a1c5b7d44",
+  "version": 1,
+  "values": [
+    {
+      "predicate": "fpv",
+      "value": "FPV",
+      "expanded": "First person View",
+      "description": "Unmanned aerial system operated via real-time video transmission, providing the pilot with an immersive first-person perspective. Commonly used for precision strike, reconnaissance, or high-maneuverability missions.",
+      "uuid": "a1e4d6b2-3c8f-4d9a-b7e2-5f6c1a9d0e33"
+    },
+    {
+      "predicate": "vtol",
+      "value": "VTOL",
+      "expanded": "Vertical Take-Off and Landing",
+      "description": "Unmanned aerial system capable of vertical take-off and landing without requiring a runway, enabling deployment in constrained or austere environments.",
+      "uuid": "b7c3f5a9-8d41-4e2b-9a6c-3d7e1f0a5b22"
+    },
+    {
+      "predicate": "lm",
+      "value": "LM",
+      "expanded": "Loitering Munition",
+      "description": "Unmanned aerial system designed to loiter over an area before engaging a target through self-detonation, combining surveillance and strike capabilities in a single platform.",
+      "uuid": "c2d9e4f1-6a83-4b7c-9f21-8e5d3c0b7a11"
+    },
+    {
+      "predicate": "isr",
+      "value": "ISR",
+      "expanded": "Intelligence Surveillance and Reconnaissance",
+      "description": "Unmanned aerial system configured to conduct intelligence gathering, persistent surveillance, and reconnaissance missions using optical, infrared, or electronic sensors.",
+      "uuid": "d8a1c5e7-2b94-4f3d-a6e1-9c0b4d7f2a66"
+    },
+    {
+      "predicate": "quad",
+      "value": "QUAD",
+      "expanded": "Quadcopter",
+      "description": "Multirotor unmanned aerial system featuring four rotors, offering high maneuverability, vertical lift capability, and suitability for short-range tactical missions.",
+      "uuid": "e3f7a9b4-5c21-4d8e-b9a0-1d6f3c7e2b55"
+    },
+    {
+      "predicate": "octo",
+      "value": "OCTO",
+      "expanded": "Octocopter",
+      "description": "Multirotor unmanned aerial system equipped with eight rotors, providing increased lift capacity, redundancy, and improved payload capability compared to smaller multirotor platforms.",
+      "uuid": "f9b2d6c1-7e34-4a8f-9c5d-2e1a7b0c6d44"
+    },
+    {
+      "predicate": "fiber",
+      "value": "FIBER",
+      "expanded": "Drone may be remotely controlled by fiber optic link",
+      "description": "Unmanned aerial system capable of command and control via a fiber-optic tether, reducing vulnerability to radio-frequency jamming and electronic warfare interference.",
+      "uuid": "1a6e9c3d-8b24-4f7a-9d0e-3c5b2f7e1a88"
+    },
+    {
+      "predicate": "interceptor",
+      "value": "INTERCEPTOR",
+      "expanded": "Drone designed to do in flight interception",
+      "description": "Unmanned aerial system specifically engineered to intercept and neutralize other aerial platforms during flight, typically used in counter-UAS roles.",
+      "uuid": "2b7d4e1a-9c53-4f8b-a6d2-7e0c1f5a3b77"
+    },
+    {
+      "predicate": "heli",
+      "value": "HELI",
+      "expanded": "Helicopter airframe",
+      "description": "Unmanned aerial system utilizing a rotary-wing helicopter configuration, enabling hovering capability and extended endurance compared to multirotor systems.",
+      "uuid": "3c8e1f5a-6b42-4d9c-b7a3-5e2f0d1c9a66"
+    },
+    {
+      "predicate": "hexa",
+      "value": "HEXA",
+      "expanded": "Hexacopter",
+      "description": "Multirotor unmanned aerial system with six rotors, balancing maneuverability, payload capacity, and redundancy for tactical and operational missions.",
+      "uuid": "4d9f2a6b-7c51-4e8d-a9b4-6f3c1d0e8a55"
+    },
+    {
+      "predicate": "wing",
+      "value": "WING",
+      "expanded": "Flying wing configuration",
+      "description": "Unmanned aerial system employing a flying wing aerodynamic configuration, optimizing lift-to-drag ratio, endurance, and reduced radar cross-section.",
+      "uuid": "5e1a3b7c-8d62-4f9e-b0c5-7a2d1e6f9b44"
+    },
+    {
+      "predicate": "barrage",
+      "value": "BARRAGE",
+      "expanded": "Barrage loitering munition",
+      "description": "Loitering munition system intended for coordinated or saturation attacks, capable of persistent presence over a target area before terminal engagement.",
+      "uuid": "6f2b4c8d-9e73-4a1f-b2d6-8c3e0f7a1b33"
+    },
+    {
+      "predicate": "cargo",
+      "value": "CARGO",
+      "expanded": "Cargo delivery drone",
+      "description": "Unmanned aerial system configured for the transport and delivery of logistical payloads, supplies, or equipment to forward or remote positions.",
+      "uuid": "7a3c5d9e-1f84-4b2a-c3e7-9d4f1a8b2c22"
+    },
+    {
+      "predicate": "owa",
+      "value": "OWA",
+      "expanded": "One way attack drone",
+      "description": "Unmanned aerial system that utilize GNSS and/or inertial navigation to fly to specific, pre-programmed geographical coordinates. They generally do not possess the ability to loiter, hunt for moving targets or return to base if a target is not found.",
+      "uuid": "de46a9d7-d3b0-4735-86a9-87e97394f514"
+    }
+  ]
+}
