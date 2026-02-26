@@ -1,0 +1,56 @@
+{
+  "namespace": "drug-form",
+  "description": "Primary physical forms of drugs: A categorisation model for narcotics and substances. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
+  "version": 1.1,
+  "predicates": [
+    {
+      "value": "form",
+      "expanded": "Primary Physical Form",
+      "description": "Physical form associated with the drug materials tagged",
+      "uuid": "9c562822-1053-4583-b8bf-5fafc0391ff8"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "form",
+      "entry": [
+        {
+          "value": "powder",
+          "expanded": "Powder / Dust / Flakes / Powdery / Finely Powdered",
+          "description": "Finely divided solid material, crystalline or amorphous.",
+          "uuid": "5c55ac0c-5a9b-4ab5-b2e7-fa001be6386a"
+        },
+        {
+          "value": "pill-tablet",
+          "expanded": "Pill / Pills / Tablet / Tablets",
+          "description": "Compressed solid oral dosage unit. (Capsules not modeled in v1 baseline.)",
+          "uuid": "ccc7bb48-3b96-48b0-9298-d85caf31873a"
+        },
+        {
+          "value": "crystal-rock",
+          "expanded": "Crystal / Crystals / Rock / Rocks / Shard / Shards / Moonrock",
+          "description": "Solid crystalline chunks or shard-like material.",
+          "uuid": "049dff8b-c717-499d-af1b-6824aa7c5159"
+        },
+        {
+          "value": "liquid",
+          "expanded": "Liquid / Solution / Suspension / Syrup / Spray / Nasal Spray / Vape Juice",
+          "description": "Fluid presentations (solutions, syrups, sprays, vape liquids).",
+          "uuid": "d18e24a9-8e83-4cdf-8627-b0b9e2f1863d"
+        },
+        {
+          "value": "plant-matter",
+          "expanded": "Plant Matter / Plant / Herb / Herbs / Leaf / Leaves / Bud / Flower / Weed",
+          "description": "Raw/dried botanical or fungal material (leaf, flower, herb, bud).",
+          "uuid": "f6d0572b-835b-4e66-b2b2-dbfc6139c221"
+        },
+        {
+          "value": "blotter",
+          "expanded": "Blotter / Tab / Tabs / Stamp / Strip / Strips / Paper Dose",
+          "description": "Absorbent paper or strip impregnated with an active substance (unit dose).",
+          "uuid": "a729cd8e-b61f-4987-82fb-ebcff7ace279"
+        }
+      ]
+    }
+  ]
+}
