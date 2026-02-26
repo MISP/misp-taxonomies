@@ -1,0 +1,167 @@
+{
+  "namespace": "carding",
+  "version": 1,
+  "description": "Classifying content, activities, tools, and actors within carding forums and marketplaces: A categorisation model for law enforcement. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
+  "predicates": [
+    {
+      "value": "activity-context",
+      "expanded": "Activity Context",
+      "description": "Context or location within a platform associated with the materials tagged",
+      "uuid": "7ab80ee7-158e-4c29-a449-4d92e63f2c57"
+    },
+    {
+      "value": "technique-tool",
+      "expanded": "Technique or Tool",
+      "description": "Specific methods, technologies, or tools associated with the materials tagged",
+      "uuid": "f2f1dfbb-ef77-42c9-8111-c76da7deec60"
+    },
+    {
+      "value": "product-service",
+      "expanded": "Product or Service",
+      "description": "Items, data, or services associated with the materials tagged",
+      "uuid": "9f2f6e21-4f0c-40e3-93f2-eacfd9ac43f8"
+    },
+    {
+      "value": "actor-role",
+      "expanded": "Actor or Role",
+      "description": "Role or function of a user within the community associated with the materials tagged",
+      "uuid": "4db4e11c-5167-4270-85f2-eb89d92168e3"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "activity-context",
+      "entry": [
+        {
+          "value": "marketplace",
+          "expanded": "Marketplace",
+          "description": "Activity takes place in a marketplace section.",
+          "uuid": "e4fbc6bb-5b3b-4256-aeef-e2b4161909ae"
+        },
+        {
+          "value": "forum-discussion",
+          "expanded": "Forum Discussion",
+          "description": "General discussion area or community forum.",
+          "uuid": "df23ec2a-6706-4cb1-876a-8afbab25dcdd"
+        },
+        {
+          "value": "login-portal",
+          "expanded": "Login Portal",
+          "description": "Related to a login page or authentication process.",
+          "uuid": "660fd485-dacd-4acb-a55f-61e77cd441a8"
+        },
+        {
+          "value": "announcements",
+          "expanded": "Announcements",
+          "description": "Official announcements from site staff.",
+          "uuid": "36922918-85f1-441b-8bdf-19ae4604f863"
+        },
+        {
+          "value": "user-profile-area",
+          "expanded": "User Profile Area",
+          "description": "Content related to user profiles or control panels.",
+          "uuid": "66e024fe-2f0e-411f-b08c-33513ab41a10"
+        }
+      ]
+    },
+    {
+      "predicate": "technique-tool",
+      "entry": [
+        {
+          "value": "social-engineering",
+          "expanded": "Social Engineering",
+          "description": "Manipulative techniques to obtain confidential information.",
+          "uuid": "d94dd994-a3ab-4ac7-ae75-fc4df1bf8f05"
+        },
+        {
+          "value": "malware",
+          "expanded": "Malware",
+          "description": "Malicious software such as trojans, keyloggers, and viruses.",
+          "uuid": "86f7e526-9d46-44c3-bb06-17266240e4a4"
+        },
+        {
+          "value": "exploit",
+          "expanded": "Exploit",
+          "description": "Code or methods that take advantage of software vulnerabilities.",
+          "uuid": "6104d1dc-c552-482d-9a5b-0f95f62cca35"
+        },
+        {
+          "value": "anonymization-tool",
+          "expanded": "Anonymization Tool",
+          "description": "Includes VPN, RDP, SOCKS5, Proxy.",
+          "uuid": "f87fe951-070d-4184-a3e3-4bb498dfd425"
+        },
+        {
+          "value": "cryptography",
+          "expanded": "Cryptography",
+          "description": "Use of cryptographic tools or methods for confidentiality or integrity.",
+          "uuid": "100f0208-39a7-4ce4-a87c-d096f708b9fe"
+        }
+      ]
+    },
+    {
+      "predicate": "product-service",
+      "entry": [
+        {
+          "value": "credit-card-data",
+          "expanded": "Credit Card Data",
+          "description": "Sale or discussion of credit card numbers, CVVs, dumps.",
+          "uuid": "dfaa81fd-b370-45ff-bbb9-7e8285a2b76b"
+        },
+        {
+          "value": "cardable-site",
+          "expanded": "Cardable Site",
+          "description": "Discussion of websites vulnerable to carding.",
+          "uuid": "facf5f07-bf04-4cad-8b2d-348f6473eebe"
+        },
+        {
+          "value": "tutorial-guide",
+          "expanded": "Tutorial Guide",
+          "description": "How-to guides and tutorials for carding techniques.",
+          "uuid": "3c9f2261-e9b1-45e8-9f65-34cdf3742218"
+        },
+        {
+          "value": "scam-report",
+          "expanded": "Scam Report",
+          "description": "Users reporting fraudulent sellers or services.",
+          "uuid": "bfdbc0e9-0c18-499a-82df-1db39404cc06"
+        },
+        {
+          "value": "carding-tool",
+          "expanded": "Carding Tool",
+          "description": "Software or tools specifically for carding.",
+          "uuid": "f306a963-a025-40c3-bda2-a74de1591f81"
+        }
+      ]
+    },
+    {
+      "predicate": "actor-role",
+      "entry": [
+        {
+          "value": "seller",
+          "expanded": "Seller",
+          "description": "A user offering products or services.",
+          "uuid": "c04cb6dc-9480-4252-8b40-df323e0f2f69"
+        },
+        {
+          "value": "buyer",
+          "expanded": "Buyer",
+          "description": "A user looking to purchase products or services.",
+          "uuid": "477f4234-915e-4b4e-8f3a-db9a32b75df5"
+        },
+        {
+          "value": "staff",
+          "expanded": "Staff",
+          "description": "Forum or marketplace administrators or moderators.",
+          "uuid": "63d0f903-edbf-4864-92e3-54884c63a72a"
+        },
+        {
+          "value": "scammer",
+          "expanded": "Scammer",
+          "description": "A user identified by the community as fraudulent.",
+          "uuid": "aaa1891a-5be5-446e-92ab-ef2b1d72b740"
+        }
+      ]
+    }
+  ]
+}
