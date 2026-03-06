@@ -309,6 +309,11 @@
       "version": 5
     },
     {
+      "description": "Taxonomy for the EU Artificial Intelligence Act (Regulation (EU) 2024/1689). Classifies AI systems by risk level, prohibited practices, high-risk use cases, and incident types for GRC and SOC reporting.",
+      "name": "eu-ai-act",
+      "version": 1
+    },
+    {
       "description": "Market operators and public administrations that must comply to some notifications requirements under EU NIS directive",
       "name": "eu-marketop-and-publicadmin",
       "version": 1
@@ -827,13 +832,8 @@
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
       "version": 15
-    },
-    {
-      "description": "The taxonomy is meant to classify AI systems and practices according to the EU AI Act (Regulation (EU) 2024/1689), covering risk levels, prohibited practices, high-risk use cases and serious incident reporting.",
-      "name": "eu-ai-act",
-      "version": 1
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260225"
+  "version": "20260306"
 }
