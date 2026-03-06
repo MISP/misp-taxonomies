@@ -1,0 +1,201 @@
+{
+  "namespace": "eu-ai-act",
+  "description": "Taxonomy for the EU Artificial Intelligence Act (Regulation (EU) 2024/1689). Classifies AI systems by risk level, prohibited practices, high-risk use cases, and incident types for GRC and SOC reporting.",
+  "version": 1,
+  "uuid": "7d3c9b8a-1f2e-4a3b-8c9d-0e1f2a3b4c5d",
+  "predicates": [
+    {
+      "value": "risk-level",
+      "expanded": "Risk level classification",
+      "description": "The risk level of the AI system according to the EU AI Act framework.",
+      "exclusive": true,
+      "uuid": "550e8400-e29b-41d4-a716-446655440000"
+    },
+    {
+      "value": "prohibited-practice",
+      "expanded": "Prohibited AI practices (Art. 5)",
+      "description": "AI practices that are strictly prohibited within the EU.",
+      "uuid": "550e8400-e29b-41d4-a716-446655440001"
+    },
+    {
+      "value": "high-risk-category",
+      "expanded": "High-risk AI categories (Annex III)",
+      "description": "Specific areas where AI systems are classified as high-risk.",
+      "uuid": "550e8400-e29b-41d4-a716-446655440002"
+    },
+    {
+      "value": "incident-type",
+      "expanded": "Type of AI-related incident",
+      "description": "Nature of the security or fundamental rights incident (Art. 73).",
+      "uuid": "550e8400-e29b-41d4-a716-446655440003"
+    },
+    {
+      "value": "compliance-status",
+      "expanded": "Compliance and Conformity",
+      "description": "The current state of compliance of the AI system.",
+      "uuid": "550e8400-e29b-41d4-a716-446655440004"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "risk-level",
+      "entry": [
+        {
+          "value": "unacceptable",
+          "expanded": "Unacceptable Risk (Prohibited)",
+          "description": "Systems that pose a clear threat to safety, livelihoods, and rights.",
+          "colour": "#CC0033",
+          "uuid": "6ba7b810-9dad-11d1-80b4-00c04fd430c1"
+        },
+        {
+          "value": "high-risk",
+          "expanded": "High-Risk",
+          "description": "AI systems with significant impact on health, safety or fundamental rights.",
+          "colour": "#FF0000",
+          "uuid": "6ba7b810-9dad-11d1-80b4-00c04fd430c2"
+        },
+        {
+          "value": "systemic-risk-gpai",
+          "expanded": "Systemic Risk (GPAI)",
+          "description": "General-purpose AI models with high-impact capabilities (e.g. >10^25 FLOPS).",
+          "colour": "#FF8800",
+          "uuid": "6ba7b810-9dad-11d1-80b4-00c04fd430c3"
+        },
+        {
+          "value": "limited-risk",
+          "expanded": "Limited Risk",
+          "description": "Systems requiring specific transparency obligations (e.g. chatbots, deepfakes).",
+          "colour": "#FFC000",
+          "uuid": "6ba7b810-9dad-11d1-80b4-00c04fd430c4"
+        },
+        {
+          "value": "minimal-risk",
+          "expanded": "Minimal/No Risk",
+          "description": "Most AI systems like spam filters or AI-enabled video games.",
+          "colour": "#339900",
+          "uuid": "6ba7b810-9dad-11d1-80b4-00c04fd430c5"
+        }
+      ]
+    },
+    {
+      "predicate": "prohibited-practice",
+      "entry": [
+        {
+          "value": "biometric-categorisation",
+          "expanded": "Biometric categorisation (sensitive traits)",
+          "description": "Categorising individuals based on sensitive data (race, political views, etc.).",
+          "uuid": "7ca7b810-9dad-11d1-80b4-00c04fd430d1"
+        },
+        {
+          "value": "social-scoring",
+          "expanded": "Social Scoring",
+          "description": "Classification of people based on social behavior or personality traits.",
+          "uuid": "7ca7b810-9dad-11d1-80b4-00c04fd430d2"
+        },
+        {
+          "value": "subliminal-manipulation",
+          "expanded": "Subliminal/Manipulative techniques",
+          "description": "Techniques to distort behavior causing physical or psychological harm.",
+          "uuid": "7ca7b810-9dad-11d1-80b4-00c04fd430d3"
+        },
+        {
+          "value": "rbi-public-space",
+          "expanded": "Real-time remote biometric ID in public spaces",
+          "description": "Use for law enforcement (subject to narrow exceptions).",
+          "uuid": "7ca7b810-9dad-11d1-80b4-00c04fd430d4"
+        }
+      ]
+    },
+    {
+      "predicate": "high-risk-category",
+      "entry": [
+        {
+          "value": "critical-infrastructure",
+          "expanded": "Critical Infrastructure",
+          "description": "AI in management and operation of road traffic, water, gas, electricity.",
+          "uuid": "8ca7b810-9dad-11d1-80b4-00c04fd430e1"
+        },
+        {
+          "value": "employment-hr",
+          "expanded": "Employment and HR",
+          "description": "Recruitment, promotion, termination, and task allocation systems.",
+          "uuid": "8ca7b810-9dad-11d1-80b4-00c04fd430e2"
+        },
+        {
+          "value": "law-enforcement",
+          "expanded": "Law Enforcement",
+          "description": "Risk assessment, polygraphs, or evidence reliability tools.",
+          "uuid": "8ca7b810-9dad-11d1-80b4-00c04fd430e3"
+        },
+        {
+          "value": "education-vocational",
+          "expanded": "Education and Vocational Training",
+          "description": "Determining access to education or assessing learning outcomes.",
+          "uuid": "8ca7b810-9dad-11d1-80b4-00c04fd430e4"
+        },
+        {
+          "value": "migration-asylum",
+          "expanded": "Migration, Asylum and Border Control",
+          "description": "AI for polygraphs, risk assessment, or verifying travel documents.",
+          "uuid": "8ca7b810-9dad-11d1-80b4-00c04fd430e5"
+        },
+        {
+          "value": "justice-democracy",
+          "expanded": "Administration of Justice and Democracy",
+          "description": "AI used by judicial authorities or for influencing elections.",
+          "uuid": "8ca7b810-9dad-11d1-80b4-00c04fd430e6"
+        }
+      ]
+    },
+    {
+      "predicate": "incident-type",
+      "entry": [
+        {
+          "value": "serious-incident",
+          "expanded": "Serious Incident (Art. 73)",
+          "description": "Death, serious health damage, or major critical infrastructure disruption.",
+          "colour": "#CC0033",
+          "uuid": "9ca7b810-9dad-11d1-80b4-00c04fd430f1"
+        },
+        {
+          "value": "fundamental-rights-violation",
+          "expanded": "Fundamental Rights Breach",
+          "description": "Incident leading to the breach of obligations protecting fundamental rights.",
+          "colour": "#CC0033",
+          "uuid": "9ca7b810-9dad-11d1-80b4-00c04fd430f2"
+        },
+        {
+          "value": "adversarial-attack",
+          "expanded": "Adversarial Attack / Evasion",
+          "description": "Intentional manipulation of AI input to cause malfunction.",
+          "uuid": "9ca7b810-9dad-11d1-80b4-00c04fd430f3"
+        },
+        {
+          "value": "data-poisoning",
+          "expanded": "Data Poisoning",
+          "description": "Compromising the training data or fine-tuning process.",
+          "uuid": "9ca7b810-9dad-11d1-80b4-00c04fd430f4"
+        }
+      ]
+    },
+    {
+      "predicate": "compliance-status",
+      "entry": [
+        {
+          "value": "non-compliant",
+          "expanded": "Non-Compliant",
+          "description": "The AI system does not meet the requirements of the Act.",
+          "colour": "#CC0033",
+          "uuid": "ada7b810-9dad-11d1-80b4-00c04fd431a1"
+        },
+        {
+          "value": "conformity-assessed",
+          "expanded": "Conformity Assessed (CE Mark)",
+          "description": "System has undergone required assessment and carries CE marking.",
+          "colour": "#339900",
+          "uuid": "ada7b810-9dad-11d1-80b4-00c04fd431a2"
+        }
+      ]
+    }
+  ]
+}
