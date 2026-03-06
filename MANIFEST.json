@@ -827,6 +827,11 @@
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
       "name": "workflow",
       "version": 15
+    },
+    {
+      "description": "The taxonomy is meant to classify AI systems and practices according to the EU AI Act (Regulation (EU) 2024/1689), covering risk levels, prohibited practices, high-risk use cases and serious incident reporting.",
+      "name": "eu-ai-act",
+      "version": 1
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
