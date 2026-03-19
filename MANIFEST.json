@@ -69,6 +69,11 @@
       "version": 1
     },
     {
+      "description": "Taxonomy describing the level of AI assistance and the level of review/update involved in the creation of an intelligence package or event.",
+      "name": "ai-computer-assisted",
+      "version": 1
+    },
+    {
       "description": "AI safety benchmark v0.5, that has been created by the MLCommons AI Safety Working Group (WG)",
       "name": "ai-safety-benchmark",
       "version": 2
@@ -835,5 +840,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260318"
+  "version": "20260319"
 }
