@@ -129,6 +129,11 @@
       "version": 6
     },
     {
+      "description": "Cloud sovereignty objectives, assurance levels, and scoring weights derived from the European Commission Cloud Sovereignty Framework.",
+      "name": "cloud-sovereignty",
+      "version": 1
+    },
+    {
       "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
       "name": "cnsd",
       "version": 20220513
@@ -840,5 +845,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260319"
+  "version": "20260323"
 }

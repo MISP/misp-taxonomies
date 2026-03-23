@@ -1,0 +1,191 @@
+{
+  "namespace": "cloud-sovereignty",
+  "expanded": "Cloud Sovereignty Framework",
+  "description": "Cloud sovereignty objectives, assurance levels, and scoring weights derived from the European Commission Cloud Sovereignty Framework.",
+  "version": 1,
+  "refs": [
+    "https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en"
+  ],
+  "predicates": [
+    {
+      "value": "objective",
+      "expanded": "Sovereignty Objective",
+      "uuid": "8b9357c9-3113-4c8e-81cd-87fb8e8310d9"
+    },
+    {
+      "value": "seal",
+      "expanded": "Sovereignty Effectiveness Assurance Level",
+      "uuid": "9d9bb4bc-9a1c-4132-925b-55105b85e3ef"
+    },
+    {
+      "value": "weight",
+      "expanded": "Sovereignty Score Weight",
+      "uuid": "4df9e134-b3df-40cb-b88f-2e9a59406c8d"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "objective",
+      "entry": [
+        {
+          "value": "sov-1",
+          "expanded": "Strategic Sovereignty",
+          "description": "Strategic sovereignty captures the degree to which the services of a cloud provider (or technology actor) are anchored within the European Union legal, financial, and industrial ecosystem. It assesses ownership stability, governance influence, and alignment with EU strategic priorities.",
+          "numerical_value": 1,
+          "uuid": "d9cce53c-f84d-493d-9af6-7fb8b5b8f07f"
+        },
+        {
+          "value": "sov-2",
+          "expanded": "Legal & Jurisdictional Sovereignty",
+          "description": "Legal & Jurisdictional sovereignty evaluates the legal environment, exposure to foreign authority, and enforceability of rights that govern the services of a technology provider. It determines the extent to which the services are anchored in European jurisdiction and insulated from external legal claims.",
+          "numerical_value": 2,
+          "uuid": "da7e152f-2f6a-4e82-beaf-5a1af44fa879"
+        },
+        {
+          "value": "sov-3",
+          "expanded": "Data & AI Sovereignty",
+          "description": "Data & AI sovereignty focuses on the protection, control, and independence of data assets and AI services within the EU. It addresses how data is secured, where it is processed, and the degree of autonomy customers retain over AI capabilities.",
+          "numerical_value": 3,
+          "uuid": "715eedf0-345b-40a2-908c-f4ebfe6f106c"
+        },
+        {
+          "value": "sov-4",
+          "expanded": "Operational Sovereignty",
+          "description": "Operational sovereignty measures the practical ability of EU actors to run, support, and evolve a technology independently of foreign control. It focuses on continuity of operations, skill availability, and resilience against external dependencies.",
+          "numerical_value": 4,
+          "uuid": "70f7d508-3f13-4115-af52-50199569b349"
+        },
+        {
+          "value": "sov-5",
+          "expanded": "Supply Chain Sovereignty",
+          "description": "Supply chain sovereignty evaluates the geographic origin, transparency, and resilience of the technology supply chain, focusing on the extent to which critical components and processes remain under EU control or exposed to non-EU dependencies.",
+          "numerical_value": 5,
+          "uuid": "c2a37ee3-3707-4fe9-b94a-67652c522db7"
+        },
+        {
+          "value": "sov-6",
+          "expanded": "Technology Sovereignty",
+          "description": "Technology sovereignty evaluates the degree of openness, transparency, and independence in the underlying technological stack, ensuring EU actors can interoperate, audit, and evolve solutions without lock-in to foreign proprietary systems.",
+          "numerical_value": 6,
+          "uuid": "cea85ea9-9343-470a-a416-f24ae4d49b92"
+        },
+        {
+          "value": "sov-7",
+          "expanded": "Security & Compliance Sovereignty",
+          "description": "Security & Compliance sovereignty measures the extent to which security operations, compliance obligations, and resilience measures are controlled within the EU, ensuring independence from foreign jurisdictions and long-term operational assurance.",
+          "numerical_value": 7,
+          "uuid": "f247c6b6-a7c9-4d42-bd71-443aff1ca826"
+        },
+        {
+          "value": "sov-8",
+          "expanded": "Environmental Sustainability",
+          "description": "Environmental sustainability assesses autonomy and resilience of cloud services over the long term in relation to energy usage, dependency and raw material scarcity.",
+          "numerical_value": 8,
+          "uuid": "2ff6b0ed-73bf-4886-be1c-7debce13757b"
+        }
+      ]
+    },
+    {
+      "predicate": "seal",
+      "entry": [
+        {
+          "value": "seal-0",
+          "expanded": "No Sovereignty",
+          "description": "Service, technology or operations under exclusive control of non-EU third parties, governed entirely in non-EU jurisdictions.",
+          "numerical_value": 0,
+          "uuid": "c9b8e866-5870-4838-9ea0-688f762fd7e5"
+        },
+        {
+          "value": "seal-1",
+          "expanded": "Jurisdictional Sovereignty",
+          "description": "EU law formally applies with limited practical enforceability; service, technology or operations under exclusive control of non-EU third parties.",
+          "numerical_value": 1,
+          "uuid": "e39a29f3-abf5-4f6b-adcc-9627bdc6ef0d"
+        },
+        {
+          "value": "seal-2",
+          "expanded": "Data Sovereignty",
+          "description": "EU law applicable and enforceable, with material non-EU dependencies remaining; service, technology or operations under indirect control of non-EU third parties.",
+          "numerical_value": 2,
+          "uuid": "0628e8ee-c38e-4868-922f-28ae641bd170"
+        },
+        {
+          "value": "seal-3",
+          "expanded": "Digital Resilience",
+          "description": "EU law applicable and enforceable, EU actors exercising meaningful but not full influence; service, technology or operations under marginal control of non-EU third parties.",
+          "numerical_value": 3,
+          "uuid": "4cf49d13-bd9a-41b4-8a3a-d0c025050ca1"
+        },
+        {
+          "value": "seal-4",
+          "expanded": "Full Digital Sovereignty",
+          "description": "Technology and operations under complete EU control, subject only to EU law, with no critical non-EU dependencies.",
+          "numerical_value": 4,
+          "uuid": "c6ca091d-e8a9-445a-b8d7-aa9e23074628"
+        }
+      ]
+    },
+    {
+      "predicate": "weight",
+      "entry": [
+        {
+          "value": "sov-1-15",
+          "expanded": "SOV-1 Strategic Sovereignty - 15%",
+          "description": "Weight in scoring: 15%.",
+          "numerical_value": 15,
+          "uuid": "f53c97cf-a40a-4b1e-bb0b-4552f423007e"
+        },
+        {
+          "value": "sov-2-10",
+          "expanded": "SOV-2 Legal & Jurisdictional Sovereignty - 10%",
+          "description": "Weight in scoring: 10%.",
+          "numerical_value": 10,
+          "uuid": "3f333114-acce-4515-aae2-69677512b185"
+        },
+        {
+          "value": "sov-3-10",
+          "expanded": "SOV-3 Data & AI Sovereignty - 10%",
+          "description": "Weight in scoring: 10%.",
+          "numerical_value": 10,
+          "uuid": "e7e2d4f0-03e9-4eeb-b754-6f576ae0c81b"
+        },
+        {
+          "value": "sov-4-15",
+          "expanded": "SOV-4 Operational Sovereignty - 15%",
+          "description": "Weight in scoring: 15%.",
+          "numerical_value": 15,
+          "uuid": "9a5e910b-4a99-47ed-b988-5ed5a2e15133"
+        },
+        {
+          "value": "sov-5-20",
+          "expanded": "SOV-5 Supply Chain Sovereignty - 20%",
+          "description": "Weight in scoring: 20%.",
+          "numerical_value": 20,
+          "uuid": "ac12ac09-48e9-41d6-8129-04c860f95186"
+        },
+        {
+          "value": "sov-6-15",
+          "expanded": "SOV-6 Technology Sovereignty - 15%",
+          "description": "Weight in scoring: 15%.",
+          "numerical_value": 15,
+          "uuid": "cf79b8f3-7cf9-45f6-b7c0-100d1b7a03a9"
+        },
+        {
+          "value": "sov-7-10",
+          "expanded": "SOV-7 Security & Compliance Sovereignty - 10%",
+          "description": "Weight in scoring: 10%.",
+          "numerical_value": 10,
+          "uuid": "84d017bc-b3cb-47c4-8406-ba8bbdac9353"
+        },
+        {
+          "value": "sov-8-5",
+          "expanded": "SOV-8 Environmental Sustainability - 5%",
+          "description": "Weight in scoring: 5%.",
+          "numerical_value": 5,
+          "uuid": "0206bd0f-2adc-4adf-917a-ab77b3de00a1"
+        }
+      ]
+    }
+  ],
+  "uuid": "d8f36495-5fbe-4471-b972-34db2c51d085"
+}
