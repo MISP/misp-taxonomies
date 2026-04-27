@@ -739,6 +739,11 @@
       "version": 1
     },
     {
+      "description": "SoV Cloud sovereignty objectives, assurance levels, and scoring weights derived from the European Commission Cloud Sovereignty Framework.",
+      "name": "sov",
+      "version": 1
+    },
+    {
       "description": "SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection",
       "name": "srbcert",
       "version": 3
