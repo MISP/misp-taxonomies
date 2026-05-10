@@ -67,6 +67,11 @@ The Admiralty Scale or Ranking (also called the NATO System) is used to rank the
 [adversary](https://github.com/MISP/misp-taxonomies/tree/main/adversary) :
 An overview and description of the adversary infrastructure [Overview](https://www.misp-project.org/taxonomies.html#_adversary)
 
+### agent-threat-rules
+
+[agent-threat-rules](https://github.com/MISP/misp-taxonomies/tree/main/agent-threat-rules) :
+Agent Threat Rules (ATR) is an open detection standard for AI agent threats. The taxonomy organises community-maintained rule identifiers across attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. [Overview](https://www.misp-project.org/taxonomies.html#_agent_threat_rules)
+
 ### ais-marking
 
 [ais-marking](https://github.com/MISP/misp-taxonomies/tree/main/ais-marking) :

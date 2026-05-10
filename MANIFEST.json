@@ -64,6 +64,11 @@
       "version": 6
     },
     {
+      "description": "Agent Threat Rules (ATR) is an open detection standard for AI agent threats published under Apache 2.0. The taxonomy organises 330 community-maintained rules across ten attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. Predicates name the category; values are individual rule identifiers in the form ATR-YYYY-NNNNN.",
+      "name": "agent-threat-rules",
+      "version": 1
+    },
+    {
       "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. From NIST.SP.1270-draft (2021)",
       "name": "ai-bias-terminology",
       "version": 1
@@ -850,5 +855,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260427"
+  "version": "20260510"
 }
