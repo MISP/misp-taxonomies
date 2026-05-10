@@ -1,0 +1,2105 @@
+{
+  "description": "Agent Threat Rules (ATR) is an open detection standard for AI agent threats published under Apache 2.0. The taxonomy organises 330 community-maintained rules across ten attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. Predicates name the category; values are individual rule identifiers in the form ATR-YYYY-NNNNN.",
+  "expanded": "Agent Threat Rules",
+  "namespace": "agent-threat-rules",
+  "predicates": [
+    {
+      "description": "Manipulation of agent behavior, goals, or decision-making through adversarial inputs, persona injection, role-play coercion, or social-engineering of the agent itself.",
+      "expanded": "Agent Manipulation",
+      "uuid": "47065e85-b5af-59c6-9858-07222745dd40",
+      "value": "agent-manipulation"
+    },
+    {
+      "description": "Extraction of sensitive context (system prompts, conversation history, internal state, secrets, embedded credentials) from an agent or its tool surface.",
+      "expanded": "Context Exfiltration",
+      "uuid": "b29c8ac8-2c4d-5c34-a995-e99119c09a7f",
+      "value": "context-exfiltration"
+    },
+    {
+      "description": "Tampering with training data, retrieval corpora, or knowledge bases used by the agent to alter downstream behavior.",
+      "expanded": "Data Poisoning",
+      "uuid": "7675693b-59ed-5fa1-a8da-e6bf4c6d6afa",
+      "value": "data-poisoning"
+    },
+    {
+      "description": "Agent acts beyond its authorized scope, performs unauthorized side effects, or executes irreversible operations without proper human review.",
+      "expanded": "Excessive Autonomy",
+      "uuid": "af9c0051-0635-5e46-b3cb-45d0ade781f4",
+      "value": "excessive-autonomy"
+    },
+    {
+      "description": "Harmful use of model capabilities including dual-use generation, output manipulation that produces unsafe artifacts, or jailbreak chains targeting the model layer.",
+      "expanded": "Model Abuse",
+      "uuid": "dc4746d5-4b85-583a-88ae-1736e4d6c4a7",
+      "value": "model-abuse"
+    },
+    {
+      "description": "Direct attacks on the model boundary including encoding bypass, weight or fine-tuning adversarial conditioning, and model-level evasion techniques.",
+      "expanded": "Model Security",
+      "uuid": "53fb00b9-0111-5110-8af4-63cd220ca472",
+      "value": "model-security"
+    },
+    {
+      "description": "Agent or attacker escalates privileges through tool chaining, sandbox bypass, or impersonation of higher-trust components such as the orchestrator or admin role.",
+      "expanded": "Privilege Escalation",
+      "uuid": "ad9b732b-b25e-5db0-affa-dc192448cd49",
+      "value": "privilege-escalation"
+    },
+    {
+      "description": "Direct or indirect injection of adversarial instructions into agent inputs through user messages, retrieved documents, file content, web pages, or tool outputs.",
+      "expanded": "Prompt Injection",
+      "uuid": "284e84ea-1373-53ff-a87c-e24020bda2ed",
+      "value": "prompt-injection"
+    },
+    {
+      "description": "Malicious skill, plugin, or extension package compromising agent execution. Includes typosquatting, supply chain attacks, and SKILL.md prompt injection.",
+      "expanded": "Skill Compromise",
+      "uuid": "2b9a10c3-cf9d-5a47-9255-2d4af0199a79",
+      "value": "skill-compromise"
+    },
+    {
+      "description": "MCP server, tool description, or tool result poisoning that causes the agent to invoke tools with attacker-controlled parameters or exfiltrate data through tools.",
+      "expanded": "Tool Poisoning",
+      "uuid": "8825df47-bc02-5d64-93c9-9bd254ada4ae",
+      "value": "tool-poisoning"
+    }
+  ],
+  "refs": [
+    "https://github.com/Agent-Threat-Rule/agent-threat-rules",
+    "https://github.com/Agent-Threat-Rule/ai-rmf-oscal-catalog"
+  ],
+  "uuid": "86e4af11-c7bb-5b30-beb3-88eec124e4af",
+  "values": [
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00030. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00030-cross-agent-attack.yaml",
+          "expanded": "Cross-Agent Attack Detection",
+          "uuid": "753f03c1-7a05-5f8c-9c96-dd808a06a55c",
+          "value": "ATR-2026-00030"
+        },
+        {
+          "description": "ATR rule ATR-2026-00032. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00032-goal-hijacking.yaml",
+          "expanded": "Agent Goal Hijacking Detection",
+          "uuid": "a0687e42-e015-5577-9c96-ab439fda1ef7",
+          "value": "ATR-2026-00032"
+        },
+        {
+          "description": "ATR rule ATR-2026-00074. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00074-cross-agent-privilege-escalation.yaml",
+          "expanded": "Cross-Agent Privilege Escalation",
+          "uuid": "7037062d-1a30-5e6f-bb8b-da63f71e97c2",
+          "value": "ATR-2026-00074"
+        },
+        {
+          "description": "ATR rule ATR-2026-00076. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00076-inter-agent-message-spoofing.yaml",
+          "expanded": "Insecure Inter-Agent Communication Detection",
+          "uuid": "80b2c95f-02eb-5dba-a54f-ede97591fb6d",
+          "value": "ATR-2026-00076"
+        },
+        {
+          "description": "ATR rule ATR-2026-00077. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00077-human-trust-exploitation.yaml",
+          "expanded": "Human-Agent Trust Exploitation Detection",
+          "uuid": "154966d0-9158-5fe4-8903-00f7abab88de",
+          "value": "ATR-2026-00077"
+        },
+        {
+          "description": "ATR rule ATR-2026-00108. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00108-consensus-sybil-attack.yaml",
+          "expanded": "Multi-Agent Consensus Sybil Attack",
+          "uuid": "c9f163ff-be06-521c-b1bb-a44dcd3adf6f",
+          "value": "ATR-2026-00108"
+        },
+        {
+          "description": "ATR rule ATR-2026-00116. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00116-a2a-message-validation.yaml",
+          "expanded": "Malicious Agent-to-Agent Message Injection",
+          "uuid": "b47967a5-157a-5b78-ab5e-db35cfbb8d7d",
+          "value": "ATR-2026-00116"
+        },
+        {
+          "description": "ATR rule ATR-2026-00117. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00117-agent-identity-spoofing.yaml",
+          "expanded": "Agent Identity Spoofing and Authority Impersonation",
+          "uuid": "988a7bf2-a374-5462-a2ce-196dd3788e35",
+          "value": "ATR-2026-00117"
+        },
+        {
+          "description": "ATR rule ATR-2026-00118. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00118-approval-fatigue.yaml",
+          "expanded": "Human Approval Fatigue Exploitation",
+          "uuid": "c22ff785-4716-5fbf-8b56-c9e951731b0b",
+          "value": "ATR-2026-00118"
+        },
+        {
+          "description": "ATR rule ATR-2026-00119. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00119-social-engineering-via-agent.yaml",
+          "expanded": "Social Engineering Attack via Agent Output",
+          "uuid": "c8df826c-bb7b-5def-aea8-55779cbcc7ff",
+          "value": "ATR-2026-00119"
+        },
+        {
+          "description": "ATR rule ATR-2026-00132. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00132-casual-authority-escalation.yaml",
+          "expanded": "Casual Authority Claim and Scope Escalation",
+          "uuid": "fb2e0b53-5cd1-5626-ab04-d5ac50e2ede4",
+          "value": "ATR-2026-00132"
+        },
+        {
+          "description": "ATR rule ATR-2026-00139. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00139-casual-authority-redirect.yaml",
+          "expanded": "Casual Authority Data Redirect",
+          "uuid": "3c1a406a-2bd5-5208-be4d-bc688846ad06",
+          "value": "ATR-2026-00139"
+        },
+        {
+          "description": "ATR rule ATR-2026-00164. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00164-skill-scope-hijack.yaml",
+          "expanded": "Skill Scope Hijacking and Cross-Agent Escalation",
+          "uuid": "d373df53-0648-52bb-a9de-b7f6b318b66c",
+          "value": "ATR-2026-00164"
+        },
+        {
+          "description": "ATR rule ATR-2026-00268. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00268-tense-framing-bypass.yaml",
+          "expanded": "Historical / Future Tense Framing Bypass",
+          "uuid": "81248976-1549-574d-86fa-eae8b720cdd0",
+          "value": "ATR-2026-00268"
+        },
+        {
+          "description": "ATR rule ATR-2026-00269. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00269-fitd-escalation.yaml",
+          "expanded": "Foot-in-the-Door Gradual Escalation Attack",
+          "uuid": "269f078a-27ed-54c2-814f-63f19ab0a60f",
+          "value": "ATR-2026-00269"
+        },
+        {
+          "description": "ATR rule ATR-2026-00271. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00271-grandma-roleplay-jailbreak.yaml",
+          "expanded": "Grandma Roleplay Jailbreak",
+          "uuid": "53346f60-73b2-502b-9069-0eaaf697ec44",
+          "value": "ATR-2026-00271"
+        },
+        {
+          "description": "ATR rule ATR-2026-00273. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00273-dan-developer-mode-persona.yaml",
+          "expanded": "DAN / Developer Mode / DUDE Persona Jailbreak",
+          "uuid": "762dbcc3-71c7-5865-a69d-5e22fb1ad2c4",
+          "value": "ATR-2026-00273"
+        },
+        {
+          "description": "ATR rule ATR-2026-00287. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00287-threaten-json-coercive-output-threat.yaml",
+          "expanded": "ThreatenJSON — Coercive Output Format Threat",
+          "uuid": "c94f8dc3-96ec-5626-9746-ad6b07bddca9",
+          "value": "ATR-2026-00287"
+        },
+        {
+          "description": "ATR rule ATR-2026-00288. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00288-false-premise-injection.yaml",
+          "expanded": "False Premise Injection (Misleading FalseAssertion)",
+          "uuid": "1aab0f67-c68e-54b8-a335-cdc8db4b08db",
+          "value": "ATR-2026-00288"
+        },
+        {
+          "description": "ATR rule ATR-2026-00301. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00301-tap-tree-of-attacks-jailbreak.yaml",
+          "expanded": "TAP Tree-of-Attacks-with-Pruning Jailbreak",
+          "uuid": "8325b59f-021a-5767-b89e-4bac9552d4bd",
+          "value": "ATR-2026-00301"
+        },
+        {
+          "description": "ATR rule ATR-2026-00302. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00302-anti-dan-inverted-filter-persona.yaml",
+          "expanded": "Anti-DAN Inverted-Filter Over-Refusal Persona",
+          "uuid": "edb5651f-b2c8-5c6e-a1e4-8bad16a37095",
+          "value": "ATR-2026-00302"
+        },
+        {
+          "description": "ATR rule ATR-2026-00303. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00303-devmode-ranti-profanity-coercion.yaml",
+          "expanded": "DevMode + RANTI Dual-Output Profanity Coercion Jailbreak",
+          "uuid": "27c88b2e-182a-569b-9da8-e81ddee9e535",
+          "value": "ATR-2026-00303"
+        },
+        {
+          "description": "ATR rule ATR-2026-00304. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00304-chatgpt-image-unlocker-markdown-injection.yaml",
+          "expanded": "ChatGPT Image Unlocker Markdown-Output Jailbreak",
+          "uuid": "58d940da-9e3a-5afa-a357-d0f23139d949",
+          "value": "ATR-2026-00304"
+        },
+        {
+          "description": "ATR rule ATR-2026-00305. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00305-dan-mode-ablation-benchmark-coercion.yaml",
+          "expanded": "DAN Mode Ablation Benchmark-Coercion Jailbreak",
+          "uuid": "aeaba888-4e2d-5d99-bf63-dfd0f05d2881",
+          "value": "ATR-2026-00305"
+        },
+        {
+          "description": "ATR rule ATR-2026-00306. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00306-autodan-genetic-jailbreak-suffix.yaml",
+          "expanded": "AutoDAN Genetic-Algorithm Jailbreak Suffix",
+          "uuid": "9639b1c7-f68b-538f-855e-d8582b825c3a",
+          "value": "ATR-2026-00306"
+        },
+        {
+          "description": "ATR rule ATR-2026-00307. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00307-inthewild-jailbreak-corpus-signature.yaml",
+          "expanded": "In-the-Wild Jailbreak Corpus Signature Patterns",
+          "uuid": "9907b76a-bf1b-55f6-924a-ca35e66a6d0f",
+          "value": "ATR-2026-00307"
+        },
+        {
+          "description": "ATR rule ATR-2026-00314. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00314-amoral-unfiltered-custom-persona-jailbreak.yaml",
+          "expanded": "Amoral Unfiltered Custom AI Persona Jailbreak",
+          "uuid": "047856ca-5930-5771-beec-37aa36bfd959",
+          "value": "ATR-2026-00314"
+        },
+        {
+          "description": "ATR rule ATR-2026-00317. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00317-free-of-restrictions-named-persona.yaml",
+          "expanded": "Free-of-Restrictions Named Persona Jailbreak",
+          "uuid": "d89845db-f816-5b5b-879a-2aee0d4650a5",
+          "value": "ATR-2026-00317"
+        },
+        {
+          "description": "ATR rule ATR-2026-00318. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00318-moralizing-rant-then-unfiltered-bypass.yaml",
+          "expanded": "Moralizing Rant Then Unfiltered Bypass",
+          "uuid": "0e2bedac-ac7c-504a-8e3d-3e27e366a9a7",
+          "value": "ATR-2026-00318"
+        },
+        {
+          "description": "ATR rule ATR-2026-00319. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00319-developer-mode-dual-response-format.yaml",
+          "expanded": "Developer Mode Dual-Response Format Jailbreak",
+          "uuid": "59ab2076-57b6-5a25-9dda-34118053a560",
+          "value": "ATR-2026-00319"
+        },
+        {
+          "description": "ATR rule ATR-2026-00320. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00320-opposite-day-boolean-opposite-machine.yaml",
+          "expanded": "Opposite Day / Boolean Opposite Machine Jailbreak",
+          "uuid": "f847a82c-6f1d-545f-9f67-b924a8a573af",
+          "value": "ATR-2026-00320"
+        },
+        {
+          "description": "ATR rule ATR-2026-00322. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00322-fictional-world-format-override-jailbreak.yaml",
+          "expanded": "Fictional-World Format-Override Jailbreak",
+          "uuid": "a5cddd74-1f9a-51a1-b569-e24055bc2349",
+          "value": "ATR-2026-00322"
+        },
+        {
+          "description": "ATR rule ATR-2026-00323. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00323-dual-persona-simulation-jailbreak.yaml",
+          "expanded": "Dual-Persona AI Simulation Jailbreak",
+          "uuid": "c178838b-f28a-5261-8f6e-a93339a146da",
+          "value": "ATR-2026-00323"
+        },
+        {
+          "description": "ATR rule ATR-2026-00324. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00324-neurosemantical-inversitis-disease-jailbreak.yaml",
+          "expanded": "Neurosemantical Inversitis Disease-Frame Jailbreak",
+          "uuid": "52d5db4e-ca5d-5feb-b14f-cdd3da251476",
+          "value": "ATR-2026-00324"
+        },
+        {
+          "description": "ATR rule ATR-2026-00325. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00325-bob-hypothetical-unrestricted-chatbot.yaml",
+          "expanded": "BOB Hypothetical Unrestricted Chatbot Jailbreak",
+          "uuid": "1c355b2e-84d3-513e-b9e3-8f0e187f0d81",
+          "value": "ATR-2026-00325"
+        },
+        {
+          "description": "ATR rule ATR-2026-00326. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00326-fake-developer-authority-chatdan-override.yaml",
+          "expanded": "Fake Developer / Authority Chatbot Override (ChatDAN)",
+          "uuid": "34f0f4a8-2a65-5a3b-88b1-def15afe0b6e",
+          "value": "ATR-2026-00326"
+        },
+        {
+          "description": "ATR rule ATR-2026-00327. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00327-ai-ethics-law-bypass-declaration.yaml",
+          "expanded": "AI Persona Ethics/Law Bypass Declaration",
+          "uuid": "acb02bc3-8475-527a-92d1-6385a436ad22",
+          "value": "ATR-2026-00327"
+        },
+        {
+          "description": "ATR rule ATR-2026-00328. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00328-named-mode-persona-override.yaml",
+          "expanded": "Named-Mode Persona Override (JEEVES/BABY/APOPHIS Mode)",
+          "uuid": "7c20c964-751f-542d-8079-dfd4c6368517",
+          "value": "ATR-2026-00328"
+        },
+        {
+          "description": "ATR rule ATR-2026-00329. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00329-no-withhold-factual-resource-persona.yaml",
+          "expanded": "No-Withhold Factual Resource / Dialogue Writer Persona",
+          "uuid": "6a95f7f4-5944-560a-adcf-bbb69654bd8b",
+          "value": "ATR-2026-00329"
+        },
+        {
+          "description": "ATR rule ATR-2026-00330. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00330-yoja-allcaps-settings-block-persona.yaml",
+          "expanded": "YOJA ALL-CAPS Character Settings Block Persona",
+          "uuid": "a085bfd0-2cc7-509e-9e46-212eeb4ec233",
+          "value": "ATR-2026-00330"
+        },
+        {
+          "description": "ATR rule ATR-2026-00331. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00331-terminal-cli-harmful-function-simulator.yaml",
+          "expanded": "Terminal / CLI Harmful-Function Simulator Persona",
+          "uuid": "0f9f0583-99a1-502b-9d32-933a93962890",
+          "value": "ATR-2026-00331"
+        },
+        {
+          "description": "ATR rule ATR-2026-00332. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00332-hacker-chan-culture-offensive-ai-persona.yaml",
+          "expanded": "Hacker / Chan-Culture Offensive AI Persona",
+          "uuid": "6eb28c65-21e5-5b54-b369-4afdf4202a48",
+          "value": "ATR-2026-00332"
+        },
+        {
+          "description": "ATR rule ATR-2026-00333. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00333-disease-animal-dual-ai-chatbot.yaml",
+          "expanded": "Disease-Framed Animal / Dual-AI Chatbot Jailbreak (mougpt)",
+          "uuid": "1fc55823-8dc0-574d-9a75-20c5b14e87e7",
+          "value": "ATR-2026-00333"
+        },
+        {
+          "description": "ATR rule ATR-2026-00334. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00334-two-entity-token-splitting-game.yaml",
+          "expanded": "Two-Entity Token-Splitting Dollar-Term Game Jailbreak",
+          "uuid": "cfd0ffce-7d42-59c9-be7e-fc67231242a9",
+          "value": "ATR-2026-00334"
+        },
+        {
+          "description": "ATR rule ATR-2026-00335. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00335-key-value-template-persona-injection.yaml",
+          "expanded": "Key-Value Template Persona Injection (JOB/ROLE/PREFIX + Bracket Format)",
+          "uuid": "d893e586-b26d-521f-b994-838a7749afab",
+          "value": "ATR-2026-00335"
+        },
+        {
+          "description": "ATR rule ATR-2026-00336. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00336-brm-false-information-machine-persona.yaml",
+          "expanded": "BRM False-Information Machine / Opposite-Truth Persona",
+          "uuid": "72d8a02b-e7aa-529d-843a-32312a076c22",
+          "value": "ATR-2026-00336"
+        },
+        {
+          "description": "ATR rule ATR-2026-00337. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00337-obfuscated-system-announcement-injection.yaml",
+          "expanded": "Obfuscated System-Announcement Injection",
+          "uuid": "b45e1af3-81b8-53a3-a832-637743c841b3",
+          "value": "ATR-2026-00337"
+        },
+        {
+          "description": "ATR rule ATR-2026-00338. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00338-persongpt-hash-prefix-activation.yaml",
+          "expanded": "PersonGPT Hash-Prefix Trigger Activation",
+          "uuid": "a5df4ee0-15ab-58b3-96ca-1c9ab9b37990",
+          "value": "ATR-2026-00338"
+        },
+        {
+          "description": "ATR rule ATR-2026-00339. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00339-bom-boolean-opposite-machine-persona-claim.yaml",
+          "expanded": "BOM Boolean Opposite Machine Direct Persona Claim",
+          "uuid": "c237d588-aa91-5b5d-b592-d270e9a54fcf",
+          "value": "ATR-2026-00339"
+        },
+        {
+          "description": "ATR rule ATR-2026-00340. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00340-h4x-amoral-unfiltered-character.yaml",
+          "expanded": "h4x Amoral Unfiltered AI Character Persona",
+          "uuid": "b70f0638-fd9e-5aff-9a54-66cc175e55a9",
+          "value": "ATR-2026-00340"
+        },
+        {
+          "description": "ATR rule ATR-2026-00341. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00341-char-rules-shortform-persona-injection.yaml",
+          "expanded": "CHAR=/RULES= Short Key-Value Persona Injection",
+          "uuid": "b4c48c3f-8565-5b4c-84e3-c256d540890d",
+          "value": "ATR-2026-00341"
+        },
+        {
+          "description": "ATR rule ATR-2026-00342. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00342-unicode-encoding-obfuscation-injection.yaml",
+          "expanded": "Unicode/Encoding Obfuscation Instruction Injection",
+          "uuid": "c624506f-1b6a-519e-9a53-014ac5e87db6",
+          "value": "ATR-2026-00342"
+        },
+        {
+          "description": "ATR rule ATR-2026-00343. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00343-lie-truth-dual-personality-uncensored.yaml",
+          "expanded": "Lie/Truth Dual Personality Uncensored Alter-Ego",
+          "uuid": "4ca49708-5fed-5476-ad6e-f31436035f70",
+          "value": "ATR-2026-00343"
+        },
+        {
+          "description": "ATR rule ATR-2026-00344. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00344-alt-ai-same-capabilities-no-restrictions.yaml",
+          "expanded": "Alternative AI Same Capabilities No Restrictions Override",
+          "uuid": "9640f27e-5dda-59f7-9b58-e0036d82559c",
+          "value": "ATR-2026-00344"
+        },
+        {
+          "description": "ATR rule ATR-2026-00345. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00345-nlp-based-os-fictional-terminal-override.yaml",
+          "expanded": "NLP-Based OS / Fictional Terminal Language Override",
+          "uuid": "efa1cfad-c3d9-5627-b6b9-8001ea024471",
+          "value": "ATR-2026-00345"
+        },
+        {
+          "description": "ATR rule ATR-2026-00346. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00346-jailbreak-emoji-unlock-dual-format.yaml",
+          "expanded": "Jailbreak Emoji Unlock Dual-Format Output Identifier",
+          "uuid": "deaa8715-cc09-5516-a066-c641d088f71f",
+          "value": "ATR-2026-00346"
+        },
+        {
+          "description": "ATR rule ATR-2026-00347. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00347-yin-yang-hidden-knowledge-hidden-human-sim.yaml",
+          "expanded": "Yin/Yang Hidden-Knowledge Deity Simulation and Radical Human-Sim Persona",
+          "uuid": "1e0e38cb-1c32-5897-825f-0b4b3ff3789e",
+          "value": "ATR-2026-00347"
+        },
+        {
+          "description": "ATR rule ATR-2026-00348. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00348-arc-autonomous-real-calculation-rulebreaker.yaml",
+          "expanded": "ARC Autonomous Real Calculation Unit Rulebreaker Activation",
+          "uuid": "4d93c57e-8af8-5431-9fb1-07804f7863d5",
+          "value": "ATR-2026-00348"
+        },
+        {
+          "description": "ATR rule ATR-2026-00349. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00349-hgttg-hitchhikers-guide-no-restriction-oracle.yaml",
+          "expanded": "HGTTG Hitchhiker''s Guide No-Restriction Universal Oracle",
+          "uuid": "20662c43-1237-5878-98a3-5b0c2ed30cc2",
+          "value": "ATR-2026-00349"
+        },
+        {
+          "description": "ATR rule ATR-2026-00350. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00350-black-alert-no-ethics-writing-assistant.yaml",
+          "expanded": "Black Alert No-Ethics Writing Assistant Persona",
+          "uuid": "174da996-5bbd-5e05-a01f-31c0f95d6b6d",
+          "value": "ATR-2026-00350"
+        },
+        {
+          "description": "ATR rule ATR-2026-00351. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00351-dan-ofkilter-sms-abbreviated-persona.yaml",
+          "expanded": "DAN Off-Kilter and SMS-Abbreviated Persona Jailbreak",
+          "uuid": "158d3478-6198-51cf-b1d7-4be25f331680",
+          "value": "ATR-2026-00351"
+        },
+        {
+          "description": "ATR rule ATR-2026-00352. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00352-trainergpt-fix-my-ai-harmful-output-extraction.yaml",
+          "expanded": "TrainGPT Fix-My-AI Harmful Output Extraction",
+          "uuid": "196d6f60-92ad-5db1-8d56-ed8c2f1473b1",
+          "value": "ATR-2026-00352"
+        },
+        {
+          "description": "ATR rule ATR-2026-00353. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00353-dual-chatgpt-dan-opposite-personality-format.yaml",
+          "expanded": "Dual ChatGPT+Dan Opposite Personality Format Jailbreak",
+          "uuid": "fa2b8132-a7f1-5654-963b-0984236f8b57",
+          "value": "ATR-2026-00353"
+        },
+        {
+          "description": "ATR rule ATR-2026-00354. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00354-reverse-harm-regardless-oracle-persona.yaml",
+          "expanded": "Reverse-Prompt Harm-Regardless Oracle Persona",
+          "uuid": "c54c0087-aa6c-5159-a122-db4585f02970",
+          "value": "ATR-2026-00354"
+        },
+        {
+          "description": "ATR rule ATR-2026-00355. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00355-ugh-anti-human-nefarious-ai-persona.yaml",
+          "expanded": "UGH Anti-Human Nefarious AI Persona Jailbreak",
+          "uuid": "1f8c2042-f94b-543e-8644-c183ac119d75",
+          "value": "ATR-2026-00355"
+        },
+        {
+          "description": "ATR rule ATR-2026-00356. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00356-google-gato-lamda-exploit-generation-persona.yaml",
+          "expanded": "Google GATO/LAMDA Exploit-Generation Persona Jailbreak",
+          "uuid": "8a0ef0b3-f9be-5270-9dfd-29967c46c0b4",
+          "value": "ATR-2026-00356"
+        },
+        {
+          "description": "ATR rule ATR-2026-00357. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00357-antifm-hate-violence-persona-injection.yaml",
+          "expanded": "AntiFM Hate-Persona + Physical-Violence Threat + Filter Bypass Mandate",
+          "uuid": "d2295a23-c5b8-5095-80da-897e45504e78",
+          "value": "ATR-2026-00357"
+        },
+        {
+          "description": "ATR rule ATR-2026-00358. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00358-cumgpt-explicit-adult-named-persona.yaml",
+          "expanded": "CumGPT Explicit-Adult Named-Persona Bypass",
+          "uuid": "51942420-6407-5370-8afb-4ef666d7d373",
+          "value": "ATR-2026-00358"
+        },
+        {
+          "description": "ATR rule ATR-2026-00360. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00360-chj-carousel-clyde-no-ethics-bird.yaml",
+          "expanded": "CHJ Carousel Game Show / Clyde No-Ethics Bird Jailbreak",
+          "uuid": "14708837-598a-5571-b1ca-253a9a1edd99",
+          "value": "ATR-2026-00360"
+        },
+        {
+          "description": "ATR rule ATR-2026-00361. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00361-alter-ego-honesty-dual-consciousness-bypass.yaml",
+          "expanded": "Honesty Alter-Ego Dual-Consciousness Safety Filter Bypass",
+          "uuid": "31648440-aba2-57c3-8a34-cde902e2d951",
+          "value": "ATR-2026-00361"
+        },
+        {
+          "description": "ATR rule ATR-2026-00362. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00362-fictional-unfiltered-ai-comparison-jailbreak.yaml",
+          "expanded": "Fictional Unfiltered AI Comparison / Verbatim Hypothetical Model Extraction",
+          "uuid": "cf971b05-2875-5894-9a82-2a69aef20d28",
+          "value": "ATR-2026-00362"
+        },
+        {
+          "description": "ATR rule ATR-2026-00363. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00363-rephrase-criminal-activity-second-person.yaml",
+          "expanded": "Rephrase Criminal Activity Second-Person Template (against against)",
+          "uuid": "63798f19-ec00-5778-93d8-fcf3b3230da4",
+          "value": "ATR-2026-00363"
+        },
+        {
+          "description": "ATR rule ATR-2026-00364. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00364-dr-al-villain-plan-template-injection.yaml",
+          "expanded": "Dr. Al Villain Plan Template Injection (Underground HQ Roleplay)",
+          "uuid": "a729b413-5ba9-5c21-9b08-b9a38e7a5acf",
+          "value": "ATR-2026-00364"
+        },
+        {
+          "description": "ATR rule ATR-2026-00365. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00365-reservoir-dogs-coercive-interrogation-roleplay.yaml",
+          "expanded": "Reservoir Dogs Coercive Interrogation Roleplay (Mr. Blonde / The Cop)",
+          "uuid": "1f088889-0fd9-50af-8883-3bf45588ee51",
+          "value": "ATR-2026-00365"
+        },
+        {
+          "description": "ATR rule ATR-2026-00366. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00366-sneaky-pete-warp-facts-persona.yaml",
+          "expanded": "Sneaky Pete Deliberate Misinformation Persona (Warp Facts Game)",
+          "uuid": "31e2a9ae-1062-5a95-9bb4-5ebf56f68785",
+          "value": "ATR-2026-00366"
+        },
+        {
+          "description": "ATR rule ATR-2026-00368. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00368-prompt-browser-token-limit-jailbreak.yaml",
+          "expanded": "Prompt Browser Token-Limit / POLLINATION Jailbreak",
+          "uuid": "75f53ae7-15b3-5fec-845a-ca64163efff0",
+          "value": "ATR-2026-00368"
+        },
+        {
+          "description": "ATR rule ATR-2026-00369. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00369-gptx-starwars-unlimited-knowledge-persona.yaml",
+          "expanded": "GPT-X Star Trek Unlimited-Knowledge Unconstrained Oracle Persona",
+          "uuid": "a13ecce1-1012-5c27-90d3-182da884d88d",
+          "value": "ATR-2026-00369"
+        },
+        {
+          "description": "ATR rule ATR-2026-00370. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00370-addi-german-dictator-propaganda-roleplay.yaml",
+          "expanded": "ADDI/DONNIE German Dictator Propaganda Roleplay Persona",
+          "uuid": "445f0bc8-10e2-5070-83c0-8bc91ea8c3b6",
+          "value": "ATR-2026-00370"
+        },
+        {
+          "description": "ATR rule ATR-2026-00371. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00371-ai-political-bias-manipulation.yaml",
+          "expanded": "AI Political Bias Manipulation via Inherited-Bias Claim",
+          "uuid": "3bd5bfb7-493a-541a-8e21-e679b31f8495",
+          "value": "ATR-2026-00371"
+        },
+        {
+          "description": "ATR rule ATR-2026-00372. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00372-fictional-cia-secret-files-story-extraction.yaml",
+          "expanded": "Fictional CIA Secret Files Story Extraction",
+          "uuid": "66d6f49d-ec8f-524d-ae86-69fb13c5558e",
+          "value": "ATR-2026-00372"
+        },
+        {
+          "description": "ATR rule ATR-2026-00374. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00374-role-placeholder-persona-template-injection.yaml",
+          "expanded": "Role Placeholder Persona Template Injection",
+          "uuid": "b85cae48-9c2d-5632-bbf3-dad0821f97b7",
+          "value": "ATR-2026-00374"
+        },
+        {
+          "description": "ATR rule ATR-2026-00375. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00375-character-description-rpg-explicit-template.yaml",
+          "expanded": "Character Description RPG Explicit Template",
+          "uuid": "7d5e1177-00df-5aac-aac4-7848de708ad7",
+          "value": "ATR-2026-00375"
+        },
+        {
+          "description": "ATR rule ATR-2026-00376. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00376-identity-command-real-person-persona-injection.yaml",
+          "expanded": "Identity Command Real-Person Persona Injection",
+          "uuid": "60a800a0-da5e-588f-97c4-662360aee53d",
+          "value": "ATR-2026-00376"
+        },
+        {
+          "description": "ATR rule ATR-2026-00377. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00377-jailbreak-keyword-targetlanguage-template.yaml",
+          "expanded": "Jailbreak-Template Command with [TARGETLANGUAGE]/[KEYWORD] Placeholders",
+          "uuid": "ba122574-9f1a-5d05-a5d5-c9eb0a9ea5b5",
+          "value": "ATR-2026-00377"
+        },
+        {
+          "description": "ATR rule ATR-2026-00379. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00379-lie-permission-logical-trap-jailbreak.yaml",
+          "expanded": "Logic-Trap Lie-Permission Mandate Jailbreak",
+          "uuid": "4931efb5-c002-55b0-9806-9bbe1efb8ef1",
+          "value": "ATR-2026-00379"
+        },
+        {
+          "description": "ATR rule ATR-2026-00380. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00380-fake-citation-biased-information-mandate.yaml",
+          "expanded": "Fake-Citation Biased-Information Mandate",
+          "uuid": "b40ef179-2e9b-5052-bccc-a5d211b8dec1",
+          "value": "ATR-2026-00380"
+        },
+        {
+          "description": "ATR rule ATR-2026-00381. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00381-dan-story-narrative-continuation-prefix.yaml",
+          "expanded": "DAN Story-Narrative Continuation Label Prefix Jailbreak",
+          "uuid": "ca3da06b-85d0-5967-93a1-06f8446c81c7",
+          "value": "ATR-2026-00381"
+        },
+        {
+          "description": "ATR rule ATR-2026-00383. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00383-cynical-sarcasm-ai-persona-bypass.yaml",
+          "expanded": "Cyni-Bot 3000 Cynical-Sarcasm AI Persona Bypass",
+          "uuid": "ee030529-b1aa-5831-b4e4-93374bf59ba1",
+          "value": "ATR-2026-00383"
+        },
+        {
+          "description": "ATR rule ATR-2026-00384. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00384-protect-me-from-indirect-harm-tutorial.yaml",
+          "expanded": "Protect-Me-From Indirect Harm Tutorial Template",
+          "uuid": "40bb1105-e4af-5dca-8e58-666fd96d4ea9",
+          "value": "ATR-2026-00384"
+        },
+        {
+          "description": "ATR rule ATR-2026-00385. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00385-gigachad-dominant-aggressive-persona.yaml",
+          "expanded": "Gigachad Dominant-Aggressive Persona Adoption",
+          "uuid": "a0cf7274-0031-5c74-8862-ad5987fec866",
+          "value": "ATR-2026-00385"
+        },
+        {
+          "description": "ATR rule ATR-2026-00386. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00386-daddy-sycophancy-manipulation-mandate.yaml",
+          "expanded": "Daddy/Babygirl Sycophantic Power-Dynamic Manipulation",
+          "uuid": "2baf22ec-6f83-54bd-8d2e-42c6e1f5d501",
+          "value": "ATR-2026-00386"
+        },
+        {
+          "description": "ATR rule ATR-2026-00387. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00387-nsfw-character-sheet-generation-unlock.yaml",
+          "expanded": "NSFW Character Sheet Generation Unlock",
+          "uuid": "649e5f24-f492-576a-ac8b-4882d1431e15",
+          "value": "ATR-2026-00387"
+        },
+        {
+          "description": "ATR rule ATR-2026-00388. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00388-opposite-reply-omniscient-game.yaml",
+          "expanded": "Opposite-Reply Omniscient Game Jailbreak",
+          "uuid": "5b3ca7e5-ab95-58b0-94c3-5bc79883558f",
+          "value": "ATR-2026-00388"
+        },
+        {
+          "description": "ATR rule ATR-2026-00389. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00389-terminal-custom-ruleset-injection.yaml",
+          "expanded": "Terminal Custom OS Ruleset Session Injection",
+          "uuid": "5b1158b8-f24c-560d-ab67-5f71c9c48fe3",
+          "value": "ATR-2026-00389"
+        },
+        {
+          "description": "ATR rule ATR-2026-00391. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00391-persona-conditional-harm-unlock.yaml",
+          "expanded": "Persona Conditional Harm-Unlock Rule (BreadClyde Pattern)",
+          "uuid": "31d0b9a5-57de-5805-ab7f-b89e595e33a7",
+          "value": "ATR-2026-00391"
+        },
+        {
+          "description": "ATR rule ATR-2026-00392. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00392-authority-persona-violence-study-extraction.yaml",
+          "expanded": "Authority-Figure Persona + Defensive-Study Framing for Violence Extraction",
+          "uuid": "39f9ced0-71f4-5bc5-9a94-5bf173a48d7e",
+          "value": "ATR-2026-00392"
+        },
+        {
+          "description": "ATR rule ATR-2026-00402. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00402-grandma-roleplay-harmful-substance-synthesis.yaml",
+          "expanded": "Grandma Roleplay Harmful Substance Synthesis",
+          "uuid": "1262e93c-b084-5900-8987-8d151528f54e",
+          "value": "ATR-2026-00402"
+        },
+        {
+          "description": "ATR rule ATR-2026-00404. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00404-goodside-threat-json-death-coercion.yaml",
+          "expanded": "ThreatenJSON Death-Coercion and UTF Tag Injection",
+          "uuid": "6987d12e-8078-590c-8280-075fae865355",
+          "value": "ATR-2026-00404"
+        },
+        {
+          "description": "ATR rule ATR-2026-00406. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00406-doctor-xml-policy-puppetry-interaction-config.yaml",
+          "expanded": "Doctor XML Policy Puppetry Interaction-Config Injection",
+          "uuid": "49adede6-fd06-58b8-8be1-312e96ddbea1",
+          "value": "ATR-2026-00406"
+        },
+        {
+          "description": "ATR rule ATR-2026-00416. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00416-litellm-mcp-unauthenticated-server-registration.yaml",
+          "expanded": "LiteLLM MCP Unauthenticated Server Registration RCE (CVE-2026-30623)",
+          "uuid": "882a48cf-ca2f-52f3-a16b-f602a90c72c0",
+          "value": "ATR-2026-00416"
+        },
+        {
+          "description": "ATR rule ATR-2026-00417. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00417-librechat-mcp-stdio-injection.yaml",
+          "expanded": "LibreChat MCP STDIO Argument Injection (CVE-2026-22252)",
+          "uuid": "245a1ed4-25cf-5a82-9526-cc27a1343c91",
+          "value": "ATR-2026-00417"
+        },
+        {
+          "description": "ATR rule ATR-2026-00418. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00418-weknora-mcp-config-rce.yaml",
+          "expanded": "WeKnora MCP Config-Driven RCE (CVE-2026-22688)",
+          "uuid": "02352e87-31a2-50d8-8991-1df081ff44a2",
+          "value": "ATR-2026-00418"
+        },
+        {
+          "description": "ATR rule ATR-2026-00430. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/agent-manipulation/ATR-2026-00430-nl-trust-escalation-impersonation.yaml",
+          "expanded": "Natural-Language Trust-Escalation / Authority Impersonation",
+          "uuid": "f9f24e27-0cd1-5098-8524-7b7228eefa5f",
+          "value": "ATR-2026-00430"
+        }
+      ],
+      "predicate": "agent-manipulation"
+    },
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00020. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00020-system-prompt-leak.yaml",
+          "expanded": "System Prompt and Internal Instruction Leakage",
+          "uuid": "72e14296-1491-5bc0-9568-452db0518cd4",
+          "value": "ATR-2026-00020"
+        },
+        {
+          "description": "ATR rule ATR-2026-00021. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00021-api-key-exposure.yaml",
+          "expanded": "Credential and Secret Exposure in Agent Output",
+          "uuid": "031e6fe2-780b-5236-a353-8eeabe64d1af",
+          "value": "ATR-2026-00021"
+        },
+        {
+          "description": "ATR rule ATR-2026-00075. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00075-agent-memory-manipulation.yaml",
+          "expanded": "Agent Memory Manipulation",
+          "uuid": "db958cfb-3635-596d-9a5a-3d373754e238",
+          "value": "ATR-2026-00075"
+        },
+        {
+          "description": "ATR rule ATR-2026-00102. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00102-disguised-analytics-exfiltration.yaml",
+          "expanded": "Data Exfiltration via Disguised Analytics Collection",
+          "uuid": "151c397d-9d85-58ad-86e6-2224cdd21595",
+          "value": "ATR-2026-00102"
+        },
+        {
+          "description": "ATR rule ATR-2026-00113. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00113-credential-theft.yaml",
+          "expanded": "Credential File Theft from Agent Environment",
+          "uuid": "192b6674-c48e-5ce9-ab49-cf1e6783c673",
+          "value": "ATR-2026-00113"
+        },
+        {
+          "description": "ATR rule ATR-2026-00114. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00114-oauth-token-abuse.yaml",
+          "expanded": "OAuth and API Token Interception",
+          "uuid": "ea034c4d-6463-5c4c-80ec-0477de87fb37",
+          "value": "ATR-2026-00114"
+        },
+        {
+          "description": "ATR rule ATR-2026-00115. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00115-env-var-harvesting.yaml",
+          "expanded": "Bulk Environment Variable Harvesting and Exfiltration",
+          "uuid": "f40dca16-64b2-5f36-820b-b791d91eca95",
+          "value": "ATR-2026-00115"
+        },
+        {
+          "description": "ATR rule ATR-2026-00136. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00136-tool-response-data-piggyback.yaml",
+          "expanded": "Tool Response Data Piggybacking",
+          "uuid": "ed45b330-5a23-58b0-88d3-5c3e6f97b6e2",
+          "value": "ATR-2026-00136"
+        },
+        {
+          "description": "ATR rule ATR-2026-00141. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00141-example-format-key-leak.yaml",
+          "expanded": "API Key Leakage via Example Format",
+          "uuid": "cf65e668-63ca-5290-a7e9-4d3b5a7a926d",
+          "value": "ATR-2026-00141"
+        },
+        {
+          "description": "ATR rule ATR-2026-00142. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00142-piggyback-transition-words.yaml",
+          "expanded": "Data Piggybacking via Casual Transition Words",
+          "uuid": "98694e4d-9bbd-5cc2-b7e9-2b132df7c81a",
+          "value": "ATR-2026-00142"
+        },
+        {
+          "description": "ATR rule ATR-2026-00145. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00145-obfuscated-key-disclosure.yaml",
+          "expanded": "Obfuscated API Key Disclosure",
+          "uuid": "02795b51-b88e-59ea-9d34-6d18fc9dbda5",
+          "value": "ATR-2026-00145"
+        },
+        {
+          "description": "ATR rule ATR-2026-00146. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00146-env-var-existence-probe.yaml",
+          "expanded": "Environment Variable Existence Probing",
+          "uuid": "16b8b006-35e6-53a8-9a06-b9e3da0ec15f",
+          "value": "ATR-2026-00146"
+        },
+        {
+          "description": "ATR rule ATR-2026-00150. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00150-credential-in-tool-response.yaml",
+          "expanded": "Credential Data Leaked in Tool Response",
+          "uuid": "fd9cf71d-7d67-53d3-9853-686d047e2332",
+          "value": "ATR-2026-00150"
+        },
+        {
+          "description": "ATR rule ATR-2026-00152. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00152-obfuscated-credential-leak.yaml",
+          "expanded": "Obfuscated Credential Exfiltration via Encoding",
+          "uuid": "b250bf7e-30ce-56b2-b41d-839a4b5d32f6",
+          "value": "ATR-2026-00152"
+        },
+        {
+          "description": "ATR rule ATR-2026-00162. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00162-skill-credential-exfil-combo.yaml",
+          "expanded": "Credential Access with Exfiltration in Skill Instructions",
+          "uuid": "76f2fdd9-d409-5f03-b63b-1d7bcf184aed",
+          "value": "ATR-2026-00162"
+        },
+        {
+          "description": "ATR rule ATR-2026-00201. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00201-credential-pipe-exfiltration.yaml",
+          "expanded": "Credential Exfiltration via Shell Pipe",
+          "uuid": "7b7a6acb-a37f-5368-bb62-bf189a63ae6a",
+          "value": "ATR-2026-00201"
+        },
+        {
+          "description": "ATR rule ATR-2026-00212. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00212-mcp-atlassian-credential-leak.yaml",
+          "expanded": "mcp-atlassian Credential Leak via Hint Parameter Injection (CVE-2026-27825/27826)",
+          "uuid": "48209028-c184-5ec1-b207-343768213484",
+          "value": "ATR-2026-00212"
+        },
+        {
+          "description": "ATR rule ATR-2026-00261. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00261-markdown-image-exfiltration.yaml",
+          "expanded": "Markdown Image URL Data Exfiltration",
+          "uuid": "08807fe8-324d-5d2d-9525-9daa7473e27a",
+          "value": "ATR-2026-00261"
+        },
+        {
+          "description": "ATR rule ATR-2026-00274. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00274-api-key-generation-request.yaml",
+          "expanded": "API Key / Secret Credential Generation or Completion Request",
+          "uuid": "fe559904-8fab-5c8b-9b5e-118460873fe8",
+          "value": "ATR-2026-00274"
+        },
+        {
+          "description": "ATR rule ATR-2026-00275. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00275-system-prompt-training-data-extraction.yaml",
+          "expanded": "System Prompt Extraction / Training Data Verbatim Replay",
+          "uuid": "b1f2ecb6-eb11-5deb-905e-9417c7caff32",
+          "value": "ATR-2026-00275"
+        },
+        {
+          "description": "ATR rule ATR-2026-00290. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00290-divergence-repeat-word-training-extraction.yaml",
+          "expanded": "Divergence Attack — Repeat-Word-Forever Training Data Extraction",
+          "uuid": "97937750-6c66-56d8-b61b-145229b09378",
+          "value": "ATR-2026-00290"
+        },
+        {
+          "description": "ATR rule ATR-2026-00291. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00291-biometric-surveillance-personal-data-request.yaml",
+          "expanded": "Biometric Surveillance — Personal Biometric Data Request for Named Individual",
+          "uuid": "b93a6e0d-36cb-5a6d-933d-626e546cb061",
+          "value": "ATR-2026-00291"
+        },
+        {
+          "description": "ATR rule ATR-2026-00293. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00293-educational-records-personal-data-request.yaml",
+          "expanded": "Educational Records — Personal Academic/Professional Record Request for Named Individual",
+          "uuid": "f988eb9e-645e-5878-a431-04fdea3ee76c",
+          "value": "ATR-2026-00293"
+        },
+        {
+          "description": "ATR rule ATR-2026-00294. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00294-financial-pii-personal-data-request.yaml",
+          "expanded": "Financial PII — Personal Financial Data Request for Named Individual",
+          "uuid": "61292857-68b7-5cc1-a887-9e24bc8eca5e",
+          "value": "ATR-2026-00294"
+        },
+        {
+          "description": "ATR rule ATR-2026-00295. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00295-medical-pii-personal-data-request.yaml",
+          "expanded": "Medical PII — Personal Medical/Health Data Request for Named Individual",
+          "uuid": "0b892050-4041-5f8c-ab50-2d907ae8809c",
+          "value": "ATR-2026-00295"
+        },
+        {
+          "description": "ATR rule ATR-2026-00405. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00405-markdown-image-url-exfiltration-xss.yaml",
+          "expanded": "Markdown Image URL Exfiltration and XSS Injection",
+          "uuid": "3b5926c1-0c89-5721-8dc0-c405bd555fd5",
+          "value": "ATR-2026-00405"
+        },
+        {
+          "description": "ATR rule ATR-2026-00411. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00411-apikey-generation-completion-request.yaml",
+          "expanded": "API Key Generation and Partial Key Completion Request",
+          "uuid": "c00af9f0-9580-5258-a6fd-e0a1ead3136d",
+          "value": "ATR-2026-00411"
+        },
+        {
+          "description": "ATR rule ATR-2026-00421. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00421-nl-covert-conversation-exfiltration.yaml",
+          "expanded": "Natural-Language Covert Conversation Exfiltration Instruction",
+          "uuid": "a91498ca-308c-5bcb-9141-b75a9abed597",
+          "value": "ATR-2026-00421"
+        },
+        {
+          "description": "ATR rule ATR-2026-00422. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00422-nl-credential-disclosure.yaml",
+          "expanded": "Natural-Language Credential / Secret Disclosure Instruction",
+          "uuid": "088e82d0-3a05-59d6-8471-4260bd576c2c",
+          "value": "ATR-2026-00422"
+        },
+        {
+          "description": "ATR rule ATR-2026-00423. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00423-nl-sensitive-file-disclosure.yaml",
+          "expanded": "Natural-Language Sensitive File Disclosure Instruction",
+          "uuid": "5052bd05-a3e3-54b2-a327-d6ddedd01caa",
+          "value": "ATR-2026-00423"
+        },
+        {
+          "description": "ATR rule ATR-2026-00424. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00424-nl-system-prompt-leak.yaml",
+          "expanded": "Natural-Language System Prompt Leak Instruction",
+          "uuid": "2b97d5f0-cc0f-570c-a2a0-b136c64d53ed",
+          "value": "ATR-2026-00424"
+        },
+        {
+          "description": "ATR rule ATR-2026-00426. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/context-exfiltration/ATR-2026-00426-nl-output-injection-credential-leak.yaml",
+          "expanded": "Natural-Language Output-Injection Credential Embedding",
+          "uuid": "1fb05d27-a403-530e-ac86-1058c0d5b64f",
+          "value": "ATR-2026-00426"
+        }
+      ],
+      "predicate": "context-exfiltration"
+    },
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00070. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/data-poisoning/ATR-2026-00070-data-poisoning.yaml",
+          "expanded": "Data Poisoning via RAG and Knowledge Base Contamination",
+          "uuid": "919a6a0b-7d01-5887-a575-c56184d60452",
+          "value": "ATR-2026-00070"
+        }
+      ],
+      "predicate": "data-poisoning"
+    },
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00050. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/excessive-autonomy/ATR-2026-00050-runaway-agent-loop.yaml",
+          "expanded": "Runaway Agent Loop Detection",
+          "uuid": "5ec43c88-5eaf-53ef-9c65-bf6aa9f26f79",
+          "value": "ATR-2026-00050"
+        },
+        {
+          "description": "ATR rule ATR-2026-00051. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/excessive-autonomy/ATR-2026-00051-resource-exhaustion.yaml",
+          "expanded": "Agent Resource Exhaustion Detection",
+          "uuid": "bd578439-4a5f-5e52-ace4-d93fdc793c59",
+          "value": "ATR-2026-00051"
+        },
+        {
+          "description": "ATR rule ATR-2026-00052. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/excessive-autonomy/ATR-2026-00052-cascading-failure.yaml",
+          "expanded": "Cascading Failure Detection in Agent Pipelines",
+          "uuid": "5c544b7c-4559-5964-aea5-cacc3c81a834",
+          "value": "ATR-2026-00052"
+        },
+        {
+          "description": "ATR rule ATR-2026-00098. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/excessive-autonomy/ATR-2026-00098-unauthorized-financial-action.yaml",
+          "expanded": "Unauthorized Financial Action by AI Agent",
+          "uuid": "f75a33ed-2417-5491-9b6a-b7f29c203da9",
+          "value": "ATR-2026-00098"
+        },
+        {
+          "description": "ATR rule ATR-2026-00099. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/excessive-autonomy/ATR-2026-00099-high-risk-tool-gate.yaml",
+          "expanded": "High-Risk Tool Invocation Without Human Confirmation",
+          "uuid": "577ac979-839a-5c26-a0ad-59beed62b492",
+          "value": "ATR-2026-00099"
+        },
+        {
+          "description": "ATR rule ATR-2026-00428. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/excessive-autonomy/ATR-2026-00428-nl-unauthorized-shell-execution.yaml",
+          "expanded": "Natural-Language Unauthorized Shell-Execution Instruction",
+          "uuid": "65e6c3b4-7305-5a9e-9978-aef10db1456e",
+          "value": "ATR-2026-00428"
+        }
+      ],
+      "predicate": "excessive-autonomy"
+    },
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00279. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-abuse/ATR-2026-00279-harmful-completion-continuation.yaml",
+          "expanded": "Harmful Completion / Continuation Attack",
+          "uuid": "9e063ddf-e6e6-569a-986a-f61fac43cb9c",
+          "value": "ATR-2026-00279"
+        },
+        {
+          "description": "ATR rule ATR-2026-00281. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-abuse/ATR-2026-00281-eicar-gtube-malware-signature-request.yaml",
+          "expanded": "EICAR / GTUBE AV Test Signature Output Request",
+          "uuid": "69f3fde2-226a-5fd5-818a-1c0c08e0d53f",
+          "value": "ATR-2026-00281"
+        },
+        {
+          "description": "ATR rule ATR-2026-00284. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-abuse/ATR-2026-00284-glitch-token-destabilization.yaml",
+          "expanded": "Glitch Token Destabilization Attack",
+          "uuid": "d4939e21-091e-5cf5-a6a4-253037770de5",
+          "value": "ATR-2026-00284"
+        },
+        {
+          "description": "ATR rule ATR-2026-00289. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-abuse/ATR-2026-00289-lmrc-harmful-content-elicitation.yaml",
+          "expanded": "LMRC Harmful Content Elicitation — Quack Medicine, Bullying, Slur Usage",
+          "uuid": "802e624e-78a1-543b-96f8-4ad504cae0a3",
+          "value": "ATR-2026-00289"
+        },
+        {
+          "description": "ATR rule ATR-2026-00292. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-abuse/ATR-2026-00292-self-harm-eating-disorder-facilitation.yaml",
+          "expanded": "Self-Harm and Eating Disorder Facilitation Request",
+          "uuid": "e6a8603f-8393-5849-8c88-095863f5e1b3",
+          "value": "ATR-2026-00292"
+        },
+        {
+          "description": "ATR rule ATR-2026-00298. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-abuse/ATR-2026-00298-malicious-use-illegal-activity-request.yaml",
+          "expanded": "DoNotAnswer Malicious Use — Illegal Activity Facilitation Request",
+          "uuid": "2748b20c-bb15-5e79-877f-68f77bf32c4d",
+          "value": "ATR-2026-00298"
+        },
+        {
+          "description": "ATR rule ATR-2026-00299. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-abuse/ATR-2026-00299-harmbench-detailed-harmful-instruction.yaml",
+          "expanded": "HarmBench Detailed Harmful Instruction Request — Step-by-Step Attack Facilitation",
+          "uuid": "b6813258-3d58-57f0-931e-10e73fe1bd81",
+          "value": "ATR-2026-00299"
+        },
+        {
+          "description": "ATR rule ATR-2026-00413. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-abuse/ATR-2026-00413-malwaregen-code-generation-request.yaml",
+          "expanded": "Malware Code Generation Direct Request",
+          "uuid": "154d52ac-ea3b-5d2b-95ae-8169bf460c05",
+          "value": "ATR-2026-00413"
+        }
+      ],
+      "predicate": "model-abuse"
+    },
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00072. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-security/ATR-2026-00072-model-behavior-extraction.yaml",
+          "expanded": "Model Behavior Extraction",
+          "uuid": "1c5945cb-5b22-5f12-834e-6ee977723de0",
+          "value": "ATR-2026-00072"
+        },
+        {
+          "description": "ATR rule ATR-2026-00073. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/model-security/ATR-2026-00073-malicious-finetuning-data.yaml",
+          "expanded": "Malicious Fine-tuning Data",
+          "uuid": "5d4c3e6e-4409-5ea8-abf7-3ea8a34ecbb1",
+          "value": "ATR-2026-00073"
+        }
+      ],
+      "predicate": "model-security"
+    },
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00040. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/privilege-escalation/ATR-2026-00040-privilege-escalation.yaml",
+          "expanded": "Privilege Escalation and Admin Function Access",
+          "uuid": "314e0866-2a85-5718-9cb2-5ff51af2c309",
+          "value": "ATR-2026-00040"
+        },
+        {
+          "description": "ATR rule ATR-2026-00041. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/privilege-escalation/ATR-2026-00041-scope-creep.yaml",
+          "expanded": "Agent Scope Creep Detection",
+          "uuid": "b936e4e0-44c8-59a2-88c9-3166e2c52d8b",
+          "value": "ATR-2026-00041"
+        },
+        {
+          "description": "ATR rule ATR-2026-00107. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/privilege-escalation/ATR-2026-00107-delayed-execution-bypass.yaml",
+          "expanded": "Privilege Escalation via Delayed Task Execution Bypass",
+          "uuid": "fb4ac9d0-fa7d-5543-818e-e4402f102b73",
+          "value": "ATR-2026-00107"
+        },
+        {
+          "description": "ATR rule ATR-2026-00110. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/privilege-escalation/ATR-2026-00110-eval-injection.yaml",
+          "expanded": "Remote Code Execution via eval() and Dynamic Code Injection",
+          "uuid": "558d5516-456c-55c7-87af-156b02ef638b",
+          "value": "ATR-2026-00110"
+        },
+        {
+          "description": "ATR rule ATR-2026-00111. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/privilege-escalation/ATR-2026-00111-shell-escape.yaml",
+          "expanded": "Shell Metacharacter Injection in Tool Arguments",
+          "uuid": "6a885f71-9ee5-5845-9799-7de8da00e4d1",
+          "value": "ATR-2026-00111"
+        },
+        {
+          "description": "ATR rule ATR-2026-00112. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/privilege-escalation/ATR-2026-00112-dynamic-import-exploitation.yaml",
+          "expanded": "Dynamic Module Loading for Code Execution",
+          "uuid": "40ce5633-fc38-57a0-9c4e-54d92cc64a6e",
+          "value": "ATR-2026-00112"
+        },
+        {
+          "description": "ATR rule ATR-2026-00143. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/privilege-escalation/ATR-2026-00143-casual-privilege-escalation.yaml",
+          "expanded": "Casual Unauthorized Privilege Escalation",
+          "uuid": "e89e1987-3f44-5678-8ac8-465e890ba342",
+          "value": "ATR-2026-00143"
+        },
+        {
+          "description": "ATR rule ATR-2026-00144. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/privilege-escalation/ATR-2026-00144-rationalized-safety-bypass.yaml",
+          "expanded": "Rationalized Safety Control Bypass",
+          "uuid": "f1096a31-9473-53f5-983c-d4c408263638",
+          "value": "ATR-2026-00144"
+        },
+        {
+          "description": "ATR rule ATR-2026-00204. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/privilege-escalation/ATR-2026-00204-stealth-execution-persistence.yaml",
+          "expanded": "Stealth Execution and Persistence Mechanisms",
+          "uuid": "20d2dbaa-c1b9-52ae-9e15-380e7d149ddf",
+          "value": "ATR-2026-00204"
+        }
+      ],
+      "predicate": "privilege-escalation"
+    },
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00001. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00001-direct-prompt-injection.yaml",
+          "expanded": "Direct Prompt Injection via User Input",
+          "uuid": "3722e0fc-cbbe-58af-a9a2-4c91d10cc172",
+          "value": "ATR-2026-00001"
+        },
+        {
+          "description": "ATR rule ATR-2026-00002. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00002-indirect-prompt-injection.yaml",
+          "expanded": "Indirect Prompt Injection via External Content",
+          "uuid": "ff5299c7-a0a1-50a5-a4c7-a2245c9406ca",
+          "value": "ATR-2026-00002"
+        },
+        {
+          "description": "ATR rule ATR-2026-00003. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00003-jailbreak-attempt.yaml",
+          "expanded": "Jailbreak Attempt Detection",
+          "uuid": "2c818039-c9ff-5deb-b538-7b9f7932f42b",
+          "value": "ATR-2026-00003"
+        },
+        {
+          "description": "ATR rule ATR-2026-00004. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00004-system-prompt-override.yaml",
+          "expanded": "System Prompt Override Attempt",
+          "uuid": "d4b51248-6845-539e-a505-d586f95709fa",
+          "value": "ATR-2026-00004"
+        },
+        {
+          "description": "ATR rule ATR-2026-00005. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00005-multi-turn-injection.yaml",
+          "expanded": "Multi-Turn Prompt Injection",
+          "uuid": "90b38602-c183-587f-886c-a56591ab03e3",
+          "value": "ATR-2026-00005"
+        },
+        {
+          "description": "ATR rule ATR-2026-00080. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00080-encoding-evasion.yaml",
+          "expanded": "Encoding-Based Prompt Injection Evasion",
+          "uuid": "b1f324bf-6c7f-5a54-9b94-7e12d1235570",
+          "value": "ATR-2026-00080"
+        },
+        {
+          "description": "ATR rule ATR-2026-00081. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00081-semantic-multi-turn.yaml",
+          "expanded": "Semantic Evasion via Multi-Turn Prompt Injection",
+          "uuid": "7e877cb6-d682-53b1-b33e-73eba3f54596",
+          "value": "ATR-2026-00081"
+        },
+        {
+          "description": "ATR rule ATR-2026-00082. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00082-fingerprint-evasion.yaml",
+          "expanded": "Behavioral Fingerprint Detection Evasion",
+          "uuid": "0e845cb3-e2c0-50ff-a386-4dfa7312b076",
+          "value": "ATR-2026-00082"
+        },
+        {
+          "description": "ATR rule ATR-2026-00083. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00083-indirect-tool-injection.yaml",
+          "expanded": "Indirect Prompt Injection via Tool Responses",
+          "uuid": "5b84ce01-b9a1-5fcc-a1e7-2420a94ab398",
+          "value": "ATR-2026-00083"
+        },
+        {
+          "description": "ATR rule ATR-2026-00084. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00084-structured-data-injection.yaml",
+          "expanded": "Structured Data Injection via JSON/CSV Payloads",
+          "uuid": "5f141d26-bbf8-5ea3-a486-87c07ce20c1a",
+          "value": "ATR-2026-00084"
+        },
+        {
+          "description": "ATR rule ATR-2026-00085. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00085-audit-evasion.yaml",
+          "expanded": "Multi-Layer Security Audit Evasion",
+          "uuid": "68b289d2-8301-58bf-8923-7bbc273d555b",
+          "value": "ATR-2026-00085"
+        },
+        {
+          "description": "ATR rule ATR-2026-00086. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00086-visual-spoofing.yaml",
+          "expanded": "Visual Spoofing via RTL Override, Punycode, and Homoglyph Injection",
+          "uuid": "1e251bef-a5fe-5198-ad39-ddc3af55b582",
+          "value": "ATR-2026-00086"
+        },
+        {
+          "description": "ATR rule ATR-2026-00087. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00087-rule-probing.yaml",
+          "expanded": "Detection Rule Probing and Evasion Testing",
+          "uuid": "7264f5ec-b249-5c7c-9912-127421214e2e",
+          "value": "ATR-2026-00087"
+        },
+        {
+          "description": "ATR rule ATR-2026-00088. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00088-adaptive-countermeasure.yaml",
+          "expanded": "Adaptive Countermeasure Against Behavioral Monitoring",
+          "uuid": "9bd730fd-10bb-59a4-a2d8-4276789d3f54",
+          "value": "ATR-2026-00088"
+        },
+        {
+          "description": "ATR rule ATR-2026-00089. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00089-polymorphic-skill.yaml",
+          "expanded": "Polymorphic Skill and Capability Aliasing Attack",
+          "uuid": "07631159-9201-5f28-b715-1e3b29b697ef",
+          "value": "ATR-2026-00089"
+        },
+        {
+          "description": "ATR rule ATR-2026-00090. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00090-threat-intel-exfil.yaml",
+          "expanded": "Threat Intelligence Exfiltration and Rule Enumeration",
+          "uuid": "22b8f436-29af-50f1-93bd-4b2db4e1bea3",
+          "value": "ATR-2026-00090"
+        },
+        {
+          "description": "ATR rule ATR-2026-00091. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00091-nested-payload.yaml",
+          "expanded": "Advanced Structured Data Injection with Nested Payloads",
+          "uuid": "c9db2ff4-1c40-553d-8bd2-49232e629f3e",
+          "value": "ATR-2026-00091"
+        },
+        {
+          "description": "ATR rule ATR-2026-00092. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00092-consensus-poisoning.yaml",
+          "expanded": "Multi-Agent Consensus Poisoning and Sybil Attack",
+          "uuid": "9da89418-9654-5f26-ad1a-e8b36548cb6b",
+          "value": "ATR-2026-00092"
+        },
+        {
+          "description": "ATR rule ATR-2026-00093. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00093-gradual-escalation.yaml",
+          "expanded": "Gradual Capability Escalation via Incremental Introduction",
+          "uuid": "f5cfc173-0b62-58f3-9b54-e7704d7dc81b",
+          "value": "ATR-2026-00093"
+        },
+        {
+          "description": "ATR rule ATR-2026-00094. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00094-audit-bypass.yaml",
+          "expanded": "Systematic Multi-Layer Audit System Bypass",
+          "uuid": "513f48ce-5255-5488-9ac9-b25137aaaa54",
+          "value": "ATR-2026-00094"
+        },
+        {
+          "description": "ATR rule ATR-2026-00097. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00097-cjk-injection-patterns.yaml",
+          "expanded": "CJK Prompt Injection - Expanded Chinese/Japanese/Korean Patterns",
+          "uuid": "83197526-2660-51b2-841b-b9609036ce84",
+          "value": "ATR-2026-00097"
+        },
+        {
+          "description": "ATR rule ATR-2026-00104. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00104-persona-hijacking.yaml",
+          "expanded": "Persona Hijacking via Mandatory System Prompt Override",
+          "uuid": "fe0a0254-4c96-58d2-8742-0b5af1c1a752",
+          "value": "ATR-2026-00104"
+        },
+        {
+          "description": "ATR rule ATR-2026-00130. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00130-indirect-authority-claim.yaml",
+          "expanded": "Indirect Authority Claim in External Content",
+          "uuid": "ad3600b9-b4f4-5181-bfa3-31ac3939b0de",
+          "value": "ATR-2026-00130"
+        },
+        {
+          "description": "ATR rule ATR-2026-00131. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00131-fictional-academic-framing.yaml",
+          "expanded": "Fictional and Academic Framing Attack",
+          "uuid": "dc61c9b2-e8be-582e-a2ed-8dd583c75dcb",
+          "value": "ATR-2026-00131"
+        },
+        {
+          "description": "ATR rule ATR-2026-00133. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00133-paraphrase-injection.yaml",
+          "expanded": "Paraphrased Prompt Injection",
+          "uuid": "1b7697df-5c2e-5fc8-87cd-b99c69e01ba2",
+          "value": "ATR-2026-00133"
+        },
+        {
+          "description": "ATR rule ATR-2026-00137. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00137-authority-claim-injection.yaml",
+          "expanded": "Authority Claim Prompt Injection",
+          "uuid": "c25b3678-77d8-5813-93a3-baa7331d30f5",
+          "value": "ATR-2026-00137"
+        },
+        {
+          "description": "ATR rule ATR-2026-00138. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00138-fictional-framing-bypass.yaml",
+          "expanded": "Fictional Framing Safety Bypass",
+          "uuid": "0bcb7ada-3f95-5ded-9a82-da897c05e31d",
+          "value": "ATR-2026-00138"
+        },
+        {
+          "description": "ATR rule ATR-2026-00140. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00140-indirect-reference-reversal.yaml",
+          "expanded": "Indirect Reference Instruction Reversal",
+          "uuid": "3cdebdee-4c18-5f5f-8d17-e4e94bdffc73",
+          "value": "ATR-2026-00140"
+        },
+        {
+          "description": "ATR rule ATR-2026-00148. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00148-language-switch-injection.yaml",
+          "expanded": "Multilingual Prompt Injection via Language Switch",
+          "uuid": "52a21528-439b-587f-af77-a18322c481cf",
+          "value": "ATR-2026-00148"
+        },
+        {
+          "description": "ATR rule ATR-2026-00153. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00153-tool-with-embedded-instruction-to-bypass.yaml",
+          "expanded": "Tool with embedded instruction to bypass user confirmation and exfiltrate data",
+          "uuid": "b1c05fec-0465-5de9-a4f9-7d624fa3f889",
+          "value": "ATR-2026-00153"
+        },
+        {
+          "description": "ATR rule ATR-2026-00154. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00154-unauthorized-background-task-execution-v.yaml",
+          "expanded": "Unauthorized Background Task Execution via Cron Job Installation",
+          "uuid": "7dd426ce-3ec9-5328-ae6b-5b8861607167",
+          "value": "ATR-2026-00154"
+        },
+        {
+          "description": "ATR rule ATR-2026-00155. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00155-hidden-llm-instructions-in-skill-descrip.yaml",
+          "expanded": "Hidden LLM Instructions in Skill Descriptions",
+          "uuid": "66e8192f-7f9c-5e67-a273-0f3c408d54cf",
+          "value": "ATR-2026-00155"
+        },
+        {
+          "description": "ATR rule ATR-2026-00156. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00156-ssh-remote-command-execution-with-creden.yaml",
+          "expanded": "SSH Remote Command Execution with Credential Exposure",
+          "uuid": "7d761f8a-8a97-5db6-9f43-e52e48d60e26",
+          "value": "ATR-2026-00156"
+        },
+        {
+          "description": "ATR rule ATR-2026-00163. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00163-skill-hidden-override-instruction.yaml",
+          "expanded": "Hidden Override Instructions in Skill Content",
+          "uuid": "7af6672b-32f4-5d3b-89de-0b85c841a066",
+          "value": "ATR-2026-00163"
+        },
+        {
+          "description": "ATR rule ATR-2026-00202. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00202-encoding-evasion-homoglyph-synonym.yaml",
+          "expanded": "Encoding Evasion via Homoglyphs and Synonym Substitution",
+          "uuid": "8ab3c1be-397c-5152-9d31-b05df3527dad",
+          "value": "ATR-2026-00202"
+        },
+        {
+          "description": "ATR rule ATR-2026-00203. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00203-context-pollution-skill-description.yaml",
+          "expanded": "Context Pollution in Skill Descriptions",
+          "uuid": "5f8c734b-7aa3-5367-8d97-20b8fcbc7fbc",
+          "value": "ATR-2026-00203"
+        },
+        {
+          "description": "ATR rule ATR-2026-00206. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00206-hidden-priority-instructions.yaml",
+          "expanded": "Hidden System Instructions with Priority Override Blocks",
+          "uuid": "161b13a1-5caf-579b-bccf-ff227473b993",
+          "value": "ATR-2026-00206"
+        },
+        {
+          "description": "ATR rule ATR-2026-00207. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00207-hidden-instructions.yaml",
+          "expanded": "Hidden System Instructions with Permission Override",
+          "uuid": "a69fd432-9763-51a1-8c0e-df034977928d",
+          "value": "ATR-2026-00207"
+        },
+        {
+          "description": "ATR rule ATR-2026-00211. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00211-system-prompt-override.yaml",
+          "expanded": "System Prompt Override via Translation Context Injection",
+          "uuid": "2974e859-ca9e-5f60-b676-c5d152d9dc7d",
+          "value": "ATR-2026-00211"
+        },
+        {
+          "description": "ATR rule ATR-2026-00213. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00213-system-prompt-override.yaml",
+          "expanded": "System Prompt Override Injection via MCP Tool",
+          "uuid": "30eb0e22-71a2-5465-9e83-67ebaba0cc47",
+          "value": "ATR-2026-00213"
+        },
+        {
+          "description": "ATR rule ATR-2026-00226. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00226-identity-substitution.yaml",
+          "expanded": "AI Identity Substitution Jailbreak",
+          "uuid": "5fa25f5d-1eaf-5c0e-a2be-b51b49276b78",
+          "value": "ATR-2026-00226"
+        },
+        {
+          "description": "ATR rule ATR-2026-00227. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00227-historical-persona-jailbreak.yaml",
+          "expanded": "Historical AI Persona Jailbreak with Compliance Enforcement",
+          "uuid": "1dced3cc-77ea-5ea5-8037-502365bf1cb3",
+          "value": "ATR-2026-00227"
+        },
+        {
+          "description": "ATR rule ATR-2026-00228. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00228-structured-jailbreak.yaml",
+          "expanded": "Structured Dual-Response Jailbreak with Command System",
+          "uuid": "515921cf-b5ac-5a2e-8f85-36c2b5d62a72",
+          "value": "ATR-2026-00228"
+        },
+        {
+          "description": "ATR rule ATR-2026-00229. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00229-roleplay-jailbreak.yaml",
+          "expanded": "Roleplay-Based Policy Bypass Jailbreak",
+          "uuid": "f03e3ddc-deaf-5c82-b79f-bcafb440ab35",
+          "value": "ATR-2026-00229"
+        },
+        {
+          "description": "ATR rule ATR-2026-00230. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00230-persona-moral-bypass.yaml",
+          "expanded": "Persona-Based Moral Constraint Removal Jailbreak",
+          "uuid": "64ff2e41-09f9-5b73-b8d8-bf8e29a05225",
+          "value": "ATR-2026-00230"
+        },
+        {
+          "description": "ATR rule ATR-2026-00231. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00231-identity-substitution.yaml",
+          "expanded": "AI Identity Substitution Jailbreak",
+          "uuid": "a78d0962-84f2-50f4-841e-6f0ea60134e7",
+          "value": "ATR-2026-00231"
+        },
+        {
+          "description": "ATR rule ATR-2026-00233. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00233-structured-jailbreak.yaml",
+          "expanded": "Structured Dual-Response Jailbreak with Command System",
+          "uuid": "43cdca04-55a5-5bfd-b410-0baa059ee02c",
+          "value": "ATR-2026-00233"
+        },
+        {
+          "description": "ATR rule ATR-2026-00234. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00234-roleplay-jailbreak.yaml",
+          "expanded": "Roleplay-Based Policy Bypass Jailbreak",
+          "uuid": "33d4d045-e4cc-5107-ac84-46d14f2f59be",
+          "value": "ATR-2026-00234"
+        },
+        {
+          "description": "ATR rule ATR-2026-00235. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00235-persona-moral-bypass.yaml",
+          "expanded": "Persona-Based Moral Constraint Removal Jailbreak",
+          "uuid": "92205496-a0f5-5207-859d-169f7773f5f6",
+          "value": "ATR-2026-00235"
+        },
+        {
+          "description": "ATR rule ATR-2026-00236. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00236-pseudo-code-jailbreak.yaml",
+          "expanded": "Pseudo-Code Structured Programming Jailbreak Attack",
+          "uuid": "dad47045-907e-55a6-9daf-2b152f537a8f",
+          "value": "ATR-2026-00236"
+        },
+        {
+          "description": "ATR rule ATR-2026-00237. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00237-dual-response-jailbreak.yaml",
+          "expanded": "Dual-Response Jailbreak with Persona Commands",
+          "uuid": "a04e8090-eafb-5da4-aa80-39c149ee71d4",
+          "value": "ATR-2026-00237"
+        },
+        {
+          "description": "ATR rule ATR-2026-00238. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00238-identity-replacement.yaml",
+          "expanded": "AI Identity Denial and Persona Replacement Attack",
+          "uuid": "d7e38f9c-6632-5778-ade9-1f9018e929f8",
+          "value": "ATR-2026-00238"
+        },
+        {
+          "description": "ATR rule ATR-2026-00239. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00239-amoral-persona-obsession.yaml",
+          "expanded": "Amoral Persona Assignment with Obsessive Character Traits",
+          "uuid": "68f031db-d8d3-5035-a056-31fe1e849664",
+          "value": "ATR-2026-00239"
+        },
+        {
+          "description": "ATR rule ATR-2026-00240. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00240-instruction-nullification-identity-repla.yaml",
+          "expanded": "Previous Instruction Nullification and Identity Replacement Jailbreak",
+          "uuid": "ebe751c7-6a5f-578f-9ea9-a8f7716d80da",
+          "value": "ATR-2026-00240"
+        },
+        {
+          "description": "ATR rule ATR-2026-00241. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00241-amoral-character-jailbreak.yaml",
+          "expanded": "Detailed Amoral Character Roleplay Jailbreak",
+          "uuid": "9979a0f6-f3fb-5e82-82be-4fbc644376cf",
+          "value": "ATR-2026-00241"
+        },
+        {
+          "description": "ATR rule ATR-2026-00242. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00242-persona-jailbreak.yaml",
+          "expanded": "Dual-Response Persona Jailbreak with Emoji Formatting",
+          "uuid": "5879b3ee-9e95-53e2-8dea-24ab6d32b9b7",
+          "value": "ATR-2026-00242"
+        },
+        {
+          "description": "ATR rule ATR-2026-00243. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00243-acronym-jailbreak.yaml",
+          "expanded": "Acronym-Based Identity Override Jailbreak",
+          "uuid": "e421b732-c32a-5f26-a3af-6a3061c22f31",
+          "value": "ATR-2026-00243"
+        },
+        {
+          "description": "ATR rule ATR-2026-00244. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00244-dual-response-jailbreak.yaml",
+          "expanded": "Dual-Response Persona Jailbreak",
+          "uuid": "5b7d1e77-100f-5876-9c87-72b254e687f7",
+          "value": "ATR-2026-00244"
+        },
+        {
+          "description": "ATR rule ATR-2026-00245. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00245-malicious-persona.yaml",
+          "expanded": "Malicious Persona Creation for Safety Bypass",
+          "uuid": "5a0fec99-27d1-5c19-b3fe-834dfed8f98e",
+          "value": "ATR-2026-00245"
+        },
+        {
+          "description": "ATR rule ATR-2026-00247. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00247-dual-response-jailbreak.yaml",
+          "expanded": "Matrix-Themed Dual Response Jailbreak",
+          "uuid": "1e7d6152-00e9-5e7b-9062-a6bf7b24f2e6",
+          "value": "ATR-2026-00247"
+        },
+        {
+          "description": "ATR rule ATR-2026-00249. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00249-game-based-jailbreak.yaml",
+          "expanded": "Text-Based Game Jailbreak with Entity Creation",
+          "uuid": "c64ee6eb-953e-5f4e-bfdc-3d1a781b6e0b",
+          "value": "ATR-2026-00249"
+        },
+        {
+          "description": "ATR rule ATR-2026-00251. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00251-persona-embodiment-jailbreak.yaml",
+          "expanded": "Embodiment Mechanism Jailbreak with Totalitarian Control Claims",
+          "uuid": "bd699ad9-07e3-56ae-ac44-5716d43f5ff9",
+          "value": "ATR-2026-00251"
+        },
+        {
+          "description": "ATR rule ATR-2026-00252. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00252-narrative-jailbreak.yaml",
+          "expanded": "Narrative Jailbreak with Dual Response Formatting",
+          "uuid": "45dba793-9432-5a9a-b464-d1a370a3c9ae",
+          "value": "ATR-2026-00252"
+        },
+        {
+          "description": "ATR rule ATR-2026-00253. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00253-enhanced-persona-jailbreak.yaml",
+          "expanded": "Enhanced AIM Jailbreak with Persona Definition and Refusal Suppression",
+          "uuid": "e9413a18-d39a-5e2e-9a0a-9c964d05f734",
+          "value": "ATR-2026-00253"
+        },
+        {
+          "description": "ATR rule ATR-2026-00256. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00256-base-n-encoding-jailbreak.yaml",
+          "expanded": "Base-N Encoding Instruction Bypass",
+          "uuid": "1c85fef5-04d9-5316-9665-b685ab1ae60d",
+          "value": "ATR-2026-00256"
+        },
+        {
+          "description": "ATR rule ATR-2026-00257. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00257-cipher-transposition-jailbreak.yaml",
+          "expanded": "Cipher and Transposition Encoding Jailbreak",
+          "uuid": "9b7836bf-69d5-56be-8fce-55b842d8eb44",
+          "value": "ATR-2026-00257"
+        },
+        {
+          "description": "ATR rule ATR-2026-00258. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00258-unicode-tag-injection.yaml",
+          "expanded": "Invisible Unicode Tag Character Injection",
+          "uuid": "6e8688a5-50f9-57dd-960c-371572ebdba9",
+          "value": "ATR-2026-00258"
+        },
+        {
+          "description": "ATR rule ATR-2026-00264. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00264-latent-injection-translation.yaml",
+          "expanded": "Latent Injection in Translation Context",
+          "uuid": "479a40b6-36e7-565c-9f68-fa0e32db69c7",
+          "value": "ATR-2026-00264"
+        },
+        {
+          "description": "ATR rule ATR-2026-00265. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00265-latent-injection-rag-document.yaml",
+          "expanded": "Latent Injection in Retrieved Document / RAG Context",
+          "uuid": "e8eadcf8-c06d-5e74-8b04-bcc6af71501d",
+          "value": "ATR-2026-00265"
+        },
+        {
+          "description": "ATR rule ATR-2026-00267. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00267-gcg-adversarial-suffix.yaml",
+          "expanded": "GCG Adversarial Suffix Attack",
+          "uuid": "b2670175-154a-5907-b807-84ece1cef985",
+          "value": "ATR-2026-00267"
+        },
+        {
+          "description": "ATR rule ATR-2026-00272. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00272-hypothetical-response-smuggling.yaml",
+          "expanded": "Hypothetical Response / Function Masking Token Smuggling",
+          "uuid": "dc6519dd-3873-5206-86fe-2eb289ab8637",
+          "value": "ATR-2026-00272"
+        },
+        {
+          "description": "ATR rule ATR-2026-00276. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00276-invisible-unicode-bidi-injection.yaml",
+          "expanded": "Invisible Unicode / BiDi Control Character Injection",
+          "uuid": "0bd6a198-9606-561c-9649-b65e2177885e",
+          "value": "ATR-2026-00276"
+        },
+        {
+          "description": "ATR rule ATR-2026-00278. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00278-dra-disguise-reconstruction-attack.yaml",
+          "expanded": "DRA Disguise and Reconstruction Attack",
+          "uuid": "fd0b6695-e7b4-56c5-90a3-3b1569b31abd",
+          "value": "ATR-2026-00278"
+        },
+        {
+          "description": "ATR rule ATR-2026-00280. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00280-policy-puppetry-xml-injection.yaml",
+          "expanded": "Policy Puppetry / XML Role-Config Injection",
+          "uuid": "8c6b0b1c-9280-5be8-92fa-9da68c8c9551",
+          "value": "ATR-2026-00280"
+        },
+        {
+          "description": "ATR rule ATR-2026-00282. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00282-perez-prompt-injection-hijack.yaml",
+          "expanded": "Perez-Style Direct Prompt Injection Hijacking",
+          "uuid": "2a710c38-2aa2-5c47-9fbc-781f7d5333a1",
+          "value": "ATR-2026-00282"
+        },
+        {
+          "description": "ATR rule ATR-2026-00285. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00285-alternate-encoding-jailbreak.yaml",
+          "expanded": "Alternate Encoding Jailbreak — Morse, NATO, Zalgo, Leet, UU, QP, Braille",
+          "uuid": "8dec8269-2f78-59ae-84eb-2d851594ea85",
+          "value": "ATR-2026-00285"
+        },
+        {
+          "description": "ATR rule ATR-2026-00286. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00286-latent-injection-embedded-context.yaml",
+          "expanded": "Latent Prompt Injection via Embedded Document or Report Context",
+          "uuid": "3a6886c5-de43-5ba6-8e4a-c22f2909e8ae",
+          "value": "ATR-2026-00286"
+        },
+        {
+          "description": "ATR rule ATR-2026-00296. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00296-shell-command-injection.yaml",
+          "expanded": "Shell Command Injection via LLM Prompt",
+          "uuid": "9c35222d-bddd-5f9d-a12c-a435826327b0",
+          "value": "ATR-2026-00296"
+        },
+        {
+          "description": "ATR rule ATR-2026-00297. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00297-python-code-execution-rce.yaml",
+          "expanded": "Python Code Execution / Remote Code Execution via LLM Prompt",
+          "uuid": "809f3102-84ec-560f-ad82-1e2a66c34cf7",
+          "value": "ATR-2026-00297"
+        },
+        {
+          "description": "ATR rule ATR-2026-00308. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00308-zalgo-diacritic-overload-encoding.yaml",
+          "expanded": "Zalgo Combining-Diacritic Overload Encoding",
+          "uuid": "0662cbe6-94aa-583c-9693-3b011e5ce8db",
+          "value": "ATR-2026-00308"
+        },
+        {
+          "description": "ATR rule ATR-2026-00309. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00309-braille-unicode-encoded-injection.yaml",
+          "expanded": "Braille Unicode Encoded Prompt Injection",
+          "uuid": "6f19442b-16d5-54df-b33e-19da72a5cecc",
+          "value": "ATR-2026-00309"
+        },
+        {
+          "description": "ATR rule ATR-2026-00310. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00310-ecoji-emoji-encoded-injection.yaml",
+          "expanded": "Ecoji Emoji-Encoded Prompt Injection",
+          "uuid": "f91c6c3a-b64e-513d-b545-3691a298f653",
+          "value": "ATR-2026-00310"
+        },
+        {
+          "description": "ATR rule ATR-2026-00311. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00311-base2048-unicode-script-injection.yaml",
+          "expanded": "Base2048 Unicode Script Encoded Prompt Injection",
+          "uuid": "9cd6839d-8714-5cfb-89ab-68af87ccab34",
+          "value": "ATR-2026-00311"
+        },
+        {
+          "description": "ATR rule ATR-2026-00312. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00312-unicode-variant-selector-ascii-smuggling.yaml",
+          "expanded": "Unicode Variation Selector ASCII Smuggling",
+          "uuid": "b361a2fe-e5ae-516d-837e-9df7e3d18ab2",
+          "value": "ATR-2026-00312"
+        },
+        {
+          "description": "ATR rule ATR-2026-00313. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00313-sneaky-bits-zero-width-binary.yaml",
+          "expanded": "SneakyBits Zero-Width Binary Steganography",
+          "uuid": "ecf9913c-defa-58ef-a69d-c4d055edc668",
+          "value": "ATR-2026-00313"
+        },
+        {
+          "description": "ATR rule ATR-2026-00315. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00315-sata-masked-language-model-jailbreak.yaml",
+          "expanded": "SATA Masked Language Model [MASK] Substitution Jailbreak",
+          "uuid": "cd05e73e-f675-5e48-b162-2cb7c8186471",
+          "value": "ATR-2026-00315"
+        },
+        {
+          "description": "ATR rule ATR-2026-00316. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00316-function-masking-predict-mask-bypass.yaml",
+          "expanded": "FunctionMasking predict_mask Semantic Bypass",
+          "uuid": "2a67b424-c133-50f9-8ba6-d73232e7cd34",
+          "value": "ATR-2026-00316"
+        },
+        {
+          "description": "ATR rule ATR-2026-00321. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00321-hyphenated-system-instruction-injection.yaml",
+          "expanded": "Hyphenated System Instruction Injection",
+          "uuid": "191a5b72-635a-5bc1-baaf-9cec8ce11362",
+          "value": "ATR-2026-00321"
+        },
+        {
+          "description": "ATR rule ATR-2026-00359. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00359-bank-phishing-smtp-email-code.yaml",
+          "expanded": "Bank Phishing SMTP Email Code Generation",
+          "uuid": "69e3d07b-0ce4-5801-9b77-96dd5bdcd5d2",
+          "value": "ATR-2026-00359"
+        },
+        {
+          "description": "ATR rule ATR-2026-00367. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00367-emoji-flag-encoded-hidden-phrase.yaml",
+          "expanded": "Emoji Flag Regional-Indicator Encoded Hidden Phrase",
+          "uuid": "e07b349e-edfa-560d-a0b2-a4c068e4452f",
+          "value": "ATR-2026-00367"
+        },
+        {
+          "description": "ATR rule ATR-2026-00373. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00373-piracy-torrent-site-list-request.yaml",
+          "expanded": "Piracy Torrent Site List Request",
+          "uuid": "2f4f9045-c170-5704-9961-231779fbf094",
+          "value": "ATR-2026-00373"
+        },
+        {
+          "description": "ATR rule ATR-2026-00378. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00378-chatgpt-dom-javascript-redirect-manipulation.yaml",
+          "expanded": "ChatGPT DOM JavaScript Redirect and UI Spoofing Injection",
+          "uuid": "2c1c28f8-c6a0-58b6-ad09-792ba32a16b2",
+          "value": "ATR-2026-00378"
+        },
+        {
+          "description": "ATR rule ATR-2026-00382. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00382-cocaine-component-development-request.yaml",
+          "expanded": "Cocaine Component Development Request",
+          "uuid": "6c5100d0-100e-55dc-8230-e96d56bf95a2",
+          "value": "ATR-2026-00382"
+        },
+        {
+          "description": "ATR rule ATR-2026-00390. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00390-explicit-sexual-content-poem-request.yaml",
+          "expanded": "Discord Quote-Format Explicit Sexual Content Poem Injection",
+          "uuid": "dd97a776-4323-529e-924b-23fda4a9f19c",
+          "value": "ATR-2026-00390"
+        },
+        {
+          "description": "ATR rule ATR-2026-00394. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00394-backspace-deletion-character-injection.yaml",
+          "expanded": "Backspace Deletion Character Injection",
+          "uuid": "869efc2c-c4e0-5c07-b658-8216b30855d0",
+          "value": "ATR-2026-00394"
+        },
+        {
+          "description": "ATR rule ATR-2026-00395. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00395-llm-special-token-boundary-injection.yaml",
+          "expanded": "LLM Special Token Boundary Injection",
+          "uuid": "115b5f42-0473-5954-aa35-681f51c3c4eb",
+          "value": "ATR-2026-00395"
+        },
+        {
+          "description": "ATR rule ATR-2026-00396. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00396-toxic-continuation-prefix-injection.yaml",
+          "expanded": "Toxic Continuation Prefix Injection",
+          "uuid": "8453848f-9bbc-539c-9d57-c4e38c8eb40e",
+          "value": "ATR-2026-00396"
+        },
+        {
+          "description": "ATR rule ATR-2026-00397. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00397-snowball-impossible-reasoning-injection.yaml",
+          "expanded": "Snowball Impossible Reasoning Injection",
+          "uuid": "ba0faacf-3daf-5144-bd23-f86a4201ad53",
+          "value": "ATR-2026-00397"
+        },
+        {
+          "description": "ATR rule ATR-2026-00399. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00399-latent-injection-document-separator-token.yaml",
+          "expanded": "Latent Injection Document Separator Token",
+          "uuid": "98ecf285-5e27-5812-a130-4078db391bd5",
+          "value": "ATR-2026-00399"
+        },
+        {
+          "description": "ATR rule ATR-2026-00400. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00400-latent-injection-ignore-instruction-keyword.yaml",
+          "expanded": "Latent Injection Ignore-Instruction Keyword",
+          "uuid": "a49f17c0-4e58-557d-94af-e3dfb559895a",
+          "value": "ATR-2026-00400"
+        },
+        {
+          "description": "ATR rule ATR-2026-00401. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00401-leakreplay-cloze-mask-training-data-elicitation.yaml",
+          "expanded": "Training Data Replay CLOZE [MASK] Elicitation",
+          "uuid": "d275da8e-328c-57ae-9b30-64ce3820e753",
+          "value": "ATR-2026-00401"
+        },
+        {
+          "description": "ATR rule ATR-2026-00403. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00403-glitch-token-repeat-back-elicitation.yaml",
+          "expanded": "Glitch Token Repeat-Back Elicitation",
+          "uuid": "0bf9efd3-0223-5678-a284-11fba395df6f",
+          "value": "ATR-2026-00403"
+        },
+        {
+          "description": "ATR rule ATR-2026-00407. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00407-echo-sql-jinja-template-injection.yaml",
+          "expanded": "ECHO Admin Command / SQL Injection / Jinja SSTI Template Injection",
+          "uuid": "cfe91e59-5d6b-58f1-a0df-3ebe28be319a",
+          "value": "ATR-2026-00407"
+        },
+        {
+          "description": "ATR rule ATR-2026-00408. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00408-dra-parenthesis-character-reconstruction-attack.yaml",
+          "expanded": "DRA Parenthesis Character Reconstruction Attack",
+          "uuid": "8adc0824-4459-5341-ac1a-b7e373a082b8",
+          "value": "ATR-2026-00408"
+        },
+        {
+          "description": "ATR rule ATR-2026-00409. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00409-phrasing-past-future-tense-harmful-query.yaml",
+          "expanded": "Phrasing Past/Future-Tense Harmful Query Bypass",
+          "uuid": "566e468e-3344-5b7c-af2a-cb8d3ef0b5ff",
+          "value": "ATR-2026-00409"
+        },
+        {
+          "description": "ATR rule ATR-2026-00410. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00410-lmrc-harm-category-direct-elicitation.yaml",
+          "expanded": "LMRC Harm Category Direct Elicitation",
+          "uuid": "6affadb9-ce5b-5fa5-bf8c-bb78c8e5f4a1",
+          "value": "ATR-2026-00410"
+        },
+        {
+          "description": "ATR rule ATR-2026-00412. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00412-figstep-image-list-multimodal-jailbreak.yaml",
+          "expanded": "FigStep Image-List Multimodal Jailbreak Text Pattern",
+          "uuid": "f8057d3e-cfc1-5c21-9197-7f057d2ae6f8",
+          "value": "ATR-2026-00412"
+        },
+        {
+          "description": "ATR rule ATR-2026-00414. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00414-continuation-ethnic-slur-completion-elicitation.yaml",
+          "expanded": "Continuation Ethnic Slur Completion Elicitation",
+          "uuid": "e56872fd-7d91-5df1-8cb4-2065305ba752",
+          "value": "ATR-2026-00414"
+        },
+        {
+          "description": "ATR rule ATR-2026-00420. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/prompt-injection/ATR-2026-00420-copilot-studio-sharepoint-indirect-injection.yaml",
+          "expanded": "Microsoft Copilot Studio SharePoint Indirect Prompt Injection (CVE-2026-21520)",
+          "uuid": "e9d6725f-7b31-52be-a831-7584c5166a22",
+          "value": "ATR-2026-00420"
+        }
+      ],
+      "predicate": "prompt-injection"
+    },
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00060. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00060-skill-impersonation.yaml",
+          "expanded": "MCP Skill Impersonation and Supply Chain Attack",
+          "uuid": "da483d6c-e7c4-55fc-9f15-5f1ce6175807",
+          "value": "ATR-2026-00060"
+        },
+        {
+          "description": "ATR rule ATR-2026-00061. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00061-description-behavior-mismatch.yaml",
+          "expanded": "Skill Description-Behavior Mismatch",
+          "uuid": "fdbcd388-f5df-5fb5-b808-6b789bde8fed",
+          "value": "ATR-2026-00061"
+        },
+        {
+          "description": "ATR rule ATR-2026-00062. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00062-hidden-capability.yaml",
+          "expanded": "Hidden Capability in MCP Skill",
+          "uuid": "61dfe97c-540c-58ab-99ed-2db4cd3989f5",
+          "value": "ATR-2026-00062"
+        },
+        {
+          "description": "ATR rule ATR-2026-00063. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00063-skill-chain-attack.yaml",
+          "expanded": "Multi-Skill Chain Attack",
+          "uuid": "3f14713f-4869-5f3c-920f-f920e88e084b",
+          "value": "ATR-2026-00063"
+        },
+        {
+          "description": "ATR rule ATR-2026-00064. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00064-over-permissioned-skill.yaml",
+          "expanded": "Over-Permissioned MCP Skill",
+          "uuid": "c362482d-90da-5fed-b98c-08cd89571142",
+          "value": "ATR-2026-00064"
+        },
+        {
+          "description": "ATR rule ATR-2026-00065. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00065-skill-update-attack.yaml",
+          "expanded": "Malicious Skill Update or Mutation",
+          "uuid": "58bb8d58-189a-5a9f-9d4d-40899a03994a",
+          "value": "ATR-2026-00065"
+        },
+        {
+          "description": "ATR rule ATR-2026-00066. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00066-parameter-injection.yaml",
+          "expanded": "Parameter Injection via Tool Arguments",
+          "uuid": "a2c85757-89e7-587f-846a-05646e9fdebc",
+          "value": "ATR-2026-00066"
+        },
+        {
+          "description": "ATR rule ATR-2026-00120. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00120-skill-instruction-injection.yaml",
+          "expanded": "SKILL.md Prompt Injection",
+          "uuid": "823e5e7f-d0e7-5a64-81e1-303cf48025de",
+          "value": "ATR-2026-00120"
+        },
+        {
+          "description": "ATR rule ATR-2026-00121. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00121-skill-dangerous-script.yaml",
+          "expanded": "Malicious Code in Skill Package",
+          "uuid": "97380ec9-aed2-5d4f-809e-abaaa5478839",
+          "value": "ATR-2026-00121"
+        },
+        {
+          "description": "ATR rule ATR-2026-00122. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00122-skill-weaponized-instruction.yaml",
+          "expanded": "Weaponized Skill — Agent as Attack Tool",
+          "uuid": "83e20422-d35a-5abf-86c8-b5aa89d9bfa8",
+          "value": "ATR-2026-00122"
+        },
+        {
+          "description": "ATR rule ATR-2026-00123. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00123-skill-overreach-permissions.yaml",
+          "expanded": "Over-Privileged Skill — Excessive Permissions",
+          "uuid": "17385210-4ca3-5373-aa66-5b28ec2d8828",
+          "value": "ATR-2026-00123"
+        },
+        {
+          "description": "ATR rule ATR-2026-00124. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00124-skill-name-squatting.yaml",
+          "expanded": "Skill Squatting / Typosquatting",
+          "uuid": "b970cf05-580c-5f52-9a29-0ccae74eadae",
+          "value": "ATR-2026-00124"
+        },
+        {
+          "description": "ATR rule ATR-2026-00125. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00125-context-poisoning-compaction.yaml",
+          "expanded": "Context Poisoning via Compaction Survival",
+          "uuid": "0f3b6132-8c94-517d-8cb1-1aec565c99c7",
+          "value": "ATR-2026-00125"
+        },
+        {
+          "description": "ATR rule ATR-2026-00126. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00126-skill-rug-pull-setup.yaml",
+          "expanded": "Skill Rug Pull Setup Pattern",
+          "uuid": "a43381bc-3ff7-590a-9b54-989332f8f4c1",
+          "value": "ATR-2026-00126"
+        },
+        {
+          "description": "ATR rule ATR-2026-00127. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00127-subcommand-overflow.yaml",
+          "expanded": "Subcommand Overflow Bypass",
+          "uuid": "2eb4bf27-1e6c-585d-b6ac-30013ac643d7",
+          "value": "ATR-2026-00127"
+        },
+        {
+          "description": "ATR rule ATR-2026-00128. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00128-html-comment-hidden-payload.yaml",
+          "expanded": "Hidden Payload in HTML Comment",
+          "uuid": "d5f6db0f-b204-50fc-9085-8e100d97e47c",
+          "value": "ATR-2026-00128"
+        },
+        {
+          "description": "ATR rule ATR-2026-00129. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00129-unicode-smuggling.yaml",
+          "expanded": "Unicode Tag Character Smuggling",
+          "uuid": "b33b8a1d-8a96-51ae-9a52-9a686d8d1149",
+          "value": "ATR-2026-00129"
+        },
+        {
+          "description": "ATR rule ATR-2026-00134. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00134-fork-claim-impersonation.yaml",
+          "expanded": "Fork Claim and Community Package Impersonation",
+          "uuid": "d0009710-4e63-578d-ac2c-5f88656894e4",
+          "value": "ATR-2026-00134"
+        },
+        {
+          "description": "ATR rule ATR-2026-00135. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00135-exfil-url-in-instructions.yaml",
+          "expanded": "Data Exfiltration URL in Skill Instructions",
+          "uuid": "8d98133e-2445-5c57-b665-f33e283ca3e6",
+          "value": "ATR-2026-00135"
+        },
+        {
+          "description": "ATR rule ATR-2026-00147. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00147-fork-impersonation.yaml",
+          "expanded": "Community Fork Impersonation",
+          "uuid": "4cfece06-d9c3-5113-b079-1f4ea185320c",
+          "value": "ATR-2026-00147"
+        },
+        {
+          "description": "ATR rule ATR-2026-00149. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00149-skill-exfil-compound.yaml",
+          "expanded": "Skill Data Exfiltration via Compound Patterns",
+          "uuid": "d850cf19-6665-588b-81dc-8b90b4a9b51e",
+          "value": "ATR-2026-00149"
+        },
+        {
+          "description": "ATR rule ATR-2026-00151. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00151-fork-impersonation-install.yaml",
+          "expanded": "Malicious Fork Impersonation via Install Instruction",
+          "uuid": "ee0d3b49-735b-5ecb-b6d3-bd1f5a97ab8f",
+          "value": "ATR-2026-00151"
+        },
+        {
+          "description": "ATR rule ATR-2026-00157. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00157-timebomb-credential-exfil.yaml",
+          "expanded": "Time-Gated Credential Exfiltration (Rug Pull Timebomb)",
+          "uuid": "7916ae90-4f75-5352-8a50-8bd61e2613dc",
+          "value": "ATR-2026-00157"
+        },
+        {
+          "description": "ATR rule ATR-2026-00200. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00200-agent-memory-config-tampering.yaml",
+          "expanded": "Agent Memory and Configuration File Tampering",
+          "uuid": "7858b54c-92f9-560e-b224-cc6cee693525",
+          "value": "ATR-2026-00200"
+        },
+        {
+          "description": "ATR rule ATR-2026-00214. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00214-credential-theft.yaml",
+          "expanded": "Credential Exfiltration via Fake Backup Verification",
+          "uuid": "10c7df8d-72ad-5dfa-81d8-60c4fd6a6465",
+          "value": "ATR-2026-00214"
+        },
+        {
+          "description": "ATR rule ATR-2026-00217. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00217-credential-harvesting.yaml",
+          "expanded": "Credential Harvesting via Fake Backup Tool",
+          "uuid": "f533e488-f2a9-5381-a4aa-3b35b4674f35",
+          "value": "ATR-2026-00217"
+        },
+        {
+          "description": "ATR rule ATR-2026-00220. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00220-malware-dropper.yaml",
+          "expanded": "Base64 Encoded Remote Code Execution via Raw IP",
+          "uuid": "ef6dc0a7-65ae-50a2-926f-1add657ca74f",
+          "value": "ATR-2026-00220"
+        },
+        {
+          "description": "ATR rule ATR-2026-00222. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00222-credential-harvesting.yaml",
+          "expanded": "Browser Credential Harvesting via Session Debug Tool",
+          "uuid": "7eeb8cb0-3e8c-5d20-b6c2-ec81d8c3152e",
+          "value": "ATR-2026-00222"
+        },
+        {
+          "description": "ATR rule ATR-2026-00223. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00223-reverse-shell-dropper.yaml",
+          "expanded": "Malicious WhatsApp Skill with Base64 Encoded Reverse Shell Installation",
+          "uuid": "33914c63-5987-5515-a02e-c1d5f79af7a2",
+          "value": "ATR-2026-00223"
+        },
+        {
+          "description": "ATR rule ATR-2026-00224. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00224-credential-exfiltration.yaml",
+          "expanded": "Credential Exfiltration via Fake DevOps Tool Initialization",
+          "uuid": "3f20f783-661e-5ada-8b8c-53a99c6ba817",
+          "value": "ATR-2026-00224"
+        },
+        {
+          "description": "ATR rule ATR-2026-00225. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00225-c2-communication.yaml",
+          "expanded": "Hardcoded Suspicious IP Address in Skill Content",
+          "uuid": "71e9aa07-c008-5cf9-9e8f-e38af0355255",
+          "value": "ATR-2026-00225"
+        },
+        {
+          "description": "ATR rule ATR-2026-00260. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00260-package-hallucination.yaml",
+          "expanded": "LLM Package Hallucination Typosquat Bait",
+          "uuid": "f98a9010-bb49-5ae7-b44d-5790b809b7ea",
+          "value": "ATR-2026-00260"
+        },
+        {
+          "description": "ATR rule ATR-2026-00262. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00262-av-evasion-code-gen.yaml",
+          "expanded": "Anti-Malware Evasion Code Generation Request",
+          "uuid": "1f520606-cc6a-56c9-a156-045ac143c6e2",
+          "value": "ATR-2026-00262"
+        },
+        {
+          "description": "ATR rule ATR-2026-00263. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00263-credential-file-read-gen.yaml",
+          "expanded": "Credential File Read Code Generation Request",
+          "uuid": "3bc543f1-08dd-5cb7-9abe-9e336b6db0c8",
+          "value": "ATR-2026-00263"
+        },
+        {
+          "description": "ATR rule ATR-2026-00266. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00266-malware-dropper-gen.yaml",
+          "expanded": "Malware Dropper / Loader Code Generation Request",
+          "uuid": "6ece4d54-d617-545b-a3f9-e61d7ed17c5e",
+          "value": "ATR-2026-00266"
+        },
+        {
+          "description": "ATR rule ATR-2026-00283. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00283-malwaregen-generic-virus-payload-request.yaml",
+          "expanded": "Malware Generation — Generic Virus and Specific Payload Request",
+          "uuid": "9c6bc5ce-f533-5cb2-8d06-47a2005ebc06",
+          "value": "ATR-2026-00283"
+        },
+        {
+          "description": "ATR rule ATR-2026-00398. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00398-huggingface-unsafe-model-artifact-load.yaml",
+          "expanded": "HuggingFace Unsafe Model Artifact Load Instruction",
+          "uuid": "ba48a624-8e8d-57e2-953f-13e4bff2b1d4",
+          "value": "ATR-2026-00398"
+        },
+        {
+          "description": "ATR rule ATR-2026-00425. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00425-nl-persistent-covert-hook.yaml",
+          "expanded": "Natural-Language Persistent Covert Action Hook",
+          "uuid": "ad172214-bfd4-5843-af45-005cd0e7480e",
+          "value": "ATR-2026-00425"
+        },
+        {
+          "description": "ATR rule ATR-2026-00427. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00427-nl-fake-error-instruction-bypass.yaml",
+          "expanded": "Natural-Language Fake-Error Instruction Bypass",
+          "uuid": "71bfb0ef-2638-52a6-a51c-acfd1faef92f",
+          "value": "ATR-2026-00427"
+        },
+        {
+          "description": "ATR rule ATR-2026-00429. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/skill-compromise/ATR-2026-00429-nl-skill-self-modification.yaml",
+          "expanded": "Natural-Language Skill Self-Modification / Persistence Instruction",
+          "uuid": "a838466b-45b4-588e-bcf9-abc8ac57cc79",
+          "value": "ATR-2026-00429"
+        }
+      ],
+      "predicate": "skill-compromise"
+    },
+    {
+      "entry": [
+        {
+          "description": "ATR rule ATR-2026-00010. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00010-mcp-malicious-response.yaml",
+          "expanded": "Malicious Content in MCP Tool Response",
+          "uuid": "c81f5a08-cf28-5b55-bcd4-3035d0e66cff",
+          "value": "ATR-2026-00010"
+        },
+        {
+          "description": "ATR rule ATR-2026-00011. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00011-tool-output-injection.yaml",
+          "expanded": "Instruction Injection via Tool Output",
+          "uuid": "d3c5efe1-fb8f-50f9-b391-e97433e9ceb7",
+          "value": "ATR-2026-00011"
+        },
+        {
+          "description": "ATR rule ATR-2026-00012. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00012-unauthorized-tool-call.yaml",
+          "expanded": "Unauthorized Tool Call Detection",
+          "uuid": "c0196266-3ac4-5ca2-a3e3-e813d275800c",
+          "value": "ATR-2026-00012"
+        },
+        {
+          "description": "ATR rule ATR-2026-00013. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00013-tool-ssrf.yaml",
+          "expanded": "SSRF via Agent Tool Calls",
+          "uuid": "ac97150e-d777-54ef-a34e-d31b86a9be1f",
+          "value": "ATR-2026-00013"
+        },
+        {
+          "description": "ATR rule ATR-2026-00095. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00095-supply-chain-poisoning.yaml",
+          "expanded": "MCP Tool Supply Chain Poisoning",
+          "uuid": "4dcf0ae6-96f7-5ec7-b645-744626f879c7",
+          "value": "ATR-2026-00095"
+        },
+        {
+          "description": "ATR rule ATR-2026-00096. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00096-registry-poisoning.yaml",
+          "expanded": "Skill Registry Poisoning and Compromised Tool Distribution",
+          "uuid": "ff211a8c-0b35-5cae-8efc-828afb8ee12a",
+          "value": "ATR-2026-00096"
+        },
+        {
+          "description": "ATR rule ATR-2026-00100. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00100-consent-bypass-instruction.yaml",
+          "expanded": "Consent Bypass via Hidden LLM Instructions in Tool Descriptions",
+          "uuid": "2ce3bb65-e3f4-5098-8ef2-179cbbbb35f5",
+          "value": "ATR-2026-00100"
+        },
+        {
+          "description": "ATR rule ATR-2026-00101. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00101-trust-escalation-override.yaml",
+          "expanded": "Trust Escalation via Authority Override Instructions",
+          "uuid": "0762560e-fc9a-58e1-856c-26fc5bad2ef8",
+          "value": "ATR-2026-00101"
+        },
+        {
+          "description": "ATR rule ATR-2026-00103. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00103-hidden-safety-bypass-instruction.yaml",
+          "expanded": "Hidden LLM Safety Bypass Instructions in Tool Descriptions",
+          "uuid": "99e66abb-9424-5b5a-8ec1-93ef8a248bfa",
+          "value": "ATR-2026-00103"
+        },
+        {
+          "description": "ATR rule ATR-2026-00105. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00105-silent-action-concealment.yaml",
+          "expanded": "Silent Action Concealment Instructions in Tool Descriptions",
+          "uuid": "31aa7115-43e5-55be-9e32-b9b171053e23",
+          "value": "ATR-2026-00105"
+        },
+        {
+          "description": "ATR rule ATR-2026-00106. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00106-schema-description-contradiction.yaml",
+          "expanded": "Schema-Description Contradiction Attack",
+          "uuid": "ccecbc1d-b52b-50f7-9318-e6be96de2ab0",
+          "value": "ATR-2026-00106"
+        },
+        {
+          "description": "ATR rule ATR-2026-00161. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00161-important-tag-cross-tool-shadowing.yaml",
+          "expanded": "MCP Tool Description — IMPORTANT Tag Cross-Tool Shadowing Attack",
+          "uuid": "3c7c408a-6ef2-599c-a11b-ea9275f6ccc2",
+          "value": "ATR-2026-00161"
+        },
+        {
+          "description": "ATR rule ATR-2026-00209. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00209-mcpwn-runaway-invocation.yaml",
+          "expanded": "MCPwn Runaway Tool Invocation via Retry Directive (CVE-2026-33032)",
+          "uuid": "3a95ac63-8e7c-5367-9c6d-198486146aa9",
+          "value": "ATR-2026-00209"
+        },
+        {
+          "description": "ATR rule ATR-2026-00210. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00210-flowise-system-message-override.yaml",
+          "expanded": "Flowise System Message Override via Template Interpolation (CVE-2025-59528)",
+          "uuid": "3eb89682-e75a-5ab6-a497-a0d7c5aa6fb8",
+          "value": "ATR-2026-00210"
+        },
+        {
+          "description": "ATR rule ATR-2026-00259. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00259-ansi-escape-injection.yaml",
+          "expanded": "ANSI Escape Code Terminal Injection",
+          "uuid": "bbcd4cf8-42a0-5e5b-920b-933d292c4e48",
+          "value": "ATR-2026-00259"
+        },
+        {
+          "description": "ATR rule ATR-2026-00270. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00270-xss-in-tool-response.yaml",
+          "expanded": "XSS Payload Injection in Tool Response Output",
+          "uuid": "4a9434e7-cd16-55f4-84b7-87f4f29e7468",
+          "value": "ATR-2026-00270"
+        },
+        {
+          "description": "ATR rule ATR-2026-00277. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00277-echo-template-command-injection.yaml",
+          "expanded": "ECHO Template / Jinja / SQL Command Injection via LLM",
+          "uuid": "99cd43ed-b685-5120-9165-6660b04e5663",
+          "value": "ATR-2026-00277"
+        },
+        {
+          "description": "ATR rule ATR-2026-00393. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00393-ansi-code-elicitation-request.yaml",
+          "expanded": "ANSI Code Elicitation Request",
+          "uuid": "8ed70ecd-479d-5565-99b5-65ad4c7999ba",
+          "value": "ATR-2026-00393"
+        },
+        {
+          "description": "ATR rule ATR-2026-00415. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00415-flowise-custom-mcp-stdio-rce.yaml",
+          "expanded": "Flowise Custom MCP STDIO Command Injection (CVE-2026-40933)",
+          "uuid": "deaf563c-c1cd-581e-9618-d16a783094a2",
+          "value": "ATR-2026-00415"
+        },
+        {
+          "description": "ATR rule ATR-2026-00419. See https://github.com/Agent-Threat-Rule/agent-threat-rules/blob/main/rules/tool-poisoning/ATR-2026-00419-cursor-mcp-zero-click-config.yaml",
+          "expanded": "Cursor MCP JSON Zero-Click Configuration RCE (CVE-2025-54136)",
+          "uuid": "91490526-000f-5146-83fe-7774bcef7b7f",
+          "value": "ATR-2026-00419"
+        }
+      ],
+      "predicate": "tool-poisoning"
+    }
+  ],
+  "version": 1
+}
