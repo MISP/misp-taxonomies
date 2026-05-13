@@ -1,5 +1,7 @@
 # MISP Taxonomies
 
+![MISP Taxonomy logo](https://raw.githubusercontent.com/MISP/misp-taxonomies/refs/heads/main/tools/logos/misp-taxonomy.png)
+
 ![Python application](https://github.com/MISP/misp-taxonomies/workflows/Python%20application/badge.svg)
 
 MISP Taxonomies is a set of common classification libraries to tag, classify and organise information. Taxonomy allows to express the same vocabulary among a distributed set of users and organisations.
