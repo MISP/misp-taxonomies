@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "namespace": "nato-uas-classification",
+  "description": "NATO UAS Classification.",
+  "predicates": [
+    {
+      "value": "CLASS-I",
+      "expanded": "CLASS I",
+      "description": "Less than 600 kg",
+      "uuid": "92e8f40a-7ea0-47dd-8474-8f9c1d5f6ec2"
+    },
+    {
+      "value": "CLASS-II",
+      "expanded": "CLASS II",
+      "description": "From 150 kg to 600 kg",
+      "uuid": "3e78cd0f-8332-400a-b1f1-16c4cc3ebb0f"
+    },
+    {
+      "value": "CLASS-III",
+      "expanded": "CLASS III",
+      "description": "More than 600 kg",
+      "uuid": "594aca09-dd73-4dc5-9abb-443770347e06"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "CLASS-I",
+      "entry": [
+        {
+          "value": "small",
+          "expanded": "Small",
+          "description": ">20Kg, Tactical unit (Employs Launch Systems), Up to 5000ft and 50Km radius (LOS)",
+          "uuid": "e0f441d9-e3c3-4b01-a6e9-d38bda9bd1dc"
+        },
+        {
+          "value": "mini",
+          "expanded": "Mini",
+          "description": "2-20Kg, Tactical sub-unit (Manual launch), Up to 3000ft AGL,and 25Km radius (LOS)",
+          "uuid": "b3528224-01fc-4caa-b44f-d4c9ebbb355e"
+        },
+        {
+          "value": "micro",
+          "expanded": "Micro",
+          "description": "<2Kg, Tactical PI, Sect, Individual (Single Operator), Up to 200ft AGL and 5Km radius (LOS)",
+          "uuid": "28d33422-a8e1-4f65-bec4-01bc609d77a3"
+        }
+      ]
+    },
+    {
+      "predicate": "CLASS-II",
+      "entry": [
+        {
+          "value": "tactical",
+          "expanded": "Tactical",
+          "description": "150-600Kg Tactical Formation, Up to 10000ft AGL and 200Km radius (LOS)",
+          "uuid": "887c8c6d-433b-4914-9a17-8c0676684712"
+        }
+      ]
+    },
+    {
+      "predicate": "CLASS-III",
+      "entry": [
+        {
+          "value": "strike-combat",
+          "expanded": "Strike/Combat",
+          "description": "More than 600kg, Strategic/National, Up to 65000ft, Unlimited mission radius (BLOS)",
+          "uuid": "d63f363e-24f0-44a1-a56e-846e5ad43970"
+        },
+        {
+          "value": "hale",
+          "expanded": "HALE (High-Altitude Long Endurance)",
+          "description": "More than 600kg, Strategic/National, Up to 65000ft, Unlimited mission radius (BLOS)",
+          "uuid": "0205b021-3dd8-4493-af51-e29e3a9490d5"
+        },
+        {
+          "value": "male",
+          "expanded": "MALE (Medium-Altitude Long Endurance",
+          "description": "More than 600kg, Operational/Theatre, Up to 45000ft MSL, Unlimited mission radius (BLOS)",
+          "uuid": "9fac7ef1-e7f0-4064-ab93-18a67cba427d"
+        }
+      ]
+    }
+  ],
+  "uuid": "8ecc9d38-c957-40a5-93b4-56b5d3faaa15"
+}

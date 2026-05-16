@@ -4,11 +4,6 @@
   "path": "machinetag.json",
   "taxonomies": [
     {
-      "description": "Multiple Environment Threat Evaluation of Resources Space Threats and Operational Risk to Missions (meteorstorm) taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment (SEG), Service (SVC), Asset (AST), and Analytic (AN).",
-      "name": "meteorstorm",
-      "version": 1
-    },
-    {
       "description": "CERT-XLM Security Incident Classification.",
       "name": "CERT-XLM",
       "version": 2
@@ -69,6 +64,26 @@
       "version": 6
     },
     {
+      "description": "Agent Threat Rules (ATR) is an open detection standard for AI agent threats published under Apache 2.0. The taxonomy organises 330 community-maintained rules across ten attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. Predicates name the category; values are individual rule identifiers in the form ATR-YYYY-NNNNN.",
+      "name": "agent-threat-rules",
+      "version": 1
+    },
+    {
+      "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. From NIST.SP.1270-draft (2021)",
+      "name": "ai-bias-terminology",
+      "version": 1
+    },
+    {
+      "description": "Taxonomy describing the level of AI assistance and the level of review/update involved in the creation of an intelligence package or event.",
+      "name": "ai-computer-assisted",
+      "version": 1
+    },
+    {
+      "description": "AI safety benchmark v0.5, that has been created by the MLCommons AI Safety Working Group (WG)",
+      "name": "ai-safety-benchmark",
+      "version": 2
+    },
+    {
       "description": "The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)",
       "name": "ais-marking",
       "version": 2
@@ -109,9 +124,19 @@
       "version": 2
     },
     {
+      "description": "European Union (EASA) Drone Classification - C0 to C6.",
+      "name": "ce-uas-classification",
+      "version": 2
+    },
+    {
       "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection.",
       "name": "circl",
       "version": 6
+    },
+    {
+      "description": "Cloud sovereignty objectives, assurance levels, and scoring weights derived from the European Commission Cloud Sovereignty Framework.",
+      "name": "cloud-sovereignty",
+      "version": 1
     },
     {
       "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
@@ -206,7 +231,7 @@
     {
       "description": "Taxonomy defined in the DCSO MISP Event Guide. It provides guidance for the creation and consumption of MISP events in a way that minimises the extra effort for the sending party, while enhancing the usefulness for receiving parties.",
       "name": "dcso-sharing",
-      "version": 1
+      "version": 2
     },
     {
       "description": "Distributed Denial of Service - or short: DDoS - taxonomy supports the description of Denial of Service attacks and especially the types they belong too.",
@@ -289,9 +314,19 @@
       "version": 20170725
     },
     {
+      "description": "Official ENSOC (or EU CyberHUB) taxonomy covering all labels used during information exchange.",
+      "name": "ensoc",
+      "version": 1
+    },
+    {
       "description": "Estimative language to describe quality and credibility of underlying sources, data, and methodologies based Intelligence Community Directive 203 (ICD 203) and JP 2-0, Joint Intelligence",
       "name": "estimative-language",
       "version": 5
+    },
+    {
+      "description": "Taxonomy for the EU Artificial Intelligence Act (Regulation (EU) 2024/1689). Classifies AI systems by risk level, prohibited practices, high-risk use cases, and incident types for GRC and SOC reporting.",
+      "name": "eu-ai-act",
+      "version": 1
     },
     {
       "description": "Market operators and public administrations that must comply to some notifications requirements under EU NIS directive",
@@ -331,7 +366,7 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 13
+      "version": 15
     },
     {
       "description": "Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf",
@@ -529,6 +564,11 @@
       "version": 3
     },
     {
+      "description": "Multiple Environment Threat Evaluation of Resources Space Threats and Operational Risk to Missions (meteorstorm) taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment (SEG), Service (SVC), Asset (AST), and Analytic (AN).",
+      "name": "meteorstorm",
+      "version": 2
+    },
+    {
       "description": "classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical News Sources by Melissa Zimdars 2019",
       "name": "misinformation-website-label",
       "version": 1
@@ -567,6 +607,11 @@
       "description": "NATO classification markings.",
       "name": "nato",
       "version": 2
+    },
+    {
+      "description": "NATO UAS Classification.",
+      "name": "nato-uas-classification",
+      "version": 1
     },
     {
       "description": "The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 September 2017, also known as the blueprint. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.",
@@ -699,6 +744,11 @@
       "version": 1
     },
     {
+      "description": "SoV Cloud sovereignty objectives, assurance levels, and scoring weights derived from the European Commission Cloud Sovereignty Framework.",
+      "name": "sov",
+      "version": 1
+    },
+    {
       "description": "SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection",
       "name": "srbcert",
       "version": 3
@@ -759,6 +809,11 @@
       "version": 1
     },
     {
+      "description": "Additional UAV and UCAV-related tags for qualifying usage and model specifications.",
+      "name": "uas-additionnal-classification",
+      "version": 1
+    },
+    {
       "description": "The Unified Kill Chain is a refinement to the Kill Chain.",
       "name": "unified-kill-chain",
       "version": 1
@@ -791,7 +846,7 @@
     {
       "description": "A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.",
       "name": "vulnerability",
-      "version": 4
+      "version": 7
     },
     {
       "description": "Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.",
@@ -800,5 +855,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20250909"
+  "version": "20260513"
 }

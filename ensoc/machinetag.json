@@ -1,0 +1,155 @@
+{
+  "namespace": "ensoc",
+  "description": "Official ENSOC (or EU CyberHUB) taxonomy covering all labels used during information exchange.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "workflow",
+      "expanded": "Workflow",
+      "description": "Describes the current processing stage of the information within ENSOC.",
+      "uuid": "1aa65530-3217-4f6a-94b4-c6ce4920e54b"
+    },
+    {
+      "value": "source",
+      "expanded": "Source",
+      "description": "Identifies the origin or nature of the data feed.",
+      "uuid": "7a538507-4676-4581-aee8-ee381bc252cd"
+    },
+    {
+      "value": "recommended-action",
+      "expanded": "Recommended Action",
+      "description": "Recommended action for the information tagged.",
+      "uuid": "30feb7f7-26cc-4289-9a76-9fa0a06f1abe"
+    },
+    {
+      "value": "class",
+      "expanded": "Class",
+      "description": "Indicates the confidence level or trust classification of the information.",
+      "uuid": "20bb9dca-d7e7-4c1a-93c5-99c2299da090"
+    },
+    {
+      "value": "state",
+      "expanded": "State",
+      "description": "Represents the consensus status reached within ENSOC.",
+      "uuid": "3ff98c04-9683-47d1-afb7-0f087cb18edf"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "workflow",
+      "entry": [
+        {
+          "value": "to-validate",
+          "expanded": "To validate",
+          "description": "Information has been shared but has not yet been reviewed or validated by ENSOC analysts.",
+          "uuid": "aca2102c-4fb8-428b-bb9a-2ec74a8afd1a"
+        },
+        {
+          "value": "validated",
+          "expanded": "Validated",
+          "description": "Information has been shared and validated by at least one analyst in the ENSOC partners.",
+          "uuid": "3480676e-5dad-4a97-a0a1-b79348d160e2"
+        }
+      ]
+    },
+    {
+      "predicate": "source",
+      "entry": [
+        {
+          "value": "feed",
+          "expanded": "Feed",
+          "description": "Data originating from an automated or external feed, this is the default except if a more detail source description is known.",
+          "uuid": "6f315955-3982-410b-917e-5cfe0a667db6"
+        },
+        {
+          "value": "partner-feed",
+          "expanded": "Partner feed",
+          "description": "Data originating from an automated or external feed, this is the default except if a more detail source description is known.",
+          "uuid": "b30e1174-6efd-4f70-ba5a-7d1f14a8e5ca"
+        },
+        {
+          "value": "commercial-feed",
+          "expanded": "Commercial feed",
+          "description": "Data originating from a commercial feed producer.",
+          "uuid": "32083af5-25f1-4c78-8a9c-43f5d873baf3"
+        },
+        {
+          "value": "osint-feed",
+          "expanded": "OSINT feed",
+          "description": "Data originating from an OSINT feed.",
+          "uuid": "5e7fa2c8-5470-41d5-8b11-990f45b3d31e"
+        },
+        {
+          "value": "incident-response",
+          "expanded": "Incident response",
+          "description": "Data originating from an incident response.",
+          "uuid": "fbac8219-225f-4923-86b5-081693c4514e"
+        }
+      ]
+    },
+    {
+      "predicate": "recommended-action",
+      "entry": [
+        {
+          "value": "detection",
+          "expanded": "Detection",
+          "description": "The data can be used for detection.",
+          "uuid": "6a5a498e-ca8e-40bc-8c1a-e11af1624f3b"
+        },
+        {
+          "value": "filtering",
+          "expanded": "Filtering",
+          "description": "The data can be used for filtering.",
+          "uuid": "ede88618-f3be-43a4-91c9-3637c5602987"
+        }
+      ]
+    },
+    {
+      "predicate": "class",
+      "entry": [
+        {
+          "value": "validated",
+          "expanded": "Validated",
+          "description": "Information has been reviewed and confirmed as reliable.",
+          "uuid": "c32e9e57-cb65-4dff-883d-0fd511831b95"
+        },
+        {
+          "value": "non-validated",
+          "expanded": "Non validated",
+          "description": "Information has not yet been validated or lacks sufficient confidence.",
+          "uuid": "442a54bc-2889-457b-997d-27099c188123"
+        },
+        {
+          "value": "test",
+          "expanded": "Test",
+          "description": "Information is actually used in test or exercise and should not be used in production excepting for testing workflow.",
+          "uuid": "f06a00f8-3456-4f57-90a0-8fecb3ccc7ca"
+        }
+      ]
+    },
+    {
+      "predicate": "state",
+      "entry": [
+        {
+          "value": "validated",
+          "expanded": "Validated",
+          "description": "Consensus reached at ENSOC level; information is considered confirmed.",
+          "uuid": "6c0b233d-6737-4a56-8528-80d3fc796326"
+        },
+        {
+          "value": "rejected",
+          "expanded": "Rejected",
+          "description": "Information has been reviewed and rejected, potentially based on analyst input or contradictory evidence.",
+          "uuid": "f2bce1c7-1c57-4484-8cd2-c4667e2f8beb"
+        },
+        {
+          "value": "unknown",
+          "expanded": "Unknown",
+          "description": "No clear consensus could be reached, or insufficient information is available or initial import of a new feed.",
+          "uuid": "dee73e73-ccd3-43a5-85aa-b4dadddc1a14"
+        }
+      ]
+    }
+  ],
+  "uuid": "5921e319-3f00-40c9-9428-322fe4afc88b"
+}

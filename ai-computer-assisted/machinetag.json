@@ -1,0 +1,103 @@
+{
+  "namespace": "ai-computer-assisted",
+  "expanded": "AI Computer Assisted",
+  "description": "Taxonomy describing the level of AI assistance and the level of review/update involved in the creation of an intelligence package or event.",
+  "version": 1,
+  "type": [
+    "event"
+  ],
+  "predicates": [
+    {
+      "value": "assistance-level",
+      "expanded": "AI assistance level",
+      "description": "Describes the degree to which AI assisted in the original creation of the intelligence package or event.",
+      "exclusive": true,
+      "uuid": "2764b770-ca33-4288-9754-110b2fe823c1"
+    },
+    {
+      "value": "review-level",
+      "expanded": "Review/update level",
+      "description": "Describes the level of human or AI review, validation, or update performed after the initial creation.",
+      "exclusive": true,
+      "uuid": "851c432a-77bd-4543-895e-8c721bc6ba0b"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "assistance-level",
+      "entry": [
+        {
+          "value": "none",
+          "expanded": "0% AI / fully human generated",
+          "description": "The content was generated entirely by a human without AI assistance.",
+          "numerical_value": 0,
+          "uuid": "7cc1bc96-a540-4fbc-b775-05c41bf54efb"
+        },
+        {
+          "value": "ai-assisted-minor",
+          "expanded": "Minor AI assistance",
+          "description": "AI provided limited support such as wording suggestions, spell-checking, summarisation, or formatting, but the substantive content was human generated.",
+          "numerical_value": 25,
+          "uuid": "d6aef9d7-dcf3-4e81-b577-be63b439bd65"
+        },
+        {
+          "value": "ai-assisted-substantial",
+          "expanded": "Substantial AI assistance",
+          "description": "AI substantially contributed to drafting or structuring the content, but a human remained the primary author.",
+          "numerical_value": 50,
+          "uuid": "d5afa20a-fa89-4d35-bd91-8ad92553a1c2"
+        },
+        {
+          "value": "ai-generated-human-directed",
+          "expanded": "AI generated with human direction",
+          "description": "AI generated most of the content based on human prompts, instructions, or curation.",
+          "numerical_value": 75,
+          "uuid": "f19984b1-0136-48c8-a67c-cd74d48fe6f1"
+        },
+        {
+          "value": "ai-generated",
+          "expanded": "100% AI generated",
+          "description": "The content was generated entirely or almost entirely by AI.",
+          "numerical_value": 100,
+          "uuid": "3d770085-fae7-4ac4-a5c6-209e7a5b75d4"
+        }
+      ]
+    },
+    {
+      "predicate": "review-level",
+      "entry": [
+        {
+          "value": "unreviewed",
+          "expanded": "Unreviewed",
+          "description": "No meaningful review or validation was performed after generation.",
+          "uuid": "ef58670d-d99d-4d8f-bf0f-dec0c7422a2c"
+        },
+        {
+          "value": "ai-reviewed",
+          "expanded": "AI reviewed",
+          "description": "The content was reviewed, refined, or checked only by AI.",
+          "uuid": "cac35362-9020-49f4-8971-cc04f35c43ab"
+        },
+        {
+          "value": "human-reviewed",
+          "expanded": "Human reviewed",
+          "description": "A human reviewed the content for quality, coherence, or correctness.",
+          "uuid": "01d5f763-bf5a-435f-a2df-ad2071dd0080"
+        },
+        {
+          "value": "human-reviewed-updated",
+          "expanded": "Human reviewed and updated",
+          "description": "A human reviewed the content and made substantive corrections, updates, or additions.",
+          "uuid": "60b66d19-8b2d-4c46-a581-994c0c98b646"
+        },
+        {
+          "value": "multi-party-reviewed",
+          "expanded": "Multi-party reviewed",
+          "description": "The content underwent review by multiple humans, or a formal editorial/analytic validation process.",
+          "uuid": "22f9f811-693c-4762-b6b1-de45a5bdc808"
+        }
+      ]
+    }
+  ],
+  "uuid": "bd55f48b-4f46-4447-9b23-2ade3f1823bf"
+}

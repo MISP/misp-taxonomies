@@ -1,5 +1,7 @@
 # MISP Taxonomies
 
+![MISP Taxonomy logo](https://raw.githubusercontent.com/MISP/misp-taxonomies/refs/heads/main/tools/logos/misp-taxonomy.png)
+
 ![Python application](https://github.com/MISP/misp-taxonomies/workflows/Python%20application/badge.svg)
 
 MISP Taxonomies is a set of common classification libraries to tag, classify and organise information. Taxonomy allows to express the same vocabulary among a distributed set of users and organisations.
@@ -47,6 +49,11 @@ The access method used to remotely access a system. [Overview](https://www.misp-
 [accessnow](https://github.com/MISP/misp-taxonomies/tree/main/accessnow) :
 Access Now classification to classify an issue (such as security, human rights, youth rights). [Overview](https://www.misp-project.org/taxonomies.html#_accessnow)
 
+### acn
+
+[acn](https://github.com/MISP/misp-taxonomies/tree/main/acn) :
+Cyber taxonomy for Italian National Cybersecurity Agency (ACN) [Overview](https://www.misp-project.org/taxonomies.html#_acn)
+
 ### acs-marking
 
 [acs-marking](https://github.com/MISP/misp-taxonomies/tree/main/acs-marking) :
@@ -67,6 +74,26 @@ The Admiralty Scale or Ranking (also called the NATO System) is used to rank the
 [adversary](https://github.com/MISP/misp-taxonomies/tree/main/adversary) :
 An overview and description of the adversary infrastructure [Overview](https://www.misp-project.org/taxonomies.html#_adversary)
 
+### agent-threat-rules
+
+[agent-threat-rules](https://github.com/MISP/misp-taxonomies/tree/main/agent-threat-rules) :
+Agent Threat Rules (ATR) is an open detection standard for AI agent threats published under Apache 2.0. The taxonomy organises 330 community-maintained rules across ten attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. Predicates name the category; values are individual rule identifiers in the form ATR-YYYY-NNNNN. [Overview](https://www.misp-project.org/taxonomies.html#_agent_threat_rules)
+
+### ai-bias-terminology
+
+[ai-bias-terminology](https://github.com/MISP/misp-taxonomies/tree/main/ai-bias-terminology) :
+A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. From NIST.SP.1270-draft (2021) [Overview](https://www.misp-project.org/taxonomies.html#_ai_bias_terminology)
+
+### ai-computer-assisted
+
+[ai-computer-assisted](https://github.com/MISP/misp-taxonomies/tree/main/ai-computer-assisted) :
+Taxonomy describing the level of AI assistance and the level of review/update involved in the creation of an intelligence package or event. [Overview](https://www.misp-project.org/taxonomies.html#_ai_computer_assisted)
+
+### ai-safety-benchmark
+
+[ai-safety-benchmark](https://github.com/MISP/misp-taxonomies/tree/main/ai-safety-benchmark) :
+AI safety benchmark v0.5, that has been created by the MLCommons AI Safety Working Group (WG) [Overview](https://www.misp-project.org/taxonomies.html#_ai_safety_benchmark)
+
 ### ais-marking
 
 [ais-marking](https://github.com/MISP/misp-taxonomies/tree/main/ais-marking) :
@@ -76,6 +103,11 @@ The AIS Marking Schema implementation is maintained by the National Cybersecurit
 
 [analyst-assessment](https://github.com/MISP/misp-taxonomies/tree/main/analyst-assessment) :
 A series of assessment predicates describing the analyst capabilities to perform analysis. These assessment can be assigned by the analyst him/herself or by another party evaluating the analyst. [Overview](https://www.misp-project.org/taxonomies.html#_analyst_assessment)
+
+### anti-piracy
+
+[anti-piracy](https://github.com/MISP/misp-taxonomies/tree/main/anti-piracy) :
+Taxonomy for anti-piracy [Overview](https://www.misp-project.org/taxonomies.html#_anti_piracy)
 
 ### approved-category-of-action
 
@@ -102,10 +134,20 @@ Custom taxonomy for types of binary file. [Overview](https://www.misp-project.or
 [cccs](https://github.com/MISP/misp-taxonomies/tree/main/cccs) :
 Internal taxonomy for CCCS. [Overview](https://www.misp-project.org/taxonomies.html#_cccs)
 
+### ce-uas-classification
+
+[ce-uas-classification](https://github.com/MISP/misp-taxonomies/tree/main/ce-uas-classification) :
+European Union (EASA) Drone Classification - C0 to C6. [Overview](https://www.misp-project.org/taxonomies.html#_ce_uas_classification)
+
 ### circl
 
 [circl](https://github.com/MISP/misp-taxonomies/tree/main/circl) :
 CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection. [Overview](https://www.misp-project.org/taxonomies.html#_circl)
+
+### cloud-sovereignty
+
+[cloud-sovereignty](https://github.com/MISP/misp-taxonomies/tree/main/cloud-sovereignty) :
+Cloud sovereignty objectives, assurance levels, and scoring weights derived from the European Commission Cloud Sovereignty Framework. [Overview](https://www.misp-project.org/taxonomies.html#_cloud_sovereignty)
 
 ### cnsd
 
@@ -145,7 +187,7 @@ Crowdsec IP address classifications and behaviors taxonomy. [Overview](https://w
 ### cryptocurrency-threat
 
 [cryptocurrency-threat](https://github.com/MISP/misp-taxonomies/tree/main/cryptocurrency-threat) :
-Threats targetting cryptocurrency, based on CipherTrace report. [Overview](https://www.misp-project.org/taxonomies.html#_cryptocurrency_threat)
+Threats targeting cryptocurrency, based on CipherTrace report. [Overview](https://www.misp-project.org/taxonomies.html#_cryptocurrency_threat)
 
 ### csirt-americas
 
@@ -270,7 +312,7 @@ A taxonomy based on the superclass and class of drugs. Based on https://www.drug
 ### economical-impact
 
 [economical-impact](https://github.com/MISP/misp-taxonomies/tree/main/economical-impact) :
-Economical impact is a taxonomy to describe the financial impact as positive or negative gain to the tagged information (e.g. data exfiltration loss, a positive gain for an adversary). [Overview](https://www.misp-project.org/taxonomies.html#_economical_impact)
+Economic impact refers to a taxonomy used to describe whether financial effects are positive or negative outcomes related to tagged information. For instance, data exfiltration loss represents a positive outcome for an adversary. [Overview](https://www.misp-project.org/taxonomies.html#_economical_impact)
 
 ### ecsirt
 
@@ -282,10 +324,20 @@ Incident Classification by the ecsirt.net version mkVI of 31 March 2015 enriched
 [enisa](https://github.com/MISP/misp-taxonomies/tree/main/enisa) :
 The present threat taxonomy is an initial version that has been developed on the basis of available ENISA material. This material has been used as an ENISA-internal structuring aid for information collection and threat consolidation purposes. It emerged in the time period 2012-2015. [Overview](https://www.misp-project.org/taxonomies.html#_enisa)
 
+### ensoc
+
+[ensoc](https://github.com/MISP/misp-taxonomies/tree/main/ensoc) :
+Official ENSOC (or EU CyberHUB) taxonomy covering all labels used during information exchange. [Overview](https://www.misp-project.org/taxonomies.html#_ensoc)
+
 ### estimative-language
 
 [estimative-language](https://github.com/MISP/misp-taxonomies/tree/main/estimative-language) :
 Estimative language to describe quality and credibility of underlying sources, data, and methodologies based Intelligence Community Directive 203 (ICD 203) and JP 2-0, Joint Intelligence [Overview](https://www.misp-project.org/taxonomies.html#_estimative_language)
+
+### eu-ai-act
+
+[eu-ai-act](https://github.com/MISP/misp-taxonomies/tree/main/eu-ai-act) :
+Taxonomy for the EU Artificial Intelligence Act (Regulation (EU) 2024/1689). Classifies AI systems by risk level, prohibited practices, high-risk use cases, and incident types for GRC and SOC reporting. [Overview](https://www.misp-project.org/taxonomies.html#_eu_ai_act)
 
 ### eu-marketop-and-publicadmin
 
@@ -522,6 +574,11 @@ Obfuscation methods used by malware based on MAEC 5.0 [Overview](https://www.mis
 [malware_classification](https://github.com/MISP/misp-taxonomies/tree/main/malware_classification) :
 Classification based on different categories. Based on https://www.sans.org/reading-room/whitepapers/incident/malware-101-viruses-32848 [Overview](https://www.misp-project.org/taxonomies.html#_malware_classification)
 
+### meteorstorm
+
+[meteorstorm](https://github.com/MISP/misp-taxonomies/tree/main/meteorstorm) :
+Multiple Environment Threat Evaluation of Resources Space Threats and Operational Risk to Missions (meteorstorm) taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment (SEG), Service (SVC), Asset (AST), and Analytic (AN). [Overview](https://www.misp-project.org/taxonomies.html#_meteorstorm)
+
 ### misinformation-website-label
 
 [misinformation-website-label](https://github.com/MISP/misp-taxonomies/tree/main/misinformation-website-label) :
@@ -561,6 +618,11 @@ Malware Database (mwdb) Taxonomy - Tags used across the platform [Overview](http
 
 [nato](https://github.com/MISP/misp-taxonomies/tree/main/nato) :
 NATO classification markings. [Overview](https://www.misp-project.org/taxonomies.html#_nato)
+
+### nato-uas-classification
+
+[nato-uas-classification](https://github.com/MISP/misp-taxonomies/tree/main/nato-uas-classification) :
+NATO UAS Classification. [Overview](https://www.misp-project.org/taxonomies.html#_nato_uas_classification)
 
 ### nis
 
@@ -645,7 +707,7 @@ The seven roles seen in most ransomware incidents. [Overview](https://www.misp-p
 ### retention
 
 [retention](https://github.com/MISP/misp-taxonomies/tree/main/retention) :
-Add a retenion time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations. [Overview](https://www.misp-project.org/taxonomies.html#_retention)
+Add a retention time to events to automatically remove the IDS-flag on ip-dst or ip-src attributes. We calculate the time elapsed based on the date of the event. Supported time units are: d(ays), w(eeks), m(onths), y(ears). The numerical_value is just for sorting in the web-interface and is not used for calculations. [Overview](https://www.misp-project.org/taxonomies.html#_retention)
 
 ### rsit
 
@@ -660,7 +722,7 @@ Status of events used in Request Tracker. [Overview](https://www.misp-project.or
 ### runtime-packer
 
 [runtime-packer](https://github.com/MISP/misp-taxonomies/tree/main/runtime-packer) :
-Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries. [Overview](https://www.misp-project.org/taxonomies.html#_runtime_packer)
+Runtime or software packer used to combine compressed or encrypted data with the decompression or decryption code. This code can add additional obfuscations mechanisms including polymorphic-packer, virtualization or other obfuscation techniques. This taxonomy lists all the known or official packer used for legitimate use or for packing malicious binaries. [Overview](https://www.misp-project.org/taxonomies.html#_runtime_packer)
 
 ### scrippsco2-fgc
 
@@ -691,6 +753,11 @@ Threat taxonomy in the scope of securing smart airports by ENISA. https://www.en
 
 [social-engineering-attack-vectors](https://github.com/MISP/misp-taxonomies/tree/main/social-engineering-attack-vectors) :
 Attack vectors used in social engineering as described in 'A Taxonomy of Social Engineering Defense Mechanisms' by Dalal Alharthi and others. [Overview](https://www.misp-project.org/taxonomies.html#_social_engineering_attack_vectors)
+
+### sov
+
+[sov](https://github.com/MISP/misp-taxonomies/tree/main/sov) :
+SoV Cloud sovereignty objectives, assurance levels, and scoring weights derived from the European Commission Cloud Sovereignty Framework. [Overview](https://www.misp-project.org/taxonomies.html#_sov)
 
 ### srbcert
 
@@ -751,6 +818,11 @@ The Indicator of Trust provides insight about data on what can be trusted and kn
 
 [type](https://github.com/MISP/misp-taxonomies/tree/main/type) :
 Taxonomy to describe different types of intelligence gathering discipline which can be described the origin of intelligence. [Overview](https://www.misp-project.org/taxonomies.html#_type)
+
+### uas-additionnal-classification
+
+[uas-additionnal-classification](https://github.com/MISP/misp-taxonomies/tree/main/uas-additionnal-classification) :
+Additional UAV and UCAV-related tags for qualifying usage and model specifications. [Overview](https://www.misp-project.org/taxonomies.html#_uas_additionnal_classification)
 
 ### unified-kill-chain
 

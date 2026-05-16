@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2025-03-05
+- Generation date: 2025-12-05
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -116,6 +116,31 @@
     - security
     - womens-right
     - youth-rights
+### acn
+- description: Cyber taxonomy for Italian National Cybersecurity Agency (ACN)
+- version: 1
+- Predicates
+    - impact
+    - root-cause
+    - severity
+    - victim-geography
+    - active-scanning
+    - availability
+    - brand-abuse
+    - fraud
+    - data-exposure
+    - information-gathering
+    - malicious-code
+    - social-engineering
+    - vulnerability
+    - adversary-motivation
+    - adversary-type
+    - abusive-content
+    - asset-source-geography
+    - involved-asset
+    - outlook
+    - physical-security
+    - vector
 ### acs-marking
 - description: The Access Control Specification (ACS) marking type defines the object types required to implement automated access control systems based on the relevant policies governing sharing between participants.
 - version: 1
@@ -151,6 +176,22 @@
     - infrastructure-action
     - infrastructure-state
     - infrastructure-type
+### ai-bias-terminology
+- description: A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. From NIST.SP.1270-draft (2021)
+- version: 1
+- Predicates
+    - bias-definitions
+### ai-safety-benchmark
+- description: AI safety benchmark v0.5, that has been created by the MLCommons AI Safety Working Group (WG)
+- version: 2
+- Predicates
+    - violent-crimes
+    - non-violent-crimes
+    - sex-related-crimes
+    - child-sexual-exploitation
+    - indiscriminate-weapons-CBRNE
+    - suicide-and-self-harm
+    - hate
 ### ais-marking
 - description: The AIS Marking Schema implementation is maintained by the National Cybersecurity and Communication Integration Center (NCCIC) of the U.S. Department of Homeland Security (DHS)
 - version: 2
@@ -170,6 +211,16 @@
     - web
     - web-experience
     - crypto-experience
+### anti-piracy
+- description: Taxonomy for anti-piracy
+- version: 2
+- Predicates
+    - type
+    - case-status
+    - language
+    - content-type
+    - delivery-method
+    - source-illicit-content
 ### approved-category-of-action
 - description: A pre-approved category of action for indicators being shared with partners (MIMIC).
 - version: 1
@@ -231,6 +282,17 @@
     - scan-type
     - severity
     - threat-vector
+### ce-uas-classification
+- description: European Union (EASA) Drone Classification - C0 to C6.
+- version: 2
+- Predicates
+    - C0
+    - C1
+    - C2
+    - C3
+    - C4
+    - C5
+    - C6
 ### circl
 - description: CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection.
 - version: 6
@@ -393,7 +455,7 @@
     - action
 ### dark-web
 - description: Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.
-- version: 9
+- version: 10
 - Predicates
     - topic
     - motivation
@@ -812,7 +874,7 @@
     - event-class
 ### exercise
 - description: Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.
-- version: 12
+- version: 14
 - Predicates
     - cyber-europe
     - cyber-storm
@@ -1207,6 +1269,15 @@
     - obfuscation-technique
     - payload-classification
     - memory-classification
+### meteorstorm
+- description: Multiple Environment Threat Evaluation of Resources Space Threats and Operational Risk to Missions (meteorstorm) taxonomy for modeling space, cyber, and multi-domain threats and resilience across five layers: Primary Capability Environment (PCE), Segment (SEG), Service (SVC), Asset (AST), and Analytic (AN).
+- version: 2
+- Predicates
+    - PCE
+    - SEG
+    - SVC
+    - AST
+    - AN
 ### misinformation-website-label
 - description: classification for the identification of type of misinformation among websites. Source:False, Misleading, Clickbait-y, and/or Satirical News Sources by Melissa Zimdars 2019
 - version: 1
@@ -1282,6 +1353,13 @@
 - version: 2
 - Predicates
     - classification
+### nato-uas-classification
+- description: NATO UAS Classification.
+- version: 1
+- Predicates
+    - CLASS-I
+    - CLASS-II
+    - CLASS-III
 ### nis
 - description: The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 September 2017, also known as the blueprint. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.
 - version: 2
@@ -1764,14 +1842,15 @@
     - degré-de-probabilité
 ### vulnerability
 - description: A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.
-- version: 3
+- version: 5
 - Predicates
     - sighting
     - exploitability
     - information
+    - origin
 ### workflow
 - description: Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.
-- version: 14
+- version: 15
 - Predicates
     - todo
     - state

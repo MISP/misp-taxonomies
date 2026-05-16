@@ -1,0 +1,242 @@
+{
+  "namespace": "ai-bias-terminology",
+  "description": "A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. From NIST.SP.1270-draft (2021)",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "bias-definitions",
+      "expanded": "Bias definitions",
+      "uuid": "d60ff0b5-4e73-4f87-b48b-62fc7a1ee009"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "bias-definitions",
+      "entry": [
+        {
+          "value": "activity-bias",
+          "expanded": "Activity Bias",
+          "description": "A type of selection bias that occurs when systems/platforms get their training data from their most active users, rather than those less active (or inactive).",
+          "uuid": "14b3f88f-2291-4260-b678-7c4095f700bc"
+        },
+        {
+          "value": "amplification-bias",
+          "expanded": "Amplification Bias",
+          "description": "Arises when the distribution over prediction outputs is skewed in comparison to the prior distribution of the prediction target.",
+          "uuid": "5a03b028-bb4d-4639-9228-3fc58c9fc908"
+        },
+        {
+          "value": "annotator-bias",
+          "expanded": "Annotator Bias",
+          "description": "When users rely on automation as a heuristic replacement for their own information seeking and processing.",
+          "uuid": "73d49f8d-a089-4037-a940-a31e8b6eaea8"
+        },
+        {
+          "value": "automation-complacency",
+          "expanded": "Automation Complacency",
+          "description": "When humans over-rely on automated systems or have their skills attenuated by such over-reliance.",
+          "uuid": "2f5e51c8-0917-4681-81bd-7333a9264070"
+        },
+        {
+          "value": "behavioral-bias",
+          "expanded": "Behavioral Bias",
+          "description": "Systematic distortions in user behavior across platforms or contexts, or across users represented in different datasets.",
+          "uuid": "ebf3f4e6-6817-494e-b095-2062e77f8b25"
+        },
+        {
+          "value": "cognitive-bias",
+          "expanded": "Cognitive Bias",
+          "description": "Systematic errors in human thought based on a limited number of heuristic principles.",
+          "uuid": "276edb70-d3c5-45de-b977-10f7f9377851"
+        },
+        {
+          "value": "concept-drift",
+          "expanded": "Concept Drift",
+          "description": "Use of a system outside the planned domain of application, common cause of performance gaps between laboratory settings and the real world.",
+          "uuid": "c123c9b2-12f0-4bcd-9377-903f0191b2fd"
+        },
+        {
+          "value": "consumer-bias",
+          "expanded": "Consumer Bias",
+          "description": "Arises when an algorithm provides users with a new venue within which to express their biases, and may occur from either side, or party, in a digital interaction.",
+          "uuid": "f11b13c2-73d6-4b6c-9fc8-3b7cdb49f648"
+        },
+        {
+          "value": "content-production-bias",
+          "expanded": "Content Production Bias",
+          "description": "Arises from structural, lexical, semantic, and syntactic differences in user-generated content.",
+          "uuid": "8dde4f63-02ea-44bc-bd80-c3c5466201ea"
+        },
+        {
+          "value": "data-generation-bias",
+          "expanded": "Data Generation Bias",
+          "description": "Arises from the addition of synthetic or redundant data samples to a dataset.",
+          "uuid": "c9f200f0-3034-46b0-b0a4-c9732e368d6d"
+        },
+        {
+          "value": "deployment-bias",
+          "expanded": "Deployment Bias",
+          "description": "Arises when systems are used as decision aids for humans, since the human intermediary may act on predictions in ways that are typically not modeled in the system.",
+          "uuid": "624db9f6-b9ea-4d55-8cee-62f11b12b171"
+        },
+        {
+          "value": "detection-bias",
+          "expanded": "Detection Bias",
+          "description": "Systematic differences between groups in how outcomes are determined and may cause an over- or underestimation of the size of the effect.",
+          "uuid": "8e3e6cbf-fbad-4e6d-b5bd-41376eabc97a"
+        },
+        {
+          "value": "evaluation-bias",
+          "expanded": "Evaluation Bias",
+          "description": "Arises when the testing or external benchmark populations do not equally represent the various parts of the user population or from the use of performance metrics that are not appropriate for the way in which the model will be used.",
+          "uuid": "70c0230a-5d30-4a18-9e57-7b4cf02b3d72"
+        },
+        {
+          "value": "exclusion-bias",
+          "expanded": "Exclusion Bias",
+          "description": "When specific groups of user populations are excluded from testing and subsequent analyses.",
+          "uuid": "84d82c4f-4d7b-4f54-92bc-f76b5627e5ce"
+        },
+        {
+          "value": "feedback-loop-bias",
+          "expanded": "Feedback Loop Bias",
+          "description": "Effects that may occur when an algorithm learns from user behavior and feeds that behavior back into the model.",
+          "uuid": "798d476e-fbba-49d8-8398-86fcff7df11f"
+        },
+        {
+          "value": "funding-bias",
+          "expanded": "Funding Bias",
+          "description": "Arises when biased results are reported in order to support or satisfy the funding agency or financial supporter of the research study.",
+          "uuid": "4302168d-d58e-4abe-98e2-b21e1724820c"
+        },
+        {
+          "value": "historical-bias",
+          "expanded": "Historical Bias",
+          "description": "Arises when models are trained on past (potentially biased) decisions.",
+          "uuid": "4af0d095-c331-47d3-ad93-a4764022cb67"
+        },
+        {
+          "value": "inherited-bias",
+          "expanded": "Inherited Bias",
+          "description": "(also error propagation) Arises when tools built with machine learning are used to generate inputs for other machine learning algorithms, potentially propagating bias.",
+          "uuid": "6a799b34-a3b7-49bf-b156-ef2f82812cad"
+        },
+        {
+          "value": "institutional-bias",
+          "expanded": "Institutional Bias",
+          "description": "A tendency for the procedures and practices of particular institutions to operate bias in ways which result in certain social groups being advantaged or favored and bias others being disadvantaged or devalued. This need not be the result of any conscious prejudice or discrimination but rather of the majority simply following existing rules or norms. Institutional racism and institutional sexism are the most common examples",
+          "uuid": "50807b52-dfe7-4c2b-9ae7-ef0eaf9554fd"
+        },
+        {
+          "value": "interpretation-bias",
+          "expanded": "Interpretation Bias",
+          "description": "A form of information processing bias that can occur when users interpret algorithmic outputs according to their internalized biases and views.",
+          "uuid": "f699217e-7b12-41b5-ba45-113acf29f28d"
+        },
+        {
+          "value": "linking-bias",
+          "expanded": "Linking Bias",
+          "description": "Arises when network attributes obtained from user connections, activities, or interactions differ and misrepresent the true behavior of the users.",
+          "uuid": "e588f5c9-e115-4270-8625-15b3c787cead"
+        },
+        {
+          "value": "loss-of-situational-awareness-bias",
+          "expanded": "Loss of Situational Awareness Bias",
+          "description": "When automation leads to humans being unaware of their situation such that, when control of a system is given back to them, they are unprepared to assume their duties.This can be a loss of awareness over what automation is and isn't taking care of.",
+          "uuid": "305bce63-19eb-4c16-91bc-d37dea2a7244"
+        },
+        {
+          "value": "measurement-bias",
+          "expanded": "Measurement Bias",
+          "description": "Arises when features and labels are proxies for desired quantities, potentially leaving out important factors or introducing group or input-dependent noise that leads to differential performance.",
+          "uuid": "96aa7f9f-5403-4221-a57b-40a5a3586c1f"
+        },
+        {
+          "value": "mode-confusion-bias",
+          "expanded": "Mode Confusion Bias",
+          "description": "When modal interfaces confuse human operators, who misunderstand which mode the system is using, taking actions which are correct for a different mode but incorrect for their current situation. This is the cause of many deadly accidents, but also a source of confusion in everyday life.",
+          "uuid": "33f66caa-d419-42df-9ea4-1180c14c78f8"
+        },
+        {
+          "value": "popularity-bias",
+          "expanded": "Popularity Bias",
+          "description": "A form of selection bias that occurs when items that are more popular are more exposed and less popular items are under-represented.",
+          "uuid": "30768b7c-fafb-4e97-921b-3e5e07dd427a"
+        },
+        {
+          "value": "population-bias",
+          "expanded": "Population Bias",
+          "description": "Arises when statistics, demographics, and user characteristics differ between the original target population and the user population represented in the actual dataset or platform.",
+          "uuid": "a2f227c6-2757-410f-8a88-7d6bb721baf0"
+        },
+        {
+          "value": "presentation-bias",
+          "expanded": "Presentation Bias",
+          "description": "Biases arising from how information is presented on the Web, via a user interface, due to rating or ranking of output, or through users' own self-selected, biased interaction.",
+          "uuid": "d373ef19-30d4-4ceb-9229-dd8842c182e5"
+        },
+        {
+          "value": "ranking-bias",
+          "expanded": "Ranking Bias",
+          "description": "The idea that top-ranked results are the most relevant and important and will result in more clicks than other results.",
+          "uuid": "bf52745d-2e23-4a6e-9931-2553856c2492"
+        },
+        {
+          "value": "sampling-bias",
+          "expanded": "Sampling Bias",
+          "description": "(also representation bias) Arises due to non-random sampling of subgroups, causing trends estimated for one population to not be generalizable to data collected from a new population.",
+          "uuid": "1d06a736-bf25-46c1-961d-73ce36622acb"
+        },
+        {
+          "value": "selection-bias",
+          "expanded": "Selection Bias",
+          "description": "Bias that results from using nonrandomly selected samples to estimate behavioral relationships as an ordinary specification bias that arises because of a missing data problem.",
+          "uuid": "831241fd-8333-4946-9c03-89c7ef0fd93a"
+        },
+        {
+          "value": "selective-adherence",
+          "expanded": "Selective Adherence",
+          "description": "Decision-makers' inclination to selectively adopt algorithmic advice when it matches their pre-existing beliefs and stereotypes.",
+          "uuid": "9ebb5f39-535c-4daf-8a96-d0f019ff0acc"
+        },
+        {
+          "value": "societal-bias",
+          "expanded": "Societal Bias",
+          "description": "Ascribed attributes about social groups that are largely determined by the social context in which they arise and are an adaptable byproduct of human cognition.",
+          "uuid": "d7182446-9683-4c59-81b6-a05857ebf885"
+        },
+        {
+          "value": "statistical-bias",
+          "expanded": "Statistical Bias",
+          "description": "A systematic tendency for estimates or measurements to be above or below their true values. Arises from systematic as opposed to random error, and can occur in the absence of prejudice, partiality or discriminatory intent.",
+          "uuid": "cd4270cb-6723-4c8c-8555-64538b34905f"
+        },
+        {
+          "value": "temporal-bias",
+          "expanded": "Temporal Bias",
+          "description": "Bias that arises from differences in populations and behaviors over time.",
+          "uuid": "df7e91cc-e843-4b9a-9586-738612d28858"
+        },
+        {
+          "value": "training-data-bias",
+          "expanded": "Training Data Bias",
+          "description": "Biases that arise from algorithms that are trained on one type of data and do not extrapolate beyond those data.",
+          "uuid": "a47dc6d5-481f-42d4-8d50-7ab4def277e4"
+        },
+        {
+          "value": "uncertainty-bias",
+          "expanded": "Uncertainty Bias",
+          "description": "(also epistemic uncertainty) Arises when predictive algorithms favor groups that are better represented in the training data, since there will be less uncertainty associated with those predictions.",
+          "uuid": "5b2f636a-9e1d-4c59-be0e-b0be635eeb08"
+        },
+        {
+          "value": "user-interaction-bias",
+          "expanded": "User Interaction Bias",
+          "description": "Arises when a user imposes their own self-selected biases and behavior during interaction with data, output, results, etc.",
+          "uuid": "57739b2b-cdf5-4e6e-83e3-6675095716ac"
+        }
+      ]
+    }
+  ],
+  "uuid": "d60ff0b5-4e73-4f87-b48b-62fc7a1ee009"
+}
