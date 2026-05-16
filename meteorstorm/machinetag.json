@@ -81,7 +81,7 @@
           "uuid": "9fd7e0b5-c6d6-5b0d-8a8e-9b7f4e0a7d2c"
         },
         {
-          "value": "SEG-LP",
+          "value": "SEG-LI",
           "expanded": "Link",
           "description": "Services and assets enabling platform communications across signal paths.",
           "uuid": "abcdef00-1234-5678-9abc-def012345678"
@@ -206,37 +206,37 @@
         {
           "value": "AN-ATT",
           "expanded": "Attack Path",
-          "description": "Known or modeled attack path for a converged space system.",
-          "uuid": "652690fa-19a9-4327-a2b7-65ba987c505d"
+          "description": "Confirmed attack path for a converged space system.",
+          "uuid": "fedcba98-7654-3210-fedc-ba9876543210"
         },
         {
           "value": "AN-IOC",
           "expanded": "Indicator of Compromise (IoC)",
-          "description": "Verifiable indication that the platform has been compromised.",
+          "description": "Confirmed indication that a converged space system has been compromised.",
           "uuid": "b6a3a0a8-5b6a-5b1a-8f4d-1c8c0a0b7d3f"
         },
         {
           "value": "AN-IOA",
           "expanded": "Indicator of Attack (IoA)",
-          "description": "Verifiable indication that the platform has been targeted.",
+          "description": "Confirmed indication that a converged space system has been attacked.",
           "uuid": "c7b4b1b9-6c7b-5c2b-905e-2d9d1b1c8e40"
         },
         {
           "value": "AN-THR",
           "expanded": "Threat",
-          "description": "Known or modeled threat to the platform.",
+          "description": "Confirmed and active threat against a converged space system.",
           "uuid": "d8c5c2ca-7d8c-5d3c-a16f-3eae2c2d9f51"
         },
         {
           "value": "AN-DET",
           "expanded": "Detection Signature",
-          "description": "Pattern, signal, or logic that triggers on contextualized threat behavior.",
+          "description": "Validated and operational pattern, signal, or logic that triggers on contextualized threat behavior for a converged space system..",
           "uuid": "e10b04f1-5e83-5be1-98ea-111a40a4b360"
         },
         {
           "value": "AN-RES",
           "expanded": "Resilience Measure",
-          "description": "Protective capability ensuring resistance or recovery from threats.",
+          "description": "Validated and operational protective capability ensuring converged space system resistance or recovery from confirmed threats.",
           "uuid": "df8d24c7-6206-5689-b83e-dd287aa0ef12"
         }
       ]
