@@ -1,8 +1,8 @@
 {
   "namespace": "dark-web",
   "expanded": "Dark Web",
-  "description": "Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.",
-  "version": 10,
+  "description": "Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
+  "version": 11,
   "predicates": [
     {
       "value": "topic",
@@ -266,6 +266,48 @@
           "expanded": "DirectoryProvider",
           "description": "Provides list of addresses or references to other services",
           "uuid": "39d73b81-6fb1-5497-af33-b1f45c2b8444"
+        },
+        {
+          "value": "online-scam-reports",
+          "expanded": "onlineScamReports",
+          "description": "Posts where users report or warn about scams, fraudulent activities, or untrustworthy users on various online platforms, including darknet markets and communication apps.",
+          "uuid": "90341342-afc5-47fa-beb0-7045ee8214a9"
+        },
+        {
+          "value": "platform-mechanics-and-community",
+          "expanded": "platformMechanicsAndCommunity",
+          "description": "Discussions related to the functioning of the platform itself, including user registration, scoring systems, user profiles, comments, and community feedback.",
+          "uuid": "c9610531-4d59-43e3-be93-b89600030f6a"
+        },
+        {
+          "value": "politics-and-governance",
+          "expanded": "politicsAndGovernance",
+          "description": "Discussions related to political structures, governance, laws, international relations, and public service of specific countries or regions.",
+          "uuid": "eccf6951-f2d0-431d-ac24-a0f8e4c15bf9"
+        },
+        {
+          "value": "mental-health",
+          "expanded": "mentalHealth",
+          "description": "Cluster of posts discussing various mental health issues, including depression, anxiety and suicidal thoughts.",
+          "uuid": "941b48b2-c25a-4750-8758-239228fe0ca6"
+        },
+        {
+          "value": "confessions-and-personal-secrets",
+          "expanded": "confessionsAndPersonalSecrets",
+          "description": "A collection of posts where users share personal secrets, confessions or unusual behaviors, including paranormal experiences.",
+          "uuid": "bfc0bef4-25c5-4256-a5d9-72ea598ec94a"
+        },
+        {
+          "value": "aliens-and-the-universe",
+          "expanded": "aliensAndTheUniverse",
+          "description": "Discussions about the existence, nature, and possibility of extraterrestrial life and other cosmological mysteries.",
+          "uuid": "c0b99d6c-5195-4aee-b42a-89ef63a98c74"
+        },
+        {
+          "value": "english-learning",
+          "expanded": "englishLearning",
+          "description": "Posts and resources focused on learning English: grammar, vocabulary, speaking, listening, exam prep (e.g., TOEFL/IELTS), and study communities.",
+          "uuid": "07216474-2f38-4f8e-809e-16aa6813c6aa"
         }
       ]
     },
@@ -373,6 +415,12 @@
           "expanded": "systemPlaceholder",
           "description": "Automatically generated content, not designed for any identifiable purpose other than diagnostics - e.g. “It Works” message provided by default by Apache2",
           "uuid": "dc940230-d400-5476-9abe-65cd2f616f70"
+        },
+        {
+          "value": "confessions-and-secrets",
+          "expanded": "confessionsAndSecrets",
+          "description": "A collection of posts where individuals share personal secrets or confessions, ranging from mundane to controversial topics.",
+          "uuid": "9bad55a3-d09f-4eae-a7df-a64fbbcc3a7f"
         },
         {
           "value": "unclear",
