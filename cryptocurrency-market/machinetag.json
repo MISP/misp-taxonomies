@@ -1,7 +1,7 @@
 {
-  "namespace": "crypto-p2p",
-  "expanded": "Crypto P2P Exchange",
-  "description": "Crypto P2P Exchange: A categorisation model for cryptocurrency transactions and risk flags. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
+  "namespace": "cryptocurrency-market",
+  "expanded": "Crypto Market",
+  "description": "Crypto Market: A categorisation model for cryptocurrency transactions and risk flags. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
   "version": 1,
   "predicates": [
     {
