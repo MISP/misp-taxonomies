@@ -1,0 +1,163 @@
+{
+  "namespace": "crypto-p2p",
+  "expanded": "Crypto P2P Exchange",
+  "description": "Crypto P2P Exchange: A categorisation model for cryptocurrency transactions and risk flags. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "intent",
+      "expanded": "Intent",
+      "description": "Intent or purpose of the cryptocurrency transaction or exchange associated with the materials tagged",
+      "uuid": "41dfb5d3-5eca-40d8-8a30-19cf96f6343b"
+    },
+    {
+      "value": "payment-rail",
+      "expanded": "Payment Rail",
+      "description": "Payment method or financial rail associated with the materials tagged",
+      "uuid": "8e66ec96-25b0-46ff-89e7-ca17556b034d"
+    },
+    {
+      "value": "risk-flag",
+      "expanded": "Risk Flag",
+      "description": "Indicators or flags signaling potential risks associated with the materials tagged",
+      "uuid": "65a2f37f-0d8a-40ae-9539-65ac012764ff"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "intent",
+      "entry": [
+        {
+          "value": "buy",
+          "expanded": "Buy with",
+          "description": "User intends to purchase cryptocurrency using fiat or another asset.",
+          "uuid": "3030c5f7-e889-4639-bbdf-0b74d20f7714"
+        },
+        {
+          "value": "other",
+          "expanded": "Other / unrelated",
+          "description": "Intent is unrelated or does not fit other categories.",
+          "uuid": "fc029519-cb6f-424d-8173-84123a84c726"
+        },
+        {
+          "value": "sell",
+          "expanded": "Sell for",
+          "description": "User intends to sell cryptocurrency for fiat or another asset.",
+          "uuid": "beac49b8-d2df-446d-a2ec-650793a4f315"
+        },
+        {
+          "value": "trade",
+          "expanded": "Trade / swap / exchange",
+          "description": "User intends to exchange one cryptocurrency for another.",
+          "uuid": "38e2f501-4468-4ec7-abd6-58d61816b9b6"
+        }
+      ]
+    },
+    {
+      "predicate": "payment-rail",
+      "entry": [
+        {
+          "value": "card",
+          "expanded": "Card (credit/debit card)",
+          "description": "Payment via credit or debit card.",
+          "uuid": "cbd0c644-08da-4866-82e6-923a6d5d9ae5"
+        },
+        {
+          "value": "gift",
+          "expanded": "gift cards, prepaid card pin",
+          "description": "Payment via gift cards or prepaid card PIN.",
+          "uuid": "63a71f7f-76bd-460f-9d71-5f68a1fe986c"
+        },
+        {
+          "value": "revolut",
+          "expanded": "Revolut (digital banking app)",
+          "description": "Payment via Revolut digital banking application.",
+          "uuid": "f5b2e07e-7e2a-4539-b2f2-0b8b2aae0652"
+        },
+        {
+          "value": "bank",
+          "expanded": "Bank transfer",
+          "description": "Payment via direct bank transfer or wire.",
+          "uuid": "cbce2e63-5a0f-4fe5-bca7-2aab7ab3f5e7"
+        },
+        {
+          "value": "cashapp",
+          "expanded": "Cash App",
+          "description": "Payment via Cash App mobile payment service.",
+          "uuid": "65192cb1-1d75-42ee-9635-23ea62836a6b"
+        },
+        {
+          "value": "paypal",
+          "expanded": "PayPal",
+          "description": "Payment via PayPal digital payment service.",
+          "uuid": "afedc2d6-4d3f-499f-8ccb-4380e575388b"
+        },
+        {
+          "value": "sepa",
+          "expanded": "SEPA (Single Euro Payments Area)",
+          "description": "Payment via SEPA bank transfer in Eurozone.",
+          "uuid": "9530b87e-c829-4931-b9b5-f98e1572115e"
+        },
+        {
+          "value": "skrill",
+          "expanded": "Skrill",
+          "description": "Payment via Skrill digital payment platform.",
+          "uuid": "3e2b4cb7-e968-4d00-82de-f87c49d4d340"
+        },
+        {
+          "value": "wire",
+          "expanded": "Wire transfer",
+          "description": "Payment via international wire transfer.",
+          "uuid": "ea29e3a9-91aa-4419-9939-e71a5c2c5d3e"
+        }
+      ]
+    },
+    {
+      "predicate": "risk-flag",
+      "entry": [
+        {
+          "value": "anonym",
+          "expanded": "Anonymous seller/buyer",
+          "description": "Transaction involves anonymous or unverified parties.",
+          "uuid": "78952050-623a-4ced-9b7d-2c16390beca1"
+        },
+        {
+          "value": "chargeback",
+          "expanded": "Chargeback risk",
+          "description": "High risk of payment reversal or chargeback fraud.",
+          "uuid": "a2bf0844-9003-4126-964e-5623b5e78fb3"
+        },
+        {
+          "value": "escrow",
+          "expanded": "Escrow service",
+          "description": "Transaction uses escrow service for dispute resolution.",
+          "uuid": "1c3815c0-37d1-4a89-827c-db51d4c192ab"
+        },
+        {
+          "value": "mixer",
+          "expanded": "Crypto mixer",
+          "description": "Cryptocurrency has been processed through a mixing service.",
+          "uuid": "bc0c708d-aabd-42de-8177-2d679e72829c"
+        },
+        {
+          "value": "no-kyc",
+          "expanded": "No-KYC (no identity verification)",
+          "description": "Transaction bypasses Know Your Customer identity verification requirements.",
+          "uuid": "0e301f55-de9a-438e-87c0-dc65a755e5c8"
+        },
+        {
+          "value": "tor",
+          "expanded": "tor (anonymity network)",
+          "description": "Connection or transaction routed through Tor anonymity network.",
+          "uuid": "c664a463-b42e-4ebb-9b69-d9ac5564e2f5"
+        },
+        {
+          "value": "vpn",
+          "expanded": "VPN",
+          "description": "Connection or transaction routed through VPN service.",
+          "uuid": "8e161c2a-5e18-4e8a-84a3-9e11cc27cada"
+        }
+      ]
+    }
+  ]
+}
