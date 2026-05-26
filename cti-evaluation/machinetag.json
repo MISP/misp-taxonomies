@@ -1,0 +1,515 @@
+{
+  "namespace": "cti-evaluation",
+  "expanded": "CTI evaluation",
+  "description": "Evaluation taxonomy for cyber threat intelligence (CTI) quality and conversion quality in workflows such as MISP/STIX exchange and CTI Transmute, covering relevance, accuracy, timeliness, clarity, specificity, format validity, conversion fidelity, and usefulness.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "overall-score",
+      "expanded": "Overall CTI evaluation score",
+      "description": "Overall weighted assessment of the CTI artifact quality.",
+      "exclusive": true,
+      "uuid": "f50364e4-7208-4aa5-902d-972558e7b83b"
+    },
+    {
+      "value": "relevance",
+      "expanded": "Relevance",
+      "description": "Whether the CTI pertains directly to user mission and decision-making needs.",
+      "exclusive": true,
+      "uuid": "28ad5cfd-51ba-49a7-bc9f-3f1224d21d53"
+    },
+    {
+      "value": "accuracy",
+      "expanded": "Accuracy",
+      "description": "Whether assertions are based on reliable, verified, and corroborated data.",
+      "exclusive": true,
+      "uuid": "23c49abd-8daa-4ec3-bff9-70d7ca0f5679"
+    },
+    {
+      "value": "timeliness",
+      "expanded": "Timeliness",
+      "description": "Whether CTI is delivered with enough lead time for effective action.",
+      "exclusive": true,
+      "uuid": "17a8fb50-1b38-4032-b387-36a47c215015"
+    },
+    {
+      "value": "clarity",
+      "expanded": "Clarity",
+      "description": "Whether CTI is understandable, unambiguous, and actionable for intended audiences.",
+      "exclusive": true,
+      "uuid": "6297c509-92aa-4ece-b027-8574658e8cc0"
+    },
+    {
+      "value": "specificity",
+      "expanded": "Specificity",
+      "description": "Whether CTI contains concrete details (what, where, when, who, how) needed to act.",
+      "exclusive": true,
+      "uuid": "2a0ad1ec-d7d7-4a0d-a5e6-cdc6fb9f9ee3"
+    },
+    {
+      "value": "usefulness",
+      "expanded": "Usefulness",
+      "description": "Practical utility of CTI for operations, detection, response, or strategic decisions.",
+      "exclusive": true,
+      "uuid": "4a962a11-ea5b-4a90-816e-fe7ae44fdbf5"
+    },
+    {
+      "value": "format-validity",
+      "expanded": "Format validity",
+      "description": "Conformance of CTI artifacts to expected schema/syntax (e.g., STIX/MISP structures).",
+      "exclusive": true,
+      "uuid": "22c47f47-0b1a-4b2c-a1f9-90d3b9a1930c"
+    },
+    {
+      "value": "conversion-fidelity",
+      "expanded": "Conversion fidelity",
+      "description": "How faithfully intelligence survives format conversion (e.g., MISP to STIX and back).",
+      "exclusive": true,
+      "uuid": "01bd3d97-97af-4bd0-a50a-e3c245daff29"
+    },
+    {
+      "value": "source-reliability",
+      "expanded": "Source reliability",
+      "description": "Reliability of primary and secondary sources underpinning the CTI.",
+      "exclusive": true,
+      "uuid": "ad4b61fa-c876-47b6-881f-9e9159d1455f"
+    },
+    {
+      "value": "evidence-strength",
+      "expanded": "Evidence strength",
+      "description": "Strength and sufficiency of supporting evidence for the claims.",
+      "exclusive": true,
+      "uuid": "433fcff9-7ee9-47fc-a6a0-84c5f706d695"
+    },
+    {
+      "value": "confidence",
+      "expanded": "Confidence",
+      "description": "Analyst or reviewer confidence in the CTI judgments.",
+      "exclusive": true,
+      "uuid": "f10f3d35-a0c0-40de-8540-72c301c27c1c"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "overall-score",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "ccb04e14-0a16-43f4-a058-b3b75d70371d"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "c2ca918b-9a24-4537-9993-317b9711cdef"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "33b5ef27-c90b-4c66-b488-ce30c259daac"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "69efb1c9-a4e3-4911-878d-0bffba0420d4"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "ef497ab8-4304-4e77-a0a8-1e0592916956"
+        }
+      ]
+    },
+    {
+      "predicate": "relevance",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "2b071e2f-f185-4045-a576-89afd732bb6f"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "12868087-9ae9-4da7-8df2-b7c6f86c8420"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "602b1a41-6d39-4d93-98b9-962abcc25e14"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "9c194177-cd5d-48f5-a59a-fb2926571b46"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "54907a4f-dadb-4a14-bc6d-06898946d80f"
+        }
+      ]
+    },
+    {
+      "predicate": "accuracy",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "8345b53c-ed4c-4cce-82a4-603fae49da4b"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "4d0f60ee-19fb-4c86-92f1-65026a4a6d3a"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "ec2c0ad4-e4c1-4d3c-b654-35c989eea54f"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "3eb209ad-a750-4296-a626-ccdce0873ad3"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "6f8ec488-cceb-4e18-b5eb-6c9d00949d8b"
+        }
+      ]
+    },
+    {
+      "predicate": "timeliness",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "2c13e47c-9ac0-4f24-a2a4-505296da2a6c"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "b3c3f2b2-c61a-4ccb-8a0a-58124d9a6f85"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "d335bc11-fffc-478f-8076-3b187b9c4a91"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "92beb810-873f-42cf-a9a3-a216e85ca49a"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "f4ab1481-4fed-4ea5-ba0d-4623a0e7a5fa"
+        }
+      ]
+    },
+    {
+      "predicate": "clarity",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "0ec05c80-dfba-486e-a58e-c5447119f1b7"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "2279ea56-761a-43f6-b647-199b834aa776"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "718535c4-efa7-4546-b93b-e9b533a9bfd9"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "e1ca5e3f-bad3-45c7-8556-24ede6652656"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "840866db-8e56-4b41-bebf-db18b12c2b28"
+        }
+      ]
+    },
+    {
+      "predicate": "specificity",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "e1efcaa5-4562-48fa-8ddb-89e7785b12ea"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "76c8f204-2218-4f64-83ea-2fe4b8de38ef"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "a98d664e-996d-4973-a4b6-45ef9f8df7ac"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "25a3aa66-779e-426d-b016-01653fe56f89"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "0a062f3d-3d7c-43f9-8c2f-e7ed3d466d6c"
+        }
+      ]
+    },
+    {
+      "predicate": "usefulness",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "b5c3b394-dd65-4046-acbd-905756eb5c58"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "99fc1436-04ae-43b9-a493-e7b1d9b385b6"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "7d11ecf5-efe0-461b-b0fe-742da25b2358"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "2de05f07-069f-4869-b42f-1708893ee568"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "49377759-ba5c-4975-a0d1-dccc5b5bdd3c"
+        }
+      ]
+    },
+    {
+      "predicate": "format-validity",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "b12231a8-330f-406b-a62c-44c96cf6be57"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "0923d55e-dbbe-46a5-bb40-366ec9fad559"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "3122228c-12fe-4a55-8393-17d19eb2bced"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "fb9aefc2-860c-4a7f-87c4-61daba5d61dd"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "8b9f3ce8-30f6-4b5c-8992-899aedb1a6f5"
+        }
+      ]
+    },
+    {
+      "predicate": "conversion-fidelity",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "7ca279d8-809c-4029-bdd5-c2fab201f862"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "d0d97b5c-fc44-44df-9929-27b3bf6ca7f5"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "724f78a7-7bb5-45bc-b0f4-f01abb9283d0"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "a3d88da1-9df5-4f41-b2ca-6a7fdd84c2dc"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "3098e418-10b5-44ae-ac60-f6bd24829ade"
+        }
+      ]
+    },
+    {
+      "predicate": "source-reliability",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "35a05b9d-3d79-499d-8c4a-8f5a060d9e5d"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "0db4a77b-0602-4ab8-a813-ac51a2c38a8e"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "3f1994dd-0a98-44a7-8cd1-917be5921c4c"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "ed2fba05-d8ab-44d1-8fcf-81a3f2326130"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "1d57ec60-2821-4f21-a6c3-7fe17bb73612"
+        }
+      ]
+    },
+    {
+      "predicate": "evidence-strength",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "4b709dec-7414-47bc-97b2-730295afc971"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "77f09051-6fb7-4425-819d-380d213bb770"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "e07e90b9-d824-4b8d-ac20-fd4c52b8af54"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "7d860416-8123-4471-a1de-5f78fa149c46"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "4ab016de-464e-4a25-bb47-cbbbd2cf24a8"
+        }
+      ]
+    },
+    {
+      "predicate": "confidence",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 0,
+          "uuid": "b569eedc-9dc6-4dc1-bf28-a4c9ca878b52"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 25,
+          "uuid": "327e5669-0edf-46a4-bc15-fccbff70a757"
+        },
+        {
+          "value": "moderate",
+          "expanded": "Moderate",
+          "numerical_value": 50,
+          "uuid": "668ddd74-8c94-4da8-b939-cd4c1c7f903d"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 75,
+          "uuid": "2e4d78b8-bcfc-49da-8e51-9c6d11a8e4fb"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 100,
+          "uuid": "91f8d6e0-9d65-4752-9cb7-62a259e2af5b"
+        }
+      ]
+    }
+  ],
+  "uuid": "b376f2ae-5e40-47fd-b680-bb0464107949"
+}
