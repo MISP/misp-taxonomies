@@ -4,6 +4,31 @@
   "path": "machinetag.json",
   "taxonomies": [
     {
+      "description": "CERT-XLM Security Incident Classification.",
+      "name": "CERT-XLM",
+      "version": 2
+    },
+    {
+      "description": "DFRLab Dichotomies of Disinformation.",
+      "name": "DFRLab-dichotomies-of-disinformation",
+      "version": 1
+    },
+    {
+      "description": "The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program.",
+      "name": "DML",
+      "version": 1
+    },
+    {
+      "description": "Gray Zone of Active defense includes all elements which lay between reactive defense elements and offensive operations. It does fill the gray spot between them. Taxo may be used for active defense planning or modeling.",
+      "name": "GrayZone",
+      "version": 3
+    },
+    {
+      "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
+      "name": "PAP",
+      "version": 3
+    },
+    {
       "description": "The access method used to remotely access a system.",
       "name": "access-method",
       "version": 1
@@ -104,11 +129,6 @@
       "version": 2
     },
     {
-      "description": "CERT-XLM Security Incident Classification.",
-      "name": "CERT-XLM",
-      "version": 2
-    },
-    {
       "description": "CIRCL Taxonomy - Schemes of Classification in Incident Response and Detection.",
       "name": "circl",
       "version": 6
@@ -119,7 +139,7 @@
       "version": 1
     },
     {
-      "description": "La presente taxonomia es la primera versi\u00f3n disponible para el Centro Nacional de Seguridad Digital del Per\u00fa.",
+      "description": "La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.",
       "name": "cnsd",
       "version": 20220513
     },
@@ -159,12 +179,12 @@
       "version": 2
     },
     {
-      "description": "Taxonom\u00eda CSIRT Am\u00e9ricas.",
+      "description": "Taxonomía CSIRT Américas.",
       "name": "csirt-americas",
       "version": 1
     },
     {
-      "description": "It is critical that the CSIRT provide consistent and timely response to the customer, and that sensitive information is handled appropriately.  This document provides the guidelines needed for CSIRT Incident Managers (IM) to classify the case category, criticality level, and sensitivity level for each CSIRT case.  This information will be entered into the Incident Tracking System (ITS) when a case is created.  Consistent case classification is required for the CSIRT to provide accurate reporting to management on a regular basis.  In addition, the classifications will provide CSIRT IM\u2019s with proper case handling procedures and will form the basis of SLA\u2019s between the CSIRT and other Company departments.",
+      "description": "It is critical that the CSIRT provide consistent and timely response to the customer, and that sensitive information is handled appropriately.  This document provides the guidelines needed for CSIRT Incident Managers (IM) to classify the case category, criticality level, and sensitivity level for each CSIRT case.  This information will be entered into the Incident Tracking System (ITS) when a case is created.  Consistent case classification is required for the CSIRT to provide accurate reporting to management on a regular basis.  In addition, the classifications will provide CSIRT IM’s with proper case handling procedures and will form the basis of SLA’s between the CSIRT and other Company departments.",
       "name": "csirt_case_classification",
       "version": 1
     },
@@ -179,8 +199,8 @@
       "version": 1
     },
     {
-      "name": "cti-evaluation",
       "description": "Evaluation taxonomy for cyber threat intelligence (CTI) quality and conversion quality in workflows such as MISP/STIX exchange and CTI Transmute, covering relevance, accuracy, timeliness, clarity, specificity, format validity, conversion fidelity, and usefulness.",
+      "name": "cti-evaluation",
       "version": 1
     },
     {
@@ -244,11 +264,6 @@
       "version": 1
     },
     {
-      "description": "DFRLab Dichotomies of Disinformation.",
-      "name": "DFRLab-dichotomies-of-disinformation",
-      "version": 1
-    },
-    {
       "description": "A taxonomy to describe domain-generation algorithms often called DGA. Ref: A Comprehensive Measurement Study of Domain Generating Malware Daniel Plohmann and others.",
       "name": "dga",
       "version": 2
@@ -266,11 +281,6 @@
     {
       "description": "The diamond model for influence operations analysis is a framework that leads analysts and researchers toward a comprehensive understanding of a malign influence campaign by addressing the socio-political, technical, and psychological aspects of the campaign. The diamond model for influence operations analysis consists of 5 components: 4 corners and a core element. The 4 corners are divided into 2 axes: influencer and audience on the socio-political axis, capabilities and infrastructure on the technical axis. Narrative makes up the core of the diamond.",
       "name": "diamond-model-for-influence-operations",
-      "version": 1
-    },
-    {
-      "description": "The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.  It's designed for organizations who perform intel-driven detection and response and who put an emphasis on having a mature detection program.",
-      "name": "DML",
       "version": 1
     },
     {
@@ -369,7 +379,7 @@
       "version": 2
     },
     {
-      "description": "The purpose of this taxonomy is to jointly tabulate both the of these failure modes in a single place. Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals \u2013 either to misclassify the result, infer private training data, or to steal the underlying algorithm. Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.",
+      "description": "The purpose of this taxonomy is to jointly tabulate both the of these failure modes in a single place. Intentional failures wherein the failure is caused by an active adversary attempting to subvert the system to attain her goals – either to misclassify the result, infer private training data, or to steal the underlying algorithm. Unintentional failures wherein the failure is because an ML system produces a formally correct but completely unsafe outcome.",
       "name": "failure-mode-in-machine-learning",
       "version": 1
     },
@@ -409,7 +419,7 @@
       "version": 0
     },
     {
-      "description": "Information needed to track or monitor moments, periods or events that occur over time. This type of information is focused on occurrences that must be tracked for business reasons or represent a specific point in the evolution of \u2018The Business\u2019.",
+      "description": "Information needed to track or monitor moments, periods or events that occur over time. This type of information is focused on occurrences that must be tracked for business reasons or represent a specific point in the evolution of ‘The Business’.",
       "name": "gea-nz-activities",
       "version": 1
     },
@@ -422,11 +432,6 @@
       "description": "Information relating to authority or governance.",
       "name": "gea-nz-motivators",
       "version": 1
-    },
-    {
-      "description": "Gray Zone of Active defense includes all elements which lay between reactive defense elements and offensive operations. It does fill the gray spot between them. Taxo may be used for active defense planning or modeling.",
-      "name": "GrayZone",
-      "version": 3
     },
     {
       "description": "Taxonomy used by GSMA for their information sharing program with telco describing the attack categories",
@@ -444,7 +449,7 @@
       "version": 3
     },
     {
-      "description": "Updated (CIRCL, Seamus Dowling and EURECOM) from Christian Seifert, Ian Welch, Peter Komisarczuk, \u2018Taxonomy of Honeypots\u2019, Technical Report CS-TR-06/12, VICTORIA UNIVERSITY OF WELLINGTON, School of Mathematical and Computing Sciences, June 2006, http://www.mcs.vuw.ac.nz/comp/Publications/archive/CS-TR-06/CS-TR-06-12.pdf",
+      "description": "Updated (CIRCL, Seamus Dowling and EURECOM) from Christian Seifert, Ian Welch, Peter Komisarczuk, ‘Taxonomy of Honeypots’, Technical Report CS-TR-06/12, VICTORIA UNIVERSITY OF WELLINGTON, School of Mathematical and Computing Sciences, June 2006, http://www.mcs.vuw.ac.nz/comp/Publications/archive/CS-TR-06/CS-TR-06-12.pdf",
       "name": "honeypot-basic",
       "version": 4
     },
@@ -644,11 +649,6 @@
       "version": 4
     },
     {
-      "description": "The Permissible Actions Protocol - or short: PAP - was designed to indicate how the received information can be used.",
-      "name": "PAP",
-      "version": 3
-    },
-    {
       "description": "Tags from RiskIQ's PassiveTotal service",
       "name": "passivetotal",
       "version": 2
@@ -659,7 +659,7 @@
       "version": 3
     },
     {
-      "description": "Le Protocole des feux de circulation (PFC) est bas\u00e9 sur le standard \u00ab Traffic Light Protocol (TLP) \u00bb con\u00e7u par le FIRST. Il a pour objectif d\u2019informer sur les limites autoris\u00e9es pour la diffusion des informations. Il est class\u00e9 selon des codes de couleurs.",
+      "description": "Le Protocole des feux de circulation (PFC) est basé sur le standard « Traffic Light Protocol (TLP) » conçu par le FIRST. Il a pour objectif d’informer sur les limites autorisées pour la diffusion des informations. Il est classé selon des codes de couleurs.",
       "name": "pfc",
       "version": 1
     },
@@ -774,7 +774,7 @@
       "version": 1
     },
     {
-      "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim\u2019s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk \u201cRATastrophe: Monitoring a Malware Menagerie\u201d along with Katie Kleemola and Greg Wiseman.",
+      "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman.",
       "name": "targeted-threat-index",
       "version": 3
     },
@@ -789,7 +789,7 @@
       "version": 3
     },
     {
-      "description": "An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1\u20131. doi:10.1109/comst.2018.2849614",
+      "description": "An overview of some of the known attacks related to DNS as described by Torabi, S., Boukhtouta, A., Assi, C., & Debbabi, M. (2018) in Detecting Internet Abuse by Analyzing Passive DNS Traffic: A Survey of Implemented Systems. IEEE Communications Surveys & Tutorials, 1–1. doi:10.1109/comst.2018.2849614",
       "name": "threats-to-dns",
       "version": 1
     },
@@ -844,7 +844,7 @@
       "version": 1
     },
     {
-      "description": "Ce vocabulaire attribue des valeurs en pourcentage \u00e0 certains \u00e9nonc\u00e9s de probabilit\u00e9",
+      "description": "Ce vocabulaire attribue des valeurs en pourcentage à certains énoncés de probabilité",
       "name": "vocabulaire-des-probabilites-estimatives",
       "version": 3
     },
@@ -860,5 +860,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260516"
+  "version": "20260526"
 }
