@@ -1,7 +1,7 @@
 {
   "namespace": "drug-form",
   "description": "Primary physical forms of drugs: A categorisation model for narcotics and substances. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
-  "version": 1.1,
+  "version": 2,
   "predicates": [
     {
       "value": "form",

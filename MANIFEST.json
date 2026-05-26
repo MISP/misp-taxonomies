@@ -311,7 +311,7 @@
     {
       "description": "Primary physical forms of drugs: A categorisation model for narcotics and substances. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
       "name": "drug-form",
-      "version": 1.1
+      "version": 2
     },
     {
       "description": "A taxonomy based on the superclass and class of drugs. Based on https://www.drugbank.ca/releases/latest",
