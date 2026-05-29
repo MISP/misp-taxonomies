@@ -469,6 +469,26 @@
       "version": 4
     },
     {
+      "description": "IAB Tech Lab Ad Product Taxonomy 2.0 converted from the official TSV. It establishes standardized nomenclature for describing the product or service advertised within a creative unit. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+      "name": "iab-ad-product-2-0",
+      "version": 1
+    },
+    {
+      "description": "IAB Tech Lab Audience Taxonomy 1.1 converted from the official TSV. It provides common nomenclature for audience segment names to improve comparability across data providers. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+      "name": "iab-audience-1-1",
+      "version": 1
+    },
+    {
+      "description": "IAB Tech Lab Content Taxonomy 3.0 Descriptive Vectors converted from the official TSV. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+      "name": "iab-content-3-0-descriptive-vectors",
+      "version": 1
+    },
+    {
+      "description": "IAB Tech Lab Content Taxonomy 3.1 converted from the official TSV. It provides a common language for describing content or the aboutness of a webpage, application, or video. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+      "name": "iab-content-3-1",
+      "version": 1
+    },
+    {
       "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
       "name": "ics",
       "version": 1
@@ -875,5 +895,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260526"
+  "version": "20260529"
 }

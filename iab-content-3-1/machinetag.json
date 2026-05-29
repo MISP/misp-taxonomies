@@ -1,0 +1,100 @@
+{
+  "namespace": "iab-content-3-1",
+  "expanded": "IAB Tech Lab Content Taxonomy 3.1",
+  "description": "IAB Tech Lab Content Taxonomy 3.1 converted from the official TSV. It provides a common language for describing content or the aboutness of a webpage, application, or video. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+  "version": 1,
+  "refs": [
+    "https://github.com/InteractiveAdvertisingBureau/Taxonomies",
+    "https://creativecommons.org/licenses/by/3.0/"
+  ],
+  "predicates": [
+    {
+      "value": "attractions",
+      "expanded": "Attractions",
+      "description": "IAB top-level category: Attractions.",
+      "uuid": "cab81908-2d6b-51a8-b4d1-b1430339fc81"
+    },
+    {
+      "value": "automotive",
+      "expanded": "Automotive",
+      "description": "IAB top-level category: Automotive.",
+      "uuid": "ee28c1b2-e9a0-5f2b-ba20-c69391d2ba99"
+    },
+    {
+      "value": "books-and-literature",
+      "expanded": "Books and Literature",
+      "description": "IAB top-level category: Books and Literature.",
+      "uuid": "fc45f7fc-e81f-5043-9e7e-624ccddd3538"
+    },
+    {
+      "value": "business-and-finance",
+      "expanded": "Business and Finance",
+      "description": "IAB top-level category: Business and Finance.",
+      "uuid": "2d47f0b6-48f9-5686-875f-f82906684940"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "attractions",
+      "entry": [
+        {
+          "value": "amusement-and-theme-parks",
+          "expanded": "Attractions / Amusement and Theme Parks",
+          "description": "Attractions / Amusement and Theme Parks; IAB Unique ID: 151; IAB Parent ID: 150.",
+          "uuid": "4da35210-71fa-5e6f-a029-498e200ed078"
+        },
+        {
+          "value": "bars-and-restaurants",
+          "expanded": "Attractions / Bars & Restaurants",
+          "description": "Attractions / Bars & Restaurants; IAB Unique ID: 179; IAB Parent ID: 150.",
+          "uuid": "efde64a3-3e5e-5824-94ed-02c5b1cb7406"
+        }
+      ]
+    },
+    {
+      "predicate": "automotive",
+      "entry": [
+        {
+          "value": "auto-body-styles",
+          "expanded": "Automotive / Auto Body Styles",
+          "description": "Automotive / Auto Body Styles; IAB Unique ID: 2; IAB Parent ID: 1.",
+          "uuid": "f49c032d-def1-53c9-bc85-e2efb2dbd318"
+        },
+        {
+          "value": "auto-body-styles-commercial-trucks",
+          "expanded": "Automotive / Auto Body Styles / Commercial Trucks",
+          "description": "Automotive / Auto Body Styles / Commercial Trucks; IAB Unique ID: 3; IAB Parent ID: 2.",
+          "uuid": "6bdf94e8-2ce0-54a4-876c-1bd207e52c9d"
+        }
+      ]
+    },
+    {
+      "predicate": "books-and-literature",
+      "entry": [
+        {
+          "value": "art-and-photography",
+          "expanded": "Books and Literature / Art and Photography",
+          "description": "Books and Literature / Art and Photography; IAB Unique ID: 43; IAB Parent ID: 42.",
+          "uuid": "b410a7d6-5702-5cd9-8f64-760af33b4630"
+        }
+      ]
+    },
+    {
+      "predicate": "business-and-finance",
+      "entry": [
+        {
+          "value": "business",
+          "expanded": "Business and Finance / Business",
+          "description": "Business and Finance / Business; IAB Unique ID: 53; IAB Parent ID: 52.",
+          "uuid": "e8a5a62c-b0ce-526e-9314-3ebc44a1731c"
+        },
+        {
+          "value": "business-business-accounting-and-finance",
+          "expanded": "Business and Finance / Business / Business Accounting & Finance",
+          "description": "Business and Finance / Business / Business Accounting & Finance; IAB Unique ID: 54; IAB Parent ID: 53.",
+          "uuid": "ad4d5ca0-a825-5790-b9b4-5f8827972755"
+        }
+      ]
+    }
+  ]
+}
