@@ -164,6 +164,11 @@
       "version": 3
     },
     {
+      "description": "Classification taxonomy for labeling the primary subject matter, intent, market context, and thematic domain of online content, including general information, technology, cybersecurity, cybercrime, markets, communities, finance, illegal markets, technical services, and geopolitical or hacktivist material.",
+      "name": "content-classification",
+      "version": 1
+    },
+    {
       "description": "The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse. The scale was developed by staff at the COPINE (Combating Paedophile Information Networks in Europe) project. The COPINE Project was founded in 1997, and is based in the Department of Applied Psychology, University College Cork, Ireland.",
       "name": "copine-scale",
       "version": 3
@@ -895,5 +900,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260529"
+  "version": "20260530"
 }

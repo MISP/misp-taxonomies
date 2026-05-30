@@ -1,0 +1,582 @@
+{
+  "description": "Classification taxonomy for labeling the primary subject matter, intent, market context, and thematic domain of online content, including general information, technology, cybersecurity, cybercrime, markets, communities, finance, illegal markets, technical services, and geopolitical or hacktivist material.",
+  "expanded": "Content Classification",
+  "namespace": "content-classification",
+  "predicates": [
+    {
+      "description": "Broad non-technical topical areas for classifying general-purpose publications, forum posts, media items, and other content that is not primarily cyber, market, or illegal-service oriented.",
+      "expanded": "General",
+      "uuid": "57fd4329-657f-5542-9a57-dba8db7f05c4",
+      "value": "general"
+    },
+    {
+      "description": "Computing, digital platforms, engineering, and communications topics where the primary focus is legitimate technology use, design, operation, or industry activity.",
+      "expanded": "Technology",
+      "uuid": "b8aec241-026e-5d2e-b72f-ae969d189d1a",
+      "value": "technology"
+    },
+    {
+      "description": "Defensive, analytical, and technical security topics, including legitimate research and operational security work even when the subject matter concerns adversary tools or techniques.",
+      "expanded": "Cybersecurity",
+      "uuid": "f683d4e4-ea91-5206-8d1c-9d7bb46027c6",
+      "value": "cybersecurity"
+    },
+    {
+      "description": "Cyber-enabled criminal activity, techniques, communities, tools, and outcomes where the content primarily concerns unauthorized access, abuse, theft, disruption, or monetization.",
+      "expanded": "Cybercrime",
+      "uuid": "a8a39c87-93bc-57bf-bdb0-68643c6a4e66",
+      "value": "cybercrime"
+    },
+    {
+      "description": "Commercial or transactional content for legal or ambiguous goods and services, including offers, requests, advertisements, and marketplace activity not inherently illegal.",
+      "expanded": "Markets",
+      "uuid": "d2888e64-597b-5645-b785-695c04986699",
+      "value": "markets"
+    },
+    {
+      "description": "Social spaces and identity-based or interest-based communities where the primary purpose is interaction, membership, discussion, or shared activities.",
+      "expanded": "Communities",
+      "uuid": "d74defff-1b75-53f7-90c3-f5cb6e6c595d",
+      "value": "communities"
+    },
+    {
+      "description": "Media, files, and other digital materials where the content item itself is the primary subject rather than the platform, community, or transaction around it.",
+      "expanded": "Digital Content",
+      "uuid": "8225c554-3836-5385-9477-4e00a227fc87",
+      "value": "digital-content"
+    },
+    {
+      "description": "Financial products, institutions, activity, and schemes where the primary topic is money management, investment, payments, or financial opportunity rather than cybercrime.",
+      "expanded": "Finance",
+      "uuid": "372087bc-8d1e-5706-8520-6710f2863e8c",
+      "value": "finance"
+    },
+    {
+      "description": "Marketplaces, offers, requests, or facilitation for goods and services that are illegal, harmful, or explicitly criminal in most jurisdictions.",
+      "expanded": "Illegal Markets",
+      "uuid": "99a50c30-7d86-5628-8153-e5b2539443e5",
+      "value": "illegal-markets"
+    },
+    {
+      "description": "Infrastructure, hosting, anonymity, communication, and delivery services that enable online operations; classify here when the service itself is the primary topic.",
+      "expanded": "Technical Services",
+      "uuid": "d293b078-f97b-57a9-88a9-e69954b17b00",
+      "value": "technical-services"
+    },
+    {
+      "description": "Political, ideological, state-aligned, activist, or conflict-related content that seeks to influence audiences, promote positions, mobilize supporters, or target opponents.",
+      "expanded": "Geopolitics & Hacktivism",
+      "uuid": "35caf700-59dd-582e-b308-335a6c8d5510",
+      "value": "geopolitics-and-hacktivism"
+    }
+  ],
+  "uuid": "a365078f-6b53-587f-aafe-63091ce1513f",
+  "values": [
+    {
+      "entry": [
+        {
+          "description": "Current-events reporting, alerts, or commentary about recent developments, including local, national, international, or topical news coverage.",
+          "expanded": "News",
+          "uuid": "4614cc52-1711-57b8-a224-889a8bd327fc",
+          "value": "news"
+        },
+        {
+          "description": "Content about political parties, campaigns, elections, governance, public policy, political actors, or ideological debate in a civic or institutional context.",
+          "expanded": "Politics",
+          "uuid": "6c4fe936-5c39-5452-a83c-2f31d34f0743",
+          "value": "politics"
+        },
+        {
+          "description": "Macroeconomic conditions, labor markets, inflation, trade, industry trends, business climate, or other economic indicators and analysis.",
+          "expanded": "Economy",
+          "uuid": "b11b9378-9b26-5438-965a-45b867679209",
+          "value": "economy"
+        },
+        {
+          "description": "Arts, entertainment, lifestyle, cultural identity, traditions, media commentary, or social norms discussed outside a primarily political or criminal frame.",
+          "expanded": "Culture",
+          "uuid": "aa5b2b77-ea28-5f5b-a202-ba129092714f",
+          "value": "culture"
+        },
+        {
+          "description": "Schools, universities, training, research instruction, educational resources, exams, certifications, or learning communities.",
+          "expanded": "Education",
+          "uuid": "44666037-390d-5ee0-a4e8-426a88837828",
+          "value": "education"
+        },
+        {
+          "description": "Defense policy, armed forces, military operations, weapons systems, doctrine, procurement, veterans affairs, or military-adjacent reporting and analysis.",
+          "expanded": "Defense & Military",
+          "uuid": "535a10f6-9788-55bb-a687-99077d13e427",
+          "value": "defense-and-military"
+        },
+        {
+          "description": "Public health, medicine, healthcare systems, disease outbreaks, wellness, clinical information, or health-related policy and services.",
+          "expanded": "Health",
+          "uuid": "dca1b043-1dbd-5761-8cd8-68b79b03b9a0",
+          "value": "health"
+        },
+        {
+          "description": "Scientific discoveries, academic research, engineering research, laboratories, publications, datasets, or research-community discussions not better classified under technology or cybersecurity.",
+          "expanded": "Science & Research",
+          "uuid": "753de607-17de-5286-a42d-e44f3e684066",
+          "value": "science-and-research"
+        }
+      ],
+      "predicate": "general"
+    },
+    {
+      "entry": [
+        {
+          "description": "Software engineering, programming languages, application development, DevOps practices, code repositories, APIs, frameworks, or developer communities.",
+          "expanded": "Development",
+          "uuid": "5d57102a-7028-5051-8fa1-20a448042121",
+          "value": "development"
+        },
+        {
+          "description": "Servers, networks, data centers, operational technology, enterprise architecture, platform operations, or foundational computing and network services.",
+          "expanded": "Infrastructure",
+          "uuid": "db86f02f-a34c-584a-a948-6c10f10c1b3f",
+          "value": "infrastructure"
+        },
+        {
+          "description": "Cloud providers, cloud services, SaaS, PaaS, IaaS, cloud-native architecture, containers, orchestration, storage, and cloud operations.",
+          "expanded": "Cloud",
+          "uuid": "d314506a-188c-51d7-ba14-67220cb037e9",
+          "value": "cloud"
+        },
+        {
+          "description": "Artificial intelligence, machine learning, generative AI, model development, data science, automation, AI safety, or AI-enabled products and services.",
+          "expanded": "AI",
+          "uuid": "e2f9e7ff-0d36-5f6e-ae9f-0b24c7c949ab",
+          "value": "ai"
+        },
+        {
+          "description": "Mobile networks, fixed-line networks, satellite communications, messaging infrastructure, ISPs, carriers, radio systems, or communications policy.",
+          "expanded": "Telecommunications",
+          "uuid": "80e09075-4a91-5934-ba9d-09b10aff68d5",
+          "value": "telecommunications"
+        },
+        {
+          "description": "Physical computing devices, components, embedded systems, chips, peripherals, repair, manufacturing, or supply-chain discussion for technology hardware.",
+          "expanded": "Hardware",
+          "uuid": "bde2aabb-8437-5529-afbb-d12e99966bd0",
+          "value": "hardware"
+        }
+      ],
+      "predicate": "technology"
+    },
+    {
+      "entry": [
+        {
+          "description": "Collection, analysis, enrichment, and sharing of information about threat actors, campaigns, tactics, techniques, procedures, indicators, infrastructure, or targeting.",
+          "expanded": "Threat Intelligence",
+          "uuid": "e39587b0-1b4c-5279-b085-543d91822ffb",
+          "value": "threat-intelligence"
+        },
+        {
+          "description": "Software, hardware, or configuration weaknesses; vulnerability research; proof-of-concept exploit discussion; exploitation conditions; patches; or mitigation guidance.",
+          "expanded": "Vulnerabilities / Exploits",
+          "uuid": "f1e45020-f5e2-5b22-9dc5-189cf57fc197",
+          "value": "vulnerabilities-exploits"
+        },
+        {
+          "description": "Malicious software, payloads, loaders, stealers, worms, trojans, spyware, destructive tooling, malware infrastructure, or malware behavior analysis.",
+          "expanded": "Malware",
+          "uuid": "fa9e1aa6-9ceb-5678-90e0-0a28c1da641b",
+          "value": "malware"
+        },
+        {
+          "description": "Static or dynamic analysis of binaries, protocols, malware, firmware, documents, or applications to understand design, behavior, capabilities, or indicators.",
+          "expanded": "Reverse Engineering",
+          "uuid": "6de69ca4-a844-5eab-8b51-d719ae7f0516",
+          "value": "reverse-engineering"
+        },
+        {
+          "description": "Digital forensic acquisition, preservation, examination, timeline analysis, evidence handling, artifact interpretation, or post-incident technical reconstruction.",
+          "expanded": "Forensics",
+          "uuid": "6c577620-d930-5a54-956d-2f191bf4abae",
+          "value": "forensics"
+        },
+        {
+          "description": "Authorized offensive security testing, adversary emulation, penetration testing methodology, exploit development for assessment, or controlled security validation.",
+          "expanded": "Red Team / Offensive Security",
+          "uuid": "656456d4-6639-51a3-ab06-d6c5365bf358",
+          "value": "red-team-offensive-security"
+        },
+        {
+          "description": "Security monitoring, hardening, detection engineering, incident prevention, blue-team operations, secure configuration, vulnerability management, and resilience measures.",
+          "expanded": "Defensive Security",
+          "uuid": "ea2724d9-c248-53ba-bf7b-5e18d2de4afa",
+          "value": "defensive-security"
+        },
+        {
+          "description": "Preparation for, triage of, containment of, eradication of, and recovery from cybersecurity incidents, including lessons learned and coordinated response activities.",
+          "expanded": "Incident Response",
+          "uuid": "7552c033-cec3-5704-8b50-7a686f47f6c3",
+          "value": "incident-response"
+        }
+      ],
+      "predicate": "cybersecurity"
+    },
+    {
+      "entry": [
+        {
+          "description": "Unauthorized access, intrusion methods, compromise claims, illicit exploitation, account or system takeover, and criminal misuse of technical capabilities.",
+          "expanded": "Hacking",
+          "uuid": "4439ba8e-d35e-573b-9d86-1ec83c437a4a",
+          "value": "hacking"
+        },
+        {
+          "description": "Deceptive schemes intended to obtain money, goods, services, accounts, or sensitive information, including social engineering and impersonation-driven fraud.",
+          "expanded": "Fraud / Scams",
+          "uuid": "8b63ca37-afb4-5ee4-83fc-4eafd5ee19de",
+          "value": "fraud-scams"
+        },
+        {
+          "description": "Credential, payment, or data theft attempts using deceptive emails, websites, messages, calls, kits, lures, or spoofed brands and identities.",
+          "expanded": "Phishing",
+          "uuid": "c0703d1e-af36-5cae-93d1-f996d0d71b04",
+          "value": "phishing"
+        },
+        {
+          "description": "Stealing, harvesting, buying, selling, validating, or abusing passwords, tokens, cookies, session data, MFA artifacts, or other authentication material.",
+          "expanded": "Credential Theft",
+          "uuid": "c49fdfa3-47c5-596f-a157-d14154315dc8",
+          "value": "credential-theft"
+        },
+        {
+          "description": "Theft, sale, validation, or fraudulent use of payment cards, card data, card-not-present transactions, carding tutorials, or carding-related services.",
+          "expanded": "Carding",
+          "uuid": "1c7ba1cc-4ae4-5f42-8fdb-4c71995fc19b",
+          "value": "carding"
+        },
+        {
+          "description": "Distributed denial-of-service attacks, stressers, booters, amplification methods, target lists, attack claims, or services used to disrupt availability.",
+          "expanded": "DDoS",
+          "uuid": "3f25efba-2b8a-570f-92d1-6e39d8f2edff",
+          "value": "ddos"
+        },
+        {
+          "description": "Networks of compromised devices, botnet malware, command-and-control operations, botnet rental, traffic generation, credential stuffing, spam, or proxy use.",
+          "expanded": "Botnets",
+          "uuid": "352d4686-d8a6-5246-9d73-cffb86b43b11",
+          "value": "botnets"
+        },
+        {
+          "description": "Ransomware operations, extortion portals, affiliate recruitment, leak sites, encryptors, victim negotiation, data theft extortion, or ransomware-as-a-service.",
+          "expanded": "Ransomware",
+          "uuid": "06083f15-7c86-5f46-936e-9f6a0cb6141c",
+          "value": "ransomware"
+        },
+        {
+          "description": "Collection, publication, sale, or threat of releasing personal identifying information, private records, location data, or contact details to intimidate, extort, or harass.",
+          "expanded": "Doxing",
+          "uuid": "6a702cd7-d2c6-55b3-837d-31030c1eed82",
+          "value": "doxing"
+        },
+        {
+          "description": "Criminal misuse of cryptocurrency, including theft, scams, illicit exchanges, wallet compromise, laundering, chain-hopping, mixers, drainers, or investment fraud.",
+          "expanded": "Crypto Crime",
+          "uuid": "4c474636-9e51-5f2d-b7ba-1e2fe6d3100f",
+          "value": "crypto-crime"
+        },
+        {
+          "description": "Published, traded, or advertised collections of stolen credentials, databases, account lists, logs, dumps, or leaked data from breaches.",
+          "expanded": "Credential Dumps/Data leaks",
+          "uuid": "0f09ad4b-fa8d-5a2c-ad73-c904dbd5e5a1",
+          "value": "credential-dumps-data-leaks"
+        }
+      ],
+      "predicate": "cybercrime"
+    },
+    {
+      "entry": [
+        {
+          "description": "Offers or requests for services, consulting, support, subscriptions, access, labor, or recurring capabilities in a marketplace or commercial context.",
+          "expanded": "Services",
+          "uuid": "a8b69ee0-b3e1-5ede-90fe-f16317dc5aca",
+          "value": "services"
+        },
+        {
+          "description": "Listings, reviews, advertisements, or requests for tangible or digital products, including product catalogs, pricing, availability, and fulfillment details.",
+          "expanded": "Products",
+          "uuid": "ed7d6d6e-c30f-557f-9164-ddf8199312bd",
+          "value": "products"
+        },
+        {
+          "description": "Short-term, contract, gig, task-based, or commission work offered or requested by individuals or groups outside formal employment channels.",
+          "expanded": "Freelance",
+          "uuid": "27d04feb-88aa-5374-be96-897baeec601f",
+          "value": "freelance"
+        },
+        {
+          "description": "Promotional posts, banners, sponsored content, marketing copy, affiliate offers, announcements, or repeated commercial solicitations.",
+          "expanded": "Advertisements",
+          "uuid": "db14b663-bbde-52fb-a283-f543810990f5",
+          "value": "advertisements"
+        },
+        {
+          "description": "Market content about buying, selling, exchanging, mining, staking, wallets, tokens, payment acceptance, or legitimate cryptocurrency commerce.",
+          "expanded": "Cryptocurrencies",
+          "uuid": "b77a3289-d6c6-5d52-bb4e-8ff2d3d6718f",
+          "value": "cryptocurrencies"
+        }
+      ],
+      "predicate": "markets"
+    },
+    {
+      "entry": [
+        {
+          "description": "Video games, online games, esports, game communities, in-game assets, cheats in a community context, servers, streams, or gaming culture.",
+          "expanded": "Gaming",
+          "uuid": "f106b5ec-d074-5f3f-8770-674e28ce5370",
+          "value": "gaming"
+        },
+        {
+          "description": "General social networking, chat, forums, friend groups, personal updates, memes, social media interactions, or community conversation.",
+          "expanded": "Social",
+          "uuid": "2f8a51cb-86cf-5461-b403-8ad32d8503bc",
+          "value": "social"
+        },
+        {
+          "description": "Dating services, matchmaking, personals, relationship-seeking posts, romantic introductions, or dating-community discussions.",
+          "expanded": "Dating",
+          "uuid": "6fb27d25-27e5-5446-8a07-76daab0cc82d",
+          "value": "dating"
+        },
+        {
+          "description": "Leisure interests, crafts, collecting, sports, travel, entertainment fandoms, personal projects, or other non-professional affinity groups.",
+          "expanded": "Hobbies",
+          "uuid": "3812d67d-7537-593e-a8c3-36021cd1ad37",
+          "value": "hobbies"
+        },
+        {
+          "description": "Clubs, societies, unions, professional bodies, advocacy organizations, member groups, nonprofit communities, or organized collective activity.",
+          "expanded": "Associations",
+          "uuid": "48872e43-7dc9-5437-aae3-b24eb3bee09b",
+          "value": "associations"
+        }
+      ],
+      "predicate": "communities"
+    },
+    {
+      "entry": [
+        {
+          "description": "Video files, livestreams, streaming platforms, channels, broadcasts, IPTV-like content, clips, or audiovisual media distribution.",
+          "expanded": "Video / Streaming",
+          "uuid": "077f03fe-5275-5873-b2a0-ac4a7e91078c",
+          "value": "video-streaming"
+        },
+        {
+          "description": "Music files, albums, tracks, playlists, artists, production, distribution, streaming, or music-community content.",
+          "expanded": "Music",
+          "uuid": "1dc04154-6956-54c8-8377-4602c2d4cdbc",
+          "value": "music"
+        },
+        {
+          "description": "Applications, installers, scripts, source code, utilities, plugins, cracks in a content-distribution context, or software downloads.",
+          "expanded": "Software",
+          "uuid": "3a1d555e-252d-541b-8588-84ecfb31b16c",
+          "value": "software"
+        },
+        {
+          "description": "Documents, archives, images, datasets, backups, torrents, mirrors, file-sharing posts, or generic file storage and exchange.",
+          "expanded": "Files",
+          "uuid": "c0e1b904-b967-59c3-886e-3992e54730e0",
+          "value": "files"
+        },
+        {
+          "description": "Sexually explicit or adult-oriented material involving consenting adults, adult entertainment discussion, adult services advertising, or age-restricted legal content.",
+          "expanded": "Adult Content",
+          "uuid": "91a2a3f9-ae77-5878-b66f-9bc348bdd8b1",
+          "value": "adult-content"
+        }
+      ],
+      "predicate": "digital-content"
+    },
+    {
+      "entry": [
+        {
+          "description": "Banks, payment accounts, transfers, loans, credit, financial institutions, retail banking services, or banking operations and policy.",
+          "expanded": "Banking",
+          "uuid": "805f2c9e-20d7-5532-baba-e2cb78fec1fb",
+          "value": "banking"
+        },
+        {
+          "description": "Buying and selling of financial instruments, market analysis, trading platforms, strategies, signals, commodities, equities, derivatives, or foreign exchange.",
+          "expanded": "Trading",
+          "uuid": "d9cc06cf-2e91-5d25-a343-ad23ca79061a",
+          "value": "trading"
+        },
+        {
+          "description": "Longer-term capital allocation, portfolios, funds, venture activity, real estate investment, retirement products, due diligence, or investment advice and promotion.",
+          "expanded": "Investment",
+          "uuid": "05451c34-d126-51b7-a5c4-669d4f9d3ed2",
+          "value": "investment"
+        },
+        {
+          "description": "Cryptocurrency finance, token markets, decentralized finance, wallets, exchanges, mining, staking, market commentary, or blockchain-based financial products.",
+          "expanded": "Crypto",
+          "uuid": "e92ada20-e190-5ec1-ac3a-adb6e52d900d",
+          "value": "crypto"
+        },
+        {
+          "description": "Pyramid schemes, Ponzi schemes, unrealistic profit promises, high-yield investment programs, get-rich-quick content, or other suspicious financial-gain solicitations.",
+          "expanded": "Ponzi / Financial Gain",
+          "uuid": "3281efa6-c734-5dc3-ba93-3c78c1184d37",
+          "value": "ponzi-financial-gain"
+        }
+      ],
+      "predicate": "finance"
+    },
+    {
+      "entry": [
+        {
+          "description": "Illegal sale, procurement, trafficking, modification, or instruction involving firearms, explosives, ammunition, restricted weapons, or weapon components.",
+          "expanded": "Weapons",
+          "uuid": "da75b78f-2c98-5854-abc4-08194de0ba36",
+          "value": "weapons"
+        },
+        {
+          "description": "Creation, sale, distribution, or procurement of counterfeit goods, forged documents, fake currency, cloned brands, fake certificates, or falsified identity materials.",
+          "expanded": "Counterfeiting",
+          "uuid": "c5e45e65-be5e-52cb-8cbf-deb3d53389ef",
+          "value": "counterfeiting"
+        },
+        {
+          "description": "Illegal drug sale, procurement, trafficking, production, precursors, prescription diversion, dosage discussion for illicit trade, or drug-market operations.",
+          "expanded": "Drugs",
+          "uuid": "8eff100e-b84c-5337-ba31-0770fb62d960",
+          "value": "drugs"
+        },
+        {
+          "description": "Illegal or unlicensed gambling operations, betting schemes, rigged games, underground casinos, gambling fraud, or prohibited wagering services.",
+          "expanded": "Gambling",
+          "uuid": "4678f9ee-7820-5c2f-961e-9e012040b419",
+          "value": "gambling"
+        },
+        {
+          "description": "Services or methods for concealing, moving, converting, cashing in, or cashing out illicit proceeds through financial systems, mules, crypto, or physical cash.",
+          "expanded": "Money Laundering / Cash In-Out",
+          "uuid": "31b11b45-f5a8-5cb4-85ea-1594e2a06743",
+          "value": "money-laundering-cash-in-out"
+        },
+        {
+          "description": "Criminal services such as access brokerage, malware deployment, exploit rental, spam runs, account takeover, credential validation, or paid intrusion support.",
+          "expanded": "Cybercriminal Services",
+          "uuid": "cae235c3-d1de-5b7a-b404-a6a9deb8b3e4",
+          "value": "cybercriminal-services"
+        },
+        {
+          "description": "Content, requests, distribution, or facilitation involving sexual abuse or exploitation of minors; use this label for detection, reporting, escalation, and victim-protection workflows.",
+          "expanded": "Child Abuse Material",
+          "uuid": "910257c8-b69d-5b84-bdeb-7db0bec40ff2",
+          "value": "child-abuse-material"
+        },
+        {
+          "description": "Illegal or non-consensual adult sexual content that does not involve minors, such as revenge abuse material, coerced content, hidden-camera content, or bestiality where illegal.",
+          "expanded": "Illicit Pornography excluding CSAM",
+          "uuid": "74064ce4-81da-55f6-ab34-02e2a94b8099",
+          "value": "illicit-pornography-excluding-csam"
+        },
+        {
+          "description": "Offers, requests, advertisements, scams, or coordination claiming to provide murder-for-hire, assassination, violent assault, intimidation, or related violent services.",
+          "expanded": "Hitman / Assassination Services",
+          "uuid": "ecdb0119-317d-59a1-9b4b-433e845ab725",
+          "value": "hitman-assassination-services"
+        }
+      ],
+      "predicate": "illegal-markets"
+    },
+    {
+      "entry": [
+        {
+          "description": "Web, application, storage, server, colocation, domain, DNS, CDN, or infrastructure hosting services and operational support.",
+          "expanded": "Hosting",
+          "uuid": "1a5e8a79-62d5-5870-9dda-4e4109c86f62",
+          "value": "hosting"
+        },
+        {
+          "description": "VPNs, proxy networks, anonymization services, Tor-related access services, residential proxies, traffic relays, or privacy-preserving connectivity.",
+          "expanded": "VPN / Proxies / Anonymisation",
+          "uuid": "d06694d7-ab32-5af0-bfdf-72f99451ed69",
+          "value": "vpn-proxies-anonymisation"
+        },
+        {
+          "description": "Hosting advertised or assessed as tolerant of abuse complaints, takedown requests, spam, malware, phishing, botnets, or other prohibited activity.",
+          "expanded": "Bulletproof Hosting",
+          "uuid": "730f3678-e79c-520c-84f2-fe1ef8423290",
+          "value": "bulletproof-hosting"
+        },
+        {
+          "description": "SIM cards, virtual numbers, SMS activation, OTP reception, phone verification, mobile identity, or messaging services used for account creation or communication.",
+          "expanded": "SIM/SMS Services",
+          "uuid": "11dd914e-3c43-5925-9d6e-20ebf0f61f6b",
+          "value": "sim-sms-services"
+        },
+        {
+          "description": "Bulk messaging, spam delivery, phishing kit deployment, email infrastructure, landing-page setup, mailing lists, or managed phishing campaign services.",
+          "expanded": "Spam/Phishing Services",
+          "uuid": "9a952fcb-a423-5a68-9cd7-8995a8f101fe",
+          "value": "spam-phishing-services"
+        }
+      ],
+      "predicate": "technical-services"
+    },
+    {
+      "entry": [
+        {
+          "description": "Content designed to persuade, mobilize, legitimize, demoralize, or influence audiences in support of a political, ideological, state, or organizational objective.",
+          "expanded": "Propaganda",
+          "uuid": "75baf38d-6efb-59fa-8fcf-5b0b3c3aa364",
+          "value": "propaganda"
+        },
+        {
+          "description": "Material expressing support for a specific country, government, movement, organization, armed group, leader, ideology, or other identifiable entity.",
+          "expanded": "Pro-Entity",
+          "uuid": "255c1e12-cc19-50c0-920d-e478dad2d90a",
+          "value": "pro-entity"
+        },
+        {
+          "description": "Material expressing opposition to, hostility toward, or targeting of a specific country, government, movement, organization, armed group, leader, ideology, or entity.",
+          "expanded": "Anti-Entity",
+          "uuid": "ac3d1958-666a-5727-82d8-e11f3b05446a",
+          "value": "anti-entity"
+        },
+        {
+          "description": "Content centered on national identity, sovereignty, territorial claims, patriotic mobilization, ethnic nationalism, separatism, or nation-based grievance narratives.",
+          "expanded": "Nationalist",
+          "uuid": "15230a5d-8364-56ae-9d92-7c340e4097ab",
+          "value": "nationalist"
+        },
+        {
+          "description": "Content promoting, justifying, recruiting for, or glorifying extremist ideology, political violence, terrorism, violent accelerationism, or anti-democratic violence.",
+          "expanded": "Extremist",
+          "uuid": "0ce3bbf3-b2b8-5508-a53e-9a9ad8c6ef42",
+          "value": "extremist"
+        },
+        {
+          "description": "Content framed primarily around religious doctrine, sectarian identity, ideological doctrine, belief-based mobilization, or worldview-driven narratives.",
+          "expanded": "Religious / Ideological",
+          "uuid": "64661731-2d6a-5741-b449-b60805c78c61",
+          "value": "religious-ideological"
+        },
+        {
+          "description": "Material about armed conflict, civil unrest, occupation, insurgency, sanctions, military escalation, wartime claims, or conflict-zone events and narratives.",
+          "expanded": "Conflict-Related",
+          "uuid": "e38333b4-786c-5ec9-80d9-fa346636a8c8",
+          "value": "conflict-related"
+        },
+        {
+          "description": "False, misleading, manipulated, or coordinated content intended or likely to deceive audiences, distort public understanding, or influence behavior around contested topics.",
+          "expanded": "Disinformation",
+          "uuid": "ef0e49ba-0dc9-5fae-aebb-191244c7d674",
+          "value": "disinformation"
+        }
+      ],
+      "predicate": "geopolitics-and-hacktivism"
+    }
+  ],
+  "version": 1
+}
