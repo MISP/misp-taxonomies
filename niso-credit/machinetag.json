@@ -1,0 +1,141 @@
+{
+  "namespace": "niso-credit",
+  "expanded": "NISO CRediT Contributor Roles Taxonomy",
+  "description": "NISO CRediT (Contributor Roles Taxonomy) roles for describing contributor roles and optional contribution degrees in scholarly outputs.",
+  "version": 1,
+  "refs": [
+    "https://groups.niso.org/higherlogic/ws/public/download/26466/ANSI-NISO-Z39.104-2022.pdf",
+    "https://credit.niso.org/",
+    "https://github.com/MISP/misp-taxonomies/issues/252"
+  ],
+  "predicates": [
+    {
+      "value": "contributor-role",
+      "expanded": "Contributor role",
+      "description": "One of the 14 CRediT contributor roles used to describe contributions to scholarly published output.",
+      "uuid": "dcbe47a6-4c0b-5e1d-ae92-23f4af6a6728"
+    },
+    {
+      "value": "degree-of-contribution",
+      "expanded": "Degree of contribution",
+      "description": "Optional degree of contribution when multiple individuals serve in the same CRediT role.",
+      "exclusive": true,
+      "uuid": "4ee4150c-b212-5138-8c7d-aac332caa6c5"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "contributor-role",
+      "entry": [
+        {
+          "value": "conceptualization",
+          "expanded": "Conceptualization",
+          "description": "Ideas; formulation or evolution of overarching research goals and aims.",
+          "uuid": "d018a42d-7183-516c-a97f-0d6d904d3644"
+        },
+        {
+          "value": "data-curation",
+          "expanded": "Data curation",
+          "description": "Management activities to annotate (produce metadata), scrub data and maintain research data, including software code where it is necessary for interpreting the data itself, for initial use and later re-use.",
+          "uuid": "4d2c1de0-0e7c-587d-adfd-3f28d19aeb16"
+        },
+        {
+          "value": "formal-analysis",
+          "expanded": "Formal analysis",
+          "description": "Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data.",
+          "uuid": "080accf6-dcc8-56d5-90fd-ee54b0a46cd7"
+        },
+        {
+          "value": "funding-acquisition",
+          "expanded": "Funding acquisition",
+          "description": "Acquisition of the financial support for the project leading to this publication.",
+          "uuid": "3df46cab-401c-5fb7-848a-ddc5fc1bcc6a"
+        },
+        {
+          "value": "investigation",
+          "expanded": "Investigation",
+          "description": "Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.",
+          "uuid": "fd83fcbb-d371-570d-abec-25c11b497f7c"
+        },
+        {
+          "value": "methodology",
+          "expanded": "Methodology",
+          "description": "Development or design of methodology; creation of models.",
+          "uuid": "f7c84a11-22e5-5555-a033-a8d16a907e1c"
+        },
+        {
+          "value": "project-administration",
+          "expanded": "Project administration",
+          "description": "Management and coordination responsibility for the research activity planning and execution.",
+          "uuid": "1fc0e756-f12d-514f-8e09-7d86e90d9c43"
+        },
+        {
+          "value": "resources",
+          "expanded": "Resources",
+          "description": "Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.",
+          "uuid": "2874a66c-4bb1-5429-bd74-cea64674a183"
+        },
+        {
+          "value": "software",
+          "expanded": "Software",
+          "description": "Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.",
+          "uuid": "6aa81996-b969-5148-bcd6-b3343c1371a2"
+        },
+        {
+          "value": "supervision",
+          "expanded": "Supervision",
+          "description": "Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.",
+          "uuid": "5f9a9cd9-940a-5043-8a0f-00f00a9a5f62"
+        },
+        {
+          "value": "validation",
+          "expanded": "Validation",
+          "description": "Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.",
+          "uuid": "acb3de8c-e9b2-53a3-a770-f8be4a7017e9"
+        },
+        {
+          "value": "visualization",
+          "expanded": "Visualization",
+          "description": "Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.",
+          "uuid": "28aeab13-c647-5c6a-a83d-4a08bb18c7a7"
+        },
+        {
+          "value": "writing-original-draft",
+          "expanded": "Writing – original draft",
+          "description": "Preparation, creation and/or presentation of the published work, specifically writing the initial draft, including substantive translation.",
+          "uuid": "d00bce71-c28b-5818-8dfb-6f0b53d16e4f"
+        },
+        {
+          "value": "writing-review-editing",
+          "expanded": "Writing – review & editing",
+          "description": "Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision, including pre- or post-publication stages.",
+          "uuid": "75fa2181-f3eb-5c31-8447-7367f3646431"
+        }
+      ]
+    },
+    {
+      "predicate": "degree-of-contribution",
+      "entry": [
+        {
+          "value": "lead",
+          "expanded": "Lead",
+          "description": "Lead degree of contribution where multiple individuals serve in the same role.",
+          "uuid": "5e9f2c71-cbef-58b7-9857-06258a7ac834"
+        },
+        {
+          "value": "equal",
+          "expanded": "Equal",
+          "description": "Equal degree of contribution where multiple individuals serve in the same role.",
+          "uuid": "7dc9d43b-1a19-5d4f-b97c-d0aef89e7d2e"
+        },
+        {
+          "value": "supporting",
+          "expanded": "Supporting",
+          "description": "Supporting degree of contribution where multiple individuals serve in the same role.",
+          "uuid": "84351645-3fb5-57c8-b54d-1b68d168ab4b"
+        }
+      ]
+    }
+  ],
+  "uuid": "7552ebaf-19e9-543b-a25a-ac7fc22646c4"
+}
