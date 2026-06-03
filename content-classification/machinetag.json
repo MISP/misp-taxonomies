@@ -475,7 +475,7 @@
           "value": "child-abuse-material"
         },
         {
-          "description": "Illegal or non-consensual adult sexual content that does not involve minors, such as revenge abuse material, coerced content, hidden-camera content, or bestiality where illegal.",
+          "description": "Illegal or non-consensual adult sexual content that does not involve minors, such as revenge abuse material, coerced content, hidden-camera content, necrophilia or bestiality where illegal.",
           "expanded": "Illicit Pornography excluding CSAM",
           "uuid": "74064ce4-81da-55f6-ab34-02e2a94b8099",
           "value": "illicit-pornography-excluding-csam"
@@ -578,5 +578,5 @@
       "predicate": "geopolitics-and-hacktivism"
     }
   ],
-  "version": 1
+  "version": 26060309
 }

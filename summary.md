@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2025-12-05
+- Generation date: 2026-06-03
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -176,11 +176,31 @@
     - infrastructure-action
     - infrastructure-state
     - infrastructure-type
+### agent-threat-rules
+- description: Agent Threat Rules (ATR) is an open detection standard for AI agent threats published under Apache 2.0. The taxonomy organises 330 community-maintained rules across ten attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. Predicates name the category; values are individual rule identifiers in the form ATR-YYYY-NNNNN.
+- version: 1
+- Predicates
+    - agent-manipulation
+    - context-exfiltration
+    - data-poisoning
+    - excessive-autonomy
+    - model-abuse
+    - model-security
+    - privilege-escalation
+    - prompt-injection
+    - skill-compromise
+    - tool-poisoning
 ### ai-bias-terminology
 - description: A list of standalone definitions for each type of bias. Aggregate terms that are in common usage or relevance to AI bias. From NIST.SP.1270-draft (2021)
 - version: 1
 - Predicates
     - bias-definitions
+### ai-computer-assisted
+- description: Taxonomy describing the level of AI assistance and the level of review/update involved in the creation of an intelligence package or event.
+- version: 1
+- Predicates
+    - assistance-level
+    - review-level
 ### ai-safety-benchmark
 - description: AI safety benchmark v0.5, that has been created by the MLCommons AI Safety Working Group (WG)
 - version: 2
@@ -263,6 +283,14 @@
 - version: 2
 - Predicates
     - type
+### carding
+- description: Classifying content, activities, tools, and actors within carding forums and marketplaces: A categorisation model for law enforcement. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.
+- version: 1
+- Predicates
+    - activity-context
+    - technique-tool
+    - product-service
+    - actor-role
 ### cccs
 - description: Internal taxonomy for CCCS.
 - version: 2
@@ -300,6 +328,13 @@
     - incident-classification
     - topic
     - significant
+### cloud-sovereignty
+- description: Cloud sovereignty objectives, assurance levels, and scoring weights derived from the European Commission Cloud Sovereignty Framework.
+- version: 1
+- Predicates
+    - objective
+    - seal
+    - weight
 ### cnsd
 - description: La presente taxonomia es la primera versión disponible para el Centro Nacional de Seguridad Digital del Perú.
 - version: 20220513
@@ -342,6 +377,21 @@
     - fraud
     - abusive-content
     - other
+### content-classification
+- description: Classification taxonomy for labeling the primary subject matter, intent, market context, and thematic domain of online content, including general information, technology, cybersecurity, cybercrime, markets, communities, finance, illegal markets, technical services, and geopolitical or hacktivist material.
+- version: 26060309
+- Predicates
+    - general
+    - technology
+    - cybersecurity
+    - cybercrime
+    - markets
+    - communities
+    - digital-content
+    - finance
+    - illegal-markets
+    - technical-services
+    - geopolitics-and-hacktivism
 ### copine-scale
 - description: The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse. The scale was developed by staff at the COPINE (Combating Paedophile Information Networks in Europe) project. The COPINE Project was founded in 1997, and is based in the Department of Applied Psychology, University College Cork, Ireland.
 - version: 3
@@ -369,6 +419,13 @@
     - behavior
     - false-positive
     - classification
+### cryptocurrency-market
+- description: Crypto Market: A categorisation model for cryptocurrency transactions and risk flags. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.
+- version: 1
+- Predicates
+    - intent
+    - payment-rail
+    - risk-flag
 ### cryptocurrency-threat
 - description: Threats targeting cryptocurrency, based on CipherTrace report.
 - version: 2
@@ -428,6 +485,22 @@
     - dissemination-done
     - feedback-received
     - feedback-pending
+### cti-evaluation
+- description: Evaluation taxonomy for cyber threat intelligence (CTI) quality and conversion quality in workflows such as MISP/STIX exchange and CTI Transmute, covering relevance, accuracy, timeliness, clarity, specificity, format validity, conversion fidelity, and usefulness.
+- version: 1
+- Predicates
+    - overall-score
+    - relevance
+    - accuracy
+    - timeliness
+    - clarity
+    - specificity
+    - usefulness
+    - format-validity
+    - conversion-fidelity
+    - source-reliability
+    - evidence-strength
+    - confidence
 ### current-event
 - description: Current events - Schemes of Classification in Incident Response and Detection
 - version: 1
@@ -455,7 +528,7 @@
     - action
 ### dark-web
 - description: Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.
-- version: 10
+- version: 11
 - Predicates
     - topic
     - motivation
@@ -473,7 +546,7 @@
     - sensitive-information
 ### dcso-sharing
 - description: Taxonomy defined in the DCSO MISP Event Guide. It provides guidance for the creation and consumption of MISP events in a way that minimises the extra effort for the sending party, while enhancing the usefulness for receiving parties.
-- version: 1
+- version: 2
 - Predicates
     - event-type
 ### ddos
@@ -705,6 +778,11 @@
     - cannabinoids
     - glucocorticoids
     - beta-blockers
+### drug-form
+- description: Primary physical forms of drugs: A categorisation model for narcotics and substances. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.
+- version: 2
+- Predicates
+    - form
 ### drugs
 - description: A taxonomy based on the superclass and class of drugs. Based on https://www.drugbank.ca/releases/latest
 - version: 2
@@ -765,12 +843,30 @@
     - eavesdropping-interception-hijacking
     - legal
     - nefarious-activity-abuse
+### ensoc
+- description: Official ENSOC (or EU CyberHUB) taxonomy covering all labels used during information exchange.
+- version: 1
+- Predicates
+    - workflow
+    - source
+    - recommended-action
+    - class
+    - state
 ### estimative-language
 - description: Estimative language to describe quality and credibility of underlying sources, data, and methodologies based Intelligence Community Directive 203 (ICD 203) and JP 2-0, Joint Intelligence
 - version: 5
 - Predicates
     - likelihood-probability
     - confidence-in-analytic-judgment
+### eu-ai-act
+- description: Taxonomy for the EU Artificial Intelligence Act (Regulation (EU) 2024/1689). Classifies AI systems by risk level, prohibited practices, high-risk use cases, and incident types for GRC and SOC reporting.
+- version: 1
+- Predicates
+    - risk-level
+    - prohibited-practice
+    - high-risk-category
+    - incident-type
+    - compliance-status
 ### eu-marketop-and-publicadmin
 - description: Market operators and public administrations that must comply to some notifications requirements under EU NIS directive
 - version: 1
@@ -874,7 +970,7 @@
     - event-class
 ### exercise
 - description: Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.
-- version: 14
+- version: 15
 - Predicates
     - cyber-europe
     - cyber-storm
@@ -1062,6 +1158,34 @@
     - distribution-appearance
     - communication-interface
     - role
+### iab-ad-product-2-0
+- description: IAB Tech Lab Ad Product Taxonomy 2.0 converted from the official TSV. It establishes standardized nomenclature for describing the product or service advertised within a creative unit. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.
+- version: 1
+- Predicates
+    - automotive
+    - business
+    - consumer-electronics
+### iab-audience-1-1
+- description: IAB Tech Lab Audience Taxonomy 1.1 converted from the official TSV. It provides common nomenclature for audience segment names to improve comparability across data providers. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.
+- version: 1
+- Predicates
+    - demographic
+    - interest
+    - purchase-intent
+### iab-content-3-0-descriptive-vectors
+- description: IAB Tech Lab Content Taxonomy 3.0 Descriptive Vectors converted from the official TSV. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.
+- version: 1
+- Predicates
+    - audio
+    - video
+### iab-content-3-1
+- description: IAB Tech Lab Content Taxonomy 3.1 converted from the official TSV. It provides a common language for describing content or the aboutness of a webpage, application, or video. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.
+- version: 1
+- Predicates
+    - attractions
+    - automotive
+    - books-and-literature
+    - business-and-finance
 ### ics
 - description: FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project
 - version: 1
@@ -1383,6 +1507,12 @@
     - nature-root-cause
     - nature-severity
     - test
+### niso-credit
+- description: NISO CRediT (Contributor Roles Taxonomy) roles for describing contributor roles and optional contribution degrees in scholarly outputs.
+- version: 1
+- Predicates
+    - contributor-role
+    - degree-of-contribution
 ### open_threat
 - description: Open Threat Taxonomy v1.1 base on James Tarala of SANS http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf, https://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Using-Open-Tools-to-Convert-Threat-Intelligence-into-Practical-Defenses-James-Tarala-SANS-Institute.pdf, https://www.youtube.com/watch?v=5rdGOOFC_yE, and https://www.rsaconference.com/writable/presentations/file_upload/str-r04_using-an-open-source-threat-model-for-prioritized-defense-final.pdf
 - version: 1
@@ -1629,6 +1759,13 @@
 - Predicates
     - technical
     - non-technical
+### sov
+- description: SoV Cloud sovereignty objectives, assurance levels, and scoring weights derived from the European Commission Cloud Sovereignty Framework.
+- version: 1
+- Predicates
+    - objective
+    - seal
+    - weight
 ### srbcert
 - description: SRB-CERT Taxonomy - Schemes of Classification in Incident Response and Detection
 - version: 3
@@ -1733,6 +1870,24 @@
     - IMINT
     - MASINT
     - FININT
+### uas-additionnal-classification
+- description: Additional UAV and UCAV-related tags for qualifying usage and model specifications.
+- version: 1
+- Predicates
+    - FPV
+    - VTOL
+    - LM
+    - ISR
+    - QUAD
+    - OCTO
+    - FIBER
+    - INTERCEPTOR
+    - HELI
+    - HEXA
+    - WING
+    - BARRAGE
+    - CARGO
+    - OWA
 ### unified-kill-chain
 - description: The Unified Kill Chain is a refinement to the Kill Chain.
 - version: 1
@@ -1842,12 +1997,13 @@
     - degré-de-probabilité
 ### vulnerability
 - description: A taxonomy for describing vulnerabilities (software, hardware, or social) on different scales or with additional available information.
-- version: 5
+- version: 7
 - Predicates
     - sighting
     - exploitability
     - information
     - origin
+    - nvd
 ### workflow
 - description: Workflow support language is a common language to support intelligence analysts to perform their analysis on data and information.
 - version: 15
