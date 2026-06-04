@@ -861,7 +861,7 @@
     {
       "description": "Additional UAV and UCAV-related tags for qualifying usage and model specifications.",
       "name": "uas-additionnal-classification",
-      "version": 1
+      "version": 2
     },
     {
       "description": "The Unified Kill Chain is a refinement to the Kill Chain.",
