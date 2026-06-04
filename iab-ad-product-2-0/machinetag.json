@@ -1,0 +1,72 @@
+{
+  "namespace": "iab-ad-product-2-0",
+  "expanded": "IAB Tech Lab Ad Product Taxonomy 2.0",
+  "description": "IAB Tech Lab Ad Product Taxonomy 2.0 converted from the official TSV. It establishes standardized nomenclature for describing the product or service advertised within a creative unit. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+  "version": 1,
+  "refs": [
+    "https://github.com/InteractiveAdvertisingBureau/Taxonomies",
+    "https://creativecommons.org/licenses/by/3.0/"
+  ],
+  "predicates": [
+    {
+      "value": "automotive",
+      "expanded": "Automotive",
+      "description": "IAB top-level category: Automotive.",
+      "uuid": "dcbdf04c-caaa-5d99-9e3b-4fd480fece92"
+    },
+    {
+      "value": "business",
+      "expanded": "Business",
+      "description": "IAB top-level category: Business.",
+      "uuid": "1d18e062-17e3-5222-b38d-39dba62da95b"
+    },
+    {
+      "value": "consumer-electronics",
+      "expanded": "Consumer Electronics",
+      "description": "IAB top-level category: Consumer Electronics.",
+      "uuid": "5ee44c8e-d857-5a5c-bcaf-02a3be9b1cfd"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "automotive",
+      "entry": [
+        {
+          "value": "auto-parts",
+          "expanded": "Automotive / Auto Parts",
+          "description": "Automotive / Auto Parts; IAB Unique ID: 2; IAB Parent ID: 1.",
+          "uuid": "d46313fe-7e01-502a-b75d-03f9bba47caf"
+        },
+        {
+          "value": "vehicle-dealers",
+          "expanded": "Automotive / Vehicle Dealers",
+          "description": "Automotive / Vehicle Dealers; IAB Unique ID: 3; IAB Parent ID: 1.",
+          "uuid": "505ff2c3-3116-5fec-ab68-bd6fa73a4da2"
+        }
+      ]
+    },
+    {
+      "predicate": "business",
+      "entry": [
+        {
+          "value": "business-services",
+          "expanded": "Business / Business Services",
+          "description": "Business / Business Services; IAB Unique ID: 101; IAB Parent ID: 100.",
+          "uuid": "8a898851-2a2d-5522-9315-bd32ec9f93f0"
+        }
+      ]
+    },
+    {
+      "predicate": "consumer-electronics",
+      "entry": [
+        {
+          "value": "computers",
+          "expanded": "Consumer Electronics / Computers",
+          "description": "Consumer Electronics / Computers; IAB Unique ID: 201; IAB Parent ID: 200.",
+          "uuid": "e5a6d1a1-3555-5374-8412-fdee40da526a"
+        }
+      ]
+    }
+  ],
+  "uuid": "020bcbc9-d44e-44ac-80b6-61144f3e021a"
+}

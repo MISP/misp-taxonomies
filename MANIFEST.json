@@ -119,6 +119,11 @@
       "version": 2
     },
     {
+      "description": "Classifying content, activities, tools, and actors within carding forums and marketplaces: A categorisation model for law enforcement. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
+      "name": "carding",
+      "version": 1
+    },
+    {
       "description": "Internal taxonomy for CCCS.",
       "name": "cccs",
       "version": 2
@@ -159,6 +164,11 @@
       "version": 3
     },
     {
+      "description": "Classification taxonomy for labeling the primary subject matter, intent, market context, and thematic domain of online content, including general information, technology, cybersecurity, cybercrime, markets, communities, finance, illegal markets, technical services, and geopolitical or hacktivist material.",
+      "name": "content-classification",
+      "version": 26060309
+    },
+    {
       "description": "The COPINE Scale is a rating system created in Ireland and used in the United Kingdom to categorise the severity of images of child sex abuse. The scale was developed by staff at the COPINE (Combating Paedophile Information Networks in Europe) project. The COPINE Project was founded in 1997, and is based in the Department of Applied Psychology, University College Cork, Ireland.",
       "name": "copine-scale",
       "version": 3
@@ -171,6 +181,11 @@
     {
       "description": "Crowdsec IP address classifications and behaviors taxonomy.",
       "name": "crowdsec",
+      "version": 1
+    },
+    {
+      "description": "Crypto Market: A categorisation model for cryptocurrency transactions and risk flags. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
+      "name": "cryptocurrency-market",
       "version": 1
     },
     {
@@ -199,6 +214,11 @@
       "version": 1
     },
     {
+      "description": "Evaluation taxonomy for cyber threat intelligence (CTI) quality and conversion quality in workflows such as MISP/STIX exchange and CTI Transmute, covering relevance, accuracy, timeliness, clarity, specificity, format validity, conversion fidelity, and usefulness.",
+      "name": "cti-evaluation",
+      "version": 1
+    },
+    {
       "description": "Current events - Schemes of Classification in Incident Response and Detection",
       "name": "current-event",
       "version": 1
@@ -221,7 +241,7 @@
     {
       "description": "Criminal motivation and content detection the dark web: A categorisation model for law enforcement. ref: Janis Dalins, Campbell Wilson, Mark Carman. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission.",
       "name": "dark-web",
-      "version": 10
+      "version": 11
     },
     {
       "description": "Data classification for data potentially at risk of exfiltration based on table 2.1 of Solving Cyber Risk book.",
@@ -291,6 +311,11 @@
     {
       "description": "This taxonomy aims to list doping substances",
       "name": "doping-substances",
+      "version": 2
+    },
+    {
+      "description": "Primary physical forms of drugs: A categorisation model for narcotics and substances. Taxonomy updated by MISP Project and extended by the JRC (Joint Research Centre) of the European Commission, and subsequently re-extended by the Cátedra Ada Byron UAH-INCIBE.",
+      "name": "drug-form",
       "version": 2
     },
     {
@@ -447,6 +472,26 @@
       "description": "Updated (CIRCL, Seamus Dowling and EURECOM) from Christian Seifert, Ian Welch, Peter Komisarczuk, ‘Taxonomy of Honeypots’, Technical Report CS-TR-06/12, VICTORIA UNIVERSITY OF WELLINGTON, School of Mathematical and Computing Sciences, June 2006, http://www.mcs.vuw.ac.nz/comp/Publications/archive/CS-TR-06/CS-TR-06-12.pdf",
       "name": "honeypot-basic",
       "version": 4
+    },
+    {
+      "description": "IAB Tech Lab Ad Product Taxonomy 2.0 converted from the official TSV. It establishes standardized nomenclature for describing the product or service advertised within a creative unit. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+      "name": "iab-ad-product-2-0",
+      "version": 1
+    },
+    {
+      "description": "IAB Tech Lab Audience Taxonomy 1.1 converted from the official TSV. It provides common nomenclature for audience segment names to improve comparability across data providers. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+      "name": "iab-audience-1-1",
+      "version": 1
+    },
+    {
+      "description": "IAB Tech Lab Content Taxonomy 3.0 Descriptive Vectors converted from the official TSV. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+      "name": "iab-content-3-0-descriptive-vectors",
+      "version": 1
+    },
+    {
+      "description": "IAB Tech Lab Content Taxonomy 3.1 converted from the official TSV. It provides a common language for describing content or the aboutness of a webpage, application, or video. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+      "name": "iab-content-3-1",
+      "version": 1
     },
     {
       "description": "FIRST.ORG CTI SIG - MISP Proposal for ICS/OT Threat Attribution (IOC) Project",
@@ -622,6 +667,11 @@
       "description": "The taxonomy is meant for large scale cybersecurity incidents, as mentioned in the Commission Recommendation of 13 May 2022, also known as the provisional agreement. It has two core parts: The nature of the incident, i.e. the underlying cause, that triggered the incident, and the impact of the incident, i.e. the impact on services, in which sector(s) of economy and society.",
       "name": "nis2",
       "version": 5
+    },
+    {
+      "description": "NISO CRediT (Contributor Roles Taxonomy) roles for describing contributor roles and optional contribution degrees in scholarly outputs.",
+      "name": "niso-credit",
+      "version": 1
     },
     {
       "description": "Open Threat Taxonomy v1.1 base on James Tarala of SANS http://www.auditscripts.com/resources/open_threat_taxonomy_v1.1a.pdf, https://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Using-Open-Tools-to-Convert-Threat-Intelligence-into-Practical-Defenses-James-Tarala-SANS-Institute.pdf, https://www.youtube.com/watch?v=5rdGOOFC_yE, and https://www.rsaconference.com/writable/presentations/file_upload/str-r04_using-an-open-source-threat-model-for-prioritized-defense-final.pdf",
@@ -855,5 +905,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260516"
+  "version": "20260603"
 }

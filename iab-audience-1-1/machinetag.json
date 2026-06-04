@@ -1,0 +1,90 @@
+{
+  "namespace": "iab-audience-1-1",
+  "expanded": "IAB Tech Lab Audience Taxonomy 1.1",
+  "description": "IAB Tech Lab Audience Taxonomy 1.1 converted from the official TSV. It provides common nomenclature for audience segment names to improve comparability across data providers. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+  "version": 1,
+  "refs": [
+    "https://github.com/InteractiveAdvertisingBureau/Taxonomies",
+    "https://creativecommons.org/licenses/by/3.0/"
+  ],
+  "predicates": [
+    {
+      "value": "demographic",
+      "expanded": "Demographic",
+      "description": "IAB top-level category: Demographic.",
+      "uuid": "c951e660-f2b8-5793-99d1-b0cc6c1db064"
+    },
+    {
+      "value": "interest",
+      "expanded": "Interest",
+      "description": "IAB top-level category: Interest.",
+      "uuid": "0451400b-533a-5501-a29d-6e9d066edc63"
+    },
+    {
+      "value": "purchase-intent",
+      "expanded": "Purchase Intent",
+      "description": "IAB top-level category: Purchase Intent.",
+      "uuid": "eef81473-6fe3-5f51-9f07-1bc1c4e0bc60"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "demographic",
+      "entry": [
+        {
+          "value": "age-range",
+          "expanded": "Demographic / Age Range",
+          "description": "Demographic / Age Range; IAB Unique ID: 2; IAB Parent ID: 1.",
+          "uuid": "9c52ef2e-cb66-564d-b5cd-528d7ee3f7a3"
+        },
+        {
+          "value": "age-range-18-20",
+          "expanded": "Demographic / Age Range / 18-20",
+          "description": "Demographic / Age Range / 18-20; IAB Unique ID: 3; IAB Parent ID: 2.",
+          "uuid": "d9ab9855-e9c0-5c70-9ee2-9fee0a695515"
+        },
+        {
+          "value": "education-and-occupation",
+          "expanded": "Demographic / Education & Occupation",
+          "description": "Demographic / Education & Occupation; IAB Unique ID: 16; IAB Parent ID: 1.",
+          "uuid": "8e3f5efd-d745-5fc8-ab2b-e9a9ca95b357"
+        },
+        {
+          "value": "gender",
+          "expanded": "Demographic / Gender",
+          "description": "Demographic / Gender; IAB Unique ID: 48; IAB Parent ID: 1.",
+          "uuid": "f4afc2fd-af15-5ec0-be75-663c6b2896e4"
+        },
+        {
+          "value": "gender-female",
+          "expanded": "Demographic / Gender / Female",
+          "description": "Demographic / Gender / Female; IAB Unique ID: 49; IAB Parent ID: 48.",
+          "uuid": "697eac60-c261-5edb-b0f8-616a2bb4dbe2"
+        }
+      ]
+    },
+    {
+      "predicate": "interest",
+      "entry": [
+        {
+          "value": "automotive",
+          "expanded": "Interest / Automotive",
+          "description": "Interest / Automotive; IAB Unique ID: 1001; IAB Parent ID: 1000.",
+          "uuid": "0ad08bec-f1c3-54a7-b83d-dd3c318e7ef6"
+        }
+      ]
+    },
+    {
+      "predicate": "purchase-intent",
+      "entry": [
+        {
+          "value": "travel",
+          "expanded": "Purchase Intent / Travel",
+          "description": "Purchase Intent / Travel; IAB Unique ID: 2001; IAB Parent ID: 2000.",
+          "uuid": "6e2158e6-7723-54b9-8e49-ea69ed2c5cc5"
+        }
+      ]
+    }
+  ],
+  "uuid": "c92d3887-907d-4064-9067-40cf8104d8c9"
+}

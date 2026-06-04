@@ -1,0 +1,61 @@
+{
+  "namespace": "iab-content-3-0-descriptive-vectors",
+  "expanded": "IAB Tech Lab Content Taxonomy 3.0 Descriptive Vectors",
+  "description": "IAB Tech Lab Content Taxonomy 3.0 Descriptive Vectors converted from the official TSV. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
+  "version": 1,
+  "refs": [
+    "https://github.com/InteractiveAdvertisingBureau/Taxonomies",
+    "https://creativecommons.org/licenses/by/3.0/"
+  ],
+  "predicates": [
+    {
+      "value": "audio",
+      "expanded": "Audio",
+      "description": "IAB top-level category: Audio.",
+      "uuid": "76845939-283d-5eee-b3ea-b559e0863772"
+    },
+    {
+      "value": "video",
+      "expanded": "Video",
+      "description": "IAB top-level category: Video.",
+      "uuid": "697ef116-5adc-52c1-965e-50021b8a9768"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "audio",
+      "entry": [
+        {
+          "value": "podcast",
+          "expanded": "Audio / Podcast",
+          "description": "Audio / Podcast; IAB Unique ID: 5; IAB Parent ID: 4.",
+          "uuid": "a8ffdd38-3eb3-5251-ba2f-2d1cb5c57df0"
+        },
+        {
+          "value": "music",
+          "expanded": "Audio / Music",
+          "description": "Audio / Music; IAB Unique ID: 6; IAB Parent ID: 4.",
+          "uuid": "8e157e07-82ff-5f3d-959e-89650fe90266"
+        }
+      ]
+    },
+    {
+      "predicate": "video",
+      "entry": [
+        {
+          "value": "in-video",
+          "expanded": "Video / In-Video",
+          "description": "Video / In-Video; IAB Unique ID: 2; IAB Parent ID: 1.",
+          "uuid": "1b8aa80d-5c5a-5f3b-98ec-8ed671a78d90"
+        },
+        {
+          "value": "livestream",
+          "expanded": "Video / Livestream",
+          "description": "Video / Livestream; IAB Unique ID: 3; IAB Parent ID: 1.",
+          "uuid": "c7cf7eb6-dd72-5c27-8b39-fc5db0a57ff1"
+        }
+      ]
+    }
+  ],
+  "uuid": "5b76b469-9ef9-473f-8250-f18746faaf62"
+}
