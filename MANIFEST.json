@@ -391,7 +391,7 @@
     {
       "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
       "name": "exercise",
-      "version": 15
+      "version": 16
     },
     {
       "description": "Reasons why an event has been extended. This taxonomy must be used on the extended event. The competitive analysis aspect is from Psychology of Intelligence Analysis by Richard J. Heuer, Jr. ref:http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf",
@@ -905,5 +905,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260604"
+  "version": "20260610"
 }
