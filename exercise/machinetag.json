@@ -54,6 +54,12 @@
       "predicate": "cyber-europe",
       "entry": [
         {
+          "value": "2026",
+          "expanded": "2026",
+          "description": "8th pan European cyber crisis exercise: Cyber Europe 2026 (CE2026)",
+          "uuid": "69395116-faa3-4607-be58-86b1ce034293"
+        },
+        {
           "value": "2024",
           "expanded": "2024",
           "description": "7th pan European cyber crisis exercise: Cyber Europe 2024 (CE2024)",
@@ -265,7 +271,7 @@
       ]
     }
   ],
-  "version": 15,
+  "version": 16,
   "description": "Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.",
   "expanded": "Exercise",
   "namespace": "exercise",
