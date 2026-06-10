@@ -2,7 +2,7 @@
   "namespace": "uas-additionnal-classification",
   "uuid": "3f6c2b8e-7c41-4f92-9d63-8e2a1c5b7d44",
   "description": "Additional UAV and UCAV-related tags for qualifying usage and model specifications.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "FPV",
@@ -80,7 +80,7 @@
       "value": "CARGO",
       "expanded": "Cargo delivery drone",
       "description": "Unmanned aerial system configured for the transport and delivery of logistical payloads, supplies, or equipment to forward or remote positions.",
-      "uuid": "7a3c5d9e-1f84-4b2a-c3e7-9d4f1a8b2c22"
+      "uuid": "0579c8f6-3f69-4270-ab11-a076869ae093"
     },
     {
       "value": "OWA",
