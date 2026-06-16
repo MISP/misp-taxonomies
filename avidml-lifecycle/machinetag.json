@@ -1,0 +1,60 @@
+{
+  "namespace": "avidml-lifecycle",
+  "description": "AVIDML import of the AVID lifecycle taxonomy, adopting the CRISP-DM lifecycle as a starting point and mapping development stages for datasets, models, and systems within the AI ecosystem.",
+  "refs": [
+    "https://github.com/avidml/avid-schema/tree/main/taxonomy"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "lifecycle",
+      "expanded": "Lifecycle",
+      "description": "The stages in this view represent high-level sequential steps of a typical ML workflow.",
+      "uuid": "f6935a2e-21d4-4375-a756-2abc89f530f3"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "lifecycle",
+      "entry": [
+        {
+          "value": "L01",
+          "expanded": "Business Understanding",
+          "description": "Understand and define the problem you're trying to solve, including who it impacts and how.",
+          "uuid": "385e68ee-74ea-4316-8605-7d22a2feb73c"
+        },
+        {
+          "value": "L02",
+          "expanded": "Data Understanding",
+          "description": "Inspect, catalog, describe, and assess your data.",
+          "uuid": "7ed909c4-547f-494f-96dc-0ffd30bee16c"
+        },
+        {
+          "value": "L03",
+          "expanded": "Data Preparation",
+          "description": "Clean, reshape, and enhance your data to make it fit for the problem you're addressing.",
+          "uuid": "c6662c4c-abe7-41f5-99de-99291754a298"
+        },
+        {
+          "value": "L04",
+          "expanded": "Model Development",
+          "description": "Use the data you've prepared to create a model.",
+          "uuid": "4c93f102-bc60-4cab-a0b2-2067de4a3d95"
+        },
+        {
+          "value": "L05",
+          "expanded": "Evaluation",
+          "description": "Determine if the model you created meets the requirements you established to address your problem. This includes determining if it's safe.",
+          "uuid": "d41a5dc3-b90a-412c-9628-82efe286708b"
+        },
+        {
+          "value": "L06",
+          "expanded": "Deployment",
+          "description": "Deploying the model into a system, and the system into production.",
+          "uuid": "8e95b95c-20b1-4748-88fa-2c9e89079217"
+        }
+      ]
+    }
+  ],
+  "uuid": "aefb45f8-5b50-4f7e-9255-952f897c2a63"
+}

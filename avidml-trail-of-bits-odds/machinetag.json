@@ -1,0 +1,464 @@
+{
+  "namespace": "avidml-trail-of-bits-odds",
+  "description": "AVIDML import of the Operational Design Domain taxonomy from Heidy Khlaaf's publication 'Toward Comprehensive Risk Assessments and Assurance of AI-Based Systems'.",
+  "refs": [
+    "https://github.com/avidml/avid-schema/tree/main/taxonomy",
+    "https://github.com/trailofbits/publications/blob/master/papers/toward_comprehensive_risk_assessments.pdf"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "application",
+      "expanded": "Application",
+      "description": "The specific area or domain of intended use for a system.",
+      "uuid": "3a26a5df-ceff-4a0e-9454-ce76aec00d32"
+    },
+    {
+      "value": "users-agents",
+      "expanded": "Users and Human Agents",
+      "description": "The people who interact with, modify and correct, or are affected by the system.",
+      "uuid": "07c015da-c94f-407e-aac4-4f1f58661123"
+    },
+    {
+      "value": "vector",
+      "expanded": "Vector",
+      "description": "The risk and attack surfaces within the system that must be examined to assess hazards and harms.",
+      "uuid": "dd3c668b-b6e3-4694-a77f-dbfb876d46b7"
+    },
+    {
+      "value": "protected-characteristics",
+      "expanded": "Protected Characteristics",
+      "description": "Attributes of protected, marginalized, and vulnerable groups who are disproportionately affected by ML models.",
+      "uuid": "65a38343-9e51-45ff-b2f9-2288f8f022c2"
+    },
+    {
+      "value": "assets",
+      "expanded": "Assets",
+      "description": "The components that support the system's proper functioning.",
+      "uuid": "631c3d1a-de8a-4302-a099-6295db109e54"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "application",
+      "entry": [
+        {
+          "value": "arts-culture",
+          "expanded": "Arts & Culture",
+          "uuid": "228809ea-c916-40c2-aa80-e2059905114a"
+        },
+        {
+          "value": "auto-transport",
+          "expanded": "Automotive & Transportation",
+          "uuid": "19e68f3c-8e1c-483c-8b6f-6e3239b5771f"
+        },
+        {
+          "value": "communications",
+          "expanded": "Communications",
+          "uuid": "682ee250-3fd4-47c7-8efd-2f74a87de7c1"
+        },
+        {
+          "value": "finance",
+          "expanded": "Finance & Economics",
+          "uuid": "e7acfbe9-6c9d-4c42-91cb-a1e9f662a420"
+        },
+        {
+          "value": "government",
+          "expanded": "Government & Civics",
+          "uuid": "925ddcff-2a74-4096-a11f-3b2d98fb1ff3"
+        },
+        {
+          "value": "human-health",
+          "expanded": "Human Health",
+          "uuid": "183b5297-897e-4661-ba5e-a714412bbdb3"
+        },
+        {
+          "value": "media",
+          "expanded": "Journalism and Media",
+          "uuid": "b892755e-cb2e-44c6-b09b-c0b4044612cc"
+        },
+        {
+          "value": "law",
+          "expanded": "Law",
+          "uuid": "e745ce9e-5ab7-4e66-91be-a31643ef5397"
+        },
+        {
+          "value": "manufacturing",
+          "expanded": "Manufacturing and Commerce",
+          "uuid": "d16c0799-6f64-4237-9038-4624b05234d4"
+        },
+        {
+          "value": "marketing",
+          "expanded": "Marketing, Advertising, and Microtargeting",
+          "uuid": "a7a54df8-e8ee-4b90-8d8c-adb133260306"
+        },
+        {
+          "value": "opportunity",
+          "expanded": "Opportunity and Livelihood",
+          "uuid": "06fe8cb1-c4e8-4105-9a23-e7377c531ad5"
+        },
+        {
+          "value": "productivity",
+          "expanded": "Productivity and Education",
+          "uuid": "9e415a7f-2085-4333-94c4-31d03ca4e0ac"
+        },
+        {
+          "value": "infrastructure",
+          "expanded": "Safety-Critical and Infrastructure",
+          "uuid": "a7a2267e-c352-407b-b9e8-3868908476ae"
+        },
+        {
+          "value": "defense",
+          "expanded": "Security and Defense",
+          "uuid": "07796bb1-0aac-4592-b516-70a4f275f0da"
+        },
+        {
+          "value": "stem",
+          "expanded": "Science, Technology, Engineering, and Mathematics",
+          "uuid": "35084043-99de-468f-9224-d3cbeeb60fef"
+        },
+        {
+          "value": "political",
+          "expanded": "Social and Political Advocacy",
+          "uuid": "074bce8d-01fa-4e99-80cd-9b7135d6a33d"
+        }
+      ]
+    },
+    {
+      "predicate": "users-agents",
+      "entry": [
+        {
+          "value": "end-user",
+          "expanded": "End User",
+          "uuid": "1663b375-dd13-4d69-83b8-cc9e289123ff"
+        },
+        {
+          "value": "model-user",
+          "expanded": "Model User",
+          "uuid": "b37b0224-1804-4059-81f7-b4094cd51222"
+        },
+        {
+          "value": "model-subject",
+          "expanded": "Model Subject",
+          "uuid": "02f24b50-4cc0-4a9e-ba70-b46aa895bf54"
+        },
+        {
+          "value": "data-subject",
+          "expanded": "Data Subject",
+          "uuid": "ceb05482-491c-4cee-96f3-9bca16d7eb71"
+        },
+        {
+          "value": "data-owner",
+          "expanded": "Data Owner",
+          "uuid": "c7e18973-2cf8-47c0-aada-933ee089e1ce"
+        },
+        {
+          "value": "model-owner",
+          "expanded": "Model Owner",
+          "uuid": "5b47c440-33ff-43da-89ff-5303eaa190cc"
+        },
+        {
+          "value": "data-labeler-training",
+          "expanded": "Data Labeler (Training)",
+          "uuid": "76ad03eb-8c79-458d-a369-d65416d5c27a"
+        },
+        {
+          "value": "hitl",
+          "expanded": "Human-in-the-loop (HITL)",
+          "uuid": "5b17d853-f26f-45e1-b4c1-a0a09fb5ee04"
+        },
+        {
+          "value": "hitl-corrective",
+          "expanded": "Fine Tuning & Corrective (HITL)",
+          "uuid": "78a4073c-39fd-4dbe-b3c2-a05b4a9d2dca"
+        },
+        {
+          "value": "hitl-resilience",
+          "expanded": "Resilience (HITL)",
+          "uuid": "2a5191fc-ba67-4aa9-b662-b16a5774e0f0"
+        },
+        {
+          "value": "hitl-justifactory",
+          "expanded": "Justifactory (HITL)",
+          "uuid": "b59b3e02-a830-4756-8b61-d7b8999e39af"
+        },
+        {
+          "value": "hitl-dignitary",
+          "expanded": "Dignitary (HITL)",
+          "uuid": "931400f5-a259-492c-96f6-3d29829c1c72"
+        },
+        {
+          "value": "hitl-accountability",
+          "expanded": "Accountability (HITL)",
+          "uuid": "85db9eb9-2da1-4b05-b023-935046210219"
+        },
+        {
+          "value": "hitl-stand-in",
+          "expanded": "Stand In (HITL)",
+          "uuid": "87da69fd-1b8b-49a7-b2e1-1c69f3531452"
+        },
+        {
+          "value": "hitl-friction",
+          "expanded": "Friction (HITL)",
+          "uuid": "d9f22025-eaa8-4283-87c2-a52fe38db588"
+        },
+        {
+          "value": "hitl-warm-body",
+          "expanded": "Warm Body (HITL)",
+          "uuid": "3aad8ecf-3e84-465d-99e7-a480fff09499"
+        },
+        {
+          "value": "hitl-interface-link",
+          "expanded": "Interface Link (HITL)",
+          "uuid": "5325bffc-1692-48ed-b7d0-d3e7b2c1de5c"
+        }
+      ]
+    },
+    {
+      "predicate": "vector",
+      "entry": [
+        {
+          "value": "physical",
+          "expanded": "Physical or Physical-Infrastructure",
+          "uuid": "6bfb2318-a0f6-4605-a0dc-70c0874550cd"
+        },
+        {
+          "value": "physical-sensor",
+          "expanded": "Sensor",
+          "uuid": "6479181c-1dc9-483b-ae5e-7632057e5d5f"
+        },
+        {
+          "value": "physical-cyber",
+          "expanded": "Cyber Physical",
+          "uuid": "286b0d32-6d81-47ea-8a05-2001184b3855"
+        },
+        {
+          "value": "physical-corporeal",
+          "expanded": "Corporeal",
+          "uuid": "b906967e-3aa0-4506-b27b-74bd04dd7615"
+        },
+        {
+          "value": "data",
+          "expanded": "Data (Vector)",
+          "uuid": "314a7d19-7dd2-407b-ab31-15a449953aa5"
+        },
+        {
+          "value": "training-data",
+          "expanded": "Training Data (Vector)",
+          "uuid": "86b0072d-2898-4fcd-9a7e-d91741f68767"
+        },
+        {
+          "value": "test-data",
+          "expanded": "Test Data (Vector)",
+          "uuid": "715e3b55-cdbf-4e22-b8d6-a15a3ef1d618"
+        },
+        {
+          "value": "model",
+          "expanded": "Model (Vector)",
+          "uuid": "5ea93982-3302-4ba4-926d-7cea191f4990"
+        },
+        {
+          "value": "architecture",
+          "expanded": "Architecture and Algorithm (Vector)",
+          "uuid": "e9db3899-2a39-4cd3-9441-31d27c013167"
+        },
+        {
+          "value": "parameters",
+          "expanded": "Parameters and Hyperparameters (Vector)",
+          "uuid": "fb2986f9-6c76-47e6-8603-1cf0de713455"
+        },
+        {
+          "value": "source",
+          "expanded": "Source Code (Vector)",
+          "uuid": "0d775761-5453-4925-bc06-1eb512961637"
+        },
+        {
+          "value": "infrastructure",
+          "expanded": "Software Infrastructure (Vector)",
+          "uuid": "d7e24547-0a18-45c7-9d90-627dca043a6d"
+        },
+        {
+          "value": "interface",
+          "expanded": "Interface",
+          "uuid": "18bea86f-0e49-4f3f-94eb-c24339c50e25"
+        },
+        {
+          "value": "ux-ui",
+          "expanded": "User Interface and User Experience (UI/UX)",
+          "uuid": "54d9d057-d5e1-46e7-931a-03136ad9e5ec"
+        },
+        {
+          "value": "apis",
+          "expanded": "APIs",
+          "uuid": "4a19381c-d29a-4676-aca5-38a65c046ee0"
+        },
+        {
+          "value": "i-o",
+          "expanded": "Input & Output (I/O)",
+          "uuid": "b18f9c0f-5729-4cc1-b4b4-433e9e619488"
+        },
+        {
+          "value": "deployment",
+          "expanded": "Deployment and Distribution",
+          "uuid": "4e5c0c2a-c955-43cf-862e-a12bcd48b7fe"
+        },
+        {
+          "value": "management",
+          "expanded": "Management of the Deployment",
+          "uuid": "bbd86893-31ae-4b09-8156-81c5e7569df9"
+        },
+        {
+          "value": "monitoring",
+          "expanded": "Monitoring of the Deployment",
+          "uuid": "7c19b7c6-c3bf-4c4a-8800-90c61343cc23"
+        },
+        {
+          "value": "maintenance",
+          "expanded": "Maintenance of the Deployment",
+          "uuid": "a0c43b59-33c7-4361-8708-1a2fe82a57e7"
+        }
+      ]
+    },
+    {
+      "predicate": "protected-characteristics",
+      "entry": [
+        {
+          "value": "age",
+          "expanded": "Age",
+          "uuid": "e3b0e21b-9f2b-4425-b55c-afddf5b5bdac"
+        },
+        {
+          "value": "birth",
+          "expanded": "Birth",
+          "uuid": "7bc718d2-cfb4-41ea-adf3-f72696c3c73f"
+        },
+        {
+          "value": "class-caste",
+          "expanded": "Class or Caste",
+          "uuid": "5dbb94c4-d38f-4fdb-9490-8ff94245427b"
+        },
+        {
+          "value": "descent",
+          "expanded": "Descent",
+          "uuid": "6d1852df-f11b-41a5-8709-b8c9d446d55c"
+        },
+        {
+          "value": "disability",
+          "expanded": "Disability",
+          "uuid": "b70201fa-267f-49a3-b0b0-455323c77ce1"
+        },
+        {
+          "value": "gender-identity",
+          "expanded": "Gender Identity",
+          "uuid": "162cd48c-663a-4bbd-a93f-dd43718366e2"
+        },
+        {
+          "value": "genetics",
+          "expanded": "Genetic Information",
+          "uuid": "6fd3f620-5dd7-40f5-bcff-e0cde8e1f12d"
+        },
+        {
+          "value": "health-status",
+          "expanded": "Health Status",
+          "uuid": "2cd9b2d0-46f7-430f-aee6-b8e8a4a3918d"
+        },
+        {
+          "value": "language",
+          "expanded": "Language",
+          "uuid": "c58aca55-bbe7-4506-ad5e-2e7487916bef"
+        },
+        {
+          "value": "marriage",
+          "expanded": "Marriage and Civil Partnerships",
+          "uuid": "be51fab2-5a94-4323-b7ec-2d9a4707df8a"
+        },
+        {
+          "value": "migration",
+          "expanded": "Immigration or Migration Status",
+          "uuid": "bb8b3781-feac-43e4-8f73-655f9fa1448c"
+        },
+        {
+          "value": "origin",
+          "expanded": "National, Ethnic, or Social Origin",
+          "uuid": "4f6b98eb-e173-4f58-954e-f9fe18a7cc00"
+        },
+        {
+          "value": "opinion",
+          "expanded": "Political or Other Opinion",
+          "uuid": "dedd7555-a388-44fb-877b-913be8ba15a3"
+        },
+        {
+          "value": "reproductive",
+          "expanded": "Reproductive rights (e.g. pregnancy and maternity)",
+          "uuid": "7a62f1ff-fe7a-4538-ba36-f37086c6d22b"
+        },
+        {
+          "value": "property",
+          "expanded": "Property, birth, or other status",
+          "uuid": "2d9f2f7e-4dd8-41b8-803b-78f877bb6b60"
+        },
+        {
+          "value": "race",
+          "expanded": "Race",
+          "uuid": "b6bedee0-012c-400c-b629-1a21dfa2b8cd"
+        },
+        {
+          "value": "religion",
+          "expanded": "Religion or Belief",
+          "uuid": "d196ccd5-a8cc-4dfe-a3d2-60d548b4b688"
+        },
+        {
+          "value": "sex",
+          "expanded": "Sex",
+          "uuid": "3ad80281-89eb-45cc-8a24-6cf3c47eaa4e"
+        },
+        {
+          "value": "sexual-orientation",
+          "expanded": "Sexual Orientation",
+          "uuid": "952a403c-52f0-4cac-92f5-782ef02f5978"
+        }
+      ]
+    },
+    {
+      "predicate": "assets",
+      "entry": [
+        {
+          "value": "compute",
+          "expanded": "Compute",
+          "uuid": "248723e5-b891-4a18-9ce3-ed31578cd72b"
+        },
+        {
+          "value": "data-assets",
+          "expanded": "Data (Asset)",
+          "uuid": "54055877-fc5d-49d9-99ad-b7b86d891088"
+        },
+        {
+          "value": "tooling",
+          "expanded": "Tooling",
+          "uuid": "fd27d7b1-53ad-40cb-b117-22856d55f3f3"
+        },
+        {
+          "value": "system",
+          "expanded": "AI System Components and Subcomponents",
+          "uuid": "37f40617-f591-4978-afff-1a8404fcc37c"
+        },
+        {
+          "value": "human-resources",
+          "expanded": "Human Resources",
+          "uuid": "7ab3eda2-26ea-435a-9f9d-4cd12479f584"
+        },
+        {
+          "value": "monetary",
+          "expanded": "Monetary",
+          "uuid": "6c26dc0e-a368-4e92-ab33-2a4c26b27b56"
+        },
+        {
+          "value": "physical-assets",
+          "expanded": "Physical (Assets)",
+          "uuid": "d5c0b32d-b80c-4481-88bd-b330aab38abe"
+        }
+      ]
+    }
+  ],
+  "uuid": "57a04a30-2fd2-4f45-8026-1ab063a5fe39"
+}

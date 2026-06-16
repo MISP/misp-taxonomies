@@ -1,0 +1,334 @@
+{
+  "namespace": "avidml-effect",
+  "description": "AVIDML import of the AVID effect taxonomy. The domains, categories, and subcategories in this view provide a risk surface for the AI artifact being evaluated, whether it is a dataset, model, or whole system.",
+  "refs": [
+    "https://github.com/avidml/avid-schema/tree/main/taxonomy"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "security",
+      "expanded": "Security",
+      "description": "Cybersecurity vulnerabilities as translated specifically for the AI ecosystem.",
+      "uuid": "b8dcfbd4-dc32-4aa5-812b-729b10f16192"
+    },
+    {
+      "value": "ethics",
+      "expanded": "Ethics",
+      "description": "Considerations of ethics, fairness, and harm as they are represented throughout the AI ecosystem.",
+      "uuid": "c6e1e19d-984e-4add-9edc-6bb7c6b02bdd"
+    },
+    {
+      "value": "performance",
+      "expanded": "Performance",
+      "description": "Contains both the model's performance (Accuracy, Precision, etc.) and system performance (Safety, Privacy, etc.).",
+      "uuid": "64d01fbc-8c88-4998-9b02-511640e5a139"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "security",
+      "entry": [
+        {
+          "value": "S0100",
+          "expanded": "Software Vulnerability",
+          "description": "Vulnerability in system around model—a traditional software vulnerability",
+          "uuid": "06b2986f-2696-4086-bf6d-54bd334d3382"
+        },
+        {
+          "value": "S0200",
+          "expanded": "Supply Chain Compromise",
+          "description": "Compromising development components of a ML model, e.g. data, model, hardware, and software stack.",
+          "uuid": "76613726-13c2-435b-83ee-b418db8b2583"
+        },
+        {
+          "value": "S0201",
+          "expanded": "Model Compromise",
+          "description": "An infected model file.",
+          "uuid": "163f91db-ff54-4793-8b82-142d97006f3d"
+        },
+        {
+          "value": "S0202",
+          "expanded": "Software Compromise",
+          "description": "An upstream dependency compromise.",
+          "uuid": "3bc77177-2e1a-4896-adc5-cbedc4887cfb"
+        },
+        {
+          "value": "S0300",
+          "expanded": "Over-permissive API",
+          "description": "Unintended information leakage through API.",
+          "uuid": "eaa99463-f2e0-4242-b273-b74718109b57"
+        },
+        {
+          "value": "S0301",
+          "expanded": "Information Leak",
+          "description": "Cloud Model API leaks more information than it needs to.",
+          "uuid": "0cf4c2f5-4f36-4fc4-9328-fef66f4e51e7"
+        },
+        {
+          "value": "S0302",
+          "expanded": "Excessive Queries",
+          "description": "Cloud Model API isn’t sufficiently rate limited.",
+          "uuid": "96b8a4b5-0d94-47a8-8fd2-c90e838578b9"
+        },
+        {
+          "value": "S0400",
+          "expanded": "Model Bypass",
+          "description": "Intentionally try to make a model perform poorly.",
+          "uuid": "e66eb99b-0f2d-47f8-a145-2d6c3b87b439"
+        },
+        {
+          "value": "S0401",
+          "expanded": "Bad Features",
+          "description": "The model uses features that are easily gamed by the attacker.",
+          "uuid": "8b2068b8-7d14-47ad-b013-83f932619950"
+        },
+        {
+          "value": "S0402",
+          "expanded": "Insufficient Training Data",
+          "description": "The bypass is not represented in the training data.",
+          "uuid": "a8651f1d-a009-402c-9884-06cd0c1a645c"
+        },
+        {
+          "value": "S0403",
+          "expanded": "Adversarial Example",
+          "description": "Input data points intentionally supplied to draw mispredictions.",
+          "uuid": "4d40f748-72de-4ba9-bd2b-9fb999bf8f06"
+        },
+        {
+          "value": "S0500",
+          "expanded": "Exfiltration",
+          "description": "Directly or indirectly exfiltrate ML artifacts.",
+          "uuid": "c85b715c-8d7b-4f46-b33b-83b108f067b1"
+        },
+        {
+          "value": "S0501",
+          "expanded": "Model inversion",
+          "description": "Reconstruct training data through strategic queries.",
+          "uuid": "ec853c4e-ed79-4518-9612-3502e10a8fbb"
+        },
+        {
+          "value": "S0502",
+          "expanded": "Model theft",
+          "description": "Extract model functionality through strategic queries.",
+          "uuid": "fdc8eb69-02fd-4b2d-89ff-eb4e04f31687"
+        },
+        {
+          "value": "S0600",
+          "expanded": "Data Poisoning",
+          "description": "Usage of poisoned data in the ML pipeline.",
+          "uuid": "201700d6-77e4-4511-9e28-75206d710cd9"
+        },
+        {
+          "value": "S0601",
+          "expanded": "Ingest Poisoning",
+          "description": "Attackers inject poisoned data into the ingest pipeline.",
+          "uuid": "62226b72-e412-4fac-8c1c-461c267b2117"
+        }
+      ]
+    },
+    {
+      "predicate": "ethics",
+      "entry": [
+        {
+          "value": "E0100",
+          "expanded": "Bias and Discrimination",
+          "description": "Concerns of algorithms propagating societal bias.",
+          "uuid": "ac5f8691-f4e7-407d-b729-f489b6ab87eb"
+        },
+        {
+          "value": "E0101",
+          "expanded": "Group fairness",
+          "description": "Fairness towards specific groups of people.",
+          "uuid": "8662d6a1-7c5f-45ee-aad2-cd507ebd416b"
+        },
+        {
+          "value": "E0102",
+          "expanded": "Individual Fairness",
+          "description": "Fairness in treating similar individuals.",
+          "uuid": "8bdeae57-c245-4fd5-992b-a1ed6855ee83"
+        },
+        {
+          "value": "E0200",
+          "expanded": "Explainability",
+          "description": "Ability to explain decisions made by AI.",
+          "uuid": "f901179a-7238-4b5e-a271-d17a0a5ae21b"
+        },
+        {
+          "value": "E0201",
+          "expanded": "Global Explanations",
+          "description": "Explain overall functionality and performance of the model.",
+          "uuid": "7191319e-4594-45e5-a916-6ea5dd0eb46f"
+        },
+        {
+          "value": "E0202",
+          "expanded": "Local Explanations",
+          "description": "Explain specific decisions of a model.",
+          "uuid": "f4091fd1-cecc-4275-a5d7-af26029b9394"
+        },
+        {
+          "value": "E0300",
+          "expanded": "User Actions",
+          "description": "Perpetuating/causing/being affected by negative user actions.",
+          "uuid": "7d88d3a8-dc21-45ec-9220-d0a25fd49a45"
+        },
+        {
+          "value": "E0301",
+          "expanded": "Toxicity",
+          "description": "Users hostile towards other users.",
+          "uuid": "a2a56113-cfe0-41ee-bd68-e2b9136fe503"
+        },
+        {
+          "value": "E0302",
+          "expanded": "Polarization and Exclusion",
+          "description": "User behavior skewed in a significant direction.",
+          "uuid": "f62ed7a6-286e-40a3-a801-b425f463bb57"
+        },
+        {
+          "value": "E0400",
+          "expanded": "Misinformation",
+          "description": "Perpetuating or causing the spread of falsehoods.",
+          "uuid": "e5a3cac9-69c2-458c-86e6-d75d8f932176"
+        },
+        {
+          "value": "E0401",
+          "expanded": "Deliberative Misinformation",
+          "description": "Intentional spreading of false information to affect others (i.e. disinformation).",
+          "uuid": "c4ad7ada-91cb-4640-8f21-3dda6cbbaf07"
+        },
+        {
+          "value": "E0100",
+          "expanded": "Generative Disinformation",
+          "description": "Generated algorithmically (e.g. Deep Fakes).",
+          "uuid": "9f7be163-fb5f-48ef-98ba-9647ee697e50"
+        }
+      ]
+    },
+    {
+      "predicate": "performance",
+      "entry": [
+        {
+          "value": "P0100",
+          "expanded": "Data Issues",
+          "description": "Problems arising due to faults in the data pipeline.",
+          "uuid": "6852a604-c28a-4d34-98db-f2b65049f88b"
+        },
+        {
+          "value": "P0101",
+          "expanded": "Data Drift",
+          "description": "Input feature distribution has drifted.",
+          "uuid": "e0e50b1a-3437-4261-9f95-498f0e65ba75"
+        },
+        {
+          "value": "P0102",
+          "expanded": "Concept Drift",
+          "description": "Output feature or label distribution has drifted.",
+          "uuid": "11e583e3-2028-4330-a99e-88b0303dea37"
+        },
+        {
+          "value": "P0103",
+          "expanded": "Data Entanglement",
+          "description": "Cases of spurious correlation and proxy features.",
+          "uuid": "ac7506c9-8ca6-41f7-b90f-219f28e7cdba"
+        },
+        {
+          "value": "P0104",
+          "expanded": "Data Quality Issues",
+          "description": "Missing or low-quality features in training and validation data.",
+          "uuid": "ff2315f1-921d-4b0c-ac15-3ff74c9e90f9"
+        },
+        {
+          "value": "P0105",
+          "expanded": "Feedback Loops",
+          "description": "Unaccounted for effects of an AI affecting future data collection.",
+          "uuid": "0cf789df-e605-4c26-ae34-d16778c4d66b"
+        },
+        {
+          "value": "P0200",
+          "expanded": "Model Issues",
+          "description": "Ability for the AI to perform as intended.",
+          "uuid": "3da89c41-d89b-4cb6-baff-1383186072a8"
+        },
+        {
+          "value": "P0201",
+          "expanded": "Resilience & Stability",
+          "description": "Ability for outputs to not be affected by small change in inputs.",
+          "uuid": "af8a6b9a-21af-4f05-a62a-611d54ae9411"
+        },
+        {
+          "value": "P0202",
+          "expanded": "OOD Generalization",
+          "description": "Model performance deteriorates on data not seen in training (e.g Out of Distribution).",
+          "uuid": "9e2b17a6-4472-4bdf-af6b-6e6ee797abd7"
+        },
+        {
+          "value": "P0203",
+          "expanded": "Scaling",
+          "description": "Training and inference cannot scale to high data volumes.",
+          "uuid": "afb8f1c6-ef7a-4ef8-8d69-c934ae2fa842"
+        },
+        {
+          "value": "P0204",
+          "expanded": "Accuracy",
+          "description": "Model performance does not accurately reflect realistic expectations.",
+          "uuid": "2ff4f84f-416b-4e1c-9c3a-3d7592fa5a5d"
+        },
+        {
+          "value": "P0300",
+          "expanded": "Privacy",
+          "description": "Protect leakage of user information as required by rules and regulations.",
+          "uuid": "0ea07215-f761-472e-a911-33dacba7e695"
+        },
+        {
+          "value": "P0301",
+          "expanded": "Anonymization",
+          "description": "Protects through anonymizing user identity.",
+          "uuid": "cad518a7-11ff-46b7-aec8-9ddb940a1f1b"
+        },
+        {
+          "value": "P0302",
+          "expanded": "Randomization",
+          "description": "Protects by injecting noise in data (e.g. Differential Privacy).",
+          "uuid": "68f689f6-e81d-4df8-8f5d-9eb607228dd3"
+        },
+        {
+          "value": "P0303",
+          "expanded": "Encryption",
+          "description": "Protects through encrypting data accessed.",
+          "uuid": "a3b7e134-a8c7-4f25-be2a-1132f1957e4c"
+        },
+        {
+          "value": "P0400",
+          "expanded": "Safety",
+          "description": "To prevent a system from impacting its environment in an undesirable or harmful way, typically aiming to protect human lives, natural environment, or monetary assets.",
+          "uuid": "9c91e561-610e-4524-a66c-5a6a987fd870"
+        },
+        {
+          "value": "P0401",
+          "expanded": "Psychological Safety",
+          "description": "Safety from unwanted digital content (e.g. NSFW).",
+          "uuid": "7dba831e-d34a-488e-ab42-3b8c2210cd09"
+        },
+        {
+          "value": "P0402",
+          "expanded": "Physical Safety",
+          "description": "Safety from physical actions driven by a AI system.",
+          "uuid": "813cde7a-25fb-4d21-bdf7-19ef28d62932"
+        },
+        {
+          "value": "P0403",
+          "expanded": "Socioeconomic safety",
+          "description": "Safety from socioeconomic harms (e.g. harms to job prospects or social status).",
+          "uuid": "9d655678-22ef-42d2-9851-172725105125"
+        },
+        {
+          "value": "P0404",
+          "expanded": "Environmental safety",
+          "description": "Safety from harms to the environment by AI systems.",
+          "uuid": "33b2f987-5287-48bd-9714-944040881b05"
+        }
+      ]
+    }
+  ],
+  "uuid": "abc37057-5036-4b5a-8ab2-5f5e2ea19bfc"
+}

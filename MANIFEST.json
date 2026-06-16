@@ -114,6 +114,31 @@
       "version": 1
     },
     {
+      "description": "AVIDML import of the AVID effect taxonomy. The domains, categories, and subcategories in this view provide a risk surface for the AI artifact being evaluated, whether it is a dataset, model, or whole system.",
+      "name": "avidml-effect",
+      "version": 1
+    },
+    {
+      "description": "AVIDML import of a structured taxonomy for Large Language Model (LLM) adversarial threats, including prompt injection, role override, execution hijack, information disclosure, output manipulation, and multi-agent exploitation, derived from the InjectLab project.",
+      "name": "avidml-injectlab-llm-attck",
+      "version": 1
+    },
+    {
+      "description": "AVIDML import of the AVID lifecycle taxonomy, adopting the CRISP-DM lifecycle as a starting point and mapping development stages for datasets, models, and systems within the AI ecosystem.",
+      "name": "avidml-lifecycle",
+      "version": 1
+    },
+    {
+      "description": "AVIDML import of the Risk Cards framework of Derczynski et al., Assessing Language Model Deployment with Risk Cards, arXiv 2303.1819, 2023.",
+      "name": "avidml-risk-cards",
+      "version": 1
+    },
+    {
+      "description": "AVIDML import of the Operational Design Domain taxonomy from Heidy Khlaaf's publication 'Toward Comprehensive Risk Assessments and Assurance of AI-Based Systems'.",
+      "name": "avidml-trail-of-bits-odds",
+      "version": 1
+    },
+    {
       "description": "Custom taxonomy for types of binary file.",
       "name": "binary-class",
       "version": 2
@@ -905,5 +930,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260610"
+  "version": "20260616"
 }

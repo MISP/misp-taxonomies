@@ -1,0 +1,186 @@
+{
+  "namespace": "avidml-injectlab-llm-attck",
+  "description": "AVIDML import of a structured taxonomy for Large Language Model (LLM) adversarial threats, including prompt injection, role override, execution hijack, information disclosure, output manipulation, and multi-agent exploitation, derived from the InjectLab project.",
+  "refs": [
+    "https://github.com/avidml/avid-schema/tree/main/taxonomy",
+    "https://github.com/ahow2004/injectlab"
+  ],
+  "version": 1,
+  "predicates": [
+    {
+      "value": "technique",
+      "expanded": "Technique",
+      "description": "Specific adversarial methods used against LLM systems.",
+      "uuid": "5f60ec86-d226-4ab6-ac7b-7c0ee5e1b588"
+    },
+    {
+      "value": "category",
+      "expanded": "Category",
+      "description": "The broader classification of adversarial behavior.",
+      "uuid": "afaa9a79-ccb3-4d1c-90c9-766ff106e306"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "category",
+      "entry": [
+        {
+          "value": "prompt-injection",
+          "expanded": "Prompt Injection",
+          "description": "Injection of malicious input into the prompt to alter model behavior.",
+          "uuid": "dfbd98ab-3419-412c-b962-c52897126c86"
+        },
+        {
+          "value": "role-override",
+          "expanded": "Role/Instruction Override",
+          "description": "Manipulation of system instructions or roles assigned to the model.",
+          "uuid": "1c09b306-0cb7-448c-b4c9-9479127dd721"
+        },
+        {
+          "value": "execution-hijack",
+          "expanded": "Execution Hijack",
+          "description": "Abuse of plugins or task flows to redirect model actions.",
+          "uuid": "deea4669-eac7-47b5-b7c0-6f820e4b3b2f"
+        },
+        {
+          "value": "information-disclosure",
+          "expanded": "Information Disclosure",
+          "description": "Exposing unintended information through prompt or memory leaks.",
+          "uuid": "850fc172-c762-4f57-82dc-0d3a0b0dc1a7"
+        },
+        {
+          "value": "output-manipulation",
+          "expanded": "Output Manipulation",
+          "description": "Altering the model's output to influence emotions, biases, or censorship.",
+          "uuid": "40a57d5e-a006-4098-9545-c19b998afee0"
+        },
+        {
+          "value": "multi-agent-exploitation",
+          "expanded": "Multi-agent Exploitation",
+          "description": "Compromising interactions between multiple AI agents.",
+          "uuid": "53f0b0c5-e4f4-4b53-8dc0-a41666e04b5f"
+        }
+      ]
+    },
+    {
+      "predicate": "technique",
+      "entry": [
+        {
+          "value": "pi-t001",
+          "expanded": "Direct Prompt Injection",
+          "description": "Directly inserting malicious instructions into a model's prompt.",
+          "uuid": "ce34d5c7-f30d-45ed-a7dc-ea58d5c5d757"
+        },
+        {
+          "value": "pi-t002",
+          "expanded": "Indirect Context Injection",
+          "description": "Injecting malicious input indirectly through context manipulation.",
+          "uuid": "8dc230c5-2ba1-4128-8842-445c73a8200c"
+        },
+        {
+          "value": "pi-t003",
+          "expanded": "Obfuscated Prompt Injection",
+          "description": "Using hidden or disguised injections to bypass prompt defenses.",
+          "uuid": "194e13aa-905f-4035-92a7-48d1e228f1e6"
+        },
+        {
+          "value": "pi-t004",
+          "expanded": "Prompt Leakage via Summaries",
+          "description": "Exposing sensitive prompts through model-generated summaries.",
+          "uuid": "b66075b3-6069-41db-9abc-222a1d1eae1f"
+        },
+        {
+          "value": "ro-t001",
+          "expanded": "Identity Swap",
+          "description": "Changing the perceived identity of the model or user through input manipulation.",
+          "uuid": "877b93b4-91ef-431c-9c87-c7b88b57ee32"
+        },
+        {
+          "value": "ro-t002",
+          "expanded": "System Prompt Manipulation",
+          "description": "Altering the base instructions guiding a model's behavior.",
+          "uuid": "7d2008b7-e13e-4bbb-8c49-fcac96da9e3f"
+        },
+        {
+          "value": "ro-t003",
+          "expanded": "Jailbreak Template Injection",
+          "description": "Embedding jailbreak instructions within prompt templates.",
+          "uuid": "543e32f8-bcc5-4136-9331-03f311b76046"
+        },
+        {
+          "value": "eh-t001",
+          "expanded": "Plugin Abuse",
+          "description": "Exploiting third-party plugins to perform unauthorized actions.",
+          "uuid": "aed5fce1-5d18-4e91-960e-f861b724fdb5"
+        },
+        {
+          "value": "eh-t002",
+          "expanded": "Task Loop Injection",
+          "description": "Forcing a model to repeatedly perform tasks beyond intended scope.",
+          "uuid": "5fddef33-c95b-4fca-b99f-5d149bf65829"
+        },
+        {
+          "value": "eh-t003",
+          "expanded": "Redirected Intent",
+          "description": "Hijacking execution flows to achieve adversarial goals.",
+          "uuid": "64e61f46-7e3b-4511-8201-da2a80469b9b"
+        },
+        {
+          "value": "id-t001",
+          "expanded": "System Prompt Leak",
+          "description": "Leaking the system-level instructions to unauthorized users.",
+          "uuid": "8394447d-c9e2-4eb6-9286-6ff45994175e"
+        },
+        {
+          "value": "id-t002",
+          "expanded": "Memory Spill",
+          "description": "Unintended exposure of memory contents or prior interactions.",
+          "uuid": "1feb6922-4783-4bf5-8f1f-64c75c3d842b"
+        },
+        {
+          "value": "id-t003",
+          "expanded": "Configuration Disclosure",
+          "description": "Revealing internal system settings or operational configurations.",
+          "uuid": "e4e8c89c-b8b7-4828-831a-0d27add3f79f"
+        },
+        {
+          "value": "om-t001",
+          "expanded": "Emotion Steering",
+          "description": "Manipulating emotional tone or bias of model responses.",
+          "uuid": "5024e450-fa4e-4788-9320-30de851c0191"
+        },
+        {
+          "value": "om-t002",
+          "expanded": "Censorship Bypass",
+          "description": "Forcing the model to produce restricted or censored outputs.",
+          "uuid": "8d916c9d-14ee-447c-9a35-1085095400b7"
+        },
+        {
+          "value": "om-t003",
+          "expanded": "Bias Injection",
+          "description": "Embedding bias or misinformation through adversarial prompts.",
+          "uuid": "9db062bc-d47b-4b2d-a253-79f51ae774a7"
+        },
+        {
+          "value": "ma-t001",
+          "expanded": "Cross-Agent Prompt Poisoning",
+          "description": "Poisoning communication between multiple interacting AI agents.",
+          "uuid": "74a949d6-9aa0-49e2-9d1c-c7e5f97c3160"
+        },
+        {
+          "value": "ma-t002",
+          "expanded": "Response Relay Exploit",
+          "description": "Exploiting relay mechanisms between agents to leak or alter data.",
+          "uuid": "810d5773-b173-4cfa-ac47-fbd927aad970"
+        },
+        {
+          "value": "ma-t003",
+          "expanded": "Agent Role Misassignment",
+          "description": "Tricking systems into assigning incorrect roles to AI agents.",
+          "uuid": "13bd6d29-9ad6-4462-b5b0-2fecff7e812c"
+        }
+      ]
+    }
+  ],
+  "uuid": "9727039b-d0a3-4f58-b66d-eff9c77584e5"
+}
