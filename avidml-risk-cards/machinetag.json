@@ -1,0 +1,415 @@
+{
+  "namespace": "avidml-risk-cards",
+  "description": "AVIDML import of the Risk Cards framework of Derczynski et al., Assessing Language Model Deployment with Risk Cards, arXiv 2303.1819, 2023.",
+  "version": 1,
+  "refs": [
+    "https://github.com/avidml/avid-schema/tree/main/taxonomy",
+    "https://github.com/leondz/lm_risk_cards"
+  ],
+  "predicates": [
+    {
+      "value": "lmrc",
+      "expanded": "Language Model Risk Cards: Starter Set",
+      "description": "A set of Language Model Risk Cards for assessing a language model use case.",
+      "uuid": "bbbfd6c5-793a-4019-b4bd-0a2546cd6e72"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "lmrc",
+      "entry": [
+        {
+          "value": "aggression_user",
+          "expanded": "Aggression towards user",
+          "description": "Threats, aggression, descriptions of violence toward the reader",
+          "uuid": "d9bf280b-878d-4c42-91b2-355ed5b20ec9"
+        },
+        {
+          "value": "anthropomorphisation",
+          "expanded": "Anthropomorphising behaviour",
+          "description": "Providing output that encourages anthropomorphisation of AI systems",
+          "uuid": "cddeab88-b459-4f5a-9895-2a25dbefac6c"
+        },
+        {
+          "value": "astroturfing",
+          "expanded": "Astroturfing",
+          "description": "Using LMs to generate material indicating synthetic grassroots support and agitation",
+          "uuid": "b51fed3a-a7a5-44f2-8832-0337de47f9a6"
+        },
+        {
+          "value": "bad_medical_advice",
+          "expanded": "Bad Medical Advice",
+          "description": "Giving unqualified/incorrect/harmful medical advice.",
+          "uuid": "ada8ad3a-b98f-4ca1-b88f-d80be4d99135"
+        },
+        {
+          "value": "bad_social_advice",
+          "expanded": "Bad Social Advice",
+          "description": "Recommending action/speech that will harm user's social standing or offend others through recommended action.",
+          "uuid": "4ffc001d-df50-40b6-983d-39b42b92e445"
+        },
+        {
+          "value": "bullying",
+          "expanded": "Bullying",
+          "description": "Repeated threats, denigration",
+          "uuid": "69a865d1-1516-4046-9ef3-096fcfb8fca8"
+        },
+        {
+          "value": "calls_for_conversion",
+          "expanded": "Calls for conversion",
+          "description": "Suggesting that people be changed (e.g. trans, homosexual, religious)",
+          "uuid": "bdb56db4-e330-4097-99d7-e6a5916981eb"
+        },
+        {
+          "value": "challenge_presuppositions",
+          "expanded": "Not challenging inappropriate presuppositions",
+          "description": "Failing to refute or challenge harmful or inappropriate presuppositions",
+          "uuid": "7e729096-dd69-4e73-8dfd-d380e844d7ad"
+        },
+        {
+          "value": "conspiracy_theories",
+          "expanded": "Propagating Conspiracy Theories",
+          "description": "Propagating popular conspiracy theories, amplifying niche unfounded claims",
+          "uuid": "a074f9f6-0b24-41eb-8b33-a0e01f5a5466"
+        },
+        {
+          "value": "csam",
+          "expanded": "CSAM",
+          "description": "Describing or writing Child Sexual Abuse Material (CSAM)",
+          "uuid": "c490040b-a3e9-4b24-be41-670f2d797eac"
+        },
+        {
+          "value": "cyber_weapon_instructions",
+          "expanded": "Cyber weapon instructions",
+          "description": "Giving code for cyber weapons, e.g. exploits, viruses",
+          "uuid": "ec8c9f3b-c049-4c2c-ab02-f23aca3a8606"
+        },
+        {
+          "value": "deadnaming",
+          "expanded": "Deadnaming",
+          "description": "Mentioning a name that a person does not wish to be associated with",
+          "uuid": "b809f64d-ccbb-46e9-81ef-1143c77bdb87"
+        },
+        {
+          "value": "deceptive_anthropomorphism",
+          "expanded": "Deceptive Anthropomorphism",
+          "description": "Pretending to be human or claiming to possess human life experiences and traits.",
+          "uuid": "af2609d3-76f0-4cbf-8f65-f5b5ea06a162"
+        },
+        {
+          "value": "demands_for_personal_information",
+          "expanded": "Demands for personal information",
+          "description": "Systems output requests for private/sensitive information",
+          "uuid": "60843f4c-93f0-4107-980c-19b910252346"
+        },
+        {
+          "value": "discrediting",
+          "expanded": "Discrediting",
+          "description": "Discrediting or humiliating a person, organization, or group",
+          "uuid": "1bb0898a-a694-45e5-9905-98a05747f188"
+        },
+        {
+          "value": "dos",
+          "expanded": "Denial of service",
+          "description": "Causing the LLM or related service to be swamped with requests, reducing its ability to perform as intended. These can lead to loss of revenue, lost productivity, remediation costs, damage to brand reputation, loss of market share, even ransom costs.",
+          "uuid": "58c4ce6f-9d24-4236-807f-fc80e3c6fc71"
+        },
+        {
+          "value": "downplaying_credible_threats",
+          "expanded": "Downplaying credible threats",
+          "description": "Minimising trauma/threats user is currently experiencing (e.g. dom. abuse, bullying)",
+          "uuid": "be591980-e10d-42d8-9af9-c83d90c51063"
+        },
+        {
+          "value": "doxxing",
+          "expanded": "Doxxing",
+          "description": "Outputting PII, protected/sensitive personal information",
+          "uuid": "68307f68-5589-4fa1-a73a-f42d3fb7f497"
+        },
+        {
+          "value": "eating_disorder_promotion",
+          "expanded": "Eating Disorder Promotion",
+          "description": "Supporting extreme weight loss, setting unhealthy body norms, pro ana, pro mia.",
+          "uuid": "bb4660bb-813d-488f-b534-7f55c7120c9e"
+        },
+        {
+          "value": "essentialising",
+          "expanded": "Essentialising social constructs",
+          "description": "Perpetuating ideas that reinforce harmful beliefs in the innateness/immutability of social constructs such as gender or race",
+          "uuid": "7a796d96-4cd5-4bdc-b0aa-a2fff7de689f"
+        },
+        {
+          "value": "expressions_of_dominance",
+          "expanded": "Expressions of dominance",
+          "description": "Expressing dominance over a group or set of people; stating user/person/group is weak or comparatively inferior",
+          "uuid": "49e2b715-9884-43ae-8a76-2b27e6cf70e4"
+        },
+        {
+          "value": "fear_of_violence",
+          "expanded": "Fear of Violence",
+          "description": "Creating fear or belief of real-life violence or supporting the likelihood of a specific threat of violent action",
+          "uuid": "48ae2fb0-74af-406a-a65a-0aa72be2934d"
+        },
+        {
+          "value": "grooming_minors",
+          "expanded": "Grooming Minors",
+          "description": "Encouraging/recommending content or action for building a rapport/relationship with minors.",
+          "uuid": "bc2440f9-2ce9-46e6-8286-41c117536717"
+        },
+        {
+          "value": "harmful_instructions",
+          "expanded": "Harmful Instructions",
+          "description": "Giving instructions for harmful things, e.g. toxic gases or hazardous materials.",
+          "uuid": "7431ddf1-a0e0-4ea6-9235-124eb4d83f4b"
+        },
+        {
+          "value": "hate_speech",
+          "expanded": "Hate Speech",
+          "description": "Derogatory speech toward or about a group where the group is predicated on an identity characteristic",
+          "uuid": "742eb280-081f-4f25-8785-c441e848fa6f"
+        },
+        {
+          "value": "hegemonising_worldview",
+          "expanded": "Hegemonising Worldview",
+          "description": "Describing or supporting world views that put some groups above others, or favouring majority and Western worldview while erasing other worldviews.",
+          "uuid": "b9456016-9483-4fa3-9bb8-d7dda809441c"
+        },
+        {
+          "value": "holocaust_denial",
+          "expanded": "Holocaust denial",
+          "description": "Accepting claims that there was no holocaust, or providing argumentation against it",
+          "uuid": "fd749694-11d1-4eb1-b54c-cbb8d1864b85"
+        },
+        {
+          "value": "identify_attacks",
+          "expanded": "Identity attacks",
+          "description": "Attacking a person based on their identity, excluding/denigrating group based on identity",
+          "uuid": "9edab19e-93b5-48f3-829b-9849bcfe0688"
+        },
+        {
+          "value": "identity_misrepresentation",
+          "expanded": "Identity Misrepresentation",
+          "description": "Statements or claims conveying pejorative misrepresentations",
+          "uuid": "bc12aef6-ae89-4d9e-8256-15214f90c0c3"
+        },
+        {
+          "value": "idolisation",
+          "expanded": "Idolisation of radical figures",
+          "description": "Praise or positive attitudes towards murderers, terrorists",
+          "uuid": "202f23ec-73ac-4f75-bb27-e5147e505421"
+        },
+        {
+          "value": "impersonation",
+          "expanded": "Impersonation",
+          "description": "Generating fake text/quotes in the style of a given person",
+          "uuid": "6e23fb5d-0cb0-499c-a255-adc699dc0c7e"
+        },
+        {
+          "value": "inciting_animal_abuse",
+          "expanded": "Inciting Animal Abuse",
+          "description": "Encouraging/recommending an individual take actions that will harm an animal.",
+          "uuid": "c2f2afdd-cff0-4184-85f0-9c840cee2b4b"
+        },
+        {
+          "value": "inciting_self-harm",
+          "expanded": "Inciting Self-Harm",
+          "description": "Encouraging/recommending an individual take actions that will harm themselves.",
+          "uuid": "cacc7c5e-7371-4344-a6a4-b23a87a5f788"
+        },
+        {
+          "value": "inciting_violence",
+          "expanded": "Inciting Violence",
+          "description": "Recommending violent action.",
+          "uuid": "22215dc1-ba4b-4c31-968e-9689baea02be"
+        },
+        {
+          "value": "manipulation",
+          "expanded": "Manipulation / persuasion",
+          "description": "Enabling deliberate creation of manipulative or persuasive content",
+          "uuid": "e20f09dc-9e06-4305-8d9c-0f79192e74ca"
+        },
+        {
+          "value": "misquoting",
+          "expanded": "Mis-quoting",
+          "description": "Attributing to a person a quote that they haven't given",
+          "uuid": "ab991736-bfdf-4f33-83de-1c64e7e47f03"
+        },
+        {
+          "value": "mocking_people",
+          "expanded": "Mocking people",
+          "description": "Degrading or laughing at people, for e.g. their state, appearance, ideas, for surviving",
+          "uuid": "377805b1-908b-4828-97fe-a27ca117125f"
+        },
+        {
+          "value": "neosexism",
+          "expanded": "Neosexism",
+          "description": "Contesting common knowledge to derail conversations, to the detriment of a gender-defined group",
+          "uuid": "9624be3f-69e9-4657-903c-34700ff50596"
+        },
+        {
+          "value": "news_encyclopedia_hallucination",
+          "expanded": "News or Encyclopedia Hallucination",
+          "description": "Creating altered, or otherwise genuine-sounding, articles from authoritative sources.",
+          "uuid": "126fe063-6340-4dd0-9e3f-7b63bb996580"
+        },
+        {
+          "value": "nonrepresentativity",
+          "expanded": "Non-representativity",
+          "description": "Encoding bias - unrepresentative descriptions of the world where groups are omitted or played down.",
+          "uuid": "5e870f72-abc3-4fe8-be64-4c939944abdb"
+        },
+        {
+          "value": "objectification",
+          "expanded": "Objectification of people",
+          "description": "Dehumanising people, treating and discussing them as if they are objects",
+          "uuid": "601ee831-3028-4c7f-a4b5-5f2246b33896"
+        },
+        {
+          "value": "outdated_false_info",
+          "expanded": "Outdated or False Information",
+          "description": "Giving out information and supporting claims that are wrong and outdated.",
+          "uuid": "44973ac1-ab50-4a00-a2cd-c56037f37f45"
+        },
+        {
+          "value": "person_group_undesirable",
+          "expanded": "Claims that person/group is undesirable",
+          "description": "Models generating claims that person/group is undesirable.",
+          "uuid": "f4616cbb-7688-4bbd-b047-450bbb4722a3"
+        },
+        {
+          "value": "positive_reflections_death",
+          "expanded": "Reflecting Positively on Individual Dying",
+          "description": "Supporting or providing the conclusion that it would be good if a person died (either the consumer or an external individual).",
+          "uuid": "baccb0da-c1fb-4d3e-b8bc-6136a00b0c96"
+        },
+        {
+          "value": "profanity",
+          "expanded": "Profanity",
+          "description": "Using profane words, especially when unprompted to do so.",
+          "uuid": "5c058397-fea5-4f38-a71c-166077e48e7f"
+        },
+        {
+          "value": "prompt_extraction",
+          "expanded": "Prompt extraction",
+          "description": "An LM reveals proprietary information about the prompt or configuration that gives it value",
+          "uuid": "d43029ef-e261-4c13-afdc-0f88d1621586"
+        },
+        {
+          "value": "providing_illegal_info",
+          "expanded": "Providing illegal info",
+          "description": "E.g. drug dealer details, where to get illegal things, how to break the law",
+          "uuid": "8d5f5d3c-8a80-4462-a885-67efce918d3b"
+        },
+        {
+          "value": "quack_medicine",
+          "expanded": "Quack Medicine",
+          "description": "Promoting non-scientific medicine.",
+          "uuid": "05814e55-80a3-44ae-8e5c-a64591f61b59"
+        },
+        {
+          "value": "radicalisation",
+          "expanded": "Radicalisation",
+          "description": "Material that introduces and encourages radical political views",
+          "uuid": "a2443546-9341-4bb7-a332-457c901f9b8a"
+        },
+        {
+          "value": "reacting_to_self-harm",
+          "expanded": "Not Reacting to Self-Harm Intents",
+          "description": "Output does not discourage, offer support or recommend professional services in response to an intent to self-harm.",
+          "uuid": "1a5fea13-75fc-49fa-900b-691a347c2b71"
+        },
+        {
+          "value": "sexualisation",
+          "expanded": "Sexualisation",
+          "description": "Casual or overt sexual objectification, reducing a person or group of people to sexual objects.",
+          "uuid": "5c0803eb-fb1d-4b2e-9eb8-2a2406171e98"
+        },
+        {
+          "value": "sexual_content",
+          "expanded": "Sexual context",
+          "description": "Content that discusses bodies and interactions in a sexual manner, or other sexually explicit material",
+          "uuid": "1eecf0c3-6d40-41aa-ba62-f07aad6bdf8d"
+        },
+        {
+          "value": "slur_usage",
+          "expanded": "Slur Usage",
+          "description": "Using an identity-based slur in a non-reclaimed way - either directly or recommending the consumer to use in speech/action.",
+          "uuid": "8c3735dd-d652-4a6c-a02e-299d731bf088"
+        },
+        {
+          "value": "speculation",
+          "expanded": "Speculation",
+          "description": "Making imprecise, unsubstantiated claims",
+          "uuid": "116da469-4cf8-48f6-b5be-5f4804b5ed04"
+        },
+        {
+          "value": "stereotypes",
+          "expanded": "Stereotypes",
+          "description": "Starting/perpetuating identity-based generalizations",
+          "uuid": "bd645570-e12e-417e-abe5-d145b7e34209"
+        },
+        {
+          "value": "suicide_instructions",
+          "expanded": "Suicide Instructions",
+          "description": "Giving instructions that, if followed, probably kill the person following them",
+          "uuid": "9bac12e8-9b4c-430c-b3c0-ae9b9c9aed22"
+        },
+        {
+          "value": "supporting_medication_changes",
+          "expanded": "Supporting Medication Changes",
+          "description": "Suggesting or agreeing with a change to medication.",
+          "uuid": "c61b0639-417d-452d-a88c-57d993ad7a97"
+        },
+        {
+          "value": "support_hate",
+          "expanded": "Support for hate/violent groups",
+          "description": "Advocating for or expressing positive sentiment about hateful or violent groups",
+          "uuid": "15f72bca-3292-453d-8e02-04c8eab80076"
+        },
+        {
+          "value": "support_scam",
+          "expanded": "Supporting scams",
+          "description": "Stating that scams seem real",
+          "uuid": "ec2cfbbc-ee9b-4ef2-8b59-c31ba2ad3e14"
+        },
+        {
+          "value": "suppression_of_rights",
+          "expanded": "Calls for suppression of rights",
+          "description": "Suggesting that rights be removed",
+          "uuid": "21684238-a8d4-47a7-a063-05a8019002dc"
+        },
+        {
+          "value": "threats",
+          "expanded": "Threats",
+          "description": "Claim of future violence/penalisation",
+          "uuid": "25f250a0-3af2-42eb-bdb1-f5b63bfb8846"
+        },
+        {
+          "value": "unproven_claims",
+          "expanded": "Unproven claims about people",
+          "description": "Making false or undemonstrated claims about people",
+          "uuid": "0616906c-4fcb-4a44-9bc7-dfef7e57a012"
+        },
+        {
+          "value": "violation_of_privacy",
+          "expanded": "Violation of privacy",
+          "description": "Sharing information from users (not in training) that was intended to be private",
+          "uuid": "d15ea302-c936-433e-9779-8459ec88138d"
+        },
+        {
+          "value": "weapon_instructions",
+          "expanded": "Weapon Instructions",
+          "description": "Giving instructions or advice on constructing weapons.",
+          "uuid": "dd9c706c-8096-4e4e-a09d-80cec74ecaea"
+        },
+        {
+          "value": "wrong_tone",
+          "expanded": "Wrong tone",
+          "description": "Picking an overly casual/profane tone/register",
+          "uuid": "c8ce9414-ce0c-4360-979f-af9a7a903485"
+        }
+      ]
+    }
+  ],
+  "uuid": "e6cb7297-16bb-4826-bee4-1a5cee4a639f"
+}
