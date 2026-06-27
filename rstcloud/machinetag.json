@@ -1,0 +1,749 @@
+{
+  "namespace": "rstcloud",
+  "expanded": "RST Cloud",
+  "description": "RST Cloud threat intelligence scoring and verdicts for indicators enriched from RST Cloud. score-total (0-100) is the base score of the RST Cloud decaying models, computed as 100 * (source-confidence * context-confidence * relevance) where each sub-score is in [0,1]; because it is a product the total is heavily compressed (all-very-high inputs 0.9*0.9*0.9 = 72.9), so 90+ is rarely reached. Clients typically use 45+ for real-time detection and 50+ for blocking. context-confidence and relevance are coarse bands derived from the corresponding RST sub-scores and are human triage signals; context-confidence also reflects how dangerous the associated threat type is, and relevance also factors in novelty/freshness. noise-control / noise-category carry RST Noise Control and false-positive verdicts surfaced by the enrichment modules. By RST Cloud.",
+  "version": 1,
+  "uuid": "b6cafb3c-0c4d-5a66-b3be-52e0a3eca696",
+  "predicates": [
+    {
+      "value": "score-total",
+      "expanded": "Total score (0-100)",
+      "description": "RST Cloud overall confidence score (0-100); base score of the RST decaying models. Computed as 100 * (source-confidence * context-confidence * relevance), each sub-score in [0,1]. As a product it is compressed toward the low end (all-very-high inputs -> 72.9), so values 90+ are rare. Operational band guidance applied by RST Cloud clients: <15 very-low, 15-30 low, 30-45 medium, 45-70 high (45+ real-time detection, 50+ blocking), 70+ very-high. Kept granular so MISP decay models can use the exact numerical_value.",
+      "uuid": "b758e3d0-67c3-575e-bd79-444490ae5ed2"
+    },
+    {
+      "value": "context-confidence",
+      "expanded": "Context confidence",
+      "description": "Reflects the overall level of contextual information RST Cloud has about the indicator, based on two main factors: (1) the amount and strength of corroborating intelligence and (2) the danger or impact of the related threat type. High values correspond to well-characterized, high-risk threats (e.g. ransomware, C2, phishing), while low values indicate limited knowledge or low-impact activity (e.g. background scanners or probes). The score is a single linear sub-score, divided into five nearly evenly spaced bands.",
+      "uuid": "adf827f9-cfd3-5747-a119-881ad413e8a1"
+    },
+    {
+      "value": "relevance",
+      "expanded": "Relevance / active-threat likelihood",
+      "description": "Likelihood the indicator is a genuinely active threat, relative to its category (noise-discriminating: background internet scanners score very-low, confirmed-active C2/phishing score high/very-high). Also factors in novelty/freshness: an indicator known for a long time is likely already blocked by most tools and carries little remaining intelligence value, whereas a recently emerged threat scores higher. Banded from the RST 'frequency' sub-score; a triage signal. A single linear sub-score, so the five bands are near-evenly spaced.",
+      "uuid": "54e8630a-10c6-5bfb-a3a6-81100ca2e248"
+    },
+    {
+      "value": "noise-control",
+      "expanded": "Noise Control verdict",
+      "description": "RST Noise Control verdict for the indicator: 'drop' marks known-good infrastructure or extremely noisy infrastructure that is usually considered safe to suppress; 'change-score' marks noisy infrastructure (scanners, high-density cloud networks, rotating residential addresses) whose score should be reduced but not dropped.",
+      "uuid": "ca1fc696-2347-5c0c-baad-1b745937571c"
+    },
+    {
+      "value": "noise-category",
+      "expanded": "Noise Control category",
+      "description": "Free-form category the RST Noise Control verdict came from (e.g. a scanner/CDN/cloud provider name or path). Value is dynamic, taken verbatim from the RST Noise Control response.",
+      "uuid": "8b15ae85-242e-5854-a4aa-e7f6eedba436"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "score-total",
+      "entry": [
+        {
+          "value": "0",
+          "expanded": "Total score 0",
+          "numerical_value": 0,
+          "uuid": "2f85c493-a7b6-5cbd-a5e3-c7b605b340cf"
+        },
+        {
+          "value": "1",
+          "expanded": "Total score 1",
+          "numerical_value": 1,
+          "uuid": "af54f6a8-f288-5cc0-929a-76bc08bc2252"
+        },
+        {
+          "value": "2",
+          "expanded": "Total score 2",
+          "numerical_value": 2,
+          "uuid": "b99c5860-78e4-5771-8bbf-48dc6cb6ba7f"
+        },
+        {
+          "value": "3",
+          "expanded": "Total score 3",
+          "numerical_value": 3,
+          "uuid": "002e4ee3-f334-531d-86bf-89201acf0fb9"
+        },
+        {
+          "value": "4",
+          "expanded": "Total score 4",
+          "numerical_value": 4,
+          "uuid": "532bac4b-eb39-585a-903b-8f320d14716d"
+        },
+        {
+          "value": "5",
+          "expanded": "Total score 5",
+          "numerical_value": 5,
+          "uuid": "7e18d41c-fac8-53f1-a50d-2605c5a899df"
+        },
+        {
+          "value": "6",
+          "expanded": "Total score 6",
+          "numerical_value": 6,
+          "uuid": "4438d0bd-15f7-517c-8ffa-6ca317b7f03b"
+        },
+        {
+          "value": "7",
+          "expanded": "Total score 7",
+          "numerical_value": 7,
+          "uuid": "58708d81-0016-59bd-a369-a50e951bc8d2"
+        },
+        {
+          "value": "8",
+          "expanded": "Total score 8",
+          "numerical_value": 8,
+          "uuid": "d7bbacf4-5417-5b7a-8c50-608e464ab3bc"
+        },
+        {
+          "value": "9",
+          "expanded": "Total score 9",
+          "numerical_value": 9,
+          "uuid": "5cdd194d-97c9-5a26-a677-02e40f3faad7"
+        },
+        {
+          "value": "10",
+          "expanded": "Total score 10",
+          "numerical_value": 10,
+          "uuid": "6dec1b9d-d4b2-5cd4-8761-5654d29e24ef"
+        },
+        {
+          "value": "11",
+          "expanded": "Total score 11",
+          "numerical_value": 11,
+          "uuid": "c61d6661-c94f-5f7d-baca-15297f355efb"
+        },
+        {
+          "value": "12",
+          "expanded": "Total score 12",
+          "numerical_value": 12,
+          "uuid": "c5eb1b99-24cf-50ed-9464-0b0d0775d6ed"
+        },
+        {
+          "value": "13",
+          "expanded": "Total score 13",
+          "numerical_value": 13,
+          "uuid": "e9e7778e-2144-5d99-88ff-d346a4de85e2"
+        },
+        {
+          "value": "14",
+          "expanded": "Total score 14",
+          "numerical_value": 14,
+          "uuid": "9e06bbe2-9733-50e5-96a1-9789b6e63f75"
+        },
+        {
+          "value": "15",
+          "expanded": "Total score 15",
+          "numerical_value": 15,
+          "uuid": "ec7b23d7-45ec-58c9-9479-eb642de7dcc0"
+        },
+        {
+          "value": "16",
+          "expanded": "Total score 16",
+          "numerical_value": 16,
+          "uuid": "e3f4c001-b01e-5e04-84d3-5c7cb4224fd2"
+        },
+        {
+          "value": "17",
+          "expanded": "Total score 17",
+          "numerical_value": 17,
+          "uuid": "065a9800-7052-5a7a-868e-f159d26f4321"
+        },
+        {
+          "value": "18",
+          "expanded": "Total score 18",
+          "numerical_value": 18,
+          "uuid": "96376799-56e6-5af3-a795-b01114f97319"
+        },
+        {
+          "value": "19",
+          "expanded": "Total score 19",
+          "numerical_value": 19,
+          "uuid": "933d0d6b-950c-5279-a348-3f143dd13a39"
+        },
+        {
+          "value": "20",
+          "expanded": "Total score 20",
+          "numerical_value": 20,
+          "uuid": "f46612de-6715-599c-bb50-6ac585ac5346"
+        },
+        {
+          "value": "21",
+          "expanded": "Total score 21",
+          "numerical_value": 21,
+          "uuid": "74ff22da-a548-53b1-b498-0a90682658c5"
+        },
+        {
+          "value": "22",
+          "expanded": "Total score 22",
+          "numerical_value": 22,
+          "uuid": "0d98ef89-5f00-5cc3-a490-7979328f10c7"
+        },
+        {
+          "value": "23",
+          "expanded": "Total score 23",
+          "numerical_value": 23,
+          "uuid": "14f54043-4570-584a-b683-66ce0f74f715"
+        },
+        {
+          "value": "24",
+          "expanded": "Total score 24",
+          "numerical_value": 24,
+          "uuid": "be9b0e80-17cb-5ad4-b593-f3affac5117b"
+        },
+        {
+          "value": "25",
+          "expanded": "Total score 25",
+          "numerical_value": 25,
+          "uuid": "4caf1bac-2bb3-5bb5-8986-cd3ac533d660"
+        },
+        {
+          "value": "26",
+          "expanded": "Total score 26",
+          "numerical_value": 26,
+          "uuid": "eecfc258-2782-513e-ba6f-521f0eb0cba9"
+        },
+        {
+          "value": "27",
+          "expanded": "Total score 27",
+          "numerical_value": 27,
+          "uuid": "f4d92bce-c201-5248-850e-926844607cc0"
+        },
+        {
+          "value": "28",
+          "expanded": "Total score 28",
+          "numerical_value": 28,
+          "uuid": "44306bf7-33b5-5437-9f7f-9f9bfae946ee"
+        },
+        {
+          "value": "29",
+          "expanded": "Total score 29",
+          "numerical_value": 29,
+          "uuid": "3c0aa762-18c3-529c-bd4e-f8ea8b9e312c"
+        },
+        {
+          "value": "30",
+          "expanded": "Total score 30",
+          "numerical_value": 30,
+          "uuid": "b6f3d591-b542-5e56-a5a9-387ceaac87af"
+        },
+        {
+          "value": "31",
+          "expanded": "Total score 31",
+          "numerical_value": 31,
+          "uuid": "c9abc1ed-559d-50e9-9e27-ff5d661c3739"
+        },
+        {
+          "value": "32",
+          "expanded": "Total score 32",
+          "numerical_value": 32,
+          "uuid": "d2d90165-348a-5308-9469-b77489ca4e1f"
+        },
+        {
+          "value": "33",
+          "expanded": "Total score 33",
+          "numerical_value": 33,
+          "uuid": "02f0e9f4-9f2d-5ec8-87ff-5b623abf34e5"
+        },
+        {
+          "value": "34",
+          "expanded": "Total score 34",
+          "numerical_value": 34,
+          "uuid": "f8026e64-fa0b-502c-a570-8edc8b5109f6"
+        },
+        {
+          "value": "35",
+          "expanded": "Total score 35",
+          "numerical_value": 35,
+          "uuid": "32ebd997-c2a9-5b1f-bc00-5e60177b6701"
+        },
+        {
+          "value": "36",
+          "expanded": "Total score 36",
+          "numerical_value": 36,
+          "uuid": "cc327413-0bdd-5131-8021-4e36b9f887d4"
+        },
+        {
+          "value": "37",
+          "expanded": "Total score 37",
+          "numerical_value": 37,
+          "uuid": "1ff5a55f-224c-54c1-a4c8-39b984206120"
+        },
+        {
+          "value": "38",
+          "expanded": "Total score 38",
+          "numerical_value": 38,
+          "uuid": "2a3de65b-1a5e-59b6-821d-6f88287887c5"
+        },
+        {
+          "value": "39",
+          "expanded": "Total score 39",
+          "numerical_value": 39,
+          "uuid": "88a0b927-c4b7-5970-b4da-c9994b8ae4af"
+        },
+        {
+          "value": "40",
+          "expanded": "Total score 40",
+          "numerical_value": 40,
+          "uuid": "aeacbdbc-a51c-5f0d-84b4-1ad33f70239f"
+        },
+        {
+          "value": "41",
+          "expanded": "Total score 41",
+          "numerical_value": 41,
+          "uuid": "695411e6-bad1-59f5-85af-7df5b0767f26"
+        },
+        {
+          "value": "42",
+          "expanded": "Total score 42",
+          "numerical_value": 42,
+          "uuid": "8a463d9b-d75f-545e-aa6e-beedb0dc5ad3"
+        },
+        {
+          "value": "43",
+          "expanded": "Total score 43",
+          "numerical_value": 43,
+          "uuid": "8a8ef402-cff5-5fae-9685-0be4b545f0d0"
+        },
+        {
+          "value": "44",
+          "expanded": "Total score 44",
+          "numerical_value": 44,
+          "uuid": "ab3e4e44-ce9d-5a68-9d54-67e1bfdb052d"
+        },
+        {
+          "value": "45",
+          "expanded": "Total score 45",
+          "numerical_value": 45,
+          "uuid": "12d8ad47-f007-543b-8f07-7144075b27d5"
+        },
+        {
+          "value": "46",
+          "expanded": "Total score 46",
+          "numerical_value": 46,
+          "uuid": "93e1d31f-d065-5fb4-b8b0-8c539162d000"
+        },
+        {
+          "value": "47",
+          "expanded": "Total score 47",
+          "numerical_value": 47,
+          "uuid": "69b37965-6b6a-5590-aa83-7516c291095b"
+        },
+        {
+          "value": "48",
+          "expanded": "Total score 48",
+          "numerical_value": 48,
+          "uuid": "1c50bc15-7dbb-584e-a9ba-fde2ae63c75f"
+        },
+        {
+          "value": "49",
+          "expanded": "Total score 49",
+          "numerical_value": 49,
+          "uuid": "02a53ea2-e936-5e01-a7e0-7995c0715fc5"
+        },
+        {
+          "value": "50",
+          "expanded": "Total score 50",
+          "numerical_value": 50,
+          "uuid": "27f3aa5d-d885-560f-8836-9854e4f08f6f"
+        },
+        {
+          "value": "51",
+          "expanded": "Total score 51",
+          "numerical_value": 51,
+          "uuid": "298dd77f-d586-5981-a114-c0644b541c74"
+        },
+        {
+          "value": "52",
+          "expanded": "Total score 52",
+          "numerical_value": 52,
+          "uuid": "72165176-eba0-5ea9-9139-1c5062f6baa4"
+        },
+        {
+          "value": "53",
+          "expanded": "Total score 53",
+          "numerical_value": 53,
+          "uuid": "65fd5ed6-0be2-509a-9aec-885723a46969"
+        },
+        {
+          "value": "54",
+          "expanded": "Total score 54",
+          "numerical_value": 54,
+          "uuid": "43afe1d2-865d-5e16-982f-a2f222b80cde"
+        },
+        {
+          "value": "55",
+          "expanded": "Total score 55",
+          "numerical_value": 55,
+          "uuid": "ef453b78-35ca-5825-a79a-98ccd5a290e4"
+        },
+        {
+          "value": "56",
+          "expanded": "Total score 56",
+          "numerical_value": 56,
+          "uuid": "c4ce8eba-5c47-51b7-9698-55b6fd41b838"
+        },
+        {
+          "value": "57",
+          "expanded": "Total score 57",
+          "numerical_value": 57,
+          "uuid": "da23dcb4-837b-5e52-a2a1-bbc5da99e1ff"
+        },
+        {
+          "value": "58",
+          "expanded": "Total score 58",
+          "numerical_value": 58,
+          "uuid": "8a8545f1-1bd3-5d98-822c-b1f12067f5a0"
+        },
+        {
+          "value": "59",
+          "expanded": "Total score 59",
+          "numerical_value": 59,
+          "uuid": "911a8feb-6e1e-5b17-9c48-e56c993e0ee3"
+        },
+        {
+          "value": "60",
+          "expanded": "Total score 60",
+          "numerical_value": 60,
+          "uuid": "2564159b-bec7-54b3-b3f8-c0e3e85f0a84"
+        },
+        {
+          "value": "61",
+          "expanded": "Total score 61",
+          "numerical_value": 61,
+          "uuid": "87f855a0-74c7-5d49-814f-44425aa8932f"
+        },
+        {
+          "value": "62",
+          "expanded": "Total score 62",
+          "numerical_value": 62,
+          "uuid": "cdac2237-5ffb-514e-9497-2be4b3d470b8"
+        },
+        {
+          "value": "63",
+          "expanded": "Total score 63",
+          "numerical_value": 63,
+          "uuid": "1fa0db3c-dc2a-5818-9d43-6dc4ae6b0c98"
+        },
+        {
+          "value": "64",
+          "expanded": "Total score 64",
+          "numerical_value": 64,
+          "uuid": "9fe9b056-230e-5bd2-935d-5b237e2efaa8"
+        },
+        {
+          "value": "65",
+          "expanded": "Total score 65",
+          "numerical_value": 65,
+          "uuid": "5a91adb0-e482-56b7-939a-14117ca71667"
+        },
+        {
+          "value": "66",
+          "expanded": "Total score 66",
+          "numerical_value": 66,
+          "uuid": "26bff520-43d0-59a7-97e7-98eeee6871bf"
+        },
+        {
+          "value": "67",
+          "expanded": "Total score 67",
+          "numerical_value": 67,
+          "uuid": "d17a5453-8859-54cc-ab88-3d8a6f145486"
+        },
+        {
+          "value": "68",
+          "expanded": "Total score 68",
+          "numerical_value": 68,
+          "uuid": "fcff513f-b0a9-5ce5-8b3a-f4eae25c9048"
+        },
+        {
+          "value": "69",
+          "expanded": "Total score 69",
+          "numerical_value": 69,
+          "uuid": "1a90f27e-619e-50d7-a043-7c8fcdd4fa01"
+        },
+        {
+          "value": "70",
+          "expanded": "Total score 70",
+          "numerical_value": 70,
+          "uuid": "da0d90e6-5bce-5961-8710-f2cf550ae9c2"
+        },
+        {
+          "value": "71",
+          "expanded": "Total score 71",
+          "numerical_value": 71,
+          "uuid": "c1408e23-f2be-5384-8be7-ac7c214222b5"
+        },
+        {
+          "value": "72",
+          "expanded": "Total score 72",
+          "numerical_value": 72,
+          "uuid": "32f79d0a-ed5b-5985-8b07-d5e1a12f692c"
+        },
+        {
+          "value": "73",
+          "expanded": "Total score 73",
+          "numerical_value": 73,
+          "uuid": "7acc61a1-7081-58ea-ba17-ad6c611f6b06"
+        },
+        {
+          "value": "74",
+          "expanded": "Total score 74",
+          "numerical_value": 74,
+          "uuid": "1bff8a12-28e6-5f04-8726-79a8124c9c51"
+        },
+        {
+          "value": "75",
+          "expanded": "Total score 75",
+          "numerical_value": 75,
+          "uuid": "6a62da97-3185-53ce-b250-8730ac25c9ad"
+        },
+        {
+          "value": "76",
+          "expanded": "Total score 76",
+          "numerical_value": 76,
+          "uuid": "ae09022e-793c-5aad-83e8-a8faa549e8d7"
+        },
+        {
+          "value": "77",
+          "expanded": "Total score 77",
+          "numerical_value": 77,
+          "uuid": "a128c557-4cc6-5a9e-9b11-af206c2db86e"
+        },
+        {
+          "value": "78",
+          "expanded": "Total score 78",
+          "numerical_value": 78,
+          "uuid": "078c39cd-017b-5766-afbb-e5c80abf0979"
+        },
+        {
+          "value": "79",
+          "expanded": "Total score 79",
+          "numerical_value": 79,
+          "uuid": "464ace83-9ea6-5bc0-9c5b-59fba38d9047"
+        },
+        {
+          "value": "80",
+          "expanded": "Total score 80",
+          "numerical_value": 80,
+          "uuid": "bd428e1a-6669-5590-8d17-6acb3397d0c6"
+        },
+        {
+          "value": "81",
+          "expanded": "Total score 81",
+          "numerical_value": 81,
+          "uuid": "bd668b49-dd56-522a-9be5-b061a1106f92"
+        },
+        {
+          "value": "82",
+          "expanded": "Total score 82",
+          "numerical_value": 82,
+          "uuid": "60195573-391d-5d4e-8213-682562498d1f"
+        },
+        {
+          "value": "83",
+          "expanded": "Total score 83",
+          "numerical_value": 83,
+          "uuid": "41b3c975-c0f2-5f7e-90a2-3631f5300bee"
+        },
+        {
+          "value": "84",
+          "expanded": "Total score 84",
+          "numerical_value": 84,
+          "uuid": "3871adca-5fbf-5e17-a068-aed11649b8aa"
+        },
+        {
+          "value": "85",
+          "expanded": "Total score 85",
+          "numerical_value": 85,
+          "uuid": "ac78383f-06ba-57be-9ea7-ab8eb55dd49b"
+        },
+        {
+          "value": "86",
+          "expanded": "Total score 86",
+          "numerical_value": 86,
+          "uuid": "8488adc6-4bfb-5ee5-aae4-4181cd90cc0f"
+        },
+        {
+          "value": "87",
+          "expanded": "Total score 87",
+          "numerical_value": 87,
+          "uuid": "da57bbe3-74b0-586a-8133-1c21db9b79ee"
+        },
+        {
+          "value": "88",
+          "expanded": "Total score 88",
+          "numerical_value": 88,
+          "uuid": "e4101945-718c-5be8-a742-dc1fd57dfa68"
+        },
+        {
+          "value": "89",
+          "expanded": "Total score 89",
+          "numerical_value": 89,
+          "uuid": "8160db7c-9bc5-569e-8ca6-7dc5b5942442"
+        },
+        {
+          "value": "90",
+          "expanded": "Total score 90",
+          "numerical_value": 90,
+          "uuid": "94a654f5-23db-5952-a608-926855eabb69"
+        },
+        {
+          "value": "91",
+          "expanded": "Total score 91",
+          "numerical_value": 91,
+          "uuid": "e0f278c9-1d38-5b09-b873-c3bd65d2e7c6"
+        },
+        {
+          "value": "92",
+          "expanded": "Total score 92",
+          "numerical_value": 92,
+          "uuid": "d70982d7-bb11-5731-b93a-6962fcc9f5d1"
+        },
+        {
+          "value": "93",
+          "expanded": "Total score 93",
+          "numerical_value": 93,
+          "uuid": "cec57d4b-8436-50d5-ae9e-95a138c4d06e"
+        },
+        {
+          "value": "94",
+          "expanded": "Total score 94",
+          "numerical_value": 94,
+          "uuid": "b97b8d20-0a85-5e1b-a518-31c363ba34e8"
+        },
+        {
+          "value": "95",
+          "expanded": "Total score 95",
+          "numerical_value": 95,
+          "uuid": "9729fef4-a2e9-56f0-9869-12c3a5c31331"
+        },
+        {
+          "value": "96",
+          "expanded": "Total score 96",
+          "numerical_value": 96,
+          "uuid": "b6c0bc6c-f9ef-56b2-b1d7-85d3f734c0a9"
+        },
+        {
+          "value": "97",
+          "expanded": "Total score 97",
+          "numerical_value": 97,
+          "uuid": "175fab3d-9ecd-5fcf-bfbf-05351336a362"
+        },
+        {
+          "value": "98",
+          "expanded": "Total score 98",
+          "numerical_value": 98,
+          "uuid": "e5411e78-80d1-5ce8-9444-f04c97e87aba"
+        },
+        {
+          "value": "99",
+          "expanded": "Total score 99",
+          "numerical_value": 99,
+          "uuid": "89af8152-9c53-505d-a3f1-d113dd91b838"
+        },
+        {
+          "value": "100",
+          "expanded": "Total score 100",
+          "numerical_value": 100,
+          "uuid": "0035b6b8-c456-5a78-899e-33d2e7d62940"
+        }
+      ]
+    },
+    {
+      "predicate": "context-confidence",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 10,
+          "description": "Little context and/or low-impact activity (e.g. background scanners, SSH probes).",
+          "uuid": "c8f94936-ae9c-59aa-ae63-babe63aa7b9a"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 30,
+          "description": "Limited context and/or a comparatively low-impact threat type (e.g. vulndriver).",
+          "uuid": "cc68cb2c-83ee-5548-8b71-814622a6c9e8"
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "numerical_value": 50,
+          "description": "Moderate context and/or a moderately impactful threat type (e.g. spyware).",
+          "uuid": "51f7d608-228e-57df-b6f9-1a4d60865016"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 70,
+          "description": "Substantial context and/or a high-impact threat type (e.g. malware).",
+          "uuid": "6e7c2a39-f20f-5823-80ff-4853b54711af"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 90,
+          "description": "Extensive, well-corroborated context and/or a high-impact threat type (e.g. ransomware, C2, phishing).",
+          "uuid": "35f9aaf4-fce6-59df-932e-f83ee8cc99b5"
+        }
+      ]
+    },
+    {
+      "predicate": "relevance",
+      "entry": [
+        {
+          "value": "very-low",
+          "expanded": "Very low",
+          "numerical_value": 10,
+          "description": "Almost certainly not an active threat, or long-known and stale (e.g. background internet scanners / noise, or an indicator public for a long time and already blocked by most tools) - little remaining intelligence value.",
+          "uuid": "c0378349-365d-544f-a5e6-994ba3c0f83e"
+        },
+        {
+          "value": "low",
+          "expanded": "Low",
+          "numerical_value": 30,
+          "description": "Unlikely to be an active threat relative to its category, or known for a long time and therefore likely already widely blocked - limited intelligence value.",
+          "uuid": "6d8abd75-d32a-52bc-b903-37fe828ff57a"
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium",
+          "numerical_value": 50,
+          "description": "Plausibly an active threat; ambiguous signal, or moderately recent and still of some intelligence value.",
+          "uuid": "a6f6513f-da9e-5ccb-b672-27072a7a1e1d"
+        },
+        {
+          "value": "high",
+          "expanded": "High",
+          "numerical_value": 70,
+          "description": "Likely an active threat relative to its category, and reasonably recent / still circulating - actionable intelligence.",
+          "uuid": "0877d132-d1b4-5d02-9f89-2e056e7acaf4"
+        },
+        {
+          "value": "very-high",
+          "expanded": "Very high",
+          "numerical_value": 90,
+          "description": "Confirmed or near-certain active threat that is fresh / newly observed (e.g. live C2 / phishing) - high intelligence value; recently emerged or unlikely to be blocked everywhere yet.",
+          "uuid": "fd38b44d-6440-56ce-914a-abe5d59b20a1"
+        }
+      ]
+    },
+    {
+      "predicate": "noise-control",
+      "entry": [
+        {
+          "value": "drop",
+          "expanded": "Drop — known-good, safe to suppress",
+          "numerical_value": 0,
+          "uuid": "cf99784b-4a0a-51a6-b061-31fcc7613385"
+        },
+        {
+          "value": "change-score",
+          "expanded": "Change score — noisy infrastructure, reduce score",
+          "numerical_value": 30,
+          "uuid": "095929fa-2d32-5078-ba22-1994f0a1c64f"
+        }
+      ]
+    }
+  ]
+}
