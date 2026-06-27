@@ -754,6 +754,11 @@
       "version": 1003
     },
     {
+      "description": "RST Cloud threat intelligence scoring and verdicts for indicators enriched from RST Cloud. score-total (0-100) is the base score of the RST Cloud decaying models, computed as 100 * (source-confidence * context-confidence * relevance) where each sub-score is in [0,1]; because it is a product the total is heavily compressed (all-very-high inputs 0.9*0.9*0.9 = 72.9), so 90+ is rarely reached. Clients typically use 45+ for real-time detection and 50+ for blocking. context-confidence and relevance are coarse bands derived from the corresponding RST sub-scores and are human triage signals; context-confidence also reflects how dangerous the associated threat type is, and relevance also factors in novelty/freshness. noise-control / noise-category carry RST Noise Control and false-positive verdicts surfaced by the enrichment modules. By RST Cloud.",
+      "name": "rstcloud",
+      "version": 1
+    },
+    {
       "description": "Status of events used in Request Tracker.",
       "name": "rt_event_status",
       "version": 2
@@ -905,5 +910,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260610"
+  "version": "20260627"
 }
