@@ -1,0 +1,181 @@
+{
+  "namespace": "nist-ai-600-1",
+  "description": "A taxonomy based on NIST AI 600-1 (July 2024), Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile. Covers the risks unique to or exacerbated by Generative AI, their mapped Trustworthy AI Characteristics, and the primary GAI considerations derived from the NIST Generative AI Public Working Group.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "gai-risk",
+      "expanded": "GAI Risk",
+      "description": "Risks unique to or exacerbated by Generative AI, as defined in Section 2 of NIST AI 600-1.",
+      "uuid": "c8ae7f01-ffbc-4043-a88d-9181a0704999"
+    },
+    {
+      "value": "trustworthy-ai-characteristic",
+      "expanded": "Trustworthy AI Characteristic",
+      "description": "Characteristics of trustworthy AI from the NIST AI RMF, mapped to each GAI risk.",
+      "uuid": "4e2f2e18-b55f-40f0-9e49-f5bbd82bd040"
+    },
+    {
+      "value": "primary-consideration",
+      "expanded": "Primary GAI Consideration",
+      "description": "Overarching themes derived from the NIST Generative AI Public Working Group (Appendix A).",
+      "uuid": "c07b58fe-8983-4131-b509-ebc52b3a4e04"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "gai-risk",
+      "entry": [
+        {
+          "value": "cbrn-information-or-capabilities",
+          "expanded": "CBRN Information or Capabilities",
+          "description": "Eased access to or synthesis of materially nefarious information or design capabilities related to chemical, biological, radiological, or nuclear (CBRN) weapons or other dangerous materials or agents.",
+          "uuid": "28db367d-aeda-467b-8c76-6b5ffe8de452"
+        },
+        {
+          "value": "confabulation",
+          "expanded": "Confabulation",
+          "description": "The production of confidently stated but erroneous or false content (known colloquially as 'hallucinations' or 'fabrications') by which users may be misled or deceived.",
+          "uuid": "66fa8386-e289-410a-8459-22b75fe6705f"
+        },
+        {
+          "value": "dangerous-violent-or-hateful-content",
+          "expanded": "Dangerous, Violent, or Hateful Content",
+          "description": "Eased production of and access to violent, inciting, radicalizing, or threatening content as well as recommendations to carry out self-harm or conduct illegal activities. Includes difficulty controlling public exposure to hateful and disparaging or stereotyping content.",
+          "uuid": "488fab10-8d22-4934-a434-e59d1dd6ee3c"
+        },
+        {
+          "value": "data-privacy",
+          "expanded": "Data Privacy",
+          "description": "Impacts due to leakage and unauthorized use, disclosure, or de-anonymization of biometric, health, location, or other personally identifiable information or sensitive data.",
+          "uuid": "d0df4f5f-9d0d-4f51-8863-2cb07fd3e91d"
+        },
+        {
+          "value": "environmental-impacts",
+          "expanded": "Environmental Impacts",
+          "description": "Impacts due to high compute resource utilization in training or operating GAI models, and related outcomes that may adversely impact ecosystems.",
+          "uuid": "01a3bd61-49d1-4826-849f-5b58b935f6f6"
+        },
+        {
+          "value": "harmful-bias-or-homogenization",
+          "expanded": "Harmful Bias or Homogenization",
+          "description": "Amplification and exacerbation of historical, societal, and systemic biases; performance disparities between sub-groups or languages, possibly due to non-representative training data, that result in discrimination, amplification of biases, or incorrect presumptions about performance; undesired homogeneity that skews system or model outputs, which may be erroneous, lead to ill-founded decision-making, or amplify harmful biases.",
+          "uuid": "c12e7494-30f2-4ff3-b95a-e08b22986a41"
+        },
+        {
+          "value": "human-ai-configuration",
+          "expanded": "Human-AI Configuration",
+          "description": "Arrangements of or interactions between a human and an AI system which can result in the human inappropriately anthropomorphizing GAI systems or experiencing algorithmic aversion, automation bias, over-reliance, or emotional entanglement with GAI systems.",
+          "uuid": "08ae832d-b2cc-493f-871d-ea7da8ea23fd"
+        },
+        {
+          "value": "information-integrity",
+          "expanded": "Information Integrity",
+          "description": "Lowered barrier to entry to generate and support the exchange and consumption of content which may not distinguish fact from opinion or fiction or acknowledge uncertainties, or could be leveraged for large-scale dis- and mis-information campaigns.",
+          "uuid": "1a9ab7dc-cfc6-4547-b549-220b749769f3"
+        },
+        {
+          "value": "information-security",
+          "expanded": "Information Security",
+          "description": "Lowered barriers for offensive cyber capabilities, including via automated discovery and exploitation of vulnerabilities to ease hacking, malware, phishing, offensive cyber operations, or other cyberattacks; increased attack surface for targeted cyberattacks, which may compromise a system's availability or the confidentiality or integrity of training data, code, or model weights.",
+          "uuid": "ce8347ca-7fb3-4b95-a12c-1424f962b364"
+        },
+        {
+          "value": "intellectual-property",
+          "expanded": "Intellectual Property",
+          "description": "Eased production or replication of alleged copyrighted, trademarked, or licensed content without authorization (possibly in situations which do not fall under fair use); eased exposure of trade secrets; or plagiarism or illegal replication.",
+          "uuid": "df5e3730-b72f-49ed-9232-23ab82d1ab7f"
+        },
+        {
+          "value": "obscene-degrading-or-abusive-content",
+          "expanded": "Obscene, Degrading, and/or Abusive Content",
+          "description": "Eased production of and access to obscene, degrading, and/or abusive imagery which can cause harm, including synthetic child sexual abuse material (CSAM), and nonconsensual intimate images (NCII) of adults.",
+          "uuid": "499846e5-5148-44f5-9d59-f542b794d652"
+        },
+        {
+          "value": "value-chain-and-component-integration",
+          "expanded": "Value Chain and Component Integration",
+          "description": "Non-transparent or untraceable integration of upstream third-party components, including data that has been improperly obtained or not processed and cleaned due to increased automation from GAI; improper supplier vetting across the AI lifecycle; or other issues that diminish transparency or accountability for downstream users.",
+          "uuid": "36a0ef34-a6b8-4a04-998b-417768482bec"
+        }
+      ]
+    },
+    {
+      "predicate": "trustworthy-ai-characteristic",
+      "entry": [
+        {
+          "value": "safe",
+          "expanded": "Safe",
+          "description": "The AI system should not under defined conditions lead to a state in which human life, health, property, or the environment is endangered.",
+          "uuid": "dbd0d07d-4288-41eb-8312-719c900bc7ad"
+        },
+        {
+          "value": "secure-and-resilient",
+          "expanded": "Secure and Resilient",
+          "description": "AI systems that can withstand adversarial attacks (e.g., prompt injection, data poisoning) and unexpected changes in their environment or use, and maintain confidentiality, integrity, and availability.",
+          "uuid": "58a315a3-d74c-4873-8770-df87dcf5ffd7"
+        },
+        {
+          "value": "explainable-and-interpretable",
+          "expanded": "Explainable and Interpretable",
+          "description": "Explainability concerns the mechanisms underlying an AI system's operation; interpretability concerns the meaning of outputs in the context of designed functional purposes.",
+          "uuid": "c1cdcbc1-2016-4198-be7b-ef8035630b5b"
+        },
+        {
+          "value": "accountable-and-transparent",
+          "expanded": "Accountable and Transparent",
+          "description": "Meaningful transparency about an AI system and its outputs, with clear lines of accountability across the AI lifecycle and value chain.",
+          "uuid": "fd0eae5d-ec59-4acf-89ae-b27a801638eb"
+        },
+        {
+          "value": "privacy-enhanced",
+          "expanded": "Privacy Enhanced",
+          "description": "Safeguards for human autonomy, identity, and dignity, including freedom from intrusion and control over data, addressing leakage, memorization, and inference of sensitive information.",
+          "uuid": "8ac51bb3-c6ef-4bdd-a8d1-d3fca70f2a3f"
+        },
+        {
+          "value": "fair-with-harmful-bias-managed",
+          "expanded": "Fair with Harmful Bias Managed",
+          "description": "Concerns for equality and equity by addressing harmful bias and discrimination, including systemic, computational/statistical, and human-cognitive biases.",
+          "uuid": "51bd4f15-ee7f-44e2-86a5-05536f0c71d6"
+        },
+        {
+          "value": "valid-and-reliable",
+          "expanded": "Valid and Reliable",
+          "description": "Demonstrated through ongoing testing or monitoring that an AI system performs as intended (validity) and consistently under expected conditions (reliability).",
+          "uuid": "b9d44205-0cfb-4f52-a851-6dfe13a78884"
+        }
+      ]
+    },
+    {
+      "predicate": "primary-consideration",
+      "entry": [
+        {
+          "value": "governance",
+          "expanded": "Governance",
+          "description": "Governance principles and techniques used to manage risks related to GAI models, capabilities, and applications, including organizational governance and third-party considerations across the AI value chain.",
+          "uuid": "7117d0a3-75ea-4eaa-a9f1-7e5f6eef84ef"
+        },
+        {
+          "value": "pre-deployment-testing",
+          "expanded": "Pre-Deployment Testing",
+          "description": "Robust test, evaluation, validation, and verification (TEVV) processes applied and documented in early lifecycle stages to measure performance, capabilities, limits, risks, and impacts before deployment.",
+          "uuid": "f5c6d717-0ea0-489f-bbb1-16b5be04e257"
+        },
+        {
+          "value": "content-provenance",
+          "expanded": "Content Provenance",
+          "description": "Digital transparency mechanisms such as provenance data tracking and synthetic content detection that trace the origin and history of content to support information integrity and public trust.",
+          "uuid": "d6f26343-8e45-4d26-9b4a-c3a0d437b43f"
+        },
+        {
+          "value": "incident-disclosure",
+          "expanded": "Incident Disclosure",
+          "description": "Documenting, reporting, and sharing information about AI incidents to help mitigate and prevent harmful outcomes and trace impacts to their source across the AI ecosystem.",
+          "uuid": "d94819b5-7310-48bf-9746-80119bac19d4"
+        }
+      ]
+    }
+  ],
+  "uuid": "d6d08803-1b23-4765-9f87-2c9585db56a2"
+}
