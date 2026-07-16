@@ -1,950 +1,939 @@
 {
   "namespace": "cccs",
-  "description": "Internal taxonomy for CCCS.",
-  "version": 2,
-  "expanded": "CCCS",
+  "description": "CCCS Custom Taxonomy",
+  "version": 12,
   "predicates": [
     {
+      "value": "analytics",
+      "expanded": "Analytics",
+      "description": "The analytics classification contains names for analytic processes that are generating events with data."
+    },
+    {
+      "value": "malware_classification",
+      "expanded": "Malware Classification",
+      "description": "Malware classification taxonomy."
+    },
+    {
+      "value": "incident_classification",
+      "expanded": "Incident Classification",
+      "description": "Incident classification used by CCCS."
+    },
+    {
+      "value": "confidence",
+      "expanded": "Confidence Classification",
+      "description": "The confidence classification specify the trust level of the information."
+    },
+    {
+      "value": "context",
+      "expanded": "Context Classification",
+      "description": "The context classification is used internally by CCCS to indicate if the attribute contains an indicator of compromise or a threat intelligence information."
+    },
+    {
       "value": "event",
-      "expanded": "Event type",
-      "description": "Type of event associated to the internal reference",
-      "uuid": "5b39c6f1-dfe9-5c4c-9728-97d359663b6c"
+      "expanded": "Event Classification",
+      "description": "The event classification contains tags related to special events we want to track (EX: COVID, Olympic, etc..)."
     },
     {
-      "value": "disclosure-type",
-      "expanded": "Disclosure type",
-      "description": "Type of information being disclosed.",
-      "uuid": "0c3098b4-1fad-5c5c-9b44-dc6d8bd02b92"
+      "value": "platform",
+      "expanded": "Platform Classification",
+      "description": "The platform classification specify the target platform."
     },
     {
-      "value": "domain-category",
-      "expanded": "Domain category",
-      "description": "The Domain Category.",
-      "uuid": "9a9d7c42-69a0-5736-9857-1908345a6b32"
+      "value": "source",
+      "expanded": "Source Classification",
+      "description": "The source classification specify where the information came from."
     },
     {
-      "value": "email-type",
-      "expanded": "Email type",
-      "description": "Type of email event.",
-      "uuid": "3b70276c-3821-5111-9f4a-3d3b3761d1b2"
+      "value": "product",
+      "expanded": "CCCS Products Classification",
+      "description": "The CCCS product classification is for all CCCS products: Advisory, Alert, CyberFlash, etc..."
     },
     {
-      "value": "exploitation-technique",
-      "expanded": "Exploitation technique",
-      "description": "The technique used to remotely exploit a GoC system.",
-      "uuid": "0895f7ab-993f-52bc-9143-346986f86de4"
+      "value": "report",
+      "expanded": "Report Classification",
+      "description": "The report classification is used internally by CCCS to indicate in what report the MISP event will be inserted."
     },
     {
-      "value": "ip-category",
-      "expanded": "Ip category",
-      "description": "The IP Category.",
-      "uuid": "120b5a01-7001-5294-8355-ba6d326dbc8a"
+      "value": "tar_submission",
+      "expanded": "Technical Analysis Request Classification.",
+      "description": "The TAR submission indicate what type of file was submitted to CCCS to analyze."
     },
     {
-      "value": "maliciousness",
-      "expanded": "Maliciousness",
-      "description": "Level of maliciousness.",
-      "uuid": "c322b755-dff9-544e-b9a5-c25c51a48564"
+      "value": "sector",
+      "expanded": "The Affected Sector Classification.",
+      "description": "The sector classification indicate the affected sector."
     },
     {
-      "value": "malware-category",
-      "expanded": "Malware category",
-      "description": "The Malware Category.",
-      "uuid": "9af6268b-0895-51ad-8dc8-b718cb5785af"
+      "value": "mitigation",
+      "expanded": "The Mitigation Classification",
+      "description": "The mitigation classification indicate the action that was taken by CCCS regarding the MISP event."
     },
     {
-      "value": "misusage-type",
-      "expanded": "Misusage type",
-      "description": "The type of misusage.",
-      "uuid": "72780953-4f49-5277-9246-843f8552ea44"
-    },
-    {
-      "value": "mitigation-type",
-      "expanded": "Mitigation type",
-      "description": "The type of mitigation.",
-      "uuid": "8b36e3e9-8f2e-51eb-90ba-c9c77f70a373"
-    },
-    {
-      "value": "origin",
-      "expanded": "Origin",
-      "description": "Where the request originated from.",
-      "uuid": "9021986e-f8a7-52e8-8b94-aa0d08f6486f"
-    },
-    {
-      "value": "originating-organization",
-      "expanded": "Originating organization",
-      "description": "Origin of a signature.",
-      "uuid": "e175fabc-a6d7-5ec0-9f98-fb2a28c6a3ea"
-    },
-    {
-      "value": "scan-type",
-      "expanded": "Scan type",
-      "description": "The type of scan event.",
-      "uuid": "fffcd0ea-ee9d-5d2e-bea9-f9b757e04038"
-    },
-    {
-      "value": "severity",
-      "expanded": "Severity",
-      "description": "Severity of the event.",
-      "uuid": "9a6bb4b9-7379-573c-9864-32675af3c4a2"
-    },
-    {
-      "value": "threat-vector",
-      "expanded": "Threat vector",
-      "description": "Specifies how the threat actor gained or attempted to gain initial access to the target GoC host.",
-      "uuid": "f6e413af-6c20-5ef1-949e-59711c19b1c7"
+      "value": "acceptable-usage",
+      "expanded": "The Acceptable Usage Classification",
+      "description": "The acceptable usage classification specify on how information can be use. It typically complements a TLP level."
     }
   ],
   "values": [
     {
-      "predicate": "event",
+      "predicate": "analytics",
       "entry": [
         {
-          "value": "beacon",
-          "expanded": "Beacon",
-          "description": "A host infected with malware is connecting to threat actor owned infrastructure.",
-          "uuid": "2fde82ac-29f8-56d6-b107-8c44ef21f735"
+          "colour": "#0a358a",
+          "value": "icecube",
+          "expanded": "This represents an event generated by the IceCube analytic."
         },
         {
-          "value": "browser-based-exploitation",
-          "expanded": "Browser based exploitation",
-          "description": "A browser component is being exploited in order to infect a host.",
-          "uuid": "143d49d8-c04b-522d-9f90-0b98827ce1fc"
+          "colour": "#0a358a",
+          "value": "ironclaw",
+          "expanded": "This represents an event generated by the IronClaw analytic."
         },
         {
-          "value": "dos",
-          "expanded": "Dos",
-          "description": "An attack in which the goal is to disrupt access to a host or resource.",
-          "uuid": "25de7c36-5d44-5a9c-a72e-ddeb0fb8cc97"
+          "colour": "#0a358a",
+          "value": "phishhook",
+          "expanded": "This represents an event generated by the PhishHook analytic."
         },
         {
-          "value": "email",
-          "expanded": "Email",
-          "description": "Malicious emails sent to a department (baiting, content delivery, phishing).",
-          "uuid": "9c6735f8-89ad-5d46-b53e-d7008c46cf7c"
-        },
-        {
-          "value": "exfiltration",
-          "expanded": "Exfiltration",
-          "description": "Unauthorized transfer of data from a target's network to a location a threat actor controls.",
-          "uuid": "de1b8665-28ad-5891-9e8e-03da9870067b"
-        },
-        {
-          "value": "generic-event",
-          "expanded": "Generic event",
-          "description": "Represents a collection of virtually identical events within a range of time.",
-          "uuid": "0e9f156d-230c-5b5e-9437-3734aaf1b6e8"
-        },
-        {
-          "value": "improper-usage",
-          "expanded": "Improper usage",
-          "description": "Technology used in a way that compromises security or violates policy.",
-          "uuid": "6cd8cfc5-179e-52d4-85b3-525cfb1c0524"
-        },
-        {
-          "value": "malware-artifacts",
-          "expanded": "Malware artifacts",
-          "description": "Signs of the presence of malware observed on a host.",
-          "uuid": "36e6d511-2ae9-5fdd-85c4-50ed830fac3b"
-        },
-        {
-          "value": "malware-download",
-          "expanded": "Malware download",
-          "description": "Malware was transferred (downloaded/uploaded) to a host.",
-          "uuid": "a73246d7-5c93-5497-a25c-22ebb2475556"
-        },
-        {
-          "value": "phishing",
-          "expanded": "Phishing",
-          "description": "Information or credentials disclosed to a threat actor.",
-          "uuid": "1809c37d-783e-5586-a4cb-c05bcd4e9ef4"
-        },
-        {
-          "value": "remote-access",
-          "expanded": "Remote access",
-          "description": "A threat actor is attempting to or succeeding in remotely logging in to a host.",
-          "uuid": "9fd44c9b-282f-5e72-b2e1-f3f1eac47041"
-        },
-        {
-          "value": "remote-exploitation",
-          "expanded": "Remote exploitation",
-          "description": "A threat actor is attempting to exploit vulnerabilities remotely.",
-          "uuid": "be24158e-6a73-5707-b2b2-f739b57a172e"
-        },
-        {
-          "value": "scan",
-          "expanded": "Scan",
-          "description": "A threat actor is scanning the network.",
-          "uuid": "654f73d9-e48b-56a8-bb52-582faf3b307e"
-        },
-        {
-          "value": "scraping",
-          "expanded": "Scraping",
-          "description": "Represents a collection of virtually identical scraping events within a range of time.",
-          "uuid": "63fccf4c-5b22-56bc-a912-b7243400a189"
-        },
-        {
-          "value": "traffic-interception",
-          "expanded": "Traffic interception",
-          "description": "Represents a collection of virtually identical traffic interception events within a range of time.",
-          "uuid": "3951354d-ebd2-5d43-ae0a-f55735ee9db9"
+          "colour": "#0a358a",
+          "value": "puppetmaster",
+          "expanded": "This represents an event generated by the PuppetMaster analytic."
         }
       ]
     },
     {
-      "predicate": "disclosure-type",
+      "predicate": "malware_classification",
       "entry": [
-        {
-          "value": "goc-credential-disclosure",
-          "expanded": "Goc credential disclosure",
-          "description": "Credentials for a GoC system or user were disclosed.",
-          "uuid": "2ce71415-215a-5432-bb6e-57116fcfea84"
-        },
-        {
-          "value": "personal-credential-disclosure",
-          "expanded": "Personal credential disclosure",
-          "description": "Credentials not related to a GoC system or user were disclosed.",
-          "uuid": "08b825f7-2791-5377-973a-5d5b02517e84"
-        },
-        {
-          "value": "personal-information-disclosure",
-          "expanded": "Personal information disclosure",
-          "description": "Information about a person or persons was disclosed.",
-          "uuid": "04be538c-e724-5579-a97a-ef3adaa6ab3a"
-        },
-        {
-          "value": "none",
-          "expanded": "None",
-          "description": "No information was disclosed.",
-          "uuid": "90bfc62d-0f39-5ed2-a5ac-3eeb1ff367b2"
-        },
-        {
-          "value": "other",
-          "expanded": "Other",
-          "description": "Information other than credentials and personal information was disclosed.",
-          "uuid": "3bafeafc-015e-56c1-b03e-7a63f2049dd0"
-        }
-      ]
-    },
-    {
-      "predicate": "domain-category",
-      "entry": [
-        {
-          "value": "c2",
-          "expanded": "C2",
-          "description": "Domain is being used as command-and-control infrastructure.",
-          "uuid": "e8021d8b-d59c-5598-b50a-1384a6299230"
-        },
-        {
-          "value": "proxy",
-          "expanded": "Proxy",
-          "description": "Domain is being used as a proxy.",
-          "uuid": "0f47dbe0-55aa-5737-8685-7d3627f68f9a"
-        },
-        {
-          "value": "seeded",
-          "expanded": "Seeded",
-          "description": "Domain has been seeded with malware or other malicious code.",
-          "uuid": "d1864624-683e-5cb6-b0b0-ac8ed406b7c6"
-        },
-        {
-          "value": "wateringhole",
-          "expanded": "Wateringhole",
-          "description": "Domain is being used a wateringhole.",
-          "uuid": "3d2b3809-14d1-5f15-9867-e7ffcef09728"
-        },
-        {
-          "value": "cloud-infrastructure",
-          "expanded": "Cloud infrastructure",
-          "description": "Domain is hosted on cloud infrastructure.",
-          "uuid": "d62c2f68-3e3a-5fea-bdf4-ed80e166356b"
-        },
-        {
-          "value": "name-server",
-          "expanded": "Name server",
-          "description": "Domain is a name server.",
-          "uuid": "ef5f5f81-ea59-55ee-9ea8-bff209240ff2"
-        },
-        {
-          "value": "sinkholed",
-          "expanded": "Sinkholed",
-          "description": "Domain is being re-directed to a sinkhole.",
-          "uuid": "fc382249-93af-5dbf-98d7-d9009275a0ed"
-        }
-      ]
-    },
-    {
-      "predicate": "email-type",
-      "entry": [
-        {
-          "value": "spam",
-          "expanded": "Spam",
-          "description": "Unsolicited or junk email named after a Monty Python sketch.",
-          "uuid": "308ea1cf-ad79-5f44-a7ea-65cef2a55aa7"
-        },
-        {
-          "value": "content\\-delivery\\-attack",
-          "expanded": "Content\\-delivery\\-attack",
-          "description": "Email contained malicious content or attachments.",
-          "uuid": "fa8eaf68-c611-59ea-a4de-8dd4e0c2f161"
-        },
-        {
-          "value": "phishing",
-          "expanded": "Phishing",
-          "description": "Email designed to trick the recipient into providing sensitive information.",
-          "uuid": "9cc6a00c-8962-539e-ba38-7f77e2f4597b"
-        },
-        {
-          "value": "baiting",
-          "expanded": "Baiting",
-          "description": "Email designed to trick the recipient into providing sensitive information.",
-          "uuid": "cd064057-1e99-5858-8f14-eeda150867db"
-        },
-        {
-          "value": "unknown",
-          "expanded": "Unknown",
-          "description": "Type of email was unknown.",
-          "uuid": "7d160626-a75e-5eb7-bc28-e6d23424c359"
-        }
-      ]
-    },
-    {
-      "predicate": "exploitation-technique",
-      "entry": [
-        {
-          "value": "sql-injection",
-          "expanded": "Sql injection",
-          "description": "Exploitation occurred due to malicious SQL queries being executed against a database.",
-          "uuid": "99838046-754c-5cc8-a2e6-60355e02dc98"
-        },
-        {
-          "value": "directory-traversal",
-          "expanded": "Directory traversal",
-          "description": "Exploitation occurred through a directory traversal attack allowing access to a restricted directory.",
-          "uuid": "1af3ee7f-14a0-57bb-8088-98b9983a5603"
-        },
-        {
-          "value": "remote-file-inclusion",
-          "expanded": "Remote file inclusion",
-          "description": "Exploitation occurred due to vulnerabilities allowing malicious files to be sent.",
-          "uuid": "b21d9992-1e90-5f9b-982a-c63c682e58be"
-        },
-        {
-          "value": "code-injection",
-          "expanded": "Code injection",
-          "description": "Exploitation occurred due to malicious code being injected.",
-          "uuid": "f2f42ef0-83a8-5434-92a0-82b9dd0b2821"
-        },
-        {
-          "value": "other",
-          "expanded": "Other",
-          "description": "Other.",
-          "uuid": "bd941f5b-cd1c-5ef5-84eb-2903506a968f"
-        }
-      ]
-    },
-    {
-      "predicate": "ip-category",
-      "entry": [
-        {
-          "value": "c2",
-          "expanded": "C2",
-          "description": "IP address is a command-and-control server.",
-          "uuid": "89ec3923-c899-52d0-b6c1-987de0b5c94c"
-        },
-        {
-          "value": "proxy",
-          "expanded": "Proxy",
-          "description": "IP address is a proxy server.",
-          "uuid": "94acd397-4336-5432-bc29-808b57008057"
-        },
-        {
-          "value": "seeded",
-          "expanded": "Seeded",
-          "description": "IP address has been seeded with malware or other malicious code.",
-          "uuid": "dcceb304-2901-531a-a8bb-4d52af1ea9a2"
-        },
-        {
-          "value": "wateringhole",
-          "expanded": "Wateringhole",
-          "description": "IP address is a wateringhole.",
-          "uuid": "c097c7ce-45e4-55a5-b388-43007c38330c"
-        },
-        {
-          "value": "cloud-infrastructure",
-          "expanded": "Cloud infrastructure",
-          "description": "IP address is part of cloud infrastructure.",
-          "uuid": "1959924a-3e1d-5fe4-bd49-690759d958a3"
-        },
-        {
-          "value": "network-gateway",
-          "expanded": "Network gateway",
-          "description": "IP address is a network gateway.",
-          "uuid": "3620a0a1-5599-5282-bfa9-1d199e143f31"
-        },
-        {
-          "value": "server",
-          "expanded": "Server",
-          "description": "IP address is a server of some type.",
-          "uuid": "8aeb17ec-b29d-51b5-8bc5-196fb1521020"
-        },
-        {
-          "value": "dns-server",
-          "expanded": "Dns server",
-          "description": "IP address is a DNS server.",
-          "uuid": "bcd8adb2-e815-5e40-ac9a-db4006912672"
-        },
-        {
-          "value": "smtp-server",
-          "expanded": "Smtp server",
-          "description": "IP address is a mail server.",
-          "uuid": "a990d026-7a05-5936-b5f6-40272985ffae"
-        },
-        {
-          "value": "web-server",
-          "expanded": "Web server",
-          "description": "IP address is a web server.",
-          "uuid": "064aa097-1521-5b66-af47-e7a0116c2e20"
-        },
-        {
-          "value": "file-server",
-          "expanded": "File server",
-          "description": "IP address is a file server.",
-          "uuid": "1bafdf09-2a51-5d22-9277-428d36099968"
-        },
-        {
-          "value": "database-server",
-          "expanded": "Database server",
-          "description": "IP address is a database server.",
-          "uuid": "d6db2125-1b56-5f1e-9023-ee6a18128256"
-        },
-        {
-          "value": "security-appliance",
-          "expanded": "Security appliance",
-          "description": "IP address is a security appliance of some type.",
-          "uuid": "b98d19b8-152a-549b-950f-dd307dd3bfbc"
-        },
-        {
-          "value": "tor-node",
-          "expanded": "Tor node",
-          "description": "IP address is a node of the TOR anonymization system.",
-          "uuid": "6621a8e3-ef99-5167-8ad9-124db0fd97b8"
-        },
-        {
-          "value": "sinkhole",
-          "expanded": "Sinkhole",
-          "description": "IP address is a sinkhole.",
-          "uuid": "50f3da48-a814-5abe-a99f-7bebe798b674"
-        },
-        {
-          "value": "router",
-          "expanded": "Router",
-          "description": "IP address is a router device.",
-          "uuid": "7b298a56-faa2-5d4b-9805-8ed697d66737"
-        }
-      ]
-    },
-    {
-      "predicate": "maliciousness",
-      "entry": [
-        {
-          "value": "non-malicious",
-          "expanded": "Non-malicious",
-          "description": "Non-malicious is not malicious or suspicious.",
-          "uuid": "24134ff6-98a6-52ce-9164-cd627b51e366"
-        },
-        {
-          "value": "suspicious",
-          "expanded": "Suspicious",
-          "description": "Suspicious is not non-malicious and not malicious.",
-          "uuid": "0292d415-5aae-52e3-8757-a8a9f74d14f6"
-        },
-        {
-          "value": "malicious",
-          "expanded": "Malicious",
-          "description": "Malicious is not non-malicious or suspicious.",
-          "uuid": "2fde0161-c82d-5c5b-906c-7847aeb884ba"
-        }
-      ]
-    },
-    {
-      "predicate": "malware-category",
-      "entry": [
-        {
-          "value": "exploit-kit",
-          "expanded": "Exploit kit",
-          "description": "Toolkit used to attack vulnerabilities in systems.",
-          "uuid": "473c0f75-001e-50e2-b4fd-dcdd7be5279f"
-        },
-        {
-          "value": "first-stage",
-          "expanded": "First stage",
-          "description": "Malware used in the initial phase of an attack and commonly used to retrieve a second stage.",
-          "uuid": "2301b7df-edcb-5aa4-88f7-dc882ceba0af"
-        },
-        {
-          "value": "second-stage",
-          "expanded": "Second stage",
-          "description": "Typical more complex malware retrieved by first stage malware.",
-          "uuid": "4303e325-742f-548d-b415-542cf11ee93c"
-        },
-        {
-          "value": "scanner",
-          "expanded": "Scanner",
-          "description": "Malware used to look for common vulnerabilities or running software.",
-          "uuid": "2354e3a4-781e-5b15-97fd-316cad61503f"
-        },
-        {
-          "value": "downloader",
-          "expanded": "Downloader",
-          "description": "Malware used to retrieve additional malware or tools.",
-          "uuid": "23435de7-19d4-5d03-832e-b01e30a6278d"
-        },
-        {
-          "value": "proxy",
-          "expanded": "Proxy",
-          "description": "Malware used to proxy traffic on an infected host.",
-          "uuid": "37453089-bfa1-50c4-bc25-f0be9ff219c8"
-        },
-        {
-          "value": "reverse-proxy",
-          "expanded": "Reverse proxy",
-          "description": "If you choose this option please provide a description of what it is to the ALFRED PO.",
-          "uuid": "06f907a8-d244-5d19-bb2a-a3e9e0548721"
-        },
-        {
-          "value": "webshell",
-          "expanded": "Webshell",
-          "description": "Malware uploaded to a web server allowing remote access to an attacker.",
-          "uuid": "72445e23-b1af-5c6a-aefb-80bd11355981"
-        },
-        {
-          "value": "ransomware",
-          "expanded": "Ransomware",
-          "description": "Malware used to hold infected host's data hostage, typically through encryption until a payment is made to the attackers.",
-          "uuid": "fec92b06-2c3f-55a3-9061-c624fcc41b73"
-        },
         {
           "value": "adware",
-          "expanded": "Adware",
-          "description": "Malware used to display ads to the infected host.",
-          "uuid": "3c1265e8-cabd-5a5d-aab2-80bc9ffdec82"
+          "expanded": "An adware malware is a type of software that shows you extra promotions that you cannot control as you use your PC. You wouldn't see the extra ads if you didn't have adware installed.",
+          "colour": "#4c3011"
         },
         {
-          "value": "spyware",
-          "expanded": "Spyware",
-          "description": "Malware used to collect information from the infected host, such as credentials.",
-          "uuid": "95491450-fad2-569e-98ed-99e4fa3ca89b"
+          "value": "apt",
+          "expanded": "A apt malware is related to an Advanced Persistent Threat group.",
+          "colour": "#4c3011"
         },
         {
-          "value": "virus",
-          "expanded": "Virus",
-          "description": "Malware that propogates by inserting a copy of itself into another program.",
-          "uuid": "06773aef-027c-56b2-a543-22f2eb454673"
+          "value": "backdoor",
+          "expanded": "A backdoor malware gives malicious users remote control over the infected computer. They enable the author to do anything they wish on the infected computer including sending, receiving, launching and deleting files, displaying data and rebooting the computer. Backdoor Trojans are often used to unite a group of victim computers to form a botnet or zombie network that can be used for criminal purposes.",
+          "colour": "#4c3011"
         },
         {
-          "value": "worm",
-          "expanded": "Worm",
-          "description": "Standalone malware that propogates by copying itself..",
-          "uuid": "a8eb1a5f-0f91-527e-834b-8a995f3bc0f8"
+          "value": "banker",
+          "expanded": "A banker malware is designed to steal your account data for online banking systems, e-payment systems and credit or debit cards.",
+          "colour": "#4c3011"
         },
         {
-          "value": "trojan",
-          "expanded": "Trojan",
-          "description": "Malware that looks like legitimate software but hides malicious code.",
-          "uuid": "7b63d293-5a56-55d3-b2ca-730a677a2da0"
+          "value": "bootkit",
+          "expanded": "A bootkit malware modifies the boot sectors of a hard drive, including the Master Boot Record (MBR) and/or the Volume Boot Record (VBR).",
+          "colour": "#4c3011"
         },
         {
-          "value": "rootkit",
-          "expanded": "Rootkit",
-          "description": "Malware that can hide the existance of other malware by modifying operating system functions.",
-          "uuid": "5642941b-351c-554b-bcfe-8b6b2b6ff61b"
-        },
-        {
-          "value": "keylogger",
-          "expanded": "Keylogger",
-          "description": "Malware that runs in the background, capturing keystrokes from a user unknowingly for exfiltration.",
-          "uuid": "f89e78af-1f1a-5958-900f-14107a358027"
+          "value": "bot",
+          "expanded": "A bot malware is designed to infect a host and connect back to one or more control servers (C2) for an entire network of compromised devices, or botnet.",
+          "colour": "#4c3011"
         },
         {
           "value": "browser-hijacker",
-          "expanded": "Browser hijacker",
-          "description": "Malware that re-directs or otherwise intercepts Internet browsing by the user.",
-          "uuid": "467dbf26-76ef-5cf8-98b4-03555ca0f735"
+          "expanded": "A browser hijacker malware modifies the web browser's settings without the user's permission. The result is the placement of unwanted advertising into the browser, and possibly the replacement of an existing home page or search page with the hijacker page.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "bruteforcer",
+          "expanded": "A bruteforcer malware tries to brute force a website/server/service in order to achieve something else (EX: Discovering websites using default credentials).",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "clickfraud",
+          "expanded": "A clickfraud malware can uses an infected machine to click on websites or applications. This type of malware is usually used to make money for a malicious hacker by clicking on online advertisements and making it look like the website gets more traffic than it does. They can also be used to skew online polls, install programs on your PC, or make unwanted software appear more popular than it is.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "cryptominer",
+          "expanded": "A cryptominer malware uses a computer's resources without the owner explicit permission to perform crypto mining calculation.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "ddos",
+          "expanded": "A ddos malware conducts a distributed denial of service attack against a targeted web address. By sending multiple requests from the infected machine and several others, the malware can overwhelm the target machine leading to a denial of service.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "downloader",
+          "expanded": "A downloader malware downloads/installs additional malware or/and new versions of malicious programs in the target system.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "dropper",
+          "expanded": "A dropper malware is used to install a embedded encrypted/compressed payload in the infected system. They are commonly named installer.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "exploit",
+          "expanded": "An exploit is a program that takes advantage of a vulnerability in an application or system to perform malicious activity, such as: arbitrary code execution, privilege escalation, denial of service, data exfiltration, etc...",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "exploitkit",
+          "expanded": "A exploit kit malware contain data or code that takes advantage of a vulnerability within an application that is running in the target system.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "fakeav",
+          "expanded": "A fake antivirus malware simulate the activity of a real antivirus software. They are designed to extort money in return for the detection and removal of threat, even though the threats that they report are actually non-existent.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "hacktool",
+          "expanded": "A hack tool is a type of software that can be used to allow and maintain unauthorized access to your PC.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "infostealer",
+          "expanded": "An infostealer malware, also known as spyware, collects the user’s personal information, such as the browsing history and saved credentials and uses it without adequate consent.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "keylogger",
+          "expanded": "A keylogger malware monitors and logs every keystroke it can identify. Once installed, the malware either keeps track of all the keys and stores the information locally, after which the hacker needs physical access to the computer to retrieve the information, or the logs are sent over the internet back to the hacker.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "loader",
+          "expanded": "A loader malware is loading another application from the filesystem or directly into the memory.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "obfuscator",
+          "expanded": "An obfuscator malware hides its code and purpose to make it more difficult for security software to detect or remove it.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "pos",
+          "expanded": "A point-of-sale malware is used by cybercriminals to target point of sale (POS) and payment terminals with the intent to obtain credit card and debit card information.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "proxy",
+          "expanded": "A proxy malware allows unauthorized parties to use the infected computer as a proxy server to access the Internet anonymously.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "rat",
+          "expanded": "A rat malware is used by a remote hacker to gain access and control of an infected machine.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "ransomware",
+          "expanded": "A ransomware malware can modify data in the target computer so the operating system will stop running correctly or the data is no longer accessible. The criminal will only restore the computer state or data after a ransom is paid to them (mostly using cryptocurrency).",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "reverse-proxy",
+          "expanded": "A reverse proxy malware is a server that receives requests from the internet and forwards them to a small set of servers.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "rootkit",
+          "expanded": "A rootkit malware is designed to conceal certain objects or activities in the system. Often their main purpose is to prevent malicious programs being detected in order to extend the period in which programs can run on an infected computer.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "scanner",
+          "expanded": "A scanner malware scan the internet / network(s) / system(s) / service(s) to collect information. That information could be used later to perpetuate a cyber attack.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "scareware",
+          "expanded": "A scareware malware is using social engineering to cause shock, anxiety, or the perception of a threat in order to manipulate users into buying unwanted software.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "spammer",
+          "expanded": "A spammer malware is a type of malware that is sending spam email from the infected machine using a malicious or compromised email address.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "trojan",
+          "expanded": "A generic term used for malware of unknown classification.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "wiper",
+          "expanded": "A wiper malware destroy the data from the infected machine. It normally disable any mechanism that would restore the data (EX: backup, system restore points).",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "webshell",
+          "expanded": "A web shell malware is a script that can be uploaded to a web server to enable remote administration of the machine.",
+          "colour": "#4c3011"
+        },
+        {
+          "value": "worm",
+          "expanded": "A worm malware is a type of malware that replicates itself in order to spread to other computers. It often uses a computer network to spread itself to other machines (EX: malspam email).",
+          "colour": "#4c3011"
         }
       ]
     },
     {
-      "predicate": "misusage-type",
+      "predicate": "incident_classification",
       "entry": [
         {
-          "value": "unauthorized-usage",
-          "expanded": "Unauthorized usage",
-          "description": "Usage of the system or resource was without appropriate permission or authorization.",
-          "uuid": "59de30b7-b607-559b-8803-32ad2a6e8067"
+          "value": "brute-force",
+          "expanded": "Brute force attack.",
+          "colour": "#a6d31d"
         },
         {
-          "value": "misconfiguration",
-          "expanded": "Misconfiguration",
-          "description": "System or resource is misconfigured.",
-          "uuid": "a1510476-5c03-5fd9-bfbb-6befbd32bc82"
+          "value": "compromise-account",
+          "expanded": "A compromise account.",
+          "colour": "#a6d31d"
         },
         {
-          "value": "lack-of-encryption",
-          "expanded": "Lack of encryption",
-          "description": "System or resources has insufficient encryption or no encryption.",
-          "uuid": "a27bc177-1bc0-57f9-8651-2361693c760c"
+          "value": "compromise-malicious-code",
+          "expanded": "A compromise server with malicious code.",
+          "colour": "#a6d31d"
         },
         {
-          "value": "vulnerable-software",
-          "expanded": "Vulnerable software",
-          "description": "System or resource has software with known vulnerabilities.",
-          "uuid": "d7c70712-11e5-5c48-962f-8e23781e606a"
+          "value": "credential-theft",
+          "expanded": "Credential theft.",
+          "colour": "#a6d31d"
         },
         {
-          "value": "privilege-escalation",
-          "expanded": "Privilege escalation",
-          "description": "System or resource was exploited to gain higher privilege level.",
-          "uuid": "1efed33b-cd8b-5951-8f40-4af325941f7e"
+          "value": "c&c",
+          "expanded": "Command and control (EX: Pannel).",
+          "colour": "#a6d31d"
         },
         {
-          "value": "other",
-          "expanded": "Other",
-          "description": "Other.",
-          "uuid": "d8031d6d-2497-55b5-9995-bd25dc7b0b90"
+          "value": "defacement",
+          "expanded": "Defaced website",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "doppelganger",
+          "expanded": "Doppelganger.",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "dos-ddos",
+          "expanded": "Denial of service.",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "illegal-activity",
+          "expanded": "Illegal Activity (EX: copyright, juvenille porn, fraud, criminal activities, etc..)",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "infection",
+          "expanded": "Malware infection.",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "information-leak",
+          "expanded": "Information Leak.",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "impersonation",
+          "expanded": "Impersonation.",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "malspam",
+          "expanded": "Spam email email with malicious code.",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "misconfig",
+          "expanded": "Misconfig (improper usage)",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "phishing",
+          "expanded": "Phishing incident",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "scan-probes-attempted_access",
+          "expanded": "Scan",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "session-hijacking",
+          "expanded": "Session Hijacking and Man-in-the-Middle Attacks",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "smishing",
+          "expanded": "Phishing using a SMS message. (SMS Phishing)",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "spam",
+          "expanded": "Spam email",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "spear-phishing",
+          "expanded": "Spear Phishing",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "sql-injection",
+          "expanded": "SQL injection attack",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "unauthorized-access",
+          "expanded": "Unauthorized Access",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "vulnerability",
+          "expanded": "Vulnerability",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "wire-transfer-fraud",
+          "expanded": "Wire transfer fraud",
+          "colour": "#a6d31d"
+        },
+        {
+          "value": "xss",
+          "expanded": "Cross site scription",
+          "colour": "#a6d31d"
         }
       ]
     },
     {
-      "predicate": "mitigation-type",
+      "predicate": "confidence",
       "entry": [
         {
-          "value": "anti-virus",
-          "expanded": "Anti-virus",
-          "description": "Anti-Virus",
-          "uuid": "81a5eff7-08d0-590d-a72e-a51a08f958d9"
+          "colour": "#ff0000",
+          "value": "low",
+          "expanded": "Low Confidence Level"
         },
         {
-          "value": "content-filtering-system",
-          "expanded": "Content filtering system",
-          "description": "Content Filtering System",
-          "uuid": "1d2cdf56-b24f-5d6a-910f-7e77c26fa6fb"
+          "colour": "#ebff00",
+          "value": "medium",
+          "expanded": "Medium Confidence Level"
         },
         {
-          "value": "dynamic-defense",
-          "expanded": "Dynamic defense",
-          "description": "Dynamic Defense",
-          "uuid": "9c7ad62a-0697-51be-891e-18dc460df2e8"
-        },
-        {
-          "value": "insufficient-privileges",
-          "expanded": "Insufficient privileges",
-          "description": "Insufficient Privileges",
-          "uuid": "bf660876-78f3-50de-9826-8cee64307a87"
-        },
-        {
-          "value": "ids",
-          "expanded": "Ids",
-          "description": "Intrusion Detection System",
-          "uuid": "93dbba4b-61c8-5ad1-8473-9bad16f539d8"
-        },
-        {
-          "value": "sink-hole-/-take-down-by-third-party",
-          "expanded": "Sink hole / take down by third party",
-          "description": "Sink Hole / Take Down by Third Party",
-          "uuid": "46d86a22-d0b4-5184-9d7b-24afeea7a187"
-        },
-        {
-          "value": "isp",
-          "expanded": "Isp",
-          "description": "Internet Service Provider",
-          "uuid": "248b68c5-1282-5484-9784-1007f8d3ae3a"
-        },
-        {
-          "value": "invalid-credentials",
-          "expanded": "Invalid credentials",
-          "description": "Invalid Credentials",
-          "uuid": "ac8186b4-fdb1-5144-b376-66cb250d3744"
-        },
-        {
-          "value": "not-vulnerable",
-          "expanded": "Not vulnerable",
-          "description": "No mitigation was required because the system was not vulnerable to the attack.",
-          "uuid": "7cd8553b-7e85-525c-b8b5-7f4eddefdbd9"
-        },
-        {
-          "value": "other",
-          "expanded": "Other",
-          "description": "Other",
-          "uuid": "d29df13a-bbf2-5c69-8185-531e69e21b15"
-        },
-        {
-          "value": "unknown",
-          "expanded": "Unknown",
-          "description": "Unknown",
-          "uuid": "1b138859-f632-51da-8adc-0521eebd3484"
-        },
-        {
-          "value": "user",
-          "expanded": "User",
-          "description": "User",
-          "uuid": "4a99dccf-be3f-5344-89e5-bc02a29d4c77"
+          "colour": "#00ff19",
+          "value": "high",
+          "expanded": "High Confidence Level"
         }
       ]
     },
     {
-      "predicate": "origin",
+      "predicate": "context",
       "entry": [
         {
-          "value": "subscriber",
-          "expanded": "Subscriber",
-          "description": "Subscriber.",
-          "uuid": "aae490f5-1ac5-58d0-a1ea-fa46f0b32b80"
+          "colour": "#4f008c",
+          "value": "indicator",
+          "expanded": "This attribute is an indicator of compromise."
         },
         {
-          "value": "internet",
-          "expanded": "Internet",
-          "description": "Internet.",
-          "uuid": "18fe5320-3370-57bb-bd3f-1a9cdf886d33"
+          "colour": "#4f008c",
+          "value": "observable",
+          "expanded": "This attribute is an observable information."
         }
       ]
     },
     {
-      "predicate": "originating-organization",
+      "predicate": "event",
       "entry": [
         {
-          "value": "cse",
-          "expanded": "Cse",
-          "description": "Communications Security Establishment.",
-          "uuid": "6c30893f-5547-5df2-9595-d7fbafac2346"
+          "colour": "#24e320",
+          "value": "covid19",
+          "expanded": "This tag is related to the Conoravirus (COVID-19) pandemy that strike the world in 2019/2020."
+        }
+      ]
+    },
+    {
+      "predicate": "platform",
+      "entry": [
+        {
+          "colour": "#8e15c1",
+          "value": "windows",
+          "expanded": "Microsoft Windows Operating System"
         },
         {
-          "value": "nsa",
-          "expanded": "Nsa",
-          "description": "National Security Agency.",
-          "uuid": "554e0326-94b4-5e48-b2ba-778fa75de32d"
+          "colour": "#8e15c1",
+          "value": "macos",
+          "expanded": "Apple Operating System"
         },
         {
-          "value": "gchq",
-          "expanded": "Gchq",
-          "description": "Government Communications Headquarters.",
-          "uuid": "e369db6b-3197-588e-a8f8-5290f2f3019e"
+          "colour": "#8e15c1",
+          "value": "linux",
+          "expanded": "Linux Operating System"
         },
         {
-          "value": "asd",
-          "expanded": "Asd",
-          "description": "Australian Signals Directorate.",
-          "uuid": "0ab02960-1fc3-56a2-b783-c989208bc994"
+          "colour": "#8e15c1",
+          "value": "android",
+          "expanded": "Android Operating System"
         },
         {
-          "value": "gcsb",
-          "expanded": "Gcsb",
-          "description": "Government Communications Security Bureau.",
-          "uuid": "968f1728-5b52-5066-b671-c077d8aa4326"
+          "colour": "#8e15c1",
+          "value": "ios",
+          "expanded": "Iphone Operating System"
+        },
+        {
+          "colour": "#8e15c1",
+          "value": "solaris",
+          "expanded": "Oracle Solaris Operating System"
+        },
+        {
+          "colour": "#8e15c1",
+          "value": "cross-platform",
+          "expanded": "Run on mutiple operating system"
+        },
+        {
+          "colour": "#8e15c1",
+          "value": "IoT",
+          "expanded": "Embedded IoT operating system"
+        },
+        {
+          "colour": "#8e15c1",
+          "value": "arm",
+          "expanded": "Arm (Advanced RISC Machine)"
+        },
+        {
+          "colour": "#8e15c1",
+          "value": "mips",
+          "expanded": "MIPS (Reduced RISC Machine)"
+        }
+      ]
+    },
+    {
+      "predicate": "source",
+      "entry": [
+        {
+          "value": "trusted-partner",
+          "expanded": "Report came from a CCCS trusted partner.",
+          "colour": "#595456"
+        },
+        {
+          "value": "international-partner",
+          "expanded": "Report came from a CCCS international partner.",
+          "colour": "#595456"
+        },
+        {
+          "value": "trusted-source",
+          "expanded": "Report came from a CCCS trusted source.",
+          "colour": "#595456"
+        },
+        {
+          "value": "cccs-research",
+          "expanded": "Report came from CCCS research.",
+          "colour": "#595456"
+        },
+        {
+          "value": "internal",
+          "expanded": "Report came from an sibling team.",
+          "colour": "#595456"
+        },
+        {
+          "value": "federal-partner",
+          "expanded": "Report came from an federal partner",
+          "colour": "#595456"
         },
         {
           "value": "open-source",
-          "expanded": "Open source",
-          "description": "Originated from publically available information.",
-          "uuid": "df3f3996-9a8c-54a5-991c-d62807e35b1d"
-        },
-        {
-          "value": "3rd-party",
-          "expanded": "3rd party",
-          "description": "Originated from a 3rd party organization.",
-          "uuid": "73ca64d6-6ca1-501b-8a48-407d4d108db9"
-        },
-        {
-          "value": "other",
-          "expanded": "Other",
-          "description": "Other.",
-          "uuid": "c0f5adc0-a7e3-54c3-b296-888a724a4b4a"
+          "expanded": "open source report.",
+          "colour": "#595456"
         }
       ]
     },
     {
-      "predicate": "scan-type",
+      "predicate": "product",
       "entry": [
         {
-          "value": "open-port",
-          "expanded": "Open port",
-          "description": "Scan was looking for open ports corresponding to common applications or protocols.",
-          "uuid": "ff206c24-3270-5dba-bff0-54b21daead1c"
+          "value": "advisory",
+          "expanded": "Advisory",
+          "colour": "#bf11a2"
         },
         {
-          "value": "icmp",
-          "expanded": "Icmp",
-          "description": "Scan was attempting to enumerate devices through the ICMP protocol.",
-          "uuid": "1d32eca0-fcb7-5546-90ef-1a31b4c9fadd"
+          "value": "alert",
+          "expanded": "Alert",
+          "colour": "#bf11a2"
         },
         {
-          "value": "os-fingerprinting",
-          "expanded": "Os fingerprinting",
-          "description": "Scan was looking for operating system information through unique characteristics in responses.",
-          "uuid": "7aad3f6b-11cc-5a63-afc4-91d7bb3fd11f"
+          "value": "cyber-flash",
+          "expanded": "Cyber Flash",
+          "colour": "#bf11a2"
         },
         {
-          "value": "web",
-          "expanded": "Web",
-          "description": "Scan was enumerating or otherwise traversing web hosts.",
-          "uuid": "68b86ca0-1525-5843-9d2f-822878d33f02"
-        },
-        {
-          "value": "other",
-          "expanded": "Other",
-          "description": "Other.",
-          "uuid": "0ad6de77-31fb-5ef9-8c49-2b7c16a92d51"
+          "value": "information-note",
+          "expanded": "Information note",
+          "colour": "#bf11a2"
         }
       ]
     },
     {
-      "predicate": "severity",
+      "predicate": "report",
       "entry": [
         {
-          "value": "reconnaissance",
-          "expanded": "Reconnaissance",
-          "description": "An actor attempted or succeeded in gaining information that may be used to identify and/or compromise systems or data.",
-          "uuid": "fe371c7a-f276-5f63-94d6-b93a074b0d20"
+          "value": "executive-summary",
+          "expanded": "The MISP event will generate the executive summary.",
+          "colour": "#135606"
         },
         {
-          "value": "attempted-compromise",
-          "expanded": "Attempted compromise",
-          "description": "An actor attempted affecting the confidentiality, integrity or availability of a system.",
-          "uuid": "30475023-7af7-581a-a266-26cacf757d15"
+          "value": "operational",
+          "expanded": "The MISP event will be generated in the operation report.",
+          "colour": "#135606"
         },
         {
-          "value": "exploited",
-          "expanded": "Exploited",
-          "description": "A vulnerability was successfully exploited.",
-          "uuid": "fff3d8de-bcee-5530-add2-c5e6ad81bd38"
+          "value": "technical",
+          "expanded": "The MISP event will be generated in the technical report.",
+          "colour": "#135606"
+        },
+        {
+          "value": "ioc-harvesting",
+          "expanded": "The MISP event title will be displayed above the technical section.",
+          "colour": "#135606"
         }
       ]
     },
     {
-      "predicate": "threat-vector",
+      "predicate": "tar_submission",
       "entry": [
         {
-          "value": "application:cms",
-          "expanded": "Application:cms",
-          "description": "Content Management System.",
-          "uuid": "d640e778-6bb6-514b-ae11-61f440da1041"
+          "value": "archive",
+          "expanded": "An archive with files.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "application:bash",
-          "expanded": "Application:bash",
-          "description": "BASH script.",
-          "uuid": "3d41c131-c31e-5d92-ae36-b6141f69cdf9"
+          "value": "browser-extension",
+          "expanded": "A browser extension / plugin.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "application:acrobat-reader",
-          "expanded": "Application:acrobat reader",
-          "description": "Adobe Acrobat Reader.",
-          "uuid": "4acf7f8e-37f6-5c64-85f3-9b2f60a79693"
+          "value": "data",
+          "expanded": "A data file.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "application:ms-excel",
-          "expanded": "Application:ms excel",
-          "description": "Microsoft Excel.",
-          "uuid": "da8b3b12-b1ba-597b-808d-7adc738c15f6"
+          "value": "driver",
+          "expanded": "A driver file (EX: driver.sys, lib.ko).",
+          "colour": "#0d09e0"
         },
         {
-          "value": "application:other",
-          "expanded": "Application:other",
-          "description": "Other Application.",
-          "uuid": "ba497537-d16d-5a33-9f67-9180655b46c9"
+          "value": "disk-image",
+          "expanded": "A disk image (EX: mem.raw).",
+          "colour": "#0d09e0"
         },
         {
-          "value": "language:sql",
-          "expanded": "Language:sql",
-          "description": "Structured Query Language.",
-          "uuid": "5127ed08-d741-5125-aa9c-aafca7baea8e"
+          "value": "executable",
+          "expanded": "An executable file (EX: PE32, ELF).",
+          "colour": "#0d09e0"
         },
         {
-          "value": "language:php",
-          "expanded": "Language:php",
-          "description": "PHP: Hypertext Preprocessor.",
-          "uuid": "04004c8e-16a4-51b9-b1c4-c84ce47fc6a8"
+          "value": "exploit-kit",
+          "expanded": "An exploit kit.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "language:javascript",
-          "expanded": "Language:javascript",
-          "description": "JavaScript.",
-          "uuid": "61d55557-3d95-588c-9aba-8e053298e8e8"
+          "value": "infected-device",
+          "expanded": "An infected device.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "language:other",
-          "expanded": "Language:other",
-          "description": "Other Language.",
-          "uuid": "e65dbb3e-ffdc-541a-b43b-aeebd3c1e22b"
+          "value": "image",
+          "expanded": "An image containing another payload or malicious properties (EX: Stegano)",
+          "colour": "#0d09e0"
         },
         {
-          "value": "protocol:dns",
-          "expanded": "Protocol:dns",
-          "description": "Domain Name System.",
-          "uuid": "b3674ab5-60a4-59a1-9f51-b79863c9ed6d"
+          "value": "firmware",
+          "expanded": "A firmware.",
+          "colour": "#1713f0"
         },
         {
-          "value": "protocol:ftp",
-          "expanded": "Protocol:ftp",
-          "description": "File Transfer Protocol.",
-          "uuid": "2816031e-0277-5861-91d5-a489c727968e"
+          "value": "hash",
+          "expanded": "A hash value.",
+          "colour": "#1713f0"
         },
         {
-          "value": "protocol:http",
-          "expanded": "Protocol:http",
-          "description": "Hyper Text Transfer Protocol.",
-          "uuid": "dd6cdc72-07cb-5baa-8c8b-9615998130c4"
+          "value": "library",
+          "expanded": "A library (EX: DLL, SO).",
+          "colour": "#0d09e0"
         },
         {
-          "value": "protocol:icmp",
-          "expanded": "Protocol:icmp",
-          "description": "Internet Control Message Protocol.",
-          "uuid": "6971d1c8-7007-5e7b-a2cb-eb48b67a2b4c"
+          "value": "log",
+          "expanded": "A log file (EX: WebServer Log).",
+          "colour": "#0d09e0"
         },
         {
-          "value": "protocol:ntp",
-          "expanded": "Protocol:ntp",
-          "description": "Network Time Protocol.",
-          "uuid": "9266b6c5-fa8e-588e-becd-0a6f4623faaf"
+          "value": "maldoc",
+          "expanded": "A malicious Microsoft Word document.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "protocol:rdp",
-          "expanded": "Protocol:rdp",
-          "description": "Remote Desktop Protocol.",
-          "uuid": "3395bff3-c78a-5af2-a2c4-0e5cee90ca61"
+          "value": "malspam",
+          "expanded": "A malspam email.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "protocol:smb",
-          "expanded": "Protocol:smb",
-          "description": "Server Message Block.",
-          "uuid": "522f4fd4-16d7-51c3-90d6-9563dde6eec9"
+          "value": "malicious-link",
+          "expanded": "A malicious link.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "protocol:snmp",
-          "expanded": "Protocol:snmp",
-          "description": "Simple Network Management Protocol.",
-          "uuid": "4353af9f-3594-52f9-a981-2004c201647d"
+          "value": "malicious-script",
+          "expanded": "A malicious script.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "protocol:ssl",
-          "expanded": "Protocol:ssl",
-          "description": "Secure Sockets Layer.",
-          "uuid": "c1956f2a-7d51-5935-9fc9-16cb95a6d87d"
+          "value": "memory-dump",
+          "expanded": "A memory dump.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "protocol:telnet",
-          "expanded": "Protocol:telnet",
-          "description": "Network Virtual Terminal Protocol.",
-          "uuid": "0151a9e9-d257-5786-a88c-1ddf9ea7da95"
+          "value": "pcap",
+          "expanded": "A network traffic capture file.",
+          "colour": "#0d09e0"
         },
         {
-          "value": "protocol:sip",
-          "expanded": "Protocol:sip",
-          "description": "Session Initiation Protocol.",
-          "uuid": "ef6f8fd7-c0f4-519d-93a6-c7514c1b5c42"
+          "value": "pdf",
+          "expanded": "A malicious PDF document.",
+          "colour": "#0d09e0"
+        },
+        {
+          "value": "phishing-kit",
+          "expanded": "A phishing kit.",
+          "colour": "#0d09e0"
+        },
+        {
+          "value": "quarantine",
+          "expanded": "A quarantine file",
+          "colour": "#0d09e0"
+        },
+        {
+          "value": "ransomnote",
+          "expanded": "A note left by an ransomware.",
+          "colour": "#0d09e0"
+        },
+        {
+          "value": "registry-key",
+          "expanded": "A registry key and value.",
+          "colour": "#0d09e0"
+        },
+        {
+          "value": "spam",
+          "expanded": "A malicious email.",
+          "colour": "#0d09e0"
+        },
+        {
+          "value": "webpage",
+          "expanded": "A web page (EX: HTML, CFML)",
+          "colour": "#0d09e0"
+        }
+      ]
+    },
+    {
+      "predicate": "sector",
+      "entry": [
+        {
+          "value": "federal",
+          "expanded": "Federal Government of Canada.",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "municipal",
+          "expanded": "Municipal",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "provincial-territorial",
+          "expanded": "Provincial and Territorial",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "ict",
+          "expanded": "Information Communication Technology",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "finance",
+          "expanded": "finance",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "energy-utils-electricity",
+          "expanded": "Electricity",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "energy-utils-oil-gas",
+          "expanded": "Oil and Gas",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "energy-utils-nuclear",
+          "expanded": "Nuclear",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "energy-utils-mines",
+          "expanded": "Mines",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "transportation-air",
+          "expanded": "Air",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "transportation-marine",
+          "expanded": "Marine",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "transportation-rail",
+          "expanded": "Rail",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "transportation-road",
+          "expanded": "Road",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "manufacturing",
+          "expanded": "Manufacturing",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "health",
+          "expanded": "Health",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "food",
+          "expanded": "Food",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "water",
+          "expanded": "Water",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "safety-police",
+          "expanded": "Police",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "safety-ambulance",
+          "expanded": "Ambulance",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "safety-fire",
+          "expanded": "Fire",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "safety-military",
+          "expanded": "Military",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "scada",
+          "expanded": "Scada",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "international",
+          "expanded": "International",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "academia",
+          "expanded": "Academia",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "non-critical",
+          "expanded": "Non Critical",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "non-government",
+          "expanded": "Non Governement",
+          "colour": "#20d6cb"
+        },
+        {
+          "value": "all",
+          "expanded": "All",
+          "colour": "#20d6cb"
+        }
+      ]
+    },
+    {
+      "predicate": "mitigation",
+      "entry": [
+        {
+          "value": "advice-org",
+          "expanded": "Advice the affected organization.",
+          "colour": "#f7880a"
+        },
+        {
+          "value": "apwg",
+          "expanded": "Anti-phishing working group",
+          "colour": "#f7880a"
+        },
+        {
+          "value": "code-removal-request",
+          "expanded": "Code Removal Request (CRR)",
+          "colour": "#f7880a"
+        },
+        {
+          "value": "crtc",
+          "expanded": "Canadian Radio-television and Telecommunications Commission (CRTC)",
+          "colour": "#f7880a"
+        },
+        {
+          "value": "deregister-domain",
+          "expanded": "Deregister Domain (DRR)",
+          "colour": "#f7880a"
+        },
+        {
+          "value": "netcraft",
+          "expanded": "Netcraft (malicious url takedown service)",
+          "colour": "#f7880a"
+        },
+        {
+          "value": "notification-org-victim",
+          "expanded": "Notification - victims/affected Org",
+          "colour": "#f7880a"
+        },
+        {
+          "value": "null-route-ip",
+          "expanded": "Null Route IP",
+          "colour": "#f7880a"
+        },
+        {
+          "value": "phishlabs",
+          "expanded": "Phishlabs by HelpSystems (digital risk protection service)",
+          "colour": "#f7880a"
+        },
+        {
+          "value": "sinkhole-domain",
+          "expanded": "Sinkhole Domain (DRR)",
+          "colour": "#f7880a"
+        }
+      ]
+    },
+    {
+      "predicate": "acceptable-usage",
+      "entry": [
+        {
+          "value": "no monetization",
+          "expanded": "Information should not be monetized",
+          "colour": "#66ffcc"
         }
       ]
     }
-  ],
-  "uuid": "a904b119-ea6a-5ea2-a4c3-7f57563a5ef2"
+  ]
 }
