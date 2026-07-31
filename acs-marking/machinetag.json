@@ -1,7 +1,7 @@
 {
   "namespace": "acs-marking",
   "description": "The Access Control Specification (ACS) marking type defines the object types required to implement automated access control systems based on the relevant policies governing sharing between participants.",
-  "version": 1,
+  "version": 2,
   "predicates": [
     {
       "value": "privilege_action",
@@ -276,6 +276,24 @@
           "value": "IC",
           "expanded": "Intelligence Community",
           "uuid": "779eb97f-5d41-5cbf-b39b-e6401c78c457"
+        },
+        {
+          "value": "USA.USG",
+          "expanded": "United States Government",
+          "description": "As used in DHS/CISA Automated Indicator Sharing (AIS) ACS 3.0 markings, denoting shareability with U.S. federal government entities.",
+          "uuid": "238e94cf-7aca-500a-b20f-d61d3370bf0a"
+        },
+        {
+          "value": "SECTOR",
+          "expanded": "Sector Partners",
+          "description": "As used in DHS/CISA Automated Indicator Sharing (AIS) ACS 3.0 markings, denoting shareability with critical infrastructure sector partners (e.g. ISACs/ISAOs).",
+          "uuid": "88a50537-0dba-52d1-96fc-b6158040bac5"
+        },
+        {
+          "value": "FOREIGNGOV",
+          "expanded": "Foreign Government",
+          "description": "As used in DHS/CISA Automated Indicator Sharing (AIS) ACS 3.0 markings, denoting shareability with foreign government partners.",
+          "uuid": "35dc71e4-bee5-5e7d-adeb-f7402da597cc"
         }
       ]
     },
