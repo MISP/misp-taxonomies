@@ -46,7 +46,7 @@
     {
       "description": "The Access Control Specification (ACS) marking type defines the object types required to implement automated access control systems based on the relevant policies governing sharing between participants.",
       "name": "acs-marking",
-      "version": 1
+      "version": 2
     },
     {
       "description": "Action taken in the case of a security incident (CSIRT perspective).",
@@ -910,5 +910,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260714"
+  "version": "20260731"
 }
