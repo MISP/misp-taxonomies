@@ -474,9 +474,9 @@
       "version": 4
     },
     {
-      "description": "A taxonomy for classifying threat hunts at the point of sharing.",
+      "description": "High-level, human-readable classification of a hunt's approach, provenance and outcome, designed for cross-organisation search and dashboards at ISAC / sector level. Detailed structured data lives in the threat-hunt-context, threat-hunt-hypothesis, threat-hunt-query and threat-hunt-finding objects; lifecycle uses workflow:state. Vocabulary is compatible with the PEAK framework (Splunk / Cisco Talos) and TaHiTI (NVB / FI-ISAC). Pair with existing taxonomies rather than duplicating them: use tlp and PAP for sharing, admiralty-scale and estimative-language for confidence and source reliability, cti-evaluation for CTI quality, priority-level for triage, DML for detection abstraction level, kill-chain / unified-kill-chain for phase, and the mitre-attack-pattern galaxy for technique mapping.",
       "name": "hunt-ex",
-      "version": 1
+      "version": 4
     },
     {
       "description": "IAB Tech Lab Ad Product Taxonomy 2.0 converted from the official TSV. It establishes standardized nomenclature for describing the product or service advertised within a creative unit. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
@@ -915,5 +915,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260731"
+  "version": "20260817"
 }
