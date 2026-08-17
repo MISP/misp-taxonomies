@@ -1,0 +1,523 @@
+{
+  "namespace": "hunt-ex",
+  "expanded": "Hunt Exchange Taxonomy",
+  "description": "High-level, human-readable classification of a hunt's approach, provenance and outcome, designed for cross-organisation search and dashboards at ISAC / sector level. Detailed structured data lives in the threat-hunt-context, threat-hunt-hypothesis, threat-hunt-query and threat-hunt-finding objects; lifecycle uses workflow:state. Vocabulary is compatible with the PEAK framework (Splunk / Cisco Talos) and TaHiTI (NVB / FI-ISAC). Pair with existing taxonomies rather than duplicating them: use tlp and PAP for sharing, admiralty-scale and estimative-language for confidence and source reliability, cti-evaluation for CTI quality, priority-level for triage, DML for detection abstraction level, kill-chain / unified-kill-chain for phase, and the mitre-attack-pattern galaxy for technique mapping.",
+  "version": 4,
+  "uuid": "989ddd32-bd8e-47ca-9ebf-d5abc000cdd6",
+  "predicates": [
+    {
+      "value": "methodology",
+      "expanded": "Hunt Methodology",
+      "description": "The style of the hunt, drawn from the three canonical PEAK hunt types. Apply at the event level. Exclusive: a single hunt has one primary methodology; if the hunt was driven by intelligence or an IOC sweep, that is a trigger, not a methodology (see the trigger predicate).",
+      "exclusive": true,
+      "uuid": "f4261e83-80ad-4abc-a410-a1433547dbb7"
+    },
+    {
+      "value": "trigger",
+      "expanded": "Hunt Trigger",
+      "description": "Why this hunt exists. Drawn from TaHiTI's trigger enumeration, extended for ISAC / sector use. Apply at the event level. Non-exclusive because a single hunt commonly has multiple triggers (e.g. a sector alert plus a crown-jewel concern).",
+      "exclusive": false,
+      "uuid": "56bdb67c-f097-4a35-a8ee-b52c9d78ceab"
+    },
+    {
+      "value": "outcome",
+      "expanded": "Hunt Outcome",
+      "description": "The classification of a hypothesis's result. Apply on the relevant threat-hunt-finding object (and optionally roll up onto the event if every hypothesis shares the same outcome). Non-exclusive because a hunt with multiple hypotheses can carry more than one outcome. Naming deliberately uses 'hypothesis-*' rather than true-positive/false-positive to avoid semantic collision with alert-triage vocabulary and with the existing false-positive taxonomy.",
+      "exclusive": false,
+      "uuid": "85cbfe99-e398-4b40-9bb4-c79fffde8166"
+    },
+    {
+      "value": "byproduct",
+      "expanded": "Hunt Byproduct",
+      "description": "Side-findings a hunt surfaced that are orthogonal to whether the hypothesis was confirmed. Maps to PEAK's 'Gaps and Risks' deliverable category. Apply at the event level. Non-exclusive because a single hunt commonly exposes several kinds of gap at once.",
+      "exclusive": false,
+      "uuid": "db7b6969-0721-490b-8b08-f4b2c0b455e1"
+    },
+    {
+      "value": "content",
+      "expanded": "Hunt Content",
+      "description": "What kind of shareable content this event carries, for cross-organisation search. Apply at the event level; a fully concluded hunt typically carries all three values at once. Non-exclusive because most events carry more than one.",
+      "exclusive": false,
+      "uuid": "2e647e99-320e-496b-92e0-aec3a8bc6022"
+    },
+    {
+      "value": "telemetry",
+      "expanded": "Telemetry Required",
+      "description": "The class(es) of telemetry a receiving organisation needs to actually execute this hunt. The single most important filter for cross-org sharing: it lets peers ignore hunts they cannot run. Roughly aligned with ATT&CK Data Sources / OSSEM. Apply at the event level. Non-exclusive.",
+      "exclusive": false,
+      "uuid": "99ae0bba-bed5-4d3d-bfec-4e261484fef1"
+    },
+    {
+      "value": "query-language",
+      "expanded": "Query Language",
+      "description": "The language or rule format the shared detection logic is written in. Where telemetry says whether a peer has the data, this says whether they can run the logic as-is or have to translate it first. Mirrors the query-language attribute on threat-hunt-query, and also covers portable rule objects (sigma, yara) that carry no such attribute of their own. Apply at the event level; where an event carries several queries, apply one value per language present. Non-exclusive, because sharing the same hunt in two dialects is common and desirable.",
+      "exclusive": false,
+      "uuid": "2def402b-7316-4b3f-9f53-03abfd27440e"
+    },
+    {
+      "value": "applicability",
+      "expanded": "Sharing Applicability",
+      "description": "How broadly this hunt applies across the recipient population. Drives triage: universal hunts go to everyone's backlog; environment-specific ones can be filtered. Apply at the event level. Exclusive.",
+      "exclusive": true,
+      "uuid": "1425e35b-1b94-4ff7-976f-7b6b8bd900cb"
+    },
+    {
+      "value": "handoff",
+      "expanded": "Post-Hunt Handoff",
+      "description": "What the sender did (or recommends doing) with this hunt after concluding it. Maps to PEAK's 'Act' phase and closes the loop between hunting and detection engineering / IR. Apply at the event level. Exclusive.",
+      "exclusive": true,
+      "uuid": "48730433-3b8e-427f-9b8c-a60b9b7f3fdb"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "methodology",
+      "entry": [
+        {
+          "value": "structured-hypothesis-driven",
+          "expanded": "Structured (Hypothesis-Driven)",
+          "description": "Hunt driven by a pre-formed hypothesis grounded in TTPs (e.g. a specific ATT&CK technique). Structure the hypothesis using PEAK's ABLE rubric: Actor, Behavior, Location, Evidence.",
+          "uuid": "d6c91ad0-6389-4e76-bf99-a2f6f834c13a"
+        },
+        {
+          "value": "unstructured-baseline",
+          "expanded": "Unstructured / Baseline-Driven",
+          "description": "Exploratory hunt (a.k.a. Exploratory Data Analysis) driven by anomaly detection against an established baseline of 'normal', without a pre-formed hypothesis.",
+          "uuid": "0d5cd58a-d56b-4811-b6f9-8eda5c7ce0fd"
+        },
+        {
+          "value": "model-assisted",
+          "expanded": "Model-Assisted (M-ATH)",
+          "description": "Hunt where the hypothesis or anomaly surfacing was assisted by a statistical, machine-learning or AI model, used to identify known-good or known-malicious behaviour patterns at scale.",
+          "uuid": "2ad7b876-3311-4dfa-9f0f-288fbc14f514"
+        }
+      ]
+    },
+    {
+      "predicate": "trigger",
+      "entry": [
+        {
+          "value": "intel-report",
+          "expanded": "Threat Intelligence Report",
+          "description": "Driven by a specific threat intelligence report, vendor advisory, or vulnerability disclosure.",
+          "uuid": "17ab93ba-413e-44e2-86da-b27ddb508e9a"
+        },
+        {
+          "value": "sector-alert",
+          "expanded": "ISAC or Sector-CERT Alert",
+          "description": "Driven by an alert distributed within the ISAC / sector community — typically the trigger for hunts that are sector-specific by design.",
+          "uuid": "4058d8f8-e12c-4334-abed-9525091b17dd"
+        },
+        {
+          "value": "prior-hunt",
+          "expanded": "Prior Hunt Follow-up",
+          "description": "Follow-up from a previous hunt whose findings or hypotheses justified further investigation. Should reference the prior event where possible.",
+          "uuid": "c1f68196-6d1f-4f2d-bb9c-71c7ddf90fd2"
+        },
+        {
+          "value": "incident-followup",
+          "expanded": "Incident Follow-up",
+          "description": "Post-incident hunt searching for related, dormant, or precursor activity in the environment.",
+          "uuid": "59b2ff69-06f9-4db9-9f2d-0904327cd56a"
+        },
+        {
+          "value": "red-team",
+          "expanded": "Red Team Output",
+          "description": "Driven by findings, TTPs, or coverage gaps surfaced by a red-team engagement.",
+          "uuid": "12695259-9d4f-40d4-9e22-6202fc8fbc78"
+        },
+        {
+          "value": "purple-team",
+          "expanded": "Purple Team Output",
+          "description": "Driven by collaborative purple-team exercise output, typically focused on validating or improving detection coverage.",
+          "uuid": "c9e38312-68aa-4c42-b4a1-243d03371751"
+        },
+        {
+          "value": "crown-jewel",
+          "expanded": "Crown-Jewel Asset",
+          "description": "Proactive hunt scoped to protect a critical asset (crown-jewel system, data set, or process) regardless of specific intel.",
+          "uuid": "643be64f-fec2-4b75-ba2d-595c49b68e45"
+        },
+        {
+          "value": "detection-gap",
+          "expanded": "Suspected Detection Gap",
+          "description": "Hunter hypothesised that existing detection coverage is blind in a particular area and set out to hunt where alerts wouldn't fire.",
+          "uuid": "081c68c7-fe2a-43f2-8381-9733613575f2"
+        },
+        {
+          "value": "analyst-intuition",
+          "expanded": "Analyst Intuition / Domain Expertise",
+          "description": "Driven by a hunter's judgement, pattern recognition, or domain expertise rather than an external trigger.",
+          "uuid": "7c3e9c84-d181-44e4-aa02-8157f229f7cf"
+        },
+        {
+          "value": "ioc-sweep",
+          "expanded": "IOC Sweep",
+          "description": "Driven by a new set of indicators of compromise to retrospectively sweep for. Note: strictly speaking an IOC sweep is a low-DML activity rather than a mature hunt; tagging it here keeps sharing consistent without polluting the methodology axis.",
+          "uuid": "cb0f7abf-3c60-42f7-bbde-496948059c9f"
+        }
+      ]
+    },
+    {
+      "predicate": "outcome",
+      "entry": [
+        {
+          "value": "hypothesis-confirmed-malicious",
+          "expanded": "Hypothesis Confirmed — Malicious (True Positive)",
+          "description": "The hypothesis was confirmed and the activity identified was malicious or policy-violating. Escalate via IR; pair with kill-chain / attack-pattern tags.",
+          "colour": "#ff2b2b",
+          "uuid": "426de394-5f8e-420b-8809-c3ebac60d0f9"
+        },
+        {
+          "value": "hypothesis-confirmed-benign",
+          "expanded": "Hypothesis Confirmed — Benign (Benign True Positive)",
+          "description": "The hunted-for activity pattern was present but explained by legitimate, authorised behaviour. Consider pairing with false-positive:risk on any related detection so the noisy signature does not fire everywhere.",
+          "colour": "#ffc000",
+          "uuid": "1d400ba2-6b61-40b3-9e50-e9d94e41fc73"
+        },
+        {
+          "value": "hypothesis-not-confirmed",
+          "expanded": "Hypothesis Not Confirmed",
+          "description": "The hypothesis was not confirmed; the queried activity did not occur as suspected. Formerly 'false-positive' — renamed to avoid collision with the alert-triage sense of that term and with the existing false-positive taxonomy.",
+          "colour": "#33ff00",
+          "uuid": "1b64fcf6-6d43-46fe-b00b-e21e6ec53540"
+        },
+        {
+          "value": "inconclusive",
+          "expanded": "Inconclusive",
+          "description": "Insufficient data or telemetry coverage to confirm or rule out the hypothesis. Frequently co-occurs with byproduct:data-source-gap.",
+          "colour": "#c0c0c0",
+          "uuid": "b703e561-cbe7-4a92-9fc4-fff974367b0f"
+        }
+      ]
+    },
+    {
+      "predicate": "byproduct",
+      "entry": [
+        {
+          "value": "detection-gap",
+          "expanded": "Detection Gap",
+          "description": "The hunt exposed missing, broken, or under-tuned detection coverage that should be engineered. May co-occur with any outcome value.",
+          "colour": "#ff8c00",
+          "uuid": "ba6cbc80-33f0-48a2-a192-310661601c95"
+        },
+        {
+          "value": "data-source-gap",
+          "expanded": "Data Source Gap",
+          "description": "The hunt exposed missing or insufficient telemetry (log source not collected, retention too short, field not parsed) that blocked or limited the investigation.",
+          "colour": "#ff8c00",
+          "uuid": "686003fe-191c-4666-90ac-61c258fdc420"
+        },
+        {
+          "value": "tooling-gap",
+          "expanded": "Tooling Gap",
+          "description": "The hunt exposed a gap in the tools available to the hunter — for example, missing EDR features, inadequate search performance, or the absence of a required correlation capability.",
+          "colour": "#ff8c00",
+          "uuid": "f718d42e-5fb8-4795-bb0e-490dac7e9932"
+        },
+        {
+          "value": "process-gap",
+          "expanded": "Process Gap",
+          "description": "The hunt exposed a gap in people or processes — for example, unclear escalation paths, missing runbooks, or ownership ambiguity for a control.",
+          "colour": "#ff8c00",
+          "uuid": "ca924325-3b3e-4bab-965a-cc4fa781fcce"
+        },
+        {
+          "value": "vuln-or-misconfig",
+          "expanded": "Vulnerability or Misconfiguration",
+          "description": "The hunt surfaced a vulnerability or misconfiguration (e.g. missing MFA, stale privileged account, exposed service) that warrants remediation independent of any malicious activity.",
+          "colour": "#ff8c00",
+          "uuid": "6ef109f4-c714-4590-ab53-eaee0448a7aa"
+        }
+      ]
+    },
+    {
+      "predicate": "content",
+      "entry": [
+        {
+          "value": "hypothesis",
+          "expanded": "Hypothesis",
+          "description": "This event includes an untested or in-progress hypothesis (a threat-hunt-hypothesis object) — an idea looking for someone to test it. The tag remains on the event even after the hypothesis is tested and finding objects are added, because the hypothesis itself is part of the shared content.",
+          "colour": "#5b8def",
+          "uuid": "5beb2f97-016e-4456-9624-c9933c5b3ab9"
+        },
+        {
+          "value": "query",
+          "expanded": "Query",
+          "description": "This event includes reusable detection logic: a threat-hunt-query object, a linked query object (SPL, KQL, EQL, Kusto, Lucene, QRadar AQL, Devo LINQ, Sentinel ASIM, etc.), or a sigma / yara object.",
+          "colour": "#8ecae6",
+          "uuid": "626e7cd5-13a2-4091-8905-c459a1cbe8ae"
+        },
+        {
+          "value": "finding",
+          "expanded": "Finding",
+          "description": "This event includes a validated result: a threat-hunt-finding object with a conclusion and an outcome tag.",
+          "colour": "#2a9d8f",
+          "uuid": "2eadcc27-9683-4929-9b4a-dfe39b5ebdd0"
+        }
+      ]
+    },
+    {
+      "predicate": "telemetry",
+      "entry": [
+        {
+          "value": "endpoint",
+          "expanded": "Endpoint",
+          "description": "Endpoint telemetry: process creation, image load, file, module, registry, WMI, script — typically EDR or Sysmon.",
+          "uuid": "d86e7701-c98f-488d-bc5f-0e6883389993"
+        },
+        {
+          "value": "network",
+          "expanded": "Network",
+          "description": "Network telemetry: flow, DNS, HTTP, TLS metadata, PCAP, or NDR output.",
+          "uuid": "a48b7abf-386d-40df-b02f-81501ce25195"
+        },
+        {
+          "value": "identity",
+          "expanded": "Identity",
+          "description": "Identity and authentication telemetry: on-premise AD, Entra ID / Azure AD, Okta, Ping, or other IdP audit and sign-in logs.",
+          "uuid": "8f418bb4-6542-45cf-84c0-8dec2e65bc86"
+        },
+        {
+          "value": "email",
+          "expanded": "Email",
+          "description": "Email telemetry: message metadata, headers, delivery logs, sandbox verdicts, or secure email gateway output.",
+          "uuid": "b0a6697d-e0a9-4704-b2f1-1cb4308c0f77"
+        },
+        {
+          "value": "cloud-control-plane",
+          "expanded": "Cloud Control Plane",
+          "description": "Cloud provider audit / management-plane telemetry: AWS CloudTrail, Azure Activity / Entra audit, GCP Cloud Audit Logs, etc.",
+          "uuid": "8f541d91-8186-4397-a308-6b109a1473f1"
+        },
+        {
+          "value": "cloud-workload",
+          "expanded": "Cloud Workload",
+          "description": "Cloud workload telemetry: container / Kubernetes audit, serverless invocation logs, VPC flow, workload agent output.",
+          "uuid": "5dfa558b-858d-4f92-9a90-bbfca782021f"
+        },
+        {
+          "value": "saas",
+          "expanded": "SaaS Application",
+          "description": "SaaS application audit telemetry: Microsoft 365 unified audit, Google Workspace admin logs, GitHub audit, Salesforce event monitoring, etc.",
+          "uuid": "4a0efda3-5bba-413d-b655-797c608f8986"
+        },
+        {
+          "value": "ot-ics",
+          "expanded": "OT / ICS",
+          "description": "Operational technology and industrial control system telemetry: SCADA, historian, process control network monitoring — relevant to energy, manufacturing, water, and transport sector ISACs.",
+          "uuid": "81853255-2b5b-456e-bc3d-565f5a926491"
+        }
+      ]
+    },
+    {
+      "predicate": "query-language",
+      "entry": [
+        {
+          "value": "sigma",
+          "expanded": "Sigma",
+          "description": "Sigma rule. Vendor-neutral and convertible to most SIEM backends, so a recipient can usually deploy it without rewriting the logic.",
+          "colour": "#2a9d8f",
+          "uuid": "2e00a1e6-c272-49af-89a3-618ef65e1de8"
+        },
+        {
+          "value": "yara",
+          "expanded": "YARA",
+          "description": "YARA rule for file and memory pattern matching. Portable across any YARA-capable scanner.",
+          "colour": "#2a9d8f",
+          "uuid": "0bf26b1c-6c32-4a72-91bf-20a3c8a4ea7c"
+        },
+        {
+          "value": "suricata-snort",
+          "expanded": "Suricata / Snort",
+          "description": "Network IDS/IPS signature in Suricata or Snort rule format.",
+          "colour": "#2a9d8f",
+          "uuid": "4f4b5990-6ea0-40a4-ac3e-5b18423ccbf5"
+        },
+        {
+          "value": "stix-pattern",
+          "expanded": "STIX Pattern",
+          "description": "STIX 2.x patterning expression.",
+          "colour": "#2a9d8f",
+          "uuid": "7a21ff67-fd08-4c5b-87d0-c72063e83f90"
+        },
+        {
+          "value": "spl",
+          "expanded": "SPL (Splunk)",
+          "description": "Splunk Search Processing Language.",
+          "colour": "#5b8def",
+          "uuid": "85697443-f01b-4bf3-b4ee-05e082d06ced"
+        },
+        {
+          "value": "kusto",
+          "expanded": "Kusto Query Language (KQL)",
+          "description": "Microsoft Kusto Query Language, as used by Sentinel, Defender XDR, and Azure Data Explorer. Named 'kusto' rather than 'kql' on purpose: Elastic uses 'KQL' for Kibana Query Language, so the abbreviation alone is ambiguous across vendors. See query-language:kibana-query for the Elastic sense.",
+          "colour": "#5b8def",
+          "uuid": "082107d4-929d-4034-bdfc-db85748e8f55"
+        },
+        {
+          "value": "eql",
+          "expanded": "EQL (Elastic)",
+          "description": "Elastic Event Query Language, for sequence and correlation-based detection.",
+          "colour": "#5b8def",
+          "uuid": "1938fb3a-019f-4f3f-9ccf-1ec48ee8d8aa"
+        },
+        {
+          "value": "esql",
+          "expanded": "ES|QL (Elastic)",
+          "description": "Elastic ES|QL, the piped query language introduced as a successor to much of the older Elastic query surface.",
+          "colour": "#5b8def",
+          "uuid": "d96b4053-0558-48d8-8a90-3601352a1818"
+        },
+        {
+          "value": "kibana-query",
+          "expanded": "Kibana Query Language (KQL) / Lucene",
+          "description": "Elastic's Kibana Query Language, or a raw Lucene query string. Distinct from query-language:kusto despite both being abbreviated 'KQL' in their own documentation.",
+          "colour": "#5b8def",
+          "uuid": "224d8035-ee31-4081-9014-b8d34855eecb"
+        },
+        {
+          "value": "aql",
+          "expanded": "AQL (IBM QRadar)",
+          "description": "IBM QRadar Ariel Query Language.",
+          "colour": "#5b8def",
+          "uuid": "b5cfc4c1-5fa7-44fd-856e-3f0a295dac1d"
+        },
+        {
+          "value": "xql",
+          "expanded": "XQL (Palo Alto Cortex)",
+          "description": "Palo Alto Cortex XSIAM / Cortex XDR Query Language.",
+          "colour": "#5b8def",
+          "uuid": "ef761107-3e8b-4a2d-8d9c-97fafdc2ad9f"
+        },
+        {
+          "value": "yara-l",
+          "expanded": "YARA-L (Google SecOps)",
+          "description": "Google SecOps (formerly Chronicle) YARA-L 2.0 detection rule. Despite the name, unrelated to portable YARA file-pattern rules.",
+          "colour": "#5b8def",
+          "uuid": "d5fac296-c617-4181-8af9-ac5da905e095"
+        },
+        {
+          "value": "cql",
+          "expanded": "CQL (CrowdStrike)",
+          "description": "CrowdStrike Query Language, as used by Falcon LogScale and Next-Gen SIEM.",
+          "colour": "#5b8def",
+          "uuid": "983776cb-f2f8-4a87-a57f-f5dcfc7f8299"
+        },
+        {
+          "value": "devo-linq",
+          "expanded": "LINQ (Devo)",
+          "description": "Devo LINQ query language.",
+          "colour": "#5b8def",
+          "uuid": "8f9905da-db41-4fd6-9b03-b48023b79a6f"
+        },
+        {
+          "value": "sql",
+          "expanded": "SQL",
+          "description": "A SQL dialect, whether osquery, AWS Athena, BigQuery, Snowflake, or a data-lake backend. Use query-language:pseudocode instead where the SQL is illustrative rather than directly runnable.",
+          "colour": "#5b8def",
+          "uuid": "5e12fd50-11ca-4481-a065-5ebed5904a21"
+        },
+        {
+          "value": "shell",
+          "expanded": "Shell Pipeline",
+          "description": "A shell one-liner or pipeline, typically over flat log files: zeek-cut, grep, awk, jq, and similar. Record the specific tooling in the threat-hunt-query object's platform attribute rather than in the tag.",
+          "colour": "#8a8a8a",
+          "uuid": "e52e31db-c436-45f0-ae31-5fabe882185a"
+        },
+        {
+          "value": "powershell",
+          "expanded": "PowerShell",
+          "description": "A PowerShell script or one-liner used to collect or analyse the data.",
+          "colour": "#8a8a8a",
+          "uuid": "8aa6ab1f-bcec-4ce2-8c55-ee6bd27ab963"
+        },
+        {
+          "value": "python",
+          "expanded": "Python",
+          "description": "A Python script used to collect or analyse the data.",
+          "colour": "#8a8a8a",
+          "uuid": "3a506438-0058-412d-a9cb-c89d02b973ea"
+        },
+        {
+          "value": "pseudocode",
+          "expanded": "Pseudocode",
+          "description": "Detection logic expressed illustratively rather than in a runnable dialect. Common in shared hunt playbooks, where the intent is to convey the logic and let the recipient express it in their own stack. Flagging it explicitly lets peers filter for content they can actually execute.",
+          "colour": "#8a8a8a",
+          "uuid": "83fc6488-43c2-4742-9365-cb66c4dbea01"
+        },
+        {
+          "value": "other",
+          "expanded": "Other",
+          "description": "A language or rule format not otherwise listed. Raise a pull request if it is one peers are likely to share again.",
+          "colour": "#8a8a8a",
+          "uuid": "ef781133-4282-4de3-bf74-14ed6414d9ba"
+        }
+      ]
+    },
+    {
+      "predicate": "applicability",
+      "entry": [
+        {
+          "value": "universal",
+          "expanded": "Universal",
+          "description": "Broadly applicable to any recipient organisation regardless of sector or technology stack.",
+          "uuid": "6f487688-1503-4b1c-845d-0b2572e53246"
+        },
+        {
+          "value": "sector-specific",
+          "expanded": "Sector-Specific",
+          "description": "Tuned to the sector this ISAC serves (finance, energy, healthcare, transport, etc.) and unlikely to be actionable outside it.",
+          "uuid": "153a1840-d0cf-4c94-bb2d-68d5f3fccd19"
+        },
+        {
+          "value": "environment-specific",
+          "expanded": "Environment-Specific",
+          "description": "Depends on a particular technology stack, product version, or environmental configuration; requires adaptation before it is meaningful elsewhere.",
+          "uuid": "c2a8018b-9c01-47d2-b618-c38081db3f9c"
+        },
+        {
+          "value": "campaign-specific",
+          "expanded": "Campaign-Specific",
+          "description": "Pinned to a named threat actor, campaign, or time-bounded intelligence window; likely to age out.",
+          "uuid": "23611e3d-56f2-4c8a-8768-9d4332b5db2b"
+        }
+      ]
+    },
+    {
+      "predicate": "handoff",
+      "entry": [
+        {
+          "value": "promote-to-detection",
+          "expanded": "Promote to Detection",
+          "description": "This hunt warrants being promoted to a permanent detection rule. Pair with a sigma / query object that a receiving detection-engineering team can pick up directly.",
+          "uuid": "b7feb4db-2b22-4006-a4b1-45db1989fb24"
+        },
+        {
+          "value": "keep-as-periodic-hunt",
+          "expanded": "Keep as Periodic Hunt",
+          "description": "Worth re-running on a schedule but not automation-worthy (too noisy, requires human judgement, or too costly to run continuously).",
+          "uuid": "a7cf1b34-d85d-44b0-ab8f-41001360c3f8"
+        },
+        {
+          "value": "retire",
+          "expanded": "Retire",
+          "description": "One-off. Do not repeat — either the underlying threat is gone, the assumption is invalidated, or continued hunting would produce no marginal value.",
+          "uuid": "9654cfaa-ad67-416e-96ae-236fe0df44db"
+        },
+        {
+          "value": "escalated-to-ir",
+          "expanded": "Escalated to Incident Response",
+          "description": "Confirmed malicious activity was escalated to the incident response process. Typically co-occurs with outcome:hypothesis-confirmed-malicious.",
+          "uuid": "af9ec5cd-fb91-453b-ad8f-d7104436c3bb"
+        },
+        {
+          "value": "handed-to-detection-engineering",
+          "expanded": "Handed to Detection Engineering",
+          "description": "Referred to the detection engineering function for productionisation, tuning, or coverage-map update — distinct from promote-to-detection in that the specific detection artefact is not yet finalised.",
+          "uuid": "228c838e-20c3-454a-a96c-c97a991115ae"
+        }
+      ]
+    }
+  ]
+}
