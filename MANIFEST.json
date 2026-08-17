@@ -474,6 +474,11 @@
       "version": 4
     },
     {
+      "description": "A taxonomy for classifying threat hunts at the point of sharing.",
+      "name": "hunt-ex",
+      "version": 1
+    },
+    {
       "description": "IAB Tech Lab Ad Product Taxonomy 2.0 converted from the official TSV. It establishes standardized nomenclature for describing the product or service advertised within a creative unit. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.",
       "name": "iab-ad-product-2-0",
       "version": 1
