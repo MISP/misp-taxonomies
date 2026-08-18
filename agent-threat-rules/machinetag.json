@@ -1,5 +1,5 @@
 {
-  "description": "Agent Threat Rules (ATR) is an open detection standard for AI agent threats published under Apache 2.0. The taxonomy organises 713 community-maintained rules across ten attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. Predicates name the category; values are individual rule identifiers in the form ATR-YYYY-NNNNN.",
+  "description": "Agent Threat Rules (ATR) is an open detection standard for AI agent threats published under the MIT licence. The taxonomy organises 713 community-maintained rules across ten attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. Predicates name the category; values are individual rule identifiers in the form ATR-YYYY-NNNNN.",
   "expanded": "Agent Threat Rules",
   "namespace": "agent-threat-rules",
   "predicates": [
@@ -4399,5 +4399,5 @@
       "predicate": "tool-poisoning"
     }
   ],
-  "version": 2
+  "version": 3
 }
