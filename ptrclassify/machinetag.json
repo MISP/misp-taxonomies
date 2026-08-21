@@ -1,0 +1,330 @@
+{
+  "namespace": "ptrclassify",
+  "description": "Explainable classifications inferred from reverse-DNS PTR hostnames.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "allocation",
+      "expanded": "Address allocation",
+      "uuid": "53640bef-f5ac-421e-8ed9-ecfbf77ec062"
+    },
+    {
+      "value": "access",
+      "expanded": "Access network",
+      "uuid": "e06ed3a2-04b7-4da3-968b-7fca54bdb4d2"
+    },
+    {
+      "value": "translation",
+      "expanded": "Address translation",
+      "uuid": "bc946822-169e-4a5e-918a-33e4ef3a6f58"
+    },
+    {
+      "value": "role",
+      "expanded": "Host or network role",
+      "uuid": "9a08bab5-0a62-4f91-8172-4fcb0b751814"
+    },
+    {
+      "value": "hosting",
+      "expanded": "Hosting environment",
+      "uuid": "d2bb197a-591d-484a-9da6-3579236d7a68"
+    },
+    {
+      "value": "network",
+      "expanded": "Network characteristic",
+      "uuid": "ae859cba-f299-443c-bbe9-62b8ea353dbc"
+    },
+    {
+      "value": "organization",
+      "expanded": "Organization type",
+      "uuid": "4f0faeb4-219d-4df3-ab5f-99ac2478a594"
+    },
+    {
+      "value": "provider",
+      "expanded": "Service provider",
+      "uuid": "1cfad19b-bf57-4b57-81e6-bb6733ce4ef3"
+    },
+    {
+      "value": "naming",
+      "expanded": "PTR naming characteristic",
+      "uuid": "cd5e3088-8060-4f53-a681-170589da49b9"
+    },
+    {
+      "value": "dns",
+      "expanded": "DNS record characteristic",
+      "uuid": "363d4316-8e07-4e04-b301-d209e216ab7f"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "allocation",
+      "entry": [
+        {
+          "value": "dynamic",
+          "expanded": "Address appears dynamically assigned or drawn from a pool.",
+          "uuid": "6294492d-edcd-42dd-8f99-1b00be04efbb"
+        },
+        {
+          "value": "static",
+          "expanded": "Hostname explicitly indicates static or fixed assignment.",
+          "uuid": "b56fa40b-b798-4d51-93f6-0db562f8ddcd"
+        },
+        {
+          "value": "reserved",
+          "expanded": "Hostname indicates reserved or unused address space.",
+          "uuid": "d06540a3-5227-40bc-bba1-68dbcdcaf44c"
+        }
+      ]
+    },
+    {
+      "predicate": "access",
+      "entry": [
+        {
+          "value": "residential",
+          "expanded": "Residential or consumer access network.",
+          "uuid": "483e1bb4-88e1-41ee-b570-f9bdba471bc3"
+        },
+        {
+          "value": "business",
+          "expanded": "Business or enterprise access circuit.",
+          "uuid": "2a272c80-5270-4e61-aa27-58f036da4e6b"
+        },
+        {
+          "value": "mobile",
+          "expanded": "Mobile or cellular access.",
+          "uuid": "648f3483-7317-483b-ad93-197b45e1eccf"
+        },
+        {
+          "value": "cable",
+          "expanded": "Cable or HFC access network.",
+          "uuid": "9304a00b-b5dc-412f-af75-13ae5856e7a9"
+        },
+        {
+          "value": "dsl",
+          "expanded": "DSL or xDSL access network.",
+          "uuid": "cb927a22-9f0d-46bd-a27e-4b51bd1ccefa"
+        },
+        {
+          "value": "fiber",
+          "expanded": "Fiber or FTTH access network.",
+          "uuid": "2e17ad4a-0d89-417c-b6e5-4cbdc93da2e3"
+        },
+        {
+          "value": "wireless",
+          "expanded": "Wi-Fi, WLAN, or fixed-wireless access.",
+          "uuid": "6cffa7cd-e4a8-43bf-8a05-5ad7abec330f"
+        },
+        {
+          "value": "broadband",
+          "expanded": "Generic broadband access when the medium is unclear.",
+          "uuid": "f215a4df-65af-4bb9-abf6-be17e6ba902b"
+        },
+        {
+          "value": "dialup-ppp",
+          "expanded": "PPP or dial-like subscriber addressing.",
+          "uuid": "ca75f495-2fc5-4a4f-8c9c-1fea8c4fb88a"
+        }
+      ]
+    },
+    {
+      "predicate": "translation",
+      "entry": [
+        {
+          "value": "nat",
+          "expanded": "Address naming explicitly indicates NAT.",
+          "uuid": "2d20c840-9d48-4900-b32c-55336a4a50c2"
+        },
+        {
+          "value": "cgnat",
+          "expanded": "Address naming explicitly indicates carrier-grade or shared NAT.",
+          "uuid": "199fe380-3ae7-4bf3-9387-9c17f34a9047"
+        }
+      ]
+    },
+    {
+      "predicate": "role",
+      "entry": [
+        {
+          "value": "customer",
+          "expanded": "Customer or subscriber endpoint naming.",
+          "uuid": "c2fff62c-9777-4f04-845e-8bfbacac9726"
+        },
+        {
+          "value": "router",
+          "expanded": "Router or network forwarding infrastructure.",
+          "uuid": "a6a16e4a-5a92-4642-b54d-9ba50ddfe9b3"
+        },
+        {
+          "value": "broadband-aggregation",
+          "expanded": "BRAS, BNG, or access aggregation infrastructure.",
+          "uuid": "ac790b06-3b52-4efb-b2de-bf83c893d9ad"
+        },
+        {
+          "value": "loopback-interface",
+          "expanded": "Router or network-device loopback interface.",
+          "uuid": "06d42c8a-d52b-41f7-84fc-88a090b1bc91"
+        },
+        {
+          "value": "server",
+          "expanded": "Server or service host naming.",
+          "uuid": "eb520e1e-724c-483f-8551-f3148601b252"
+        },
+        {
+          "value": "virtual-machine",
+          "expanded": "Virtual-machine or compute instance naming.",
+          "uuid": "5cb1941a-26ca-4024-bd6a-a703bbabbb42"
+        },
+        {
+          "value": "vpn",
+          "expanded": "VPN endpoint or gateway naming.",
+          "uuid": "f46b59c3-940a-4dcc-b4a4-0ecc1c23848c"
+        },
+        {
+          "value": "voip",
+          "expanded": "Voice-over-IP infrastructure or service.",
+          "uuid": "4ea72ba1-76b1-4539-8684-581f2dfdce9b"
+        },
+        {
+          "value": "eduroam",
+          "expanded": "eduroam wireless client or network context.",
+          "uuid": "7e4ccbff-c153-4bdf-9ac1-196c91615d27"
+        }
+      ]
+    },
+    {
+      "predicate": "hosting",
+      "entry": [
+        {
+          "value": "cloud",
+          "expanded": "Public cloud compute infrastructure.",
+          "uuid": "de90f173-9252-4df6-b27f-ac75671b3ae4"
+        },
+        {
+          "value": "datacenter",
+          "expanded": "Datacenter or hosting infrastructure.",
+          "uuid": "72e90f35-f53f-4328-b159-dc63d3df440d"
+        },
+        {
+          "value": "hosting",
+          "expanded": "Web, VPS, or hosting-provider infrastructure.",
+          "uuid": "5025e6ba-f159-4a61-924a-169f643ff606"
+        },
+        {
+          "value": "cdn",
+          "expanded": "Content delivery network edge or server.",
+          "uuid": "41d261af-d60b-4944-843c-7a9252adad17"
+        }
+      ]
+    },
+    {
+      "predicate": "network",
+      "entry": [
+        {
+          "value": "anycast",
+          "expanded": "Anycast service addressing.",
+          "uuid": "981fc14f-333c-4f47-85d2-13a8cb80fe27"
+        },
+        {
+          "value": "dedicated-internet",
+          "expanded": "Dedicated Internet Access circuit.",
+          "uuid": "b5ff98dd-edd3-43d3-b76c-b4f67cc8b4c5"
+        }
+      ]
+    },
+    {
+      "predicate": "organization",
+      "entry": [
+        {
+          "value": "education",
+          "expanded": "Educational or research organization namespace.",
+          "uuid": "c4036747-ddae-4a31-af35-7a01f287eafa"
+        },
+        {
+          "value": "government",
+          "expanded": "Government namespace.",
+          "uuid": "1dfbc34c-e7dc-40c0-b2da-2283a6b5eeff"
+        },
+        {
+          "value": "military",
+          "expanded": "Military namespace.",
+          "uuid": "b930ebd3-e679-499e-9684-71ac43fe7dc2"
+        },
+        {
+          "value": "enterprise",
+          "expanded": "Named enterprise or corporate namespace.",
+          "uuid": "26f61289-1aa3-4622-ae08-b38451ef2d30"
+        }
+      ]
+    },
+    {
+      "predicate": "provider",
+      "entry": [
+        {
+          "value": "amazon-aws",
+          "expanded": "Amazon Web Services.",
+          "uuid": "ea930624-33d9-498e-85bf-9a9e280dde3c"
+        },
+        {
+          "value": "amazon-cloudfront",
+          "expanded": "Amazon CloudFront.",
+          "uuid": "7b06e3ad-9545-47d0-82f8-74f9bf7a3426"
+        },
+        {
+          "value": "google-cloud",
+          "expanded": "Google Cloud.",
+          "uuid": "586d4d64-293a-4d81-a824-66e488722ed9"
+        },
+        {
+          "value": "oracle-cloud",
+          "expanded": "Oracle Cloud.",
+          "uuid": "9d459bb5-70e2-4425-b725-788af45113ac"
+        },
+        {
+          "value": "akamai",
+          "expanded": "Akamai.",
+          "uuid": "23198d27-3aed-4ad0-a406-60c685694b07"
+        },
+        {
+          "value": "huawei-cloud",
+          "expanded": "Huawei Cloud.",
+          "uuid": "474e6ee2-9d82-455b-ada3-d3839eb7bbc1"
+        },
+        {
+          "value": "vultr",
+          "expanded": "Vultr cloud infrastructure.",
+          "uuid": "1fb8afdb-94db-4a6b-ba6f-8b7445a1dc8e"
+        },
+        {
+          "value": "hetzner",
+          "expanded": "Hetzner hosting infrastructure.",
+          "uuid": "8b9c8a63-2c90-44a8-be38-783b86a9e3c5"
+        }
+      ]
+    },
+    {
+      "predicate": "naming",
+      "entry": [
+        {
+          "value": "ip-encoded",
+          "expanded": "Hostname embeds the IP address or a direct textual transform of it.",
+          "uuid": "da42c1e0-16d2-48b3-bc42-802fab6853aa"
+        },
+        {
+          "value": "generic-reverse",
+          "expanded": "Generic provider-generated reverse name with little host semantics.",
+          "uuid": "1e32cd7c-6f4f-46dd-867e-08c336aa2927"
+        }
+      ]
+    },
+    {
+      "predicate": "dns",
+      "entry": [
+        {
+          "value": "cname",
+          "expanded": "Input is a CNAME in reverse DNS rather than the final PTR target.",
+          "uuid": "9c6bcdfb-e991-4f1a-9059-e9a2c6153d05"
+        }
+      ]
+    }
+  ],
+  "uuid": "fd2dec0f-be35-424e-a194-c6f8492b04a9"
+}
