@@ -734,6 +734,11 @@
       "version": 2
     },
     {
+      "description": "Explainable classifications inferred from reverse-DNS PTR hostnames.",
+      "name": "ptrclassify",
+      "version": 1
+    },
+    {
       "description": "PyOTI automated enrichment schemes for point in time classification of indicators.",
       "name": "pyoti",
       "version": 3
@@ -915,5 +920,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260817"
+  "version": "20260821"
 }
