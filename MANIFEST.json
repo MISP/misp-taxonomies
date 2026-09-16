@@ -859,6 +859,11 @@
       "version": 1
     },
     {
+      "description": "TLCTC (Top Level Cyber Threat Clusters) is a cause-oriented cyber threat taxonomy: exactly ten non-overlapping clusters, each defined by the generic vulnerability an attacker exploits rather than by the outcome of the attack. Tags follow TLCTC v2.5. Use cluster= for every cluster whose generic vulnerability was exploited at some step of the attack path (one tag per distinct cluster observed) and entry-cluster= for the cluster of the first step.",
+      "name": "tlctc",
+      "version": 1
+    },
+    {
       "description": "The Traffic Light Protocol (TLP) (v2.0) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four standard labels (a fifth label is included in amber to limit the diffusion) used to indicate the sharing boundaries to be applied by the recipients. Only labels listed in this standard are considered valid by FIRST. This taxonomy includes additional labels for backward compatibility which are no more validated by FIRST SIG.",
       "name": "tlp",
       "version": 10
@@ -925,5 +930,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20260828"
+  "version": "20260916"
 }

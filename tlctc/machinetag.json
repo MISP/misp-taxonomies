@@ -1,0 +1,199 @@
+{
+  "namespace": "tlctc",
+  "expanded": "TLCTC - Top Level Cyber Threat Clusters",
+  "description": "TLCTC (Top Level Cyber Threat Clusters) is a cause-oriented cyber threat taxonomy: exactly ten non-overlapping clusters, each defined by the generic vulnerability an attacker exploits rather than by the outcome of the attack. Tags follow TLCTC v2.5. Use cluster= for every cluster whose generic vulnerability was exploited at some step of the attack path (one tag per distinct cluster observed) and entry-cluster= for the cluster of the first step.",
+  "version": 1,
+  "refs": [
+    "https://www.tlctc.net",
+    "https://github.com/Barnes70/TLCTC",
+    "https://doi.org/10.5281/zenodo.20633176"
+  ],
+  "uuid": "584a818f-afc2-52c3-8cb0-1f1d57478169",
+  "predicates": [
+    {
+      "value": "cluster",
+      "expanded": "Threat cluster (cause)",
+      "description": "Every TLCTC cluster whose generic vulnerability was exploited at some step of the attack path. Axiom VI (one step, one cluster) applies per step, not per event, so an event carries one tag per distinct cluster observed. Not exclusive.",
+      "uuid": "a15c6f1b-2401-5cd7-b9e0-9885a80eef69"
+    },
+    {
+      "value": "entry-cluster",
+      "expanded": "Entry cluster (first step)",
+      "description": "The cluster of the first step of the attack path, i.e. the initial cause. Exactly one per event.",
+      "exclusive": true,
+      "uuid": "d07b8fe2-49a9-54b1-8ab5-a4eb3c05b80c"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "cluster",
+      "entry": [
+        {
+          "value": "01-abuse-of-functions",
+          "expanded": "#1 Abuse of Functions",
+          "numerical_value": 1,
+          "colour": "#3b82f6",
+          "description": "An attacker abuses the logic or scope of existing, legitimate software functions for malicious purposes without exploiting a code flaw. Generic vulnerability: The inherent trust, scope, and complexity designed into software functionality and configuration.",
+          "uuid": "01a9195c-8749-52ed-a883-e7ac3c5c31a6"
+        },
+        {
+          "value": "02-exploiting-server",
+          "expanded": "#2 Exploiting Server",
+          "numerical_value": 2,
+          "colour": "#ef4444",
+          "description": "An attacker targets implementation flaws within a component acting in a server role. Generic vulnerability: Server-side implementation flaws enable unintended behavior.",
+          "uuid": "f78d98ad-a0be-56b5-8acb-8b49b532181d"
+        },
+        {
+          "value": "03-exploiting-client",
+          "expanded": "#3 Exploiting Client",
+          "numerical_value": 3,
+          "colour": "#f97316",
+          "description": "An attacker targets implementation flaws within any component acting in a client role. Generic vulnerability: Client-side implementation flaws enable unintended behavior.",
+          "uuid": "89d5a44f-2a95-5a3f-8935-def4d2724ab7"
+        },
+        {
+          "value": "04-identity-theft",
+          "expanded": "#4 Identity Theft",
+          "numerical_value": 4,
+          "colour": "#8b5cf6",
+          "description": "An attacker misuses authentication credentials to impersonate an identity. Generic vulnerability: Insufficient binding, at the point of authentication, between a presented credential and the authentic holder of the identity it claims.",
+          "uuid": "907f8173-72b3-5a2d-bbcd-83b4fd550bde"
+        },
+        {
+          "value": "05-man-in-the-middle",
+          "expanded": "#5 Man in the Middle",
+          "numerical_value": 5,
+          "colour": "#06b6d4",
+          "description": "An attacker intercepts, modifies, or relays communication between two parties by exploiting a privileged position on the communication path. Generic vulnerability: The lack of sufficient control over the communication path.",
+          "uuid": "ee6ea8b4-7852-58eb-9209-40e17115a85a"
+        },
+        {
+          "value": "06-flooding-attack",
+          "expanded": "#6 Flooding Attack",
+          "numerical_value": 6,
+          "colour": "#eab308",
+          "description": "An attacker intentionally overwhelms system resources or exceeds capacity limits through a high volume of requests, data, or operations, leading to denial of service. Generic vulnerability: Finite capacity limitations inherent in any system component.",
+          "uuid": "0927b182-0401-5601-a513-50fb95999cd3"
+        },
+        {
+          "value": "07-malware",
+          "expanded": "#7 Malware",
+          "numerical_value": 7,
+          "colour": "#ec4899",
+          "description": "An attacker abuses the inherent ability of a software environment to execute foreign executable content, including malicious code or legitimate tools executing attacker-controlled code. Generic vulnerability: The software environment's designed capability to execute potentially untrusted foreign code.",
+          "uuid": "b553d3b4-c6d9-507d-9c77-1a23c8ac73cd"
+        },
+        {
+          "value": "08-physical-attack",
+          "expanded": "#8 Physical Attack",
+          "numerical_value": 8,
+          "colour": "#f59e0b",
+          "description": "Unauthorized physical interaction with or interference to hardware, media, interfaces, or signals—via direct contact or exploitation of physical phenomena/emanations. Generic vulnerability: Physical accessibility of infrastructure and the exploitability of physical-layer properties.",
+          "uuid": "ddc608a9-b0cb-57c6-9e2e-4c09793334b2"
+        },
+        {
+          "value": "09-social-engineering",
+          "expanded": "#9 Social Engineering",
+          "numerical_value": 9,
+          "colour": "#f59e0b",
+          "description": "An attacker psychologically manipulates individuals into performing actions counter to their best interests. Generic vulnerability: Humans can be influenced into unsafe actions or decisions.",
+          "uuid": "b4c35957-b394-5157-8e7d-5c263c194c60"
+        },
+        {
+          "value": "10-supply-chain-attack",
+          "expanded": "#10 Supply Chain Attack",
+          "numerical_value": 10,
+          "colour": "#f59e0b",
+          "description": "An attacker compromises systems by targeting vulnerabilities within third-party software, hardware, services, or update mechanisms that are trusted and integrated by the target. Generic vulnerability: Trust in third-party components and update channels can be subverted.",
+          "uuid": "7a74887e-9c8d-56f8-a06e-170fc28533e7"
+        }
+      ]
+    },
+    {
+      "predicate": "entry-cluster",
+      "entry": [
+        {
+          "value": "01-abuse-of-functions",
+          "expanded": "#1 Abuse of Functions",
+          "numerical_value": 1,
+          "colour": "#3b82f6",
+          "description": "An attacker abuses the logic or scope of existing, legitimate software functions for malicious purposes without exploiting a code flaw. Generic vulnerability: The inherent trust, scope, and complexity designed into software functionality and configuration.",
+          "uuid": "0d02ea88-2fd8-5732-bf2c-e73fdcccd6b2"
+        },
+        {
+          "value": "02-exploiting-server",
+          "expanded": "#2 Exploiting Server",
+          "numerical_value": 2,
+          "colour": "#ef4444",
+          "description": "An attacker targets implementation flaws within a component acting in a server role. Generic vulnerability: Server-side implementation flaws enable unintended behavior.",
+          "uuid": "2f586b9b-325a-5d6d-bb24-c7bcfcfd5a21"
+        },
+        {
+          "value": "03-exploiting-client",
+          "expanded": "#3 Exploiting Client",
+          "numerical_value": 3,
+          "colour": "#f97316",
+          "description": "An attacker targets implementation flaws within any component acting in a client role. Generic vulnerability: Client-side implementation flaws enable unintended behavior.",
+          "uuid": "325082d9-9f6e-510e-9237-6ac8c2a29581"
+        },
+        {
+          "value": "04-identity-theft",
+          "expanded": "#4 Identity Theft",
+          "numerical_value": 4,
+          "colour": "#8b5cf6",
+          "description": "An attacker misuses authentication credentials to impersonate an identity. Generic vulnerability: Insufficient binding, at the point of authentication, between a presented credential and the authentic holder of the identity it claims.",
+          "uuid": "b50cadf2-17d0-5e25-8f02-0a616a7b85a3"
+        },
+        {
+          "value": "05-man-in-the-middle",
+          "expanded": "#5 Man in the Middle",
+          "numerical_value": 5,
+          "colour": "#06b6d4",
+          "description": "An attacker intercepts, modifies, or relays communication between two parties by exploiting a privileged position on the communication path. Generic vulnerability: The lack of sufficient control over the communication path.",
+          "uuid": "5bd265ad-c3b1-516a-91af-7f9be6734a8b"
+        },
+        {
+          "value": "06-flooding-attack",
+          "expanded": "#6 Flooding Attack",
+          "numerical_value": 6,
+          "colour": "#eab308",
+          "description": "An attacker intentionally overwhelms system resources or exceeds capacity limits through a high volume of requests, data, or operations, leading to denial of service. Generic vulnerability: Finite capacity limitations inherent in any system component.",
+          "uuid": "41cf231f-39f6-5fe1-863e-e288a1d56a50"
+        },
+        {
+          "value": "07-malware",
+          "expanded": "#7 Malware",
+          "numerical_value": 7,
+          "colour": "#ec4899",
+          "description": "An attacker abuses the inherent ability of a software environment to execute foreign executable content, including malicious code or legitimate tools executing attacker-controlled code. Generic vulnerability: The software environment's designed capability to execute potentially untrusted foreign code.",
+          "uuid": "e6704164-b406-58f4-b55f-6d1b76ad1e5d"
+        },
+        {
+          "value": "08-physical-attack",
+          "expanded": "#8 Physical Attack",
+          "numerical_value": 8,
+          "colour": "#f59e0b",
+          "description": "Unauthorized physical interaction with or interference to hardware, media, interfaces, or signals—via direct contact or exploitation of physical phenomena/emanations. Generic vulnerability: Physical accessibility of infrastructure and the exploitability of physical-layer properties.",
+          "uuid": "12556a90-f8e7-5b74-b91f-064ce917c10a"
+        },
+        {
+          "value": "09-social-engineering",
+          "expanded": "#9 Social Engineering",
+          "numerical_value": 9,
+          "colour": "#f59e0b",
+          "description": "An attacker psychologically manipulates individuals into performing actions counter to their best interests. Generic vulnerability: Humans can be influenced into unsafe actions or decisions.",
+          "uuid": "cc897e0b-455b-567e-80ec-fb70713ba841"
+        },
+        {
+          "value": "10-supply-chain-attack",
+          "expanded": "#10 Supply Chain Attack",
+          "numerical_value": 10,
+          "colour": "#f59e0b",
+          "description": "An attacker compromises systems by targeting vulnerabilities within third-party software, hardware, services, or update mechanisms that are trusted and integrated by the target. Generic vulnerability: Trust in third-party components and update channels can be subverted.",
+          "uuid": "fbbb9c33-070c-541c-a468-b1e8b886ea00"
+        }
+      ]
+    }
+  ]
+}
