@@ -1,6 +1,7 @@
 {
   "namespace": "abuseipdb",
-  "expanded": "Classifying IP indicators using AbuseIPDB report.",
+  "expanded": "AbuseIPDB",
+  "description": "Classifying IP indicators using AbuseIPDB report.",
   "version": 1,
   "refs": [
     "https://www.abuseipdb.com/categories"
