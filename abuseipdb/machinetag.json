@@ -1,0 +1,199 @@
+{
+  "namespace": "abuseipdb",
+  "expanded": "Classifying IP indicators using AbuseIPDB report.",
+  "version": 1,
+  "refs": [
+    "https://www.abuseipdb.com/categories"
+  ],
+  "predicates": [
+    {
+      "value": "category",
+      "expanded": "AbuseIPDB Report Categories",
+      "uuid": "fcb4a81b-5135-4731-b556-f89ea13b749f"
+    },
+    {
+      "value": "confidence",
+      "expanded": "Abuse Confidence Score",
+      "uuid": "10f2cf8a-8d93-494d-8976-574617a570c6"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "category",
+      "entry": [
+        {
+          "value": 1,
+          "expanded": "DNS Compromise",
+          "description": "Altering DNS records resulting in improper redirection.",
+          "uuid": "7f38f661-ac2e-410d-8d2f-b2a6fcdc4d2b"
+        },
+        {
+          "value": 2,
+          "expanded": "DNS Poisoning",
+          "description": "Falsifying domain server cache (cache poisoning).",
+          "uuid": "08918230-cf1a-4139-be88-d0c2e6afc78e"
+        },
+        {
+          "value": 3,
+          "expanded": "Fraud Orders",
+          "description": "Fraudulent orders.",
+          "uuid": "8fb8f312-378e-4917-b412-9a734f1b3b64"
+        },
+        {
+          "value": 4,
+          "expanded": "DDoS Attack",
+          "description": "Participating in distributed denial-of-service (usually part of botnet).",
+          "uuid": "c1a92730-f49c-4072-a8b6-9d56ba174c23"
+        },
+        {
+          "value": 5,
+          "expanded": "FTP Brute-Force",
+          "description": "Brute-force attacks against FTP services.",
+          "uuid": "b87ca041-44d6-4733-8e45-5546fe95ddcc"
+        },
+        {
+          "value": 6,
+          "expanded": "Ping of Death",
+          "description": "Oversized IP packet attacks.",
+          "uuid": "aad7ee99-0526-41eb-9bb7-b83ed5567a2c"
+        },
+        {
+          "value": 7,
+          "expanded": "Phishing",
+          "description": "Phishing websites and/or email.",
+          "uuid": "65426e7f-7634-474d-91b5-dfd1dc5b663f"
+        },
+        {
+          "value": 8,
+          "expanded": "Fraud VoIP",
+          "description": "Voice over IP fraud traffic.",
+          "uuid": "4e484369-d49e-4e68-9706-62b272cdcfa4"
+        },
+        {
+          "value": 9,
+          "expanded": "Open Proxy",
+          "description": "Open proxy, open relay, or Tor exit node.",
+          "uuid": "eafa0f84-1f89-4d53-ad2e-ff1d6dd2e371"
+        },
+        {
+          "value": 10,
+          "expanded": "Web Spam",
+          "description": "Comment/forum spam, HTTP referer spam, or other CMS spam.",
+          "uuid": "0bfa60f1-9746-43e5-9101-f179a440a4b6"
+        },
+        {
+          "value": 11,
+          "expanded": "Email Spam",
+          "description": "Spam email content, infected attachments, and phishing emails.",
+          "uuid": "d6ca2b3a-712b-4730-ba2e-641e4d803054"
+        },
+        {
+          "value": 12,
+          "expanded": "Blog Spam",
+          "description": "CMS blog comment spam.",
+          "uuid": "28f9d39c-a10f-48e9-a37b-3880bcbbb1a6"
+        },
+        {
+          "value": 13,
+          "expanded": "VPN IP",
+          "description": "Conjunctive VPN category.",
+          "uuid": "9dfd858a-4ea6-4848-a017-74dcd66d1e90"
+        },
+        {
+          "value": 14,
+          "expanded": "Port Scan",
+          "description": "Scanning for open ports and vulnerable services.",
+          "uuid": "c586d737-cecc-4a0f-9ccd-d5066e09d134"
+        },
+        {
+          "value": 15,
+          "expanded": "Hacking",
+          "description": "General unauthorized hacking activity.",
+          "uuid": "b7be53a7-7b74-473f-acac-b17a7bb5fdd2"
+        },
+        {
+          "value": 16,
+          "expanded": "SQL Injection",
+          "description": "Attempts at SQL injection.",
+          "uuid": "8b946a5e-574c-4f12-9b79-9af9c22beae5"
+        },
+        {
+          "value": 17,
+          "expanded": "Spoofing",
+          "description": "Email sender spoofing.",
+          "uuid": "23969c63-74f7-4dad-9688-1c072081231d"
+        },
+        {
+          "value": 18,
+          "expanded": "Brute-Force",
+          "description": "Credential brute-force attacks on webpage logins, SSH, FTP, SIP, SMTP, RDP, etc.",
+          "uuid": "0dddf151-f833-46e3-964a-13c7728c5320"
+        },
+        {
+          "value": 19,
+          "expanded": "Bad Web Bot",
+          "description": "Web scraping and crawlers ignoring robots.txt, excessive requests, or user-agent spoofing.",
+          "uuid": "e2dba97a-0460-462a-8ca7-47277e2c471b"
+        },
+        {
+          "value": 20,
+          "expanded": "Exploited Host",
+          "description": "Host infected with malware, hosting malicious content, or used for pivot attacks.",
+          "uuid": "e2d07491-081d-4699-8ad2-15da5e691395"
+        },
+        {
+          "value": 21,
+          "expanded": "Web App Attack",
+          "description": "Probing or exploiting web applications/CMS (WordPress, Drupal, phpMyAdmin, plugins).",
+          "uuid": "d573e6a3-4404-49f2-a813-b2ec0d91ccaa"
+        },
+        {
+          "value": 22,
+          "expanded": "SSH",
+          "description": "Secure Shell (SSH) abuse.",
+          "uuid": "49cab406-6229-4ef4-8046-540d8e1b487b"
+        },
+        {
+          "value": 23,
+          "expanded": "IoT Targeted",
+          "description": "Abuse targeted at Internet of Things (IoT) devices.",
+          "uuid": "e1ea0a63-8e98-462a-8047-bdd607ff8f16"
+        }
+      ]
+    },
+    {
+      "predicate": "confidence",
+      "entry": [
+        {
+          "value": "high",
+          "expanded": "High (76-100)",
+          "colour": "#c90404",
+          "description": "The IP abuse confidence score is high (76-100).",
+          "uuid": "db6195dc-f003-496b-b482-cbdb45898de0"
+        },
+        {
+          "value": "medium-high",
+          "expanded": "Medium High (51-75)",
+          "colour": "#c94c04",
+          "description": "The IP abuse confidence score is medium-high (51-75).",
+          "uuid": "c3d00598-3fe2-49e7-b6c1-af86d6d94a6b"
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium (26-50)",
+          "colour": "#c3c904",
+          "description": "The IP abuse confidence score is medium (26-50).",
+          "uuid": "d5671e3f-30d5-4fca-92f1-33e4234676e6"
+        },
+        {
+          "value": "low",
+          "expanded": "Low (0-25)",
+          "colour": "#67c904",
+          "description": "The IP abuse confidence score is low (0-25).",
+          "uuid": "31a6cb42-9f97-43d2-821c-fd7878e9d07f"
+        }
+      ]
+    }
+  ],
+  "uuid": "29046bee-525a-4057-9e22-1b6e8ba658de"
+}
