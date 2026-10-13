@@ -255,8 +255,7 @@ for taxonomy in taxonomies:
         else:
             for e in t["values"]:
                 if e["predicate"] == predicate["value"]:
-                    if "expanded" in predicate:
-                        expanded = predicate["expanded"]
+                    expanded = predicate.get("expanded", predicate["value"])
                     for v in e["entry"]:
                         if args.a and "expanded" in v:
                             doc = asciidoc(
