@@ -182,6 +182,7 @@ for taxonomy in taxonomies:
             )
     if args.v:
         print("{0}".format(t["description"]))
+    values_by_predicate = {e["predicate"]: e for e in t.get("values", [])}
     for predicate in t["predicates"]:
         if args.a:
             doc = asciidoc(content=predicate["value"], adoc=doc, t="predicate")
@@ -202,7 +203,7 @@ for taxonomy in taxonomies:
                     t="exclusive",
                 )
 
-        if t.get("values") is None:
+        if predicate["value"] not in values_by_predicate:
             if args.a:
                 doc = asciidoc(
                     content=machineTag(
@@ -210,13 +211,14 @@ for taxonomy in taxonomies:
                     ),
                     adoc=doc,
                 )
-                doc = asciidoc(
-                    content=machineTag(
-                        namespace=namespace, predicate=predicate["expanded"]
-                    ),
-                    adoc=doc,
-                    t="description",
-                )
+                if predicate.get("expanded"):
+                    doc = asciidoc(
+                        content=machineTag(
+                            namespace=namespace, predicate=predicate["expanded"]
+                        ),
+                        adoc=doc,
+                        t="description",
+                    )
                 if predicate.get("description"):
                     doc = asciidoc(
                         content=machineTag(
@@ -244,12 +246,14 @@ for taxonomy in taxonomies:
             else:
                 print(machineTag(namespace=namespace, predicate=predicate["value"]))
             if args.e:
-                print(
-                    "--> "
-                    + machineTag(
-                        namespace=expanded_namespace, predicate=predicate["expanded"]
+                if predicate.get("expanded"):
+                    print(
+                        "--> "
+                        + machineTag(
+                            namespace=expanded_namespace,
+                            predicate=predicate["expanded"],
+                        )
                     )
-                )
                 if predicate.get("description"):
                     print("--> " + predicate["description"])
         else:
