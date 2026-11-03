@@ -1,8 +1,8 @@
 {
   "namespace": "tlctc",
   "expanded": "TLCTC - Top Level Cyber Threat Clusters",
-  "description": "TLCTC (Top Level Cyber Threat Clusters) is a cause-oriented cyber threat taxonomy: exactly ten non-overlapping clusters, each defined by the generic vulnerability an attacker exploits rather than by the outcome of the attack. Tags follow TLCTC v2.5. Use cluster= for every cluster whose generic vulnerability was exploited at some step of the attack path (one tag per distinct cluster observed) and entry-cluster= for the cluster of the first step.",
-  "version": 1,
+  "description": "TLCTC (Top Level Cyber Threat Clusters) is a cause-oriented cyber threat taxonomy: exactly ten non-overlapping clusters, each defined by the generic vulnerability an attacker exploits rather than by the outcome of the attack. Tags follow TLCTC v2.7. Use cluster= for every cluster whose generic vulnerability was exploited at some step of the attack path (one tag per distinct cluster observed) and entry-cluster= for the cluster of the first step.",
+  "version": 3,
   "refs": [
     "https://www.tlctc.net",
     "https://github.com/Barnes70/TLCTC",
@@ -105,7 +105,7 @@
           "expanded": "#10 Supply Chain Attack",
           "numerical_value": 10,
           "colour": "#f59e0b",
-          "description": "An attacker compromises systems by targeting vulnerabilities within third-party software, hardware, services, or update mechanisms that are trusted and integrated by the target. Generic vulnerability: Trust in third-party components and update channels can be subverted.",
+          "description": "An attacker compromises systems by subverting third-party software, hardware, services, or update mechanisms that the target trusts and integrates, so that the subverted artifact is accepted as authoritative inside the target's domain. Generic vulnerability: Trust in third-party components and update channels can be subverted.",
           "uuid": "7a74887e-9c8d-56f8-a06e-170fc28533e7"
         }
       ]
@@ -190,7 +190,7 @@
           "expanded": "#10 Supply Chain Attack",
           "numerical_value": 10,
           "colour": "#f59e0b",
-          "description": "An attacker compromises systems by targeting vulnerabilities within third-party software, hardware, services, or update mechanisms that are trusted and integrated by the target. Generic vulnerability: Trust in third-party components and update channels can be subverted.",
+          "description": "An attacker compromises systems by subverting third-party software, hardware, services, or update mechanisms that the target trusts and integrates, so that the subverted artifact is accepted as authoritative inside the target's domain. Generic vulnerability: Trust in third-party components and update channels can be subverted.",
           "uuid": "fbbb9c33-070c-541c-a468-b1e8b886ea00"
         }
       ]
