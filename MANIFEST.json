@@ -279,6 +279,11 @@
       "version": 1
     },
     {
+      "description": "DECTRAX Cyber Deception and Active Defense Taxonomy for categorizing decoy telemetry, canary assets, and automated threat interdiction.",
+      "name": "dectrax",
+      "version": 1
+    },
+    {
       "description": "Taxonomy related to detection engineering techniques",
       "name": "detection-engineering",
       "version": 1
@@ -930,5 +935,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20261011"
+  "version": "20261106"
 }

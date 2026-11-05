@@ -1,5 +1,5 @@
 # Taxonomies
-- Generation date: 2026-06-03
+- Generation date: 2026-10-28
 - license: CC-0
 - description: Manifest file of MISP taxonomies available.
 
@@ -78,6 +78,12 @@
     - GREEN
     - CLEAR
     - WHITE
+### abuseipdb
+- description: Classifying IP indicators using AbuseIPDB report.
+- version: 1
+- Predicates
+    - category
+    - confidence
 ### access-method
 - description: The access method used to remotely access a system.
 - version: 1
@@ -143,7 +149,7 @@
     - vector
 ### acs-marking
 - description: The Access Control Specification (ACS) marking type defines the object types required to implement automated access control systems based on the relevant policies governing sharing between participants.
-- version: 1
+- version: 2
 - Predicates
     - privilege_action
     - classification
@@ -177,8 +183,8 @@
     - infrastructure-state
     - infrastructure-type
 ### agent-threat-rules
-- description: Agent Threat Rules (ATR) is an open detection standard for AI agent threats published under Apache 2.0. The taxonomy organises 330 community-maintained rules across ten attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. Predicates name the category; values are individual rule identifiers in the form ATR-YYYY-NNNNN.
-- version: 1
+- description: Agent Threat Rules (ATR) is an open detection standard for AI agent threats published under the MIT licence. The taxonomy organises 713 community-maintained rules across ten attack categories covering prompt injection, tool poisoning, skill compromise, context exfiltration, agent manipulation, privilege escalation, excessive autonomy, model abuse, model security, and data poisoning. Predicates name the category; values are individual rule identifiers in the form ATR-YYYY-NNNNN.
+- version: 3
 - Predicates
     - agent-manipulation
     - context-exfiltration
@@ -292,24 +298,23 @@
     - product-service
     - actor-role
 ### cccs
-- description: Internal taxonomy for CCCS.
-- version: 2
+- description: CCCS Custom Taxonomy
+- version: 12
 - Predicates
+    - analytics
+    - malware_classification
+    - incident_classification
+    - confidence
+    - context
     - event
-    - disclosure-type
-    - domain-category
-    - email-type
-    - exploitation-technique
-    - ip-category
-    - maliciousness
-    - malware-category
-    - misusage-type
-    - mitigation-type
-    - origin
-    - originating-organization
-    - scan-type
-    - severity
-    - threat-vector
+    - platform
+    - source
+    - product
+    - report
+    - tar_submission
+    - sector
+    - mitigation
+    - acceptable-usage
 ### ce-uas-classification
 - description: European Union (EASA) Drone Classification - C0 to C6.
 - version: 2
@@ -708,6 +713,14 @@
     - quality
     - essence
     - speech-act-theory
+### dectrax
+- description: DECTRAX Cyber Deception and Active Defense Taxonomy for categorizing decoy telemetry, canary assets, and automated threat interdiction.
+- version: 1
+- Predicates
+    - deception-type
+    - threat-severity
+    - defense-action
+    - adversary-activity
 ### detection-engineering
 - description: Taxonomy related to detection engineering techniques
 - version: 1
@@ -970,7 +983,7 @@
     - event-class
 ### exercise
 - description: Exercise is a taxonomy to describe if the information is part of one or more cyber or crisis exercise.
-- version: 15
+- version: 16
 - Predicates
     - cyber-europe
     - cyber-storm
@@ -1114,6 +1127,13 @@
     - contracts-obligation
     - contracts-jurisdiction
     - controls-risk-governance
+### gen-ai-risks
+- description: A taxonomy based on NIST AI 600-1 (July 2024), Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile. Covers the risks unique to or exacerbated by Generative AI, their mapped Trustworthy AI Characteristics, and the primary GAI considerations derived from the NIST Generative AI Public Working Group.
+- version: 1
+- Predicates
+    - gai-risk
+    - trustworthy-ai-characteristic
+    - primary-consideration
 ### gsma-attack-category
 - description: Taxonomy used by GSMA for their information sharing program with telco describing the attack categories
 - version: 1
@@ -1158,6 +1178,19 @@
     - distribution-appearance
     - communication-interface
     - role
+### hunt-ex
+- description: High-level, human-readable classification of a hunt's approach, provenance and outcome, designed for cross-organisation search and dashboards at ISAC / sector level. Detailed structured data lives in the threat-hunt-context, threat-hunt-hypothesis, threat-hunt-query and threat-hunt-finding objects; lifecycle uses workflow:state. Vocabulary is compatible with the PEAK framework (Splunk / Cisco Talos) and TaHiTI (NVB / FI-ISAC). Pair with existing taxonomies rather than duplicating them: use tlp and PAP for sharing, admiralty-scale and estimative-language for confidence and source reliability, cti-evaluation for CTI quality, priority-level for triage, DML for detection abstraction level, kill-chain / unified-kill-chain for phase, and the mitre-attack-pattern galaxy for technique mapping.
+- version: 4
+- Predicates
+    - methodology
+    - trigger
+    - outcome
+    - byproduct
+    - content
+    - telemetry
+    - query-language
+    - applicability
+    - handoff
 ### iab-ad-product-2-0
 - description: IAB Tech Lab Ad Product Taxonomy 2.0 converted from the official TSV. It establishes standardized nomenclature for describing the product or service advertised within a creative unit. Source taxonomy © IAB Tech Lab, licensed under Creative Commons Attribution 3.0.
 - version: 1
@@ -1604,6 +1637,20 @@
     - low
     - baseline-minor
     - baseline-negligible
+### ptrclassify
+- description: Explainable classifications inferred from reverse-DNS PTR hostnames.
+- version: 1
+- Predicates
+    - allocation
+    - access
+    - translation
+    - role
+    - hosting
+    - network
+    - organization
+    - provider
+    - naming
+    - dns
 ### pyoti
 - description: PyOTI automated enrichment schemes for point in time classification of indicators.
 - version: 3
@@ -1655,6 +1702,9 @@
     - 3m
     - 6m
     - 1y
+    - 2y
+    - 3y
+    - 5y
     - 10y
 ### rsit
 - description: Reference Security Incident Classification Taxonomy
@@ -1671,6 +1721,15 @@
     - vulnerable
     - other
     - test
+### rstcloud
+- description: RST Cloud threat intelligence scoring and verdicts for indicators enriched from RST Cloud. score-total (0-100) is the base score of the RST Cloud decaying models, computed as 100 * (source-confidence * context-confidence * relevance) where each sub-score is in [0,1]; because it is a product the total is heavily compressed (all-very-high inputs 0.9*0.9*0.9 = 72.9), so 90+ is rarely reached. Clients typically use 45+ for real-time detection and 50+ for blocking. context-confidence and relevance are coarse bands derived from the corresponding RST sub-scores and are human triage signals; context-confidence also reflects how dangerous the associated threat type is, and relevance also factors in novelty/freshness. noise-control / noise-category carry RST Noise Control and false-positive verdicts surfaced by the enrichment modules. By RST Cloud.
+- version: 1
+- Predicates
+    - score-total
+    - context-confidence
+    - relevance
+    - noise-control
+    - noise-category
 ### rt_event_status
 - description: Status of events used in Request Tracker.
 - version: 2
@@ -1872,7 +1931,7 @@
     - FININT
 ### uas-additionnal-classification
 - description: Additional UAV and UCAV-related tags for qualifying usage and model specifications.
-- version: 1
+- version: 2
 - Predicates
     - FPV
     - VTOL

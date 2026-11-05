@@ -1,0 +1,168 @@
+{
+  "namespace": "dectrax",
+  "description": "DECTRAX Cyber Deception and Active Defense Taxonomy for categorizing decoy telemetry, canary assets, and automated threat interdiction.",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "deception-type",
+      "expanded": "Deception Type",
+      "description": "Classification of the deception trap or decoy mechanism.",
+      "uuid": "8d5e21c3-acce-5bf3-84b6-fbcc2dc43301"
+    },
+    {
+      "value": "threat-severity",
+      "expanded": "Threat Severity",
+      "description": "Assessed severity level of the adversary activity interacting with the deception layer.",
+      "uuid": "fd76d9ca-31ba-555f-9ca5-835033d5da86"
+    },
+    {
+      "value": "defense-action",
+      "expanded": "Active Defense Action",
+      "description": "Containment or mitigation response triggered by the deception event.",
+      "uuid": "31949a58-394e-5fad-bc25-3e5cf43f69e0"
+    },
+    {
+      "value": "adversary-activity",
+      "expanded": "Adversary Activity",
+      "description": "Observed adversary tactic or phase of intrusion mapped to MITRE ATT&CK.",
+      "uuid": "9979fee4-b462-50db-89c5-bea0881d273f"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "deception-type",
+      "entry": [
+        {
+          "value": "decoy-service",
+          "expanded": "Decoy Service",
+          "description": "Interaction with simulated service daemons (e.g. SSH, RDP, HTTP, SMB).",
+          "uuid": "a22522d8-bc38-5314-9acf-d124185d0809"
+        },
+        {
+          "value": "canary-token",
+          "expanded": "Canary Token",
+          "description": "Access or invocation of planted canary API keys, tokens, or cloud secrets.",
+          "uuid": "f97aad40-7ea0-577c-9a8b-0a97e61135b8"
+        },
+        {
+          "value": "canary-credential",
+          "expanded": "Canary Credential",
+          "description": "Adversary attempted authentication using deceptive decoy credentials.",
+          "uuid": "35f5ca51-2800-5e1f-ae5c-4803f3ccb713"
+        },
+        {
+          "value": "honey-document",
+          "expanded": "Honey Document",
+          "description": "Decoy document, spreadsheet, or configuration file opened by adversary.",
+          "uuid": "a1a359c4-9d5e-5502-8872-6ceda957b7bc"
+        },
+        {
+          "value": "database-trap",
+          "expanded": "Database Trap",
+          "description": "Unauthorized query or reconnaissance against canary database schema or records.",
+          "uuid": "9e308362-547f-51e5-96eb-5071544385d6"
+        },
+        {
+          "value": "network-decoy",
+          "expanded": "Network Decoy",
+          "description": "Network scanning, ping sweeps, or port probes hitting decoy VLANs and virtual hosts.",
+          "uuid": "37e9e59e-2136-5a72-bfce-57bba950a3da"
+        }
+      ]
+    },
+    {
+      "predicate": "threat-severity",
+      "entry": [
+        {
+          "value": "critical",
+          "expanded": "Critical Severity",
+          "description": "Confirmed interactive intruder lateral movement or privileged canary access.",
+          "uuid": "9f9f162d-ac79-56cc-8633-e0b2221acf1c"
+        },
+        {
+          "value": "high",
+          "expanded": "High Severity",
+          "description": "Direct exploitation attempt against decoy daemon or sensitive canary token trigger.",
+          "uuid": "b1ca549d-6079-58fb-80ea-102dc116c52d"
+        },
+        {
+          "value": "medium",
+          "expanded": "Medium Severity",
+          "description": "Automated brute-force or targeted scanning against decoy endpoints.",
+          "uuid": "0cce412b-6e7e-5eb6-be28-16fabe0beefd"
+        },
+        {
+          "value": "low",
+          "expanded": "Low Severity",
+          "description": "Low-volume port probe or opportunistic internet background noise.",
+          "uuid": "68f3f2e0-1cf2-5900-a8aa-81e7a0891960"
+        }
+      ]
+    },
+    {
+      "predicate": "defense-action",
+      "entry": [
+        {
+          "value": "alert-only",
+          "expanded": "Alert Only",
+          "description": "Notification dispatched to SOC with zero automated containment.",
+          "uuid": "fd8cfc13-f5db-54d3-ad87-484ee21b5f14"
+        },
+        {
+          "value": "automated-interdiction",
+          "expanded": "Automated Interdiction",
+          "description": "Instantaneous automated blocking executed via firewall or EDR integration.",
+          "uuid": "5451a899-5f10-59d2-821c-a32e30dc52e3"
+        },
+        {
+          "value": "firewall-containment",
+          "expanded": "Firewall Containment",
+          "description": "Dynamic IP block applied to ingress firewall or perimeter access list.",
+          "uuid": "2e235198-2693-5c66-ac2f-0fd68358e47e"
+        },
+        {
+          "value": "session-termination",
+          "expanded": "Session Termination",
+          "description": "Active network connection forcibly RST or user session revoked.",
+          "uuid": "a2e5cad1-222e-5c8b-99f2-0466fa974901"
+        }
+      ]
+    },
+    {
+      "predicate": "adversary-activity",
+      "entry": [
+        {
+          "value": "reconnaissance",
+          "expanded": "Reconnaissance",
+          "description": "Port scanning, service enumeration, or network topology mapping.",
+          "uuid": "ec2c067c-4cfe-5cd1-9c9c-fb9786f3bd76"
+        },
+        {
+          "value": "credential-stuffing",
+          "expanded": "Credential Stuffing",
+          "description": "Automated credential replay or brute-force against decoy services.",
+          "uuid": "63c1e824-3227-5834-9313-8592d9ce54e6"
+        },
+        {
+          "value": "lateral-movement",
+          "expanded": "Lateral Movement",
+          "description": "Internal network traversal attempting to pivot across subnets.",
+          "uuid": "b3543934-ca5a-59f1-8701-dcaedb7c4b51"
+        },
+        {
+          "value": "data-exfiltration",
+          "expanded": "Data Exfiltration",
+          "description": "Attempted staging or retrieval of deceptive honey documents.",
+          "uuid": "40dea5e1-85f7-5196-abd4-cb8adbd8062c"
+        },
+        {
+          "value": "privilege-escalation",
+          "expanded": "Privilege Escalation",
+          "description": "Attempted execution with decoy administrative or cloud root credentials.",
+          "uuid": "56d389b5-1fdd-591f-8962-90d5b9127878"
+        }
+      ]
+    }
+  ],
+  "uuid": "bf60a025-4ab7-5af1-8523-c3b4f1659f29"
+}
