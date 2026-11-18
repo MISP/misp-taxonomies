@@ -589,6 +589,11 @@ classification for the identification of type of misinformation among websites. 
 [misp](https://github.com/MISP/misp-taxonomies/tree/main/misp) :
 MISP taxonomy to infer with MISP behavior or operation. [Overview](https://www.misp-project.org/taxonomies.html#_misp)
 
+### misp-gathering
+
+[misp-gathering](https://github.com/MISP/misp-taxonomies/tree/main/misp-gathering) :
+Collection provenance for events created by MISP gathering modules, identifying the collector and upstream source. Apply as local event tags. [Overview](https://www.misp-project.org/taxonomies.html#_misp_gathering)
+
 ### misp-workflow
 
 [misp-workflow](https://github.com/MISP/misp-taxonomies/tree/main/misp-workflow) :
