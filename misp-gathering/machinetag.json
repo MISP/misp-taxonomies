@@ -1,0 +1,63 @@
+{
+  "namespace": "misp-gathering",
+  "expanded": "MISP Gathering Origin",
+  "description": "Collection provenance for events created by MISP gathering modules, identifying the collector and upstream source. Apply as local event tags.",
+  "version": 1,
+  "type": [
+    "event"
+  ],
+  "predicates": [
+    {
+      "value": "module",
+      "expanded": "Gathering module",
+      "description": "Collector identifier as advertised by the misp-modules /modules endpoint.",
+      "uuid": "1e66dac4-c650-45f5-984d-3119999d8d4b"
+    },
+    {
+      "value": "source",
+      "expanded": "Upstream source",
+      "description": "Canonical domain of the upstream data provider; does not identify an observed target or infrastructure owner.",
+      "uuid": "676233a7-546b-445f-af0d-327600f84c8f"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "module",
+      "entry": [
+        {
+          "value": "withaname",
+          "expanded": "WithAName",
+          "description": "Collects timestamped DDoSia configuration snapshots from witha.name/data/.",
+          "uuid": "a159fb5c-52ed-47e8-bac0-acacb73b9e6b"
+        },
+        {
+          "value": "beaconbeagle_gathering",
+          "expanded": "BeaconBeagle Gathering",
+          "description": "Collects Cobalt Strike configurations, beacon hosts and C2 records from the BeaconBeagle API.",
+          "uuid": "32f2a9db-91e0-47ce-98eb-005e315c78ab"
+        }
+      ]
+    },
+    {
+      "predicate": "source",
+      "entry": [
+        {
+          "value": "witha.name",
+          "expanded": "WithAName",
+          "description": "Upstream provider at https://witha.name/data/.",
+          "uuid": "128026d5-8017-4f74-923d-4c8f06072ef8"
+        },
+        {
+          "value": "beaconbeagle.com",
+          "expanded": "BeaconBeagle",
+          "description": "Upstream provider at https://beaconbeagle.com/api/.",
+          "uuid": "7beb1589-8dd9-41c9-9e4e-cfdad8893725"
+        }
+      ]
+    }
+  ],
+  "refs": [
+    "https://github.com/MISP/misp-modules/blob/main/documentation/mkdocs/gathering-guide.md"
+  ],
+  "uuid": "3720d08a-bd52-4847-b54b-b364d5ed4352"
+}

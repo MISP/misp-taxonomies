@@ -639,6 +639,11 @@
       "version": 14
     },
     {
+      "description": "Collection provenance for events created by MISP gathering modules, identifying the collector and upstream source. Apply as local event tags.",
+      "name": "misp-gathering",
+      "version": 1
+    },
+    {
       "description": "MISP workflow taxonomy to support result of workflow execution.",
       "name": "misp-workflow",
       "version": 3
