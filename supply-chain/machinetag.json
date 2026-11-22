@@ -1,0 +1,187 @@
+{
+  "namespace": "supply-chain",
+  "expanded": "Software Supply Chain Attacks",
+  "description": "Taxonomy to classify software supply chain attacks, describing which stage of the supply chain was compromised and which technique was used, complementing the kill-chain taxonomies.",
+  "version": 1,
+  "type": [
+    "attribute",
+    "event"
+  ],
+  "predicates": [
+    {
+      "value": "stage",
+      "expanded": "Compromised supply chain stage",
+      "description": "Which link of the software supply chain was compromised (source code, build system, CI/CD pipeline, distribution channel, dependency, update mechanism or signing certificate), aligned with the SLSA source/build/provenance concerns.",
+      "uuid": "5b144558-d340-5dde-827d-ae2f4f960a8e"
+    },
+    {
+      "value": "technique",
+      "expanded": "Attack technique",
+      "description": "Technique used to compromise the supply chain (typosquatting, dependency confusion, malicious package, compromised maintainer account, CI/CD exploit, stolen signing certificate, build pipeline injection, slopsquatting), aligned with MITRE ATT&CK T1195 and the ENISA threat landscape for supply chain attacks.",
+      "uuid": "244038cc-8165-5c67-a8d3-948b9daf200d"
+    },
+    {
+      "value": "ecosystem",
+      "expanded": "Targeted ecosystem",
+      "description": "Ecosystem, package registry or distribution platform targeted by the attack (npm, PyPI, Maven, Docker Hub, GitHub Actions, VS Code Marketplace or other).",
+      "uuid": "dc30e92f-c5a8-5c02-9160-03327d91d92b"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "stage",
+      "entry": [
+        {
+          "value": "source-code",
+          "expanded": "Source code",
+          "description": "The upstream source code repository was compromised: malicious commit or backdoor merged into the codebase, or a maintainer's repository access abused to push malicious code.",
+          "uuid": "63a3a470-c602-5a4e-a70b-73d26804156c"
+        },
+        {
+          "value": "build-system",
+          "expanded": "Build system",
+          "description": "The build server or build tooling itself was compromised, producing tampered artifacts from otherwise clean source code (compromised compiler, poisoned build tool).",
+          "uuid": "d3a1ee2d-5f7b-5ed2-b80b-f411a1cd4fde"
+        },
+        {
+          "value": "ci-cd-pipeline",
+          "expanded": "CI/CD pipeline",
+          "description": "The continuous integration / continuous deployment pipeline was compromised: malicious workflow, workflow injection, compromised runner or leaked pipeline secrets used to build or ship artifacts.",
+          "uuid": "b422e7c0-565a-5ecd-94fc-6d1ee33b6690"
+        },
+        {
+          "value": "distribution",
+          "expanded": "Distribution channel",
+          "description": "The package registry, container registry or other distribution channel delivering artifacts to consumers was compromised or abused to serve malicious artifacts.",
+          "uuid": "f8c4ff75-5faa-5578-b782-3fa5022b48a8"
+        },
+        {
+          "value": "dependency",
+          "expanded": "Dependency",
+          "description": "A direct or transitive third-party dependency was replaced by a malicious look-alike or backdoored version (typosquatted or confused package name, hijacked dependency).",
+          "uuid": "a9c2dd2b-fa41-5338-9d71-74bced8c78be"
+        },
+        {
+          "value": "update-mechanism",
+          "expanded": "Update mechanism",
+          "description": "The software update or self-update mechanism was abused to deliver a malicious payload to already-installed clients (poisoned update server, hijacked update channel).",
+          "uuid": "7e32b6c1-0d2f-53c6-91ce-3f9b5b39613c"
+        },
+        {
+          "value": "signing-certificate",
+          "expanded": "Signing certificate",
+          "description": "A code-signing certificate or signing key was stolen or misused to sign malicious artifacts, making them appear legitimate to signature validation.",
+          "uuid": "73df9be8-bb51-5f0d-9374-b235310240d7"
+        }
+      ]
+    },
+    {
+      "predicate": "technique",
+      "entry": [
+        {
+          "value": "typosquatting",
+          "expanded": "Typosquatting",
+          "description": "A malicious package is registered under a name that is a typo or slight variation of a popular legitimate package, relying on developer typos during installation (e.g. event-stream look-alikes, `reqeusts` for `requests`).",
+          "uuid": "9330e4fc-9e3e-506f-abe7-dc7ded7d7162"
+        },
+        {
+          "value": "dependency-confusion",
+          "expanded": "Dependency confusion",
+          "description": "A malicious package bearing the same name as an internal/private package is published to a public registry; a misconfigured resolver that prefers the public registry then downloads the attacker's package instead of the internal one.",
+          "uuid": "3d16494d-f89e-5926-96f3-09d3c7561409"
+        },
+        {
+          "value": "malicious-package",
+          "expanded": "Malicious package",
+          "description": "A package published to a registry embeds malicious code (install/pre-install scripts, obfuscated payload, post-install beacon) without necessarily imitating another package.",
+          "uuid": "88ffc77d-1750-5193-bf93-ed283e71ac70"
+        },
+        {
+          "value": "compromised-maintainer-account",
+          "expanded": "Compromised maintainer account",
+          "description": "The registry, repository or CI account of a legitimate maintainer was taken over (phishing, credential theft, session hijacking, missing MFA) and used to publish malicious releases or commits.",
+          "uuid": "22e862e7-9416-5794-9ee2-8f720e948a75"
+        },
+        {
+          "value": "ci-cd-exploit",
+          "expanded": "CI/CD exploit",
+          "description": "An exploit of the CI/CD platform itself was used to execute malicious code in the pipeline: vulnerable or malicious action, abuse of pull_request-triggered workflows, or workflow/script injection.",
+          "uuid": "e5a7ee79-b41c-54a9-98d4-a1fbe8b83096"
+        },
+        {
+          "value": "stolen-signing-certificate",
+          "expanded": "Stolen signing certificate",
+          "description": "A code-signing certificate or private key was stolen (from a developer machine, CI secret store or issuer) and used to sign malware, updates or installers so they pass signature and trust validation.",
+          "uuid": "78692651-e7af-5681-ae05-3fb930b597b4"
+        },
+        {
+          "value": "build-pipeline-injection",
+          "expanded": "Build pipeline injection",
+          "description": "Malicious code was injected into the build pipeline (poisoned build script, Makefile target, install hook or build step) so that every produced artifact embeds the payload while the source repository may look clean.",
+          "uuid": "71491435-85b5-5ab3-bae1-fb3725363f12"
+        },
+        {
+          "value": "slopsquatting",
+          "expanded": "Slopsquatting",
+          "description": "A malicious package is registered under a plausible but non-existent package name hallucinated by an AI code assistant (LLM-suggested import that does not exist), which developers then install believing it is real.",
+          "uuid": "87d55da7-af70-507d-bdd3-d8c5fdbd5d30"
+        }
+      ]
+    },
+    {
+      "predicate": "ecosystem",
+      "entry": [
+        {
+          "value": "npm",
+          "expanded": "npm",
+          "description": "The npm registry and JavaScript/Node.js ecosystem.",
+          "uuid": "fa97b48a-c5f0-5ad2-a4db-c2f92a41c1a6"
+        },
+        {
+          "value": "pypi",
+          "expanded": "PyPI",
+          "description": "The Python Package Index (Python packages, pip installs).",
+          "uuid": "5e09f0ad-4430-5006-b8a0-7b37384c4b44"
+        },
+        {
+          "value": "maven",
+          "expanded": "Maven",
+          "description": "Maven Central and the JVM ecosystem (Java, Kotlin, Scala artifacts).",
+          "uuid": "9400a77b-ddfa-50c1-8557-5c55591431b3"
+        },
+        {
+          "value": "docker-hub",
+          "expanded": "Docker Hub",
+          "description": "Docker Hub or OCI container image registries (base images, official images).",
+          "uuid": "38baeae6-9484-5162-b3df-a322ab8451fc"
+        },
+        {
+          "value": "github-actions",
+          "expanded": "GitHub Actions",
+          "description": "The GitHub Actions marketplace: reusable workflow actions executed inside CI/CD pipelines.",
+          "uuid": "d259068d-9ec8-5b86-a52d-3f191aecc547"
+        },
+        {
+          "value": "vscode-marketplace",
+          "expanded": "VS Code Marketplace",
+          "description": "The Visual Studio Code extensions marketplace (IDE plugins and extensions).",
+          "uuid": "8854f9d1-6b2c-5f70-acb8-80fc5d269ae6"
+        },
+        {
+          "value": "other",
+          "expanded": "Other ecosystem",
+          "description": "Any other ecosystem, registry or distribution channel not listed above (e.g. RubyGems, NuGet, crates.io, Packagist, OS package repositories, app stores).",
+          "uuid": "e1c51dd0-d05f-5da6-ac76-4b4525dee229"
+        }
+      ]
+    }
+  ],
+  "refs": [
+    "https://owasp.org/Top10/2025/A03_2025-Software_Supply_Chain_Failures/",
+    "https://slsa.dev/",
+    "https://www.enisa.europa.eu/publications/threat-landscape-for-supply-chain-attacks",
+    "https://attack.mitre.org/techniques/T1195/",
+    "https://openssf.org/"
+  ],
+  "uuid": "9d487397-ea3f-5645-ac4a-4783acf94778"
+}
