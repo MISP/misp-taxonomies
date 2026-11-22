@@ -2,7 +2,7 @@
   "namespace": "misp-gathering",
   "expanded": "MISP Gathering Origin",
   "description": "Collection provenance for events created by MISP gathering modules, identifying the collector and upstream source. Apply as local event tags.",
-  "version": 1,
+  "version": 2,
   "type": [
     "event"
   ],
@@ -35,6 +35,12 @@
           "expanded": "BeaconBeagle Gathering",
           "description": "Collects Cobalt Strike configurations, beacon hosts and C2 records from the BeaconBeagle API.",
           "uuid": "32f2a9db-91e0-47ce-98eb-005e315c78ab"
+        },
+        {
+          "value": "offensive_agency",
+          "expanded": "Offensive Agency",
+          "description": "Collects exposure statistics and observations for monitored asset IPs from Offensive Agency.",
+          "uuid": "a6cedaee-b6ec-4534-976a-9fd069bbde29"
         }
       ]
     },
@@ -52,6 +58,12 @@
           "expanded": "BeaconBeagle",
           "description": "Upstream provider at https://beaconbeagle.com/api/.",
           "uuid": "7beb1589-8dd9-41c9-9e4e-cfdad8893725"
+        },
+        {
+          "value": "offensive.agency",
+          "expanded": "Offensive Agency",
+          "description": "Publishes exposure observations and aggregate statistics based on ONYPHE data.",
+          "uuid": "ffacc026-8243-438b-ae5b-4b920ae72993"
         }
       ]
     }

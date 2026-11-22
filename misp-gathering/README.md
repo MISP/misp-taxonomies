@@ -3,10 +3,10 @@
 Record how an event was collected by a MISP gathering module. The namespace is
 `misp-gathering`, with two event-level predicates:
 
-| Predicate | Meaning | Initial values |
+| Predicate | Meaning | Values |
 | --- | --- | --- |
-| `module` | Collector identifier advertised by misp-modules | `withaname`, `beaconbeagle_gathering` |
-| `source` | Canonical domain of the upstream data provider | `witha.name`, `beaconbeagle.com` |
+| `module` | Collector identifier advertised by misp-modules | `withaname`, `beaconbeagle_gathering`, `offensive_agency` |
+| `source` | Canonical domain of the upstream data provider | `witha.name`, `beaconbeagle.com`, `offensive.agency` |
 
 WithAName events receive:
 
@@ -20,6 +20,13 @@ BeaconBeagle configuration, beacon and C2 events receive:
 ```text
 misp-gathering:module="beaconbeagle_gathering"
 misp-gathering:source="beaconbeagle.com"
+```
+
+Offensive Agency statistics and monitored asset events carry the following tags.
+
+```text
+misp-gathering:module="offensive_agency"
+misp-gathering:source="offensive.agency"
 ```
 
 These tags describe collection provenance. They do not indicate confidence,
