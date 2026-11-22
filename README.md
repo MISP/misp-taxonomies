@@ -654,6 +654,11 @@ A taxonomy to classify organizational cyber harms based on categories like physi
 [osint](https://github.com/MISP/misp-taxonomies/tree/main/osint) :
 Open Source Intelligence - Classification (MISP taxonomies) [Overview](https://www.misp-project.org/taxonomies.html#_osint)
 
+### osint-techniques
+
+[osint-techniques](https://github.com/MISP/misp-taxonomies/tree/main/osint-techniques) :
+Taxonomy to describe how information was collected during open-source intelligence (OSINT) investigations. The 'osint' taxonomy describes the type of source; this taxonomy describes the specific collection technique or tradecraft used to gather the information, so that other analysts can understand how a piece of intelligence was obtained, assess its reliability and reproduce the collection. [Overview](https://www.misp-project.org/taxonomies.html#_osint_techniques)
+
 ### pandemic
 
 [pandemic](https://github.com/MISP/misp-taxonomies/tree/main/pandemic) :

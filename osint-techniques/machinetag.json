@@ -1,0 +1,306 @@
+{
+  "namespace": "osint-techniques",
+  "expanded": "OSINT Collection Techniques",
+  "description": "Taxonomy to describe how information was collected during open-source intelligence (OSINT) investigations. The 'osint' taxonomy describes the type of source; this taxonomy describes the specific collection technique or tradecraft used to gather the information, so that other analysts can understand how a piece of intelligence was obtained, assess its reliability and reproduce the collection.",
+  "version": 1,
+  "type": [
+    "attribute",
+    "event"
+  ],
+  "predicates": [
+    {
+      "value": "search-engine",
+      "expanded": "Search engine techniques",
+      "description": "Techniques using search engines to discover content or metadata exposed on the public web.",
+      "uuid": "8d1ebc66-1d91-5714-8b66-d904055dd13a"
+    },
+    {
+      "value": "image-video",
+      "expanded": "Image and video analysis techniques",
+      "description": "Techniques to extract information from images and videos.",
+      "uuid": "aa8bec37-2ffc-5ca5-ab30-09d50cd1e722"
+    },
+    {
+      "value": "social-media",
+      "expanded": "Social media techniques",
+      "description": "Techniques to collect information from social media platforms and online communities.",
+      "uuid": "4ab0b775-937d-5365-9da1-813e7ba4cbf8"
+    },
+    {
+      "value": "infrastructure",
+      "expanded": "Internet infrastructure techniques",
+      "description": "Techniques to collect information from domain name, DNS and network infrastructure records.",
+      "uuid": "685fb8f6-cc6f-562f-9b15-01b330fe2e28"
+    },
+    {
+      "value": "archive",
+      "expanded": "Archiving techniques",
+      "description": "Techniques to retrieve past or removed content from archives and historical records.",
+      "uuid": "40121abf-8326-5b3f-b15d-61eb427b1767"
+    },
+    {
+      "value": "records",
+      "expanded": "Public records techniques",
+      "description": "Techniques to collect information from official public records and registries.",
+      "uuid": "d97d2be3-1ce2-5744-ba7e-ad145012669e"
+    },
+    {
+      "value": "geospatial",
+      "expanded": "Geospatial techniques",
+      "description": "Techniques to collect information from satellite imagery, mapping and movement tracking data.",
+      "uuid": "d143c875-7fb5-559c-ac4d-890986089f74"
+    },
+    {
+      "value": "leak-dataset",
+      "expanded": "Leaked dataset techniques",
+      "description": "Techniques to collect information from leaked or breached datasets.",
+      "uuid": "ff368990-0197-536d-b107-f3386d49a31a"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "search-engine",
+      "entry": [
+        {
+          "value": "dorking",
+          "expanded": "Search engine dorking",
+          "description": "Advanced search queries (dorks) combining operators and site or filetype filters to find exposed content, files or login pages.",
+          "uuid": "7311f5e3-8179-5696-b9fa-76f5f4bbd40d"
+        },
+        {
+          "value": "cached-results",
+          "expanded": "Cached search results",
+          "description": "Retrieving cached copies of web pages from search engine caches when the live page changed or was removed.",
+          "uuid": "cd0d95c6-01bd-5a8c-8260-ba2b54b88a55"
+        },
+        {
+          "value": "file-metadata-search",
+          "expanded": "File metadata search",
+          "description": "Finding documents through metadata indexed by search engines (author, creation software, embedded GPS in documents).",
+          "uuid": "bcae8a6a-4bf1-54f0-9988-35ae0b0a1c01"
+        },
+        {
+          "value": "search-alerting",
+          "expanded": "Search alerting",
+          "description": "Automated monitoring of new search results via alerting services such as Google Alerts.",
+          "uuid": "70699761-4664-5b0b-9a07-6c2fe9d20943"
+        }
+      ]
+    },
+    {
+      "predicate": "image-video",
+      "entry": [
+        {
+          "value": "reverse-image-search",
+          "expanded": "Reverse image search",
+          "description": "Uploading an image to reverse image search engines (e.g. TinEye, Google Lens, Yandex) to find earlier, original or related versions.",
+          "uuid": "e6cb94b5-cb0a-5f01-8aed-0c6725c1894c"
+        },
+        {
+          "value": "image-geolocation",
+          "expanded": "Image geolocation",
+          "description": "Determining where a photo or video frame was taken by matching landmarks, infrastructure and terrain against maps and imagery.",
+          "uuid": "0eba243a-4217-5b0b-821c-b1927a2a21d0"
+        },
+        {
+          "value": "chronolocation",
+          "expanded": "Chronolocation",
+          "description": "Determining when an image or video was captured using shadows, sun position, weather or seasonal cues.",
+          "uuid": "ecd594ab-84f0-5c3e-a48c-24a54f4b1539"
+        },
+        {
+          "value": "exif-metadata",
+          "expanded": "EXIF metadata extraction",
+          "description": "Extracting metadata embedded in image files (GPS coordinates, camera model, timestamp, editing software).",
+          "uuid": "4ef5425d-526c-57c5-bd82-60739e0d1b13"
+        }
+      ]
+    },
+    {
+      "predicate": "social-media",
+      "entry": [
+        {
+          "value": "profile-analysis",
+          "expanded": "Profile analysis",
+          "description": "Analysing a public profile: posts, photos, biography, behaviour and declared affiliations.",
+          "uuid": "8a73f9c4-4403-5c63-99c2-ba710a546a9a"
+        },
+        {
+          "value": "network-pivoting",
+          "expanded": "Network pivoting",
+          "description": "Pivoting from one account to related accounts through friends, followers, groups, mentions and interactions.",
+          "uuid": "dd1d9295-cc05-5510-bb3b-105365f83c31"
+        },
+        {
+          "value": "sock-puppet-monitoring",
+          "expanded": "Sock puppet monitoring",
+          "description": "Passively monitoring a platform from a controlled sock puppet account; engaging with human subjects crosses into HUMINT and requires OPSEC and proper authorization.",
+          "uuid": "08f64119-a2ab-50e4-8cde-dbd8f9bde1ef"
+        },
+        {
+          "value": "api-harvesting",
+          "expanded": "API harvesting",
+          "description": "Collecting posts, profiles or metadata through official or third-party APIs of social media platforms.",
+          "uuid": "8a84dbe6-8ebd-5119-b28e-386ee69c503d"
+        },
+        {
+          "value": "deleted-content-recovery",
+          "expanded": "Deleted content recovery",
+          "description": "Recovering deleted posts, comments or profiles from web archives, caches or third-party mirrors.",
+          "uuid": "949eb610-6c80-527e-bf65-d12cafaed531"
+        }
+      ]
+    },
+    {
+      "predicate": "infrastructure",
+      "entry": [
+        {
+          "value": "passive-dns",
+          "expanded": "Passive DNS",
+          "description": "Historical DNS resolution data collected passively from passive DNS providers, without querying the target.",
+          "uuid": "36775a16-2fe5-54cb-890b-934785ca6ed3"
+        },
+        {
+          "value": "whois-history",
+          "expanded": "WHOIS history",
+          "description": "Historical WHOIS registration records of a domain (registrar, registrant changes, name servers).",
+          "uuid": "c3fe5356-aebe-5964-8b26-6e7792631363"
+        },
+        {
+          "value": "certificate-transparency",
+          "expanded": "Certificate Transparency",
+          "description": "Subdomain and certificate data published in public Certificate Transparency logs.",
+          "uuid": "51c87237-c752-5cfe-953d-5a9dd6d0faf8"
+        },
+        {
+          "value": "reverse-lookup",
+          "expanded": "Reverse lookup",
+          "description": "Reverse DNS or reverse IP lookup to find other hostnames or domains hosted on the same infrastructure.",
+          "uuid": "74e284e9-df14-5544-adf3-7c800f26627e"
+        },
+        {
+          "value": "infrastructure-search",
+          "expanded": "Infrastructure search",
+          "description": "Searching internet-wide scanning databases (e.g. Shodan, Censys) for exposed services, banners and certificates.",
+          "uuid": "2d7dc335-1bf3-520c-b5e4-86bdec425be6"
+        },
+        {
+          "value": "subdomain-enumeration",
+          "expanded": "Subdomain enumeration",
+          "description": "Enumerating subdomains of a domain via CT logs, search engines, DNS records and public datasets.",
+          "uuid": "729fe30c-b0b8-505f-9afe-0c5b8064cb4a"
+        }
+      ]
+    },
+    {
+      "predicate": "archive",
+      "entry": [
+        {
+          "value": "web-archive",
+          "expanded": "Web archive",
+          "description": "Retrieving archived copies of web pages from web archives (e.g. Wayback Machine, archive.today, national web archives).",
+          "uuid": "23c358ec-236c-526d-a245-63c2187e8541"
+        },
+        {
+          "value": "paste-archive",
+          "expanded": "Paste archive",
+          "description": "Searching paste sites and their archives for previously published text, credentials or dumps.",
+          "uuid": "a8039125-624c-51b8-93aa-ee52c41994fd"
+        },
+        {
+          "value": "repository-history",
+          "expanded": "Repository history",
+          "description": "Examining the commit history of public code repositories to find removed code, secrets or deleted files.",
+          "uuid": "a755acc6-55cb-5b00-866f-77f5a8ffcdf8"
+        }
+      ]
+    },
+    {
+      "predicate": "records",
+      "entry": [
+        {
+          "value": "company-registry",
+          "expanded": "Company registry",
+          "description": "Consulting official company registries: registration, officers, shareholders, filings and addresses.",
+          "uuid": "7816fa52-b423-5ac1-947c-14c321c40875"
+        },
+        {
+          "value": "public-records",
+          "expanded": "Public records",
+          "description": "Consulting official public records: gazettes, land registries, public tenders and legal notices.",
+          "uuid": "5ec7b516-dbc0-5a59-b086-30807ad33a11"
+        },
+        {
+          "value": "people-search",
+          "expanded": "People search",
+          "description": "Searching people-search engines and online directories for publicly listed personal information.",
+          "uuid": "18c813c0-f2ef-5185-b58f-f79b691d8b0c"
+        },
+        {
+          "value": "court-records",
+          "expanded": "Court records",
+          "description": "Consulting public court records and case databases.",
+          "uuid": "f518a39a-d2fc-543a-a51b-ecdb21e5d5ba"
+        },
+        {
+          "value": "patent-search",
+          "expanded": "Patent search",
+          "description": "Searching public patent and trademark databases for filings and technical disclosures.",
+          "uuid": "901923ed-cd37-520b-b633-3f0ff01d326c"
+        }
+      ]
+    },
+    {
+      "predicate": "geospatial",
+      "entry": [
+        {
+          "value": "satellite-imagery",
+          "expanded": "Satellite imagery",
+          "description": "Analysing satellite or aerial imagery, including capture-date-aware comparison of imagery archives (e.g. Esri Wayback).",
+          "uuid": "d0a56a0a-78ff-54a1-8362-83efac8c4f12"
+        },
+        {
+          "value": "flight-tracking",
+          "expanded": "Flight tracking",
+          "description": "Tracking aircraft in near real time via ADS-B aggregators (e.g. Flightradar24, ADS-B Exchange).",
+          "uuid": "29b2fb3c-c539-5d17-8452-76002333f9cd"
+        },
+        {
+          "value": "vessel-tracking",
+          "expanded": "Vessel tracking",
+          "description": "Tracking ships via AIS aggregators (e.g. MarineTraffic, VesselFinder).",
+          "uuid": "302284b9-6430-5232-99dc-012aacc02736"
+        },
+        {
+          "value": "map-pivoting",
+          "expanded": "Map pivoting",
+          "description": "Pivoting on online maps and street-level imagery (e.g. Street View, Mapillary, KartaView) to geolocate and verify a scene.",
+          "uuid": "56ee2f9f-6439-5bb6-b00d-2637cf23369f"
+        }
+      ]
+    },
+    {
+      "predicate": "leak-dataset",
+      "entry": [
+        {
+          "value": "breach-search",
+          "expanded": "Breach search",
+          "description": "Searching leaked or breached datasets for exposed emails, usernames or credentials (e.g. HaveIBeenPwned).",
+          "uuid": "74a38410-cb35-5d3d-bb0b-da24320b4911"
+        },
+        {
+          "value": "dump-analysis",
+          "expanded": "Dump analysis",
+          "description": "Analysing data dumps published on forums, paste sites or leak sites.",
+          "uuid": "3493e7e7-af1a-54d5-8c99-64a286eab937"
+        }
+      ]
+    }
+  ],
+  "refs": [
+    "https://www.bellingcat.com/category/resources/how-tos/",
+    "https://osintframework.com/",
+    "https://www.misp-project.org/taxonomies.html"
+  ],
+  "uuid": "67c19784-6075-5cfd-8a51-d2722d38400c"
+}
