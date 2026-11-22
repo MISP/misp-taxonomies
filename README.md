@@ -784,6 +784,11 @@ Classification based on malware stealth techniques. Described in https://vxheave
 [stix-ttp](https://github.com/MISP/misp-taxonomies/tree/main/stix-ttp) :
 TTPs are representations of the behavior or modus operandi of cyber adversaries. [Overview](https://www.misp-project.org/taxonomies.html#_stix_ttp)
 
+### supply-chain
+
+[supply-chain](https://github.com/MISP/misp-taxonomies/tree/main/supply-chain) :
+Taxonomy to classify software supply chain attacks, describing which stage of the supply chain was compromised and which technique was used, complementing the kill-chain taxonomies. [Overview](https://www.misp-project.org/taxonomies.html#_supply_chain)
+
 ### targeted-threat-index
 
 [targeted-threat-index](https://github.com/MISP/misp-taxonomies/tree/main/targeted-threat-index) :

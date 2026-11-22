@@ -849,6 +849,11 @@
       "version": 1
     },
     {
+      "description": "Taxonomy to classify software supply chain attacks, describing which stage of the supply chain was compromised and which technique was used, complementing the kill-chain taxonomies.",
+      "name": "supply-chain",
+      "version": 1
+    },
+    {
       "description": "The Targeted Threat Index is a metric for assigning an overall threat ranking score to email messages that deliver malware to a victim’s computer. The TTI metric was first introduced at SecTor 2013 by Seth Hardy as part of the talk “RATastrophe: Monitoring a Malware Menagerie” along with Katie Kleemola and Greg Wiseman.",
       "name": "targeted-threat-index",
       "version": 3
@@ -935,5 +940,5 @@
     }
   ],
   "url": "https://raw.githubusercontent.com/MISP/misp-taxonomies/main/",
-  "version": "20261118"
+  "version": "20261122"
 }
